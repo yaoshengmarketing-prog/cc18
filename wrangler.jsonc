@@ -3,5 +3,8 @@
   "name": "cc18",
   "compatibility_date": "2026-08-25",
   "pages_build_output_dir": "./dist",
-  "vars": {"MEDIA_BASE_URL": "https://media.cc18.example"}
+  "vars": {
+    "SITE_URL": "https://cc18.pages.dev",
+    "MEDIA_BASE_URL": "https://media.cc18.example"
+  }
 }
