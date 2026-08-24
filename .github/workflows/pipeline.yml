@@ -1,0 +1,33 @@
+name: Content pipeline (manual dry run)
+
+on:
+  workflow_dispatch:
+    inputs:
+      stage:
+        description: Pipeline stage
+        required: true
+        default: plan
+        type: choice
+        options: [plan, discover, produce, publish, retry-media]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cc18-content-pipeline
+  cancel-in-progress: false
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run registry:validate
+      - run: node scripts/pipeline.mjs "${{ inputs.stage }}"
+      - name: Guard production activation
+        run: echo "Daily schedule and network publishing are intentionally disabled in V1 foundation."

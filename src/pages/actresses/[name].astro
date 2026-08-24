@@ -1,0 +1,13 @@
+---
+import {getCollection} from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ReviewCard from '../../components/ReviewCard.astro';
+import {byNewest} from '../../lib/reviews';
+export async function getStaticPaths() {
+  const reviews = await getCollection('reviews', ({data}) => data.status === 'published');
+  const names = [...new Set(reviews.flatMap((r) => r.data.actress))];
+  return names.map((name) => ({params: {name}, props: {name, reviews: reviews.filter((r) => r.data.actress.includes(name)).sort(byNewest)}}));
+}
+const {name, reviews} = Astro.props;
+---
+<BaseLayout title={name}><section class="page-intro"><p class="eyebrow">ACTRESS HUB</p><h1>{name}</h1><p>最新作品、題材標籤與影評切角。</p></section><section class="card-grid">{reviews.map((review) => <ReviewCard review={review} />)}</section></BaseLayout>

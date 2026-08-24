@@ -1,0 +1,19 @@
+---
+import type {Review} from '../lib/reviews';
+import {formatDate, reviewHref, visibleTags} from '../lib/reviews';
+import TagList from './TagList.astro';
+interface Props {review: Review; priority?: boolean;}
+const {review, priority = false} = Astro.props;
+---
+<article class="review-card">
+  <a class="cover-frame" href={reviewHref(review)} aria-label={`閱讀 ${review.data.id} 影評`}>
+    <img src={review.data.coverUrl} alt={`${review.data.id} 作品封面`} loading={priority ? 'eager' : 'lazy'} fetchpriority={priority ? 'high' : 'auto'} />
+    <span class="date-stamp">{formatDate(review.data.releaseDate)}</span>
+  </a>
+  <div class="card-copy">
+    <p class="number">{review.data.id}</p>
+    <h3><a href={reviewHref(review)}>{review.data.title}</a></h3>
+    <p class="talent">{review.data.actress.join('、') || '演員資料待補'}</p>
+    <TagList tags={visibleTags(review).slice(0, 3)} />
+  </div>
+</article>

@@ -1,0 +1,55 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+}
+
+const {
+  title,
+  description = '從公開作品資料出發，提供最新作品介紹、原創影評與清楚的 CC18 觀看入口。',
+  image = '/images/demo-hero.svg',
+} = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
+---
+
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={`${title}｜CC18 影格`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL(image, Astro.site ?? Astro.url.origin)} />
+    <meta name="theme-color" content="#101b25" />
+    <title>{title}｜CC18 影格</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳至主要內容</a>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="CC18 影格首頁">
+        <span class="brand-mark">C18</span>
+        <span class="brand-name">CC18 影格<small>新片資訊與原創影評</small></span>
+      </a>
+      <nav aria-label="主要導覽">
+        <a href="/latest/">最新作品</a>
+        <a href="/actresses/">演員</a>
+        <a href="/series/">系列</a>
+        <a href="/tags/">標籤</a>
+      </nav>
+      <a class="source-pill" href="https://cc18.tv/" target="_blank" rel="sponsored noopener">前往 CC18 ↗</a>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="site-footer">
+      <div>
+        <span class="brand-mark small">C18</span>
+        <p>以公開作品資訊撰寫原創介紹；不宣稱完整觀看。作品與觀看資訊以 CC18 原始頁面為準。</p>
+      </div>
+      <a href="https://cc18.tv/" target="_blank" rel="sponsored noopener">CC18 官方作品站 ↗</a>
+    </footer>
+  </body>
+</html>

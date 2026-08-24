@@ -1,0 +1,19 @@
+---
+interface Props {src?: string; poster: string; sourceUrl: string; title: string;}
+const {src, poster, sourceUrl, title} = Astro.props;
+---
+<section class="video-shell" aria-label={`${title} 短影音`}>
+  {src ? (
+    <video controls playsinline preload="metadata" poster={poster}>
+      <source src={src} type="video/mp4" />
+      瀏覽器不支援 HTML5 影片。
+    </video>
+  ) : (
+    <div class="video-pending" style={`--poster:url('${poster}')`}>
+      <span>SHORT REVIEW</span>
+      <strong>短影音製作中</strong>
+      <p>文章已先發布，不讓單一媒體任務阻塞最新作品。</p>
+      <a href={sourceUrl} target="_blank" rel="sponsored noopener">先到 CC18 查看作品 ↗</a>
+    </div>
+  )}
+</section>

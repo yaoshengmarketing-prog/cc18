@@ -1,0 +1,7 @@
+---
+interface Props { tags: string[]; linked?: boolean; }
+const {tags, linked = true} = Astro.props;
+---
+<ul class="tag-list" aria-label="作品標籤">
+  {tags.map((tag) => <li>{linked ? <a href={`/tags/${encodeURIComponent(tag)}/`}>#{tag}</a> : <span>#{tag}</span>}</li>)}
+</ul>

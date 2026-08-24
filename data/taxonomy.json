@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "policy": {
+    "max_visible_tags_per_review": 8,
+    "minimum_confidence": 0.72,
+    "unknown_tag_action": "quarantine_and_continue"
+  },
+  "tags": [
+    {"id": "latest", "label": "新片", "group": "freshness", "aliases": ["最新", "新作"]},
+    {"id": "story", "label": "劇情設定", "group": "editorial", "aliases": ["劇情", "故事性"]},
+    {"id": "weekly", "label": "本週更新", "group": "freshness", "aliases": ["本週新片"]}
+  ]
+}

@@ -1,0 +1,8 @@
+---
+import {getCollection} from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const reviews = await getCollection('reviews', ({data}) => data.status === 'published');
+const counts = new Map<string, number>();
+reviews.flatMap((r) => r.data.actress).forEach((name) => counts.set(name, (counts.get(name) ?? 0) + 1));
+---
+<BaseLayout title="演員索引"><section class="page-intro"><p class="eyebrow">ACTRESS INDEX</p><h1>演員索引</h1><p>從演員查看最新作品與不同題材中的角色適配。</p></section><section class="index-list">{[...counts].map(([name,count]) => <a href={`/actresses/${encodeURIComponent(name)}/`}><strong>{name}</strong><span>{count} 部作品</span></a>)}</section></BaseLayout>

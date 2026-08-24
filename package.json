@@ -1,0 +1,33 @@
+{
+  "name": "cc18",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "registry:validate": "node scripts/validate-registry.mjs",
+    "source:test": "node --test tests/cc18-parser.test.mjs",
+    "video:studio": "remotion studio video/src/index.ts --no-open",
+    "video:still": "remotion still video/src/index.ts CC18Vertical video/out/preview.png --frame=120 --props=video/examples/demo.json"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "latest",
+    "@remotion/cli": "latest",
+    "@remotion/transitions": "latest",
+    "astro": "latest",
+    "cheerio": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "remotion": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@astrojs/check": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}

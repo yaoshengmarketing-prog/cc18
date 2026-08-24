@@ -1,0 +1,13 @@
+{
+  "source": {
+    "name": "cc18.tv",
+    "base_url": "https://cc18.tv/",
+    "allowed_hosts": ["cc18.tv", "www.cc18.tv"],
+    "date_source": "work_page_field",
+    "cover_policy": "download_to_r2"
+  },
+  "discovery": {"lookback_days": 7, "ingest_all_eligible": true, "hard_discovery_cap": 500},
+  "production": {"mode": "dry_run", "batch_size": 20, "max_parallel": 3, "continue_on_media_failure": true},
+  "media": {"r2_prefix": "works/{yyyy}/{mm}/{id}", "video_duration_seconds": 9, "vertical": "1080x1920", "hero": "1600x900"},
+  "publishing": {"daily_enabled": false, "source_cta_required": true}
+}

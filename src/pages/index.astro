@@ -1,0 +1,60 @@
+---
+import {getCollection} from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ReviewCard from '../components/ReviewCard.astro';
+import TagList from '../components/TagList.astro';
+import {byNewest, formatDate, reviewHref, visibleTags} from '../lib/reviews';
+
+const reviews = (await getCollection('reviews', ({data}) => data.status === 'published')).sort(byNewest);
+const featured = reviews.find(({data}) => data.featured) ?? reviews[0];
+const latest = reviews.slice(0, 8);
+const tags = [...new Set(reviews.flatMap((review) => visibleTags(review)))].slice(0, 12);
+---
+<BaseLayout title="最新作品影評">
+  {featured && (
+    <section class="hero">
+      <div class="hero-art">
+        <img src={featured.data.heroUrl ?? featured.data.coverUrl} alt={`${featured.data.id} 主視覺`} />
+        <div class="film-edge" aria-hidden="true"></div>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">本週焦點 · {formatDate(featured.data.releaseDate)}</p>
+        <p class="hero-number">{featured.data.id}</p>
+        <h1>{featured.data.title}</h1>
+        <p class="hero-review">{featured.data.shortReview}</p>
+        <TagList tags={visibleTags(featured).slice(0, 4)} />
+        <div class="hero-actions">
+          <a class="button primary" href={reviewHref(featured)}>閱讀完整影評</a>
+          <a class="button secondary" href={featured.data.sourceUrl} target="_blank" rel="sponsored noopener">前往 CC18 作品頁 ↗</a>
+        </div>
+        <p class="source-note">公開資料整理 · 原創觀點 · 完整作品資訊以 CC18 為準</p>
+      </div>
+    </section>
+  )}
+
+  <section class="reel-section">
+    <div class="section-heading">
+      <div><p class="eyebrow">NEW RELEASE REEL</p><h2>最新入庫</h2></div>
+      <p>更新日有多少新片，就全部先入隊；內容與媒體再依容量分波完成。</p>
+      <a href="/latest/">查看全部 →</a>
+    </div>
+    <div class="reel" role="list">
+      {latest.map((review, index) => <div role="listitem"><ReviewCard review={review} priority={index < 3} /></div>)}
+    </div>
+  </section>
+
+  <section class="explore-grid">
+    <div class="tag-panel">
+      <p class="eyebrow">FIND YOUR ANGLE</p>
+      <h2>從標籤開始找</h2>
+      <p>來源標籤會被保留；站內再用統一詞彙、影評切角與趨勢標籤建立搜尋關係。</p>
+      <TagList tags={tags.length ? tags : ['新片', '劇情設定', '本週更新']} />
+      <a class="text-link" href="/tags/">瀏覽完整標籤庫 →</a>
+    </div>
+    <div class="editorial-panel">
+      <span class="quote-mark">“</span>
+      <p>我們寫的是公開設定值得注意的地方，不把沒有看過的畫面寫成親眼所見。</p>
+      <small>CC18 影評原則</small>
+    </div>
+  </section>
+</BaseLayout>

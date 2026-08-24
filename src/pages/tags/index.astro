@@ -1,0 +1,8 @@
+---
+import {getCollection} from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const reviews = await getCollection('reviews', ({data}) => data.status === 'published');
+const counts = new Map<string, number>();
+reviews.flatMap((r) => [...r.data.canonicalTags, ...r.data.discoveryTags]).forEach((tag) => counts.set(tag, (counts.get(tag) ?? 0) + 1));
+---
+<BaseLayout title="標籤索引"><section class="page-intro"><p class="eyebrow">TAG TAXONOMY</p><h1>標籤索引</h1><p>標籤不是 AI 自由發揮：來源詞、標準詞、影評切角與趨勢詞分層管理。</p></section><section class="tag-cloud">{[...counts].map(([tag,count]) => <a href={`/tags/${encodeURIComponent(tag)}/`}><strong>#{tag}</strong><span>{count}</span></a>)}</section></BaseLayout>
