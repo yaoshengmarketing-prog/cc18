@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cc18.invalid/schemas/registry-record.schema.json",
+  "title": "CC18 Registry Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "release_date", "source_url", "pipeline_status", "review_status", "tag_status", "image_status", "video_status", "attempts", "updated_at"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[A-Z0-9]+(?:-[A-Z0-9]+)+$"},
+    "release_date": {"type": "string", "format": "date"},
+    "first_seen_at": {"type": "string", "format": "date-time"},
+    "source_url": {"type": "string", "format": "uri"},
+    "pipeline_status": {"enum": ["discovered", "metadata_validated", "planned", "review_generated", "qa_passed", "publish_ready", "deploy_pending", "published", "retry", "rejected", "quarantined"]},
+    "review_status": {"enum": ["queued", "generating", "generated", "qa_failed", "published", "retry", "rejected"]},
+    "tag_status": {"enum": ["queued", "classified", "partial", "pending_review", "rejected"]},
+    "image_status": {"enum": ["queued", "partial", "generated", "fallback", "retry", "rejected"]},
+    "video_status": {"enum": ["queued", "rendering", "rendered", "retry", "skipped", "rejected"]},
+    "deployment_status": {"enum": ["none", "prepared", "pending", "success", "failed"]},
+    "taxonomy_version": {"type": "integer", "minimum": 1},
+    "review_version": {"type": "integer", "minimum": 1},
+    "media_version": {"type": "integer", "minimum": 1},
+    "attempts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+    "last_error": {"type": ["object", "null"]},
+    "published_at": {"type": ["string", "null"], "format": "date-time"},
+    "updated_at": {"type": "string", "format": "date-time"}
+  }
+}

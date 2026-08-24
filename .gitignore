@@ -1,0 +1,33 @@
+# Dependencies and builds
+node_modules/
+dist/
+build/
+.astro/
+.wrangler/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+
+# Generated media and render cache
+tmp/
+temp/
+renders/
+media-output/
+.remotion/
+
+# Test and tool output
+coverage/
+playwright-report/
+test-results/
+*.log
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+

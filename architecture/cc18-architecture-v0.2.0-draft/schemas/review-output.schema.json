@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cc18.invalid/schemas/review-output.schema.json",
+  "title": "CC18 Structured Review",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["movie_id", "headline", "short_review", "setting", "highlights", "role_fit", "series_difference", "audience", "verdict", "method_disclosure", "facts_used"],
+  "properties": {
+    "movie_id": {"type": "string"},
+    "headline": {"type": "string", "minLength": 10},
+    "short_review": {"type": "string", "minLength": 30},
+    "setting": {"type": "string", "minLength": 50},
+    "highlights": {"type": "string", "minLength": 80},
+    "role_fit": {"type": "string", "minLength": 50},
+    "series_difference": {"type": "string", "minLength": 30},
+    "audience": {"type": "string", "minLength": 30},
+    "verdict": {"type": "string", "minLength": 50},
+    "method_disclosure": {"type": "string", "minLength": 20},
+    "facts_used": {"type": "array", "items": {"enum": ["movie_id", "title", "release_date", "performers", "studio", "series", "synopsis", "source_tags"]}, "uniqueItems": true},
+    "video_copy": {
+      "type": "object",
+      "required": ["hook", "core_line", "cta"],
+      "properties": {
+        "hook": {"type": "string"},
+        "core_line": {"type": "string"},
+        "cta": {"type": "string"}
+      },
+      "additionalProperties": false
+    }
+  }
+}
