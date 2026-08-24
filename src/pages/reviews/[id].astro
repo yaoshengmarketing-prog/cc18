@@ -24,10 +24,14 @@ const {Content} = await render(review);
         <dl class="metadata">
           <div><dt>演員</dt><dd>{review.data.actress.join('、') || '待補'}</dd></div>
           <div><dt>上片日期</dt><dd>{formatDate(review.data.releaseDate)}</dd></div>
+          <div><dt>片商</dt><dd>{review.data.studio ?? '—'}</dd></div>
           <div><dt>系列</dt><dd>{review.data.series ?? '—'}</dd></div>
           <div><dt>影評切角</dt><dd>{review.data.editorialAngle}</dd></div>
         </dl>
+        <p class="tag-label">站內標準標籤</p>
         <TagList tags={visibleTags(review)} />
+        <p class="tag-label source-tag-label">CC18 原始標籤</p>
+        <TagList tags={review.data.sourceTags} linked={false} />
         <a class="button source-cta" href={review.data.sourceUrl} target="_blank" rel="sponsored noopener">
           <span>在 CC18 查看完整作品資訊</span><b>前往原始作品頁 ↗</b>
         </a>

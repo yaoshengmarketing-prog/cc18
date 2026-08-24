@@ -10,6 +10,7 @@ const reviews = defineCollection({
     actress: z.array(z.string()).default([]),
     releaseDate: z.coerce.date(),
     publishedAt: z.coerce.date(),
+    studio: z.string().optional(),
     series: z.string().optional(),
     sourceUrl: z.url(),
     sourceSite: z.literal('cc18.tv'),

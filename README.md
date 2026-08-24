@@ -2,7 +2,7 @@
 
 CC18 是以公開作品資料為基礎的成人作品介紹與原創影評網站專案。正式系統將使用 GitHub Actions 執行來源擷取、去重、Tag／影評生成、原創非露骨圖片、Remotion MP4、Registry、分波發布與 Cloudflare 部署。
 
-目前狀態：V1 網站與自動化底座已部署至 Cloudflare Pages。已建立 Astro 首頁、作品頁、演員／系列／Tag Hub、Registry、9 秒 Remotion 模板與手動 dry-run Action；尚未啟用正式產文、每日排程、D1 或 R2。
+目前狀態：V1 網站與自動化底座已部署至 Cloudflare Pages。第一筆真實來源測試作品 `SNOS-360` 已完成擷取、來源快照、分層 Tag、原創影評、非露骨原創圖片與 9 秒 Remotion MP4；每日排程、D1 與 R2 仍未啟用。
 
 正式站：<https://cc18.pages.dev>
 
@@ -20,7 +20,7 @@ Remotion Studio：
 npm run video:studio
 ```
 
-目前唯一文章是安全示範資料。正式封面會由 Scout 從 CC18 公開作品頁取得後下載至 R2；文章 CTA 保留精確的 CC18 原始作品網址。
+安全示範文章已降為草稿；目前公開文章為第一筆真實來源流程測試。作品封面暫時使用 CC18 公開來源 URL，原創 Hero 存於網站資產；R2 啟用後會依 immutable key 上傳 MP4。文章 CTA 永遠保留精確的 CC18 原始作品網址。
 
 ## Architecture
 

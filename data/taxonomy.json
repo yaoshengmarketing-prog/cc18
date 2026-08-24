@@ -8,6 +8,9 @@
   "tags": [
     {"id": "latest", "label": "新片", "group": "freshness", "aliases": ["最新", "新作"]},
     {"id": "story", "label": "劇情設定", "group": "editorial", "aliases": ["劇情", "故事性"]},
-    {"id": "weekly", "label": "本週更新", "group": "freshness", "aliases": ["本週新片"]}
+    {"id": "weekly", "label": "本週更新", "group": "freshness", "aliases": ["本週新片"]},
+    {"id": "close-perspective", "label": "近距離視角", "group": "presentation", "aliases": ["主觀視角", "特寫視角"]},
+    {"id": "asmr", "label": "ASMR", "group": "presentation", "aliases": ["聲音設計", "沉浸聲音"]},
+    {"id": "contrast-charm", "label": "反差魅力", "group": "editorial", "aliases": ["反差感", "角色反差"]}
   ]
 }

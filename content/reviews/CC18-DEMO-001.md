@@ -19,9 +19,9 @@ canonicalTags:
   - 劇情設定
 discoveryTags:
   - 本週更新
-status: published
+status: draft
 videoStatus: pending
-featured: true
+featured: false
 ---
 
 ## 作品設定
