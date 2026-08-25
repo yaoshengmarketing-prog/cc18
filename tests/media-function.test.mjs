@@ -33,6 +33,15 @@ test('serves only an allowlisted immutable media key', async () => {
   assert.equal(response.headers.get('cache-control'), 'public, max-age=31536000, immutable');
 });
 
+test('returns 200 when R2 reports a full object range without an HTTP Range request', async () => {
+  const ctx = context();
+  ctx.env.MEDIA.get = async () => object({offset: 0, length: 100});
+  const response = await onRequestGet(ctx);
+  assert.equal(response.status, 200);
+  assert.equal(response.headers.get('content-range'), null);
+  assert.equal(response.headers.get('content-length'), '100');
+});
+
 test('supports byte ranges for HTML5 video seeking', async () => {
   const response = await onRequestGet(context({range: 'bytes=10-19'}));
   assert.equal(response.status, 206);

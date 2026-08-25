@@ -28,7 +28,7 @@ export async function onRequestGet(context) {
     if (!object) return new Response('Not found', {status: 404});
 
     const headers = baseHeaders(object);
-    if (object.range) {
+    if (range && object.range) {
       const offset = object.range.offset ?? 0;
       const length = object.range.length ?? object.size;
       headers.set('content-range', `bytes ${offset}-${offset + length - 1}/${object.size}`);
