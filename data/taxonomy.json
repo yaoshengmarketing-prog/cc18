@@ -1,16 +1,29 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "policy": {
     "max_visible_tags_per_review": 8,
     "minimum_confidence": 0.72,
-    "unknown_tag_action": "quarantine_and_continue"
+    "unknown_tag_action": "quarantine_and_continue",
+    "candidate_minimum_occurrences": 5,
+    "stable_urls_use_tag_id": true
   },
   "tags": [
-    {"id": "latest", "label": "新片", "group": "freshness", "aliases": ["最新", "新作"]},
-    {"id": "story", "label": "劇情設定", "group": "editorial", "aliases": ["劇情", "故事性"]},
-    {"id": "weekly", "label": "本週更新", "group": "freshness", "aliases": ["本週新片"]},
-    {"id": "close-perspective", "label": "近距離視角", "group": "presentation", "aliases": ["主觀視角", "特寫視角"]},
+    {"id": "story", "label": "劇情設定", "group": "narrative", "aliases": ["劇情", "故事性"]},
+    {"id": "close-perspective", "label": "近距離視角", "group": "presentation", "aliases": ["主觀視角", "特寫視角", "體感視角"]},
     {"id": "asmr", "label": "ASMR", "group": "presentation", "aliases": ["聲音設計", "沉浸聲音"]},
-    {"id": "contrast-charm", "label": "反差魅力", "group": "editorial", "aliases": ["反差感", "角色反差"]}
-  ]
+    {"id": "contrast-charm", "label": "反差魅力", "group": "editorial", "aliases": ["反差感", "角色反差"]},
+    {"id": "oral-sex", "label": "口交題材", "group": "theme", "aliases": ["口交"]},
+    {"id": "dirty-talk", "label": "言語挑逗", "group": "interaction", "aliases": ["淫語"]},
+    {"id": "kissing", "label": "親吻互動", "group": "interaction", "aliases": ["親吻", "接吻"]},
+    {"id": "active-female", "label": "主動女性", "group": "character", "aliases": ["癡女"]},
+    {"id": "facial", "label": "顏射題材", "group": "theme", "aliases": ["顏射", "噴精"]}
+  ],
+  "source_tag_map": {
+    "口交": "oral-sex",
+    "癡女": "active-female",
+    "噴精": "facial",
+    "淫語": "dirty-talk",
+    "親吻": "kissing"
+  },
+  "ignored_source_tags": ["AV女優片", "720p", "HD", "4k", "独占配信"]
 }

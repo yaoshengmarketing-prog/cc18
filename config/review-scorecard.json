@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "scale": "0-10",
+  "dimensions": {
+    "source_fidelity": {"weight": 0.2, "question": "Every factual or experiential statement is supported by public source data or clearly framed as analysis."},
+    "specificity": {"weight": 0.18, "question": "The core judgment cannot be reused by only changing the performer or catalog number."},
+    "originality": {"weight": 0.16, "question": "The angle, opening, section logic and conclusion differ from recent reviews."},
+    "analysis_depth": {"weight": 0.16, "question": "The review explains why public signals matter instead of merely restating them."},
+    "search_value": {"weight": 0.1, "question": "Catalog number, performer and core topic terms appear naturally without stuffing."},
+    "decision_value": {"weight": 0.12, "question": "Readers can tell both who the work may suit and who may prefer something else."},
+    "low_repetition": {"weight": 0.08, "question": "Sections answer different questions and do not recycle the same claim."}
+  }
+}

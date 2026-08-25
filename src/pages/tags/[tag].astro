@@ -2,12 +2,15 @@
 import {getCollection} from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ReviewCard from '../../components/ReviewCard.astro';
-import {byNewest} from '../../lib/reviews';
+import {byNewest, reviewTagIds} from '../../lib/reviews';
+import {taxonomyTag} from '../../lib/taxonomy';
 export async function getStaticPaths() {
   const reviews = await getCollection('reviews', ({data}) => data.status === 'published');
-  const tags = [...new Set(reviews.flatMap((r) => [...r.data.canonicalTags, ...r.data.discoveryTags]))];
-  return tags.map((tag) => ({params: {tag}, props: {tag, reviews: reviews.filter((r) => [...r.data.canonicalTags, ...r.data.discoveryTags].includes(tag)).sort(byNewest)}}));
+  const tagIds = [...new Set(reviews.flatMap(reviewTagIds))];
+  return tagIds.map((tagId) => ({params: {tag: tagId}, props: {tagId, reviews: reviews.filter((r) => reviewTagIds(r).includes(tagId)).sort(byNewest)}}));
 }
-const {tag, reviews} = Astro.props;
+const {tagId, reviews} = Astro.props;
+const tag = taxonomyTag(tagId);
+if (!tag) throw new Error(`Unknown taxonomy tag: ${tagId}`);
 ---
-<BaseLayout title={`#${tag}`}><section class="page-intro"><p class="eyebrow">TAG COLLECTION</p><h1>#{tag}</h1><p>以統一標籤聚合的作品與原創影評。</p></section><section class="card-grid">{reviews.map((review) => <ReviewCard review={review} />)}</section></BaseLayout>
+<BaseLayout title={`#${tag.label}`}><section class="page-intro"><p class="eyebrow">TAG COLLECTION</p><h1>#{tag.label}</h1><p>以統一標籤聚合的作品與原創影評。</p></section><section class="card-grid">{reviews.map((review) => <ReviewCard review={review} />)}</section></BaseLayout>

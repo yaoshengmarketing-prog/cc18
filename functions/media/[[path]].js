@@ -20,7 +20,11 @@ export async function onRequestGet(context) {
   if (!key || !ALLOWED_MEDIA_KEY.test(key)) return new Response('Not found', {status: 404});
 
   try {
-    const object = await context.env.MEDIA.get(key, {range: context.request.headers});
+    const range = context.request.headers.get('range');
+    const object = await context.env.MEDIA.get(
+      key,
+      range ? {range: context.request.headers} : undefined,
+    );
     if (!object) return new Response('Not found', {status: 404});
 
     const headers = baseHeaders(object);

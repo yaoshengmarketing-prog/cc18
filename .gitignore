@@ -25,6 +25,7 @@ media-output/
 coverage/
 playwright-report/
 test-results/
+_worker.bundle
 *.log
 
 # OS and editor

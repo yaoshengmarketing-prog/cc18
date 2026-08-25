@@ -4,6 +4,8 @@ CC18 是以公開作品資料為基礎的成人作品介紹與原創影評網站
 
 目前狀態：V1 網站與自動化底座已部署至 Cloudflare Pages。第一筆真實來源測試作品 `SNOS-360` 已完成擷取、來源快照、分層 Tag、原創影評、非露骨原創圖片與 9 秒 Remotion MP4；R2 已啟用並以私有 bucket + Pages Function 提供媒體。每日排程與 D1 仍未啟用。
 
+內容品質採硬性發布門檻：正式影評必須保存 CC18 原始標題，另產生來源導向的顯示標題與 SEO 標題；Tag 使用穩定 ID，文章必須附帶來源證據、評分紀錄與內容雜湊，並通過最低 8 分及跨文章相似度檢查。`新片` 依作品日期即時計算，不永久寫入文章。
+
 正式站：<https://cc18.pages.dev>
 
 ## Local development
@@ -11,6 +13,8 @@ CC18 是以公開作品資料為基礎的成人作品介紹與原創影評網站
 ```bash
 npm install
 npm run registry:validate
+npm run content:validate
+npm run validate
 npm run dev
 ```
 
@@ -21,6 +25,14 @@ npm run video:studio
 ```
 
 安全示範文章已降為草稿；目前公開文章為第一筆真實來源流程測試。作品封面暫時使用 CC18 公開來源 URL，原創 Hero 與 MP4 使用 R2 immutable key。文章 CTA 永遠保留精確的 CC18 原始作品網址。
+
+內容規則的可執行來源：
+
+- `config/title-policy.json`：來源標題、顯示標題與 SEO 標題。
+- `config/review-policy.json`：可用資料、禁止宣稱、證據與發布門檻。
+- `config/review-scorecard.json`：影評七項評分。
+- `data/taxonomy.json`：穩定 Tag ID、來源映射與忽略規則。
+- `scripts/validate-content.mjs`：CI 發布阻擋與文章相似度檢查。
 
 ## Architecture
 

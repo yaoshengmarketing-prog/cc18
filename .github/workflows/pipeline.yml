@@ -28,6 +28,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run registry:validate
+      - run: npm run content:validate
       - run: node scripts/pipeline.mjs "${{ inputs.stage }}"
       - name: Guard production activation
         run: echo "Daily schedule and network publishing are intentionally disabled in V1 foundation."

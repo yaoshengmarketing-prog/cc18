@@ -1,6 +1,8 @@
 ---
 id: CC18-DEMO-001
+sourceTitle: CC18 流程測試資料
 title: 第一部流程測試作品
+seoTitle: CC18 流程測試作品
 actress:
   - 示範演員
 releaseDate: 2026-08-25
@@ -14,11 +16,8 @@ shortReview: 這是一筆用來驗證版型、標籤與導流按鈕的安全示�
 editorialAngle: 以作品資料如何形成清楚的觀看選擇為測試切角。
 sourceTags:
   - 來源示範
-canonicalTags:
-  - 新片
-  - 劇情設定
-discoveryTags:
-  - 本週更新
+canonicalTagIds:
+  - story
 status: draft
 videoStatus: pending
 featured: false

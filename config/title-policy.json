@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "fields": {
+    "sourceTitle": "Exact CC18 title preserved without rewriting.",
+    "title": "Original reader-facing headline grounded in source title signals and editorial judgment.",
+    "seoTitle": "Search title containing catalog number, performer, review intent and the strongest source-grounded topic terms."
+  },
+  "keyword_stack_strategy": {
+    "required_inputs": ["performer", "primary_theme", "strongest_presentation_feature", "editorial_judgment"],
+    "maximum_primary_source_signals": 2,
+    "copy_full_source_title": false,
+    "invent_missing_story_theme": false
+  },
+  "named_work_strategy": {
+    "preserve_distinct_source_name": true,
+    "add_editorial_judgment": true
+  },
+  "validation": {
+    "source_title_must_match_source_record": true,
+    "seo_title_must_include_id": true,
+    "seo_title_must_include_performer_when_known": true,
+    "display_title_must_use_source_signal": true
+  }
+}

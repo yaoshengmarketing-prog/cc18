@@ -109,8 +109,11 @@ h1, h2, h3, p { overflow-wrap: anywhere; }
 .metadata dt { color: var(--slate); font: 500 10px/1.4 var(--utility); }
 .metadata dd { margin: 5px 0 0; font-weight: 600; }
 .tag-label { margin: 18px 0 -8px; color: var(--aqua); font: 700 10px/1.4 var(--utility); letter-spacing: .12em; text-transform: uppercase; }
-.source-tag-label { color: var(--slate); }
-.source-tag-label + .tag-list span { color: var(--slate); background: transparent; border-color: var(--line); }
+  .source-tag-label { color: var(--slate); }
+  .source-tag-label + .tag-list span { color: var(--slate); background: transparent; border-color: var(--line); }
+  .source-tag-label + .tag-list a { color: var(--slate); background: rgba(155,201,197,.08); border-color: var(--slate); border-style: dashed; }
+  .metadata .source-title { grid-column: 1 / -1; }
+  .metadata .source-title dd { color: var(--slate); font-weight: 500; }
 .source-cta { width: min(100%, 560px); margin-top: 18px; justify-content: space-between; gap: 20px; color: var(--white); background: var(--apricot-dark); border: 0; text-align: left; }
 .source-cta span { font-size: 12px; font-weight: 500; }
 .source-cta b { white-space: nowrap; }

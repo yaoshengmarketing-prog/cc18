@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-360",
+  "review_sha256": "a3eb6f31776585a69a885f423123c3f22dc96c5cab4b751e34ebead8f0e7b17a",
+  "selected_thesis": "The public positioning makes ASMR and close perspective serve Asano Kokoro's image contrast instead of treating them as isolated technical labels.",
+  "title_basis": {
+    "performer": "淺野心",
+    "primary_theme": "口交題材",
+    "presentation_feature": "ASMR近距離體感視角",
+    "editorial_judgment": "這些呈現元素共同放大人物反差",
+    "source_keywords": ["口交", "ASMR", "體感視角"]
+  },
+  "evidence": [
+    {"source_signal": "The public title and description repeatedly emphasize ASMR, close perspective and sound cues.", "supports": "Sound and camera distance are central positioning elements."},
+    {"source_signal": "The description contrasts an approachable public image with a mature performance setting.", "supports": "The performer-image contrast is the editorial center."},
+    {"source_signal": "The source description concentrates on one performer and a narrow set of presentation devices.", "supports": "The work is positioned around immersion rather than complex plot or relationships."}
+  ],
+  "unsupported_claims_excluded": ["actual scene order", "editing quality", "sound recording quality", "complete performance assessment"],
+  "scores": {
+    "source_fidelity": 9.4,
+    "specificity": 8.5,
+    "originality": 8.3,
+    "analysis_depth": 8.4,
+    "search_value": 8.2,
+    "decision_value": 8.6,
+    "low_repetition": 8.3,
+    "overall": 8.6
+  },
+  "rewrite_attempts": 1,
+  "approved_for_publish": true
+}

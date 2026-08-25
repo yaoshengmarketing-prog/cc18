@@ -4,11 +4,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import ReviewCard from '../components/ReviewCard.astro';
 import TagList from '../components/TagList.astro';
 import {byNewest, formatDate, reviewHref, visibleTags} from '../lib/reviews';
+import {tagItems} from '../lib/taxonomy';
 
 const reviews = (await getCollection('reviews', ({data}) => data.status === 'published')).sort(byNewest);
 const featured = reviews.find(({data}) => data.featured) ?? reviews[0];
 const latest = reviews.slice(0, 8);
-const tags = [...new Set(reviews.flatMap((review) => visibleTags(review)))].slice(0, 12);
+const tagIds = [...new Set(reviews.flatMap((review) => review.data.canonicalTagIds))].slice(0, 12);
+const tags = tagItems(tagIds);
 ---
 <BaseLayout title="最新作品影評">
   {featured && (
@@ -48,7 +50,7 @@ const tags = [...new Set(reviews.flatMap((review) => visibleTags(review)))].slic
       <p class="eyebrow">FIND YOUR ANGLE</p>
       <h2>從標籤開始找</h2>
       <p>來源標籤會被保留；站內再用統一詞彙、影評切角與趨勢標籤建立搜尋關係。</p>
-      <TagList tags={tags.length ? tags : ['新片', '劇情設定', '本週更新']} />
+      <TagList tags={tags.length ? tags : tagItems(['story'])} />
       <a class="text-link" href="/tags/">瀏覽完整標籤庫 →</a>
     </div>
     <div class="editorial-panel">

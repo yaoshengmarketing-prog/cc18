@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "source_boundary": {
+    "allowed_inputs": ["id", "actress", "release_date", "studio", "series", "source_tags", "title", "description", "source_url"],
+    "full_viewing_claims_forbidden": true,
+    "unsupported_scene_order_forbidden": true,
+    "source_disclosure_required": true
+  },
+  "production": {
+    "angle_candidates": 3,
+    "minimum_evidence_items": 3,
+    "maximum_rewrite_attempts": 2,
+    "compare_recent_same_actress": 10,
+    "compare_recent_same_series": 10,
+    "compare_recent_same_tags": 20,
+    "compare_recent_sitewide": 30
+  },
+  "publication_gate": {
+    "minimum_overall": 8.0,
+    "minimum_source_fidelity": 9.0,
+    "minimum_specificity": 8.0,
+    "minimum_originality": 7.5,
+    "minimum_decision_value": 7.5
+  }
+}

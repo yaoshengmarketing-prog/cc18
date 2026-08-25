@@ -1,7 +1,8 @@
 ---
-interface Props { tags: string[]; linked?: boolean; }
-const {tags, linked = true} = Astro.props;
+import type {TagItem} from '../lib/taxonomy';
+interface Props { tags: TagItem[]; }
+const {tags} = Astro.props;
 ---
 <ul class="tag-list" aria-label="作品標籤">
-  {tags.map((tag) => <li>{linked ? <a href={`/tags/${encodeURIComponent(tag)}/`}>#{tag}</a> : <span>#{tag}</span>}</li>)}
+  {tags.map((tag) => <li>{tag.href ? <a href={tag.href}>#{tag.label}</a> : <span>#{tag.label}</span>}</li>)}
 </ul>

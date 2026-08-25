@@ -8,6 +8,14 @@
   },
   "discovery": {"lookback_days": 7, "ingest_all_eligible": true, "hard_discovery_cap": 500},
   "production": {"mode": "dry_run", "batch_size": 20, "max_parallel": 3, "continue_on_media_failure": true},
+  "editorial": {
+    "writer_contract": "prompts/review-writer.md",
+    "critic_contract": "prompts/review-critic.md",
+    "review_policy": "config/review-policy.json",
+    "scorecard": "config/review-scorecard.json",
+    "title_policy": "config/title-policy.json",
+    "publish_only_after_quality_gate": true
+  },
   "media": {"r2_prefix": "works/{yyyy}/{mm}/{id}", "video_duration_seconds": 9, "vertical": "1080x1920", "hero": "1600x900"},
   "publishing": {"daily_enabled": false, "source_cta_required": true}
 }

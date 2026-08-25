@@ -19,7 +19,7 @@ const context = ({path, method = 'GET', range} = {}) => ({
   env: {
     MEDIA: {
       async get(_key, options) {
-        return options.range.has('range') ? object({offset: 10, length: 10}) : object();
+        return options?.range?.has('range') ? object({offset: 10, length: 10}) : object();
       },
       async head() { return object(); },
     },
