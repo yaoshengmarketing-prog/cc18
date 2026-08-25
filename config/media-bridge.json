@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "runtime_dir": ".cc18-bridge/runtime",
+  "profile_dir": ".cc18-bridge/chrome-profile",
+  "queue_file": ".cc18-bridge/queue.json",
+  "browser": {
+    "channel": "chrome",
+    "headless": false,
+    "admin_url": "https://cc18.tv/qcsiteadmin/",
+    "frontend_link_text": "前台",
+    "allow_age_confirmation": true,
+    "navigation_timeout_ms": 45000,
+    "manifest_timeout_ms": 45000
+  },
+  "security": {
+    "allowed_source_hosts": ["cc18.tv", "www.cc18.tv"],
+    "allowed_media_hosts": ["cms2.vdosl.club"],
+    "require_https": true,
+    "redact_url_queries": true,
+    "keep_manifest_urls": false
+  },
+  "sampling": {
+    "sample_windows": 24,
+    "segments_per_window": 2,
+    "max_parallel_downloads": 4,
+    "max_total_bytes": 1073741824,
+    "max_runtime_bytes": 2147483648,
+    "failed_retention_hours": 2,
+    "cleanup_raw_after_analysis": true
+  },
+  "local_analysis": {
+    "enabled": true,
+    "endpoint": "http://127.0.0.1:11434",
+    "vision_model": "qwen2.5vl:7b",
+    "frames_per_window": 2,
+    "request_timeout_ms": 180000,
+    "temperature": 0
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cc18.invalid/schemas/source-record.schema.json",
+  "title": "CC18 Source Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["movie_id", "source_url", "source_uuid", "title", "release_date", "first_seen_at", "synopsis", "source_tags", "fetched_at", "content_hash"],
+  "properties": {
+    "movie_id": {"type": "string", "pattern": "^[A-Z0-9]+(?:-[A-Z0-9]+)+$"},
+    "source_url": {"type": "string", "format": "uri"},
+    "source_uuid": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1},
+    "release_date": {"type": "string", "format": "date"},
+    "first_seen_at": {"type": "string", "format": "date-time"},
+    "fetched_at": {"type": "string", "format": "date-time"},
+    "studio": {"$ref": "#/$defs/entity"},
+    "series": {"$ref": "#/$defs/entity"},
+    "performers": {"type": "array", "items": {"$ref": "#/$defs/entity"}},
+    "synopsis": {"type": "string", "minLength": 1},
+    "source_tags": {"type": "array", "items": {"$ref": "#/$defs/sourceTag"}, "uniqueItems": true},
+    "source_variants": {"type": "array", "items": {"type": "string", "format": "uri"}},
+    "content_hash": {"type": "string", "pattern": "^sha256:[a-f0-9]{64}$"}
+  },
+  "$defs": {
+    "entity": {
+      "type": ["object", "null"],
+      "required": ["label"],
+      "properties": {
+        "source_id": {"type": ["string", "integer", "null"]},
+        "label": {"type": "string", "minLength": 1},
+        "source_url": {"type": ["string", "null"], "format": "uri"}
+      },
+      "additionalProperties": false
+    },
+    "sourceTag": {
+      "type": "object",
+      "required": ["source_id", "label"],
+      "properties": {
+        "source_id": {"type": ["string", "integer"]},
+        "label": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    }
+  }
+}
+
