@@ -10,7 +10,7 @@ Target names:
 
 The site is a static Astro build deployed through Cloudflare Pages Git integration. GitHub Actions owns discovery, generation, QA, and commits; Pages deploys a verified `main` commit. This avoids storing a long-lived Cloudflare deploy token in GitHub.
 
-R2 must be enabled in the Cloudflare dashboard before buckets can be created. Do not add fake D1 or R2 IDs to `wrangler.jsonc`; bind real resources only after creation.
+R2 is enabled and the Standard bucket `cc18-media` is bound to Pages Functions as `MEDIA`. The bucket stays private; `/functions/media/[[path]].js` exposes only immutable `works/...` image and MP4 keys through the same-site `/media/` route. Public `r2.dev` access remains disabled.
 
 Media object keys are immutable:
 

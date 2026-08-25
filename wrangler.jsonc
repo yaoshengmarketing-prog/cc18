@@ -5,6 +5,12 @@
   "pages_build_output_dir": "./dist",
   "vars": {
     "SITE_URL": "https://cc18.pages.dev",
-    "MEDIA_BASE_URL": "https://media.cc18.example"
-  }
+    "MEDIA_BASE_URL": "https://cc18.pages.dev/media"
+  },
+  "r2_buckets": [
+    {
+      "binding": "MEDIA",
+      "bucket_name": "cc18-media"
+    }
+  ]
 }

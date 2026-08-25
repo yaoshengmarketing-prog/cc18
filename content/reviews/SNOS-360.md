@@ -9,7 +9,8 @@ studio: S1 Style
 sourceUrl: https://cc18.tv/player.php?uuid=47FQKrx_Pas&cat=19
 sourceSite: cc18.tv
 coverUrl: https://cc18.tv/preview/80/b/47FQKrx_Pas-800.jpg?v=1787359215
-heroUrl: /media/snos-360/hero-original.png
+heroUrl: /media/works/2026/08/SNOS-360/hero-v1.png
+videoUrl: https://cc18.pages.dev/media/works/2026/08/SNOS-360/vertical-v1.mp4
 shortReview: 這次公開設定把聲音、表情與鏡頭距離放在同一條軸線上；比起複雜故事，更值得注意的是親近感轉向成熟氣質時形成的反差。
 editorialAngle: 從親切距離感轉向成熟表現的反差，以及聲音設計如何強化沉浸感。
 sourceTags:
@@ -31,7 +32,7 @@ canonicalTags:
 discoveryTags:
   - 本週更新
 status: published
-videoStatus: retry
+videoStatus: rendered
 featured: true
 ---
 

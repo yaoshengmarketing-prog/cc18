@@ -5,19 +5,21 @@
   "assets": [
     {
       "role": "article_hero",
-      "path": "/media/snos-360/hero-original.png",
+      "path": "/media/works/2026/08/SNOS-360/hero-v1.png",
+      "r2_key": "works/2026/08/SNOS-360/hero-v1.png",
       "sha256": "a81dc242bb374e4dfcb89134d0d833a9fe9686e3f5ce20c8dcf8ffa00729698c",
       "prompt_summary": "虛構成年女性的非露骨電影感棚拍；深藍、藍綠與珊瑚配色；呈現親近感與成熟氣質的反差。"
     },
     {
       "role": "vertical_scene",
-      "path": "/media/snos-360/vertical-original.png",
+      "path": "/media/works/2026/08/SNOS-360/scene-vertical-v1.png",
+      "r2_key": "works/2026/08/SNOS-360/scene-vertical-v1.png",
       "sha256": "1137b889cbb3940d6c482e78f3040ddbb1a14c240c87314cb94c790cf1b5b60c",
       "prompt_summary": "虛構成年女性的全身直式編輯攝影；完整衣著、自然姿勢，保留字幕安全區。"
     }
   ],
   "video": {
-    "status": "rendered_local_upload_retry",
+    "status": "rendered_and_uploaded",
     "duration_seconds": 9,
     "width": 1080,
     "height": 1920,
@@ -25,6 +27,7 @@
     "local_path": "video/out/snos-360.mp4",
     "bytes": 2347043,
     "sha256": "9513bebe3deb49496db7ab18f40889ead96b2128b8c0f0cc0e708cad67d2e1d1",
-    "target_r2_key": "works/2026/08/SNOS-360/vertical-v1.mp4"
+    "target_r2_key": "works/2026/08/SNOS-360/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/SNOS-360/vertical-v1.mp4"
   }
 }
