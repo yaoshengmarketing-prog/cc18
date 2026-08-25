@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "id": "HUNTC-568",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/HUNTC-568/hero-v1.png",
+      "r2_key": "works/2026/08/HUNTC-568/hero-v1.png",
+      "bytes": 2070033,
+      "sha256": "ed1072e105ca3c82992710426a907bd6471381971f14860c049be42a5b37c648",
+      "prompt_summary": "原創非露骨日式旅館夜景；兩名成年同事穿著完整浴衣，故障冷氣、風扇、小杯與手機呈現公事距離開始鬆動。"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/HUNTC-568/scene-vertical-v1.png",
+      "r2_key": "works/2026/08/HUNTC-568/scene-vertical-v1.png",
+      "bytes": 1688423,
+      "sha256": "e530cbd49bde89f2bf9f4cce92731e808fb9fdfd01c3b9149d61731822ce18d0",
+      "prompt_summary": "原創非露骨直式日式旅館場景；成年女性穿著完整浴衣，手持小杯、風扇入鏡，呈現從嚴肅到放鬆的角色變化。"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3082333,
+    "sha256": "3b6c705f9462168e9be9d88c3178daad7b90fbf579238a8775a3f1c233267201",
+    "target_r2_key": "works/2026/08/HUNTC-568/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/HUNTC-568/vertical-v1.mp4"
+  }
+}

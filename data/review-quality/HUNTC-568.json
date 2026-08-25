@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "HUNTC-568",
+  "review_sha256": "402236ecffd2011fd59456f43444a47fa8be84ef3971257fe85242c9b5b45719",
+  "selected_thesis": "冷氣故障、風扇、浴衣與飲酒共同削弱同期同事的公事距離，形成可由全片分布抽樣支持的漸進式角色反差。",
+  "title_basis": {
+    "performer": null,
+    "primary_theme": "旅館同房",
+    "presentation_feature": "冷氣故障與酒後撒嬌",
+    "editorial_judgment": "環境條件不是背景，而是推動人物距離的敘事機關",
+    "source_keywords": ["旅館同房", "同期女同事", "冷氣故障", "酒後反差"]
+  },
+  "evidence": [
+    {
+      "source_signal": "公開標題與簡介將出差失誤、旅館同房、冷氣故障、飲酒與酒後撒嬌串成因果。",
+      "supports": "文章的核心判斷來自來源企劃，而非任意套用同房題材模板。"
+    },
+    {
+      "source_signal": "樣本 0、1 保留正式服裝、端坐與偏克制的互動；樣本 8、14、20 則呈現倚靠、笑容與聚焦表情的親近互動。",
+      "supports": "角色反差有跨時間軸的可見起點與變化。"
+    },
+    {
+      "source_signal": "樣本 6、7 出現風扇、浴衣與同一日式房間；樣本 13、19 出現飲水或持小杯的休息互動。",
+      "supports": "炎熱與飲用場景持續參與關係鬆動，而非一次性背景道具。"
+    },
+    {
+      "source_signal": "24 個窗口覆蓋 0 至 9716.867 秒，多數維持同一旅館空間與固定／近距離機位。",
+      "supports": "接近三小時單一空間敘事的沉浸感與節奏取捨有影片證據。"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未知演員姓名",
+    "未轉錄的具體對白與語氣",
+    "抽樣窗口之間的逐幕順序",
+    "完整剪輯或收音品質",
+    "成人行為的次數與細節",
+    "缺乏比較樣本的系列品質排名"
+  ],
+  "scores": {
+    "source_fidelity": 9.5,
+    "specificity": 9.3,
+    "originality": 8.8,
+    "analysis_depth": 9.1,
+    "search_value": 9.0,
+    "decision_value": 9.2,
+    "low_repetition": 9.4,
+    "overall": 9.2
+  },
+  "rewrite_attempts": 1,
+  "approved_for_publish": true,
+  "approval_note": "內容品質、原創 Hero、9 秒短影音與 R2 雜湊校驗均已通過。"
+}

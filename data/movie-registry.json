@@ -1,10 +1,12 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-25T04:45:00+08:00",
+  "updated_at": "2026-08-25T06:18:56.064Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
-      "actress": ["示範演員"],
+      "actress": [
+        "示範演員"
+      ],
       "release_date": "2026-08-25",
       "source_url": "https://cc18.tv/",
       "source_site": "cc18.tv",
@@ -16,7 +18,9 @@
     },
     {
       "id": "SNOS-360",
-      "actress": ["淺野心"],
+      "actress": [
+        "淺野心"
+      ],
       "release_date": "2026-08-21",
       "source_url": "https://cc18.tv/player.php?uuid=47FQKrx_Pas&cat=19",
       "source_site": "cc18.tv",
@@ -24,6 +28,18 @@
       "cover_status": "remote_source",
       "video_status": "rendered",
       "template": "contrast",
+      "published_at": "2026-08-25"
+    },
+    {
+      "id": "HUNTC-568",
+      "actress": [],
+      "release_date": "2026-08-21",
+      "source_url": "https://cc18.tv/player.php?uuid=2Id2ijkXE6V&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "video_status": "rendered",
+      "template": "story",
       "published_at": "2026-08-25"
     }
   ]

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "HUNTC-568",
+  "generated_at": "2026-08-25T06:25:00.000Z",
+  "generation_mode": "local_analysis_editorial_revision",
+  "source_record": "data/source-records/HUNTC-568.json",
+  "video_analysis_job_id": "afa054ce-8a33-4bdd-bb86-681a696d9374",
+  "video_coverage": {
+    "sample_windows": 24,
+    "average_confidence": 0.9292,
+    "timeline_start_seconds": 0,
+    "timeline_end_seconds": 9716.867
+  },
+  "audio_transcription_status": "not_configured",
+  "angle_candidates": [
+    "冷氣故障如何從背景設定變成推動人物距離的敘事機關",
+    "同期女同事從公事拘謹到酒後撒嬌的漸進式角色反差",
+    "接近三小時、單一旅館空間所帶來的沉浸感與節奏取捨"
+  ],
+  "selected_thesis": "冷氣故障、風扇、浴衣與飲酒不是分散的標題關鍵字，而是共同削弱同期同事公事距離、完成酒後角色反差的一條因果鏈。",
+  "title": "HUNTC-568 旅館同房：冷氣故障如何推動同期女同事的酒後反差",
+  "seo_title": "HUNTC-568 影評｜旅館同房與同期女同事的酒後撒嬌反差",
+  "short_review": "HUNTC-568 的看點不只是旅館同房，而是把冷氣故障、浴衣與飲酒變成逐步鬆動同期女同事嚴肅形象的敘事機關。",
+  "editorial_angle": "檢視冷氣故障、風扇、浴衣與飲酒如何共同完成同期同事從拘謹到親近的角色轉折，以及近三小時單一空間敘事帶來的沉浸感與取捨。",
+  "canonical_tag_ids": ["story", "contrast-charm", "close-perspective", "kissing"],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "公開標題與簡介把出差失誤、旅館同房、冷氣故障、飲酒及酒後撒嬌串成連續因果。",
+      "supports": "核心切角應評價環境如何推動角色反差，而不是只列成人題材標籤。",
+      "observation_refs": []
+    },
+    {
+      "basis": "video_sample",
+      "signal": "樣本 0 至 1 出現正式服裝、端坐、並肩看手機與偏克制的互動。",
+      "supports": "嚴肅而有公事距離的起點在影像中有可見基準。",
+      "observation_refs": [0, 1]
+    },
+    {
+      "basis": "both",
+      "signal": "樣本 6 至 7 的日式房間、浴衣與前景風扇，呼應公開資料的冷氣故障與悶熱旅館設定。",
+      "supports": "炎熱不是只在文案出現一次，而是跨階段維持的視覺條件。",
+      "observation_refs": [6, 7]
+    },
+    {
+      "basis": "both",
+      "signal": "樣本 13 與 19 可見相近浴衣、飲水或持小杯的放鬆互動，與公開資料的飲酒轉折一致。",
+      "supports": "飲用場景是關係鬆動的中介節點，而不只是獨立道具。",
+      "observation_refs": [13, 19]
+    },
+    {
+      "basis": "video_sample",
+      "signal": "樣本 8、14、20 從倚靠與笑容發展到聚焦表情的親近互動。",
+      "supports": "人物反差在完整時間軸上呈現漸進變化，不只是突然切換人設。",
+      "observation_refs": [8, 14, 20]
+    },
+    {
+      "basis": "video_sample",
+      "signal": "多數樣本使用固定機位、雙人中景或臉部近景，場景長時間維持同一旅館和室。",
+      "supports": "攝影主要保存人物距離變化，而非依賴大量場景或快速剪接。",
+      "observation_refs": [0, 1, 3, 14, 18, 20]
+    },
+    {
+      "basis": "video_sample",
+      "signal": "24 個樣本覆蓋 0 至 9716.867 秒，主要人物與旅館空間高度集中。",
+      "supports": "接近三小時的單一空間敘事同時帶來沉浸感與節奏重複的選片取捨。",
+      "observation_refs": [0, 6, 12, 18, 22, 23]
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未知演員姓名或身分",
+    "未進行音訊轉錄的具體對白與語氣",
+    "抽樣窗口之間無法確認的逐幕順序",
+    "剪輯與收音品質的完整判斷",
+    "各成人行為的次數、時長或詳細描述",
+    "未取得同系列其他完整影片證據時的品質高下比較"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "HUNTC-568",
+  "checked_at": "2026-08-25T06:31:11.797Z",
+  "passed": true,
+  "issues": [],
+  "metrics": {
+    "sections": 8,
+    "evidence_items": 7,
+    "distinct_video_windows": 14,
+    "repeated_sentence_groups": 0
+  }
+}

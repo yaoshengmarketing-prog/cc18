@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cc18.invalid/schemas/media-manifest.schema.json",
+  "title": "CC18 Media Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["movie_id", "media_version", "environment", "assets", "created_at"],
+  "properties": {
+    "movie_id": {"type": "string"},
+    "media_version": {"type": "integer", "minimum": 1},
+    "environment": {"enum": ["preview", "staging", "production"]},
+    "assets": {"type": "array", "items": {"$ref": "#/$defs/asset"}},
+    "created_at": {"type": "string", "format": "date-time"}
+  },
+  "$defs": {
+    "asset": {
+      "type": "object",
+      "required": ["role", "object_key", "url", "mime_type", "bytes", "sha256", "status"],
+      "properties": {
+        "role": {"enum": ["hero", "scene_01", "scene_02", "poster", "vertical_video"]},
+        "object_key": {"type": "string"},
+        "url": {"type": "string", "format": "uri"},
+        "mime_type": {"type": "string"},
+        "width": {"type": ["integer", "null"]},
+        "height": {"type": ["integer", "null"]},
+        "duration_seconds": {"type": ["number", "null"]},
+        "bytes": {"type": "integer", "minimum": 1},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "status": {"enum": ["generated", "fallback", "retry", "rejected"]}
+      },
+      "additionalProperties": false
+    }
+  }
+}
+

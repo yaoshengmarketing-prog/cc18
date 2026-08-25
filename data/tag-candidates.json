@@ -1,5 +1,46 @@
 {
   "schema_version": 1,
   "policy": "Unmapped source terms are recorded here without blocking publication. Promotion requires repeated evidence and taxonomy validation.",
-  "candidates": []
+  "candidates": [
+    {
+      "label": "中出",
+      "occurrences": 1,
+      "source_ids": [
+        "HUNTC-568"
+      ],
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "quarantined"
+    },
+    {
+      "label": "淫亂・過激系",
+      "occurrences": 1,
+      "source_ids": [
+        "HUNTC-568"
+      ],
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "quarantined"
+    },
+    {
+      "label": "部下・同僚",
+      "occurrences": 1,
+      "source_ids": [
+        "HUNTC-568"
+      ],
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "quarantined"
+    },
+    {
+      "label": "飲み会・合コン",
+      "occurrences": 1,
+      "source_ids": [
+        "HUNTC-568"
+      ],
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "quarantined"
+    }
+  ]
 }
