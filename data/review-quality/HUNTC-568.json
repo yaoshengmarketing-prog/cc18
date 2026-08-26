@@ -1,14 +1,20 @@
 {
   "schema_version": 1,
   "id": "HUNTC-568",
-  "review_sha256": "402236ecffd2011fd59456f43444a47fa8be84ef3971257fe85242c9b5b45719",
+  "review_sha256": "681a7d5a62dfa733eebbf03425ecfce67fb9473f56a79e94219e7ce63f5e8c2d",
   "selected_thesis": "冷氣故障、風扇、浴衣與飲酒共同削弱同期同事的公事距離，形成可由全片分布抽樣支持的漸進式角色反差。",
   "title_basis": {
     "performer": null,
+    "signals": [
+      {"type": "setting", "value": "旅館", "source_field": "title"},
+      {"type": "relationship", "value": "同期女同事", "source_field": "title"},
+      {"type": "trigger", "value": "冷氣", "source_field": "title"},
+      {"type": "transformation", "value": "撒嬌", "source_field": "title"}
+    ],
     "primary_theme": "旅館同房",
     "presentation_feature": "冷氣故障與酒後撒嬌",
     "editorial_judgment": "環境條件不是背景，而是推動人物距離的敘事機關",
-    "source_keywords": ["旅館同房", "同期女同事", "冷氣故障", "酒後反差"]
+    "source_keywords": ["旅館", "同期女同事", "冷氣", "撒嬌"]
   },
   "evidence": [
     {

@@ -1,0 +1,13 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "cc18",
+  "compatibility_date": "2026-08-26",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "cc18-db",
+      "database_id": "REPLACE_AFTER_D1_CREATION",
+      "migrations_dir": "./migrations"
+    }
+  ]
+}

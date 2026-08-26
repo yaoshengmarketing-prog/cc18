@@ -1,8 +1,13 @@
 ---
 id: CC18-DEMO-001
 sourceTitle: CC18 流程測試資料
-title: 第一部流程測試作品
+title: CC18-DEMO-001 第一部流程測試作品
 seoTitle: CC18 流程測試作品
+socialTitle: CC18-DEMO-001｜流程測試作品
+titleSignals:
+  - 流程
+  - 測試
+titleVersion: 1
 actress:
   - 示範演員
 releaseDate: 2026-08-25

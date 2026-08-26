@@ -37,6 +37,7 @@ const taxonomy = await json('data/taxonomy.json');
 const registry = await json('data/movie-registry.json');
 const candidates = await json('data/tag-candidates.json');
 const config = await json('config/media-bridge.json');
+const titlePolicy = await json('config/title-policy.json');
 const job = queue.jobs.find((item) => item.movie_id === movieId && item.status === 'analysis_ready');
 if (!job?.analysis_path) throw new Error(`${movieId}: no analysis_ready Media Bridge job`);
 const analysis = JSON.parse(await readFile(job.analysis_path, 'utf8'));
@@ -45,12 +46,25 @@ const knownTagIds = taxonomy.tags.map(({id}) => id);
 const outputSchema = {
   type: 'object',
   additionalProperties: false,
-  required: ['angle_candidates', 'selected_thesis', 'title', 'seo_title', 'short_review', 'editorial_angle', 'canonical_tag_ids', 'evidence', 'unsupported_claims_excluded', 'sections'],
+  required: ['angle_candidates', 'selected_thesis', 'title_signals', 'title', 'seo_title', 'social_title', 'short_review', 'editorial_angle', 'canonical_tag_ids', 'evidence', 'unsupported_claims_excluded', 'sections'],
   properties: {
     angle_candidates: {type: 'array', minItems: 3, maxItems: 3, items: {type: 'string', maxLength: 180}},
     selected_thesis: {type: 'string', maxLength: 240},
+    title_signals: {
+      type: 'array', minItems: 2, maxItems: 4,
+      items: {
+        type: 'object', additionalProperties: false,
+        required: ['type', 'value', 'source_field'],
+        properties: {
+          type: {type: 'string', enum: titlePolicy.signal_types},
+          value: {type: 'string', minLength: 1, maxLength: 30},
+          source_field: {type: 'string', enum: titlePolicy.signal_source_fields},
+        },
+      },
+    },
     title: {type: 'string', maxLength: 90},
     seo_title: {type: 'string', maxLength: 100},
+    social_title: {type: 'string', maxLength: 90},
     short_review: {type: 'string', maxLength: 240},
     editorial_angle: {type: 'string', maxLength: 300},
     canonical_tag_ids: {type: 'array', minItems: 2, maxItems: 6, uniqueItems: true, items: {type: 'string', enum: knownTagIds}},
@@ -91,7 +105,7 @@ const observations = analysis.visual_observations.map((item) => ({
   camera: item.camera_style.slice(0, 2),
 }));
 
-const system = `你是 CC18 的繁體中文資深影評編輯。根據公開作品資料與橫跨完整片長的代表性影片抽樣，寫出具體、克制、非露骨且有選片價值的原創影評。不得聲稱逐幀完整看完，不得辨識未提供姓名的演員，不得虛構對白、心理、剪輯品質或抽樣未支持的場景順序。來源含成人題材，但輸出只討論劇情設定、角色轉折、場景、互動氣氛、攝影距離、企劃取捨與適合觀眾。每一節回答不同問題，避免套版句型。標題必須保留番號及至少兩個來源訊號；演員未知時不可發明姓名。只輸出符合 JSON Schema 的 JSON。`;
+const system = `你是 CC18 的繁體中文資深影評編輯。根據公開作品資料與橫跨完整片長的代表性影片抽樣，寫出具體、克制、非露骨且有選片價值的原創影評。不得聲稱逐幀完整看完，不得辨識未提供姓名的演員，不得虛構對白、心理、剪輯品質或抽樣未支持的場景順序。來源含成人題材，但輸出只討論劇情設定、角色轉折、場景、互動氣氛、攝影距離、企劃取捨與適合觀眾。每一節回答不同問題，避免套版句型。先從公開來源抽出二至四個可逐字追溯的短 title_signals；顯示標題、SEO 標題及社群標題都必須包含番號，顯示標題至少自然使用兩個訊號，社群標題至少使用一個。演員未知時不可發明姓名。日文原名不存在時不可由中文反向杜撰。只輸出符合 JSON Schema 的 JSON。`;
 const prompt = {
   task: '產生可審查的 Editorial Brief 與影評草稿',
   public_source: source,
@@ -102,6 +116,7 @@ const prompt = {
     observations,
   },
   taxonomy: taxonomy.tags.map(({id, label, group}) => ({id, label, group})),
+  title_policy: titlePolicy,
   recent_review_titles: registry.records.map(({id}) => id).filter((id) => id !== movieId),
   required_method_note: '結尾以自然文字說明本文依據 CC18 公開資料與完整片長分布式抽樣，不宣稱逐幀觀看。',
 };
@@ -137,6 +152,25 @@ try {
 
 if (!result.title.includes(movieId)) result.title = `${movieId} ${result.title}`.slice(0, 90);
 if (!result.seo_title.includes(movieId)) result.seo_title = `${movieId} 影評｜${result.seo_title}`.slice(0, 100);
+if (!result.social_title.includes(movieId)) result.social_title = `${movieId}｜${result.social_title}`.slice(0, 90);
+const sourceTextByField = {
+  title: source.title ?? '',
+  description: source.description ?? '',
+  actress: (source.actress ?? []).join('、'),
+  series: source.series ?? '',
+};
+for (const signal of result.title_signals) {
+  if (!sourceTextByField[signal.source_field]?.includes(signal.value)) {
+    throw new Error(`Untraceable title signal ${signal.value} in ${signal.source_field}`);
+  }
+}
+const signalValues = result.title_signals.map(({value}) => value);
+if (signalValues.filter((value) => result.title.includes(value)).length < 2) {
+  throw new Error('Display title must use at least two title signals');
+}
+if (!signalValues.some((value) => result.social_title.includes(value))) {
+  throw new Error('Social title must use at least one title signal');
+}
 for (const tag of result.canonical_tag_ids) {
   if (!knownTagIds.includes(tag)) throw new Error(`Unknown generated canonical tag: ${tag}`);
 }
@@ -162,8 +196,12 @@ const today = new Intl.DateTimeFormat('en-CA', {timeZone: 'Asia/Taipei'}).format
 const markdown = `---
 id: ${movieId}
 sourceTitle: ${yamlText(source.title)}
-title: ${yamlText(result.title)}
+${source.original_title_ja ? `originalTitleJa: ${yamlText(source.original_title_ja)}\n` : ''}${source.translated_title_zh_tw ? `translatedTitleZhTw: ${yamlText(source.translated_title_zh_tw)}\n` : ''}title: ${yamlText(result.title)}
 seoTitle: ${yamlText(result.seo_title)}
+socialTitle: ${yamlText(result.social_title)}
+titleSignals:
+${yamlList(signalValues.map(yamlText))}
+titleVersion: 1
 actress:
 ${yamlList(source.actress ?? [])}
 releaseDate: ${source.release_date}
@@ -230,10 +268,11 @@ const quality = {
   selected_thesis: result.selected_thesis,
   title_basis: {
     performer: (source.actress ?? []).join('、') || null,
-    primary_theme: '旅館同房',
-    presentation_feature: '同期女同事的酒後角色反差',
+    signals: result.title_signals,
+    primary_theme: signalValues[0],
+    presentation_feature: signalValues[1],
     editorial_judgment: result.editorial_angle,
-    source_keywords: ['旅館', '同期女同事', '撒嬌'],
+    source_keywords: signalValues,
   },
   evidence: result.evidence,
   unsupported_claims_excluded: result.unsupported_claims_excluded,

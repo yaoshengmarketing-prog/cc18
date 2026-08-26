@@ -18,8 +18,15 @@
     "接近三小時、單一旅館空間所帶來的沉浸感與節奏取捨"
   ],
   "selected_thesis": "冷氣故障、風扇、浴衣與飲酒不是分散的標題關鍵字，而是共同削弱同期同事公事距離、完成酒後角色反差的一條因果鏈。",
+  "title_signals": [
+    {"type": "setting", "value": "旅館", "source_field": "title"},
+    {"type": "relationship", "value": "同期女同事", "source_field": "title"},
+    {"type": "trigger", "value": "冷氣", "source_field": "title"},
+    {"type": "transformation", "value": "撒嬌", "source_field": "title"}
+  ],
   "title": "HUNTC-568 旅館同房：冷氣故障如何推動同期女同事的酒後反差",
   "seo_title": "HUNTC-568 影評｜旅館同房與同期女同事的酒後撒嬌反差",
+  "social_title": "HUNTC-568｜冷氣故障後，嚴肅同期女同事為何開始撒嬌？",
   "short_review": "HUNTC-568 的看點不只是旅館同房，而是把冷氣故障、浴衣與飲酒變成逐步鬆動同期女同事嚴肅形象的敘事機關。",
   "editorial_angle": "檢視冷氣故障、風扇、浴衣與飲酒如何共同完成同期同事從拘謹到親近的角色轉折，以及近三小時單一空間敘事帶來的沉浸感與取捨。",
   "canonical_tag_ids": ["story", "contrast-charm", "close-perspective", "kissing"],

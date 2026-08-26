@@ -19,3 +19,30 @@ Media object keys are immutable:
 - `works/{yyyy}/{mm}/{id}/vertical-v1.mp4`
 
 Every review keeps the exact `sourceUrl` pointing to its CC18 work page. R2 stores copies used by this site; it is not the destination CTA.
+
+## D1 persistent discovery queue
+
+The queue schema is in `cloudflare/migrations/0001_pipeline_queue.sql`. Production authority will be `cc18-db`; no remote database is created or migrated merely by building the repository.
+
+After explicit approval to create D1:
+
+```bash
+npx wrangler d1 create cc18-db
+```
+
+After creation, copy the example to `cloudflare/wrangler.d1.jsonc`, replace the placeholder with the returned database ID, then apply the migration:
+
+```bash
+npx wrangler d1 migrations apply cc18-db --remote --config cloudflare/wrangler.d1.jsonc
+```
+
+Add scoped GitHub secrets `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_D1_DATABASE_ID`, and `CLOUDFLARE_API_TOKEN`. The token should only have the account-level D1 permission required by this project.
+
+Manual local discovery uses an atomic JSON fallback:
+
+```bash
+npm run discovery:run -- --store=file
+npm run queue:status -- --store=file
+```
+
+This file fallback is for tests and dry runs. GitHub-hosted runners are ephemeral, so only `--store=d1` is persistent across workflow runs.

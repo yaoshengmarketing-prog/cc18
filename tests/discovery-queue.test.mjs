@@ -1,0 +1,98 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {mkdtemp, readFile, rm} from 'node:fs/promises';
+import {join, resolve, sep} from 'node:path';
+import {tmpdir} from 'node:os';
+import {discoverBatch, classifyRecord} from '../scripts/discovery/discover.mjs';
+import {FileQueueStore} from '../scripts/queue/store.mjs';
+
+const workHtml = ({id, date, title = '測試情境', actress = '測試演員'}) => `<!doctype html><html><body>
+  <h1>${title} ${id}</h1>
+  <p class="movie_player_up_pic"><img src="/preview/${id}.jpg"></p>
+  <div class="date">${date}</div>
+  <div class="content"><a href="/search.php?s_type=fac&s_tid=1">測試片商</a><div class="intro"><p>簡介：${title}的公開測試簡介。</p></div></div>
+  <div class="tag-info"><a href="/search.php?s_type=actor&s_tid=2">${actress}</a><a href="/search.php?s_type=tag&s_tid=3">劇情</a></div>
+</body></html>`;
+
+const config = {
+  lookback_days: 7,
+  scan_window_days: 14,
+  upcoming_window_days: 30,
+  minimum_candidates: 1,
+  hard_discovery_cap: 500,
+  request_delay_ms: 0,
+  maximum_error_ratio: 0.2,
+  user_agent: 'CC18DiscoveryTest/1.0',
+};
+
+test('classifies from the actual work-page release date', () => {
+  const now = new Date('2026-08-26T04:00:00Z');
+  assert.equal(classifyRecord({release_date: '2026-08-25'}, now, config).classification, 'eligible');
+  assert.equal(classifyRecord({release_date: '2026-08-15'}, now, config).classification, 'late_arrival');
+  assert.equal(classifyRecord({release_date: '2026-07-01'}, now, config).classification, 'prelaunch_history');
+  assert.equal(classifyRecord({release_date: '2026-09-03'}, now, config).classification, 'upcoming');
+  assert.equal(classifyRecord({release_date: '2026-10-10'}, now, config).classification, 'invalid_date');
+});
+
+test('discovers every listing item, deduplicates persistently, and leases atomically', async () => {
+  const directory = await mkdtemp(join(tmpdir(), 'cc18-discovery-'));
+  const queuePath = join(directory, 'queue.json');
+  const listingUrl = 'https://cc18.tv/';
+  const newUrl = 'https://cc18.tv/player.php?uuid=new-one&cat=19';
+  const oldUrl = 'https://cc18.tv/player.php?uuid=old-one&cat=19';
+  const responses = new Map([
+    [listingUrl, `<a href="${newUrl}">new</a><a href="${newUrl}">duplicate</a><a href="${oldUrl}">old</a>`],
+    [newUrl, workHtml({id: 'NEW-001', date: '2026-08-25', title: '旅館同房'})],
+    [oldUrl, workHtml({id: 'OLD-001', date: '2026-07-01', title: '舊片測試'})],
+  ]);
+  const fetchImpl = async (url) => ({ok: responses.has(String(url)), status: responses.has(String(url)) ? 200 : 404, text: async () => responses.get(String(url)) ?? ''});
+  const store = new FileQueueStore(queuePath);
+  const options = {listingUrls: [listingUrl], store, config, fetchImpl, now: new Date('2026-08-26T04:00:00Z'), logger: {warn() {}}};
+
+  const first = await discoverBatch(options);
+  assert.equal(first.candidates, 2);
+  assert.equal(first.new_movies, 1);
+  assert.equal(first.eligible, 1);
+  assert.equal(first.prelaunch_history, 1);
+  assert.equal(first.skipped_history, 1);
+  assert.equal(first.enqueued, 1);
+
+  const second = await discoverBatch(options);
+  assert.equal(second.new_movies, 0);
+  assert.equal(second.duplicates, 1);
+  assert.equal(second.enqueued, 0);
+
+  const state = JSON.parse(await readFile(queuePath, 'utf8'));
+  assert.equal(state.movies.length, 1);
+  assert.equal(state.jobs.length, 1);
+  assert.equal(state.jobs[0].idempotency_key, 'NEW-001:media_analysis:v1');
+
+  const claimed = await store.claim({stage: 'media_analysis', workerId: 'worker-a', now: new Date('2026-08-26T05:00:00Z'), leaseSeconds: 60});
+  assert.equal(claimed.movie_id, 'NEW-001');
+  assert.equal(await store.claim({stage: 'media_analysis', workerId: 'worker-b', now: new Date('2026-08-26T05:00:30Z'), leaseSeconds: 60}), null);
+  const reclaimed = await store.claim({stage: 'media_analysis', workerId: 'worker-b', now: new Date('2026-08-26T05:01:01Z'), leaseSeconds: 60});
+  assert.equal(reclaimed.movie_id, 'NEW-001');
+  assert.equal(reclaimed.attempt, 2);
+  const completed = await store.finishJob({jobId: reclaimed.id, workerId: 'worker-b', outcome: 'completed', now: new Date('2026-08-26T05:01:30Z')});
+  assert.equal(completed.status, 'completed');
+  assert.equal((await store.summary()).jobs_by_status.completed, 1);
+
+  const resolvedDirectory = resolve(directory);
+  assert.ok(resolvedDirectory.startsWith(`${resolve(tmpdir())}${sep}`));
+  await rm(resolvedDirectory, {recursive: true});
+});
+
+test('fails closed when the listing selector returns no candidates', async () => {
+  const directory = await mkdtemp(join(tmpdir(), 'cc18-discovery-empty-'));
+  const store = new FileQueueStore(join(directory, 'queue.json'));
+  const fetchImpl = async () => ({ok: true, status: 200, text: async () => '<html><body>No matching works</body></html>'});
+  await assert.rejects(
+    discoverBatch({listingUrls: ['https://cc18.tv/'], store, config, fetchImpl, now: new Date('2026-08-26T04:00:00Z'), logger: {warn() {}}}),
+    /too few candidates/,
+  );
+  const summary = await store.summary();
+  assert.equal(summary.last_run.status, 'failed');
+  const resolvedDirectory = resolve(directory);
+  assert.ok(resolvedDirectory.startsWith(`${resolve(tmpdir())}${sep}`));
+  await rm(resolvedDirectory, {recursive: true});
+});

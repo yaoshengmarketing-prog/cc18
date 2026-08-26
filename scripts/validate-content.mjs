@@ -7,6 +7,7 @@ const taxonomy = await readJson('data/taxonomy.json');
 const candidates = await readJson('data/tag-candidates.json');
 const registry = await readJson('data/movie-registry.json');
 const policy = await readJson('config/review-policy.json');
+const titlePolicy = await readJson('config/title-policy.json');
 
 const knownTagIds = new Set(taxonomy.tags.map(({id}) => id));
 const ignoredSourceTags = new Set(taxonomy.ignored_source_tags);
@@ -44,16 +45,36 @@ for (const record of published) {
 
   const seoTitle = scalar(yaml, 'seoTitle') ?? '';
   const displayTitle = scalar(yaml, 'title') ?? '';
+  const socialTitle = scalar(yaml, 'socialTitle') ?? '';
+  const titleSignals = list(yaml, 'titleSignals').map((value) => value.replace(/^['"]|['"]$/g, ''));
+  if (!displayTitle.includes(record.id)) throw new Error(`${record.id}: display title must include the catalog number`);
   if (!seoTitle.includes(record.id)) throw new Error(`${record.id}: seoTitle must include the catalog number`);
+  if (!socialTitle.includes(record.id)) throw new Error(`${record.id}: socialTitle must include the catalog number`);
   for (const actress of record.actress ?? []) {
     if (actress && !seoTitle.includes(actress)) throw new Error(`${record.id}: seoTitle must include performer ${actress}`);
     if (actress && !displayTitle.includes(actress)) throw new Error(`${record.id}: display title must include performer ${actress}`);
   }
-  const sourceKeywords = quality.title_basis?.source_keywords ?? [];
-  const matchedKeywords = sourceKeywords.filter((keyword) => displayTitle.includes(keyword));
-  if (sourceKeywords.length && matchedKeywords.length < Math.min(2, sourceKeywords.length)) {
+  const minimumSignals = titlePolicy.validation.display_title_minimum_signals;
+  const maximumSignals = titlePolicy.keyword_stack_strategy.maximum_title_signals;
+  if (titleSignals.length < minimumSignals || titleSignals.length > maximumSignals) {
+    throw new Error(`${record.id}: titleSignals must contain ${minimumSignals} to ${maximumSignals} values`);
+  }
+  const sourceCorpus = [source.title, source.description, ...(source.actress ?? []), source.series].filter(Boolean).join('\n');
+  for (const signal of titleSignals) {
+    if (!sourceCorpus.includes(signal)) throw new Error(`${record.id}: title signal is not traceable to source: ${signal}`);
+  }
+  const matchedKeywords = titleSignals.filter((keyword) => displayTitle.includes(keyword));
+  if (matchedKeywords.length < minimumSignals) {
     throw new Error(`${record.id}: display title must retain at least two approved source-title signals`);
   }
+  if (!titleSignals.some((keyword) => socialTitle.includes(keyword))) {
+    throw new Error(`${record.id}: social title must retain at least one approved source-title signal`);
+  }
+  const originalTitleJa = scalar(yaml, 'originalTitleJa');
+  const translatedTitleZhTw = scalar(yaml, 'translatedTitleZhTw');
+  if (originalTitleJa && originalTitleJa !== source.original_title_ja) throw new Error(`${record.id}: originalTitleJa must match source record`);
+  if (translatedTitleZhTw && translatedTitleZhTw !== source.translated_title_zh_tw) throw new Error(`${record.id}: translatedTitleZhTw must match source record`);
+  if (translatedTitleZhTw && !originalTitleJa) throw new Error(`${record.id}: translatedTitleZhTw requires originalTitleJa`);
 
   const tagIds = list(yaml, 'canonicalTagIds');
   if (!tagIds.length) throw new Error(`${record.id}: at least one canonicalTagId is required`);

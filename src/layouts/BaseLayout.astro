@@ -3,12 +3,14 @@ import '../styles/global.css';
 
 interface Props {
   title: string;
+  socialTitle?: string;
   description?: string;
   image?: string;
 }
 
 const {
   title,
+  socialTitle = title,
   description = '從公開作品資料出發，提供最新作品介紹、原創影評與清楚的 CC18 觀看入口。',
   image = '/images/demo-hero.svg',
 } = Astro.props;
@@ -22,7 +24,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <meta property="og:title" content={`${title}｜CC18 影格`} />
+    <meta property="og:title" content={`${socialTitle}｜CC18 影格`} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={new URL(image, Astro.site ?? Astro.url.origin)} />
     <meta name="theme-color" content="#101b25" />

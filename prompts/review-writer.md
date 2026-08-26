@@ -4,7 +4,7 @@ Write an original Traditional Chinese editorial review using only the supplied p
 
 Before prose, produce a structured plan containing: direct facts, at least three source signals, the analysis each signal supports, unsupported claims that must not appear, three candidate angles, and the selected thesis. Select one primary angle; the other candidates may only support it.
 
-Create titles according to `config/title-policy.json`. Preserve the exact source title separately. When the source title is a keyword stack rather than a named story, extract the performer, primary theme and strongest presentation feature, then combine them with the editorial judgment. Never ignore the source title and never copy the entire keyword stack as the editorial headline.
+Create the full title identity according to `config/title-policy.json`. Preserve the exact CC18 source title separately. Preserve an authoritative Japanese original title and its faithful Traditional Chinese translation only when they are actually supplied; never reconstruct a missing Japanese title by reverse translation. Extract two to four auditable `titleSignals` from the source title, synopsis, performer or series. Then produce distinct Traditional Chinese display, SEO and social titles. Never ignore the source title and never copy the entire keyword stack as the editorial headline.
 
 The article must:
 

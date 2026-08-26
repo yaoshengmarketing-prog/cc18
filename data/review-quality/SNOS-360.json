@@ -1,10 +1,16 @@
 {
   "schema_version": 1,
   "id": "SNOS-360",
-  "review_sha256": "a3eb6f31776585a69a885f423123c3f22dc96c5cab4b751e34ebead8f0e7b17a",
+  "review_sha256": "c821b60c7dc5e290524baeda1ac20d17cf0685ececa186e37df37de372d41abc",
   "selected_thesis": "The public positioning makes ASMR and close perspective serve Asano Kokoro's image contrast instead of treating them as isolated technical labels.",
   "title_basis": {
     "performer": "淺野心",
+    "signals": [
+      {"type": "performer", "value": "淺野心", "source_field": "actress"},
+      {"type": "presentation", "value": "ASMR", "source_field": "title"},
+      {"type": "presentation", "value": "體感視角", "source_field": "title"},
+      {"type": "transformation", "value": "反差", "source_field": "description"}
+    ],
     "primary_theme": "口交題材",
     "presentation_feature": "ASMR近距離體感視角",
     "editorial_judgment": "這些呈現元素共同放大人物反差",

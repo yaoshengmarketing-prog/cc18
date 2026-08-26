@@ -1,12 +1,39 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "fields": {
     "sourceTitle": "Exact CC18 title preserved without rewriting.",
-    "title": "Original reader-facing headline grounded in source title signals and editorial judgment.",
-    "seoTitle": "Search title containing catalog number, performer, review intent and the strongest source-grounded topic terms."
+    "originalTitleJa": "Authoritative Japanese title when a verifiable source provides it; null when unavailable.",
+    "translatedTitleZhTw": "Faithful Traditional Chinese translation of originalTitleJa; null when the original title is unavailable.",
+    "title": "Traditional Chinese reader-facing H1 grounded in source signals and editorial judgment.",
+    "seoTitle": "Traditional Chinese search title containing the catalog number, performer when known, review intent and strongest source-grounded terms.",
+    "socialTitle": "Short hook for Open Graph and short-video surfaces; it may be more conversational but cannot add unsupported facts.",
+    "titleSignals": "Two to four short, source-grounded entities or concepts used to construct and audit all generated titles.",
+    "titleVersion": "Positive integer incremented when the title strategy or generated title set is materially revised."
   },
+  "identity_rules": {
+    "primary_page_language": "zh-Hant-TW",
+    "catalog_number_is_permanent_identity": true,
+    "original_japanese_title_is_primary_seo_title": false,
+    "reverse_translate_missing_japanese_title": false,
+    "unknown_original_or_translation_value": null,
+    "url_pattern": "/reviews/{catalog-number-lowercase}/",
+    "title_changes_do_not_change_url": true
+  },
+  "signal_types": [
+    "performer",
+    "series",
+    "relationship",
+    "setting",
+    "trigger",
+    "transformation",
+    "presentation",
+    "theme"
+  ],
+  "signal_source_fields": ["title", "description", "actress", "series"],
   "keyword_stack_strategy": {
-    "required_inputs": ["performer", "primary_theme", "strongest_presentation_feature", "editorial_judgment"],
+    "required_inputs": ["catalog_number", "titleSignals", "editorial_judgment"],
+    "minimum_title_signals": 2,
+    "maximum_title_signals": 4,
     "maximum_primary_source_signals": 2,
     "copy_full_source_title": false,
     "invent_missing_story_theme": false
@@ -17,8 +44,14 @@
   },
   "validation": {
     "source_title_must_match_source_record": true,
+    "display_title_must_include_id": true,
     "seo_title_must_include_id": true,
     "seo_title_must_include_performer_when_known": true,
-    "display_title_must_use_source_signal": true
+    "display_title_must_include_performer_when_known": true,
+    "social_title_must_include_id": true,
+    "display_title_minimum_signals": 2,
+    "social_title_minimum_signals": 1,
+    "signals_must_be_traceable_to_source": true,
+    "all_generated_titles_must_be_traditional_chinese_or_identity_tokens": true
   }
 }

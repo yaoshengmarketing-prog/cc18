@@ -3,10 +3,29 @@
     "name": "cc18.tv",
     "base_url": "https://cc18.tv/",
     "allowed_hosts": ["cc18.tv", "www.cc18.tv"],
+    "user_agent": "CC18ReviewBot/0.3 (+https://github.com/yaoshengmarketing-prog/cc18)",
     "date_source": "work_page_field",
     "cover_policy": "download_to_r2"
   },
-  "discovery": {"lookback_days": 7, "ingest_all_eligible": true, "hard_discovery_cap": 500},
+  "discovery": {
+    "listing_urls": ["https://cc18.tv/"],
+    "lookback_days": 7,
+    "scan_window_days": 14,
+    "upcoming_window_days": 30,
+    "ingest_all_eligible": true,
+    "minimum_candidates": 1,
+    "hard_discovery_cap": 500,
+    "request_delay_ms": 1000,
+    "maximum_error_ratio": 0.2
+  },
+  "queue": {
+    "authority": "cloudflare_d1",
+    "database_name": "cc18-db",
+    "local_snapshot": "data/pipeline-queue.json",
+    "initial_stage": "media_analysis",
+    "lease_seconds": 900,
+    "max_attempts": 5
+  },
   "production": {"mode": "dry_run", "batch_size": 20, "max_parallel": 3, "continue_on_media_failure": true},
   "editorial": {
     "writer_contract": "prompts/review-writer.md",

@@ -9,6 +9,12 @@ on:
         default: plan
         type: choice
         options: [plan, discover, produce, publish, retry-media]
+      queue_store:
+        description: Discovery queue backend (file is an ephemeral dry run; d1 is persistent)
+        required: true
+        default: file
+        type: choice
+        options: [file, d1]
 
 permissions:
   contents: read
@@ -29,6 +35,15 @@ jobs:
       - run: npm ci
       - run: npm run registry:validate
       - run: npm run content:validate
-      - run: node scripts/pipeline.mjs "${{ inputs.stage }}"
+      - name: Run discovery and queue eligible works
+        if: inputs.stage == 'discover'
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_D1_DATABASE_ID: ${{ secrets.CLOUDFLARE_D1_DATABASE_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npm run discovery:run -- --store=${{ inputs.queue_store }}
+      - name: Run foundation stage
+        if: inputs.stage != 'discover'
+        run: node scripts/pipeline.mjs "${{ inputs.stage }}"
       - name: Guard production activation
-        run: echo "Daily schedule and network publishing are intentionally disabled in V1 foundation."
+        run: echo "Daily schedule and automatic production remain intentionally disabled; discovery is manual only."

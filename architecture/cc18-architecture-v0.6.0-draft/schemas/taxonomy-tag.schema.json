@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cc18.invalid/schemas/taxonomy-tag.schema.json",
+  "title": "CC18 Taxonomy Tag",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "label", "kind", "category", "description", "status", "indexable", "created_at"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "label": {"type": "string", "minLength": 1},
+    "kind": {"enum": ["canonical", "editorial"]},
+    "category": {"enum": ["setting", "relationship", "character", "narrative", "mood", "format", "editorial"]},
+    "description": {"type": "string", "minLength": 10},
+    "aliases": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "include_when": {"type": "array", "items": {"type": "string"}},
+    "exclude_when": {"type": "array", "items": {"type": "string"}},
+    "status": {"enum": ["provisional", "approved", "active", "deprecated", "rejected"]},
+    "indexable": {"type": "boolean"},
+    "redirect_to": {"type": ["string", "null"]},
+    "created_at": {"type": "string", "format": "date"},
+    "updated_at": {"type": ["string", "null"], "format": "date"}
+  }
+}
+

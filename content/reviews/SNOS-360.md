@@ -1,8 +1,15 @@
 ---
 id: SNOS-360
 sourceTitle: 【絕美面孔】【最強口交技巧】【口交體感視角】【直擊大腦ASMR舔舐聲】究極口交與絕對想射出的美顏精液淋浴 淺野心
-title: 淺野心ASMR近距離口交：體感視角如何放大反差
+title: SNOS-360 淺野心ASMR近距離口交：體感視角如何放大反差
 seoTitle: SNOS-360 淺野心影評｜ASMR近距離口交與體感視角
+socialTitle: SNOS-360｜淺野心的ASMR體感視角，反差才是企劃核心
+titleSignals:
+  - 淺野心
+  - ASMR
+  - 體感視角
+  - 反差
+titleVersion: 1
 actress:
   - 淺野心
 releaseDate: 2026-08-21

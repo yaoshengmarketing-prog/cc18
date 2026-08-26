@@ -12,11 +12,19 @@ const issues = [];
 const frontmatter = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---/)?.[1] ?? '';
 const body = markdown.replace(/^---\r?\n[\s\S]*?\r?\n---/, '').trim();
 const scalar = (key) => frontmatter.match(new RegExp(`^${key}:\\s*(.+)$`, 'm'))?.[1]?.replace(/^['"]|['"]$/g, '') ?? '';
+const list = (key) => {
+  const match = frontmatter.match(new RegExp(`^${key}:\\s*\\r?\\n((?:  - .+(?:\\r?\\n|$))*)`, 'm'));
+  return match ? [...match[1].matchAll(/^  - (.+)$/gm)].map((item) => item[1].trim().replace(/^['"]|['"]$/g, '')) : [];
+};
 
 if (/CC18-DEMO|示範|placeholder/i.test(markdown)) issues.push('placeholder_text');
-if (!scalar('title').includes(movieId) || !scalar('seoTitle').includes(movieId)) issues.push('missing_movie_id_in_titles');
-const sourceSignals = ['旅館', '同期女同事', '同房', '冷氣', '喝酒', '撒嬌'];
+if (![scalar('title'), scalar('seoTitle'), scalar('socialTitle')].every((value) => value.includes(movieId))) issues.push('missing_movie_id_in_titles');
+const sourceSignals = list('titleSignals');
+if (sourceSignals.length < 2 || sourceSignals.length > 4) issues.push('invalid_title_signal_count');
 if (sourceSignals.filter((value) => scalar('title').includes(value)).length < 2) issues.push('title_lacks_source_signals');
+if (!sourceSignals.some((value) => scalar('socialTitle').includes(value))) issues.push('social_title_lacks_source_signal');
+const searchableSource = [source.title, source.description, ...(source.actress ?? []), source.series].filter(Boolean).join('\n');
+if (sourceSignals.some((value) => !searchableSource.includes(value))) issues.push('untraceable_title_signal');
 if (!/分布式抽樣|代表性抽樣/.test(body)) issues.push('missing_method_disclosure');
 if (!/適合|偏好|推薦/.test(body) || !/未必|不適合|取捨/.test(body)) issues.push('missing_decision_value');
 
