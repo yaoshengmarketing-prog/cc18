@@ -26,4 +26,6 @@ jobs:
       - run: npm run discovery:test
       - run: npm run d1:test
       - run: npm run editorial:provider:test
+      - run: npm run editorial:safety:test
+      - run: npm run editorial:normalization:test
       - run: npm run build
