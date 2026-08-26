@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-25T06:18:56.064Z",
+  "updated_at": "2026-08-26T07:39:14.985Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -41,6 +41,20 @@
       "video_status": "rendered",
       "template": "story",
       "published_at": "2026-08-25"
+    },
+    {
+      "id": "APNS-419",
+      "actress": [
+        "糸井瑠花"
+      ],
+      "release_date": "2026-08-22",
+      "source_url": "https://cc18.tv/player.php?uuid=25gTn5HE56w&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "draft",
+      "cover_status": "remote_source",
+      "video_status": "pending",
+      "template": "story",
+      "published_at": "2026-08-26"
     }
   ]
 }

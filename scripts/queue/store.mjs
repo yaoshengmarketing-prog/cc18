@@ -111,11 +111,34 @@ export class FileQueueStore {
     return structuredClone(state.movies.find((item) => item.id === normalizedId(movieId)) ?? null);
   }
 
-  async claim({stage, workerId, leaseSeconds = 900, now = new Date()}) {
+  async enqueueJob({movieId, stage, priority = 1, discoveryRunId = null, now = new Date()}) {
+    const state = await this.read();
+    const id = normalizedId(movieId);
+    if (!state.movies.some((movie) => movie.id === id)) throw new Error(`Unknown movie: ${id}`);
+    const idempotencyKey = jobKey(id, stage);
+    const existing = state.jobs.find((job) => job.idempotency_key === idempotencyKey);
+    if (existing) return structuredClone(existing);
+    const nowIso = now.toISOString();
+    const job = {
+      id: randomUUID(), movie_id: id, stage, status: 'queued', priority, attempt: 0, max_attempts: 5,
+      claimed_by: null, lease_expires_at: null, next_retry_at: null, last_error_code: null,
+      idempotency_key: idempotencyKey, discovery_run_id: discoveryRunId, created_at: nowIso, updated_at: nowIso,
+    };
+    state.jobs.push(job);
+    await this.save(state);
+    return structuredClone(job);
+  }
+
+  async findJob({movieId, stage, status = null}) {
+    const state = await this.read();
+    return structuredClone(state.jobs.find((job) => job.movie_id === normalizedId(movieId) && job.stage === stage && (!status || job.status === status)) ?? null);
+  }
+
+  async claim({stage, workerId, jobId = null, leaseSeconds = 900, now = new Date()}) {
     const state = await this.read();
     const nowIso = now.toISOString();
     const candidate = state.jobs
-      .filter((job) => job.stage === stage && job.attempt < job.max_attempts)
+      .filter((job) => job.stage === stage && (!jobId || job.id === jobId) && job.attempt < job.max_attempts)
       .filter((job) => job.status === 'queued' || job.status === 'retry' || (job.status === 'leased' && job.lease_expires_at <= nowIso))
       .filter((job) => !job.next_retry_at || job.next_retry_at <= nowIso)
       .sort((left, right) => right.priority - left.priority || left.created_at.localeCompare(right.created_at))[0];
@@ -151,6 +174,18 @@ export class FileQueueStore {
     const job = state.jobs.find((item) => item.id === jobId && item.status === 'leased' && item.claimed_by === workerId);
     if (!job) throw new Error(`Job is not leased by ${workerId}: ${jobId}`);
     job.lease_expires_at = new Date(now.getTime() + leaseSeconds * 1000).toISOString();
+    job.updated_at = now.toISOString();
+    await this.save(state);
+    return structuredClone(job);
+  }
+
+  async requeueBlocked({jobId, allowedErrorCodes, now = new Date()}) {
+    const state = await this.read();
+    const job = state.jobs.find((item) => item.id === jobId && item.status === 'blocked' && allowedErrorCodes.includes(item.last_error_code));
+    if (!job) return null;
+    job.status = 'queued';
+    job.next_retry_at = null;
+    job.last_error_code = null;
     job.updated_at = now.toISOString();
     await this.save(state);
     return structuredClone(job);
@@ -237,7 +272,28 @@ export class D1RestQueueStore {
     return result.results?.[0] ?? null;
   }
 
-  async claim({stage, workerId, leaseSeconds = 900, now = new Date()}) {
+  async enqueueJob({movieId, stage, priority = 1, discoveryRunId = null, now = new Date()}) {
+    const nowIso = now.toISOString();
+    const id = normalizedId(movieId);
+    const key = jobKey(id, stage);
+    const [result] = await this.query({
+      sql: `INSERT INTO pipeline_jobs (id, movie_id, stage, status, priority, attempt, max_attempts, idempotency_key, discovery_run_id, created_at, updated_at)
+            VALUES (?, ?, ?, 'queued', ?, 0, 5, ?, ?, ?, ?)
+            ON CONFLICT(idempotency_key) DO UPDATE SET updated_at=pipeline_jobs.updated_at RETURNING *`,
+      params: [randomUUID(), id, stage, priority, key, discoveryRunId, nowIso, nowIso],
+    });
+    return result.results?.[0] ?? null;
+  }
+
+  async findJob({movieId, stage, status = null}) {
+    const params = [normalizedId(movieId), stage];
+    const statusClause = status ? ' AND status=?' : '';
+    if (status) params.push(status);
+    const [result] = await this.query({sql: `SELECT * FROM pipeline_jobs WHERE movie_id=? AND stage=?${statusClause} ORDER BY created_at DESC LIMIT 1`, params});
+    return result.results?.[0] ?? null;
+  }
+
+  async claim({stage, workerId, jobId = null, leaseSeconds = 900, now = new Date()}) {
     const nowIso = now.toISOString();
     const leaseExpiresAt = new Date(now.getTime() + leaseSeconds * 1000).toISOString();
     const [result] = await this.query({
@@ -245,12 +301,12 @@ export class D1RestQueueStore {
             SET status='leased', claimed_by=?, lease_expires_at=?, attempt=attempt+1, updated_at=?
             WHERE id=(
               SELECT id FROM pipeline_jobs
-              WHERE stage=? AND attempt < max_attempts
+              WHERE stage=? AND (? IS NULL OR id=?) AND attempt < max_attempts
                 AND (status IN ('queued','retry') OR (status='leased' AND lease_expires_at <= ?))
                 AND (next_retry_at IS NULL OR next_retry_at <= ?)
               ORDER BY priority DESC, created_at ASC LIMIT 1
             ) RETURNING *`,
-      params: [workerId, leaseExpiresAt, nowIso, stage, nowIso, nowIso],
+      params: [workerId, leaseExpiresAt, nowIso, stage, jobId, jobId, nowIso, nowIso],
     });
     return result.results?.[0] ?? null;
   }
@@ -280,6 +336,17 @@ export class D1RestQueueStore {
     const job = result.results?.[0];
     if (!job) throw new Error(`Job is not leased by ${workerId}: ${jobId}`);
     return job;
+  }
+
+  async requeueBlocked({jobId, allowedErrorCodes, now = new Date()}) {
+    if (!allowedErrorCodes?.length) throw new Error('requeueBlocked requires allowed error codes');
+    const placeholders = allowedErrorCodes.map(() => '?').join(',');
+    const [result] = await this.query({
+      sql: `UPDATE pipeline_jobs SET status='queued', next_retry_at=NULL, last_error_code=NULL, updated_at=?
+            WHERE id=? AND status='blocked' AND last_error_code IN (${placeholders}) RETURNING *`,
+      params: [now.toISOString(), jobId, ...allowedErrorCodes],
+    });
+    return result.results?.[0] ?? null;
   }
 }
 

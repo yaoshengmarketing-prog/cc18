@@ -32,6 +32,7 @@
     "d1:test": "node --test tests/d1-migration.test.mjs",
     "editorial:build": "node scripts/editorial/build-from-analysis.mjs",
     "editorial:qa": "node scripts/editorial/qa-draft.mjs",
+    "editorial:d1:handoff": "node scripts/editorial/handoff-d1.mjs",
     "video:studio": "remotion studio video/src/index.ts --no-open",
     "video:still": "remotion still video/src/index.ts CC18Vertical video/out/preview.png --frame=120 --props=video/examples/demo.json",
     "video:render:snos-360": "remotion render video/src/index.ts CC18Vertical video/out/snos-360.mp4 --props=video/examples/snos-360.json",

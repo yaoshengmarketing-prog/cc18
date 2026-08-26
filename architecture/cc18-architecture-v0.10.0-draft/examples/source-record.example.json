@@ -1,0 +1,22 @@
+{
+  "movie_id": "ROYD-341",
+  "source_url": "https://cc18.tv/player.php?uuid=36bfjCU0v4_&cat=19",
+  "source_uuid": "36bfjCU0v4_",
+  "title": "範例作品標題（架構文件內縮寫）",
+  "original_title_ja": null,
+  "translated_title_zh_tw": null,
+  "release_date": "2026-08-21",
+  "first_seen_at": "2026-08-24T10:00:00+08:00",
+  "fetched_at": "2026-08-24T10:00:12+08:00",
+  "studio": {"source_id": 2043, "label": "ロイヤル", "source_url": "https://cc18.tv/search.php?s_type=fac&s_tid=2043"},
+  "series": {"source_id": 15122, "label": "系列名稱範例", "source_url": "https://cc18.tv/search.php?s_type=series&s_tid=15122"},
+  "performers": [{"source_id": 30106, "label": "七海那美", "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=30106"}],
+  "synopsis": "公開簡介的內部正規化快照；此範例為避免重製來源文字而省略。",
+  "source_tags": [
+    {"source_id": 77, "label": "女大學生"},
+    {"source_id": 509, "label": "HD"}
+  ],
+  "source_variants": [],
+  "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+}
+

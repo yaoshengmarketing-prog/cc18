@@ -8,6 +8,8 @@ if (!movieId || !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId)) {
 }
 
 const root = resolve(import.meta.dirname, '..', '..');
+const analysisArgument = process.argv.find((argument) => argument.startsWith('--analysis='))?.slice('--analysis='.length);
+const normalizedTag = (value) => value.normalize('NFKC').trim();
 const json = async (path) => JSON.parse(await readFile(resolve(root, path), 'utf8'));
 
 function parseStructuredJson(value) {
@@ -32,15 +34,20 @@ function parseStructuredJson(value) {
   return JSON.parse(output);
 }
 const source = await json(`data/source-records/${movieId}.json`);
-const queue = await json('.cc18-bridge/queue.json');
 const taxonomy = await json('data/taxonomy.json');
 const registry = await json('data/movie-registry.json');
 const candidates = await json('data/tag-candidates.json');
 const config = await json('config/media-bridge.json');
 const titlePolicy = await json('config/title-policy.json');
-const job = queue.jobs.find((item) => item.movie_id === movieId && item.status === 'analysis_ready');
-if (!job?.analysis_path) throw new Error(`${movieId}: no analysis_ready Media Bridge job`);
-const analysis = JSON.parse(await readFile(job.analysis_path, 'utf8'));
+let analysisPath = analysisArgument ? resolve(analysisArgument) : null;
+if (!analysisPath) {
+  const queue = await json('.cc18-bridge/queue.json');
+  const job = queue.jobs.find((item) => item.movie_id === movieId && item.status === 'analysis_ready');
+  if (!job?.analysis_path) throw new Error(`${movieId}: no analysis_ready Media Bridge job`);
+  analysisPath = job.analysis_path;
+}
+const analysis = JSON.parse(await readFile(analysisPath, 'utf8'));
+if (analysis.movie_id !== movieId) throw new Error(`${movieId}: analysis belongs to ${analysis.movie_id}`);
 
 const knownTagIds = taxonomy.tags.map(({id}) => id);
 const outputSchema = {
@@ -166,10 +173,12 @@ for (const signal of result.title_signals) {
 }
 const signalValues = result.title_signals.map(({value}) => value);
 if (signalValues.filter((value) => result.title.includes(value)).length < 2) {
-  throw new Error('Display title must use at least two title signals');
+  const generated = result.title.replace(movieId, '').trim().replace(/^[｜|：:—–-]+/, '').trim();
+  result.title = `${movieId} ${signalValues[0]} × ${signalValues[1]}｜${generated}`.slice(0, 90);
 }
 if (!signalValues.some((value) => result.social_title.includes(value))) {
-  throw new Error('Social title must use at least one title signal');
+  const generated = result.social_title.replace(movieId, '').trim().replace(/^[｜|：:—–-]+/, '').trim();
+  result.social_title = `${movieId}｜${signalValues[0]}：${generated}`.slice(0, 90);
 }
 for (const tag of result.canonical_tag_ids) {
   if (!knownTagIds.includes(tag)) throw new Error(`Unknown generated canonical tag: ${tag}`);
@@ -230,10 +239,10 @@ await writeFile(reviewPath, markdown);
 const handledTags = new Set([
   ...Object.keys(taxonomy.source_tag_map),
   ...taxonomy.ignored_source_tags,
-]);
+].map(normalizedTag));
 for (const label of source.source_tags ?? []) {
-  if (handledTags.has(label)) continue;
-  const existing = candidates.candidates.find((item) => item.label === label);
+  if (handledTags.has(normalizedTag(label))) continue;
+  const existing = candidates.candidates.find((item) => normalizedTag(item.label) === normalizedTag(label));
   if (existing) {
     existing.occurrences = Math.max(existing.occurrences ?? 0, 1);
     existing.source_ids = [...new Set([...(existing.source_ids ?? []), movieId])];

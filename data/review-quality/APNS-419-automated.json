@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "APNS-419",
+  "checked_at": "2026-08-26T07:45:26.073Z",
+  "passed": true,
+  "issues": [],
+  "metrics": {
+    "sections": 7,
+    "evidence_items": 7,
+    "distinct_video_windows": 15,
+    "repeated_sentence_groups": 0
+  }
+}

@@ -6,10 +6,11 @@
       "label": "中出",
       "occurrences": 1,
       "source_ids": [
-        "HUNTC-568"
+        "HUNTC-568",
+        "APNS-419"
       ],
       "first_seen": "2026-08-25",
-      "last_seen": "2026-08-25",
+      "last_seen": "2026-08-26",
       "status": "quarantined"
     },
     {
@@ -40,6 +41,36 @@
       ],
       "first_seen": "2026-08-25",
       "last_seen": "2026-08-25",
+      "status": "quarantined"
+    },
+    {
+      "label": "學生妹",
+      "occurrences": 1,
+      "source_ids": [
+        "APNS-419"
+      ],
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "quarantined"
+    },
+    {
+      "label": "戲劇、連續劇",
+      "occurrences": 1,
+      "source_ids": [
+        "APNS-419"
+      ],
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "quarantined"
+    },
+    {
+      "label": "3p・4p",
+      "occurrences": 1,
+      "source_ids": [
+        "APNS-419"
+      ],
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
       "status": "quarantined"
     }
   ]

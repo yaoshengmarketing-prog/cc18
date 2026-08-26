@@ -116,6 +116,17 @@ test('discovers every listing item, deduplicates persistently, and leases atomic
   assert.equal(renewed.lease_expires_at, '2026-08-26T05:02:20.000Z');
   const completed = await store.finishJob({jobId: reclaimed.id, workerId: 'worker-b', outcome: 'completed', now: new Date('2026-08-26T05:01:30Z')});
   assert.equal(completed.status, 'completed');
+  const editorial = await store.enqueueJob({movieId: 'NEW-001', stage: 'editorial', priority: 5, now: new Date('2026-08-26T05:02:00Z')});
+  const sameEditorial = await store.enqueueJob({movieId: 'new-001', stage: 'editorial', priority: 5, now: new Date('2026-08-26T05:02:01Z')});
+  assert.equal(sameEditorial.id, editorial.id);
+  assert.equal((await store.findJob({movieId: 'NEW-001', stage: 'editorial'})).id, editorial.id);
+  const claimedEditorial = await store.claim({stage: 'editorial', jobId: editorial.id, workerId: 'editor-a', now: new Date('2026-08-26T05:03:00Z')});
+  assert.equal(claimedEditorial.id, editorial.id);
+  const blocked = await store.finishJob({jobId: editorial.id, workerId: 'editor-a', outcome: 'blocked', errorCode: 'EDITORIAL_QA_FAILED', now: new Date('2026-08-26T05:03:30Z')});
+  assert.equal(blocked.status, 'blocked');
+  assert.equal(await store.requeueBlocked({jobId: editorial.id, allowedErrorCodes: ['AUTH_REQUIRED'], now: new Date('2026-08-26T05:04:00Z')}), null);
+  const requeued = await store.requeueBlocked({jobId: editorial.id, allowedErrorCodes: ['EDITORIAL_QA_FAILED'], now: new Date('2026-08-26T05:04:01Z')});
+  assert.equal(requeued.status, 'queued');
   assert.equal((await store.summary()).jobs_by_status.completed, 1);
 
   const resolvedDirectory = resolve(directory);

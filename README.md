@@ -37,6 +37,7 @@ npm run video:studio
 - `scripts/validate-content.mjs`：CI 發布阻擋與文章相似度檢查。
 - `config/media-bridge.json`：本機授權瀏覽器、媒體 allowlist、抽樣與保留政策。
 - `docs/discovery-queue.md`：新片全量收件、日期分類、D1 去重與 lease 規則。
+- `docs/editorial-d1.md`：影片 Evidence 到 Editorial Draft／QA 的 D1 接棒與模型責任。
 - `cloudflare/migrations/0001_pipeline_queue.sql`：持久化 Queue 的 D1 schema。
 
 批次 Discovery 目前只允許手動執行：
@@ -51,9 +52,9 @@ npm run bridge:d1:process-one
 
 ## Architecture
 
-- 最新套件來源：`architecture/cc18-architecture-v0.9.0-draft/`
-- 最新 ZIP：`architecture/releases/cc18-architecture-v0.9.0-draft.zip`
-- 前一版實作套件：`architecture/cc18-architecture-v0.8.0-draft/`
+- 最新套件來源：`architecture/cc18-architecture-v0.10.0-draft/`
+- 最新 ZIP：`architecture/releases/cc18-architecture-v0.10.0-draft.zip`
+- 前一版實作套件：`architecture/cc18-architecture-v0.9.0-draft/`
 - 第一版套件保留於 `architecture/cc18-architecture-v0.1.0-draft/`
 
 所有實作應引用架構文件、Schema 或 ADR。架構變更需產生新版本，不覆寫既有 ZIP。

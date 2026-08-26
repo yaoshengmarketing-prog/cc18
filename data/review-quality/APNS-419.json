@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "APNS-419",
+  "review_sha256": "94dfdfa9256068aaceee954bcece3b8dd61d980f34c0aad2a9d1bc3afcffe230",
+  "selected_thesis": "糸井瑠花的露出慾望透過熟人距離、日常室內與多人同框，逐步擴大被發現壓力。",
+  "title_basis": {
+    "performer": "糸井瑠花",
+    "signals": [
+      {"type": "performer", "value": "糸井瑠花", "source_field": "actress"},
+      {"type": "premise", "value": "露出慾望", "source_field": "title"},
+      {"type": "relationship", "value": "熟人", "source_field": "description"},
+      {"type": "setting", "value": "鄰居", "source_field": "description"}
+    ],
+    "primary_theme": "露出慾望與被發現壓力",
+    "presentation_feature": "日常室內、多人同框與近距離構圖",
+    "editorial_judgment": "Tag 描述內容，真正的選片差異是被發現風險如何逐步外擴。",
+    "source_keywords": ["糸井瑠花", "露出慾望", "熟人", "鄰居"]
+  },
+  "evidence": [
+    {"source_signal": "來源以露出慾望、熟人在旁與鄰居家建立被發現風險。", "supports": "核心判斷直接來自公開企劃設定。"},
+    {"source_signal": "樣本 1、2、4、5 為雙人近距離；9、16、17 辨識到三人同框。", "supports": "被注視壓力確實從雙人私密狀態擴大到多人在場。"},
+    {"source_signal": "樣本 3、6、7、15 分布於照護感空間、廚房與浴室。", "supports": "日常室內空間持續承載越界對照。"},
+    {"source_signal": "24 個窗口覆蓋 0 至 6636.9 秒，近景與少數室內空間反覆出現。", "supports": "長片的沉浸感與重複風險均有時間軸證據。"}
+  ],
+  "unsupported_claims_excluded": [
+    "未轉錄對白與聲音表現",
+    "抽樣間隔中的確切逐幕順序",
+    "完整剪輯、收音與演技品質",
+    "成人行為次數與露骨細節",
+    "同系列作品品質排名"
+  ],
+  "scores": {
+    "source_fidelity": 9.3,
+    "specificity": 9.1,
+    "originality": 8.7,
+    "analysis_depth": 8.9,
+    "search_value": 9.0,
+    "decision_value": 9.2,
+    "low_repetition": 9.4,
+    "overall": 9.1
+  },
+  "rewrite_attempts": 2,
+  "approved_for_publish": false,
+  "approval_note": "Editorial QA 已通過；仍為 draft，需完成原創圖片、短影音與發布交易後才能公開。"
+}
