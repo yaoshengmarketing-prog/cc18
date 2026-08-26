@@ -25,4 +25,5 @@ jobs:
       - run: npm run bridge:test
       - run: npm run discovery:test
       - run: npm run d1:test
+      - run: npm run editorial:provider:test
       - run: npm run build
