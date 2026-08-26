@@ -51,15 +51,15 @@ Worker 透過單一原子 `UPDATE ... RETURNING` 領取最高優先工作。預�
 - V1 只收一般 `/player.php` 作品；`npage=cartoon` 與 `comic_player.php` 分類隔離，不混入真人影片 Queue。
 - 目前 GitHub Workflow 只允許手動執行，沒有 `schedule`。
 
-## 啟用 D1 前
+## D1 啟用現況
 
-1. 明確批准建立 `cc18-db`。
-2. 建立 D1 並套用 migration。
-3. 設定三個最小權限 GitHub Secrets。
-4. 先以手動 `discover + d1` 跑一輪，確認去重、日期分布與錯誤率。
-5. 重跑同一批，必須新增 0 個重複 job。
-6. 完成七天 canary 後才新增正式 schedule。
+1. `cc18-db` 已建立於 Cloudflare APAC，migration 已套用。
+2. GitHub Variables 已設定 Account ID 與 D1 Database ID。
+3. GitHub Secret 尚缺一枚只含 D1 Read／Write 的 API Token；不得用本機 Wrangler OAuth token 代替。
+4. 兩輪手動 `discover + d1` 已通過首次入列與零重複驗證。
+5. 本機 Media Bridge 尚未接上 D1 claim／finish，所以 18 個工作保留為 `queued`。
+6. 完成 Worker 接線及七天 canary 後才新增正式 schedule。
 
 ## 2026-08-26 live dry run
 
-首頁取得 73 個一般影片候選；逐頁驗證為 18 部 eligible、4 部 upcoming、9 部 late arrival、42 部歷史略過，0 個錯誤，建立 18 個本機測試 jobs。測試 Queue 已在統計確認後刪除，沒有寫入正式 D1。
+首頁取得 73 個一般影片候選；逐頁驗證為 18 部 eligible、4 部 upcoming、9 部 late arrival、42 部歷史略過，0 個錯誤。第一次正式 D1 執行保存 31 部作品並建立 18 個 jobs；第二次相同執行得到 `new_movies=0`、`enqueued=0`、`duplicates=31`，D1 仍維持 31 部作品與 18 個 jobs。

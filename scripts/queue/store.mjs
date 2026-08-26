@@ -151,10 +151,11 @@ export class D1RestQueueStore {
   }
 
   async query(statements) {
+    const payload = Array.isArray(statements) ? {batch: statements} : statements;
     const response = await this.fetch(this.endpoint, {
       method: 'POST',
       headers: {authorization: `Bearer ${this.apiToken}`, 'content-type': 'application/json'},
-      body: JSON.stringify(Array.isArray(statements) ? statements : [statements]),
+      body: JSON.stringify(payload),
     });
     const body = await response.json();
     if (!response.ok || !body.success || body.errors?.length) throw new Error(`D1 query failed: ${body.errors?.map(({message}) => message).join('; ') || response.status}`);

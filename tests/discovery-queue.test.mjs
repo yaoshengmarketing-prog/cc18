@@ -4,7 +4,7 @@ import {mkdtemp, readFile, rm} from 'node:fs/promises';
 import {join, resolve, sep} from 'node:path';
 import {tmpdir} from 'node:os';
 import {discoverBatch, classifyRecord} from '../scripts/discovery/discover.mjs';
-import {FileQueueStore} from '../scripts/queue/store.mjs';
+import {D1RestQueueStore, FileQueueStore} from '../scripts/queue/store.mjs';
 
 const workHtml = ({id, date, title = '測試情境', actress = '測試演員'}) => `<!doctype html><html><body>
   <h1>${title} ${id}</h1>
@@ -32,6 +32,27 @@ test('classifies from the actual work-page release date', () => {
   assert.equal(classifyRecord({release_date: '2026-07-01'}, now, config).classification, 'prelaunch_history');
   assert.equal(classifyRecord({release_date: '2026-09-03'}, now, config).classification, 'upcoming');
   assert.equal(classifyRecord({release_date: '2026-10-10'}, now, config).classification, 'invalid_date');
+});
+
+test('formats D1 REST single and transactional batch query bodies', async () => {
+  const bodies = [];
+  const fetchImpl = async (_url, options) => {
+    bodies.push(JSON.parse(options.body));
+    return {
+      ok: true,
+      status: 200,
+      json: async () => ({success: true, errors: [], result: [{success: true, results: [], meta: {changes: 0}}]}),
+    };
+  };
+  const store = new D1RestQueueStore({accountId: 'account', databaseId: 'database', apiToken: 'token', fetchImpl});
+  const first = {sql: 'SELECT 1', params: []};
+  const second = {sql: 'SELECT 2', params: []};
+
+  await store.query(first);
+  await store.query([first, second]);
+
+  assert.deepEqual(bodies[0], first);
+  assert.deepEqual(bodies[1], {batch: [first, second]});
 });
 
 test('discovers every listing item, deduplicates persistently, and leases atomically', async () => {

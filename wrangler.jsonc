@@ -12,5 +12,13 @@
       "binding": "MEDIA",
       "bucket_name": "cc18-media"
     }
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "cc18-db",
+      "database_id": "22a227d0-e7be-4bd0-8e6b-043ab49ead4c",
+      "migrations_dir": "cloudflare/migrations"
+    }
   ]
 }

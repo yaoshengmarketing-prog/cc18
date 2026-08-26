@@ -36,7 +36,7 @@ After creation, copy the example to `cloudflare/wrangler.d1.jsonc`, replace the 
 npx wrangler d1 migrations apply cc18-db --remote --config cloudflare/wrangler.d1.jsonc
 ```
 
-Add scoped GitHub secrets `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_D1_DATABASE_ID`, and `CLOUDFLARE_API_TOKEN`. The token should only have the account-level D1 permission required by this project.
+Add GitHub Variables `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_D1_DATABASE_ID`, plus the Secret `CLOUDFLARE_API_TOKEN`. The token should only have the account-level D1 permission required by this project; never reuse or export the local Wrangler OAuth credential.
 
 Manual local discovery uses an atomic JSON fallback:
 
