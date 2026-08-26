@@ -23,4 +23,6 @@ jobs:
       - run: npm run source:test
       - run: npm run media:test
       - run: npm run bridge:test
+      - run: npm run discovery:test
+      - run: npm run d1:test
       - run: npm run build
