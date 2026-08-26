@@ -2,12 +2,13 @@
   "schema_version": 1,
   "scale": "0-10",
   "dimensions": {
-    "source_fidelity": {"weight": 0.2, "question": "Every factual or experiential statement is supported by public source data or clearly framed as analysis."},
+    "identity_integrity": {"weight": 0.08, "question": "Catalog number, performer, date, series and source CTA remain correctly attached to the work."},
     "specificity": {"weight": 0.18, "question": "The core judgment cannot be reused by only changing the performer or catalog number."},
-    "originality": {"weight": 0.16, "question": "The angle, opening, section logic and conclusion differ from recent reviews."},
-    "analysis_depth": {"weight": 0.16, "question": "The review explains why public signals matter instead of merely restating them."},
+    "originality": {"weight": 0.18, "question": "The angle, opening, section logic and conclusion differ from recent reviews."},
+    "narrative_coherence": {"weight": 0.18, "question": "Creative reconstruction forms a coherent, engaging reading rather than disconnected invented details."},
+    "analysis_depth": {"weight": 0.12, "question": "The review turns its premise and creative reconstruction into a meaningful interpretation."},
     "search_value": {"weight": 0.1, "question": "Catalog number, performer and core topic terms appear naturally without stuffing."},
-    "decision_value": {"weight": 0.12, "question": "Readers can tell both who the work may suit and who may prefer something else."},
-    "low_repetition": {"weight": 0.08, "question": "Sections answer different questions and do not recycle the same claim."}
+    "decision_value": {"weight": 0.1, "question": "Readers can tell both who the work may suit and who may prefer something else."},
+    "low_repetition": {"weight": 0.06, "question": "Sections answer different questions and do not recycle the same claim."}
   }
 }

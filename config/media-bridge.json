@@ -20,6 +20,7 @@
     "keep_manifest_urls": false
   },
   "sampling": {
+    "strategy": "representative_samples_v1",
     "sample_windows": 24,
     "segments_per_window": 2,
     "max_parallel_downloads": 4,

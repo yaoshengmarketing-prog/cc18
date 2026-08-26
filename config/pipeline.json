@@ -39,8 +39,10 @@
   "source_media_analysis": {
     "enabled": true,
     "mode": "local_browser_bridge",
-    "publish_review_without_analysis": false,
+    "publish_review_without_analysis": true,
+    "allow_source_grounded_editorial": true,
     "allow_metadata_only_as_review": false,
+    "deep_analysis_mode": "optional_selected_works",
     "evidence_schema_version": 1
   },
   "publishing": {"daily_enabled": false, "source_cta_required": true}

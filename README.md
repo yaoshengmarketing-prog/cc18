@@ -4,7 +4,7 @@ CC18 是以公開作品資料為基礎的成人作品介紹與原創影評網站
 
 目前狀態：V1 網站與自動化底座已部署至 Cloudflare Pages。作品頁已分成來源事實、原創影評與搜尋決策三層，另有站內搜尋、編輯方法、索引門檻與結構化資料。`HUNTC-568` 已完成完整時間軸分布式影片分析、證據型影評、分層 Tag、非露骨原創圖片、9 秒 Remotion MP4 與 R2 雜湊驗證。D1 已啟用並保存 31 部作品／20 個工作；目前 8 個 completed、11 個 queued、1 個 retry。每日大量排程仍未啟用。
 
-代理商權限的完整影片分析採 Windows Media Bridge：使用本機專用 Chrome Profile 經由正常的後臺「前台」連結取得短效 HLS，只下載分布式樣本，且不保存 Cookie 或簽章網址。操作與安全邊界見 [`docs/media-bridge.md`](docs/media-bridge.md)。
+影評採「創作內容優先、影片分析加分」：作品資料只負責番號、演員、日期、系列與來源 CTA 不串錯；正文允許補寫情節、人物動機、場景銜接與敘事細節，優先追求故事性、獨特性、可讀性與選片價值。創作內容在內部 Brief 留下 provenance，但不回寫 Registry、Canonical Tag 或冒充 Video Evidence。Windows Media Bridge 的影片抽樣只用來增加素材，失敗不阻止文章。
 
 內容品質採硬性發布門檻：正式影評必須保存 CC18 原始標題，另產生來源導向的顯示標題與 SEO 標題；Tag 使用穩定 ID，文章必須附帶來源證據、評分紀錄與內容雜湊，並通過最低 8 分及跨文章相似度檢查。`新片` 依作品日期即時計算，不永久寫入文章。
 
@@ -50,15 +50,15 @@ npm run worker:readiness
 npm run worker:cycle -- --max=3
 ```
 
-`worker:cycle` 預設只做影片證據分析，每次最多三筆，單筆失敗不阻塞其他工作，原始影片樣本在分析後刪除。只有同時加上 `--with-editorial` 並明確設定 `CC18_ALLOW_EDITORIAL_TRANSMISSION=YES`，才會把安全化資料送往外部文字模型建立草稿；它仍不會發布。Windows 排程安裝器已備妥，但驗證前不會自行安裝：`npm run worker:schedule:install`。
+`worker:cycle` 預設只做可選的影片證據分析；單筆失敗不阻塞文章或後續工作，原始影片樣本在分析後刪除。只有同時加上 `--with-editorial` 並明確設定 `CC18_ALLOW_EDITORIAL_TRANSMISSION=YES`，才會把安全化資料送往外部文字模型建立草稿；它仍不會發布。目前 Windows 排程保持停用，待 source-grounded Editorial 路徑完成後再重新啟用。
 
 `file` 模式是本機 dry run；正式跨執行持久化使用 `--store=d1`。D1 已建立並套用 migration。正式每日發布仍維持關閉，必須先完成整條流程與七天 canary。
 
 ## Architecture
 
-- 最新套件來源：`architecture/cc18-architecture-v0.15.0-draft/`
-- 最新 ZIP：`architecture/releases/cc18-architecture-v0.15.0-draft.zip`
-- 前一版實作套件：`architecture/cc18-architecture-v0.14.0-draft/`
+- 最新套件來源：`architecture/cc18-architecture-v0.16.0-draft/`
+- 最新 ZIP：`architecture/releases/cc18-architecture-v0.16.0-draft.zip`
+- 前一版實作套件：`architecture/cc18-architecture-v0.15.0-draft/`
 - 第一版套件保留於 `architecture/cc18-architecture-v0.1.0-draft/`
 
 所有實作應引用架構文件、Schema 或 ADR。架構變更需產生新版本，不覆寫既有 ZIP。

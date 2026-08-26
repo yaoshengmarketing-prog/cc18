@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {mkdtemp, readFile, readdir, rm} from 'node:fs/promises';
 import {join} from 'node:path';
 import {tmpdir} from 'node:os';
-import {chooseVariant, parseHlsManifest, planSampleWindows} from '../scripts/bridge/lib/hls.mjs';
+import {chooseVariant, denseTimelineWindowCount, parseHlsManifest, planSampleWindows, timelineCoverage} from '../scripts/bridge/lib/hls.mjs';
 import {enqueue, loadQueue, updateJob} from '../scripts/bridge/lib/queue.mjs';
 import {bridgeLog, safeUrlShape} from '../scripts/bridge/lib/redact.mjs';
 import {assertLocalAnalyzerReady, assertLocalEndpoint, normalizeObservation, OBSERVATION_SCHEMA} from '../scripts/bridge/lib/local-analysis.mjs';
@@ -25,6 +25,23 @@ test('plans samples across the complete media timeline', () => {
   assert.equal(samples[0].start, 0);
   assert.equal(samples.at(-1).end, 100);
   assert.equal(samples.length, 4);
+});
+
+test('dense timeline planning scales with duration and caps long works', () => {
+  const policy = {target_gap_seconds: 30, minimum_windows: 120, maximum_windows: 360};
+  assert.equal(denseTimelineWindowCount(7030.6, 1000, policy), 236);
+  assert.equal(denseTimelineWindowCount(1800, 1000, policy), 120);
+  assert.equal(denseTimelineWindowCount(20_000, 1000, policy), 360);
+});
+
+test('timeline coverage reports the largest unobserved interval', () => {
+  const coverage = timelineCoverage([
+    {start: 0, end: 20},
+    {start: 30, end: 50},
+    {start: 60, end: 80},
+  ], 100);
+  assert.equal(coverage.observed_ratio, 0.6);
+  assert.equal(coverage.maximum_unobserved_gap_seconds, 20);
 });
 
 test('queue is local, atomic, and deduplicates active movie jobs', async () => {

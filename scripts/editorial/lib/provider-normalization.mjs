@@ -92,8 +92,12 @@ export function normalizeEditorialResult(raw, {movieId, safePublicSource, safeVi
     editorial_angle: clip(raw.editorial_angle ?? brief.angle ?? brief.positioning, 300),
     canonical_tag_ids: raw.canonical_tag_ids ?? derivedCanonicalTags(safeVideoAnalysis),
     evidence: raw.evidence ?? derivedEvidence(safeVideoAnalysis),
+    creative_reconstruction_notes: raw.creative_reconstruction_notes ?? raw.creativeNotes ?? [
+      '正文允許依核心題材補寫敘事銜接與人物動機',
+      '創作性內容只屬影評正文，不作為來源或影片證據',
+    ],
     unsupported_claims_excluded: raw.unsupported_claims_excluded ?? brief.risk_notes ?? [
-      '未提供姓名時不辨識演員', '不虛構對白或心理', '不宣稱逐幀完整觀看',
+      '未提供姓名時不辨識演員', '不虛構演員私生活或年齡', '創作內容不回寫 Registry 或 Evidence',
     ],
     decision_guide: raw.decision_guide ?? raw.search_content ?? {
       thesis: clip(raw.selected_thesis ?? brief.positioning ?? brief.angle, 260),

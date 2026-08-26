@@ -1,0 +1,32 @@
+version: 1
+source:
+  base_url: https://cc18.tv
+  schedule: "0 */6 * * *"
+  scan_window_days: 14
+  display_freshness_days: 7
+  max_parallel_detail_fetches: 2
+  request_delay_ms: 1200
+
+queue:
+  discovery_has_no_editorial_cap: true
+  text_concurrency: 10
+  image_concurrency: 5
+  video_concurrency: 3
+  lease_minutes: 30
+
+publishing:
+  max_items_per_wave: 50
+  max_wave_wait_minutes: 60
+  allow_publish_without_video: true
+  require_hero: true
+
+retry:
+  text_max_attempts: 3
+  image_max_attempts: 2
+  video_max_attempts: 4
+  deploy_max_attempts: 5
+
+safety:
+  quarantine_on_sensitive_match: true
+  do_not_block_batch_on_single_item: true
+  reject_unknown_formal_tag_ids: true

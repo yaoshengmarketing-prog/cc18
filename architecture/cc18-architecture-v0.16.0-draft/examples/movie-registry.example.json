@@ -1,0 +1,26 @@
+{
+  "exported_at": "2026-08-24T12:00:00+08:00",
+  "source": "cloudflare-d1",
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "ROYD-341",
+      "release_date": "2026-08-21",
+      "first_seen_at": "2026-08-24T10:00:00+08:00",
+      "source_url": "https://cc18.tv/player.php?uuid=36bfjCU0v4_&cat=19",
+      "pipeline_status": "published",
+      "review_status": "published",
+      "tag_status": "classified",
+      "image_status": "generated",
+      "video_status": "rendered",
+      "deployment_status": "success",
+      "taxonomy_version": 1,
+      "review_version": 1,
+      "media_version": 1,
+      "attempts": {"review": 1, "image": 1, "video": 1},
+      "last_error": null,
+      "published_at": "2026-08-24T12:00:00+08:00",
+      "updated_at": "2026-08-24T12:00:00+08:00"
+    }
+  ]
+}

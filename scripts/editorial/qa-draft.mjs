@@ -36,7 +36,6 @@ const searchableSource = [
   ...buildSafeTitleSignals(source).map(({value}) => value),
 ].filter(Boolean).join('\n');
 if (sourceSignals.some((value) => !searchableSource.includes(value))) issues.push('untraceable_title_signal');
-if (!/分布式抽樣|代表性抽樣/.test(body)) issues.push('missing_method_disclosure');
 if (!/適合|偏好|推薦/.test(body) || !/未必|不適合|取捨/.test(body)) issues.push('missing_decision_value');
 
 const sentences = body.split(/[。！？!?]\s*/).map((item) => item.replace(/\s+/g, '')).filter((item) => item.length >= 16);
@@ -48,7 +47,8 @@ const headings = [...body.matchAll(/^##\s+(.+)$/gm)].map((match) => match[1]);
 if (headings.length < 6) issues.push('insufficient_sections');
 if (new Set(headings).size !== headings.length) issues.push('duplicate_section_headings');
 if ((brief.evidence ?? []).length < 5) issues.push('insufficient_evidence');
-if ((brief.evidence ?? []).some((item) => item.basis !== 'public_source' && !(item.observation_refs ?? []).length)) issues.push('uncited_video_evidence');
+if ((brief.evidence ?? []).some((item) => ['video_sample', 'both'].includes(item.basis) && !(item.observation_refs ?? []).length)) issues.push('uncited_video_evidence');
+if ((brief.creative_reconstruction_notes ?? []).length < 2) issues.push('missing_creative_reconstruction_audit');
 if ((brief.evidence ?? []).some((item) => item.signal === movieId || item.supports?.length < 12)) issues.push('non_specific_evidence');
 if (/對白設計|聲音品質|ASMR/.test(body) && brief.audio_transcription_status !== 'ready') issues.push('unsupported_audio_claim');
 if (source.actress.length === 0 && /演員：|女優/.test(body)) issues.push('invented_performer_identity');

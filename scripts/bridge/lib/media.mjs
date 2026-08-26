@@ -4,7 +4,7 @@ import {access, mkdir, readFile, readdir, rm, stat, writeFile} from 'node:fs/pro
 import {dirname, join, resolve} from 'node:path';
 import {promisify} from 'node:util';
 import {assertAllowedUrl} from './config.mjs';
-import {chooseVariant, parseHlsManifest, planSampleWindows} from './hls.mjs';
+import {chooseVariant, denseTimelineWindowCount, parseHlsManifest, planSampleWindows, timelineCoverage} from './hls.mjs';
 import {bridgeLog, safeUrlShape} from './redact.mjs';
 
 const execFileAsync = promisify(execFile);
@@ -68,10 +68,14 @@ export async function createLocalEvidence({movieId, jobId, sourceUrl, playlist, 
   const sampleDirectory = join(jobDirectory, 'samples');
   await mkdir(segmentDirectory, {recursive: true});
   await mkdir(sampleDirectory, {recursive: true});
+  const requestedWindows = config.sampling.strategy === 'dense_timeline_v2'
+    ? denseTimelineWindowCount(playlist.duration, playlist.segments.length, config.sampling)
+    : Number(config.sampling.sample_windows ?? 24);
   const windows = planSampleWindows(playlist.segments, {
-    sampleWindows: config.sampling.sample_windows,
+    sampleWindows: requestedWindows,
     segmentsPerWindow: config.sampling.segments_per_window,
   });
+  const coverage = timelineCoverage(windows, player?.duration_seconds ?? playlist.duration);
   const uniqueSegments = [...new Map(windows.flatMap((window) => window.segments).map((segment) => [segment.index, segment])).values()];
   const budget = {used: 0, runtime_base: await directoryBytes(config.runtime_dir)};
   const downloaded = new Map();
@@ -115,10 +119,14 @@ export async function createLocalEvidence({movieId, jobId, sourceUrl, playlist, 
       sampled_bytes: budget.used,
     },
     coverage: {
-      requested_windows: config.sampling.sample_windows,
+      strategy: config.sampling.strategy ?? 'representative_samples_v1',
+      requested_windows: requestedWindows,
       completed_windows: samples.length,
       timeline_start_seconds: samples[0]?.source_start_seconds ?? null,
       timeline_end_seconds: samples.at(-1)?.source_end_seconds ?? null,
+      observed_timeline_ratio: coverage.observed_ratio,
+      maximum_unobserved_gap_seconds: coverage.maximum_unobserved_gap_seconds,
+      maximum_allowed_gap_seconds: config.sampling.maximum_unobserved_gap_seconds ?? null,
     },
     samples,
     secrets_persisted: false,

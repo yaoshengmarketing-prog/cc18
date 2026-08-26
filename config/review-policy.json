@@ -4,7 +4,18 @@
     "allowed_inputs": ["id", "actress", "release_date", "studio", "series", "source_tags", "title", "description", "source_url"],
     "full_viewing_claims_forbidden": true,
     "unsupported_scene_order_forbidden": true,
-    "source_disclosure_required": true
+    "source_disclosure_required": true,
+    "source_grounded_interpretation_allowed": true,
+    "creative_reconstruction_allowed": true,
+    "editorial_factual_fidelity_is_secondary": true,
+    "creative_content_must_not_mutate_registry_or_video_evidence": true,
+    "real_person_offscreen_claims_forbidden": true
+  },
+  "editorial_modes": {
+    "creative_first": "以作品身分與來源訊號為起點，允許補寫情節、人物動機、場景銜接與敘事細節，以內容完整性和可讀性為優先",
+    "source_grounded": "公開標題、簡介、人物關係、系列與標籤支持的原創作品解讀",
+    "video_enhanced": "另加入本機影片抽樣所支持的場景、節奏與呈現觀察",
+    "deep_review": "只用於選定重點作品的密集完整時間軸掃描"
   },
   "production": {
     "angle_candidates": 3,
@@ -17,9 +28,10 @@
   },
   "publication_gate": {
     "minimum_overall": 8.0,
-    "minimum_source_fidelity": 9.0,
+    "minimum_identity_integrity": 10.0,
     "minimum_specificity": 8.0,
     "minimum_originality": 7.5,
-    "minimum_decision_value": 7.5
+    "minimum_decision_value": 7.5,
+    "minimum_narrative_coherence": 8.0
   }
 }

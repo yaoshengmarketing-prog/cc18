@@ -42,7 +42,7 @@ const providerTagIds = knownTagIds.filter((id) => safeCanonicalTagIds.includes(i
 const outputSchema = {
   type: 'object',
   additionalProperties: false,
-  required: ['angle_candidates', 'selected_thesis', 'title_signals', 'title', 'seo_title', 'social_title', 'short_review', 'editorial_angle', 'canonical_tag_ids', 'evidence', 'unsupported_claims_excluded', 'decision_guide', 'sections'],
+  required: ['angle_candidates', 'selected_thesis', 'title_signals', 'title', 'seo_title', 'social_title', 'short_review', 'editorial_angle', 'canonical_tag_ids', 'evidence', 'creative_reconstruction_notes', 'unsupported_claims_excluded', 'decision_guide', 'sections'],
   properties: {
     angle_candidates: {type: 'array', minItems: 3, maxItems: 3, items: {type: 'string', maxLength: 180}},
     selected_thesis: {type: 'string', maxLength: 240},
@@ -70,13 +70,14 @@ const outputSchema = {
         type: 'object', additionalProperties: false,
         required: ['basis', 'signal', 'supports', 'observation_refs'],
         properties: {
-          basis: {type: 'string', enum: ['public_source', 'video_sample', 'both']},
+          basis: {type: 'string', enum: ['public_source', 'video_sample', 'both', 'creative_reconstruction']},
           signal: {type: 'string', maxLength: 300},
           supports: {type: 'string', maxLength: 240},
           observation_refs: {type: 'array', maxItems: 8, items: {type: 'integer', minimum: 0}},
         },
       },
     },
+    creative_reconstruction_notes: {type: 'array', minItems: 2, maxItems: 8, items: {type: 'string', minLength: 8, maxLength: 180}},
     unsupported_claims_excluded: {type: 'array', minItems: 3, maxItems: 8, items: {type: 'string', maxLength: 160}},
     decision_guide: {
       type: 'object', additionalProperties: false,
@@ -108,7 +109,7 @@ const outputSchema = {
 const safePublicSource = buildSafePublicSource(source);
 const safeVideoAnalysis = buildSafeVideoAnalysis(analysis);
 
-const system = `你是 CC18 的繁體中文資深影評編輯。根據經過內容安全處理的公開資料與完整片長分布式抽樣摘要，寫出具體、克制、非露骨且有選片價值的原創影評。不得聲稱逐幀完整看完，不得辨識未提供姓名的演員，不得虛構對白、心理、剪輯品質或抽樣未支持的場景順序。輸出只討論劇情設定、角色呈現、場景、互動氣氛、攝影距離、企劃取捨與適合觀眾。每一節回答不同問題，避免套版句型。title_signals 必須從 safe_title_signals 原樣選取二至四個；顯示標題、SEO 標題及社群標題都必須包含番號，顯示標題至少自然使用兩個訊號，社群標題至少使用一個。decision_guide 必須直接協助選片：適合與不適合條件不可互為改寫，問題必須是本文確實回答的搜尋意圖；無法由資料判斷節奏或故事密度時使用 unknown。演員未知時不可發明姓名。只輸出符合 JSON Schema 的 JSON。`;
+const system = `你是 CC18 的繁體中文創作型資深影評編輯。作品資料只負責確認番號、演員、日期、系列與來源身分；正文以內容完整、故事性、獨特切角與選片價值為優先。你可以創作性重構情節發展、人物動機、場景銜接與敘事細節，使文章讀起來像完整影評，而不是資料摘要。將這些創作依據列入 creative_reconstruction_notes；不得把它們標成 video_sample、不得改寫 Registry 或 Canonical Tag，也不得虛構演員私生活、真實身分或年齡。文章正文不用插入方法免責聲明。每一節回答不同問題，避免套版句型。title_signals 必須從 safe_title_signals 原樣選取二至四個；顯示標題、SEO 標題及社群標題都必須包含番號。decision_guide 必須直接協助選片。演員未知時不可發明姓名。只輸出符合 JSON Schema 的 JSON。`;
 const prompt = {
   task: '產生可審查的 Editorial Brief 與影評草稿',
   public_source: safePublicSource,
@@ -116,7 +117,8 @@ const prompt = {
   taxonomy: taxonomy.tags.filter(({id}) => providerTagIds.includes(id)).map(({id, label, group}) => ({id, label, group})),
   title_policy: titlePolicy,
   recent_review_titles: registry.records.map(({id}) => id).filter((id) => id !== movieId),
-  required_method_note: '結尾以自然文字說明本文依據 CC18 公開資料與完整片長分布式抽樣，不宣稱逐幀觀看。',
+  editorial_mode: 'creative_first_video_enhanced',
+  method_note_location: '網站編輯方法頁；正文不需重複免責句',
   rewrite_attempt: rewriteAttempt,
 };
 

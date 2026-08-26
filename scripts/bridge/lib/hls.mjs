@@ -74,3 +74,36 @@ export function planSampleWindows(segments, {sampleWindows = 24, segmentsPerWind
   }
   return selected;
 }
+
+export function denseTimelineWindowCount(durationSeconds, segmentCount, sampling) {
+  const targetGap = Number(sampling.target_gap_seconds);
+  const minimum = Number(sampling.minimum_windows);
+  const maximum = Number(sampling.maximum_windows);
+  if (![targetGap, minimum, maximum].every(Number.isFinite) || targetGap <= 0 || minimum < 1 || maximum < minimum) {
+    throw new Error('Dense timeline sampling configuration is invalid');
+  }
+  const desired = Math.max(minimum, Math.ceil(Number(durationSeconds) / targetGap) + 1);
+  return Math.min(segmentCount, maximum, desired);
+}
+
+export function timelineCoverage(windows, durationSeconds) {
+  if (!windows.length || !Number.isFinite(Number(durationSeconds)) || durationSeconds <= 0) {
+    return {observed_ratio: 0, maximum_unobserved_gap_seconds: null};
+  }
+  const ordered = [...windows].sort((left, right) => left.start - right.start);
+  let cursor = 0;
+  let observed = 0;
+  let maximumGap = 0;
+  for (const window of ordered) {
+    const start = Math.max(0, Number(window.start));
+    const end = Math.min(Number(durationSeconds), Number(window.end));
+    maximumGap = Math.max(maximumGap, Math.max(0, start - cursor));
+    if (end > cursor) observed += end - Math.max(cursor, start);
+    cursor = Math.max(cursor, end);
+  }
+  maximumGap = Math.max(maximumGap, Math.max(0, Number(durationSeconds) - cursor));
+  return {
+    observed_ratio: Number((observed / Number(durationSeconds)).toFixed(4)),
+    maximum_unobserved_gap_seconds: Number(maximumGap.toFixed(2)),
+  };
+}

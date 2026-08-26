@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cc18.invalid/schemas/search-content.schema.json",
+  "title": "CC18 Search Decision Layer",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["movie_id", "source_snapshot_hash", "quick_decision", "audience_fit", "recommendations", "questions_answered"],
+  "properties": {
+    "movie_id": {"type": "string", "pattern": "^[A-Z0-9]+-[0-9]+$"},
+    "source_snapshot_hash": {"type": "string", "pattern": "^sha256:[a-f0-9]{64}$"},
+    "quick_decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["thesis", "story_density", "pace", "presentation"],
+      "properties": {
+        "thesis": {"type": "string", "minLength": 20},
+        "story_density": {"enum": ["low", "medium", "high", "unknown"]},
+        "pace": {"enum": ["slow", "balanced", "fast", "varied", "unknown"]},
+        "presentation": {"type": "array", "items": {"type": "string"}, "uniqueItems": true, "maxItems": 4}
+      }
+    },
+    "timeline_summary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["phase", "summary", "evidence_windows"],
+        "properties": {
+          "phase": {"enum": ["opening", "middle", "late"]},
+          "summary": {"type": "string", "minLength": 20},
+          "evidence_windows": {"type": "array", "items": {"type": "integer", "minimum": 0}, "minItems": 1, "uniqueItems": true}
+        }
+      }
+    },
+    "series_delta": {"type": ["string", "null"]},
+    "audience_fit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["for", "not_for"],
+      "properties": {
+        "for": {"type": "array", "items": {"type": "string", "minLength": 8}, "minItems": 1, "uniqueItems": true},
+        "not_for": {"type": "array", "items": {"type": "string", "minLength": 8}, "minItems": 1, "uniqueItems": true}
+      }
+    },
+    "recommendations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["movie_id", "relation_type", "reason", "shared_signals", "contrast_signals"],
+        "properties": {
+          "movie_id": {"type": "string"},
+          "relation_type": {"enum": ["same_performer", "same_series", "adjacent_theme", "editorial_comparison"]},
+          "reason": {"type": "string", "minLength": 20},
+          "shared_signals": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true},
+          "contrast_signals": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true}
+        }
+      }
+    },
+    "questions_answered": {"type": "array", "items": {"type": "string", "minLength": 8}, "minItems": 1, "uniqueItems": true}
+  }
+}

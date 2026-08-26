@@ -1,6 +1,6 @@
 # CC18 review critic contract
 
-Evaluate the draft against `config/review-policy.json` and `config/review-scorecard.json`. The source record is authoritative. Do not reward elegant unsupported claims.
+Evaluate the draft against `config/review-policy.json` and `config/review-scorecard.json`. Source fields are authoritative only for work identity. Creative reconstruction in the editorial prose is allowed and should be rewarded when it is coherent, distinctive and useful; do not misclassify it as Video Evidence or Registry truth.
 
 Also validate all three title layers against `config/title-policy.json`: exact source preservation, source-signal coverage in the display title, and search-intent coverage in the SEO title.
 

@@ -1,7 +1,7 @@
 param(
   [string]$TaskName = 'CC18-Production-Cycle',
   [int]$IntervalMinutes = 60,
-  [int]$MaximumJobs = 3,
+  [int]$MaximumJobs = 1,
   [switch]$WithEditorial
 )
 
