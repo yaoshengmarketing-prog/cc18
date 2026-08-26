@@ -1,16 +1,30 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import {assertEditorialProviderReady, extractResponseText, requestStructuredEditorial, usageReceipt} from '../scripts/editorial/lib/openai-writer.mjs';
+import {readFile} from 'node:fs/promises';
+import {assertEditorialProviderReady, extractResponseText, requestStructuredEditorial, responsesEndpoint, usageReceipt} from '../scripts/editorial/lib/openai-writer.mjs';
 
 const config = {
-  provider: 'openai', model: 'gpt-5.4', reasoning_effort: 'medium', max_output_tokens: 100,
+  provider: 'aitokenking', base_url: 'https://api.aitokenking.com.tw/api/v1', api_key_env: 'AITOKENKING_API_KEY',
+  allowed_hosts: ['api.aitokenking.com.tw'], model: 'gpt-5.4', reasoning_effort: 'medium', max_output_tokens: 100,
   request_timeout_seconds: 1, api_retry_count: 1, store: false,
-  pricing: {as_of: '2026-08-26', input_per_million_tokens: 2.5, cached_input_per_million_tokens: 0.25, output_per_million_tokens: 15},
+  pricing: {
+    as_of: '2026-08-26', input_per_million_tokens: 5, cached_input_per_million_tokens: 0.5, output_per_million_tokens: 22.5,
+    payg_recharge_fee_percent: 5,
+    direct_openai_reference: {input_per_million_tokens: 2.5, cached_input_per_million_tokens: 0.25, output_per_million_tokens: 15},
+  },
 };
+
+test('repository provider configuration resolves to the allowlisted gateway endpoint', async () => {
+  const repositoryConfig = JSON.parse(await readFile(new URL('../config/editorial-model.json', import.meta.url), 'utf8'));
+  assert.equal(repositoryConfig.api_key_env, 'AITOKENKING_API_KEY');
+  assert.equal(responsesEndpoint(repositoryConfig), 'https://api.aitokenking.com.tw/api/v1/responses');
+});
 
 test('provider preflight fails closed without a key', () => {
   assert.throws(() => assertEditorialProviderReady(config, {}), {code: 'EDITORIAL_PROVIDER_NOT_CONFIGURED'});
-  assert.doesNotThrow(() => assertEditorialProviderReady(config, {OPENAI_API_KEY: 'test-only'}));
+  assert.doesNotThrow(() => assertEditorialProviderReady(config, {AITOKENKING_API_KEY: 'test-only'}));
+  assert.equal(responsesEndpoint(config), 'https://api.aitokenking.com.tw/api/v1/responses');
+  assert.throws(() => responsesEndpoint({...config, base_url: 'https://example.com/v1'}), /not allowlisted/);
 });
 
 test('response text and estimated usage are extracted without storing content', () => {
@@ -21,8 +35,9 @@ test('response text and estimated usage are extracted without storing content', 
   };
   assert.equal(extractResponseText(response), '{"ok":true}');
   assert.deepEqual(usageReceipt(response, config), {
-    provider: 'openai', model: 'gpt-5.4-2026-08-06', input_tokens: 1000, cached_input_tokens: 200,
-    output_tokens: 500, total_tokens: 1500, estimated_cost_usd: 0.00955, pricing_as_of: '2026-08-26', store: false,
+    provider: 'aitokenking', model: 'gpt-5.4-2026-08-06', input_tokens: 1000, cached_input_tokens: 200,
+    output_tokens: 500, total_tokens: 1500, estimated_cost_usd: 0.01535, estimated_payg_cash_cost_usd: 0.016117,
+    direct_openai_reference_usd: 0.00955, gateway_premium_usd: 0.0058, pricing_as_of: '2026-08-26', store: false,
   });
 });
 

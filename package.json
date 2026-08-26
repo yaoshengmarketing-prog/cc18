@@ -33,6 +33,7 @@
     "editorial:build": "node scripts/editorial/build-from-analysis.mjs",
     "editorial:qa": "node scripts/editorial/qa-draft.mjs",
     "editorial:provider:test": "node --test tests/editorial-provider.test.mjs",
+    "editorial:provider:smoke": "node scripts/editorial/provider-smoke.mjs",
     "editorial:d1:handoff": "node scripts/editorial/handoff-d1.mjs",
     "video:studio": "remotion studio video/src/index.ts --no-open",
     "video:still": "remotion still video/src/index.ts CC18Vertical video/out/preview.png --frame=120 --props=video/examples/demo.json",

@@ -4,7 +4,7 @@ import {mkdir, readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {spawn} from 'node:child_process';
 import {queueStoreFromEnvironment} from '../queue/store.mjs';
-import {assertEditorialProviderReady} from './lib/openai-writer.mjs';
+import {assertEditorialProviderReady, loadLocalEditorialEnvironment} from './lib/openai-writer.mjs';
 
 const movieId = process.argv[2]?.trim().toUpperCase();
 const qaOnly = process.argv.includes('--qa-only');
@@ -13,6 +13,7 @@ if (!movieId || !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId)) {
 }
 
 const root = resolve(import.meta.dirname, '..', '..');
+loadLocalEditorialEnvironment(root);
 const pipeline = JSON.parse(await readFile(resolve(root, 'config/pipeline.json'), 'utf8'));
 const editorialModel = JSON.parse(await readFile(resolve(root, 'config/editorial-model.json'), 'utf8'));
 assertEditorialProviderReady(editorialModel);

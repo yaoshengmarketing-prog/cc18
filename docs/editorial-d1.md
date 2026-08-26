@@ -27,18 +27,26 @@ npm run editorial:d1:handoff -- APNS-419 --qa-only
 
 ## 正式 Writer 設定
 
-Writer 使用 OpenAI Responses API 與嚴格 JSON Schema。模型、推理強度、輸出上限、QA 重寫上限與估算單價集中在 `config/editorial-model.json`，不寫死在流程程式中。預設使用 `gpt-5.4`，品質優先；`store` 固定為 `false`。
+Writer 使用 AItokenKing 的 OpenAI Responses 相容 API 與嚴格 JSON Schema。模型、Base URL、金鑰變數名、主機 allowlist、推理強度、輸出上限、QA 重寫上限與估算單價集中在 `config/editorial-model.json`，不寫死在流程程式中。預設使用 `gpt-5.4`，品質優先；`store` 固定為 `false`。
 
-本機執行前，在目前 PowerShell 工作階段安全設定金鑰：
+本機金鑰只放在已由 `.gitignore` 排除的 `.dev.vars`：
+
+```dotenv
+AITOKENKING_API_KEY=你的金鑰
+```
+
+連線驗證與正式接棒：
 
 ```powershell
-$env:OPENAI_API_KEY = "你的金鑰"
+npm run editorial:provider:smoke
 npm run editorial:d1:handoff -- <MOVIE-ID>
 ```
 
-金鑰只來自環境變數，不得寫入 repo、Source Record、D1 工作或 log。若沒有金鑰，handoff 會在讀寫 D1 佇列前以 `EDITORIAL_PROVIDER_NOT_CONFIGURED` 停止。
+金鑰只由本機秘密檔或環境變數載入，不得寫入 repo、Source Record、D1 工作或 log。若沒有金鑰，handoff 會在讀寫 D1 佇列前以 `EDITORIAL_PROVIDER_NOT_CONFIGURED` 停止。
 
-每次模型呼叫的模型名、token 數、價格基準日與估算 USD 記在 `data/editorial-usage/<MOVIE-ID>.json`。QA 重寫會新增一筆 call 並更新 totals；該檔案不含提示詞、模型全文、API response id 或金鑰。
+每次模型呼叫的模型名、token 數、價格基準日、AItokenKing 積分／Pay-as-you-go 現金估算與 OpenAI 直連參考成本記在 `data/editorial-usage/<MOVIE-ID>.json`。QA 重寫會新增一筆 call 並更新 totals；該檔案不含提示詞、模型全文、API response id 或金鑰。
+
+2026-08-26 smoke test 已確認 `gpt-5.4`、Responses 與 strict JSON Schema 可用：40 input、9 output、共 49 tokens；AItokenKing 估算 0.000403 積分，OpenAI 直連參考約 US$0.000235。價格比較只用於成本透明，不自動切換供應商。
 
 API 暫時性錯誤與內容重寫分開計數：可重試的 HTTP／網路錯誤依 `api_retry_count` 短暫重送；內容未達 QA 門檻則依 `qa_rewrite_limit` 重寫。兩者皆有明確上限。
 

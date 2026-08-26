@@ -1,7 +1,7 @@
 import {createHash} from 'node:crypto';
 import {mkdir, readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
-import {assertEditorialProviderReady, requestStructuredEditorial} from './lib/openai-writer.mjs';
+import {assertEditorialProviderReady, editorialApiKey, loadLocalEditorialEnvironment, requestStructuredEditorial} from './lib/openai-writer.mjs';
 
 const movieId = process.argv[2];
 if (!movieId || !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId)) {
@@ -9,6 +9,7 @@ if (!movieId || !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId)) {
 }
 
 const root = resolve(import.meta.dirname, '..', '..');
+loadLocalEditorialEnvironment(root);
 const analysisArgument = process.argv.find((argument) => argument.startsWith('--analysis='))?.slice('--analysis='.length);
 const feedbackArgument = process.argv.find((argument) => argument.startsWith('--qa-feedback='))?.slice('--qa-feedback='.length);
 const rewriteAttempt = Number(process.argv.find((argument) => argument.startsWith('--rewrite-attempt='))?.slice('--rewrite-attempt='.length) ?? 0);
@@ -143,7 +144,7 @@ if (feedbackArgument) {
 
 assertEditorialProviderReady(editorialModel);
 const generation = await requestStructuredEditorial({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: editorialApiKey(editorialModel),
   config: editorialModel,
   schema: outputSchema,
   instructions: system,
@@ -310,6 +311,9 @@ await writeFile(usagePath, `${JSON.stringify({
     cached_input_tokens: usageCalls.reduce((sum, call) => sum + call.cached_input_tokens, 0),
     output_tokens: usageCalls.reduce((sum, call) => sum + call.output_tokens, 0),
     estimated_cost_usd: Number(usageCalls.reduce((sum, call) => sum + (call.estimated_cost_usd ?? 0), 0).toFixed(6)),
+    estimated_payg_cash_cost_usd: Number(usageCalls.reduce((sum, call) => sum + (call.estimated_payg_cash_cost_usd ?? 0), 0).toFixed(6)),
+    direct_openai_reference_usd: Number(usageCalls.reduce((sum, call) => sum + (call.direct_openai_reference_usd ?? 0), 0).toFixed(6)),
+    gateway_premium_usd: Number(usageCalls.reduce((sum, call) => sum + (call.gateway_premium_usd ?? 0), 0).toFixed(6)),
   },
 }, null, 2)}\n`);
 

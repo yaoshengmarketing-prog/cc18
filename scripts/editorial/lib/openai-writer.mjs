@@ -1,15 +1,44 @@
-const RESPONSES_URL = 'https://api.openai.com/v1/responses';
+import {resolve} from 'node:path';
 
 const wait = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
 
+const tokenCost = ({inputTokens, cachedInputTokens, outputTokens}, pricing) => {
+  if (!pricing) return null;
+  const uncachedInputTokens = Math.max(0, inputTokens - cachedInputTokens);
+  return (uncachedInputTokens * pricing.input_per_million_tokens
+    + cachedInputTokens * pricing.cached_input_per_million_tokens
+    + outputTokens * pricing.output_per_million_tokens) / 1_000_000;
+};
+
+export function loadLocalEditorialEnvironment(root) {
+  try {
+    process.loadEnvFile(resolve(root, '.dev.vars'));
+  } catch (error) {
+    if (error?.code !== 'ENOENT') throw error;
+  }
+}
+
+export function editorialApiKey(config, environment = process.env) {
+  return environment[config.api_key_env ?? 'OPENAI_API_KEY']?.trim();
+}
+
 export function assertEditorialProviderReady(config, environment = process.env) {
-  if (config.provider !== 'openai') return;
-  if (!environment.OPENAI_API_KEY?.trim()) {
+  const keyName = config.api_key_env ?? 'OPENAI_API_KEY';
+  if (!editorialApiKey(config, environment)) {
     throw Object.assign(
-      new Error('OPENAI_API_KEY is not configured; editorial job was not claimed'),
+      new Error(`${keyName} is not configured; editorial job was not claimed`),
       {code: 'EDITORIAL_PROVIDER_NOT_CONFIGURED'},
     );
   }
+}
+
+export function responsesEndpoint(config) {
+  const base = new URL(config.base_url ?? 'https://api.openai.com/v1');
+  const allowedHosts = config.allowed_hosts ?? ['api.openai.com'];
+  if (base.protocol !== 'https:' || !allowedHosts.includes(base.hostname)) {
+    throw new Error(`Editorial provider host is not allowlisted: ${base.hostname}`);
+  }
+  return new URL(`${base.pathname.replace(/\/$/, '')}/responses`, base.origin).toString();
 }
 
 export function extractResponseText(response) {
@@ -24,22 +53,24 @@ export function extractResponseText(response) {
 export function usageReceipt(response, config) {
   const inputTokens = response.usage?.input_tokens ?? 0;
   const cachedInputTokens = response.usage?.input_tokens_details?.cached_tokens ?? 0;
-  const uncachedInputTokens = Math.max(0, inputTokens - cachedInputTokens);
   const outputTokens = response.usage?.output_tokens ?? 0;
   const pricing = config.pricing;
-  const estimatedUsd = pricing
-    ? (uncachedInputTokens * pricing.input_per_million_tokens
-      + cachedInputTokens * pricing.cached_input_per_million_tokens
-      + outputTokens * pricing.output_per_million_tokens) / 1_000_000
-    : null;
+  const estimatedUsd = tokenCost({inputTokens, cachedInputTokens, outputTokens}, pricing);
+  const directOpenaiUsd = tokenCost({inputTokens, cachedInputTokens, outputTokens}, pricing?.direct_openai_reference);
+  const paygCashUsd = estimatedUsd === null
+    ? null
+    : estimatedUsd * (1 + Number(pricing?.payg_recharge_fee_percent ?? 0) / 100);
   return {
-    provider: 'openai',
+    provider: config.provider,
     model: response.model ?? config.model,
     input_tokens: inputTokens,
     cached_input_tokens: cachedInputTokens,
     output_tokens: outputTokens,
     total_tokens: response.usage?.total_tokens ?? inputTokens + outputTokens,
     estimated_cost_usd: estimatedUsd === null ? null : Number(estimatedUsd.toFixed(6)),
+    estimated_payg_cash_cost_usd: paygCashUsd === null ? null : Number(paygCashUsd.toFixed(6)),
+    direct_openai_reference_usd: directOpenaiUsd === null ? null : Number(directOpenaiUsd.toFixed(6)),
+    gateway_premium_usd: estimatedUsd === null || directOpenaiUsd === null ? null : Number((estimatedUsd - directOpenaiUsd).toFixed(6)),
     pricing_as_of: pricing?.as_of ?? null,
     store: false,
   };
@@ -59,7 +90,7 @@ export async function requestStructuredEditorial({
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), Number(config.request_timeout_seconds ?? 300) * 1000);
     try {
-      const response = await fetchImplementation(RESPONSES_URL, {
+      const response = await fetchImplementation(responsesEndpoint(config), {
         method: 'POST',
         headers: {
           authorization: `Bearer ${apiKey}`,
