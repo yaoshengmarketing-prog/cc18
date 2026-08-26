@@ -1,4 +1,5 @@
 import {mkdir, readFile, rename, writeFile} from 'node:fs/promises';
+import {existsSync} from 'node:fs';
 import {dirname, resolve} from 'node:path';
 import {randomUUID} from 'node:crypto';
 
@@ -190,6 +191,31 @@ export class FileQueueStore {
     await this.save(state);
     return structuredClone(job);
   }
+
+  async requeueRetry({jobId, allowedErrorCodes, now = new Date()}) {
+    const state = await this.read();
+    const job = state.jobs.find((item) => item.id === jobId && item.status === 'retry' && allowedErrorCodes.includes(item.last_error_code));
+    if (!job) return null;
+    job.status = 'queued';
+    job.next_retry_at = null;
+    job.last_error_code = null;
+    job.updated_at = now.toISOString();
+    await this.save(state);
+    return structuredClone(job);
+  }
+
+  async completeBlockedAfterQa({jobId, allowedErrorCodes, now = new Date()}) {
+    const state = await this.read();
+    const job = state.jobs.find((item) => item.id === jobId && item.status === 'blocked' && allowedErrorCodes.includes(item.last_error_code));
+    if (!job) return null;
+    job.status = 'completed';
+    job.completed_at = now.toISOString();
+    job.next_retry_at = null;
+    job.last_error_code = null;
+    job.updated_at = now.toISOString();
+    await this.save(state);
+    return structuredClone(job);
+  }
 }
 
 export class D1RestQueueStore {
@@ -348,15 +374,41 @@ export class D1RestQueueStore {
     });
     return result.results?.[0] ?? null;
   }
+
+  async requeueRetry({jobId, allowedErrorCodes, now = new Date()}) {
+    if (!allowedErrorCodes?.length) throw new Error('requeueRetry requires allowed error codes');
+    const placeholders = allowedErrorCodes.map(() => '?').join(',');
+    const [result] = await this.query({
+      sql: `UPDATE pipeline_jobs SET status='queued', next_retry_at=NULL, last_error_code=NULL, updated_at=?
+            WHERE id=? AND status='retry' AND last_error_code IN (${placeholders}) RETURNING *`,
+      params: [now.toISOString(), jobId, ...allowedErrorCodes],
+    });
+    return result.results?.[0] ?? null;
+  }
+
+  async completeBlockedAfterQa({jobId, allowedErrorCodes, now = new Date()}) {
+    if (!allowedErrorCodes?.length) throw new Error('completeBlockedAfterQa requires allowed error codes');
+    const placeholders = allowedErrorCodes.map(() => '?').join(',');
+    const [result] = await this.query({
+      sql: `UPDATE pipeline_jobs SET status='completed', completed_at=?, next_retry_at=NULL, last_error_code=NULL, updated_at=?
+            WHERE id=? AND status='blocked' AND last_error_code IN (${placeholders}) RETURNING *`,
+      params: [now.toISOString(), now.toISOString(), jobId, ...allowedErrorCodes],
+    });
+    return result.results?.[0] ?? null;
+  }
 }
 
 export function queueStoreFromEnvironment({mode = 'file', filePath = 'data/pipeline-queue.json', fetchImpl} = {}) {
   if (mode === 'file') return new FileQueueStore(filePath);
-  if (mode === 'd1') return new D1RestQueueStore({
-    accountId: process.env.CLOUDFLARE_ACCOUNT_ID,
-    databaseId: process.env.CLOUDFLARE_D1_DATABASE_ID,
-    apiToken: process.env.CLOUDFLARE_API_TOKEN,
-    fetchImpl,
-  });
+  if (mode === 'd1') {
+    const localBridgeEnvironment = resolve(import.meta.dirname, '..', '..', '.dev.vars.bridge');
+    if (existsSync(localBridgeEnvironment)) process.loadEnvFile(localBridgeEnvironment);
+    return new D1RestQueueStore({
+      accountId: process.env.CLOUDFLARE_ACCOUNT_ID,
+      databaseId: process.env.CLOUDFLARE_D1_DATABASE_ID,
+      apiToken: process.env.CLOUDFLARE_API_TOKEN,
+      fetchImpl,
+    });
+  }
   throw new Error(`Unknown queue store mode: ${mode}`);
 }

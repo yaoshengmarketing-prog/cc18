@@ -2,6 +2,8 @@ import {createHash} from 'node:crypto';
 import {mkdir, readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {assertEditorialProviderReady, editorialApiKey, loadLocalEditorialEnvironment, requestStructuredEditorial} from './lib/openai-writer.mjs';
+import {buildSafePublicSource, buildSafeVideoAnalysis, safeCanonicalTagIds} from './lib/safe-editorial-payload.mjs';
+import {normalizeEditorialResult, parseFirstJsonObject} from './lib/provider-normalization.mjs';
 
 const movieId = process.argv[2];
 if (!movieId || !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId)) {
@@ -16,27 +18,6 @@ const rewriteAttempt = Number(process.argv.find((argument) => argument.startsWit
 const normalizedTag = (value) => value.normalize('NFKC').trim();
 const json = async (path) => JSON.parse(await readFile(resolve(root, path), 'utf8'));
 
-function parseStructuredJson(value) {
-  const source = value.trim().replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '');
-  let output = '';
-  let inString = false;
-  let escaped = false;
-  for (const char of source) {
-    if (inString && !escaped && (char === '\n' || char === '\r')) {
-      output += '\\n';
-      continue;
-    }
-    output += char;
-    if (escaped) {
-      escaped = false;
-    } else if (char === '\\' && inString) {
-      escaped = true;
-    } else if (char === '"') {
-      inString = !inString;
-    }
-  }
-  return JSON.parse(output);
-}
 const source = await json(`data/source-records/${movieId}.json`);
 const taxonomy = await json('data/taxonomy.json');
 const registry = await json('data/movie-registry.json');
@@ -54,6 +35,7 @@ const analysis = JSON.parse(await readFile(analysisPath, 'utf8'));
 if (analysis.movie_id !== movieId) throw new Error(`${movieId}: analysis belongs to ${analysis.movie_id}`);
 
 const knownTagIds = taxonomy.tags.map(({id}) => id);
+const providerTagIds = knownTagIds.filter((id) => safeCanonicalTagIds.includes(id));
 const outputSchema = {
   type: 'object',
   additionalProperties: false,
@@ -78,7 +60,7 @@ const outputSchema = {
     social_title: {type: 'string', maxLength: 90},
     short_review: {type: 'string', maxLength: 240},
     editorial_angle: {type: 'string', maxLength: 300},
-    canonical_tag_ids: {type: 'array', minItems: 2, maxItems: 6, uniqueItems: true, items: {type: 'string', enum: knownTagIds}},
+    canonical_tag_ids: {type: 'array', minItems: 2, maxItems: 6, uniqueItems: true, items: {type: 'string', enum: providerTagIds}},
     evidence: {
       type: 'array', minItems: 5, maxItems: 10,
       items: {
@@ -107,26 +89,15 @@ const outputSchema = {
   },
 };
 
-const observations = analysis.visual_observations.map((item) => ({
-  i: item.sample_index,
-  at: Math.round(item.source_start_seconds),
-  setting: item.setting.slice(0, 120),
-  cues: item.narrative_cues.slice(0, 3),
-  tone: item.interaction_tone.slice(0, 120),
-  camera: item.camera_style.slice(0, 2),
-}));
+const safePublicSource = buildSafePublicSource(source);
+const safeVideoAnalysis = buildSafeVideoAnalysis(analysis);
 
-const system = `你是 CC18 的繁體中文資深影評編輯。根據公開作品資料與橫跨完整片長的代表性影片抽樣，寫出具體、克制、非露骨且有選片價值的原創影評。不得聲稱逐幀完整看完，不得辨識未提供姓名的演員，不得虛構對白、心理、剪輯品質或抽樣未支持的場景順序。來源含成人題材，但輸出只討論劇情設定、角色轉折、場景、互動氣氛、攝影距離、企劃取捨與適合觀眾。每一節回答不同問題，避免套版句型。先從公開來源抽出二至四個可逐字追溯的短 title_signals；顯示標題、SEO 標題及社群標題都必須包含番號，顯示標題至少自然使用兩個訊號，社群標題至少使用一個。演員未知時不可發明姓名。日文原名不存在時不可由中文反向杜撰。只輸出符合 JSON Schema 的 JSON。`;
+const system = `你是 CC18 的繁體中文資深影評編輯。根據經過內容安全處理的公開資料與完整片長分布式抽樣摘要，寫出具體、克制、非露骨且有選片價值的原創影評。不得聲稱逐幀完整看完，不得辨識未提供姓名的演員，不得虛構對白、心理、剪輯品質或抽樣未支持的場景順序。輸出只討論劇情設定、角色呈現、場景、互動氣氛、攝影距離、企劃取捨與適合觀眾。每一節回答不同問題，避免套版句型。title_signals 必須從 safe_title_signals 原樣選取二至四個；顯示標題、SEO 標題及社群標題都必須包含番號，顯示標題至少自然使用兩個訊號，社群標題至少使用一個。演員未知時不可發明姓名。只輸出符合 JSON Schema 的 JSON。`;
 const prompt = {
   task: '產生可審查的 Editorial Brief 與影評草稿',
-  public_source: source,
-  video_analysis: {
-    duration_seconds: analysis.source_duration_seconds,
-    sample_windows: analysis.coverage.sample_windows,
-    average_confidence: analysis.coverage.average_confidence,
-    observations,
-  },
-  taxonomy: taxonomy.tags.map(({id, label, group}) => ({id, label, group})),
+  public_source: safePublicSource,
+  video_analysis: safeVideoAnalysis,
+  taxonomy: taxonomy.tags.filter(({id}) => providerTagIds.includes(id)).map(({id, label, group}) => ({id, label, group})),
   title_policy: titlePolicy,
   recent_review_titles: registry.records.map(({id}) => id).filter((id) => id !== movieId),
   required_method_note: '結尾以自然文字說明本文依據 CC18 公開資料與完整片長分布式抽樣，不宣稱逐幀觀看。',
@@ -150,8 +121,30 @@ const generation = await requestStructuredEditorial({
   instructions: system,
   input: prompt,
 });
-const result = parseStructuredJson(generation.text);
+const result = normalizeEditorialResult(parseFirstJsonObject(generation.text), {movieId, safePublicSource, safeVideoAnalysis});
+const providerFields = Object.keys(result).sort();
+const providerFallbacks = [];
 
+if (!result.title?.trim()) throw new Error('Editorial provider returned no title');
+if (!result.seo_title?.trim()) {
+  result.seo_title = `${movieId} 影評｜${result.title}`.slice(0, 100);
+  providerFallbacks.push('seo_title');
+}
+if (!result.social_title?.trim()) {
+  result.social_title = result.title.slice(0, 90);
+  providerFallbacks.push('social_title');
+}
+if (!Array.isArray(result.title_signals) || result.title_signals.length < 2) {
+  result.title_signals = safePublicSource.safe_title_signals.slice(0, 4);
+  providerFallbacks.push('title_signals');
+}
+for (const requiredArray of ['angle_candidates', 'canonical_tag_ids', 'evidence', 'unsupported_claims_excluded', 'sections']) {
+  if (!Array.isArray(result[requiredArray])) throw new Error(`Editorial provider returned no ${requiredArray}; fields=${providerFields.join(',')}`);
+}
+for (const requiredText of ['selected_thesis', 'short_review', 'editorial_angle']) {
+  if (!result[requiredText]?.trim()) throw new Error(`Editorial provider returned no ${requiredText}; fields=${providerFields.join(',')}`);
+}
+console.log(JSON.stringify({event: 'editorial_provider_shape', fields: providerFields, local_fallbacks: providerFallbacks}));
 if (!result.title.includes(movieId)) result.title = `${movieId} ${result.title}`.slice(0, 90);
 if (!result.seo_title.includes(movieId)) result.seo_title = `${movieId} 影評｜${result.seo_title}`.slice(0, 100);
 if (!result.social_title.includes(movieId)) result.social_title = `${movieId}｜${result.social_title}`.slice(0, 90);
@@ -160,6 +153,7 @@ const sourceTextByField = {
   description: source.description ?? '',
   actress: (source.actress ?? []).join('、'),
   series: source.series ?? '',
+  safe_signals: safePublicSource.safe_title_signals.map(({value}) => value).join('、'),
 };
 for (const signal of result.title_signals) {
   if (!sourceTextByField[signal.source_field]?.includes(signal.value)) {
@@ -212,8 +206,8 @@ actress:
 ${yamlList(source.actress ?? [])}
 releaseDate: ${source.release_date}
 publishedAt: ${today}
-studio: ${yamlText(source.studio)}
-series: ${yamlText(source.series)}
+studio: ${yamlText(source.studio ?? '')}
+series: ${yamlText(source.series ?? '')}
 sourceUrl: ${source.source_url}
 sourceSite: cc18.tv
 coverUrl: ${source.cover_source_url}

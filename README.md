@@ -52,9 +52,9 @@ npm run bridge:d1:process-one
 
 ## Architecture
 
-- 最新套件來源：`architecture/cc18-architecture-v0.12.0-draft/`
-- 最新 ZIP：`architecture/releases/cc18-architecture-v0.12.0-draft.zip`
-- 前一版實作套件：`architecture/cc18-architecture-v0.11.0-draft/`
+- 最新套件來源：`architecture/cc18-architecture-v0.13.0-draft/`
+- 最新 ZIP：`architecture/releases/cc18-architecture-v0.13.0-draft.zip`
+- 前一版實作套件：`architecture/cc18-architecture-v0.12.0-draft/`
 - 第一版套件保留於 `architecture/cc18-architecture-v0.1.0-draft/`
 
 所有實作應引用架構文件、Schema 或 ADR。架構變更需產生新版本，不覆寫既有 ZIP。

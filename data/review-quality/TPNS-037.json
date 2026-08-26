@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "TPNS-037",
+  "review_sha256": "22bcad0e3b1d81a2655110d25ac28b837d5b879a79306c0a8787c31389fe804a",
+  "selected_thesis": "本片較像以形象企劃帶動觀看動機的長篇作品，核心賣點集中在「角色扮演」與「辣妹風格」兩個明確訊號，再以高畫質、獨家配信作為平台導向的包裝補強。就抽樣可見內容來看，場景多落在臥室型室內與一般室內，並穿插職場型、棚內與浴室型環境，整體不是靠複雜世界觀推進，而是靠不同空間切換維持節奏與新鮮感。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "角色扮演",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "辣妹風格",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "角色扮演",
+    "presentation_feature": "辣妹風格",
+    "editorial_judgment": "本片較像以形象企劃帶動觀看動機的長篇作品，核心賣點集中在「角色扮演」與「辣妹風格」兩個明確訊號，再以高畫質、獨家配信作為平台導向的包裝補強。就抽樣可見內容來看，場景多落在臥室型室內與一般室內，並穿插職場型、棚內與浴室型環境，整體不是靠複雜世界觀推進，而是靠不同空間切換維持節奏與新鮮感。",
+    "source_keywords": [
+      "角色扮演",
+      "辣妹風格",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "video_sample",
+      "signal": "職場型場景、中性互動、中景鏡位、一般鏡位",
+      "supports": "支持文章對場景配置、互動氣氛與攝影距離的概括",
+      "observation_refs": [
+        0
+      ]
+    },
+    {
+      "basis": "video_sample",
+      "signal": "臥室型室內場景、中性互動、近距離鏡位、一般鏡位",
+      "supports": "支持文章對場景配置、互動氣氛與攝影距離的概括",
+      "observation_refs": [
+        6
+      ]
+    },
+    {
+      "basis": "video_sample",
+      "signal": "一般室內場景、中性互動、近距離鏡位、一般鏡位",
+      "supports": "支持文章對場景配置、互動氣氛與攝影距離的概括",
+      "observation_refs": [
+        12
+      ]
+    },
+    {
+      "basis": "video_sample",
+      "signal": "一般室內場景、輕鬆互動、一般鏡位",
+      "supports": "支持文章對場景配置、互動氣氛與攝影距離的概括",
+      "observation_refs": [
+        18
+      ]
+    },
+    {
+      "basis": "video_sample",
+      "signal": "臥室型室內場景、中性互動、近距離鏡位、一般鏡位",
+      "supports": "支持文章對場景配置、互動氣氛與攝影距離的概括",
+      "observation_refs": [
+        23
+      ]
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未提供姓名時不辨識演員",
+    "不虛構對白或心理",
+    "不宣稱逐幀完整觀看"
+  ],
+  "scores": null,
+  "rewrite_attempts": 2,
+  "approved_for_publish": false
+}

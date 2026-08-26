@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "movie_id": "TPNS-037",
+  "calls": [
+    {
+      "generated_at": "2026-08-26T10:05:48.051Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2005,
+      "cached_input_tokens": 0,
+      "output_tokens": 2352,
+      "total_tokens": 4357,
+      "estimated_cost_usd": 0.062945,
+      "estimated_payg_cash_cost_usd": 0.066092,
+      "direct_openai_reference_usd": 0.040293,
+      "gateway_premium_usd": 0.022652,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    },
+    {
+      "generated_at": "2026-08-26T10:06:23.184Z",
+      "rewrite_attempt": 1,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2050,
+      "cached_input_tokens": 0,
+      "output_tokens": 2213,
+      "total_tokens": 4263,
+      "estimated_cost_usd": 0.060042,
+      "estimated_payg_cash_cost_usd": 0.063045,
+      "direct_openai_reference_usd": 0.03832,
+      "gateway_premium_usd": 0.021722,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    },
+    {
+      "generated_at": "2026-08-26T10:07:00.981Z",
+      "rewrite_attempt": 2,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2050,
+      "cached_input_tokens": 0,
+      "output_tokens": 2194,
+      "total_tokens": 4244,
+      "estimated_cost_usd": 0.059615,
+      "estimated_payg_cash_cost_usd": 0.062596,
+      "direct_openai_reference_usd": 0.038035,
+      "gateway_premium_usd": 0.02158,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 6105,
+    "cached_input_tokens": 0,
+    "output_tokens": 6759,
+    "estimated_cost_usd": 0.182602,
+    "estimated_payg_cash_cost_usd": 0.191733,
+    "direct_openai_reference_usd": 0.116648,
+    "gateway_premium_usd": 0.065954
+  }
+}

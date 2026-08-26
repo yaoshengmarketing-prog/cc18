@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cc18.invalid/schemas/review-output.schema.json",
+  "title": "CC18 Structured Review",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["movie_id", "title_identity", "titles", "title_signals", "short_review", "setting", "highlights", "role_fit", "series_difference", "audience", "verdict", "method_disclosure", "facts_used"],
+  "properties": {
+    "movie_id": {"type": "string"},
+    "title_identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_title", "original_title_ja", "translated_title_zh_tw"],
+      "properties": {
+        "source_title": {"type": "string", "minLength": 1},
+        "original_title_ja": {"type": ["string", "null"], "minLength": 1},
+        "translated_title_zh_tw": {"type": ["string", "null"], "minLength": 1}
+      }
+    },
+    "titles": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["display", "seo", "social", "version"],
+      "properties": {
+        "display": {"type": "string", "minLength": 10},
+        "seo": {"type": "string", "minLength": 10},
+        "social": {"type": "string", "minLength": 10},
+        "version": {"type": "integer", "minimum": 1}
+      }
+    },
+    "title_signals": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 4,
+      "items": {"$ref": "#/$defs/titleSignal"}
+    },
+    "short_review": {"type": "string", "minLength": 30},
+    "setting": {"type": "string", "minLength": 50},
+    "highlights": {"type": "string", "minLength": 80},
+    "role_fit": {"type": "string", "minLength": 50},
+    "series_difference": {"type": "string", "minLength": 30},
+    "audience": {"type": "string", "minLength": 30},
+    "verdict": {"type": "string", "minLength": 50},
+    "method_disclosure": {"type": "string", "minLength": 20},
+    "facts_used": {"type": "array", "items": {"enum": ["movie_id", "title", "release_date", "performers", "studio", "series", "synopsis", "source_tags"]}, "uniqueItems": true},
+    "video_copy": {
+      "type": "object",
+      "required": ["hook", "core_line", "cta"],
+      "properties": {
+        "hook": {"type": "string"},
+        "core_line": {"type": "string"},
+        "cta": {"type": "string"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "titleSignal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "value", "source_field"],
+      "properties": {
+        "type": {"enum": ["performer", "series", "relationship", "setting", "trigger", "transformation", "presentation", "theme"]},
+        "value": {"type": "string", "minLength": 1, "maxLength": 30},
+        "source_field": {"enum": ["title", "synopsis", "performers", "series"]}
+      }
+    }
+  }
+}

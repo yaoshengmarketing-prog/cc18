@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "TPNS-037",
+  "checked_at": "2026-08-26T10:08:53.717Z",
+  "passed": true,
+  "issues": [],
+  "metrics": {
+    "sections": 7,
+    "evidence_items": 5,
+    "distinct_video_windows": 5,
+    "repeated_sentence_groups": 0
+  }
+}

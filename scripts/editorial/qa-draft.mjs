@@ -1,5 +1,6 @@
 import {readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
+import {buildSafeTitleSignals} from './lib/safe-editorial-payload.mjs';
 
 const movieId = process.argv[2];
 if (!movieId) throw new Error('Usage: node scripts/editorial/qa-draft.mjs <MOVIE-ID>');
@@ -23,7 +24,13 @@ const sourceSignals = list('titleSignals');
 if (sourceSignals.length < 2 || sourceSignals.length > 4) issues.push('invalid_title_signal_count');
 if (sourceSignals.filter((value) => scalar('title').includes(value)).length < 2) issues.push('title_lacks_source_signals');
 if (!sourceSignals.some((value) => scalar('socialTitle').includes(value))) issues.push('social_title_lacks_source_signal');
-const searchableSource = [source.title, source.description, ...(source.actress ?? []), source.series].filter(Boolean).join('\n');
+const searchableSource = [
+  source.title,
+  source.description,
+  ...(source.actress ?? []),
+  source.series,
+  ...buildSafeTitleSignals(source).map(({value}) => value),
+].filter(Boolean).join('\n');
 if (sourceSignals.some((value) => !searchableSource.includes(value))) issues.push('untraceable_title_signal');
 if (!/分布式抽樣|代表性抽樣/.test(body)) issues.push('missing_method_disclosure');
 if (!/適合|偏好|推薦/.test(body) || !/未必|不適合|取捨/.test(body)) issues.push('missing_decision_value');

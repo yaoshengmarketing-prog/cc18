@@ -29,7 +29,7 @@
     "presentation",
     "theme"
   ],
-  "signal_source_fields": ["title", "description", "actress", "series"],
+  "signal_source_fields": ["title", "description", "actress", "series", "safe_signals"],
   "keyword_stack_strategy": {
     "required_inputs": ["catalog_number", "titleSignals", "editorial_judgment"],
     "minimum_title_signals": 2,

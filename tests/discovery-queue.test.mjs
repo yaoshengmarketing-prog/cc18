@@ -127,7 +127,18 @@ test('discovers every listing item, deduplicates persistently, and leases atomic
   assert.equal(await store.requeueBlocked({jobId: editorial.id, allowedErrorCodes: ['AUTH_REQUIRED'], now: new Date('2026-08-26T05:04:00Z')}), null);
   const requeued = await store.requeueBlocked({jobId: editorial.id, allowedErrorCodes: ['EDITORIAL_QA_FAILED'], now: new Date('2026-08-26T05:04:01Z')});
   assert.equal(requeued.status, 'queued');
-  assert.equal((await store.summary()).jobs_by_status.completed, 1);
+  const retryClaim = await store.claim({stage: 'editorial', jobId: editorial.id, workerId: 'editor-b', now: new Date('2026-08-26T05:04:02Z')});
+  await store.finishJob({jobId: retryClaim.id, workerId: 'editor-b', outcome: 'retry', errorCode: 'EDITORIAL_GENERATION_FAILED', now: new Date('2026-08-26T05:04:03Z')});
+  assert.equal(await store.requeueRetry({jobId: editorial.id, allowedErrorCodes: ['AUTH_REQUIRED'], now: new Date('2026-08-26T05:04:04Z')}), null);
+  const immediateRetry = await store.requeueRetry({jobId: editorial.id, allowedErrorCodes: ['EDITORIAL_GENERATION_FAILED'], now: new Date('2026-08-26T05:04:05Z')});
+  assert.equal(immediateRetry.status, 'queued');
+  const finalClaim = await store.claim({stage: 'editorial', jobId: editorial.id, workerId: 'editor-c', now: new Date('2026-08-26T05:04:06Z')});
+  await store.finishJob({jobId: finalClaim.id, workerId: 'editor-c', outcome: 'blocked', errorCode: 'EDITORIAL_QA_FAILED', now: new Date('2026-08-26T05:04:07Z')});
+  assert.equal(await store.completeBlockedAfterQa({jobId: editorial.id, allowedErrorCodes: ['AUTH_REQUIRED'], now: new Date('2026-08-26T05:04:08Z')}), null);
+  const finalized = await store.completeBlockedAfterQa({jobId: editorial.id, allowedErrorCodes: ['EDITORIAL_QA_FAILED'], now: new Date('2026-08-26T05:04:09Z')});
+  assert.equal(finalized.status, 'completed');
+  assert.equal(finalized.completed_at, '2026-08-26T05:04:09.000Z');
+  assert.equal((await store.summary()).jobs_by_status.completed, 2);
 
   const resolvedDirectory = resolve(directory);
   assert.ok(resolvedDirectory.startsWith(`${resolve(tmpdir())}${sep}`));

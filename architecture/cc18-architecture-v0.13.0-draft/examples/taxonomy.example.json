@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "tags": [
+    {
+      "id": "university-setting",
+      "label": "大學生活設定",
+      "kind": "canonical",
+      "category": "setting",
+      "description": "公開資料明確以大學或校園生活作為人物關係背景。",
+      "aliases": ["女大學生", "大學生活"],
+      "include_when": ["來源標籤或簡介明確支持大學設定"],
+      "exclude_when": ["只有演員造型類似學生但沒有設定證據"],
+      "status": "active",
+      "indexable": true,
+      "redirect_to": null,
+      "created_at": "2026-08-24",
+      "updated_at": null
+    },
+    {
+      "id": "everyday-proximity",
+      "label": "日常距離感",
+      "kind": "editorial",
+      "category": "editorial",
+      "description": "吸引力主要來自熟悉生活空間與人物距離逐步改變。",
+      "aliases": [],
+      "include_when": ["公開簡介有重複相處、共同生活或頻繁接觸"],
+      "exclude_when": ["只有單次偶遇且沒有日常關係"],
+      "status": "active",
+      "indexable": false,
+      "redirect_to": null,
+      "created_at": "2026-08-24",
+      "updated_at": null
+    }
+  ],
+  "source_mappings": {
+    "77": {"source_label": "女大學生", "action": "map", "canonical_id": "university-setting"},
+    "509": {"source_label": "HD", "action": "technical", "target_field": "video_quality"}
+  }
+}

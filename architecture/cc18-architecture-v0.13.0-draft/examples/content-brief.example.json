@@ -1,0 +1,24 @@
+{
+  "movie_id": "ROYD-341",
+  "title_identity": {
+    "source_title": "範例作品標題（架構文件內縮寫）",
+    "original_title_ja": null,
+    "translated_title_zh_tw": null
+  },
+  "title_signals": [
+    {"type": "performer", "value": "七海那美", "source_field": "performers"},
+    {"type": "theme", "value": "日常距離", "source_field": "synopsis"}
+  ],
+  "primary_angle": "熟悉的日常距離逐步改變所產生的關係猶豫",
+  "secondary_angle": "系列固定設定下的角色適配差異",
+  "avoid_angles": ["泛稱演員氣質", "只重述系列公式", "宣稱完整觀看"],
+  "canonical_tags": [
+    {"id": "university-setting", "evidence": "公開資料包含大學生活設定", "confidence": 0.96}
+  ],
+  "editorial_tags": [
+    {"id": "everyday-proximity", "evidence": "人物衝突建立在頻繁相處的生活空間", "confidence": 0.9}
+  ],
+  "candidate_tags": [],
+  "source_snapshot_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+  "taxonomy_version": 1
+}

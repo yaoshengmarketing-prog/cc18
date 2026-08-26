@@ -8,6 +8,7 @@ import {assertEditorialProviderReady, loadLocalEditorialEnvironment} from './lib
 
 const movieId = process.argv[2]?.trim().toUpperCase();
 const qaOnly = process.argv.includes('--qa-only');
+const retryNow = process.argv.includes('--retry-now');
 if (!movieId || !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId)) {
   throw new Error('Usage: npm run editorial:d1:handoff -- <MOVIE-ID>');
 }
@@ -37,6 +38,12 @@ let editorialJob = await store.enqueueJob({
   priority: mediaJob.priority,
   discoveryRunId: mediaJob.discovery_run_id,
 });
+if (retryNow && editorialJob.status === 'retry') {
+  editorialJob = await store.requeueRetry({
+    jobId: editorialJob.id,
+    allowedErrorCodes: ['EDITORIAL_GENERATION_FAILED'],
+  }) ?? editorialJob;
+}
 if (editorialJob.status === 'blocked' && ['EDITORIAL_QA_FAILED', 'EDITORIAL_GENERATION_FAILED'].includes(editorialJob.last_error_code)) {
   editorialJob = await store.requeueBlocked({
     jobId: editorialJob.id,
