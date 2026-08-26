@@ -6,7 +6,7 @@ import {tmpdir} from 'node:os';
 import {chooseVariant, parseHlsManifest, planSampleWindows} from '../scripts/bridge/lib/hls.mjs';
 import {enqueue, loadQueue, updateJob} from '../scripts/bridge/lib/queue.mjs';
 import {bridgeLog, safeUrlShape} from '../scripts/bridge/lib/redact.mjs';
-import {assertLocalEndpoint, normalizeObservation, OBSERVATION_SCHEMA} from '../scripts/bridge/lib/local-analysis.mjs';
+import {assertLocalAnalyzerReady, assertLocalEndpoint, normalizeObservation, OBSERVATION_SCHEMA} from '../scripts/bridge/lib/local-analysis.mjs';
 import {assertSamplingBudget, purgeRawArtifacts} from '../scripts/bridge/lib/media.mjs';
 
 test('parses master and selects the highest HLS variant', () => {
@@ -76,6 +76,17 @@ test('local analyzer uses a bounded strict JSON Schema', () => {
   assert.equal(OBSERVATION_SCHEMA.properties.setting.maxLength, 240);
   assert.equal(OBSERVATION_SCHEMA.properties.confidence.minimum, 0);
   assert.equal(OBSERVATION_SCHEMA.properties.confidence.maximum, 1);
+});
+
+test('preflight confirms the required model before claiming remote work', async () => {
+  const originalFetch = globalThis.fetch;
+  globalThis.fetch = async () => ({ok: true, json: async () => ({models: [{name: 'qwen2.5vl:7b'}]})});
+  try {
+    const result = await assertLocalAnalyzerReady({local_analysis: {endpoint: 'http://127.0.0.1:11434', vision_model: 'qwen2.5vl:7b'}});
+    assert.deepEqual(result, {model: 'qwen2.5vl:7b', available: true});
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
 });
 
 test('successful analysis cleanup removes raw media but keeps evidence metadata', async () => {

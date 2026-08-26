@@ -41,6 +41,25 @@ function assertLocalEndpoint(endpoint) {
   return url;
 }
 
+export async function assertLocalAnalyzerReady(config) {
+  const endpoint = assertLocalEndpoint(config.local_analysis.endpoint);
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 10_000);
+  try {
+    const response = await fetch(new URL('/api/tags', endpoint), {signal: controller.signal});
+    if (!response.ok) throw new Error(`Local Ollama health check returned HTTP ${response.status}`);
+    const body = await response.json();
+    const available = (body.models ?? []).map((item) => item.name ?? item.model).filter(Boolean);
+    const required = config.local_analysis.vision_model;
+    if (!available.some((name) => name === required || name.startsWith(`${required}:`))) {
+      throw new Error(`Required local vision model is unavailable: ${required}`);
+    }
+    return {model: required, available: true};
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
 function normalizeObservation(value, sample) {
   if (!value || typeof value !== 'object' || Array.isArray(value)) throw new Error('Vision model returned invalid JSON');
   const text = (key, fallback = '') => typeof value[key] === 'string' ? value[key].trim().slice(0, 500) : fallback;

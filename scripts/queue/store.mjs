@@ -106,6 +106,11 @@ export class FileQueueStore {
     return {movies: state.movies.length, jobs: state.jobs.length, jobs_by_status: jobsByStatus, last_run: state.runs.at(-1) ?? null};
   }
 
+  async getMovie(movieId) {
+    const state = await this.read();
+    return structuredClone(state.movies.find((item) => item.id === normalizedId(movieId)) ?? null);
+  }
+
   async claim({stage, workerId, leaseSeconds = 900, now = new Date()}) {
     const state = await this.read();
     const nowIso = now.toISOString();
@@ -125,7 +130,7 @@ export class FileQueueStore {
   }
 
   async finishJob({jobId, workerId, outcome, errorCode = null, retryAt = null, now = new Date()}) {
-    if (!['completed', 'retry', 'failed'].includes(outcome)) throw new Error(`Invalid job outcome: ${outcome}`);
+    if (!['completed', 'retry', 'blocked', 'failed'].includes(outcome)) throw new Error(`Invalid job outcome: ${outcome}`);
     const state = await this.read();
     const job = state.jobs.find((item) => item.id === jobId && item.status === 'leased' && item.claimed_by === workerId);
     if (!job) throw new Error(`Job is not leased by ${workerId}: ${jobId}`);
@@ -137,6 +142,16 @@ export class FileQueueStore {
     job.claimed_by = null;
     job.lease_expires_at = null;
     job.updated_at = nowIso;
+    await this.save(state);
+    return structuredClone(job);
+  }
+
+  async renewLease({jobId, workerId, leaseSeconds = 900, now = new Date()}) {
+    const state = await this.read();
+    const job = state.jobs.find((item) => item.id === jobId && item.status === 'leased' && item.claimed_by === workerId);
+    if (!job) throw new Error(`Job is not leased by ${workerId}: ${jobId}`);
+    job.lease_expires_at = new Date(now.getTime() + leaseSeconds * 1000).toISOString();
+    job.updated_at = now.toISOString();
     await this.save(state);
     return structuredClone(job);
   }
@@ -217,6 +232,11 @@ export class D1RestQueueStore {
     };
   }
 
+  async getMovie(movieId) {
+    const [result] = await this.query({sql: 'SELECT * FROM movies WHERE id=? LIMIT 1', params: [normalizedId(movieId)]});
+    return result.results?.[0] ?? null;
+  }
+
   async claim({stage, workerId, leaseSeconds = 900, now = new Date()}) {
     const nowIso = now.toISOString();
     const leaseExpiresAt = new Date(now.getTime() + leaseSeconds * 1000).toISOString();
@@ -236,13 +256,26 @@ export class D1RestQueueStore {
   }
 
   async finishJob({jobId, workerId, outcome, errorCode = null, retryAt = null, now = new Date()}) {
-    if (!['completed', 'retry', 'failed'].includes(outcome)) throw new Error(`Invalid job outcome: ${outcome}`);
+    if (!['completed', 'retry', 'blocked', 'failed'].includes(outcome)) throw new Error(`Invalid job outcome: ${outcome}`);
     const nowIso = now.toISOString();
     const [result] = await this.query({
       sql: `UPDATE pipeline_jobs
             SET status=?, completed_at=?, next_retry_at=?, last_error_code=?, claimed_by=NULL, lease_expires_at=NULL, updated_at=?
             WHERE id=? AND status='leased' AND claimed_by=? RETURNING *`,
       params: [outcome, outcome === 'completed' ? nowIso : null, outcome === 'retry' ? retryAt : null, errorCode, nowIso, jobId, workerId],
+    });
+    const job = result.results?.[0];
+    if (!job) throw new Error(`Job is not leased by ${workerId}: ${jobId}`);
+    return job;
+  }
+
+  async renewLease({jobId, workerId, leaseSeconds = 900, now = new Date()}) {
+    const nowIso = now.toISOString();
+    const leaseExpiresAt = new Date(now.getTime() + leaseSeconds * 1000).toISOString();
+    const [result] = await this.query({
+      sql: `UPDATE pipeline_jobs SET lease_expires_at=?, updated_at=?
+            WHERE id=? AND status='leased' AND claimed_by=? RETURNING *`,
+      params: [leaseExpiresAt, nowIso, jobId, workerId],
     });
     const job = result.results?.[0];
     if (!job) throw new Error(`Job is not leased by ${workerId}: ${jobId}`);

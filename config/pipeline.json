@@ -37,7 +37,7 @@
   },
   "media": {"r2_prefix": "works/{yyyy}/{mm}/{id}", "video_duration_seconds": 9, "vertical": "1080x1920", "hero": "1600x900"},
   "source_media_analysis": {
-    "enabled": false,
+    "enabled": true,
     "mode": "local_browser_bridge",
     "publish_review_without_analysis": false,
     "allow_metadata_only_as_review": false,

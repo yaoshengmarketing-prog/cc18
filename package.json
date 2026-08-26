@@ -23,6 +23,7 @@
     "bridge:preflight": "node scripts/bridge/preflight.mjs",
     "bridge:enqueue": "node scripts/bridge/enqueue.mjs",
     "bridge:process-one": "node scripts/bridge/process-one.mjs",
+    "bridge:d1:process-one": "node scripts/bridge/process-d1-one.mjs",
     "bridge:analyze-one": "node scripts/bridge/analyze-one.mjs",
     "bridge:cleanup": "node scripts/bridge/cleanup.mjs",
     "bridge:cleanup:install": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/bridge/install-cleanup-task.ps1",

@@ -55,6 +55,23 @@ test('formats D1 REST single and transactional batch query bodies', async () => 
   assert.deepEqual(bodies[1], {batch: [first, second]});
 });
 
+test('renews an owned D1 lease with one guarded update', async () => {
+  let statement;
+  const fetchImpl = async (_url, options) => {
+    statement = JSON.parse(options.body);
+    return {
+      ok: true,
+      status: 200,
+      json: async () => ({success: true, errors: [], result: [{success: true, results: [{id: 'job-1', status: 'leased'}], meta: {changes: 1}}]}),
+    };
+  };
+  const store = new D1RestQueueStore({accountId: 'account', databaseId: 'database', apiToken: 'token', fetchImpl});
+  const renewed = await store.renewLease({jobId: 'job-1', workerId: 'bridge-a', leaseSeconds: 60, now: new Date('2026-08-26T05:00:00Z')});
+  assert.equal(renewed.id, 'job-1');
+  assert.match(statement.sql, /status='leased' AND claimed_by=\?/);
+  assert.deepEqual(statement.params, ['2026-08-26T05:01:00.000Z', '2026-08-26T05:00:00.000Z', 'job-1', 'bridge-a']);
+});
+
 test('discovers every listing item, deduplicates persistently, and leases atomically', async () => {
   const directory = await mkdtemp(join(tmpdir(), 'cc18-discovery-'));
   const queuePath = join(directory, 'queue.json');
@@ -87,6 +104,7 @@ test('discovers every listing item, deduplicates persistently, and leases atomic
   assert.equal(state.movies.length, 1);
   assert.equal(state.jobs.length, 1);
   assert.equal(state.jobs[0].idempotency_key, 'NEW-001:media_analysis:v1');
+  assert.equal((await store.getMovie('new-001')).id, 'NEW-001');
 
   const claimed = await store.claim({stage: 'media_analysis', workerId: 'worker-a', now: new Date('2026-08-26T05:00:00Z'), leaseSeconds: 60});
   assert.equal(claimed.movie_id, 'NEW-001');
@@ -94,6 +112,8 @@ test('discovers every listing item, deduplicates persistently, and leases atomic
   const reclaimed = await store.claim({stage: 'media_analysis', workerId: 'worker-b', now: new Date('2026-08-26T05:01:01Z'), leaseSeconds: 60});
   assert.equal(reclaimed.movie_id, 'NEW-001');
   assert.equal(reclaimed.attempt, 2);
+  const renewed = await store.renewLease({jobId: reclaimed.id, workerId: 'worker-b', now: new Date('2026-08-26T05:01:20Z'), leaseSeconds: 60});
+  assert.equal(renewed.lease_expires_at, '2026-08-26T05:02:20.000Z');
   const completed = await store.finishJob({jobId: reclaimed.id, workerId: 'worker-b', outcome: 'completed', now: new Date('2026-08-26T05:01:30Z')});
   assert.equal(completed.status, 'completed');
   assert.equal((await store.summary()).jobs_by_status.completed, 1);
