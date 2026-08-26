@@ -1,6 +1,7 @@
 import {createHash} from 'node:crypto';
 import {mkdir, readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
+import {assertEditorialProviderReady, requestStructuredEditorial} from './lib/openai-writer.mjs';
 
 const movieId = process.argv[2];
 if (!movieId || !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId)) {
@@ -9,6 +10,8 @@ if (!movieId || !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId)) {
 
 const root = resolve(import.meta.dirname, '..', '..');
 const analysisArgument = process.argv.find((argument) => argument.startsWith('--analysis='))?.slice('--analysis='.length);
+const feedbackArgument = process.argv.find((argument) => argument.startsWith('--qa-feedback='))?.slice('--qa-feedback='.length);
+const rewriteAttempt = Number(process.argv.find((argument) => argument.startsWith('--rewrite-attempt='))?.slice('--rewrite-attempt='.length) ?? 0);
 const normalizedTag = (value) => value.normalize('NFKC').trim();
 const json = async (path) => JSON.parse(await readFile(resolve(root, path), 'utf8'));
 
@@ -37,7 +40,7 @@ const source = await json(`data/source-records/${movieId}.json`);
 const taxonomy = await json('data/taxonomy.json');
 const registry = await json('data/movie-registry.json');
 const candidates = await json('data/tag-candidates.json');
-const config = await json('config/media-bridge.json');
+const editorialModel = await json('config/editorial-model.json');
 const titlePolicy = await json('config/title-policy.json');
 let analysisPath = analysisArgument ? resolve(analysisArgument) : null;
 if (!analysisPath) {
@@ -126,36 +129,27 @@ const prompt = {
   title_policy: titlePolicy,
   recent_review_titles: registry.records.map(({id}) => id).filter((id) => id !== movieId),
   required_method_note: '結尾以自然文字說明本文依據 CC18 公開資料與完整片長分布式抽樣，不宣稱逐幀觀看。',
+  rewrite_attempt: rewriteAttempt,
 };
 
-const endpoint = new URL(config.local_analysis.endpoint);
-if (!['127.0.0.1', 'localhost', '::1'].includes(endpoint.hostname)) throw new Error('Editorial model endpoint must be loopback');
-const controller = new AbortController();
-const timeout = setTimeout(() => controller.abort(), 300_000);
-let result;
-try {
-  const response = await fetch(new URL('/api/chat', endpoint), {
-    method: 'POST',
-    headers: {'content-type': 'application/json'},
-    signal: controller.signal,
-    body: JSON.stringify({
-      model: config.local_analysis.vision_model,
-      stream: false,
-      format: outputSchema,
-      keep_alive: '10m',
-      options: {temperature: 0.2, num_ctx: 32768, num_predict: 5000},
-      messages: [
-        {role: 'system', content: system},
-        {role: 'user', content: JSON.stringify(prompt)},
-      ],
-    }),
-  });
-  if (!response.ok) throw new Error(`Local Ollama returned HTTP ${response.status}`);
-  const body = await response.json();
-  result = parseStructuredJson(body.message?.content ?? '{}');
-} finally {
-  clearTimeout(timeout);
+if (feedbackArgument) {
+  const feedback = JSON.parse(await readFile(resolve(feedbackArgument), 'utf8'));
+  prompt.previous_qa_feedback = {
+    failure_reasons: feedback.failure_reasons ?? [],
+    checks: feedback.checks ?? {},
+    instruction: '重寫全文以修正所有失敗項目；保留可追溯證據，但不可只局部補句。',
+  };
 }
+
+assertEditorialProviderReady(editorialModel);
+const generation = await requestStructuredEditorial({
+  apiKey: process.env.OPENAI_API_KEY,
+  config: editorialModel,
+  schema: outputSchema,
+  instructions: system,
+  input: prompt,
+});
+const result = parseStructuredJson(generation.text);
 
 if (!result.title.includes(movieId)) result.title = `${movieId} ${result.title}`.slice(0, 90);
 if (!result.seo_title.includes(movieId)) result.seo_title = `${movieId} 影評｜${result.seo_title}`.slice(0, 100);
@@ -190,7 +184,9 @@ const brief = {
   schema_version: 1,
   id: movieId,
   generated_at: new Date().toISOString(),
-  generation_mode: 'local_only',
+  generation_mode: 'openai_responses_api',
+  generation_model: generation.usage.model,
+  rewrite_attempt: rewriteAttempt,
   source_record: `data/source-records/${movieId}.json`,
   video_analysis_job_id: analysis.job_id,
   video_coverage: analysis.coverage,
@@ -286,9 +282,35 @@ const quality = {
   evidence: result.evidence,
   unsupported_claims_excluded: result.unsupported_claims_excluded,
   scores: null,
-  rewrite_attempts: 0,
+  rewrite_attempts: rewriteAttempt,
   approved_for_publish: false,
 };
 await writeFile(resolve(root, `data/review-quality/${movieId}.json`), `${JSON.stringify(quality, null, 2)}\n`);
+
+await mkdir(resolve(root, 'data/editorial-usage'), {recursive: true});
+const usagePath = resolve(root, `data/editorial-usage/${movieId}.json`);
+let previousUsage = {calls: []};
+try {
+  previousUsage = JSON.parse(await readFile(usagePath, 'utf8'));
+} catch (error) {
+  if (error?.code !== 'ENOENT') throw error;
+}
+const usageCall = {
+  generated_at: new Date().toISOString(),
+  rewrite_attempt: rewriteAttempt,
+  ...generation.usage,
+};
+const usageCalls = [...(previousUsage.calls ?? []), usageCall];
+await writeFile(usagePath, `${JSON.stringify({
+  schema_version: 1,
+  movie_id: movieId,
+  calls: usageCalls,
+  totals: {
+    input_tokens: usageCalls.reduce((sum, call) => sum + call.input_tokens, 0),
+    cached_input_tokens: usageCalls.reduce((sum, call) => sum + call.cached_input_tokens, 0),
+    output_tokens: usageCalls.reduce((sum, call) => sum + call.output_tokens, 0),
+    estimated_cost_usd: Number(usageCalls.reduce((sum, call) => sum + (call.estimated_cost_usd ?? 0), 0).toFixed(6)),
+  },
+}, null, 2)}\n`);
 
 console.log(JSON.stringify({movie_id: movieId, brief: `data/editorial-briefs/${movieId}.json`, review: `content/reviews/${movieId}.md`, status: 'draft'}, null, 2));
