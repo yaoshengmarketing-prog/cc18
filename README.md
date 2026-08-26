@@ -2,7 +2,7 @@
 
 CC18 是以公開作品資料為基礎的成人作品介紹與原創影評網站專案。正式系統將使用 GitHub Actions 執行來源擷取、去重、Tag／影評生成、原創非露骨圖片、Remotion MP4、Registry、分波發布與 Cloudflare 部署。
 
-目前狀態：V1 網站與自動化底座已部署至 Cloudflare Pages。`SNOS-360` 已完成公開資料流程；`HUNTC-568` 進一步完成完整時間軸分布式影片分析、證據型影評、分層 Tag、非露骨原創圖片、9 秒 Remotion MP4 與 R2 雜湊驗證。D1 已啟用並保存 31 部作品／18 個工作；`APNS-419` 已完成第一筆正式 D1 Media Bridge canary。每日大量排程仍未啟用。
+目前狀態：V1 網站與自動化底座已部署至 Cloudflare Pages。`SNOS-360` 已完成公開資料流程；`HUNTC-568` 進一步完成完整時間軸分布式影片分析、證據型影評、分層 Tag、非露骨原創圖片、9 秒 Remotion MP4 與 R2 雜湊驗證。D1 已啟用並保存 31 部作品／20 個工作；目前 7 個 completed、12 個 queued、1 個 retry。每日大量排程仍未啟用。
 
 代理商權限的完整影片分析採 Windows Media Bridge：使用本機專用 Chrome Profile 經由正常的後臺「前台」連結取得短效 HLS，只下載分布式樣本，且不保存 Cookie 或簽章網址。操作與安全邊界見 [`docs/media-bridge.md`](docs/media-bridge.md)。
 
@@ -52,9 +52,9 @@ npm run bridge:d1:process-one
 
 ## Architecture
 
-- 最新套件來源：`architecture/cc18-architecture-v0.13.0-draft/`
-- 最新 ZIP：`architecture/releases/cc18-architecture-v0.13.0-draft.zip`
-- 前一版實作套件：`architecture/cc18-architecture-v0.12.0-draft/`
+- 最新套件來源：`architecture/cc18-architecture-v0.14.0-draft/`
+- 最新 ZIP：`architecture/releases/cc18-architecture-v0.14.0-draft.zip`
+- 前一版實作套件：`architecture/cc18-architecture-v0.13.0-draft/`
 - 第一版套件保留於 `architecture/cc18-architecture-v0.1.0-draft/`
 
 所有實作應引用架構文件、Schema 或 ADR。架構變更需產生新版本，不覆寫既有 ZIP。

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cc18.invalid/schemas/pipeline-job.schema.json",
+  "title": "CC18 Pipeline Job",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "movie_id", "stage", "status", "priority", "attempt", "max_attempts", "idempotency_key", "created_at", "updated_at"],
+  "properties": {
+    "id": {"type": "string", "format": "uuid"},
+    "movie_id": {"type": "string", "pattern": "^[A-Z0-9]+(?:-[A-Z0-9]+)+$"},
+    "stage": {"enum": ["media_analysis", "editorial", "image", "video", "publish", "retry_media"]},
+    "status": {"enum": ["queued", "leased", "retry", "completed", "blocked", "failed", "cancelled"]},
+    "priority": {"type": "integer", "minimum": 1},
+    "attempt": {"type": "integer", "minimum": 0},
+    "max_attempts": {"type": "integer", "minimum": 1},
+    "claimed_by": {"type": ["string", "null"]},
+    "lease_expires_at": {"type": ["string", "null"], "format": "date-time"},
+    "next_retry_at": {"type": ["string", "null"], "format": "date-time"},
+    "last_error_code": {"type": ["string", "null"]},
+    "idempotency_key": {"type": "string", "minLength": 1},
+    "discovery_run_id": {"type": ["string", "null"], "format": "uuid"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "updated_at": {"type": "string", "format": "date-time"},
+    "completed_at": {"type": ["string", "null"], "format": "date-time"}
+  }
+}

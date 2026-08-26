@@ -14,6 +14,18 @@ function ageConfirmationError(options) {
   return error;
 }
 
+const TRANSIENT_NAVIGATION_ERRORS = /ERR_(?:QUIC_PROTOCOL_ERROR|NETWORK_CHANGED|CONNECTION_RESET|CONNECTION_CLOSED|TIMED_OUT)/i;
+
+async function gotoWithTransientRetry(page, url, options) {
+  try {
+    return await page.goto(url, options);
+  } catch (error) {
+    if (!TRANSIENT_NAVIGATION_ERRORS.test(String(error?.message || ''))) throw error;
+    await page.waitForTimeout(1500);
+    return page.goto(url, options);
+  }
+}
+
 async function pageNeedsLogin(page) {
   const url = new URL(page.url());
   if (/login|signin|auth/i.test(url.pathname)) return true;
@@ -28,18 +40,19 @@ export async function launchBridgeBrowser(config) {
     headless: config.browser.headless,
     acceptDownloads: false,
     viewport: null,
+    args: ['--disable-quic'],
   });
 }
 
 export async function openAdminForLogin(context, config) {
   const page = context.pages()[0] ?? await context.newPage();
-  await page.goto(config.browser.admin_url, {waitUntil: 'domcontentloaded', timeout: config.browser.navigation_timeout_ms});
+  await gotoWithTransientRetry(page, config.browser.admin_url, {waitUntil: 'domcontentloaded', timeout: config.browser.navigation_timeout_ms});
   return page;
 }
 
 async function openAuthorizedFrontend(context, config) {
   const admin = context.pages()[0] ?? await context.newPage();
-  await admin.goto(config.browser.admin_url, {waitUntil: 'domcontentloaded', timeout: config.browser.navigation_timeout_ms});
+  await gotoWithTransientRetry(admin, config.browser.admin_url, {waitUntil: 'domcontentloaded', timeout: config.browser.navigation_timeout_ms});
   if (await pageNeedsLogin(admin)) throw authError('CC18 admin session requires login');
 
   const frontendLink = admin.locator('a[target="_blank"]')
@@ -58,7 +71,7 @@ async function openAuthorizedFrontend(context, config) {
 export async function captureAuthorizedManifest(context, config, sourceUrl) {
   const source = assertAllowedUrl(sourceUrl, config.security.allowed_source_hosts, {requireHttps: config.security.require_https});
   const page = await openAuthorizedFrontend(context, config);
-  await page.goto(source.href, {waitUntil: 'domcontentloaded', timeout: config.browser.navigation_timeout_ms});
+  await gotoWithTransientRetry(page, source.href, {waitUntil: 'domcontentloaded', timeout: config.browser.navigation_timeout_ms});
   if (await pageNeedsLogin(page)) throw authError('CC18 frontend session requires login');
 
   const ageGate = page.locator('#message-pop.check_18_popup:visible');
