@@ -35,8 +35,11 @@ const approvedReviews = [];
 
 for (const record of published) {
   const reviewUrl = new URL(`content/reviews/${record.id}.md`, root);
-  const source = await readJson(`data/source-records/${record.id}.json`);
+  const sourceUrl = new URL(`data/source-records/${record.id}.json`, root);
+  const sourceText = await readFile(sourceUrl, 'utf8');
+  const source = JSON.parse(sourceText);
   const quality = await readJson(`data/review-quality/${record.id}.json`);
+  const search = await readJson(`data/search-content/${record.id}.json`);
   const markdown = await readFile(reviewUrl, 'utf8');
   const yaml = frontmatter(markdown);
 
@@ -92,6 +95,24 @@ for (const record of published) {
   if ((quality.evidence ?? []).length < policy.production.minimum_evidence_items) throw new Error(`${record.id}: insufficient source evidence`);
   if (!quality.approved_for_publish) throw new Error(`${record.id}: quality record is not approved`);
   if (quality.rewrite_attempts > policy.production.maximum_rewrite_attempts) throw new Error(`${record.id}: rewrite limit exceeded`);
+
+  if (search.movie_id !== record.id) throw new Error(`${record.id}: search-content identity mismatch`);
+  if (search.source_snapshot_hash !== `sha256:${sha256(sourceText)}`) throw new Error(`${record.id}: search-content source snapshot is stale`);
+  if ((search.quick_decision?.thesis ?? '').length < 20) throw new Error(`${record.id}: missing quick decision`);
+  if ((search.quick_decision?.presentation ?? []).length < 2) throw new Error(`${record.id}: insufficient presentation signals`);
+  if ((search.audience_fit?.for ?? []).length < 2 || (search.audience_fit?.not_for ?? []).length < 2) throw new Error(`${record.id}: audience fit needs at least two positive and negative conditions`);
+  if ((search.questions_answered ?? []).length < 3) throw new Error(`${record.id}: search content must answer at least three intents`);
+  if (search.sample_windows > 0) {
+    if ((search.timeline_summary ?? []).length !== 3) throw new Error(`${record.id}: sampled work requires opening, middle, and late timeline summaries`);
+    const refs = search.timeline_summary.flatMap((item) => item.evidence_windows ?? []);
+    if (refs.some((index) => !Number.isInteger(index) || index < 0 || index >= search.sample_windows)) throw new Error(`${record.id}: invalid timeline evidence reference`);
+  }
+  const publishedIds = new Set(published.map(({id}) => id));
+  for (const recommendation of search.recommendations ?? []) {
+    if (recommendation.movie_id === record.id || !publishedIds.has(recommendation.movie_id)) throw new Error(`${record.id}: invalid recommendation target ${recommendation.movie_id}`);
+    if ((recommendation.reason ?? '').length < 20) throw new Error(`${record.id}: recommendation reason is too short`);
+    if (!(recommendation.shared_signals ?? []).length || !(recommendation.contrast_signals ?? []).length) throw new Error(`${record.id}: recommendation requires shared and contrast signals`);
+  }
 
   const scores = quality.scores ?? {};
   const gate = policy.publication_gate;

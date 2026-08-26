@@ -95,6 +95,15 @@ export function normalizeEditorialResult(raw, {movieId, safePublicSource, safeVi
     unsupported_claims_excluded: raw.unsupported_claims_excluded ?? brief.risk_notes ?? [
       '未提供姓名時不辨識演員', '不虛構對白或心理', '不宣稱逐幀完整觀看',
     ],
+    decision_guide: raw.decision_guide ?? raw.search_content ?? {
+      thesis: clip(raw.selected_thesis ?? brief.positioning ?? brief.angle, 260),
+      story_density: 'unknown',
+      pace: 'unknown',
+      presentation: sourceSignals.map(({value}) => value).slice(0, 4),
+      audience_for: [],
+      audience_not_for: [],
+      questions_answered: [],
+    },
     sections,
   };
 }

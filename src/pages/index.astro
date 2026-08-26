@@ -12,7 +12,7 @@ const latest = reviews.slice(0, 8);
 const tagIds = [...new Set(reviews.flatMap((review) => review.data.canonicalTagIds))].slice(0, 12);
 const tags = tagItems(tagIds);
 ---
-<BaseLayout title="最新作品影評">
+<BaseLayout title="最新作品影評" description="CC18 最新作品、完整作品資料、證據型原創影評與清楚的原始作品入口。" adult={true}>
   {featured && (
     <section class="hero">
       <div class="hero-art">

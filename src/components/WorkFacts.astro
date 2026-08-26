@@ -1,0 +1,45 @@
+---
+import type {Review} from '../lib/reviews';
+import {formatDate} from '../lib/reviews';
+import type {SearchContent} from '../lib/search-content';
+import {durationLabel} from '../lib/search-content';
+import type {SourceRecord} from '../lib/source-records';
+
+interface Props {review: Review; source?: SourceRecord; search?: SearchContent;}
+const {review, source, search} = Astro.props;
+const verifiedAt = source?.fetched_at ? new Date(source.fetched_at) : review.data.publishedAt;
+const quality = source?.source_tags.find((tag) => /^(?:4k|hd|720p)$/i.test(tag));
+---
+
+<section class="fact-sheet" aria-labelledby="fact-sheet-title">
+  <div class="fact-sheet-heading">
+    <div>
+      <p class="eyebrow">VERIFIED WORK DATA</p>
+      <h2 id="fact-sheet-title">完整作品資料</h2>
+    </div>
+    <p>直接取自 CC18 來源紀錄，AI 不改寫欄位。</p>
+  </div>
+  <dl class="fact-grid">
+    <div><dt>番號</dt><dd class="mono-value">{review.data.id}</dd></div>
+    <div><dt>上片日期</dt><dd>{formatDate(review.data.releaseDate)}</dd></div>
+    <div><dt>演員</dt><dd>{review.data.actress.length ? review.data.actress.map((name, index) => <>{index > 0 && '、'}<a href={`/actresses/${encodeURIComponent(name)}/`}>{name}</a></>) : '來源未列出演員'}</dd></div>
+    <div><dt>片商</dt><dd>{review.data.studio || '來源未列出'}</dd></div>
+    <div><dt>系列</dt><dd>{review.data.series ? <a href={`/series/${encodeURIComponent(review.data.series)}/`}>{review.data.series}</a> : '非系列／來源未列出'}</dd></div>
+    <div><dt>片長</dt><dd>{durationLabel(search?.duration_seconds)}</dd></div>
+    <div><dt>影像規格</dt><dd>{quality?.toUpperCase() ?? '來源未標示'}</dd></div>
+    <div><dt>資料驗證</dt><dd>{formatDate(verifiedAt)}</dd></div>
+  </dl>
+  {(review.data.originalTitleJa || review.data.translatedTitleZhTw) && (
+    <div class="identity-lines">
+      {review.data.originalTitleJa && <p><span>日文正式片名</span><b lang="ja">{review.data.originalTitleJa}</b></p>}
+      {review.data.translatedTitleZhTw && <p><span>繁中直譯</span><b>{review.data.translatedTitleZhTw}</b></p>}
+    </div>
+  )}
+  <details class="source-record" data-nosnippet>
+    <summary>查看 CC18 原始標題與公開簡介</summary>
+    <div>
+      <p><b>原始標題</b>{source?.title ?? review.data.sourceTitle}</p>
+      {source?.description && <p><b>公開簡介</b>{source.description}</p>}
+    </div>
+  </details>
+</section>

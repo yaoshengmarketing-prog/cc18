@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "movie_id": "HUNTC-568",
+  "generated_at": "2026-08-26T11:00:00.000Z",
+  "source_snapshot_hash": "sha256:bcc42e05840eadf402cae06131192c6ab72de5c120637c9c207899cff9fde2d9",
+  "evidence_job_id": "afa054ce-8a33-4bdd-bb86-681a696d9374",
+  "duration_seconds": 9716.867,
+  "sample_windows": 24,
+  "average_confidence": 0.9292,
+  "quick_decision": {
+    "thesis": "它真正成立的地方，是讓冷氣故障、浴衣與飲酒共同推動同期同事逐步失去公事距離。",
+    "story_density": "high",
+    "pace": "slow",
+    "presentation": ["單一旅館空間", "固定與近距離鏡位", "漸進式角色反差"]
+  },
+  "timeline_summary": [
+    {
+      "phase": "opening",
+      "label": "公事距離",
+      "summary": "正式服裝、端坐與並肩看手機先建立同期同事仍維持克制的關係基準。",
+      "evidence_windows": [0, 1]
+    },
+    {
+      "phase": "middle",
+      "label": "環境鬆動",
+      "summary": "浴衣、風扇與飲用場景反覆出現，讓炎熱與休息成為關係逐步放鬆的中介。",
+      "evidence_windows": [6, 7, 13]
+    },
+    {
+      "phase": "late",
+      "label": "親近聚焦",
+      "summary": "鏡頭更集中在表情、倚靠與親近互動，完成從拘謹到撒嬌的視覺反差。",
+      "evidence_windows": [14, 20, 23]
+    }
+  ],
+  "audience_fit": {
+    "for": [
+      "喜歡同事關係與角色反差逐步累積",
+      "偏好旅館浴衣、單一空間的沉浸設定",
+      "願意接受接近三小時的慢速推進"
+    ],
+    "not_for": [
+      "期待知名演員作為主要選片依據",
+      "偏好頻繁換景或短時間快速進入主題",
+      "只想尋找高密度、多人物的企劃"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SNOS-360",
+      "relation_type": "editorial_comparison",
+      "reason": "兩部都把近距離呈現與角色反差放在核心；SNOS-360 更集中於單一演員與聲音距離，適合拿來比較『情境推進』和『感官企劃』的差別。",
+      "shared_signals": ["反差魅力", "近距離視角"],
+      "contrast_signals": ["旅館同房敘事", "ASMR單人企劃"]
+    }
+  ],
+  "questions_answered": [
+    "HUNTC-568 的主要劇情看點是什麼？",
+    "冷氣故障是否真的影響作品結構？",
+    "接近三小時的片長適合哪類觀眾？",
+    "這部作品和近距離感官型企劃有何差異？"
+  ]
+}

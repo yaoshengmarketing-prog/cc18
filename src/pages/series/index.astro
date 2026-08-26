@@ -5,4 +5,4 @@ const reviews = await getCollection('reviews', ({data}) => data.status === 'publ
 const counts = new Map<string, number>();
 reviews.map((r) => r.data.series).filter(Boolean).forEach((name) => counts.set(name!, (counts.get(name!) ?? 0) + 1));
 ---
-<BaseLayout title="系列索引"><section class="page-intro"><p class="eyebrow">SERIES INDEX</p><h1>系列索引</h1><p>比較同系列作品採用的公式與每一部真正不同的切角。</p></section><section class="index-list">{[...counts].map(([name,count]) => <a href={`/series/${encodeURIComponent(name)}/`}><strong>{name}</strong><span>{count} 部作品</span></a>)}</section></BaseLayout>
+<BaseLayout title="系列索引" description="依系列整理作品順序、系列公式與每部作品的影評差異。" adult={true}><section class="page-intro"><p class="eyebrow">SERIES INDEX</p><h1>系列索引</h1><p>比較同系列作品採用的公式與每一部真正不同的切角。</p></section><section class="index-list">{[...counts].map(([name,count]) => <a href={`/series/${encodeURIComponent(name)}/`}><strong>{name}</strong><span>{count} 部作品</span></a>)}</section></BaseLayout>

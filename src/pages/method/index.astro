@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="編輯與影片分析方法" description="CC18 影格如何區分作品事實、影片抽樣觀察與原創影評，以及資料更正與商業導流原則。">
+  <article class="method-page">
+    <header class="page-intro">
+      <p class="eyebrow">EDITORIAL METHOD</p>
+      <h1>資料是資料，評論是評論</h1>
+      <p>我們把可驗證的作品欄位、影片觀察與編輯判斷分開保存，讓讀者知道每一句內容從哪裡來。</p>
+    </header>
+    <div class="method-grid">
+      <section><span>FACT</span><h2>作品事實</h2><p>番號、片名、演員、日期、片商、系列、來源標籤、封面與原始網址取自 CC18 作品頁。這些欄位由程式擷取與驗證，AI 不得改寫或補猜。</p></section>
+      <section><span>EVIDENCE</span><h2>影片觀察</h2><p>有代理商正常播放權限的作品，可由本機專用瀏覽器在完整時間軸建立 24 個分布抽樣窗。原始片段只作當次分析，完成即刪除；網站只保存非露骨結構化觀察與引用窗口。</p></section>
+      <section><span>REVIEW</span><h2>原創影評</h2><p>影評根據公開設定與可引用的影片 Evidence，討論題材、角色反差、場景、節奏、攝影距離與適合觀眾。沒有音訊轉錄時不評論具體對白或收音品質，也不辨識來源未提供的演員。</p></section>
+      <section><span>DISCLOSURE</span><h2>來源與商業關係</h2><p>每篇作品頁保留對應 CC18 原始連結。本站定位包含導流推廣，因此外部按鈕會明確標示目的網站並使用 sponsored 關係屬性。</p></section>
+      <section><span>UPDATE</span><h2>更新與更正</h2><p>作品資料顯示最後驗證日期；只有內容實質變更才更新頁面日期。若來源欄位與文章衝突，以已驗證來源紀錄為準，並阻擋發布直到更正完成。</p></section>
+      <section><span>AUTOMATION</span><h2>自動化邊界</h2><p>大量內容必須通過來源忠實度、Evidence 引用、重複句、標題訊號、Tag、搜尋決策價值與頁面建置 QA。失敗項目進入 retry 或 blocked，不降低標準硬發。</p></section>
+    </div>
+  </article>
+</BaseLayout>

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-360",
+  "generated_at": "2026-08-26T11:00:00.000Z",
+  "source_snapshot_hash": "sha256:acb2a8c261b3c5a4a8ab5b7983ca136f2fe647c6e7f2b60ab53257804ccfb954",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": null,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "這部作品的企劃價值，在於 ASMR、體感視角與淺野心的形象反差共同服務同一個近距離賣點。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": ["ASMR聲音距離", "體感近攝", "單一演員企劃"]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "以淺野心與演員辨識度作為選片入口",
+      "偏好ASMR、體感視角與近距離呈現",
+      "重視企劃集中度多於複雜故事線"
+    ],
+    "not_for": [
+      "期待完整戲劇線或複雜人物關係",
+      "偏好大量場景轉換與群像設定",
+      "需要影片時間軸分析後才決定是否觀看"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "HUNTC-568",
+      "relation_type": "editorial_comparison",
+      "reason": "同樣使用近距離呈現與角色反差，但 HUNTC-568 由旅館環境和同事關係推動，適合想比較感官企劃與情境敘事的人。",
+      "shared_signals": ["反差魅力", "近距離視角"],
+      "contrast_signals": ["ASMR單人企劃", "旅館同房敘事"]
+    }
+  ],
+  "questions_answered": [
+    "SNOS-360 的企劃核心是什麼？",
+    "ASMR與體感視角在這部作品裡扮演什麼角色？",
+    "這部作品適合重視故事還是沉浸呈現的觀眾？"
+  ]
+}

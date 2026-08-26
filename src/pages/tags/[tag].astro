@@ -12,5 +12,6 @@ export async function getStaticPaths() {
 const {tagId, reviews} = Astro.props;
 const tag = taxonomyTag(tagId);
 if (!tag) throw new Error(`Unknown taxonomy tag: ${tagId}`);
+const indexable = reviews.length >= 3;
 ---
-<BaseLayout title={`#${tag.label}`}><section class="page-intro"><p class="eyebrow">TAG COLLECTION</p><h1>#{tag.label}</h1><p>以統一標籤聚合的作品與原創影評。</p></section><section class="card-grid">{reviews.map((review) => <ReviewCard review={review} />)}</section></BaseLayout>
+<BaseLayout title={`#${tag.label}`} description={`${tag.label}作品與影評索引，目前收錄 ${reviews.length} 部作品。`} robots={indexable ? undefined : 'noindex,follow'} adult={true}><section class="page-intro"><p class="eyebrow">TAG COLLECTION</p><h1>#{tag.label}</h1><p>本站正式分類「{tag.label}」，目前聚合 {reviews.length} 部作品。收錄量達到可提供獨立比較價值後才開放搜尋索引。</p></section><section class="card-grid">{reviews.map((review) => <ReviewCard review={review} />)}</section></BaseLayout>

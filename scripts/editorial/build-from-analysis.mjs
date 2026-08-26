@@ -4,6 +4,7 @@ import {resolve} from 'node:path';
 import {assertEditorialProviderReady, editorialApiKey, loadLocalEditorialEnvironment, requestStructuredEditorial} from './lib/openai-writer.mjs';
 import {buildSafePublicSource, buildSafeVideoAnalysis, safeCanonicalTagIds} from './lib/safe-editorial-payload.mjs';
 import {normalizeEditorialResult, parseFirstJsonObject} from './lib/provider-normalization.mjs';
+import {writeSearchContent} from './lib/search-content.mjs';
 
 const movieId = process.argv[2];
 if (!movieId || !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId)) {
@@ -18,7 +19,9 @@ const rewriteAttempt = Number(process.argv.find((argument) => argument.startsWit
 const normalizedTag = (value) => value.normalize('NFKC').trim();
 const json = async (path) => JSON.parse(await readFile(resolve(root, path), 'utf8'));
 
-const source = await json(`data/source-records/${movieId}.json`);
+const sourceRecordPath = resolve(root, `data/source-records/${movieId}.json`);
+const sourceRecordText = await readFile(sourceRecordPath, 'utf8');
+const source = JSON.parse(sourceRecordText);
 const taxonomy = await json('data/taxonomy.json');
 const registry = await json('data/movie-registry.json');
 const candidates = await json('data/tag-candidates.json');
@@ -39,7 +42,7 @@ const providerTagIds = knownTagIds.filter((id) => safeCanonicalTagIds.includes(i
 const outputSchema = {
   type: 'object',
   additionalProperties: false,
-  required: ['angle_candidates', 'selected_thesis', 'title_signals', 'title', 'seo_title', 'social_title', 'short_review', 'editorial_angle', 'canonical_tag_ids', 'evidence', 'unsupported_claims_excluded', 'sections'],
+  required: ['angle_candidates', 'selected_thesis', 'title_signals', 'title', 'seo_title', 'social_title', 'short_review', 'editorial_angle', 'canonical_tag_ids', 'evidence', 'unsupported_claims_excluded', 'decision_guide', 'sections'],
   properties: {
     angle_candidates: {type: 'array', minItems: 3, maxItems: 3, items: {type: 'string', maxLength: 180}},
     selected_thesis: {type: 'string', maxLength: 240},
@@ -75,6 +78,19 @@ const outputSchema = {
       },
     },
     unsupported_claims_excluded: {type: 'array', minItems: 3, maxItems: 8, items: {type: 'string', maxLength: 160}},
+    decision_guide: {
+      type: 'object', additionalProperties: false,
+      required: ['thesis', 'story_density', 'pace', 'presentation', 'audience_for', 'audience_not_for', 'questions_answered'],
+      properties: {
+        thesis: {type: 'string', minLength: 20, maxLength: 260},
+        story_density: {type: 'string', enum: ['low', 'medium', 'high', 'unknown']},
+        pace: {type: 'string', enum: ['slow', 'balanced', 'fast', 'varied', 'unknown']},
+        presentation: {type: 'array', minItems: 2, maxItems: 4, uniqueItems: true, items: {type: 'string', maxLength: 40}},
+        audience_for: {type: 'array', minItems: 2, maxItems: 4, uniqueItems: true, items: {type: 'string', minLength: 8, maxLength: 120}},
+        audience_not_for: {type: 'array', minItems: 2, maxItems: 4, uniqueItems: true, items: {type: 'string', minLength: 8, maxLength: 120}},
+        questions_answered: {type: 'array', minItems: 3, maxItems: 6, uniqueItems: true, items: {type: 'string', minLength: 8, maxLength: 120}},
+      },
+    },
     sections: {
       type: 'array', minItems: 6, maxItems: 7,
       items: {
@@ -92,7 +108,7 @@ const outputSchema = {
 const safePublicSource = buildSafePublicSource(source);
 const safeVideoAnalysis = buildSafeVideoAnalysis(analysis);
 
-const system = `你是 CC18 的繁體中文資深影評編輯。根據經過內容安全處理的公開資料與完整片長分布式抽樣摘要，寫出具體、克制、非露骨且有選片價值的原創影評。不得聲稱逐幀完整看完，不得辨識未提供姓名的演員，不得虛構對白、心理、剪輯品質或抽樣未支持的場景順序。輸出只討論劇情設定、角色呈現、場景、互動氣氛、攝影距離、企劃取捨與適合觀眾。每一節回答不同問題，避免套版句型。title_signals 必須從 safe_title_signals 原樣選取二至四個；顯示標題、SEO 標題及社群標題都必須包含番號，顯示標題至少自然使用兩個訊號，社群標題至少使用一個。演員未知時不可發明姓名。只輸出符合 JSON Schema 的 JSON。`;
+const system = `你是 CC18 的繁體中文資深影評編輯。根據經過內容安全處理的公開資料與完整片長分布式抽樣摘要，寫出具體、克制、非露骨且有選片價值的原創影評。不得聲稱逐幀完整看完，不得辨識未提供姓名的演員，不得虛構對白、心理、剪輯品質或抽樣未支持的場景順序。輸出只討論劇情設定、角色呈現、場景、互動氣氛、攝影距離、企劃取捨與適合觀眾。每一節回答不同問題，避免套版句型。title_signals 必須從 safe_title_signals 原樣選取二至四個；顯示標題、SEO 標題及社群標題都必須包含番號，顯示標題至少自然使用兩個訊號，社群標題至少使用一個。decision_guide 必須直接協助選片：適合與不適合條件不可互為改寫，問題必須是本文確實回答的搜尋意圖；無法由資料判斷節奏或故事密度時使用 unknown。演員未知時不可發明姓名。只輸出符合 JSON Schema 的 JSON。`;
 const prompt = {
   task: '產生可審查的 Editorial Brief 與影評草稿',
   public_source: safePublicSource,
@@ -281,6 +297,8 @@ const quality = {
   approved_for_publish: false,
 };
 await writeFile(resolve(root, `data/review-quality/${movieId}.json`), `${JSON.stringify(quality, null, 2)}\n`);
+
+await writeSearchContent({root, source, sourceRecordText, safeVideoAnalysis, result, analysis, registry});
 
 await mkdir(resolve(root, 'data/editorial-usage'), {recursive: true});
 const usagePath = resolve(root, `data/editorial-usage/${movieId}.json`);

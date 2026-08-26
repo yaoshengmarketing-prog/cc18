@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="站內搜尋" description="以番號、演員、系列、標題與正式標籤搜尋 CC18 影格作品資料和影評。" robots="noindex,follow" adult={true}>
+  <section class="search-page">
+    <header class="page-intro">
+      <p class="eyebrow">CATALOG SEARCH</p>
+      <h1>找番號，也找你記得的線索</h1>
+      <p>可搜尋番號、演員、系列、繁中標題與站內正式標籤；原始 Tag 仍保留在作品頁。</p>
+    </header>
+    <form class="catalog-search" role="search">
+      <label for="catalog-query">輸入番號、演員、系列或題材</label>
+      <div><input id="catalog-query" name="q" type="search" autocomplete="off" placeholder="例如：HUNTC-568、淺野心、反差魅力" /><button type="submit">搜尋作品</button></div>
+    </form>
+    <p id="search-status" class="search-status" aria-live="polite">正在載入作品索引…</p>
+    <section id="search-results" class="search-results" aria-label="搜尋結果"></section>
+  </section>
+</BaseLayout>
+
+<script>
+  const form = document.querySelector<HTMLFormElement>('.catalog-search');
+  const input = document.querySelector<HTMLInputElement>('#catalog-query');
+  const status = document.querySelector<HTMLElement>('#search-status');
+  const results = document.querySelector<HTMLElement>('#search-results');
+  let catalog: Array<{id:string;title:string;shortReview:string;actress:string[];series:string|null;tags:string[];releaseDate:string;coverUrl:string;href:string}> = [];
+
+  const normalize = (value: string) => value.normalize('NFKC').toLowerCase().replace(/\s+/g, '');
+  const score = (item: typeof catalog[number], query: string) => {
+    const q = normalize(query);
+    if (!q) return 0;
+    const fields = [
+      [item.id, 12], [item.title, 6], [item.actress.join(' '), 8],
+      [item.series ?? '', 7], [item.tags.join(' '), 5], [item.shortReview, 2],
+    ] as const;
+    return fields.reduce((total, [value, weight]) => total + (normalize(value).includes(q) ? weight : 0), 0);
+  };
+  const render = (query: string) => {
+    if (!results || !status) return;
+    results.replaceChildren();
+    if (!query.trim()) {
+      status.textContent = `索引已就緒，共 ${catalog.length} 部作品。`;
+      return;
+    }
+    const matches = catalog.map((item) => ({item, score: score(item, query)})).filter(({score}) => score > 0).sort((a, b) => b.score - a.score || b.item.releaseDate.localeCompare(a.item.releaseDate)).slice(0, 50);
+    status.textContent = matches.length ? `找到 ${matches.length} 部相關作品。` : `找不到「${query}」；可改用番號、演員姓名或較短的題材詞。`;
+    for (const {item} of matches) {
+      const link = document.createElement('a');
+      link.href = item.href;
+      link.className = 'search-result';
+      const code = document.createElement('span');
+      code.className = 'mono-value';
+      code.textContent = item.id;
+      const copy = document.createElement('div');
+      const heading = document.createElement('h2');
+      heading.textContent = item.title;
+      const meta = document.createElement('p');
+      meta.textContent = [item.actress.join('、'), item.series, item.tags.slice(0, 3).join(' · ')].filter(Boolean).join(' ／ ');
+      copy.append(heading, meta);
+      link.append(code, copy);
+      results.append(link);
+    }
+  };
+  fetch('/search-index.json').then((response) => response.json()).then((items) => {
+    catalog = items;
+    const query = new URLSearchParams(location.search).get('q') ?? '';
+    if (input) input.value = query;
+    render(query);
+  }).catch(() => { if (status) status.textContent = '作品索引暫時無法載入，請稍後再試。'; });
+  form?.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const query = input?.value ?? '';
+    history.replaceState(null, '', query ? `/search/?q=${encodeURIComponent(query)}` : '/search/');
+    render(query);
+  });
+</script>

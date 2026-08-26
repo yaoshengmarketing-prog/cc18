@@ -5,7 +5,7 @@ import ReviewCard from '../../components/ReviewCard.astro';
 import {byNewest} from '../../lib/reviews';
 const reviews = (await getCollection('reviews', ({data}) => data.status === 'published')).sort(byNewest);
 ---
-<BaseLayout title="最新作品">
+<BaseLayout title="最新作品" description="依 CC18 作品頁實際上片日期整理的最新作品與原創影評索引。" adult={true}>
   <section class="page-intro"><p class="eyebrow">LATEST RELEASES</p><h1>最新作品</h1><p>依作品頁實際上片日期排序，不以首頁位置猜測新舊。</p></section>
   <section class="card-grid">{reviews.map((review) => <ReviewCard review={review} />)}</section>
 </BaseLayout>

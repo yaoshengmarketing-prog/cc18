@@ -1,0 +1,73 @@
+---
+import type {Review} from '../lib/reviews';
+import {reviewHref} from '../lib/reviews';
+import type {SearchContent} from '../lib/search-content';
+import {decisionLevelLabel, paceLabel} from '../lib/search-content';
+
+interface Props {content: SearchContent; related: Map<string, Review>;}
+const {content, related} = Astro.props;
+const phaseLabel = {opening: '開端', middle: '中段', late: '後段'};
+---
+
+<section class="decision-guide" aria-labelledby="decision-title">
+  <header class="decision-heading">
+    <div>
+      <p class="eyebrow">WATCH DECISION BOARD</p>
+      <h2 id="decision-title">先判斷這部適不適合你</h2>
+    </div>
+    <p>{content.sample_windows ? `依 ${content.sample_windows} 個全片分布抽樣窗整理` : '依公開作品資料整理'}</p>
+  </header>
+
+  <div class="decision-summary">
+    <p class="decision-thesis">{content.quick_decision.thesis}</p>
+    <dl class="decision-metrics">
+      <div><dt>故事密度</dt><dd>{decisionLevelLabel(content.quick_decision.story_density)}</dd></div>
+      <div><dt>節奏傾向</dt><dd>{paceLabel(content.quick_decision.pace)}</dd></div>
+      <div><dt>呈現方式</dt><dd>{content.quick_decision.presentation.join(' · ')}</dd></div>
+    </dl>
+  </div>
+
+  {content.timeline_summary?.length ? (
+    <div class="timeline-board" aria-label="全片結構摘要">
+      {content.timeline_summary.map((item) => (
+        <article class={`timeline-stop ${item.phase}`}>
+          <div class="timeline-index"><span>{phaseLabel[item.phase]}</span><b>{item.label}</b></div>
+          <p>{item.summary}</p>
+          <small>抽樣窗 {item.evidence_windows.map((index) => index + 1).join('、')}</small>
+        </article>
+      ))}
+    </div>
+  ) : (
+    <p class="timeline-unavailable">這部作品目前只有公開資料分析，尚未加入影片時間軸判讀。</p>
+  )}
+
+  <div class="fit-grid">
+    <section>
+      <h3>比較適合</h3>
+      <ul>{content.audience_fit.for.map((item) => <li>{item}</li>)}</ul>
+    </section>
+    <section class="not-for">
+      <h3>可能不適合</h3>
+      <ul>{content.audience_fit.not_for.map((item) => <li>{item}</li>)}</ul>
+    </section>
+  </div>
+
+  {content.recommendations.length > 0 && (
+    <section class="reasoned-recommendations">
+      <div class="mini-heading"><p class="eyebrow">WHY THIS NEXT</p><h3>有理由的延伸選片</h3></div>
+      <div class="recommendation-list">
+        {content.recommendations.map((item) => {
+          const review = related.get(item.movie_id);
+          return review && (
+            <a href={reviewHref(review)}>
+              <span class="mono-value">{item.movie_id}</span>
+              <b>{review.data.title}</b>
+              <p>{item.reason}</p>
+              <small>共同：{item.shared_signals.join('、')}　／　差異：{item.contrast_signals.join('、')}</small>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  )}
+</section>

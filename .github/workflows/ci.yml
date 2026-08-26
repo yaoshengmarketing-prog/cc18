@@ -23,9 +23,11 @@ jobs:
       - run: npm run source:test
       - run: npm run media:test
       - run: npm run bridge:test
+      - run: npm run worker:test
       - run: npm run discovery:test
       - run: npm run d1:test
       - run: npm run editorial:provider:test
       - run: npm run editorial:safety:test
       - run: npm run editorial:normalization:test
+      - run: npm run editorial:search:test
       - run: npm run build

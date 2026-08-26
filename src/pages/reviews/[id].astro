@@ -3,8 +3,12 @@ import {getCollection, render} from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import TagList from '../../components/TagList.astro';
 import VideoPlayer from '../../components/VideoPlayer.astro';
-import {formatDate, visibleTags} from '../../lib/reviews';
+import WorkFacts from '../../components/WorkFacts.astro';
+import DecisionGuide from '../../components/DecisionGuide.astro';
+import {visibleTags} from '../../lib/reviews';
 import {sourceTagItems} from '../../lib/taxonomy';
+import {sourceRecordFor} from '../../lib/source-records';
+import {searchContentFor} from '../../lib/search-content';
 
 export async function getStaticPaths() {
   const reviews = await getCollection('reviews', ({data}) => data.status === 'published');
@@ -12,26 +16,63 @@ export async function getStaticPaths() {
 }
 const {review} = Astro.props;
 const {Content} = await render(review);
+const allReviews = await getCollection('reviews', ({data}) => data.status === 'published');
+const related = new Map(allReviews.map((item) => [item.data.id, item]));
+const source = sourceRecordFor(review.data.id);
+const search = searchContentFor(review.data.id);
+const pageUrl = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
+const imageUrl = new URL(review.data.heroUrl ?? review.data.coverUrl, Astro.site ?? Astro.url.origin);
+const structuredData: Array<Record<string, unknown>> = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {'@type': 'ListItem', position: 1, name: '首頁', item: new URL('/', pageUrl).href},
+      {'@type': 'ListItem', position: 2, name: '作品影評', item: new URL('/latest/', pageUrl).href},
+      {'@type': 'ListItem', position: 3, name: review.data.id, item: pageUrl.href},
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: review.data.title,
+    description: review.data.shortReview,
+    image: imageUrl.href,
+    datePublished: review.data.publishedAt.toISOString(),
+    dateModified: source?.fetched_at ?? review.data.publishedAt.toISOString(),
+    inLanguage: 'zh-Hant',
+    mainEntityOfPage: pageUrl.href,
+    author: {'@type': 'Organization', name: 'CC18 影格編輯台', url: new URL('/method/', pageUrl).href},
+    publisher: {'@type': 'Organization', name: 'CC18 影格'},
+    about: [review.data.id, ...review.data.actress, ...(review.data.series ? [review.data.series] : [])],
+  },
+];
+if (review.data.videoUrl) structuredData.push({
+  '@context': 'https://schema.org',
+  '@type': 'VideoObject',
+  name: review.data.socialTitle,
+  description: review.data.shortReview,
+  thumbnailUrl: [imageUrl.href],
+  uploadDate: review.data.publishedAt.toISOString(),
+  duration: 'PT9S',
+  contentUrl: new URL(review.data.videoUrl, pageUrl).href,
+  embedUrl: pageUrl.href,
+  isFamilyFriendly: false,
+});
 ---
-<BaseLayout title={review.data.seoTitle} socialTitle={review.data.socialTitle} description={review.data.shortReview} image={review.data.heroUrl ?? review.data.coverUrl}>
+<BaseLayout title={review.data.seoTitle} socialTitle={review.data.socialTitle} description={review.data.shortReview} image={review.data.heroUrl ?? review.data.coverUrl} video={review.data.videoUrl} adult={true} structuredData={structuredData}>
   <article class="review-page">
+    <nav class="breadcrumbs" aria-label="麵包屑">
+      <a href="/">首頁</a><span>／</span><a href="/latest/">作品影評</a><span>／</span><b>{review.data.id}</b>
+    </nav>
     <header class="review-header">
       <div class="review-cover"><img src={review.data.coverUrl} alt={`${review.data.id} 作品封面`} /></div>
       <div class="review-heading">
-        <p class="eyebrow">ORIGINAL REVIEW · 公開資料評論</p>
+        <p class="eyebrow">EVIDENCE-LED REVIEW · 證據型原創評論</p>
         <p class="hero-number">{review.data.id}</p>
         <h1>{review.data.title}</h1>
         <p class="lead">{review.data.shortReview}</p>
-        <dl class="metadata">
-          <div><dt>演員</dt><dd>{review.data.actress.join('、') || '待補'}</dd></div>
-          <div><dt>上片日期</dt><dd>{formatDate(review.data.releaseDate)}</dd></div>
-          <div><dt>片商</dt><dd>{review.data.studio ?? '—'}</dd></div>
-          <div><dt>系列</dt><dd>{review.data.series ?? '—'}</dd></div>
-          <div><dt>影評切角</dt><dd>{review.data.editorialAngle}</dd></div>
-          {review.data.originalTitleJa && <div class="source-title"><dt>日文正式片名</dt><dd lang="ja">{review.data.originalTitleJa}</dd></div>}
-          {review.data.translatedTitleZhTw && <div class="source-title"><dt>繁中直譯</dt><dd>{review.data.translatedTitleZhTw}</dd></div>}
-          <div class="source-title"><dt>CC18 原始標題</dt><dd>{review.data.sourceTitle}</dd></div>
-        </dl>
+        <p class="angle-line"><span>本篇切角</span>{review.data.editorialAngle}</p>
         <p class="tag-label">站內標準標籤</p>
         <TagList tags={visibleTags(review)} />
         <p class="tag-label source-tag-label">CC18 原始標籤</p>
@@ -41,13 +82,19 @@ const {Content} = await render(review);
         </a>
       </div>
     </header>
+    <WorkFacts review={review} source={source} search={search} />
     <VideoPlayer src={review.data.videoUrl} poster={review.data.heroUrl ?? review.data.coverUrl} sourceUrl={review.data.sourceUrl} title={review.data.id} />
+    {search && <DecisionGuide content={search} related={related} />}
     <div class="article-layout">
-      <div class="article-body"><Content /></div>
+      <div class="article-body">
+        <div class="article-kicker"><p class="eyebrow">FULL REVIEW</p><h2>完整影評</h2></div>
+        <Content />
+      </div>
       <aside>
-        <p class="eyebrow">SOURCE</p>
-        <h2>作品來源</h2>
-        <p>番號、演員、日期、系列、標籤與公開簡介取自 CC18 作品頁。本文為依公開資訊重新撰寫的原創介紹。</p>
+        <p class="eyebrow">HOW WE REVIEW</p>
+        <h2>資料與方法</h2>
+        <p>作品事實取自 CC18；評論與資料欄位分開保存。{search?.sample_windows ? `本篇另使用 ${search.sample_windows} 個全片分布抽樣窗，只採用可追溯的非露骨觀察。` : '本篇目前只使用公開作品資料。'}</p>
+        <a href="/method/">查看完整編輯方法 →</a>
         <a href={review.data.sourceUrl} target="_blank" rel="sponsored noopener">開啟 CC18 原始頁面 ↗</a>
       </aside>
     </div>

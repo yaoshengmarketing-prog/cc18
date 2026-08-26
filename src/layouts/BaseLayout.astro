@@ -6,6 +6,10 @@ interface Props {
   socialTitle?: string;
   description?: string;
   image?: string;
+  robots?: string;
+  adult?: boolean;
+  structuredData?: Record<string, unknown> | Array<Record<string, unknown>>;
+  video?: string;
 }
 
 const {
@@ -13,8 +17,15 @@ const {
   socialTitle = title,
   description = '從公開作品資料出發，提供最新作品介紹、原創影評與清楚的 CC18 觀看入口。',
   image = '/images/demo-hero.svg',
+  robots = 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
+  adult = false,
+  structuredData,
+  video,
 } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
+const jsonLd = structuredData
+  ? JSON.stringify(structuredData).replace(/</g, '\\u003c')
+  : null;
 ---
 
 <!doctype html>
@@ -23,11 +34,16 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
+    <meta name="robots" content={robots} />
+    {adult && <meta name="rating" content="adult" />}
     <link rel="canonical" href={canonical} />
     <meta property="og:title" content={`${socialTitle}｜CC18 影格`} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={new URL(image, Astro.site ?? Astro.url.origin)} />
+    {video && <meta property="og:video" content={new URL(video, Astro.site ?? Astro.url.origin)} />}
+    {video && <meta property="og:video:type" content="video/mp4" />}
     <meta name="theme-color" content="#101b25" />
+    {jsonLd && <script is:inline type="application/ld+json" set:html={jsonLd}></script>}
     <title>{title}｜CC18 影格</title>
   </head>
   <body>
@@ -42,6 +58,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
         <a href="/actresses/">演員</a>
         <a href="/series/">系列</a>
         <a href="/tags/">標籤</a>
+        <a href="/search/">搜尋</a>
       </nav>
       <a class="source-pill" href="https://cc18.tv/" target="_blank" rel="sponsored noopener">前往 CC18 ↗</a>
     </header>
@@ -49,9 +66,12 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
     <footer class="site-footer">
       <div>
         <span class="brand-mark small">C18</span>
-        <p>以公開作品資訊撰寫原創介紹；不宣稱完整觀看。作品與觀看資訊以 CC18 原始頁面為準。</p>
+        <p>作品事實取自 CC18；影評與選片判斷另行製作，並標示影片分析方法與資料時間。</p>
       </div>
-      <a href="https://cc18.tv/" target="_blank" rel="sponsored noopener">CC18 官方作品站 ↗</a>
+      <nav aria-label="頁尾導覽">
+        <a href="/method/">編輯與分析方法</a>
+        <a href="https://cc18.tv/" target="_blank" rel="sponsored noopener">CC18 官方作品站 ↗</a>
+      </nav>
     </footer>
   </body>
 </html>
