@@ -1,5 +1,6 @@
 import {createHash} from 'node:crypto';
 import {readdir, readFile} from 'node:fs/promises';
+import {buildSafeTitleSignals} from './editorial/lib/safe-editorial-payload.mjs';
 
 const root = new URL('../', import.meta.url);
 const readJson = async (relative) => JSON.parse(await readFile(new URL(relative, root), 'utf8'));
@@ -62,7 +63,10 @@ for (const record of published) {
   if (titleSignals.length < minimumSignals || titleSignals.length > maximumSignals) {
     throw new Error(`${record.id}: titleSignals must contain ${minimumSignals} to ${maximumSignals} values`);
   }
-  const sourceCorpus = [source.title, source.description, ...(source.actress ?? []), source.series].filter(Boolean).join('\n');
+  const sourceCorpus = [
+    source.title, source.description, ...(source.actress ?? []), source.series,
+    ...buildSafeTitleSignals(source).map(({value}) => value),
+  ].filter(Boolean).join('\n');
   for (const signal of titleSignals) {
     if (!sourceCorpus.includes(signal)) throw new Error(`${record.id}: title signal is not traceable to source: ${signal}`);
   }
