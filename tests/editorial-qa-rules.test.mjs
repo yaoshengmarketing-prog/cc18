@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {editorialContentIssues, sourceOnlyGroundingIssues} from '../scripts/editorial/lib/qa-rules.mjs';
+import {editorialContentIssues, sitewideOriginalityIssues, sourceOnlyGroundingIssues} from '../scripts/editorial/lib/qa-rules.mjs';
 
 test('source-only QA allows creative audiovisual commentary but still requires a source-specific title concept', () => {
   const issues = sourceOnlyGroundingIssues({
@@ -69,4 +69,24 @@ test('source-only QA accepts creative audiovisual commentary with a traceable to
     actresses: ['要結愛'],
   });
   assert.deepEqual(issues, []);
+});
+
+test('sitewide originality rejects a reused agency-shift thesis and exact reusable prose', () => {
+  const issues = sitewideOriginalityIssues({
+    selectedThesis: '角色先被安排進入企劃，最後接管整體節奏。',
+    editorialAngle: '分析角色如何掌握場面。',
+    body: '這是一句只屬於本作的分析。這也是選片時最需要接受的取捨與限制，而且不能套用到其他作品。',
+    recentReviews: [{
+      selectedThesis: '她從被引導到主導整個場面。',
+      editorialAngle: '觀察主導權轉移。',
+      body: '另一篇不同的內容。這也是選片時最需要接受的取捨與限制，而且不能套用到其他作品。',
+    }],
+  });
+  assert.deepEqual(issues, ['reused_generic_thesis_family', 'sitewide_reused_sentences']);
+  assert.deepEqual(sitewideOriginalityIssues({
+    selectedThesis: '三次職業研修分別測試不同的表演規則。',
+    editorialAngle: '比較三段課程的功能差異。',
+    body: '這篇文章以三段課程的功能分工作為判斷。',
+    recentReviews: [],
+  }), []);
 });

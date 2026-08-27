@@ -11,6 +11,10 @@ export function sourceOnlyGroundingIssues({titleSignals = [], actresses = []}) {
 
 const genericArcs = ['被引導到主動', '從拘謹到投入', '節奏逐漸升高', '反差魅力', '主導權轉移', '距離逐步拉近'];
 const technicalTerms = new Set(['hd', '720p', 'fhd', '全高清 (fhd)', '4k', '高畫質', '獨家限定', '獨家配信', '配信専用']);
+const agencyShiftThesis = (value) => /被(?:引導|安排|帶著走)|接受引導/.test(value) && /主導|掌握|接管/.test(value);
+const reviewSentences = (value) => String(value ?? '').split(/[。！？!?]\s*/)
+  .map((sentence) => sentence.replace(/^[\s#*「」『』]+|[\s#*「」『』]+$/g, '').replace(/\s+/g, ''))
+  .filter((sentence) => sentence.length >= 18);
 
 export function editorialContentIssues({body = '', titles = [], titleSignals = [], topicElements = {}, coreSourceConcept = ''}) {
   const issues = [];
@@ -28,5 +32,17 @@ export function editorialContentIssues({body = '', titles = [], titleSignals = [
   if (genericArcs.some((phrase) => body.split(phrase).length - 1 > 1)) issues.push('overused_generic_editorial_arc');
   const conditionalReviewPhrases = body.match(/若(?:要)?成立|有沒有|有機會/g) ?? [];
   if (conditionalReviewPhrases.length >= 3) issues.push('overused_conditional_review_voice');
+  return issues;
+}
+
+export function sitewideOriginalityIssues({body = '', selectedThesis = '', editorialAngle = '', recentReviews = []}) {
+  const issues = [];
+  const thesis = `${selectedThesis}\n${editorialAngle}`;
+  if (agencyShiftThesis(thesis) && recentReviews.some((review) => agencyShiftThesis(`${review.selectedThesis ?? ''}\n${review.editorialAngle ?? ''}`))) {
+    issues.push('reused_generic_thesis_family');
+  }
+  const currentSentences = new Set(reviewSentences(body));
+  const reusedSentence = recentReviews.some((review) => reviewSentences(review.body).some((sentence) => currentSentences.has(sentence)));
+  if (reusedSentence) issues.push('sitewide_reused_sentences');
   return issues;
 }

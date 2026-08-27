@@ -205,7 +205,8 @@ export function normalizeEditorialResult(raw, {movieId, safePublicSource, safeVi
 
   const decisionGuide = normalizedDecisionGuide(raw.decision_guide ?? raw.decisionGuide ?? raw.search_content, raw, brief, sourceSignals, angleCandidates);
   if (sections.length && (!/適合|偏好|推薦/.test(sections.at(-1).body) || !/未必|不適合|取捨/.test(sections.at(-1).body))) {
-    sections.at(-1).body = clip(`${sections.at(-1).body}\n\n適合：${decisionGuide.audience_for.join('；')}。未必適合：${decisionGuide.audience_not_for.join('；')}。這也是選片時最需要接受的取捨。`, 700);
+    const decisionContext = safePublicSource.core_source_concept ?? sourceSignals[0]?.value ?? movieId;
+    sections.at(-1).body = clip(`${sections.at(-1).body}\n\n以「${decisionContext}」為選片基準，適合：${decisionGuide.audience_for.join('；')}。若偏好：${decisionGuide.audience_not_for.join('；')}，則未必適合；這是本作最明確的觀看取捨。`, 700);
   }
   return {
     ...raw,

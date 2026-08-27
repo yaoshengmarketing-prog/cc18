@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-409",
+  "review_sha256": "c8b0452fcc61afcf0cb29956b6a2a0a7146148cf09b97cc65ce107e70f8cab1d",
+  "selected_thesis": "這部片真正有辨識度的，不是單一體位或主導權變化，而是把「我還不知道的性愛」做成一種帶有研修意味的企劃：以成人片女優的自我更新為敘事前提，讓未知不只是初次嘗試，而是一步步拆開職業慣性、身體反應與表演方法的過程。也因此，顏射與騎乘位在這裡不是標籤堆疊，而像兩個被刻意安排的測試點，用來看她如何從被觀看的對象，變成能夠定義畫面強度的人。",
+  "title_basis": {
+    "performer": "星空ねる",
+    "signals": [
+      {
+        "type": "theme",
+        "value": "我還不知道的性愛",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "顏射",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "我還不知道的性愛",
+    "presentation_feature": "AV女優片",
+    "editorial_judgment": "以『我還不知道的性愛』為唯一核心，討論這部作品如何把成人片女優的既有職業形象，暫時拉回到學習者位置；重點不在她是否奪回主導，而在企劃如何要求她重新認識自身表演、接受新規則、再把未知內化為可見的畫面節奏。",
+    "source_keywords": [
+      "我還不知道的性愛",
+      "AV女優片",
+      "顏射"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：星空ねる",
+      "supports": "這項可追溯來源訊號支持文章以「星空ねる」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：我還不知道的性愛",
+      "supports": "這項可追溯來源訊號支持文章以「我還不知道的性愛」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：顏射",
+      "supports": "這項可追溯來源訊號支持文章以「顏射」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：騎乘位",
+      "supports": "這項可追溯來源訊號支持文章以「騎乘位」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：拘束玩具",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：濃厚大叔交尾",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不可把『拘束、主導權、覺醒』寫成唯一論點，它們只能作為企劃後果",
+    "不可虛構演員私生活、真實身份背景或年齡",
+    "不可補寫未獲來源支持的系列、發布狀態、外部連結或原文標題"
+  ],
+  "scores": null,
+  "rewrite_attempts": 3,
+  "approved_for_publish": false
+}

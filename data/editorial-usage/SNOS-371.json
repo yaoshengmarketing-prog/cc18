@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-371",
+  "calls": [
+    {
+      "generated_at": "2026-08-27T18:19:30.592Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2415,
+      "cached_input_tokens": 0,
+      "output_tokens": 3228,
+      "total_tokens": 5643,
+      "estimated_cost_usd": 0.084705,
+      "estimated_payg_cash_cost_usd": 0.08894,
+      "direct_openai_reference_usd": 0.054457,
+      "gateway_premium_usd": 0.030248,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    },
+    {
+      "generated_at": "2026-08-27T18:25:54.849Z",
+      "rewrite_attempt": 1,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2598,
+      "cached_input_tokens": 0,
+      "output_tokens": 3619,
+      "total_tokens": 6217,
+      "estimated_cost_usd": 0.094418,
+      "estimated_payg_cash_cost_usd": 0.099138,
+      "direct_openai_reference_usd": 0.06078,
+      "gateway_premium_usd": 0.033638,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    },
+    {
+      "generated_at": "2026-08-27T18:27:15.790Z",
+      "rewrite_attempt": 2,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2535,
+      "cached_input_tokens": 0,
+      "output_tokens": 2788,
+      "total_tokens": 5323,
+      "estimated_cost_usd": 0.075405,
+      "estimated_payg_cash_cost_usd": 0.079175,
+      "direct_openai_reference_usd": 0.048157,
+      "gateway_premium_usd": 0.027248,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 7548,
+    "cached_input_tokens": 0,
+    "output_tokens": 9635,
+    "estimated_cost_usd": 0.254528,
+    "estimated_payg_cash_cost_usd": 0.267253,
+    "direct_openai_reference_usd": 0.163394,
+    "gateway_premium_usd": 0.091134
+  }
+}

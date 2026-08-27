@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-371",
+  "review_sha256": "db9a9a9465cbaecbace35a924f670e554b5c87aad1e86f61c24daf127efe926e",
+  "selected_thesis": "本片真正的辨識度不在單一體位或溫柔氣氛，而在於「關東巡行」這個企劃如何把一段段相遇、引導與回應串成路線敘事。河北彩花的表現因此不只是服務橋段，而是在紀錄片形式中逐步把口交、親吻與騎乘位整理成一種由外而內的節奏掌握。",
+  "title_basis": {
+    "performer": "河北彩花",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "河北彩花",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "關東巡行",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "口交",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "河北彩花",
+    "presentation_feature": "關東巡行",
+    "editorial_judgment": "以『關東巡行』為核心分析本片：不是把地名或移動當噱頭，而是看企劃如何讓不同互動段落形成連續推進，並讓河北彩花在口交、親吻與騎乘位之間完成從被觀看到主動掌握節奏的轉變。",
+    "source_keywords": [
+      "河北彩花",
+      "關東巡行",
+      "口交"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：河北彩花",
+      "supports": "這項可追溯來源訊號支持文章以「河北彩花」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：紀錄片形式",
+      "supports": "這項可追溯來源訊號支持文章以「紀錄片形式」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：關東巡行",
+      "supports": "這項可追溯來源訊號支持文章以「關東巡行」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：口交",
+      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：騎乘位",
+      "supports": "這項可追溯來源訊號支持文章以「騎乘位」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：溫柔與體貼",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：親吻",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不可把『童貞男』『破處』擴寫成來源未明的具體人物背景",
+    "不可把高畫質、獨家配信當成標題主軸",
+    "不可讓覺醒、主導權等泛用概念蓋過『關東巡行』"
+  ],
+  "scores": null,
+  "rewrite_attempts": 2,
+  "approved_for_publish": false
+}

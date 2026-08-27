@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-371",
+  "generated_at": "2026-08-27T18:27:15.787Z",
+  "source_snapshot_hash": "sha256:b518083af2ec9dcb3588f5fd5b35797063fe3048f1ca66a0e8295027411304f5",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "它不是靠單一猛點取勝，而是把關東巡行拍成一場逐站升溫的展示型企劃。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "河北彩花",
+      "紀錄片形式",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "不可把『童貞男』『破處』擴寫成來源未明的具體人物背景",
+      "不可把高畫質、獨家配信當成標題主軸",
+      "不可讓覺醒、主導權等泛用概念蓋過『關東巡行』"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？它不是靠單一猛點取勝，而是把關東巡行拍成一場逐站升溫的展示型企劃。",
+    "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+    "有哪些觀看取捨？不可把『童貞男』『破處』擴寫成來源未明的具體人物背景"
+  ]
+}

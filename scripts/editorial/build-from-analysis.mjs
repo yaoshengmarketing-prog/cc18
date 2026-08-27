@@ -145,10 +145,16 @@ const prompt = {
 
 if (feedbackArgument) {
   const feedback = JSON.parse(await readFile(resolve(feedbackArgument), 'utf8'));
+  const guidance = {
+    reused_generic_thesis_family: '不要再使用「被引導或被安排，最後掌握或接管節奏」作為核心命題。改由本作獨有的來源企劃結構、人物關係或場景規則決定全文因果。',
+    sitewide_reused_sentences: '刪除可套用到其他作品的結尾與選片句，重新撰寫開場、段落邏輯及結論，不得沿用站內既有完整句子。',
+  };
+  const failureReasons = feedback.failure_reasons ?? feedback.issues ?? [];
   prompt.previous_qa_feedback = {
-    failure_reasons: feedback.failure_reasons ?? feedback.issues ?? [],
+    failure_reasons: failureReasons,
     checks: feedback.checks ?? {},
-    instruction: '重寫全文以修正所有失敗項目；保留可追溯證據，但不可只局部補句。',
+    targeted_guidance: failureReasons.map((reason) => guidance[reason]).filter(Boolean),
+    instruction: '重寫全文以修正所有失敗項目；保留可追溯證據，但不可只局部補句。新的核心命題、開場、段落因果與結論都必須明顯不同。',
   };
 }
 

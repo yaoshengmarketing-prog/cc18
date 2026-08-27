@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-409",
+  "calls": [
+    {
+      "generated_at": "2026-08-27T18:20:27.535Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2469,
+      "cached_input_tokens": 0,
+      "output_tokens": 3276,
+      "total_tokens": 5745,
+      "estimated_cost_usd": 0.086055,
+      "estimated_payg_cash_cost_usd": 0.090358,
+      "direct_openai_reference_usd": 0.055313,
+      "gateway_premium_usd": 0.030743,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    },
+    {
+      "generated_at": "2026-08-27T18:21:17.034Z",
+      "rewrite_attempt": 1,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2516,
+      "cached_input_tokens": 0,
+      "output_tokens": 3476,
+      "total_tokens": 5992,
+      "estimated_cost_usd": 0.09079,
+      "estimated_payg_cash_cost_usd": 0.095329,
+      "direct_openai_reference_usd": 0.05843,
+      "gateway_premium_usd": 0.03236,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    },
+    {
+      "generated_at": "2026-08-27T18:22:13.180Z",
+      "rewrite_attempt": 2,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2516,
+      "cached_input_tokens": 0,
+      "output_tokens": 3475,
+      "total_tokens": 5991,
+      "estimated_cost_usd": 0.090768,
+      "estimated_payg_cash_cost_usd": 0.095306,
+      "direct_openai_reference_usd": 0.058415,
+      "gateway_premium_usd": 0.032352,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    },
+    {
+      "generated_at": "2026-08-27T18:28:24.796Z",
+      "rewrite_attempt": 3,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2653,
+      "cached_input_tokens": 0,
+      "output_tokens": 3635,
+      "total_tokens": 6288,
+      "estimated_cost_usd": 0.095052,
+      "estimated_payg_cash_cost_usd": 0.099805,
+      "direct_openai_reference_usd": 0.061157,
+      "gateway_premium_usd": 0.033895,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 10154,
+    "cached_input_tokens": 0,
+    "output_tokens": 13862,
+    "estimated_cost_usd": 0.362665,
+    "estimated_payg_cash_cost_usd": 0.380798,
+    "direct_openai_reference_usd": 0.233315,
+    "gateway_premium_usd": 0.12935
+  }
+}

@@ -1,8 +1,8 @@
 import {createHash} from 'node:crypto';
-import {readFile, writeFile} from 'node:fs/promises';
+import {readdir, readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {buildSafeTitleSignals} from './lib/safe-editorial-payload.mjs';
-import {editorialContentIssues, sourceOnlyGroundingIssues} from './lib/qa-rules.mjs';
+import {editorialContentIssues, sitewideOriginalityIssues, sourceOnlyGroundingIssues} from './lib/qa-rules.mjs';
 
 const movieId = process.argv[2];
 if (!movieId) throw new Error('Usage: node scripts/editorial/qa-draft.mjs <MOVIE-ID>');
@@ -13,6 +13,25 @@ const source = JSON.parse(await readFile(resolve(root, `data/source-records/${mo
 const sourceText = await readFile(resolve(root, `data/source-records/${movieId}.json`), 'utf8');
 const search = JSON.parse(await readFile(resolve(root, `data/search-content/${movieId}.json`), 'utf8'));
 const registry = JSON.parse(await readFile(resolve(root, 'data/movie-registry.json'), 'utf8'));
+const recentReviewIds = (await readdir(resolve(root, 'data', 'editorial-briefs')))
+  .filter((name) => name.endsWith('.json') && name !== `${movieId}.json`)
+  .map((name) => name.slice(0, -5));
+const recentReviews = (await Promise.all(recentReviewIds.map(async (id) => {
+  try {
+    const [recentBrief, recentMarkdown] = await Promise.all([
+      readFile(resolve(root, 'data', 'editorial-briefs', `${id}.json`), 'utf8').then(JSON.parse),
+      readFile(resolve(root, 'content', 'reviews', `${id}.md`), 'utf8'),
+    ]);
+    return {
+      selectedThesis: recentBrief.selected_thesis,
+      editorialAngle: recentBrief.editorial_angle,
+      body: recentMarkdown.replace(/^---\r?\n[\s\S]*?\r?\n---/, '').trim(),
+    };
+  } catch (error) {
+    if (error?.code === 'ENOENT') return null;
+    throw error;
+  }
+}))).filter(Boolean).slice(-30);
 
 const issues = [];
 const frontmatter = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---/)?.[1] ?? '';
@@ -45,6 +64,12 @@ issues.push(...editorialContentIssues({
   titleSignals: sourceSignals,
   topicElements: brief.topic_elements ?? {},
   coreSourceConcept: brief.local_creative_brief?.core_source_concept ?? '',
+}));
+issues.push(...sitewideOriginalityIssues({
+  body,
+  selectedThesis: brief.selected_thesis,
+  editorialAngle: brief.editorial_angle,
+  recentReviews,
 }));
 
 const sentences = body.split(/[。！？!?]\s*/).map((item) => item.replace(/\s+/g, '')).filter((item) => item.length >= 16);
