@@ -74,7 +74,7 @@ export function buildSafeVideoAnalysis(analysis) {
   };
 }
 
-export function buildSafePublicSource(source) {
+export function buildSafePublicSource(source, localCreativeBrief = null) {
   const safeTitleSignals = buildSafeTitleSignals(source);
   if (safeTitleSignals.length < 2) {
     throw Object.assign(new Error(`${source.id}: fewer than two safe source-grounded title signals`), {code: 'EDITORIAL_SAFE_SIGNALS_INSUFFICIENT'});
@@ -85,5 +85,6 @@ export function buildSafePublicSource(source) {
     actress: source.actress ?? [],
     series: source.series ?? null,
     safe_title_signals: safeTitleSignals,
+    creative_seed_brief: localCreativeBrief,
   };
 }

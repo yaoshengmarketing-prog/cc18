@@ -1,0 +1,40 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {createLocalSourceBrief, normalizeLocalSourceBrief} from '../scripts/editorial/lib/local-source-brief.mjs';
+import {buildSafePublicSource} from '../scripts/editorial/lib/safe-editorial-payload.mjs';
+
+const brief = {
+  premise: '兩位熟識角色因臨時安排被迫共享私人空間',
+  relationship: '原本保持禮貌距離的同事',
+  role_dynamic: '一方主動試探，另一方從克制轉為回應',
+  central_tension: '日常關係與突然拉近的距離產生反差',
+  setting: '旅館式私人房間',
+  themes: ['距離變化', '關係轉折'],
+  creative_seeds: ['從公事語氣逐步轉為私人對話', '用共享空間放大尷尬與期待', '以一次誤解推動關係改變'],
+};
+
+test('normalizes a complete non-graphic local creative brief', () => {
+  assert.deepEqual(normalizeLocalSourceBrief(brief), brief);
+  assert.throws(() => normalizeLocalSourceBrief({...brief, creative_seeds: []}), /incomplete/);
+});
+
+test('raw source is sent only to loopback and the external-safe payload contains the local brief', async () => {
+  let request;
+  const fetchImplementation = async (url, options) => {
+    request = {url: String(url), body: JSON.parse(options.body)};
+    return {ok: true, json: async () => ({message: {content: JSON.stringify(brief)}})};
+  };
+  const source = {
+    id: 'TEST-001', release_date: '2026-08-27', actress: ['測試演員'], series: '同房系列',
+    title: 'RAW TITLE', description: 'RAW DESCRIPTION', source_tags: ['劇情'],
+  };
+  const local = await createLocalSourceBrief(source, {
+    local_analysis: {endpoint: 'http://127.0.0.1:11434', vision_model: 'qwen2.5vl:7b', request_timeout_ms: 1000},
+  }, fetchImplementation);
+  assert.equal(new URL(request.url).hostname, '127.0.0.1');
+  assert.match(request.body.messages[1].content, /RAW DESCRIPTION/);
+  const safe = buildSafePublicSource(source, local);
+  const externalPayload = JSON.stringify(safe);
+  assert.doesNotMatch(externalPayload, /RAW TITLE|RAW DESCRIPTION/);
+  assert.match(externalPayload, /距離變化/);
+});

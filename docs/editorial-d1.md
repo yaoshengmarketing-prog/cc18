@@ -1,5 +1,16 @@
 # D1 Editorial 接棒
 
+## Creative-first source-only 路徑
+
+自 v0.17 起，Discovery 會為 eligible 作品同時建立 `editorial` 與 `media_analysis` 工作，兩者互不等待：
+
+```text
+SourceRecord → local Ollama Creative Brief → external Writer → QA → draft
+          ↘ optional Media Analysis → later enriched rewrite
+```
+
+本機 Creative Brief 可讀取完整來源標題、簡介與 Tag，但外部 Writer 只接收非露骨的整理結果。執行單件使用 `npm run editorial:d1:source-only -- MOVIE-ID`；批次 `editorial:source-cycle` 必須另外設定 `CC18_ALLOW_EDITORIAL_TRANSMISSION=YES`。兩者都只產生 draft。
+
 ## 流程
 
 ```text

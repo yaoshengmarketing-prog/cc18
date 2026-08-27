@@ -40,7 +40,7 @@ export class FileQueueStore {
     await this.save(state);
   }
 
-  async upsertDiscovery({record, classification, runId, priority}) {
+  async upsertDiscovery({record, classification, runId, priority, stages = ['media_analysis']}) {
     const state = await this.read();
     const id = normalizedId(record.id);
     const now = isoNow();
@@ -65,14 +65,15 @@ export class FileQueueStore {
       movie.source_record = record;
     }
 
-    let enqueued = false;
+    let enqueuedCount = 0;
     if (classification === 'eligible') {
-      const idempotencyKey = jobKey(id, 'media_analysis');
-      if (!state.jobs.some((job) => job.idempotency_key === idempotencyKey)) {
+      for (const stage of stages) {
+        const idempotencyKey = jobKey(id, stage);
+        if (state.jobs.some((job) => job.idempotency_key === idempotencyKey)) continue;
         state.jobs.push({
           id: randomUUID(),
           movie_id: id,
-          stage: 'media_analysis',
+          stage,
           status: 'queued',
           priority,
           attempt: 0,
@@ -86,11 +87,11 @@ export class FileQueueStore {
           created_at: now,
           updated_at: now,
         });
-        enqueued = true;
+        enqueuedCount += 1;
       }
     }
     await this.save(state);
-    return {isNew, enqueued};
+    return {isNew, enqueued: enqueuedCount > 0, enqueued_count: enqueuedCount};
   }
 
   async finishRun({runId, finishedAt, status, summary}) {
@@ -245,11 +246,16 @@ export class D1RestQueueStore {
     await this.query({sql: 'INSERT INTO discovery_runs (id, status, started_at, listing_urls_json) VALUES (?, ?, ?, ?)', params: [runId, 'running', startedAt, JSON.stringify(listingUrls)]});
   }
 
-  async upsertDiscovery({record, classification, runId, priority}) {
+  async upsertDiscovery({record, classification, runId, priority, stages = ['media_analysis']}) {
     const now = isoNow();
     const sourceUuid = new URL(record.source_url).searchParams.get('uuid');
     const id = normalizedId(record.id);
-    const key = jobKey(id, 'media_analysis');
+    const jobStatements = classification === 'eligible' ? stages.map((stage) => ({
+      sql: `INSERT INTO pipeline_jobs (id, movie_id, stage, status, priority, attempt, max_attempts, idempotency_key, discovery_run_id, created_at, updated_at)
+            VALUES (?, ?, ?, 'queued', ?, 0, 5, ?, ?, ?, ?)
+            ON CONFLICT(idempotency_key) DO NOTHING`,
+      params: [randomUUID(), id, stage, priority, jobKey(id, stage), runId, now, now],
+    })) : [];
     const results = await this.query([
       {
         sql: `INSERT INTO movies (id, release_date, source_url, source_uuid, first_seen_at, last_seen_at, classification, metadata_status, source_json)
@@ -264,14 +270,10 @@ export class D1RestQueueStore {
               ON CONFLICT(source_uuid) DO UPDATE SET movie_id=excluded.movie_id, source_url=excluded.source_url, last_seen_at=excluded.last_seen_at`,
         params: [id, sourceUuid, record.source_url, now, now],
       },
-      ...(classification === 'eligible' ? [{
-        sql: `INSERT INTO pipeline_jobs (id, movie_id, stage, status, priority, attempt, max_attempts, idempotency_key, discovery_run_id, created_at, updated_at)
-              VALUES (?, ?, 'media_analysis', 'queued', ?, 0, 5, ?, ?, ?, ?)
-              ON CONFLICT(idempotency_key) DO NOTHING`,
-        params: [randomUUID(), id, priority, key, runId, now, now],
-      }] : []),
+      ...jobStatements,
     ]);
-    return {isNew: Boolean(results[0]?.results?.[0]?.is_new), enqueued: classification === 'eligible' && (results[2]?.meta?.changes ?? 0) > 0};
+    const enqueuedCount = results.slice(2).reduce((sum, result) => sum + Number(result?.meta?.changes ?? 0), 0);
+    return {isNew: Boolean(results[0]?.results?.[0]?.is_new), enqueued: enqueuedCount > 0, enqueued_count: enqueuedCount};
   }
 
   async finishRun({runId, finishedAt, status, summary}) {

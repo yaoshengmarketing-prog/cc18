@@ -61,10 +61,10 @@ export async function discoverBatch({
         const {classification, ageDays} = classifyRecord(record, now, config);
         summary[classification] += 1;
         const priority = Math.max(1, 10_000 - Math.max(0, ageDays) * 100);
-        const result = await store.upsertDiscovery({record, classification, runId, priority});
+        const result = await store.upsertDiscovery({record, classification, runId, priority, stages: config.initial_stages ?? ['media_analysis']});
         summary.new_movies += result.isNew ? 1 : 0;
         summary.duplicates += result.isNew ? 0 : 1;
-        summary.enqueued += result.enqueued ? 1 : 0;
+        summary.enqueued += result.enqueued_count ?? (result.enqueued ? 1 : 0);
       } catch (error) {
         summary.errors.push({url: workUrl, code: error?.name ?? 'Error', message: String(error?.message ?? error).slice(0, 300)});
         logger.warn?.(`Discovery item failed: ${workUrl}`);

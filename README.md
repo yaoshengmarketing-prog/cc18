@@ -48,17 +48,20 @@ npm run queue:status -- --store=file
 npm run bridge:d1:process-one
 npm run worker:readiness
 npm run worker:cycle -- --max=3
+npm run editorial:d1:source-only -- MOVIE-ID
 ```
 
 `worker:cycle` 預設只做可選的影片證據分析；單筆失敗不阻塞文章或後續工作，原始影片樣本在分析後刪除。只有同時加上 `--with-editorial` 並明確設定 `CC18_ALLOW_EDITORIAL_TRANSMISSION=YES`，才會把安全化資料送往外部文字模型建立草稿；它仍不會發布。目前 Windows 排程保持停用，待 source-grounded Editorial 路徑完成後再重新啟用。
 
 `file` 模式是本機 dry run；正式跨執行持久化使用 `--store=d1`。D1 已建立並套用 migration。正式每日發布仍維持關閉，必須先完成整條流程與七天 canary。
 
+Creative-first 路徑已與 Media 解耦：Discovery 對每部 eligible 作品各建立一個 `editorial` 與一個 `media_analysis` 工作。Editorial 先由本機 Ollama 讀取完整來源標題、簡介與 Tag，產生非露骨 Creative Brief；外部 Writer 只接收這份 Brief 與安全化訊號。`editorial:source-cycle` 仍受 `CC18_ALLOW_EDITORIAL_TRANSMISSION=YES` 明確開關保護，目前未排程、未執行新作品外送。
+
 ## Architecture
 
-- 最新套件來源：`architecture/cc18-architecture-v0.16.0-draft/`
-- 最新 ZIP：`architecture/releases/cc18-architecture-v0.16.0-draft.zip`
-- 前一版實作套件：`architecture/cc18-architecture-v0.15.0-draft/`
+- 最新套件來源：`architecture/cc18-architecture-v0.17.0-draft/`
+- 最新 ZIP：`architecture/releases/cc18-architecture-v0.17.0-draft.zip`
+- 前一版實作套件：`architecture/cc18-architecture-v0.16.0-draft/`
 - 第一版套件保留於 `architecture/cc18-architecture-v0.1.0-draft/`
 
 所有實作應引用架構文件、Schema 或 ADR。架構變更需產生新版本，不覆寫既有 ZIP。

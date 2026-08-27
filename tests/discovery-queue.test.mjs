@@ -159,3 +159,20 @@ test('fails closed when the listing selector returns no candidates', async () =>
   assert.ok(resolvedDirectory.startsWith(`${resolve(tmpdir())}${sep}`));
   await rm(resolvedDirectory, {recursive: true});
 });
+
+test('eligible discovery can enqueue creative editorial and optional media independently', async () => {
+  const directory = await mkdtemp(join(tmpdir(), 'cc18-dual-stage-'));
+  const store = new FileQueueStore(join(directory, 'queue.json'));
+  try {
+    const record = {
+      id: 'DUAL-001', release_date: '2026-08-27', source_url: 'https://cc18.tv/player.php?uuid=dual',
+      title: '測試作品', actress: [], series: null, source_tags: [], description: '測試簡介',
+    };
+    const result = await store.upsertDiscovery({record, classification: 'eligible', runId: null, priority: 10, stages: ['editorial', 'media_analysis']});
+    assert.equal(result.enqueued_count, 2);
+    assert.equal((await store.findJob({movieId: 'DUAL-001', stage: 'editorial'})).status, 'queued');
+    assert.equal((await store.findJob({movieId: 'DUAL-001', stage: 'media_analysis'})).status, 'queued');
+  } finally {
+    await rm(directory, {recursive: true});
+  }
+});

@@ -5,12 +5,15 @@ import {resolve} from 'node:path';
 import {spawn} from 'node:child_process';
 import {queueStoreFromEnvironment} from '../queue/store.mjs';
 import {assertEditorialProviderReady, loadLocalEditorialEnvironment} from './lib/openai-writer.mjs';
+import {loadBridgeConfig} from '../bridge/lib/config.mjs';
+import {assertLocalAnalyzerReady} from '../bridge/lib/local-analysis.mjs';
 
-const movieId = process.argv[2]?.trim().toUpperCase();
+let movieId = process.argv.slice(2).find((argument) => !argument.startsWith('--'))?.trim().toUpperCase();
 const qaOnly = process.argv.includes('--qa-only');
 const retryNow = process.argv.includes('--retry-now');
-if (!movieId || !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId)) {
-  throw new Error('Usage: npm run editorial:d1:handoff -- <MOVIE-ID>');
+const sourceOnly = process.argv.includes('--source-only');
+if ((!sourceOnly || movieId) && !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId ?? '')) {
+  throw new Error('Usage: npm run editorial:d1:handoff -- <MOVIE-ID> [--source-only], or --source-only for the next queued work');
 }
 
 const root = resolve(import.meta.dirname, '..', '..');
@@ -18,41 +21,48 @@ loadLocalEditorialEnvironment(root);
 const pipeline = JSON.parse(await readFile(resolve(root, 'config/pipeline.json'), 'utf8'));
 const editorialModel = JSON.parse(await readFile(resolve(root, 'config/editorial-model.json'), 'utf8'));
 assertEditorialProviderReady(editorialModel);
+const bridgeConfig = await loadBridgeConfig(resolve(root, 'config/media-bridge.json'));
+await assertLocalAnalyzerReady(bridgeConfig);
 const store = queueStoreFromEnvironment({mode: 'd1'});
-const mediaJob = await store.findJob({movieId, stage: 'media_analysis', status: 'completed'});
-if (!mediaJob) throw new Error(`${movieId}: no completed D1 media_analysis job`);
+const workerId = `editorial-${hostname()}-${process.pid}-${randomUUID().slice(0, 8)}`;
+let mediaJob = null;
+let editorialJob = null;
+let claimed = null;
+if (sourceOnly && !movieId) {
+  claimed = await store.claim({stage: 'editorial', workerId, leaseSeconds: pipeline.queue.lease_seconds});
+  if (!claimed) {
+    console.log(JSON.stringify({event: 'editorial_queue_empty', stage: 'editorial'}));
+    process.exit(0);
+  }
+  movieId = claimed.movie_id;
+  editorialJob = claimed;
+} else {
+  mediaJob = sourceOnly ? null : await store.findJob({movieId, stage: 'media_analysis', status: 'completed'});
+  if (!sourceOnly && !mediaJob) throw new Error(`${movieId}: no completed D1 media_analysis job`);
+  editorialJob = await store.enqueueJob({movieId, stage: 'editorial', priority: mediaJob?.priority ?? 1, discoveryRunId: mediaJob?.discovery_run_id ?? null});
+  if (retryNow && editorialJob.status === 'retry') {
+    editorialJob = await store.requeueRetry({jobId: editorialJob.id, allowedErrorCodes: ['EDITORIAL_GENERATION_FAILED']}) ?? editorialJob;
+  }
+  if (editorialJob.status === 'blocked' && ['EDITORIAL_QA_FAILED', 'EDITORIAL_GENERATION_FAILED'].includes(editorialJob.last_error_code)) {
+    editorialJob = await store.requeueBlocked({jobId: editorialJob.id, allowedErrorCodes: ['EDITORIAL_QA_FAILED', 'EDITORIAL_GENERATION_FAILED']});
+  }
+  claimed = await store.claim({stage: 'editorial', jobId: editorialJob.id, workerId, leaseSeconds: pipeline.queue.lease_seconds});
+  if (!claimed) throw new Error(`${movieId}: editorial job is not claimable (current status: ${editorialJob.status})`);
+}
+
 const movie = await store.getMovie(movieId);
-if (!movie) throw new Error(`${movieId}: D1 movie record not found`);
-
-const analysisPath = resolve(root, '.cc18-bridge', 'runtime', 'jobs', mediaJob.id, 'analysis.json');
-const analysis = JSON.parse(await readFile(analysisPath, 'utf8'));
-if (analysis.movie_id !== movieId || analysis.job_id !== mediaJob.id) throw new Error(`${movieId}: local analysis identity mismatch`);
-
+if (!movie) {
+  await store.finishJob({jobId: claimed.id, workerId, outcome: 'failed', errorCode: 'MOVIE_SOURCE_MISSING'});
+  throw new Error(`${movieId}: D1 movie record not found`);
+}
+const analysisPath = sourceOnly ? null : resolve(root, '.cc18-bridge', 'runtime', 'jobs', mediaJob.id, 'analysis.json');
+if (!sourceOnly) {
+  const analysis = JSON.parse(await readFile(analysisPath, 'utf8'));
+  if (analysis.movie_id !== movieId || analysis.job_id !== mediaJob.id) throw new Error(`${movieId}: local analysis identity mismatch`);
+}
 const source = JSON.parse(movie.source_json);
 await mkdir(resolve(root, 'data', 'source-records'), {recursive: true});
 await writeFile(resolve(root, 'data', 'source-records', `${movieId}.json`), `${JSON.stringify(source, null, 2)}\n`);
-
-let editorialJob = await store.enqueueJob({
-  movieId,
-  stage: 'editorial',
-  priority: mediaJob.priority,
-  discoveryRunId: mediaJob.discovery_run_id,
-});
-if (retryNow && editorialJob.status === 'retry') {
-  editorialJob = await store.requeueRetry({
-    jobId: editorialJob.id,
-    allowedErrorCodes: ['EDITORIAL_GENERATION_FAILED'],
-  }) ?? editorialJob;
-}
-if (editorialJob.status === 'blocked' && ['EDITORIAL_QA_FAILED', 'EDITORIAL_GENERATION_FAILED'].includes(editorialJob.last_error_code)) {
-  editorialJob = await store.requeueBlocked({
-    jobId: editorialJob.id,
-    allowedErrorCodes: ['EDITORIAL_QA_FAILED', 'EDITORIAL_GENERATION_FAILED'],
-  });
-}
-const workerId = `editorial-${hostname()}-${process.pid}-${randomUUID().slice(0, 8)}`;
-const claimed = await store.claim({stage: 'editorial', jobId: editorialJob.id, workerId, leaseSeconds: pipeline.queue.lease_seconds});
-if (!claimed) throw new Error(`${movieId}: editorial job is not claimable (current status: ${editorialJob.status})`);
 
 const childEnvironment = {...process.env};
 delete childEnvironment.CLOUDFLARE_API_TOKEN;
@@ -91,7 +101,9 @@ try {
     const qaReportPath = resolve(root, 'data', 'review-quality', `${movieId}-automated.json`);
     let approved = false;
     for (let rewriteAttempt = 0; rewriteAttempt <= editorialModel.qa_rewrite_limit; rewriteAttempt += 1) {
-      const buildArguments = [movieId, `--analysis=${analysisPath}`, `--rewrite-attempt=${rewriteAttempt}`];
+      const buildArguments = [movieId, `--rewrite-attempt=${rewriteAttempt}`];
+      if (sourceOnly) buildArguments.push('--source-only');
+      else buildArguments.push(`--analysis=${analysisPath}`);
       if (rewriteAttempt > 0) buildArguments.push(`--qa-feedback=${qaReportPath}`);
       await run('scripts/editorial/build-from-analysis.mjs', buildArguments, 'EDITORIAL_GENERATION_FAILED');
       const qaExitCode = await run('scripts/editorial/qa-draft.mjs', [movieId], 'EDITORIAL_QA_FAILED', true);
@@ -104,7 +116,7 @@ try {
   }
   await stopLease();
   await store.finishJob({jobId: claimed.id, workerId, outcome: 'completed'});
-  console.log(JSON.stringify({movie_id: movieId, editorial_job_id: claimed.id, status: 'completed', publication_status: 'draft'}, null, 2));
+  console.log(JSON.stringify({movie_id: movieId, editorial_job_id: claimed.id, status: 'completed', publication_status: 'draft', editorial_mode: sourceOnly ? 'creative_first_source_only' : 'creative_first_video_enhanced'}, null, 2));
 } catch (error) {
   clearInterval(leaseTimer);
   await leasePending;

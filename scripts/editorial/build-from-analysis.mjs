@@ -5,6 +5,8 @@ import {assertEditorialProviderReady, editorialApiKey, loadLocalEditorialEnviron
 import {buildSafePublicSource, buildSafeVideoAnalysis, safeCanonicalTagIds} from './lib/safe-editorial-payload.mjs';
 import {normalizeEditorialResult, parseFirstJsonObject} from './lib/provider-normalization.mjs';
 import {writeSearchContent} from './lib/search-content.mjs';
+import {createLocalSourceBrief} from './lib/local-source-brief.mjs';
+import {loadBridgeConfig} from '../bridge/lib/config.mjs';
 
 const movieId = process.argv[2];
 if (!movieId || !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId)) {
@@ -14,6 +16,7 @@ if (!movieId || !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId)) {
 const root = resolve(import.meta.dirname, '..', '..');
 loadLocalEditorialEnvironment(root);
 const analysisArgument = process.argv.find((argument) => argument.startsWith('--analysis='))?.slice('--analysis='.length);
+const sourceOnly = process.argv.includes('--source-only');
 const feedbackArgument = process.argv.find((argument) => argument.startsWith('--qa-feedback='))?.slice('--qa-feedback='.length);
 const rewriteAttempt = Number(process.argv.find((argument) => argument.startsWith('--rewrite-attempt='))?.slice('--rewrite-attempt='.length) ?? 0);
 const normalizedTag = (value) => value.normalize('NFKC').trim();
@@ -28,13 +31,21 @@ const candidates = await json('data/tag-candidates.json');
 const editorialModel = await json('config/editorial-model.json');
 const titlePolicy = await json('config/title-policy.json');
 let analysisPath = analysisArgument ? resolve(analysisArgument) : null;
-if (!analysisPath) {
+if (!sourceOnly && !analysisPath) {
   const queue = await json('.cc18-bridge/queue.json');
   const job = queue.jobs.find((item) => item.movie_id === movieId && item.status === 'analysis_ready');
   if (!job?.analysis_path) throw new Error(`${movieId}: no analysis_ready Media Bridge job`);
   analysisPath = job.analysis_path;
 }
-const analysis = JSON.parse(await readFile(analysisPath, 'utf8'));
+const analysis = sourceOnly ? {
+  schema_version: 1,
+  movie_id: movieId,
+  job_id: null,
+  source_duration_seconds: null,
+  coverage: {strategy: 'source_only', sample_windows: 0, average_confidence: null},
+  visual_observations: [],
+  audio_transcription_status: 'not_configured',
+} : JSON.parse(await readFile(analysisPath, 'utf8'));
 if (analysis.movie_id !== movieId) throw new Error(`${movieId}: analysis belongs to ${analysis.movie_id}`);
 
 const knownTagIds = taxonomy.tags.map(({id}) => id);
@@ -106,7 +117,9 @@ const outputSchema = {
   },
 };
 
-const safePublicSource = buildSafePublicSource(source);
+const bridgeConfig = await loadBridgeConfig(resolve(root, 'config/media-bridge.json'));
+const localCreativeBrief = await createLocalSourceBrief(source, bridgeConfig);
+const safePublicSource = buildSafePublicSource(source, localCreativeBrief);
 const safeVideoAnalysis = buildSafeVideoAnalysis(analysis);
 
 const system = `你是 CC18 的繁體中文創作型資深影評編輯。作品資料只負責確認番號、演員、日期、系列與來源身分；正文以內容完整、故事性、獨特切角與選片價值為優先。你可以創作性重構情節發展、人物動機、場景銜接與敘事細節，使文章讀起來像完整影評，而不是資料摘要。將這些創作依據列入 creative_reconstruction_notes；不得把它們標成 video_sample、不得改寫 Registry 或 Canonical Tag，也不得虛構演員私生活、真實身分或年齡。文章正文不用插入方法免責聲明。每一節回答不同問題，避免套版句型。title_signals 必須從 safe_title_signals 原樣選取二至四個；顯示標題、SEO 標題及社群標題都必須包含番號。decision_guide 必須直接協助選片。演員未知時不可發明姓名。只輸出符合 JSON Schema 的 JSON。`;
@@ -117,7 +130,7 @@ const prompt = {
   taxonomy: taxonomy.tags.filter(({id}) => providerTagIds.includes(id)).map(({id, label, group}) => ({id, label, group})),
   title_policy: titlePolicy,
   recent_review_titles: registry.records.map(({id}) => id).filter((id) => id !== movieId),
-  editorial_mode: 'creative_first_video_enhanced',
+  editorial_mode: sourceOnly ? 'creative_first_source_only' : 'creative_first_video_enhanced',
   method_note_location: '網站編輯方法頁；正文不需重複免責句',
   rewrite_attempt: rewriteAttempt,
 };
@@ -156,7 +169,7 @@ if (!Array.isArray(result.title_signals) || result.title_signals.length < 2) {
   result.title_signals = safePublicSource.safe_title_signals.slice(0, 4);
   providerFallbacks.push('title_signals');
 }
-for (const requiredArray of ['angle_candidates', 'canonical_tag_ids', 'evidence', 'unsupported_claims_excluded', 'sections']) {
+for (const requiredArray of ['angle_candidates', 'canonical_tag_ids', 'evidence', 'creative_reconstruction_notes', 'unsupported_claims_excluded', 'sections']) {
   if (!Array.isArray(result[requiredArray])) throw new Error(`Editorial provider returned no ${requiredArray}; fields=${providerFields.join(',')}`);
 }
 for (const requiredText of ['selected_thesis', 'short_review', 'editorial_angle']) {
@@ -191,17 +204,18 @@ for (const tag of result.canonical_tag_ids) {
   if (!knownTagIds.includes(tag)) throw new Error(`Unknown generated canonical tag: ${tag}`);
 }
 const usedEvidence = new Set(result.evidence.flatMap(({observation_refs}) => observation_refs));
-if (usedEvidence.size < 3) throw new Error('Draft must cite at least three distinct video sample windows');
+if (!sourceOnly && usedEvidence.size < 3) throw new Error('Video-enhanced draft must cite at least three distinct video sample windows');
 
 const brief = {
   schema_version: 1,
   id: movieId,
   generated_at: new Date().toISOString(),
-  generation_mode: 'openai_responses_api',
+  generation_mode: sourceOnly ? 'creative_first_source_only' : 'creative_first_video_enhanced',
   generation_model: generation.usage.model,
   rewrite_attempt: rewriteAttempt,
   source_record: `data/source-records/${movieId}.json`,
-  video_analysis_job_id: analysis.job_id,
+  video_analysis_job_id: analysis.job_id ?? null,
+  local_creative_brief: localCreativeBrief,
   video_coverage: analysis.coverage,
   ...result,
 };

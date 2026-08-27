@@ -22,7 +22,8 @@
     "authority": "cloudflare_d1",
     "database_name": "cc18-db",
     "local_snapshot": "data/pipeline-queue.json",
-    "initial_stage": "media_analysis",
+    "initial_stage": "editorial",
+    "initial_stages": ["editorial", "media_analysis"],
     "lease_seconds": 900,
     "max_attempts": 5
   },

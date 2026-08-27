@@ -28,6 +28,7 @@ jobs:
       - run: npm run d1:test
       - run: npm run editorial:provider:test
       - run: npm run editorial:safety:test
+      - run: npm run editorial:local-source:test
       - run: npm run editorial:normalization:test
       - run: npm run editorial:search:test
       - run: npm run build

@@ -9,5 +9,5 @@ const valueOf = (name, fallback) => process.argv.find((argument) => argument.sta
 const mode = valueOf('store', 'file');
 const filePath = resolve(root, valueOf('file', config.queue.local_snapshot));
 const store = queueStoreFromEnvironment({mode, filePath});
-const result = await discoverBatch({listingUrls: config.discovery.listing_urls, store, config: {...config.discovery, user_agent: config.source.user_agent}});
+const result = await discoverBatch({listingUrls: config.discovery.listing_urls, store, config: {...config.discovery, user_agent: config.source.user_agent, initial_stages: config.queue.initial_stages}});
 console.log(JSON.stringify({...result, queue: await store.summary()}, null, 2));
