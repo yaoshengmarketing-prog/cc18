@@ -1,34 +1,34 @@
 {
   "schema_version": 1,
   "id": "SDAB-358",
-  "review_sha256": "8c33173116eefffec2f85fd3d0f627f9ecc6ee2b999f762387a64e08228025fd",
-  "selected_thesis": "以校園型場景包裝的成長敘事，重點不在單一刺激點，而在角色如何從試探、配合到逐步掌握節奏。雙演員配置讓作品能把『被引導』與『開始主動』這兩種狀態並列，形成前後段清楚可感的變化。",
+  "review_sha256": "4f5fc34d25903143189f1e9682b4f02d47b78e0419d285149fe73c604537be01",
+  "selected_thesis": "以要結愛首次拍攝後的進階挑戰為主軸，把熟悉的口交題材整理成有講師、有練習與成果驗收的一日課程企劃。",
   "title_basis": {
     "performer": "相沢澪、要結愛",
     "signals": [
-      {
-        "type": "performer",
-        "value": "相沢澪",
-        "source_field": "actress"
-      },
       {
         "type": "performer",
         "value": "要結愛",
         "source_field": "actress"
       },
       {
-        "type": "presentation",
-        "value": "高畫質",
-        "source_field": "safe_signals"
+        "type": "theme",
+        "value": "口交",
+        "source_field": "title"
+      },
+      {
+        "type": "theme",
+        "value": "弓道少女",
+        "source_field": "title"
       }
     ],
-    "primary_theme": "相沢澪",
-    "presentation_feature": "要結愛",
-    "editorial_judgment": "以校園型場景包裝的成長敘事，重點不在單一刺激點，而在角色如何從試探、配合到逐步掌握節奏。雙演員配置讓作品能把『被引導』與『開始主動』這兩種狀態並列，形成前後段清楚可感的變化。",
+    "primary_theme": "口交課程",
+    "presentation_feature": "弓道少女一日特訓",
+    "editorial_judgment": "以要結愛首次拍攝後的進階挑戰為主軸，把熟悉的口交題材整理成有講師、有練習與成果驗收的一日課程企劃。",
     "source_keywords": [
-      "相沢澪",
       "要結愛",
-      "高畫質"
+      "口交",
+      "弓道少女"
     ]
   },
   "evidence": [

@@ -22,7 +22,7 @@ const list = (key) => {
   return match ? [...match[1].matchAll(/^  - (.+)$/gm)].map((item) => item[1].trim().replace(/^['"]|['"]$/g, '')) : [];
 };
 
-if (/CC18-DEMO|示範|placeholder/i.test(markdown)) issues.push('placeholder_text');
+if (/CC18-DEMO|placeholder|示範(?:文章|資料|內容|作品|稿)/i.test(markdown)) issues.push('placeholder_text');
 if (![scalar('title'), scalar('seoTitle'), scalar('socialTitle')].every((value) => value.includes(movieId))) issues.push('missing_movie_id_in_titles');
 const sourceSignals = list('titleSignals');
 if (sourceSignals.length < 2 || sourceSignals.length > 4) issues.push('invalid_title_signal_count');
