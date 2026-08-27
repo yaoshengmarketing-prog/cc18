@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MCSR-639",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-08-27T16:29:49.352Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/MCSR-639/hero-v1.jpg",
+      "r2_key": "works/2026/08/MCSR-639/hero-v1.jpg",
+      "bytes": 746393,
+      "sha256": "5b1034a597877bc6d1b46f515a295fcdf9a5bd6012ececf4800a3e54398fd492",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "e5f964f9-c831-4e2a-98aa-d33fe5c30b3b",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 性快感, 自我探索, 情感滿足. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original ficti"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/MCSR-639/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/08/MCSR-639/scene-vertical-v1.jpg",
+      "bytes": 834192,
+      "sha256": "7bc987fa9ebf4b8deaf0d7391b4a89076f56168d33a71d5ca2c824c83226c56f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "2b9ecb1f-00b3-4eab-b79a-49d362cf5531",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 性快感, 自我探索, 情感滿足. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original ficti"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2621143,
+    "sha256": "bea29fea09cda756c572e5b89bb0a6731f8de6002a689257b654717363993448",
+    "target_r2_key": "works/2026/08/MCSR-639/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/MCSR-639/vertical-v1.mp4"
+  }
+}
