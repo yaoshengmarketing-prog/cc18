@@ -19,7 +19,7 @@ const authorizedJson = async ({config, apiKey, path, method = 'GET', body, fetch
     body: body ? JSON.stringify(body) : undefined,
   });
   const payload = await response.json().catch(() => ({}));
-  if (!response.ok || (payload.code && payload.code !== 200)) {
+  if (!response.ok || (payload.code != null && Number(payload.code) !== 200)) {
     throw Object.assign(new Error(`Image provider returned HTTP ${response.status}: ${payload.message ?? 'unknown error'}`), {status: response.status});
   }
   return payload;
@@ -46,7 +46,10 @@ export async function createImageTask({config, apiKey, prompt, spec, fetchImplem
     body: {model: spec.model, text: prompt, count: spec.count, resolution: spec.resolution, ratio: spec.ratio, imageUrls: []},
   });
   const taskId = payload.data?.taskId;
-  if (!/^img_[A-Za-z0-9_-]+$/.test(taskId ?? '')) throw new Error('Image provider response contained no valid taskId');
+  if (!/^img_[A-Za-z0-9_-]+$/.test(taskId ?? '')) {
+    const keys = payload.data && typeof payload.data === 'object' ? Object.keys(payload.data).sort().join(',') : 'none';
+    throw new Error(`Image provider response contained no valid taskId (message=${String(payload.message ?? 'none').slice(0, 120)}, data_keys=${keys})`);
+  }
   return taskId;
 }
 

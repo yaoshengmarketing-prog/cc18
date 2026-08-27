@@ -30,6 +30,11 @@ test('submits and polls an asynchronous image task', async () => {
   assert.equal(JSON.parse(calls[0].init.body).imageUrls.length, 0);
 });
 
+test('treats a zero provider code as an error instead of a successful empty task', async () => {
+  const fetchImplementation = async () => new Response(JSON.stringify({code: 0, message: 'request rejected'}), {status: 200, headers: {'content-type': 'application/json'}});
+  await assert.rejects(() => createImageTask({config, apiKey: 'secret', prompt: 'safe prompt', spec: {model: 'seedream-4.5', ratio: '16:9', resolution: '2k', count: 1}, fetchImplementation}), /request rejected/);
+});
+
 test('artwork prompts convert youth-coded concepts into adult editorial scenes', () => {
   const prompts = buildArtworkPrompts({
     source: {id: 'TEST-001', title: '弓道少女的課程', description: ''},
