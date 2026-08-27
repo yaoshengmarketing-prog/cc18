@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "SDAB-358",
+  "checked_at": "2026-08-27T04:59:16.462Z",
+  "passed": true,
+  "issues": [],
+  "metrics": {
+    "sections": 7,
+    "evidence_items": 6,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

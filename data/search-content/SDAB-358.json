@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "movie_id": "SDAB-358",
+  "generated_at": "2026-08-27T04:58:58.557Z",
+  "source_snapshot_hash": "sha256:50e741cb3870c6653d6b054b2c50490125f8781392da64c7d74c1387511351a5",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "以校園型場景包裝的成長敘事，重點不在單一刺激點，而在角色如何從試探、配合到逐步掌握節奏。雙演員配置讓作品能把『被引導』與『開始主動』這兩種狀態並列，形成前後段清楚可感的變化。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "相沢澪",
+      "要結愛",
+      "高畫質"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想找有劇情推進感、不是只靠片段堆疊的觀眾",
+      "偏好校園型場景與角色成長線的觀眾",
+      "重視互動回應、節奏變化與前後段落差異的觀眾"
+    ],
+    "not_for": [
+      "你只想看一開始就火力全開、幾乎不鋪陳的作品",
+      "你對校園型情境或學習成長式敘事沒有興趣",
+      "你偏好極端戲劇衝突，而不是循序推進的互動設計"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "HUNTC-568",
+      "relation_type": "adjacent_theme",
+      "reason": "兩部共享story等站內分類，適合延伸比較相近題材如何採用不同切角。",
+      "shared_signals": [
+        "story"
+      ],
+      "contrast_signals": [
+        "旅館",
+        "同期女同事"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？以校園型場景包裝的成長敘事，重點不在單一刺激點，而在角色如何從試探、配合到逐步掌握節奏。雙演員配置讓作品能把『被引導』與『開始主動』這兩種狀態並列，形成前後段清楚可感的變化。",
+    "哪些觀眾較適合？想找有劇情推進感、不是只靠片段堆疊的觀眾",
+    "有哪些觀看取捨？你只想看一開始就火力全開、幾乎不鋪陳的作品"
+  ]
+}

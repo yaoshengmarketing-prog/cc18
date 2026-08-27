@@ -15,10 +15,64 @@ test('maps the alternate gateway editorial shape into the CC18 contract', () => 
   const normalized = normalizeEditorialResult({
     title: 'TEST-001 角色扮演與高畫質', seoTitle: 'TEST-001 影評', socialTitle: 'TEST-001 選片', titleSignals: ['角色扮演', '高畫質'],
     editorialBrief: {positioning: '定位', angle: '角度', what_to_highlight: ['一', '二', '三'], risk_notes: ['甲', '乙', '丙']},
-    review: {intro: '短評', sections: Array.from({length: 6}, (_, i) => ({heading: `段落${i}`, content: '內容'.repeat(100)})), conclusion: '總評'},
+    review: {intro: '短評', sections: Array.from({length: 6}, (_, i) => ({heading: `段落${i}`, content: `第${i}段的獨特內容。${'內容'.repeat(100)}`})), conclusion: '總評'},
   }, {movieId: 'TEST-001', safePublicSource, safeVideoAnalysis});
   assert.equal(normalized.title_signals.length, 2);
   assert.equal(normalized.sections.length, 6);
   assert.equal(normalized.evidence.length, 5);
   assert.deepEqual(normalized.canonical_tag_ids, ['story', 'close-perspective', 'contrast-charm']);
+});
+
+test('replaces an empty selected thesis with a non-empty structured fallback', () => {
+  const normalized = normalizeEditorialResult({
+    selected_thesis: '',
+    decision_guide: {thesis: '由生疏到掌握節奏的角色成長，是這部作品最清楚的選片切角。'},
+    angle_candidates: ['候選角度一', '候選角度二', '候選角度三'],
+    title: 'TEST-002 測試標題',
+    title_signals: ['甲', '乙'],
+    sections: [],
+  }, {
+    movieId: 'TEST-002',
+    safePublicSource: {safe_title_signals: [
+      {type: 'performer', value: '甲', source_field: 'actress'},
+      {type: 'performer', value: '乙', source_field: 'actress'},
+    ]},
+    safeVideoAnalysis: {observations: []},
+  });
+  assert.equal(normalized.selected_thesis, '由生疏到掌握節奏的角色成長，是這部作品最清楚的選片切角。');
+});
+
+test('maps snake-case review and decision wrappers and derives source-only evidence', () => {
+  const safePublicSource = {
+    safe_title_signals: [
+      {type: 'performer', value: '甲', source_field: 'actress'},
+      {type: 'performer', value: '乙', source_field: 'actress'},
+      {type: 'presentation', value: '高畫質', source_field: 'safe_signals'},
+    ],
+    creative_seed_brief: {
+      themes: ['角色成長', '互動節奏', '關係轉折'],
+      creative_seeds: ['用前後差異形成敘事對照'],
+    },
+  };
+  const normalized = normalizeEditorialResult({
+    title: 'TEST-003 甲與乙', title_signals: safePublicSource.safe_title_signals,
+    angle_candidates: ['角度一', '角度二', '角度三'],
+    editorial_brief: {positioning: '以角色成長作為主要定位', audience: ['偏好企劃感的觀眾', '重視角色互動的觀眾']},
+    review_draft: {
+      opening: '開場內容'.repeat(40), story_and_structure: '結構內容'.repeat(40), performer_dynamics: '互動內容'.repeat(40),
+      presentation_and_style: '呈現內容'.repeat(40), why_it_works: '看點內容'.repeat(40), selection_advice: '選片內容'.repeat(40), closing: '結論內容'.repeat(40),
+    },
+    decision_guide: {
+      one_sentence_verdict: '這是一部以成長曲線與互動節奏建立差異的企劃。',
+      best_for: ['偏好企劃感的觀眾', '重視角色互動的觀眾'],
+      maybe_skip_if: ['偏好寫實紀錄者', '只想看單一節奏者'],
+      compare_by_need: [{need: '想看什麼差異', advice: '比較前後段落的角色主導性'}],
+    },
+    sections: [], evidence: [],
+  }, {movieId: 'TEST-003', safePublicSource, safeVideoAnalysis: {observations: []}});
+  assert.equal(normalized.sections.length, 7);
+  assert.equal(normalized.evidence.length, 6);
+  assert.equal(normalized.decision_guide.audience_for.length, 2);
+  assert.equal(normalized.decision_guide.audience_not_for.length, 2);
+  assert.equal(normalized.decision_guide.questions_answered.length, 3);
 });

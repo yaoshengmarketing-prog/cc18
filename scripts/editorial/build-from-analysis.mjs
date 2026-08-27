@@ -8,7 +8,7 @@ import {writeSearchContent} from './lib/search-content.mjs';
 import {createLocalSourceBrief} from './lib/local-source-brief.mjs';
 import {loadBridgeConfig} from '../bridge/lib/config.mjs';
 
-const movieId = process.argv[2];
+const movieId = process.argv.slice(2).find((argument) => !argument.startsWith('--'))?.trim().toUpperCase();
 if (!movieId || !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId)) {
   throw new Error('Usage: node scripts/editorial/build-from-analysis.mjs <MOVIE-ID>');
 }
@@ -17,6 +17,7 @@ const root = resolve(import.meta.dirname, '..', '..');
 loadLocalEditorialEnvironment(root);
 const analysisArgument = process.argv.find((argument) => argument.startsWith('--analysis='))?.slice('--analysis='.length);
 const sourceOnly = process.argv.includes('--source-only');
+const repairExisting = process.argv.includes('--repair-existing');
 const feedbackArgument = process.argv.find((argument) => argument.startsWith('--qa-feedback='))?.slice('--qa-feedback='.length);
 const rewriteAttempt = Number(process.argv.find((argument) => argument.startsWith('--rewrite-attempt='))?.slice('--rewrite-attempt='.length) ?? 0);
 const normalizedTag = (value) => value.normalize('NFKC').trim();
@@ -118,7 +119,8 @@ const outputSchema = {
 };
 
 const bridgeConfig = await loadBridgeConfig(resolve(root, 'config/media-bridge.json'));
-const localCreativeBrief = await createLocalSourceBrief(source, bridgeConfig);
+const existingBrief = repairExisting ? await json(`data/editorial-briefs/${movieId}.json`) : null;
+const localCreativeBrief = existingBrief?.local_creative_brief ?? await createLocalSourceBrief(source, bridgeConfig);
 const safePublicSource = buildSafePublicSource(source, localCreativeBrief);
 const safeVideoAnalysis = buildSafeVideoAnalysis(analysis);
 
@@ -144,14 +146,16 @@ if (feedbackArgument) {
   };
 }
 
-assertEditorialProviderReady(editorialModel);
-const generation = await requestStructuredEditorial({
-  apiKey: editorialApiKey(editorialModel),
-  config: editorialModel,
-  schema: outputSchema,
-  instructions: system,
-  input: prompt,
-});
+if (!repairExisting) assertEditorialProviderReady(editorialModel);
+const generation = repairExisting
+  ? {text: JSON.stringify(existingBrief), usage: {model: existingBrief.generation_model ?? editorialModel.model}}
+  : await requestStructuredEditorial({
+    apiKey: editorialApiKey(editorialModel),
+    config: editorialModel,
+    schema: outputSchema,
+    instructions: system,
+    input: prompt,
+  });
 const result = normalizeEditorialResult(parseFirstJsonObject(generation.text), {movieId, safePublicSource, safeVideoAnalysis});
 const providerFields = Object.keys(result).sort();
 const providerFallbacks = [];
@@ -216,6 +220,7 @@ const brief = {
   source_record: `data/source-records/${movieId}.json`,
   video_analysis_job_id: analysis.job_id ?? null,
   local_creative_brief: localCreativeBrief,
+  locally_repaired_at: repairExisting ? new Date().toISOString() : null,
   video_coverage: analysis.coverage,
   ...result,
 };
@@ -316,33 +321,35 @@ await writeFile(resolve(root, `data/review-quality/${movieId}.json`), `${JSON.st
 
 await writeSearchContent({root, source, sourceRecordText, safeVideoAnalysis, result, analysis, registry});
 
-await mkdir(resolve(root, 'data/editorial-usage'), {recursive: true});
-const usagePath = resolve(root, `data/editorial-usage/${movieId}.json`);
-let previousUsage = {calls: []};
-try {
-  previousUsage = JSON.parse(await readFile(usagePath, 'utf8'));
-} catch (error) {
-  if (error?.code !== 'ENOENT') throw error;
+if (!repairExisting) {
+  await mkdir(resolve(root, 'data/editorial-usage'), {recursive: true});
+  const usagePath = resolve(root, `data/editorial-usage/${movieId}.json`);
+  let previousUsage = {calls: []};
+  try {
+    previousUsage = JSON.parse(await readFile(usagePath, 'utf8'));
+  } catch (error) {
+    if (error?.code !== 'ENOENT') throw error;
+  }
+  const usageCall = {
+    generated_at: new Date().toISOString(),
+    rewrite_attempt: rewriteAttempt,
+    ...generation.usage,
+  };
+  const usageCalls = [...(previousUsage.calls ?? []), usageCall];
+  await writeFile(usagePath, `${JSON.stringify({
+    schema_version: 1,
+    movie_id: movieId,
+    calls: usageCalls,
+    totals: {
+      input_tokens: usageCalls.reduce((sum, call) => sum + call.input_tokens, 0),
+      cached_input_tokens: usageCalls.reduce((sum, call) => sum + call.cached_input_tokens, 0),
+      output_tokens: usageCalls.reduce((sum, call) => sum + call.output_tokens, 0),
+      estimated_cost_usd: Number(usageCalls.reduce((sum, call) => sum + (call.estimated_cost_usd ?? 0), 0).toFixed(6)),
+      estimated_payg_cash_cost_usd: Number(usageCalls.reduce((sum, call) => sum + (call.estimated_payg_cash_cost_usd ?? 0), 0).toFixed(6)),
+      direct_openai_reference_usd: Number(usageCalls.reduce((sum, call) => sum + (call.direct_openai_reference_usd ?? 0), 0).toFixed(6)),
+      gateway_premium_usd: Number(usageCalls.reduce((sum, call) => sum + (call.gateway_premium_usd ?? 0), 0).toFixed(6)),
+    },
+  }, null, 2)}\n`);
 }
-const usageCall = {
-  generated_at: new Date().toISOString(),
-  rewrite_attempt: rewriteAttempt,
-  ...generation.usage,
-};
-const usageCalls = [...(previousUsage.calls ?? []), usageCall];
-await writeFile(usagePath, `${JSON.stringify({
-  schema_version: 1,
-  movie_id: movieId,
-  calls: usageCalls,
-  totals: {
-    input_tokens: usageCalls.reduce((sum, call) => sum + call.input_tokens, 0),
-    cached_input_tokens: usageCalls.reduce((sum, call) => sum + call.cached_input_tokens, 0),
-    output_tokens: usageCalls.reduce((sum, call) => sum + call.output_tokens, 0),
-    estimated_cost_usd: Number(usageCalls.reduce((sum, call) => sum + (call.estimated_cost_usd ?? 0), 0).toFixed(6)),
-    estimated_payg_cash_cost_usd: Number(usageCalls.reduce((sum, call) => sum + (call.estimated_payg_cash_cost_usd ?? 0), 0).toFixed(6)),
-    direct_openai_reference_usd: Number(usageCalls.reduce((sum, call) => sum + (call.direct_openai_reference_usd ?? 0), 0).toFixed(6)),
-    gateway_premium_usd: Number(usageCalls.reduce((sum, call) => sum + (call.gateway_premium_usd ?? 0), 0).toFixed(6)),
-  },
-}, null, 2)}\n`);
 
 console.log(JSON.stringify({movie_id: movieId, brief: `data/editorial-briefs/${movieId}.json`, review: `content/reviews/${movieId}.md`, status: 'draft'}, null, 2));

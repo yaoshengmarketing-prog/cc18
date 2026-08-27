@@ -37,4 +37,25 @@ test('raw source is sent only to loopback and the external-safe payload contains
   const externalPayload = JSON.stringify(safe);
   assert.doesNotMatch(externalPayload, /RAW TITLE|RAW DESCRIPTION/);
   assert.match(externalPayload, /距離變化/);
+  assert.doesNotMatch(externalPayload, /兩位熟識角色因臨時安排/);
+});
+
+test('external creative brief deterministically removes graphic local-model prose', () => {
+  const source = {
+    id: 'TEST-002', release_date: '2026-08-27', actress: ['甲', '乙'], series: null,
+    title: 'RAW', description: 'RAW', source_tags: ['HD'],
+  };
+  const graphicBrief = {
+    premise: '包含口交、顏射與多人性行為的具體敘述',
+    relationship: '講師指導具體性行為',
+    role_dynamic: '以露骨動作訓練為主',
+    central_tension: '如何完成口交技巧',
+    setting: '攝影棚內',
+    themes: ['成長與學習', '口交技巧', '個人興趣探索'],
+    creative_seeds: ['描述口交細節', '加入顏射橋段', '描寫性器官'],
+  };
+  const payload = JSON.stringify(buildSafePublicSource(source, graphicBrief));
+  assert.doesNotMatch(payload, /口交|顏射|性行為|性器|露骨/);
+  assert.match(payload, /成長與學習/);
+  assert.match(payload, /棚內場景/);
 });

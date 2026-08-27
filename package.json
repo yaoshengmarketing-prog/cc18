@@ -35,6 +35,7 @@
     "discovery:test": "node --test tests/discovery-queue.test.mjs",
     "d1:test": "node --test tests/d1-migration.test.mjs",
     "editorial:build": "node scripts/editorial/build-from-analysis.mjs",
+    "editorial:repair": "node scripts/editorial/build-from-analysis.mjs --source-only --repair-existing",
     "editorial:qa": "node scripts/editorial/qa-draft.mjs",
     "editorial:provider:test": "node --test tests/editorial-provider.test.mjs",
     "editorial:safety:test": "node --test tests/editorial-safe-payload.test.mjs",
