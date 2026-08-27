@@ -1,6 +1,6 @@
 # 內容與多角色 Canary（3–7 天）
 
-本輪目的不是增加發布量，而是驗證六角色交接、內容提升與故障隔離是否能在無人逐篇介入的情況下穩定運作。正式每日大量 schedule 維持關閉，canary 只使用手動觸發。
+本輪目的不是增加發布量，而是驗證 Editorial 草稿、QA 與故障隔離是否能在無人逐篇介入的情況下穩定運作。正式每日大量 schedule 維持關閉；`Draft-only acceptance (manual)` 先以手動觸發驗證，cron 必須獨立核准後才可加入。
 
 ## 執行規模
 
@@ -76,3 +76,5 @@ QA 重寫後成功可計入端到端成功，但必須保留重寫次數。影�
 `CC18_ALLOW_EDITORIAL_TRANSMISSION=YES npm run editorial:draft-canary -- <MOVIE-ID>`
 執行。此路徑只讀取 D1 已驗證來源，在本機建立影評草稿與 QA 產物；不 claim
 或完成 D1 工作、不建立圖片工作、不發布、不 commit、不 push，也不啟用排程。
+
+GitHub 批次使用 `Draft-only acceptance (manual)`，每次自動從 D1 選最多三部尚未進 Registry 的 eligible／validated Editorial 工作。每部獨立產生草稿與 QA；失敗不阻止後續作品。結果以 14 天保存期限的 Artifact 輸出，包含草稿、Brief、QA、Search Content、Usage 與每日報告。工作流只有 `contents: read`，不執行圖片、影片、Git push 或 Cloudflare 部署，目前沒有 `schedule`／`cron`。

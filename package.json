@@ -62,6 +62,7 @@
     "editorial:d1:source-only": "node scripts/editorial/handoff-d1.mjs --source-only",
     "editorial:source-cycle": "node scripts/editorial/run-source-cycle.mjs",
     "editorial:draft-canary": "node scripts/editorial/draft-canary-d1.mjs",
+    "editorial:draft-batch": "node scripts/editorial/draft-batch-d1.mjs",
     "editorial:d1:finalize-qa": "node scripts/editorial/finalize-qa-d1.mjs",
     "video:studio": "remotion studio video/src/index.ts --no-open",
     "video:still": "remotion still video/src/index.ts CC18Vertical video/out/preview.png --frame=120 --props=video/examples/demo.json",

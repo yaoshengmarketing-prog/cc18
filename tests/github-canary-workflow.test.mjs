@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 
 const workflow = await readFile(new URL('../.github/workflows/pipeline.yml', import.meta.url), 'utf8');
+const draftWorkflow = await readFile(new URL('../.github/workflows/draft-canary.yml', import.meta.url), 'utf8');
 
 test('editorial provider smoke is manual, isolated and uses the GitHub secret', () => {
   assert.match(workflow, /options: \[plan, editorial-smoke,/);
@@ -31,4 +32,17 @@ test('existing Registry drafts are re-QAed instead of paying for a blind rewrite
   assert.match(canary, /draftIds\.has\(id\) \? \['--qa-only'\]/);
   assert.match(canary, /rehydrate-completed\.mjs/);
   assert.match(canary, /rehydrate-media\.mjs/);
+});
+
+test('draft-only acceptance is bounded, read-only and cannot publish', () => {
+  assert.match(draftWorkflow, /options: \['1', '2', '3'\]/);
+  assert.match(draftWorkflow, /permissions:\s*\n\s*contents: read/);
+  assert.match(draftWorkflow, /npm run editorial:draft-batch -- --max=\$\{\{ inputs\.maximum_works \}\}/);
+  assert.match(draftWorkflow, /actions\/upload-artifact@v7/);
+  assert.doesNotMatch(draftWorkflow, /schedule:|cron:|image:cycle|video:d1|publish:d1|git push|wrangler pages/);
+});
+
+test('source-only draft canary has no loopback analyzer dependency', async () => {
+  const draftCanary = await readFile(new URL('../scripts/editorial/draft-canary-d1.mjs', import.meta.url), 'utf8');
+  assert.doesNotMatch(draftCanary, /assertLocalAnalyzerReady|loadBridgeConfig/);
 });

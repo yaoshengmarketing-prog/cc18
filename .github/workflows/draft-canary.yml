@@ -1,0 +1,71 @@
+name: Draft-only acceptance (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      maximum_works:
+        description: Maximum D1 works to draft without publishing
+        required: true
+        default: '1'
+        type: choice
+        options: ['1', '2', '3']
+      run_discovery:
+        description: Refresh public cc18.tv discovery before selecting drafts
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cc18-draft-only-acceptance
+  cancel-in-progress: false
+
+jobs:
+  draft-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run registry:validate
+      - run: npm run content:validate
+      - name: Check D1 queue without repairing or claiming
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_D1_DATABASE_ID: ${{ vars.CLOUDFLARE_D1_DATABASE_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npm run canary:health
+      - name: Refresh public discovery only when requested
+        if: inputs.run_discovery
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_D1_DATABASE_ID: ${{ vars.CLOUDFLARE_D1_DATABASE_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npm run discovery:run -- --store=d1
+      - name: Create bounded draft-only batch
+        id: batch
+        env:
+          AITOKENKING_API_KEY: ${{ secrets.AITOKENKING_API_KEY }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_D1_DATABASE_ID: ${{ vars.CLOUDFLARE_D1_DATABASE_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CC18_ALLOW_EDITORIAL_TRANSMISSION: YES
+        run: npm run editorial:draft-batch -- --max=${{ inputs.maximum_works }}
+      - name: Upload daily drafts and QA report
+        if: always() && steps.batch.outputs.artifact_dir != ''
+        uses: actions/upload-artifact@v7
+        with:
+          name: cc18-draft-only-${{ github.run_id }}
+          path: ${{ steps.batch.outputs.artifact_dir }}
+          if-no-files-found: error
+          retention-days: 14
+      - name: Assert that no production path ran
+        run: |
+          test -z "$(git diff --name-only -- data/media-manifests data/image-briefs)"
+          echo "No image, video, commit, deployment or production schedule ran."

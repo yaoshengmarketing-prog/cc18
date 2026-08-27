@@ -3,8 +3,6 @@ import {mkdir, readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {queueStoreFromEnvironment} from '../queue/store.mjs';
 import {assertEditorialProviderReady, loadLocalEditorialEnvironment} from './lib/openai-writer.mjs';
-import {loadBridgeConfig} from '../bridge/lib/config.mjs';
-import {assertLocalAnalyzerReady} from '../bridge/lib/local-analysis.mjs';
 import {assertFreshAutomatedQa} from './lib/approval.mjs';
 
 const root = resolve(import.meta.dirname, '..', '..');
@@ -19,14 +17,12 @@ if (process.env.CC18_ALLOW_EDITORIAL_TRANSMISSION !== 'YES') {
 }
 
 loadLocalEditorialEnvironment(root);
-const [pipeline, editorialModel, bridgeConfig, registry] = await Promise.all([
+const [pipeline, editorialModel, registry] = await Promise.all([
   readFile(resolve(root, 'config/pipeline.json'), 'utf8').then(JSON.parse),
   readFile(resolve(root, 'config/editorial-model.json'), 'utf8').then(JSON.parse),
-  loadBridgeConfig(resolve(root, 'config/media-bridge.json')),
   readFile(resolve(root, 'data/movie-registry.json'), 'utf8').then(JSON.parse),
 ]);
 assertEditorialProviderReady(editorialModel);
-await assertLocalAnalyzerReady(bridgeConfig);
 
 const existingRecord = registry.records.find(({id}) => id === requestedId);
 if (existingRecord && (!resumeDraft || existingRecord.review_status !== 'draft')) {
