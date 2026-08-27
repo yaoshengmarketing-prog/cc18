@@ -35,6 +35,12 @@ test('treats a zero provider code as an error instead of a successful empty task
   await assert.rejects(() => createImageTask({config, apiKey: 'secret', prompt: 'safe prompt', spec: {model: 'seedream-4.5', ratio: '16:9', resolution: '2k', count: 1}, fetchImplementation}), /request rejected/);
 });
 
+test('accepts provider UUID task ids while rejecting path-shaped ids', async () => {
+  const response = (taskId) => async () => new Response(JSON.stringify({code: 200, data: {taskId}}), {status: 200, headers: {'content-type': 'application/json'}});
+  assert.equal(await createImageTask({config, apiKey: 'secret', prompt: 'safe', spec: {}, fetchImplementation: response('550e8400-e29b-41d4-a716-446655440000')}), '550e8400-e29b-41d4-a716-446655440000');
+  await assert.rejects(() => createImageTask({config, apiKey: 'secret', prompt: 'safe', spec: {}, fetchImplementation: response('../task')}), /no valid taskId/);
+});
+
 test('artwork prompts convert youth-coded concepts into adult editorial scenes', () => {
   const prompts = buildArtworkPrompts({
     source: {id: 'TEST-001', title: '弓道少女的課程', description: ''},

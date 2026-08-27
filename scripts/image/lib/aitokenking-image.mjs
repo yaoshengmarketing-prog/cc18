@@ -46,7 +46,7 @@ export async function createImageTask({config, apiKey, prompt, spec, fetchImplem
     body: {model: spec.model, text: prompt, count: spec.count, resolution: spec.resolution, ratio: spec.ratio, imageUrls: []},
   });
   const taskId = payload.data?.taskId;
-  if (!/^img_[A-Za-z0-9_-]+$/.test(taskId ?? '')) {
+  if (!/^[A-Za-z0-9][A-Za-z0-9_-]{5,199}$/.test(taskId ?? '')) {
     const keys = payload.data && typeof payload.data === 'object' ? Object.keys(payload.data).sort().join(',') : 'none';
     throw new Error(`Image provider response contained no valid taskId (message=${String(payload.message ?? 'none').slice(0, 120)}, data_keys=${keys})`);
   }
@@ -57,7 +57,7 @@ export async function awaitImageTask({config, apiKey, taskId, fetchImplementatio
   const deadline = Date.now() + Number(config.poll_timeout_seconds ?? 600) * 1000;
   while (Date.now() < deadline) {
     await waitImplementation(Number(config.poll_interval_seconds ?? 15) * 1000);
-    const payload = await authorizedJson({config, apiKey, path: `image-generations/${taskId}`, fetchImplementation});
+    const payload = await authorizedJson({config, apiKey, path: `image-generations/${encodeURIComponent(taskId)}`, fetchImplementation});
     const data = payload.data ?? {};
     if (data.status === 'failed') throw Object.assign(new Error(`Image generation failed: ${data.errorMessage ?? data.message ?? 'unknown error'}`), {code: 'IMAGE_GENERATION_FAILED'});
     if (data.status !== 'success') continue;
