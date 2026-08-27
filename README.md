@@ -65,7 +65,7 @@ Creative-first 路徑已與 Media 解耦：Discovery 對每部 eligible 作品�
 
 圖片路徑已接成 `editorial completed → image queued → AItokenKing 非同步生成 → R2 上傳與反向 SHA-256 驗證 → Media Manifest／文章／Registry → video queued`。每部產生 16:9 Hero 與 9:16 直式素材；失敗標記 retry，不阻止文章保留 CC18 來源封面。批次 `image:cycle` 需設定 `CC18_ALLOW_IMAGE_TRANSMISSION=YES`，目前仍未啟用排程。
 
-影片路徑已接成 `image completed → video queued → Remotion 1080×1920／9 秒 H.264 → R2 上傳與反向 SHA-256 驗證 → 文章／Media Manifest／Registry → publish queued`。只有雜湊驗證成功才標記 rendered，本機 MP4 與驗證副本隨即刪除。若本機 D1 Token 不含 R2 Object Write，但已執行 `wrangler login`，可在單次命令設定 `CC18_R2_AUTH_MODE=oauth`；GitHub Actions 則應使用含最小 R2 權限的專用 Token。
+影片路徑已接成 `image completed → video queued → Remotion 1080×1920／9 秒 H.264 → R2 上傳與反向 SHA-256 驗證 → 文章／Media Manifest／Registry → publish queued`。只有雜湊驗證成功才標記 rendered，本機 MP4 與驗證副本隨即刪除。若本機 D1 Token 不含 R2 Object Write，但已執行 `wrangler login`，可在單次命令設定 `CC18_R2_AUTH_MODE=oauth`；GitHub Actions 使用獨立的 `CLOUDFLARE_R2_API_TOKEN`，D1 與 R2 權限不混用。單部完整雲端 Canary 操作見 `docs/canary-cycle.md`。
 
 Publisher 路徑已接成 `publish queued → 內容與媒體 QA → 限定檔案 commit/push → Cloudflare Pages → 正式頁 release-id／播放器驗證 → D1 completed`。正式頁的 release-id 使用核准 Markdown 的 SHA-256，因此 Git push、Pages build 或邊緣切換任一環節尚未完成時，都不會提前結案。手動 canary 由 GitHub 的 `Content pipeline` 選擇 `publish` 並填入精確番號；大量排程仍維持關閉。
 

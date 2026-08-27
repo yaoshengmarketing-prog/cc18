@@ -30,3 +30,20 @@ npm run canary:run -- --max=1
 ```
 
 也可指定最多三部：`npm run canary:run -- --max=3 --ids=ENDS-322,PRIAN-054,GAREA-627`。
+
+## GitHub 單部端到端 Canary
+
+在 GitHub Actions 手動執行 `Content pipeline (manual canary)`，選擇：
+
+- `stage`: `end-to-end`
+- `queue_store`: `d1`
+- `movie_id`: 精確番號，例如 `SNOS-409`
+
+Workflow 會在同一個序列化 run 內完成 Editorial → Image → Remotion Video → Publisher，並等到 Cloudflare Pages 的 release hash 與 R2 公開媒體都通過才成功。它沒有 `schedule`，不會自行每日啟動。
+
+GitHub 必須設定：
+
+- Variables：`CLOUDFLARE_ACCOUNT_ID`、`CLOUDFLARE_D1_DATABASE_ID`
+- Secrets：`AITOKENKING_API_KEY`、`CLOUDFLARE_API_TOKEN`（D1）、`CLOUDFLARE_R2_API_TOKEN`（只供 Wrangler 寫入 `cc18-media`）
+
+本機仍可使用 `CC18_R2_AUTH_MODE=oauth`；GitHub 則固定使用專用 R2 Token，D1 Token 不會傳入 Wrangler 子程序。

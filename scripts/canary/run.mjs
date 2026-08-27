@@ -2,6 +2,8 @@ import {spawn, spawnSync} from 'node:child_process';
 import {mkdir, readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {queueStoreFromEnvironment} from '../queue/store.mjs';
+import {alreadyPublishedRequestedIds} from './selection.mjs';
+import {buildR2WranglerEnvironment} from '../r2/wrangler-auth.mjs';
 
 const root = resolve(import.meta.dirname, '..', '..');
 const option = (name) => process.argv.slice(2).find((value) => value.startsWith(`${name}=`))?.slice(name.length + 1);
@@ -13,14 +15,15 @@ if (requestedIds.length > max) throw new Error('--ids cannot contain more entrie
 if (process.env.CC18_ALLOW_EDITORIAL_TRANSMISSION !== 'YES' || process.env.CC18_ALLOW_IMAGE_TRANSMISSION !== 'YES') {
   throw new Error('Canary requires CC18_ALLOW_EDITORIAL_TRANSMISSION=YES and CC18_ALLOW_IMAGE_TRANSMISSION=YES');
 }
+buildR2WranglerEnvironment();
 const git = spawnSync('git', ['status', '--porcelain'], {cwd: root, encoding: 'utf8'});
 if (git.status !== 0 || git.stdout.trim()) throw new Error('Canary requires a clean Git worktree');
 
 const store = queueStoreFromEnvironment({mode: 'd1'});
 const registry = JSON.parse(await readFile(resolve(root, 'data', 'movie-registry.json'), 'utf8'));
 const registeredIds = new Set(registry.records.map(({id}) => id.toUpperCase()));
-const duplicateRequestedIds = requestedIds.filter((id) => registeredIds.has(id));
-if (duplicateRequestedIds.length) throw new Error(`Canary refuses Registry duplicates: ${duplicateRequestedIds.join(', ')}`);
+const publishedRequestedIds = alreadyPublishedRequestedIds(registry, requestedIds);
+if (publishedRequestedIds.length) throw new Error(`Canary refuses already-published Registry records: ${publishedRequestedIds.join(', ')}`);
 const candidates = requestedIds.length
   ? requestedIds
   : (await store.listCanaryCandidates({limit: max, excludeMovieIds: [...registeredIds]})).map(({movie_id}) => movie_id);

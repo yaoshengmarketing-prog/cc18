@@ -2,6 +2,7 @@ import {createHash} from 'node:crypto';
 import {mkdir, readFile, rm, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {spawn} from 'node:child_process';
+import {buildR2WranglerEnvironment} from '../r2/wrangler-auth.mjs';
 
 const root = resolve(import.meta.dirname, '..', '..');
 const argument = (name) => process.argv.find((value) => value.startsWith(`--${name}=`))?.slice(name.length + 3);
@@ -28,8 +29,7 @@ const version = Math.max(previousVersion + 1, requestedVersion || 1);
 const [year, month] = source.release_date.split('-');
 const r2Key = `works/${year}/${month}/${movieId}/vertical-v${version}.mp4`;
 const wrangler = resolve(root, 'node_modules', 'wrangler', 'bin', 'wrangler.js');
-const wranglerEnvironment = {...process.env};
-if (process.env.CC18_R2_AUTH_MODE === 'oauth') delete wranglerEnvironment.CLOUDFLARE_API_TOKEN;
+const wranglerEnvironment = buildR2WranglerEnvironment();
 const verifyDirectory = resolve(root, '.cc18-video', 'verify', `${movieId}-${process.pid}`);
 const verifyPath = resolve(verifyDirectory, `vertical-v${version}.mp4`);
 await mkdir(verifyDirectory, {recursive: true});

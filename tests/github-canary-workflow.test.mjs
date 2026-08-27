@@ -12,6 +12,16 @@ test('editorial provider smoke is manual, isolated and uses the GitHub secret', 
 });
 
 test('publish remains a distinct exact-ID stage', () => {
-  assert.match(workflow, /if: inputs\.stage == 'publish'[\s\S]*test -n "\$MOVIE_ID"/);
+  assert.match(workflow, /inputs\.stage == 'publish' \|\| inputs\.stage == 'end-to-end'[\s\S]*movie_id must be an exact ID/);
   assert.match(workflow, /npm run publish:d1:process-one -- "\$MOVIE_ID"/);
+});
+
+test('end-to-end canary is manual, exact-ID, serialized and uses split D1 and R2 credentials', () => {
+  assert.match(workflow, /options: \[plan, editorial-smoke, discover, end-to-end,/);
+  assert.match(workflow, /group: cc18-content-pipeline/);
+  assert.match(workflow, /if: inputs\.stage == 'end-to-end'[\s\S]*AITOKENKING_API_KEY: \$\{\{ secrets\.AITOKENKING_API_KEY \}\}/);
+  assert.match(workflow, /CLOUDFLARE_API_TOKEN: \$\{\{ secrets\.CLOUDFLARE_API_TOKEN \}\}/);
+  assert.match(workflow, /CLOUDFLARE_R2_API_TOKEN: \$\{\{ secrets\.CLOUDFLARE_R2_API_TOKEN \}\}/);
+  assert.match(workflow, /npm run canary:run -- --max=1 --ids="\$MOVIE_ID"/);
+  assert.doesNotMatch(workflow, /schedule:/);
 });

@@ -2,6 +2,7 @@ import {createHash} from 'node:crypto';
 import {mkdir, readFile, rm, writeFile} from 'node:fs/promises';
 import {basename, resolve} from 'node:path';
 import {spawn} from 'node:child_process';
+import {buildR2WranglerEnvironment} from '../r2/wrangler-auth.mjs';
 
 const root = resolve(import.meta.dirname, '..', '..');
 const argument = (name) => process.argv.find((value) => value.startsWith(`--${name}=`))?.slice(name.length + 3);
@@ -33,8 +34,7 @@ const run = (command, args, {environment = process.env} = {}) => new Promise((re
 const source = JSON.parse(await readFile(resolve(root, `data/source-records/${movieId}.json`), 'utf8'));
 const imageConfig = JSON.parse(await readFile(resolve(root, 'config/image-model.json'), 'utf8'));
 const wrangler = resolve(root, 'node_modules', 'wrangler', 'bin', 'wrangler.js');
-const wranglerEnvironment = {...process.env};
-if (process.env.CC18_R2_AUTH_MODE === 'oauth') delete wranglerEnvironment.CLOUDFLARE_API_TOKEN;
+const wranglerEnvironment = buildR2WranglerEnvironment();
 let imageBrief = null;
 try { imageBrief = JSON.parse(await readFile(resolve(root, `data/image-briefs/${movieId}.json`), 'utf8')); } catch (error) { if (error?.code !== 'ENOENT') throw error; }
 const [year, month] = source.release_date.split('-');

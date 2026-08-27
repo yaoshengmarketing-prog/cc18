@@ -4,6 +4,16 @@ import {mkdtemp, rm} from 'node:fs/promises';
 import {join} from 'node:path';
 import {tmpdir} from 'node:os';
 import {FileQueueStore} from '../scripts/queue/store.mjs';
+import {alreadyPublishedRequestedIds} from '../scripts/canary/selection.mjs';
+
+test('explicit canary may promote a Registry draft but refuses a published record', () => {
+  const registry = {records: [
+    {id: 'SNOS-409', review_status: 'draft'},
+    {id: 'SNOS-371', review_status: 'published'},
+  ]};
+  assert.deepEqual(alreadyPublishedRequestedIds(registry, ['SNOS-409']), []);
+  assert.deepEqual(alreadyPublishedRequestedIds(registry, ['SNOS-371']), ['SNOS-371']);
+});
 
 test('repairs expired leases and selects only validated editorial candidates', async () => {
   const directory = await mkdtemp(join(tmpdir(), 'cc18-canary-'));
