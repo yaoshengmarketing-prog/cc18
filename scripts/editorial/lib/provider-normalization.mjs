@@ -207,7 +207,7 @@ export function normalizeEditorialResult(raw, {movieId, safePublicSource, safeVi
       '創作性內容只屬影評正文，不作為來源或影片證據',
     ],
     unsupported_claims_excluded: raw.unsupported_claims_excluded ?? brief.risk_notes ?? [
-      '未提供姓名時不辨識演員', '不虛構演員私生活或年齡', '創作內容不回寫 Registry 或 Evidence',
+      '創作內容不改動番號、演員、日期、系列、來源連結或 Registry',
     ],
     decision_guide: decisionGuide,
     sections,

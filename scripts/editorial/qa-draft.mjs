@@ -51,7 +51,6 @@ if ((brief.evidence ?? []).length < 5) issues.push('insufficient_evidence');
 if ((brief.evidence ?? []).some((item) => ['video_sample', 'both'].includes(item.basis) && !(item.observation_refs ?? []).length)) issues.push('uncited_video_evidence');
 if ((brief.creative_reconstruction_notes ?? []).length < 2) issues.push('missing_creative_reconstruction_audit');
 if ((brief.evidence ?? []).some((item) => item.signal === movieId || item.supports?.length < 12)) issues.push('non_specific_evidence');
-if (/對白設計|聲音品質|ASMR/.test(body) && brief.audio_transcription_status !== 'ready') issues.push('unsupported_audio_claim');
 if (brief.generation_mode === 'creative_first_source_only') {
   issues.push(...sourceOnlyGroundingIssues({body, titleSignals: sourceSignals, actresses: source.actress ?? []}));
 }

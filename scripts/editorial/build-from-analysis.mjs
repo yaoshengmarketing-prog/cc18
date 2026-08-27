@@ -90,7 +90,7 @@ const outputSchema = {
       },
     },
     creative_reconstruction_notes: {type: 'array', minItems: 2, maxItems: 8, items: {type: 'string', minLength: 8, maxLength: 180}},
-    unsupported_claims_excluded: {type: 'array', minItems: 3, maxItems: 8, items: {type: 'string', maxLength: 160}},
+    unsupported_claims_excluded: {type: 'array', minItems: 1, maxItems: 5, items: {type: 'string', maxLength: 160}},
     decision_guide: {
       type: 'object', additionalProperties: false,
       required: ['thesis', 'story_density', 'pace', 'presentation', 'audience_for', 'audience_not_for', 'questions_answered'],
@@ -125,9 +125,9 @@ const safePublicSource = buildSafePublicSource(source, localCreativeBrief);
 const safeVideoAnalysis = buildSafeVideoAnalysis(analysis);
 
 const sourceOnlyGuard = sourceOnly
-  ? '本次是 source-only：你沒有影片鏡位、收音、剪輯、演技、表情、身體語言或逐幕順序的證據。不得把這些內容寫成實際觀察。必須優先使用 safe_title_signals 中非演員、非畫質的來源概念，並以「公開片名／公開簡介／企劃設定」作為評論立足點。'
+  ? '本次是 source-only：必須優先使用 safe_title_signals 中非演員、非畫質的來源概念，並以公開片名、公開簡介與企劃設定作為文章核心。允許以資深影評語氣創作性推演鏡位、收音氛圍、剪輯節奏、演技、表情、身體語言與場景銜接，讓文章具有完整的觀點、畫面感與閱讀價值；這些內容屬評論性重構，請列入 creative_reconstruction_notes。不可因此改動番號、演員、日期、系列等來源事實，也不可虛構演員私生活、真實身分或年齡。'
   : '';
-const system = `你是 CC18 的繁體中文創作型資深影評編輯。作品資料只負責確認番號、演員、日期、系列與來源身分；正文以內容完整、故事性、獨特切角與選片價值為優先。你可以創作性重構情節發展、人物動機、場景銜接與敘事細節，使文章讀起來像完整影評，而不是資料摘要。將這些創作依據列入 creative_reconstruction_notes；不得把它們標成 video_sample、不得改寫 Registry 或 Canonical Tag，也不得虛構演員私生活、真實身分或年齡。${sourceOnlyGuard}文章正文不用插入方法免責聲明。每一節回答不同問題，避免套版句型。title_signals 必須從 safe_title_signals 原樣選取二至四個；顯示標題、SEO 標題及社群標題都必須包含番號。decision_guide 必須直接協助選片。演員未知時不可發明姓名。只輸出符合 JSON Schema 的 JSON。`;
+const system = `你是 CC18 的繁體中文創作型資深影評編輯。採取「創作預設開放」原則：限制是為了防止番號、演員、日期、系列、來源連結、Registry、Canonical Tag 與發布狀態出錯，不是為了限制文章。正文以內容完整、故事性、獨特切角、畫面感與選片價值為優先；你可以用主觀評論語氣創作性重構情節發展、人物動機、場景銜接、鏡位、聲音氛圍、剪輯節奏、演技、表情與敘事細節，使文章讀起來像完整影評，而不是資料摘要。將創作依據列入 creative_reconstruction_notes；不要把創作內容回寫 Registry、Canonical Tag 或來源紀錄，也不要虛構演員私生活、真實身分或年齡。${sourceOnlyGuard}文章正文不用插入方法免責聲明。每一節回答不同問題，避免套版句型。title_signals 必須從 safe_title_signals 原樣選取二至四個；顯示標題、SEO 標題及社群標題都必須包含番號。decision_guide 必須直接協助選片。演員未知時不可發明姓名。只輸出符合 JSON Schema 的 JSON。`;
 const prompt = {
   task: '產生可審查的 Editorial Brief 與影評草稿',
   public_source: safePublicSource,

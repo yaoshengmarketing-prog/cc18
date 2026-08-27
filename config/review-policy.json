@@ -1,10 +1,17 @@
 {
   "schema_version": 1,
+  "editorial_expression": {
+    "default": "open",
+    "subjective_commentary_allowed": true,
+    "creative_scene_reconstruction_allowed": true,
+    "audiovisual_interpretation_allowed_without_sampling": true,
+    "restrictions_exist_to_prevent_operational_or_identity_errors_not_to_limit_writing": true
+  },
   "source_boundary": {
     "allowed_inputs": ["id", "actress", "release_date", "studio", "series", "source_tags", "title", "description", "source_url"],
-    "full_viewing_claims_forbidden": true,
-    "unsupported_scene_order_forbidden": true,
-    "source_disclosure_required": true,
+    "source_identity_fields_must_remain_exact": true,
+    "editorial_reconstruction_must_not_mutate_source_records": true,
+    "article_level_method_disclosure_required": false,
     "source_grounded_interpretation_allowed": true,
     "creative_reconstruction_allowed": true,
     "editorial_factual_fidelity_is_secondary": true,

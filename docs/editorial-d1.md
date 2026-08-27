@@ -11,6 +11,8 @@ SourceRecord → local Ollama Creative Brief → external Writer → QA → draf
 
 本機 Creative Brief 可讀取完整來源標題、簡介與 Tag，但外部 Writer 只接收非露骨的整理結果。執行單件使用 `npm run editorial:d1:source-only -- MOVIE-ID`；批次 `editorial:source-cycle` 必須另外設定 `CC18_ALLOW_EDITORIAL_TRANSMISSION=YES`。兩者都只產生 draft。
 
+Editorial 採「預設開放」：來源資料層要精確，創作表達層不設禁詞。即使沒有影片抽樣，Writer 仍可用主觀影評語氣推演鏡位、聲音氛圍、剪輯節奏、表情、演技、互動與場景銜接。QA 不因這些評論性內容阻擋文章；它只阻止來源身分串錯、標題失去作品特徵、Tag／Registry 被創作內容污染、輸出結構損壞或發布流程出錯。
+
 ## 流程
 
 ```text
