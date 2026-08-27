@@ -25,6 +25,28 @@ test('preserves nested review_draft sections returned by gateway models', () => 
   assert.match(normalized.sections.at(-1).body, /未必適合/);
 });
 
+test('wraps intro and conclusion around reviewDraft section arrays and fills decision tradeoffs', () => {
+  const safePublicSource = {
+    safe_title_signals: [{type: 'performer', value: '甲'}, {type: 'theme', value: '南國'}],
+    creative_seed_brief: {themes: ['自然感'], creative_seeds: []},
+  };
+  const normalized = normalizeEditorialResult({
+    title: 'TEST-005 甲 南國',
+    reviewDraft: {
+      intro: '獨特開場'.repeat(30),
+      sections: Array.from({length: 5}, (_, index) => ({heading: `分析 ${index + 1}`, content: `不同分析${index + 1}`.repeat(30)})),
+      conclusion: '完整結論'.repeat(30),
+    },
+    editorialBrief: {audience: ['偏好自然感的觀眾']},
+    decision_guide: {audience_for: ['偏好自然感的觀眾'], audience_not_for: []},
+  }, {movieId: 'TEST-005', safePublicSource, safeVideoAnalysis: {observations: []}});
+  assert.equal(normalized.sections.length, 7);
+  assert.equal(normalized.sections[0].heading, '這部作品先賣什麼');
+  assert.equal(normalized.sections.at(-1).heading, '總評與選片結論');
+  assert.equal(normalized.decision_guide.audience_for.length, 2);
+  assert.equal(normalized.decision_guide.audience_not_for.length, 2);
+});
+
 test('maps the alternate gateway editorial shape into the CC18 contract', () => {
   const safePublicSource = {safe_title_signals: [
     {type: 'theme', value: '角色扮演', source_field: 'safe_signals'},
@@ -37,7 +59,7 @@ test('maps the alternate gateway editorial shape into the CC18 contract', () => 
     review: {intro: '短評', sections: Array.from({length: 6}, (_, i) => ({heading: `段落${i}`, content: `第${i}段的獨特內容。${'內容'.repeat(100)}`})), conclusion: '總評'},
   }, {movieId: 'TEST-001', safePublicSource, safeVideoAnalysis});
   assert.equal(normalized.title_signals.length, 2);
-  assert.equal(normalized.sections.length, 6);
+  assert.equal(normalized.sections.length, 7);
   assert.equal(normalized.evidence.length, 5);
   assert.deepEqual(normalized.canonical_tag_ids, ['story', 'close-perspective', 'contrast-charm']);
 });

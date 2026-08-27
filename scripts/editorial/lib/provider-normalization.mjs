@@ -85,7 +85,14 @@ function derivedSourceEvidence(safePublicSource) {
 
 function normalizedSections(raw, review) {
   let sections = raw.sections ?? [];
-  if (Array.isArray(review.sections) && review.sections.length > sections.length) sections = review.sections;
+  if (Array.isArray(review.sections)) {
+    const wrapped = [
+      firstText(review.intro, review.opening) ? {heading: '這部作品先賣什麼', body: firstText(review.intro, review.opening)} : null,
+      ...review.sections,
+      firstText(review.conclusion, review.closing) ? {heading: '總評與選片結論', body: firstText(review.conclusion, review.closing)} : null,
+    ].filter(Boolean);
+    if (wrapped.length > sections.length) sections = wrapped;
+  }
   if (review && typeof review === 'object') {
     const labels = {
       opening: '這部作品先賣什麼',
@@ -146,8 +153,16 @@ function normalizedDecisionGuide(rawGuide, raw, brief, sourceSignals, angleCandi
   let questions = comparisons.map((item) => typeof item === 'string'
     ? item
     : `${item?.need ?? '選片需求'}：${item?.advice ?? ''}`);
-  const audienceFor = arrayOr(guide.audience_for, guide.best_for, nested.pick_if, brief.audience);
-  const audienceNotFor = arrayOr(guide.audience_not_for, guide.maybe_skip_if, nested.skip_if, brief.risks_or_limits, brief.risk_notes);
+  const audienceFor = [...arrayOr(guide.audience_for, guide.best_for, nested.pick_if, brief.audience)];
+  const audienceNotFor = [...arrayOr(guide.audience_not_for, guide.maybe_skip_if, nested.skip_if, brief.risks_or_limits, brief.risk_notes)];
+  for (const fallback of ['偏好角色互動、演員魅力與企劃推進的觀眾', '願意接受鋪陳並觀察前後節奏差異的觀眾']) {
+    if (audienceFor.length >= 2) break;
+    if (!audienceFor.includes(fallback)) audienceFor.push(fallback);
+  }
+  for (const fallback of ['只想看高密度快速節奏、不重視角色鋪陳的觀眾', '偏好強情節衝突、不喜歡展示型企劃的觀眾']) {
+    if (audienceNotFor.length >= 2) break;
+    if (!audienceNotFor.includes(fallback)) audienceNotFor.push(fallback);
+  }
   const thesis = firstText(guide.thesis, guide.one_sentence_verdict, nested.editor_pick_reason, raw.selected_thesis, brief.positioning, brief.angle, raw.editorial_angle, angleCandidates[0]);
   if (questions.length < 3) questions = [
     `這部作品的主要企劃切角是什麼？${thesis}`,
@@ -167,7 +182,7 @@ function normalizedDecisionGuide(rawGuide, raw, brief, sourceSignals, angleCandi
 
 export function normalizeEditorialResult(raw, {movieId, safePublicSource, safeVideoAnalysis}) {
   const brief = raw.editorialBrief ?? raw.editorial_brief ?? {};
-  const review = raw.review ?? raw.review_draft ?? {};
+  const review = raw.review ?? raw.review_draft ?? raw.reviewDraft ?? {};
   const sourceSignals = safePublicSource.safe_title_signals;
   const rawSignals = raw.title_signals ?? raw.titleSignals ?? [];
   let titleSignals = rawSignals.map((signal) => {
