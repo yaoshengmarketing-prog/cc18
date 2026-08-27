@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "SIRO-5722",
+  "checked_at": "2026-08-27T16:24:02.885Z",
+  "passed": true,
+  "issues": [],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 9,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 3
+  }
+}

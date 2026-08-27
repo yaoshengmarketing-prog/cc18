@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "movie_id": "SIRO-5722",
+  "generated_at": "2026-08-27T16:24:02.820Z",
+  "source_snapshot_hash": "sha256:7a00fea55cfc2ff6e2243ad7d806e26736018d516e27bd7b78d4666deda975b4",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "以「初次嘗試如何被拍成可見的轉變」為主軸，不把重點放在單一刺激橋段，而是觀察作品如何藉由素人企劃與自拍形式，讓一位帶著防備與羞怯進場的角色，逐步從被引導、試探，到在鏡頭前找到自己的節奏。文章將強調前後段氣質差異、互動中的合作感，以及室內場景如何撐起一種近距離的紀錄感。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "【初撮り】ネットでAV応募→AV体験撮影",
+      "素人企劃",
+      "自拍形式",
+      "高畫質"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好素人企劃與真實感呈現的觀眾",
+      "在意角色心態變化與前後段反差的選片者",
+      "喜歡近距離、自拍形式所帶來臨場感的讀者"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "HUNTC-568",
+      "relation_type": "adjacent_theme",
+      "reason": "兩部共享story等站內分類，適合延伸比較相近題材如何採用不同切角。",
+      "shared_signals": [
+        "story"
+      ],
+      "contrast_signals": [
+        "旅館",
+        "同期女同事"
+      ]
+    },
+    {
+      "movie_id": "SDAB-358",
+      "relation_type": "adjacent_theme",
+      "reason": "兩部共享story等站內分類，適合延伸比較相近題材如何採用不同切角。",
+      "shared_signals": [
+        "story"
+      ],
+      "contrast_signals": [
+        "相沢澪",
+        "要結愛"
+      ]
+    },
+    {
+      "movie_id": "ENDS-322",
+      "relation_type": "adjacent_theme",
+      "reason": "兩部共享story等站內分類，適合延伸比較相近題材如何採用不同切角。",
+      "shared_signals": [
+        "story"
+      ],
+      "contrast_signals": [
+        "人妻設定",
+        "孕婦設定"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？以「初次嘗試如何被拍成可見的轉變」為主軸，不把重點放在單一刺激橋段，而是觀察作品如何藉由素人企劃與自拍形式，讓一位帶著防備與羞怯進場的角色，逐步從被引導、試探，到在鏡頭前找到自己的節奏。文章將強調前後段氣質差異",
+    "哪些觀眾較適合？偏好素人企劃與真實感呈現的觀眾",
+    "有哪些觀看取捨？只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+  ]
+}
