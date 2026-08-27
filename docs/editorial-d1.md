@@ -13,6 +13,8 @@ SourceRecord → local Ollama Creative Brief → external Writer → QA → draf
 
 Editorial 採「預設開放」：來源資料層要精確，創作表達層不設禁詞。即使沒有影片抽樣，Writer 仍可用主觀影評語氣推演鏡位、聲音氛圍、剪輯節奏、表情、演技、互動與場景銜接。QA 不因這些評論性內容阻擋文章；它只阻止來源身分串錯、標題失去作品特徵、Tag／Registry 被創作內容污染、輸出結構損壞或發布流程出錯。
 
+Editorial job 通過 QA 後會以唯一 `{movie_id}:image:v1` 建立圖片工作。圖片 Worker 必須先讀取供應商即時模型能力，生成橫式與直式素材；兩個物件都上傳 R2 並下載回來通過 SHA-256 驗證後，才可寫入 Media Manifest、更新 `imageStatus=rendered` 並建立 video job。暫時失敗使用 retry，不回滾已完成文章。
+
 ## 流程
 
 ```text

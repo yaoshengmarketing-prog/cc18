@@ -5,7 +5,7 @@ const registry = JSON.parse(await readFile(file, 'utf8'));
 const ids = new Set();
 
 for (const record of registry.records ?? []) {
-  for (const key of ['id', 'release_date', 'source_url', 'review_status', 'video_status']) {
+  for (const key of ['id', 'release_date', 'source_url', 'review_status', 'image_status', 'video_status']) {
     if (!record[key]) throw new Error(`Registry record is missing ${key}`);
   }
   if (ids.has(record.id)) throw new Error(`Duplicate registry id: ${record.id}`);

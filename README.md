@@ -57,6 +57,8 @@ npm run editorial:d1:source-only -- MOVIE-ID
 
 Creative-first 路徑已與 Media 解耦：Discovery 對每部 eligible 作品各建立一個 `editorial` 與一個 `media_analysis` 工作。Editorial 先由本機 Ollama 讀取完整來源標題、簡介與 Tag，產生非露骨 Creative Brief；外部 Writer 只接收這份 Brief 與安全化訊號。`editorial:source-cycle` 仍受 `CC18_ALLOW_EDITORIAL_TRANSMISSION=YES` 明確開關保護，目前未排程、未執行新作品外送。
 
+圖片路徑已接成 `editorial completed → image queued → AItokenKing 非同步生成 → R2 上傳與反向 SHA-256 驗證 → Media Manifest／文章／Registry → video queued`。每部產生 16:9 Hero 與 9:16 直式素材；失敗標記 retry，不阻止文章保留 CC18 來源封面。批次 `image:cycle` 需設定 `CC18_ALLOW_IMAGE_TRANSMISSION=YES`，目前仍未啟用排程。
+
 ## Architecture
 
 - 最新套件來源：`architecture/cc18-architecture-v0.17.0-draft/`

@@ -32,4 +32,5 @@ jobs:
       - run: npm run editorial:normalization:test
       - run: npm run editorial:qa-rules:test
       - run: npm run editorial:search:test
+      - run: npm run image:provider:test
       - run: npm run build

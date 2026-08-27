@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "SDAB-358",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-08-27T12:48:54.744Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/SDAB-358/hero-v1.png",
+      "r2_key": "works/2026/08/SDAB-358/hero-v1.png",
+      "bytes": 1874675,
+      "sha256": "a87426ea72302b655bc07f0fbbc324d99d27495f7c254cec9f73233036e6add2",
+      "provider": "openai-built-in",
+      "model": "gpt-image",
+      "provider_task_id": "builtin-hero",
+      "source_file": "SDAB-358-hero.png",
+      "prompt_summary": "成年女性弓道課程與教練指導；橫式道場 Hero，表現紀律、學習與成長。"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/SDAB-358/scene-vertical-v1.png",
+      "r2_key": "works/2026/08/SDAB-358/scene-vertical-v1.png",
+      "bytes": 1947956,
+      "sha256": "f403ffe0b9be3147bb8e24c38779822f9b592a68b2977dd7374a5bf16fe9fcf4",
+      "provider": "openai-built-in",
+      "model": "gpt-image",
+      "provider_task_id": "builtin-vertical",
+      "source_file": "SDAB-358-vertical.png",
+      "prompt_summary": "成年女性弓道練習後的沉著與自信；直式道場構圖，保留字幕空間。"
+    }
+  ],
+  "video": {
+    "status": "pending"
+  }
+}

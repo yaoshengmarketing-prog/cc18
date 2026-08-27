@@ -37,6 +37,7 @@ canonicalTagIds:
   - close-perspective
   - kissing
 status: published
+imageStatus: rendered
 videoStatus: rendered
 featured: false
 ---

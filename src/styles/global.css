@@ -104,6 +104,9 @@ h1, h2, h3, p { overflow-wrap: anywhere; }
 .review-header { display: grid; grid-template-columns: minmax(360px, 1fr) 1fr; gap: clamp(36px, 7vw, 110px); align-items: center; }
 .review-cover { background: var(--ink); box-shadow: 20px 20px 0 var(--paper-deep); }
 .review-cover img { width: 100%; }
+.review-hero-art { margin: 72px 0 42px; }
+.review-hero-art img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--paper-deep); }
+.review-hero-art figcaption { margin-top: 10px; color: var(--muted); font-size: .78rem; letter-spacing: .04em; }
 .review-heading h1 { margin: 14px 0 18px; font: 900 clamp(40px, 5vw, 72px)/1.18 var(--display); }
 .lead { max-width: 54rem; color: var(--slate); font-size: 17px; }
 .angle-line { max-width: 56rem; margin: 24px 0; padding: 16px 18px; background: rgba(255,253,249,.58); border-left: 3px solid var(--apricot-dark); color: var(--slate); font-size: 14px; }

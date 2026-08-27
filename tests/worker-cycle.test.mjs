@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {bridgeOutcome, cycleArguments, editorialTransmissionAllowed} from '../scripts/worker/lib/cycle.mjs';
+import {bridgeOutcome, cycleArguments, editorialTransmissionAllowed, imageTransmissionAllowed} from '../scripts/worker/lib/cycle.mjs';
 
 test('cycle has a bounded default and validates its upper limit', () => {
   assert.deepEqual(cycleArguments([]), {max: 3, withEditorial: false});
@@ -17,4 +17,10 @@ test('editorial transmission requires exact explicit opt-in', () => {
   assert.equal(editorialTransmissionAllowed({CC18_ALLOW_EDITORIAL_TRANSMISSION: 'YES'}), true);
   assert.equal(editorialTransmissionAllowed({CC18_ALLOW_EDITORIAL_TRANSMISSION: 'true'}), false);
   assert.equal(editorialTransmissionAllowed({}), false);
+});
+
+test('image transmission requires its own exact explicit opt-in', () => {
+  assert.equal(imageTransmissionAllowed({CC18_ALLOW_IMAGE_TRANSMISSION: 'YES'}), true);
+  assert.equal(imageTransmissionAllowed({CC18_ALLOW_IMAGE_TRANSMISSION: 'true'}), false);
+  assert.equal(imageTransmissionAllowed({}), false);
 });

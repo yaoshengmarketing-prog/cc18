@@ -24,6 +24,7 @@ sourceTags:
 canonicalTagIds:
   - story
 status: draft
+imageStatus: skipped
 videoStatus: pending
 featured: false
 ---

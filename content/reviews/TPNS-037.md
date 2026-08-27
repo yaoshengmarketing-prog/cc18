@@ -36,6 +36,7 @@ canonicalTagIds:
   - close-perspective
   - contrast-charm
 status: draft
+imageStatus: pending
 videoStatus: pending
 featured: false
 ---

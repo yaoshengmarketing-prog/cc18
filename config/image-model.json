@@ -1,0 +1,16 @@
+{
+  "provider": "aitokenking",
+  "base_url": "https://api.aitokenking.com.tw/api/v1",
+  "api_key_env": "AITOKENKING_API_KEY",
+  "allowed_hosts": ["api.aitokenking.com.tw"],
+  "model": "seedream-4.5",
+  "preferred_resolutions": ["2k", "1080p", "1k", "720p"],
+  "roles": {
+    "article_hero": {"ratio": "16:9"},
+    "vertical_scene": {"ratio": "9:16"}
+  },
+  "poll_interval_seconds": 15,
+  "poll_timeout_seconds": 600,
+  "download_max_bytes": 20971520,
+  "r2_bucket": "cc18-media"
+}

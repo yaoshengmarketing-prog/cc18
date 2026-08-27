@@ -82,6 +82,12 @@ if (review.data.videoUrl) structuredData.push({
         </a>
       </div>
     </header>
+    {review.data.heroUrl && (
+      <figure class="review-hero-art">
+        <img src={review.data.heroUrl} alt={`${review.data.id} 原創非露骨情境主視覺`} loading="eager" />
+        <figcaption>CC18 影格原創情境圖 · 依作品企劃切角製作，不取代原始作品封面</figcaption>
+      </figure>
+    )}
     <WorkFacts review={review} source={source} search={search} />
     <VideoPlayer src={review.data.videoUrl} poster={review.data.heroUrl ?? review.data.coverUrl} sourceUrl={review.data.sourceUrl} title={review.data.id} />
     {search && <DecisionGuide content={search} related={related} />}

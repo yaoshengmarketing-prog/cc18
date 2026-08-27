@@ -39,6 +39,7 @@ canonicalTagIds:
   - contrast-charm
   - oral-sex
 status: published
+imageStatus: rendered
 videoStatus: rendered
 featured: true
 ---

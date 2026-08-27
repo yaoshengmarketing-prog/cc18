@@ -35,6 +35,7 @@ const reviews = defineCollection({
     sourceTags: z.array(z.string()).default([]),
     canonicalTagIds: z.array(canonicalTagId).max(taxonomy.policy.max_visible_tags_per_review).default([]),
     status: z.enum(['draft', 'published']).default('draft'),
+    imageStatus: z.enum(['pending', 'rendered', 'retry', 'skipped']).default('pending'),
     videoStatus: z.enum(['pending', 'rendered', 'retry', 'skipped']).default('pending'),
     featured: z.boolean().default(false),
   }),

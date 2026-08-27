@@ -29,3 +29,7 @@ export function bridgeOutcome(output) {
 export function editorialTransmissionAllowed(environment = process.env) {
   return environment.CC18_ALLOW_EDITORIAL_TRANSMISSION === 'YES';
 }
+
+export function imageTransmissionAllowed(environment = process.env) {
+  return environment.CC18_ALLOW_IMAGE_TRANSMISSION === 'YES';
+}

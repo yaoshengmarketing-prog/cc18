@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "movie_id": "SDAB-358",
+  "created_at": "2026-08-27T12:45:00.000Z",
+  "provider": "openai-built-in",
+  "model": "gpt-image",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "prompts": {
+    "article_hero": "Original cinematic editorial photograph about discipline, coaching and progress in traditional Japanese archery; two fictional mature adult East Asian women in complete kyudo uniforms inside a late-afternoon dojo; wide composition with headline space; no text, logos or performer likeness.",
+    "vertical_scene": "Original vertical cinematic editorial photograph about concentration and progress in traditional Japanese archery; one fictional mature adult East Asian woman in complete kyudo uniform with an adult coach in the background; golden-hour dojo; caption space; no text, logos or performer likeness."
+  }
+}

@@ -37,6 +37,7 @@ canonicalTagIds:
   - active-female
   - facial
 status: draft
+imageStatus: pending
 videoStatus: pending
 featured: false
 ---

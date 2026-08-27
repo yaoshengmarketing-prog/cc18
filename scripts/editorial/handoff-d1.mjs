@@ -116,7 +116,8 @@ try {
   }
   await stopLease();
   await store.finishJob({jobId: claimed.id, workerId, outcome: 'completed'});
-  console.log(JSON.stringify({movie_id: movieId, editorial_job_id: claimed.id, status: 'completed', publication_status: 'draft', editorial_mode: sourceOnly ? 'creative_first_source_only' : 'creative_first_video_enhanced'}, null, 2));
+  const imageJob = await store.enqueueJob({movieId, stage: 'image', priority: claimed.priority, discoveryRunId: claimed.discovery_run_id});
+  console.log(JSON.stringify({movie_id: movieId, editorial_job_id: claimed.id, status: 'completed', publication_status: 'draft', image_job_id: imageJob.id, editorial_mode: sourceOnly ? 'creative_first_source_only' : 'creative_first_video_enhanced'}, null, 2));
 } catch (error) {
   clearInterval(leaseTimer);
   await leasePending;

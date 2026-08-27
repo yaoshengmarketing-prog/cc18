@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-27T07:53:20.844Z",
+  "updated_at": "2026-08-27T12:48:54.758Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -12,6 +12,7 @@
       "source_site": "cc18.tv",
       "review_status": "draft",
       "cover_status": "placeholder",
+      "image_status": "skipped",
       "video_status": "pending",
       "template": "story",
       "published_at": "2026-08-25"
@@ -26,6 +27,7 @@
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
+      "image_status": "rendered",
       "video_status": "rendered",
       "template": "contrast",
       "published_at": "2026-08-25"
@@ -38,6 +40,7 @@
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
+      "image_status": "rendered",
       "video_status": "rendered",
       "template": "story",
       "published_at": "2026-08-25"
@@ -52,6 +55,7 @@
       "source_site": "cc18.tv",
       "review_status": "draft",
       "cover_status": "remote_source",
+      "image_status": "pending",
       "video_status": "pending",
       "template": "story",
       "published_at": "2026-08-26"
@@ -64,6 +68,7 @@
       "source_site": "cc18.tv",
       "review_status": "draft",
       "cover_status": "remote_source",
+      "image_status": "pending",
       "video_status": "pending",
       "template": "story",
       "published_at": "2026-08-26"
@@ -79,6 +84,7 @@
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
+      "image_status": "rendered",
       "video_status": "pending",
       "template": "story",
       "published_at": "2026-08-27"
