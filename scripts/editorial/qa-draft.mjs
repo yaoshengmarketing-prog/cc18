@@ -2,6 +2,7 @@ import {createHash} from 'node:crypto';
 import {readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {buildSafeTitleSignals} from './lib/safe-editorial-payload.mjs';
+import {sourceOnlyGroundingIssues} from './lib/qa-rules.mjs';
 
 const movieId = process.argv[2];
 if (!movieId) throw new Error('Usage: node scripts/editorial/qa-draft.mjs <MOVIE-ID>');
@@ -51,6 +52,9 @@ if ((brief.evidence ?? []).some((item) => ['video_sample', 'both'].includes(item
 if ((brief.creative_reconstruction_notes ?? []).length < 2) issues.push('missing_creative_reconstruction_audit');
 if ((brief.evidence ?? []).some((item) => item.signal === movieId || item.supports?.length < 12)) issues.push('non_specific_evidence');
 if (/對白設計|聲音品質|ASMR/.test(body) && brief.audio_transcription_status !== 'ready') issues.push('unsupported_audio_claim');
+if (brief.generation_mode === 'creative_first_source_only') {
+  issues.push(...sourceOnlyGroundingIssues({body, titleSignals: sourceSignals, actresses: source.actress ?? []}));
+}
 if (source.actress.length === 0 && /演員：|女優/.test(body)) issues.push('invented_performer_identity');
 if (search.movie_id !== movieId) issues.push('search_content_identity_mismatch');
 if (search.source_snapshot_hash !== `sha256:${createHash('sha256').update(sourceText).digest('hex')}`) issues.push('stale_search_source_snapshot');

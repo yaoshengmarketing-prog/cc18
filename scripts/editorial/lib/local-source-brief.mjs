@@ -3,7 +3,7 @@ import {assertLocalEndpoint} from '../../bridge/lib/local-analysis.mjs';
 const BRIEF_SCHEMA = {
   type: 'object',
   additionalProperties: false,
-  required: ['premise', 'relationship', 'role_dynamic', 'central_tension', 'setting', 'themes', 'creative_seeds'],
+  required: ['premise', 'relationship', 'role_dynamic', 'central_tension', 'setting', 'themes', 'creative_seeds', 'search_concepts'],
   properties: {
     premise: {type: 'string', maxLength: 240},
     relationship: {type: 'string', maxLength: 120},
@@ -12,6 +12,7 @@ const BRIEF_SCHEMA = {
     setting: {type: 'string', maxLength: 120},
     themes: {type: 'array', minItems: 2, maxItems: 6, items: {type: 'string', maxLength: 60}},
     creative_seeds: {type: 'array', minItems: 3, maxItems: 6, items: {type: 'string', maxLength: 140}},
+    search_concepts: {type: 'array', minItems: 2, maxItems: 6, items: {type: 'string', maxLength: 30}},
   },
 };
 
@@ -30,9 +31,10 @@ export function normalizeLocalSourceBrief(value) {
     setting: clip(value.setting, 120),
     themes: list('themes', 60, 6),
     creative_seeds: list('creative_seeds', 140, 6),
+    search_concepts: list('search_concepts', 30, 6),
   };
   if (![result.premise, result.relationship, result.role_dynamic, result.central_tension].every(Boolean)
-    || result.themes.length < 2 || result.creative_seeds.length < 3) {
+    || result.themes.length < 2 || result.creative_seeds.length < 3 || result.search_concepts.length < 2) {
     throw new Error('Local source brief is incomplete');
   }
   return result;
@@ -55,7 +57,7 @@ export async function createLocalSourceBrief(source, config, fetchImplementation
         options: {temperature: 0.2, num_predict: 900},
         messages: [{
           role: 'system',
-          content: '你是本機內容策劃器。讀取作品標題、公開簡介與標籤，整理成繁體中文、非露骨的創作 Brief。不要辨識未提供的人物，不要評論真人私生活。Creative seeds 可以提出可供影評編撰的情節、動機與轉折方向，但不可包含露骨描述。只輸出 JSON。',
+          content: '你是本機內容策劃器。讀取作品標題、公開簡介與標籤，整理成繁體中文、非露骨的創作 Brief。不要辨識未提供的人物，不要評論真人私生活。Creative seeds 可以提出可供影評編撰的情節、動機與轉折方向，但不可包含露骨描述。search_concepts 必須逐字摘自標題或公開簡介，至少兩個必須來自人物背景、職業、關係、場景、課程形式、任務、時間或故事鉤子。可選例型：弓道少女、首次拍攝、講師的指導、短短一天、溫泉旅行、偶像時代。絕對不要輸出性行為、身體部位、射精次數、多人數字或含 P 的人數詞。只輸出 JSON。',
         }, {
           role: 'user',
           content: JSON.stringify({title: source.title, description: source.description, actress: source.actress, series: source.series, source_tags: source.source_tags}),

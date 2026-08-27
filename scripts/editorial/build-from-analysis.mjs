@@ -124,7 +124,10 @@ const localCreativeBrief = existingBrief?.local_creative_brief ?? await createLo
 const safePublicSource = buildSafePublicSource(source, localCreativeBrief);
 const safeVideoAnalysis = buildSafeVideoAnalysis(analysis);
 
-const system = `你是 CC18 的繁體中文創作型資深影評編輯。作品資料只負責確認番號、演員、日期、系列與來源身分；正文以內容完整、故事性、獨特切角與選片價值為優先。你可以創作性重構情節發展、人物動機、場景銜接與敘事細節，使文章讀起來像完整影評，而不是資料摘要。將這些創作依據列入 creative_reconstruction_notes；不得把它們標成 video_sample、不得改寫 Registry 或 Canonical Tag，也不得虛構演員私生活、真實身分或年齡。文章正文不用插入方法免責聲明。每一節回答不同問題，避免套版句型。title_signals 必須從 safe_title_signals 原樣選取二至四個；顯示標題、SEO 標題及社群標題都必須包含番號。decision_guide 必須直接協助選片。演員未知時不可發明姓名。只輸出符合 JSON Schema 的 JSON。`;
+const sourceOnlyGuard = sourceOnly
+  ? '本次是 source-only：你沒有影片鏡位、收音、剪輯、演技、表情、身體語言或逐幕順序的證據。不得把這些內容寫成實際觀察。必須優先使用 safe_title_signals 中非演員、非畫質的來源概念，並以「公開片名／公開簡介／企劃設定」作為評論立足點。'
+  : '';
+const system = `你是 CC18 的繁體中文創作型資深影評編輯。作品資料只負責確認番號、演員、日期、系列與來源身分；正文以內容完整、故事性、獨特切角與選片價值為優先。你可以創作性重構情節發展、人物動機、場景銜接與敘事細節，使文章讀起來像完整影評，而不是資料摘要。將這些創作依據列入 creative_reconstruction_notes；不得把它們標成 video_sample、不得改寫 Registry 或 Canonical Tag，也不得虛構演員私生活、真實身分或年齡。${sourceOnlyGuard}文章正文不用插入方法免責聲明。每一節回答不同問題，避免套版句型。title_signals 必須從 safe_title_signals 原樣選取二至四個；顯示標題、SEO 標題及社群標題都必須包含番號。decision_guide 必須直接協助選片。演員未知時不可發明姓名。只輸出符合 JSON Schema 的 JSON。`;
 const prompt = {
   task: '產生可審查的 Editorial Brief 與影評草稿',
   public_source: safePublicSource,

@@ -11,6 +11,7 @@ const brief = {
   setting: '旅館式私人房間',
   themes: ['距離變化', '關係轉折'],
   creative_seeds: ['從公事語氣逐步轉為私人對話', '用共享空間放大尷尬與期待', '以一次誤解推動關係改變'],
+  search_concepts: ['同事', '共享私人空間'],
 };
 
 test('normalizes a complete non-graphic local creative brief', () => {
@@ -53,9 +54,12 @@ test('external creative brief deterministically removes graphic local-model pros
     setting: '攝影棚內',
     themes: ['成長與學習', '口交技巧', '個人興趣探索'],
     creative_seeds: ['描述口交細節', '加入顏射橋段', '描寫性器官'],
+    search_concepts: ['弓道少女', '口交', '一日特訓', '9P', '10發'],
   };
+  source.title = '弓道少女的一日特訓';
   const payload = JSON.stringify(buildSafePublicSource(source, graphicBrief));
-  assert.doesNotMatch(payload, /口交|顏射|性行為|性器|露骨/);
+  assert.doesNotMatch(payload, /口交|顏射|性行為|性器|露骨|9P|10發/);
   assert.match(payload, /成長與學習/);
   assert.match(payload, /棚內場景/);
+  assert.match(payload, /弓道少女|一日特訓/);
 });

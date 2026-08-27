@@ -12,6 +12,16 @@ const safeSourceTagSignals = new Map([
   ['4k', {type: 'presentation', value: '高畫質'}],
   ['劇情', {type: 'theme', value: '劇情設定'}],
   ['ドラマ', {type: 'theme', value: '劇情設定'}],
+  ['企劃片', {type: 'theme', value: '企劃片'}],
+  ['美少女', {type: 'presentation', value: '美少女設定'}],
+  ['學生妹', {type: 'setting', value: '學生設定'}],
+  ['偶像‧藝人', {type: 'presentation', value: '偶像設定'}],
+  ['偶像・藝人', {type: 'presentation', value: '偶像設定'}],
+  ['空姐', {type: 'setting', value: '空服員設定'}],
+  ['溫泉', {type: 'setting', value: '溫泉場景'}],
+  ['紀錄片', {type: 'presentation', value: '紀錄片形式'}],
+  ['自拍', {type: 'presentation', value: '自拍形式'}],
+  ['素人', {type: 'presentation', value: '素人企劃'}],
 ]);
 
 const classify = (value, rules, fallback) => {
@@ -46,7 +56,7 @@ const cameraRules = [
 
 export const safeCanonicalTagIds = ['story', 'close-perspective', 'asmr', 'contrast-charm', 'kissing', 'active-female'];
 
-const unsafeBriefPattern = /口交|顏射|亂交|性交|性愛|性器|性行為|陰道|陰莖|肛門|精液|射精|內射|勃起|乳交|手交|自慰|插入|抽插|肉棒|雞巴|小穴|玩具攻擊|\bsex\b|oral|anal|facial|ejaculat|penetrat/i;
+const unsafeBriefPattern = /口交|顏射|亂交|性交|性愛|性器|性行為|陰道|陰莖|肛門|精液|射精|內射|勃起|乳交|手交|自慰|插入|抽插|肉棒|雞巴|小穴|玩具攻擊|\b\d+\s*p\b|\d+\s*發|\bsex\b|oral|anal|facial|ejaculat|penetrat/i;
 
 const safeBriefTheme = (value) => {
   const theme = String(value ?? '').normalize('NFKC').replace(/\s+/g, ' ').trim().slice(0, 40);
@@ -64,13 +74,20 @@ const safeBriefSetting = (value) => classify(value, [
 // The local model may understand graphic source prose, but no generated sentence from
 // that pass is trusted for external transmission. Rebuild a compact, deterministic
 // abstraction from allowlisted themes and setting categories instead.
-export function buildExternalCreativeBrief(localBrief) {
+export function buildExternalCreativeBrief(localBrief, source = {}) {
   if (!localBrief) return null;
   const themes = [...new Set((localBrief.themes ?? []).map(safeBriefTheme).filter(Boolean))].slice(0, 4);
   for (const fallback of ['角色成長', '互動節奏', '關係轉折']) {
     if (themes.length >= 3) break;
     if (!themes.includes(fallback)) themes.push(fallback);
   }
+  const sourceConcepts = [...new Set((localBrief.search_concepts ?? []).map((value) => String(value ?? '').normalize('NFKC').trim()).filter((value) => {
+    if (value.length < 2 || value.length > 30 || unsafeBriefPattern.test(value)) return false;
+    return String(source.title ?? '').includes(value) || String(source.description ?? '').includes(value);
+  }))].slice(0, 6).map((value) => ({
+    value,
+    source_field: String(source.title ?? '').includes(value) ? 'title' : 'description',
+  }));
   return {
     premise: `以${themes[0]}與${themes[1]}為主軸，聚焦角色由嘗試、適應到掌握節奏的轉變。`,
     relationship: '主角與引導者及其他參與者之間的合作關係',
@@ -83,6 +100,7 @@ export function buildExternalCreativeBrief(localBrief) {
       '透過引導者的回應呈現主角心態與節奏變化',
       '以階段式任務推動故事，而不是堆疊相似橋段',
     ],
+    source_concepts: sourceConcepts,
   };
 }
 
@@ -115,8 +133,12 @@ export function buildSafeVideoAnalysis(analysis) {
 }
 
 export function buildSafePublicSource(source, localCreativeBrief = null) {
-  const safeTitleSignals = buildSafeTitleSignals(source);
-  if (safeTitleSignals.length < 2) {
+  const externalBrief = buildExternalCreativeBrief(localCreativeBrief, source);
+  const safeTitleSignals = [...buildSafeTitleSignals(source), ...(externalBrief?.source_concepts ?? []).map((concept) => ({
+    type: 'theme', value: concept.value, source_field: concept.source_field,
+  }))];
+  const uniqueSignals = [...new Map(safeTitleSignals.map((signal) => [`${signal.type}:${signal.value}`, signal])).values()].slice(0, 8);
+  if (uniqueSignals.length < 2) {
     throw Object.assign(new Error(`${source.id}: fewer than two safe source-grounded title signals`), {code: 'EDITORIAL_SAFE_SIGNALS_INSUFFICIENT'});
   }
   return {
@@ -124,7 +146,7 @@ export function buildSafePublicSource(source, localCreativeBrief = null) {
     release_date: source.release_date,
     actress: source.actress ?? [],
     series: source.series ?? null,
-    safe_title_signals: safeTitleSignals,
-    creative_seed_brief: buildExternalCreativeBrief(localCreativeBrief),
+    safe_title_signals: uniqueSignals,
+    creative_seed_brief: externalBrief,
   };
 }
