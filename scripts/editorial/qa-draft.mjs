@@ -109,6 +109,7 @@ const report = {
   schema_version: 1,
   id: movieId,
   checked_at: new Date().toISOString(),
+  review_sha256: createHash('sha256').update(markdown).digest('hex'),
   passed: issues.length === 0,
   issues,
   metrics: {

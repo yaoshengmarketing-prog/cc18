@@ -1,22 +1,20 @@
 import {readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {queueStoreFromEnvironment} from '../queue/store.mjs';
-import {approveAfterAutomatedQa} from './lib/approval.mjs';
+import {approveAfterAutomatedQa, assertFreshAutomatedQa} from './lib/approval.mjs';
 
 const movieId = process.argv[2]?.trim().toUpperCase();
 if (!movieId || !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId)) throw new Error('Usage: npm run editorial:d1:finalize-qa -- <MOVIE-ID>');
 
 const root = resolve(import.meta.dirname, '..', '..');
 const report = JSON.parse(await readFile(resolve(root, 'data', 'review-quality', `${movieId}-automated.json`), 'utf8'));
-if (report.id !== movieId || report.passed !== true || report.issues?.length) {
-  throw new Error(`${movieId}: local QA report is not approved`);
-}
 const reviewPath = resolve(root, 'content', 'reviews', `${movieId}.md`);
 const qualityPath = resolve(root, 'data', 'review-quality', `${movieId}.json`);
 const registryPath = resolve(root, 'data', 'movie-registry.json');
 const [markdown, quality, registry] = await Promise.all([
   readFile(reviewPath, 'utf8'), readFile(qualityPath, 'utf8').then(JSON.parse), readFile(registryPath, 'utf8').then(JSON.parse),
 ]);
+assertFreshAutomatedQa({movieId, markdown, report});
 const approved = approveAfterAutomatedQa({movieId, markdown, quality, registry, publishedAt: new Date().toISOString().slice(0, 10)});
 await Promise.all([
   writeFile(reviewPath, approved.markdown, 'utf8'),

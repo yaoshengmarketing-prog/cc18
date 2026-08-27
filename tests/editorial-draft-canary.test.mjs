@@ -13,7 +13,7 @@ test('draft canary is explicitly authorized and reads D1 without mutating queue 
 
 test('draft canary verifies QA and refuses publication or image enqueueing', () => {
   assert.match(source, /record\.review_status !== 'draft'/);
-  assert.match(source, /automatedQuality\.passed !== true/);
+  assert.match(source, /assertFreshAutomatedQa/);
   assert.match(source, /queue_mutated: false/);
   assert.match(source, /image_enqueued: false/);
   assert.match(source, /published: false/);

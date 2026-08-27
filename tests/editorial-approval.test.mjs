@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
-import {approveAfterAutomatedQa} from '../scripts/editorial/lib/approval.mjs';
+import {approveAfterAutomatedQa, assertFreshAutomatedQa} from '../scripts/editorial/lib/approval.mjs';
 
 test('automated QA approval updates content, quality hash, and registry atomically', () => {
   const result = approveAfterAutomatedQa({
@@ -16,4 +16,16 @@ test('automated QA approval updates content, quality hash, and registry atomical
   assert.equal(result.quality.approved_for_publish, true);
   assert.equal(result.quality.review_sha256, createHash('sha256').update(result.markdown).digest('hex'));
   assert.equal(result.registry.records[0].review_status, 'published');
+});
+
+test('automated QA report must match the exact draft hash', () => {
+  const markdown = '---\nid: TEST-001\nstatus: draft\n---\n\n內容\n';
+  const report = {
+    id: 'TEST-001',
+    passed: true,
+    issues: [],
+    review_sha256: createHash('sha256').update(markdown).digest('hex'),
+  };
+  assert.equal(assertFreshAutomatedQa({movieId: 'TEST-001', markdown, report}), report.review_sha256);
+  assert.throws(() => assertFreshAutomatedQa({movieId: 'TEST-001', markdown: `${markdown}已修改`, report}), /stale/);
 });

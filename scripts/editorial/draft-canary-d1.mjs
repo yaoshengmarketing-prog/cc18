@@ -5,6 +5,7 @@ import {queueStoreFromEnvironment} from '../queue/store.mjs';
 import {assertEditorialProviderReady, loadLocalEditorialEnvironment} from './lib/openai-writer.mjs';
 import {loadBridgeConfig} from '../bridge/lib/config.mjs';
 import {assertLocalAnalyzerReady} from '../bridge/lib/local-analysis.mjs';
+import {assertFreshAutomatedQa} from './lib/approval.mjs';
 
 const root = resolve(import.meta.dirname, '..', '..');
 const requestedId = process.argv.slice(2).find((argument) => !argument.startsWith('--'))?.trim().toUpperCase();
@@ -84,7 +85,7 @@ const [finalRegistry, automatedQuality, review] = await Promise.all([
 ]);
 const record = finalRegistry.records.find(({id}) => id === requestedId);
 if (!record || record.review_status !== 'draft') throw new Error(`${requestedId}: draft canary must leave Registry status as draft`);
-if (automatedQuality.passed !== true || automatedQuality.issues?.length) throw new Error(`${requestedId}: automated QA did not pass`);
+assertFreshAutomatedQa({movieId: requestedId, markdown: review, report: automatedQuality});
 if (!/^status:\s*draft\s*$/m.test(review)) throw new Error(`${requestedId}: generated review is not marked draft`);
 
 const report = {

@@ -2,6 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {awaitImageTask, createImageTask, imageEndpoint, selectImageSpec} from '../scripts/image/lib/aitokenking-image.mjs';
 import {buildArtworkPrompts} from '../scripts/image/lib/artwork-prompt.mjs';
+import {createHash} from 'node:crypto';
+import {assertApprovedReviewForMedia} from '../scripts/image/lib/approval-gate.mjs';
 
 const config = {
   base_url: 'https://api.aitokenking.com.tw/api/v1', allowed_hosts: ['api.aitokenking.com.tw'], model: 'seedream-4.5',
@@ -49,4 +51,15 @@ test('artwork prompts convert youth-coded concepts into adult editorial scenes',
   assert.match(prompts.article_hero, /adult|成年女性/);
   assert.doesNotMatch(prompts.article_hero, /少女|學生妹|女學生/);
   assert.match(prompts.vertical_scene, /9:16/);
+});
+
+test('image generation requires an approved review with an exact content hash', () => {
+  const movieId = 'TEST-001';
+  const markdown = '---\nid: TEST-001\nstatus: published\n---\n\n內容\n';
+  const reviewHash = createHash('sha256').update(markdown).digest('hex');
+  const quality = {id: movieId, approved_for_publish: true, review_sha256: reviewHash};
+  const registry = {records: [{id: movieId, review_status: 'published'}]};
+  assert.equal(assertApprovedReviewForMedia({movieId, markdown, quality, registry}), reviewHash);
+  assert.throws(() => assertApprovedReviewForMedia({movieId, markdown: `${markdown}變更`, quality, registry}), /stale/);
+  assert.throws(() => assertApprovedReviewForMedia({movieId, markdown: markdown.replace('published', 'draft'), quality, registry}), /not approved/);
 });

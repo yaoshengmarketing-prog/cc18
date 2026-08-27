@@ -7,6 +7,7 @@ import {queueStoreFromEnvironment} from '../queue/store.mjs';
 import {loadLocalEditorialEnvironment} from '../editorial/lib/openai-writer.mjs';
 import {awaitImageTask, createImageTask, downloadGeneratedImage, imageApiKey, listImageModels, selectImageSpec} from './lib/aitokenking-image.mjs';
 import {buildArtworkPrompts} from './lib/artwork-prompt.mjs';
+import {assertApprovedReviewForMedia} from './lib/approval-gate.mjs';
 
 const requestedMovieId = process.argv[2]?.trim().toUpperCase() ?? null;
 if (requestedMovieId && !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(requestedMovieId)) throw new Error('Usage: npm run image:d1:process-one -- [MOVIE-ID]');
@@ -14,6 +15,15 @@ const root = resolve(import.meta.dirname, '..', '..');
 loadLocalEditorialEnvironment(root);
 const config = JSON.parse(await readFile(resolve(root, 'config/image-model.json'), 'utf8'));
 const pipeline = JSON.parse(await readFile(resolve(root, 'config/pipeline.json'), 'utf8'));
+const assertLocalApproval = async (movieId) => {
+  const [markdown, quality, registry] = await Promise.all([
+    readFile(resolve(root, 'content', 'reviews', `${movieId}.md`), 'utf8'),
+    readFile(resolve(root, 'data', 'review-quality', `${movieId}.json`), 'utf8').then(JSON.parse),
+    readFile(resolve(root, 'data', 'movie-registry.json'), 'utf8').then(JSON.parse),
+  ]);
+  return assertApprovedReviewForMedia({movieId, markdown, quality, registry});
+};
+if (requestedMovieId) await assertLocalApproval(requestedMovieId);
 const apiKey = imageApiKey(config);
 if (!apiKey) throw Object.assign(new Error(`${config.api_key_env} is not configured; image job was not claimed`), {code: 'IMAGE_PROVIDER_NOT_CONFIGURED'});
 const models = await listImageModels({config, apiKey});
@@ -42,6 +52,7 @@ const run = (script, args) => new Promise((resolveRun, rejectRun) => {
 });
 
 try {
+  await assertLocalApproval(movieId);
   const movie = await store.getMovie(movieId);
   if (!movie) throw Object.assign(new Error(`${movieId}: D1 movie record missing`), {code: 'MOVIE_SOURCE_MISSING'});
   const source = JSON.parse(movie.source_json);

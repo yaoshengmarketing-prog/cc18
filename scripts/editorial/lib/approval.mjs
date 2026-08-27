@@ -1,5 +1,14 @@
 import {createHash} from 'node:crypto';
 
+export function assertFreshAutomatedQa({movieId, markdown, report}) {
+  if (report?.id !== movieId || report.passed !== true || report.issues?.length) {
+    throw new Error(`${movieId}: automated QA report is not approved`);
+  }
+  const currentHash = createHash('sha256').update(markdown).digest('hex');
+  if (report.review_sha256 !== currentHash) throw new Error(`${movieId}: automated QA report is stale`);
+  return currentHash;
+}
+
 export function approveAfterAutomatedQa({movieId, markdown, quality, registry, publishedAt}) {
   if (!quality || quality.id !== movieId) throw new Error(`${movieId}: quality record identity mismatch`);
   const record = registry.records?.find(({id}) => id === movieId);

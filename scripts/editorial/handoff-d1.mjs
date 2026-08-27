@@ -7,7 +7,7 @@ import {queueStoreFromEnvironment} from '../queue/store.mjs';
 import {assertEditorialProviderReady, loadLocalEditorialEnvironment} from './lib/openai-writer.mjs';
 import {loadBridgeConfig} from '../bridge/lib/config.mjs';
 import {assertLocalAnalyzerReady} from '../bridge/lib/local-analysis.mjs';
-import {approveAfterAutomatedQa} from './lib/approval.mjs';
+import {approveAfterAutomatedQa, assertFreshAutomatedQa} from './lib/approval.mjs';
 
 let movieId = process.argv.slice(2).find((argument) => !argument.startsWith('--'))?.trim().toUpperCase();
 const qaOnly = process.argv.includes('--qa-only');
@@ -119,12 +119,14 @@ try {
   const qualityPath = resolve(root, 'data', 'review-quality', `${movieId}.json`);
   const registryPath = resolve(root, 'data', 'movie-registry.json');
   const automated = JSON.parse(await readFile(resolve(root, 'data', 'review-quality', `${movieId}-automated.json`), 'utf8'));
-  if (automated.id !== movieId || automated.passed !== true || automated.issues?.length) {
-    throw Object.assign(new Error(`${movieId}: automated QA approval is stale or invalid`), {code: 'EDITORIAL_QA_FAILED'});
-  }
   const [markdown, quality, registry] = await Promise.all([
     readFile(reviewPath, 'utf8'), readFile(qualityPath, 'utf8').then(JSON.parse), readFile(registryPath, 'utf8').then(JSON.parse),
   ]);
+  try {
+    assertFreshAutomatedQa({movieId, markdown, report: automated});
+  } catch (error) {
+    throw Object.assign(error, {code: 'EDITORIAL_QA_FAILED'});
+  }
   const approvedArtifacts = approveAfterAutomatedQa({movieId, markdown, quality, registry, publishedAt: new Date().toISOString().slice(0, 10)});
   await Promise.all([
     writeFile(reviewPath, approvedArtifacts.markdown, 'utf8'),
