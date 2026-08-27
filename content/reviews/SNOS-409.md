@@ -12,12 +12,14 @@ titleVersion: 1
 actress:
   - 星空ねる
 releaseDate: 2026-08-21
-publishedAt: 2026-08-28
+publishedAt: 2026-08-27
 studio: "S1 Style"
 series: ""
 sourceUrl: https://cc18.tv/player.php?uuid=awsq946Wq1V&cat=19
 sourceSite: cc18.tv
 coverUrl: https://cc18.tv/preview/80/b/awsq946Wq1V-800.jpg?v=1787344855
+heroUrl: /media/works/2026/08/SNOS-409/hero-v2.jpg
+videoUrl: /media/works/2026/08/SNOS-409/vertical-v1.mp4
 shortReview: "有些企劃片會把「初體驗」當成一句方便的包裝詞，真正拍出來卻只是熟悉橋段重新排列；SNOS-409 比較不一樣的地方，在於它把「我還不知道的性愛」做成一個可以被觀眾一步步感覺到的過程。片中的出發點不是單純塑造無知，而是利用 AV女優片 這個身份前提，去反問一件更有意思的事：當一個已經站在鏡頭前的人，仍然被放進『還有某些事沒學完』的情境時，未知究竟會長成什麼樣子？這讓本作從一開始就不是只靠刺激項目撐場，而是有了研修片的骨架。"
 editorialAngle: "以『我還不知道的性愛』為唯一核心，討論這部作品如何把成人片女優的既有職業形象，暫時拉回到學習者位置；重點不在她是否奪回主導，而在企劃如何要求她重新認識自身表演、接受新規則、再把未知內化為可見的畫面節奏。"
 sourceTags:
@@ -44,8 +46,9 @@ editorialTagIds:
   - showcase-format
   - character-awakening
   - high-story-density
-status: draft
-videoStatus: pending
+status: published
+videoStatus: rendered
+imageStatus: rendered
 featured: false
 ---
 

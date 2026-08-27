@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-409",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-08-27T19:48:50.392Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/SNOS-409/hero-v2.jpg",
+      "r2_key": "works/2026/08/SNOS-409/hero-v2.jpg",
+      "bytes": 757971,
+      "sha256": "5f45ccf03747eacf2721649979df58c5a8e93c3e7c14b270a7d1fcf1cf035442",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": null,
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/SNOS-409/scene-vertical-v2.jpg",
+      "r2_key": "works/2026/08/SNOS-409/scene-vertical-v2.jpg",
+      "bytes": 788791,
+      "sha256": "386c75a0e4abb1d90c810a08bfc487e70afcf346776c726bd2b5dc68a2ff3652",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": null,
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2299115,
+    "sha256": "df8b797948b0f0f90cb8e4f295ca8a502ae6177ae5497156ee721ef40afe2ada",
+    "target_r2_key": "works/2026/08/SNOS-409/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/SNOS-409/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
