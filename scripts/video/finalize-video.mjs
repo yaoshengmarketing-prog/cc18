@@ -1,8 +1,7 @@
 import {createHash} from 'node:crypto';
-import {mkdir, readFile, rm, writeFile} from 'node:fs/promises';
+import {readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
-import {spawn} from 'node:child_process';
-import {buildR2WranglerEnvironment} from '../r2/wrangler-auth.mjs';
+import {putAndVerifyR2Object} from '../r2/object-store.mjs';
 
 const root = resolve(import.meta.dirname, '..', '..');
 const argument = (name) => process.argv.find((value) => value.startsWith(`--${name}=`))?.slice(name.length + 3);
@@ -11,11 +10,6 @@ const inputPath = resolve(argument('input') ?? '');
 const requestedVersion = Number(argument('version') ?? 0);
 if (!/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId ?? '') || !argument('input')) throw new Error('Usage: node scripts/video/finalize-video.mjs MOVIE-ID --input=PATH [--version=N]');
 if (!Number.isInteger(requestedVersion) || requestedVersion < 0) throw new Error('--version must be a non-negative integer');
-const run = (command, args, {environment = process.env} = {}) => new Promise((resolveRun, rejectRun) => {
-  const child = spawn(command, args, {cwd: root, stdio: 'inherit', env: environment});
-  child.once('error', rejectRun);
-  child.once('exit', (code) => code === 0 ? resolveRun() : rejectRun(new Error(`${command} exited with ${code}`)));
-});
 const digest = (bytes) => createHash('sha256').update(bytes).digest('hex');
 
 const bytes = await readFile(inputPath);
@@ -28,19 +22,14 @@ const previousVersion = Number(String(manifest.video?.target_r2_key ?? '').match
 const version = Math.max(previousVersion + 1, requestedVersion || 1);
 const [year, month] = source.release_date.split('-');
 const r2Key = `works/${year}/${month}/${movieId}/vertical-v${version}.mp4`;
-const wrangler = resolve(root, 'node_modules', 'wrangler', 'bin', 'wrangler.js');
-const wranglerEnvironment = buildR2WranglerEnvironment();
-const verifyDirectory = resolve(root, '.cc18-video', 'verify', `${movieId}-${process.pid}`);
-const verifyPath = resolve(verifyDirectory, `vertical-v${version}.mp4`);
-await mkdir(verifyDirectory, {recursive: true});
-try {
-  await run(process.execPath, [wrangler, 'r2', 'object', 'put', `${config.r2_bucket}/${r2Key}`, '--remote', '--file', inputPath, '--content-type', 'video/mp4', '--cache-control', 'public, max-age=31536000, immutable', '--force'], {environment: wranglerEnvironment});
-  await run(process.execPath, [wrangler, 'r2', 'object', 'get', `${config.r2_bucket}/${r2Key}`, '--remote', '--file', verifyPath], {environment: wranglerEnvironment});
-  const verified = await readFile(verifyPath);
-  if (digest(verified) !== digest(bytes)) throw new Error('R2 video hash verification failed');
-} finally {
-  await rm(verifyDirectory, {recursive: true, force: true});
-}
+const verified = await putAndVerifyR2Object({
+  bucket: config.r2_bucket,
+  key: r2Key,
+  bytes,
+  contentType: 'video/mp4',
+  cacheControl: 'public, max-age=31536000, immutable',
+});
+if (digest(verified) !== digest(bytes)) throw new Error('R2 video hash verification failed');
 
 manifest.video = {
   status: 'rendered_and_uploaded', duration_seconds: 9, width: 1080, height: 1920, codec: 'h264',

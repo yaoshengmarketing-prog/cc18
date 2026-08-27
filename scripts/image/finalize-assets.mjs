@@ -1,8 +1,7 @@
 import {createHash} from 'node:crypto';
-import {mkdir, readFile, rm, writeFile} from 'node:fs/promises';
+import {mkdir, readFile, writeFile} from 'node:fs/promises';
 import {basename, resolve} from 'node:path';
-import {spawn} from 'node:child_process';
-import {buildR2WranglerEnvironment} from '../r2/wrangler-auth.mjs';
+import {putAndVerifyR2Object} from '../r2/object-store.mjs';
 
 const root = resolve(import.meta.dirname, '..', '..');
 const argument = (name) => process.argv.find((value) => value.startsWith(`--${name}=`))?.slice(name.length + 3);
@@ -25,16 +24,8 @@ const signature = (bytes) => {
   throw new Error('Unsupported or invalid image signature');
 };
 const digest = (bytes) => createHash('sha256').update(bytes).digest('hex');
-const run = (command, args, {environment = process.env} = {}) => new Promise((resolveRun, rejectRun) => {
-  const child = spawn(command, args, {cwd: root, stdio: 'inherit', env: environment});
-  child.once('error', rejectRun);
-  child.once('exit', (code) => code === 0 ? resolveRun() : rejectRun(new Error(`${command} exited with ${code}`)));
-});
-
 const source = JSON.parse(await readFile(resolve(root, `data/source-records/${movieId}.json`), 'utf8'));
 const imageConfig = JSON.parse(await readFile(resolve(root, 'config/image-model.json'), 'utf8'));
-const wrangler = resolve(root, 'node_modules', 'wrangler', 'bin', 'wrangler.js');
-const wranglerEnvironment = buildR2WranglerEnvironment();
 let imageBrief = null;
 try { imageBrief = JSON.parse(await readFile(resolve(root, `data/image-briefs/${movieId}.json`), 'utf8')); } catch (error) { if (error?.code !== 'ENOENT') throw error; }
 const [year, month] = source.release_date.split('-');
@@ -47,36 +38,32 @@ const inputs = [
   {role: 'article_hero', localPath: resolve(heroPath), filename: `hero-v${version}`},
   {role: 'vertical_scene', localPath: resolve(verticalPath), filename: `scene-vertical-v${version}`},
 ];
-const verifyDirectory = resolve(root, '.cc18-image', 'verify', `${movieId}-${process.pid}`);
-await mkdir(verifyDirectory, {recursive: true});
-
 const assets = [];
-try {
-  for (const [index, input] of inputs.entries()) {
-    const bytes = await readFile(input.localPath);
-    if (!bytes.length || bytes.length > 20 * 1024 * 1024) throw new Error(`${input.role}: invalid image size`);
-    const {extension, contentType} = signature(bytes);
-    const r2Key = `works/${year}/${month}/${movieId}/${input.filename}.${extension}`;
-    await run(process.execPath, [wrangler, 'r2', 'object', 'put', `${imageConfig.r2_bucket}/${r2Key}`, '--remote', '--file', input.localPath, '--content-type', contentType, '--cache-control', 'public, max-age=31536000, immutable', '--force'], {environment: wranglerEnvironment});
-    const verificationPath = resolve(verifyDirectory, `${input.filename}.${extension}`);
-    await run(process.execPath, [wrangler, 'r2', 'object', 'get', `${imageConfig.r2_bucket}/${r2Key}`, '--remote', '--file', verificationPath], {environment: wranglerEnvironment});
-    const verified = await readFile(verificationPath);
-    if (digest(verified) !== digest(bytes)) throw new Error(`${input.role}: R2 hash verification failed`);
-    assets.push({
-      role: input.role,
-      path: `/media/${r2Key}`,
-      r2_key: r2Key,
-      bytes: bytes.length,
-      sha256: digest(bytes),
-      provider,
-      model,
-      provider_task_id: taskIds[index] ?? null,
-      source_file: basename(input.localPath),
-      prompt_summary: imageBrief?.prompts?.[input.role]?.slice(0, 320) ?? null,
-    });
-  }
-} finally {
-  await rm(verifyDirectory, {recursive: true, force: true});
+for (const [index, input] of inputs.entries()) {
+  const bytes = await readFile(input.localPath);
+  if (!bytes.length || bytes.length > 20 * 1024 * 1024) throw new Error(`${input.role}: invalid image size`);
+  const {extension, contentType} = signature(bytes);
+  const r2Key = `works/${year}/${month}/${movieId}/${input.filename}.${extension}`;
+  const verified = await putAndVerifyR2Object({
+    bucket: imageConfig.r2_bucket,
+    key: r2Key,
+    bytes,
+    contentType,
+    cacheControl: 'public, max-age=31536000, immutable',
+  });
+  if (digest(verified) !== digest(bytes)) throw new Error(`${input.role}: R2 hash verification failed`);
+  assets.push({
+    role: input.role,
+    path: `/media/${r2Key}`,
+    r2_key: r2Key,
+    bytes: bytes.length,
+    sha256: digest(bytes),
+    provider,
+    model,
+    provider_task_id: taskIds[index] ?? null,
+    source_file: basename(input.localPath),
+    prompt_summary: imageBrief?.prompts?.[input.role]?.slice(0, 320) ?? null,
+  });
 }
 
 const manifest = {

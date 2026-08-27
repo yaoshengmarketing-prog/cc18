@@ -80,6 +80,7 @@
     "@remotion/cli": "latest",
     "@remotion/transitions": "latest",
     "astro": "latest",
+    "aws4fetch": "1.0.20",
     "cheerio": "latest",
     "ffmpeg-static": "latest",
     "playwright-core": "latest",

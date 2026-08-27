@@ -44,6 +44,6 @@ Workflow 會在同一個序列化 run 內完成 Editorial → Image → Remotion
 GitHub 必須設定：
 
 - Variables：`CLOUDFLARE_ACCOUNT_ID`、`CLOUDFLARE_D1_DATABASE_ID`
-- Secrets：`AITOKENKING_API_KEY`、`CLOUDFLARE_API_TOKEN`（D1）、`CLOUDFLARE_R2_API_TOKEN`（只供 Wrangler 寫入 `cc18-media`）
+- Secrets：`AITOKENKING_API_KEY`、`CLOUDFLARE_API_TOKEN`（D1）、`CLOUDFLARE_R2_API_TOKEN`（同一個 bucket-scoped R2 Token 的 S3 JSON 憑證組，只能讀寫 `cc18-media`）
 
 本機仍可使用 `CC18_R2_AUTH_MODE=oauth`；GitHub 則固定使用專用 R2 Token，D1 Token 不會傳入 Wrangler 子程序。

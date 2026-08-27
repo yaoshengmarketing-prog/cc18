@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {buildR2WranglerEnvironment} from '../scripts/r2/wrangler-auth.mjs';
+import {parseR2S3Credentials, r2ObjectUrl} from '../scripts/r2/object-store.mjs';
 
 test('dedicated R2 token replaces the D1 token only for Wrangler children', () => {
   const environment = {
@@ -35,4 +36,27 @@ test('GitHub API-token mode fails before generation when the dedicated R2 secret
     () => buildR2WranglerEnvironment({CC18_R2_AUTH_MODE: 'api-token', CLOUDFLARE_API_TOKEN: 'd1-only'}),
     /requires CLOUDFLARE_R2_API_TOKEN/,
   );
+});
+
+test('parses the bucket-scoped R2 S3 credential bundle used by GitHub Actions', () => {
+  const credentials = parseR2S3Credentials({
+    CC18_R2_AUTH_MODE: 'api-token',
+    CLOUDFLARE_R2_API_TOKEN: JSON.stringify({
+      accessKeyId: 'access-id',
+      secretAccessKey: 'secret-key',
+      endpoint: 'https://0123456789abcdef0123456789abcdef.r2.cloudflarestorage.com/',
+    }),
+  });
+  assert.deepEqual(credentials, {
+    accessKeyId: 'access-id', secretAccessKey: 'secret-key',
+    endpoint: 'https://0123456789abcdef0123456789abcdef.r2.cloudflarestorage.com',
+  });
+  assert.equal(r2ObjectUrl({endpoint: credentials.endpoint, bucket: 'cc18-media', key: 'works/2026/08/SNOS-409/hero v1.jpg'}),
+    'https://0123456789abcdef0123456789abcdef.r2.cloudflarestorage.com/cc18-media/works/2026/08/SNOS-409/hero%20v1.jpg');
+});
+
+test('rejects a plain Cloudflare API token in GitHub S3 mode', () => {
+  assert.throws(() => parseR2S3Credentials({
+    CC18_R2_AUTH_MODE: 'api-token', CLOUDFLARE_R2_API_TOKEN: 'cfat_plain_token',
+  }), /must contain the R2 S3 credential JSON/);
 });
