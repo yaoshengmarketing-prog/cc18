@@ -1,7 +1,7 @@
 # CC18 Architecture Package
 
 版本：`0.17.0-draft`
-狀態：Creative-first Source-only Queue 已實作；正式發布排程仍關閉
+狀態：Creative-first Source-only Queue 與 250 部合成負載驗收已完成；正式發布排程仍關閉
 基準日期：2026-08-26
 
 本套件是 CC18 影評網站的架構、資料契約與營運規則之單一討論基準。正式實作必須能追溯到本套件中的需求、Schema 或 Architecture Decision Record（ADR）。

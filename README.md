@@ -2,7 +2,7 @@
 
 CC18 是以公開作品資料為基礎的成人作品介紹與原創影評網站專案。正式系統將使用 GitHub Actions 執行來源擷取、去重、Tag／影評生成、原創非露骨圖片、Remotion MP4、Registry、分波發布與 Cloudflare 部署。
 
-目前狀態：V1 網站與自動化底座已部署至 Cloudflare Pages。作品頁已分成來源事實、原創影評與搜尋決策三層，另有站內搜尋、編輯方法、索引門檻與結構化資料。`HUNTC-568` 已完成完整時間軸分布式影片分析與證據型影評；`SDAB-358` 已完成分層 Tag、非露骨原創圖片、9 秒 Remotion MP4、R2 雜湊驗證、Cloudflare 正式頁驗證與 D1 Publisher 閉環。D1 已啟用並保存 31 部作品／68 個工作；目前 12 個 completed、53 個 queued、2 個 retry、1 個 leased。每日大量排程仍未啟用。
+目前狀態：V1 網站與自動化底座已部署至 Cloudflare Pages。作品頁已分成來源事實、原創影評與搜尋決策三層，另有站內搜尋、編輯方法、索引門檻與結構化資料。Registry 目前有 11 部正式作品；`SNOS-409` 已完成 Editorial、圖片、9 秒 Remotion MP4、R2 雜湊驗證、GitHub Publisher 與 Cloudflare 正式頁閉環。D1 已啟用並保存 53 部作品／92 個工作；目前 44 個 completed、45 個 queued、3 個 retry、0 個 leased。250 部本機合成負載驗收已通過；每日大量排程仍未啟用。
 
 影評採「創作預設開放、影片分析加分」：限制只用來防止番號、演員、日期、系列、來源 CTA、Registry、Tag 與發布狀態出錯，不用來壓縮文章。正文允許以主觀評論語氣補寫情節、人物動機、場景銜接、鏡位、聲音氛圍、剪輯節奏、演技與表情，優先追求故事性、獨特性、畫面感、可讀性與選片價值。創作內容在內部 Brief 留下 provenance，但不回寫來源事實。Windows Media Bridge 的影片抽樣只用來增加素材，失敗不阻止文章。
 
@@ -60,6 +60,8 @@ npm run editorial:d1:source-only -- MOVIE-ID
 `worker:cycle` 預設只做可選的影片證據分析；單筆失敗不阻塞文章或後續工作，原始影片樣本在分析後刪除。只有同時加上 `--with-editorial` 並明確設定 `CC18_ALLOW_EDITORIAL_TRANSMISSION=YES`，才會把安全化資料送往外部文字模型建立草稿；它仍不會發布。目前 Windows 排程保持停用，待 source-grounded Editorial 路徑完成後再重新啟用。
 
 `file` 模式是本機 dry run；正式跨執行持久化使用 `--store=d1`。D1 已建立並套用 migration。正式每日發布仍維持關閉，必須先完成整條流程與七天 canary。
+
+Phase 4 容量驗收可執行 `npm run load:synthetic`。它使用一次性本機 Queue 驗證 250 部全量收件、500 個 Editorial／Media 工作、去重、10 個 worker、lease 回收、retry 與五個 50 部發布波次；不連線來源、Cloudflare 或 AI，也不發布。操作與邊界見 [docs/load-acceptance.md](docs/load-acceptance.md)。
 
 Creative-first 路徑已與 Media 解耦：Discovery 對每部 eligible 作品各建立一個 `editorial` 與一個 `media_analysis` 工作。Editorial 先由本機 Ollama 讀取完整來源標題、簡介與 Tag，產生非露骨 Creative Brief；外部 Writer 只接收這份 Brief 與安全化訊號。`editorial:source-cycle` 仍受 `CC18_ALLOW_EDITORIAL_TRANSMISSION=YES` 明確開關保護，目前未排程、未執行新作品外送。
 

@@ -72,7 +72,8 @@
     "video:d1:process-one": "node scripts/video/process-d1-one.mjs",
     "video:props": "node scripts/video/build-props.mjs",
     "video:props:test": "node --test tests/video-props.test.mjs",
-    "publisher:test": "node --test tests/publisher.test.mjs",
+    "publisher:test": "node --test tests/publisher.test.mjs tests/publish-waves.test.mjs",
+    "load:synthetic": "node scripts/load/synthetic-queue.mjs",
     "publish:d1:process-one": "node scripts/publish/process-d1-one.mjs"
   },
   "dependencies": {
