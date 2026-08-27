@@ -7,6 +7,7 @@ import {queueStoreFromEnvironment} from '../queue/store.mjs';
 import {assertEditorialProviderReady, loadLocalEditorialEnvironment} from './lib/openai-writer.mjs';
 import {loadBridgeConfig} from '../bridge/lib/config.mjs';
 import {assertLocalAnalyzerReady} from '../bridge/lib/local-analysis.mjs';
+import {approveAfterAutomatedQa} from './lib/approval.mjs';
 
 let movieId = process.argv.slice(2).find((argument) => !argument.startsWith('--'))?.trim().toUpperCase();
 const qaOnly = process.argv.includes('--qa-only');
@@ -114,10 +115,26 @@ try {
     }
     if (!approved) throw Object.assign(new Error(`${movieId}: QA failed after ${editorialModel.qa_rewrite_limit} rewrites`), {code: 'EDITORIAL_QA_FAILED'});
   }
+  const reviewPath = resolve(root, 'content', 'reviews', `${movieId}.md`);
+  const qualityPath = resolve(root, 'data', 'review-quality', `${movieId}.json`);
+  const registryPath = resolve(root, 'data', 'movie-registry.json');
+  const automated = JSON.parse(await readFile(resolve(root, 'data', 'review-quality', `${movieId}-automated.json`), 'utf8'));
+  if (automated.id !== movieId || automated.passed !== true || automated.issues?.length) {
+    throw Object.assign(new Error(`${movieId}: automated QA approval is stale or invalid`), {code: 'EDITORIAL_QA_FAILED'});
+  }
+  const [markdown, quality, registry] = await Promise.all([
+    readFile(reviewPath, 'utf8'), readFile(qualityPath, 'utf8').then(JSON.parse), readFile(registryPath, 'utf8').then(JSON.parse),
+  ]);
+  const approvedArtifacts = approveAfterAutomatedQa({movieId, markdown, quality, registry, publishedAt: new Date().toISOString().slice(0, 10)});
+  await Promise.all([
+    writeFile(reviewPath, approvedArtifacts.markdown, 'utf8'),
+    writeFile(qualityPath, `${JSON.stringify(approvedArtifacts.quality, null, 2)}\n`, 'utf8'),
+    writeFile(registryPath, `${JSON.stringify(approvedArtifacts.registry, null, 2)}\n`, 'utf8'),
+  ]);
   await stopLease();
   await store.finishJob({jobId: claimed.id, workerId, outcome: 'completed'});
   const imageJob = await store.enqueueJob({movieId, stage: 'image', priority: claimed.priority, discoveryRunId: claimed.discovery_run_id});
-  console.log(JSON.stringify({movie_id: movieId, editorial_job_id: claimed.id, status: 'completed', publication_status: 'draft', image_job_id: imageJob.id, editorial_mode: sourceOnly ? 'creative_first_source_only' : 'creative_first_video_enhanced'}, null, 2));
+  console.log(JSON.stringify({movie_id: movieId, editorial_job_id: claimed.id, status: 'completed', publication_status: 'published', image_job_id: imageJob.id, editorial_mode: sourceOnly ? 'creative_first_source_only' : 'creative_first_video_enhanced'}, null, 2));
 } catch (error) {
   clearInterval(leaseTimer);
   await leasePending;
