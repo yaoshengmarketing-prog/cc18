@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "SNOS-371",
-  "review_sha256": "db9a9a9465cbaecbace35a924f670e554b5c87aad1e86f61c24daf127efe926e",
+  "review_sha256": "b578452a5cde62553e7fb581dbc19be376aceb13243e199173b1134946b40a44",
   "selected_thesis": "本片真正的辨識度不在單一體位或溫柔氣氛，而在於「關東巡行」這個企劃如何把一段段相遇、引導與回應串成路線敘事。河北彩花的表現因此不只是服務橋段，而是在紀錄片形式中逐步把口交、親吻與騎乘位整理成一種由外而內的節奏掌握。",
   "title_basis": {
     "performer": "河北彩花",
@@ -100,5 +100,6 @@
   ],
   "scores": null,
   "rewrite_attempts": 2,
-  "approved_for_publish": false
+  "approved_for_publish": true,
+  "approved_at": "2026-08-26T16:00:00.000Z"
 }

@@ -12,12 +12,14 @@ titleVersion: 1
 actress:
   - 河北彩花
 releaseDate: 2026-08-21
-publishedAt: 2026-08-28
+publishedAt: 2026-08-27
 studio: "S1 Style"
 series: ""
 sourceUrl: https://cc18.tv/player.php?uuid=DRHm2tlPRcb&cat=19
 sourceSite: cc18.tv
 coverUrl: https://cc18.tv/preview/80/b/DRHm2tlPRcb-800.jpg?v=1787352003
+heroUrl: /media/works/2026/08/SNOS-371/hero-v2.jpg
+videoUrl: /media/works/2026/08/SNOS-371/vertical-v1.mp4
 shortReview: "有些作品一看到標籤，大概就能猜到會怎麼走；但 SNOS-371 的有趣之處，在於它把『關東巡行』做成真正的觀看方法。這不是把幾個橋段沿路排開而已，而是讓每一站的互動都像一次重新校準：先看人怎麼靠近，再看親吻怎麼把距離縮短，最後才讓口交與騎乘位把節奏推向更明確的主導。河北彩花在這裡的任務，不只是完成常見的成人表演動作，而是把一部展示型企劃演出可辨識的前後段層次。"
 editorialAngle: "以『關東巡行』為核心分析本片：不是把地名或移動當噱頭，而是看企劃如何讓不同互動段落形成連續推進，並讓河北彩花在口交、親吻與騎乘位之間完成從被觀看到主動掌握節奏的轉變。"
 sourceTags:
@@ -44,8 +46,9 @@ editorialTagIds:
   - character-awakening
   - agency-shift
   - high-story-density
-status: draft
-videoStatus: pending
+status: published
+imageStatus: rendered
+videoStatus: rendered
 featured: false
 ---
 
