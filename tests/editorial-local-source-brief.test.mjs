@@ -1,7 +1,14 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
 import {coreConceptCandidates, createLocalSourceBrief, normalizeLocalSourceBrief, resolveCoreSourceConcept} from '../scripts/editorial/lib/local-source-brief.mjs';
 import {buildSafePublicSource} from '../scripts/editorial/lib/safe-editorial-payload.mjs';
+
+test('source-only GitHub editorial bypasses the loopback analyzer preflight', async () => {
+  const handoff = await readFile(new URL('../scripts/editorial/handoff-d1.mjs', import.meta.url), 'utf8');
+  assert.match(handoff, /const bridgeConfig = sourceOnly \? null : await loadBridgeConfig/);
+  assert.match(handoff, /if \(!sourceOnly\) await assertLocalAnalyzerReady\(bridgeConfig\)/);
+});
 
 const brief = {
   core_source_concept: '共享私人空間',
