@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "GAREA-627",
+  "calls": [
+    {
+      "generated_at": "2026-08-27T15:04:48.052Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 1550,
+      "cached_input_tokens": 0,
+      "output_tokens": 3154,
+      "total_tokens": 4704,
+      "estimated_cost_usd": 0.078715,
+      "estimated_payg_cash_cost_usd": 0.082651,
+      "direct_openai_reference_usd": 0.051185,
+      "gateway_premium_usd": 0.02753,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 1550,
+    "cached_input_tokens": 0,
+    "output_tokens": 3154,
+    "estimated_cost_usd": 0.078715,
+    "estimated_payg_cash_cost_usd": 0.082651,
+    "direct_openai_reference_usd": 0.051185,
+    "gateway_premium_usd": 0.02753
+  }
+}

@@ -190,7 +190,8 @@
       "label": "全高清 (FHD)",
       "occurrences": 1,
       "source_ids": [
-        "ENDS-322"
+        "ENDS-322",
+        "GAREA-627"
       ],
       "first_seen": "2026-08-27",
       "last_seen": "2026-08-27",
@@ -200,7 +201,8 @@
       "label": "獨家限定",
       "occurrences": 1,
       "source_ids": [
-        "ENDS-322"
+        "ENDS-322",
+        "GAREA-627"
       ],
       "first_seen": "2026-08-27",
       "last_seen": "2026-08-27",
@@ -210,7 +212,8 @@
       "label": "配信専用",
       "occurrences": 1,
       "source_ids": [
-        "ENDS-322"
+        "ENDS-322",
+        "GAREA-627"
       ],
       "first_seen": "2026-08-27",
       "last_seen": "2026-08-27",
@@ -231,6 +234,36 @@
       "occurrences": 1,
       "source_ids": [
         "PRIAN-054"
+      ],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "quarantined"
+    },
+    {
+      "label": "自拍",
+      "occurrences": 1,
+      "source_ids": [
+        "GAREA-627"
+      ],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "quarantined"
+    },
+    {
+      "label": "OL",
+      "occurrences": 1,
+      "source_ids": [
+        "GAREA-627"
+      ],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "quarantined"
+    },
+    {
+      "label": "オモチャ",
+      "occurrences": 1,
+      "source_ids": [
+        "GAREA-627"
       ],
       "first_seen": "2026-08-27",
       "last_seen": "2026-08-27",

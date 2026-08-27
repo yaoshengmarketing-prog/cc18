@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "movie_id": "GAREA-627",
+  "generated_at": "2026-08-27T15:04:48.050Z",
+  "source_snapshot_hash": "sha256:2a5633b1e69e96bf982e1b2ce1fdfe9be4ed04b8fb8ffa6108fa2eb3deebabba",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "以 source-only 為前提，從公開企劃概念切入，不依賴未驗證演員資訊。文章主打『約會情境如何被自拍形式放大』，並把 OL 身分與初次嘗試到逐步掌握節奏的變化，寫成一篇偏敘事型的影評。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "自拍形式",
+      "高畫質",
+      "獨家配信",
+      "Happymail"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "演員未知，不寫姓名、不延伸真實身分背景",
+      "不虛構系列、來源連結、發布狀態與日文原題",
+      "不把評論性重構誤寫成來源事實"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "HUNTC-568",
+      "relation_type": "adjacent_theme",
+      "reason": "兩部共享story等站內分類，適合延伸比較相近題材如何採用不同切角。",
+      "shared_signals": [
+        "story"
+      ],
+      "contrast_signals": [
+        "旅館",
+        "同期女同事"
+      ]
+    },
+    {
+      "movie_id": "SDAB-358",
+      "relation_type": "adjacent_theme",
+      "reason": "兩部共享story等站內分類，適合延伸比較相近題材如何採用不同切角。",
+      "shared_signals": [
+        "story"
+      ],
+      "contrast_signals": [
+        "相沢澪",
+        "要結愛"
+      ]
+    },
+    {
+      "movie_id": "ENDS-322",
+      "relation_type": "adjacent_theme",
+      "reason": "兩部共享story等站內分類，適合延伸比較相近題材如何採用不同切角。",
+      "shared_signals": [
+        "story"
+      ],
+      "contrast_signals": [
+        "人妻設定",
+        "孕婦設定"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？以 source-only 為前提，從公開企劃概念切入，不依賴未驗證演員資訊。文章主打『約會情境如何被自拍形式放大』，並把 OL 身分與初次嘗試到逐步掌握節奏的變化，寫成一篇偏敘事型的影評。",
+    "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+    "有哪些觀看取捨？演員未知，不寫姓名、不延伸真實身分背景"
+  ]
+}

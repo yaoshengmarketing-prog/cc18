@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "GAREA-627",
+  "review_sha256": "6f5fdeb3c814aa6b722e834370e833f83fe3f6710d7f67347ee0d6ecc65dfa74",
+  "selected_thesis": "以 source-only 為前提，從公開企劃概念切入，不依賴未驗證演員資訊。文章主打『約會情境如何被自拍形式放大』，並把 OL 身分與初次嘗試到逐步掌握節奏的變化，寫成一篇偏敘事型的影評。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "presentation",
+        "value": "自拍形式",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "theme",
+        "value": "Happymail",
+        "source_field": "description"
+      },
+      {
+        "type": "theme",
+        "value": "OL",
+        "source_field": "description"
+      },
+      {
+        "type": "theme",
+        "value": "約會",
+        "source_field": "description"
+      }
+    ],
+    "primary_theme": "自拍形式",
+    "presentation_feature": "Happymail",
+    "editorial_judgment": "以 source-only 為前提，從公開企劃概念切入，不依賴未驗證演員資訊。文章主打『約會情境如何被自拍形式放大』，並把 OL 身分與初次嘗試到逐步掌握節奏的變化，寫成一篇偏敘事型的影評。",
+    "source_keywords": [
+      "自拍形式",
+      "Happymail",
+      "OL",
+      "約會"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "presentation：自拍形式",
+      "supports": "這項可追溯來源訊號支持文章以「自拍形式」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：Happymail",
+      "supports": "這項可追溯來源訊號支持文章以「Happymail」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：OL",
+      "supports": "這項可追溯來源訊號支持文章以「OL」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：約會",
+      "supports": "這項可追溯來源訊號支持文章以「約會」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：初戀",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：職場OL",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：約會技巧",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "演員未知，不寫姓名、不延伸真實身分背景",
+    "不虛構系列、來源連結、發布狀態與日文原題",
+    "不把評論性重構誤寫成來源事實"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-08-26T16:00:00.000Z"
+}

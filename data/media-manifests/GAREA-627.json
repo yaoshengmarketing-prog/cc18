@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "GAREA-627",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-08-27T15:05:53.802Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/GAREA-627/hero-v1.jpg",
+      "r2_key": "works/2026/08/GAREA-627/hero-v1.jpg",
+      "bytes": 922190,
+      "sha256": "11a61bead2c952939175371d69f9233104835a19caebe2cd96a9c235cd2bc170",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "124f8465-722d-4419-8c84-750889648ea9",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by Happymail, OL, 約會, 初戀. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/GAREA-627/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/08/GAREA-627/scene-vertical-v1.jpg",
+      "bytes": 899451,
+      "sha256": "bc73789e9368276a6e472e19e63556e3a7a02bc467a3f94a55c5f376b744f188",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "ad34bc81-8ea0-4a5b-a35c-a473b8b47d6c",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by Happymail, OL, 約會, 初戀. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2921402,
+    "sha256": "cbcde16a339e26a0e8b0652439240b0b6b4fcb71c1b85709239bf32812622b51",
+    "target_r2_key": "works/2026/08/GAREA-627/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/GAREA-627/vertical-v1.mp4"
+  }
+}
