@@ -21,3 +21,13 @@ test('editorial provider payload excludes raw descriptions, titles, tags, and vi
   assert.equal(safeCanonicalTagIds.includes('oral-sex'), false);
   assert.equal(safeCanonicalTagIds.includes('facial'), false);
 });
+
+test('common CC18 presentation variants provide safe title signals without raw prose', () => {
+  const safeSource = buildSafePublicSource({
+    id: 'TEST-002', release_date: '2026-08-26', actress: [], series: null,
+    title: '不可外送標題', description: '不可外送簡介',
+    source_tags: ['獨家限定', '全高清 (FHD)', '孕婦'],
+  });
+  assert.deepEqual(safeSource.safe_title_signals.map(({value}) => value), ['獨家配信', '高畫質', '孕婦設定']);
+  assert.equal(JSON.stringify(safeSource).includes('不可外送'), false);
+});

@@ -7,7 +7,10 @@ const safeSourceTagSignals = new Map([
   ['ギャル', {type: 'presentation', value: '辣妹風格'}],
   ['独占配信', {type: 'presentation', value: '獨家配信'}],
   ['獨家配信', {type: 'presentation', value: '獨家配信'}],
+  ['獨家限定', {type: 'presentation', value: '獨家配信'}],
   ['720p', {type: 'presentation', value: '高畫質'}],
+  ['全高清 (fhd)', {type: 'presentation', value: '高畫質'}],
+  ['fhd', {type: 'presentation', value: '高畫質'}],
   ['hd', {type: 'presentation', value: '高畫質'}],
   ['4k', {type: 'presentation', value: '高畫質'}],
   ['劇情', {type: 'theme', value: '劇情設定'}],
@@ -22,6 +25,8 @@ const safeSourceTagSignals = new Map([
   ['紀錄片', {type: 'presentation', value: '紀錄片形式'}],
   ['自拍', {type: 'presentation', value: '自拍形式'}],
   ['素人', {type: 'presentation', value: '素人企劃'}],
+  ['人妻', {type: 'character', value: '人妻設定'}],
+  ['孕婦', {type: 'character', value: '孕婦設定'}],
 ]);
 
 const classify = (value, rules, fallback) => {
