@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "movie_id": "ENDS-322",
+  "generated_at": "2026-08-27T14:08:29.075Z",
+  "source_snapshot_hash": "sha256:d244a0c811f025a0632bb3ad63b5d44a8fa1a2604da40e97ea2e0114fbc01427",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "以公開企劃概念為核心，將本作定位為一部靠角色狀態與道德壓力製造觀看張力的作品。重點不在情節奇觀，而在於主角如何從被動接受引導，逐步進入更能掌握節奏的位置，讓前後段形成可感知的性格與互動差異。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "人妻設定",
+      "孕婦設定",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "喜歡角色從不安到逐漸主動的變化型作品",
+      "想看設定不只停留在標籤，而會影響互動氣氛的人",
+      "偏好室內近距離、重視表情與節奏停頓的觀眾"
+    ],
+    "not_for": [
+      "演員未知，不提姓名與個人資訊",
+      "不補寫不存在的系列、來源連結或發布狀態",
+      "不將評論性重構誤寫為來源事實"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "HUNTC-568",
+      "relation_type": "adjacent_theme",
+      "reason": "兩部共享story等站內分類，適合延伸比較相近題材如何採用不同切角。",
+      "shared_signals": [
+        "story"
+      ],
+      "contrast_signals": [
+        "旅館",
+        "同期女同事"
+      ]
+    },
+    {
+      "movie_id": "SDAB-358",
+      "relation_type": "adjacent_theme",
+      "reason": "兩部共享story等站內分類，適合延伸比較相近題材如何採用不同切角。",
+      "shared_signals": [
+        "story"
+      ],
+      "contrast_signals": [
+        "相沢澪",
+        "要結愛"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？以公開企劃概念為核心，將本作定位為一部靠角色狀態與道德壓力製造觀看張力的作品。重點不在情節奇觀，而在於主角如何從被動接受引導，逐步進入更能掌握節奏的位置，讓前後段形成可感知的性格與互動差異。",
+    "哪些觀眾較適合？喜歡角色從不安到逐漸主動的變化型作品",
+    "有哪些觀看取捨？演員未知，不提姓名與個人資訊"
+  ]
+}

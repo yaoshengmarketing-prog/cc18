@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "ENDS-322",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-08-27T14:13:40.556Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/ENDS-322/hero-v3.jpg",
+      "r2_key": "works/2026/08/ENDS-322/hero-v3.jpg",
+      "bytes": 620203,
+      "sha256": "1a686b88ffdc0697a94e3198dab45093d3d79cd6630f0ddfad7c73a84075f5a4",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "ba425ac6-7118-4682-8a0a-3986e68ed4a9",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 扭曲性癖, 性爱与道德的冲突, 人际关系的复杂性, 自我认知的探索. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighti"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/ENDS-322/scene-vertical-v3.jpg",
+      "r2_key": "works/2026/08/ENDS-322/scene-vertical-v3.jpg",
+      "bytes": 1472013,
+      "sha256": "64b6423632970162386dc729890c0daafe06dfd46f8e363a584392353b1d54fb",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "f6a20dec-857a-46f2-a1f7-2c28a35c1c01",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 扭曲性癖, 性爱与道德的冲突, 人际关系的复杂性, 自我认知的探索. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighti"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3423407,
+    "sha256": "7fc36a14968ca39ed4fb04fb00097c2ed80b4c90fa5bcff245083fd3e01f7b36",
+    "target_r2_key": "works/2026/08/ENDS-322/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/ENDS-322/vertical-v1.mp4"
+  }
+}

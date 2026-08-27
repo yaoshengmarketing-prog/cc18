@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "ENDS-322",
+  "checked_at": "2026-08-27T14:08:29.993Z",
+  "passed": true,
+  "issues": [],
+  "metrics": {
+    "sections": 7,
+    "evidence_items": 8,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 2
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "ENDS-322",
+  "review_sha256": "d81bde5b53684ee086e156afbd992444e6b8edaf4c6a04372defe28b5d54365c",
+  "selected_thesis": "以公開企劃概念為核心，將本作定位為一部靠角色狀態與道德壓力製造觀看張力的作品。重點不在情節奇觀，而在於主角如何從被動接受引導，逐步進入更能掌握節奏的位置，讓前後段形成可感知的性格與互動差異。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "character",
+        "value": "人妻設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "character",
+        "value": "孕婦設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "theme",
+        "value": "扭曲性癖",
+        "source_field": "description"
+      }
+    ],
+    "primary_theme": "人妻設定",
+    "presentation_feature": "孕婦設定",
+    "editorial_judgment": "以公開企劃概念為核心，將本作定位為一部靠角色狀態與道德壓力製造觀看張力的作品。重點不在情節奇觀，而在於主角如何從被動接受引導，逐步進入更能掌握節奏的位置，讓前後段形成可感知的性格與互動差異。",
+    "source_keywords": [
+      "人妻設定",
+      "孕婦設定",
+      "扭曲性癖"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "character：人妻設定",
+      "supports": "這項可追溯來源訊號支持文章以「人妻設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "character：孕婦設定",
+      "supports": "這項可追溯來源訊號支持文章以「孕婦設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：扭曲性癖",
+      "supports": "這項可追溯來源訊號支持文章以「扭曲性癖」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：性爱与道德的冲突",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：人际关系的复杂性",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：自我认知的探索",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "演員未知，不提姓名與個人資訊",
+    "不補寫不存在的系列、來源連結或發布狀態",
+    "不將評論性重構誤寫為來源事實"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-08-26T16:00:00.000Z"
+}
