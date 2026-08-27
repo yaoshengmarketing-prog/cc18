@@ -5,3 +5,9 @@ export function alreadyPublishedRequestedIds(registry, requestedIds) {
     return record && record.review_status !== 'draft';
   });
 }
+
+export function registryDraftIds(registry) {
+  return new Set(registry.records
+    .filter((record) => record.review_status === 'draft')
+    .map((record) => record.id.toUpperCase()));
+}

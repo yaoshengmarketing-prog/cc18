@@ -4,7 +4,7 @@ import {mkdtemp, rm} from 'node:fs/promises';
 import {join} from 'node:path';
 import {tmpdir} from 'node:os';
 import {FileQueueStore} from '../scripts/queue/store.mjs';
-import {alreadyPublishedRequestedIds} from '../scripts/canary/selection.mjs';
+import {alreadyPublishedRequestedIds, registryDraftIds} from '../scripts/canary/selection.mjs';
 
 test('explicit canary may promote a Registry draft but refuses a published record', () => {
   const registry = {records: [
@@ -13,6 +13,7 @@ test('explicit canary may promote a Registry draft but refuses a published recor
   ]};
   assert.deepEqual(alreadyPublishedRequestedIds(registry, ['SNOS-409']), []);
   assert.deepEqual(alreadyPublishedRequestedIds(registry, ['SNOS-371']), ['SNOS-371']);
+  assert.deepEqual([...registryDraftIds(registry)], ['SNOS-409']);
 });
 
 test('repairs expired leases and selects only validated editorial candidates', async () => {
