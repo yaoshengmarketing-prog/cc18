@@ -9,6 +9,7 @@ import {visibleTags} from '../../lib/reviews';
 import {sourceTagItems} from '../../lib/taxonomy';
 import {sourceRecordFor} from '../../lib/source-records';
 import {searchContentFor} from '../../lib/search-content';
+import {reviewQualityFor} from '../../lib/review-quality';
 
 export async function getStaticPaths() {
   const reviews = await getCollection('reviews', ({data}) => data.status === 'published');
@@ -20,6 +21,8 @@ const allReviews = await getCollection('reviews', ({data}) => data.status === 'p
 const related = new Map(allReviews.map((item) => [item.data.id, item]));
 const source = sourceRecordFor(review.data.id);
 const search = searchContentFor(review.data.id);
+const quality = reviewQualityFor(review.data.id);
+if (!quality?.approved_for_publish) throw new Error(`${review.data.id}: approved review quality record missing`);
 const pageUrl = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
 const imageUrl = new URL(review.data.heroUrl ?? review.data.coverUrl, Astro.site ?? Astro.url.origin);
 const structuredData: Array<Record<string, unknown>> = [
@@ -60,7 +63,7 @@ if (review.data.videoUrl) structuredData.push({
   isFamilyFriendly: false,
 });
 ---
-<BaseLayout title={review.data.seoTitle} socialTitle={review.data.socialTitle} description={review.data.shortReview} image={review.data.heroUrl ?? review.data.coverUrl} video={review.data.videoUrl} adult={true} structuredData={structuredData}>
+<BaseLayout title={review.data.seoTitle} socialTitle={review.data.socialTitle} description={review.data.shortReview} image={review.data.heroUrl ?? review.data.coverUrl} video={review.data.videoUrl} releaseId={quality.review_sha256} adult={true} structuredData={structuredData}>
   <article class="review-page">
     <nav class="breadcrumbs" aria-label="麵包屑">
       <a href="/">首頁</a><span>／</span><a href="/latest/">作品影評</a><span>／</span><b>{review.data.id}</b>

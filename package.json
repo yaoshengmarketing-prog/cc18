@@ -12,7 +12,7 @@
     "content:validate": "node scripts/validate-content.mjs",
     "source:test": "node --test tests/cc18-parser.test.mjs",
     "media:test": "node --test tests/media-function.test.mjs",
-    "validate": "npm run registry:validate && npm run content:validate && npm run source:test && npm run media:test && npm run bridge:test && npm run worker:test && npm run discovery:test && npm run d1:test && npm run editorial:provider:test && npm run editorial:safety:test && npm run editorial:local-source:test && npm run editorial:normalization:test && npm run editorial:qa-rules:test && npm run editorial:search:test && npm run image:provider:test && npm run build",
+    "validate": "npm run registry:validate && npm run content:validate && npm run source:test && npm run media:test && npm run bridge:test && npm run worker:test && npm run discovery:test && npm run d1:test && npm run editorial:provider:test && npm run editorial:safety:test && npm run editorial:local-source:test && npm run editorial:normalization:test && npm run editorial:qa-rules:test && npm run editorial:search:test && npm run image:provider:test && npm run publisher:test && npm run build",
     "source:ingest": "node scripts/source/ingest-one.mjs",
     "discovery:run": "node scripts/discovery/run.mjs",
     "queue:status": "node scripts/queue/status.mjs",
@@ -60,7 +60,9 @@
     "video:render:huntc-568": "remotion render video/src/index.ts CC18Vertical video/out/huntc-568.mp4 --props=video/examples/huntc-568.json",
     "video:still:sdab-358": "remotion still video/src/index.ts CC18Vertical video/out/sdab-358-preview.png --frame=120 --props=video/examples/sdab-358.json",
     "video:render:sdab-358": "remotion render video/src/index.ts CC18Vertical video/out/sdab-358.mp4 --props=video/examples/sdab-358.json --codec=h264 --crf=18 --pixel-format=yuv420p",
-    "video:d1:process-one": "node scripts/video/process-d1-one.mjs"
+    "video:d1:process-one": "node scripts/video/process-d1-one.mjs",
+    "publisher:test": "node --test tests/publisher.test.mjs",
+    "publish:d1:process-one": "node scripts/publish/process-d1-one.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "latest",

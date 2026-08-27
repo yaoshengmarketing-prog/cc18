@@ -10,6 +10,7 @@ interface Props {
   adult?: boolean;
   structuredData?: Record<string, unknown> | Array<Record<string, unknown>>;
   video?: string;
+  releaseId?: string;
 }
 
 const {
@@ -21,6 +22,7 @@ const {
   adult = false,
   structuredData,
   video,
+  releaseId,
 } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
 const jsonLd = structuredData
@@ -35,6 +37,7 @@ const jsonLd = structuredData
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
     <meta name="robots" content={robots} />
+    {releaseId && <meta name="cc18-release-id" content={releaseId} />}
     {adult && <meta name="rating" content="adult" />}
     <link rel="canonical" href={canonical} />
     <meta property="og:title" content={`${socialTitle}｜CC18 影格`} />

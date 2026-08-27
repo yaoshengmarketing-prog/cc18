@@ -1,4 +1,4 @@
-name: Content pipeline (manual dry run)
+name: Content pipeline (manual canary)
 
 on:
   workflow_dispatch:
@@ -15,16 +15,20 @@ on:
         default: file
         type: choice
         options: [file, d1]
+      movie_id:
+        description: Exact movie ID required for publish, for example SDAB-358
+        required: false
+        type: string
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: cc18-content-pipeline
   cancel-in-progress: false
 
 jobs:
-  dry-run:
+  pipeline:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -43,7 +47,26 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npm run discovery:run -- --store=${{ inputs.queue_store }}
       - name: Run foundation stage
-        if: inputs.stage != 'discover'
+        if: inputs.stage != 'discover' && inputs.stage != 'publish'
         run: node scripts/pipeline.mjs "${{ inputs.stage }}"
+      - name: Require an exact movie ID for publishing
+        if: inputs.stage == 'publish'
+        shell: bash
+        env:
+          MOVIE_ID: ${{ inputs.movie_id }}
+        run: test -n "$MOVIE_ID"
+      - name: Configure publisher identity
+        if: inputs.stage == 'publish'
+        run: |
+          git config user.name "cc18-publisher[bot]"
+          git config user.email "cc18-publisher[bot]@users.noreply.github.com"
+      - name: Validate, deploy and complete the D1 publish job
+        if: inputs.stage == 'publish'
+        env:
+          MOVIE_ID: ${{ inputs.movie_id }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_D1_DATABASE_ID: ${{ vars.CLOUDFLARE_D1_DATABASE_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npm run publish:d1:process-one -- "$MOVIE_ID"
       - name: Guard production activation
         run: echo "Daily schedule and automatic production remain intentionally disabled; discovery is manual only."
