@@ -16,6 +16,10 @@ async function filesUnder(directory) {
 }
 
 const files = await filesUnder(dist);
+const notFoundHtml = await readFile(resolve(dist, '404.html'), 'utf8');
+if (!notFoundHtml.includes('name="robots" content="noindex,follow"') || !notFoundHtml.includes('這個番號不在片單裡')) {
+  throw new Error('Static 404 contract missing: dist/404.html must be a noindex guidance page');
+}
 const htmlFiles = files.filter((path) => path.endsWith('index.html'));
 const noindexUrls = new Set();
 const titles = new Map();
