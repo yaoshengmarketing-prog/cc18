@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "movie_id": "NAMH-074",
+  "generated_at": "2026-08-27T16:20:22.575Z",
+  "source_snapshot_hash": "sha256:9627cffee87b968dfaf99536e3a643772b683459ba37c7279c260913584a63e9",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "以系列企劃與角色成長為核心的評論型稿件，不把重點放在單一刺激元素堆疊，而是強調「學生設定」如何與「至高系列」的展示目的互相拉扯，進而讓前段的嘗試感、後段的掌握感形成清楚對照。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "美咲音",
+      "至高の膣内射精",
+      "美少女設定",
+      "學生設定"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想先快速判斷本片是否有明確企劃感的選片者",
+      "重視角色狀態變化與表演節奏，不只看單點題材的讀者",
+      "偏好高畫質、慢動作與近距離呈現的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "HUNTC-568",
+      "relation_type": "adjacent_theme",
+      "reason": "兩部共享story等站內分類，適合延伸比較相近題材如何採用不同切角。",
+      "shared_signals": [
+        "story"
+      ],
+      "contrast_signals": [
+        "旅館",
+        "同期女同事"
+      ]
+    },
+    {
+      "movie_id": "SDAB-358",
+      "relation_type": "adjacent_theme",
+      "reason": "兩部共享story等站內分類，適合延伸比較相近題材如何採用不同切角。",
+      "shared_signals": [
+        "story"
+      ],
+      "contrast_signals": [
+        "相沢澪",
+        "要結愛"
+      ]
+    },
+    {
+      "movie_id": "ENDS-322",
+      "relation_type": "adjacent_theme",
+      "reason": "兩部共享story等站內分類，適合延伸比較相近題材如何採用不同切角。",
+      "shared_signals": [
+        "story"
+      ],
+      "contrast_signals": [
+        "人妻設定",
+        "孕婦設定"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？以系列企劃與角色成長為核心的評論型稿件，不把重點放在單一刺激元素堆疊，而是強調「學生設定」如何與「至高系列」的展示目的互相拉扯，進而讓前段的嘗試感、後段的掌握感形成清楚對照。",
+    "哪些觀眾較適合？想先快速判斷本片是否有明確企劃感的選片者",
+    "有哪些觀看取捨？只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+  ]
+}

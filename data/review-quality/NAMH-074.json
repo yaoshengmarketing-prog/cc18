@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "NAMH-074",
+  "review_sha256": "bda420fb1f08d5b1c47755e04691a02f85d49950c9337fd482e34cc0b0c16599",
+  "selected_thesis": "以系列企劃與角色成長為核心的評論型稿件，不把重點放在單一刺激元素堆疊，而是強調「學生設定」如何與「至高系列」的展示目的互相拉扯，進而讓前段的嘗試感、後段的掌握感形成清楚對照。",
+  "title_basis": {
+    "performer": "美咲音",
+    "signals": [
+      {
+        "type": "series",
+        "value": "至高の膣内射精",
+        "source_field": "series"
+      },
+      {
+        "type": "setting",
+        "value": "學生設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "theme",
+        "value": "漏斗潑精",
+        "source_field": "description"
+      }
+    ],
+    "primary_theme": "至高の膣内射精",
+    "presentation_feature": "學生設定",
+    "editorial_judgment": "以系列企劃與角色成長為核心的評論型稿件，不把重點放在單一刺激元素堆疊，而是強調「學生設定」如何與「至高系列」的展示目的互相拉扯，進而讓前段的嘗試感、後段的掌握感形成清楚對照。",
+    "source_keywords": [
+      "至高の膣内射精",
+      "學生設定",
+      "美少女設定",
+      "漏斗潑精"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：美咲音",
+      "supports": "這項可追溯來源訊號支持文章以「美咲音」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：至高の膣内射精",
+      "supports": "這項可追溯來源訊號支持文章以「至高の膣内射精」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：美少女設定",
+      "supports": "這項可追溯來源訊號支持文章以「美少女設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "setting：學生設定",
+      "supports": "這項可追溯來源訊號支持文章以「學生設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：至高系列",
+      "supports": "這項可追溯來源訊號支持文章以「至高系列」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：漏斗潑精",
+      "supports": "這項可追溯來源訊號支持文章以「漏斗潑精」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：高畫質錄製",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：慢動作鏡頭",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色成長",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-08-26T16:00:00.000Z"
+}

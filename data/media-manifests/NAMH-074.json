@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "NAMH-074",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-08-27T16:21:06.458Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/NAMH-074/hero-v1.jpg",
+      "r2_key": "works/2026/08/NAMH-074/hero-v1.jpg",
+      "bytes": 660448,
+      "sha256": "99c51d8dc26f540150505a79c89461a3ea1b3028c67c11bd15d446116dea30b9",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "54ce2b62-1309-445a-9aa6-9c8690252f5b",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 至高系列, 漏斗潑精, 高畫質錄製, 慢動作鏡頭. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Origi"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/NAMH-074/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/08/NAMH-074/scene-vertical-v1.jpg",
+      "bytes": 871916,
+      "sha256": "6707c43f432f2bd1d9eb09cc573ce894b8f74105b0dfe23eed1a3297a4b40962",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "ebc4f49f-d568-4320-b448-3d3812d099d5",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 至高系列, 漏斗潑精, 高畫質錄製, 慢動作鏡頭. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Origi"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2922630,
+    "sha256": "4a3911b5f2b02390396a7b9398e7eacd2f13f9e9309eb9bebda9fbca3116094e",
+    "target_r2_key": "works/2026/08/NAMH-074/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/NAMH-074/vertical-v1.mp4"
+  }
+}

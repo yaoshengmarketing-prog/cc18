@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "NAMH-074",
+  "calls": [
+    {
+      "generated_at": "2026-08-27T16:20:22.579Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 1600,
+      "cached_input_tokens": 0,
+      "output_tokens": 2773,
+      "total_tokens": 4373,
+      "estimated_cost_usd": 0.070392,
+      "estimated_payg_cash_cost_usd": 0.073912,
+      "direct_openai_reference_usd": 0.045595,
+      "gateway_premium_usd": 0.024798,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 1600,
+    "cached_input_tokens": 0,
+    "output_tokens": 2773,
+    "estimated_cost_usd": 0.070392,
+    "estimated_payg_cash_cost_usd": 0.073912,
+    "direct_openai_reference_usd": 0.045595,
+    "gateway_premium_usd": 0.024798
+  }
+}

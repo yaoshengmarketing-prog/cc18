@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-27T15:06:14.688Z",
+  "updated_at": "2026-08-27T16:21:22.569Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -122,6 +122,21 @@
       "actress": [],
       "release_date": "2026-08-25",
       "source_url": "https://cc18.tv/player.php?uuid=bNbON4x5E19&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-08-27",
+      "image_status": "rendered"
+    },
+    {
+      "id": "NAMH-074",
+      "actress": [
+        "美咲音"
+      ],
+      "release_date": "2026-08-24",
+      "source_url": "https://cc18.tv/player.php?uuid=3L6BvtzuX51&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
