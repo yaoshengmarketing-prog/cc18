@@ -146,7 +146,7 @@ const prompt = {
 if (feedbackArgument) {
   const feedback = JSON.parse(await readFile(resolve(feedbackArgument), 'utf8'));
   prompt.previous_qa_feedback = {
-    failure_reasons: feedback.failure_reasons ?? [],
+    failure_reasons: feedback.failure_reasons ?? feedback.issues ?? [],
     checks: feedback.checks ?? {},
     instruction: '重寫全文以修正所有失敗項目；保留可追溯證據，但不可只局部補句。',
   };
@@ -314,6 +314,7 @@ if (!registry.records.some(({id}) => id === movieId)) {
     source_site: 'cc18.tv',
     review_status: 'draft',
     cover_status: 'remote_source',
+    image_status: 'pending',
     video_status: 'pending',
     template: 'story',
     published_at: today,

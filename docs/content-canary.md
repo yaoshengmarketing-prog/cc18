@@ -69,3 +69,10 @@ QA 重寫後成功可計入端到端成功，但必須保留重寫次數。影�
 - 第 3 日：只判斷是否允許延長 canary、是否能提高到每日 3 部；不啟用正式 schedule。
 - 第 7 日：若所有 promotion gate 達標，才提出「有限量 GitHub Actions 自動批次」變更建議。
 - 即使 7 日達標，正式大量發現與發布仍須獨立啟用；本文件不授權修改 cron、Secrets、供應商或發布目的地。
+
+## Draft-only editorial canary
+
+在單一作品獲得明確傳送授權後，以
+`CC18_ALLOW_EDITORIAL_TRANSMISSION=YES npm run editorial:draft-canary -- <MOVIE-ID>`
+執行。此路徑只讀取 D1 已驗證來源，在本機建立影評草稿與 QA 產物；不 claim
+或完成 D1 工作、不建立圖片工作、不發布、不 commit、不 push，也不啟用排程。

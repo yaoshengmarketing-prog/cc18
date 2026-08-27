@@ -77,3 +77,40 @@ test('a composed model phrase resolves to one exact non-technical source candida
   assert.equal(coreConceptCandidates(source).includes('720p'), false);
   assert.equal(coreConceptCandidates(source).includes('独占配信'), false);
 });
+
+test('a translated model concept falls back to an exact source phrase', () => {
+  const source = {
+    title: '密着マッサージ', series: null,
+    description: '撮影企画の公開紹介', source_tags: ['720p'],
+  };
+  assert.equal(resolveCoreSourceConcept('油壓按摩體驗', source), '密着マッサージ');
+});
+
+test('selects a complete exact source phrase instead of a generic or broken dialogue fragment', () => {
+  const source = {
+    title: '『欸！要在這裡做嗎？』被同人監督設計', series: null,
+    description: '作為色情拍攝來到工作室，在油壓按摩中放鬆。',
+    source_tags: ['AV女優片', '720p'],
+  };
+  assert.equal(resolveCoreSourceConcept('色情拍攝、油壓按摩、巨大', source), '油壓按摩');
+  assert.equal(coreConceptCandidates(source).includes('欸'), false);
+  assert.equal(coreConceptCandidates(source).includes('AV女優片'), false);
+});
+
+test('retries one truncated local JSON response before returning a valid brief', async () => {
+  let calls = 0;
+  const fetchImplementation = async () => {
+    calls += 1;
+    return {
+      ok: true,
+      json: async () => ({message: {content: calls === 1 ? '{"core_source_concept":"共享' : JSON.stringify(brief)}}),
+    };
+  };
+  const result = await createLocalSourceBrief({
+    title: '共享私人空間', description: '同事共享房間', actress: [], series: null, source_tags: [],
+  }, {
+    local_analysis: {endpoint: 'http://127.0.0.1:11434', vision_model: 'qwen2.5vl:7b', request_timeout_ms: 1000},
+  }, fetchImplementation);
+  assert.equal(calls, 2);
+  assert.equal(result.core_source_concept, '共享私人空間');
+});

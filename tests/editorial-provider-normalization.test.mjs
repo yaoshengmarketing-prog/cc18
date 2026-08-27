@@ -117,3 +117,25 @@ test('maps snake-case review and decision wrappers and derives source-only evide
   assert.equal(normalized.decision_guide.audience_not_for.length, 2);
   assert.equal(normalized.decision_guide.questions_answered.length, 3);
 });
+
+test('recovers title fields nested inside a provider review wrapper', () => {
+  const normalized = normalizeEditorialResult({
+    review_draft: {
+      title: 'TEST-006 密着マッサージ企劃',
+      seo_title: 'TEST-006 密着マッサージ影評',
+      social_title: 'TEST-006 選片重點',
+      sections: [],
+    },
+    angle_candidates: ['角度一', '角度二', '角度三'],
+  }, {
+    movieId: 'TEST-006',
+    safePublicSource: {safe_title_signals: [
+      {type: 'theme', value: '密着マッサージ', source_field: 'title'},
+      {type: 'performer', value: '測試演員', source_field: 'actress'},
+    ]},
+    safeVideoAnalysis: {observations: []},
+  });
+  assert.equal(normalized.title, 'TEST-006 密着マッサージ企劃');
+  assert.equal(normalized.seo_title, 'TEST-006 密着マッサージ影評');
+  assert.equal(normalized.social_title, 'TEST-006 選片重點');
+});

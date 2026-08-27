@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "movie_id": "CMJU-008",
+  "calls": [
+    {
+      "generated_at": "2026-08-27T17:51:05.709Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2413,
+      "cached_input_tokens": 0,
+      "output_tokens": 3288,
+      "total_tokens": 5701,
+      "estimated_cost_usd": 0.086045,
+      "estimated_payg_cash_cost_usd": 0.090347,
+      "direct_openai_reference_usd": 0.055352,
+      "gateway_premium_usd": 0.030692,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    },
+    {
+      "generated_at": "2026-08-27T17:53:39.018Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2416,
+      "cached_input_tokens": 0,
+      "output_tokens": 3475,
+      "total_tokens": 5891,
+      "estimated_cost_usd": 0.090268,
+      "estimated_payg_cash_cost_usd": 0.094781,
+      "direct_openai_reference_usd": 0.058165,
+      "gateway_premium_usd": 0.032102,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    },
+    {
+      "generated_at": "2026-08-27T17:57:28.760Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2416,
+      "cached_input_tokens": 0,
+      "output_tokens": 3206,
+      "total_tokens": 5622,
+      "estimated_cost_usd": 0.084215,
+      "estimated_payg_cash_cost_usd": 0.088426,
+      "direct_openai_reference_usd": 0.05413,
+      "gateway_premium_usd": 0.030085,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 7245,
+    "cached_input_tokens": 0,
+    "output_tokens": 9969,
+    "estimated_cost_usd": 0.260528,
+    "estimated_payg_cash_cost_usd": 0.273554,
+    "direct_openai_reference_usd": 0.167647,
+    "gateway_premium_usd": 0.092879
+  }
+}

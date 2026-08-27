@@ -38,6 +38,17 @@ test('content QA rejects repeated generic arcs instead of banning the vocabulary
   }), ['overused_generic_editorial_arc']);
 });
 
+test('content QA rejects a review that repeatedly avoids making a judgment', () => {
+  assert.deepEqual(editorialContentIssues({
+    body: '這部若成立會有層次，後段有沒有拍好仍待確認，整體有機會適合某些觀眾。',
+    titleSignals: [], topicElements: {},
+  }), ['overused_conditional_review_voice']);
+  assert.deepEqual(editorialContentIssues({
+    body: '這部作品的層次成立，油壓按摩明確帶動前後節奏。',
+    titleSignals: [], topicElements: {},
+  }), []);
+});
+
 test('content QA requires the source-title core in a title and develops it beyond one mention', () => {
   assert.deepEqual(editorialContentIssues({
     titles: ['TEST-001 學生妹中出'],

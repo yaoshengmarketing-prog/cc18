@@ -26,5 +26,7 @@ export function editorialContentIssues({body = '', titles = [], titleSignals = [
     if (body.split(coreSourceConcept).length - 1 < 2) issues.push('source_core_concept_not_developed');
   }
   if (genericArcs.some((phrase) => body.split(phrase).length - 1 > 1)) issues.push('overused_generic_editorial_arc');
+  const conditionalReviewPhrases = body.match(/若(?:要)?成立|有沒有|有機會/g) ?? [];
+  if (conditionalReviewPhrases.length >= 3) issues.push('overused_conditional_review_voice');
   return issues;
 }
