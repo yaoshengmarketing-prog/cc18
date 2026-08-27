@@ -129,10 +129,12 @@ export class FileQueueStore {
     return repaired;
   }
 
-  async listCanaryCandidates({limit = 3, now = new Date()} = {}) {
+  async listCanaryCandidates({limit = 3, now = new Date(), excludeMovieIds = []} = {}) {
     const state = await this.read();
     const nowIso = now.toISOString();
+    const excluded = new Set(excludeMovieIds.map(normalizedId));
     return state.jobs.filter((job) => job.stage === 'editorial' && job.attempt < job.max_attempts)
+      .filter((job) => !excluded.has(job.movie_id))
       .filter((job) => job.status === 'queued' || job.status === 'retry' || (job.status === 'leased' && job.lease_expires_at <= nowIso))
       .filter((job) => !job.next_retry_at || job.next_retry_at <= nowIso)
       .map((job) => ({job, movie: state.movies.find(({id}) => id === job.movie_id)}))
@@ -347,18 +349,21 @@ export class D1RestQueueStore {
     return result.results ?? [];
   }
 
-  async listCanaryCandidates({limit = 3, now = new Date()} = {}) {
+  async listCanaryCandidates({limit = 3, now = new Date(), excludeMovieIds = []} = {}) {
     const bounded = Math.max(1, Math.min(3, Number(limit) || 1));
     const nowIso = now.toISOString();
+    const excluded = [...new Set(excludeMovieIds.map(normalizedId))];
+    const exclusionClause = excluded.length ? ` AND j.movie_id NOT IN (${excluded.map(() => '?').join(',')})` : '';
     const [result] = await this.query({
       sql: `SELECT j.*, m.release_date, m.metadata_status
             FROM pipeline_jobs j JOIN movies m ON m.id=j.movie_id
             WHERE j.stage='editorial' AND j.attempt < j.max_attempts
               AND m.classification='eligible' AND m.metadata_status='validated'
+              ${exclusionClause}
               AND (j.status IN ('queued','retry') OR (j.status='leased' AND j.lease_expires_at <= ?))
               AND (j.next_retry_at IS NULL OR j.next_retry_at <= ?)
             ORDER BY m.release_date DESC, j.priority DESC, j.created_at ASC LIMIT ?`,
-      params: [nowIso, nowIso, bounded],
+      params: [...excluded, nowIso, nowIso, bounded],
     });
     return result.results ?? [];
   }

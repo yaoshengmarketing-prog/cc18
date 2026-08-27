@@ -1,5 +1,5 @@
 import {spawn, spawnSync} from 'node:child_process';
-import {mkdir, writeFile} from 'node:fs/promises';
+import {mkdir, readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {queueStoreFromEnvironment} from '../queue/store.mjs';
 
@@ -17,7 +17,13 @@ const git = spawnSync('git', ['status', '--porcelain'], {cwd: root, encoding: 'u
 if (git.status !== 0 || git.stdout.trim()) throw new Error('Canary requires a clean Git worktree');
 
 const store = queueStoreFromEnvironment({mode: 'd1'});
-const candidates = requestedIds.length ? requestedIds : (await store.listCanaryCandidates({limit: max})).map(({movie_id}) => movie_id);
+const registry = JSON.parse(await readFile(resolve(root, 'data', 'movie-registry.json'), 'utf8'));
+const registeredIds = new Set(registry.records.map(({id}) => id.toUpperCase()));
+const duplicateRequestedIds = requestedIds.filter((id) => registeredIds.has(id));
+if (duplicateRequestedIds.length) throw new Error(`Canary refuses Registry duplicates: ${duplicateRequestedIds.join(', ')}`);
+const candidates = requestedIds.length
+  ? requestedIds
+  : (await store.listCanaryCandidates({limit: max, excludeMovieIds: [...registeredIds]})).map(({movie_id}) => movie_id);
 const stages = [
   ['editorial', 'scripts/editorial/handoff-d1.mjs', (id) => [id, '--source-only', '--retry-now']],
   ['image', 'scripts/image/process-d1-one.mjs', (id) => [id]],

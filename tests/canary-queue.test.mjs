@@ -20,6 +20,8 @@ test('repairs expired leases and selects only validated editorial candidates', a
     assert.equal(repaired[0].last_error_code, 'LEASE_EXPIRED');
     const candidates = await store.listCanaryCandidates({limit: 3, now});
     assert.deepEqual(candidates.map(({movie_id}) => movie_id), ['NEW-001', 'OLD-001']);
+    const withoutRegistered = await store.listCanaryCandidates({limit: 3, now, excludeMovieIds: ['new-001']});
+    assert.deepEqual(withoutRegistered.map(({movie_id}) => movie_id), ['OLD-001']);
   } finally {
     await rm(directory, {recursive: true, force: true});
   }
