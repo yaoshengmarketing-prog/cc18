@@ -12,6 +12,9 @@ const pipeline = JSON.parse(await readFile(resolve(root, 'config/pipeline.json')
 const store = queueStoreFromEnvironment({mode: 'd1'});
 let job = requestedMovieId ? await store.findJob({movieId: requestedMovieId, stage: 'video'}) : null;
 if (requestedMovieId && !job) job = await store.enqueueJob({movieId: requestedMovieId, stage: 'video'});
+if (requestedMovieId && job?.status === 'retry') {
+  job = await store.requeueRetry({jobId: job.id, allowedErrorCodes: ['VIDEO_RENDER_FAILED']}) ?? job;
+}
 const workerId = `video-${hostname()}-${process.pid}-${randomUUID().slice(0, 8)}`;
 const claimed = await store.claim({stage: 'video', jobId: job?.id ?? null, workerId, leaseSeconds: pipeline.queue.lease_seconds});
 if (!claimed) {
@@ -35,7 +38,7 @@ try {
   await readFile(resolve(root, `video/examples/${slug}.json`), 'utf8');
   const remotion = resolve(root, 'node_modules', '@remotion', 'cli', 'remotion-cli.js');
   await run(process.execPath, [remotion, 'render', 'video/src/index.ts', 'CC18Vertical', output, `--props=video/examples/${slug}.json`, '--codec=h264', '--crf=18', '--pixel-format=yuv420p']);
-  await run(process.execPath, [resolve(root, 'scripts/video/finalize-video.mjs'), movieId, `--input=${output}`, `--version=${claimed.attempt}`]);
+  await run(process.execPath, [resolve(root, 'scripts/video/finalize-video.mjs'), movieId, `--input=${output}`]);
   await store.finishJob({jobId: claimed.id, workerId, outcome: 'completed'});
   const publishJob = await store.enqueueJob({movieId, stage: 'publish', priority: claimed.priority, discoveryRunId: claimed.discovery_run_id});
   console.log(JSON.stringify({movie_id: movieId, video_job_id: claimed.id, status: 'completed', publish_job_id: publishJob.id, publish_status: publishJob.status}, null, 2));

@@ -30,6 +30,16 @@
     }
   ],
   "video": {
-    "status": "pending"
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2757900,
+    "sha256": "63eab48fde79fa4e893fe2276ebfa8f1a5e628145bb9258ee7640fc9e24b436a",
+    "target_r2_key": "works/2026/08/SDAB-358/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/SDAB-358/vertical-v1.mp4"
   }
 }

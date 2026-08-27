@@ -24,8 +24,8 @@ const signature = (bytes) => {
   throw new Error('Unsupported or invalid image signature');
 };
 const digest = (bytes) => createHash('sha256').update(bytes).digest('hex');
-const run = (command, args) => new Promise((resolveRun, rejectRun) => {
-  const child = spawn(command, args, {cwd: root, stdio: 'inherit'});
+const run = (command, args, {environment = process.env} = {}) => new Promise((resolveRun, rejectRun) => {
+  const child = spawn(command, args, {cwd: root, stdio: 'inherit', env: environment});
   child.once('error', rejectRun);
   child.once('exit', (code) => code === 0 ? resolveRun() : rejectRun(new Error(`${command} exited with ${code}`)));
 });
@@ -33,6 +33,8 @@ const run = (command, args) => new Promise((resolveRun, rejectRun) => {
 const source = JSON.parse(await readFile(resolve(root, `data/source-records/${movieId}.json`), 'utf8'));
 const imageConfig = JSON.parse(await readFile(resolve(root, 'config/image-model.json'), 'utf8'));
 const wrangler = resolve(root, 'node_modules', 'wrangler', 'bin', 'wrangler.js');
+const wranglerEnvironment = {...process.env};
+if (process.env.CC18_R2_AUTH_MODE === 'oauth') delete wranglerEnvironment.CLOUDFLARE_API_TOKEN;
 let imageBrief = null;
 try { imageBrief = JSON.parse(await readFile(resolve(root, `data/image-briefs/${movieId}.json`), 'utf8')); } catch (error) { if (error?.code !== 'ENOENT') throw error; }
 const [year, month] = source.release_date.split('-');
@@ -55,9 +57,9 @@ try {
     if (!bytes.length || bytes.length > 20 * 1024 * 1024) throw new Error(`${input.role}: invalid image size`);
     const {extension, contentType} = signature(bytes);
     const r2Key = `works/${year}/${month}/${movieId}/${input.filename}.${extension}`;
-    await run(process.execPath, [wrangler, 'r2', 'object', 'put', `${imageConfig.r2_bucket}/${r2Key}`, '--remote', '--file', input.localPath, '--content-type', contentType, '--cache-control', 'public, max-age=31536000, immutable', '--force']);
+    await run(process.execPath, [wrangler, 'r2', 'object', 'put', `${imageConfig.r2_bucket}/${r2Key}`, '--remote', '--file', input.localPath, '--content-type', contentType, '--cache-control', 'public, max-age=31536000, immutable', '--force'], {environment: wranglerEnvironment});
     const verificationPath = resolve(verifyDirectory, `${input.filename}.${extension}`);
-    await run(process.execPath, [wrangler, 'r2', 'object', 'get', `${imageConfig.r2_bucket}/${r2Key}`, '--remote', '--file', verificationPath]);
+    await run(process.execPath, [wrangler, 'r2', 'object', 'get', `${imageConfig.r2_bucket}/${r2Key}`, '--remote', '--file', verificationPath], {environment: wranglerEnvironment});
     const verified = await readFile(verificationPath);
     if (digest(verified) !== digest(bytes)) throw new Error(`${input.role}: R2 hash verification failed`);
     assets.push({

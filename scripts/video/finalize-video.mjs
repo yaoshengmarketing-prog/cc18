@@ -10,8 +10,8 @@ const inputPath = resolve(argument('input') ?? '');
 const requestedVersion = Number(argument('version') ?? 0);
 if (!/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId ?? '') || !argument('input')) throw new Error('Usage: node scripts/video/finalize-video.mjs MOVIE-ID --input=PATH [--version=N]');
 if (!Number.isInteger(requestedVersion) || requestedVersion < 0) throw new Error('--version must be a non-negative integer');
-const run = (command, args) => new Promise((resolveRun, rejectRun) => {
-  const child = spawn(command, args, {cwd: root, stdio: 'inherit'});
+const run = (command, args, {environment = process.env} = {}) => new Promise((resolveRun, rejectRun) => {
+  const child = spawn(command, args, {cwd: root, stdio: 'inherit', env: environment});
   child.once('error', rejectRun);
   child.once('exit', (code) => code === 0 ? resolveRun() : rejectRun(new Error(`${command} exited with ${code}`)));
 });
@@ -28,12 +28,14 @@ const version = Math.max(previousVersion + 1, requestedVersion || 1);
 const [year, month] = source.release_date.split('-');
 const r2Key = `works/${year}/${month}/${movieId}/vertical-v${version}.mp4`;
 const wrangler = resolve(root, 'node_modules', 'wrangler', 'bin', 'wrangler.js');
+const wranglerEnvironment = {...process.env};
+if (process.env.CC18_R2_AUTH_MODE === 'oauth') delete wranglerEnvironment.CLOUDFLARE_API_TOKEN;
 const verifyDirectory = resolve(root, '.cc18-video', 'verify', `${movieId}-${process.pid}`);
 const verifyPath = resolve(verifyDirectory, `vertical-v${version}.mp4`);
 await mkdir(verifyDirectory, {recursive: true});
 try {
-  await run(process.execPath, [wrangler, 'r2', 'object', 'put', `${config.r2_bucket}/${r2Key}`, '--remote', '--file', inputPath, '--content-type', 'video/mp4', '--cache-control', 'public, max-age=31536000, immutable', '--force']);
-  await run(process.execPath, [wrangler, 'r2', 'object', 'get', `${config.r2_bucket}/${r2Key}`, '--remote', '--file', verifyPath]);
+  await run(process.execPath, [wrangler, 'r2', 'object', 'put', `${config.r2_bucket}/${r2Key}`, '--remote', '--file', inputPath, '--content-type', 'video/mp4', '--cache-control', 'public, max-age=31536000, immutable', '--force'], {environment: wranglerEnvironment});
+  await run(process.execPath, [wrangler, 'r2', 'object', 'get', `${config.r2_bucket}/${r2Key}`, '--remote', '--file', verifyPath], {environment: wranglerEnvironment});
   const verified = await readFile(verifyPath);
   if (digest(verified) !== digest(bytes)) throw new Error('R2 video hash verification failed');
 } finally {

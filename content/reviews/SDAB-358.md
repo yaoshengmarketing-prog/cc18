@@ -20,6 +20,7 @@ sourceUrl: https://cc18.tv/player.php?uuid=hqJ6wEI306J&cat=19
 sourceSite: cc18.tv
 coverUrl: https://cc18.tv/preview/80/b/hqJ6wEI306J-800.jpg?v=1787740803
 heroUrl: /media/works/2026/08/SDAB-358/hero-v1.png
+videoUrl: /media/works/2026/08/SDAB-358/vertical-v1.mp4
 shortReview: "SDAB-358 把要結愛首次拍攝後的下一次挑戰，設計成一堂有目標、有練習也有成果驗收的口交課程。它的賣點不是單一橋段，而是『一天內能進步到哪裡』的企劃懸念；弓道少女形象、講師引導與多人實踐，則讓這條成長線有明確的階段差異。"
 editorialAngle: "從公開片名與簡介來看，SDAB-358 的核心是課程型企劃：以要結愛的學習過程串連整部作品，讓技巧訓練、角色反差與成果驗收共同構成選片理由。"
 sourceTags:
@@ -36,7 +37,7 @@ canonicalTagIds:
   - facial
 status: published
 imageStatus: rendered
-videoStatus: pending
+videoStatus: rendered
 featured: false
 ---
 
