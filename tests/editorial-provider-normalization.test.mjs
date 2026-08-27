@@ -22,6 +22,7 @@ test('preserves nested review_draft sections returned by gateway models', () => 
   assert.equal(normalized.sections.length, 7);
   assert.equal(normalized.sections[1].heading, '段落 1');
   assert.match(normalized.sections[1].body, /獨特內容1/);
+  assert.match(normalized.sections.at(-1).body, /未必適合/);
 });
 
 test('maps the alternate gateway editorial shape into the CC18 contract', () => {

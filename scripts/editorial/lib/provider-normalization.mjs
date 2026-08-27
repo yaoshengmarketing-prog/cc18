@@ -85,8 +85,8 @@ function derivedSourceEvidence(safePublicSource) {
 
 function normalizedSections(raw, review) {
   let sections = raw.sections ?? [];
-  if (!sections.length && Array.isArray(review.sections)) sections = review.sections;
-  if (!sections.length && review && typeof review === 'object') {
+  if (Array.isArray(review.sections) && review.sections.length > sections.length) sections = review.sections;
+  if (review && typeof review === 'object') {
     const labels = {
       opening: '這部作品先賣什麼',
       story_and_structure: '企劃如何建立前後差異',
@@ -106,7 +106,7 @@ function normalizedSections(raw, review) {
       if (/advice|conclusion|closing/.test(key)) return '總評、適合觀眾與取捨';
       return '作品切角補充';
     };
-    sections = Object.entries(review)
+    const reviewSections = Object.entries(review)
       .map(([key, value]) => {
         if (typeof value === 'string' && value.trim()) return {heading: labels[key] ?? headingFor(key), body: value};
         if (value && typeof value === 'object' && !Array.isArray(value)) {
@@ -116,6 +116,7 @@ function normalizedSections(raw, review) {
         return null;
       })
       .filter(Boolean);
+    if (reviewSections.length > sections.length) sections = reviewSections;
   }
   const normalized = sections
     .map(({heading, body, content}) => ({heading: clip(heading, 50), body: clip(body ?? content, 700)}))
@@ -189,7 +190,7 @@ export function normalizeEditorialResult(raw, {movieId, safePublicSource, safeVi
   }
 
   const decisionGuide = normalizedDecisionGuide(raw.decision_guide ?? raw.decisionGuide ?? raw.search_content, raw, brief, sourceSignals, angleCandidates);
-  if (sections.length && !/適合|偏好|推薦/.test(sections.at(-1).body)) {
+  if (sections.length && (!/適合|偏好|推薦/.test(sections.at(-1).body) || !/未必|不適合|取捨/.test(sections.at(-1).body))) {
     sections.at(-1).body = clip(`${sections.at(-1).body}\n\n適合：${decisionGuide.audience_for.join('；')}。未必適合：${decisionGuide.audience_not_for.join('；')}。這也是選片時最需要接受的取捨。`, 700);
   }
   return {
