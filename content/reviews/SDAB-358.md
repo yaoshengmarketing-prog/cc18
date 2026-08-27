@@ -1,9 +1,9 @@
 ---
 id: SDAB-358
 sourceTitle: "18歲口交課程 對各種雞巴感興趣的童顏弓道少女口交特訓的一天共10發！ 要結愛"
-title: "SDAB-358 要結愛的18歲口交課程｜弓道少女一日特訓企劃"
-seoTitle: "SDAB-358 影評｜要結愛18歲口交課程、弓道少女一日特訓企劃"
-socialTitle: "SDAB-358｜要結愛把口交課程拍成一日成長挑戰"
+title: "SDAB-358 相沢澪×要結愛｜18歲口交課程與弓道少女一日特訓"
+seoTitle: "SDAB-358 相沢澪 要結愛影評｜18歲口交課程、弓道少女一日特訓企劃"
+socialTitle: "SDAB-358｜相沢澪×要結愛的一日口交課程挑戰"
 titleSignals:
   - "要結愛"
   - "口交"
@@ -33,7 +33,7 @@ canonicalTagIds:
   - story
   - oral-sex
   - facial
-status: draft
+status: published
 videoStatus: pending
 featured: false
 ---

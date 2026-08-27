@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-27T04:50:34.606Z",
+  "updated_at": "2026-08-27T07:53:20.844Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -77,7 +77,7 @@
       "release_date": "2026-08-25",
       "source_url": "https://cc18.tv/player.php?uuid=hqJ6wEI306J&cat=19",
       "source_site": "cc18.tv",
-      "review_status": "draft",
+      "review_status": "published",
       "cover_status": "remote_source",
       "video_status": "pending",
       "template": "story",
