@@ -96,11 +96,6 @@ function normalizedSections(raw, review) {
       selection_advice: '適合誰，又有哪些取捨',
       closing: '總評與選片結論',
     };
-    sections = Object.entries(labels)
-      .filter(([key]) => typeof review[key] === 'string' && review[key].trim())
-      .map(([key, heading]) => ({heading, body: review[key]}));
-  }
-  if (!sections.length && review && typeof review === 'object') {
     const headingFor = (key) => {
       if (/intro|opening|setup/.test(key)) return '企劃開場與作品定位';
       if (/character|performer|dynamic/.test(key)) return '角色互動如何建立';
@@ -112,8 +107,15 @@ function normalizedSections(raw, review) {
       return '作品切角補充';
     };
     sections = Object.entries(review)
-      .filter(([, value]) => typeof value === 'string' && value.trim())
-      .map(([key, body]) => ({heading: headingFor(key), body}));
+      .map(([key, value]) => {
+        if (typeof value === 'string' && value.trim()) return {heading: labels[key] ?? headingFor(key), body: value};
+        if (value && typeof value === 'object' && !Array.isArray(value)) {
+          const body = value.body ?? value.content;
+          if (typeof body === 'string' && body.trim()) return {heading: value.heading ?? labels[key] ?? headingFor(key), body};
+        }
+        return null;
+      })
+      .filter(Boolean);
   }
   const normalized = sections
     .map(({heading, body, content}) => ({heading: clip(heading, 50), body: clip(body ?? content, 700)}))

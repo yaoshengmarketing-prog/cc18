@@ -6,6 +6,24 @@ test('extracts the first complete JSON object and ignores gateway trailing prose
   assert.deepEqual(parseFirstJsonObject('```json\n{"ok":true}\n``` trailing'), {ok: true});
 });
 
+test('preserves nested review_draft sections returned by gateway models', () => {
+  const safePublicSource = {
+    safe_title_signals: [{type: 'character', value: '設定甲'}, {type: 'presentation', value: '高畫質'}],
+    creative_seed_brief: {themes: ['角色成長'], creative_seeds: []},
+  };
+  const review_draft = {
+    opening: '開場內容'.repeat(30),
+    ...Object.fromEntries(Array.from({length: 5}, (_, index) => [`section_${index + 1}`, {heading: `段落 ${index + 1}`, content: `獨特內容${index + 1}`.repeat(30)}])),
+    closing: '結論內容'.repeat(30),
+  };
+  const normalized = normalizeEditorialResult({title: 'TEST-004 設定甲 高畫質', review_draft, editorial_brief: {audience: ['觀眾甲']}, decision_guide: {audience_not_for: ['觀眾乙']}}, {
+    movieId: 'TEST-004', safePublicSource, safeVideoAnalysis: {observations: []},
+  });
+  assert.equal(normalized.sections.length, 7);
+  assert.equal(normalized.sections[1].heading, '段落 1');
+  assert.match(normalized.sections[1].body, /獨特內容1/);
+});
+
 test('maps the alternate gateway editorial shape into the CC18 contract', () => {
   const safePublicSource = {safe_title_signals: [
     {type: 'theme', value: '角色扮演', source_field: 'safe_signals'},
