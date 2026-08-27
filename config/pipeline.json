@@ -28,6 +28,7 @@
     "max_attempts": 5
   },
   "production": {"mode": "dry_run", "batch_size": 20, "max_parallel": 3, "continue_on_media_failure": true},
+  "canary": {"enabled": true, "default_batch_size": 1, "max_per_run": 3, "require_validated_metadata": true, "media_analysis": "optional_non_blocking", "stages": ["editorial", "image", "video", "publish"]},
   "editorial": {
     "writer_contract": "prompts/review-writer.md",
     "critic_contract": "prompts/review-critic.md",

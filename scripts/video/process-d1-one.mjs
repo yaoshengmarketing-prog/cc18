@@ -35,6 +35,7 @@ const run = (command, args) => new Promise((resolveRun, rejectRun) => {
 try {
   const imageJob = await store.findJob({movieId, stage: 'image', status: 'completed'});
   if (!imageJob) throw Object.assign(new Error(`${movieId}: completed image job not found`), {code: 'VIDEO_IMAGES_NOT_READY'});
+  await run(process.execPath, [resolve(root, 'scripts/video/build-props.mjs'), movieId]);
   await readFile(resolve(root, `video/examples/${slug}.json`), 'utf8');
   const remotion = resolve(root, 'node_modules', '@remotion', 'cli', 'remotion-cli.js');
   await run(process.execPath, [remotion, 'render', 'video/src/index.ts', 'CC18Vertical', output, `--props=video/examples/${slug}.json`, '--codec=h264', '--crf=18', '--pixel-format=yuv420p']);

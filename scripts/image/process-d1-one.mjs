@@ -22,6 +22,9 @@ for (const role of Object.keys(config.roles)) selectImageSpec(config, models, ro
 const store = queueStoreFromEnvironment({mode: 'd1'});
 let job = requestedMovieId ? await store.findJob({movieId: requestedMovieId, stage: 'image'}) : null;
 if (requestedMovieId && !job) job = await store.enqueueJob({movieId: requestedMovieId, stage: 'image'});
+if (requestedMovieId && job?.status === 'retry') {
+  job = await store.requeueRetry({jobId: job.id, allowedErrorCodes: ['IMAGE_GENERATION_FAILED']}) ?? job;
+}
 const workerId = `image-${hostname()}-${process.pid}-${randomUUID().slice(0, 8)}`;
 const claimed = await store.claim({stage: 'image', jobId: job?.id ?? null, workerId, leaseSeconds: pipeline.queue.lease_seconds});
 if (!claimed) {

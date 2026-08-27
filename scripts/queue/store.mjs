@@ -108,6 +108,39 @@ export class FileQueueStore {
     return {movies: state.movies.length, jobs: state.jobs.length, jobs_by_status: jobsByStatus, last_run: state.runs.at(-1) ?? null};
   }
 
+  async queueHealth({now = new Date()} = {}) {
+    const state = await this.read();
+    const nowIso = now.toISOString();
+    const stale_leases = state.jobs.filter((job) => job.status === 'leased' && job.lease_expires_at && job.lease_expires_at <= nowIso);
+    const ready_retries = state.jobs.filter((job) => job.status === 'retry' && (!job.next_retry_at || job.next_retry_at <= nowIso));
+    return {checked_at: nowIso, stale_leases: structuredClone(stale_leases), ready_retries: structuredClone(ready_retries)};
+  }
+
+  async repairExpiredLeases({now = new Date()} = {}) {
+    const state = await this.read();
+    const nowIso = now.toISOString();
+    const repaired = [];
+    for (const job of state.jobs) {
+      if (job.status !== 'leased' || !job.lease_expires_at || job.lease_expires_at > nowIso) continue;
+      Object.assign(job, {status: 'retry', claimed_by: null, lease_expires_at: null, next_retry_at: null, last_error_code: 'LEASE_EXPIRED', updated_at: nowIso});
+      repaired.push(structuredClone(job));
+    }
+    if (repaired.length) await this.save(state);
+    return repaired;
+  }
+
+  async listCanaryCandidates({limit = 3, now = new Date()} = {}) {
+    const state = await this.read();
+    const nowIso = now.toISOString();
+    return state.jobs.filter((job) => job.stage === 'editorial' && job.attempt < job.max_attempts)
+      .filter((job) => job.status === 'queued' || job.status === 'retry' || (job.status === 'leased' && job.lease_expires_at <= nowIso))
+      .filter((job) => !job.next_retry_at || job.next_retry_at <= nowIso)
+      .map((job) => ({job, movie: state.movies.find(({id}) => id === job.movie_id)}))
+      .filter(({movie}) => movie?.classification === 'eligible' && movie?.metadata_status === 'validated')
+      .sort((left, right) => String(right.movie.release_date).localeCompare(String(left.movie.release_date)) || right.job.priority - left.job.priority || left.job.created_at.localeCompare(right.job.created_at))
+      .slice(0, limit).map(({job, movie}) => structuredClone({...job, release_date: movie.release_date, metadata_status: movie.metadata_status}));
+  }
+
   async getMovie(movieId) {
     const state = await this.read();
     return structuredClone(state.movies.find((item) => item.id === normalizedId(movieId)) ?? null);
@@ -293,6 +326,41 @@ export class D1RestQueueStore {
       jobs_by_status: Object.fromEntries((statuses.results ?? []).map(({status, count}) => [status, count])),
       last_run: lastRun.results?.[0] ?? null,
     };
+  }
+
+  async queueHealth({now = new Date()} = {}) {
+    const nowIso = now.toISOString();
+    const [stale, retries] = await this.query([
+      {sql: `SELECT * FROM pipeline_jobs WHERE status='leased' AND lease_expires_at IS NOT NULL AND lease_expires_at <= ? ORDER BY lease_expires_at`, params: [nowIso]},
+      {sql: `SELECT * FROM pipeline_jobs WHERE status='retry' AND (next_retry_at IS NULL OR next_retry_at <= ?) ORDER BY updated_at`, params: [nowIso]},
+    ]);
+    return {checked_at: nowIso, stale_leases: stale.results ?? [], ready_retries: retries.results ?? []};
+  }
+
+  async repairExpiredLeases({now = new Date()} = {}) {
+    const nowIso = now.toISOString();
+    const [result] = await this.query({
+      sql: `UPDATE pipeline_jobs SET status='retry', claimed_by=NULL, lease_expires_at=NULL, next_retry_at=NULL, last_error_code='LEASE_EXPIRED', updated_at=?
+            WHERE status='leased' AND lease_expires_at IS NOT NULL AND lease_expires_at <= ? RETURNING *`,
+      params: [nowIso, nowIso],
+    });
+    return result.results ?? [];
+  }
+
+  async listCanaryCandidates({limit = 3, now = new Date()} = {}) {
+    const bounded = Math.max(1, Math.min(3, Number(limit) || 1));
+    const nowIso = now.toISOString();
+    const [result] = await this.query({
+      sql: `SELECT j.*, m.release_date, m.metadata_status
+            FROM pipeline_jobs j JOIN movies m ON m.id=j.movie_id
+            WHERE j.stage='editorial' AND j.attempt < j.max_attempts
+              AND m.classification='eligible' AND m.metadata_status='validated'
+              AND (j.status IN ('queued','retry') OR (j.status='leased' AND j.lease_expires_at <= ?))
+              AND (j.next_retry_at IS NULL OR j.next_retry_at <= ?)
+            ORDER BY m.release_date DESC, j.priority DESC, j.created_at ASC LIMIT ?`,
+      params: [nowIso, nowIso, bounded],
+    });
+    return result.results ?? [];
   }
 
   async getMovie(movieId) {

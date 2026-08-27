@@ -64,6 +64,8 @@ Creative-first 路徑已與 Media 解耦：Discovery 對每部 eligible 作品�
 
 Publisher 路徑已接成 `publish queued → 內容與媒體 QA → 限定檔案 commit/push → Cloudflare Pages → 正式頁 release-id／播放器驗證 → D1 completed`。正式頁的 release-id 使用核准 Markdown 的 SHA-256，因此 Git push、Pages build 或邊緣切換任一環節尚未完成時，都不會提前結案。手動 canary 由 GitHub 的 `Content pipeline` 選擇 `publish` 並填入精確番號；大量排程仍維持關閉。
 
+本機限量生產可使用 `npm run canary:run -- --max=1`，每次硬性限制最多三部，依序完成 Editorial、Image、Video、Publisher。執行前可用 `npm run canary:health` 檢查佇列，或以 `npm run canary:repair` 將已過期 lease 安全改回 retry。完整操作與安全邊界見 [docs/canary-cycle.md](docs/canary-cycle.md)。
+
 ## Architecture
 
 - 最新套件來源：`architecture/cc18-architecture-v0.17.0-draft/`
