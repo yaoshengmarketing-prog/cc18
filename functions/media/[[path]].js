@@ -5,6 +5,14 @@ const mediaKey = (context) => {
   return Array.isArray(value) ? value.join('/') : value;
 };
 
+const corsHeaders = () => ({
+  'access-control-allow-origin': '*',
+  'access-control-allow-methods': 'GET, HEAD, OPTIONS',
+  'access-control-allow-headers': 'Range',
+  'access-control-expose-headers': 'Accept-Ranges, Content-Length, Content-Range, ETag',
+  'access-control-max-age': '86400',
+});
+
 const baseHeaders = (object) => {
   const headers = new Headers();
   object.writeHttpMetadata(headers);
@@ -12,8 +20,13 @@ const baseHeaders = (object) => {
   headers.set('accept-ranges', 'bytes');
   headers.set('cache-control', 'public, max-age=31536000, immutable');
   headers.set('x-content-type-options', 'nosniff');
+  for (const [name, value] of Object.entries(corsHeaders())) headers.set(name, value);
   return headers;
 };
+
+export async function onRequestOptions() {
+  return new Response(null, {status: 204, headers: corsHeaders()});
+}
 
 export async function onRequestGet(context) {
   const key = mediaKey(context);

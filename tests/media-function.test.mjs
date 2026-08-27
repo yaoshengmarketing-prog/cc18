@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {onRequestGet, onRequestHead} from '../functions/media/[[path]].js';
+import {onRequestGet, onRequestHead, onRequestOptions} from '../functions/media/[[path]].js';
 
 const object = (range) => ({
   body: new Uint8Array(range ? range.length : 100),
@@ -31,6 +31,15 @@ test('serves only an allowlisted immutable media key', async () => {
   assert.equal(response.status, 200);
   assert.equal(response.headers.get('content-type'), 'video/mp4');
   assert.equal(response.headers.get('cache-control'), 'public, max-age=31536000, immutable');
+  assert.equal(response.headers.get('access-control-allow-origin'), '*');
+  assert.match(response.headers.get('access-control-expose-headers'), /Content-Range/);
+});
+
+test('answers media CORS preflight requests', async () => {
+  const response = await onRequestOptions();
+  assert.equal(response.status, 204);
+  assert.equal(response.headers.get('access-control-allow-origin'), '*');
+  assert.equal(response.headers.get('access-control-allow-methods'), 'GET, HEAD, OPTIONS');
 });
 
 test('returns 200 when R2 reports a full object range without an HTTP Range request', async () => {
