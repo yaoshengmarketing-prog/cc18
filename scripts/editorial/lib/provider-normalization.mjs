@@ -33,10 +33,9 @@ export function parseFirstJsonObject(value) {
   throw new Error('Editorial provider returned no complete JSON object');
 }
 
-function derivedCanonicalTags(safeVideoAnalysis) {
+function derivedEditorialTags(safeVideoAnalysis) {
   const observations = safeVideoAnalysis.observations ?? [];
   const tags = ['story'];
-  if (observations.some(({camera}) => camera.includes('近距離鏡位'))) tags.push('close-perspective');
   if (new Set(observations.map(({tone}) => tone)).size > 1) tags.push('contrast-charm');
   return tags.slice(0, 6);
 }
@@ -218,7 +217,7 @@ export function normalizeEditorialResult(raw, {movieId, safePublicSource, safeVi
     social_title: clip(raw.social_title ?? raw.socialTitle, 90),
     short_review: clip(firstText(raw.short_review, review.intro, brief.positioning, raw.editorial_angle), 240),
     editorial_angle: clip(firstText(raw.editorial_angle, brief.angle, brief.positioning, raw.decision_guide?.thesis, angleCandidates[0]), 300),
-    canonical_tag_ids: raw.canonical_tag_ids?.length ? raw.canonical_tag_ids : derivedCanonicalTags(safeVideoAnalysis),
+    editorial_tag_ids: raw.editorial_tag_ids?.length ? raw.editorial_tag_ids : (raw.canonical_tag_ids?.length ? raw.canonical_tag_ids : derivedEditorialTags(safeVideoAnalysis)),
     evidence: raw.evidence?.length ? raw.evidence : (safeVideoAnalysis.observations?.length ? derivedEvidence(safeVideoAnalysis) : derivedSourceEvidence(safePublicSource)),
     creative_reconstruction_notes: raw.creative_reconstruction_notes ?? raw.creativeNotes ?? [
       '正文允許依核心題材補寫敘事銜接與人物動機',

@@ -1,11 +1,16 @@
 {
   "schema_version": 1,
   "id": "TPNS-037",
-  "review_sha256": "22bcad0e3b1d81a2655110d25ac28b837d5b879a79306c0a8787c31389fe804a",
-  "selected_thesis": "本片較像以形象企劃帶動觀看動機的長篇作品，核心賣點集中在「角色扮演」與「辣妹風格」兩個明確訊號，再以高畫質、獨家配信作為平台導向的包裝補強。就抽樣可見內容來看，場景多落在臥室型室內與一般室內，並穿插職場型、棚內與浴室型環境，整體不是靠複雜世界觀推進，而是靠不同空間切換維持節奏與新鮮感。",
+  "review_sha256": "d360bb5e26ede735e295af35e3d32cee3f15aa57b82f6cef90c625c587398549",
+  "selected_thesis": "本作最值得看的不是單一刺激點，而是「變性人」這個企劃核心如何透過辣妹風格與角色扮演被層層展示：前段先建立觀看者對外型與互動方式的認知，後段再把節奏、主導感與群體參與推高，讓作品從單純展示轉成有階段感的進場過程。",
   "title_basis": {
     "performer": null,
     "signals": [
+      {
+        "type": "theme",
+        "value": "變性人",
+        "source_field": "safe_signals"
+      },
       {
         "type": "theme",
         "value": "角色扮演",
@@ -15,76 +20,83 @@
         "type": "presentation",
         "value": "辣妹風格",
         "source_field": "safe_signals"
-      },
-      {
-        "type": "presentation",
-        "value": "高畫質",
-        "source_field": "safe_signals"
-      },
-      {
-        "type": "presentation",
-        "value": "獨家配信",
-        "source_field": "safe_signals"
       }
     ],
-    "primary_theme": "角色扮演",
-    "presentation_feature": "辣妹風格",
-    "editorial_judgment": "本片較像以形象企劃帶動觀看動機的長篇作品，核心賣點集中在「角色扮演」與「辣妹風格」兩個明確訊號，再以高畫質、獨家配信作為平台導向的包裝補強。就抽樣可見內容來看，場景多落在臥室型室內與一般室內，並穿插職場型、棚內與浴室型環境，整體不是靠複雜世界觀推進，而是靠不同空間切換維持節奏與新鮮感。",
+    "primary_theme": "變性人",
+    "presentation_feature": "角色扮演",
+    "editorial_judgment": "以變性人作為不可替代的企劃核心，分析本作如何藉由角色扮演與辣妹風格建立第一眼吸引力，再透過互動節奏的升溫，把展示型作品做出層次。",
     "source_keywords": [
+      "變性人",
       "角色扮演",
-      "辣妹風格",
-      "高畫質",
-      "獨家配信"
+      "辣妹風格"
     ]
   },
   "evidence": [
     {
-      "basis": "video_sample",
-      "signal": "職場型場景、中性互動、中景鏡位、一般鏡位",
-      "supports": "支持文章對場景配置、互動氣氛與攝影距離的概括",
-      "observation_refs": [
-        0
-      ]
+      "basis": "public_source",
+      "signal": "theme：角色扮演",
+      "supports": "這項可追溯來源訊號支持文章以「角色扮演」作為選片辨識與標題依據。",
+      "observation_refs": []
     },
     {
-      "basis": "video_sample",
-      "signal": "臥室型室內場景、中性互動、近距離鏡位、一般鏡位",
-      "supports": "支持文章對場景配置、互動氣氛與攝影距離的概括",
-      "observation_refs": [
-        6
-      ]
+      "basis": "public_source",
+      "signal": "presentation：辣妹風格",
+      "supports": "這項可追溯來源訊號支持文章以「辣妹風格」作為選片辨識與標題依據。",
+      "observation_refs": []
     },
     {
-      "basis": "video_sample",
-      "signal": "一般室內場景、中性互動、近距離鏡位、一般鏡位",
-      "supports": "支持文章對場景配置、互動氣氛與攝影距離的概括",
-      "observation_refs": [
-        12
-      ]
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
     },
     {
-      "basis": "video_sample",
-      "signal": "一般室內場景、輕鬆互動、一般鏡位",
-      "supports": "支持文章對場景配置、互動氣氛與攝影距離的概括",
-      "observation_refs": [
-        18
-      ]
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
     },
     {
-      "basis": "video_sample",
-      "signal": "臥室型室內場景、中性互動、近距離鏡位、一般鏡位",
-      "supports": "支持文章對場景配置、互動氣氛與攝影距離的概括",
-      "observation_refs": [
-        23
-      ]
+      "basis": "public_source",
+      "signal": "theme：變性人",
+      "supports": "這項可追溯來源訊號支持文章以「變性人」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：辣妹",
+      "supports": "這項可追溯來源訊號支持文章以「辣妹」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：變性人",
+      "supports": "這項可追溯來源訊號支持文章以「變性人」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "costume：角色扮演",
+      "supports": "這項可追溯來源訊號支持文章以「角色扮演」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色扮演",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：辣妹",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
     }
   ],
   "unsupported_claims_excluded": [
-    "未提供姓名時不辨識演員",
-    "不虛構對白或心理",
-    "不宣稱逐幀完整觀看"
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
   ],
   "scores": null,
-  "rewrite_attempts": 2,
+  "rewrite_attempts": 0,
   "approved_for_publish": false
 }

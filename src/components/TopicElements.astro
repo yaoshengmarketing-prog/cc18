@@ -1,0 +1,26 @@
+---
+import {sourceTagGroupLabels, topicElementsFromSourceTags} from '../lib/taxonomy';
+
+const {sourceTags} = Astro.props;
+const elements = topicElementsFromSourceTags(sourceTags);
+const rows = [...sourceTagGroupLabels].flatMap(([group, label]) => {
+  const values = elements[group] ?? [];
+  return values.length ? [{group, label, values}] : [];
+});
+---
+{rows.length > 0 && (
+  <section class="topic-elements" aria-labelledby="topic-elements-title">
+    <div class="topic-elements-heading">
+      <div><p class="eyebrow">SOURCE TOPIC MAP</p><h2 id="topic-elements-title">這部作品有哪些題材元素？</h2></div>
+      <p>依 CC18 原始標籤整理，讓人物、身材、關係、場景、行為與呈現方式可以快速比較。</p>
+    </div>
+    <dl class="topic-elements-grid">
+      {rows.map(({group, label, values}) => (
+        <div data-group={group}>
+          <dt>{label}</dt>
+          <dd>{values.map((value) => <span>{value}</span>)}</dd>
+        </div>
+      ))}
+    </dl>
+  </section>
+)}

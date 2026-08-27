@@ -59,7 +59,8 @@ const cameraRules = [
   {pattern: /medium|中景/, label: '中景鏡位'},
 ];
 
-export const safeCanonicalTagIds = ['story', 'close-perspective', 'asmr', 'contrast-charm', 'kissing', 'active-female'];
+// Kept as an exported compatibility name; these are now editorial-only IDs.
+export const safeCanonicalTagIds = ['story', 'contrast-charm', 'slow-burn', 'character-awakening', 'agency-shift', 'relationship-shift', 'everyday-intimacy', 'series-formula', 'high-story-density', 'showcase-format'];
 
 const unsafeBriefPattern = /口交|顏射|亂交|性交|性愛|性器|性行為|陰道|陰莖|肛門|精液|射精|內射|勃起|乳交|手交|自慰|插入|抽插|肉棒|雞巴|小穴|玩具攻擊|\b\d+\s*p\b|\d+\s*發|\bsex\b|oral|anal|facial|ejaculat|penetrat/i;
 
@@ -94,6 +95,7 @@ export function buildExternalCreativeBrief(localBrief, source = {}) {
     source_field: String(source.title ?? '').includes(value) ? 'title' : 'description',
   }));
   return {
+    core_source_concept: String(localBrief.core_source_concept ?? '').normalize('NFKC').trim().slice(0, 30),
     premise: `以${themes[0]}與${themes[1]}為主軸，聚焦角色由嘗試、適應到掌握節奏的轉變。`,
     relationship: '主角與引導者及其他參與者之間的合作關係',
     role_dynamic: '主角從接受引導逐步建立自信，並在互動中取得更鮮明的主導性。',
@@ -137,9 +139,20 @@ export function buildSafeVideoAnalysis(analysis) {
   };
 }
 
-export function buildSafePublicSource(source, localCreativeBrief = null) {
+export function buildSafePublicSource(source, localCreativeBrief = null, taxonomy = null) {
   const externalBrief = buildExternalCreativeBrief(localCreativeBrief, source);
-  const safeTitleSignals = [...buildSafeTitleSignals(source), ...(externalBrief?.source_concepts ?? []).map((concept) => ({
+  const topicElements = taxonomy ? buildSourceTopicElements(source, taxonomy) : {};
+  const signalTypeByGroup = {
+    identity: 'identity', body: 'body_type', clothing: 'costume', relationship: 'relationship',
+    setting: 'setting', action: 'act_or_position', presentation: 'presentation',
+  };
+  const topicSignals = Object.entries(topicElements).flatMap(([group, labels]) => labels.map((value) => ({
+    type: signalTypeByGroup[group] ?? 'theme', value, source_field: 'safe_signals',
+  })));
+  const coreSignal = externalBrief?.core_source_concept
+    ? [{type: 'theme', value: externalBrief.core_source_concept, source_field: 'safe_signals'}]
+    : [];
+  const safeTitleSignals = [...buildSafeTitleSignals(source), ...coreSignal, ...topicSignals, ...(externalBrief?.source_concepts ?? []).map((concept) => ({
     type: 'theme', value: concept.value, source_field: concept.source_field,
   }))];
   const uniqueSignals = [...new Map(safeTitleSignals.map((signal) => [`${signal.type}:${signal.value}`, signal])).values()].slice(0, 8);
@@ -151,7 +164,22 @@ export function buildSafePublicSource(source, localCreativeBrief = null) {
     release_date: source.release_date,
     actress: source.actress ?? [],
     series: source.series ?? null,
+    core_source_concept: externalBrief?.core_source_concept ?? null,
     safe_title_signals: uniqueSignals,
+    topic_elements: topicElements,
     creative_seed_brief: externalBrief,
   };
+}
+
+export function buildSourceTopicElements(source, taxonomy) {
+  const tagsById = new Map(taxonomy.tags.map((tag) => [tag.id, tag]));
+  const normalizedMap = new Map(Object.entries(taxonomy.source_tag_map).map(([label, id]) => [normalize(label), id]));
+  const grouped = Object.fromEntries(taxonomy.groups.filter(({origin}) => origin === 'source').map(({id}) => [id, []]));
+  for (const rawLabel of source.source_tags ?? []) {
+    const label = String(rawLabel).normalize('NFKC').trim();
+    const id = normalizedMap.get(normalize(label));
+    const group = tagsById.get(id)?.group;
+    if (group && grouped[group] && !grouped[group].includes(label)) grouped[group].push(label);
+  }
+  return grouped;
 }

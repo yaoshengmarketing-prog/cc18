@@ -40,6 +40,11 @@ npm run video:studio
 - `docs/editorial-d1.md`：影片 Evidence 到 Editorial Draft／QA 的 D1 接棒與模型責任。
 - `docs/publisher.md`：發布 QA、限定提交、Cloudflare 正式頁驗證與 D1 完成條件。
 - `cloudflare/migrations/0001_pipeline_queue.sql`：持久化 Queue 的 D1 schema。
+- `config/agent-roles.json`：Scout、Tag Curator、Editor、Critic/QA、Media Producer、Publisher 的責任與交接契約。
+- `docs/agent-workflow.md`：多角色工作流、失敗隔離與資料 source of truth。
+- `docs/content-canary.md`：3–7 天內容 canary；每天最多三部、單工執行，正式日排程保持關閉。
+
+Tag 現在固定分成三層：CC18 原始標籤逐字保存；站內標準標籤只由 taxonomy 規則映射；影評觀點標籤由 Editor 提出並由 Critic/QA 審核。作品頁另由原始標籤自動整理「人物身分、身材、衣著、關係、場景、行為與體位、拍攝與形式」摘要，這些來源字詞也進入站內搜尋，不依賴 AI 是否剛好寫進正文。
 
 批次 Discovery 與本機 worker 目前只允許手動執行：
 

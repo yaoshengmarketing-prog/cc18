@@ -11,6 +11,7 @@ const policy = await readJson('config/review-policy.json');
 const titlePolicy = await readJson('config/title-policy.json');
 
 const knownTagIds = new Set(taxonomy.tags.map(({id}) => id));
+const editorialTagIds = new Set(taxonomy.tags.filter(({group}) => group === 'editorial').map(({id}) => id));
 const ignoredSourceTags = new Set(taxonomy.ignored_source_tags);
 const candidateLabels = new Set(candidates.candidates.map(({label}) => label));
 
@@ -65,7 +66,7 @@ for (const record of published) {
   }
   const sourceCorpus = [
     source.title, source.description, ...(source.actress ?? []), source.series,
-    ...buildSafeTitleSignals(source).map(({value}) => value),
+    ...(source.source_tags ?? []), ...buildSafeTitleSignals(source).map(({value}) => value),
   ].filter(Boolean).join('\n');
   for (const signal of titleSignals) {
     if (!sourceCorpus.includes(signal)) throw new Error(`${record.id}: title signal is not traceable to source: ${signal}`);
@@ -84,10 +85,14 @@ for (const record of published) {
   if (translatedTitleZhTw && !originalTitleJa) throw new Error(`${record.id}: translatedTitleZhTw requires originalTitleJa`);
 
   const tagIds = list(yaml, 'canonicalTagIds');
+  const reviewEditorialTagIds = list(yaml, 'editorialTagIds');
   if (!tagIds.length) throw new Error(`${record.id}: at least one canonicalTagId is required`);
   if (tagIds.length > taxonomy.policy.max_visible_tags_per_review) throw new Error(`${record.id}: too many canonical tags`);
   for (const id of tagIds) {
     if (!knownTagIds.has(id)) throw new Error(`${record.id}: unknown canonical tag ID ${id}`);
+  }
+  for (const id of reviewEditorialTagIds) {
+    if (!editorialTagIds.has(id)) throw new Error(`${record.id}: ${id} is not an editorial tag`);
   }
 
   for (const sourceTag of source.source_tags ?? []) {
@@ -126,6 +131,7 @@ for (const record of published) {
     specificity: gate.minimum_specificity,
     originality: gate.minimum_originality,
     decision_value: gate.minimum_decision_value,
+    ...(scores.search_value === undefined ? {} : {search_value: gate.minimum_search_value}),
   };
   for (const [dimension, minimum] of Object.entries(thresholds)) {
     if (scores[dimension] < minimum) throw new Error(`${record.id}: ${dimension} ${scores[dimension]} is below ${minimum}`);

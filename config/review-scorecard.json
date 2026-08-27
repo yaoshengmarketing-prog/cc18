@@ -1,14 +1,23 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "scale": "0-10",
   "dimensions": {
-    "identity_integrity": {"weight": 0.08, "question": "Catalog number, performer, date, series and source CTA remain correctly attached to the work."},
-    "specificity": {"weight": 0.18, "question": "The core judgment cannot be reused by only changing the performer or catalog number."},
-    "originality": {"weight": 0.18, "question": "The angle, opening, section logic and conclusion differ from recent reviews."},
-    "narrative_coherence": {"weight": 0.18, "question": "Creative reconstruction forms a coherent, engaging reading rather than disconnected invented details."},
-    "analysis_depth": {"weight": 0.12, "question": "The review turns its premise and creative reconstruction into a meaningful interpretation."},
-    "search_value": {"weight": 0.1, "question": "Catalog number, performer and core topic terms appear naturally without stuffing."},
-    "decision_value": {"weight": 0.1, "question": "Readers can tell both who the work may suit and who may prefer something else."},
-    "low_repetition": {"weight": 0.06, "question": "Sections answer different questions and do not recycle the same claim."}
+    "identity_integrity": {"weight": 0.08, "question": "Catalog number, performer, date, series, exact source title, source tags and source CTA remain correctly attached to the work; editorial interpretation does not overwrite source or canonical data."},
+    "specificity": {"weight": 0.17, "question": "The core judgment names source-specific people, relationships, settings or adult topics and cannot be reused by only changing the performer or catalog number."},
+    "originality": {"weight": 0.15, "question": "The angle, opening, section logic and conclusion differ from recent reviews instead of defaulting to generic progression, rhythm or contrast arcs."},
+    "narrative_coherence": {"weight": 0.15, "question": "Creative reconstruction forms a coherent, engaging reading rather than disconnected invented details."},
+    "analysis_depth": {"weight": 0.11, "question": "The review explains how its source-grounded adult topics combine, which are central versus secondary, and why that combination matters."},
+    "search_value": {"weight": 0.16, "question": "Catalog number, performer and CC18 adult-topic vocabulary appear naturally in the title, topic summary and prose, answer selection questions and avoid keyword stuffing."},
+    "decision_value": {"weight": 0.1, "question": "Readers can quickly identify the work's people or identity, body type, costume, relationship, setting, acts or positions, presentation, trade-offs, suitable audience and unsuitable audience."},
+    "low_repetition": {"weight": 0.08, "question": "Sections answer different questions and do not recycle the same claim or rely on 被引導到主動、節奏逐漸升高、反差魅力 as universal filler."}
+  },
+  "automatic_deductions": {
+    "technical_quality_displaces_primary_adult_topic_in_title": {"dimension": "search_value", "maximum_score": 6.0},
+    "topic_element_summary_missing": {"dimension": "decision_value", "maximum_score": 6.0},
+    "source_canonical_editorial_tag_layers_confused": {"dimension": "identity_integrity", "maximum_score": 5.0},
+    "generic_arc_used_without_source_specific_reason": {"dimension": "originality", "maximum_score": 6.0},
+    "popular_tag_displaces_source_title_core": {"dimension": "specificity", "maximum_score": 6.0},
+    "source_core_concept_not_developed_in_prose": {"dimension": "analysis_depth", "maximum_score": 6.0},
+    "adult_keywords_listed_without_answering_reader_question": {"dimension": "search_value", "maximum_score": 6.5}
   }
 }

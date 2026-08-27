@@ -5,7 +5,8 @@ import TagList from '../../components/TagList.astro';
 import VideoPlayer from '../../components/VideoPlayer.astro';
 import WorkFacts from '../../components/WorkFacts.astro';
 import DecisionGuide from '../../components/DecisionGuide.astro';
-import {visibleTags} from '../../lib/reviews';
+import TopicElements from '../../components/TopicElements.astro';
+import {reviewEditorialTags, visibleTags} from '../../lib/reviews';
 import {sourceTagItems} from '../../lib/taxonomy';
 import {sourceRecordFor} from '../../lib/source-records';
 import {searchContentFor} from '../../lib/search-content';
@@ -22,6 +23,7 @@ const related = new Map(allReviews.map((item) => [item.data.id, item]));
 const source = sourceRecordFor(review.data.id);
 const search = searchContentFor(review.data.id);
 const quality = reviewQualityFor(review.data.id);
+const editorialTags = reviewEditorialTags(review);
 if (!quality?.approved_for_publish) throw new Error(`${review.data.id}: approved review quality record missing`);
 const pageUrl = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
 const imageUrl = new URL(review.data.heroUrl ?? review.data.coverUrl, Astro.site ?? Astro.url.origin);
@@ -80,6 +82,9 @@ if (review.data.videoUrl) structuredData.push({
         <TagList tags={visibleTags(review)} />
         <p class="tag-label source-tag-label">CC18 原始標籤</p>
         <TagList tags={sourceTagItems(review.data.sourceTags)} />
+        {editorialTags.length > 0 && (
+          <><p class="tag-label editorial-tag-label">影評觀點</p><TagList tags={editorialTags} /></>
+        )}
         <a class="button source-cta" href={review.data.sourceUrl} target="_blank" rel="sponsored noopener">
           <span>在 CC18 查看完整作品資訊</span><b>前往原始作品頁 ↗</b>
         </a>
@@ -92,6 +97,7 @@ if (review.data.videoUrl) structuredData.push({
       </figure>
     )}
     <WorkFacts review={review} source={source} search={search} />
+    <TopicElements sourceTags={review.data.sourceTags} />
     <VideoPlayer src={review.data.videoUrl} poster={review.data.heroUrl ?? review.data.coverUrl} sourceUrl={review.data.sourceUrl} title={review.data.id} />
     {search && <DecisionGuide content={search} related={related} />}
     <div class="article-layout">

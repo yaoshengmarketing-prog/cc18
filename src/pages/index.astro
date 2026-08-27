@@ -3,13 +3,13 @@ import {getCollection} from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ReviewCard from '../components/ReviewCard.astro';
 import TagList from '../components/TagList.astro';
-import {byNewest, formatDate, reviewHref, visibleTags} from '../lib/reviews';
+import {byNewest, formatDate, reviewHref, reviewTagIds, visibleTags} from '../lib/reviews';
 import {tagItems} from '../lib/taxonomy';
 
 const reviews = (await getCollection('reviews', ({data}) => data.status === 'published')).sort(byNewest);
 const featured = reviews.find(({data}) => data.featured) ?? reviews[0];
 const latest = reviews.slice(0, 8);
-const tagIds = [...new Set(reviews.flatMap((review) => review.data.canonicalTagIds))].slice(0, 12);
+const tagIds = [...new Set(reviews.flatMap(reviewTagIds))].slice(0, 12);
 const tags = tagItems(tagIds);
 ---
 <BaseLayout title="最新作品影評" description="CC18 最新作品、完整作品資料、證據型原創影評與清楚的原始作品入口。" adult={true}>
@@ -55,8 +55,8 @@ const tags = tagItems(tagIds);
     </div>
     <div class="editorial-panel">
       <span class="quote-mark">“</span>
-      <p>我們寫的是公開設定值得注意的地方，不把沒有看過的畫面寫成親眼所見。</p>
-      <small>CC18 影評原則</small>
+      <p>保留來源用語，再回答這一部作品的題材組合、差異與選片價值。</p>
+      <small>CC18 內容與搜尋原則</small>
     </div>
   </section>
 </BaseLayout>

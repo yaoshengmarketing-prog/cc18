@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "workflow_id": "cc18-content-v1",
+  "execution_model": "role_separated_pipeline",
+  "production_schedule_enabled": false,
+  "source_of_truth": {
+    "queue_and_job_state": "cloudflare_d1",
+    "source_identity_and_provenance": "source_record",
+    "published_work_state": "data/movie-registry.json",
+    "canonical_tag_definition": "canonical_taxonomy",
+    "source_tag_observation": "source_record.source_tags",
+    "editorial_interpretation": "review_draft",
+    "media_asset_state": "media_manifest",
+    "repository_content": "github_main",
+    "deployment_state": "cloudflare_pages_release"
+  },
+  "invariants": {
+    "source_identity_is_immutable_after_validation": true,
+    "ai_cannot_write_queue_or_registry_directly": true,
+    "editorial_tags_cannot_mutate_source_tags": true,
+    "publisher_requires_completed_quality_gate": true,
+    "one_work_failure_does_not_block_other_works": true,
+    "daily_schedule_must_remain_disabled_during_canary": true
+  },
+  "handoff_contract": {
+    "schema_version": 1,
+    "required_envelope_fields": [
+      "contract_version",
+      "handoff_id",
+      "work_id",
+      "from_role",
+      "to_role",
+      "input_refs",
+      "output_ref",
+      "status",
+      "attempt",
+      "created_at"
+    ],
+    "allowed_statuses": ["ready", "accepted", "completed", "retry", "blocked", "failed"],
+    "reference_only_payloads": true,
+    "forbid_secrets_in_payload": true,
+    "idempotency_key": "{work_id}:{from_role}:{to_role}:{contract_version}",
+    "example": {
+      "contract_version": 1,
+      "handoff_id": "GAREA-627:editor:critic:1",
+      "work_id": "GAREA-627",
+      "from_role": "editor",
+      "to_role": "critic_qa",
+      "input_refs": ["source_record:GAREA-627", "tag_decision:GAREA-627:v1"],
+      "output_ref": "review_draft:GAREA-627:v1",
+      "status": "ready",
+      "attempt": 1,
+      "created_at": "2026-08-28T00:00:00.000Z"
+    }
+  },
+  "roles": {
+    "scout": {
+      "executor": "deterministic_program",
+      "purpose": "發現新作、解析來源欄位、依作品頁日期判定資格並去重入列。",
+      "reads": ["cc18_listing", "cc18_work_page", "cloudflare_d1"],
+      "writes": ["source_record", "cloudflare_d1"],
+      "must_not": ["write_review", "invent_source_fact", "publish_content"],
+      "output_contract": "source_record:v1",
+      "next": ["tag_curator"]
+    },
+    "tag_curator": {
+      "executor": "rules_first_ai_assisted",
+      "purpose": "完整保留來源標籤，依規則映射 canonical tag，AI 僅能提出 editorial tag 與未知詞候選。",
+      "reads": ["source_record", "canonical_taxonomy", "tag_alias_map"],
+      "writes": ["tag_decision", "tag_candidate_queue"],
+      "must_not": ["delete_source_tag", "promote_candidate_without_rule", "mutate_canonical_taxonomy", "publish_content"],
+      "output_contract": "tag_decision:v1",
+      "next": ["editor"]
+    },
+    "editor": {
+      "executor": "ai_with_deterministic_input_filter",
+      "purpose": "根據來源記錄、標籤決策與近期文章差異資料產生標題、搜尋摘要、題材資訊與完整影評。",
+      "reads": ["source_record", "tag_decision", "recent_content_fingerprint", "editorial_policy"],
+      "writes": ["review_draft"],
+      "must_not": ["mutate_source_record", "mutate_registry", "publish_content", "receive_secret"],
+      "output_contract": "review_draft:v1",
+      "next": ["critic_qa"]
+    },
+    "critic_qa": {
+      "executor": "deterministic_checks_plus_independent_ai_critic",
+      "purpose": "檢查身分完整性、搜尋價值、情色題材具體度、差異性、重複度與選片決策價值。",
+      "reads": ["source_record", "tag_decision", "review_draft", "recent_content_fingerprint", "quality_policy"],
+      "writes": ["quality_report", "approved_review"],
+      "must_not": ["silently_rewrite_source_fact", "self_approve_without_score", "publish_content"],
+      "output_contract": "quality_report:v1",
+      "next_on_pass": ["media_producer"],
+      "next_on_rewrite": ["editor"]
+    },
+    "media_producer": {
+      "executor": "deterministic_orchestrator_with_ai_image_provider",
+      "purpose": "建立非露骨原創圖片、Remotion 影片、R2 物件與可驗證的 media manifest。",
+      "reads": ["approved_review", "media_policy", "asset_manifest"],
+      "writes": ["r2_objects", "media_manifest"],
+      "must_not": ["use_unlicensed_source_footage", "block_article_on_video_failure", "leave_unverified_r2_object", "retain_local_runtime_after_verified_upload"],
+      "output_contract": "media_manifest:v1",
+      "next": ["publisher"]
+    },
+    "publisher": {
+      "executor": "deterministic_program",
+      "purpose": "執行最終驗證、更新 Registry、提交 GitHub main、驗證 Cloudflare release 與正式頁。",
+      "reads": ["source_record", "approved_review", "quality_report", "media_manifest", "cloudflare_d1"],
+      "writes": ["data/movie-registry.json", "github_main", "cloudflare_pages_release", "cloudflare_d1"],
+      "must_not": ["publish_failed_quality_gate", "commit_unrelated_file", "mark_complete_before_release_verification", "enable_daily_schedule"],
+      "output_contract": "publication_receipt:v1",
+      "next": []
+    }
+  },
+  "failure_policy": {
+    "isolation_key": "work_id",
+    "retryable_outcome": "retry",
+    "non_retryable_outcomes": ["blocked", "failed"],
+    "maximum_attempts_per_stage": 5,
+    "automatic_rewrite_attempts": 2,
+    "backoff_minutes": [15, 30, 120, 360],
+    "continue_other_works_after_failure": true,
+    "article_can_publish_without_video": true,
+    "video_failure_status": "retry",
+    "human_escalation": {
+      "required_when": [
+        "source_identity_conflict",
+        "unknown_tag_has_legal_or_identity_risk",
+        "quality_gate_fails_after_rewrite_limit",
+        "same_stage_reaches_maximum_attempts",
+        "provider_credentials_or_billing_blocked",
+        "git_conflict_or_unrelated_dirty_worktree",
+        "deployment_release_mismatch",
+        "failure_rate_exceeds_canary_threshold"
+      ],
+      "not_required_when": [
+        "new_source_tag_is_recorded_as_candidate",
+        "single_image_or_video_job_enters_retry",
+        "one_work_fails_while_other_works_can_continue",
+        "candidate_tag_has_not_reached_promotion_threshold"
+      ]
+    }
+  },
+  "canary": {
+    "enabled": true,
+    "minimum_days": 3,
+    "target_days": 7,
+    "daily_schedule_enabled": false,
+    "daily_work_limit": 3,
+    "maximum_parallel_works": 1,
+    "manual_trigger_only": true,
+    "stop_conditions": {
+      "source_identity_error_count": 1,
+      "unrelated_git_file_committed_count": 1,
+      "wrong_release_verified_count": 1,
+      "secret_exposure_count": 1,
+      "rolling_failure_rate_percent": 20,
+      "stale_lease_count": 1
+    },
+    "promotion_gates": {
+      "minimum_consecutive_healthy_days": 3,
+      "target_consecutive_healthy_days": 7,
+      "minimum_completed_works": 9,
+      "end_to_end_success_rate_percent": 95,
+      "quality_gate_pass_rate_percent": 90,
+      "duplicate_publication_count": 0,
+      "source_identity_error_count": 0,
+      "unverified_r2_asset_count": 0,
+      "wrong_release_verified_count": 0,
+      "stale_lease_count_at_close": 0,
+      "local_runtime_residue_count_at_close": 0
+    },
+    "daily_report_fields": [
+      "date",
+      "selected_work_ids",
+      "completed_work_ids",
+      "failed_work_ids",
+      "stage_attempts",
+      "quality_scores",
+      "duplicate_checks",
+      "r2_hash_verification",
+      "git_commit_ids",
+      "cloudflare_release_ids",
+      "stale_leases",
+      "local_runtime_residue",
+      "human_escalations"
+    ]
+  }
+}

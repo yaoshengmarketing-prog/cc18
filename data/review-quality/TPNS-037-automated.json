@@ -1,13 +1,15 @@
 {
   "schema_version": 1,
   "id": "TPNS-037",
-  "checked_at": "2026-08-26T10:08:53.717Z",
+  "checked_at": "2026-08-27T17:28:37.142Z",
   "passed": true,
   "issues": [],
   "metrics": {
-    "sections": 7,
-    "evidence_items": 5,
-    "distinct_video_windows": 5,
-    "repeated_sentence_groups": 0
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
   }
 }

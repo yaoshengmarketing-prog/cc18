@@ -7,6 +7,10 @@ const knownTagIds = new Set(taxonomy.tags.map(({id}) => id));
 const canonicalTagId = z.string().refine((id) => knownTagIds.has(id), {
   message: 'Tag ID is not present in data/taxonomy.json',
 });
+const editorialTagIds = new Set(taxonomy.tags.filter(({group}) => group === 'editorial').map(({id}) => id));
+const editorialTagId = z.string().refine((id) => editorialTagIds.has(id), {
+  message: 'Editorial tag ID must belong to the editorial taxonomy group',
+});
 
 const reviews = defineCollection({
   loader: glob({pattern: '**/*.{md,mdx}', base: './content/reviews'}),
@@ -33,7 +37,8 @@ const reviews = defineCollection({
     shortReview: z.string(),
     editorialAngle: z.string(),
     sourceTags: z.array(z.string()).default([]),
-    canonicalTagIds: z.array(canonicalTagId).max(taxonomy.policy.max_visible_tags_per_review).default([]),
+    canonicalTagIds: z.array(canonicalTagId).max(24).default([]),
+    editorialTagIds: z.array(editorialTagId).max(4).default([]),
     status: z.enum(['draft', 'published']).default('draft'),
     imageStatus: z.enum(['pending', 'rendered', 'retry', 'skipped']).default('pending'),
     videoStatus: z.enum(['pending', 'rendered', 'retry', 'skipped']).default('pending'),

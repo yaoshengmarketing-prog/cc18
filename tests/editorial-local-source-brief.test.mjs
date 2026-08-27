@@ -1,9 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {createLocalSourceBrief, normalizeLocalSourceBrief} from '../scripts/editorial/lib/local-source-brief.mjs';
+import {coreConceptCandidates, createLocalSourceBrief, normalizeLocalSourceBrief, resolveCoreSourceConcept} from '../scripts/editorial/lib/local-source-brief.mjs';
 import {buildSafePublicSource} from '../scripts/editorial/lib/safe-editorial-payload.mjs';
 
 const brief = {
+  core_source_concept: '共享私人空間',
   premise: '兩位熟識角色因臨時安排被迫共享私人空間',
   relationship: '原本保持禮貌距離的同事',
   role_dynamic: '一方主動試探，另一方從克制轉為回應',
@@ -27,7 +28,7 @@ test('raw source is sent only to loopback and the external-safe payload contains
   };
   const source = {
     id: 'TEST-001', release_date: '2026-08-27', actress: ['測試演員'], series: '同房系列',
-    title: 'RAW TITLE', description: 'RAW DESCRIPTION', source_tags: ['劇情'],
+    title: 'RAW TITLE 共享私人空間', description: 'RAW DESCRIPTION', source_tags: ['劇情'],
   };
   const local = await createLocalSourceBrief(source, {
     local_analysis: {endpoint: 'http://127.0.0.1:11434', vision_model: 'qwen2.5vl:7b', request_timeout_ms: 1000},
@@ -37,6 +38,7 @@ test('raw source is sent only to loopback and the external-safe payload contains
   const safe = buildSafePublicSource(source, local);
   const externalPayload = JSON.stringify(safe);
   assert.doesNotMatch(externalPayload, /RAW TITLE|RAW DESCRIPTION/);
+  assert.equal(safe.core_source_concept, '共享私人空間');
   assert.match(externalPayload, /距離變化/);
   assert.doesNotMatch(externalPayload, /兩位熟識角色因臨時安排/);
 });
@@ -47,6 +49,7 @@ test('external creative brief deterministically removes graphic local-model pros
     title: 'RAW', description: 'RAW', source_tags: ['HD'],
   };
   const graphicBrief = {
+    core_source_concept: '弓道少女',
     premise: '包含口交、顏射與多人性行為的具體敘述',
     relationship: '講師指導具體性行為',
     role_dynamic: '以露骨動作訓練為主',
@@ -62,4 +65,15 @@ test('external creative brief deterministically removes graphic local-model pros
   assert.match(payload, /成長與學習/);
   assert.match(payload, /棚內場景/);
   assert.match(payload, /弓道少女|一日特訓/);
+});
+
+test('a composed model phrase resolves to one exact non-technical source candidate', () => {
+  const source = {
+    title: '超美貌Cosplayer脫掉後令人驚訝', series: null,
+    description: '偽娘角色的企劃內容',
+    source_tags: ['變性人', '亂交', '角色扮演', '720p', '独占配信'],
+  };
+  assert.equal(resolveCoreSourceConcept('變性人肛門亂交', source), '變性人');
+  assert.equal(coreConceptCandidates(source).includes('720p'), false);
+  assert.equal(coreConceptCandidates(source).includes('独占配信'), false);
 });

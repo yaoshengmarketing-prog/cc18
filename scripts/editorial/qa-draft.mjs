@@ -2,7 +2,7 @@ import {createHash} from 'node:crypto';
 import {readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {buildSafeTitleSignals} from './lib/safe-editorial-payload.mjs';
-import {sourceOnlyGroundingIssues} from './lib/qa-rules.mjs';
+import {editorialContentIssues, sourceOnlyGroundingIssues} from './lib/qa-rules.mjs';
 
 const movieId = process.argv[2];
 if (!movieId) throw new Error('Usage: node scripts/editorial/qa-draft.mjs <MOVIE-ID>');
@@ -34,10 +34,18 @@ const searchableSource = [
   source.description,
   ...(source.actress ?? []),
   source.series,
+  ...(source.source_tags ?? []),
   ...buildSafeTitleSignals(source).map(({value}) => value),
 ].filter(Boolean).join('\n');
 if (sourceSignals.some((value) => !searchableSource.includes(value))) issues.push('untraceable_title_signal');
 if (!/適合|偏好|推薦/.test(body) || !/未必|不適合|取捨/.test(body)) issues.push('missing_decision_value');
+issues.push(...editorialContentIssues({
+  body,
+  titles: [scalar('title'), scalar('seoTitle'), scalar('socialTitle')],
+  titleSignals: sourceSignals,
+  topicElements: brief.topic_elements ?? {},
+  coreSourceConcept: brief.local_creative_brief?.core_source_concept ?? '',
+}));
 
 const sentences = body.split(/[。！？!?]\s*/).map((item) => item.replace(/\s+/g, '')).filter((item) => item.length >= 16);
 const counts = new Map();

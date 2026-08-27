@@ -1,15 +1,18 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "editorial_expression": {
     "default": "open",
     "subjective_commentary_allowed": true,
     "creative_scene_reconstruction_allowed": true,
     "audiovisual_interpretation_allowed_without_sampling": true,
+    "adult_search_vocabulary_allowed": true,
+    "adult_search_vocabulary_should_answer_reader_questions": true,
     "restrictions_exist_to_prevent_operational_or_identity_errors_not_to_limit_writing": true
   },
   "source_boundary": {
     "allowed_inputs": ["id", "actress", "release_date", "studio", "series", "source_tags", "title", "description", "source_url"],
     "source_identity_fields_must_remain_exact": true,
+    "source_title_and_tags_are_primary_discovery_layer": true,
     "editorial_reconstruction_must_not_mutate_source_records": true,
     "article_level_method_disclosure_required": false,
     "source_grounded_interpretation_allowed": true,
@@ -18,8 +21,62 @@
     "creative_content_must_not_mutate_registry_or_video_evidence": true,
     "real_person_offscreen_claims_forbidden": true
   },
+  "tag_layers": {
+    "source": {
+      "authority": "cc18",
+      "meaning": "Verbatim source labels used for traceability, discovery and mapping.",
+      "ai_may_create": false,
+      "ai_may_rewrite": false
+    },
+    "canonical": {
+      "authority": "approved_taxonomy_and_mapping_rules",
+      "meaning": "Stable site-wide category IDs mapped from source records.",
+      "ai_may_create": false,
+      "ai_may_promote": false
+    },
+    "editorial": {
+      "authority": "review_interpretation",
+      "meaning": "Interpretive lenses such as slow-burn structure, role reversal or formula variation.",
+      "ai_may_create": true,
+      "must_not_be_presented_as_source_fact": true
+    }
+  },
+  "topic_element_summary": {
+    "required_before_prose": true,
+    "categories": [
+      {"id": "person_identity", "label": "人物／身分", "source_priority": ["source_tags", "source_title", "description"]},
+      {"id": "body_type", "label": "身材", "source_priority": ["source_tags", "source_title", "description"]},
+      {"id": "costume", "label": "衣著", "source_priority": ["source_tags", "source_title", "description"]},
+      {"id": "relationship", "label": "關係", "source_priority": ["source_title", "source_tags", "description"]},
+      {"id": "setting", "label": "場景", "source_priority": ["source_title", "source_tags", "description"]},
+      {"id": "acts_positions", "label": "行為／體位", "source_priority": ["source_tags", "source_title", "description"]},
+      {"id": "presentation", "label": "呈現", "source_priority": ["source_tags", "source_title", "series"]}
+    ],
+    "unknown_value": null,
+    "do_not_infer_missing_source_elements": true,
+    "editorial_observations_must_be_separate": true
+  },
+  "reader_questions": [
+    "這部作品主要賣什麼人物、關係或情境？",
+    "哪些來源成人題材是核心橋段，哪些只是附帶元素？",
+    "這些元素如何組合成這一部作品的差異？",
+    "演員與題材設定的適配點在哪裡？",
+    "偏好哪些題材的觀眾會優先選擇？",
+    "哪些期待可能在這部作品中得不到滿足？"
+  ],
+  "anti_template_rules": {
+    "compare_recent_sitewide": 30,
+    "generic_universal_arcs": ["被引導到主動", "從拘謹到投入", "節奏逐漸升高", "反差魅力", "主導權轉移", "距離逐步拉近"],
+    "generic_arc_may_not_be_primary_without_source_specific_reason": true,
+    "generic_arc_requires_named_source_element_and_unique_consequence": true,
+    "source_core_concept_must_drive_thesis_before_generic_character_arc": true,
+    "generic_character_arc_cannot_be_the_only_explanation_across_sections": true,
+    "opening_section_logic_and_conclusion_must_differ_from_recent_reviews": true,
+    "each_section_must_answer_a_distinct_reader_question": true,
+    "changing_only_catalog_number_or_performer_must_break_the_review": true
+  },
   "editorial_modes": {
-    "creative_first": "以作品身分與來源訊號為起點，允許補寫情節、人物動機、場景銜接與敘事細節，以內容完整性和可讀性為優先",
+    "creative_first": "以作品身分、CC18 原始片名與來源標籤為起點，允許補寫情節、人物動機、場景銜接與敘事細節，以內容完整性和可讀性為優先",
     "source_grounded": "公開標題、簡介、人物關係、系列與標籤支持的原創作品解讀",
     "video_enhanced": "另加入本機影片抽樣所支持的場景、節奏與呈現觀察",
     "deep_review": "只用於選定重點作品的密集完整時間軸掃描"
@@ -38,6 +95,7 @@
     "minimum_identity_integrity": 10.0,
     "minimum_specificity": 8.0,
     "minimum_originality": 7.5,
+    "minimum_search_value": 8.0,
     "minimum_decision_value": 7.5,
     "minimum_narrative_coherence": 8.0
   }

@@ -8,7 +8,7 @@ on:
         required: true
         default: plan
         type: choice
-        options: [plan, discover, produce, publish, retry-media]
+        options: [plan, editorial-smoke, discover, produce, publish, retry-media]
       queue_store:
         description: Discovery queue backend (file is an ephemeral dry run; d1 is persistent)
         required: true
@@ -39,6 +39,11 @@ jobs:
       - run: npm ci
       - run: npm run registry:validate
       - run: npm run content:validate
+      - name: Verify editorial provider connectivity only
+        if: inputs.stage == 'editorial-smoke'
+        env:
+          AITOKENKING_API_KEY: ${{ secrets.AITOKENKING_API_KEY }}
+        run: npm run editorial:provider:smoke
       - name: Run discovery and queue eligible works
         if: inputs.stage == 'discover'
         env:
@@ -47,7 +52,7 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npm run discovery:run -- --store=${{ inputs.queue_store }}
       - name: Run foundation stage
-        if: inputs.stage != 'discover' && inputs.stage != 'publish'
+        if: inputs.stage != 'discover' && inputs.stage != 'publish' && inputs.stage != 'editorial-smoke'
         run: node scripts/pipeline.mjs "${{ inputs.stage }}"
       - name: Require an exact movie ID for publishing
         if: inputs.stage == 'publish'

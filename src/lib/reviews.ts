@@ -1,5 +1,5 @@
 import type {CollectionEntry} from 'astro:content';
-import {sourceTagIds, tagItems, type TagItem} from './taxonomy';
+import {buildTagChannels, editorialTagItems, tagItems, type TagItem} from './taxonomy';
 
 export type Review = CollectionEntry<'reviews'>;
 
@@ -17,13 +17,17 @@ export const isNewRelease = (review: Review, now = new Date()) => {
 };
 
 export const visibleTags = (review: Review, now = new Date()): TagItem[] => {
-  const items = tagItems(review.data.canonicalTagIds);
+  const channels = buildTagChannels(review.data);
+  const items = tagItems(channels.canonicalTagIds);
   if (isNewRelease(review, now)) {
     items.unshift({label: '新片', href: '/latest/', kind: 'freshness'});
   }
   return items.slice(0, 8);
 };
 
-export const reviewTagIds = (review: Review) => [
-  ...new Set([...review.data.canonicalTagIds, ...sourceTagIds(review.data.sourceTags)]),
-];
+export const reviewTagIds = (review: Review) => {
+  const channels = buildTagChannels(review.data);
+  return [...new Set([...channels.canonicalTagIds, ...channels.editorialTagIds])];
+};
+
+export const reviewEditorialTags = (review: Review): TagItem[] => editorialTagItems(buildTagChannels(review.data).editorialTagIds);

@@ -61,7 +61,7 @@ test('maps the alternate gateway editorial shape into the CC18 contract', () => 
   assert.equal(normalized.title_signals.length, 2);
   assert.equal(normalized.sections.length, 7);
   assert.equal(normalized.evidence.length, 5);
-  assert.deepEqual(normalized.canonical_tag_ids, ['story', 'close-perspective', 'contrast-charm']);
+  assert.deepEqual(normalized.editorial_tag_ids, ['story', 'contrast-charm']);
 });
 
 test('replaces an empty selected thesis with a non-empty structured fallback', () => {

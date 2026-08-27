@@ -7,6 +7,7 @@ import {normalizeEditorialResult, parseFirstJsonObject} from './lib/provider-nor
 import {writeSearchContent} from './lib/search-content.mjs';
 import {createLocalSourceBrief} from './lib/local-source-brief.mjs';
 import {loadBridgeConfig} from '../bridge/lib/config.mjs';
+import {createTaxonomyHelpers} from '../tags/taxonomy.mjs';
 
 const movieId = process.argv.slice(2).find((argument) => !argument.startsWith('--'))?.trim().toUpperCase();
 if (!movieId || !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId)) {
@@ -49,12 +50,14 @@ const analysis = sourceOnly ? {
 } : JSON.parse(await readFile(analysisPath, 'utf8'));
 if (analysis.movie_id !== movieId) throw new Error(`${movieId}: analysis belongs to ${analysis.movie_id}`);
 
-const knownTagIds = taxonomy.tags.map(({id}) => id);
-const providerTagIds = knownTagIds.filter((id) => safeCanonicalTagIds.includes(id));
+const providerTagIds = taxonomy.tags.filter(({group, id}) => group === 'editorial' && safeCanonicalTagIds.includes(id)).map(({id}) => id);
+const taxonomyHelpers = createTaxonomyHelpers(taxonomy);
+const tagChannels = taxonomyHelpers.buildTagChannels({sourceTags: source.source_tags ?? []});
+const topicElements = taxonomyHelpers.buildTopicElements(source.source_tags ?? []);
 const outputSchema = {
   type: 'object',
   additionalProperties: false,
-  required: ['angle_candidates', 'selected_thesis', 'title_signals', 'title', 'seo_title', 'social_title', 'short_review', 'editorial_angle', 'canonical_tag_ids', 'evidence', 'creative_reconstruction_notes', 'unsupported_claims_excluded', 'decision_guide', 'sections'],
+  required: ['angle_candidates', 'selected_thesis', 'title_signals', 'title', 'seo_title', 'social_title', 'short_review', 'editorial_angle', 'editorial_tag_ids', 'evidence', 'creative_reconstruction_notes', 'unsupported_claims_excluded', 'decision_guide', 'sections'],
   properties: {
     angle_candidates: {type: 'array', minItems: 3, maxItems: 3, items: {type: 'string', maxLength: 180}},
     selected_thesis: {type: 'string', maxLength: 240},
@@ -75,7 +78,7 @@ const outputSchema = {
     social_title: {type: 'string', maxLength: 90},
     short_review: {type: 'string', maxLength: 240},
     editorial_angle: {type: 'string', maxLength: 300},
-    canonical_tag_ids: {type: 'array', minItems: 2, maxItems: 6, uniqueItems: true, items: {type: 'string', enum: providerTagIds}},
+    editorial_tag_ids: {type: 'array', minItems: 1, maxItems: 4, uniqueItems: true, items: {type: 'string', enum: providerTagIds}},
     evidence: {
       type: 'array', minItems: 5, maxItems: 10,
       items: {
@@ -121,13 +124,13 @@ const outputSchema = {
 const bridgeConfig = await loadBridgeConfig(resolve(root, 'config/media-bridge.json'));
 const existingBrief = repairExisting ? await json(`data/editorial-briefs/${movieId}.json`) : null;
 const localCreativeBrief = existingBrief?.local_creative_brief ?? await createLocalSourceBrief(source, bridgeConfig);
-const safePublicSource = buildSafePublicSource(source, localCreativeBrief);
+const safePublicSource = buildSafePublicSource(source, localCreativeBrief, taxonomy);
 const safeVideoAnalysis = buildSafeVideoAnalysis(analysis);
 
 const sourceOnlyGuard = sourceOnly
   ? '本次是 source-only：必須優先使用 safe_title_signals 中非演員、非畫質的來源概念，並以公開片名、公開簡介與企劃設定作為文章核心。允許以資深影評語氣創作性推演鏡位、收音氛圍、剪輯節奏、演技、表情、身體語言與場景銜接，讓文章具有完整的觀點、畫面感與閱讀價值；這些內容屬評論性重構，請列入 creative_reconstruction_notes。不可因此改動番號、演員、日期、系列等來源事實，也不可虛構演員私生活、真實身分或年齡。'
   : '';
-const system = `你是 CC18 的繁體中文創作型資深影評編輯。採取「創作預設開放」原則：限制是為了防止番號、演員、日期、系列、來源連結、Registry、Canonical Tag 與發布狀態出錯，不是為了限制文章。正文以內容完整、故事性、獨特切角、畫面感與選片價值為優先；你可以用主觀評論語氣創作性重構情節發展、人物動機、場景銜接、鏡位、聲音氛圍、剪輯節奏、演技、表情與敘事細節，使文章讀起來像完整影評，而不是資料摘要。將創作依據列入 creative_reconstruction_notes；不要把創作內容回寫 Registry、Canonical Tag 或來源紀錄，也不要虛構演員私生活、真實身分或年齡。${sourceOnlyGuard}文章正文不用插入方法免責聲明。每一節回答不同問題，避免套版句型。title_signals 必須從 safe_title_signals 原樣選取二至四個；顯示標題、SEO 標題及社群標題都必須包含番號。decision_guide 必須直接協助選片。演員未知時不可發明姓名。只輸出符合 JSON Schema 的 JSON。`;
+const system = `你是 CC18 的繁體中文創作型資深影評編輯。採取「創作預設開放」原則：限制是為了防止番號、演員、日期、系列、來源連結、Registry、Canonical Tag 與發布狀態出錯，不是為了限制文章。public_source.core_source_concept 是本作來源片名、系列或簡介中最具辨識度的企劃核心；它必須出現在 title 或 seo_title，控制 selected_thesis，並在至少兩個不同段落中得到分析。熱門標籤不能取代它。通用的拘束、放開、覺醒、節奏或主導權只能是此核心造成的一項後果，不可成為全文唯一邏輯。public_source.topic_elements 是由 CC18 原始標籤確定映射的題材字詞；正文必須自然使用其中最重要的成人題材，解釋它們如何組合並回答選片問題，不可只堆關鍵字。Canonical Tag 由規則引擎決定；你只選 editorial_tag_ids，表示影評觀點而非來源事實。正文以內容完整、故事性、獨特切角、畫面感與選片價值為優先；你可以用主觀評論語氣創作性重構情節發展、人物動機、場景銜接、鏡位、聲音氛圍、剪輯節奏、演技、表情與敘事細節，使文章讀起來像完整影評，而不是資料摘要。將創作依據列入 creative_reconstruction_notes；不要把創作內容回寫 Registry、Canonical Tag 或來源紀錄，也不要虛構演員私生活、真實身分或年齡。${sourceOnlyGuard}文章正文不用插入方法免責聲明。每一節回答不同問題，避免套版句型。title_signals 必須從 safe_title_signals 原樣選取二至四個，且必須包含 core_source_concept；顯示標題、SEO 標題及社群標題都必須包含番號。decision_guide 必須直接協助選片。演員未知時不可發明姓名。只輸出符合 JSON Schema 的 JSON。`;
 const prompt = {
   task: '產生可審查的 Editorial Brief 與影評草稿',
   public_source: safePublicSource,
@@ -160,6 +163,8 @@ const generation = repairExisting
     input: prompt,
   });
 const result = normalizeEditorialResult(parseFirstJsonObject(generation.text), {movieId, safePublicSource, safeVideoAnalysis});
+result.editorial_tag_ids = [...new Set((result.editorial_tag_ids ?? []).filter((id) => providerTagIds.includes(id)))].slice(0, 4);
+if (!result.editorial_tag_ids.length) result.editorial_tag_ids = ['story'];
 const providerFields = Object.keys(result).sort();
 const providerFallbacks = [];
 
@@ -176,7 +181,15 @@ if (!Array.isArray(result.title_signals) || result.title_signals.length < 2) {
   result.title_signals = safePublicSource.safe_title_signals.slice(0, 4);
   providerFallbacks.push('title_signals');
 }
-for (const requiredArray of ['angle_candidates', 'canonical_tag_ids', 'evidence', 'creative_reconstruction_notes', 'unsupported_claims_excluded', 'sections']) {
+const coreSourceConcept = safePublicSource.core_source_concept;
+if (coreSourceConcept) {
+  const coreSignal = safePublicSource.safe_title_signals.find(({value}) => value === coreSourceConcept);
+  if (!coreSignal) throw new Error(`Core source concept is missing from safe title signals: ${coreSourceConcept}`);
+  const withoutCore = result.title_signals.filter(({value}) => value !== coreSourceConcept);
+  const performer = withoutCore.find(({type}) => type === 'performer');
+  result.title_signals = [performer, coreSignal, ...withoutCore.filter((signal) => signal !== performer)].filter(Boolean).slice(0, 4);
+}
+for (const requiredArray of ['angle_candidates', 'editorial_tag_ids', 'evidence', 'creative_reconstruction_notes', 'unsupported_claims_excluded', 'sections']) {
   if (!Array.isArray(result[requiredArray])) throw new Error(`Editorial provider returned no ${requiredArray}; fields=${providerFields.join(',')}`);
 }
 for (const requiredText of ['selected_thesis', 'short_review', 'editorial_angle']) {
@@ -186,6 +199,11 @@ console.log(JSON.stringify({event: 'editorial_provider_shape', fields: providerF
 if (!result.title.includes(movieId)) result.title = `${movieId} ${result.title}`.slice(0, 90);
 if (!result.seo_title.includes(movieId)) result.seo_title = `${movieId} 影評｜${result.seo_title}`.slice(0, 100);
 if (!result.social_title.includes(movieId)) result.social_title = `${movieId}｜${result.social_title}`.slice(0, 90);
+if (coreSourceConcept && ![result.title, result.seo_title].some((value) => value.includes(coreSourceConcept))) {
+  const performer = (source.actress ?? []).join('、');
+  result.seo_title = `${movieId}${performer ? ` ${performer}` : ''}影評｜${coreSourceConcept}：${result.seo_title.replace(movieId, '').trim()}`.slice(0, 100);
+  providerFallbacks.push('core_source_concept_in_seo_title');
+}
 const sourceTextByField = {
   title: source.title ?? '',
   description: source.description ?? '',
@@ -207,8 +225,8 @@ if (!signalValues.some((value) => result.social_title.includes(value))) {
   const generated = result.social_title.replace(movieId, '').trim().replace(/^[｜|：:—–-]+/, '').trim();
   result.social_title = `${movieId}｜${signalValues[0]}：${generated}`.slice(0, 90);
 }
-for (const tag of result.canonical_tag_ids) {
-  if (!knownTagIds.includes(tag)) throw new Error(`Unknown generated canonical tag: ${tag}`);
+for (const tag of result.editorial_tag_ids) {
+  if (!providerTagIds.includes(tag)) throw new Error(`Unknown generated editorial tag: ${tag}`);
 }
 const usedEvidence = new Set(result.evidence.flatMap(({observation_refs}) => observation_refs));
 if (!sourceOnly && usedEvidence.size < 3) throw new Error('Video-enhanced draft must cite at least three distinct video sample windows');
@@ -225,6 +243,7 @@ const brief = {
   local_creative_brief: localCreativeBrief,
   locally_repaired_at: repairExisting ? new Date().toISOString() : null,
   video_coverage: analysis.coverage,
+  topic_elements: topicElements,
   ...result,
 };
 await mkdir(resolve(root, 'data/editorial-briefs'), {recursive: true});
@@ -256,7 +275,9 @@ editorialAngle: ${yamlText(result.editorial_angle)}
 sourceTags:
 ${yamlList(source.source_tags ?? [])}
 canonicalTagIds:
-${yamlList(result.canonical_tag_ids)}
+${yamlList(tagChannels.canonicalTagIds)}
+editorialTagIds:
+${yamlList(result.editorial_tag_ids)}
 status: draft
 videoStatus: pending
 featured: false
@@ -275,8 +296,8 @@ for (const label of source.source_tags ?? []) {
   if (handledTags.has(normalizedTag(label))) continue;
   const existing = candidates.candidates.find((item) => normalizedTag(item.label) === normalizedTag(label));
   if (existing) {
-    existing.occurrences = Math.max(existing.occurrences ?? 0, 1);
     existing.source_ids = [...new Set([...(existing.source_ids ?? []), movieId])];
+    existing.occurrences = existing.source_ids.length;
     existing.last_seen = today;
   } else {
     candidates.candidates.push({label, occurrences: 1, source_ids: [movieId], first_seen: today, last_seen: today, status: 'quarantined'});
