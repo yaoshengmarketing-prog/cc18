@@ -30,4 +30,5 @@ test('existing Registry drafts are re-QAed instead of paying for a blind rewrite
   const canary = await readFile(new URL('../scripts/canary/run.mjs', import.meta.url), 'utf8');
   assert.match(canary, /draftIds\.has\(id\) \? \['--qa-only'\]/);
   assert.match(canary, /rehydrate-completed\.mjs/);
+  assert.match(canary, /rehydrate-media\.mjs/);
 });

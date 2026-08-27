@@ -36,15 +36,41 @@ export function r2ObjectUrl({endpoint, bucket, key}) {
   return `${endpoint}/${encodeURIComponent(bucket)}/${encodedKey}`;
 }
 
+const createClient = (credentials) => new AwsClient({
+  accessKeyId: credentials.accessKeyId,
+  secretAccessKey: credentials.secretAccessKey,
+  service: 's3',
+  region: 'auto',
+});
+
+export async function getR2Object({bucket, key, environment = process.env}) {
+  const credentials = parseR2S3Credentials(environment);
+  if (!credentials) throw new Error('R2 S3 credentials are required for this download path');
+  const response = await createClient(credentials).fetch(r2ObjectUrl({endpoint: credentials.endpoint, bucket, key}));
+  if (!response.ok) throw new Error(`R2 S3 GET failed (${response.status})`);
+  return {bytes: Buffer.from(await response.arrayBuffer()), contentType: response.headers.get('content-type')};
+}
+
+const decodeXml = (value) => value
+  .replaceAll('&amp;', '&').replaceAll('&lt;', '<').replaceAll('&gt;', '>')
+  .replaceAll('&quot;', '"').replaceAll('&apos;', "'");
+
+export async function listR2Objects({bucket, prefix, environment = process.env}) {
+  const credentials = parseR2S3Credentials(environment);
+  if (!credentials) throw new Error('R2 S3 credentials are required for this listing path');
+  const url = `${credentials.endpoint}/${encodeURIComponent(bucket)}?list-type=2&prefix=${encodeURIComponent(prefix)}`;
+  const response = await createClient(credentials).fetch(url);
+  if (!response.ok) throw new Error(`R2 S3 LIST failed (${response.status})`);
+  const xml = await response.text();
+  if (/<IsTruncated>true<\/IsTruncated>/.test(xml)) throw new Error('R2 S3 listing was unexpectedly truncated');
+  return [...xml.matchAll(/<Contents>[\s\S]*?<Key>([\s\S]*?)<\/Key>[\s\S]*?<Size>(\d+)<\/Size>[\s\S]*?<\/Contents>/g)]
+    .map((match) => ({key: decodeXml(match[1]), size: Number(match[2])}));
+}
+
 export async function putAndVerifyR2Object({bucket, key, bytes, contentType, cacheControl, environment = process.env}) {
   const credentials = parseR2S3Credentials(environment);
   if (!credentials) throw new Error('R2 S3 credentials are required for this upload path');
-  const client = new AwsClient({
-    accessKeyId: credentials.accessKeyId,
-    secretAccessKey: credentials.secretAccessKey,
-    service: 's3',
-    region: 'auto',
-  });
+  const client = createClient(credentials);
   const url = r2ObjectUrl({endpoint: credentials.endpoint, bucket, key});
   const put = await client.fetch(url, {
     method: 'PUT',

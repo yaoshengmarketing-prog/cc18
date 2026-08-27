@@ -55,6 +55,12 @@ for (const movieId of candidates) {
           work.stages.push({stage, status: 'rehydrated_from_completed_d1', attempt: existing.attempt});
           continue;
         }
+        if (stage === 'video' && draftIds.has(movieId)) {
+          const result = await run('scripts/r2/rehydrate-media.mjs', [movieId]);
+          if (result.code !== 0) throw new Error(`${movieId}: completed R2 media could not be rehydrated`);
+          work.stages.push({stage, status: 'rehydrated_from_completed_r2', attempt: existing.attempt});
+          continue;
+        }
         work.stages.push({stage, status: 'already_completed'});
         continue;
       }
