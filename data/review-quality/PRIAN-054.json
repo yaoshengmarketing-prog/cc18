@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "PRIAN-054",
+  "review_sha256": "24434fac0ed61c49ec667546fa9fd3b328b53383fbba6e6e71763e8d1de5a707",
+  "selected_thesis": "以公開企劃概念為核心的選片型影評，主打「自然感包裝下的身體魅力展示」：不是靠複雜劇情取勝，而是看羽月乃蒼如何在南國意象、純真笑容與青春活力的調性中，逐步把鏡頭重心從被觀看，轉成能主動掌握畫面的存在。",
+  "title_basis": {
+    "performer": "羽月乃蒼",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "羽月乃蒼",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "南國的大自然",
+        "source_field": "description"
+      },
+      {
+        "type": "theme",
+        "value": "國寶級美乳",
+        "source_field": "description"
+      },
+      {
+        "type": "theme",
+        "value": "青春活力",
+        "source_field": "description"
+      }
+    ],
+    "primary_theme": "羽月乃蒼",
+    "presentation_feature": "南國的大自然",
+    "editorial_judgment": "從「前段的嘗試感」與「後段的熟練感」做對照，評估本片如何讓國寶級美乳不只是視覺標籤，而是成為節奏、表情與鏡頭關係的推進器。",
+    "source_keywords": [
+      "羽月乃蒼",
+      "南國的大自然",
+      "國寶級美乳",
+      "青春活力"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：羽月乃蒼",
+      "supports": "這項可追溯來源訊號支持文章以「羽月乃蒼」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：羽月乃蒼",
+      "supports": "這項可追溯來源訊號支持文章以「羽月乃蒼」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：南國的大自然",
+      "supports": "這項可追溯來源訊號支持文章以「南國的大自然」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：國寶級美乳",
+      "supports": "這項可追溯來源訊號支持文章以「國寶級美乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：純真笑容",
+      "supports": "這項可追溯來源訊號支持文章以「純真笑容」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：青春活力",
+      "supports": "這項可追溯來源訊號支持文章以「青春活力」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：巨乳",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：國寶級美乳",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：純真笑容",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-08-26T16:00:00.000Z"
+}

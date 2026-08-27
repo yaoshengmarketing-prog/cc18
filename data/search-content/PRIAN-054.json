@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "movie_id": "PRIAN-054",
+  "generated_at": "2026-08-27T14:47:01.108Z",
+  "source_snapshot_hash": "sha256:55e0823fa84ec412a55c9e1ce1983ce07f215a4570b3d27a700b5725ce08b17b",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "以公開企劃概念為核心的選片型影評，主打「自然感包裝下的身體魅力展示」：不是靠複雜劇情取勝，而是看羽月乃蒼如何在南國意象、純真笑容與青春活力的調性中，逐步把鏡頭重心從被觀看，轉成能主動掌握畫面的存在。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "羽月乃蒼",
+      "高畫質",
+      "羽月乃蒼",
+      "南國的大自然"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想看羽月乃蒼個人魅力與身體條件被完整展示的觀眾",
+      "偏好明亮、清爽、帶自然感聯想的作品",
+      "希望題材有前後狀態差異，而不是單純重複同種刺激的人"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "HUNTC-568",
+      "relation_type": "adjacent_theme",
+      "reason": "兩部共享story等站內分類，適合延伸比較相近題材如何採用不同切角。",
+      "shared_signals": [
+        "story"
+      ],
+      "contrast_signals": [
+        "旅館",
+        "同期女同事"
+      ]
+    },
+    {
+      "movie_id": "SDAB-358",
+      "relation_type": "adjacent_theme",
+      "reason": "兩部共享story等站內分類，適合延伸比較相近題材如何採用不同切角。",
+      "shared_signals": [
+        "story"
+      ],
+      "contrast_signals": [
+        "相沢澪",
+        "要結愛"
+      ]
+    },
+    {
+      "movie_id": "ENDS-322",
+      "relation_type": "adjacent_theme",
+      "reason": "兩部共享story等站內分類，適合延伸比較相近題材如何採用不同切角。",
+      "shared_signals": [
+        "story"
+      ],
+      "contrast_signals": [
+        "人妻設定",
+        "孕婦設定"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？以公開企劃概念為核心的選片型影評，主打「自然感包裝下的身體魅力展示」：不是靠複雜劇情取勝，而是看羽月乃蒼如何在南國意象、純真笑容與青春活力的調性中，逐步把鏡頭重心從被觀看，轉成能主動掌握畫面的存在。",
+    "哪些觀眾較適合？想看羽月乃蒼個人魅力與身體條件被完整展示的觀眾",
+    "有哪些觀看取捨？偏好完全寫實紀錄者可能未必適合"
+  ]
+}

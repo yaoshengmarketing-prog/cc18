@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "PRIAN-054",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-08-27T14:48:37.421Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/PRIAN-054/hero-v1.jpg",
+      "r2_key": "works/2026/08/PRIAN-054/hero-v1.jpg",
+      "bytes": 795082,
+      "sha256": "6ffbb58de822ab248e113b45a5153d400dbbf016ae65254de2e4463f99e42a64",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "b8ec56a8-bc30-4d8f-b602-4fc93c10151d",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 羽月乃蒼, 南國的大自然, 國寶級美乳, 純真笑容. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Orig"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/PRIAN-054/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/08/PRIAN-054/scene-vertical-v1.jpg",
+      "bytes": 800642,
+      "sha256": "fc76fa5b0bc57ca2a08f7dcf3c9ae8707e9093ea7a552aa7a3ae90a5a008e51f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "630e0278-6197-46dc-ad00-787dfbcc6e21",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 羽月乃蒼, 南國的大自然, 國寶級美乳, 純真笑容. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Orig"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2680342,
+    "sha256": "d4843622fd21b58638e55cb1b8e38875f5aadb21ed76eb1f0e43f8ebfad53024",
+    "target_r2_key": "works/2026/08/PRIAN-054/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/PRIAN-054/vertical-v1.mp4"
+  }
+}
