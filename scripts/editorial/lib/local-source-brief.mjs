@@ -36,7 +36,7 @@ export function coreConceptCandidates(source) {
 export function resolveCoreSourceConcept(proposed, source) {
   const value = clip(proposed, 12);
   const traceableText = [source.title, source.series, source.description].filter(Boolean).join('\n');
-  if (traceableText.includes(value) && !genericCoreTerms.test(value)) return value;
+  if (value.length >= 2 && traceableText.includes(value) && !genericCoreTerms.test(value)) return value;
   const exactProposedParts = String(proposed ?? '').split(/[，,、／/｜|×]+/u)
     .map(cleanCandidate)
     .filter((candidate) => candidate.length >= 2 && candidate.length <= 12 && !genericCoreTerms.test(candidate) && traceableText.includes(candidate));
@@ -68,6 +68,33 @@ export function normalizeLocalSourceBrief(value) {
     throw new Error('Local source brief is incomplete');
   }
   return result;
+}
+
+export function createDeterministicSourceBrief(source) {
+  const coreSourceConcept = resolveCoreSourceConcept('', source);
+  if (!coreSourceConcept) {
+    throw Object.assign(new Error(`${source.id}: no traceable source concept for cloud editorial`), {code: 'EDITORIAL_SAFE_SIGNALS_INSUFFICIENT'});
+  }
+  const sourceConcepts = coreConceptCandidates(source).filter((value) => {
+    const text = [source.title, source.series, source.description].filter(Boolean).join('\n');
+    return text.includes(value);
+  }).slice(0, 6);
+  while (sourceConcepts.length < 2) sourceConcepts.push(coreSourceConcept);
+  return normalizeLocalSourceBrief({
+    core_source_concept: coreSourceConcept,
+    premise: `作品以「${coreSourceConcept}」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。`,
+    relationship: '主角與企劃參與者之間的互動關係',
+    role_dynamic: '主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。',
+    central_tension: `企劃如何讓「${coreSourceConcept}」不只停留在片名，而成為前後段落的推進邏輯。`,
+    setting: '一般室內場景',
+    themes: ['企劃設定', '角色變化', '互動節奏'],
+    creative_seeds: [
+      '以初段理解規則與後段形成回應製造對照',
+      '讓每個段落回答不同的選片問題',
+      '用角色心態與互動方式的變化串連全篇',
+    ],
+    search_concepts: sourceConcepts,
+  });
 }
 
 export async function createLocalSourceBrief(source, config, fetchImplementation = fetch) {

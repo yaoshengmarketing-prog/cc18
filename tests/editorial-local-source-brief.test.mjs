@@ -1,13 +1,29 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {coreConceptCandidates, createLocalSourceBrief, normalizeLocalSourceBrief, resolveCoreSourceConcept} from '../scripts/editorial/lib/local-source-brief.mjs';
+import {coreConceptCandidates, createDeterministicSourceBrief, createLocalSourceBrief, normalizeLocalSourceBrief, resolveCoreSourceConcept} from '../scripts/editorial/lib/local-source-brief.mjs';
 import {buildSafePublicSource} from '../scripts/editorial/lib/safe-editorial-payload.mjs';
 
 test('source-only GitHub editorial bypasses the loopback analyzer preflight', async () => {
   const handoff = await readFile(new URL('../scripts/editorial/handoff-d1.mjs', import.meta.url), 'utf8');
+  const builder = await readFile(new URL('../scripts/editorial/build-from-analysis.mjs', import.meta.url), 'utf8');
   assert.match(handoff, /const bridgeConfig = sourceOnly \? null : await loadBridgeConfig/);
   assert.match(handoff, /if \(!sourceOnly\) await assertLocalAnalyzerReady\(bridgeConfig\)/);
+  assert.match(builder, /sourceOnly \? createDeterministicSourceBrief\(source\) : await createLocalSourceBrief/);
+});
+
+test('cloud source-only brief is deterministic and source-traceable', () => {
+  const source = {
+    id: 'SNOS-409',
+    title: '我還不知道的性愛，請讓我接受研修！社會新鮮人的職業初體驗',
+    description: '以研修形式推進的企劃',
+    source_tags: ['AV女優片', '顏射', '720p'],
+  };
+  const local = createDeterministicSourceBrief(source);
+  assert.equal(local.core_source_concept, '我還不知道的性愛');
+  assert.ok(source.title.includes(local.core_source_concept));
+  assert.equal(local.creative_seeds.length, 3);
+  assert.ok(local.search_concepts.length >= 2);
 });
 
 const brief = {

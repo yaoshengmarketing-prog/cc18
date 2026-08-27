@@ -5,7 +5,7 @@ import {assertEditorialProviderReady, editorialApiKey, loadLocalEditorialEnviron
 import {buildSafePublicSource, buildSafeVideoAnalysis, safeCanonicalTagIds} from './lib/safe-editorial-payload.mjs';
 import {normalizeEditorialResult, parseFirstJsonObject} from './lib/provider-normalization.mjs';
 import {writeSearchContent} from './lib/search-content.mjs';
-import {createLocalSourceBrief} from './lib/local-source-brief.mjs';
+import {createDeterministicSourceBrief, createLocalSourceBrief} from './lib/local-source-brief.mjs';
 import {loadBridgeConfig} from '../bridge/lib/config.mjs';
 import {createTaxonomyHelpers} from '../tags/taxonomy.mjs';
 
@@ -121,9 +121,10 @@ const outputSchema = {
   },
 };
 
-const bridgeConfig = await loadBridgeConfig(resolve(root, 'config/media-bridge.json'));
+const bridgeConfig = sourceOnly ? null : await loadBridgeConfig(resolve(root, 'config/media-bridge.json'));
 const existingBrief = repairExisting ? await json(`data/editorial-briefs/${movieId}.json`) : null;
-const localCreativeBrief = existingBrief?.local_creative_brief ?? await createLocalSourceBrief(source, bridgeConfig);
+const localCreativeBrief = existingBrief?.local_creative_brief
+  ?? (sourceOnly ? createDeterministicSourceBrief(source) : await createLocalSourceBrief(source, bridgeConfig));
 const safePublicSource = buildSafePublicSource(source, localCreativeBrief, taxonomy);
 const safeVideoAnalysis = buildSafeVideoAnalysis(analysis);
 
