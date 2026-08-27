@@ -49,6 +49,12 @@ for (const movieId of candidates) {
     for (const [stage, script, args] of stages) {
       const existing = await store.findJob({movieId, stage});
       if (existing?.status === 'completed') {
+        if (stage === 'editorial' && draftIds.has(movieId)) {
+          const result = await run('scripts/editorial/rehydrate-completed.mjs', [movieId]);
+          if (result.code !== 0) throw new Error(`${movieId}: completed editorial approval could not be rehydrated`);
+          work.stages.push({stage, status: 'rehydrated_from_completed_d1', attempt: existing.attempt});
+          continue;
+        }
         work.stages.push({stage, status: 'already_completed'});
         continue;
       }

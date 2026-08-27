@@ -29,4 +29,5 @@ test('end-to-end canary is manual, exact-ID, serialized and uses split D1 and R2
 test('existing Registry drafts are re-QAed instead of paying for a blind rewrite', async () => {
   const canary = await readFile(new URL('../scripts/canary/run.mjs', import.meta.url), 'utf8');
   assert.match(canary, /draftIds\.has\(id\) \? \['--qa-only'\]/);
+  assert.match(canary, /rehydrate-completed\.mjs/);
 });
