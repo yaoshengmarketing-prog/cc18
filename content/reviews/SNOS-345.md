@@ -18,6 +18,8 @@ series: ""
 sourceUrl: https://cc18.tv/player.php?uuid=uqDKPGA7S7C&cat=19
 sourceSite: cc18.tv
 coverUrl: https://cc18.tv/preview/80/b/uqDKPGA7S7C-800.jpg?v=1787359215
+heroUrl: /media/works/2026/08/SNOS-345/hero-v2.jpg
+videoUrl: /media/works/2026/08/SNOS-345/vertical-v1.mp4
 shortReview: "有些作品一開場就把答案寫在標題上，真正的考驗不在謎底，而在過程能不能拍出層次。SNOS-345 的企劃核心就是「結果被開發成了乳頭高潮女」，這種題目若處理得草率，很容易變成單純把同一種反應反覆放大；但如果懂得分段，反而會比一般即興堆疊更有看頭。這部的可看性，正是來自它沒有急著把高潮當成唯一目的，而是把乳頭開發、アクメ・オーガズム與角色狀態的變化綁在一起，讓鷲尾めい的表情、呼吸與身體回應一步步完成這個企劃。"
 editorialAngle: "鷲尾めい的企劃呈現與觀看取向"
 sourceTags:
@@ -44,8 +46,9 @@ editorialTagIds:
   - character-awakening
   - showcase-format
   - high-story-density
-status: draft
-videoStatus: pending
+status: published
+imageStatus: rendered
+videoStatus: rendered
 featured: false
 ---
 
