@@ -6,6 +6,8 @@ import {buildSafePublicSource, buildSafeVideoAnalysis, safeCanonicalTagIds} from
 import {normalizeEditorialResult, parseFirstJsonObject} from './lib/provider-normalization.mjs';
 import {writeSearchContent} from './lib/search-content.mjs';
 import {createDeterministicSourceBrief, createLocalSourceBrief} from './lib/local-source-brief.mjs';
+import {fillMissingEditorialTitle} from './lib/editorial-fallbacks.mjs';
+import {appendEditorialUsage} from './lib/usage-ledger.mjs';
 import {loadBridgeConfig} from '../bridge/lib/config.mjs';
 import {createTaxonomyHelpers} from '../tags/taxonomy.mjs';
 
@@ -169,13 +171,14 @@ const generation = repairExisting
     instructions: system,
     input: prompt,
   });
+if (!repairExisting) await appendEditorialUsage({root, movieId, rewriteAttempt, usage: generation.usage});
 const result = normalizeEditorialResult(parseFirstJsonObject(generation.text), {movieId, safePublicSource, safeVideoAnalysis});
 result.editorial_tag_ids = [...new Set((result.editorial_tag_ids ?? []).filter((id) => providerTagIds.includes(id)))].slice(0, 4);
 if (!result.editorial_tag_ids.length) result.editorial_tag_ids = ['story'];
 const providerFields = Object.keys(result).sort();
 const providerFallbacks = [];
 
-if (!result.title?.trim()) throw new Error('Editorial provider returned no title');
+if (fillMissingEditorialTitle({result, movieId, source, safePublicSource})) providerFallbacks.push('title');
 if (!result.seo_title?.trim()) {
   result.seo_title = `${movieId} 影評｜${result.title}`.slice(0, 100);
   providerFallbacks.push('seo_title');
@@ -352,36 +355,5 @@ const quality = {
 await writeFile(resolve(root, `data/review-quality/${movieId}.json`), `${JSON.stringify(quality, null, 2)}\n`);
 
 await writeSearchContent({root, source, sourceRecordText, safeVideoAnalysis, result, analysis, registry});
-
-if (!repairExisting) {
-  await mkdir(resolve(root, 'data/editorial-usage'), {recursive: true});
-  const usagePath = resolve(root, `data/editorial-usage/${movieId}.json`);
-  let previousUsage = {calls: []};
-  try {
-    previousUsage = JSON.parse(await readFile(usagePath, 'utf8'));
-  } catch (error) {
-    if (error?.code !== 'ENOENT') throw error;
-  }
-  const usageCall = {
-    generated_at: new Date().toISOString(),
-    rewrite_attempt: rewriteAttempt,
-    ...generation.usage,
-  };
-  const usageCalls = [...(previousUsage.calls ?? []), usageCall];
-  await writeFile(usagePath, `${JSON.stringify({
-    schema_version: 1,
-    movie_id: movieId,
-    calls: usageCalls,
-    totals: {
-      input_tokens: usageCalls.reduce((sum, call) => sum + call.input_tokens, 0),
-      cached_input_tokens: usageCalls.reduce((sum, call) => sum + call.cached_input_tokens, 0),
-      output_tokens: usageCalls.reduce((sum, call) => sum + call.output_tokens, 0),
-      estimated_cost_usd: Number(usageCalls.reduce((sum, call) => sum + (call.estimated_cost_usd ?? 0), 0).toFixed(6)),
-      estimated_payg_cash_cost_usd: Number(usageCalls.reduce((sum, call) => sum + (call.estimated_payg_cash_cost_usd ?? 0), 0).toFixed(6)),
-      direct_openai_reference_usd: Number(usageCalls.reduce((sum, call) => sum + (call.direct_openai_reference_usd ?? 0), 0).toFixed(6)),
-      gateway_premium_usd: Number(usageCalls.reduce((sum, call) => sum + (call.gateway_premium_usd ?? 0), 0).toFixed(6)),
-    },
-  }, null, 2)}\n`);
-}
 
 console.log(JSON.stringify({movie_id: movieId, brief: `data/editorial-briefs/${movieId}.json`, review: `content/reviews/${movieId}.md`, status: 'draft'}, null, 2));

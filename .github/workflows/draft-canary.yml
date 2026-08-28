@@ -66,6 +66,7 @@ jobs:
           if-no-files-found: error
           retention-days: 14
       - name: Assert that no production path ran
+        if: always()
         run: |
           test -z "$(git diff --name-only -- data/media-manifests data/image-briefs)"
           echo "No image, video, commit, deployment or production schedule ran."

@@ -39,6 +39,7 @@ test('draft-only acceptance is bounded, read-only and cannot publish', () => {
   assert.match(draftWorkflow, /permissions:\s*\n\s*contents: read/);
   assert.match(draftWorkflow, /npm run editorial:draft-batch -- --max=\$\{\{ inputs\.maximum_works \}\}/);
   assert.match(draftWorkflow, /actions\/upload-artifact@v7/);
+  assert.match(draftWorkflow, /name: Assert that no production path ran\s*\n\s*if: always\(\)/);
   assert.doesNotMatch(draftWorkflow, /schedule:|cron:|image:cycle|video:d1|publish:d1|git push|wrangler pages/);
 });
 

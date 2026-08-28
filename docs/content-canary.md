@@ -78,3 +78,5 @@ QA 重寫後成功可計入端到端成功，但必須保留重寫次數。影�
 或完成 D1 工作、不建立圖片工作、不發布、不 commit、不 push，也不啟用排程。
 
 GitHub 批次使用 `Draft-only acceptance (manual)`，每次自動從 D1 選最多三部尚未進 Registry 的 eligible／validated Editorial 工作。每部獨立產生草稿與 QA；失敗不阻止後續作品。結果以 14 天保存期限的 Artifact 輸出，包含草稿、Brief、QA、Search Content、Usage 與每日報告。工作流只有 `contents: read`，不執行圖片、影片、Git push 或 Cloudflare 部署，目前沒有 `schedule`／`cron`。
+
+Day 0 的首次執行與修正紀錄見 [canary-day0-2026-08-28.md](canary-day0-2026-08-28.md)。失敗日仍應保留在七天觀察紀錄中，不得重設或隱藏；修正後的再次執行記為 Day 0 retry。

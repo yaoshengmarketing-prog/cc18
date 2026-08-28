@@ -30,6 +30,7 @@
 - GitHub Actions 的 D1 與 R2 憑證已拆分；R2 使用僅限 `cc18-media` 讀寫的 S3 JSON 憑證，完成反向雜湊與公開 Range 驗證。
 - Phase 4 的 250 部本機合成負載通過：500 個雙 Queue 工作、零重複、10 個 worker、12 次合成 retry、1 次過期 lease 回收、五個 50 部發布波次，約 10 秒完成。
 - 七天 draft-only 驗收底座已完成：GitHub 每次唯讀選取最多三部 D1 作品，逐部產生草稿與 QA Artifact；不 claim D1、不建立圖片／影片、不 commit、不部署，cron 尚未啟用。
+- Draft-only Day 0 首次執行安全失敗：三部均被格式／QA 阻擋，D1、Git、圖片與發布狀態未變；已補 title fallback、即時 Usage Ledger、bounded 格式重試、失敗 Artifact 與 always-run production assertion，尚未重跑。
 
 ## 驗證結果
 

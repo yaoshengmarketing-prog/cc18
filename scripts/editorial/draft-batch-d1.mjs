@@ -47,26 +47,53 @@ const artifactSources = (movieId) => [
   ['usage.json', resolve(root, 'data', 'editorial-usage', `${movieId}.json`)],
 ];
 
+async function collectArtifacts(movieId) {
+  const workDirectory = resolve(artifactDirectory, movieId);
+  await mkdir(workDirectory, {recursive: true});
+  const copied = [];
+  for (const [name, source] of artifactSources(movieId)) {
+    try {
+      await cp(source, resolve(workDirectory, name));
+      copied.push(name);
+    } catch (error) {
+      if (error?.code !== 'ENOENT') throw error;
+    }
+  }
+  const optionalJson = async (path) => {
+    try {
+      return JSON.parse(await readFile(path, 'utf8'));
+    } catch (error) {
+      if (error?.code === 'ENOENT') return null;
+      throw error;
+    }
+  };
+  return {
+    copied,
+    quality: await optionalJson(resolve(root, 'data', 'review-quality', `${movieId}-automated.json`)),
+    usage: await optionalJson(resolve(root, 'data', 'editorial-usage', `${movieId}.json`)),
+  };
+}
+
 const completed = [];
 const failed = [];
 for (const movieId of selected) {
   const result = await runOne(movieId);
+  const artifacts = await collectArtifacts(movieId);
+  const receipt = {
+    calls: artifacts.usage?.calls?.length ?? 0,
+    estimated_cost_usd: artifacts.usage?.totals?.estimated_cost_usd ?? 0,
+    estimated_payg_cash_cost_usd: artifacts.usage?.totals?.estimated_payg_cash_cost_usd ?? 0,
+    artifacts: artifacts.copied,
+  };
   if (result.code !== 0) {
-    failed.push({movie_id: movieId, error: result.error ?? `draft canary exited with ${result.code}`});
+    failed.push({movie_id: movieId, error: result.error ?? `draft canary exited with ${result.code}`, qa_passed: artifacts.quality?.passed ?? false, ...receipt});
     continue;
   }
-  const quality = JSON.parse(await readFile(resolve(root, 'data', 'review-quality', `${movieId}-automated.json`), 'utf8'));
-  const usage = JSON.parse(await readFile(resolve(root, 'data', 'editorial-usage', `${movieId}.json`), 'utf8'));
-  const workDirectory = resolve(artifactDirectory, movieId);
-  await mkdir(workDirectory, {recursive: true});
-  for (const [name, source] of artifactSources(movieId)) await cp(source, resolve(workDirectory, name));
   completed.push({
     movie_id: movieId,
-    qa_passed: quality.passed === true,
-    qa_metrics: quality.metrics,
-    calls: usage.calls?.length ?? 0,
-    estimated_cost_usd: usage.totals?.estimated_cost_usd ?? 0,
-    estimated_payg_cash_cost_usd: usage.totals?.estimated_payg_cash_cost_usd ?? 0,
+    qa_passed: artifacts.quality?.passed === true,
+    qa_metrics: artifacts.quality?.metrics,
+    ...receipt,
   });
 }
 
@@ -88,8 +115,8 @@ const report = {
   published: false,
   stale_leases_before: before.stale_leases.length,
   stale_leases_after: after.stale_leases.length,
-  estimated_cost_usd: completed.reduce((sum, item) => sum + item.estimated_cost_usd, 0),
-  estimated_payg_cash_cost_usd: completed.reduce((sum, item) => sum + item.estimated_payg_cash_cost_usd, 0),
+  estimated_cost_usd: [...completed, ...failed].reduce((sum, item) => sum + item.estimated_cost_usd, 0),
+  estimated_payg_cash_cost_usd: [...completed, ...failed].reduce((sum, item) => sum + item.estimated_payg_cash_cost_usd, 0),
 };
 await writeFile(resolve(artifactDirectory, 'report.json'), `${JSON.stringify(report, null, 2)}\n`, 'utf8');
 if (process.env.GITHUB_OUTPUT) {

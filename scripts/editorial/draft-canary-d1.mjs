@@ -57,6 +57,7 @@ const run = (script, args, allowFailure = false) => new Promise((resolveRun, rej
 
 let approved = false;
 let rewriteAttempt = 0;
+let lastBuildError = null;
 if (finalizeOnly) {
   const qaExitCode = await run('scripts/editorial/qa-draft.mjs', [requestedId], true);
   approved = qaExitCode === 0;
@@ -64,7 +65,13 @@ if (finalizeOnly) {
   for (; rewriteAttempt <= editorialModel.qa_rewrite_limit; rewriteAttempt += 1) {
     const buildArguments = [requestedId, '--source-only', `--rewrite-attempt=${rewriteAttempt}`];
     if (rewriteAttempt > 0) buildArguments.push(`--qa-feedback=${resolve(root, 'data', 'review-quality', `${requestedId}-automated.json`)}`);
-    await run('scripts/editorial/build-from-analysis.mjs', buildArguments);
+    try {
+      await run('scripts/editorial/build-from-analysis.mjs', buildArguments);
+      lastBuildError = null;
+    } catch (error) {
+      lastBuildError = error.message;
+      continue;
+    }
     const qaExitCode = await run('scripts/editorial/qa-draft.mjs', [requestedId], true);
     if (qaExitCode === 0) {
       approved = true;
@@ -72,7 +79,7 @@ if (finalizeOnly) {
     }
   }
 }
-if (!approved) throw new Error(`${requestedId}: QA failed after ${editorialModel.qa_rewrite_limit} rewrites`);
+if (!approved) throw new Error(`${requestedId}: QA failed after ${editorialModel.qa_rewrite_limit} rewrites${lastBuildError ? `; last build error: ${lastBuildError}` : ''}`);
 
 const [finalRegistry, automatedQuality, review] = await Promise.all([
   readFile(resolve(root, 'data/movie-registry.json'), 'utf8').then(JSON.parse),

@@ -25,3 +25,9 @@ test('resume mode is limited to an existing draft and accepts the actual frontma
   assert.match(source, /if \(finalizeOnly\)[\s\S]*qa-draft\.mjs/);
   assert.match(builder, /review_status: 'draft',[\s\S]*image_status: 'pending',[\s\S]*video_status: 'pending'/);
 });
+
+test('one malformed rewrite does not consume all remaining QA attempts', () => {
+  assert.match(source, /catch \(error\) \{[\s\S]*lastBuildError = error\.message;[\s\S]*continue;/);
+  assert.match(builder, /appendEditorialUsage\([\s\S]*normalizeEditorialResult/);
+  assert.doesNotMatch(builder, /returned no title/);
+});
