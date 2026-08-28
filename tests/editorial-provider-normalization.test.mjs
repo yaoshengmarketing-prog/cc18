@@ -23,6 +23,7 @@ test('preserves nested review_draft sections returned by gateway models', () => 
   assert.equal(normalized.sections[1].heading, '段落 1');
   assert.match(normalized.sections[1].body, /獨特內容1/);
   assert.match(normalized.sections.at(-1).body, /未必適合/);
+  assert.doesNotMatch(normalized.sections.at(-1).body, /觀眾。若偏好/);
 });
 
 test('wraps intro and conclusion around reviewDraft section arrays and fills decision tradeoffs', () => {
@@ -81,6 +82,26 @@ test('replaces an empty selected thesis with a non-empty structured fallback', (
     safeVideoAnalysis: {observations: []},
   });
   assert.equal(normalized.selected_thesis, '由生疏到掌握節奏的角色成長，是這部作品最清楚的選片切角。');
+});
+
+test('expands a short quick-decision thesis into a useful local fallback', () => {
+  const normalized = normalizeEditorialResult({
+    selected_thesis: '企劃節奏明確',
+    decision_guide: {thesis: '企劃節奏明確'},
+    angle_candidates: ['企劃節奏的前後差異', '角色互動', '選片取捨'],
+    title: 'TEST-007 測試標題',
+    title_signals: ['企劃', '節奏'],
+    sections: [],
+  }, {
+    movieId: 'TEST-007',
+    safePublicSource: {safe_title_signals: [
+      {type: 'theme', value: '企劃', source_field: 'title'},
+      {type: 'presentation', value: '節奏', source_field: 'title'},
+    ]},
+    safeVideoAnalysis: {observations: []},
+  });
+  assert.ok(normalized.decision_guide.thesis.length >= 20);
+  assert.match(normalized.decision_guide.thesis, /企劃節奏明確/);
 });
 
 test('maps snake-case review and decision wrappers and derives source-only evidence', () => {

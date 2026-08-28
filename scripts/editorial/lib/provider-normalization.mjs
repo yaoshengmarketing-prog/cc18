@@ -162,7 +162,11 @@ function normalizedDecisionGuide(rawGuide, raw, brief, sourceSignals, angleCandi
     if (audienceNotFor.length >= 2) break;
     if (!audienceNotFor.includes(fallback)) audienceNotFor.push(fallback);
   }
-  const thesis = firstText(guide.thesis, guide.one_sentence_verdict, nested.editor_pick_reason, raw.selected_thesis, brief.positioning, brief.angle, raw.editorial_angle, angleCandidates[0]);
+  const rawThesis = firstText(guide.thesis, guide.one_sentence_verdict, nested.editor_pick_reason, raw.selected_thesis, brief.positioning, brief.angle, raw.editorial_angle, angleCandidates[0]);
+  const thesisSeed = rawThesis || angleCandidates[0] || sourceSignals[0]?.value || '本作的核心企劃';
+  const thesis = thesisSeed.length >= 20
+    ? thesisSeed
+    : `${thesisSeed}，這是本作最直接且可供比較的選片判斷。`;
   if (questions.length < 3) questions = [
     `這部作品的主要企劃切角是什麼？${thesis}`,
     `哪些觀眾較適合？${audienceFor[0] ?? '偏好角色互動與企劃推進的觀眾'}`,
@@ -206,7 +210,9 @@ export function normalizeEditorialResult(raw, {movieId, safePublicSource, safeVi
   const decisionGuide = normalizedDecisionGuide(raw.decision_guide ?? raw.decisionGuide ?? raw.search_content, raw, brief, sourceSignals, angleCandidates);
   if (sections.length && (!/適合|偏好|推薦/.test(sections.at(-1).body) || !/未必|不適合|取捨/.test(sections.at(-1).body))) {
     const decisionContext = safePublicSource.core_source_concept ?? sourceSignals[0]?.value ?? movieId;
-    sections.at(-1).body = clip(`${sections.at(-1).body}\n\n以「${decisionContext}」為選片基準，適合：${decisionGuide.audience_for.join('；')}。若偏好：${decisionGuide.audience_not_for.join('；')}，則未必適合；這是本作最明確的觀看取捨。`, 700);
+    // 保持為一個包含作品專屬 decisionContext 的完整句子；若在中間斷句，
+    // 後半段會成為每篇完全相同的站內句子，反過來觸發 originality QA。
+    sections.at(-1).body = clip(`${sections.at(-1).body}\n\n以「${decisionContext}」為選片基準，適合：${decisionGuide.audience_for.join('；')}；若偏好：${decisionGuide.audience_not_for.join('；')}，則未必適合，這是本作最明確的觀看取捨。`, 700);
   }
   return {
     ...raw,

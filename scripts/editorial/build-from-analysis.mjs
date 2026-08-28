@@ -151,6 +151,8 @@ if (feedbackArgument) {
   const guidance = {
     reused_generic_thesis_family: '不要再使用「被引導或被安排，最後掌握或接管節奏」作為核心命題。改由本作獨有的來源企劃結構、人物關係或場景規則決定全文因果。',
     sitewide_reused_sentences: '刪除可套用到其他作品的結尾與選片句，重新撰寫開場、段落邏輯及結論，不得沿用站內既有完整句子。',
+    overused_conditional_review_voice: '直接提出並支持評論判斷；不要反覆使用「若成立」或「有機會」把結論停留在假設狀態。段落可以提出問題，但同一段必須給出明確答案。',
+    missing_quick_decision: 'decision_guide.thesis 必須至少二十個中文字，直接說明本作最重要的企劃特色、呈現方式與選片取捨，不能只寫短標籤或片語。',
   };
   const failureReasons = feedback.failure_reasons ?? feedback.issues ?? [];
   prompt.previous_qa_feedback = {
