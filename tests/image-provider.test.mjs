@@ -53,6 +53,26 @@ test('artwork prompts convert youth-coded concepts into adult editorial scenes',
   assert.match(prompts.vertical_scene, /9:16/);
 });
 
+test('artwork prompts exclude performer identity and sensitive source concepts', () => {
+  const prompts = buildArtworkPrompts({
+    source: {
+      actress: ['測試演員'],
+      title: '測試演員在美容院接受乳頭開發並達到高潮',
+      description: '',
+    },
+    localCreativeBrief: {
+      core_source_concept: '乳頭開發與高潮',
+      setting: '美容院',
+      themes: ['乳頭開發', '角色變化', '互動節奏'],
+      search_concepts: ['測試演員', '測試演員別名', '美容院', '乳頭開發與高潮'],
+    },
+  });
+  const combined = `${prompts.article_hero}\n${prompts.vertical_scene}`;
+  assert.doesNotMatch(combined, /測試演員|測試演員別名|乳頭|高潮/);
+  assert.match(combined, /美容院/);
+  assert.match(combined, /fully clothed/);
+});
+
 test('image generation requires an approved review with an exact content hash', () => {
   const movieId = 'TEST-001';
   const markdown = '---\nid: TEST-001\nstatus: published\n---\n\n內容\n';

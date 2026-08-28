@@ -62,7 +62,7 @@ const cameraRules = [
 // Kept as an exported compatibility name; these are now editorial-only IDs.
 export const safeCanonicalTagIds = ['story', 'contrast-charm', 'slow-burn', 'character-awakening', 'agency-shift', 'relationship-shift', 'everyday-intimacy', 'series-formula', 'high-story-density', 'showcase-format'];
 
-const unsafeBriefPattern = /口交|顏射|亂交|性交|性愛|性器|性行為|陰道|陰莖|肛門|精液|射精|內射|勃起|乳交|手交|自慰|插入|抽插|肉棒|雞巴|小穴|玩具攻擊|\b\d+\s*p\b|\d+\s*發|\bsex\b|oral|anal|facial|ejaculat|penetrat/i;
+const unsafeBriefPattern = /口交|顏射|亂交|性交|性愛|性器|性行為|陰道|陰莖|肛門|精液|射精|內射|勃起|乳交|乳頭|高潮|巨乳|美乳|胸部|手交|自慰|插入|抽插|肉棒|雞巴|小穴|玩具攻擊|\b\d+\s*p\b|\d+\s*發|\bsex\b|oral|anal|facial|ejaculat|orgasm|penetrat/i;
 
 const safeBriefTheme = (value) => {
   const theme = String(value ?? '').normalize('NFKC').replace(/\s+/g, ' ').trim().slice(0, 40);
