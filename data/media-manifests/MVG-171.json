@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "MVG-171",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-08-28T14:32:56.372Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/MVG-171/hero-v2.jpg",
+      "r2_key": "works/2026/08/MVG-171/hero-v2.jpg",
+      "bytes": 706294,
+      "sha256": "2f73fad719218598dfa386c8fa14bf5bb2d5f3ee705f671b74d2e6ff65b0bd7c",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/MVG-171/scene-vertical-v2.jpg",
+      "r2_key": "works/2026/08/MVG-171/scene-vertical-v2.jpg",
+      "bytes": 1055989,
+      "sha256": "42d4fd85cdb7ceb0e679b130ff125d532c34fe2404186f3856619e4b85eef00c",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2998498,
+    "sha256": "68fd8b510d371502dfe1280fdeafa18bf49c9e91b7ee18ca2874d9a0145c753a",
+    "target_r2_key": "works/2026/08/MVG-171/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/MVG-171/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

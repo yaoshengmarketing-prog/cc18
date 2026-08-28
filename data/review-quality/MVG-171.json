@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "MVG-171",
-  "review_sha256": "e064f5ca5cb847eb430ed8621db8600f5b9534a9b178e989a6f59a702944d80e",
+  "review_sha256": "9038e9d8a6ab093f85bb62dcaf3a7c20a3514a71fe7e13ff1088554af401aa6f",
   "selected_thesis": "本作的可看性建立在蘭華這個核心人物身上：她不是被多人配置吞沒，而是在辣妹與 AV女優片 的既定展示框架中，靠 3p・4p 的階段推進，逐步把表情、互動回應與身體語言累積成一條清楚的角色變化線。",
   "title_basis": {
     "performer": "蘭華",
@@ -98,5 +98,8 @@
   ],
   "scores": null,
   "rewrite_attempts": 0,
-  "approved_for_publish": false
+  "approved_for_publish": true,
+  "approved_at": "2026-08-27T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
 }
