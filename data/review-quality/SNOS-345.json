@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-345",
+  "review_sha256": "09d38a5056a75fd38c18b254aa821006bce9a67a8f52984e4b6ef7e8feee9838",
+  "selected_thesis": "本片最值得看的不是單一刺激堆疊，而是「結果被開發成了乳頭高潮女」這個企劃核心如何被拆成嘗試、適應、加速與完成四個段落，讓鷲尾めい從被引導的狀態一路走到能主動回應節奏；若你在找的是有明確前後差異、以身體反應和角色變化支撐的展示型企劃，這部比單純連發場面更有選片價值。",
+  "title_basis": {
+    "performer": "鷲尾めい",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "鷲尾めい",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "結果被開發成了乳頭高潮女",
+        "source_field": "title"
+      },
+      {
+        "type": "setting",
+        "value": "美容院",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "鷲尾めい",
+    "presentation_feature": "結果被開發成了乳頭高潮女",
+    "editorial_judgment": "鷲尾めい的企劃呈現與觀看取向",
+    "source_keywords": [
+      "鷲尾めい",
+      "結果被開發成了乳頭高潮女",
+      "美容院"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：鷲尾めい",
+      "supports": "這項可追溯來源訊號支持文章以「鷲尾めい」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：結果被開發成了乳頭高潮女",
+      "supports": "這項可追溯來源訊號支持文章以「結果被開發成了乳頭高潮女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "setting：美容院",
+      "supports": "這項可追溯來源訊號支持文章以「美容院」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：アクメ・オーガズム",
+      "supports": "這項可追溯來源訊號支持文章以「アクメ・オーガズム」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": false
+}
