@@ -1,0 +1,186 @@
+---
+interface Topic {id: string; label: string;}
+interface Card {
+  stable_movie_id: string;
+  source_cover: string;
+  title: string;
+  catalog_code: string;
+  release_date: string | null;
+  performers: string[];
+  canonical_topics: Topic[];
+  has_remotion_promo: boolean;
+  href: string;
+}
+interface Props {card: Card; priority?: boolean;}
+const {card, priority = false} = Astro.props;
+const formattedDate = card.release_date
+  ? new Intl.DateTimeFormat('zh-TW', {year: 'numeric', month: '2-digit', day: '2-digit'}).format(new Date(`${card.release_date}T00:00:00Z`))
+  : null;
+---
+
+<article class="movie-card-v1" data-movie-id={card.stable_movie_id}>
+  <a class="movie-card-v1__cover" href={card.href} aria-label={`閱讀 ${card.catalog_code} 影評`}>
+    <img
+      src={card.source_cover}
+      alt={`${card.catalog_code} 作品封面`}
+      loading={priority ? 'eager' : 'lazy'}
+      fetchpriority={priority ? 'high' : 'auto'}
+      width="800"
+      height="538"
+      data-cover-fallback="/images/movie-cover-fallback.svg"
+    />
+    <span class="movie-card-v1__rail" aria-hidden="true">MOVIE MASTER</span>
+    {card.has_remotion_promo && <span class="movie-card-v1__promo">9秒選片</span>}
+  </a>
+  <div class="movie-card-v1__body">
+    <div class="movie-card-v1__identity">
+      <p>{card.catalog_code}</p>
+      {formattedDate && <time datetime={card.release_date ?? undefined}>{formattedDate}</time>}
+    </div>
+    <h2><a href={card.href}>{card.title}</a></h2>
+    {card.performers.length > 0 && <p class="movie-card-v1__performers">{card.performers.join('、')}</p>}
+    {card.canonical_topics.length > 0 && (
+      <ul class="movie-card-v1__topics" aria-label="作品題材">
+        {card.canonical_topics.map((topic) => <li data-topic-id={topic.id}>{topic.label}</li>)}
+      </ul>
+    )}
+  </div>
+</article>
+
+<script>
+  for (const image of document.querySelectorAll<HTMLImageElement>('[data-cover-fallback]')) {
+    image.addEventListener('error', () => {
+      const fallback = image.dataset.coverFallback;
+      if (!fallback || image.dataset.fallbackApplied === 'true') return;
+      image.dataset.fallbackApplied = 'true';
+      image.src = fallback;
+      image.alt = `${image.alt}（圖片暫時無法載入）`;
+    }, {once: true});
+  }
+</script>
+
+<style>
+  .movie-card-v1 {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    min-width: 0;
+    height: 100%;
+    background: #fff;
+    border: 1px solid rgba(17, 17, 19, .15);
+    box-shadow: 0 8px 24px rgba(17, 17, 19, .05);
+    transition: translate .2s ease, box-shadow .2s ease, border-color .2s ease;
+  }
+  .movie-card-v1:hover,
+  .movie-card-v1:focus-within {
+    translate: 0 -4px;
+    border-color: #ff4d98;
+    box-shadow: 0 15px 36px rgba(17, 17, 19, .12);
+  }
+  .movie-card-v1__cover {
+    position: relative;
+    display: block;
+    aspect-ratio: 800 / 538;
+    overflow: hidden;
+    background: #17181b;
+  }
+  .movie-card-v1__cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: scale .45s cubic-bezier(.2, .75, .25, 1);
+  }
+  .movie-card-v1:hover .movie-card-v1__cover img,
+  .movie-card-v1:focus-within .movie-card-v1__cover img { scale: 1.025; }
+  .movie-card-v1__rail {
+    position: absolute;
+    inset: 0 auto 0 0;
+    display: grid;
+    place-items: center;
+    width: 24px;
+    color: #fff;
+    background: #ff4d98;
+    font: 700 9px/1 'IBM Plex Mono', monospace;
+    letter-spacing: .12em;
+    writing-mode: vertical-rl;
+  }
+  .movie-card-v1__promo {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 6px 9px;
+    color: #fff;
+    background: rgba(17, 17, 19, .9);
+    border: 1px solid rgba(255, 255, 255, .3);
+    font: 700 10px/1 'Noto Sans TC', sans-serif;
+  }
+  .movie-card-v1__body {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 18px 18px 17px;
+  }
+  .movie-card-v1__identity {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid rgba(17, 17, 19, .13);
+  }
+  .movie-card-v1__identity p,
+  .movie-card-v1__identity time {
+    margin: 0;
+    font: 700 11px/1.2 'IBM Plex Mono', monospace;
+  }
+  .movie-card-v1__identity p { color: #e62679; letter-spacing: .08em; }
+  .movie-card-v1__identity time { color: #68686f; font-weight: 500; }
+  h2 {
+    display: -webkit-box;
+    min-height: 3.2em;
+    margin: 13px 0 7px;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font: 800 18px/1.6 'Noto Sans TC', sans-serif;
+    letter-spacing: -.015em;
+  }
+  h2 a:hover { color: #d8206d; }
+  .movie-card-v1__performers {
+    display: -webkit-box;
+    min-height: 1.55em;
+    margin: 0;
+    overflow: hidden;
+    color: #5f6067;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    font-size: 13px;
+  }
+  .movie-card-v1__topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: auto 0 0;
+    padding: 14px 0 0;
+    list-style: none;
+  }
+  .movie-card-v1__topics li {
+    padding: 5px 8px;
+    color: #37383d;
+    background: #f7f5f3;
+    border: 1px solid rgba(17, 17, 19, .13);
+    font: 600 10px/1.2 'Noto Sans TC', sans-serif;
+  }
+  @media (max-width: 600px) {
+    .movie-card-v1__body { padding: 17px 16px 18px; }
+    h2 { min-height: auto; font-size: 17px; }
+    .movie-card-v1__performers { min-height: auto; }
+    .movie-card-v1__rail { width: 22px; }
+    .movie-card-v1__promo { right: 8px; bottom: 8px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .movie-card-v1,
+    .movie-card-v1__cover img { transition: none; }
+    .movie-card-v1:hover,
+    .movie-card-v1:focus-within { translate: none; }
+  }
+</style>
