@@ -10,3 +10,9 @@ test('completed-D1 rehydration runs QA before writing local approval artifacts',
   assert.match(source, /approveAfterAutomatedQa/);
   assert.doesNotMatch(source, /enqueueJob|finishJob/);
 });
+
+test('D1 editorial handoff uses local repair for repairable style findings', async () => {
+  const source = await readFile(new URL('../scripts/editorial/handoff-d1.mjs', import.meta.url), 'utf8');
+  assert.match(source, /qaReport\.status === 'LOCAL_REPAIR'/);
+  assert.match(source, /repair-draft\.mjs/);
+});

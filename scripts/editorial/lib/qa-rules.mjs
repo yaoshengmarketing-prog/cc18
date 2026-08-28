@@ -16,25 +16,105 @@ const reviewSentences = (value) => String(value ?? '').split(/[。！？!?]\s*/)
   .map((sentence) => sentence.replace(/^[\s#*「」『』]+|[\s#*「」『』]+$/g, '').replace(/\s+/g, ''))
   .filter((sentence) => sentence.length >= 18);
 
-export function editorialContentIssues({body = '', titles = [], titleSignals = [], topicElements = {}, coreSourceConcept = ''}) {
-  const issues = [];
+const productionMetaPattern = /(?:\bAI\b|人工智慧|語言模型|模型生成|自動生成|提示詞|prompt|內部規則|內容管線|pipeline|source[-_ ]?only|\bQA\b)/i;
+export const hasReaderFacingProductionMeta = (value) => productionMetaPattern.test(String(value ?? ''));
+const formulaicPivotPatterns = [
+  /(?:真正(?:的)?|主要)?(?:重點|價值|差異|看點|關鍵).{0,18}(?:不在於|不在|不是).{0,42}(?:而在於|而在|而是)/g,
+  /(?:比較|最)?聰明的地方(?:是|在於)/g,
+  /(?:這(?:並)?|不只)?不是.{0,36}而是/g,
+];
+const formulaicHeadingPattern = /^#{1,6}\s+.*(?:不在(?:於)?.{0,42}而在(?:於)?|不是.{0,42}而是)/m;
+const abstractTermLimits = new Map([
+  ['節奏', 8], ['層次', 5], ['推進', 5], ['轉變', 5], ['核心', 9], ['觀看邏輯', 2],
+]);
+const paragraphRefs = (body, matches) => String(body ?? '')
+  .split(/\r?\n\s*\r?\n/)
+  .map((text, index) => ({text: text.trim(), paragraph: index + 1}))
+  .filter(({text}) => text && matches(text))
+  .map(({text, paragraph}) => ({paragraph, excerpt: text.replace(/\s+/g, ' ').slice(0, 140)}));
+const matchesPattern = (text, pattern) => new RegExp(pattern.source, pattern.flags.replaceAll('g', '')).test(text);
+
+const finding = (code, scope, detail = {}) => ({code, scope, ...detail});
+
+export function editorialContentAssessment({body = '', titles = [], titleSignals = [], topicElements = {}, coreSourceConcept = ''}) {
+  const blockingIssues = [];
+  const repairIssues = [];
+  const notes = [];
+  const findings = [];
+  const block = (code, detail) => {
+    blockingIssues.push(code);
+    findings.push(finding(code, 'BLOCK', detail));
+  };
+  const repair = (code, detail) => {
+    repairIssues.push(code);
+    findings.push(finding(code, 'LOCAL_REPAIR', detail));
+  };
+  const note = (code, detail) => {
+    notes.push(code);
+    findings.push(finding(code, 'PASS_WITH_NOTES', detail));
+  };
+
+  if (hasReaderFacingProductionMeta(body)) block('reader_facing_production_meta', {
+    reason: 'CONTENT_INVALID',
+    locations: paragraphRefs(body, (text) => productionMetaPattern.test(text)),
+  });
+  const formulaicPivots = formulaicPivotPatterns.reduce((count, pattern) => count + (body.match(pattern)?.length ?? 0), 0);
+  const formulaicLocations = paragraphRefs(body, (text) => formulaicPivotPatterns.some((pattern) => matchesPattern(text, pattern)));
+  const formulaicHeadingLocations = paragraphRefs(body, (text) => formulaicHeadingPattern.test(text));
+  const paragraphCount = paragraphRefs(body, () => true).length;
+  const formulaicParagraphs = new Set([...formulaicLocations, ...formulaicHeadingLocations].map(({paragraph}) => paragraph));
+  const broadFormulaicVoice = paragraphCount >= 6 && formulaicParagraphs.size / paragraphCount > 1 / 3;
+  if (broadFormulaicVoice) {
+    block('broad_formulaic_voice', {
+      reason: 'STYLE_FULL_REWRITE',
+      affected_paragraphs: formulaicParagraphs.size,
+      paragraph_count: paragraphCount,
+      locations: [...formulaicLocations, ...formulaicHeadingLocations]
+        .filter((item, index, values) => values.findIndex(({paragraph}) => paragraph === item.paragraph) === index),
+    });
+  } else {
+    if (formulaicHeadingLocations.length) repair('formulaic_heading_voice', {matches: formulaicHeadingLocations.length, locations: formulaicHeadingLocations});
+    if (formulaicPivots >= 2) repair('formulaic_machine_voice', {matches: formulaicPivots, locations: formulaicLocations});
+    else if (formulaicPivots === 1) note('formulaic_pivot_observed', {matches: formulaicPivots, locations: formulaicLocations});
+  }
+  const excessiveAbstractTerms = [...abstractTermLimits]
+    .map(([term, limit]) => ({term, count: body.split(term).length - 1, limit}))
+    .filter(({count, limit}) => count > limit);
+  if (excessiveAbstractTerms.length) repair('abstract_editorial_vocabulary_overuse', {
+    terms: excessiveAbstractTerms,
+    locations: paragraphRefs(body, (text) => excessiveAbstractTerms.some(({term}) => text.includes(term))),
+  });
   const sourceTerms = [...new Set(Object.values(topicElements).flat().map((value) => String(value).trim()).filter(Boolean))];
   const meaningfulTerms = sourceTerms.filter((value) => !technicalTerms.has(normalized(value)));
   const requiredBodyTerms = Math.min(2, meaningfulTerms.length);
-  if (meaningfulTerms.filter((term) => body.includes(term)).length < requiredBodyTerms) issues.push('body_lacks_source_adult_vocabulary');
+  if (meaningfulTerms.filter((term) => body.includes(term)).length < requiredBodyTerms) block('body_lacks_source_adult_vocabulary', {reason: 'COVERAGE_INCOMPLETE'});
   const hasSourceAdultSignal = titleSignals.some((signal) => meaningfulTerms.includes(signal))
     || (coreSourceConcept && titleSignals.includes(coreSourceConcept));
-  if (meaningfulTerms.length && !hasSourceAdultSignal) issues.push('title_lacks_primary_source_adult_topic');
+  if (meaningfulTerms.length && !hasSourceAdultSignal) block('title_lacks_primary_source_adult_topic', {reason: 'COVERAGE_INCOMPLETE'});
   if (coreSourceConcept) {
-    if (!titles.some((title) => title.includes(coreSourceConcept))) issues.push('title_lacks_source_core_concept');
-    if (body.split(coreSourceConcept).length - 1 < 2) issues.push('source_core_concept_not_developed');
+    if (!titles.some((title) => title.includes(coreSourceConcept))) block('title_lacks_source_core_concept', {reason: 'COVERAGE_INCOMPLETE'});
+    if (body.split(coreSourceConcept).length - 1 < 2) block('source_core_concept_not_developed', {reason: 'COVERAGE_INCOMPLETE'});
   }
-  if (genericArcs.some((phrase) => body.split(phrase).length - 1 > 1)) issues.push('overused_generic_editorial_arc');
+  const repeatedGenericArcs = genericArcs
+    .map((phrase) => ({phrase, count: body.split(phrase).length - 1}))
+    .filter(({count}) => count > 1);
+  if (repeatedGenericArcs.length) repair('overused_generic_editorial_arc', {
+    phrases: repeatedGenericArcs,
+    locations: paragraphRefs(body, (text) => repeatedGenericArcs.some(({phrase}) => text.includes(phrase))),
+  });
   // 「有沒有」常用於段落提問或選片問句，不等於作者迴避判斷。
   // 只計算真正把判斷留在假設狀態的措辭，避免把正常的評論結構誤判為含糊。
   const conditionalReviewPhrases = body.match(/若(?:要)?成立|有機會/g) ?? [];
-  if (conditionalReviewPhrases.length >= 3) issues.push('overused_conditional_review_voice');
-  return issues;
+  const conditionalLocations = paragraphRefs(body, (text) => /若(?:要)?成立|有機會/.test(text));
+  if (conditionalReviewPhrases.length >= 3) repair('overused_conditional_review_voice', {matches: conditionalReviewPhrases.length, locations: conditionalLocations});
+  else if (conditionalReviewPhrases.length > 0) note('conditional_review_voice_observed', {matches: conditionalReviewPhrases.length, locations: conditionalLocations});
+  return {blockingIssues, repairIssues, notes, findings};
+}
+
+// Backward-compatible aggregate for callers that only need a flat list.
+export function editorialContentIssues(input) {
+  const assessment = editorialContentAssessment(input);
+  return [...assessment.blockingIssues, ...assessment.repairIssues];
 }
 
 export function sitewideOriginalityIssues({body = '', selectedThesis = '', editorialAngle = '', recentReviews = []}) {
@@ -47,4 +127,20 @@ export function sitewideOriginalityIssues({body = '', selectedThesis = '', edito
   const reusedSentence = recentReviews.some((review) => reviewSentences(review.body).some((sentence) => currentSentences.has(sentence)));
   if (reusedSentence) issues.push('sitewide_reused_sentences');
   return issues;
+}
+
+export function sitewideOriginalityAssessment(input) {
+  const issues = sitewideOriginalityIssues(input);
+  // These findings depend on the article-wide thesis or cross-review corpus.
+  // A paragraph-only patch cannot safely update the brief and every dependent artifact.
+  const blockingIssues = issues;
+  const repairIssues = [];
+  return {
+    blockingIssues,
+    repairIssues,
+    notes: [],
+    findings: [
+      ...blockingIssues.map((code) => finding(code, 'BLOCK', {reason: 'SITEWIDE_ORIGINALITY_RISK'})),
+    ],
+  };
 }

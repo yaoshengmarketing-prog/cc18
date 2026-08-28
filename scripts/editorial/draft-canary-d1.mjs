@@ -77,6 +77,14 @@ if (finalizeOnly) {
       approved = true;
       break;
     }
+    const qaReport = JSON.parse(await readFile(resolve(root, 'data', 'review-quality', `${requestedId}-automated.json`), 'utf8'));
+    if (qaReport.status === 'LOCAL_REPAIR') {
+      const repairExitCode = await run('scripts/editorial/repair-draft.mjs', [requestedId], true);
+      if (repairExitCode === 0) {
+        approved = true;
+        break;
+      }
+    }
   }
 }
 if (!approved) throw new Error(`${requestedId}: QA failed after ${editorialModel.qa_rewrite_limit} rewrites${lastBuildError ? `; last build error: ${lastBuildError}` : ''}`);

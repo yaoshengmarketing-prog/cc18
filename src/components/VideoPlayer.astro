@@ -10,9 +10,9 @@ const {src, poster, sourceUrl, title} = Astro.props;
     </video>
   ) : (
     <div class="video-pending" style={`--poster:url('${poster}')`}>
-      <span>SHORT REVIEW</span>
+      <span>VIDEO PREVIEW</span>
       <strong>短影音製作中</strong>
-      <p>文章已先發布，不讓單一媒體任務阻塞最新作品。</p>
+      <p>作品資料與影評已可閱讀，短影音完成後會在這裡更新。</p>
       <a href={sourceUrl} target="_blank" rel="sponsored noopener">先到 CC18 查看作品 ↗</a>
     </div>
   )}

@@ -16,7 +16,7 @@ interface Props {
 const {
   title,
   socialTitle = title,
-  description = '從公開作品資料出發，提供最新作品介紹、原創影評與清楚的 CC18 觀看入口。',
+  description = '整理 CC18 最新作品、演員、系列、題材標籤與原創影評，快速找到想看的作品。',
   image = '/images/demo-hero.svg',
   robots = 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   adult = false,
@@ -52,24 +52,38 @@ const jsonLd = structuredData
   <body>
     <a class="skip-link" href="#main">跳至主要內容</a>
     <header class="site-header">
-      <a class="brand" href="/" aria-label="CC18 影格首頁">
-        <span class="brand-mark">C18</span>
-        <span class="brand-name">CC18 影格<small>新片資訊與原創影評</small></span>
-      </a>
-      <nav aria-label="主要導覽">
-        <a href="/latest/">最新作品</a>
-        <a href="/actresses/">演員</a>
-        <a href="/series/">系列</a>
-        <a href="/tags/">標籤</a>
-        <a href="/search/">搜尋</a>
+      <div class="header-main">
+        <a class="brand" href="/" aria-label="CC18 影格首頁">
+          <span class="brand-mark">C18</span>
+          <span class="brand-name">CC18 影格<small>新片情報與選片指南</small></span>
+        </a>
+        <nav aria-label="主要導覽">
+          <a href="/latest/">最新作品</a>
+          <a href="/actresses/">演員</a>
+          <a href="/series/">系列</a>
+          <a href="/tags/">題材</a>
+        </nav>
+        <div class="header-actions">
+          <a class="search-link" href="/search/" aria-label="搜尋作品">⌕ <span>搜尋</span></a>
+          <a class="source-pill" href="https://cc18.tv/" target="_blank" rel="sponsored noopener">前往 CC18 ↗</a>
+        </div>
+      </div>
+      <nav class="topic-nav" aria-label="快速分類">
+        <a href="/latest/">新片</a>
+        <a href="/tags/married-woman/">人妻</a>
+        <a href="/tags/office-lady/">OL</a>
+        <a href="/tags/amateur/">素人</a>
+        <a href="/tags/story/">劇情</a>
+        <a href="/tags/self-shot/">自拍視角</a>
+        <a href="/tags/group-sex/">多人企劃</a>
+        <a href="/tags/uhd-4k/">4K</a>
       </nav>
-      <a class="source-pill" href="https://cc18.tv/" target="_blank" rel="sponsored noopener">前往 CC18 ↗</a>
     </header>
     <main id="main"><slot /></main>
     <footer class="site-footer">
       <div>
         <span class="brand-mark small">C18</span>
-        <p>作品事實取自 CC18；影評與選片判斷另行製作，並標示影片分析方法與資料時間。</p>
+        <p>整理 CC18 作品資料、題材線索與選片觀點；完整內容請前往原始作品頁。</p>
       </div>
       <nav aria-label="頁尾導覽">
         <a href="/method/">編輯與分析方法</a>

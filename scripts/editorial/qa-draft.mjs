@@ -2,12 +2,14 @@ import {createHash} from 'node:crypto';
 import {readdir, readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {buildSafeTitleSignals} from './lib/safe-editorial-payload.mjs';
-import {editorialContentIssues, sitewideOriginalityIssues, sourceOnlyGroundingIssues} from './lib/qa-rules.mjs';
+import {editorialContentAssessment, hasReaderFacingProductionMeta, sitewideOriginalityAssessment, sourceOnlyGroundingIssues} from './lib/qa-rules.mjs';
 
 const movieId = process.argv[2];
 if (!movieId) throw new Error('Usage: node scripts/editorial/qa-draft.mjs <MOVIE-ID>');
 const root = resolve(import.meta.dirname, '..', '..');
-const markdown = await readFile(resolve(root, `content/reviews/${movieId}.md`), 'utf8');
+const reviewArgument = process.argv.find((value) => value.startsWith('--review='))?.slice('--review='.length);
+const reportArgument = process.argv.find((value) => value.startsWith('--report='))?.slice('--report='.length);
+const markdown = await readFile(reviewArgument ? resolve(reviewArgument) : resolve(root, `content/reviews/${movieId}.md`), 'utf8');
 const brief = JSON.parse(await readFile(resolve(root, `data/editorial-briefs/${movieId}.json`), 'utf8'));
 const source = JSON.parse(await readFile(resolve(root, `data/source-records/${movieId}.json`), 'utf8'));
 const sourceText = await readFile(resolve(root, `data/source-records/${movieId}.json`), 'utf8');
@@ -33,7 +35,11 @@ const recentReviews = (await Promise.all(recentReviewIds.map(async (id) => {
   }
 }))).filter(Boolean).slice(-30);
 
-const issues = [];
+const blockingIssues = [];
+const repairIssues = [];
+const notes = [];
+const findings = [];
+const issues = blockingIssues;
 const frontmatter = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---/)?.[1] ?? '';
 const body = markdown.replace(/^---\r?\n[\s\S]*?\r?\n---/, '').trim();
 const scalar = (key) => frontmatter.match(new RegExp(`^${key}:\\s*(.+)$`, 'm'))?.[1]?.replace(/^['"]|['"]$/g, '') ?? '';
@@ -43,6 +49,10 @@ const list = (key) => {
 };
 
 if (/CC18-DEMO|placeholder|示範(?:文章|資料|內容|作品|稿)/i.test(markdown)) issues.push('placeholder_text');
+if ([scalar('title'), scalar('seoTitle'), scalar('socialTitle'), scalar('shortReview')].some(hasReaderFacingProductionMeta)) {
+  issues.push('reader_facing_production_meta');
+  findings.push({code: 'reader_facing_production_meta', scope: 'BLOCK', reason: 'CONTENT_INVALID', locations: [{field: 'frontmatter'}]});
+}
 if (![scalar('title'), scalar('seoTitle'), scalar('socialTitle')].every((value) => value.includes(movieId))) issues.push('missing_movie_id_in_titles');
 const sourceSignals = list('titleSignals');
 if (sourceSignals.length < 2 || sourceSignals.length > 4) issues.push('invalid_title_signal_count');
@@ -58,19 +68,27 @@ const searchableSource = [
 ].filter(Boolean).join('\n');
 if (sourceSignals.some((value) => !searchableSource.includes(value))) issues.push('untraceable_title_signal');
 if (!/適合|偏好|推薦/.test(body) || !/未必|不適合|取捨/.test(body)) issues.push('missing_decision_value');
-issues.push(...editorialContentIssues({
+const contentAssessment = editorialContentAssessment({
   body,
   titles: [scalar('title'), scalar('seoTitle'), scalar('socialTitle')],
   titleSignals: sourceSignals,
   topicElements: brief.topic_elements ?? {},
   coreSourceConcept: brief.local_creative_brief?.core_source_concept ?? '',
-}));
-issues.push(...sitewideOriginalityIssues({
+});
+blockingIssues.push(...contentAssessment.blockingIssues);
+repairIssues.push(...contentAssessment.repairIssues);
+notes.push(...contentAssessment.notes);
+findings.push(...contentAssessment.findings);
+const originalityAssessment = sitewideOriginalityAssessment({
   body,
   selectedThesis: brief.selected_thesis,
   editorialAngle: brief.editorial_angle,
   recentReviews,
-}));
+});
+blockingIssues.push(...originalityAssessment.blockingIssues);
+repairIssues.push(...originalityAssessment.repairIssues);
+notes.push(...originalityAssessment.notes);
+findings.push(...originalityAssessment.findings);
 
 const sentences = body.split(/[。！？!?]\s*/).map((item) => item.replace(/\s+/g, '')).filter((item) => item.length >= 16);
 const counts = new Map();
@@ -105,13 +123,25 @@ if (search.sample_windows > 0) {
 const publishedIds = new Set(registry.records.filter(({review_status}) => review_status === 'published').map(({id}) => id));
 if ((search.recommendations ?? []).some((item) => item.movie_id === movieId || !publishedIds.has(item.movie_id) || item.reason?.length < 20)) issues.push('invalid_recommendation');
 
+const status = blockingIssues.length
+  ? 'BLOCK'
+  : repairIssues.length
+    ? 'LOCAL_REPAIR'
+    : notes.length
+      ? 'PASS_WITH_NOTES'
+      : 'PASS';
 const report = {
-  schema_version: 1,
+  schema_version: 2,
   id: movieId,
   checked_at: new Date().toISOString(),
   review_sha256: createHash('sha256').update(markdown).digest('hex'),
-  passed: issues.length === 0,
-  issues,
+  status,
+  passed: status === 'PASS' || status === 'PASS_WITH_NOTES',
+  publishable: status === 'PASS' || status === 'PASS_WITH_NOTES',
+  issues: blockingIssues,
+  repair_issues: repairIssues,
+  notes,
+  findings,
   metrics: {
     sections: headings.length,
     evidence_items: brief.evidence?.length ?? 0,
@@ -121,6 +151,6 @@ const report = {
     recommendations: search.recommendations?.length ?? 0,
   },
 };
-await writeFile(resolve(root, `data/review-quality/${movieId}-automated.json`), `${JSON.stringify(report, null, 2)}\n`);
+await writeFile(reportArgument ? resolve(reportArgument) : resolve(root, `data/review-quality/${movieId}-automated.json`), `${JSON.stringify(report, null, 2)}\n`);
 console.log(JSON.stringify(report, null, 2));
 if (!report.passed) process.exitCode = 1;

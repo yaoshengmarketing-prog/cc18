@@ -43,6 +43,14 @@ Create the full title identity according to `config/title-policy.json`.
 
 The article must:
 
+- read like a Taiwanese entertainment editor speaking to an adult reader, using concrete nouns, varied sentence lengths and direct judgments;
+- let each section settle one reader question: give the judgment first, then name the source-specific relationship, setting, act, costume or character condition that supports it;
+- use direct causal sentences such as「因為這個人物關係成立，所以後段的選片取捨會不同」；抽象評論後面要接具體指涉，不用靠固定轉折句撐篇幅；
+- never mention AI, artificial intelligence, language models, prompts, automation, generation, internal rules, QA, pipelines or how the writer was instructed;
+- never explain internal source-field restrictions to the reader; put provenance in the site's compact information note instead;
+- prefer direct statements over recurring pivots such as 「真正的重點不在於……而在於……」、「比較聰明的地方是……」 and 「這不是……而是……」；a single natural use is acceptable, but do not let the pattern recur across sections;
+- when using abstract words such as 節奏、層次、推進、轉變、核心 and 觀看邏輯, immediately name the concrete source-specific element being discussed;
+
 - state a judgment that cannot be reused by changing only the catalog number or performer;
 - develop the `core_source_concept` in the thesis and at least two different sections before using a generic transformation arc as explanation;
 - preserve catalog number, performer, release date, series and source CTA exactly;

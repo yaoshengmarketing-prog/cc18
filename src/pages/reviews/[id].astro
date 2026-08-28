@@ -6,7 +6,7 @@ import VideoPlayer from '../../components/VideoPlayer.astro';
 import WorkFacts from '../../components/WorkFacts.astro';
 import DecisionGuide from '../../components/DecisionGuide.astro';
 import TopicElements from '../../components/TopicElements.astro';
-import {reviewEditorialTags, visibleTags} from '../../lib/reviews';
+import {formatDate, reviewEditorialTags, visibleTags} from '../../lib/reviews';
 import {sourceTagItems} from '../../lib/taxonomy';
 import {sourceRecordFor} from '../../lib/source-records';
 import {searchContentFor} from '../../lib/search-content';
@@ -70,26 +70,34 @@ if (review.data.videoUrl) structuredData.push({
     <nav class="breadcrumbs" aria-label="麵包屑">
       <a href="/">首頁</a><span>／</span><a href="/latest/">作品影評</a><span>／</span><b>{review.data.id}</b>
     </nav>
-    <header class="review-header">
-      <div class="review-cover"><img src={review.data.coverUrl} alt={`${review.data.id} 作品封面`} /></div>
-      <div class="review-heading">
-        <p class="eyebrow">EVIDENCE-LED REVIEW · 證據型原創評論</p>
+    <header class="watch-deck">
+      <div class="watch-stage">
+        <VideoPlayer src={review.data.videoUrl} poster={review.data.coverUrl} sourceUrl={review.data.sourceUrl} title={review.data.id} />
+      </div>
+      <div class="review-heading watch-panel">
+        <div class="watch-identity">
+          <img src={review.data.coverUrl} alt={`${review.data.id} 作品封面`} />
+          <div><p class="eyebrow">NEW REVIEW</p><p class="hero-number">{review.data.id}</p></div>
+        </div>
         <p class="hero-number">{review.data.id}</p>
         <h1>{review.data.title}</h1>
         <p class="lead">{review.data.shortReview}</p>
-        <p class="angle-line"><span>本篇切角</span>{review.data.editorialAngle}</p>
-        <p class="tag-label">站內標準標籤</p>
-        <TagList tags={visibleTags(review)} />
-        <p class="tag-label source-tag-label">CC18 原始標籤</p>
-        <TagList tags={sourceTagItems(review.data.sourceTags)} />
-        {editorialTags.length > 0 && (
-          <><p class="tag-label editorial-tag-label">影評觀點</p><TagList tags={editorialTags} /></>
-        )}
+        <dl class="watch-meta">
+          <div><dt>上片日期</dt><dd>{formatDate(review.data.releaseDate)}</dd></div>
+          <div><dt>演員</dt><dd>{review.data.actress.join('、') || '來源未列出'}</dd></div>
+          <div><dt>片商</dt><dd>{review.data.studio || '來源未列出'}</dd></div>
+        </dl>
+        <TagList tags={visibleTags(review).slice(0, 6)} />
         <a class="button source-cta" href={review.data.sourceUrl} target="_blank" rel="sponsored noopener">
-          <span>在 CC18 查看完整作品資訊</span><b>前往原始作品頁 ↗</b>
+          <span>完整影片與原始作品資訊</span><b>前往 CC18 播放 ↗</b>
         </a>
       </div>
     </header>
+    <section class="review-tag-board" aria-label="作品標籤">
+      <div><p class="tag-label">站內題材</p><TagList tags={visibleTags(review)} /></div>
+      <div><p class="tag-label source-tag-label">CC18 原始標籤</p><TagList tags={sourceTagItems(review.data.sourceTags)} /></div>
+      {editorialTags.length > 0 && <div><p class="tag-label editorial-tag-label">影評觀點</p><TagList tags={editorialTags} /></div>}
+    </section>
     {review.data.heroUrl && (
       <figure class="review-hero-art">
         <img src={review.data.heroUrl} alt={`${review.data.id} 原創非露骨情境主視覺`} loading="eager" />
@@ -98,7 +106,6 @@ if (review.data.videoUrl) structuredData.push({
     )}
     <WorkFacts review={review} source={source} search={search} />
     <TopicElements sourceTags={review.data.sourceTags} />
-    <VideoPlayer src={review.data.videoUrl} poster={review.data.heroUrl ?? review.data.coverUrl} sourceUrl={review.data.sourceUrl} title={review.data.id} />
     {search && <DecisionGuide content={search} related={related} />}
     <div class="article-layout">
       <div class="article-body">
@@ -106,10 +113,10 @@ if (review.data.videoUrl) structuredData.push({
         <Content />
       </div>
       <aside>
-        <p class="eyebrow">HOW WE REVIEW</p>
-        <h2>資料與方法</h2>
-        <p>作品事實取自 CC18；評論與資料欄位分開保存。{search?.sample_windows ? `本篇另使用 ${search.sample_windows} 個全片分布抽樣窗，只採用可追溯的非露骨觀察。` : '本篇目前只使用公開作品資料。'}</p>
-        <a href="/method/">查看完整編輯方法 →</a>
+        <p class="eyebrow">QUICK LINKS</p>
+        <h2>繼續找片</h2>
+        <p>作品資料整理自 CC18。{search?.sample_windows ? `本篇另參考 ${search.sample_windows} 個時間軸觀察窗口。` : '完整影片內容請以原始作品頁為準。'}</p>
+        <a href="/method/">查看資料與編輯說明 →</a>
         <a href={review.data.sourceUrl} target="_blank" rel="sponsored noopener">開啟 CC18 原始頁面 ↗</a>
       </aside>
     </div>

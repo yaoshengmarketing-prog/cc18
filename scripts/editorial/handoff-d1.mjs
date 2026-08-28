@@ -112,6 +112,14 @@ try {
         approved = true;
         break;
       }
+      const qaReport = JSON.parse(await readFile(qaReportPath, 'utf8'));
+      if (qaReport.status === 'LOCAL_REPAIR') {
+        const repairExitCode = await run('scripts/editorial/repair-draft.mjs', [movieId], 'EDITORIAL_QA_FAILED', true);
+        if (repairExitCode === 0) {
+          approved = true;
+          break;
+        }
+      }
     }
     if (!approved) throw Object.assign(new Error(`${movieId}: QA failed after ${editorialModel.qa_rewrite_limit} rewrites`), {code: 'EDITORIAL_QA_FAILED'});
   }

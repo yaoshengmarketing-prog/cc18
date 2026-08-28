@@ -8,15 +8,26 @@ import {tagItems} from '../lib/taxonomy';
 
 const reviews = (await getCollection('reviews', ({data}) => data.status === 'published')).sort(byNewest);
 const featured = reviews.find(({data}) => data.featured) ?? reviews[0];
-const latest = reviews.slice(0, 8);
+const latest = reviews.slice(0, 15);
 const tagIds = [...new Set(reviews.flatMap(reviewTagIds))].slice(0, 12);
 const tags = tagItems(tagIds);
 ---
-<BaseLayout title="最新作品影評" description="CC18 最新作品、完整作品資料、證據型原創影評與清楚的原始作品入口。" adult={true}>
+<BaseLayout title="最新作品影評" description="CC18 最新作品、演員、系列、題材標籤與選片觀點，快速找到完整作品入口。" adult={true}>
+  <section class="catalog-lead">
+    <div>
+      <p class="eyebrow">NEW RELEASES</p>
+      <h1>今天想看哪一部？</h1>
+      <p>用番號、演員、系列或題材搜尋，也可以直接往下看最新入庫。</p>
+    </div>
+    <form action="/search/" method="get" role="search" class="home-search">
+      <label for="home-query">搜尋作品</label>
+      <div><input id="home-query" name="q" type="search" placeholder="輸入番號、演員或題材" /><button type="submit">搜尋</button></div>
+    </form>
+  </section>
   {featured && (
-    <section class="hero">
+    <section class="hero catalog-feature">
       <div class="hero-art">
-        <img src={featured.data.heroUrl ?? featured.data.coverUrl} alt={`${featured.data.id} 主視覺`} />
+        <img src={featured.data.coverUrl} alt={`${featured.data.id} 作品封面`} />
         <div class="film-edge" aria-hidden="true"></div>
       </div>
       <div class="hero-copy">
@@ -29,34 +40,34 @@ const tags = tagItems(tagIds);
           <a class="button primary" href={reviewHref(featured)}>閱讀完整影評</a>
           <a class="button secondary" href={featured.data.sourceUrl} target="_blank" rel="sponsored noopener">前往 CC18 作品頁 ↗</a>
         </div>
-        <p class="source-note">公開資料整理 · 原創觀點 · 完整作品資訊以 CC18 為準</p>
+        <p class="source-note">番號、日期、演員與題材一次看懂</p>
       </div>
     </section>
   )}
 
   <section class="reel-section">
     <div class="section-heading">
-      <div><p class="eyebrow">NEW RELEASE REEL</p><h2>最新入庫</h2></div>
-      <p>更新日有多少新片，就全部先入隊；內容與媒體再依容量分波完成。</p>
+      <div><p class="eyebrow">LATEST CATALOG</p><h2>最新入庫</h2></div>
+      <p>依 CC18 作品頁日期排序，點進去看完整資料、標籤與影評。</p>
       <a href="/latest/">查看全部 →</a>
     </div>
-    <div class="reel" role="list">
+    <div class="catalog-grid" role="list">
       {latest.map((review, index) => <div role="listitem"><ReviewCard review={review} priority={index < 3} /></div>)}
     </div>
   </section>
 
   <section class="explore-grid">
     <div class="tag-panel">
-      <p class="eyebrow">FIND YOUR ANGLE</p>
-      <h2>從標籤開始找</h2>
-      <p>來源標籤會被保留；站內再用統一詞彙、影評切角與趨勢標籤建立搜尋關係。</p>
+      <p class="eyebrow">BROWSE BY TOPIC</p>
+      <h2>從題材開始找</h2>
+      <p>把相近用語整理成一致分類，找片時不用猜不同作品用了哪一種寫法。</p>
       <TagList tags={tags.length ? tags : tagItems(['story'])} />
       <a class="text-link" href="/tags/">瀏覽完整標籤庫 →</a>
     </div>
     <div class="editorial-panel">
-      <span class="quote-mark">“</span>
-      <p>保留來源用語，再回答這一部作品的題材組合、差異與選片價值。</p>
-      <small>CC18 內容與搜尋原則</small>
+      <span class="quote-mark">18+</span>
+      <p>先看封面與題材，再用影評判斷這部是不是你的菜。</p>
+      <small>CC18 影格選片指南</small>
     </div>
   </section>
 </BaseLayout>

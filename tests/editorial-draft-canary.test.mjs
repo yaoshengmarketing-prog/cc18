@@ -31,3 +31,8 @@ test('one malformed rewrite does not consume all remaining QA attempts', () => {
   assert.match(builder, /appendEditorialUsage\([\s\S]*normalizeEditorialResult/);
   assert.doesNotMatch(builder, /returned no title/);
 });
+
+test('draft canary attempts a bounded local repair before another full rewrite', () => {
+  assert.match(source, /qaReport\.status === 'LOCAL_REPAIR'/);
+  assert.match(source, /repair-draft\.mjs/);
+});

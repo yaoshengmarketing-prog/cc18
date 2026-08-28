@@ -29,3 +29,18 @@ test('automated QA report must match the exact draft hash', () => {
   assert.equal(assertFreshAutomatedQa({movieId: 'TEST-001', markdown, report}), report.review_sha256);
   assert.throws(() => assertFreshAutomatedQa({movieId: 'TEST-001', markdown: `${markdown}已修改`, report}), /stale/);
 });
+
+test('PASS_WITH_NOTES remains publishable while LOCAL_REPAIR does not', () => {
+  const markdown = '---\nid: TEST-001\nstatus: draft\n---\n\n內容\n';
+  const hash = createHash('sha256').update(markdown).digest('hex');
+  assert.equal(assertFreshAutomatedQa({
+    movieId: 'TEST-001',
+    markdown,
+    report: {id: 'TEST-001', status: 'PASS_WITH_NOTES', passed: true, issues: [], notes: ['formulaic_pivot_observed'], review_sha256: hash},
+  }), hash);
+  assert.throws(() => assertFreshAutomatedQa({
+    movieId: 'TEST-001',
+    markdown,
+    report: {id: 'TEST-001', status: 'LOCAL_REPAIR', passed: false, issues: [], repair_issues: ['formulaic_machine_voice'], review_sha256: hash},
+  }), /not approved/);
+});
