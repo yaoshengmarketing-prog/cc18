@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "id": "MVG-171",
+  "checked_at": "2026-08-28T14:13:46.382Z",
+  "review_sha256": "4b61a59c5fead904efc3fa650d875ee9e14c5a8e9d19fbd3c207423d372a217c",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 8,
+          "excerpt": "這部片適不適合你，關鍵之一就是你吃不吃辣妹與 AV女優片 這種組合。若你喜歡的是外放、直接、帶點自我意識的表演風格，那它很對味。辣妹這個題材在本作裡，不只是造型標誌，而是整套氣質都往同一方向走：她的神情不是羞怯路線，互動方式也比較乾脆，畫面裡會有一種明亮、主動、願意把反應做給鏡頭"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
