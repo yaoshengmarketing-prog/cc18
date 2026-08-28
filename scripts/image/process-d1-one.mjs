@@ -8,6 +8,7 @@ import {loadLocalEditorialEnvironment} from '../editorial/lib/openai-writer.mjs'
 import {awaitImageTask, createImageTask, downloadGeneratedImage, imageApiKey, listImageModels, selectImageSpec} from './lib/aitokenking-image.mjs';
 import {buildArtworkPrompts} from './lib/artwork-prompt.mjs';
 import {assertApprovedReviewForMedia} from './lib/approval-gate.mjs';
+import {listR2Objects} from '../r2/object-store.mjs';
 
 const requestedMovieId = process.argv[2]?.trim().toUpperCase() ?? null;
 if (requestedMovieId && !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(requestedMovieId)) throw new Error('Usage: npm run image:d1:process-one -- [MOVIE-ID]');
@@ -24,6 +25,10 @@ const assertLocalApproval = async (movieId) => {
   return assertApprovedReviewForMedia({movieId, markdown, quality, registry});
 };
 if (requestedMovieId) await assertLocalApproval(requestedMovieId);
+// Fail before provider discovery, task creation, or D1 claim. This prevents a
+// paid image generation from completing when the configured R2 upload path is
+// unavailable in the current execution environment.
+await listR2Objects({bucket: config.r2_bucket, prefix: '.cc18-upload-preflight/'});
 const apiKey = imageApiKey(config);
 if (!apiKey) throw Object.assign(new Error(`${config.api_key_env} is not configured; image job was not claimed`), {code: 'IMAGE_PROVIDER_NOT_CONFIGURED'});
 const models = await listImageModels({config, apiKey});

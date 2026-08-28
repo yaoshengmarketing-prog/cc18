@@ -4,6 +4,7 @@ import {awaitImageTask, createImageTask, imageEndpoint, selectImageSpec} from '.
 import {buildArtworkPrompts} from '../scripts/image/lib/artwork-prompt.mjs';
 import {createHash} from 'node:crypto';
 import {assertApprovedReviewForMedia} from '../scripts/image/lib/approval-gate.mjs';
+import {readFile} from 'node:fs/promises';
 
 const config = {
   base_url: 'https://api.aitokenking.com.tw/api/v1', allowed_hosts: ['api.aitokenking.com.tw'], model: 'seedream-4.5',
@@ -82,4 +83,16 @@ test('image generation requires an approved review with an exact content hash', 
   assert.equal(assertApprovedReviewForMedia({movieId, markdown, quality, registry}), reviewHash);
   assert.throws(() => assertApprovedReviewForMedia({movieId, markdown: `${markdown}變更`, quality, registry}), /stale/);
   assert.throws(() => assertApprovedReviewForMedia({movieId, markdown: markdown.replace('published', 'draft'), quality, registry}), /not approved/);
+});
+
+test('image worker verifies R2 before provider access or D1 claim', async () => {
+  const source = await readFile(new URL('../scripts/image/process-d1-one.mjs', import.meta.url), 'utf8');
+  const preflight = source.indexOf("await listR2Objects({bucket: config.r2_bucket, prefix: '.cc18-upload-preflight/'})");
+  const providerDiscovery = source.indexOf('await listImageModels');
+  const d1Claim = source.indexOf('await store.claim');
+  const paidGeneration = source.indexOf('await createImageTask');
+  assert.ok(preflight >= 0);
+  assert.ok(preflight < providerDiscovery);
+  assert.ok(preflight < d1Claim);
+  assert.ok(preflight < paidGeneration);
 });
