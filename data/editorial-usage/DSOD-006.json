@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "movie_id": "DSOD-006",
+  "calls": [
+    {
+      "generated_at": "2026-08-28T02:45:16.011Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2485,
+      "cached_input_tokens": 0,
+      "output_tokens": 3614,
+      "total_tokens": 6099,
+      "estimated_cost_usd": 0.09374,
+      "estimated_payg_cash_cost_usd": 0.098427,
+      "direct_openai_reference_usd": 0.060422,
+      "gateway_premium_usd": 0.033318,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    },
+    {
+      "generated_at": "2026-08-28T02:46:07.471Z",
+      "rewrite_attempt": 1,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2622,
+      "cached_input_tokens": 0,
+      "output_tokens": 3514,
+      "total_tokens": 6136,
+      "estimated_cost_usd": 0.092175,
+      "estimated_payg_cash_cost_usd": 0.096784,
+      "direct_openai_reference_usd": 0.059265,
+      "gateway_premium_usd": 0.03291,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 5107,
+    "cached_input_tokens": 0,
+    "output_tokens": 7128,
+    "estimated_cost_usd": 0.185915,
+    "estimated_payg_cash_cost_usd": 0.195211,
+    "direct_openai_reference_usd": 0.119687,
+    "gateway_premium_usd": 0.066228
+  }
+}

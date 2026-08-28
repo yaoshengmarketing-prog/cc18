@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-369",
+  "generated_at": "2026-08-28T12:25:48.073Z",
+  "source_snapshot_hash": "sha256:9b48f1c8f0459ca3f955536109fe45bb8db9f0813488aee11732f16ce59d8a0f",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "以角色企劃是否真的被拍出來為主，不把「傲慢」「覺醒」「主導權」當抽象標籤，而是檢視它們如何由場面調度、互動推進與成人題材組合而成。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "七森莉莉",
+      "高畫質",
+      "獨家配信",
+      "平時傲慢的辣妹學生"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？以角色企劃是否真的被拍出來為主，不把「傲慢」「覺醒」「主導權」當抽象標籤，而是檢視它們如何由場面調度、互動推進與成人題材組合而成。",
+    "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+    "有哪些觀看取捨？只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+  ]
+}
