@@ -26,6 +26,7 @@
     "canary:run": "node scripts/canary/run.mjs",
     "canary:test": "node --test tests/canary-queue.test.mjs",
     "r2:auth:test": "node --test tests/r2-auth.test.mjs",
+    "r2:metadata:rebuild": "node scripts/r2/rebuild-media-metadata.mjs",
     "bridge:init": "node scripts/bridge/init.mjs",
     "bridge:login": "node scripts/bridge/login.mjs",
     "bridge:preflight": "node scripts/bridge/preflight.mjs",

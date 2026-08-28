@@ -1,11 +1,16 @@
 import {createHash} from 'node:crypto';
+import {existsSync} from 'node:fs';
 import {readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
+import {spawnSync} from 'node:child_process';
 import {getR2Object, listR2Objects} from './object-store.mjs';
+import {buildArtworkPrompts} from '../image/lib/artwork-prompt.mjs';
 
 const movieId = process.argv[2]?.trim().toUpperCase();
 if (!/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId ?? '')) throw new Error('Usage: node scripts/r2/rehydrate-media.mjs MOVIE-ID');
 const root = resolve(import.meta.dirname, '..', '..');
+const localBridgeEnvironment = resolve(root, '.dev.vars.bridge');
+if (existsSync(localBridgeEnvironment)) process.loadEnvFile(localBridgeEnvironment);
 const digest = (bytes) => createHash('sha256').update(bytes).digest('hex');
 const source = JSON.parse(await readFile(resolve(root, `data/source-records/${movieId}.json`), 'utf8'));
 const config = JSON.parse(await readFile(resolve(root, 'config/image-model.json'), 'utf8'));
@@ -33,6 +38,19 @@ if (videoObject.bytes.length < 12 || videoObject.bytes.subarray(4, 8).toString()
 }
 let imageBrief = null;
 try { imageBrief = JSON.parse(await readFile(resolve(root, `data/image-briefs/${movieId}.json`), 'utf8')); } catch (error) { if (error?.code !== 'ENOENT') throw error; }
+if (!imageBrief) {
+  const editorial = JSON.parse(await readFile(resolve(root, `data/editorial-briefs/${movieId}.json`), 'utf8'));
+  imageBrief = {
+    schema_version: 1,
+    movie_id: movieId,
+    created_at: new Date().toISOString(),
+    provider: config.provider,
+    model: config.model,
+    artwork_policy: 'original_non_explicit_no_real_person_likeness',
+    prompts: buildArtworkPrompts({source, localCreativeBrief: editorial.local_creative_brief}),
+    recovery: 'reconstructed_after_hash_verified_r2_rehydration',
+  };
+}
 const asset = (role, selected, object) => ({
   role,
   path: `/media/${selected.key}`,
@@ -84,9 +102,17 @@ record.image_status = 'rendered';
 record.video_status = 'rendered';
 registry.updated_at = new Date().toISOString();
 await Promise.all([
+  writeFile(resolve(root, `data/image-briefs/${movieId}.json`), `${JSON.stringify(imageBrief, null, 2)}\n`, 'utf8'),
   writeFile(resolve(root, `data/media-manifests/${movieId}.json`), `${JSON.stringify(manifest, null, 2)}\n`, 'utf8'),
   writeFile(reviewPath, review, 'utf8'),
   writeFile(qualityPath, `${JSON.stringify(quality, null, 2)}\n`, 'utf8'),
   writeFile(registryPath, `${JSON.stringify(registry, null, 2)}\n`, 'utf8'),
 ]);
+const props = spawnSync(process.execPath, [resolve(root, 'scripts/video/build-props.mjs'), movieId], {
+  cwd: root,
+  env: process.env,
+  encoding: 'utf8',
+  stdio: 'inherit',
+});
+if (props.status !== 0) throw new Error(`${movieId}: recovered media props could not be rebuilt`);
 console.log(JSON.stringify({movie_id: movieId, status: 'media_rehydrated', hero: hero.key, vertical_scene: vertical.key, video: video.key}, null, 2));

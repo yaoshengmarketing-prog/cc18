@@ -68,4 +68,18 @@ test('media rehydration preserves prior rewrite history while recording no rewri
   assert.match(source, /rewrite_attempts = 0/);
   assert.match(source, /completed_d1_rehydration_without_rewrite/);
   assert.match(source, /rehydrated_from_hash_verified_r2_object/);
+  assert.match(source, /reconstructed_after_hash_verified_r2_rehydration/);
+  assert.match(source, /buildArtworkPrompts/);
+  assert.match(source, /scripts\/video\/build-props\.mjs/);
+  assert.match(source, /\.dev\.vars\.bridge/);
+});
+
+test('metadata-only recovery requires hash-verified media and never calls R2 or an image provider', async () => {
+  const source = await readFile(new URL('../scripts/r2/rebuild-media-metadata.mjs', import.meta.url), 'utf8');
+  assert.match(source, /rendered_and_uploaded/);
+  assert.match(source, /asset\?\.sha256/);
+  assert.match(source, /manifest\.video\?\.sha256/);
+  assert.match(source, /buildArtworkPrompts/);
+  assert.match(source, /scripts\/video\/build-props\.mjs/);
+  assert.doesNotMatch(source, /getR2Object|listR2Objects|createImageTask|AITOKENKING_API_KEY/);
 });
