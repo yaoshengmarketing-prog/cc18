@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "stable_movie_id": "cc18:PRIAN-054",
   "slug": "prian-054",
   "is_demo": false,
@@ -13,6 +13,16 @@
     "source_cover": "https://cc18.tv/preview/80/b/vufzBCv8FeD-800.jpg?v=1787776718",
     "raw_performer_names": [
       "羽月乃蒼"
+    ],
+    "performer_relations": [
+      {
+        "source_type": "actor",
+        "source_id": "28396",
+        "stable_source_id": "cc18.tv:actor:28396",
+        "source_name": "羽月乃蒼",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=28396",
+        "observed_at": "2026-08-27T04:41:00.105Z"
+      }
     ],
     "raw_studio_name": "アースダイバー",
     "raw_series_names": [],
@@ -28,6 +38,17 @@
     "source_fetched_at": "2026-08-27T04:41:00.105Z",
     "source_verified_at": null,
     "source_parser_version": null
+  },
+  "display": {
+    "performers": [
+      {
+        "source_actor_id": "cc18.tv:actor:28396",
+        "name_ja": "羽月乃蒼",
+        "display_name_zh_tw": null,
+        "display_name": "羽月乃蒼",
+        "verification_status": "SOURCE_NAME_UNCHANGED"
+      }
+    ]
   },
   "titles": {
     "article_title": "PRIAN-054｜羽月乃蒼在南國的大自然裡，讓國寶級美乳與青春活力成為觀看主角",

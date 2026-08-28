@@ -7,6 +7,11 @@
   "actress": [
     "鷲尾めい"
   ],
+  "source_relations": {
+    "performers": [
+      {"source_type": "actor", "source_id": "25064", "stable_source_id": "cc18.tv:actor:25064", "source_name": "鷲尾めい", "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=25064", "observed_at": "2026-08-27T04:41:18.548Z"}
+    ]
+  },
   "studio": "S1 Style",
   "series": null,
   "source_tags": [

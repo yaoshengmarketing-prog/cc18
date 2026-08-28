@@ -7,6 +7,11 @@
   "actress": [
     "蘭華"
   ],
+  "source_relations": {
+    "performers": [
+      {"source_type": "actor", "source_id": "25683", "stable_source_id": "cc18.tv:actor:25683", "source_name": "蘭華", "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=25683", "observed_at": "2026-08-28T12:54:15.874Z"}
+    ]
+  },
   "studio": "gloryquest",
   "series": null,
   "source_tags": [

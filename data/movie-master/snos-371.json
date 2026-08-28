@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "stable_movie_id": "cc18:SNOS-371",
   "slug": "snos-371",
   "is_demo": false,
@@ -13,6 +13,16 @@
     "source_cover": "https://cc18.tv/preview/80/b/DRHm2tlPRcb-800.jpg?v=1787352003",
     "raw_performer_names": [
       "河北彩花"
+    ],
+    "performer_relations": [
+      {
+        "source_type": "actor",
+        "source_id": "34284",
+        "stable_source_id": "cc18.tv:actor:34284",
+        "source_name": "河北彩花",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=34284",
+        "observed_at": "2026-08-27T04:40:44.964Z"
+      }
     ],
     "raw_studio_name": "S1 Style",
     "raw_series_names": [],
@@ -33,6 +43,17 @@
     "source_fetched_at": "2026-08-27T04:40:44.964Z",
     "source_verified_at": null,
     "source_parser_version": null
+  },
+  "display": {
+    "performers": [
+      {
+        "source_actor_id": "cc18.tv:actor:34284",
+        "name_ja": "河北彩花",
+        "display_name_zh_tw": null,
+        "display_name": "河北彩花",
+        "verification_status": "SOURCE_NAME_UNCHANGED"
+      }
+    ]
   },
   "titles": {
     "article_title": "SNOS-371 河北彩花｜關東巡行口交企劃：把紀錄片形式拍出路線感",

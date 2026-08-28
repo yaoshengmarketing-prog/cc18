@@ -7,6 +7,11 @@
   "actress": [
     "羽月乃蒼"
   ],
+  "source_relations": {
+    "performers": [
+      {"source_type": "actor", "source_id": "28396", "stable_source_id": "cc18.tv:actor:28396", "source_name": "羽月乃蒼", "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=28396", "observed_at": "2026-08-27T04:41:00.105Z"}
+    ]
+  },
   "studio": "アースダイバー",
   "series": null,
   "source_tags": [

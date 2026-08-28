@@ -47,6 +47,23 @@ test('review href resolution treats slug and catalog code as independent fields'
   assert.equal(resolveInternalReviewHref(canonicalUrl, 'catalog-999'), null);
 });
 
+test('cards receive resolved performer display names without adopting unverified candidates', async () => {
+  const {cards} = await loadMovieMasterCardPreview();
+  const byCatalogCode = new Map(cards.map((card) => [card.catalog_code, card]));
+  assert.deepEqual(byCatalogCode.get('SDAB-358').performers, ['相澤澪', '要結愛']);
+  assert.deepEqual(byCatalogCode.get('SNOS-345').performers, ['鷲尾芽衣']);
+  assert.deepEqual(byCatalogCode.get('SNOS-360').performers, ['淺野心']);
+  assert.deepEqual(byCatalogCode.get('SNOS-369').performers, ['七森莉莉']);
+  assert.deepEqual(byCatalogCode.get('DSOD-006').performers, ['一ノ瀬ラム', '池田真理奈', '柚木れんか', '柊もみじ']);
+  assert.deepEqual(byCatalogCode.get('SNOS-409').performers, ['星空ねる']);
+  for (const candidate of ['一之瀨蘭', '柚木蓮花', '柊紅葉', '星空音琉']) {
+    assert.ok(cards.every(({performers}) => !performers.includes(candidate)));
+  }
+  for (const catalogCode of ['ENDS-322', 'GAREA-627', 'HUNTC-568', 'MCSR-639', 'SIRO-5722']) {
+    assert.deepEqual(byCatalogCode.get(catalogCode).performers, []);
+  }
+});
+
 test('fallback behavior belongs to MovieCardV1 rather than the preview page', async () => {
   const [component, previewPage] = await Promise.all([
     readFile(new URL('../src/components/MovieCardV1.astro', import.meta.url), 'utf8'),

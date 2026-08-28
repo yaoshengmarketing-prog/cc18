@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "stable_movie_id": "cc18:SNOS-369",
   "slug": "snos-369",
   "is_demo": false,
@@ -13,6 +13,16 @@
     "source_cover": "https://cc18.tv/preview/80/b/2q4jaSZi95w-800.jpg?v=1787344914",
     "raw_performer_names": [
       "七森莉莉"
+    ],
+    "performer_relations": [
+      {
+        "source_type": "actor",
+        "source_id": "25389",
+        "stable_source_id": "cc18.tv:actor:25389",
+        "source_name": "七森莉莉",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=25389",
+        "observed_at": "2026-08-27T04:41:10.127Z"
+      }
     ],
     "raw_studio_name": "S1 Style",
     "raw_series_names": [],
@@ -33,6 +43,17 @@
     "source_fetched_at": "2026-08-27T04:41:10.127Z",
     "source_verified_at": null,
     "source_parser_version": null
+  },
+  "display": {
+    "performers": [
+      {
+        "source_actor_id": "cc18.tv:actor:25389",
+        "name_ja": "七ツ森りり",
+        "display_name_zh_tw": "七森莉莉",
+        "display_name": "七森莉莉",
+        "verification_status": "VERIFIED_TW_MARKET"
+      }
+    ]
   },
   "titles": {
     "article_title": "SNOS-369 七森莉莉｜平時傲慢的辣妹學生",

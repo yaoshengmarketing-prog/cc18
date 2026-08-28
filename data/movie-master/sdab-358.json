@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "stable_movie_id": "cc18:SDAB-358",
   "slug": "sdab-358",
   "is_demo": false,
@@ -14,6 +14,24 @@
     "raw_performer_names": [
       "相沢澪",
       "要結愛"
+    ],
+    "performer_relations": [
+      {
+        "source_type": "actor",
+        "source_id": "30343",
+        "stable_source_id": "cc18.tv:actor:30343",
+        "source_name": "相沢澪",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=30343",
+        "observed_at": "2026-08-27T04:40:55.909Z"
+      },
+      {
+        "source_type": "actor",
+        "source_id": "54414",
+        "stable_source_id": "cc18.tv:actor:54414",
+        "source_name": "要結愛",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=54414",
+        "observed_at": "2026-08-27T04:40:55.909Z"
+      }
     ],
     "raw_studio_name": "SOD",
     "raw_series_names": [],
@@ -31,6 +49,24 @@
     "source_fetched_at": "2026-08-27T04:40:55.909Z",
     "source_verified_at": null,
     "source_parser_version": null
+  },
+  "display": {
+    "performers": [
+      {
+        "source_actor_id": "cc18.tv:actor:30343",
+        "name_ja": "相沢澪",
+        "display_name_zh_tw": "相澤澪",
+        "display_name": "相澤澪",
+        "verification_status": "VERIFIED_ORTHOGRAPHIC"
+      },
+      {
+        "source_actor_id": "cc18.tv:actor:54414",
+        "name_ja": "要結愛",
+        "display_name_zh_tw": null,
+        "display_name": "要結愛",
+        "verification_status": "SOURCE_NAME_UNCHANGED"
+      }
+    ]
   },
   "titles": {
     "article_title": "SDAB-358 相沢澪×要結愛｜18歲口交課程與弓道少女一日特訓",

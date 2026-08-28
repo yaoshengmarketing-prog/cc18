@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0.0",
+  "locale": "zh-TW",
+  "scope": "published-movie-master-v1",
+  "performers": [
+    {
+      "source_actor_id": "cc18.tv:actor:27185",
+      "source_name": "一ノ瀬ラム",
+      "name_ja": "一ノ瀬ラム",
+      "display_name_zh_tw": null,
+      "aliases": [
+        {"name": "一之瀨蘭", "type": "SOURCE_TITLE_ALIAS", "verification_status": "SOURCE_ATTESTED", "searchable": true, "display_as_primary": false, "source_references": ["data/source-records/DSOD-006.json"]}
+      ],
+      "verification_status": "SOURCE_TITLE_ALIAS_ONLY",
+      "source_references": [
+        {"type": "CC18_ACTOR_RELATION", "url": "https://cc18.tv/search.php?s_type=actor&s_tid=27185"},
+        {"type": "SOURCE_TITLE_CANDIDATE", "url": "https://cc18.tv/player.php?uuid=fsFOyhQLqcb&cat=19"}
+      ]
+    },
+    {
+      "source_actor_id": "cc18.tv:actor:27777",
+      "source_name": "池田真理奈",
+      "name_ja": "池田真理奈",
+      "display_name_zh_tw": null,
+      "aliases": [],
+      "verification_status": "SOURCE_NAME_UNCHANGED",
+      "source_references": [
+        {"type": "CC18_ACTOR_RELATION", "url": "https://cc18.tv/search.php?s_type=actor&s_tid=27777"}
+      ]
+    },
+    {
+      "source_actor_id": "cc18.tv:actor:29885",
+      "source_name": "柚木れんか",
+      "name_ja": "柚木れんか",
+      "display_name_zh_tw": null,
+      "aliases": [
+        {"name": "柚木蓮花", "type": "SOURCE_TITLE_ALIAS", "verification_status": "SOURCE_ATTESTED", "searchable": true, "display_as_primary": false, "source_references": ["data/source-records/DSOD-006.json"]}
+      ],
+      "verification_status": "SOURCE_TITLE_ALIAS_ONLY",
+      "source_references": [
+        {"type": "CC18_ACTOR_RELATION", "url": "https://cc18.tv/search.php?s_type=actor&s_tid=29885"},
+        {"type": "SOURCE_TITLE_CANDIDATE", "url": "https://cc18.tv/player.php?uuid=fsFOyhQLqcb&cat=19"}
+      ]
+    },
+    {
+      "source_actor_id": "cc18.tv:actor:54025",
+      "source_name": "柊もみじ",
+      "name_ja": "柊もみじ",
+      "display_name_zh_tw": null,
+      "aliases": [
+        {"name": "柊紅葉", "type": "SOURCE_TITLE_ALIAS", "verification_status": "SOURCE_ATTESTED", "searchable": true, "display_as_primary": false, "source_references": ["data/source-records/DSOD-006.json"]}
+      ],
+      "verification_status": "SOURCE_TITLE_ALIAS_ONLY",
+      "source_references": [
+        {"type": "CC18_ACTOR_RELATION", "url": "https://cc18.tv/search.php?s_type=actor&s_tid=54025"},
+        {"type": "SOURCE_TITLE_CANDIDATE", "url": "https://cc18.tv/player.php?uuid=fsFOyhQLqcb&cat=19"}
+      ]
+    },
+    {
+      "source_actor_id": "cc18.tv:actor:25683",
+      "source_name": "蘭華",
+      "name_ja": "蘭華",
+      "display_name_zh_tw": null,
+      "aliases": [],
+      "verification_status": "SOURCE_NAME_UNCHANGED",
+      "source_references": [
+        {"type": "CC18_ACTOR_RELATION", "url": "https://cc18.tv/search.php?s_type=actor&s_tid=25683"}
+      ]
+    },
+    {
+      "source_actor_id": "cc18.tv:actor:28932",
+      "source_name": "美咲音",
+      "name_ja": "美咲音",
+      "display_name_zh_tw": null,
+      "aliases": [],
+      "verification_status": "SOURCE_NAME_UNCHANGED",
+      "source_references": [
+        {"type": "CC18_ACTOR_RELATION", "url": "https://cc18.tv/search.php?s_type=actor&s_tid=28932"},
+        {"type": "OFFICIAL_JA_PROFILE", "url": "https://lightpro.jp/talent/misakioto.html"}
+      ]
+    },
+    {
+      "source_actor_id": "cc18.tv:actor:28396",
+      "source_name": "羽月乃蒼",
+      "name_ja": "羽月乃蒼",
+      "display_name_zh_tw": null,
+      "aliases": [],
+      "verification_status": "SOURCE_NAME_UNCHANGED",
+      "source_references": [
+        {"type": "CC18_ACTOR_RELATION", "url": "https://cc18.tv/search.php?s_type=actor&s_tid=28396"},
+        {"type": "OFFICIAL_JA_PROFILE", "url": "https://www.t-powers.co.jp/talent/"}
+      ]
+    },
+    {
+      "source_actor_id": "cc18.tv:actor:30343",
+      "source_name": "相沢澪",
+      "name_ja": "相沢澪",
+      "display_name_zh_tw": "相澤澪",
+      "aliases": [
+        {"name": "相沢澪", "type": "OFFICIAL_JA_NAME", "verification_status": "VERIFIED_ORTHOGRAPHIC", "searchable": true}
+      ],
+      "verification_status": "VERIFIED_ORTHOGRAPHIC",
+      "source_references": [
+        {"type": "CC18_ACTOR_RELATION", "url": "https://cc18.tv/search.php?s_type=actor&s_tid=30343"},
+        {"type": "OFFICIAL_JA_PROFILE", "url": "https://aizawamio.blog.jp/"}
+      ]
+    },
+    {
+      "source_actor_id": "cc18.tv:actor:54414",
+      "source_name": "要結愛",
+      "name_ja": "要結愛",
+      "display_name_zh_tw": null,
+      "aliases": [],
+      "verification_status": "SOURCE_NAME_UNCHANGED",
+      "source_references": [
+        {"type": "CC18_ACTOR_RELATION", "url": "https://cc18.tv/search.php?s_type=actor&s_tid=54414"}
+      ]
+    },
+    {
+      "source_actor_id": "cc18.tv:actor:25064",
+      "source_name": "鷲尾めい",
+      "name_ja": "鷲尾めい",
+      "display_name_zh_tw": "鷲尾芽衣",
+      "aliases": [
+        {"name": "鷲尾芽衣", "type": "VERIFIED_TW_MARKET_NAME", "verification_status": "VERIFIED_TW_MARKET", "searchable": true}
+      ],
+      "verification_status": "VERIFIED_TW_MARKET",
+      "source_references": [
+        {"type": "CC18_ACTOR_RELATION", "url": "https://cc18.tv/search.php?s_type=actor&s_tid=25064"},
+        {"type": "TW_MARKET_REFERENCE", "url": "https://avno1tw.com/archives/37888"}
+      ]
+    },
+    {
+      "source_actor_id": "cc18.tv:actor:28722",
+      "source_name": "淺野心",
+      "name_ja": "浅野こころ",
+      "display_name_zh_tw": "淺野心",
+      "aliases": [
+        {"name": "浅野こころ", "type": "OFFICIAL_JA_NAME", "verification_status": "VERIFIED_TW_MARKET", "searchable": true},
+        {"name": "淺野心", "type": "VERIFIED_TW_MARKET_NAME", "verification_status": "VERIFIED_TW_MARKET", "searchable": true}
+      ],
+      "verification_status": "VERIFIED_TW_MARKET",
+      "source_references": [
+        {"type": "CC18_ACTOR_RELATION", "url": "https://cc18.tv/search.php?s_type=actor&s_tid=28722"},
+        {"type": "TW_MARKET_REFERENCE", "url": "https://avno1tw.com/archives/21287"}
+      ]
+    },
+    {
+      "source_actor_id": "cc18.tv:actor:25389",
+      "source_name": "七森莉莉",
+      "name_ja": "七ツ森りり",
+      "display_name_zh_tw": "七森莉莉",
+      "aliases": [
+        {"name": "七ツ森りり", "type": "OFFICIAL_JA_NAME", "verification_status": "VERIFIED_TW_MARKET", "searchable": true},
+        {"name": "七森莉莉", "type": "VERIFIED_TW_MARKET_NAME", "verification_status": "VERIFIED_TW_MARKET", "searchable": true}
+      ],
+      "verification_status": "VERIFIED_TW_MARKET",
+      "source_references": [
+        {"type": "CC18_ACTOR_RELATION", "url": "https://cc18.tv/search.php?s_type=actor&s_tid=25389"},
+        {"type": "TW_MARKET_REFERENCE", "url": "https://avno1tw.com/archives/20820"}
+      ]
+    },
+    {
+      "source_actor_id": "cc18.tv:actor:34284",
+      "source_name": "河北彩花",
+      "name_ja": "河北彩花",
+      "display_name_zh_tw": null,
+      "aliases": [
+        {"name": "河北彩伽", "type": "VERIFIED_FORMER_STAGE_NAME", "verification_status": "VERIFIED_TW_MARKET", "searchable": true}
+      ],
+      "verification_status": "SOURCE_NAME_UNCHANGED",
+      "source_references": [
+        {"type": "CC18_ACTOR_RELATION", "url": "https://cc18.tv/search.php?s_type=actor&s_tid=34284"},
+        {"type": "OFFICIAL_JA_PROFILE", "url": "https://www.t-powers.co.jp/talent/kawakitasaika/"}
+      ]
+    },
+    {
+      "source_actor_id": "cc18.tv:actor:54454",
+      "source_name": "星空ねる",
+      "name_ja": "星空ねる",
+      "display_name_zh_tw": null,
+      "aliases": [
+        {"name": "星空音琉", "type": "SOURCE_TITLE_ALIAS", "verification_status": "SOURCE_ATTESTED", "searchable": true, "display_as_primary": false, "source_references": ["data/source-records/SNOS-409.json"]}
+      ],
+      "verification_status": "SOURCE_TITLE_ALIAS_ONLY",
+      "source_references": [
+        {"type": "CC18_ACTOR_RELATION", "url": "https://cc18.tv/search.php?s_type=actor&s_tid=54454"},
+        {"type": "SOURCE_TITLE_CANDIDATE", "url": "https://cc18.tv/player.php?uuid=awsq946Wq1V&cat=19"}
+      ]
+    }
+  ]
+}

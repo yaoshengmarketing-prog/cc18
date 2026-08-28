@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "stable_movie_id": "cc18:DSOD-006",
   "slug": "dsod-006",
   "is_demo": false,
@@ -16,6 +16,40 @@
       "池田真理奈",
       "柚木れんか",
       "柊もみじ"
+    ],
+    "performer_relations": [
+      {
+        "source_type": "actor",
+        "source_id": "27185",
+        "stable_source_id": "cc18.tv:actor:27185",
+        "source_name": "一ノ瀬ラム",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=27185",
+        "observed_at": "2026-08-27T04:40:49.296Z"
+      },
+      {
+        "source_type": "actor",
+        "source_id": "27777",
+        "stable_source_id": "cc18.tv:actor:27777",
+        "source_name": "池田真理奈",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=27777",
+        "observed_at": "2026-08-27T04:40:49.296Z"
+      },
+      {
+        "source_type": "actor",
+        "source_id": "29885",
+        "stable_source_id": "cc18.tv:actor:29885",
+        "source_name": "柚木れんか",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=29885",
+        "observed_at": "2026-08-27T04:40:49.296Z"
+      },
+      {
+        "source_type": "actor",
+        "source_id": "54025",
+        "stable_source_id": "cc18.tv:actor:54025",
+        "source_name": "柊もみじ",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=54025",
+        "observed_at": "2026-08-27T04:40:49.296Z"
+      }
     ],
     "raw_studio_name": "ダスッ！",
     "raw_series_names": [],
@@ -34,6 +68,38 @@
     "source_fetched_at": "2026-08-27T04:40:49.296Z",
     "source_verified_at": null,
     "source_parser_version": null
+  },
+  "display": {
+    "performers": [
+      {
+        "source_actor_id": "cc18.tv:actor:27185",
+        "name_ja": "一ノ瀬ラム",
+        "display_name_zh_tw": null,
+        "display_name": "一ノ瀬ラム",
+        "verification_status": "SOURCE_TITLE_ALIAS_ONLY"
+      },
+      {
+        "source_actor_id": "cc18.tv:actor:27777",
+        "name_ja": "池田真理奈",
+        "display_name_zh_tw": null,
+        "display_name": "池田真理奈",
+        "verification_status": "SOURCE_NAME_UNCHANGED"
+      },
+      {
+        "source_actor_id": "cc18.tv:actor:29885",
+        "name_ja": "柚木れんか",
+        "display_name_zh_tw": null,
+        "display_name": "柚木れんか",
+        "verification_status": "SOURCE_TITLE_ALIAS_ONLY"
+      },
+      {
+        "source_actor_id": "cc18.tv:actor:54025",
+        "name_ja": "柊もみじ",
+        "display_name_zh_tw": null,
+        "display_name": "柊もみじ",
+        "verification_status": "SOURCE_TITLE_ALIAS_ONLY"
+      }
+    ]
   },
   "titles": {
     "article_title": "DSOD-006 一ノ瀬ラム、池田真理奈、柚木れんか、柊もみじ｜老二航空】DAS與空服員設定：把展示型企劃拍出分段闖關感",

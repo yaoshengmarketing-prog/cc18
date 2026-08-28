@@ -5,6 +5,32 @@ const ALLOWED_HOSTS = new Set(['cc18.tv', 'www.cc18.tv']);
 const clean = (value = '') => value.replace(/\s+/g, ' ').trim();
 const unique = (items) => [...new Set(items.filter(Boolean))];
 
+const typedRelations = ($, selector, sourceType, baseUrl) => {
+  const relations = [];
+  const seen = new Set();
+  $(selector).each((_, element) => {
+    const href = $(element).attr('href');
+    if (!href) return;
+    const relationUrl = new URL(href, baseUrl);
+    if (!ALLOWED_HOSTS.has(relationUrl.hostname)) return;
+    const parsedType = relationUrl.searchParams.get('s_type');
+    const sourceId = relationUrl.searchParams.get('s_tid');
+    const sourceName = clean($(element).text());
+    if (parsedType !== sourceType || !/^\d+$/.test(sourceId ?? '') || !sourceName) return;
+    const stableSourceId = `cc18.tv:${parsedType}:${sourceId}`;
+    if (seen.has(stableSourceId)) return;
+    seen.add(stableSourceId);
+    relations.push({
+      source_type: parsedType,
+      source_id: sourceId,
+      stable_source_id: stableSourceId,
+      source_name: sourceName,
+      source_url: relationUrl.href,
+    });
+  });
+  return relations;
+};
+
 export function assertCc18Url(value) {
   const url = new URL(value);
   if (!ALLOWED_HOSTS.has(url.hostname)) throw new Error(`Disallowed source host: ${url.hostname}`);
@@ -47,6 +73,9 @@ export function parseWorkPage(html, sourceUrl) {
   const releaseDate = clean($('.date').first().text());
   const description = clean($('.intro p').first().text()).replace(/^簡介[：:]\s*/, '') || null;
   const linkTexts = (selector) => unique($(selector).map((_, element) => clean($(element).text())).get());
+  const fetchedAt = new Date().toISOString();
+  const performerRelations = typedRelations($, '.tag-info a[href*="s_type=actor"]', 'actor', url)
+    .map((relation) => ({...relation, observed_at: fetchedAt}));
 
   const result = {
     id,
@@ -54,7 +83,10 @@ export function parseWorkPage(html, sourceUrl) {
     original_title_ja: null,
     translated_title_zh_tw: null,
     release_date: /^20\d{2}-\d{2}-\d{2}$/.test(releaseDate) ? releaseDate : null,
-    actress: linkTexts('.tag-info a[href*="s_type=actor"]'),
+    actress: performerRelations.map(({source_name: sourceName}) => sourceName),
+    source_relations: {
+      performers: performerRelations,
+    },
     studio: linkTexts('.content a[href*="s_type=fac"]').at(0) ?? null,
     series: linkTexts('.content a[href*="s_type=series"]').at(0) ?? null,
     source_tags: linkTexts('.tag-info a[href*="s_type=tag"]'),
@@ -62,7 +94,7 @@ export function parseWorkPage(html, sourceUrl) {
     cover_source_url: coverValue ? new URL(coverValue, url).href : null,
     source_url: url.href,
     source_site: 'cc18.tv',
-    fetched_at: new Date().toISOString(),
+    fetched_at: fetchedAt,
   };
 
   for (const field of ['id', 'title', 'release_date', 'cover_source_url']) {

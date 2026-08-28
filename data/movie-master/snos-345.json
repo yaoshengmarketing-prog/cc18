@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "stable_movie_id": "cc18:SNOS-345",
   "slug": "snos-345",
   "is_demo": false,
@@ -13,6 +13,16 @@
     "source_cover": "https://cc18.tv/preview/80/b/uqDKPGA7S7C-800.jpg?v=1787359215",
     "raw_performer_names": [
       "鷲尾めい"
+    ],
+    "performer_relations": [
+      {
+        "source_type": "actor",
+        "source_id": "25064",
+        "stable_source_id": "cc18.tv:actor:25064",
+        "source_name": "鷲尾めい",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=25064",
+        "observed_at": "2026-08-27T04:41:18.548Z"
+      }
     ],
     "raw_studio_name": "S1 Style",
     "raw_series_names": [],
@@ -33,6 +43,17 @@
     "source_fetched_at": "2026-08-27T04:41:18.548Z",
     "source_verified_at": null,
     "source_parser_version": null
+  },
+  "display": {
+    "performers": [
+      {
+        "source_actor_id": "cc18.tv:actor:25064",
+        "name_ja": "鷲尾めい",
+        "display_name_zh_tw": "鷲尾芽衣",
+        "display_name": "鷲尾芽衣",
+        "verification_status": "VERIFIED_TW_MARKET"
+      }
+    ]
   },
   "titles": {
     "article_title": "SNOS-345 鷲尾めい｜結果被開發成了乳頭高潮女：把企劃做出前後段差異的展示型作品",

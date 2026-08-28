@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "stable_movie_id": "cc18:MVG-171",
   "slug": "mvg-171",
   "is_demo": false,
@@ -13,6 +13,16 @@
     "source_cover": "https://cc18.tv/preview/80/b/Dz9DDfeug2Q-800.jpg?v=1787553644",
     "raw_performer_names": [
       "蘭華"
+    ],
+    "performer_relations": [
+      {
+        "source_type": "actor",
+        "source_id": "25683",
+        "stable_source_id": "cc18.tv:actor:25683",
+        "source_name": "蘭華",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=25683",
+        "observed_at": "2026-08-28T12:54:15.874Z"
+      }
     ],
     "raw_studio_name": "gloryquest",
     "raw_series_names": [],
@@ -32,6 +42,17 @@
     "source_fetched_at": "2026-08-28T12:54:15.874Z",
     "source_verified_at": null,
     "source_parser_version": null
+  },
+  "display": {
+    "performers": [
+      {
+        "source_actor_id": "cc18.tv:actor:25683",
+        "name_ja": "蘭華",
+        "display_name_zh_tw": null,
+        "display_name": "蘭華",
+        "verification_status": "SOURCE_NAME_UNCHANGED"
+      }
+    ]
   },
   "titles": {
     "article_title": "MVG-171 蘭華｜辣妹 3p・4p 展示企劃，多人場面仍抓得住主角",

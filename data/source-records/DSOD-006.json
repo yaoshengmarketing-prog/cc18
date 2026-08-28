@@ -10,6 +10,14 @@
     "柚木れんか",
     "柊もみじ"
   ],
+  "source_relations": {
+    "performers": [
+      {"source_type": "actor", "source_id": "27185", "stable_source_id": "cc18.tv:actor:27185", "source_name": "一ノ瀬ラム", "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=27185", "observed_at": "2026-08-27T04:40:49.296Z"},
+      {"source_type": "actor", "source_id": "27777", "stable_source_id": "cc18.tv:actor:27777", "source_name": "池田真理奈", "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=27777", "observed_at": "2026-08-27T04:40:49.296Z"},
+      {"source_type": "actor", "source_id": "29885", "stable_source_id": "cc18.tv:actor:29885", "source_name": "柚木れんか", "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=29885", "observed_at": "2026-08-27T04:40:49.296Z"},
+      {"source_type": "actor", "source_id": "54025", "stable_source_id": "cc18.tv:actor:54025", "source_name": "柊もみじ", "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=54025", "observed_at": "2026-08-27T04:40:49.296Z"}
+    ]
+  },
   "studio": "ダスッ！",
   "series": null,
   "source_tags": [

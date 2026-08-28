@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "stable_movie_id": "cc18:APNS-419",
   "slug": "apns-419",
   "is_demo": false,
@@ -14,6 +14,7 @@
     "raw_performer_names": [
       "糸井瑠花"
     ],
+    "performer_relations": [],
     "raw_studio_name": "オーロラプロジェクト・アネックス",
     "raw_series_names": [
       "露出願望に憑りつかれた○○"
@@ -34,6 +35,9 @@
     "source_fetched_at": "2026-08-26T06:28:21.824Z",
     "source_verified_at": null,
     "source_parser_version": null
+  },
+  "display": {
+    "performers": []
   },
   "titles": {
     "article_title": "APNS-419 糸井瑠花｜露出慾望附身的女生：學生設定如何把系列企劃拍出遞進感",

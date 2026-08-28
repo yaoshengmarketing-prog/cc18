@@ -70,7 +70,7 @@ export async function loadMovieMasterCardPreview() {
       title: String(title),
       catalog_code: String(master.source.catalog_code),
       release_date: clean(master.source.release_date),
-      performers: (master.source.raw_performer_names ?? []).map(clean).filter(Boolean),
+      performers: (master.display?.performers ?? []).map(({display_name: displayName}) => clean(displayName)).filter(Boolean),
       canonical_topics: canonicalTopicTagIds.map((id) => ({id, label: tagLabels.get(id)})),
       has_remotion_promo: Boolean(clean(master.media?.remotion_promo_ref)),
       href: String(href),

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "stable_movie_id": "cc18:SNOS-360",
   "slug": "snos-360",
   "is_demo": false,
@@ -13,6 +13,16 @@
     "source_cover": "https://cc18.tv/preview/80/b/47FQKrx_Pas-800.jpg?v=1787359215",
     "raw_performer_names": [
       "淺野心"
+    ],
+    "performer_relations": [
+      {
+        "source_type": "actor",
+        "source_id": "28722",
+        "stable_source_id": "cc18.tv:actor:28722",
+        "source_name": "淺野心",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=28722",
+        "observed_at": "2026-08-24T20:41:31.013Z"
+      }
     ],
     "raw_studio_name": "S1 Style",
     "raw_series_names": [],
@@ -33,6 +43,17 @@
     "source_fetched_at": "2026-08-24T20:41:31.013Z",
     "source_verified_at": null,
     "source_parser_version": null
+  },
+  "display": {
+    "performers": [
+      {
+        "source_actor_id": "cc18.tv:actor:28722",
+        "name_ja": "浅野こころ",
+        "display_name_zh_tw": "淺野心",
+        "display_name": "淺野心",
+        "verification_status": "VERIFIED_TW_MARKET"
+      }
+    ]
   },
   "titles": {
     "article_title": "SNOS-360 淺野心ASMR近距離口交：體感視角如何放大反差",

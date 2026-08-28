@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "stable_movie_id": "cc18:CMJU-008",
   "slug": "cmju-008",
   "is_demo": false,
@@ -14,6 +14,7 @@
     "raw_performer_names": [
       "小鈴蜜柑"
     ],
+    "performer_relations": [],
     "raw_studio_name": "チン負け女優/妄想族",
     "raw_series_names": [
       "最強の雄。デカチンイケメンに快楽堕ち"
@@ -35,6 +36,9 @@
     "source_fetched_at": "2026-08-27T04:41:20.675Z",
     "source_verified_at": null,
     "source_parser_version": null
+  },
+  "display": {
+    "performers": []
   },
   "titles": {
     "article_title": "CMJU-008 小鈴蜜柑｜油壓按摩企劃下的節奏轉身",

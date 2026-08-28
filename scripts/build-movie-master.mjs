@@ -4,9 +4,10 @@ import {mkdir, readFile, readdir, writeFile} from 'node:fs/promises';
 import {basename, dirname, join, resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 
-const SCHEMA_VERSION = '1.0.0';
-const GENERATOR_VERSION = '1.0.1';
+const SCHEMA_VERSION = '1.1.0';
+const GENERATOR_VERSION = '1.1.0';
 const SITE_URL = 'https://cc18.pages.dev';
+const PERFORMER_LOCALIZATION_PATH = 'data/localization/performers-zh-tw.json';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const outputDirectory = join(root, 'data', 'movie-master');
 
@@ -104,6 +105,102 @@ const cleanScalar = (value) => {
 const cleanArray = (value) => {
   if (!Array.isArray(value)) return [];
   return value.map(cleanScalar).filter((item) => item !== null);
+};
+
+const performerDictionary = (localization) => {
+  const allowedStatuses = new Set([
+    'VERIFIED_TW_MARKET',
+    'VERIFIED_ORTHOGRAPHIC',
+    'SOURCE_NAME_UNCHANGED',
+    'SOURCE_TITLE_ALIAS_ONLY',
+    'SOURCE_ATTESTED',
+    'UNVERIFIED',
+  ]);
+  const byId = new Map();
+  for (const performer of localization.performers ?? []) {
+    const sourceActorId = cleanScalar(performer.source_actor_id);
+    if (!sourceActorId || !/^cc18\.tv:actor:\d+$/.test(sourceActorId)) fail(`Invalid performer source actor ID: ${sourceActorId}`);
+    if (byId.has(sourceActorId)) fail(`Duplicate performer source actor ID: ${sourceActorId}`);
+    if (!cleanScalar(performer.source_name) || !cleanScalar(performer.name_ja)) fail(`${sourceActorId}: performer names are incomplete`);
+    if (!allowedStatuses.has(performer.verification_status)) fail(`${sourceActorId}: unsupported verification status`);
+    if (!Array.isArray(performer.aliases) || !Array.isArray(performer.source_references) || performer.source_references.length === 0) {
+      fail(`${sourceActorId}: aliases/source references are invalid`);
+    }
+    for (const alias of performer.aliases) {
+      if (!cleanScalar(alias.name) || !cleanScalar(alias.type) || !allowedStatuses.has(alias.verification_status)
+        || typeof alias.searchable !== 'boolean') fail(`${sourceActorId}: invalid alias record`);
+      if ((alias.type === 'SOURCE_TITLE_CANDIDATE' || alias.verification_status === 'SOURCE_TITLE_ALIAS_ONLY') && alias.searchable) {
+        fail(`${sourceActorId}: unverified source-title candidate cannot be searchable`);
+      }
+      if (alias.type === 'SOURCE_TITLE_ALIAS') {
+        if (alias.verification_status !== 'SOURCE_ATTESTED' || alias.searchable !== true || alias.display_as_primary !== false
+          || !Array.isArray(alias.source_references) || alias.source_references.length === 0) {
+          fail(`${sourceActorId}: source-title alias requires attested, searchable, non-primary provenance`);
+        }
+      }
+    }
+    if (performer.display_name_zh_tw !== null
+      && !['VERIFIED_TW_MARKET', 'VERIFIED_ORTHOGRAPHIC'].includes(performer.verification_status)) {
+      fail(`${sourceActorId}: display_name_zh_tw is not backed by an approved verification status`);
+    }
+    byId.set(sourceActorId, performer);
+  }
+  return byId;
+};
+
+const validatePerformerRelations = ({catalogCode, source, isPublished, localizations, usedPerformerIds}) => {
+  const rawNames = cleanArray(source?.actress);
+  const relations = source?.source_relations?.performers ?? [];
+  if (!Array.isArray(relations)) fail(`${catalogCode}: performer relations must be an array`);
+  if (isPublished && rawNames.length !== relations.length) fail(`${catalogCode}: published performer relation count mismatch`);
+  const seen = new Set();
+  const sourceProjection = [];
+  const displayProjection = [];
+  for (const [index, relation] of relations.entries()) {
+    const sourceType = cleanScalar(relation.source_type);
+    const sourceId = cleanScalar(relation.source_id);
+    const stableSourceId = cleanScalar(relation.stable_source_id);
+    const sourceName = cleanScalar(relation.source_name);
+    const sourceUrl = cleanScalar(relation.source_url);
+    const observedAt = cleanScalar(relation.observed_at);
+    if (sourceType !== 'actor' || !/^\d+$/.test(sourceId ?? '') || stableSourceId !== `cc18.tv:actor:${sourceId}`) {
+      fail(`${catalogCode}: invalid performer relation identity`);
+    }
+    if (seen.has(stableSourceId)) fail(`${catalogCode}: duplicate performer relation ${stableSourceId}`);
+    seen.add(stableSourceId);
+    let parsedUrl;
+    try {
+      parsedUrl = new URL(sourceUrl);
+    } catch {
+      fail(`${catalogCode}: invalid performer relation URL`);
+    }
+    if (!['cc18.tv', 'www.cc18.tv'].includes(parsedUrl.hostname)
+      || parsedUrl.searchParams.get('s_type') !== 'actor' || parsedUrl.searchParams.get('s_tid') !== sourceId) {
+      fail(`${catalogCode}: performer relation URL/identity mismatch`);
+    }
+    if (!sourceName || sourceName !== rawNames[index]) fail(`${catalogCode}: performer source name mismatch`);
+    if (!observedAt || observedAt !== cleanScalar(source?.fetched_at)) fail(`${catalogCode}: performer observed_at must equal Source Record fetched_at`);
+    const localized = localizations.get(stableSourceId);
+    if (!localized || cleanScalar(localized.source_name) !== sourceName) fail(`${catalogCode}: missing or mismatched performer localization ${stableSourceId}`);
+    const displayName = cleanScalar(localized.display_name_zh_tw) ?? cleanScalar(localized.name_ja) ?? sourceName;
+    usedPerformerIds.add(stableSourceId);
+    sourceProjection.push({
+      source_type: sourceType,
+      source_id: sourceId,
+      stable_source_id: stableSourceId,
+      source_name: sourceName,
+      source_url: sourceUrl,
+      observed_at: observedAt,
+    });
+    displayProjection.push({
+      source_actor_id: stableSourceId,
+      name_ja: cleanScalar(localized.name_ja),
+      display_name_zh_tw: cleanScalar(localized.display_name_zh_tw),
+      display_name: displayName,
+      verification_status: localized.verification_status,
+    });
+  }
+  return {sourceProjection, displayProjection};
 };
 
 const normalizeCatalogCode = (value) => {
@@ -247,8 +344,12 @@ const buildAll = async () => {
   if (!trackedReviewPaths.length) fail('No Git-tracked review inputs found');
   assertTracked('data/movie-registry.json', 'Registry');
   assertTracked('data/taxonomy.json', 'Taxonomy');
+  assertTracked(PERFORMER_LOCALIZATION_PATH, 'Performer localization');
   const registry = await readTrackedJson('data/movie-registry.json', 'Registry');
   const taxonomy = await readTrackedJson('data/taxonomy.json', 'Taxonomy');
+  const performerLocalization = await readTrackedJson(PERFORMER_LOCALIZATION_PATH, 'Performer localization');
+  const performerLocalizations = performerDictionary(performerLocalization);
+  const usedPerformerIds = new Set();
   const registryById = new Map((registry.records ?? []).map((record) => [record.id, record]));
   const taxonomyById = new Map((taxonomy.tags ?? []).map((tag) => [tag.id, tag]));
   const sourceTagMap = taxonomy.source_tag_map ?? {};
@@ -283,6 +384,14 @@ const buildAll = async () => {
         fail(`${catalogCode}: Registry/content publication mismatch (${registryStatus}/${contentStatus})`);
       }
     }
+
+    const {sourceProjection: performerRelations, displayProjection: displayPerformers} = validatePerformerRelations({
+      catalogCode,
+      source,
+      isPublished,
+      localizations: performerLocalizations,
+      usedPerformerIds,
+    });
 
     const sourceTags = cleanArray(source?.source_tags ?? frontmatter.sourceTags);
     const canonicalTopicTagIds = uniqueSorted(sourceTags.flatMap((rawTag) => {
@@ -335,6 +444,7 @@ const buildAll = async () => {
         public_description: cleanScalar(source?.description),
         source_cover: cleanScalar(source?.cover_source_url ?? frontmatter.coverUrl),
         raw_performer_names: cleanArray(source?.actress ?? frontmatter.actress),
+        performer_relations: performerRelations,
         raw_studio_name: cleanScalar(source?.studio ?? frontmatter.studio),
         raw_series_names: cleanArray(Array.isArray(source?.series) ? source.series : source?.series ? [source.series] : frontmatter.series ? [frontmatter.series] : []),
         source_tags: sourceTags,
@@ -343,6 +453,9 @@ const buildAll = async () => {
         source_fetched_at: cleanScalar(source?.fetched_at),
         source_verified_at: null,
         source_parser_version: null,
+      },
+      display: {
+        performers: displayPerformers,
       },
       titles: {
         article_title: articleTitle,
@@ -392,6 +505,10 @@ const buildAll = async () => {
     assertNoEmptyStrings(master, catalogCode);
     masters.push(master);
   }
+
+
+  const unusedPerformerIds = [...performerLocalizations.keys()].filter((id) => !usedPerformerIds.has(id));
+  if (unusedPerformerIds.length) fail(`Performer localization contains IDs outside the published scope: ${unusedPerformerIds.join(', ')}`);
 
   const duplicate = (key, label) => {
     const seen = new Set();

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "stable_movie_id": "cc18:SNOS-409",
   "slug": "snos-409",
   "is_demo": false,
@@ -13,6 +13,16 @@
     "source_cover": "https://cc18.tv/preview/80/b/awsq946Wq1V-800.jpg?v=1787344855",
     "raw_performer_names": [
       "星空ねる"
+    ],
+    "performer_relations": [
+      {
+        "source_type": "actor",
+        "source_id": "54454",
+        "stable_source_id": "cc18.tv:actor:54454",
+        "source_name": "星空ねる",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=54454",
+        "observed_at": "2026-08-27T04:40:47.248Z"
+      }
     ],
     "raw_studio_name": "S1 Style",
     "raw_series_names": [],
@@ -33,6 +43,17 @@
     "source_fetched_at": "2026-08-27T04:40:47.248Z",
     "source_verified_at": null,
     "source_parser_version": null
+  },
+  "display": {
+    "performers": [
+      {
+        "source_actor_id": "cc18.tv:actor:54454",
+        "name_ja": "星空ねる",
+        "display_name_zh_tw": null,
+        "display_name": "星空ねる",
+        "verification_status": "SOURCE_TITLE_ALIAS_ONLY"
+      }
+    ]
   },
   "titles": {
     "article_title": "SNOS-409 星空ねる｜我還不知道的性愛：把 AV女優片拍成一次有層次的自我研修",
