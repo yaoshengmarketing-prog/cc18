@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-08-28T17:11:14.465Z",
+  "generator_version": "1.0.1",
+  "tracked_input_count": 19,
+  "formal_movie_count": 18,
+  "demo_count": 1,
+  "published_count": 15,
+  "formal_draft_count": 3,
+  "draft_count": 4,
+  "entries": [
+    {
+      "stable_movie_id": "cc18:APNS-419",
+      "catalog_code": "APNS-419",
+      "slug": "apns-419",
+      "master_path": "data/movie-master/apns-419.json",
+      "is_demo": false,
+      "is_published": false,
+      "content_hash": "11d4b72de8bd4fe3bec5e06ae97fb229828a723b348f53898eedacb96240411a"
+    },
+    {
+      "stable_movie_id": "cc18:CC18-DEMO-001",
+      "catalog_code": "CC18-DEMO-001",
+      "slug": "cc18-demo-001",
+      "master_path": "data/movie-master/cc18-demo-001.json",
+      "is_demo": true,
+      "is_published": false,
+      "content_hash": "d623fffee11bc955d62ed8234f4ff71e4bc0a4a8e0489e6306ede1f43a34ba06"
+    },
+    {
+      "stable_movie_id": "cc18:CMJU-008",
+      "catalog_code": "CMJU-008",
+      "slug": "cmju-008",
+      "master_path": "data/movie-master/cmju-008.json",
+      "is_demo": false,
+      "is_published": false,
+      "content_hash": "7d501e9dfc6f998dbcf74a10a69b326f9a9b8854c5d782c74aded66792bf0bc9"
+    },
+    {
+      "stable_movie_id": "cc18:DSOD-006",
+      "catalog_code": "DSOD-006",
+      "slug": "dsod-006",
+      "master_path": "data/movie-master/dsod-006.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "c4e50af6873f8c0e97410aa3dffa64d821563248c6631864d6fa9618080ea496"
+    },
+    {
+      "stable_movie_id": "cc18:ENDS-322",
+      "catalog_code": "ENDS-322",
+      "slug": "ends-322",
+      "master_path": "data/movie-master/ends-322.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "371876aeb42d11dc1188de426201a887191396c129a1592129ee02fe71b80ba8"
+    },
+    {
+      "stable_movie_id": "cc18:GAREA-627",
+      "catalog_code": "GAREA-627",
+      "slug": "garea-627",
+      "master_path": "data/movie-master/garea-627.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "c6cfbfa48e57052b13a474719e69dc761e2ebbeb1de9e3f11bda080725eb226a"
+    },
+    {
+      "stable_movie_id": "cc18:HUNTC-568",
+      "catalog_code": "HUNTC-568",
+      "slug": "huntc-568",
+      "master_path": "data/movie-master/huntc-568.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "411cad56d657ea26fb4b763b7e0c1f66044f2d81646eee5b352ad394ce2dc510"
+    },
+    {
+      "stable_movie_id": "cc18:MCSR-639",
+      "catalog_code": "MCSR-639",
+      "slug": "mcsr-639",
+      "master_path": "data/movie-master/mcsr-639.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "3024f4a0cc36206b0c8736f8ca381ba7a916aedce49aa759d899fad7fd4f5bfc"
+    },
+    {
+      "stable_movie_id": "cc18:MVG-171",
+      "catalog_code": "MVG-171",
+      "slug": "mvg-171",
+      "master_path": "data/movie-master/mvg-171.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "b2d3c168becee4218abef8c4806389981c11d9e353783110900379bd4d3e9dba"
+    },
+    {
+      "stable_movie_id": "cc18:NAMH-074",
+      "catalog_code": "NAMH-074",
+      "slug": "namh-074",
+      "master_path": "data/movie-master/namh-074.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "6d29e86f7de76df7bc8137f426fdaf1b62a33e5cc7c267be499cb6f7dde4c144"
+    },
+    {
+      "stable_movie_id": "cc18:PRIAN-054",
+      "catalog_code": "PRIAN-054",
+      "slug": "prian-054",
+      "master_path": "data/movie-master/prian-054.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "a71eed7ef0f31fbbc7aa6313bbf8f63c4b5977f49b5341d8e2e3f848a4701ae7"
+    },
+    {
+      "stable_movie_id": "cc18:SDAB-358",
+      "catalog_code": "SDAB-358",
+      "slug": "sdab-358",
+      "master_path": "data/movie-master/sdab-358.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "7f6c05a45bceb53c4f8c49fa0cf70c407bde7d61f0e5b885a42d55bff0960f6f"
+    },
+    {
+      "stable_movie_id": "cc18:SIRO-5722",
+      "catalog_code": "SIRO-5722",
+      "slug": "siro-5722",
+      "master_path": "data/movie-master/siro-5722.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "ba8020d1e9ba7105cd82f85531d4b297d559736f19e73dfeb2110058be10ce7a"
+    },
+    {
+      "stable_movie_id": "cc18:SNOS-345",
+      "catalog_code": "SNOS-345",
+      "slug": "snos-345",
+      "master_path": "data/movie-master/snos-345.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "691bfd6e8273a1b6be03dcbdbe1d470e871218fa0b9725394c02966b39e92b80"
+    },
+    {
+      "stable_movie_id": "cc18:SNOS-360",
+      "catalog_code": "SNOS-360",
+      "slug": "snos-360",
+      "master_path": "data/movie-master/snos-360.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "14b205927903d03aa792b2211c667de4bdfd9c63a0b65f2f158de7ec4430d842"
+    },
+    {
+      "stable_movie_id": "cc18:SNOS-369",
+      "catalog_code": "SNOS-369",
+      "slug": "snos-369",
+      "master_path": "data/movie-master/snos-369.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "96114c44cb3d52e1a46efc121341741f4eb009a6ea9ee7dee8cf29b7d9da409e"
+    },
+    {
+      "stable_movie_id": "cc18:SNOS-371",
+      "catalog_code": "SNOS-371",
+      "slug": "snos-371",
+      "master_path": "data/movie-master/snos-371.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "6520ab493733a2b258483d24fa6a841b802cd57ec8960a57227c2384442b856b"
+    },
+    {
+      "stable_movie_id": "cc18:SNOS-409",
+      "catalog_code": "SNOS-409",
+      "slug": "snos-409",
+      "master_path": "data/movie-master/snos-409.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "0b064cfaf50c0c3f511f3c33705e5ca17b5d1244349afbe6b9cfbc8fa5175d8c"
+    },
+    {
+      "stable_movie_id": "cc18:TPNS-037",
+      "catalog_code": "TPNS-037",
+      "slug": "tpns-037",
+      "master_path": "data/movie-master/tpns-037.json",
+      "is_demo": false,
+      "is_published": false,
+      "content_hash": "0a23679c8bb641853b11b96b36f7ec3ae4fcbb6162f1f0733cbc62a0cd0b57af"
+    }
+  ]
+}

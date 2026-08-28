@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0.0",
+  "stable_movie_id": "cc18:CC18-DEMO-001",
+  "slug": "cc18-demo-001",
+  "is_demo": true,
+  "source": {
+    "catalog_code": "CC18-DEMO-001",
+    "source_title": "CC18 流程測試資料",
+    "release_date": "2026-08-25",
+    "source_url": "https://cc18.tv/",
+    "source_site_movie_id": null,
+    "public_description": null,
+    "source_cover": "/images/demo-hero.svg",
+    "raw_performer_names": [
+      "示範演員"
+    ],
+    "raw_studio_name": null,
+    "raw_series_names": [
+      "流程測試"
+    ],
+    "source_tags": [
+      "來源示範"
+    ],
+    "source_record_ref": null,
+    "source_snapshot_ref": null,
+    "source_fetched_at": null,
+    "source_verified_at": null,
+    "source_parser_version": null
+  },
+  "titles": {
+    "article_title": "CC18-DEMO-001 第一部流程測試作品",
+    "translated_title_zh_tw": null,
+    "display_short_title": null,
+    "seo_title": "CC18 流程測試作品"
+  },
+  "derived": {
+    "quality_codes": [],
+    "duration_seconds": null,
+    "canonical_topic_tag_ids": []
+  },
+  "editorial": {
+    "one_line_summary": "這是一筆用來驗證版型、標籤與導流按鈕的安全示範資料，尚未取代為正式作品。",
+    "article_ref": "content/reviews/CC18-DEMO-001.md",
+    "article_evidence_level": "UNKNOWN",
+    "article_evidence_scope": "UNKNOWN"
+  },
+  "media": {
+    "remotion_promo_ref": null
+  },
+  "evidence": {
+    "records": []
+  },
+  "publishing": {
+    "is_published": false,
+    "published_at": null,
+    "canonical_url": null,
+    "indexability": "NOINDEX",
+    "content_hash": "d623fffee11bc955d62ed8234f4ff71e4bc0a4a8e0489e6306ede1f43a34ba06"
+  },
+  "legacy": {
+    "legacy_published_at": "2026-08-25",
+    "legacy_published_at_semantics": "LEGACY_SEMANTICS_UNKNOWN"
+  }
+}
