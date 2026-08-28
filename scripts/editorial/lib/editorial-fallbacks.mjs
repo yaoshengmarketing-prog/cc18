@@ -7,3 +7,13 @@ export function fillMissingEditorialTitle({result, movieId, source, safePublicSo
   result.title = `${movieId}${performer ? ` ${performer}` : ''}｜${concept}`.slice(0, 90);
   return true;
 }
+
+export function ensureAllPerformersInTitle({value, movieId, performers, maximumLength}) {
+  const names = [...new Set((performers ?? []).map((name) => name.trim()).filter(Boolean))];
+  if (!names.length || names.every((name) => value.includes(name))) return value;
+  let remainder = value.replace(movieId, '').trim();
+  for (const name of names) remainder = remainder.replaceAll(name, '').trim();
+  remainder = remainder.replace(/^[\s｜|：:、,—–-]+|[\s｜|：:、,—–-]+$/g, '');
+  const identity = `${movieId} ${names.join('、')}`;
+  return `${identity}${remainder ? `｜${remainder}` : ''}`.slice(0, maximumLength);
+}

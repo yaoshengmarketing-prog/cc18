@@ -6,7 +6,7 @@ import {buildSafePublicSource, buildSafeVideoAnalysis, safeCanonicalTagIds} from
 import {normalizeEditorialResult, parseFirstJsonObject} from './lib/provider-normalization.mjs';
 import {writeSearchContent} from './lib/search-content.mjs';
 import {createDeterministicSourceBrief, createLocalSourceBrief} from './lib/local-source-brief.mjs';
-import {fillMissingEditorialTitle} from './lib/editorial-fallbacks.mjs';
+import {ensureAllPerformersInTitle, fillMissingEditorialTitle} from './lib/editorial-fallbacks.mjs';
 import {appendEditorialUsage} from './lib/usage-ledger.mjs';
 import {loadBridgeConfig} from '../bridge/lib/config.mjs';
 import {createTaxonomyHelpers} from '../tags/taxonomy.mjs';
@@ -211,6 +211,18 @@ console.log(JSON.stringify({event: 'editorial_provider_shape', fields: providerF
 if (!result.title.includes(movieId)) result.title = `${movieId} ${result.title}`.slice(0, 90);
 if (!result.seo_title.includes(movieId)) result.seo_title = `${movieId} 影評｜${result.seo_title}`.slice(0, 100);
 if (!result.social_title.includes(movieId)) result.social_title = `${movieId}｜${result.social_title}`.slice(0, 90);
+result.title = ensureAllPerformersInTitle({
+  value: result.title,
+  movieId,
+  performers: source.actress,
+  maximumLength: 90,
+});
+result.seo_title = ensureAllPerformersInTitle({
+  value: result.seo_title,
+  movieId,
+  performers: source.actress,
+  maximumLength: 100,
+});
 if (coreSourceConcept && ![result.title, result.seo_title].some((value) => value.includes(coreSourceConcept))) {
   const performer = (source.actress ?? []).join('、');
   result.seo_title = `${movieId}${performer ? ` ${performer}` : ''}影評｜${coreSourceConcept}：${result.seo_title.replace(movieId, '').trim()}`.slice(0, 100);
