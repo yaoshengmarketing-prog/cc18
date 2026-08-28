@@ -21,6 +21,8 @@ series: ""
 sourceUrl: https://cc18.tv/player.php?uuid=fsFOyhQLqcb&cat=19
 sourceSite: cc18.tv
 coverUrl: https://cc18.tv/preview/80/b/fsFOyhQLqcb-800.jpg?v=1787388058
+heroUrl: /media/works/2026/08/DSOD-006/hero-v1.jpg
+videoUrl: /media/works/2026/08/DSOD-006/vertical-v1.mp4
 shortReview: "有些多人題材作品一看到標籤就大概知道會怎麼演：角色進場、互動輪替、刺激加碼，最後靠人數和尺度收尾。DSOD-006 比較不一樣的地方，在於它沒有把「老二航空】DAS」當成一句浮誇口號，而是真的把這個企劃名做成觀看方式。空服員設定不是單純制服裝飾，而像是一套服務流程的語言模板，讓變性人、アナルセックス(男の娘)、亂交與中出被整理進一個有前後秩序的展示框架裡。你會感覺這部片不是在一直加人、一直加量，而是在模擬一趟逐步失壓的航程：一開始是禮貌、示範與安排，後面才進入節奏失衡、場面擁"
 editorialAngle: "以「老二航空】DAS」作為全文主軸，分析它如何把空服員設定變成一套可辨識的展示規則，並讓變性人、アナルセックス(男の娘)、亂交、中出等元素被收編進同一企劃節奏中。"
 sourceTags:
@@ -44,8 +46,9 @@ editorialTagIds:
   - showcase-format
   - high-story-density
   - contrast-charm
-status: draft
-videoStatus: pending
+status: published
+videoStatus: rendered
+imageStatus: rendered
 featured: false
 ---
 

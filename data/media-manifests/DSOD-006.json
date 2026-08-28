@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-006",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-08-28T12:37:17.923Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/DSOD-006/hero-v1.jpg",
+      "r2_key": "works/2026/08/DSOD-006/hero-v1.jpg",
+      "bytes": 717613,
+      "sha256": "c3cf4e4aa387fcbd443d40f27c8f688b54a8c61a2b4c1380469da1e5e0815a36",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": null,
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/DSOD-006/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/08/DSOD-006/scene-vertical-v1.jpg",
+      "bytes": 714197,
+      "sha256": "4751a582f3c61fd9b29f2f50f1d7d75c6cbe61795d67fe9f8072fab016b825f7",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": null,
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2152000,
+    "sha256": "dba3be791dede9e055dee3d856e1e9d830fa966ff5be6d8f17699a04f9ae7fdb",
+    "target_r2_key": "works/2026/08/DSOD-006/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/DSOD-006/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
