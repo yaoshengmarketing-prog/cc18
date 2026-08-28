@@ -19,6 +19,8 @@ series: ""
 sourceUrl: https://cc18.tv/player.php?uuid=2q4jaSZi95w&cat=19
 sourceSite: cc18.tv
 coverUrl: https://cc18.tv/preview/80/b/2q4jaSZi95w-800.jpg?v=1787344914
+heroUrl: /media/works/2026/08/SNOS-369/hero-v1.jpg
+videoUrl: /media/works/2026/08/SNOS-369/vertical-v1.mp4
 shortReview: "有些作品把人設當裝飾，片頭講完就結束；這部比較有意思的地方，在於「平時傲慢的辣妹學生」不是一句掛名而已，而是整體觀看節奏的真正起點。七森莉莉在這裡的吸引力，不只是外型與存在感，而是她如何把那種帶刺的距離感先立起來，再讓觀眾一步步看見那層防備被互動磨開。於是口交與騎乘位不只是成人配置，而成了角色態度轉向的兩個節點。"
 editorialAngle: "以角色企劃是否真的被拍出來為主，不把「傲慢」「覺醒」「主導權」當抽象標籤，而是檢視它們如何由場面調度、互動推進與成人題材組合而成。"
 sourceTags:
@@ -41,8 +43,9 @@ canonicalTagIds:
   - uhd-4k
 editorialTagIds:
   - story
-status: draft
-videoStatus: pending
+status: published
+imageStatus: rendered
+videoStatus: rendered
 featured: false
 ---
 

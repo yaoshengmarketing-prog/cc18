@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "SNOS-369",
-  "review_sha256": "1e5af11990f808342169eb3dee739fa4c66211f8e29257647f5966eb4dc6289a",
+  "review_sha256": "f770c4a9ca9f178e130239de1e3bbd0044785e552c3e1b0e468d7006cacb543c",
   "selected_thesis": "以角色企劃是否真的被拍出來為主，不把「傲慢」「覺醒」「主導權」當抽象標籤，而是檢視它們如何由場面調度、互動推進與成人題材組合而成。",
   "title_basis": {
     "performer": "七森莉莉",
@@ -104,5 +104,6 @@
   ],
   "scores": null,
   "rewrite_attempts": 0,
-  "approved_for_publish": false
+  "approved_for_publish": true,
+  "approved_at": "2026-08-27T16:00:00.000Z"
 }
