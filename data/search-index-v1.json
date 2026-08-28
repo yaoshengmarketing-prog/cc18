@@ -1,0 +1,976 @@
+{
+  "schema_version": "1.0.0",
+  "source_revision": "sha256:835329f252163d5f1af9efb47f8455ad18bc8d14c62a9411642b29efdc081811",
+  "source_generated_at": "2026-08-28T18:54:11.553Z",
+  "counts": {
+    "movies": 15,
+    "performers": 14,
+    "excluded_formal_drafts": 3,
+    "excluded_demos": 1
+  },
+  "performers": [
+    {
+      "stable_actor_id": "cc18.tv:actor:27185",
+      "display_name": "一ノ瀬ラム",
+      "display_name_zh_tw": null,
+      "name_ja": "一ノ瀬ラム",
+      "source_name": "一ノ瀬ラム",
+      "searchable_aliases": [
+        "一之瀨蘭"
+      ],
+      "related_movie_ids": [
+        "cc18:DSOD-006"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:25389",
+      "display_name": "七森莉莉",
+      "display_name_zh_tw": "七森莉莉",
+      "name_ja": "七ツ森りり",
+      "source_name": "七森莉莉",
+      "searchable_aliases": [
+        "七ツ森りり",
+        "七森莉莉"
+      ],
+      "related_movie_ids": [
+        "cc18:SNOS-369"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:27777",
+      "display_name": "池田真理奈",
+      "display_name_zh_tw": null,
+      "name_ja": "池田真理奈",
+      "source_name": "池田真理奈",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DSOD-006"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28396",
+      "display_name": "羽月乃蒼",
+      "display_name_zh_tw": null,
+      "name_ja": "羽月乃蒼",
+      "source_name": "羽月乃蒼",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PRIAN-054"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:34284",
+      "display_name": "河北彩花",
+      "display_name_zh_tw": null,
+      "name_ja": "河北彩花",
+      "source_name": "河北彩花",
+      "searchable_aliases": [
+        "河北彩伽"
+      ],
+      "related_movie_ids": [
+        "cc18:SNOS-371"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54454",
+      "display_name": "星空ねる",
+      "display_name_zh_tw": null,
+      "name_ja": "星空ねる",
+      "source_name": "星空ねる",
+      "searchable_aliases": [
+        "星空音琉"
+      ],
+      "related_movie_ids": [
+        "cc18:SNOS-409"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54025",
+      "display_name": "柊もみじ",
+      "display_name_zh_tw": null,
+      "name_ja": "柊もみじ",
+      "source_name": "柊もみじ",
+      "searchable_aliases": [
+        "柊紅葉"
+      ],
+      "related_movie_ids": [
+        "cc18:DSOD-006"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:29885",
+      "display_name": "柚木れんか",
+      "display_name_zh_tw": null,
+      "name_ja": "柚木れんか",
+      "source_name": "柚木れんか",
+      "searchable_aliases": [
+        "柚木蓮花"
+      ],
+      "related_movie_ids": [
+        "cc18:DSOD-006"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:30343",
+      "display_name": "相澤澪",
+      "display_name_zh_tw": "相澤澪",
+      "name_ja": "相沢澪",
+      "source_name": "相沢澪",
+      "searchable_aliases": [
+        "相沢澪"
+      ],
+      "related_movie_ids": [
+        "cc18:SDAB-358"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28932",
+      "display_name": "美咲音",
+      "display_name_zh_tw": null,
+      "name_ja": "美咲音",
+      "source_name": "美咲音",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:NAMH-074"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54414",
+      "display_name": "要結愛",
+      "display_name_zh_tw": null,
+      "name_ja": "要結愛",
+      "source_name": "要結愛",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SDAB-358"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28722",
+      "display_name": "淺野心",
+      "display_name_zh_tw": "淺野心",
+      "name_ja": "浅野こころ",
+      "source_name": "淺野心",
+      "searchable_aliases": [
+        "浅野こころ",
+        "淺野心"
+      ],
+      "related_movie_ids": [
+        "cc18:SNOS-360"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:25683",
+      "display_name": "蘭華",
+      "display_name_zh_tw": null,
+      "name_ja": "蘭華",
+      "source_name": "蘭華",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MVG-171"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:25064",
+      "display_name": "鷲尾芽衣",
+      "display_name_zh_tw": "鷲尾芽衣",
+      "name_ja": "鷲尾めい",
+      "source_name": "鷲尾めい",
+      "searchable_aliases": [
+        "鷲尾芽衣"
+      ],
+      "related_movie_ids": [
+        "cc18:SNOS-345"
+      ]
+    }
+  ],
+  "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:ENDS-322",
+        "source_cover": "https://cc18.tv/preview/80/b/kbBe8mw1a5j-800.jpg?v=1787776529",
+        "title": "ENDS-322｜人妻設定與孕婦設定交纏下的扭曲性癖觀察",
+        "catalog_code": "ENDS-322",
+        "release_date": "2026-08-26",
+        "performers": [],
+        "canonical_topics": [
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "fhd",
+            "label": "全高清 FHD"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "pregnant",
+            "label": "孕婦"
+          },
+          {
+            "id": "streaming-only",
+            "label": "配信限定"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/reviews/ends-322/"
+      },
+      "performer_ids": [],
+      "search": {
+        "source_title": "獨家 響 2",
+        "article_title": "ENDS-322｜人妻設定與孕婦設定交纏下的扭曲性癖觀察",
+        "display_short_title": null,
+        "slug": "ends-322"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:GAREA-627",
+        "source_cover": "https://cc18.tv/preview/80/b/bNbON4x5E19-800.jpg?v=1787776565",
+        "title": "GAREA-627｜自拍形式下的 Happymail OL 約會觀察",
+        "catalog_code": "GAREA-627",
+        "release_date": "2026-08-25",
+        "performers": [],
+        "canonical_topics": [
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "fhd",
+            "label": "全高清 FHD"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "office-lady",
+            "label": "OL"
+          },
+          {
+            "id": "self-shot",
+            "label": "自拍視角"
+          },
+          {
+            "id": "sex-toy",
+            "label": "情趣玩具"
+          },
+          {
+            "id": "streaming-only",
+            "label": "配信限定"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/reviews/garea-627/"
+      },
+      "performer_ids": [],
+      "search": {
+        "source_title": "獨家 滴",
+        "article_title": "GAREA-627｜自拍形式下的 Happymail OL 約會觀察",
+        "display_short_title": null,
+        "slug": "garea-627"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:PRIAN-054",
+        "source_cover": "https://cc18.tv/preview/80/b/vufzBCv8FeD-800.jpg?v=1787776718",
+        "title": "PRIAN-054｜羽月乃蒼在南國的大自然裡，讓國寶級美乳與青春活力成為觀看主角",
+        "catalog_code": "PRIAN-054",
+        "release_date": "2026-08-25",
+        "performers": [
+          "羽月乃蒼"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "image-video",
+            "label": "印象寫真"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/reviews/prian-054/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28396"
+      ],
+      "search": {
+        "source_title": "羽月乃蒼/Noah",
+        "article_title": "PRIAN-054｜羽月乃蒼在南國的大自然裡，讓國寶級美乳與青春活力成為觀看主角",
+        "display_short_title": null,
+        "slug": "prian-054"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SDAB-358",
+        "source_cover": "https://cc18.tv/preview/80/b/hqJ6wEI306J-800.jpg?v=1787740803",
+        "title": "SDAB-358 相沢澪×要結愛｜18歲口交課程與弓道少女一日特訓",
+        "catalog_code": "SDAB-358",
+        "release_date": "2026-08-25",
+        "performers": [
+          "相澤澪",
+          "要結愛"
+        ],
+        "canonical_topics": [
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "facial",
+            "label": "顏射題材"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "production",
+            "label": "企劃作品"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/reviews/sdab-358/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:30343",
+        "cc18.tv:actor:54414"
+      ],
+      "search": {
+        "source_title": "18歲口交課程 對各種雞巴感興趣的童顏弓道少女口交特訓的一天共10發！ 要結愛",
+        "article_title": "SDAB-358 相沢澪×要結愛｜18歲口交課程與弓道少女一日特訓",
+        "display_short_title": null,
+        "slug": "sdab-358"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:NAMH-074",
+        "source_cover": "https://cc18.tv/preview/80/b/3L6BvtzuX51-800.jpg?v=1787747969",
+        "title": "NAMH-074｜美咲音在《至高の膣内射精》的學生設定與漏斗潑精反差觀察",
+        "catalog_code": "NAMH-074",
+        "release_date": "2026-08-24",
+        "performers": [
+          "美咲音"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "student",
+            "label": "學生妹"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/reviews/namh-074/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28932"
+      ],
+      "search": {
+        "source_title": "至高陰道內射角度19發 潮吹短髮美少女 美咲音",
+        "article_title": "NAMH-074｜美咲音在《至高の膣内射精》的學生設定與漏斗潑精反差觀察",
+        "display_short_title": null,
+        "slug": "namh-074"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SIRO-5722",
+        "source_cover": "https://cc18.tv/preview/80/b/sAVH7NV0YbQ-800.jpg?v=1787776553",
+        "title": "SIRO-5722｜素人企劃下的害羞女孩，從初撮り到節奏轉變的觀看重點",
+        "catalog_code": "SIRO-5722",
+        "release_date": "2026-08-24",
+        "performers": [],
+        "canonical_topics": [
+          {
+            "id": "amateur",
+            "label": "素人"
+          },
+          {
+            "id": "beautiful-butt",
+            "label": "美尻"
+          },
+          {
+            "id": "college-student",
+            "label": "女大學生"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "fhd",
+            "label": "全高清 FHD"
+          },
+          {
+            "id": "first-shoot",
+            "label": "初次拍攝"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "self-shot",
+            "label": "自拍視角"
+          },
+          {
+            "id": "streaming-only",
+            "label": "配信限定"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/reviews/siro-5722/"
+      },
+      "performer_ids": [],
+      "search": {
+        "source_title": "獨家 素人應徵A片幹砲體驗 2608",
+        "article_title": "SIRO-5722｜素人企劃下的害羞女孩，從初撮り到節奏轉變的觀看重點",
+        "display_short_title": null,
+        "slug": "siro-5722"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MCSR-639",
+        "source_cover": "https://cc18.tv/preview/80/b/yaTV5LjHy7f-800.jpg?v=1787654450",
+        "title": "MCSR-639 性感覚醒！人妻エステ × 高畫質｜《性感覚醒！人妻エステ》中的性快感與自我探索",
+        "catalog_code": "MCSR-639",
+        "release_date": "2026-08-22",
+        "performers": [],
+        "canonical_topics": [
+          {
+            "id": "beauty-salon",
+            "label": "美容院"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "facial",
+            "label": "顏射題材"
+          },
+          {
+            "id": "fingering",
+            "label": "指交"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/reviews/mcsr-639/"
+      },
+      "performer_ids": [],
+      "search": {
+        "source_title": "巧妙又刺激的療程讓性感覺醒！小心別太興奮！人妻專用美容沙龍4",
+        "article_title": "MCSR-639 性感覚醒！人妻エステ × 高畫質｜《性感覚醒！人妻エステ》中的性快感與自我探索",
+        "display_short_title": null,
+        "slug": "mcsr-639"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MVG-171",
+        "source_cover": "https://cc18.tv/preview/80/b/Dz9DDfeug2Q-800.jpg?v=1787553644",
+        "title": "MVG-171 蘭華｜辣妹 3p・4p 展示企劃，多人場面仍抓得住主角",
+        "catalog_code": "MVG-171",
+        "release_date": "2026-08-22",
+        "performers": [
+          "蘭華"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "gyaru",
+            "label": "辣妹"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/reviews/mvg-171/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:25683"
+      ],
+      "search": {
+        "source_title": "太過囂張的傲慢辣妹被全公司員工徹底懲罰而墮落成醜臉M女！ 蘭華",
+        "article_title": "MVG-171 蘭華｜辣妹 3p・4p 展示企劃，多人場面仍抓得住主角",
+        "display_short_title": null,
+        "slug": "mvg-171"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DSOD-006",
+        "source_cover": "https://cc18.tv/preview/80/b/fsFOyhQLqcb-800.jpg?v=1787388058",
+        "title": "DSOD-006 一ノ瀬ラム、池田真理奈、柚木れんか、柊もみじ｜老二航空】DAS與空服員設定：把展示型企劃拍出分段闖關感",
+        "catalog_code": "DSOD-006",
+        "release_date": "2026-08-21",
+        "performers": [
+          "一ノ瀬ラム",
+          "池田真理奈",
+          "柚木れんか",
+          "柊もみじ"
+        ],
+        "canonical_topics": [
+          {
+            "id": "anal-sex",
+            "label": "肛交題材"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "transgender",
+            "label": "變性人"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/reviews/dsod-006/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27185",
+        "cc18.tv:actor:27777",
+        "cc18.tv:actor:29885",
+        "cc18.tv:actor:54025"
+      ],
+      "search": {
+        "source_title": "【老二航空】DAS！航空公司呈獻,極上空姐用敬語黏膩侍奉的舒適又色情的空中之旅SP 池田真理奈 柚木蓮花 柊紅葉 一之瀨蘭",
+        "article_title": "DSOD-006 一ノ瀬ラム、池田真理奈、柚木れんか、柊もみじ｜老二航空】DAS與空服員設定：把展示型企劃拍出分段闖關感",
+        "display_short_title": null,
+        "slug": "dsod-006"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:HUNTC-568",
+        "source_cover": "https://cc18.tv/preview/80/b/2Id2ijkXE6V-800.jpg?v=1787553649",
+        "title": "HUNTC-568 旅館同房：冷氣故障如何推動同期女同事的酒後反差",
+        "catalog_code": "HUNTC-568",
+        "release_date": "2026-08-21",
+        "performers": [],
+        "canonical_topics": [
+          {
+            "id": "coworker",
+            "label": "同事／部下"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "drinking-party",
+            "label": "聚餐／聯誼"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/reviews/huntc-568/"
+      },
+      "performer_ids": [],
+      "search": {
+        "source_title": "出差的旅館因為我的失誤，竟然要跟認真的同期女同事同房！而且冷氣還故障，在像蒸籠一樣悶熱的房間裡，跟心情糟糕的同期女同事一起大汗淋漓…因為太熱睡不著，兩人一起喝酒後，喝醉的同期女同事竟然突然變成了撒嬌模式！汗水浸透的浴衣讓胸部和內褲若隱若現，所以…",
+        "article_title": "HUNTC-568 旅館同房：冷氣故障如何推動同期女同事的酒後反差",
+        "display_short_title": null,
+        "slug": "huntc-568"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-345",
+        "source_cover": "https://cc18.tv/preview/80/b/uqDKPGA7S7C-800.jpg?v=1787359215",
+        "title": "SNOS-345 鷲尾めい｜結果被開發成了乳頭高潮女：把企劃做出前後段差異的展示型作品",
+        "catalog_code": "SNOS-345",
+        "release_date": "2026-08-21",
+        "performers": [
+          "鷲尾芽衣"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beauty-salon",
+            "label": "美容院"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/reviews/snos-345/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:25064"
+      ],
+      "search": {
+        "source_title": "超級認真的樸素巨乳為了變漂亮而跑去美容院，結果被開發成了乳頭高潮女… 鷲尾芽衣",
+        "article_title": "SNOS-345 鷲尾めい｜結果被開發成了乳頭高潮女：把企劃做出前後段差異的展示型作品",
+        "display_short_title": null,
+        "slug": "snos-345"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-360",
+        "source_cover": "https://cc18.tv/preview/80/b/47FQKrx_Pas-800.jpg?v=1787359215",
+        "title": "SNOS-360 淺野心ASMR近距離口交：體感視角如何放大反差",
+        "catalog_code": "SNOS-360",
+        "release_date": "2026-08-21",
+        "performers": [
+          "淺野心"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "dirty-talk",
+            "label": "言語挑逗"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "facial",
+            "label": "顏射題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "kissing",
+            "label": "親吻互動"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/reviews/snos-360/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28722"
+      ],
+      "search": {
+        "source_title": "【絕美面孔】【最強口交技巧】【口交體感視角】【直擊大腦ASMR舔舐聲】究極口交與絕對想射出的美顏精液淋浴 淺野心",
+        "article_title": "SNOS-360 淺野心ASMR近距離口交：體感視角如何放大反差",
+        "display_short_title": null,
+        "slug": "snos-360"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-369",
+        "source_cover": "https://cc18.tv/preview/80/b/2q4jaSZi95w-800.jpg?v=1787344914",
+        "title": "SNOS-369 七森莉莉｜平時傲慢的辣妹學生",
+        "catalog_code": "SNOS-369",
+        "release_date": "2026-08-21",
+        "performers": [
+          "七森莉莉"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/reviews/snos-369/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:25389"
+      ],
+      "search": {
+        "source_title": "平時傲慢的辣妹學生…擔心發燒的我而熱烈看病！連發情肉棒都幫忙介助的反差母性，讓我大量射精！ 七森莉莉",
+        "article_title": "SNOS-369 七森莉莉｜平時傲慢的辣妹學生",
+        "display_short_title": null,
+        "slug": "snos-369"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-371",
+        "source_cover": "https://cc18.tv/preview/80/b/DRHm2tlPRcb-800.jpg?v=1787352003",
+        "title": "SNOS-371 河北彩花｜關東巡行口交企劃：把紀錄片形式拍出路線感",
+        "catalog_code": "SNOS-371",
+        "release_date": "2026-08-21",
+        "performers": [
+          "河北彩花"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "kissing",
+            "label": "親吻互動"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/reviews/snos-371/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:34284"
+      ],
+      "search": {
+        "source_title": "河北彩花展現真實的溫柔與體貼 關東巡行 破處紀錄片",
+        "article_title": "SNOS-371 河北彩花｜關東巡行口交企劃：把紀錄片形式拍出路線感",
+        "display_short_title": null,
+        "slug": "snos-371"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-409",
+        "source_cover": "https://cc18.tv/preview/80/b/awsq946Wq1V-800.jpg?v=1787344855",
+        "title": "SNOS-409 星空ねる｜我還不知道的性愛：把 AV女優片拍成一次有層次的自我研修",
+        "catalog_code": "SNOS-409",
+        "release_date": "2026-08-21",
+        "performers": [
+          "星空ねる"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "facial",
+            "label": "顏射題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/reviews/snos-409/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54454"
+      ],
+      "search": {
+        "source_title": "我還不知道的性愛，請讓我接受研修！「社會新鮮人」AV女優的職業初體驗3本番 全部都是人生第一次，爽到絕頂Special 星空音琉",
+        "article_title": "SNOS-409 星空ねる｜我還不知道的性愛：把 AV女優片拍成一次有層次的自我研修",
+        "display_short_title": null,
+        "slug": "snos-409"
+      }
+    }
+  ]
+}

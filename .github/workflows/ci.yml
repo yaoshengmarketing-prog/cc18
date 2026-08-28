@@ -21,6 +21,8 @@ jobs:
       - run: npm run registry:validate
       - run: npm run content:validate
       - run: npm run source:test
+      - run: npm run localization:test
+      - run: npm run catalog-search:test
       - run: npm run media:test
       - run: npm run bridge:test
       - run: npm run worker:test

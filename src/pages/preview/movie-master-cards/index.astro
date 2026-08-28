@@ -1,15 +1,15 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import MovieCardV1 from '../../../components/MovieCardV1.astro';
-import {loadMovieMasterCardPreview} from '../../../lib/movie-master.mjs';
+import {loadPublishedMovieCardCatalog} from '../../../lib/movie-master.mjs';
 
-const preview = await loadMovieMasterCardPreview();
-const expectedExclusionCount = preview.index.formal_draft_count + preview.index.demo_count;
-if (preview.cards.length !== preview.index.published_count) {
-  throw new Error(`Movie Master card preview expected ${preview.index.published_count} published cards, received ${preview.cards.length}`);
+const catalog = await loadPublishedMovieCardCatalog();
+const expectedExclusionCount = catalog.index.formal_draft_count + catalog.index.demo_count;
+if (catalog.cards.length !== catalog.index.published_count) {
+  throw new Error(`Movie Master card preview expected ${catalog.index.published_count} published cards, received ${catalog.cards.length}`);
 }
-if (preview.exclusions.length !== expectedExclusionCount || preview.exclusions.some(({is_published}) => is_published)) {
-  throw new Error(`Movie Master card preview expected ${expectedExclusionCount} draft/demo exclusions without published works, received ${preview.exclusions.length}`);
+if (catalog.exclusions.length !== expectedExclusionCount || catalog.exclusions.some(({is_published}) => is_published)) {
+  throw new Error(`Movie Master card preview expected ${expectedExclusionCount} draft/demo exclusions without published works, received ${catalog.exclusions.length}`);
 }
 ---
 
@@ -26,14 +26,14 @@ if (preview.exclusions.length !== expectedExclusionCount || preview.exclusions.s
       <p>本頁只顯示通過基本卡資格的已發布作品。資料直接取自 Movie Master；缺值隱藏，不以推測文字補版面。</p>
     </div>
     <dl aria-label="預覽資料摘要">
-      <div><dt>已發布卡片</dt><dd>{preview.cards.length}</dd></div>
-      <div><dt>正式草稿排除</dt><dd>{preview.index.formal_draft_count}</dd></div>
-      <div><dt>Demo 排除</dt><dd>{preview.index.demo_count}</dd></div>
+      <div><dt>已發布卡片</dt><dd>{catalog.cards.length}</dd></div>
+      <div><dt>正式草稿排除</dt><dd>{catalog.index.formal_draft_count}</dd></div>
+      <div><dt>Demo 排除</dt><dd>{catalog.index.demo_count}</dd></div>
     </dl>
   </section>
 
   <section class="master-preview-grid" aria-label="Movie Master 基本作品卡">
-    {preview.cards.map((card, index) => <MovieCardV1 card={card} priority={index < 3} />)}
+    {catalog.cards.map((card, index) => <MovieCardV1 card={card} priority={index < 3} />)}
   </section>
 </BaseLayout>
 

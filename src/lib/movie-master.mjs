@@ -25,7 +25,7 @@ export const resolveInternalReviewHref = (canonicalUrl, slug) => {
   }
 };
 
-export async function loadMovieMasterCardPreview() {
+export async function loadPublishedMovieCardCatalog() {
   const [index, taxonomy] = await Promise.all([
     readJson('data/movie-master/index.json'),
     readJson('data/taxonomy.json'),

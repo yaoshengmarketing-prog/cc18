@@ -1,24 +1,24 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {loadMovieMasterCardPreview, resolveInternalReviewHref} from '../src/lib/movie-master.mjs';
+import {loadPublishedMovieCardCatalog, resolveInternalReviewHref} from '../src/lib/movie-master.mjs';
 
 const readJson = async (path) => JSON.parse(await readFile(new URL(`../${path}`, import.meta.url), 'utf8'));
 
-test('Movie Master preview follows the index publication and exclusion counts', async () => {
-  const preview = await loadMovieMasterCardPreview();
-  assert.equal(preview.cards.length, preview.index.published_count);
-  assert.equal(preview.exclusions.length, preview.index.formal_draft_count + preview.index.demo_count);
-  assert.equal(preview.exclusions.filter(({is_demo}) => is_demo).length, preview.index.demo_count);
+test('published Movie Master card catalog follows index publication and exclusion counts', async () => {
+  const catalog = await loadPublishedMovieCardCatalog();
+  assert.equal(catalog.cards.length, catalog.index.published_count);
+  assert.equal(catalog.exclusions.length, catalog.index.formal_draft_count + catalog.index.demo_count);
+  assert.equal(catalog.exclusions.filter(({is_demo}) => is_demo).length, catalog.index.demo_count);
   assert.equal(
-    preview.exclusions.filter(({is_demo, is_published}) => !is_demo && !is_published).length,
-    preview.index.formal_draft_count,
+    catalog.exclusions.filter(({is_demo, is_published}) => !is_demo && !is_published).length,
+    catalog.index.formal_draft_count,
   );
-  assert.equal(preview.exclusions.filter(({is_published}) => is_published).length, 0);
+  assert.equal(catalog.exclusions.filter(({is_published}) => is_published).length, 0);
 });
 
 test('basic cards expose only qualified Movie Master projections', async () => {
-  const {cards} = await loadMovieMasterCardPreview();
+  const {cards} = await loadPublishedMovieCardCatalog();
   const index = await readJson('data/movie-master/index.json');
   const masters = await Promise.all(index.entries.map(({master_path}) => readJson(master_path)));
   const mastersById = new Map(masters.map((master) => [master.stable_movie_id, master]));
@@ -48,7 +48,7 @@ test('review href resolution treats slug and catalog code as independent fields'
 });
 
 test('cards receive resolved performer display names without adopting unverified candidates', async () => {
-  const {cards} = await loadMovieMasterCardPreview();
+  const {cards} = await loadPublishedMovieCardCatalog();
   const byCatalogCode = new Map(cards.map((card) => [card.catalog_code, card]));
   assert.deepEqual(byCatalogCode.get('SDAB-358').performers, ['相澤澪', '要結愛']);
   assert.deepEqual(byCatalogCode.get('SNOS-345').performers, ['鷲尾芽衣']);
@@ -73,4 +73,16 @@ test('fallback behavior belongs to MovieCardV1 rather than the preview page', as
   assert.match(component, /fallbackApplied === 'true'/);
   assert.match(component, /\{once: true\}/);
   assert.doesNotMatch(previewPage, /fallbackApplied|data-cover-fallback/);
+});
+
+test('preview and formal search share the neutral published card catalog', async () => {
+  const [library, previewPage, searchBuilder] = await Promise.all([
+    readFile(new URL('../src/lib/movie-master.mjs', import.meta.url), 'utf8'),
+    readFile(new URL('../src/pages/preview/movie-master-cards/index.astro', import.meta.url), 'utf8'),
+    readFile(new URL('../scripts/build-search-index.mjs', import.meta.url), 'utf8'),
+  ]);
+  assert.match(library, /export async function loadPublishedMovieCardCatalog\(\)/);
+  assert.match(previewPage, /loadPublishedMovieCardCatalog\(\)/);
+  assert.match(searchBuilder, /loadPublishedMovieCardCatalog\(\)/);
+  assert.doesNotMatch(searchBuilder, /loadMovieMasterCardPreview|preview\/movie-master-cards|preview\./);
 });
