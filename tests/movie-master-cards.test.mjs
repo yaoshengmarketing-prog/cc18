@@ -93,6 +93,31 @@ test('SNOS-345 card uses the approved short title projected by Movie Master', as
   assert.equal(card.title, '鷲尾芽衣的美容院乳頭開發');
 });
 
+test('Latest renders the neutral published card catalog in its established deterministic order', async () => {
+  const [latestPage, {cards}, index] = await Promise.all([
+    readFile(new URL('../src/pages/latest/index.astro', import.meta.url), 'utf8'),
+    loadPublishedMovieCardCatalog(),
+    readJson('data/movie-master/index.json'),
+  ]);
+  const masters = await Promise.all(index.entries.map(({master_path: masterPath}) => readJson(masterPath)));
+  const expectedOrder = masters
+    .filter((master) => master.publishing?.is_published === true && master.is_demo !== true)
+    .sort((left, right) => (
+      (right.source?.release_date ?? '').localeCompare(left.source?.release_date ?? '')
+      || left.source.catalog_code.localeCompare(right.source.catalog_code, 'en')
+    ))
+    .map(({source}) => source.catalog_code);
+
+  assert.deepEqual(cards.map(({catalog_code: catalogCode}) => catalogCode), expectedOrder);
+  assert.equal(cards.length, index.published_count);
+  assert.equal(new Set(cards.map(({stable_movie_id: stableMovieId}) => stableMovieId)).size, cards.length);
+  assert.equal(new Set(cards.map(({catalog_code: catalogCode}) => catalogCode)).size, cards.length);
+  assert.ok(cards.every(({title}) => title.trim()));
+  assert.match(latestPage, /loadPublishedMovieCardCatalog\(\)/);
+  assert.match(latestPage, /<MovieCardV1 card=\{card\}/);
+  assert.doesNotMatch(latestPage, /ReviewCard|getCollection\('reviews'\)|byNewest/);
+});
+
 test('fallback behavior belongs to MovieCardV1 rather than the preview page', async () => {
   const [component, previewPage] = await Promise.all([
     readFile(new URL('../src/components/MovieCardV1.astro', import.meta.url), 'utf8'),
@@ -104,14 +129,16 @@ test('fallback behavior belongs to MovieCardV1 rather than the preview page', as
   assert.doesNotMatch(previewPage, /fallbackApplied|data-cover-fallback/);
 });
 
-test('preview and formal search share the neutral published card catalog', async () => {
-  const [library, previewPage, searchBuilder] = await Promise.all([
+test('preview, Latest and formal search share the neutral published card catalog', async () => {
+  const [library, previewPage, latestPage, searchBuilder] = await Promise.all([
     readFile(new URL('../src/lib/movie-master.mjs', import.meta.url), 'utf8'),
     readFile(new URL('../src/pages/preview/movie-master-cards/index.astro', import.meta.url), 'utf8'),
+    readFile(new URL('../src/pages/latest/index.astro', import.meta.url), 'utf8'),
     readFile(new URL('../scripts/build-search-index.mjs', import.meta.url), 'utf8'),
   ]);
   assert.match(library, /export async function loadPublishedMovieCardCatalog\(\)/);
   assert.match(previewPage, /loadPublishedMovieCardCatalog\(\)/);
+  assert.match(latestPage, /loadPublishedMovieCardCatalog\(\)/);
   assert.match(searchBuilder, /loadPublishedMovieCardCatalog\(\)/);
   assert.doesNotMatch(searchBuilder, /loadMovieMasterCardPreview|preview\/movie-master-cards|preview\./);
 });

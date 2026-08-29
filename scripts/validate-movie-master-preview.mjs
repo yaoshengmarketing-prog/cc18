@@ -5,6 +5,7 @@ import {workPath} from '../src/lib/work-url.mjs';
 const root = resolve(import.meta.dirname, '..');
 const readJson = async (path) => JSON.parse(await readFile(resolve(root, path), 'utf8'));
 const html = await readFile(resolve(root, 'dist/preview/movie-master-cards/index.html'), 'utf8');
+const latestHtml = await readFile(resolve(root, 'dist/latest/index.html'), 'utf8');
 const sitemap = await readFile(resolve(root, 'dist/sitemap-0.xml'), 'utf8');
 const redirects = await readFile(resolve(root, 'dist/_redirects'), 'utf8');
 const index = await readJson('data/movie-master/index.json');
@@ -15,6 +16,10 @@ const expectedById = new Map(expectedPublished.map((master) => [master.stable_mo
 const renderedCards = [...html.matchAll(/<article class="movie-card-v1" data-movie-id="([^"]+)"[^>]*>([\s\S]*?)<\/article>/g)]
   .map((match) => ({stableMovieId: match[1], html: match[2]}));
 const renderedIds = renderedCards.map(({stableMovieId}) => stableMovieId);
+const renderedById = new Map(renderedCards.map((card) => [card.stableMovieId, card]));
+const latestCards = [...latestHtml.matchAll(/<article class="movie-card-v1" data-movie-id="([^"]+)"[^>]*>([\s\S]*?)<\/article>/g)]
+  .map((match) => ({stableMovieId: match[1], html: match[2]}));
+const latestIds = latestCards.map(({stableMovieId}) => stableMovieId);
 const pathExists = async (path) => access(path).then(() => true, () => false);
 const expectedRedirects = '/reviews/:slug/ /works/:slug/ 301\n/reviews/:slug /works/:slug/ 301\n';
 
@@ -26,8 +31,15 @@ if (expectedExcluded.length !== index.formal_draft_count + index.demo_count) thr
 if (renderedCards.length !== index.published_count || new Set(renderedIds).size !== index.published_count) {
   throw new Error(`Expected ${index.published_count} unique cards, received ${renderedCards.length}`);
 }
+if (latestCards.length !== index.published_count || new Set(latestIds).size !== index.published_count) {
+  throw new Error(`Latest expected ${index.published_count} unique cards, received ${latestCards.length}`);
+}
+if (latestIds.join('\n') !== renderedIds.join('\n')) {
+  throw new Error('Latest card order differs from the neutral Movie Master catalog preview');
+}
 for (const master of expectedExcluded) {
   if (renderedIds.includes(master.stable_movie_id)) throw new Error(`Excluded Movie Master rendered: ${master.stable_movie_id}`);
+  if (latestIds.includes(master.stable_movie_id)) throw new Error(`Excluded Movie Master rendered on Latest: ${master.stable_movie_id}`);
 }
 for (const {stableMovieId, html: cardHtml} of renderedCards) {
   const master = expectedById.get(stableMovieId);
@@ -58,6 +70,22 @@ for (const {stableMovieId, html: cardHtml} of renderedCards) {
   if (video && video.embedUrl !== canonical) throw new Error(`VideoObject embedUrl is stale for ${stableMovieId}`);
   if (!sitemap.includes(`<loc>${canonical}</loc>`)) throw new Error(`Published work is missing from sitemap: ${canonical}`);
 }
+for (const {stableMovieId, html: cardHtml} of latestCards) {
+  const master = expectedById.get(stableMovieId);
+  if (!master) throw new Error(`Latest card is not an eligible published Master: ${stableMovieId}`);
+  const expectedPathname = new URL(master.publishing.canonical_url).pathname;
+  const cardLinks = [...cardHtml.matchAll(/href="(\/works\/[a-z0-9-]+\/)"/g)].map((match) => match[1]);
+  if (cardLinks.length !== 2 || cardLinks.some((href) => href !== expectedPathname)) {
+    throw new Error(`Latest cover and title links disagree for ${stableMovieId}`);
+  }
+  const previewCard = renderedById.get(stableMovieId);
+  if (!previewCard) throw new Error(`Latest card is missing from the neutral preview: ${stableMovieId}`);
+  const previewHasPromo = previewCard.html.includes('9秒選片');
+  const latestHasPromo = cardHtml.includes('9秒選片');
+  if (latestHasPromo !== previewHasPromo) {
+    throw new Error(`Latest and preview promo marker states disagree for ${stableMovieId}`);
+  }
+}
 for (const master of expectedExcluded) {
   if (await pathExists(resolve(root, 'dist', 'works', master.slug, 'index.html'))) {
     throw new Error(`Draft or Demo work page was generated: ${master.stable_movie_id}`);
@@ -69,5 +97,9 @@ if (sitemap.includes('/reviews/')) throw new Error('Legacy review URL leaked int
 if (!html.includes('data-cover-fallback="/images/movie-cover-fallback.svg"')) throw new Error('Image fallback contract is missing');
 if ((html.match(/\[data-cover-fallback\]/g) ?? []).length !== 1) throw new Error('MovieCardV1 fallback handler must be emitted exactly once');
 if (html.includes('待補') || html.includes('演員資料待補')) throw new Error('Missing-value placeholder leaked into preview');
+if (!latestHtml.includes('data-cover-fallback="/images/movie-cover-fallback.svg"')) throw new Error('Latest image fallback contract is missing');
+if ((latestHtml.match(/\[data-cover-fallback\]/g) ?? []).length !== 1) throw new Error('Latest fallback handler must be emitted exactly once');
+if (latestHtml.includes('待補') || latestHtml.includes('演員資料待補')) throw new Error('Missing-value placeholder leaked into Latest');
+if (latestHtml.includes('/reviews/')) throw new Error('Legacy review URL leaked into Latest');
 
-console.log(`Movie Master work migration valid: ${renderedCards.length} cards and work pages, ${expectedExcluded.length} dynamic exclusions, redirects, structured data, noindex and sitemap contracts passed.`);
+console.log(`Movie Master surfaces valid: ${renderedCards.length} preview cards, ${latestCards.length} Latest cards and work pages, ${expectedExcluded.length} dynamic exclusions, redirects, structured data, noindex and sitemap contracts passed.`);
