@@ -1,7 +1,30 @@
 import {access, readFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
+import {pathToFileURL} from 'node:url';
 import {workPath} from '../src/lib/work-url.mjs';
 
+export const isPublicMovieCardMaster = (master) => (
+  master.publishing?.is_published === true
+  && master.publishing?.indexability === 'INDEX'
+  && master.is_demo !== true
+);
+
+export const assertUniqueStableMovieIds = (masters) => {
+  const seen = new Map();
+  for (const master of masters) {
+    const catalogCode = master.source?.catalog_code ?? master.catalog_code ?? 'unknown catalog';
+    if (typeof master.stable_movie_id !== 'string' || !master.stable_movie_id.trim()) {
+      throw new Error(`${catalogCode}: stable_movie_id must be a non-empty string`);
+    }
+    const stableMovieId = master.stable_movie_id.trim();
+    if (seen.has(stableMovieId)) {
+      throw new Error(`Duplicate stable_movie_id ${stableMovieId}: ${seen.get(stableMovieId)} and ${catalogCode}`);
+    }
+    seen.set(stableMovieId, catalogCode);
+  }
+};
+
+export async function validateMovieMasterSurfaces() {
 const root = resolve(import.meta.dirname, '..');
 const readJson = async (path) => JSON.parse(await readFile(resolve(root, path), 'utf8'));
 const html = await readFile(resolve(root, 'dist/preview/movie-master-cards/index.html'), 'utf8');
@@ -9,11 +32,35 @@ const homeHtml = await readFile(resolve(root, 'dist/index.html'), 'utf8');
 const latestHtml = await readFile(resolve(root, 'dist/latest/index.html'), 'utf8');
 const sitemap = await readFile(resolve(root, 'dist/sitemap-0.xml'), 'utf8');
 const redirects = await readFile(resolve(root, 'dist/_redirects'), 'utf8');
+const searchIndex = await readJson('data/search-index-v1.json');
 const index = await readJson('data/movie-master/index.json');
 const masters = await Promise.all(index.entries.map(({master_path}) => readJson(master_path)));
-const expectedPublished = masters.filter((master) => master.publishing?.is_published === true && master.is_demo !== true);
-const expectedExcluded = masters.filter((master) => master.publishing?.is_published !== true || master.is_demo === true);
+const expectedPublished = masters.filter(isPublicMovieCardMaster);
+const isValidDate = (value) => {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(value ?? '')) return false;
+  const date = new Date(`${value}T00:00:00.000Z`);
+  return Number.isFinite(date.getTime()) && date.toISOString().slice(0, 10) === value;
+};
+
+for (const master of expectedPublished) {
+  if (!isValidDate(master.publishing?.published_at)) {
+    throw new Error(`${master.catalog_code}: latest_added requires a valid published_at`);
+  }
+}
+const expectedExcluded = masters.filter((master) => !isPublicMovieCardMaster(master));
 const expectedById = new Map(expectedPublished.map((master) => [master.stable_movie_id, master]));
+const expectedReleaseIds = [...expectedPublished]
+  .sort((left, right) => (
+    (right.source?.release_date ?? '').localeCompare(left.source?.release_date ?? '')
+    || left.source.catalog_code.localeCompare(right.source.catalog_code, 'en')
+  ))
+  .map(({stable_movie_id: stableMovieId}) => stableMovieId);
+const expectedLatestAddedIds = [...expectedPublished]
+  .sort((left, right) => (
+    right.publishing.published_at.localeCompare(left.publishing.published_at)
+    || left.source.catalog_code.localeCompare(right.source.catalog_code, 'en')
+  ))
+  .map(({stable_movie_id: stableMovieId}) => stableMovieId);
 const renderedCards = [...html.matchAll(/<article class="movie-card-v1" data-movie-id="([^"]+)"[^>]*>([\s\S]*?)<\/article>/g)]
   .map((match) => ({stableMovieId: match[1], html: match[2]}));
 const renderedIds = renderedCards.map(({stableMovieId}) => stableMovieId);
@@ -33,8 +80,20 @@ const expectedRedirects = '/reviews/:slug/ /works/:slug/ 301\n/reviews/:slug /wo
 if (redirects.replaceAll('\r\n', '\n') !== expectedRedirects) throw new Error('Cloudflare work redirect contract is missing or changed');
 if (redirects.includes('/works/:slug/ /reviews/')) throw new Error('Reverse work redirect would create a loop');
 
+assertUniqueStableMovieIds(masters);
+const allIds = new Set(masters.map(({stable_movie_id: stableMovieId}) => stableMovieId.trim()));
+const publishedIds = new Set(expectedPublished.map(({stable_movie_id: stableMovieId}) => stableMovieId.trim()));
+const excludedIds = new Set(expectedExcluded.map(({stable_movie_id: stableMovieId}) => stableMovieId.trim()));
+if (expectedPublished.length + expectedExcluded.length !== masters.length) throw new Error('Published and excluded card sets do not cover every Master');
+if ([...publishedIds].some((stableMovieId) => excludedIds.has(stableMovieId))) throw new Error('Published and excluded card sets overlap');
+if (new Set([...publishedIds, ...excludedIds]).size !== allIds.size || [...allIds].some((stableMovieId) => !publishedIds.has(stableMovieId) && !excludedIds.has(stableMovieId))) {
+  throw new Error('Published and excluded card sets do not equal all Master stable IDs');
+}
 if (expectedPublished.length !== index.published_count) throw new Error('Movie Master index published_count disagrees with Master states');
-if (expectedExcluded.length !== index.formal_draft_count + index.demo_count) throw new Error('Movie Master index exclusion counts disagree with Master states');
+if (masters.filter((master) => master.is_demo === true).length !== index.demo_count) throw new Error('Movie Master index demo_count disagrees with Master states');
+if (masters.filter((master) => master.is_demo !== true && master.publishing?.is_published !== true).length !== index.formal_draft_count) {
+  throw new Error('Movie Master index formal_draft_count disagrees with Master states');
+}
 if (renderedCards.length !== index.published_count || new Set(renderedIds).size !== index.published_count) {
   throw new Error(`Expected ${index.published_count} unique cards, received ${renderedCards.length}`);
 }
@@ -47,16 +106,22 @@ if (homeCards.length !== index.published_count || new Set(homeIds).size !== inde
 if (homeCatalogCodes.some((catalogCode) => !catalogCode) || new Set(homeCatalogCodes).size !== index.published_count) {
   throw new Error('Homepage catalog codes are missing or duplicated');
 }
-if (latestIds.join('\n') !== renderedIds.join('\n')) {
-  throw new Error('Latest card order differs from the neutral Movie Master catalog preview');
+if (renderedIds.join('\n') !== expectedReleaseIds.join('\n')) {
+  throw new Error('Preview card order differs from release_date DESC + catalog_code ASC');
 }
-if (homeIds.join('\n') !== renderedIds.join('\n') || homeIds.join('\n') !== latestIds.join('\n')) {
-  throw new Error('Homepage card order differs from the neutral Movie Master catalog and Latest');
+if (latestIds.join('\n') !== expectedLatestAddedIds.join('\n')) {
+  throw new Error('Latest card order differs from published_at DESC + catalog_code ASC');
+}
+if (homeIds.join('\n') !== expectedLatestAddedIds.join('\n') || homeIds.join('\n') !== latestIds.join('\n')) {
+  throw new Error('Homepage and Latest do not share latest_added ordering');
 }
 for (const master of expectedExcluded) {
   if (renderedIds.includes(master.stable_movie_id)) throw new Error(`Excluded Movie Master rendered: ${master.stable_movie_id}`);
   if (homeIds.includes(master.stable_movie_id)) throw new Error(`Excluded Movie Master rendered on homepage: ${master.stable_movie_id}`);
   if (latestIds.includes(master.stable_movie_id)) throw new Error(`Excluded Movie Master rendered on Latest: ${master.stable_movie_id}`);
+  if (searchIndex.movies.some(({card}) => card?.stable_movie_id === master.stable_movie_id)) {
+    throw new Error(`Excluded Movie Master leaked into Search index: ${master.stable_movie_id}`);
+  }
 }
 for (const {stableMovieId, html: cardHtml} of renderedCards) {
   const master = expectedById.get(stableMovieId);
@@ -135,10 +200,17 @@ if (!latestHtml.includes('data-cover-fallback="/images/movie-cover-fallback.svg"
 if ((latestHtml.match(/\[data-cover-fallback\]/g) ?? []).length !== 1) throw new Error('Latest fallback handler must be emitted exactly once');
 if (latestHtml.includes('待補') || latestHtml.includes('演員資料待補')) throw new Error('Missing-value placeholder leaked into Latest');
 if (latestHtml.includes('/reviews/')) throw new Error('Legacy review URL leaked into Latest');
+if (!latestHtml.includes('依本站收錄時間排序；卡片日期為作品發行日。')) throw new Error('Latest date semantics are unclear');
 if (!homeHtml.includes('<section class="hero catalog-feature">')) throw new Error('Homepage Markdown featured Hero is missing');
 if (!homeHtml.includes('data-cover-fallback="/images/movie-cover-fallback.svg"')) throw new Error('Homepage image fallback contract is missing');
 if ((homeHtml.match(/\[data-cover-fallback\]/g) ?? []).length !== 1) throw new Error('Homepage fallback handler must be emitted exactly once');
 if (homeHtml.includes('待補') || homeHtml.includes('演員資料待補')) throw new Error('Missing-value placeholder leaked into homepage');
 if (homeHtml.includes('/reviews/')) throw new Error('Legacy review URL leaked into homepage');
+if (!homeHtml.includes('依本站收錄時間排序；卡片日期為作品發行日。')) throw new Error('Homepage date semantics are unclear');
 
 console.log(`Movie Master surfaces valid: ${renderedCards.length} preview cards, ${homeCards.length} homepage cards, ${latestCards.length} Latest cards and work pages, ${expectedExcluded.length} dynamic exclusions, redirects, structured data, noindex and sitemap contracts passed.`);
+}
+
+if (process.argv[1] && pathToFileURL(resolve(process.argv[1])).href === import.meta.url) {
+  await validateMovieMasterSurfaces();
+}

@@ -1,12 +1,12 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import MovieCardV1 from '../../components/MovieCardV1.astro';
-import {loadPublishedMovieCardCatalog} from '../../lib/movie-master.mjs';
+import {loadLatestAddedMovieCardCatalog} from '../../lib/movie-master.mjs';
 
-const catalog = await loadPublishedMovieCardCatalog();
+const catalog = await loadLatestAddedMovieCardCatalog();
 ---
-<BaseLayout title="最新作品" description="依 CC18 作品頁實際上片日期整理的最新作品與原創影評索引。" adult={true}>
-  <section class="page-intro"><p class="eyebrow">LATEST RELEASES</p><h1>最新作品</h1><p>依作品頁實際上片日期排序，不以首頁位置猜測新舊。</p></section>
+<BaseLayout title="最新收錄" description="依本站首次發布日期整理的最新收錄作品與原創影評索引；卡片日期為作品發行日。" adult={true}>
+  <section class="page-intro"><p class="eyebrow">LATEST ADDED</p><h1>最新收錄</h1><p>依本站收錄時間排序；卡片日期為作品發行日。</p></section>
   <section class="card-grid" aria-label="最新作品">
     {catalog.cards.map((card, index) => <MovieCardV1 card={card} priority={index < 3} />)}
   </section>

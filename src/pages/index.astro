@@ -4,12 +4,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import MovieCardV1 from '../components/MovieCardV1.astro';
 import TagList from '../components/TagList.astro';
 import {byNewest, formatDate, reviewHref, reviewTagIds, visibleTags} from '../lib/reviews';
-import {loadPublishedMovieCardCatalog} from '../lib/movie-master.mjs';
+import {loadLatestAddedMovieCardCatalog} from '../lib/movie-master.mjs';
 import {tagItems} from '../lib/taxonomy';
 
 const reviews = (await getCollection('reviews', ({data}) => data.status === 'published')).sort(byNewest);
 const featured = reviews.find(({data}) => data.featured) ?? reviews[0];
-const catalog = await loadPublishedMovieCardCatalog();
+const catalog = await loadLatestAddedMovieCardCatalog();
 const tagIds = [...new Set(reviews.flatMap(reviewTagIds))].slice(0, 12);
 const tags = tagItems(tagIds);
 ---
@@ -18,7 +18,7 @@ const tags = tagItems(tagIds);
     <div>
       <p class="eyebrow">NEW RELEASES</p>
       <h1>今天想看哪一部？</h1>
-      <p>用番號、演員、系列或題材搜尋，也可以直接往下看最新入庫。</p>
+      <p>用番號、演員、系列或題材搜尋，也可以直接往下看最新收錄。</p>
     </div>
     <form action="/search/" method="get" role="search" class="home-search">
       <label for="home-query">搜尋作品</label>
@@ -48,8 +48,8 @@ const tags = tagItems(tagIds);
 
   <section class="reel-section">
     <div class="section-heading">
-      <div><p class="eyebrow">LATEST CATALOG</p><h2>最新入庫</h2></div>
-      <p>依 CC18 作品頁日期排序，點進去看完整資料、標籤與影評。</p>
+      <div><p class="eyebrow">LATEST ADDED</p><h2>最新收錄</h2></div>
+      <p>依本站收錄時間排序；卡片日期為作品發行日。</p>
       <a href="/latest/">查看全部 →</a>
     </div>
     <div class="card-grid" role="list">

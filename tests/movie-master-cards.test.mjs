@@ -1,7 +1,15 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {access, readFile} from 'node:fs/promises';
-import {loadPublishedMovieCardCatalog} from '../src/lib/movie-master.mjs';
+import {
+  loadLatestAddedMovieCardCatalog,
+  loadPublishedMovieCardCatalog,
+  sortLatestAddedMovieCardRecords,
+} from '../src/lib/movie-master.mjs';
+import {
+  assertUniqueStableMovieIds,
+  isPublicMovieCardMaster,
+} from '../scripts/validate-movie-master-preview.mjs';
 import {normalizeWorkSlug, resolveInternalWorkHref, workCanonicalUrl, workPath} from '../src/lib/work-url.mjs';
 
 const readJson = async (path) => JSON.parse(await readFile(new URL(`../${path}`, import.meta.url), 'utf8'));
@@ -16,6 +24,54 @@ test('published Movie Master card catalog follows index publication and exclusio
     catalog.index.formal_draft_count,
   );
   assert.equal(catalog.exclusions.filter(({is_published}) => is_published).length, 0);
+});
+
+test('public card qualification excludes NOINDEX, drafts and Demo records as one complement set', () => {
+  const master = (isPublished, indexability, isDemo = false) => ({
+    is_demo: isDemo,
+    publishing: {is_published: isPublished, indexability},
+  });
+
+  assert.equal(isPublicMovieCardMaster(master(true, 'INDEX')), true);
+  assert.equal(isPublicMovieCardMaster(master(true, 'NOINDEX')), false);
+  assert.equal(isPublicMovieCardMaster(master(false, 'INDEX')), false);
+  assert.equal(isPublicMovieCardMaster(master(true, 'INDEX', true)), false);
+  assert.equal(isPublicMovieCardMaster(master(true, undefined)), false);
+});
+
+test('Master stable movie IDs are present and globally unique before set construction', () => {
+  const master = (stableMovieId, catalogCode, publishing = {is_published: true, indexability: 'INDEX'}) => ({
+    stable_movie_id: stableMovieId,
+    source: {catalog_code: catalogCode},
+    publishing,
+  });
+
+  assert.doesNotThrow(() => assertUniqueStableMovieIds([
+    master('cc18:one-001', 'ONE-001'),
+    master('cc18:two-002', 'TWO-002'),
+  ]));
+  assert.throws(
+    () => assertUniqueStableMovieIds([master(undefined, 'MISSING-001')]),
+    /MISSING-001: stable_movie_id must be a non-empty string/,
+  );
+  assert.throws(
+    () => assertUniqueStableMovieIds([master('   ', 'BLANK-001')]),
+    /BLANK-001: stable_movie_id must be a non-empty string/,
+  );
+  assert.throws(
+    () => assertUniqueStableMovieIds([
+      master('cc18:duplicate-001', 'FIRST-001'),
+      master('cc18:duplicate-001', 'SECOND-001'),
+    ]),
+    /Duplicate stable_movie_id cc18:duplicate-001: FIRST-001 and SECOND-001/,
+  );
+  assert.throws(
+    () => assertUniqueStableMovieIds([
+      master('cc18:excluded-001', 'NOINDEX-001', {is_published: true, indexability: 'NOINDEX'}),
+      master('cc18:excluded-001', 'DRAFT-001', {is_published: false, indexability: 'INDEX'}),
+    ]),
+    /Duplicate stable_movie_id cc18:excluded-001: NOINDEX-001 and DRAFT-001/,
+  );
 });
 
 test('basic cards expose only qualified Movie Master projections', async () => {
@@ -93,52 +149,76 @@ test('SNOS-345 card uses the approved short title projected by Movie Master', as
   assert.equal(card.title, '鷲尾芽衣的美容院乳頭開發');
 });
 
-test('Latest renders the neutral published card catalog in its established deterministic order', async () => {
-  const [latestPage, {cards}, index] = await Promise.all([
+test('Latest renders latest_added while the neutral catalog retains release-date ordering', async () => {
+  const [latestPage, latestAdded, neutral, index] = await Promise.all([
     readFile(new URL('../src/pages/latest/index.astro', import.meta.url), 'utf8'),
+    loadLatestAddedMovieCardCatalog(),
     loadPublishedMovieCardCatalog(),
     readJson('data/movie-master/index.json'),
   ]);
   const masters = await Promise.all(index.entries.map(({master_path: masterPath}) => readJson(masterPath)));
-  const expectedOrder = masters
-    .filter((master) => master.publishing?.is_published === true && master.is_demo !== true)
+  const publishedMasters = masters.filter((master) => (
+    master.publishing?.is_published === true
+    && master.publishing?.indexability === 'INDEX'
+    && master.is_demo !== true
+  ));
+  const expectedReleaseOrder = [...publishedMasters]
     .sort((left, right) => (
       (right.source?.release_date ?? '').localeCompare(left.source?.release_date ?? '')
       || left.source.catalog_code.localeCompare(right.source.catalog_code, 'en')
     ))
     .map(({source}) => source.catalog_code);
+  const expectedLatestAddedOrder = [...publishedMasters]
+    .sort((left, right) => (
+      right.publishing.published_at.localeCompare(left.publishing.published_at)
+      || left.source.catalog_code.localeCompare(right.source.catalog_code, 'en')
+    ))
+    .map(({source}) => source.catalog_code);
 
-  assert.deepEqual(cards.map(({catalog_code: catalogCode}) => catalogCode), expectedOrder);
-  assert.equal(cards.length, index.published_count);
-  assert.equal(new Set(cards.map(({stable_movie_id: stableMovieId}) => stableMovieId)).size, cards.length);
-  assert.equal(new Set(cards.map(({catalog_code: catalogCode}) => catalogCode)).size, cards.length);
-  assert.ok(cards.every(({title}) => title.trim()));
-  assert.match(latestPage, /loadPublishedMovieCardCatalog\(\)/);
+  assert.deepEqual(neutral.cards.map(({catalog_code: catalogCode}) => catalogCode), expectedReleaseOrder);
+  assert.deepEqual(latestAdded.cards.map(({catalog_code: catalogCode}) => catalogCode), expectedLatestAddedOrder);
+  assert.equal(latestAdded.cards.length, index.published_count);
+  assert.equal(new Set(latestAdded.cards.map(({stable_movie_id: stableMovieId}) => stableMovieId)).size, latestAdded.cards.length);
+  assert.equal(new Set(latestAdded.cards.map(({catalog_code: catalogCode}) => catalogCode)).size, latestAdded.cards.length);
+  assert.ok(latestAdded.cards.every(({title}) => title.trim()));
+  assert.match(latestPage, /loadLatestAddedMovieCardCatalog\(\)/);
   assert.match(latestPage, /<MovieCardV1 card=\{card\}/);
-  assert.doesNotMatch(latestPage, /ReviewCard|getCollection\('reviews'\)|byNewest/);
+  assert.doesNotMatch(latestPage, /loadPublishedMovieCardCatalog|ReviewCard|getCollection\('reviews'\)|byNewest/);
 });
 
-test('homepage keeps its Markdown featured Hero and renders the neutral published card catalog lazily', async () => {
-  const [homePage, latestPage, {cards, index}] = await Promise.all([
+test('latest_added fails instead of falling back when a published date is missing or invalid', () => {
+  const card = {catalog_code: 'TEST-001'};
+  for (const publishedAt of [null, '', '2026-02-30', '08/29/2026']) {
+    assert.throws(
+      () => sortLatestAddedMovieCardRecords([{card, published_at: publishedAt}]),
+      /latest_added requires a valid published_at/,
+    );
+  }
+});
+
+test('homepage keeps its Markdown featured Hero and shares latest_added with Latest', async () => {
+  const [homePage, latestPage, latestAdded] = await Promise.all([
     readFile(new URL('../src/pages/index.astro', import.meta.url), 'utf8'),
     readFile(new URL('../src/pages/latest/index.astro', import.meta.url), 'utf8'),
-    loadPublishedMovieCardCatalog(),
+    loadLatestAddedMovieCardCatalog(),
   ]);
 
-  assert.equal(cards.length, index.published_count);
-  assert.equal(new Set(cards.map(({stable_movie_id: stableMovieId}) => stableMovieId)).size, cards.length);
-  assert.equal(new Set(cards.map(({catalog_code: catalogCode}) => catalogCode)).size, cards.length);
-  assert.ok(cards.every(({title}) => title.trim()));
+  assert.equal(latestAdded.cards.length, latestAdded.index.published_count);
+  assert.equal(new Set(latestAdded.cards.map(({stable_movie_id: stableMovieId}) => stableMovieId)).size, latestAdded.cards.length);
+  assert.equal(new Set(latestAdded.cards.map(({catalog_code: catalogCode}) => catalogCode)).size, latestAdded.cards.length);
+  assert.ok(latestAdded.cards.every(({title}) => title.trim()));
   assert.match(homePage, /getCollection\('reviews'/);
   assert.match(homePage, /reviews\.find\(\(\{data\}\) => data\.featured\)/);
   assert.match(homePage, /<section class="hero catalog-feature">/);
   assert.match(homePage, /featured\.data\.title/);
   assert.match(homePage, /featured\.data\.shortReview/);
   assert.match(homePage, /featured\.data\.sourceUrl/);
-  assert.match(homePage, /loadPublishedMovieCardCatalog\(\)/);
+  assert.match(homePage, /loadLatestAddedMovieCardCatalog\(\)/);
   assert.match(homePage, /catalog\.cards\.map\(\(card\) =>/);
   assert.match(homePage, /<MovieCardV1 card=\{card\} \/>/);
-  assert.doesNotMatch(homePage, /<ReviewCard|const latest = reviews\.slice/);
+  assert.match(homePage, /依本站收錄時間排序；卡片日期為作品發行日。/);
+  assert.match(latestPage, /依本站收錄時間排序；卡片日期為作品發行日。/);
+  assert.doesNotMatch(homePage, /<ReviewCard|const latest = reviews\.slice|loadPublishedMovieCardCatalog/);
   assert.doesNotMatch(homePage, /<MovieCardV1 card=\{card\} priority=/);
   assert.match(latestPage, /<MovieCardV1 card=\{card\} priority=\{index < 3\}/);
 });
@@ -154,7 +234,7 @@ test('fallback behavior belongs to MovieCardV1 rather than the preview page', as
   assert.doesNotMatch(previewPage, /fallbackApplied|data-cover-fallback/);
 });
 
-test('preview, Latest and formal search share the neutral published card catalog', async () => {
+test('preview and formal search keep the neutral catalog while home and Latest share latest_added', async () => {
   const [library, homePage, previewPage, latestPage, searchBuilder] = await Promise.all([
     readFile(new URL('../src/lib/movie-master.mjs', import.meta.url), 'utf8'),
     readFile(new URL('../src/pages/index.astro', import.meta.url), 'utf8'),
@@ -163,9 +243,10 @@ test('preview, Latest and formal search share the neutral published card catalog
     readFile(new URL('../scripts/build-search-index.mjs', import.meta.url), 'utf8'),
   ]);
   assert.match(library, /export async function loadPublishedMovieCardCatalog\(\)/);
-  assert.match(homePage, /loadPublishedMovieCardCatalog\(\)/);
+  assert.match(library, /export async function loadLatestAddedMovieCardCatalog\(\)/);
+  assert.match(homePage, /loadLatestAddedMovieCardCatalog\(\)/);
+  assert.match(latestPage, /loadLatestAddedMovieCardCatalog\(\)/);
   assert.match(previewPage, /loadPublishedMovieCardCatalog\(\)/);
-  assert.match(latestPage, /loadPublishedMovieCardCatalog\(\)/);
   assert.match(searchBuilder, /loadPublishedMovieCardCatalog\(\)/);
-  assert.doesNotMatch(searchBuilder, /loadMovieMasterCardPreview|preview\/movie-master-cards|preview\./);
+  assert.doesNotMatch(searchBuilder, /loadLatestAddedMovieCardCatalog|loadMovieMasterCardPreview|preview\/movie-master-cards|preview\./);
 });
