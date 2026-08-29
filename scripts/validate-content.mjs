@@ -7,6 +7,7 @@ const readJson = async (relative) => JSON.parse(await readFile(new URL(relative,
 const taxonomy = await readJson('data/taxonomy.json');
 const candidates = await readJson('data/tag-candidates.json');
 const registry = await readJson('data/movie-registry.json');
+const performerLocalization = await readJson('data/localization/performers-zh-tw.json');
 const policy = await readJson('config/review-policy.json');
 const titlePolicy = await readJson('config/title-policy.json');
 
@@ -14,6 +15,45 @@ const knownTagIds = new Set(taxonomy.tags.map(({id}) => id));
 const editorialTagIds = new Set(taxonomy.tags.filter(({group}) => group === 'editorial').map(({id}) => id));
 const ignoredSourceTags = new Set(taxonomy.ignored_source_tags);
 const candidateLabels = new Set(candidates.candidates.map(({label}) => label));
+const performersByStableId = new Map((performerLocalization.performers ?? [])
+  .map((performer) => [performer.source_actor_id, performer]));
+
+const validatePerformerIdentity = (record, source) => {
+  const sourceNames = source.actress ?? [];
+  const relations = source.source_relations?.performers ?? [];
+  if (sourceNames.length !== relations.length) {
+    throw new Error(`${record.id}: source performer relation count mismatch`);
+  }
+
+  const seen = new Set();
+  for (const sourceName of sourceNames) {
+    const relation = relations.find(({source_name: relationName}) => relationName === sourceName);
+    if (!relation) throw new Error(`${record.id}: missing typed performer relation for ${sourceName}`);
+    const stableActorId = relation.stable_source_id;
+    if (!/^cc18\.tv:actor:\d+$/.test(stableActorId ?? '')) {
+      throw new Error(`${record.id}: invalid stable actor ID for ${sourceName}`);
+    }
+    if (seen.has(stableActorId)) throw new Error(`${record.id}: duplicate stable actor ID ${stableActorId}`);
+    seen.add(stableActorId);
+
+    const relationUrl = new URL(relation.source_url);
+    const sourceId = relationUrl.searchParams.get('s_tid');
+    if (relation.source_type !== 'actor' || relationUrl.searchParams.get('s_type') !== 'actor'
+      || relation.source_id !== sourceId || stableActorId !== `cc18.tv:actor:${sourceId}`) {
+      throw new Error(`${record.id}: performer relation identity mismatch for ${sourceName}`);
+    }
+
+    const localized = performersByStableId.get(stableActorId);
+    if (!localized || localized.source_name !== sourceName) {
+      throw new Error(`${record.id}: missing or mismatched performer localization for ${stableActorId}`);
+    }
+  }
+
+  const registryNames = record.actress ?? [];
+  if (registryNames.length !== sourceNames.length || registryNames.some((name) => !sourceNames.includes(name))) {
+    throw new Error(`${record.id}: Registry/source performer identity mismatch`);
+  }
+};
 
 const frontmatter = (markdown) => {
   const match = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---/);
@@ -55,10 +95,7 @@ for (const record of published) {
   if (!displayTitle.includes(record.id)) throw new Error(`${record.id}: display title must include the catalog number`);
   if (!seoTitle.includes(record.id)) throw new Error(`${record.id}: seoTitle must include the catalog number`);
   if (!socialTitle.includes(record.id)) throw new Error(`${record.id}: socialTitle must include the catalog number`);
-  for (const actress of record.actress ?? []) {
-    if (actress && !seoTitle.includes(actress)) throw new Error(`${record.id}: seoTitle must include performer ${actress}`);
-    if (actress && !displayTitle.includes(actress)) throw new Error(`${record.id}: display title must include performer ${actress}`);
-  }
+  validatePerformerIdentity(record, source);
   const minimumSignals = titlePolicy.validation.display_title_minimum_signals;
   const maximumSignals = titlePolicy.keyword_stack_strategy.maximum_title_signals;
   if (titleSignals.length < minimumSignals || titleSignals.length > maximumSignals) {

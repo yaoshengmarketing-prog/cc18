@@ -1,14 +1,15 @@
 ---
 id: SNOS-345
 sourceTitle: "超級認真的樸素巨乳為了變漂亮而跑去美容院，結果被開發成了乳頭高潮女… 鷲尾芽衣"
-title: "SNOS-345 鷲尾めい｜結果被開發成了乳頭高潮女：把企劃做出前後段差異的展示型作品"
-seoTitle: "SNOS-345 鷲尾めい影評｜結果被開發成了乳頭高潮女，重點在企劃推進與節奏分段"
-socialTitle: "SNOS-345｜鷲尾めい的結果被開發成了乳頭高潮女，真正看點是前後段變化"
+title: "SNOS-345 鷲尾芽衣｜樸素巨乳的美容院乳頭開發"
+displayShortTitle: "鷲尾芽衣的美容院乳頭開發"
+seoTitle: "SNOS-345 鷲尾芽衣｜美容院乳頭開發與乳頭高潮題材"
+socialTitle: "SNOS-345 鷲尾芽衣｜美容院乳頭開發與乳頭高潮題材"
 titleSignals:
-  - "鷲尾めい"
-  - "結果被開發成了乳頭高潮女"
+  - "鷲尾芽衣"
+  - "樸素巨乳"
   - "美容院"
-titleVersion: 1
+titleVersion: 2
 actress:
   - 鷲尾めい
 releaseDate: 2026-08-21

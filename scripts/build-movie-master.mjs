@@ -419,11 +419,12 @@ const buildAll = async () => {
     const manifestPath = `data/media-manifests/${catalogCode}.json`;
     const manifest = trackedFiles.has(manifestPath) ? await readTrackedJson(manifestPath, `${catalogCode} Media Manifest`) : null;
     const articleTitle = cleanScalar(frontmatter.title);
+    const displayShortTitle = cleanScalar(frontmatter.displayShortTitle);
     const seoTitle = cleanScalar(frontmatter.seoTitle);
     const shortReview = cleanScalar(frontmatter.shortReview);
     const sourceTitle = cleanScalar(source?.title ?? frontmatter.sourceTitle);
     const translatedTitle = cleanScalar(source?.translated_title_zh_tw);
-    const fallbackTitle = [null, translatedTitle, articleTitle, sourceTitle, catalogCode].find(Boolean);
+    const fallbackTitle = [displayShortTitle, translatedTitle, articleTitle, sourceTitle, catalogCode].find(Boolean);
     if (!fallbackTitle) fail(`${catalogCode}: no valid card-title fallback`);
 
     const legacyPublishedAt = !isPublished ? normalizeDate(frontmatter.publishedAt) : null;
@@ -460,7 +461,7 @@ const buildAll = async () => {
       titles: {
         article_title: articleTitle,
         translated_title_zh_tw: translatedTitle,
-        display_short_title: null,
+        display_short_title: displayShortTitle,
         seo_title: seoTitle,
       },
       derived: {

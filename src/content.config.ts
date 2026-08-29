@@ -20,6 +20,7 @@ const reviews = defineCollection({
     originalTitleJa: z.string().min(1).nullable().optional(),
     translatedTitleZhTw: z.string().min(1).nullable().optional(),
     title: z.string().min(1),
+    displayShortTitle: z.string().min(1).optional(),
     seoTitle: z.string().min(1),
     socialTitle: z.string().min(1),
     titleSignals: z.array(z.string().min(1)).min(2).max(4),

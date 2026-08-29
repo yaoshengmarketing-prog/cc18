@@ -64,6 +64,12 @@ test('cards receive resolved performer display names without adopting unverified
   }
 });
 
+test('SNOS-345 card uses the approved short title projected by Movie Master', async () => {
+  const {cards} = await loadPublishedMovieCardCatalog();
+  const card = cards.find(({catalog_code: catalogCode}) => catalogCode === 'SNOS-345');
+  assert.equal(card.title, '鷲尾芽衣的美容院乳頭開發');
+});
+
 test('fallback behavior belongs to MovieCardV1 rather than the preview page', async () => {
   const [component, previewPage] = await Promise.all([
     readFile(new URL('../src/components/MovieCardV1.astro', import.meta.url), 'utf8'),

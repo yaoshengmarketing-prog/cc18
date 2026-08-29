@@ -42,6 +42,17 @@ test('all approved performer names, aliases and partials resolve to one actor an
   }
 });
 
+test('SNOS-345 search keeps source and localized performer names on one actor and approved short title', async () => {
+  const index = await buildSearchIndex();
+  for (const query of ['鷲尾芽衣', '鷲尾めい']) {
+    const result = searchCatalog(index, query);
+    assert.deepEqual(result.people.map(({stable_actor_id: id}) => id), ['cc18.tv:actor:25064']);
+    const movies = result.movies.filter(({card}) => card.catalog_code === 'SNOS-345');
+    assert.equal(movies.length, 1);
+    assert.equal(movies[0].card.title, '鷲尾芽衣的美容院乳頭開發');
+  }
+});
+
 test('single Han and kana characters search performers only with field-priority ordering and stable ID deduplication', async () => {
   const index = await buildSearchIndex();
   const cases = new Map([
