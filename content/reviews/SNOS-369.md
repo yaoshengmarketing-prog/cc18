@@ -1,15 +1,14 @@
 ---
 id: SNOS-369
 sourceTitle: "平時傲慢的辣妹學生…擔心發燒的我而熱烈看病！連發情肉棒都幫忙介助的反差母性，讓我大量射精！ 七森莉莉"
-title: "SNOS-369 七森莉莉｜平時傲慢的辣妹學生"
-seoTitle: "SNOS-369 影評｜SNOS-369 七森莉莉｜平時傲慢的辣妹學生"
-socialTitle: "SNOS-369 七森莉莉｜平時傲慢的辣妹學生"
+title: "SNOS-369 七森莉莉｜傲慢辣妹學生探病時的溫柔反差"
+displayShortTitle: "辣妹學生探病時的溫柔反差"
+seoTitle: "SNOS-369 七森莉莉｜辣妹學生、教師探病與母性反差"
+socialTitle: "SNOS-369 七森莉莉｜辣妹學生、教師探病與母性反差"
 titleSignals:
   - "七森莉莉"
-  - "平時傲慢的辣妹學生"
-  - "高畫質"
-  - "獨家配信"
-titleVersion: 1
+  - "辣妹學生"
+titleVersion: 2
 actress:
   - 七森莉莉
 releaseDate: 2026-08-21

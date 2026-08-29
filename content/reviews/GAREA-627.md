@@ -1,15 +1,14 @@
 ---
 id: GAREA-627
 sourceTitle: "獨家 滴"
-title: "GAREA-627｜自拍形式下的 Happymail OL 約會觀察"
-seoTitle: "GAREA-627 影評｜自拍形式與 Happymail 約會企劃，OL 主角的節奏轉變是否成立"
-socialTitle: "GAREA-627｜這支 Happymail OL 約會作，自拍形式真的撐起層次嗎？"
+title: "GAREA-627｜透過 HAPPYMAIL 配對的25歲 OL 自拍約會"
+displayShortTitle: "HAPPYMAIL 配對的 OL 自拍約會"
+seoTitle: "GAREA-627｜HAPPYMAIL 配對、25歲 OL 與自拍約會企劃"
+socialTitle: "GAREA-627｜HAPPYMAIL 配對、25歲 OL 與自拍約會企劃"
 titleSignals:
-  - "自拍形式"
-  - "Happymail"
   - "OL"
-  - "約會"
-titleVersion: 1
+  - "自拍"
+titleVersion: 2
 actress:
   []
 releaseDate: 2026-08-25

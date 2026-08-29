@@ -1,15 +1,14 @@
 ---
 id: NAMH-074
 sourceTitle: "至高陰道內射角度19發 潮吹短髮美少女 美咲音"
-title: "NAMH-074｜美咲音在《至高の膣内射精》的學生設定與漏斗潑精反差觀察"
-seoTitle: "NAMH-074 美咲音影評｜至高の膣内射精、學生設定與漏斗潑精的節奏變化"
-socialTitle: "NAMH-074｜美咲音把學生設定演出前後段落差"
+title: "NAMH-074 美咲音｜19發中出與多角度近距離企劃"
+displayShortTitle: "美咲音的19發中出企劃"
+seoTitle: "NAMH-074 美咲音｜19發中出、多角度與 4K 近距離企劃"
+socialTitle: "NAMH-074 美咲音｜19發中出、多角度與 4K 近距離企劃"
 titleSignals:
-  - "至高の膣内射精"
-  - "學生設定"
-  - "美少女設定"
-  - "漏斗潑精"
-titleVersion: 1
+  - "美咲音"
+  - "19發"
+titleVersion: 2
 actress:
   - 美咲音
 releaseDate: 2026-08-24

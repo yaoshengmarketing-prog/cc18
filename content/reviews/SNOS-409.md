@@ -1,14 +1,14 @@
 ---
 id: SNOS-409
 sourceTitle: "我還不知道的性愛，請讓我接受研修！「社會新鮮人」AV女優的職業初體驗3本番 全部都是人生第一次，爽到絕頂Special 星空音琉"
-title: "SNOS-409 星空ねる｜我還不知道的性愛：把 AV女優片拍成一次有層次的自我研修"
-seoTitle: "SNOS-409 星空ねる影評｜我還不知道的性愛，AV女優片框架下更有研修感的層次設計"
-socialTitle: "SNOS-409 星空ねる｜我還不知道的性愛，不只是體位展示而是完整研修企劃"
+title: "SNOS-409 星空ねる｜社會新鮮人 AV 女優的職業研修與三場初體驗"
+displayShortTitle: "星空ねる的 AV 女優研修初體驗"
+seoTitle: "SNOS-409 星空ねる｜社會新鮮人 AV 女優的職業研修與三場初體驗"
+socialTitle: "SNOS-409 星空ねる｜社會新鮮人 AV 女優的職業研修與三場初體驗"
 titleSignals:
-  - "我還不知道的性愛"
-  - "AV女優片"
-  - "顏射"
-titleVersion: 1
+  - "星空ねる"
+  - "社會新鮮人"
+titleVersion: 2
 actress:
   - 星空ねる
 releaseDate: 2026-08-21

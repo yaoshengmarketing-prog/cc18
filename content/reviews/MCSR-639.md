@@ -1,13 +1,14 @@
 ---
 id: MCSR-639
 sourceTitle: "巧妙又刺激的療程讓性感覺醒！小心別太興奮！人妻專用美容沙龍4"
-title: "MCSR-639 性感覚醒！人妻エステ × 高畫質｜《性感覚醒！人妻エステ》中的性快感與自我探索"
-seoTitle: "MCSR-639 影評｜性感覚醒！人妻エステ的性快感、自我探索與主動轉變"
-socialTitle: "MCSR-639｜性感覚醒！人妻エステ如何拍出由被引導到掌握節奏"
+title: "MCSR-639｜人妻專用美容沙龍4：刺激療程與性感覺醒"
+displayShortTitle: "人妻專用美容沙龍4"
+seoTitle: "MCSR-639｜人妻美容 SPA 療程與性感覺醒"
+socialTitle: "MCSR-639｜人妻美容 SPA 療程與性感覺醒"
 titleSignals:
-  - "性感覚醒！人妻エステ"
-  - "高畫質"
-titleVersion: 1
+  - "人妻"
+  - "性感覺醒"
+titleVersion: 2
 actress:
   []
 releaseDate: 2026-08-22

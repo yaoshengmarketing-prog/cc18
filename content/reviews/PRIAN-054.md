@@ -1,15 +1,15 @@
 ---
 id: PRIAN-054
 sourceTitle: "羽月乃蒼/Noah"
-title: "PRIAN-054｜羽月乃蒼在南國的大自然裡，讓國寶級美乳與青春活力成為觀看主角"
-seoTitle: "PRIAN-054 羽月乃蒼影評｜南國的大自然包覆國寶級美乳，青春活力如何撐起全片節奏"
-socialTitle: "PRIAN-054｜羽月乃蒼把南國的大自然與青春活力拍出清爽存在感"
+title: "PRIAN-054 羽月乃蒼｜南國自然中的I罩杯全裸寫真"
+displayShortTitle: "羽月乃蒼的南國I罩杯寫真"
+seoTitle: "PRIAN-054 羽月乃蒼｜Noah 南國寫真、I罩杯與首次全裸"
+socialTitle: "PRIAN-054 羽月乃蒼｜Noah 南國寫真、I罩杯與首次全裸"
 titleSignals:
   - "羽月乃蒼"
-  - "南國的大自然"
-  - "國寶級美乳"
-  - "青春活力"
-titleVersion: 1
+  - "南國"
+  - "I罩杯"
+titleVersion: 2
 actress:
   - 羽月乃蒼
 releaseDate: 2026-08-25

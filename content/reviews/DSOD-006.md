@@ -1,14 +1,14 @@
 ---
 id: DSOD-006
 sourceTitle: "【老二航空】DAS！航空公司呈獻,極上空姐用敬語黏膩侍奉的舒適又色情的空中之旅SP 池田真理奈 柚木蓮花 柊紅葉 一之瀨蘭"
-title: "DSOD-006 一ノ瀬ラム、池田真理奈、柚木れんか、柊もみじ｜老二航空】DAS與空服員設定：把展示型企劃拍出分段闖關感"
-seoTitle: "DSOD-006 一ノ瀬ラム、池田真理奈、柚木れんか、柊もみじ｜影評｜老二航空】DAS、變性人題材，把空服員企劃拍成有層次的展示流程"
-socialTitle: "DSOD-006｜一ノ瀬ラム在老二航空】DAS裡，空服員設定比你想的更有流程感"
+title: "DSOD-006｜一ノ瀬ラム等四位空服員的多人服務企劃"
+displayShortTitle: "四位空服員的多人服務企劃"
+seoTitle: "DSOD-006｜一ノ瀬ラム等四位空服員的多人服務企劃"
+socialTitle: "DSOD-006｜一ノ瀬ラム等四位空服員的多人服務企劃"
 titleSignals:
   - "一ノ瀬ラム"
-  - "老二航空】DAS"
-  - "空服員設定"
-titleVersion: 1
+  - "空服員"
+titleVersion: 2
 actress:
   - 一ノ瀬ラム
   - 池田真理奈

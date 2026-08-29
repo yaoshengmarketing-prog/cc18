@@ -1,14 +1,14 @@
 ---
 id: ENDS-322
 sourceTitle: "獨家 響 2"
-title: "ENDS-322｜人妻設定與孕婦設定交纏下的扭曲性癖觀察"
-seoTitle: "ENDS-322 影評｜人妻設定、孕婦設定與扭曲性癖的道德拉扯選片解析"
-socialTitle: "ENDS-322｜當人妻設定遇上孕婦設定，扭曲性癖如何撐起張力"
+title: "ENDS-322｜孕婦自曝性癖的3P企劃"
+displayShortTitle: "孕婦自曝性癖的3P企劃"
+seoTitle: "ENDS-322｜孕婦、自曝性癖與3P題材作品介紹"
+socialTitle: "ENDS-322｜孕婦、自曝性癖與3P題材作品介紹"
 titleSignals:
-  - "人妻設定"
-  - "孕婦設定"
-  - "扭曲性癖"
-titleVersion: 1
+  - "孕婦"
+  - "3P"
+titleVersion: 2
 actress:
   []
 releaseDate: 2026-08-26

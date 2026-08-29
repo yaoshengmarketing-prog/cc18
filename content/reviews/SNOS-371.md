@@ -1,14 +1,15 @@
 ---
 id: SNOS-371
 sourceTitle: "河北彩花展現真實的溫柔與體貼 關東巡行 破處紀錄片"
-title: "SNOS-371 河北彩花｜關東巡行口交企劃：把紀錄片形式拍出路線感"
-seoTitle: "SNOS-371 河北彩花影評｜關東巡行口交企劃，紀錄片形式帶出明確層次"
-socialTitle: "SNOS-371 河北彩花｜這部關東巡行不是亂逛，而是有節奏的口交企劃"
+title: "SNOS-371 河北彩花｜走訪關東三位處男的初體驗紀錄片"
+displayShortTitle: "河北彩花的關東初體驗紀錄片"
+seoTitle: "SNOS-371 河北彩花｜關東巡行、處男初體驗紀錄片"
+socialTitle: "SNOS-371 河北彩花｜關東巡行、處男初體驗紀錄片"
 titleSignals:
   - "河北彩花"
-  - "關東巡行"
-  - "口交"
-titleVersion: 1
+  - "關東"
+  - "紀錄片"
+titleVersion: 2
 actress:
   - 河北彩花
 releaseDate: 2026-08-21
