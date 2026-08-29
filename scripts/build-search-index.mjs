@@ -4,6 +4,14 @@ import {resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {loadPublishedMovieCardCatalog} from '../src/lib/movie-master.mjs';
 import {searchableAliasNames} from '../src/lib/catalog-search.mjs';
+import {parsePerformerStableId} from '../src/lib/performer-url.mjs';
+import {buildPerformerLocalizationMap} from '../src/lib/performer-localization-policy.mjs';
+import {
+  validateCanonicalMovieIdentity,
+  validateCanonicalMovieMasterIndexEntries,
+  validateCanonicalMovieMasterIndexEntry,
+  validateMovieMasterAgainstIndexEntry,
+} from '../src/lib/movie-master-identity.mjs';
 
 const root = resolve(import.meta.dirname, '..');
 const outputPath = resolve(root, 'data/search-index-v1.json');
@@ -12,35 +20,161 @@ const readJson = async (path) => JSON.parse(await readText(path));
 const clean = (value) => typeof value === 'string' && value.trim() ? value.trim() : null;
 const stableJson = (value) => `${JSON.stringify(value, null, 2)}\n`;
 
+export const buildSearchLocalizationMap = (localization) => {
+  return buildPerformerLocalizationMap(localization);
+};
+
+export const validateSearchDisplayPerformers = (performers, catalogCode) => {
+  const ids = (performers ?? []).map((performer) => {
+    parsePerformerStableId(performer.source_actor_id);
+    return performer.source_actor_id;
+  });
+  for (const [index, id] of ids.entries()) {
+    if (ids.indexOf(id) !== index) throw new Error(`${catalogCode}: duplicate Search performer ID ${id}`);
+  }
+  return ids;
+};
+
+export const validateCanonicalSearchMovieIdentity = validateCanonicalMovieIdentity;
+export const validateCanonicalSearchIndexEntryIdentity = validateCanonicalMovieMasterIndexEntry;
+
+export const validateSearchIndexEntryMaster = ({entry, master}) => {
+  const identity = validateMovieMasterAgainstIndexEntry(entry, master);
+  if (entry.is_demo !== (master.is_demo === true)
+    || entry.is_published !== (master.publishing?.is_published === true)) {
+    throw new Error(`${identity.catalogCode}: Movie Master index publication identity mismatch`);
+  }
+  return identity;
+};
+
+export const validateSearchPerformerProjection = (master, catalogCode) => {
+  if (!Array.isArray(master.source?.performer_relations)) {
+    throw new Error(`${catalogCode}: typed performer relations must be an array`);
+  }
+  if (!Array.isArray(master.display?.performers)) {
+    throw new Error(`${catalogCode}: display performers must be an array`);
+  }
+  const relationIds = master.source.performer_relations.map((relation) => {
+    if (relation?.source_type !== 'actor') throw new Error(`${catalogCode}: non-actor typed performer relation`);
+    parsePerformerStableId(relation.stable_source_id);
+    return relation.stable_source_id;
+  });
+  const displayIds = validateSearchDisplayPerformers(master.display.performers, catalogCode);
+  if (relationIds.length !== displayIds.length
+    || relationIds.some((id, index) => id !== displayIds[index])) {
+    throw new Error(`${catalogCode}: typed performer relations and display performers differ in identity, order or multiplicity`);
+  }
+  return displayIds;
+};
+
+export const validateSearchMasterAuthority = ({entry, card, master}) => {
+  const {catalogCode} = validateSearchIndexEntryMaster({entry, master});
+  validateCanonicalSearchMovieIdentity({
+    stableMovieId: card?.stable_movie_id,
+    catalogCode: card?.catalog_code,
+    label: `${catalogCode} card`,
+  });
+  if (entry.stable_movie_id !== card.stable_movie_id || entry.catalog_code !== card.catalog_code) {
+    throw new Error(`${catalogCode}: Search index entry, card and Movie Master identity mismatch`);
+  }
+  if (entry.is_published !== true || entry.is_demo === true || master.is_demo === true
+    || master.publishing?.is_published !== true || master.publishing?.indexability !== 'INDEX') {
+    throw new Error(`${catalogCode}: public card is not backed by an eligible Movie Master`);
+  }
+  return validateSearchPerformerProjection(master, catalogCode);
+};
+
+export const validateSearchAuthorityBijection = ({bindings, cards}) => {
+  if (!Array.isArray(bindings) || !Array.isArray(cards)) throw new Error('Search authority bindings and cards must be arrays');
+  const cardsById = new Map();
+  const cardCodes = new Set();
+  for (const card of cards) {
+    validateCanonicalSearchMovieIdentity({
+      stableMovieId: card?.stable_movie_id,
+      catalogCode: card?.catalog_code,
+      label: 'Published MovieCard projection',
+    });
+    if (cardsById.has(card.stable_movie_id) || cardCodes.has(card.catalog_code)) {
+      throw new Error(`Duplicate published MovieCard identity: ${card.stable_movie_id} / ${card.catalog_code}`);
+    }
+    cardsById.set(card.stable_movie_id, card);
+    cardCodes.add(card.catalog_code);
+  }
+  const seenEntryIds = new Set();
+  const seenEntryCodes = new Set();
+  const seenMasterPaths = new Set();
+  const result = [];
+  for (const binding of bindings) {
+    const {entry, master} = binding;
+    const identity = validateSearchIndexEntryMaster({entry, master});
+    if (seenEntryIds.has(identity.stableMovieId) || seenEntryCodes.has(identity.catalogCode)
+      || seenMasterPaths.has(identity.masterPath)) {
+      throw new Error(`Duplicate public Movie Master authority: ${identity.stableMovieId} / ${identity.masterPath}`);
+    }
+    seenEntryIds.add(identity.stableMovieId);
+    seenEntryCodes.add(identity.catalogCode);
+    seenMasterPaths.add(identity.masterPath);
+    const card = cardsById.get(identity.stableMovieId);
+    if (!card) throw new Error(`${identity.catalogCode}: public Movie Master has no matching card`);
+    validateSearchMasterAuthority({entry, card, master});
+    result.push({...binding, card});
+  }
+  const consumedIds = new Set(result.map(({entry}) => entry.stable_movie_id));
+  const extraCards = [...cardsById.keys()].filter((id) => !consumedIds.has(id));
+  if (result.length !== cards.length || extraCards.length > 0) {
+    throw new Error(`Public Movie Master/card sets are not bijective; extra cards: ${extraCards.join(', ') || 'none'}`);
+  }
+  return result;
+};
+
+export const validateSearchIndexEntries = (entries) => {
+  return validateCanonicalMovieMasterIndexEntries(entries);
+};
+
+export async function loadSearchAuthorityBindings(movieIndex, cardCatalog, {loadMaster = readJson} = {}) {
+  validateSearchIndexEntries(movieIndex?.entries);
+  if (!Array.isArray(cardCatalog?.cards)) throw new Error('Published MovieCard catalog cards must be an array');
+  const loaded = [];
+  for (const entry of movieIndex.entries) {
+    const master = await loadMaster(entry.master_path);
+    const identity = validateSearchIndexEntryMaster({entry, master});
+    if (entry.is_published === true && entry.is_demo !== true
+      && master.publishing?.indexability === 'INDEX') {
+      validateSearchPerformerProjection(master, identity.catalogCode);
+      loaded.push({entry, master});
+    }
+  }
+  return validateSearchAuthorityBijection({bindings: loaded, cards: cardCatalog.cards});
+}
+
 export async function buildSearchIndex() {
-  const [movieIndexText, localizationText, taxonomyText, cardCatalog] = await Promise.all([
+  const [movieIndexText, localizationText, taxonomyText] = await Promise.all([
     readText('data/movie-master/index.json'),
     readText('data/localization/performers-zh-tw.json'),
     readText('data/taxonomy.json'),
-    loadPublishedMovieCardCatalog(),
   ]);
   const movieIndex = JSON.parse(movieIndexText);
+  validateSearchIndexEntries(movieIndex.entries);
+  const cardCatalog = await loadPublishedMovieCardCatalog();
   const localization = JSON.parse(localizationText);
   const taxonomy = JSON.parse(taxonomyText);
-  const cardsById = new Map(cardCatalog.cards.map((card) => [card.stable_movie_id, card]));
-  const localizedById = new Map(localization.performers.map((performer) => [performer.source_actor_id, performer]));
+  const authorityBindings = await loadSearchAuthorityBindings(movieIndex, cardCatalog);
+  const localizedById = buildSearchLocalizationMap(localization);
   const taxonomyLabels = new Map(taxonomy.tags.map(({id, label}) => [id, label]));
   const performerMap = new Map();
   const movies = [];
 
-  for (const entry of movieIndex.entries ?? []) {
-    const card = cardsById.get(entry.stable_movie_id);
-    if (!card) continue;
-    const master = await readJson(entry.master_path);
-    if (entry.is_published !== true || entry.is_demo === true || master.is_demo === true
-      || master.publishing?.is_published !== true || master.publishing?.indexability !== 'INDEX') continue;
-
-    const performerIds = [];
-    for (const performer of master.display?.performers ?? []) {
-      const stableActorId = clean(performer.source_actor_id);
+  for (const {entry, master, card} of authorityBindings) {
+    const performerIds = validateSearchMasterAuthority({entry, card, master});
+    const displayPerformers = master.display.performers;
+    for (const [index, performer] of displayPerformers.entries()) {
+      const stableActorId = performerIds[index];
       const localized = localizedById.get(stableActorId);
-      if (!stableActorId || !localized) throw new Error(`${entry.catalog_code}: missing performer localization for ${stableActorId ?? 'unknown'}`);
-      performerIds.push(stableActorId);
+      if (!localized) throw new Error(`${entry.catalog_code}: missing performer localization for ${stableActorId}`);
+      const expectedDisplayName = clean(localized.display_name_zh_tw) ?? clean(localized.name_ja) ?? clean(localized.source_name);
+      if (!expectedDisplayName || performer.display_name !== expectedDisplayName) {
+        throw new Error(`${entry.catalog_code}: performer display projection mismatch for ${stableActorId}`);
+      }
       const current = performerMap.get(stableActorId) ?? {
         stable_actor_id: stableActorId,
         display_name: clean(performer.display_name),
@@ -57,7 +191,7 @@ export async function buildSearchIndex() {
     const topicIds = (master.derived?.canonical_topic_tag_ids ?? []).filter((id) => taxonomyLabels.has(id));
     movies.push({
       card: {...card, canonical_topics: topicIds.map((id) => ({id, label: taxonomyLabels.get(id)}))},
-      performer_ids: [...new Set(performerIds)],
+      performer_ids: performerIds,
       search: {
         source_title: clean(master.source?.source_title),
         article_title: clean(master.titles?.article_title),

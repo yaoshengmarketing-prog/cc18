@@ -11,7 +11,7 @@
     "registry:validate": "node scripts/validate-registry.mjs",
     "content:validate": "node scripts/validate-content.mjs",
     "source:test": "node --test tests/cc18-parser.test.mjs",
-    "localization:test": "node --test tests/performer-localization.test.mjs",
+    "localization:test": "node --test tests/performer-localization.test.mjs tests/performer-catalog.test.mjs",
     "search-index:build": "node scripts/build-search-index.mjs --write",
     "search-index:check": "node scripts/build-search-index.mjs --check",
     "catalog-search:test": "node --test tests/catalog-search-v1.test.mjs",

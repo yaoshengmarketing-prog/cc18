@@ -3,6 +3,13 @@ import {execFileSync} from 'node:child_process';
 import {mkdir, readFile, readdir, writeFile} from 'node:fs/promises';
 import {basename, dirname, join, resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {
+  parsePerformerSourceId,
+  parsePerformerSourceUrl,
+  parsePerformerStableId,
+  performerStableIdFromSourceId,
+} from '../src/lib/performer-url.mjs';
+import {buildPerformerLocalizationMap} from '../src/lib/performer-localization-policy.mjs';
 import {workCanonicalUrl} from '../src/lib/work-url.mjs';
 
 const SCHEMA_VERSION = '1.1.0';
@@ -108,48 +115,11 @@ const cleanArray = (value) => {
   return value.map(cleanScalar).filter((item) => item !== null);
 };
 
-const performerDictionary = (localization) => {
-  const allowedStatuses = new Set([
-    'VERIFIED_TW_MARKET',
-    'VERIFIED_ORTHOGRAPHIC',
-    'SOURCE_NAME_UNCHANGED',
-    'SOURCE_TITLE_ALIAS_ONLY',
-    'SOURCE_ATTESTED',
-    'UNVERIFIED',
-  ]);
-  const byId = new Map();
-  for (const performer of localization.performers ?? []) {
-    const sourceActorId = cleanScalar(performer.source_actor_id);
-    if (!sourceActorId || !/^cc18\.tv:actor:\d+$/.test(sourceActorId)) fail(`Invalid performer source actor ID: ${sourceActorId}`);
-    if (byId.has(sourceActorId)) fail(`Duplicate performer source actor ID: ${sourceActorId}`);
-    if (!cleanScalar(performer.source_name) || !cleanScalar(performer.name_ja)) fail(`${sourceActorId}: performer names are incomplete`);
-    if (!allowedStatuses.has(performer.verification_status)) fail(`${sourceActorId}: unsupported verification status`);
-    if (!Array.isArray(performer.aliases) || !Array.isArray(performer.source_references) || performer.source_references.length === 0) {
-      fail(`${sourceActorId}: aliases/source references are invalid`);
-    }
-    for (const alias of performer.aliases) {
-      if (!cleanScalar(alias.name) || !cleanScalar(alias.type) || !allowedStatuses.has(alias.verification_status)
-        || typeof alias.searchable !== 'boolean') fail(`${sourceActorId}: invalid alias record`);
-      if ((alias.type === 'SOURCE_TITLE_CANDIDATE' || alias.verification_status === 'SOURCE_TITLE_ALIAS_ONLY') && alias.searchable) {
-        fail(`${sourceActorId}: unverified source-title candidate cannot be searchable`);
-      }
-      if (alias.type === 'SOURCE_TITLE_ALIAS') {
-        if (alias.verification_status !== 'SOURCE_ATTESTED' || alias.searchable !== true || alias.display_as_primary !== false
-          || !Array.isArray(alias.source_references) || alias.source_references.length === 0) {
-          fail(`${sourceActorId}: source-title alias requires attested, searchable, non-primary provenance`);
-        }
-      }
-    }
-    if (performer.display_name_zh_tw !== null
-      && !['VERIFIED_TW_MARKET', 'VERIFIED_ORTHOGRAPHIC'].includes(performer.verification_status)) {
-      fail(`${sourceActorId}: display_name_zh_tw is not backed by an approved verification status`);
-    }
-    byId.set(sourceActorId, performer);
-  }
-  return byId;
+export const performerDictionary = (localization) => {
+  try { return buildPerformerLocalizationMap(localization); } catch (error) { fail(error.message); }
 };
 
-const validatePerformerRelations = ({catalogCode, source, isPublished, localizations, usedPerformerIds}) => {
+export const validatePerformerRelations = ({catalogCode, source, isPublished, localizations, usedPerformerIds}) => {
   const rawNames = cleanArray(source?.actress);
   const relations = source?.source_relations?.performers ?? [];
   if (!Array.isArray(relations)) fail(`${catalogCode}: performer relations must be an array`);
@@ -158,32 +128,32 @@ const validatePerformerRelations = ({catalogCode, source, isPublished, localizat
   const sourceProjection = [];
   const displayProjection = [];
   for (const [index, relation] of relations.entries()) {
-    const sourceType = cleanScalar(relation.source_type);
-    const sourceId = cleanScalar(relation.source_id);
-    const stableSourceId = cleanScalar(relation.stable_source_id);
+    const sourceType = relation.source_type;
+    const sourceId = parsePerformerSourceId(relation.source_id);
+    const stableSourceId = relation.stable_source_id;
+    parsePerformerStableId(stableSourceId);
     const sourceName = cleanScalar(relation.source_name);
-    const sourceUrl = cleanScalar(relation.source_url);
+    const sourceUrl = relation.source_url;
     const observedAt = cleanScalar(relation.observed_at);
-    if (sourceType !== 'actor' || !/^\d+$/.test(sourceId ?? '') || stableSourceId !== `cc18.tv:actor:${sourceId}`) {
+    if (sourceType !== 'actor' || stableSourceId !== performerStableIdFromSourceId(sourceId)) {
       fail(`${catalogCode}: invalid performer relation identity`);
     }
     if (seen.has(stableSourceId)) fail(`${catalogCode}: duplicate performer relation ${stableSourceId}`);
     seen.add(stableSourceId);
     let parsedUrl;
     try {
-      parsedUrl = new URL(sourceUrl);
+      parsedUrl = parsePerformerSourceUrl(sourceUrl);
     } catch {
       fail(`${catalogCode}: invalid performer relation URL`);
     }
-    if (!['cc18.tv', 'www.cc18.tv'].includes(parsedUrl.hostname)
-      || parsedUrl.searchParams.get('s_type') !== 'actor' || parsedUrl.searchParams.get('s_tid') !== sourceId) {
+    if (parsedUrl.sourceId !== sourceId || parsedUrl.stableId !== stableSourceId) {
       fail(`${catalogCode}: performer relation URL/identity mismatch`);
     }
     if (!sourceName || sourceName !== rawNames[index]) fail(`${catalogCode}: performer source name mismatch`);
     if (!observedAt || observedAt !== cleanScalar(source?.fetched_at)) fail(`${catalogCode}: performer observed_at must equal Source Record fetched_at`);
     const localized = localizations.get(stableSourceId);
     if (!localized || cleanScalar(localized.source_name) !== sourceName) fail(`${catalogCode}: missing or mismatched performer localization ${stableSourceId}`);
-    const displayName = cleanScalar(localized.display_name_zh_tw) ?? cleanScalar(localized.name_ja) ?? sourceName;
+    const displayName = localized.primary_display_name;
     usedPerformerIds.add(stableSourceId);
     sourceProjection.push({
       source_type: sourceType,
@@ -195,8 +165,8 @@ const validatePerformerRelations = ({catalogCode, source, isPublished, localizat
     });
     displayProjection.push({
       source_actor_id: stableSourceId,
-      name_ja: cleanScalar(localized.name_ja),
-      display_name_zh_tw: cleanScalar(localized.display_name_zh_tw),
+      name_ja: localized.name_ja,
+      display_name_zh_tw: localized.display_name_zh_tw,
       display_name: displayName,
       verification_status: localized.verification_status,
     });
@@ -341,7 +311,7 @@ const assertNoEmptyStrings = (value, path = 'master') => {
   }
 };
 
-const buildAll = async () => {
+export const buildAll = async () => {
   if (!trackedReviewPaths.length) fail('No Git-tracked review inputs found');
   assertTracked('data/movie-registry.json', 'Registry');
   assertTracked('data/taxonomy.json', 'Taxonomy');
@@ -671,15 +641,17 @@ const help = () => {
   console.log(`Usage: node scripts/build-movie-master.mjs <mode>\n\nModes:\n  --write   Build or update tracked Movie Master JSON files\n  --check   Regenerate in memory and compare without writing\n  --report  Print a read-only summary without writing\n\nNo mode never writes files.`);
 };
 
-const mode = process.argv[2];
-if (!mode) {
-  help();
-  process.exit(0);
-}
-if (!['--write', '--check', '--report'].includes(mode) || process.argv.length !== 3) {
-  help();
-  process.exitCode = 2;
-} else {
+const main = async () => {
+  const mode = process.argv[2];
+  if (!mode) {
+    help();
+    return;
+  }
+  if (!['--write', '--check', '--report'].includes(mode) || process.argv.length !== 3) {
+    help();
+    process.exitCode = 2;
+    return;
+  }
   try {
     const result = await buildAll();
     const summary = summaryFor(result);
@@ -700,4 +672,8 @@ if (!['--write', '--check', '--report'].includes(mode) || process.argv.length !=
     console.error(error?.stack ?? error);
     process.exitCode = 1;
   }
+};
+
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  await main();
 }

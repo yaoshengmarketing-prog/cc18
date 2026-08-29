@@ -1,40 +1,46 @@
 import {load} from 'cheerio';
+import {
+  parseCc18SourcePageUrl,
+  parseCc18SearchRelationUrl,
+  parsePerformerSourceUrl,
+} from '../../src/lib/performer-url.mjs';
 
 const ALLOWED_HOSTS = new Set(['cc18.tv', 'www.cc18.tv']);
 
 const clean = (value = '') => value.replace(/\s+/g, ' ').trim();
 const unique = (items) => [...new Set(items.filter(Boolean))];
 
-const typedRelations = ($, selector, sourceType, baseUrl) => {
+const performerRelations = ($, baseUrl, workId) => {
   const relations = [];
   const seen = new Set();
-  $(selector).each((_, element) => {
+  $('.tag-info a[href]').each((_, element) => {
     const href = $(element).attr('href');
     if (!href) return;
-    const relationUrl = new URL(href, baseUrl);
-    if (!ALLOWED_HOSTS.has(relationUrl.hostname)) return;
-    const parsedType = relationUrl.searchParams.get('s_type');
-    const sourceId = relationUrl.searchParams.get('s_tid');
+    let classified;
+    try {
+      classified = parseCc18SearchRelationUrl(href, {baseUrl});
+    } catch (error) {
+      throw new Error(`${workId ?? 'unknown work'}: invalid actor relation or CC18 search relation ${JSON.stringify(href)}: ${error.message}`);
+    }
+    if (classified.sourceType !== 'actor') return;
+    const parsed = parsePerformerSourceUrl(href, {baseUrl});
     const sourceName = clean($(element).text());
-    if (parsedType !== sourceType || !/^\d+$/.test(sourceId ?? '') || !sourceName) return;
-    const stableSourceId = `cc18.tv:${parsedType}:${sourceId}`;
-    if (seen.has(stableSourceId)) return;
-    seen.add(stableSourceId);
+    if (!sourceName) throw new Error(`${workId ?? 'unknown work'}: actor relation has an empty source name: ${href}`);
+    if (seen.has(parsed.stableId)) throw new Error(`${workId ?? 'unknown work'}: duplicate actor relation ${parsed.stableId}`);
+    seen.add(parsed.stableId);
     relations.push({
-      source_type: parsedType,
-      source_id: sourceId,
-      stable_source_id: stableSourceId,
+      source_type: 'actor',
+      source_id: parsed.sourceId,
+      stable_source_id: parsed.stableId,
       source_name: sourceName,
-      source_url: relationUrl.href,
+      source_url: parsed.absoluteUrl,
     });
   });
   return relations;
 };
 
 export function assertCc18Url(value) {
-  const url = new URL(value);
-  if (!ALLOWED_HOSTS.has(url.hostname)) throw new Error(`Disallowed source host: ${url.hostname}`);
-  return url;
+  return parseCc18SourcePageUrl(value);
 }
 
 export function parseListing(html, baseUrl = 'https://cc18.tv/') {
@@ -74,7 +80,7 @@ export function parseWorkPage(html, sourceUrl) {
   const description = clean($('.intro p').first().text()).replace(/^簡介[：:]\s*/, '') || null;
   const linkTexts = (selector) => unique($(selector).map((_, element) => clean($(element).text())).get());
   const fetchedAt = new Date().toISOString();
-  const performerRelations = typedRelations($, '.tag-info a[href*="s_type=actor"]', 'actor', url)
+  const parsedPerformerRelations = performerRelations($, sourceUrl, id)
     .map((relation) => ({...relation, observed_at: fetchedAt}));
 
   const result = {
@@ -83,9 +89,9 @@ export function parseWorkPage(html, sourceUrl) {
     original_title_ja: null,
     translated_title_zh_tw: null,
     release_date: /^20\d{2}-\d{2}-\d{2}$/.test(releaseDate) ? releaseDate : null,
-    actress: performerRelations.map(({source_name: sourceName}) => sourceName),
+    actress: parsedPerformerRelations.map(({source_name: sourceName}) => sourceName),
     source_relations: {
-      performers: performerRelations,
+      performers: parsedPerformerRelations,
     },
     studio: linkTexts('.content a[href*="s_type=fac"]').at(0) ?? null,
     series: linkTexts('.content a[href*="s_type=series"]').at(0) ?? null,

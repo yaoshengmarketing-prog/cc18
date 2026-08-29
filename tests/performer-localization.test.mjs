@@ -36,12 +36,22 @@ const buildExpectedPerformerSearch = (performers) => {
   };
 };
 
-test('published performer localization dictionary has 14 namespaced stable actor IDs', async () => {
-  const localization = await readJson('data/localization/performers-zh-tw.json');
-  assert.equal(localization.performers.length, 14);
+test('published performer localization dictionary matches typed published relations with namespaced stable IDs', async () => {
+  const [localization, index] = await Promise.all([
+    readJson('data/localization/performers-zh-tw.json'),
+    readJson('data/movie-master/index.json'),
+  ]);
+  const publishedMasters = await Promise.all(index.entries
+    .filter(({is_published: isPublished, is_demo: isDemo}) => isPublished && !isDemo)
+    .map(({master_path: path}) => readJson(path)));
+  const relationIds = publishedMasters.flatMap((master) => (
+    master.source.performer_relations.map(({stable_source_id: id}) => id)
+  ));
+  const expectedIds = [...new Set(relationIds)].sort();
   const ids = localization.performers.map(({source_actor_id: id}) => id);
-  assert.equal(new Set(ids).size, 14);
-  for (const id of ids) assert.match(id, /^cc18\.tv:actor:\d+$/);
+  assert.equal(new Set(ids).size, ids.length);
+  assert.deepEqual([...ids].sort(), expectedIds);
+  for (const id of ids) assert.match(id, /^cc18\.tv:actor:[1-9][0-9]*$/);
   assert.notEqual('cc18.tv:actor:3', 'cc18.tv:tag:3');
 });
 

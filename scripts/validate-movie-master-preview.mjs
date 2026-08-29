@@ -2,6 +2,10 @@ import {access, readFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {pathToFileURL} from 'node:url';
 import {loadLatestAddedPromoCatalog} from '../src/lib/movie-master.mjs';
+import {
+  validateCanonicalMovieMasterIndexEntries,
+  validateMovieMasterAgainstIndexEntry,
+} from '../src/lib/movie-master-identity.mjs';
 import {workPath} from '../src/lib/work-url.mjs';
 
 export const isPublicMovieCardMaster = (master) => (
@@ -35,7 +39,12 @@ const sitemap = await readFile(resolve(root, 'dist/sitemap-0.xml'), 'utf8');
 const redirects = await readFile(resolve(root, 'dist/_redirects'), 'utf8');
 const searchIndex = await readJson('data/search-index-v1.json');
 const index = await readJson('data/movie-master/index.json');
-const masters = await Promise.all(index.entries.map(({master_path}) => readJson(master_path)));
+validateCanonicalMovieMasterIndexEntries(index.entries);
+const masters = await Promise.all(index.entries.map(async (entry) => {
+  const master = await readJson(entry.master_path);
+  validateMovieMasterAgainstIndexEntry(entry, master);
+  return master;
+}));
 const promoCatalog = await loadLatestAddedPromoCatalog({limit: 3});
 const expectedPublished = masters.filter(isPublicMovieCardMaster);
 const isValidDate = (value) => {

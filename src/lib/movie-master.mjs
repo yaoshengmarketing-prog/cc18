@@ -1,6 +1,10 @@
 import {readFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {resolveInternalWorkHref} from './work-url.mjs';
+import {
+  validateCanonicalMovieMasterIndexEntries,
+  validateMovieMasterAgainstIndexEntry,
+} from './movie-master-identity.mjs';
 
 const root = resolve(process.cwd());
 const readJson = async (path) => JSON.parse(await readFile(resolve(root, path), 'utf8'));
@@ -25,17 +29,23 @@ const cardTitle = (master) => [
   master.source?.catalog_code,
 ].map(clean).find(Boolean) ?? null;
 
-const loadPublishedMovieCardRecords = async () => {
+export const loadPublishedMovieCardRecords = async ({
+  loadIndex = () => readJson('data/movie-master/index.json'),
+  loadTaxonomy = () => readJson('data/taxonomy.json'),
+  loadMaster = readJson,
+} = {}) => {
   const [index, taxonomy] = await Promise.all([
-    readJson('data/movie-master/index.json'),
-    readJson('data/taxonomy.json'),
+    loadIndex(),
+    loadTaxonomy(),
   ]);
+  validateCanonicalMovieMasterIndexEntries(index?.entries);
   const tagLabels = new Map((taxonomy.tags ?? []).map(({id, label}) => [id, label]));
   const records = [];
   const exclusions = [];
 
   for (const entry of index.entries ?? []) {
-    const master = await readJson(entry.master_path);
+    const master = await loadMaster(entry.master_path);
+    validateMovieMasterAgainstIndexEntry(entry, master);
     const title = cardTitle(master);
     const href = resolveInternalWorkHref(master.publishing?.canonical_url, master.slug);
     const qualifies = Boolean(
