@@ -5,6 +5,7 @@ import {workPath} from '../src/lib/work-url.mjs';
 const root = resolve(import.meta.dirname, '..');
 const readJson = async (path) => JSON.parse(await readFile(resolve(root, path), 'utf8'));
 const html = await readFile(resolve(root, 'dist/preview/movie-master-cards/index.html'), 'utf8');
+const homeHtml = await readFile(resolve(root, 'dist/index.html'), 'utf8');
 const latestHtml = await readFile(resolve(root, 'dist/latest/index.html'), 'utf8');
 const sitemap = await readFile(resolve(root, 'dist/sitemap-0.xml'), 'utf8');
 const redirects = await readFile(resolve(root, 'dist/_redirects'), 'utf8');
@@ -17,6 +18,12 @@ const renderedCards = [...html.matchAll(/<article class="movie-card-v1" data-mov
   .map((match) => ({stableMovieId: match[1], html: match[2]}));
 const renderedIds = renderedCards.map(({stableMovieId}) => stableMovieId);
 const renderedById = new Map(renderedCards.map((card) => [card.stableMovieId, card]));
+const homeCards = [...homeHtml.matchAll(/<article class="movie-card-v1" data-movie-id="([^"]+)"[^>]*>([\s\S]*?)<\/article>/g)]
+  .map((match) => ({stableMovieId: match[1], html: match[2]}));
+const homeIds = homeCards.map(({stableMovieId}) => stableMovieId);
+const homeCatalogCodes = homeCards.map(({html: cardHtml}) => (
+  cardHtml.match(/<div class="movie-card-v1__identity"[^>]*><p[^>]*>([^<]+)<\/p>/)?.[1]
+));
 const latestCards = [...latestHtml.matchAll(/<article class="movie-card-v1" data-movie-id="([^"]+)"[^>]*>([\s\S]*?)<\/article>/g)]
   .map((match) => ({stableMovieId: match[1], html: match[2]}));
 const latestIds = latestCards.map(({stableMovieId}) => stableMovieId);
@@ -34,11 +41,21 @@ if (renderedCards.length !== index.published_count || new Set(renderedIds).size 
 if (latestCards.length !== index.published_count || new Set(latestIds).size !== index.published_count) {
   throw new Error(`Latest expected ${index.published_count} unique cards, received ${latestCards.length}`);
 }
+if (homeCards.length !== index.published_count || new Set(homeIds).size !== index.published_count) {
+  throw new Error(`Homepage expected ${index.published_count} unique cards, received ${homeCards.length}`);
+}
+if (homeCatalogCodes.some((catalogCode) => !catalogCode) || new Set(homeCatalogCodes).size !== index.published_count) {
+  throw new Error('Homepage catalog codes are missing or duplicated');
+}
 if (latestIds.join('\n') !== renderedIds.join('\n')) {
   throw new Error('Latest card order differs from the neutral Movie Master catalog preview');
 }
+if (homeIds.join('\n') !== renderedIds.join('\n') || homeIds.join('\n') !== latestIds.join('\n')) {
+  throw new Error('Homepage card order differs from the neutral Movie Master catalog and Latest');
+}
 for (const master of expectedExcluded) {
   if (renderedIds.includes(master.stable_movie_id)) throw new Error(`Excluded Movie Master rendered: ${master.stable_movie_id}`);
+  if (homeIds.includes(master.stable_movie_id)) throw new Error(`Excluded Movie Master rendered on homepage: ${master.stable_movie_id}`);
   if (latestIds.includes(master.stable_movie_id)) throw new Error(`Excluded Movie Master rendered on Latest: ${master.stable_movie_id}`);
 }
 for (const {stableMovieId, html: cardHtml} of renderedCards) {
@@ -86,6 +103,23 @@ for (const {stableMovieId, html: cardHtml} of latestCards) {
     throw new Error(`Latest and preview promo marker states disagree for ${stableMovieId}`);
   }
 }
+for (const {stableMovieId, html: cardHtml} of homeCards) {
+  const master = expectedById.get(stableMovieId);
+  if (!master) throw new Error(`Homepage card is not an eligible published Master: ${stableMovieId}`);
+  const expectedPathname = new URL(master.publishing.canonical_url).pathname;
+  const cardLinks = [...cardHtml.matchAll(/href="(\/works\/[a-z0-9-]+\/)"/g)].map((match) => match[1]);
+  if (cardLinks.length !== 2 || cardLinks.some((href) => href !== expectedPathname)) {
+    throw new Error(`Homepage cover and title links disagree for ${stableMovieId}`);
+  }
+  const previewCard = renderedById.get(stableMovieId);
+  if (!previewCard) throw new Error(`Homepage card is missing from the neutral preview: ${stableMovieId}`);
+  if (cardHtml.includes('9秒選片') !== previewCard.html.includes('9秒選片')) {
+    throw new Error(`Homepage and preview promo marker states disagree for ${stableMovieId}`);
+  }
+  if (!cardHtml.includes('loading="lazy"') || !cardHtml.includes('fetchpriority="auto"')) {
+    throw new Error(`Homepage catalog card uses high-priority image loading: ${stableMovieId}`);
+  }
+}
 for (const master of expectedExcluded) {
   if (await pathExists(resolve(root, 'dist', 'works', master.slug, 'index.html'))) {
     throw new Error(`Draft or Demo work page was generated: ${master.stable_movie_id}`);
@@ -101,5 +135,10 @@ if (!latestHtml.includes('data-cover-fallback="/images/movie-cover-fallback.svg"
 if ((latestHtml.match(/\[data-cover-fallback\]/g) ?? []).length !== 1) throw new Error('Latest fallback handler must be emitted exactly once');
 if (latestHtml.includes('待補') || latestHtml.includes('演員資料待補')) throw new Error('Missing-value placeholder leaked into Latest');
 if (latestHtml.includes('/reviews/')) throw new Error('Legacy review URL leaked into Latest');
+if (!homeHtml.includes('<section class="hero catalog-feature">')) throw new Error('Homepage Markdown featured Hero is missing');
+if (!homeHtml.includes('data-cover-fallback="/images/movie-cover-fallback.svg"')) throw new Error('Homepage image fallback contract is missing');
+if ((homeHtml.match(/\[data-cover-fallback\]/g) ?? []).length !== 1) throw new Error('Homepage fallback handler must be emitted exactly once');
+if (homeHtml.includes('待補') || homeHtml.includes('演員資料待補')) throw new Error('Missing-value placeholder leaked into homepage');
+if (homeHtml.includes('/reviews/')) throw new Error('Legacy review URL leaked into homepage');
 
-console.log(`Movie Master surfaces valid: ${renderedCards.length} preview cards, ${latestCards.length} Latest cards and work pages, ${expectedExcluded.length} dynamic exclusions, redirects, structured data, noindex and sitemap contracts passed.`);
+console.log(`Movie Master surfaces valid: ${renderedCards.length} preview cards, ${homeCards.length} homepage cards, ${latestCards.length} Latest cards and work pages, ${expectedExcluded.length} dynamic exclusions, redirects, structured data, noindex and sitemap contracts passed.`);

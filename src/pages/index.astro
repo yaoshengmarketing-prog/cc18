@@ -1,14 +1,15 @@
 ---
 import {getCollection} from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import ReviewCard from '../components/ReviewCard.astro';
+import MovieCardV1 from '../components/MovieCardV1.astro';
 import TagList from '../components/TagList.astro';
 import {byNewest, formatDate, reviewHref, reviewTagIds, visibleTags} from '../lib/reviews';
+import {loadPublishedMovieCardCatalog} from '../lib/movie-master.mjs';
 import {tagItems} from '../lib/taxonomy';
 
 const reviews = (await getCollection('reviews', ({data}) => data.status === 'published')).sort(byNewest);
 const featured = reviews.find(({data}) => data.featured) ?? reviews[0];
-const latest = reviews.slice(0, 15);
+const catalog = await loadPublishedMovieCardCatalog();
 const tagIds = [...new Set(reviews.flatMap(reviewTagIds))].slice(0, 12);
 const tags = tagItems(tagIds);
 ---
@@ -51,8 +52,8 @@ const tags = tagItems(tagIds);
       <p>依 CC18 作品頁日期排序，點進去看完整資料、標籤與影評。</p>
       <a href="/latest/">查看全部 →</a>
     </div>
-    <div class="catalog-grid" role="list">
-      {latest.map((review, index) => <div role="listitem"><ReviewCard review={review} priority={index < 3} /></div>)}
+    <div class="card-grid" role="list">
+      {catalog.cards.map((card) => <div role="listitem"><MovieCardV1 card={card} /></div>)}
     </div>
   </section>
 
