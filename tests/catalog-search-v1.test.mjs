@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {buildSearchIndex} from '../scripts/build-search-index.mjs';
-import {normalizeCatalogCode, searchCatalog, searchableAliasNames} from '../src/lib/catalog-search.mjs';
+import {classifySearchQuery, normalizeCatalogCode, searchCatalog, searchableAliasNames} from '../src/lib/catalog-search.mjs';
 
 const expectedPeople = new Map([
   ['cc18.tv:actor:54454', {movie: 'cc18:SNOS-409', queries: ['星空ねる', '星空音琉', 'ねる', '音琉', '星空']}],
@@ -42,6 +42,46 @@ test('all approved performer names, aliases and partials resolve to one actor an
   }
 });
 
+test('single Han and kana characters search performers only with field-priority ordering and stable ID deduplication', async () => {
+  const index = await buildSearchIndex();
+  const cases = new Map([
+    ['音', {
+      people: ['cc18.tv:actor:28932', 'cc18.tv:actor:54454'],
+      movies: ['cc18:NAMH-074', 'cc18:SNOS-409'],
+    }],
+    ['星', {people: ['cc18.tv:actor:54454'], movies: ['cc18:SNOS-409']}],
+    ['空', {people: ['cc18.tv:actor:54454'], movies: ['cc18:SNOS-409']}],
+    ['ね', {people: ['cc18.tv:actor:54454'], movies: ['cc18:SNOS-409']}],
+    ['澪', {people: ['cc18.tv:actor:30343'], movies: ['cc18:SDAB-358']}],
+  ]);
+  for (const [query, expected] of cases) {
+    const result = searchCatalog(index, query);
+    assert.equal(result.valid, true, query);
+    assert.equal(result.performerOnly, true, query);
+    assert.deepEqual(result.people.map(({stable_actor_id}) => stable_actor_id), expected.people, query);
+    assert.deepEqual(result.movies.map(({card}) => card.stable_movie_id), expected.movies, query);
+    assert.equal(new Set(result.people.map(({stable_actor_id}) => stable_actor_id)).size, result.people.length, query);
+    assert.equal(new Set(result.movies.map(({card}) => card.stable_movie_id)).size, result.movies.length, query);
+  }
+  const sound = searchCatalog(index, '音');
+  assert.equal(sound.people[0].match_field, 'name_ja');
+  assert.equal(sound.people[1].match_field, 'searchable_alias');
+});
+
+test('single-character performer search never scans movie fields', () => {
+  const index = {
+    performers: [],
+    movies: [{
+      card: {stable_movie_id: 'cc18:TEST-001', catalog_code: '音', release_date: null, canonical_topics: [{label: '音'}]},
+      performer_ids: [],
+      search: {display_short_title: '音', article_title: '音', source_title: '音', slug: '音'},
+    }],
+  };
+  const result = searchCatalog(index, '音');
+  assert.equal(result.performerOnly, true);
+  assert.deepEqual(result.movies, []);
+});
+
 test('catalog normalization handles case, width, spaces and common hyphens without duplicate works', async () => {
   const index = await buildSearchIndex();
   for (const query of ['SNOS-409', 'snos-409', 'ＳＮＯＳ－４０９', 'SNOS 409', 'SNOS—409']) {
@@ -58,7 +98,8 @@ test('unsearchable aliases are excluded and blank, short and missing queries hav
     {name: '純推測候選', searchable: false},
   ]), ['有來源別名']);
   assert.equal(searchCatalog(index, ' ').reason, 'empty');
-  assert.equal(searchCatalog(index, '星').reason, 'too_short');
+  for (const query of ['S', '4', '-', '.', '🙂']) assert.equal(searchCatalog(index, query).reason, 'too_short', query);
+  for (const query of ['音', '星', 'ね', 'ミ']) assert.equal(classifySearchQuery(query).performerOnly, true, query);
   assert.deepEqual(searchCatalog(index, '完全不存在的查詢').movies, []);
   assert.deepEqual(searchCatalog(index, '<script>alert(1)</script>').people, []);
 });
@@ -82,6 +123,7 @@ test('search page uses safe DOM output, preserves query URLs, and header/home en
   assert.match(page, /new URLSearchParams\(location\.search\)\.get\('q'\)/);
   assert.match(page, /encodeURIComponent\(query\)/);
   assert.match(page, /textContent = value/);
+  assert.match(page, /人物姓名可輸入一個中文或日文字/);
   assert.doesNotMatch(page, /innerHTML|insertAdjacentHTML/);
   assert.match(layout, /class="search-link" href="\/search\/"/);
   assert.match(home, /form action="\/search\/" method="get"/);

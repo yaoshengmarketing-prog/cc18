@@ -7,10 +7,10 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     <header class="page-intro search-intro">
       <p class="eyebrow">CATALOG SEARCH</p>
       <h1>從一段名字，找到同一部作品</h1>
-      <p>輸入番號、片名、演員日文名或繁中別名。名字寫法不同，結果仍會合併到同一位演員與作品。</p>
+      <p>輸入番號、片名、演員日文名或繁中別名。中文或日文人物名稱可從一個字開始搜尋，其他查詢請輸入至少兩個字元。</p>
     </header>
     <form class="catalog-search" action="/search/" method="get" role="search">
-      <label for="catalog-query">輸入至少兩個字，例如 SNOS-409、星空、音琉</label>
+      <label for="catalog-query">搜尋人物可輸入一個中文或日文字；番號、片名與題材請輸入至少兩個字元</label>
       <div>
         <input id="catalog-query" name="q" type="search" autocomplete="off" enterkeyhint="search" placeholder="番號、片名、演員或題材" />
         <button type="submit">搜尋</button>
@@ -125,7 +125,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       return;
     }
     if (found.reason === 'too_short') {
-      status.textContent = '請輸入至少 2 個可見字元，避免產生過多無意義結果。';
+      status.textContent = '人物姓名可輸入一個中文或日文字；英文、數字及其他查詢請至少輸入兩個字元。';
       return;
     }
     status.textContent = found.people.length || found.movies.length

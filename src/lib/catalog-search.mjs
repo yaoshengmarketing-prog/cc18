@@ -11,6 +11,19 @@ export const compactSearchText = (value) => normalizeSearchText(value).replace(/
 export const normalizeCatalogCode = (value) => compactSearchText(value).replace(/-/gu, '');
 export const visibleQueryLength = (value) => [...compactSearchText(value).replace(/-/gu, '')].length;
 
+const SINGLE_CHARACTER_PERFORMER_QUERY = /^(?:\p{Script=Han}|\p{Script=Hiragana}|\p{Script=Katakana})$/u;
+
+export const classifySearchQuery = (value) => {
+  const query = String(value ?? '').trim();
+  if (!query) return {query, valid: false, reason: 'empty', performerOnly: false};
+  const visibleLength = visibleQueryLength(query);
+  if (visibleLength >= 2) return {query, valid: true, reason: null, performerOnly: false};
+  if (visibleLength === 1 && SINGLE_CHARACTER_PERFORMER_QUERY.test(compactSearchText(query))) {
+    return {query, valid: true, reason: null, performerOnly: true};
+  }
+  return {query, valid: false, reason: 'too_short', performerOnly: false};
+};
+
 export const searchableAliasNames = (aliases = []) => aliases
   .filter(({searchable}) => searchable === true)
   .map(({name}) => typeof name === 'string' ? name.trim() : '')
@@ -18,22 +31,23 @@ export const searchableAliasNames = (aliases = []) => aliases
 
 const matchName = (person, query) => {
   const names = [
-    person.display_name_zh_tw,
-    person.name_ja,
-    person.source_name,
-    ...(person.searchable_aliases ?? []),
-  ].filter(Boolean);
+    ['display_name_zh_tw', person.display_name_zh_tw, 4],
+    ['name_ja', person.name_ja, 3],
+    ['source_name', person.source_name, 2],
+    ...(person.searchable_aliases ?? []).map((name) => ['searchable_alias', name, 1]),
+  ].filter(([, name]) => Boolean(name));
   const normalizedQuery = compactSearchText(query);
   let best = null;
-  for (const name of names) {
+  for (const [field, name, fieldPriority] of names) {
     const normalizedName = compactSearchText(name);
     const kind = normalizedName === normalizedQuery ? 'exact'
       : normalizedName.startsWith(normalizedQuery) ? 'prefix'
         : normalizedName.includes(normalizedQuery) ? 'partial'
           : null;
     if (!kind) continue;
-    const score = {exact: 900, prefix: 800, partial: 700}[kind];
-    if (!best || score > best.score) best = {name, kind, score};
+    const matchPriority = {exact: 3, prefix: 2, partial: 1}[kind];
+    const score = fieldPriority * 1000 + matchPriority * 100;
+    if (!best || score > best.score) best = {name, field, kind, score};
   }
   return best;
 };
@@ -52,16 +66,16 @@ const titleMatch = (movie, query) => {
 };
 
 export function searchCatalog(index, rawQuery) {
-  const query = String(rawQuery ?? '').trim();
-  if (!query) return {query, valid: false, reason: 'empty', people: [], movies: []};
-  if (visibleQueryLength(query) < 2) return {query, valid: false, reason: 'too_short', people: [], movies: []};
+  const classification = classifySearchQuery(rawQuery);
+  const {query, performerOnly} = classification;
+  if (!classification.valid) return {...classification, people: [], movies: []};
 
   const people = [];
   const personMatches = new Map();
   for (const person of index.performers ?? []) {
     const match = matchName(person, query);
     if (!match) continue;
-    const result = {...person, match_name: match.name, match_kind: match.kind, score: match.score};
+    const result = {...person, match_name: match.name, match_field: match.field, match_kind: match.kind, score: match.score};
     personMatches.set(person.stable_actor_id, result);
     people.push(result);
   }
@@ -74,7 +88,7 @@ export function searchCatalog(index, rawQuery) {
   for (const movie of index.movies ?? []) {
     let score = 0;
     let reason = '';
-    if (normalizeCatalogCode(movie.card.catalog_code) === normalizedCodeQuery) {
+    if (!performerOnly && normalizeCatalogCode(movie.card.catalog_code) === normalizedCodeQuery) {
       score = 1000;
       reason = `番號：${movie.card.catalog_code}`;
     } else {
@@ -83,7 +97,7 @@ export function searchCatalog(index, rawQuery) {
       if (matchedPerson) {
         score = matchedPerson.score;
         reason = `演員：${matchedPerson.match_name}`;
-      } else {
+      } else if (!performerOnly) {
         const matchedTitle = titleMatch(movie, query);
         const matchedTopic = movie.card.canonical_topics.find(({label}) => compactSearchText(label).includes(normalizedQuery));
         if (matchedTitle) {
@@ -106,5 +120,5 @@ export function searchCatalog(index, rawQuery) {
     || (right.card.release_date ?? '').localeCompare(left.card.release_date ?? '')
     || left.card.catalog_code.localeCompare(right.card.catalog_code, 'en'));
 
-  return {query, valid: true, reason: null, people, movies};
+  return {query, valid: true, reason: null, performerOnly, people, movies};
 }
