@@ -1,6 +1,7 @@
 import {access, readFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {pathToFileURL} from 'node:url';
+import {loadLatestAddedPromoCatalog} from '../src/lib/movie-master.mjs';
 import {workPath} from '../src/lib/work-url.mjs';
 
 export const isPublicMovieCardMaster = (master) => (
@@ -35,6 +36,7 @@ const redirects = await readFile(resolve(root, 'dist/_redirects'), 'utf8');
 const searchIndex = await readJson('data/search-index-v1.json');
 const index = await readJson('data/movie-master/index.json');
 const masters = await Promise.all(index.entries.map(({master_path}) => readJson(master_path)));
+const promoCatalog = await loadLatestAddedPromoCatalog({limit: 3});
 const expectedPublished = masters.filter(isPublicMovieCardMaster);
 const isValidDate = (value) => {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(value ?? '')) return false;
@@ -71,6 +73,9 @@ const homeIds = homeCards.map(({stableMovieId}) => stableMovieId);
 const homeCatalogCodes = homeCards.map(({html: cardHtml}) => (
   cardHtml.match(/<div class="movie-card-v1__identity"[^>]*><p[^>]*>([^<]+)<\/p>/)?.[1]
 ));
+const promoSection = homeHtml.match(/<section class="promo-picks" data-promo-picks[^>]*>([\s\S]*?)<\/section>/)?.[1] ?? '';
+const promoCards = [...promoSection.matchAll(/<article class="promo-video-card" data-promo-card data-movie-id="([^"]+)"[^>]*>([\s\S]*?)<\/article>/g)]
+  .map((match) => ({stableMovieId: match[1], html: match[2]}));
 const latestCards = [...latestHtml.matchAll(/<article class="movie-card-v1" data-movie-id="([^"]+)"[^>]*>([\s\S]*?)<\/article>/g)]
   .map((match) => ({stableMovieId: match[1], html: match[2]}));
 const latestIds = latestCards.map(({stableMovieId}) => stableMovieId);
@@ -106,6 +111,12 @@ if (homeCards.length !== index.published_count || new Set(homeIds).size !== inde
 if (homeCatalogCodes.some((catalogCode) => !catalogCode) || new Set(homeCatalogCodes).size !== index.published_count) {
   throw new Error('Homepage catalog codes are missing or duplicated');
 }
+if (promoCards.length !== promoCatalog.cards.length || promoCards.length !== 3) {
+  throw new Error(`Homepage promo module expected 3 cards, received ${promoCards.length}`);
+}
+if (new Set(promoCards.map(({stableMovieId}) => stableMovieId)).size !== promoCards.length) {
+  throw new Error('Homepage promo stable movie IDs are duplicated');
+}
 if (renderedIds.join('\n') !== expectedReleaseIds.join('\n')) {
   throw new Error('Preview card order differs from release_date DESC + catalog_code ASC');
 }
@@ -119,8 +130,40 @@ for (const master of expectedExcluded) {
   if (renderedIds.includes(master.stable_movie_id)) throw new Error(`Excluded Movie Master rendered: ${master.stable_movie_id}`);
   if (homeIds.includes(master.stable_movie_id)) throw new Error(`Excluded Movie Master rendered on homepage: ${master.stable_movie_id}`);
   if (latestIds.includes(master.stable_movie_id)) throw new Error(`Excluded Movie Master rendered on Latest: ${master.stable_movie_id}`);
+  if (promoCards.some(({stableMovieId}) => stableMovieId === master.stable_movie_id)) throw new Error(`Excluded Movie Master rendered in homepage promo: ${master.stable_movie_id}`);
   if (searchIndex.movies.some(({card}) => card?.stable_movie_id === master.stable_movie_id)) {
     throw new Error(`Excluded Movie Master leaked into Search index: ${master.stable_movie_id}`);
+  }
+}
+for (const [index, {stableMovieId, html: promoHtml}] of promoCards.entries()) {
+  const expected = promoCatalog.cards[index];
+  if (stableMovieId !== expected.stableMovieId) throw new Error(`Homepage promo order differs at position ${index + 1}`);
+  const code = promoHtml.match(/<p class="promo-video-card__code"[^>]*>([^<]+)<\/p>/)?.[1];
+  if (code !== expected.catalogCode) throw new Error(`Homepage promo catalog code differs for ${stableMovieId}`);
+  const title = promoHtml.match(/<h3[^>]*><a[^>]*>([^<]+)<\/a><\/h3>/)?.[1];
+  if (title !== expected.title) throw new Error(`Homepage promo title differs for ${stableMovieId}`);
+  const links = [...promoHtml.matchAll(/href="([^"]+)"/g)].map((match) => match[1]);
+  if (links.length !== 2 || links.some((href) => href !== expected.href || !href.startsWith('/works/'))) {
+    throw new Error(`Homepage promo links disagree for ${stableMovieId}`);
+  }
+  const videoTag = promoHtml.match(/<video\b[^>]*data-promo-video[^>]*>/)?.[0] ?? '';
+  if (!videoTag || !videoTag.includes(`data-src="${expected.videoUrl}"`)) throw new Error(`Homepage promo video URL differs for ${stableMovieId}`);
+  if (/(?:^|\s)src=/u.test(videoTag) || /<source\b[^>]*\ssrc=/u.test(promoHtml)) {
+    throw new Error(`Homepage promo eagerly exposes a video source for ${stableMovieId}`);
+  }
+  if (!videoTag.includes('controls') || !videoTag.includes('playsinline') || !videoTag.includes('preload="none"')) {
+    throw new Error(`Homepage promo video playback contract is incomplete for ${stableMovieId}`);
+  }
+  if (!videoTag.includes('tabindex="0"')) throw new Error(`Homepage promo video is not keyboard focusable for ${stableMovieId}`);
+  if (!promoHtml.includes('data-promo-error role="status" tabindex="-1"')) {
+    throw new Error(`Homepage promo error target is not programmatically focusable for ${stableMovieId}`);
+  }
+  const posterTag = promoHtml.match(/<img\b[^>]*data-promo-poster[^>]*>/)?.[0] ?? '';
+  if (!posterTag.includes(`src="${expected.posterUrl}"`) || !posterTag.includes('loading="lazy"') || !posterTag.includes('decoding="async"')) {
+    throw new Error(`Homepage promo poster projection differs for ${stableMovieId}`);
+  }
+  if (!promoHtml.includes('播放9秒選片短影音') || !promoHtml.includes('查看作品資料與影評 →')) {
+    throw new Error(`Homepage promo controls or CTA are missing for ${stableMovieId}`);
   }
 }
 for (const {stableMovieId, html: cardHtml} of renderedCards) {
@@ -207,8 +250,18 @@ if ((homeHtml.match(/\[data-cover-fallback\]/g) ?? []).length !== 1) throw new E
 if (homeHtml.includes('待補') || homeHtml.includes('演員資料待補')) throw new Error('Missing-value placeholder leaked into homepage');
 if (homeHtml.includes('/reviews/')) throw new Error('Legacy review URL leaked into homepage');
 if (!homeHtml.includes('依本站收錄時間排序；卡片日期為作品發行日。')) throw new Error('Homepage date semantics are unclear');
+if (!homeHtml.includes('9-SECOND PICKS') || !homeHtml.includes('<h2>9秒看重點</h2>')) throw new Error('Homepage promo heading is missing');
+if (!homeHtml.includes('9秒選片短影音為本站原創編輯視覺，不是官方預告、原片摘要或觀看證據。')) throw new Error('Homepage promo disclosure is missing');
+if (promoSection.includes('cc18.tv') || promoSection.includes('Evidence')) throw new Error('Homepage promo leaked source CTA or Evidence text');
+if (/"@type":"VideoObject"/u.test(homeHtml) || /property="og:video"/u.test(homeHtml)) throw new Error('Homepage promo must not add video metadata');
+const moduleScripts = [...homeHtml.matchAll(/<script\b[^>]*\bsrc="([^"]+)"[^>]*><\/script>/g)].map((match) => match[1]);
+if (new Set(moduleScripts).size !== moduleScripts.length) throw new Error('Homepage emits a duplicate component controller script');
+if ((homeHtml.match(/\[data-promo-picks\]/g) ?? []).length !== 1) throw new Error('Homepage promo controller must be emitted exactly once');
+if ((homeHtml.match(/promoPosterFallback/g) ?? []).length !== 1) throw new Error('Homepage promo poster fallback handler must be emitted exactly once');
+if ((homeHtml.match(/\.complete&&[^;]*\.naturalWidth===0/g) ?? []).length !== 1) throw new Error('Homepage promo controller must recover an already-failed poster');
+if ((homeHtml.match(/\.focus\(\{preventScroll:!0\}\)/g) ?? []).length < 2) throw new Error('Homepage promo controller must transfer focus on playback and failure');
 
-console.log(`Movie Master surfaces valid: ${renderedCards.length} preview cards, ${homeCards.length} homepage cards, ${latestCards.length} Latest cards and work pages, ${expectedExcluded.length} dynamic exclusions, redirects, structured data, noindex and sitemap contracts passed.`);
+console.log(`Movie Master surfaces valid: ${renderedCards.length} preview cards, ${homeCards.length} homepage cards, ${promoCards.length} homepage promo cards, ${latestCards.length} Latest cards and work pages, ${expectedExcluded.length} dynamic exclusions, redirects, structured data, noindex and sitemap contracts passed.`);
 }
 
 if (process.argv[1] && pathToFileURL(resolve(process.argv[1])).href === import.meta.url) {

@@ -3,7 +3,9 @@ import assert from 'node:assert/strict';
 import {access, readFile} from 'node:fs/promises';
 import {
   loadLatestAddedMovieCardCatalog,
+  loadLatestAddedPromoCatalog,
   loadPublishedMovieCardCatalog,
+  projectLatestAddedPromoRecords,
   sortLatestAddedMovieCardRecords,
 } from '../src/lib/movie-master.mjs';
 import {
@@ -13,6 +15,38 @@ import {
 import {normalizeWorkSlug, resolveInternalWorkHref, workCanonicalUrl, workPath} from '../src/lib/work-url.mjs';
 
 const readJson = async (path) => JSON.parse(await readFile(new URL(`../${path}`, import.meta.url), 'utf8'));
+
+const promoRecord = ({
+  catalogCode = 'TEST-001',
+  publishedAt = '2026-08-29',
+  ref = `data/media-manifests/${catalogCode}.json#/video`,
+  stableMovieId = `cc18:${catalogCode}`,
+} = {}) => ({
+  published_at: publishedAt,
+  remotion_promo_ref: ref,
+  card: {
+    stable_movie_id: stableMovieId,
+    catalog_code: catalogCode,
+    title: `${catalogCode} short title`,
+    href: `/works/${catalogCode.toLowerCase()}/`,
+  },
+});
+
+const promoManifest = (id = 'TEST-001') => ({
+  id,
+  assets: [
+    {role: 'article_hero', path: `/media/works/2026/08/${id}/hero.jpg`},
+    {role: 'vertical_scene', path: `/media/works/2026/08/${id}/vertical.jpg`},
+  ],
+  video: {
+    status: 'rendered_and_uploaded',
+    duration_seconds: 9,
+    width: 1080,
+    height: 1920,
+    codec: 'h264',
+    public_path: `/media/works/2026/08/${id}/vertical.mp4`,
+  },
+});
 
 test('published Movie Master card catalog follows index publication and exclusion counts', async () => {
   const catalog = await loadPublishedMovieCardCatalog();
@@ -196,6 +230,106 @@ test('latest_added fails instead of falling back when a published date is missin
   }
 });
 
+test('promo catalog uses the latest-added public projection without hard-coded work IDs', async () => {
+  const [promoCatalog, latestAdded] = await Promise.all([
+    loadLatestAddedPromoCatalog({limit: 3}),
+    loadLatestAddedMovieCardCatalog(),
+  ]);
+  const expectedIds = latestAdded.cards
+    .filter(({has_remotion_promo: hasPromo}) => hasPromo)
+    .slice(0, 3)
+    .map(({stable_movie_id: stableMovieId}) => stableMovieId);
+  assert.deepEqual(promoCatalog.cards.map(({stableMovieId}) => stableMovieId), expectedIds);
+  assert.equal(new Set(promoCatalog.cards.map(({stableMovieId}) => stableMovieId)).size, promoCatalog.cards.length);
+  assert.ok(promoCatalog.cards.every(({href}) => /^\/works\/[a-z0-9-]+\/$/u.test(href)));
+  assert.ok(promoCatalog.cards.every(({durationSeconds}) => durationSeconds === 9));
+});
+
+test('promo selection skips missing refs and automatically admits a newer qualified record', async () => {
+  const older = promoRecord({catalogCode: 'OLDER-001', publishedAt: '2026-08-20'});
+  const newerWithoutRef = promoRecord({catalogCode: 'SKIP-001', publishedAt: '2026-08-22', ref: null});
+  const newest = promoRecord({catalogCode: 'NEWER-001', publishedAt: '2026-08-23'});
+  const loadManifest = async (path) => promoManifest(path.match(/([A-Z0-9-]+)\.json/u)?.[1]);
+  const cards = await projectLatestAddedPromoRecords([older, newerWithoutRef, newest], {limit: 2, loadManifest});
+  assert.deepEqual(cards.map(({catalogCode}) => catalogCode), ['NEWER-001', 'OLDER-001']);
+});
+
+test('promo projection fails closed for unreadable or malformed Media Manifests', async () => {
+  const record = promoRecord();
+  await assert.rejects(
+    projectLatestAddedPromoRecords([record], {limit: 1, loadManifest: async () => { throw new Error('ENOENT'); }}),
+    /cannot read Media Manifest.*ENOENT/,
+  );
+  await assert.rejects(
+    projectLatestAddedPromoRecords([record], {limit: 1, loadManifest: async () => { throw new SyntaxError('Unexpected token'); }}),
+    /cannot read Media Manifest.*Unexpected token/,
+  );
+});
+
+test('promo projection validates reference identity, stable IDs and every media contract', async () => {
+  const validRecord = promoRecord();
+  const invalidCases = [
+    ['ref format', promoRecord({ref: 'data/media-manifests/TEST-001.json'}), promoManifest(), /invalid remotion_promo_ref/],
+    ['ref ID', promoRecord({ref: 'data/media-manifests/OTHER-001.json#\/video'}), promoManifest(), /promo ref identifies OTHER-001/],
+    ['manifest ID', validRecord, promoManifest('OTHER-001'), /Media Manifest ID must equal TEST-001/],
+    ['stable ID', promoRecord({stableMovieId: 'cc18:OTHER-001'}), promoManifest(), /stable_movie_id and catalog_code contract disagree/],
+    ['status', validRecord, {...promoManifest(), video: {...promoManifest().video, status: 'rendered'}}, /not rendered_and_uploaded/],
+    ['duration', validRecord, {...promoManifest(), video: {...promoManifest().video, duration_seconds: 10}}, /duration must be 9 seconds/],
+    ['width', validRecord, {...promoManifest(), video: {...promoManifest().video, width: 720}}, /must be 1080x1920/],
+    ['height', validRecord, {...promoManifest(), video: {...promoManifest().video, height: 1080}}, /must be 1080x1920/],
+    ['codec', validRecord, {...promoManifest(), video: {...promoManifest().video, codec: 'vp9'}}, /codec must be h264/],
+    ['extension', validRecord, {...promoManifest(), video: {...promoManifest().video, public_path: '/media/works/test/video.webm'}}, /internal mp4 path/],
+    ['external video', validRecord, {...promoManifest(), video: {...promoManifest().video, public_path: 'https:\/\/example.com\/video.mp4'}}, /internal mp4 path/],
+    ['traversal video', validRecord, {...promoManifest(), video: {...promoManifest().video, public_path: '/media/works/..\/secret.mp4'}}, /internal mp4 path/],
+    ['cross-work video', validRecord, {...promoManifest(), video: {...promoManifest().video, public_path: '/media/works/2026/08/OTHER-001/vertical.mp4'}}, /identifies another work/],
+  ];
+  for (const [name, record, manifest, pattern] of invalidCases) {
+    await assert.rejects(
+      projectLatestAddedPromoRecords([record], {limit: 1, loadManifest: async () => manifest}),
+      pattern,
+      name,
+    );
+  }
+  await assert.rejects(
+    projectLatestAddedPromoRecords([validRecord, promoRecord({catalogCode: 'OTHER-001', stableMovieId: validRecord.card.stable_movie_id})], {
+      limit: 1,
+      loadManifest: async () => promoManifest(),
+    }),
+    /Duplicate promo stable_movie_id/,
+  );
+});
+
+test('promo poster prefers vertical_scene, falls back to original article hero and otherwise fails', async () => {
+  const record = promoRecord();
+  const vertical = await projectLatestAddedPromoRecords([record], {limit: 1, loadManifest: async () => promoManifest()});
+  assert.match(vertical[0].posterUrl, /vertical\.jpg$/u);
+
+  const heroOnly = promoManifest();
+  heroOnly.assets = heroOnly.assets.filter(({role}) => role === 'article_hero');
+  const hero = await projectLatestAddedPromoRecords([record], {limit: 1, loadManifest: async () => heroOnly});
+  assert.match(hero[0].posterUrl, /hero\.jpg$/u);
+
+  const noOriginalPoster = promoManifest();
+  noOriginalPoster.assets = [{role: 'source_cover', path: '/media/works/test/source.jpg'}];
+  await assert.rejects(
+    projectLatestAddedPromoRecords([record], {limit: 1, loadManifest: async () => noOriginalPoster}),
+    /requires an internal vertical_scene or article_hero image/,
+  );
+  const crossWorkPoster = promoManifest();
+  crossWorkPoster.assets = [{role: 'vertical_scene', path: '/media/works/2026/08/OTHER-001/vertical.jpg'}];
+  await assert.rejects(
+    projectLatestAddedPromoRecords([record], {limit: 1, loadManifest: async () => crossWorkPoster}),
+    /requires an internal vertical_scene or article_hero image/,
+  );
+});
+
+test('promo projection fails when qualified candidates cannot satisfy the requested limit', async () => {
+  await assert.rejects(
+    projectLatestAddedPromoRecords([promoRecord()], {limit: 2, loadManifest: async () => promoManifest()}),
+    /requires 2 qualified works; received 1/,
+  );
+});
+
 test('homepage keeps its Markdown featured Hero and shares latest_added with Latest', async () => {
   const [homePage, latestPage, latestAdded] = await Promise.all([
     readFile(new URL('../src/pages/index.astro', import.meta.url), 'utf8'),
@@ -221,6 +355,37 @@ test('homepage keeps its Markdown featured Hero and shares latest_added with Lat
   assert.doesNotMatch(homePage, /<ReviewCard|const latest = reviews\.slice|loadPublishedMovieCardCatalog/);
   assert.doesNotMatch(homePage, /<MovieCardV1 card=\{card\} priority=/);
   assert.match(latestPage, /<MovieCardV1 card=\{card\} priority=\{index < 3\}/);
+});
+
+test('homepage promo cards defer video loading and keep one reusable controller', async () => {
+  const [homePage, component] = await Promise.all([
+    readFile(new URL('../src/pages/index.astro', import.meta.url), 'utf8'),
+    readFile(new URL('../src/components/PromoVideoCard.astro', import.meta.url), 'utf8'),
+  ]);
+  assert.match(homePage, /loadLatestAddedPromoCatalog\(\{limit: 3\}\)/);
+  assert.match(homePage, /<section class="promo-picks" data-promo-picks>/);
+  assert.match(homePage, /9秒選片短影音為本站原創編輯視覺，不是官方預告、原片摘要或觀看證據。/);
+  assert.ok(homePage.indexOf('class="promo-picks"') > homePage.indexOf('class="reel-section"'));
+  assert.ok(homePage.indexOf('class="promo-picks"') < homePage.indexOf('class="explore-grid"'));
+  assert.equal((component.match(/<script>/g) ?? []).length, 1);
+  assert.match(component, /data-src=\{videoUrl\}/);
+  assert.match(component, /controls\s+playsinline\s+preload="none"/);
+  assert.match(component, /tabindex="0"/);
+  assert.doesNotMatch(component, /tabindex="[1-9]\d*"/);
+  assert.doesNotMatch(component, /<video[^>]*\s(?:src|autoplay|loop|muted)=/);
+  assert.match(component, /video\.focus\(\{preventScroll: true\}\);\s*video\.play\(\)/);
+  assert.match(component, /video\.play\(\)\.catch/);
+  assert.match(component, /video !== active && !video\.paused/);
+  assert.match(component, /短影音暫時無法播放/);
+  assert.match(component, /data-promo-error role="status" tabindex="-1"/);
+  assert.match(component, /message\.focus\(\{preventScroll: true\}\)/);
+  assert.match(component, /promo-video-card__cta'\)\?\.focus\(\{preventScroll: true\}\)/);
+  assert.equal((component.match(/const applyPosterFallback =/g) ?? []).length, 1);
+  assert.match(component, /applyPosterFallback\(target\)/);
+  assert.match(component, /poster\.complete && poster\.naturalWidth === 0/);
+  assert.match(component, /applyPosterFallback\(poster\)/);
+  assert.match(component, /fallbackApplied === 'true'/);
+  assert.doesNotMatch(component, /cc18\.tv|Evidence/);
 });
 
 test('fallback behavior belongs to MovieCardV1 rather than the preview page', async () => {

@@ -2,14 +2,16 @@
 import {getCollection} from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import MovieCardV1 from '../components/MovieCardV1.astro';
+import PromoVideoCard from '../components/PromoVideoCard.astro';
 import TagList from '../components/TagList.astro';
 import {byNewest, formatDate, reviewHref, reviewTagIds, visibleTags} from '../lib/reviews';
-import {loadLatestAddedMovieCardCatalog} from '../lib/movie-master.mjs';
+import {loadLatestAddedMovieCardCatalog, loadLatestAddedPromoCatalog} from '../lib/movie-master.mjs';
 import {tagItems} from '../lib/taxonomy';
 
 const reviews = (await getCollection('reviews', ({data}) => data.status === 'published')).sort(byNewest);
 const featured = reviews.find(({data}) => data.featured) ?? reviews[0];
 const catalog = await loadLatestAddedMovieCardCatalog();
+const promoCatalog = await loadLatestAddedPromoCatalog({limit: 3});
 const tagIds = [...new Set(reviews.flatMap(reviewTagIds))].slice(0, 12);
 const tags = tagItems(tagIds);
 ---
@@ -54,6 +56,16 @@ const tags = tagItems(tagIds);
     </div>
     <div class="card-grid" role="list">
       {catalog.cards.map((card) => <div role="listitem"><MovieCardV1 card={card} /></div>)}
+    </div>
+  </section>
+
+  <section class="promo-picks" data-promo-picks>
+    <div class="section-heading promo-picks__heading">
+      <div><p class="eyebrow">9-SECOND PICKS</p><h2>9秒看重點</h2></div>
+      <p>9秒選片短影音為本站原創編輯視覺，不是官方預告、原片摘要或觀看證據。</p>
+    </div>
+    <div class="promo-picks__grid" role="list">
+      {promoCatalog.cards.map((card) => <div role="listitem"><PromoVideoCard {...card} /></div>)}
     </div>
   </section>
 

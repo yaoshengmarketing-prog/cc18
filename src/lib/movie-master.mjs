@@ -5,6 +5,9 @@ import {resolveInternalWorkHref} from './work-url.mjs';
 const root = resolve(process.cwd());
 const readJson = async (path) => JSON.parse(await readFile(resolve(root, path), 'utf8'));
 const clean = (value) => typeof value === 'string' && value.trim() ? value.trim() : null;
+const promoRefPattern = /^data\/media-manifests\/([A-Z0-9-]+)\.json#\/video$/u;
+const internalVideoPattern = /^\/media\/works\/\d{4}\/\d{2}\/[A-Z0-9-]+\/[A-Z0-9._-]+\.mp4$/iu;
+const internalImagePattern = /^\/media\/works\/\d{4}\/\d{2}\/[A-Z0-9-]+\/[A-Z0-9._-]+\.(?:avif|jpe?g|png|webp)$/iu;
 const isValidDate = (value) => {
   if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/u.test(value)) return false;
   const [year, month, day] = value.split('-').map(Number);
@@ -64,6 +67,7 @@ const loadPublishedMovieCardRecords = async () => {
 
     records.push({
       published_at: master.publishing?.published_at ?? null,
+      remotion_promo_ref: clean(master.media?.remotion_promo_ref),
       card: {
         stable_movie_id: String(master.stable_movie_id),
         source_cover: String(master.source.source_cover),
@@ -89,6 +93,91 @@ const loadPublishedMovieCardRecords = async () => {
     },
   };
 };
+
+const promoError = (record, message) => new Error(`${record.card?.catalog_code ?? 'Published work'}: ${message}`);
+
+export const parseRemotionPromoRef = (record) => {
+  const ref = clean(record.remotion_promo_ref);
+  if (!ref) return null;
+  const match = ref.match(promoRefPattern);
+  if (!match) throw promoError(record, `invalid remotion_promo_ref ${ref}`);
+  if (match[1] !== record.card.catalog_code) {
+    throw promoError(record, `promo ref identifies ${match[1]}`);
+  }
+  return {manifestPath: ref.slice(0, ref.indexOf('#')), manifestId: match[1]};
+};
+
+const assertPromoRecordIds = (records) => {
+  const seen = new Map();
+  for (const record of records) {
+    const stableMovieId = clean(record.card?.stable_movie_id);
+    const catalogCode = clean(record.card?.catalog_code) ?? 'unknown catalog';
+    if (!stableMovieId) throw promoError(record, 'stable_movie_id must be a non-empty string');
+    if (seen.has(stableMovieId)) {
+      throw new Error(`Duplicate promo stable_movie_id ${stableMovieId}: ${seen.get(stableMovieId)} and ${catalogCode}`);
+    }
+    seen.set(stableMovieId, catalogCode);
+  }
+};
+
+export const projectPromoRecord = (record, manifest, manifestId) => {
+  const {card} = record;
+  if (manifest?.id !== manifestId || manifestId !== card.catalog_code) {
+    throw promoError(record, `Media Manifest ID must equal ${card.catalog_code}`);
+  }
+  if (card.stable_movie_id !== `cc18:${card.catalog_code}`) {
+    throw promoError(record, 'stable_movie_id and catalog_code contract disagree');
+  }
+
+  const video = manifest.video;
+  if (video?.status !== 'rendered_and_uploaded') throw promoError(record, 'promo video is not rendered_and_uploaded');
+  if (video.duration_seconds !== 9) throw promoError(record, 'promo video duration must be 9 seconds');
+  if (video.width !== 1080 || video.height !== 1920) throw promoError(record, 'promo video must be 1080x1920');
+  if (String(video.codec ?? '').toLowerCase() !== 'h264') throw promoError(record, 'promo video codec must be h264');
+  if (!internalVideoPattern.test(video.public_path ?? '')) throw promoError(record, 'promo video public_path must be an internal mp4 path');
+  if (!video.public_path.includes(`/${card.catalog_code}/`)) throw promoError(record, 'promo video public_path identifies another work');
+
+  const assets = Array.isArray(manifest.assets) ? manifest.assets : [];
+  const poster = ['vertical_scene', 'article_hero']
+    .map((role) => assets.find((asset) => (
+      asset?.role === role
+      && internalImagePattern.test(asset.path ?? '')
+      && asset.path.includes(`/${card.catalog_code}/`)
+    )))
+    .find(Boolean);
+  if (!poster) throw promoError(record, 'promo poster requires an internal vertical_scene or article_hero image');
+
+  return {
+    stableMovieId: card.stable_movie_id,
+    catalogCode: card.catalog_code,
+    title: card.title,
+    href: card.href,
+    videoUrl: video.public_path,
+    posterUrl: poster.path,
+    durationSeconds: video.duration_seconds,
+  };
+};
+
+export async function projectLatestAddedPromoRecords(records, {limit = 3, loadManifest = readJson} = {}) {
+  if (!Number.isInteger(limit) || limit < 1) throw new Error('Promo catalog limit must be a positive integer');
+  assertPromoRecordIds(records);
+  const promos = [];
+  for (const record of sortLatestAddedMovieCardRecords(records)) {
+    const parsed = parseRemotionPromoRef(record);
+    if (!parsed) continue;
+    let manifest;
+    try {
+      manifest = await loadManifest(parsed.manifestPath);
+    } catch (error) {
+      throw promoError(record, `cannot read Media Manifest ${parsed.manifestPath}: ${error.message}`);
+    }
+    promos.push(projectPromoRecord(record, manifest, parsed.manifestId));
+  }
+  if (promos.length < limit) {
+    throw new Error(`Promo catalog requires ${limit} qualified works; received ${promos.length}`);
+  }
+  return promos.slice(0, limit);
+}
 
 export const sortLatestAddedMovieCardRecords = (records) => {
   for (const {card, published_at: publishedAt} of records) {
@@ -118,5 +207,12 @@ export async function loadLatestAddedMovieCardCatalog() {
   const catalog = await loadPublishedMovieCardRecords();
   const {records, ...metadata} = catalog;
   const cards = sortLatestAddedMovieCardRecords(records).map(({card}) => card);
+  return {...metadata, cards};
+}
+
+export async function loadLatestAddedPromoCatalog({limit = 3} = {}) {
+  const catalog = await loadPublishedMovieCardRecords();
+  const {records, ...metadata} = catalog;
+  const cards = await projectLatestAddedPromoRecords(records, {limit});
   return {...metadata, cards};
 }

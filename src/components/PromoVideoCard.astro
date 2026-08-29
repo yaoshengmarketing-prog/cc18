@@ -1,0 +1,269 @@
+---
+interface Props {
+  stableMovieId: string;
+  catalogCode: string;
+  title: string;
+  href: string;
+  videoUrl: string;
+  posterUrl: string;
+  durationSeconds: 9;
+}
+
+const {
+  stableMovieId,
+  catalogCode,
+  title,
+  href,
+  videoUrl,
+  posterUrl,
+  durationSeconds,
+} = Astro.props;
+---
+
+<article class="promo-video-card" data-promo-card data-movie-id={stableMovieId}>
+  <div class="promo-video-card__media">
+    <img
+      class="promo-video-card__poster"
+      src={posterUrl}
+      alt={`${catalogCode} 9秒選片短影音封面`}
+      loading="lazy"
+      decoding="async"
+      width="1080"
+      height="1920"
+      data-promo-poster
+      data-promo-poster-fallback="/images/movie-cover-fallback.svg"
+    />
+    <video
+      class="promo-video-card__video"
+      controls
+      playsinline
+      preload="none"
+      tabindex="0"
+      aria-label={`播放 ${catalogCode} 的${durationSeconds}秒選片短影音`}
+      data-promo-video
+      data-src={videoUrl}
+      hidden
+    ></video>
+    <button class="promo-video-card__launch" type="button" data-promo-launch>
+      <span aria-hidden="true">▶</span>
+      播放9秒選片短影音
+    </button>
+    <p class="promo-video-card__error" data-promo-error role="status" tabindex="-1" hidden>短影音暫時無法播放</p>
+  </div>
+  <div class="promo-video-card__body">
+    <p class="promo-video-card__code">{catalogCode}</p>
+    <h3><a href={href}>{title}</a></h3>
+    <a class="promo-video-card__cta" href={href}>查看作品資料與影評 →</a>
+  </div>
+</article>
+
+<script>
+  const applyPosterFallback = (poster: HTMLImageElement) => {
+    const fallback = poster.dataset.promoPosterFallback;
+    if (!fallback || poster.dataset.fallbackApplied === 'true') return;
+    poster.dataset.fallbackApplied = 'true';
+    poster.src = fallback;
+    poster.alt = `${poster.alt}（圖片暫時無法載入）`;
+  };
+
+  const failVideo = (card: HTMLElement) => {
+    if (card.dataset.promoFailed === 'true') return;
+    card.dataset.promoFailed = 'true';
+    const video = card.querySelector<HTMLVideoElement>('[data-promo-video]');
+    const poster = card.querySelector<HTMLImageElement>('[data-promo-poster]');
+    const launcher = card.querySelector<HTMLButtonElement>('[data-promo-launch]');
+    const message = card.querySelector<HTMLElement>('[data-promo-error]');
+    if (video) {
+      video.pause();
+      video.hidden = true;
+      video.removeAttribute('src');
+    }
+    if (poster) poster.hidden = false;
+    if (launcher) {
+      launcher.hidden = true;
+      launcher.disabled = true;
+    }
+    if (message) {
+      message.hidden = false;
+      message.focus({preventScroll: true});
+    } else {
+      card.querySelector<HTMLAnchorElement>('.promo-video-card__cta')?.focus({preventScroll: true});
+    }
+  };
+
+  const module = document.querySelector<HTMLElement>('[data-promo-picks]');
+  if (module && module.dataset.promoControllerReady !== 'true') {
+    module.dataset.promoControllerReady = 'true';
+    module.addEventListener('error', (event) => {
+      const target = event.target;
+      if (target instanceof HTMLVideoElement && target.matches('[data-promo-video]')) {
+        const card = target.closest<HTMLElement>('[data-promo-card]');
+        if (card) failVideo(card);
+        return;
+      }
+      if (target instanceof HTMLImageElement && target.matches('[data-promo-poster]')) {
+        applyPosterFallback(target);
+      }
+    }, true);
+
+    for (const poster of module.querySelectorAll<HTMLImageElement>('[data-promo-poster]')) {
+      if (poster.complete && poster.naturalWidth === 0) applyPosterFallback(poster);
+    }
+
+    module.addEventListener('click', (event) => {
+      const launcher = (event.target as Element | null)?.closest<HTMLButtonElement>('[data-promo-launch]');
+      if (!launcher) return;
+      const card = launcher.closest<HTMLElement>('[data-promo-card]');
+      const video = card?.querySelector<HTMLVideoElement>('[data-promo-video]');
+      const poster = card?.querySelector<HTMLImageElement>('[data-promo-poster]');
+      if (!card || !video || !poster || card.dataset.promoFailed === 'true') return;
+      const source = video.dataset.src;
+      if (!source) return failVideo(card);
+      if (!video.src) video.src = source;
+      video.hidden = false;
+      poster.hidden = true;
+      launcher.hidden = true;
+      video.focus({preventScroll: true});
+      video.play().catch(() => failVideo(card));
+    });
+
+    module.addEventListener('play', (event) => {
+      const active = event.target;
+      if (!(active instanceof HTMLVideoElement) || !active.matches('[data-promo-video]')) return;
+      for (const video of module.querySelectorAll<HTMLVideoElement>('[data-promo-video]')) {
+        if (video !== active && !video.paused) video.pause();
+      }
+    }, true);
+
+  }
+</script>
+
+<style>
+  :global(.promo-picks) {
+    width: var(--content);
+    margin: 0 auto 110px;
+  }
+  :global(.promo-picks__heading) { align-items: end; }
+  :global(.promo-picks__heading > p) { max-width: 570px; }
+  :global(.promo-picks__grid) {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-items: center;
+    gap: 24px;
+    max-width: 1038px;
+    margin: 0 auto;
+  }
+  :global(.promo-picks__grid > [role='listitem']) {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 0;
+  }
+  .promo-video-card {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    width: 100%;
+    max-width: 330px;
+    min-width: 0;
+    height: 100%;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid rgba(17, 17, 19, .15);
+    box-shadow: 0 10px 28px rgba(17, 17, 19, .08);
+    transition: translate .2s ease, box-shadow .2s ease, border-color .2s ease;
+  }
+  .promo-video-card:hover,
+  .promo-video-card:focus-within {
+    translate: 0 -4px;
+    border-color: #ff4d98;
+    box-shadow: 0 17px 40px rgba(17, 17, 19, .14);
+  }
+  .promo-video-card__media {
+    position: relative;
+    aspect-ratio: 9 / 16;
+    overflow: hidden;
+    background: #17181b;
+  }
+  .promo-video-card__poster,
+  .promo-video-card__video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .promo-video-card__video[hidden],
+  .promo-video-card__poster[hidden] { display: none; }
+  .promo-video-card__launch {
+    position: absolute;
+    left: 50%;
+    bottom: 18px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    width: max-content;
+    max-width: calc(100% - 28px);
+    padding: 11px 14px;
+    translate: -50% 0;
+    color: #fff;
+    background: rgba(17, 17, 19, .9);
+    border: 1px solid rgba(255, 255, 255, .55);
+    font: 700 12px/1.25 'Noto Sans TC', sans-serif;
+    cursor: pointer;
+  }
+  .promo-video-card__launch:hover { background: #e62679; }
+  .promo-video-card__launch:focus-visible,
+  .promo-video-card a:focus-visible {
+    outline: 3px solid #ff4d98;
+    outline-offset: 3px;
+  }
+  .promo-video-card__error {
+    position: absolute;
+    inset: auto 12px 12px;
+    margin: 0;
+    padding: 9px 10px;
+    color: #fff;
+    background: rgba(17, 17, 19, .9);
+    text-align: center;
+    font: 700 12px/1.4 'Noto Sans TC', sans-serif;
+  }
+  .promo-video-card__body {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 17px 18px 19px;
+  }
+  .promo-video-card__code {
+    margin: 0;
+    color: #e62679;
+    font: 700 11px/1.2 'IBM Plex Mono', monospace;
+    letter-spacing: .08em;
+  }
+  h3 {
+    display: -webkit-box;
+    min-height: 3.2em;
+    margin: 10px 0 18px;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font: 800 18px/1.6 'Noto Sans TC', sans-serif;
+  }
+  h3 a:hover { color: #d8206d; }
+  .promo-video-card__cta {
+    align-self: flex-start;
+    margin-top: auto;
+    color: #17181b;
+    border-bottom: 1px solid #e62679;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  @media (max-width: 700px) {
+    :global(.promo-picks) { margin-bottom: 72px; }
+    :global(.promo-picks__grid) { grid-template-columns: minmax(0, 1fr); }
+    .promo-video-card { max-width: 340px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .promo-video-card { transition: none; }
+    .promo-video-card:hover,
+    .promo-video-card:focus-within { translate: none; }
+  }
+</style>
