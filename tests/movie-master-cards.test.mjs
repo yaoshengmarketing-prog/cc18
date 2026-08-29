@@ -1,7 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {readFile} from 'node:fs/promises';
-import {loadPublishedMovieCardCatalog, resolveInternalReviewHref} from '../src/lib/movie-master.mjs';
+import {access, readFile} from 'node:fs/promises';
+import {loadPublishedMovieCardCatalog} from '../src/lib/movie-master.mjs';
+import {normalizeWorkSlug, resolveInternalWorkHref, workCanonicalUrl, workPath} from '../src/lib/work-url.mjs';
 
 const readJson = async (path) => JSON.parse(await readFile(new URL(`../${path}`, import.meta.url), 'utf8'));
 
@@ -34,17 +35,39 @@ test('basic cards expose only qualified Movie Master projections', async () => {
     const master = mastersById.get(card.stable_movie_id);
     assert.ok(master);
     assert.equal(card.href, new URL(master.publishing.canonical_url).pathname);
-    assert.equal(card.href, `/reviews/${master.slug}/`);
-    assert.match(card.href, /^\/reviews\/[a-z0-9-]+\/$/);
+    assert.equal(card.href, workPath(master.slug));
+    assert.match(card.href, /^\/works\/[a-z0-9-]+\/$/);
     assert.ok(card.canonical_topics.length <= 2);
     assert.ok(!JSON.stringify(card).includes('待補'));
   }
 });
 
-test('review href resolution treats slug and catalog code as independent fields', () => {
-  const canonicalUrl = 'https://cc18.pages.dev/reviews/editorial-slug/';
-  assert.equal(resolveInternalReviewHref(canonicalUrl, 'editorial-slug'), '/reviews/editorial-slug/');
-  assert.equal(resolveInternalReviewHref(canonicalUrl, 'catalog-999'), null);
+test('work URL helper normalizes IDs deterministically and preserves the trailing-slash contract', () => {
+  assert.equal(normalizeWorkSlug(' SNOS-345 '), 'snos-345');
+  assert.equal(normalizeWorkSlug('ＳＮＯＳ－３４５'), 'snos-345');
+  assert.equal(workPath('SNOS-345'), '/works/snos-345/');
+  assert.equal(workPath('SNOS-345'), workPath('snos-345'));
+  assert.equal(workCanonicalUrl('https://cc18.pages.dev/base/', 'SNOS-345'), 'https://cc18.pages.dev/works/snos-345/');
+  assert.doesNotMatch(workPath('SNOS-345'), /\/reviews\//);
+  assert.throws(() => workPath('../SNOS-345'), /Invalid work slug or ID/);
+});
+
+test('work href resolution treats slug and catalog code as independent fields', () => {
+  const canonicalUrl = 'https://cc18.pages.dev/works/editorial-slug/';
+  assert.equal(resolveInternalWorkHref(canonicalUrl, 'editorial-slug'), '/works/editorial-slug/');
+  assert.equal(resolveInternalWorkHref(canonicalUrl, 'catalog-999'), null);
+});
+
+test('public work route replaces the review renderer and Cloudflare redirects are exact', async () => {
+  await access(new URL('../src/pages/works/[id].astro', import.meta.url));
+  await assert.rejects(access(new URL('../src/pages/reviews/[id].astro', import.meta.url)));
+  const [redirects, routes] = await Promise.all([
+    readFile(new URL('../public/_redirects', import.meta.url), 'utf8'),
+    readFile(new URL('../public/_routes.json', import.meta.url), 'utf8').then(JSON.parse),
+  ]);
+  assert.equal(redirects.replaceAll('\r\n', '\n'), '/reviews/:slug/ /works/:slug/ 301\n/reviews/:slug /works/:slug/ 301\n');
+  assert.doesNotMatch(redirects, /\/works\/:slug\/?\s+\/reviews\//);
+  assert.deepEqual(routes.include, ['/media/*']);
 });
 
 test('cards receive resolved performer display names without adopting unverified candidates', async () => {

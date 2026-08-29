@@ -1,12 +1,15 @@
 import type {CollectionEntry} from 'astro:content';
 import {buildTagChannels, editorialTagItems, tagItems, type TagItem} from './taxonomy';
+import {workPath} from './work-url.mjs';
 
 export type Review = CollectionEntry<'reviews'>;
 
 export const byNewest = (a: Review, b: Review) =>
   b.data.releaseDate.getTime() - a.data.releaseDate.getTime();
 
-export const reviewHref = (review: Review) => `/reviews/${review.data.id.toLowerCase()}/`;
+// Retain the established API name for Markdown-driven cards while delegating
+// the public URL contract to the shared work URL helper.
+export const reviewHref = (review: Review) => workPath(review.data.id);
 
 export const formatDate = (date: Date) =>
   new Intl.DateTimeFormat('zh-TW', {year: 'numeric', month: '2-digit', day: '2-digit'}).format(date);

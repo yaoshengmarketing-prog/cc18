@@ -17,7 +17,7 @@
     "original_japanese_title_is_primary_seo_title": false,
     "reverse_translate_missing_japanese_title": false,
     "unknown_original_or_translation_value": null,
-    "url_pattern": "/reviews/{catalog-number-lowercase}/",
+    "url_pattern": "/works/{catalog-number-lowercase}/",
     "title_changes_do_not_change_url": true
   },
   "source_precedence": [

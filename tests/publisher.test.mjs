@@ -21,10 +21,10 @@ test('publisher reads bounded frontmatter and release metadata', () => {
   assert.equal(releaseIdFromHtml(`<meta name="cc18-release-id" content="${releaseId}">`), releaseId);
 });
 
-test('live release requires the exact review hash and requested video', async () => {
+test('live release requires the exact review hash and requested video at the work URL', async () => {
   const fetchImpl = async () => new Response(`<meta name="cc18-release-id" content="${releaseId}"><video src="/media/work.mp4"></video>`);
-  assert.deepEqual(await verifyLiveRelease({fetchImpl, pageUrl: 'https://cc18.pages.dev/reviews/sdab-358/', releaseId, videoPath: '/media/work.mp4'}), {ready: true, reason: null});
-  const mismatch = await verifyLiveRelease({fetchImpl, pageUrl: 'https://cc18.pages.dev/reviews/sdab-358/', releaseId: 'b'.repeat(64), videoPath: '/media/work.mp4'});
+  assert.deepEqual(await verifyLiveRelease({fetchImpl, pageUrl: 'https://cc18.pages.dev/works/sdab-358/', releaseId, videoPath: '/media/work.mp4'}), {ready: true, reason: null});
+  const mismatch = await verifyLiveRelease({fetchImpl, pageUrl: 'https://cc18.pages.dev/works/sdab-358/', releaseId: 'b'.repeat(64), videoPath: '/media/work.mp4'});
   assert.equal(mismatch.ready, false);
   assert.equal(mismatch.reason, 'release_id_mismatch');
 });

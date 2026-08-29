@@ -3,6 +3,7 @@ import {execFileSync} from 'node:child_process';
 import {mkdir, readFile, readdir, writeFile} from 'node:fs/promises';
 import {basename, dirname, join, resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {workCanonicalUrl} from '../src/lib/work-url.mjs';
 
 const SCHEMA_VERSION = '1.1.0';
 const GENERATOR_VERSION = '1.1.0';
@@ -484,7 +485,7 @@ const buildAll = async () => {
       publishing: {
         is_published: isPublished,
         published_at: publishedAt,
-        canonical_url: isPublished ? `${SITE_URL}/reviews/${slug}/` : null,
+        canonical_url: isPublished ? workCanonicalUrl(SITE_URL, slug) : null,
         indexability: isPublished && !isDemo ? 'INDEX' : 'NOINDEX',
         content_hash: contentHash({articleTitle, seoTitle, shortReview, body}),
       },

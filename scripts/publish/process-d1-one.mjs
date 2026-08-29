@@ -5,6 +5,7 @@ import {readFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {spawn, spawnSync} from 'node:child_process';
 import {queueStoreFromEnvironment} from '../queue/store.mjs';
+import {workCanonicalUrl} from '../../src/lib/work-url.mjs';
 import {frontmatterValue, unexpectedPublishPaths, verifyLiveRelease, verifyPublicMedia} from './lib/publisher.mjs';
 
 const requestedMovieId = process.argv[2]?.trim().toUpperCase() ?? null;
@@ -98,13 +99,13 @@ try {
   let lastReason = 'not_checked';
   while (Date.now() <= deadline) {
     const check = await verifyLiveRelease({
-      pageUrl: new URL(`/reviews/${slug}/`, baseUrl),
+      pageUrl: workCanonicalUrl(baseUrl, slug),
       releaseId: quality.review_sha256,
       videoPath,
     });
     if (check.ready) {
       await store.finishJob({jobId: claimed.id, workerId, outcome: 'completed'});
-      console.log(JSON.stringify({movie_id: movieId, publish_job_id: claimed.id, status: 'completed', commit, release_id: quality.review_sha256, live_url: new URL(`/reviews/${slug}/`, baseUrl).href}, null, 2));
+      console.log(JSON.stringify({movie_id: movieId, publish_job_id: claimed.id, status: 'completed', commit, release_id: quality.review_sha256, live_url: workCanonicalUrl(baseUrl, slug)}, null, 2));
       process.exit(0);
     }
     lastReason = check.reason;

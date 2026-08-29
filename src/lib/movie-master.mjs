@@ -1,5 +1,6 @@
 import {readFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
+import {resolveInternalWorkHref} from './work-url.mjs';
 
 const root = resolve(process.cwd());
 const readJson = async (path) => JSON.parse(await readFile(resolve(root, path), 'utf8'));
@@ -13,18 +14,6 @@ const cardTitle = (master) => [
   master.source?.catalog_code,
 ].map(clean).find(Boolean) ?? null;
 
-export const resolveInternalReviewHref = (canonicalUrl, slug) => {
-  const normalizedSlug = clean(slug);
-  if (!normalizedSlug || !/^[a-z0-9-]+$/.test(normalizedSlug)) return null;
-  try {
-    const url = new URL(canonicalUrl);
-    const expectedPathname = `/reviews/${normalizedSlug}/`;
-    return url.pathname === expectedPathname ? url.pathname : null;
-  } catch {
-    return null;
-  }
-};
-
 export async function loadPublishedMovieCardCatalog() {
   const [index, taxonomy] = await Promise.all([
     readJson('data/movie-master/index.json'),
@@ -37,7 +26,7 @@ export async function loadPublishedMovieCardCatalog() {
   for (const entry of index.entries ?? []) {
     const master = await readJson(entry.master_path);
     const title = cardTitle(master);
-    const href = resolveInternalReviewHref(master.publishing?.canonical_url, master.slug);
+    const href = resolveInternalWorkHref(master.publishing?.canonical_url, master.slug);
     const qualifies = Boolean(
       entry.is_published === true
       && master.publishing?.is_published === true

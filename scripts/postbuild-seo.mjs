@@ -1,5 +1,6 @@
 import {readdir, readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
+import {WORK_ROUTE_PREFIX} from '../src/lib/work-url.mjs';
 
 const root = resolve(import.meta.dirname, '..');
 const dist = resolve(root, 'dist');
@@ -36,9 +37,11 @@ for (const path of htmlFiles) {
   titles.set(title, canonical);
   if (descriptions.has(description)) throw new Error(`Duplicate meta description: ${description}`);
   descriptions.set(description, canonical);
-  if (canonical.includes('/reviews/')) {
+  const canonicalPathname = new URL(canonical).pathname;
+  if (canonicalPathname.startsWith('/reviews/')) throw new Error(`Legacy review canonical remains after work URL migration: ${canonical}`);
+  if (canonicalPathname.startsWith(WORK_ROUTE_PREFIX)) {
     for (const required of ['name="rating" content="adult"', 'BreadcrumbList', '"@type":"Article"']) {
-      if (!html.includes(required)) throw new Error(`Review SEO contract missing ${required}: ${canonical}`);
+      if (!html.includes(required)) throw new Error(`Work SEO contract missing ${required}: ${canonical}`);
     }
   }
 }
