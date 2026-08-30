@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {execFile} from 'node:child_process';
-import {access, mkdir, mkdtemp, readFile, rm, writeFile} from 'node:fs/promises';
+import {access, cp, mkdir, mkdtemp, readFile, rm, writeFile} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -22,6 +22,7 @@ import {
 } from '../scripts/validate-movie-master-preview.mjs';
 import {normalizeWorkSlug, resolveInternalWorkHref, workCanonicalUrl, workPath} from '../src/lib/work-url.mjs';
 import {resolveProjectRoot} from '../src/lib/project-root.mjs';
+import {firstPublishAuthorityPaths, selectMovieMasterReviewInputs} from '../scripts/build-movie-master.mjs';
 
 const readJson = async (path) => JSON.parse(await readFile(new URL(`../${path}`, import.meta.url), 'utf8'));
 const execFileAsync = promisify(execFile);
@@ -56,6 +57,107 @@ const promoManifest = (id = 'TEST-001') => ({
     codec: 'h264',
     public_path: `/media/works/2026/08/${id}/vertical.mp4`,
   },
+});
+
+test('Movie Master admits only one explicitly named untracked first-publish authority bundle', () => {
+  const selected = selectMovieMasterReviewInputs({
+    trackedPaths: ['content/reviews/OLD-001.md'],
+    untrackedPaths: ['content/reviews/NEW-001.md', 'content/reviews/DRAFT-002.md'],
+    includeWorkId: 'NEW-001',
+  });
+  assert.deepEqual(selected, ['content/reviews/NEW-001.md', 'content/reviews/OLD-001.md']);
+  const authority = firstPublishAuthorityPaths('NEW-001');
+  assert.ok(authority.has('content/reviews/NEW-001.md'));
+  assert.ok(authority.has('data/source-records/NEW-001.json'));
+  assert.ok(authority.has('data/media-manifests/NEW-001.json'));
+  assert.equal([...authority].some((path) => path.includes('DRAFT-002')), false);
+  assert.throws(
+    () => selectMovieMasterReviewInputs({trackedPaths: [], untrackedPaths: ['content/reviews/DRAFT-002.md'], includeWorkId: 'NEW-001'}),
+    /exact first-publish review input not found/,
+  );
+  assert.throws(() => firstPublishAuthorityPaths('../NEW-001'), /Invalid --include-work/);
+});
+
+test('one exact untracked work reaches Movie Master, public cards and Search before its first commit', async () => {
+  const fixture = await mkdtemp(join(tmpdir(), 'cc18-first-publish-'));
+  const projectRoot = fileURLToPath(new URL('..', import.meta.url));
+  try {
+    await execFileAsync('git', ['clone', '--quiet', '--no-hardlinks', projectRoot, fixture]);
+    await cp(
+      fileURLToPath(new URL('../scripts/build-movie-master.mjs', import.meta.url)),
+      join(fixture, 'scripts', 'build-movie-master.mjs'),
+    );
+    const registryPath = join(fixture, 'data', 'movie-registry.json');
+    const registry = JSON.parse(await readFile(registryPath, 'utf8'));
+    registry.records.push({
+      id: 'TEST-999', actress: [], release_date: '2026-08-31', source_url: 'https://cc18.tv/player.php?uuid=test999&cat=19',
+      source_site: 'cc18.tv', review_status: 'published', cover_status: 'remote_source', image_status: 'rendered',
+      video_status: 'pending', template: 'story', published_at: '2026-08-31',
+    });
+    await writeFile(registryPath, `${JSON.stringify(registry, null, 2)}\n`);
+    await writeFile(join(fixture, 'content', 'reviews', 'TEST-999.md'), `---
+id: TEST-999
+sourceTitle: "測試來源標題"
+title: "TEST-999｜首次發布閉環"
+displayShortTitle: "首次發布閉環"
+seoTitle: "TEST-999｜首次發布閉環"
+socialTitle: "TEST-999｜首次發布閉環"
+titleSignals:
+  - "首次發布"
+titleVersion: 1
+actress:
+  []
+releaseDate: 2026-08-31
+publishedAt: 2026-08-31
+studio: ""
+series: ""
+sourceUrl: https://cc18.tv/player.php?uuid=test999&cat=19
+sourceSite: cc18.tv
+coverUrl: https://cc18.tv/preview/test-999.jpg
+heroUrl: /media/works/2026/08/TEST-999/hero-v1.jpg
+shortReview: "用於隔離測試首次發布投影。"
+sourceTags:
+  []
+canonicalTagIds:
+  []
+editorialTagIds:
+  []
+status: published
+imageStatus: rendered
+videoStatus: pending
+featured: false
+---
+
+## 作品資料
+
+隔離測試內容。
+`);
+    await writeFile(join(fixture, 'content', 'reviews', 'DO-NOT-READ.md'), 'this unrelated draft must never be parsed\n');
+    await writeFile(join(fixture, 'data', 'source-records', 'TEST-999.json'), `${JSON.stringify({
+      id: 'TEST-999', title: '測試來源標題', original_title_ja: null, translated_title_zh_tw: null,
+      release_date: '2026-08-31', actress: [], studio: null, series: null, source_tags: [],
+      description: '隔離測試來源資料。', cover_source_url: 'https://cc18.tv/preview/test-999.jpg',
+      source_url: 'https://cc18.tv/player.php?uuid=test999&cat=19', source_site: 'cc18.tv',
+      fetched_at: '2026-08-31T00:00:00.000Z', source_relations: {performers: []},
+    }, null, 2)}\n`);
+    const before = JSON.parse(await readFile(join(fixture, 'data', 'movie-master', 'index.json'), 'utf8'));
+    await execFileAsync(process.execPath, ['scripts/build-movie-master.mjs', '--write', '--include-work=TEST-999'], {cwd: fixture});
+    await execFileAsync(process.execPath, ['scripts/build-search-index.mjs', '--write'], {cwd: fixture});
+    const [index, master, search] = await Promise.all([
+      readFile(join(fixture, 'data', 'movie-master', 'index.json'), 'utf8').then(JSON.parse),
+      readFile(join(fixture, 'data', 'movie-master', 'test-999.json'), 'utf8').then(JSON.parse),
+      readFile(join(fixture, 'data', 'search-index-v1.json'), 'utf8').then(JSON.parse),
+    ]);
+    assert.equal(index.published_count, before.published_count + 1);
+    assert.equal(master.stable_movie_id, 'cc18:TEST-999');
+    assert.equal(master.publishing.is_published, true);
+    assert.equal(master.media.remotion_promo_ref, null);
+    assert.equal(search.movies.find(({card}) => card.stable_movie_id === 'cc18:TEST-999')?.card.title, '首次發布閉環');
+    assert.equal(search.movies.find(({card}) => card.stable_movie_id === 'cc18:TEST-999')?.card.href, '/works/test-999/');
+    assert.equal(index.entries.some(({catalog_code}) => catalog_code === 'DO-NOT-READ'), false);
+  } finally {
+    await rm(fixture, {recursive: true, force: true});
+  }
 });
 
 test('published Movie Master card catalog follows index publication and exclusion counts', async () => {

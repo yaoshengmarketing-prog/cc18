@@ -14,6 +14,9 @@ export const allowedPublishPaths = (movieId) => {
     `data/image-briefs/${id}.json`,
     `data/editorial-briefs/${id}.json`,
     `data/editorial-usage/${id}.json`,
+    `data/movie-master/${slug}.json`,
+    'data/movie-master/index.json',
+    'data/search-index-v1.json',
     'data/tag-candidates.json',
     `video/examples/${slug}.json`,
   ]);
@@ -22,6 +25,23 @@ export const allowedPublishPaths = (movieId) => {
 export const unexpectedPublishPaths = (paths, movieId) => {
   const allowed = allowedPublishPaths(movieId);
   return [...new Set(paths.map(normalizePath))].filter((path) => !allowed.has(path)).sort();
+};
+
+export const selectPublishChanges = ({trackedPaths = [], untrackedPaths = [], movieId}) => {
+  const allowed = allowedPublishPaths(movieId);
+  const normalizedTracked = [...new Set(trackedPaths.map(normalizePath).filter(Boolean))];
+  const unexpectedTracked = normalizedTracked.filter((path) => !allowed.has(path)).sort();
+  if (unexpectedTracked.length) {
+    throw new Error(`Publisher refuses unrelated tracked changes: ${unexpectedTracked.join(', ')}`);
+  }
+  const selected = [...new Set([
+    ...normalizedTracked,
+    ...untrackedPaths.map(normalizePath).filter((path) => allowed.has(path)),
+  ])].sort();
+  return {
+    selected,
+    ignoredUntracked: [...new Set(untrackedPaths.map(normalizePath).filter((path) => path && !allowed.has(path)))].sort(),
+  };
 };
 
 export const frontmatterValue = (markdown, name) => {

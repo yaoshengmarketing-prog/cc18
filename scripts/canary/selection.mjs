@@ -11,3 +11,17 @@ export function registryDraftIds(registry) {
     .filter((record) => record.review_status === 'draft')
     .map((record) => record.id.toUpperCase()));
 }
+
+export function isNonBlockingVideoOutcome({stage, status}) {
+  return stage === 'video' && ['retry', 'failed'].includes(status);
+}
+
+export function classifyCanaryStageOutcome({stage, required, exitCode, job}) {
+  if (exitCode === 0 && job?.status === 'completed') {
+    return {continuePipeline: true, reportStatus: 'completed'};
+  }
+  if (!required && isNonBlockingVideoOutcome({stage, status: job?.status})) {
+    return {continuePipeline: true, reportStatus: `${job.status}_non_blocking`};
+  }
+  return {continuePipeline: false, reportStatus: job?.status ?? 'missing'};
+}

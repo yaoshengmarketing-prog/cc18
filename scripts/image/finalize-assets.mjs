@@ -2,6 +2,7 @@ import {createHash} from 'node:crypto';
 import {mkdir, readFile, writeFile} from 'node:fs/promises';
 import {basename, resolve} from 'node:path';
 import {putAndVerifyR2Object} from '../r2/object-store.mjs';
+import {refreshApprovedReviewHash} from './lib/approval-gate.mjs';
 
 const root = resolve(import.meta.dirname, '..', '..');
 const argument = (name) => process.argv.find((value) => value.startsWith(`--${name}=`))?.slice(name.length + 3);
@@ -86,7 +87,13 @@ review = /^heroUrl:/m.test(review)
 review = /^imageStatus:/m.test(review)
   ? review.replace(/^imageStatus:.*$/m, 'imageStatus: rendered')
   : review.replace(/^(videoStatus:.*)$/m, 'imageStatus: rendered\n$1');
-await writeFile(reviewPath, review);
+const qualityPath = resolve(root, `data/review-quality/${movieId}.json`);
+const quality = JSON.parse(await readFile(qualityPath, 'utf8'));
+refreshApprovedReviewHash({movieId, markdown: review, quality});
+await Promise.all([
+  writeFile(reviewPath, review),
+  writeFile(qualityPath, `${JSON.stringify(quality, null, 2)}\n`),
+]);
 
 const registryPath = resolve(root, 'data/movie-registry.json');
 const registry = JSON.parse(await readFile(registryPath, 'utf8'));

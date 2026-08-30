@@ -1,5 +1,6 @@
 import {createHash} from 'node:crypto';
 import {execFileSync} from 'node:child_process';
+import {existsSync} from 'node:fs';
 import {mkdir, readFile, readdir, writeFile} from 'node:fs/promises';
 import {basename, dirname, join, resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -41,6 +42,39 @@ const untrackedReviewPaths = gitLines(['ls-files', '--others', '--exclude-standa
   .map((path) => path.replaceAll('\\', '/'))
   .filter((path) => path.endsWith('.md'))
   .sort();
+
+const canonicalIncludeWorkId = (value) => {
+  if (value == null) return null;
+  if (typeof value !== 'string' || !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/u.test(value)) {
+    fail(`Invalid --include-work value: ${value}`);
+  }
+  return value;
+};
+
+export const firstPublishAuthorityPaths = (movieId) => {
+  const id = canonicalIncludeWorkId(movieId);
+  return new Set([
+    `content/reviews/${id}.md`,
+    `data/source-records/${id}.json`,
+    `data/search-content/${id}.json`,
+    `data/editorial-briefs/${id}.json`,
+    `data/review-quality/${id}.json`,
+    `data/review-quality/${id}-automated.json`,
+    `data/media-manifests/${id}.json`,
+  ]);
+};
+
+export const selectMovieMasterReviewInputs = ({trackedPaths, untrackedPaths, includeWorkId = null}) => {
+  const selected = [...trackedPaths];
+  const id = canonicalIncludeWorkId(includeWorkId);
+  if (!id) return selected.sort();
+  const candidatePath = `content/reviews/${id}.md`;
+  if (!trackedPaths.includes(candidatePath) && !untrackedPaths.includes(candidatePath)) {
+    fail(`${id}: exact first-publish review input not found`);
+  }
+  if (!selected.includes(candidatePath)) selected.push(candidatePath);
+  return selected.sort();
+};
 
 const assertTracked = (repoPath, context) => {
   if (!trackedFiles.has(repoPath)) fail(`${context} is not tracked by Git: ${repoPath}`);
@@ -221,7 +255,7 @@ const findRemotionRef = (manifest, manifestPath) => {
   return `${manifestPath}#/video`;
 };
 
-const buildEvidenceRecord = async ({catalogCode, stableMovieId, trackedSearch}) => {
+const buildEvidenceRecord = async ({catalogCode, stableMovieId, trackedSearch, availableFiles, readJson}) => {
   const searchPath = `data/search-content/${catalogCode}.json`;
   const briefPath = `data/editorial-briefs/${catalogCode}.json`;
   const qualityPath = `data/review-quality/${catalogCode}.json`;
@@ -229,14 +263,14 @@ const buildEvidenceRecord = async ({catalogCode, stableMovieId, trackedSearch}) 
   const supportingRefs = [searchPath, briefPath, qualityPath, automatedQualityPath];
 
   // A Search Content file alone is ordinary editorial input. Evidence is
-  // upgraded only when the complete, Git-tracked distributed-sample bundle is
+  // upgraded only when the complete authority-approved distributed-sample bundle is
   // present and its cross-file invariants pass below.
-  if (!supportingRefs.every((path) => trackedFiles.has(path))) return [];
+  if (!supportingRefs.every((path) => availableFiles.has(path))) return [];
 
-  const search = trackedSearch ?? await readTrackedJson(searchPath, `${catalogCode} Search Content`);
-  const brief = await readTrackedJson(briefPath, `${catalogCode} Editorial Brief`);
-  const quality = await readTrackedJson(qualityPath, `${catalogCode} QA`);
-  const automatedQuality = await readTrackedJson(automatedQualityPath, `${catalogCode} automated QA`);
+  const search = trackedSearch ?? await readJson(searchPath, `${catalogCode} Search Content`);
+  const brief = await readJson(briefPath, `${catalogCode} Editorial Brief`);
+  const quality = await readJson(qualityPath, `${catalogCode} QA`);
+  const automatedQuality = await readJson(automatedQualityPath, `${catalogCode} automated QA`);
   const declaresDistributedSample = Boolean(
     cleanScalar(search.evidence_job_id)
     || cleanScalar(brief.video_analysis_job_id)
@@ -311,8 +345,24 @@ const assertNoEmptyStrings = (value, path = 'master') => {
   }
 };
 
-export const buildAll = async () => {
-  if (!trackedReviewPaths.length) fail('No Git-tracked review inputs found');
+export const buildAll = async ({includeWorkId = null} = {}) => {
+  const includedId = canonicalIncludeWorkId(includeWorkId);
+  const reviewPaths = selectMovieMasterReviewInputs({
+    trackedPaths: trackedReviewPaths,
+    untrackedPaths: untrackedReviewPaths,
+    includeWorkId: includedId,
+  });
+  if (!reviewPaths.length) fail('No review inputs found');
+  const includedPaths = includedId ? firstPublishAuthorityPaths(includedId) : new Set();
+  const availableFiles = new Set(trackedFiles);
+  for (const repoPath of includedPaths) {
+    if (existsSync(fromRepoPath(repoPath))) availableFiles.add(repoPath);
+  }
+  const readAuthorityText = async (repoPath, context) => {
+    if (!availableFiles.has(repoPath)) fail(`${context} is not an approved Movie Master input: ${repoPath}`);
+    return readFile(fromRepoPath(repoPath), 'utf8');
+  };
+  const readAuthorityJson = async (repoPath, context) => JSON.parse(await readAuthorityText(repoPath, context));
   assertTracked('data/movie-registry.json', 'Registry');
   assertTracked('data/taxonomy.json', 'Taxonomy');
   assertTracked(PERFORMER_LOCALIZATION_PATH, 'Performer localization');
@@ -326,8 +376,8 @@ export const buildAll = async () => {
   const sourceTagMap = taxonomy.source_tag_map ?? {};
   const masters = [];
 
-  for (const reviewPath of trackedReviewPaths) {
-    const markdown = await readTrackedText(reviewPath, 'Review input');
+  for (const reviewPath of reviewPaths) {
+    const markdown = await readAuthorityText(reviewPath, 'Review input');
     const {data: frontmatter, body} = parseFrontmatter(markdown, reviewPath);
     const catalogCode = normalizeCatalogCode(frontmatter.id ?? basename(reviewPath, '.md'));
     const expectedCatalogCode = normalizeCatalogCode(basename(reviewPath, '.md'));
@@ -338,9 +388,9 @@ export const buildAll = async () => {
     const sourceRecordPath = `data/source-records/${catalogCode}.json`;
     let source = null;
     if (isDemo) {
-      if (trackedFiles.has(sourceRecordPath)) source = await readTrackedJson(sourceRecordPath, `${catalogCode} Source Record`);
+      if (availableFiles.has(sourceRecordPath)) source = await readAuthorityJson(sourceRecordPath, `${catalogCode} Source Record`);
     } else {
-      source = await readTrackedJson(sourceRecordPath, `${catalogCode} Source Record`);
+      source = await readAuthorityJson(sourceRecordPath, `${catalogCode} Source Record`);
       if (normalizeCatalogCode(source.id) !== catalogCode) fail(`${catalogCode}: Source Record identity mismatch`);
     }
 
@@ -382,13 +432,19 @@ export const buildAll = async () => {
     })[tagId] ?? []));
 
     const searchPath = `data/search-content/${catalogCode}.json`;
-    const trackedSearch = trackedFiles.has(searchPath) ? await readTrackedJson(searchPath, `${catalogCode} Search Content`) : null;
-    const evidenceRecords = await buildEvidenceRecord({catalogCode, stableMovieId, trackedSearch});
+    const trackedSearch = availableFiles.has(searchPath) ? await readAuthorityJson(searchPath, `${catalogCode} Search Content`) : null;
+    const evidenceRecords = await buildEvidenceRecord({
+      catalogCode,
+      stableMovieId,
+      trackedSearch,
+      availableFiles,
+      readJson: readAuthorityJson,
+    });
     const evidenceLevel = isDemo ? 'UNKNOWN' : evidenceRecords.length ? 'DISTRIBUTED_SAMPLE' : 'PUBLIC_METADATA';
     const evidenceScope = isDemo ? 'UNKNOWN' : evidenceRecords.length ? 'DISTRIBUTED_VIDEO_SAMPLE' : 'SOURCE_TITLE_DESCRIPTION_TAGS';
 
     const manifestPath = `data/media-manifests/${catalogCode}.json`;
-    const manifest = trackedFiles.has(manifestPath) ? await readTrackedJson(manifestPath, `${catalogCode} Media Manifest`) : null;
+    const manifest = availableFiles.has(manifestPath) ? await readAuthorityJson(manifestPath, `${catalogCode} Media Manifest`) : null;
     const articleTitle = cleanScalar(frontmatter.title);
     const displayShortTitle = cleanScalar(frontmatter.displayShortTitle);
     const seoTitle = cleanScalar(frontmatter.seoTitle);
@@ -495,7 +551,10 @@ export const buildAll = async () => {
   duplicate((master) => master.slug, 'slug');
 
   masters.sort((left, right) => left.source.catalog_code.localeCompare(right.source.catalog_code, 'en'));
-  const excludedUntrackedContentIds = untrackedReviewPaths.map((path) => normalizeCatalogCode(basename(path, '.md'))).sort();
+  const excludedUntrackedContentIds = untrackedReviewPaths
+    .filter((path) => !reviewPaths.includes(path))
+    .map((path) => normalizeCatalogCode(basename(path, '.md')))
+    .sort();
   return {masters, excludedUntrackedContentIds};
 };
 
@@ -638,7 +697,7 @@ const checkOutputs = async (outputs) => {
 };
 
 const help = () => {
-  console.log(`Usage: node scripts/build-movie-master.mjs <mode>\n\nModes:\n  --write   Build or update tracked Movie Master JSON files\n  --check   Regenerate in memory and compare without writing\n  --report  Print a read-only summary without writing\n\nNo mode never writes files.`);
+  console.log(`Usage: node scripts/build-movie-master.mjs <mode> [--include-work=CATALOG-CODE]\n\nModes:\n  --write   Build or update Movie Master JSON files\n  --check   Regenerate in memory and compare without writing\n  --report  Print a read-only summary without writing\n\n--include-work admits only that exact work's first-publish authority files. No mode never writes files.`);
 };
 
 const main = async () => {
@@ -647,13 +706,18 @@ const main = async () => {
     help();
     return;
   }
-  if (!['--write', '--check', '--report'].includes(mode) || process.argv.length !== 3) {
+  const options = process.argv.slice(3);
+  const includeOptions = options.filter((value) => value.startsWith('--include-work='));
+  const includeWorkId = includeOptions[0]?.slice('--include-work='.length) ?? null;
+  if (!['--write', '--check', '--report'].includes(mode)
+    || options.some((value) => !value.startsWith('--include-work='))
+    || includeOptions.length > 1) {
     help();
     process.exitCode = 2;
     return;
   }
   try {
-    const result = await buildAll();
+    const result = await buildAll({includeWorkId});
     const summary = summaryFor(result);
     if (mode === '--report') {
       console.log(jsonText(summary).trimEnd());

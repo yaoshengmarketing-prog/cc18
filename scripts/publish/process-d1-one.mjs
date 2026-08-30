@@ -6,7 +6,7 @@ import {resolve} from 'node:path';
 import {spawn, spawnSync} from 'node:child_process';
 import {queueStoreFromEnvironment} from '../queue/store.mjs';
 import {workCanonicalUrl} from '../../src/lib/work-url.mjs';
-import {frontmatterValue, unexpectedPublishPaths, verifyLiveRelease, verifyPublicMedia} from './lib/publisher.mjs';
+import {frontmatterValue, selectPublishChanges, verifyLiveRelease, verifyPublicMedia} from './lib/publisher.mjs';
 
 const requestedMovieId = process.argv[2]?.trim().toUpperCase() ?? null;
 if (requestedMovieId && !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(requestedMovieId)) throw new Error('Usage: npm run publish:d1:process-one -- [MOVIE-ID]');
@@ -45,11 +45,13 @@ const capture = (args) => {
   if (result.status !== 0) throw Object.assign(new Error(result.stderr || `git ${args.join(' ')} failed`), {code: 'PUBLISH_GIT_FAILED'});
   return result.stdout.trim();
 };
-const changedPaths = () => [...new Set([
-  ...capture(['diff', '--name-only']).split(/\r?\n/),
-  ...capture(['diff', '--cached', '--name-only']).split(/\r?\n/),
-  ...capture(['ls-files', '--others', '--exclude-standard']).split(/\r?\n/),
-].filter(Boolean))];
+const changedPaths = () => ({
+  trackedPaths: [...new Set([
+    ...capture(['diff', '--name-only']).split(/\r?\n/),
+    ...capture(['diff', '--cached', '--name-only']).split(/\r?\n/),
+  ].filter(Boolean))],
+  untrackedPaths: capture(['ls-files', '--others', '--exclude-standard']).split(/\r?\n/).filter(Boolean),
+});
 const delay = (milliseconds) => new Promise((resolveDelay) => setTimeout(resolveDelay, milliseconds));
 const sha256 = (value) => createHash('sha256').update(value).digest('hex');
 
@@ -70,16 +72,23 @@ try {
   }
   await run(process.execPath, [resolve(root, 'scripts/validate-registry.mjs')]);
   await run(process.execPath, [resolve(root, 'scripts/validate-content.mjs')]);
+  await run(process.execPath, [resolve(root, 'scripts/build-movie-master.mjs'), '--write', `--include-work=${movieId}`]);
   await run(process.execPath, [resolve(root, 'scripts/astro-build.mjs')]);
+  await run(process.execPath, [resolve(root, 'scripts/build-movie-master.mjs'), '--check', `--include-work=${movieId}`]);
+  await run(process.execPath, [resolve(root, 'scripts/build-search-index.mjs'), '--check']);
 
   const heroPath = frontmatterValue(review, 'heroUrl');
   const videoPath = frontmatterValue(review, 'videoUrl');
   if (heroPath?.startsWith('/media/')) await verifyPublicMedia({baseUrl, path: heroPath, kind: 'image'});
   if (videoPath) await verifyPublicMedia({baseUrl, path: videoPath, kind: 'video'});
 
-  const changes = changedPaths();
-  const unexpected = unexpectedPublishPaths(changes, movieId);
-  if (unexpected.length) throw Object.assign(new Error(`Publisher refuses unrelated changes: ${unexpected.join(', ')}`), {code: 'PUBLISH_DIRTY_WORKTREE'});
+  let publicationChanges;
+  try {
+    publicationChanges = selectPublishChanges({...changedPaths(), movieId});
+  } catch (error) {
+    throw Object.assign(error, {code: 'PUBLISH_DIRTY_WORKTREE'});
+  }
+  const changes = publicationChanges.selected;
   const origin = capture(['remote', 'get-url', 'origin']);
   if (!/github\.com[/:]yaoshengmarketing-prog\/cc18(?:\.git)?$/i.test(origin)) {
     throw Object.assign(new Error(`Unexpected git origin: ${origin}`), {code: 'PUBLISH_GIT_FAILED'});

@@ -14,3 +14,11 @@ export function assertApprovedReviewForMedia({movieId, markdown, quality, regist
   }
   return reviewHash;
 }
+
+export function refreshApprovedReviewHash({movieId, markdown, quality}) {
+  if (quality?.id !== movieId || quality.approved_for_publish !== true) {
+    throw new Error(`${movieId}: cannot refresh an unapproved review hash`);
+  }
+  quality.review_sha256 = createHash('sha256').update(markdown).digest('hex');
+  return quality;
+}

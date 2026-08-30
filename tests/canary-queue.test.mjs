@@ -1,10 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {mkdtemp, rm} from 'node:fs/promises';
+import {mkdtemp, readFile, rm} from 'node:fs/promises';
 import {join} from 'node:path';
 import {tmpdir} from 'node:os';
 import {FileQueueStore} from '../scripts/queue/store.mjs';
-import {alreadyPublishedRequestedIds, registryDraftIds} from '../scripts/canary/selection.mjs';
+import {alreadyPublishedRequestedIds, classifyCanaryStageOutcome, isNonBlockingVideoOutcome, registryDraftIds} from '../scripts/canary/selection.mjs';
 
 test('explicit canary may promote a Registry draft but refuses a published record', () => {
   const registry = {records: [
@@ -14,6 +14,31 @@ test('explicit canary may promote a Registry draft but refuses a published recor
   assert.deepEqual(alreadyPublishedRequestedIds(registry, ['SNOS-409']), []);
   assert.deepEqual(alreadyPublishedRequestedIds(registry, ['SNOS-371']), ['SNOS-371']);
   assert.deepEqual([...registryDraftIds(registry)], ['SNOS-409']);
+});
+
+test('video retry or terminal failure does not block an approved article while required stages remain blocking', () => {
+  assert.equal(isNonBlockingVideoOutcome({stage: 'video', status: 'retry'}), true);
+  assert.equal(isNonBlockingVideoOutcome({stage: 'video', status: 'failed'}), true);
+  assert.equal(isNonBlockingVideoOutcome({stage: 'video', status: 'leased'}), false);
+  assert.equal(isNonBlockingVideoOutcome({stage: 'image', status: 'retry'}), false);
+  assert.deepEqual(classifyCanaryStageOutcome({
+    stage: 'video', required: false, exitCode: 1, job: {status: 'retry'},
+  }), {continuePipeline: true, reportStatus: 'retry_non_blocking'});
+  assert.deepEqual(classifyCanaryStageOutcome({
+    stage: 'publish', required: true, exitCode: 1, job: {status: 'retry'},
+  }), {continuePipeline: false, reportStatus: 'retry'});
+});
+
+test('single-work canary protects but is not blocked by unrelated pre-existing untracked drafts', async () => {
+  const source = await readFile(new URL('../scripts/canary/run.mjs', import.meta.url), 'utf8');
+  assert.match(source, /status', '--porcelain', '--untracked-files=no/u);
+  assert.match(source, /protectedUntrackedPaths/u);
+  assert.match(source, /assertProtectedUntrackedUnchanged/u);
+  assert.match(source, /protected pre-existing untracked artifact/u);
+  assert.match(source, /stage: 'video'[\s\S]*required: false/u);
+  assert.match(source, /stage: 'publish'[\s\S]*required: true/u);
+  assert.match(source, /classifyCanaryStageOutcome/u);
+  assert.doesNotMatch(source, /Canary requires a clean Git worktree/u);
 });
 
 test('repairs expired leases and selects only validated editorial candidates', async () => {

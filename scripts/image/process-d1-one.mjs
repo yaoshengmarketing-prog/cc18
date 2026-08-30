@@ -87,8 +87,18 @@ try {
   }
   await run('scripts/image/finalize-assets.mjs', [movieId, `--hero=${files.article_hero}`, `--vertical=${files.vertical_scene}`, `--provider=${config.provider}`, `--model=${config.model}`, `--task-ids=${taskIds.join(',')}`, `--version=${claimed.attempt}`]);
   await store.finishJob({jobId: claimed.id, workerId, outcome: 'completed'});
-  const videoJob = await store.enqueueJob({movieId, stage: 'video', priority: claimed.priority, discoveryRunId: claimed.discovery_run_id});
-  console.log(JSON.stringify({movie_id: movieId, image_job_id: claimed.id, status: 'completed', video_job_id: videoJob.id}, null, 2));
+  const [videoJob, publishJob] = await Promise.all([
+    store.enqueueJob({movieId, stage: 'video', priority: claimed.priority, discoveryRunId: claimed.discovery_run_id}),
+    store.enqueueJob({movieId, stage: 'publish', priority: claimed.priority, discoveryRunId: claimed.discovery_run_id}),
+  ]);
+  console.log(JSON.stringify({
+    movie_id: movieId,
+    image_job_id: claimed.id,
+    status: 'completed',
+    video_job_id: videoJob.id,
+    publish_job_id: publishJob.id,
+    publication_ready_without_video: true,
+  }, null, 2));
 } catch (error) {
   const outcome = claimed.attempt >= claimed.max_attempts ? 'failed' : 'retry';
   await store.finishJob({

@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {awaitImageTask, createImageTask, imageEndpoint, selectImageSpec} from '../scripts/image/lib/aitokenking-image.mjs';
 import {buildArtworkPrompts} from '../scripts/image/lib/artwork-prompt.mjs';
 import {createHash} from 'node:crypto';
-import {assertApprovedReviewForMedia} from '../scripts/image/lib/approval-gate.mjs';
+import {assertApprovedReviewForMedia, refreshApprovedReviewHash} from '../scripts/image/lib/approval-gate.mjs';
 import {readFile} from 'node:fs/promises';
 
 const config = {
@@ -85,6 +85,18 @@ test('image generation requires an approved review with an exact content hash', 
   assert.throws(() => assertApprovedReviewForMedia({movieId, markdown: markdown.replace('published', 'draft'), quality, registry}), /not approved/);
 });
 
+test('approved image frontmatter changes receive a deterministic publishable review hash', () => {
+  const movieId = 'TEST-001';
+  const markdown = '---\nid: TEST-001\nstatus: published\nheroUrl: /media/hero.jpg\nimageStatus: rendered\nvideoStatus: pending\n---\n\n內容\n';
+  const quality = {id: movieId, approved_for_publish: true, review_sha256: 'stale'};
+  const refreshed = refreshApprovedReviewHash({movieId, markdown, quality});
+  assert.equal(refreshed.review_sha256, createHash('sha256').update(markdown).digest('hex'));
+  assert.throws(
+    () => refreshApprovedReviewHash({movieId, markdown, quality: {...quality, approved_for_publish: false}}),
+    /unapproved/,
+  );
+});
+
 test('image worker verifies R2 before provider access or D1 claim', async () => {
   const source = await readFile(new URL('../scripts/image/process-d1-one.mjs', import.meta.url), 'utf8');
   const preflight = source.indexOf("await listR2Objects({bucket: config.r2_bucket, prefix: '.cc18-upload-preflight/'})");
@@ -95,4 +107,11 @@ test('image worker verifies R2 before provider access or D1 claim', async () => 
   assert.ok(preflight < providerDiscovery);
   assert.ok(preflight < d1Claim);
   assert.ok(preflight < paidGeneration);
+});
+
+test('completed images enqueue publication independently from the optional video job', async () => {
+  const source = await readFile(new URL('../scripts/image/process-d1-one.mjs', import.meta.url), 'utf8');
+  assert.match(source, /stage: 'video'/u);
+  assert.match(source, /stage: 'publish'/u);
+  assert.match(source, /publication_ready_without_video: true/u);
 });
