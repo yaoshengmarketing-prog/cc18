@@ -111,6 +111,7 @@ const homeCatalogCodes = homeCards.map(({html: cardHtml}) => (
   cardHtml.match(/<div class="movie-card-v1__identity"[^>]*><p[^>]*>([^<]+)<\/p>/)?.[1]
 ));
 const promoSection = homeHtml.match(/<section class="promo-picks" data-promo-picks[^>]*>([\s\S]*?)<\/section>/)?.[1] ?? '';
+const performerExploreSections = [...homeHtml.matchAll(/<section class="home-performer-explore"[^>]*data-home-performer-explore[^>]*>([\s\S]*?)<\/section>/g)];
 const promoCards = [...promoSection.matchAll(/<article class="promo-video-card" data-promo-card data-movie-id="([^"]+)"[^>]*>([\s\S]*?)<\/article>/g)]
   .map((match) => ({stableMovieId: match[1], html: match[2]}));
 const latestCards = [...latestHtml.matchAll(/<article class="movie-card-v1" data-movie-id="([^"]+)"[^>]*>([\s\S]*?)<\/article>/g)]
@@ -261,6 +262,44 @@ const expectedPerformerIndexLinks = performerCatalog.performers.map((performer) 
 if (JSON.stringify(performerIndexLinks) !== JSON.stringify(expectedPerformerIndexLinks)) {
   throw new Error('Performer index links do not exactly match the stable Performer Catalog');
 }
+if (!Number.isInteger(performerCatalog.performers.length) || performerCatalog.performers.length < 1) {
+  throw new Error('Homepage performer exploration requires a non-empty Performer Catalog');
+}
+if (performerCatalog.performers.length !== performerIndexLinks.length) {
+  throw new Error('Homepage performer count disagrees with the rendered performer index');
+}
+if (performerExploreSections.length !== 1) throw new Error('Homepage performer exploration must render exactly once');
+const performerExploreHtml = performerExploreSections[0][1];
+if (!performerExploreSections[0][0].includes('aria-labelledby="home-performer-explore-title"')) {
+  throw new Error('Homepage performer exploration heading relationship is missing');
+}
+if (!/<h2\s+id="home-performer-explore-title"[^>]*>從演員找作品<\/h2>/u.test(performerExploreHtml)) {
+  throw new Error('Homepage performer exploration heading is missing');
+}
+if (!performerExploreHtml.includes('EXPLORE PERFORMERS')) throw new Error('Homepage performer exploration eyebrow is missing');
+if (!performerExploreHtml.includes(`依演員姓名瀏覽本站收錄的人物與已發布作品。目前收錄 ${performerCatalog.performers.length} 位人物。`)) {
+  throw new Error('Homepage performer exploration count or approved copy disagrees with the catalog');
+}
+const performerExploreLinks = [...performerExploreHtml.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g)];
+if (performerExploreLinks.length !== 1 || performerExploreLinks[0][1] !== '/actresses/' || performerExploreLinks[0][2] !== '查看全部演員 →') {
+  throw new Error('Homepage performer exploration must contain only the approved performer index CTA');
+}
+if (/\/actresses\/cc18-tv-actor-|<img\b|<picture\b|<video\b|<script\b/u.test(performerExploreHtml)) {
+  throw new Error('Homepage performer exploration leaked a person link, media element or script');
+}
+if (performerCatalog.performers.some((performer) => performerExploreHtml.includes(performer.primary_display_name))) {
+  throw new Error('Homepage performer exploration leaked an individual performer name');
+}
+if (/熱門|人氣|排行|推薦|趨勢|精選/u.test(performerExploreHtml)) {
+  throw new Error('Homepage performer exploration uses unsupported ranking or recommendation language');
+}
+const promoPosition = homeHtml.indexOf('class="promo-picks"');
+const performerExplorePosition = homeHtml.indexOf('class="home-performer-explore"');
+const topicExplorePosition = homeHtml.indexOf('class="explore-grid"');
+if (!(promoPosition >= 0 && performerExplorePosition > promoPosition && topicExplorePosition > performerExplorePosition)) {
+  throw new Error('Homepage performer exploration is not between promo picks and topic exploration');
+}
+if (/"@type"\s*:\s*"Person"/u.test(homeHtml)) throw new Error('Homepage performer entry must not add Person structured data');
 for (const {stableMovieId, html: cardHtml} of latestCards) {
   const master = expectedById.get(stableMovieId);
   if (!master) throw new Error(`Latest card is not an eligible published Master: ${stableMovieId}`);
@@ -327,7 +366,7 @@ if ((homeHtml.match(/promoPosterFallback/g) ?? []).length !== 1) throw new Error
 if ((homeHtml.match(/\.complete&&[^;]*\.naturalWidth===0/g) ?? []).length !== 1) throw new Error('Homepage promo controller must recover an already-failed poster');
 if ((homeHtml.match(/\.focus\(\{preventScroll:!0\}\)/g) ?? []).length < 2) throw new Error('Homepage promo controller must transfer focus on playback and failure');
 
-console.log(`Movie Master surfaces valid: ${renderedCards.length} preview cards, ${homeCards.length} homepage cards, ${promoCards.length} homepage promo cards, ${latestCards.length} Latest cards and work pages, ${expectedExcluded.length} dynamic exclusions, redirects, structured data, noindex and sitemap contracts passed.`);
+console.log(`Movie Master surfaces valid: ${renderedCards.length} preview cards, ${homeCards.length} homepage cards, ${promoCards.length} homepage promo cards, ${performerCatalog.performers.length} homepage performer-index entries, ${latestCards.length} Latest cards and work pages, ${expectedExcluded.length} dynamic exclusions, redirects, structured data, noindex and sitemap contracts passed.`);
 }
 
 if (process.argv[1] && pathToFileURL(resolve(process.argv[1])).href === import.meta.url) {

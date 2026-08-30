@@ -1,17 +1,24 @@
 ---
 import {getCollection} from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import HomePerformerExplore from '../components/HomePerformerExplore.astro';
 import MovieCardV1 from '../components/MovieCardV1.astro';
 import PromoVideoCard from '../components/PromoVideoCard.astro';
 import TagList from '../components/TagList.astro';
 import {byNewest, formatDate, reviewHref, reviewTagIds, visibleTags} from '../lib/reviews';
 import {loadLatestAddedMovieCardCatalog, loadLatestAddedPromoCatalog} from '../lib/movie-master.mjs';
+import {loadPerformerCatalog} from '../lib/performer-catalog.mjs';
 import {tagItems} from '../lib/taxonomy';
 
 const reviews = (await getCollection('reviews', ({data}) => data.status === 'published')).sort(byNewest);
 const featured = reviews.find(({data}) => data.featured) ?? reviews[0];
 const catalog = await loadLatestAddedMovieCardCatalog();
 const promoCatalog = await loadLatestAddedPromoCatalog({limit: 3});
+const performerCatalog = await loadPerformerCatalog();
+const performerCount = performerCatalog.performers.length;
+if (!Number.isInteger(performerCount) || performerCount < 1) {
+  throw new Error('Homepage performer exploration requires at least one catalog performer');
+}
 const tagIds = [...new Set(reviews.flatMap(reviewTagIds))].slice(0, 12);
 const tags = tagItems(tagIds);
 ---
@@ -68,6 +75,8 @@ const tags = tagItems(tagIds);
       {promoCatalog.cards.map((card) => <div role="listitem"><PromoVideoCard {...card} /></div>)}
     </div>
   </section>
+
+  <HomePerformerExplore count={performerCount} />
 
   <section class="explore-grid">
     <div class="tag-panel">

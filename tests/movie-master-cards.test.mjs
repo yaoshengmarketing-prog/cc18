@@ -13,6 +13,7 @@ import {
   projectLatestAddedPromoRecords,
   sortLatestAddedMovieCardRecords,
 } from '../src/lib/movie-master.mjs';
+import {loadPerformerCatalog} from '../src/lib/performer-catalog.mjs';
 import {
   assertUniqueStableMovieIds,
   expectedCloudflareRedirects,
@@ -438,6 +439,36 @@ test('homepage keeps its Markdown featured Hero and shares latest_added with Lat
   assert.doesNotMatch(homePage, /<ReviewCard|const latest = reviews\.slice|loadPublishedMovieCardCatalog/);
   assert.doesNotMatch(homePage, /<MovieCardV1 card=\{card\} priority=/);
   assert.match(latestPage, /<MovieCardV1 card=\{card\} priority=\{index < 3\}/);
+});
+
+test('homepage performer exploration is a dynamic CTA-only catalog entry', async () => {
+  const [homePage, component, performerCatalog] = await Promise.all([
+    readFile(new URL('../src/pages/index.astro', import.meta.url), 'utf8'),
+    readFile(new URL('../src/components/HomePerformerExplore.astro', import.meta.url), 'utf8'),
+    loadPerformerCatalog(),
+  ]);
+
+  assert.ok(performerCatalog.performers.length > 0);
+  assert.match(homePage, /loadPerformerCatalog\(\)/);
+  assert.match(homePage, /performerCatalog\.performers\.length/);
+  assert.match(homePage, /<HomePerformerExplore count=\{performerCount\} \/>/);
+  assert.ok(homePage.indexOf('<HomePerformerExplore') > homePage.indexOf('class="promo-picks"'));
+  assert.ok(homePage.indexOf('<HomePerformerExplore') < homePage.indexOf('class="explore-grid"'));
+  assert.doesNotMatch(homePage, /performerCount\s*=\s*14\b/);
+  assert.equal((component.match(/<section\b/g) ?? []).length, 1);
+  assert.equal((component.match(/<h2\b/g) ?? []).length, 1);
+  assert.match(component, /aria-labelledby="home-performer-explore-title"/);
+  assert.match(component, /<h2 id="home-performer-explore-title">從演員找作品<\/h2>/);
+  assert.match(component, /EXPLORE PERFORMERS/);
+  assert.match(component, /依演員姓名瀏覽本站收錄的人物與已發布作品。目前收錄 \{count\} 位人物。/);
+  assert.equal((component.match(/<a\b/g) ?? []).length, 1);
+  assert.match(component, /<a href="\/actresses\/">查看全部演員 →<\/a>/);
+  assert.doesNotMatch(component, /\/actresses\/cc18-tv-actor-|<img\b|<picture\b|<video\b|<script\b|client:/);
+  assert.doesNotMatch(component, /熱門|人氣|排行|推薦|趨勢|精選/);
+  assert.doesNotMatch(component, /\b14\b/);
+  for (const performer of performerCatalog.performers) {
+    assert.doesNotMatch(component, new RegExp(performer.primary_display_name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'u'));
+  }
 });
 
 test('homepage promo cards defer video loading and keep one reusable controller', async () => {
