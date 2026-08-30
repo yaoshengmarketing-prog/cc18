@@ -1,6 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {access, readFile} from 'node:fs/promises';
+import {execFile} from 'node:child_process';
+import {access, mkdir, mkdtemp, readFile, rm, writeFile} from 'node:fs/promises';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {promisify} from 'node:util';
 import {
   loadLatestAddedMovieCardCatalog,
   loadLatestAddedPromoCatalog,
@@ -10,11 +15,15 @@ import {
 } from '../src/lib/movie-master.mjs';
 import {
   assertUniqueStableMovieIds,
+  expectedCloudflareRedirects,
   isPublicMovieCardMaster,
+  LEGACY_PERFORMER_REDIRECTS,
 } from '../scripts/validate-movie-master-preview.mjs';
 import {normalizeWorkSlug, resolveInternalWorkHref, workCanonicalUrl, workPath} from '../src/lib/work-url.mjs';
+import {resolveProjectRoot} from '../src/lib/project-root.mjs';
 
 const readJson = async (path) => JSON.parse(await readFile(new URL(`../${path}`, import.meta.url), 'utf8'));
+const execFileAsync = promisify(execFile);
 
 const promoRecord = ({
   catalogCode = 'TEST-001',
@@ -58,6 +67,47 @@ test('published Movie Master card catalog follows index publication and exclusio
     catalog.index.formal_draft_count,
   );
   assert.equal(catalog.exclusions.filter(({is_published}) => is_published).length, 0);
+});
+
+test('default Movie Master loaders resolve repository data independently from process cwd', async () => {
+  const foreignCwd = await mkdtemp(join(tmpdir(), 'cc18-movie-master-cwd-'));
+  const fakeData = join(foreignCwd, 'data', 'movie-master');
+  await mkdir(fakeData, {recursive: true});
+  await writeFile(join(fakeData, 'index.json'), JSON.stringify({marker: 'must-not-be-read', entries: []}), 'utf8');
+  const movieMasterUrl = new URL('../src/lib/movie-master.mjs', import.meta.url).href;
+  const performerCatalogUrl = new URL('../src/lib/performer-catalog.mjs', import.meta.url).href;
+  const source = `
+    const {loadPublishedMovieCardCatalog, loadLatestAddedPromoCatalog} = await import(${JSON.stringify(movieMasterUrl)});
+    const {loadPerformerCatalog} = await import(${JSON.stringify(performerCatalogUrl)});
+    const cards = await loadPublishedMovieCardCatalog();
+    const promos = await loadLatestAddedPromoCatalog({limit: 3});
+    const performers = await loadPerformerCatalog();
+    process.stdout.write(JSON.stringify({
+      cards: cards.cards.length,
+      published: cards.index.published_count,
+      promos: promos.cards.length,
+      performers: performers.performers.length,
+      firstMaster: cards.cards[0]?.stable_movie_id,
+    }));
+  `;
+  try {
+    const {stdout} = await execFileAsync(process.execPath, ['--input-type=module', '-e', source], {cwd: foreignCwd});
+    const result = JSON.parse(stdout);
+    assert.equal(result.cards, result.published);
+    assert.ok(result.cards > 0);
+    assert.equal(result.promos, 3);
+    assert.ok(result.performers > 0);
+    assert.match(result.firstMaster, /^cc18:[A-Z0-9-]+$/u);
+  } finally {
+    await rm(foreignCwd, {recursive: true, force: true});
+  }
+});
+
+test('package-scoped project anchor resolves from source and a synthetic prerender chunk', async () => {
+  const expected = fileURLToPath(new URL('..', import.meta.url)).replace(/[\\\/]$/u, '');
+  const syntheticChunk = new URL('../dist/.prerender/chunks/probe.mjs', import.meta.url);
+  assert.equal(resolveProjectRoot(), expected);
+  assert.equal(resolveProjectRoot(syntheticChunk), expected);
 });
 
 test('public card qualification excludes NOINDEX, drafts and Demo records as one complement set', () => {
@@ -155,9 +205,42 @@ test('public work route replaces the review renderer and Cloudflare redirects ar
     readFile(new URL('../public/_redirects', import.meta.url), 'utf8'),
     readFile(new URL('../public/_routes.json', import.meta.url), 'utf8').then(JSON.parse),
   ]);
-  assert.equal(redirects.replaceAll('\r\n', '\n'), '/reviews/:slug/ /works/:slug/ 301\n/reviews/:slug /works/:slug/ 301\n');
+  assert.equal(redirects.replaceAll('\r\n', '\n'), expectedCloudflareRedirects());
+  assert.equal(redirects.trimEnd().split(/\r?\n/u).length, 30);
+  assert.equal(LEGACY_PERFORMER_REDIRECTS.length, 14);
+  for (const [legacyName, routeSegment] of LEGACY_PERFORMER_REDIRECTS) {
+    assert.match(redirects, new RegExp(`^/actresses/${legacyName}/ /actresses/${routeSegment}/ 301$`, 'mu'));
+    assert.match(redirects, new RegExp(`^/actresses/${legacyName} /actresses/${routeSegment}/ 301$`, 'mu'));
+  }
   assert.doesNotMatch(redirects, /\/works\/:slug\/?\s+\/reviews\//);
+  assert.doesNotMatch(redirects, /\/actresses\/[^\s:*?]+\*|\/actresses\/:/u);
   assert.deepEqual(routes.include, ['/media/*']);
+});
+
+test('stable performer routes and public surfaces use the shared performer authority', async () => {
+  const [detailRoute, indexRoute, workRoute, facts, searchRoute] = await Promise.all([
+    readFile(new URL('../src/pages/actresses/[id].astro', import.meta.url), 'utf8'),
+    readFile(new URL('../src/pages/actresses/index.astro', import.meta.url), 'utf8'),
+    readFile(new URL('../src/pages/works/[id].astro', import.meta.url), 'utf8'),
+    readFile(new URL('../src/components/WorkFacts.astro', import.meta.url), 'utf8'),
+    readFile(new URL('../src/pages/search/index.astro', import.meta.url), 'utf8'),
+  ]);
+  await assert.rejects(access(new URL('../src/pages/actresses/[name].astro', import.meta.url)));
+  assert.match(detailRoute, /loadPerformerCatalog\(\)/u);
+  assert.match(detailRoute, /params:\s*\{id:\s*performer\.route_segment\}/u);
+  assert.match(detailRoute, /<MovieCardV1 card=\{card\}/u);
+  assert.doesNotMatch(detailRoute, /getCollection\(['"]reviews['"]\)|encodeURIComponent/u);
+  assert.match(indexRoute, /loadPerformerCatalog\(\)/u);
+  assert.match(indexRoute, /href=\{performer\.href\}/u);
+  assert.doesNotMatch(indexRoute, /getCollection\(['"]reviews['"]\)|encodeURIComponent/u);
+  assert.match(workRoute, /loadPerformerCatalog\(\)/u);
+  assert.match(workRoute, /ordered_performers_by_work/u);
+  assert.match(workRoute, /stable_movie_id:\s*stableMovieId/u);
+  assert.match(workRoute, /<WorkFacts[^>]*performers=\{performers\}/u);
+  assert.match(facts, /href=\{performer\.href\}/u);
+  assert.match(facts, /data-performer-id=\{performer\.stable_performer_id\}/u);
+  assert.match(searchRoute, /performerHref\(person\.stable_actor_id\)/u);
+  assert.doesNotMatch(searchRoute, /encodeURIComponent\(person\.(?:name|primary_display_name)/u);
 });
 
 test('cards receive resolved performer display names without adopting unverified candidates', async () => {

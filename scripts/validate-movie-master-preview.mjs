@@ -2,11 +2,38 @@ import {access, readFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {pathToFileURL} from 'node:url';
 import {loadLatestAddedPromoCatalog} from '../src/lib/movie-master.mjs';
+import {loadPerformerCatalog} from '../src/lib/performer-catalog.mjs';
 import {
   validateCanonicalMovieMasterIndexEntries,
   validateMovieMasterAgainstIndexEntry,
 } from '../src/lib/movie-master-identity.mjs';
 import {workPath} from '../src/lib/work-url.mjs';
+
+export const LEGACY_PERFORMER_REDIRECTS = [
+  ['一ノ瀬ラム', 'cc18-tv-actor-27185'],
+  ['池田真理奈', 'cc18-tv-actor-27777'],
+  ['柚木れんか', 'cc18-tv-actor-29885'],
+  ['柊もみじ', 'cc18-tv-actor-54025'],
+  ['蘭華', 'cc18-tv-actor-25683'],
+  ['美咲音', 'cc18-tv-actor-28932'],
+  ['羽月乃蒼', 'cc18-tv-actor-28396'],
+  ['相沢澪', 'cc18-tv-actor-30343'],
+  ['要結愛', 'cc18-tv-actor-54414'],
+  ['鷲尾めい', 'cc18-tv-actor-25064'],
+  ['淺野心', 'cc18-tv-actor-28722'],
+  ['七森莉莉', 'cc18-tv-actor-25389'],
+  ['河北彩花', 'cc18-tv-actor-34284'],
+  ['星空ねる', 'cc18-tv-actor-54454'],
+];
+
+export const expectedCloudflareRedirects = () => [
+  '/reviews/:slug/ /works/:slug/ 301',
+  '/reviews/:slug /works/:slug/ 301',
+  ...LEGACY_PERFORMER_REDIRECTS.flatMap(([legacyName, routeSegment]) => [
+    `/actresses/${legacyName}/ /actresses/${routeSegment}/ 301`,
+    `/actresses/${legacyName} /actresses/${routeSegment}/ 301`,
+  ]),
+].join('\n') + '\n';
 
 export const isPublicMovieCardMaster = (master) => (
   master.publishing?.is_published === true
@@ -38,6 +65,7 @@ const latestHtml = await readFile(resolve(root, 'dist/latest/index.html'), 'utf8
 const sitemap = await readFile(resolve(root, 'dist/sitemap-0.xml'), 'utf8');
 const redirects = await readFile(resolve(root, 'dist/_redirects'), 'utf8');
 const searchIndex = await readJson('data/search-index-v1.json');
+const performerCatalog = await loadPerformerCatalog();
 const index = await readJson('data/movie-master/index.json');
 validateCanonicalMovieMasterIndexEntries(index.entries);
 const masters = await Promise.all(index.entries.map(async (entry) => {
@@ -89,10 +117,14 @@ const latestCards = [...latestHtml.matchAll(/<article class="movie-card-v1" data
   .map((match) => ({stableMovieId: match[1], html: match[2]}));
 const latestIds = latestCards.map(({stableMovieId}) => stableMovieId);
 const pathExists = async (path) => access(path).then(() => true, () => false);
-const expectedRedirects = '/reviews/:slug/ /works/:slug/ 301\n/reviews/:slug /works/:slug/ 301\n';
+const expectedRedirects = expectedCloudflareRedirects();
 
-if (redirects.replaceAll('\r\n', '\n') !== expectedRedirects) throw new Error('Cloudflare work redirect contract is missing or changed');
+if (redirects.replaceAll('\r\n', '\n') !== expectedRedirects) throw new Error('Cloudflare redirect contract is missing or changed');
 if (redirects.includes('/works/:slug/ /reviews/')) throw new Error('Reverse work redirect would create a loop');
+if (/\/actresses\/[^\s:*?]+\*|\/actresses\/:/u.test(redirects)) throw new Error('Wildcard performer redirect is not allowed');
+for (const [, routeSegment] of LEGACY_PERFORMER_REDIRECTS) {
+  if (redirects.includes(`/actresses/${routeSegment}/ /actresses/`)) throw new Error(`Reverse performer redirect would create a loop: ${routeSegment}`);
+}
 
 assertUniqueStableMovieIds(masters);
 const allIds = new Set(masters.map(({stable_movie_id: stableMovieId}) => stableMovieId.trim()));
@@ -190,6 +222,21 @@ for (const {stableMovieId, html: cardHtml} of renderedCards) {
   if (!await pathExists(workHtmlPath)) throw new Error(`Published work page is missing: ${expectedPathname}`);
   if (await pathExists(legacyHtmlPath)) throw new Error(`Legacy review page still renders content: /reviews/${master.slug}/`);
   const workHtml = await readFile(workHtmlPath, 'utf8');
+  const performerById = new Map(performerCatalog.performers.map((performer) => [performer.stable_performer_id, performer]));
+  const expectedPerformers = master.source.performer_relations.map(({stable_source_id: stablePerformerId}) => {
+    const performer = performerById.get(stablePerformerId);
+    if (!performer) throw new Error(`Typed performer is absent from catalog for ${stableMovieId}: ${stablePerformerId}`);
+    return performer;
+  });
+  const actualPerformerLinks = [...workHtml.matchAll(/<a href="(\/actresses\/cc18-tv-actor-[1-9][0-9]*\/)" data-performer-id="([^"]+)">/g)]
+    .map((match) => ({href: match[1], stablePerformerId: match[2]}));
+  const expectedPerformerLinks = [...expectedPerformers, ...expectedPerformers].map((performer) => ({
+    href: performer.href,
+    stablePerformerId: performer.stable_performer_id,
+  }));
+  if (JSON.stringify(actualPerformerLinks) !== JSON.stringify(expectedPerformerLinks)) {
+    throw new Error(`Visible performer links disagree with typed relations for ${stableMovieId}`);
+  }
   const canonical = workHtml.match(/<link rel="canonical" href="([^"]+)"/)?.[1];
   if (canonical !== master.publishing.canonical_url) throw new Error(`Rendered canonical disagrees with Movie Master for ${stableMovieId}`);
   const jsonText = workHtml.match(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/)?.[1];
@@ -203,6 +250,16 @@ for (const {stableMovieId, html: cardHtml} of renderedCards) {
   if (article?.mainEntityOfPage !== canonical) throw new Error(`Article mainEntityOfPage is stale for ${stableMovieId}`);
   if (video && video.embedUrl !== canonical) throw new Error(`VideoObject embedUrl is stale for ${stableMovieId}`);
   if (!sitemap.includes(`<loc>${canonical}</loc>`)) throw new Error(`Published work is missing from sitemap: ${canonical}`);
+}
+const performerIndexHtml = await readFile(resolve(root, 'dist/actresses/index.html'), 'utf8');
+const performerIndexLinks = [...performerIndexHtml.matchAll(/<a href="(\/actresses\/cc18-tv-actor-[1-9][0-9]*\/)" data-performer-id="([^"]+)">/g)]
+  .map((match) => ({href: match[1], stablePerformerId: match[2]}));
+const expectedPerformerIndexLinks = performerCatalog.performers.map((performer) => ({
+  href: performer.href,
+  stablePerformerId: performer.stable_performer_id,
+}));
+if (JSON.stringify(performerIndexLinks) !== JSON.stringify(expectedPerformerIndexLinks)) {
+  throw new Error('Performer index links do not exactly match the stable Performer Catalog');
 }
 for (const {stableMovieId, html: cardHtml} of latestCards) {
   const master = expectedById.get(stableMovieId);

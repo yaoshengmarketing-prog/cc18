@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "imports": {
+    "#cc18-project-root": "./package.json"
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "node scripts/astro-build.mjs",

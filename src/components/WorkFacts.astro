@@ -5,8 +5,13 @@ import type {SearchContent} from '../lib/search-content';
 import {durationLabel} from '../lib/search-content';
 import type {SourceRecord} from '../lib/source-records';
 
-interface Props {review: Review; source?: SourceRecord; search?: SearchContent;}
-const {review, source, search} = Astro.props;
+interface PerformerLink {
+  stable_performer_id: string;
+  primary_display_name: string;
+  href: string;
+}
+interface Props {review: Review; source?: SourceRecord; search?: SearchContent; performers?: PerformerLink[];}
+const {review, source, search, performers = []} = Astro.props;
 const verifiedAt = source?.fetched_at ? new Date(source.fetched_at) : review.data.publishedAt;
 const quality = source?.source_tags.find((tag) => /^(?:4k|hd|720p)$/i.test(tag));
 ---
@@ -22,7 +27,12 @@ const quality = source?.source_tags.find((tag) => /^(?:4k|hd|720p)$/i.test(tag))
   <dl class="fact-grid">
     <div><dt>番號</dt><dd class="mono-value">{review.data.id}</dd></div>
     <div><dt>上片日期</dt><dd>{formatDate(review.data.releaseDate)}</dd></div>
-    <div><dt>演員</dt><dd>{review.data.actress.length ? review.data.actress.map((name, index) => <>{index > 0 && '、'}<a href={`/actresses/${encodeURIComponent(name)}/`}>{name}</a></>) : '來源未列出演員'}</dd></div>
+    <div>
+      <dt>演員</dt>
+      <dd>{performers.length
+        ? performers.map((performer, index) => <>{index > 0 && '、'}<a href={performer.href} data-performer-id={performer.stable_performer_id}>{performer.primary_display_name}</a></>)
+        : review.data.actress.join('、') || '來源未列出演員'}</dd>
+    </div>
     <div><dt>片商</dt><dd>{review.data.studio || '來源未列出'}</dd></div>
     <div><dt>系列</dt><dd>{review.data.series ? <a href={`/series/${encodeURIComponent(review.data.series)}/`}>{review.data.series}</a> : '非系列／來源未列出'}</dd></div>
     <div><dt>片長</dt><dd>{durationLabel(search?.duration_seconds)}</dd></div>

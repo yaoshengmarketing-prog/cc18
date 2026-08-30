@@ -32,6 +32,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 <script>
   import {searchCatalog} from '../../lib/catalog-search.mjs';
+  import {performerHref} from '../../lib/performer-url.mjs';
 
   const form = document.querySelector<HTMLFormElement>('.catalog-search');
   const input = document.querySelector<HTMLInputElement>('#catalog-query');
@@ -58,7 +59,10 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     article.dataset.actorId = person.stable_actor_id;
     const identity = document.createElement('div');
     identity.className = 'person-search-result__identity';
-    identity.append(text('h3', null, person.display_name), text('p', 'search-match-reason', `命中名稱：${person.match_name}`));
+    const profileLink = document.createElement('a');
+    profileLink.href = performerHref(person.stable_actor_id);
+    profileLink.append(text('h3', null, person.display_name));
+    identity.append(profileLink, text('p', 'search-match-reason', `命中名稱：${person.match_name}`));
     const alternateNames = [...new Set([person.name_ja, person.source_name].filter((name) => name && name !== person.display_name))];
     if (alternateNames.length) identity.append(text('p', 'person-search-result__alternate', `原名／來源名：${alternateNames.join('、')}`));
     const works = document.createElement('div');

@@ -5,8 +5,9 @@ import {
   validateCanonicalMovieMasterIndexEntries,
   validateMovieMasterAgainstIndexEntry,
 } from './movie-master-identity.mjs';
+import {resolveProjectRoot} from './project-root.mjs';
 
-const root = resolve(process.cwd());
+const root = resolveProjectRoot();
 const readJson = async (path) => JSON.parse(await readFile(resolve(root, path), 'utf8'));
 const clean = (value) => typeof value === 'string' && value.trim() ? value.trim() : null;
 const promoRefPattern = /^data\/media-manifests\/([A-Z0-9-]+)\.json#\/video$/u;

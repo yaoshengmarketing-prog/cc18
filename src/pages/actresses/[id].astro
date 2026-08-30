@@ -1,0 +1,141 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import MovieCardV1 from '../../components/MovieCardV1.astro';
+import {loadPerformerCatalog} from '../../lib/performer-catalog.mjs';
+
+interface SearchableAlias {name: string; type: string;}
+interface PerformerPageRecord {
+  stable_performer_id: string;
+  route_segment: string;
+  href: string;
+  primary_display_name: string;
+  metadata_identity_label: string;
+  name_ja: string;
+  source_name: string;
+  searchable_aliases: SearchableAlias[];
+  schema_alternate_names: string[];
+  public_work_count: number;
+  public_works: PublicWorkCard[];
+  index_decision: 'INDEX_READY' | 'NOINDEX_THIN';
+}
+interface PublicWorkCard {
+  stable_movie_id: string;
+  source_cover: string;
+  title: string;
+  catalog_code: string;
+  release_date: string | null;
+  performers: string[];
+  canonical_topics: Array<{id: string; label: string}>;
+  has_remotion_promo: boolean;
+  href: string;
+}
+
+export async function getStaticPaths() {
+  const catalog = await loadPerformerCatalog();
+  return (catalog.performers as PerformerPageRecord[]).map((performer) => ({
+    params: {id: performer.route_segment},
+    props: {performer},
+  }));
+}
+
+const {performer} = Astro.props as {performer: PerformerPageRecord};
+const canonical = new URL(performer.href, Astro.site ?? Astro.url.origin).href;
+const aliasLabels = new Map([
+  ['OFFICIAL_JA_NAME', '官方日文藝名'],
+  ['VERIFIED_TW_MARKET_NAME', '台灣市場名稱'],
+  ['SOURCE_TITLE_ALIAS', '來源作品標題寫法'],
+  ['VERIFIED_FORMER_STAGE_NAME', '曾用藝名'],
+]);
+const aliasGroups = [...aliasLabels].map(([type, label]) => ({
+  type,
+  label,
+  aliases: performer.searchable_aliases.filter((alias: SearchableAlias) => alias.type === type),
+})).filter(({aliases}) => aliases.length > 0);
+const description = `整理${performer.metadata_identity_label}的日文原名、經核准別名與已發布作品，目前收錄 ${performer.public_work_count} 部。`;
+const personSchema: Record<string, unknown> = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  '@id': canonical,
+  url: canonical,
+  name: performer.primary_display_name,
+};
+if (performer.schema_alternate_names.length > 0) {
+  personSchema.alternateName = performer.schema_alternate_names;
+}
+const structuredData = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {'@type': 'ListItem', position: 1, name: '首頁', item: new URL('/', canonical).href},
+      {'@type': 'ListItem', position: 2, name: '演員', item: new URL('/actresses/', canonical).href},
+      {'@type': 'ListItem', position: 3, name: performer.primary_display_name, item: canonical},
+    ],
+  },
+  personSchema,
+];
+---
+
+<BaseLayout
+  title={`${performer.metadata_identity_label}作品與人物資料`}
+  description={description}
+  robots={performer.index_decision === 'INDEX_READY' ? undefined : 'noindex,follow'}
+  adult={true}
+  structuredData={structuredData}
+>
+  <article class="performer-page" data-performer-id={performer.stable_performer_id}>
+    <nav class="breadcrumbs" aria-label="麵包屑">
+      <a href="/">首頁</a><span>／</span><a href="/actresses/">演員</a><span>／</span><b>{performer.primary_display_name}</b>
+    </nav>
+    <header class="page-intro performer-intro">
+      <p class="eyebrow">ACTRESS PROFILE</p>
+      <h1>{performer.primary_display_name}</h1>
+      <p class="performer-stable-id"><span>Stable actor ID</span><code>{performer.stable_performer_id}</code></p>
+      <dl class="performer-names">
+        <div><dt>日文原名</dt><dd lang="ja">{performer.name_ja}</dd></div>
+        <div><dt>來源名稱</dt><dd>{performer.source_name}</dd></div>
+      </dl>
+    </header>
+
+    {aliasGroups.length > 0 && (
+      <section class="performer-aliases" aria-labelledby="performer-aliases-title">
+        <h2 id="performer-aliases-title">名稱與別名</h2>
+        <dl>
+          {aliasGroups.map(({type, label, aliases}) => (
+            <div data-alias-type={type}>
+              <dt>{label}</dt>
+              <dd>{aliases.map(({name}: SearchableAlias) => name).join('、')}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+    )}
+
+    <section class="performer-works" aria-labelledby="performer-works-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">PUBLISHED WORKS</p><h2 id="performer-works-title">已發布作品</h2></div>
+        <p>依作品發行日新到舊整理，共 {performer.public_work_count} 部。</p>
+      </div>
+      <div class="card-grid movie-card-grid">
+        {performer.public_works.map((card: PublicWorkCard) => <MovieCardV1 card={card} />)}
+      </div>
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .performer-page { display: grid; gap: 32px; }
+  .performer-intro { display: grid; gap: 14px; }
+  .performer-stable-id { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: baseline; }
+  .performer-stable-id span { color: #68686f; font-size: .8rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+  .performer-stable-id code { overflow-wrap: anywhere; font-size: .9rem; }
+  .performer-names, .performer-aliases dl { display: grid; gap: 10px; margin: 0; }
+  .performer-names div, .performer-aliases dl div { display: grid; grid-template-columns: minmax(110px, .35fr) 1fr; gap: 16px; padding-block: 12px; border-top: 1px solid #d7d7dc; }
+  .performer-names dt, .performer-aliases dt { color: #68686f; font-size: .82rem; font-weight: 800; }
+  .performer-names dd, .performer-aliases dd { margin: 0; font-weight: 700; overflow-wrap: anywhere; }
+  .performer-aliases h2 { margin-bottom: 12px; }
+  .performer-works { display: grid; gap: 20px; }
+  @media (max-width: 560px) {
+    .performer-names div, .performer-aliases dl div { grid-template-columns: 1fr; gap: 6px; }
+  }
+</style>

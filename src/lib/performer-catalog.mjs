@@ -15,8 +15,9 @@ import {
   validateCanonicalMovieMasterIndexEntry,
   validateMovieMasterAgainstIndexEntry,
 } from './movie-master-identity.mjs';
+import {resolveProjectRoot} from './project-root.mjs';
 
-const root = resolve(import.meta.dirname, '../..');
+const root = resolveProjectRoot();
 const readJson = async (path) => JSON.parse(await readFile(resolve(root, path), 'utf8'));
 
 const requireText = (value, label) => {
@@ -72,6 +73,23 @@ export const performerIndexDecision = (publicWorkCount) => {
   return publicWorkCount >= 2
     ? {decision: 'INDEX_READY', reason: 'HAS_MULTIPLE_PUBLIC_WORKS'}
     : {decision: 'NOINDEX_THIN', reason: 'ONLY_ONE_PUBLIC_WORK'};
+};
+
+export const addPerformerMetadataIdentityLabels = (performers) => {
+  const normalizedCounts = new Map();
+  for (const performer of performers) {
+    const normalized = requireText(
+      performer.primary_display_name,
+      `${performer.stable_performer_id} primary display name`,
+    ).normalize('NFKC');
+    normalizedCounts.set(normalized, (normalizedCounts.get(normalized) ?? 0) + 1);
+  }
+  return performers.map((performer) => ({
+    ...performer,
+    metadata_identity_label: normalizedCounts.get(performer.primary_display_name.normalize('NFKC')) > 1
+      ? `${performer.primary_display_name}（${performer.stable_performer_id}）`
+      : performer.primary_display_name,
+  }));
 };
 
 export const validatePublicPerformerIndexEntry = (card, entry, master) => {
@@ -232,10 +250,24 @@ export function buildPerformerCatalog({cards, masters, localization, searchIndex
     });
   }
 
-  performers.sort((left, right) => (
+  const performersWithMetadata = addPerformerMetadataIdentityLabels(performers);
+  performersWithMetadata.sort((left, right) => (
     left.primary_display_name.localeCompare(right.primary_display_name, 'zh-Hant')
     || left.stable_performer_id.localeCompare(right.stable_performer_id, 'en')
   ));
+  const performerById = new Map(performersWithMetadata.map((performer) => [performer.stable_performer_id, performer]));
+  const orderedPerformersByWork = publicMasters.map((master) => ({
+    stable_movie_id: master.stable_movie_id,
+    performers: master.source.performer_relations.map(({stable_source_id: id}) => {
+      const performer = performerById.get(id);
+      if (!performer) throw new Error(`${master.source.catalog_code}: ordered performer ${id} is absent from catalog`);
+      return {
+        stable_performer_id: performer.stable_performer_id,
+        primary_display_name: performer.primary_display_name,
+        href: performer.href,
+      };
+    }),
+  }));
 
   return {
     public_work_count: cards.length,
@@ -245,7 +277,8 @@ export function buildPerformerCatalog({cards, masters, localization, searchIndex
     typed_work_ids: typedWorkIds,
     raw_only_work_ids: rawOnlyWorkIds,
     no_performer_data_work_ids: noPerformerDataWorkIds,
-    performers,
+    performers: performersWithMetadata,
+    ordered_performers_by_work: orderedPerformersByWork,
   };
 }
 

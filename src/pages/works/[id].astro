@@ -11,12 +11,31 @@ import {sourceTagItems} from '../../lib/taxonomy';
 import {sourceRecordFor} from '../../lib/source-records';
 import {searchContentFor} from '../../lib/search-content';
 import {reviewQualityFor} from '../../lib/review-quality';
+import {loadPerformerCatalog} from '../../lib/performer-catalog.mjs';
+
+interface OrderedPerformerRecord {
+  stable_performer_id: string;
+  primary_display_name: string;
+  href: string;
+}
 
 export async function getStaticPaths() {
-  const reviews = await getCollection('reviews', ({data}) => data.status === 'published');
-  return reviews.map((review) => ({params: {id: review.data.id.toLowerCase()}, props: {review}}));
+  const [reviews, performerCatalog] = await Promise.all([
+    getCollection('reviews', ({data}) => data.status === 'published'),
+    loadPerformerCatalog(),
+  ]);
+  return reviews.map((review) => ({
+    params: {id: review.data.id.toLowerCase()},
+    props: {
+      review,
+      performers: (performerCatalog.ordered_performers_by_work as Array<{
+        stable_movie_id: string;
+        performers: OrderedPerformerRecord[];
+      }>).find(({stable_movie_id: stableMovieId}) => stableMovieId === `cc18:${review.data.id}`)?.performers ?? [],
+    },
+  }));
 }
-const {review} = Astro.props;
+const {review, performers} = Astro.props;
 const {Content} = await render(review);
 const allReviews = await getCollection('reviews', ({data}) => data.status === 'published');
 const related = new Map(allReviews.map((item) => [item.data.id, item]));
@@ -84,7 +103,12 @@ if (review.data.videoUrl) structuredData.push({
         <p class="lead">{review.data.shortReview}</p>
         <dl class="watch-meta">
           <div><dt>上片日期</dt><dd>{formatDate(review.data.releaseDate)}</dd></div>
-          <div><dt>演員</dt><dd>{review.data.actress.join('、') || '來源未列出'}</dd></div>
+          <div>
+            <dt>演員</dt>
+            <dd>{performers.length
+              ? performers.map((performer, index) => <>{index > 0 && '、'}<a href={performer.href} data-performer-id={performer.stable_performer_id}>{performer.primary_display_name}</a></>)
+              : review.data.actress.join('、') || '來源未列出'}</dd>
+          </div>
           <div><dt>片商</dt><dd>{review.data.studio || '來源未列出'}</dd></div>
         </dl>
         <TagList tags={visibleTags(review).slice(0, 6)} />
@@ -104,7 +128,7 @@ if (review.data.videoUrl) structuredData.push({
         <figcaption>CC18 影格原創情境圖 · 依作品企劃切角製作，不取代原始作品封面</figcaption>
       </figure>
     )}
-    <WorkFacts review={review} source={source} search={search} />
+    <WorkFacts review={review} source={source} search={search} performers={performers} />
     <TopicElements sourceTags={review.data.sourceTags} />
     {search && <DecisionGuide content={search} related={related} />}
     <div class="article-layout">

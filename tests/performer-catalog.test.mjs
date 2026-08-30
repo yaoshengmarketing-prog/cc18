@@ -32,9 +32,51 @@ import {
   validateSearchMasterAuthority,
 } from '../scripts/build-search-index.mjs';
 import {validateSearchIndexCollections, validateSearchPerformerIds} from '../scripts/validate-search-postbuild.mjs';
+import {
+  APPROVED_SCHEMA_ALTERNATE_NAMES,
+  FORBIDDEN_SCHEMA_ALTERNATE_NAMES,
+  performerCanonical,
+  validatePerformerHtmlFileSet,
+  validatePerformerPageHtml,
+} from '../scripts/postbuild-seo.mjs';
 
 const readJson = async (path) => JSON.parse(await readFile(new URL(`../${path}`, import.meta.url), 'utf8'));
 const clone = (value) => structuredClone(value);
+
+const performerPageFixture = (performer, {robots, extraHead = '', structuredData} = {}) => {
+  const canonical = performerCanonical(performer);
+  const records = structuredData ?? [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {'@type': 'ListItem', position: 1, name: '首頁', item: 'https://cc18.pages.dev/'},
+        {'@type': 'ListItem', position: 2, name: '演員', item: 'https://cc18.pages.dev/actresses/'},
+        {'@type': 'ListItem', position: 3, name: performer.primary_display_name, item: canonical},
+      ],
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Person',
+      '@id': canonical,
+      url: canonical,
+      name: performer.primary_display_name,
+      ...(performer.schema_alternate_names.length ? {alternateName: performer.schema_alternate_names} : {}),
+    },
+  ];
+  const robotsValue = robots ?? (performer.index_decision === 'INDEX_READY'
+    ? 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1'
+    : 'noindex,follow');
+  return [
+    `<title>${performer.metadata_identity_label}作品與人物資料｜CC18 影格</title>`,
+    `<meta name="description" content="整理${performer.metadata_identity_label}的日文原名、經核准別名與已發布作品，目前收錄 ${performer.public_work_count} 部。">`,
+    `<meta name="robots" content="${robotsValue}">`,
+    `<link rel="canonical" href="${canonical}">`,
+    extraHead,
+    `<article data-performer-id="${performer.stable_performer_id}"><h1>${performer.primary_display_name}</h1><code>${performer.stable_performer_id}</code></article>`,
+    `<script type="application/ld+json">${JSON.stringify(records)}</script>`,
+  ].join('');
+};
 
 const formalInputs = async () => {
   const [cardCatalog, index, localization, searchIndex] = await Promise.all([
@@ -76,6 +118,22 @@ test('strict performer codec rejects loose, encoded and lookalike identities', (
   for (const value of invalidSegments) assert.throws(() => parsePerformerRouteSegment(value), undefined, String(value));
   for (const value of ['', '0', '03', '+3', '-3', '3.0', ' 3', '3 ', 3]) {
     assert.throws(() => parsePerformerSourceId(value), undefined, String(value));
+  }
+});
+
+test('raw performer codec rejection remains distinct from HTTP unreserved-path equivalence', () => {
+  for (const rawSegment of ['%63c18-tv-actor-27185', 'cc18-tv-actor-%32%37%31%38%35']) {
+    assert.throws(() => parsePerformerRouteSegment(rawSegment));
+    assert.equal(parsePerformerRouteSegment(decodeURIComponent(rawSegment)).stableId, 'cc18.tv:actor:27185');
+  }
+  for (const unsafe of [
+    'cc18-tv-actor-%2527185',
+    'cc18-tv-actor-%2F27185',
+    'cc18-tv-actor-%5C27185',
+    'cc18-tv-actor-%0027185',
+    'cc18-tv-actor-%30%32%37%31%38%35',
+  ]) {
+    assert.throws(() => parsePerformerRouteSegment(unsafe));
   }
 });
 
@@ -156,6 +214,97 @@ test('formal performer catalog cross-checks published cards, typed relations, di
     || left.stable_performer_id.localeCompare(right.stable_performer_id, 'en')
   ));
   assert.deepEqual(catalog.performers.map(({stable_performer_id: id}) => id), expectedOrder.map(({stable_performer_id: id}) => id));
+  const dsodPerformers = catalog.ordered_performers_by_work
+    .find(({stable_movie_id: id}) => id === 'cc18:DSOD-006').performers;
+  assert.deepEqual(dsodPerformers.map(({stable_performer_id: id}) => id), [
+    'cc18.tv:actor:27185',
+    'cc18.tv:actor:27777',
+    'cc18.tv:actor:29885',
+    'cc18.tv:actor:54025',
+  ]);
+});
+
+test('stable performer page SEO contract is derived from the catalog and fails closed for thin-page indexing', async () => {
+  const catalog = await loadPerformerCatalog();
+  const performer = catalog.performers.find(({schema_alternate_names: names}) => names.length > 0);
+  assert.ok(performer);
+  const canonical = performerCanonical(performer);
+  const structured = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {'@type': 'ListItem', position: 1, name: '首頁', item: 'https://cc18.pages.dev/'},
+        {'@type': 'ListItem', position: 2, name: '演員', item: 'https://cc18.pages.dev/actresses/'},
+        {'@type': 'ListItem', position: 3, name: performer.primary_display_name, item: canonical},
+      ],
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Person',
+      '@id': canonical,
+      url: canonical,
+      name: performer.primary_display_name,
+      alternateName: performer.schema_alternate_names,
+    },
+  ];
+  const html = (robots = 'noindex,follow', records = structured, extraHead = '') => performerPageFixture(performer, {
+    robots,
+    structuredData: records,
+    extraHead,
+  });
+
+  assert.equal(performer.index_decision, 'NOINDEX_THIN');
+  assert.doesNotThrow(() => validatePerformerPageHtml({performer, html: html()}));
+  assert.throws(() => validatePerformerPageHtml({performer, html: html('index,follow')}), /thin performer must render noindex,follow/u);
+  assert.throws(
+    () => validatePerformerPageHtml({performer, html: html('noindex,follow', structured, '<link rel="canonical" href="https://example.invalid/">')}),
+    /exactly one canonical/u,
+  );
+  assert.throws(
+    () => validatePerformerPageHtml({performer, html: html('noindex,follow', structured, '<meta name="robots" content="index,follow">')}),
+    /thin performer must render noindex,follow/u,
+  );
+  const indexReady = {...performer, index_decision: 'INDEX_READY'};
+  const conflictingIndexRobots = performerPageFixture(indexReady, {
+    extraHead: '<meta name="robots" content="noindex,follow">',
+  });
+  assert.throws(
+    () => validatePerformerPageHtml({performer: indexReady, html: conflictingIndexRobots}),
+    /duplicate robots metadata/u,
+  );
+  const wrongAlternate = clone(structured);
+  wrongAlternate[1].alternateName = ['星空音琉'];
+  assert.throws(() => validatePerformerPageHtml({performer, html: html('noindex,follow', wrongAlternate)}), /alternateName differs/u);
+  const withVideo = clone(structured);
+  withVideo.push({'@context': 'https://schema.org', '@type': 'VideoObject'});
+  assert.throws(() => validatePerformerPageHtml({performer, html: html('noindex,follow', withVideo)}), /must not emit VideoObject/u);
+  const withSameAs = clone(structured);
+  withSameAs[1].sameAs = 'https://example.invalid/person';
+  assert.throws(() => validatePerformerPageHtml({performer, html: html('noindex,follow', withSameAs)}), /sameAs/u);
+});
+
+test('performer postbuild file set rejects flat or otherwise unapproved HTML outputs', async () => {
+  const catalog = await loadPerformerCatalog();
+  const valid = [
+    'actresses/index.html',
+    ...catalog.performers.map(({route_segment: segment}) => `actresses/${segment}/index.html`),
+  ];
+  assert.doesNotThrow(() => validatePerformerHtmlFileSet({allHtmlPaths: valid, performers: catalog.performers}));
+  assert.throws(
+    () => validatePerformerHtmlFileSet({
+      allHtmlPaths: [...valid, 'actresses/legacy-name.html'],
+      performers: catalog.performers,
+    }),
+    /extra=actresses\/legacy-name\.html/u,
+  );
+});
+
+test('Person Schema alternate names remain the exact approved union', async () => {
+  const catalog = await loadPerformerCatalog();
+  const actual = [...new Set(catalog.performers.flatMap(({schema_alternate_names: names}) => names))].sort();
+  assert.deepEqual(actual, [...APPROVED_SCHEMA_ALTERNATE_NAMES].sort());
+  for (const forbidden of FORBIDDEN_SCHEMA_ALTERNATE_NAMES) assert.ok(!actual.includes(forbidden));
 });
 
 test('primary display and alias channels preserve approved localization boundaries', async () => {
@@ -224,8 +373,19 @@ test('a future typed performer is data-driven and same-name identities remain se
   });
   const catalog = buildPerformerCatalog(inputs);
   assert.equal(catalog.performers.length, 15);
-  assert.equal(catalog.performers.filter(({primary_display_name: primary}) => primary === name).length, 2);
+  const sameNamePerformers = catalog.performers.filter(({primary_display_name: primary}) => primary === name);
+  assert.equal(sameNamePerformers.length, 2);
   assert.equal(catalog.performers.some(({stable_performer_id: performerId}) => performerId === id), true);
+  assert.equal(new Set(sameNamePerformers.map(({metadata_identity_label: label}) => label)).size, 2);
+  for (const performer of sameNamePerformers) {
+    assert.equal(performer.metadata_identity_label, `${name}（${performer.stable_performer_id}）`);
+    assert.doesNotThrow(() => validatePerformerPageHtml({
+      performer,
+      html: performerPageFixture(performer),
+    }));
+  }
+  const unrelated = catalog.performers.find(({primary_display_name: primary}) => primary !== name);
+  assert.equal(unrelated.metadata_identity_label, unrelated.primary_display_name);
 });
 
 test('catalog fails closed before deduplication on duplicate and mismatched identity data', async () => {

@@ -1,8 +1,28 @@
 ---
-import {getCollection} from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-const reviews = await getCollection('reviews', ({data}) => data.status === 'published');
-const counts = new Map<string, number>();
-reviews.flatMap((r) => r.data.actress).forEach((name) => counts.set(name, (counts.get(name) ?? 0) + 1));
+import {loadPerformerCatalog} from '../../lib/performer-catalog.mjs';
+
+interface PerformerIndexRecord {
+  stable_performer_id: string;
+  href: string;
+  primary_display_name: string;
+  public_work_count: number;
+}
+const catalog = await loadPerformerCatalog();
 ---
-<BaseLayout title="演員索引" description="依演員整理 CC18 最新作品、題材方向與原創影評。" adult={true}><section class="page-intro"><p class="eyebrow">ACTRESS INDEX</p><h1>演員索引</h1><p>從演員查看最新作品與不同題材中的角色適配。</p></section><section class="index-list">{[...counts].map(([name,count]) => <a href={`/actresses/${encodeURIComponent(name)}/`}><strong>{name}</strong><span>{count} 部作品</span></a>)}</section></BaseLayout>
+
+<BaseLayout title="演員索引" description="依演員整理 CC18 最新作品、題材方向與原創影評。" adult={true}>
+  <section class="page-intro">
+    <p class="eyebrow">ACTRESS INDEX</p>
+    <h1>演員索引</h1>
+    <p>從演員查看最新作品與不同題材中的角色適配。</p>
+  </section>
+  <section class="index-list">
+    {(catalog.performers as PerformerIndexRecord[]).map((performer) => (
+      <a href={performer.href} data-performer-id={performer.stable_performer_id}>
+        <strong>{performer.primary_display_name}</strong>
+        <span>{performer.public_work_count} 部作品</span>
+      </a>
+    ))}
+  </section>
+</BaseLayout>
