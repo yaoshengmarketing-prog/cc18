@@ -36,3 +36,10 @@ test('draft canary attempts a bounded local repair before another full rewrite',
   assert.match(source, /qaReport\.status === 'LOCAL_REPAIR'/);
   assert.match(source, /repair-draft\.mjs/);
 });
+
+test('full rewrite feedback addresses formulaic voice and abstract vocabulary without relaxing QA', () => {
+  assert.match(builder, /broad_formulaic_voice:\s*'[^']+公式化翻轉[^']+全文不得變形重述/);
+  assert.match(builder, /abstract_editorial_vocabulary_overuse:\s*'[^']+terms 與 limit[^']+低於或等於對應 limit/);
+  assert.match(builder, /failureReasons\.map\(\(reason\) => guidance\[reason\]\)\.filter\(Boolean\)/);
+  assert.doesNotMatch(builder, /qa_rewrite_limit\s*[:=]\s*[3-9]/);
+});

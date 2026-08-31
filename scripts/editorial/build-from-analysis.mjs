@@ -156,6 +156,8 @@ const prompt = {
 if (feedbackArgument) {
   const feedback = JSON.parse(await readFile(resolve(feedbackArgument), 'utf8'));
   const guidance = {
+    broad_formulaic_voice: '重寫所有被點名段落與標題，移除「不是 A，而是 B」「不在 A，而在 B」「真正的重點／看點」「比較聰明的地方」等公式化翻轉。每節直接提出一個作品特有的選片判斷，緊接使用 public_source 或 Editorial Brief 可追溯的人物關係、企劃設定與題材支持；全文不得變形重述上述句型。',
+    abstract_editorial_vocabulary_overuse: '依 QA findings 列出的 terms 與 limit 重寫受影響段落；最終全文每個詞彙的出現數必須低於或等於對應 limit。以具體的企劃設定、人物關係、題材組合或段落作用取代「節奏」「層次」「推進」「轉變」「核心」等抽象詞，不得只以近義抽象詞輪替。',
     reused_generic_thesis_family: '不要再使用「被引導或被安排，最後掌握或接管節奏」作為核心命題。改由本作獨有的來源企劃結構、人物關係或場景規則決定全文因果。',
     sitewide_reused_sentences: '刪除可套用到其他作品的結尾與選片句，重新撰寫開場、段落邏輯及結論，不得沿用站內既有完整句子。',
     overused_conditional_review_voice: '直接提出並支持評論判斷；不要反覆使用「若成立」或「有機會」把結論停留在假設狀態。段落可以提出問題，但同一段必須給出明確答案。',
