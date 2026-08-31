@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "movie_id": "YAKO-099",
+  "calls": [
+    {
+      "generated_at": "2026-08-31T01:31:28.683Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 839,
+      "cached_input_tokens": 0,
+      "output_tokens": 188,
+      "total_tokens": 1027,
+      "estimated_cost_usd": 0.008425,
+      "estimated_payg_cash_cost_usd": 0.008846,
+      "direct_openai_reference_usd": 0.004917,
+      "gateway_premium_usd": 0.003508,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    },
+    {
+      "generated_at": "2026-08-31T01:31:42.988Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2051,
+      "cached_input_tokens": 0,
+      "output_tokens": 1493,
+      "total_tokens": 3544,
+      "estimated_cost_usd": 0.043847,
+      "estimated_payg_cash_cost_usd": 0.04604,
+      "direct_openai_reference_usd": 0.027522,
+      "gateway_premium_usd": 0.016325,
+      "pricing_as_of": "2026-08-26",
+      "store": false,
+      "operation": "local_repair",
+      "repair_attempt": 1
+    }
+  ],
+  "totals": {
+    "input_tokens": 2890,
+    "cached_input_tokens": 0,
+    "output_tokens": 1681,
+    "estimated_cost_usd": 0.052272,
+    "estimated_payg_cash_cost_usd": 0.054886,
+    "direct_openai_reference_usd": 0.032439,
+    "gateway_premium_usd": 0.019833
+  }
+}

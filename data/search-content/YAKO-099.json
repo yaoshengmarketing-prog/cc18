@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "movie_id": "YAKO-099",
+  "generated_at": "2026-08-31T01:31:28.716Z",
+  "source_snapshot_hash": "sha256:ebacbf501b249e5f46ee66be7081a87bcf0b4f26c3919ed6dbb63f44e6231ba0",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "如果你找的是以激拍企劃為核心、並把素人學生設定與角色逐步適應的變化放在前面的作品，YAKO-099 的吸引力在於設定驅動而非單純堆疊刺激。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "素人企劃",
+      "學生設定",
+      "高畫質",
+      "激拍"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？如果你找的是以激拍企劃為核心、並把素人學生設定與角色逐步適應的變化放在前面的作品，YAKO-099 的吸引力在於設定驅動而非單純堆疊刺激。",
+    "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+    "有哪些觀看取捨？只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+  ]
+}

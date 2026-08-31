@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-08-29T08:01:39.365Z",
+  "generated_at": "2026-08-31T01:33:30.821Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 19,
-  "formal_movie_count": 18,
+  "tracked_input_count": 20,
+  "formal_movie_count": 19,
   "demo_count": 1,
-  "published_count": 15,
+  "published_count": 16,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -179,6 +179,15 @@
       "is_demo": false,
       "is_published": false,
       "content_hash": "0a23679c8bb641853b11b96b36f7ec3ae4fcbb6162f1f0733cbc62a0cd0b57af"
+    },
+    {
+      "stable_movie_id": "cc18:YAKO-099",
+      "catalog_code": "YAKO-099",
+      "slug": "yako-099",
+      "master_path": "data/movie-master/yako-099.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "85b8906c22f0c163b7ba45da92dfaebd6b67560f2d9916e7f9605a0e09f6802e"
     }
   ]
 }

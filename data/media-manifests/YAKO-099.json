@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "YAKO-099",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-08-31T01:32:43.021Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/YAKO-099/hero-v1.jpg",
+      "r2_key": "works/2026/08/YAKO-099/hero-v1.jpg",
+      "bytes": 667094,
+      "sha256": "9b6355cacc34e65f5aa3b51b14d720d7f6ef99732fb42d45b954ffbaa02ea7e4",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "b0818e46-a896-4e2f-9e49-acbd72a6bd84",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/YAKO-099/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/08/YAKO-099/scene-vertical-v1.jpg",
+      "bytes": 959453,
+      "sha256": "772528f6e7f80c57c283dd9c5896e2ef74863ab803985158826af427b987ac2f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "12202c18-ae2d-4512-90ed-f28d0dd07f9c",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2805725,
+    "sha256": "cd1ca291b41c5c3136985986c56e065a782ad234d400023331954efbf7061d6b",
+    "target_r2_key": "works/2026/08/YAKO-099/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/YAKO-099/vertical-v1.mp4"
+  }
+}

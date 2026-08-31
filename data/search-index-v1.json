@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:188b1dcb30a4602baf66d29d76b944df21400d59b55b5758c4f1d7bd29edf50f",
-  "source_generated_at": "2026-08-29T08:01:39.365Z",
+  "source_revision": "sha256:8128748457f63aed17749a104574bc1aaf9dd1020471beb24564e00b39004fff",
+  "source_generated_at": "2026-08-31T01:33:30.821Z",
   "counts": {
-    "movies": 15,
+    "movies": 16,
     "performers": 14,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -185,6 +185,39 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:YAKO-099",
+        "source_cover": "https://cc18.tv/preview/80/b/8K34UTEb18f-800.jpg?v=1787877548",
+        "title": "YAKO-099 激拍素人企劃｜學生設定的角色轉變看點",
+        "catalog_code": "YAKO-099",
+        "release_date": "2026-08-27",
+        "performers": [],
+        "canonical_topics": [
+          {
+            "id": "amateur",
+            "label": "素人"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "student",
+            "label": "學生妹"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/yako-099/"
+      },
+      "performer_ids": [],
+      "search": {
+        "source_title": "【閱覽注意】在東〇上傳聞的兩位肛交小女孩，激拍。「就算年輕，人生也各有各的故事呢ー」",
+        "article_title": "YAKO-099 激拍素人企劃｜學生設定的角色轉變看點",
+        "display_short_title": null,
+        "slug": "yako-099"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:ENDS-322",
