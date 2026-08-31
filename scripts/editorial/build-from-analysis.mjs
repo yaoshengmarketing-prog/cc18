@@ -187,6 +187,21 @@ const generation = repairExisting
     instructions: system,
     input: prompt,
     requiredNonBlankFields: ['short_review'],
+    blankFieldRepair: {
+      field: 'short_review',
+      schema: {
+        type: 'object',
+        additionalProperties: false,
+        required: ['short_review'],
+        properties: {short_review: {type: 'string', minLength: 1, maxLength: 240, pattern: '.*\\S.*'}},
+      },
+      instructions: '只修補 short_review。根據提供的 public_source 與 editorial_brief，寫一段非空白、完整且有實質選片資訊的繁體中文短評。只能使用其中可追溯的作品設定、題材與成人詞彙；不得補寫來源未提供的情節、場景、鏡位、聲音、剪輯、表演或觀看結果。只輸出符合 Schema 的 JSON。',
+      input: {
+        movie_id: movieId,
+        public_source: safePublicSource,
+        editorial_brief: localCreativeBrief,
+      },
+    },
   });
 if (!repairExisting) await appendEditorialUsage({root, movieId, rewriteAttempt, usage: generation.usage});
 const result = normalizeEditorialResult(parseFirstJsonObject(generation.text), {movieId, safePublicSource, safeVideoAnalysis});

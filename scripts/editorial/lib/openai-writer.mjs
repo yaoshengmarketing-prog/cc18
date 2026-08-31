@@ -82,7 +82,10 @@ export function assertNonBlankStructuredFields(text, requiredFields = []) {
   const structured = parseFirstJsonObject(text);
   for (const field of requiredFields) {
     if (typeof structured[field] !== 'string' || !structured[field].trim()) {
-      throw new Error(`Editorial provider returned blank required field: ${field}`);
+      throw Object.assign(
+        new Error(`Editorial provider returned blank required field: ${field}`),
+        {code: 'EDITORIAL_BLANK_REQUIRED_FIELD', field},
+      );
     }
   }
 }
@@ -94,10 +97,14 @@ export async function requestStructuredEditorial({
   instructions,
   input,
   requiredNonBlankFields = [],
+  blankFieldRepair = null,
   fetchImplementation = fetch,
 }) {
   const attempts = Math.max(1, Number(config.api_retry_count ?? 1));
   let lastError;
+  let initialStructured = null;
+  let initialBlankError = null;
+  let repairPending = false;
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), Number(config.request_timeout_seconds ?? 300) * 1000);
@@ -111,8 +118,8 @@ export async function requestStructuredEditorial({
         signal: controller.signal,
         body: JSON.stringify({
           model: config.model,
-          instructions,
-          input: JSON.stringify(input),
+          instructions: repairPending ? blankFieldRepair.instructions : instructions,
+          input: JSON.stringify(repairPending ? blankFieldRepair.input : input),
           max_output_tokens: config.max_output_tokens,
           reasoning: {effort: config.reasoning_effort},
           store: false,
@@ -122,7 +129,7 @@ export async function requestStructuredEditorial({
               type: 'json_schema',
               name: 'cc18_editorial_draft',
               strict: true,
-              schema,
+              schema: repairPending ? blankFieldRepair.schema : schema,
             },
           },
         }),
@@ -137,8 +144,27 @@ export async function requestStructuredEditorial({
         lastError = error;
       } else {
         const text = extractResponseText(body);
-        assertNonBlankStructuredFields(text, requiredNonBlankFields);
-        return {text, usage: usageReceipt(body, config)};
+        try {
+          assertNonBlankStructuredFields(text, requiredNonBlankFields);
+          if (!repairPending) return {text, usage: usageReceipt(body, config)};
+          const patch = parseFirstJsonObject(text);
+          return {
+            text: JSON.stringify({...initialStructured, [blankFieldRepair.field]: patch[blankFieldRepair.field]}),
+            usage: usageReceipt(body, config),
+          };
+        } catch (error) {
+          if (repairPending) {
+            throw new Error(`Editorial provider ${config.provider}/${config.model} targeted ${blankFieldRepair.field} repair failed; original failure: ${initialBlankError.message}; repair failure: ${error.message}`);
+          }
+          if (error?.code !== 'EDITORIAL_BLANK_REQUIRED_FIELD'
+            || !blankFieldRepair
+            || error.field !== blankFieldRepair.field
+            || attempt >= attempts) throw error;
+          initialStructured = parseFirstJsonObject(text);
+          initialBlankError = error;
+          repairPending = true;
+          lastError = error;
+        }
       }
     } catch (error) {
       lastError = error;

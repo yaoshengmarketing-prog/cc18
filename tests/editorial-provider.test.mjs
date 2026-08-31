@@ -59,8 +59,9 @@ test('structured request uses Responses API schema and store false', async () =>
   assert.equal(result.text, '{"ok":true}');
 });
 
-test('blank short_review retries through the existing provider retry loop', async () => {
+test('blank short_review uses one targeted repair request instead of regenerating the draft', async () => {
   let calls = 0;
+  const requestBodies = [];
   const result = await requestStructuredEditorial({
     apiKey: 'test-only',
     config: {...config, api_retry_count: 2},
@@ -68,9 +69,18 @@ test('blank short_review retries through the existing provider retry loop', asyn
     instructions: 'system',
     input: {movie_id: 'YAKO-099'},
     requiredNonBlankFields: ['short_review'],
-    fetchImplementation: async () => {
+    blankFieldRepair: {
+      field: 'short_review',
+      schema: {type: 'object', required: ['short_review'], properties: {short_review: {type: 'string'}}},
+      instructions: 'repair short review only',
+      input: {movie_id: 'YAKO-099', public_source: {core_source_concept: '來源設定'}, editorial_brief: {positioning: '選片定位'}},
+    },
+    fetchImplementation: async (_url, options) => {
       calls += 1;
-      const text = calls === 1 ? '{"short_review":"   "}' : '{"short_review":"具體且可追溯的作品摘要。"}';
+      requestBodies.push(JSON.parse(options.body));
+      const text = calls === 1
+        ? '{"title":"YAKO-099 測試","short_review":"   ","sections":["keep"]}'
+        : '{"short_review":"具體且可追溯的作品摘要。"}';
       return new Response(JSON.stringify({
         model: 'gpt-5.4', output: [{content: [{type: 'output_text', text}]}],
         usage: {input_tokens: 10, output_tokens: 5, total_tokens: 15},
@@ -78,7 +88,41 @@ test('blank short_review retries through the existing provider retry loop', asyn
     },
   });
   assert.equal(calls, 2);
+  assert.deepEqual(requestBodies[0].text.format.schema, {type: 'object'});
+  assert.deepEqual(requestBodies[1].text.format.schema.required, ['short_review']);
+  assert.equal(requestBodies[1].instructions, 'repair short review only');
+  assert.deepEqual(JSON.parse(requestBodies[1].input), {
+    movie_id: 'YAKO-099', public_source: {core_source_concept: '來源設定'}, editorial_brief: {positioning: '選片定位'},
+  });
+  assert.equal(JSON.parse(result.text).title, 'YAKO-099 測試');
+  assert.deepEqual(JSON.parse(result.text).sections, ['keep']);
   assert.equal(JSON.parse(result.text).short_review, '具體且可追溯的作品摘要。');
+});
+
+test('a blank targeted short_review repair stops with provider, model and original failure', async () => {
+  let calls = 0;
+  await assert.rejects(() => requestStructuredEditorial({
+    apiKey: 'test-only',
+    config: {...config, api_retry_count: 2},
+    schema: {type: 'object'},
+    instructions: 'full draft',
+    input: {movie_id: 'YAKO-099'},
+    requiredNonBlankFields: ['short_review'],
+    blankFieldRepair: {
+      field: 'short_review',
+      schema: {type: 'object', required: ['short_review'], properties: {short_review: {type: 'string'}}},
+      instructions: 'repair short review only',
+      input: {movie_id: 'YAKO-099', public_source: {}, editorial_brief: {}},
+    },
+    fetchImplementation: async () => {
+      calls += 1;
+      return new Response(JSON.stringify({
+        model: 'gpt-5.4', output: [{content: [{type: 'output_text', text: '{"short_review":"  "}'}]}],
+        usage: {input_tokens: 10, output_tokens: 5, total_tokens: 15},
+      }), {status: 200, headers: {'content-type': 'application/json'}});
+    },
+  }), /aitokenking\/gpt-5\.4 targeted short_review repair failed; original failure: Editorial provider returned blank required field: short_review/);
+  assert.equal(calls, 2);
 });
 
 test('non-blank short_review continues without an unnecessary retry', async () => {
