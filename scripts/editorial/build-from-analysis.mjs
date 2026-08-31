@@ -186,6 +186,7 @@ const generation = repairExisting
     schema: outputSchema,
     instructions: system,
     input: prompt,
+    requiredNonBlankFields: ['short_review'],
   });
 if (!repairExisting) await appendEditorialUsage({root, movieId, rewriteAttempt, usage: generation.usage});
 const result = normalizeEditorialResult(parseFirstJsonObject(generation.text), {movieId, safePublicSource, safeVideoAnalysis});

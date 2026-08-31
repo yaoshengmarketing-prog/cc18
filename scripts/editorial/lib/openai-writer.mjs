@@ -1,4 +1,5 @@
 import {resolve} from 'node:path';
+import {parseFirstJsonObject} from './provider-normalization.mjs';
 
 const wait = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
 
@@ -76,12 +77,23 @@ export function usageReceipt(response, config) {
   };
 }
 
+export function assertNonBlankStructuredFields(text, requiredFields = []) {
+  if (!requiredFields.length) return;
+  const structured = parseFirstJsonObject(text);
+  for (const field of requiredFields) {
+    if (typeof structured[field] !== 'string' || !structured[field].trim()) {
+      throw new Error(`Editorial provider returned blank required field: ${field}`);
+    }
+  }
+}
+
 export async function requestStructuredEditorial({
   apiKey,
   config,
   schema,
   instructions,
   input,
+  requiredNonBlankFields = [],
   fetchImplementation = fetch,
 }) {
   const attempts = Math.max(1, Number(config.api_retry_count ?? 1));
@@ -124,7 +136,9 @@ export async function requestStructuredEditorial({
         if (![408, 409, 429].includes(response.status) && response.status < 500) throw error;
         lastError = error;
       } else {
-        return {text: extractResponseText(body), usage: usageReceipt(body, config)};
+        const text = extractResponseText(body);
+        assertNonBlankStructuredFields(text, requiredNonBlankFields);
+        return {text, usage: usageReceipt(body, config)};
       }
     } catch (error) {
       lastError = error;

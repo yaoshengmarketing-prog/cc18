@@ -58,3 +58,46 @@ test('structured request uses Responses API schema and store false', async () =>
   assert.equal(requestBody.text.format.strict, true);
   assert.equal(result.text, '{"ok":true}');
 });
+
+test('blank short_review retries through the existing provider retry loop', async () => {
+  let calls = 0;
+  const result = await requestStructuredEditorial({
+    apiKey: 'test-only',
+    config: {...config, api_retry_count: 2},
+    schema: {type: 'object'},
+    instructions: 'system',
+    input: {movie_id: 'YAKO-099'},
+    requiredNonBlankFields: ['short_review'],
+    fetchImplementation: async () => {
+      calls += 1;
+      const text = calls === 1 ? '{"short_review":"   "}' : '{"short_review":"具體且可追溯的作品摘要。"}';
+      return new Response(JSON.stringify({
+        model: 'gpt-5.4', output: [{content: [{type: 'output_text', text}]}],
+        usage: {input_tokens: 10, output_tokens: 5, total_tokens: 15},
+      }), {status: 200, headers: {'content-type': 'application/json'}});
+    },
+  });
+  assert.equal(calls, 2);
+  assert.equal(JSON.parse(result.text).short_review, '具體且可追溯的作品摘要。');
+});
+
+test('non-blank short_review continues without an unnecessary retry', async () => {
+  let calls = 0;
+  const result = await requestStructuredEditorial({
+    apiKey: 'test-only',
+    config: {...config, api_retry_count: 2},
+    schema: {type: 'object'},
+    instructions: 'system',
+    input: {movie_id: 'YAKO-099'},
+    requiredNonBlankFields: ['short_review'],
+    fetchImplementation: async () => {
+      calls += 1;
+      return new Response(JSON.stringify({
+        model: 'gpt-5.4', output: [{content: [{type: 'output_text', text: '{"short_review":"正常摘要"}'}]}],
+        usage: {input_tokens: 10, output_tokens: 5, total_tokens: 15},
+      }), {status: 200, headers: {'content-type': 'application/json'}});
+    },
+  });
+  assert.equal(calls, 1);
+  assert.equal(JSON.parse(result.text).short_review, '正常摘要');
+});
