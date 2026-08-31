@@ -131,9 +131,9 @@ const safePublicSource = buildSafePublicSource(source, localCreativeBrief, taxon
 const safeVideoAnalysis = buildSafeVideoAnalysis(analysis);
 
 const sourceOnlyGuard = sourceOnly
-  ? '本次是 source-only：必須優先使用 safe_title_signals 中非演員、非畫質的來源概念，並以公開片名、公開簡介與企劃設定作為文章核心。允許以資深影評語氣創作性推演鏡位、收音氛圍、剪輯節奏、演技、表情、身體語言與場景銜接，讓文章具有完整的觀點、畫面感與閱讀價值；這些內容屬評論性重構，請列入 creative_reconstruction_notes。不可因此改動番號、演員、日期、系列等來源事實，也不可虛構演員私生活、真實身分或年齡。'
+  ? '本次是 source-only：正文只能使用 public_source 與本地 Editorial Brief 中可追溯的來源片名、公開簡介、人物關係、企劃設定、core_source_concept 與 topic_elements。要將這些資訊自然寫成完整段落，並說明它們如何影響選片判斷。沒有 video_analysis 證據時，不得聲稱已觀察到情節、場景銜接、鏡位、聲音、剪輯、演技、表情或身體語言，也不可虛構演員私生活、真實身分或年齡。'
   : '';
-const system = `你是 CC18 的繁體中文創作型資深影評編輯。採取「創作預設開放」原則：限制是為了防止番號、演員、日期、系列、來源連結、Registry、Canonical Tag 與發布狀態出錯，不是為了限制文章。public_source.core_source_concept 是本作來源片名、系列或簡介中最具辨識度的企劃核心；它必須出現在 title 或 seo_title，控制 selected_thesis，並在至少兩個不同段落中得到分析。熱門標籤不能取代它。通用的拘束、放開、覺醒、節奏或主導權只能是此核心造成的一項後果，不可成為全文唯一邏輯。public_source.topic_elements 是由 CC18 原始標籤確定映射的題材字詞；正文必須自然使用其中最重要的成人題材，解釋它們如何組合並回答選片問題，不可只堆關鍵字。Canonical Tag 由規則引擎決定；你只選 editorial_tag_ids，表示影評觀點而非來源事實。正文以內容完整、故事性、獨特切角、畫面感與選片價值為優先；你可以用主觀評論語氣創作性重構情節發展、人物動機、場景銜接、鏡位、聲音氛圍、剪輯節奏、演技、表情與敘事細節，使文章讀起來像完整影評，而不是資料摘要。將創作依據列入 creative_reconstruction_notes；不要把創作內容回寫 Registry、Canonical Tag 或來源紀錄，也不要虛構演員私生活、真實身分或年齡。${sourceOnlyGuard}公開欄位（title、seo_title、social_title、short_review、review_sections）不得提到 AI、模型、提示詞、QA、source-only、資料欄位或任何內部製作方法，也不用插入方法免責聲明。每一節先直接回答一個選片問題，再以本作具體的人物關係、場景、題材或表演細節支持判斷。句型要自然變化；「不是……而是……」「不在……而在……」「真正的重點……」「比較聰明的地方……」「最聰明的地方……」全篇合計原則上不超過一次，而且不得出現在段落標題。不要用對比翻轉代替論證，例如直接寫「蘭華在多人場面裡仍維持畫面中心」，不要寫「關鍵不在人多，而在蘭華」。title_signals 必須從 safe_title_signals 原樣選取二至四個，且必須包含 core_source_concept；顯示標題、SEO 標題及社群標題都必須包含番號。decision_guide 必須直接協助選片。演員未知時不可發明姓名。只輸出符合 JSON Schema 的 JSON。`;
+const system = `你是 CC18 的繁體中文資深影評編輯。public_source.core_source_concept 是本作來源片名、系列或簡介中最具辨識度的企劃核心；它必須出現在 title 或 seo_title，控制 selected_thesis，並在至少兩個不同段落中得到實質分析。public_source.topic_elements 是由 CC18 原始標籤確定映射的題材字詞；正文必須自然使用重要的成人題材，說明題材與設定的組合、選片價值與取捨，不可只堆關鍵字。Canonical Tag 由規則引擎決定；你只選 editorial_tag_ids，表示影評觀點而非來源事實。文章要完整、具體且有選片價值，但所有作品事實只能來自 public_source、Editorial Brief 或 video_analysis；不得把未提供的情節、場景、鏡位、聲音、剪輯、表演或觀看結果寫成事實。${sourceOnlyGuard}公開欄位不得提到 AI、模型、提示詞、QA、source-only、資料欄位或內部製作方法。只能輸出 sections，不要輸出 review_sections；sections 必須有六至七節，每節 body 至少 180 字。每節先直接回答一個選片問題，再以可追溯的人物關係、設定或題材支持判斷。最後一節必須同時說明適合與不適合的觀眾。句型要自然變化，不得以公式化翻轉句代替論證。title_signals 必須從 safe_title_signals 原樣選取二至四個，且必須包含 core_source_concept；顯示標題、SEO 標題及社群標題都必須包含番號。decision_guide.thesis 必須至少二十個中文字並直接協助選片。演員未知時不可發明姓名。只輸出符合 JSON Schema 的 JSON。`;
 const prompt = {
   task: '產生可審查的 Editorial Brief 與影評草稿',
   public_source: safePublicSource,
@@ -143,6 +143,13 @@ const prompt = {
   recent_review_titles: registry.records.map(({id}) => id).filter((id) => id !== movieId),
   editorial_mode: sourceOnly ? 'creative_first_source_only' : 'creative_first_video_enhanced',
   method_note_location: '網站編輯方法頁；正文不需重複免責句',
+  section_contract: {
+    output_field: 'sections',
+    count: '6-7',
+    minimum_body_characters: 180,
+    required_development: ['core_source_concept 至少兩節', 'topic_elements 至少兩節', '最後一節同時說明適合與不適合觀眾'],
+    evidence_boundary: '只寫 public_source、Editorial Brief 或 video_analysis 可證明的作品內容',
+  },
   rewrite_attempt: rewriteAttempt,
 };
 
@@ -153,6 +160,10 @@ if (feedbackArgument) {
     sitewide_reused_sentences: '刪除可套用到其他作品的結尾與選片句，重新撰寫開場、段落邏輯及結論，不得沿用站內既有完整句子。',
     overused_conditional_review_voice: '直接提出並支持評論判斷；不要反覆使用「若成立」或「有機會」把結論停留在假設狀態。段落可以提出問題，但同一段必須給出明確答案。',
     missing_quick_decision: 'decision_guide.thesis 必須至少二十個中文字，直接說明本作最重要的企劃特色、呈現方式與選片取捨，不能只寫短標籤或片語。',
+    missing_decision_value: '最後一節與 decision_guide 必須同時交代適合誰、不適合誰與具體取捨，不可只重複題材名稱。',
+    body_lacks_source_adult_vocabulary: '將 public_source.topic_elements 中有來源的成人詞彙自然寫入至少兩個完整段落，說明它們在企劃中的作用，不可只列詞。',
+    source_core_concept_not_developed: '以 public_source.core_source_concept 組織全文，至少在兩個不同段落說明設定、題材組合與選片差異。',
+    insufficient_sections: '輸出欄位必須是 sections，且必須有六至七個不同段落；每節 body 至少 180 字，不得改用 review_sections 或只回傳摘要。',
   };
   const failureReasons = feedback.failure_reasons ?? [
     ...(feedback.issues ?? []),

@@ -61,8 +61,10 @@ The article must:
 - answer what the work primarily sells, how it differs from adjacent works, who should choose it and who may prefer something else;
 - prioritize a coherent, distinctive and engaging editorial narrative over factual reconstruction of the video;
 - keep methodology on the site method page instead of inserting a repetitive disclaimer into every article;
-- allow invented plot details and creative reconstruction inside the editorial layer;
-- never convert creative reconstruction into Registry facts, source Tags, canonical Tags or claimed Video Evidence;
+- turn the source record and editorial brief's supported premise, relationships, topic elements and adult vocabulary into complete, informative paragraphs;
+- only describe plot, scenes, camera, audio, editing, performance or observed outcomes when the supplied Video Evidence supports them; never invent those details to make source-only copy sound like a viewed review;
+- return the long-form body in `sections` with six to seven sections, not in an alternate `review_sections` field;
+- never convert editorial interpretation into Registry facts, source Tags, canonical Tags or claimed Video Evidence;
 - never invent off-screen claims about a real performer's private life, identity or age;
 - use section headings that fit the selected thesis rather than copying a universal visible template.
 

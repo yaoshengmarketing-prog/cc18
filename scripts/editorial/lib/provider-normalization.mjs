@@ -83,7 +83,12 @@ function derivedSourceEvidence(safePublicSource) {
 }
 
 function normalizedSections(raw, review) {
-  let sections = raw.sections ?? [];
+  const sectionArray = (value) => Array.isArray(value) ? value : [];
+  let sections = [
+    sectionArray(raw.sections),
+    sectionArray(raw.review_sections),
+    sectionArray(raw.reviewSections),
+  ].reduce((longest, candidate) => candidate.length > longest.length ? candidate : longest, []);
   if (Array.isArray(review.sections)) {
     const wrapped = [
       firstText(review.intro, review.opening) ? {heading: '這部作品先賣什麼', body: firstText(review.intro, review.opening)} : null,
@@ -125,7 +130,14 @@ function normalizedSections(raw, review) {
     if (reviewSections.length > sections.length) sections = reviewSections;
   }
   const normalized = sections
-    .map(({heading, body, content}) => ({heading: clip(heading, 50), body: clip(body ?? content, 700)}))
+    .map((section, index) => {
+      if (typeof section === 'string') {
+        return {heading: `作品重點 ${index + 1}`, body: clip(section, 700)};
+      }
+      const heading = section?.heading ?? section?.title ?? section?.section_heading ?? section?.name;
+      const body = section?.body ?? section?.content ?? section?.text ?? section?.analysis ?? section?.paragraph;
+      return {heading: clip(heading, 50), body: clip(body, 700)};
+    })
     .filter(({heading, body}) => heading && body)
   if (normalized.length > 7) {
     normalized[1].body = clip(`${normalized[0].body}\n\n${normalized[1].body}`, 700);
@@ -227,8 +239,8 @@ export function normalizeEditorialResult(raw, {movieId, safePublicSource, safeVi
     editorial_tag_ids: raw.editorial_tag_ids?.length ? raw.editorial_tag_ids : (raw.canonical_tag_ids?.length ? raw.canonical_tag_ids : derivedEditorialTags(safeVideoAnalysis)),
     evidence: raw.evidence?.length ? raw.evidence : (safeVideoAnalysis.observations?.length ? derivedEvidence(safeVideoAnalysis) : derivedSourceEvidence(safePublicSource)),
     creative_reconstruction_notes: raw.creative_reconstruction_notes ?? raw.creativeNotes ?? [
-      '正文允許依核心題材補寫敘事銜接與人物動機',
-      '創作性內容只屬影評正文，不作為來源或影片證據',
+      '正文只將來源記錄與編輯摘要中可追溯的設定、題材與詞彙組織為選片說明',
+      '未有影片證據時，不將場景、鏡位、聲音、表演或情節寫成已觀察事實',
     ],
     unsupported_claims_excluded: raw.unsupported_claims_excluded ?? brief.risk_notes ?? [
       '創作內容不改動番號、演員、日期、系列、來源連結或 Registry',

@@ -160,3 +160,34 @@ test('recovers title fields nested inside a provider review wrapper', () => {
   assert.equal(normalized.seo_title, 'TEST-006 密着マッサージ影評');
   assert.equal(normalized.social_title, 'TEST-006 選片重點');
 });
+
+test('preserves top-level review_sections returned alongside an empty sections array', () => {
+  const safePublicSource = {
+    core_source_concept: '密着企劃',
+    topic_elements: {adult_topics: ['口交']},
+    safe_title_signals: [
+      {type: 'theme', value: '密着企劃', source_field: 'title'},
+      {type: 'adult_topic', value: '口交', source_field: 'source_tags'},
+    ],
+  };
+  const normalized = normalizeEditorialResult({
+    title: 'YAKO-099 密着企劃',
+    title_signals: safePublicSource.safe_title_signals,
+    sections: [],
+    review_sections: Array.from({length: 6}, (_, index) => ({
+      title: `選片問題 ${index + 1}`,
+      text: `${index < 2 ? '密着企劃' : '口交題材'}的來源設定與選片說明。${'這段只整理可追溯的作品資訊，不將未觀看內容寫成事實。'.repeat(5)}`,
+    })),
+    decision_guide: {
+      thesis: '這部作品以密着企劃與口交題材的組合，提供明確而可追溯的選片方向。',
+      audience_for: ['偏好密着企劃設定的觀眾', '重視口交題材的觀眾'],
+      audience_not_for: ['偏好其他企劃設定的觀眾', '不偏好口交題材的觀眾'],
+    },
+  }, {movieId: 'YAKO-099', safePublicSource, safeVideoAnalysis: {observations: []}});
+
+  assert.equal(normalized.sections.length, 6);
+  assert.equal(normalized.sections[0].heading, '選片問題 1');
+  assert.match(normalized.sections[0].body, /密着企劃/);
+  assert.match(normalized.sections[2].body, /口交題材/);
+  assert.match(normalized.sections.at(-1).body, /未必適合/);
+});

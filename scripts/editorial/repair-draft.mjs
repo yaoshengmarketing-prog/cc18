@@ -47,7 +47,7 @@ for (let repairAttempt = 1; repairAttempt <= 3; repairAttempt += 1) {
     apiKey: editorialApiKey(config),
     config: {...config, max_output_tokens: Math.min(Number(config.max_output_tokens ?? 7000), 3500)},
     schema: localRepairSchemaFor(movieId),
-    instructions: '你是繁體中文影評的局部修稿編輯。只改寫指定 target，直接陳述判斷並補上具體作品指涉。replacement 必須是完整且非空的替換文字，長度至少保留原文七成。保留 preserve 中的每個字串、原本資訊與選片結論。每個 replacement 都必須清除「不是 A，而是 B」「不在 A，而在 B」「真正的重點」「真正的看點」「比較聰明的地方」等公式化翻轉，不得以近似句型重述；直接說出 B 及其具體理由。若 constraints 包含 abstract_editorial_vocabulary_overuse，terms 會列出過量詞彙；所有 replacement 合計最多保留一次各該詞，其餘改用具體動作、段落功能或同義表達。若 target 是 Markdown 標題，replacement 必須保留相同的 # 層級並改寫標題文字，例如把「關鍵不在人多，而在主角」改成「主角如何在人群中留下畫面中心」。若 target 是正文，不得增加新標題或拆成多段。不得新增作品事實、幕後流程或方法說明。每個 target 必須回傳一個 patch，paragraph 與 original_sha256 原樣照抄。',
+    instructions: '你是繁體中文影評的局部修稿編輯。只改寫指定 target，直接陳述判斷，並將 preserve 及請求中可追溯的來源設定、題材與成人詞彙自然寫成有實質資訊的完整文字。replacement 必須是完整且非空的替換文字，長度至少保留原文七成。保留 preserve 中的每個字串、原本資訊與選片結論。每個 replacement 都必須清除「不是 A，而是 B」「不在 A，而在 B」「真正的重點」「真正的看點」「比較聰明的地方」等公式化翻轉，不得以近似句型重述；直接說出 B 及其具體理由。若 constraints 包含 abstract_editorial_vocabulary_overuse，terms 會列出過量詞彙；所有 replacement 合計最多保留一次各該詞，其餘改用具體動作、段落功能或同義表達。若 target 是 Markdown 標題，replacement 必須保留相同的 # 層級並改寫標題文字。若 target 是正文，不得增加新標題或拆成多段。不得新增作品事實、幕後流程或方法說明；若沒有影片證據，不得虛構情節、場景、鏡位、聲音、剪輯、演技、表情或觀看結果。每個 target 必須回傳一個 patch，paragraph 與 original_sha256 原樣照抄。',
     input: {...request, repair_attempt: repairAttempt, previous_attempt_error: lastRepairError?.message ?? null},
   });
   await appendEditorialUsage({
