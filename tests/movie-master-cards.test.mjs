@@ -87,8 +87,19 @@ test('one exact untracked work reaches Movie Master, public cards and Search bef
       fileURLToPath(new URL('../scripts/build-movie-master.mjs', import.meta.url)),
       join(fixture, 'scripts', 'build-movie-master.mjs'),
     );
+    await cp(
+      fileURLToPath(new URL('../src/lib/series-identity.mjs', import.meta.url)),
+      join(fixture, 'src', 'lib', 'series-identity.mjs'),
+    );
     const registryPath = join(fixture, 'data', 'movie-registry.json');
     const registry = JSON.parse(await readFile(registryPath, 'utf8'));
+    for (const {id, review_status: reviewStatus} of registry.records) {
+      if (reviewStatus !== 'published') continue;
+      await cp(
+        join(projectRoot, 'data', 'source-records', `${id}.json`),
+        join(fixture, 'data', 'source-records', `${id}.json`),
+      );
+    }
     registry.records.push({
       id: 'TEST-999', actress: [], release_date: '2026-08-31', source_url: 'https://cc18.tv/player.php?uuid=test999&cat=19',
       source_site: 'cc18.tv', review_status: 'published', cover_status: 'remote_source', image_status: 'rendered',
@@ -138,7 +149,7 @@ featured: false
       release_date: '2026-08-31', actress: [], studio: null, series: null, source_tags: [],
       description: '隔離測試來源資料。', cover_source_url: 'https://cc18.tv/preview/test-999.jpg',
       source_url: 'https://cc18.tv/player.php?uuid=test999&cat=19', source_site: 'cc18.tv',
-      fetched_at: '2026-08-31T00:00:00.000Z', source_relations: {performers: []},
+      fetched_at: '2026-08-31T00:00:00.000Z', source_relations: {performers: [], series: []},
     }, null, 2)}\n`);
     const before = JSON.parse(await readFile(join(fixture, 'data', 'movie-master', 'index.json'), 'utf8'));
     await execFileAsync(process.execPath, ['scripts/build-movie-master.mjs', '--write', '--include-work=TEST-999'], {cwd: fixture});

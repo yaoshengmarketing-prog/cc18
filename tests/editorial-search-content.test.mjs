@@ -3,7 +3,8 @@ import assert from 'node:assert/strict';
 import {mkdtemp, mkdir, readFile, rm, writeFile} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
-import {writeSearchContent} from '../scripts/editorial/lib/search-content.mjs';
+import {sourceSnapshotHash, writeSearchContent} from '../scripts/editorial/lib/search-content.mjs';
+import './search-content-source-hash.test.mjs';
 
 test('builds a bounded search decision layer from safe observations', async () => {
   const root = await mkdtemp(join(tmpdir(), 'cc18-search-'));
@@ -48,7 +49,7 @@ test('builds a bounded search decision layer from safe observations', async () =
     assert.deepEqual(output.timeline_summary.map(({phase}) => phase), ['opening', 'middle', 'late']);
     assert.equal(output.recommendations[0].movie_id, 'TEST-002');
     assert.equal(output.recommendations[0].relation_type, 'same_performer');
-    assert.ok(output.source_snapshot_hash.startsWith('sha256:'));
+    assert.equal(output.source_snapshot_hash, sourceSnapshotHash(sourceRecordText));
     assert.doesNotMatch(JSON.stringify(output), /raw visual prose/i);
     assert.equal(JSON.parse(await readFile(outputPath, 'utf8')).movie_id, 'TEST-001');
   } finally {

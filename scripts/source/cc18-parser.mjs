@@ -4,6 +4,7 @@ import {
   parseCc18SearchRelationUrl,
   parsePerformerSourceUrl,
 } from '../../src/lib/performer-url.mjs';
+import {parseSeriesSourceId, seriesStableIdFromSourceId} from '../../src/lib/series-identity.mjs';
 
 const ALLOWED_HOSTS = new Set(['cc18.tv', 'www.cc18.tv']);
 
@@ -34,6 +35,38 @@ const performerRelations = ($, baseUrl, workId) => {
       stable_source_id: parsed.stableId,
       source_name: sourceName,
       source_url: parsed.absoluteUrl,
+    });
+  });
+  return relations;
+};
+
+const seriesRelations = ($, baseUrl, workId, observedAt) => {
+  const relations = [];
+  const seen = new Set();
+  $('.content a[href*="search.php"]').each((_, element) => {
+    const href = $(element).attr('href');
+    if (!href) return;
+    let classified;
+    try {
+      classified = parseCc18SearchRelationUrl(href, {baseUrl});
+    } catch (error) {
+      throw new Error(`${workId ?? 'unknown work'}: invalid CC18 content relation ${JSON.stringify(href)}: ${error.message}`);
+    }
+    if (classified.sourceType !== 'series') return;
+    const sourceId = parseSeriesSourceId(classified.sourceId);
+    const stableSourceId = seriesStableIdFromSourceId(sourceId);
+    const sourceName = clean($(element).text());
+    if (!sourceName) throw new Error(`${workId ?? 'unknown work'}: series relation has an empty source name: ${href}`);
+    if (seen.has(stableSourceId)) throw new Error(`${workId ?? 'unknown work'}: duplicate series relation ${stableSourceId}`);
+    if (relations.length > 0) throw new Error(`${workId ?? 'unknown work'}: multiple series identities are not allowed`);
+    seen.add(stableSourceId);
+    relations.push({
+      source_type: 'series',
+      source_id: sourceId,
+      stable_source_id: stableSourceId,
+      source_name: sourceName,
+      source_url: classified.absoluteUrl,
+      observed_at: observedAt,
     });
   });
   return relations;
@@ -82,6 +115,7 @@ export function parseWorkPage(html, sourceUrl) {
   const fetchedAt = new Date().toISOString();
   const parsedPerformerRelations = performerRelations($, sourceUrl, id)
     .map((relation) => ({...relation, observed_at: fetchedAt}));
+  const parsedSeriesRelations = seriesRelations($, sourceUrl, id, fetchedAt);
 
   const result = {
     id,
@@ -92,9 +126,10 @@ export function parseWorkPage(html, sourceUrl) {
     actress: parsedPerformerRelations.map(({source_name: sourceName}) => sourceName),
     source_relations: {
       performers: parsedPerformerRelations,
+      series: parsedSeriesRelations,
     },
     studio: linkTexts('.content a[href*="s_type=fac"]').at(0) ?? null,
-    series: linkTexts('.content a[href*="s_type=series"]').at(0) ?? null,
+    series: parsedSeriesRelations[0]?.source_name ?? null,
     source_tags: linkTexts('.tag-info a[href*="s_type=tag"]'),
     description,
     cover_source_url: coverValue ? new URL(coverValue, url).href : null,

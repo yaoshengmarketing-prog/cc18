@@ -580,14 +580,26 @@ test('content identity uses ordered stable relations and rejects malformed URLs'
 });
 
 test('catalog ignores excluded incomplete masters and distinguishes raw-only from no-data', async () => {
-  const inputs = clone(await formalInputs());
-  inputs.masters.push({stable_movie_id: 'bad excluded draft', source: {catalog_code: 'DRAFT', performer_relations: 'invalid'}});
+  const formal = await formalInputs();
+  const withoutExcluded = buildPerformerCatalog(clone(formal));
+  const baselineInputs = clone(formal);
+  baselineInputs.masters.push({stable_movie_id: 'bad excluded draft', source: {catalog_code: 'DRAFT', performer_relations: 'invalid'}});
+  const baseline = buildPerformerCatalog(baselineInputs);
+  assert.equal(baseline.raw_only_work_count, withoutExcluded.raw_only_work_count);
+  assert.equal(baseline.no_performer_data_work_count, withoutExcluded.no_performer_data_work_count);
+
+  const inputs = clone(baselineInputs);
   const publicIds = new Set(inputs.cards.map(({stable_movie_id: id}) => id));
-  const publicMaster = inputs.masters.find(({stable_movie_id: id, source}) => publicIds.has(id) && source.performer_relations.length === 0);
+  const publicMaster = inputs.masters.find(({stable_movie_id: id, source}) => (
+    publicIds.has(id)
+    && source.performer_relations.length === 0
+    && source.raw_performer_names.length === 0
+  ));
+  assert.ok(publicMaster, 'fixture must include a public work with no performer data');
   publicMaster.source.raw_performer_names = ['來源人物'];
   const catalog = buildPerformerCatalog(inputs);
-  assert.equal(catalog.raw_only_work_count, 1);
-  assert.equal(catalog.no_performer_data_work_count, 4);
+  assert.equal(catalog.raw_only_work_count, baseline.raw_only_work_count + 1);
+  assert.equal(catalog.no_performer_data_work_count, baseline.no_performer_data_work_count - 1);
   const unused = clone(inputs);
   unused.localization.performers.push({source_actor_id: 'cc18.tv:actor:999999', source_name: '未公開', name_ja: null, display_name_zh_tw: null, aliases: [], verification_status: 'SOURCE_NAME_UNCHANGED', source_references: [{}]});
   assert.equal(buildPerformerCatalog(unused).performers.some(({stable_performer_id: id}) => id === 'cc18.tv:actor:999999'), false);

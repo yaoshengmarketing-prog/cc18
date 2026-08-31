@@ -13,6 +13,16 @@
     "source_cover": "https://cc18.tv/preview/80/b/2Id2ijkXE6V-800.jpg?v=1787553649",
     "raw_performer_names": [],
     "performer_relations": [],
+    "series_relations": [
+      {
+        "source_type": "series",
+        "source_id": "20710",
+        "stable_source_id": "cc18.tv:series:20710",
+        "source_name": "同期女子と相部屋に！",
+        "source_url": "https://cc18.tv/search.php?s_type=series&s_tid=20710",
+        "observed_at": "2026-08-31T11:47:32.360Z"
+      }
+    ],
     "raw_studio_name": "Hunter",
     "raw_series_names": [
       "同期女子と相部屋に！"
@@ -75,7 +85,7 @@
         "evidence_status": "VALID",
         "source_media_kind": "source_full_video",
         "source_ref": null,
-        "source_identity_hash": "sha256:bcc42e05840eadf402cae06131192c6ab72de5c120637c9c207899cff9fde2d9",
+        "source_identity_hash": "sha256:4d3b5eb223f8fba6d162da33e2d5a14ae29b899f3f792da356f07850a693d974",
         "source_duration_seconds": 9716.867,
         "analysis_method": "distributed_sampling",
         "analyzed_by_type": "hybrid",

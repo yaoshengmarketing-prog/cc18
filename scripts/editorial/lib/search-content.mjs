@@ -3,6 +3,9 @@ import {mkdir, readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 
 const clip = (value, maximum = 240) => String(value ?? '').trim().slice(0, maximum);
+export const sourceSnapshotHash = (sourceRecordText) => (
+  `sha256:${createHash('sha256').update(sourceRecordText).digest('hex')}`
+);
 const mode = (values, fallback) => {
   const counts = new Map();
   for (const value of values.filter(Boolean)) counts.set(value, (counts.get(value) ?? 0) + 1);
@@ -79,7 +82,7 @@ export async function writeSearchContent({root, source, sourceRecordText, safeVi
     schema_version: 1,
     movie_id: source.id,
     generated_at: new Date().toISOString(),
-    source_snapshot_hash: `sha256:${createHash('sha256').update(sourceRecordText).digest('hex')}`,
+    source_snapshot_hash: sourceSnapshotHash(sourceRecordText),
     evidence_job_id: analysis.job_id ?? null,
     duration_seconds: safeVideoAnalysis.duration_seconds ?? null,
     sample_windows: safeVideoAnalysis.sample_windows ?? null,

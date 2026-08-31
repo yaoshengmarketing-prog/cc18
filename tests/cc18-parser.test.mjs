@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {parseListing, parseWorkPage} from '../scripts/source/cc18-parser.mjs';
+import './series-relations.test.mjs';
 
 test('parses required fields from a CC18 work page fixture', async () => {
   const html = await readFile(new URL('./fixtures/cc18-work-minimal.html', import.meta.url), 'utf8');
@@ -15,6 +16,14 @@ test('parses required fields from a CC18 work page fixture', async () => {
     stable_source_id: 'cc18.tv:actor:3',
     source_name: '測試演員',
     source_url: 'https://cc18.tv/search.php?s_type=actor&s_tid=3',
+    observed_at: item.fetched_at,
+  }]);
+  assert.deepEqual(item.source_relations.series, [{
+    source_type: 'series',
+    source_id: '2',
+    stable_source_id: 'cc18.tv:series:2',
+    source_name: '測試系列',
+    source_url: 'https://cc18.tv/search.php?s_type=series&s_tid=2',
     observed_at: item.fetched_at,
   }]);
   assert.equal(item.series, '測試系列');
@@ -161,4 +170,17 @@ test('keeps a catalogued work with no public synopsis as partial metadata', () =
   const item = parseWorkPage(html, 'https://cc18.tv/player.php?uuid=partial&cat=19');
   assert.equal(item.id, 'PART-001');
   assert.equal(item.description, null);
+  assert.deepEqual(item.source_relations.series, []);
+});
+
+test('rejects duplicate or multiple series identities on one work', () => {
+  const shell = (links) => `<h1>系列驗證 SERIES-001</h1><p class="movie_player_up_pic"><img src="/preview/series.jpg"></p><div class="date">2026-08-25</div><div class="content">${links}</div>`;
+  assert.throws(
+    () => parseWorkPage(shell('<a href="/search.php?s_type=series&s_tid=2">系列甲</a><a href="/search.php?s_type=series&s_tid=2">系列甲</a>'), 'https://cc18.tv/player.php?uuid=series&cat=19'),
+    /duplicate series relation/u,
+  );
+  assert.throws(
+    () => parseWorkPage(shell('<a href="/search.php?s_type=series&s_tid=2">系列甲</a><a href="/search.php?s_type=series&s_tid=3">系列乙</a>'), 'https://cc18.tv/player.php?uuid=series&cat=19'),
+    /multiple series identities/u,
+  );
 });
