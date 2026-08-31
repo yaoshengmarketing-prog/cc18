@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {parseListing, parseWorkPage} from '../scripts/source/cc18-parser.mjs';
 import './series-relations.test.mjs';
+import './tag-relations.test.mjs';
 
 test('parses required fields from a CC18 work page fixture', async () => {
   const html = await readFile(new URL('./fixtures/cc18-work-minimal.html', import.meta.url), 'utf8');
@@ -26,6 +27,14 @@ test('parses required fields from a CC18 work page fixture', async () => {
     source_url: 'https://cc18.tv/search.php?s_type=series&s_tid=2',
     observed_at: item.fetched_at,
   }]);
+  assert.deepEqual(item.source_relations.tags, [{
+    source_type: 'tag',
+    source_id: '4',
+    stable_source_id: 'cc18.tv:tag:4',
+    source_name: '測試標籤',
+    source_url: 'https://cc18.tv/search.php?s_type=tag&s_tid=4',
+    observed_at: item.fetched_at,
+  }]);
   assert.equal(item.series, '測試系列');
   assert.deepEqual(item.source_tags, ['測試標籤']);
   assert.equal(item.cover_source_url, 'https://cc18.tv/preview/demo-800.jpg');
@@ -36,7 +45,8 @@ test('namespaces relation IDs by source type instead of numeric s_tid alone', ()
   const item = parseWorkPage(html, 'https://cc18.tv/player.php?uuid=relation&cat=19');
   assert.deepEqual(item.actress, ['演員三']);
   assert.equal(item.source_relations.performers[0].stable_source_id, 'cc18.tv:actor:3');
-  assert.notEqual(item.source_relations.performers[0].stable_source_id, 'cc18.tv:tag:3');
+  assert.equal(item.source_relations.tags[0].stable_source_id, 'cc18.tv:tag:3');
+  assert.notEqual(item.source_relations.performers[0].stable_source_id, item.source_relations.tags[0].stable_source_id);
 });
 
 test('rejects non-canonical actor s_tid values instead of normalizing them', () => {
@@ -171,6 +181,26 @@ test('keeps a catalogued work with no public synopsis as partial metadata', () =
   assert.equal(item.id, 'PART-001');
   assert.equal(item.description, null);
   assert.deepEqual(item.source_relations.series, []);
+  assert.deepEqual(item.source_relations.tags, []);
+});
+
+test('tag relations preserve DOM order, allow same-name different IDs and reject duplicate IDs', () => {
+  const shell = (links) => `<h1>標籤驗證 TAG-001</h1><p class="movie_player_up_pic"><img src="/preview/tag.jpg"></p><div class="date">2026-08-25</div><div class="tag-info">${links}</div>`;
+  const item = parseWorkPage(shell('<a href="/search.php?s_type=tag&s_tid=9">同名</a><a href="/search.php?s_type=tag&s_tid=3">同名</a><a href="/search.php?s_type=tag&s_tid=7">第三</a>'), 'https://cc18.tv/player.php?uuid=tags&cat=19');
+  assert.deepEqual(item.source_relations.tags.map(({source_id: sourceId}) => sourceId), ['9', '3', '7']);
+  assert.deepEqual(item.source_tags, ['同名', '第三']);
+  assert.throws(
+    () => parseWorkPage(shell('<a href="/search.php?s_type=tag&s_tid=9">甲</a><a href="/search.php?s_type=tag&s_tid=9">甲</a>'), 'https://cc18.tv/player.php?uuid=tags&cat=19'),
+    /duplicate tag relation/u,
+  );
+});
+
+test('tag relations reject empty names and malformed tag URLs', () => {
+  const shell = (href, name = '標籤') => `<h1>標籤錯誤 TAG-002</h1><p class="movie_player_up_pic"><img src="/preview/tag.jpg"></p><div class="date">2026-08-25</div><div class="tag-info"><a href="${href}">${name}</a></div>`;
+  assert.throws(() => parseWorkPage(shell('/search.php?s_type=tag&s_tid=2', '  '), 'https://cc18.tv/player.php?uuid=tags&cat=19'), /empty source name/u);
+  for (const href of ['/search.php?s_type=tag&s_tid=02', '/search.php?s_type=tag&s_tid=0', '/search.php?s_type=tag&s_tid=%32']) {
+    assert.throws(() => parseWorkPage(shell(href), 'https://cc18.tv/player.php?uuid=tags&cat=19'), /TAG-002/u, href);
+  }
 });
 
 test('rejects duplicate or multiple series identities on one work', () => {

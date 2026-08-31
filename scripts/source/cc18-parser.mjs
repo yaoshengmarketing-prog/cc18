@@ -5,6 +5,7 @@ import {
   parsePerformerSourceUrl,
 } from '../../src/lib/performer-url.mjs';
 import {parseSeriesSourceId, seriesStableIdFromSourceId} from '../../src/lib/series-identity.mjs';
+import {parseTagSourceId, tagStableIdFromSourceId} from '../../src/lib/tag-identity.mjs';
 
 const ALLOWED_HOSTS = new Set(['cc18.tv', 'www.cc18.tv']);
 
@@ -72,6 +73,37 @@ const seriesRelations = ($, baseUrl, workId, observedAt) => {
   return relations;
 };
 
+const tagRelations = ($, baseUrl, workId, observedAt) => {
+  const relations = [];
+  const seen = new Set();
+  $('.tag-info a[href]').each((_, element) => {
+    const href = $(element).attr('href');
+    if (!href) return;
+    let classified;
+    try {
+      classified = parseCc18SearchRelationUrl(href, {baseUrl});
+    } catch (error) {
+      throw new Error(`${workId ?? 'unknown work'}: invalid CC18 tag-info relation ${JSON.stringify(href)}: ${error.message}`);
+    }
+    if (classified.sourceType !== 'tag') return;
+    const sourceId = parseTagSourceId(classified.sourceId);
+    const stableSourceId = tagStableIdFromSourceId(sourceId);
+    const sourceName = clean($(element).text());
+    if (!sourceName) throw new Error(`${workId ?? 'unknown work'}: tag relation has an empty source name: ${href}`);
+    if (seen.has(stableSourceId)) throw new Error(`${workId ?? 'unknown work'}: duplicate tag relation ${stableSourceId}`);
+    seen.add(stableSourceId);
+    relations.push({
+      source_type: 'tag',
+      source_id: sourceId,
+      stable_source_id: stableSourceId,
+      source_name: sourceName,
+      source_url: classified.absoluteUrl,
+      observed_at: observedAt,
+    });
+  });
+  return relations;
+};
+
 export function assertCc18Url(value) {
   return parseCc18SourcePageUrl(value);
 }
@@ -116,6 +148,7 @@ export function parseWorkPage(html, sourceUrl) {
   const parsedPerformerRelations = performerRelations($, sourceUrl, id)
     .map((relation) => ({...relation, observed_at: fetchedAt}));
   const parsedSeriesRelations = seriesRelations($, sourceUrl, id, fetchedAt);
+  const parsedTagRelations = tagRelations($, sourceUrl, id, fetchedAt);
 
   const result = {
     id,
@@ -127,6 +160,7 @@ export function parseWorkPage(html, sourceUrl) {
     source_relations: {
       performers: parsedPerformerRelations,
       series: parsedSeriesRelations,
+      tags: parsedTagRelations,
     },
     studio: linkTexts('.content a[href*="s_type=fac"]').at(0) ?? null,
     series: parsedSeriesRelations[0]?.source_name ?? null,

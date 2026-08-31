@@ -13,6 +13,7 @@ import {
 } from '../src/lib/performer-url.mjs';
 import {buildPerformerLocalizationMap} from '../src/lib/performer-localization-policy.mjs';
 import {parseSeriesSourceId, parseSeriesStableId, seriesStableIdFromSourceId} from '../src/lib/series-identity.mjs';
+import {parseTagSourceId, parseTagStableId, tagStableIdFromSourceId} from '../src/lib/tag-identity.mjs';
 import {workCanonicalUrl} from '../src/lib/work-url.mjs';
 
 const SCHEMA_VERSION = '1.1.0';
@@ -258,6 +259,55 @@ export const validateSeriesRelations = ({catalogCode, source, isPublished, serie
   return projection;
 };
 
+export const validateTagRelations = ({catalogCode, source, isPublished, tagNamesByStableId}) => {
+  const relations = source?.source_relations?.tags;
+  if (isPublished && !Array.isArray(relations)) fail(`${catalogCode}: published tag relations must be an array`);
+  if (relations === undefined) return [];
+  if (!Array.isArray(relations)) fail(`${catalogCode}: tag relations must be an array`);
+  const rawTagNames = cleanArray(source?.source_tags);
+  const projection = [];
+  const seen = new Set();
+  for (const relation of relations) {
+    const sourceId = parseTagSourceId(relation?.source_id);
+    const stableSourceId = relation?.stable_source_id;
+    parseTagStableId(stableSourceId);
+    const sourceName = cleanScalar(relation?.source_name);
+    const sourceUrl = relation?.source_url;
+    const observedAt = cleanScalar(relation?.observed_at);
+    if (relation?.source_type !== 'tag' || stableSourceId !== tagStableIdFromSourceId(sourceId)) {
+      fail(`${catalogCode}: invalid tag relation identity`);
+    }
+    if (seen.has(stableSourceId)) fail(`${catalogCode}: duplicate tag relation ${stableSourceId}`);
+    seen.add(stableSourceId);
+    let parsedUrl;
+    try { parsedUrl = parseCc18SearchRelationUrl(sourceUrl); } catch { fail(`${catalogCode}: invalid tag relation URL`); }
+    if (parsedUrl.sourceType !== 'tag' || parsedUrl.sourceId !== sourceId) {
+      fail(`${catalogCode}: tag relation URL/identity mismatch`);
+    }
+    if (!sourceName) fail(`${catalogCode}: tag source name is required`);
+    if (!observedAt || Number.isNaN(Date.parse(observedAt))) fail(`${catalogCode}: invalid tag observed_at`);
+    const priorName = tagNamesByStableId.get(stableSourceId);
+    if (priorName !== undefined && priorName !== sourceName) {
+      fail(`${catalogCode}: tag identity ${stableSourceId} has conflicting names`);
+    }
+    tagNamesByStableId.set(stableSourceId, sourceName);
+    projection.push({
+      source_type: 'tag',
+      source_id: sourceId,
+      stable_source_id: stableSourceId,
+      source_name: sourceName,
+      source_url: parsedUrl.absoluteUrl,
+      observed_at: observedAt,
+    });
+  }
+  const orderedUniqueNames = [...new Set(projection.map(({source_name: sourceName}) => sourceName))];
+  if (orderedUniqueNames.length !== rawTagNames.length
+    || orderedUniqueNames.some((name, index) => name !== rawTagNames[index])) {
+    fail(`${catalogCode}: typed tag/source tag name mismatch`);
+  }
+  return projection;
+};
+
 const normalizeCatalogCode = (value) => {
   const normalized = cleanScalar(value)?.normalize('NFKC').trim().toUpperCase() ?? null;
   if (!normalized) fail('Movie is missing catalog code');
@@ -422,6 +472,7 @@ export const buildAll = async ({includeWorkId = null} = {}) => {
   const performerLocalizations = performerDictionary(performerLocalization);
   const usedPerformerIds = new Set();
   const seriesNamesByStableId = new Map();
+  const tagNamesByStableId = new Map();
   const registryById = new Map((registry.records ?? []).map((record) => [record.id, record]));
   const taxonomyById = new Map((taxonomy.tags ?? []).map((tag) => [tag.id, tag]));
   const sourceTagMap = taxonomy.source_tag_map ?? {};
@@ -469,6 +520,12 @@ export const buildAll = async ({includeWorkId = null} = {}) => {
       source,
       isPublished,
       seriesNamesByStableId,
+    });
+    const tagRelations = validateTagRelations({
+      catalogCode,
+      source,
+      isPublished,
+      tagNamesByStableId,
     });
 
     const sourceTags = cleanArray(source?.source_tags ?? frontmatter.sourceTags);
@@ -531,6 +588,7 @@ export const buildAll = async ({includeWorkId = null} = {}) => {
         raw_performer_names: cleanArray(source?.actress ?? frontmatter.actress),
         performer_relations: performerRelations,
         ...(isPublished ? {series_relations: seriesRelations} : {}),
+        ...(isPublished ? {tag_relations: tagRelations} : {}),
         raw_studio_name: cleanScalar(source?.studio ?? frontmatter.studio),
         raw_series_names: cleanArray(Array.isArray(source?.series) ? source.series : source?.series ? [source.series] : frontmatter.series ? [frontmatter.series] : []),
         source_tags: sourceTags,
