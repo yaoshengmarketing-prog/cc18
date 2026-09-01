@@ -30,6 +30,133 @@ const cardTitle = (master) => [
   master.source?.catalog_code,
 ].map(clean).find(Boolean) ?? null;
 
+const evidenceError = (catalogCode, message) => new Error(`${catalogCode ?? 'Published work'}: ${message}`);
+const sameJson = (left, right) => JSON.stringify(left) === JSON.stringify(right);
+const isPublicMaster = (entry, master) => (
+  entry.is_published === true
+  && master.publishing?.is_published === true
+  && entry.is_demo !== true
+  && master.is_demo !== true
+  && master.publishing?.indexability === 'INDEX'
+);
+
+export const projectMovieMasterEvidence = ({master, searchContent}) => {
+  const catalogCode = master?.source?.catalog_code;
+  const stableMovieId = master?.stable_movie_id;
+  if (typeof catalogCode !== 'string' || !catalogCode) throw evidenceError(catalogCode, 'Evidence projection requires catalog_code');
+  if (stableMovieId !== `cc18:${catalogCode}`) throw evidenceError(catalogCode, 'Evidence stable_movie_id does not match catalog_code');
+  if (!searchContent || searchContent.movie_id !== catalogCode) throw evidenceError(catalogCode, 'Search Content identity does not match Movie Master');
+
+  const evidenceLevel = master.editorial?.article_evidence_level;
+  const evidenceScope = master.editorial?.article_evidence_scope;
+  const records = master.evidence?.records;
+  if (!Array.isArray(records)) throw evidenceError(catalogCode, 'evidence.records must be an array');
+
+  if (evidenceLevel === 'PUBLIC_METADATA') {
+    if (evidenceScope !== 'SOURCE_TITLE_DESCRIPTION_TAGS') {
+      throw evidenceError(catalogCode, 'PUBLIC_METADATA requires SOURCE_TITLE_DESCRIPTION_TAGS scope');
+    }
+    if (records.length !== 0) throw evidenceError(catalogCode, 'PUBLIC_METADATA must not contain Evidence records');
+    if (searchContent.evidence_job_id !== null && searchContent.evidence_job_id !== undefined) {
+      throw evidenceError(catalogCode, 'PUBLIC_METADATA Search Content must not declare an Evidence job');
+    }
+    if (searchContent.sample_windows !== 0 && searchContent.sample_windows !== null) {
+      throw evidenceError(catalogCode, 'PUBLIC_METADATA Search Content must use 0 or null sample_windows');
+    }
+    if (searchContent.timeline_summary !== null
+      && searchContent.timeline_summary !== undefined
+      && (!Array.isArray(searchContent.timeline_summary) || searchContent.timeline_summary.length !== 0)) {
+      throw evidenceError(catalogCode, 'PUBLIC_METADATA Search Content must not contain a timeline');
+    }
+    return {
+      stable_movie_id: stableMovieId,
+      catalog_code: catalogCode,
+      href: master.publishing?.canonical_url,
+      evidence_level: evidenceLevel,
+      evidence_scope: evidenceScope,
+      sample_windows: null,
+      timeline: [],
+    };
+  }
+
+  if (evidenceLevel !== 'DISTRIBUTED_SAMPLE') throw evidenceError(catalogCode, `unsupported Evidence level ${evidenceLevel}`);
+  if (evidenceScope !== 'DISTRIBUTED_VIDEO_SAMPLE') {
+    throw evidenceError(catalogCode, 'DISTRIBUTED_SAMPLE requires DISTRIBUTED_VIDEO_SAMPLE scope');
+  }
+  if (records.length !== 1) throw evidenceError(catalogCode, 'DISTRIBUTED_SAMPLE requires exactly one Evidence record');
+
+  const [record] = records;
+  if (record.movie_id !== stableMovieId) throw evidenceError(catalogCode, 'Evidence record movie_id does not match Movie Master');
+  if (record.evidence_level !== evidenceLevel) throw evidenceError(catalogCode, 'Evidence record level does not match Movie Master');
+  if (record.evidence_status !== 'VALID' || record.validation_status !== 'VALID') {
+    throw evidenceError(catalogCode, 'distributed Evidence record must be VALID');
+  }
+  if (record.analysis_method !== 'distributed_sampling') {
+    throw evidenceError(catalogCode, 'distributed Evidence record must use distributed_sampling');
+  }
+  const sampleWindows = record.coverage_summary?.sample_windows;
+  if (!Number.isInteger(sampleWindows) || sampleWindows <= 0) {
+    throw evidenceError(catalogCode, 'distributed Evidence sample_windows must be a positive integer');
+  }
+  if (typeof searchContent.evidence_job_id !== 'string' || !searchContent.evidence_job_id
+    || searchContent.evidence_job_id !== searchContent.evidence_job_id.trim()) {
+    throw evidenceError(catalogCode, 'distributed Search Content requires a canonical Evidence job ID');
+  }
+  if (record.evidence_id !== `cc18:${catalogCode}:distributed-sample:${searchContent.evidence_job_id}`) {
+    throw evidenceError(catalogCode, 'Search Content Evidence job does not match Evidence record');
+  }
+  if (typeof record.source_identity_hash !== 'string'
+    || searchContent.source_snapshot_hash !== record.source_identity_hash) {
+    throw evidenceError(catalogCode, 'Search Content source hash does not match Evidence record');
+  }
+  if (searchContent.sample_windows !== sampleWindows) {
+    throw evidenceError(catalogCode, 'Search Content sample_windows does not match Evidence record');
+  }
+  const timeline = record.observation_summary;
+  if (!Array.isArray(timeline) || !Array.isArray(searchContent.timeline_summary)
+    || !sameJson(searchContent.timeline_summary, timeline)) {
+    throw evidenceError(catalogCode, 'Search Content timeline does not match Evidence record');
+  }
+  for (const item of timeline) {
+    if (!['opening', 'middle', 'late'].includes(item?.phase)
+      || typeof item.label !== 'string' || !item.label
+      || typeof item.summary !== 'string' || !item.summary
+      || !Array.isArray(item.evidence_windows) || item.evidence_windows.length === 0
+      || item.evidence_windows.some((index) => !Number.isInteger(index) || index < 0 || index >= sampleWindows)) {
+      throw evidenceError(catalogCode, 'Evidence record contains an invalid timeline observation');
+    }
+  }
+
+  return {
+    stable_movie_id: stableMovieId,
+    catalog_code: catalogCode,
+    href: master.publishing?.canonical_url,
+    evidence_level: evidenceLevel,
+    evidence_scope: evidenceScope,
+    sample_windows: sampleWindows,
+    timeline: timeline.map((item) => ({...item, evidence_windows: [...item.evidence_windows]})),
+  };
+};
+
+export const loadPublishedWorkEvidenceCatalog = async ({
+  loadIndex = () => readJson('data/movie-master/index.json'),
+  loadMaster = readJson,
+  loadSearchContent = readJson,
+} = {}) => {
+  const index = await loadIndex();
+  validateCanonicalMovieMasterIndexEntries(index?.entries);
+  const records = [];
+  for (const entry of index.entries ?? []) {
+    const master = await loadMaster(entry.master_path);
+    validateMovieMasterAgainstIndexEntry(entry, master);
+    if (!isPublicMaster(entry, master)) continue;
+    const catalogCode = master.source.catalog_code;
+    const searchContent = await loadSearchContent(`data/search-content/${catalogCode}.json`);
+    records.push(projectMovieMasterEvidence({master, searchContent}));
+  }
+  return {records};
+};
+
 export const loadPublishedMovieCardRecords = async ({
   loadIndex = () => readJson('data/movie-master/index.json'),
   loadTaxonomy = () => readJson('data/taxonomy.json'),
@@ -50,11 +177,7 @@ export const loadPublishedMovieCardRecords = async ({
     const title = cardTitle(master);
     const href = resolveInternalWorkHref(master.publishing?.canonical_url, master.slug);
     const qualifies = Boolean(
-      entry.is_published === true
-      && master.publishing?.is_published === true
-      && entry.is_demo !== true
-      && master.is_demo !== true
-      && master.publishing?.indexability === 'INDEX'
+      isPublicMaster(entry, master)
       && clean(master.stable_movie_id)
       && clean(master.slug)
       && clean(master.source?.catalog_code)

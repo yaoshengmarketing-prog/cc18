@@ -1,0 +1,56 @@
+---
+interface EvidenceProjection {
+  evidence_level: 'PUBLIC_METADATA' | 'DISTRIBUTED_SAMPLE';
+  sample_windows: number | null;
+}
+
+interface Props {evidence: EvidenceProjection;}
+const {evidence} = Astro.props;
+const isDistributed = evidence.evidence_level === 'DISTRIBUTED_SAMPLE';
+const title = isDistributed ? '依據：分散影片抽樣' : '依據：公開來源資料';
+const description = isDistributed
+  ? `本文使用 ${evidence.sample_windows} 個分散抽樣窗；僅支持已引用窗口內的視覺觀察，不代表逐秒完整觀看，也不支持未轉錄音訊或抽樣窗口之間的完整順序。選片建議與解讀屬本站編輯整理。`
+  : '本文依來源標題、公開簡介與來源標籤整理，未使用影片抽樣。選片建議與解讀屬本站編輯整理，不等於來源事實或完整觀看結論。';
+---
+
+<section class="evidence-notice" data-evidence-notice aria-labelledby="evidence-notice-title">
+  <div>
+    <p class="eyebrow">資料依據</p>
+    <h2 id="evidence-notice-title">{title}</h2>
+  </div>
+  <p>{description}</p>
+  <a href="/method/">查看資料與編輯方法</a>
+</section>
+
+<style>
+  .evidence-notice {
+    display: grid;
+    grid-template-columns: minmax(12rem, .75fr) minmax(0, 2fr) auto;
+    gap: 1rem 1.5rem;
+    align-items: center;
+    margin: 1.25rem 0;
+    padding: 1.15rem 1.25rem;
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--apricot-dark);
+    background: var(--white);
+  }
+
+  .evidence-notice h2,
+  .evidence-notice p { margin: 0; }
+  .evidence-notice h2 { font-size: clamp(1.05rem, 2vw, 1.3rem); }
+  .evidence-notice > p { line-height: 1.75; color: var(--slate); }
+  .evidence-notice a {
+    color: var(--ink);
+    font-weight: 800;
+    text-underline-offset: .24rem;
+  }
+  .evidence-notice a:focus-visible {
+    outline: 3px solid var(--apricot-dark);
+    outline-offset: .25rem;
+  }
+
+  @media (max-width: 720px) {
+    .evidence-notice { grid-template-columns: 1fr; }
+    .evidence-notice a { justify-self: start; }
+  }
+</style>

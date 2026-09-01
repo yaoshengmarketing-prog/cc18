@@ -23,6 +23,8 @@ jobs:
       - run: npm run source:test
       - name: Run series relation tests
         run: npm run series:test
+      - name: Run Evidence notice tests
+        run: npm run evidence:test
       - run: npm run localization:test
       - run: npm run catalog-search:test
       - run: npm run media:test
@@ -40,3 +42,5 @@ jobs:
       - run: npm run image:provider:test
       - run: npm run publisher:test
       - run: npm run build
+      - name: Validate Evidence notice output
+        run: npm run evidence:postbuild

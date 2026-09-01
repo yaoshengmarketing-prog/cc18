@@ -4,6 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import TagList from '../../components/TagList.astro';
 import VideoPlayer from '../../components/VideoPlayer.astro';
 import WorkFacts from '../../components/WorkFacts.astro';
+import EvidenceNotice from '../../components/EvidenceNotice.astro';
 import DecisionGuide from '../../components/DecisionGuide.astro';
 import TopicElements from '../../components/TopicElements.astro';
 import {formatDate, reviewEditorialTags, visibleTags} from '../../lib/reviews';
@@ -13,6 +14,7 @@ import {searchContentFor} from '../../lib/search-content';
 import {reviewQualityFor} from '../../lib/review-quality';
 import {loadPerformerCatalog} from '../../lib/performer-catalog.mjs';
 import {loadSeriesCatalog} from '../../lib/series-catalog.mjs';
+import {loadPublishedWorkEvidenceCatalog} from '../../lib/movie-master.mjs';
 
 interface OrderedPerformerRecord {
   stable_performer_id: string;
@@ -27,10 +29,11 @@ interface OrderedSeriesRecord {
 }
 
 export async function getStaticPaths() {
-  const [reviews, performerCatalog, seriesCatalog] = await Promise.all([
+  const [reviews, performerCatalog, seriesCatalog, evidenceCatalog] = await Promise.all([
     getCollection('reviews', ({data}) => data.status === 'published'),
     loadPerformerCatalog(),
     loadSeriesCatalog(),
+    loadPublishedWorkEvidenceCatalog(),
   ]);
   return reviews.map((review) => ({
     params: {id: review.data.id.toLowerCase()},
@@ -44,10 +47,11 @@ export async function getStaticPaths() {
         stable_movie_id: string;
         series: OrderedSeriesRecord[];
       }>).find(({stable_movie_id: stableMovieId}) => stableMovieId === `cc18:${review.data.id}`)?.series ?? [],
+      evidence: evidenceCatalog.records.find(({stable_movie_id: stableMovieId}) => stableMovieId === `cc18:${review.data.id}`),
     },
   }));
 }
-const {review, performers, series} = Astro.props;
+const {review, performers, series, evidence} = Astro.props;
 const {Content} = await render(review);
 const allReviews = await getCollection('reviews', ({data}) => data.status === 'published');
 const related = new Map(allReviews.map((item) => [item.data.id, item]));
@@ -56,6 +60,7 @@ const search = searchContentFor(review.data.id);
 const quality = reviewQualityFor(review.data.id);
 const editorialTags = reviewEditorialTags(review);
 if (!quality?.approved_for_publish) throw new Error(`${review.data.id}: approved review quality record missing`);
+if (!evidence) throw new Error(`${review.data.id}: Movie Master Evidence projection missing`);
 const pageUrl = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
 const imageUrl = new URL(review.data.heroUrl ?? review.data.coverUrl, Astro.site ?? Astro.url.origin);
 const structuredData: Array<Record<string, unknown>> = [
@@ -149,8 +154,9 @@ if (review.data.videoUrl) structuredData.push({
       </figure>
     )}
     <WorkFacts review={review} source={source} search={search} performers={performers} series={series} />
+    <EvidenceNotice evidence={evidence} />
     <TopicElements sourceTags={review.data.sourceTags} />
-    {search && <DecisionGuide content={search} related={related} />}
+    {search && <DecisionGuide content={search} related={related} timeline={evidence.timeline} />}
     <div class="article-layout">
       <div class="article-body">
         <div class="article-kicker"><p class="eyebrow">FULL REVIEW</p><h2>完整影評</h2></div>
@@ -159,7 +165,6 @@ if (review.data.videoUrl) structuredData.push({
       <aside>
         <p class="eyebrow">QUICK LINKS</p>
         <h2>繼續找片</h2>
-        <p>作品資料整理自 CC18。{search?.sample_windows ? `本篇另參考 ${search.sample_windows} 個時間軸觀察窗口。` : '完整影片內容請以原始作品頁為準。'}</p>
         <a href="/method/">查看資料與編輯說明 →</a>
         <a href={review.data.sourceUrl} target="_blank" rel="sponsored noopener">開啟 CC18 原始頁面 ↗</a>
       </aside>

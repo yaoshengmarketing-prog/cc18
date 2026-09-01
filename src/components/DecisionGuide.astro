@@ -4,8 +4,14 @@ import {reviewHref} from '../lib/reviews';
 import type {SearchContent} from '../lib/search-content';
 import {decisionLevelLabel, paceLabel} from '../lib/search-content';
 
-interface Props {content: SearchContent; related: Map<string, Review>;}
-const {content, related} = Astro.props;
+interface TimelineItem {
+  phase: 'opening' | 'middle' | 'late';
+  label: string;
+  summary: string;
+  evidence_windows: number[];
+}
+interface Props {content: SearchContent; related: Map<string, Review>; timeline?: TimelineItem[];}
+const {content, related, timeline = []} = Astro.props;
 const phaseLabel = {opening: '開端', middle: '中段', late: '後段'};
 ---
 
@@ -15,7 +21,6 @@ const phaseLabel = {opening: '開端', middle: '中段', late: '後段'};
       <p class="eyebrow">WATCH DECISION BOARD</p>
       <h2 id="decision-title">先判斷這部適不適合你</h2>
     </div>
-    <p>{content.sample_windows ? `依 ${content.sample_windows} 個全片分布抽樣窗整理` : '依公開作品資料整理'}</p>
   </header>
 
   <div class="decision-summary">
@@ -27,9 +32,9 @@ const phaseLabel = {opening: '開端', middle: '中段', late: '後段'};
     </dl>
   </div>
 
-  {content.timeline_summary?.length ? (
-    <div class="timeline-board" aria-label="全片結構摘要">
-      {content.timeline_summary.map((item) => (
+  {timeline.length > 0 && (
+    <div class="timeline-board" aria-label="分散抽樣結構摘要">
+      {timeline.map((item) => (
         <article class={`timeline-stop ${item.phase}`}>
           <div class="timeline-index"><span>{phaseLabel[item.phase]}</span><b>{item.label}</b></div>
           <p>{item.summary}</p>
@@ -37,8 +42,6 @@ const phaseLabel = {opening: '開端', middle: '中段', late: '後段'};
         </article>
       ))}
     </div>
-  ) : (
-    <p class="timeline-unavailable">這部作品目前只有公開資料分析，尚未加入影片時間軸判讀。</p>
   )}
 
   <div class="fit-grid">
