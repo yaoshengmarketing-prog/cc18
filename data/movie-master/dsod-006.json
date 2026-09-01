@@ -118,6 +118,16 @@
         "observed_at": "2026-08-31T13:55:31.865Z"
       }
     ],
+    "fac_relations": [
+      {
+        "source_type": "fac",
+        "source_id": "129",
+        "stable_source_id": "cc18.tv:fac:129",
+        "source_name": "ダスッ！",
+        "source_url": "https://cc18.tv/search.php?s_type=fac&s_tid=129",
+        "observed_at": "2026-09-01T12:25:49.441Z"
+      }
+    ],
     "raw_studio_name": "ダスッ！",
     "raw_series_names": [],
     "source_tags": [

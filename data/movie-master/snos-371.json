@@ -107,6 +107,16 @@
         "observed_at": "2026-08-31T13:55:43.200Z"
       }
     ],
+    "fac_relations": [
+      {
+        "source_type": "fac",
+        "source_id": "35",
+        "stable_source_id": "cc18.tv:fac:35",
+        "source_name": "S1 Style",
+        "source_url": "https://cc18.tv/search.php?s_type=fac&s_tid=35",
+        "observed_at": "2026-09-01T12:26:02.994Z"
+      }
+    ],
     "raw_studio_name": "S1 Style",
     "raw_series_names": [],
     "source_tags": [

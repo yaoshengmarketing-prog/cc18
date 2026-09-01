@@ -57,6 +57,16 @@
         "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=3055",
         "observed_at": "2026-08-31T13:55:45.059Z"
       }
+    ],
+    "fac": [
+      {
+        "source_type": "fac",
+        "source_id": "1214",
+        "stable_source_id": "cc18.tv:fac:1214",
+        "source_name": "mercury（マーキュリー）",
+        "source_url": "https://cc18.tv/search.php?s_type=fac&s_tid=1214",
+        "observed_at": "2026-09-01T12:26:04.725Z"
+      }
     ]
   },
   "studio": "mercury（マーキュリー）",

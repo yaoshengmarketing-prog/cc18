@@ -67,6 +67,16 @@
         "observed_at": "2026-08-31T13:55:38.003Z"
       }
     ],
+    "fac_relations": [
+      {
+        "source_type": "fac",
+        "source_id": "3160",
+        "stable_source_id": "cc18.tv:fac:3160",
+        "source_name": "アースダイバー",
+        "source_url": "https://cc18.tv/search.php?s_type=fac&s_tid=3160",
+        "observed_at": "2026-09-01T12:25:56.582Z"
+      }
+    ],
     "raw_studio_name": "アースダイバー",
     "raw_series_names": [],
     "source_tags": [

@@ -14,6 +14,7 @@ import {
 import {buildPerformerLocalizationMap} from '../src/lib/performer-localization-policy.mjs';
 import {parseSeriesSourceId, parseSeriesStableId, seriesStableIdFromSourceId} from '../src/lib/series-identity.mjs';
 import {parseTagSourceId, parseTagStableId, tagStableIdFromSourceId} from '../src/lib/tag-identity.mjs';
+import {facStableIdFromSourceId, parseFacSourceId, parseFacStableId} from '../src/lib/fac-identity.mjs';
 import {workCanonicalUrl} from '../src/lib/work-url.mjs';
 
 const SCHEMA_VERSION = '1.1.0';
@@ -308,6 +309,49 @@ export const validateTagRelations = ({catalogCode, source, isPublished, tagNames
   return projection;
 };
 
+export const validateFacRelations = ({catalogCode, source, isPublished, facNamesByStableId}) => {
+  const relations = source?.source_relations?.fac;
+  if (isPublished && !Array.isArray(relations)) fail(`${catalogCode}: published fac relations must be an array`);
+  if (relations === undefined) return [];
+  if (!Array.isArray(relations)) fail(`${catalogCode}: fac relations must be an array`);
+  const projection = [];
+  const seen = new Set();
+  for (const relation of relations) {
+    const sourceId = parseFacSourceId(relation?.source_id);
+    const stableSourceId = relation?.stable_source_id;
+    parseFacStableId(stableSourceId);
+    const sourceName = cleanScalar(relation?.source_name);
+    const sourceUrl = relation?.source_url;
+    const observedAt = cleanScalar(relation?.observed_at);
+    if (relation?.source_type !== 'fac' || stableSourceId !== facStableIdFromSourceId(sourceId)) {
+      fail(`${catalogCode}: invalid fac relation identity`);
+    }
+    if (seen.has(stableSourceId)) fail(`${catalogCode}: duplicate fac relation ${stableSourceId}`);
+    seen.add(stableSourceId);
+    let parsedUrl;
+    try { parsedUrl = parseCc18SearchRelationUrl(sourceUrl); } catch { fail(`${catalogCode}: invalid fac relation URL`); }
+    if (parsedUrl.sourceType !== 'fac' || parsedUrl.sourceId !== sourceId) {
+      fail(`${catalogCode}: fac relation URL/identity mismatch`);
+    }
+    if (!sourceName) fail(`${catalogCode}: fac source name is required`);
+    if (!observedAt || Number.isNaN(Date.parse(observedAt))) fail(`${catalogCode}: invalid fac observed_at`);
+    const priorName = facNamesByStableId.get(stableSourceId);
+    if (priorName !== undefined && priorName !== sourceName) {
+      fail(`${catalogCode}: fac identity ${stableSourceId} has conflicting names`);
+    }
+    facNamesByStableId.set(stableSourceId, sourceName);
+    projection.push({
+      source_type: 'fac',
+      source_id: sourceId,
+      stable_source_id: stableSourceId,
+      source_name: sourceName,
+      source_url: parsedUrl.absoluteUrl,
+      observed_at: observedAt,
+    });
+  }
+  return projection;
+};
+
 const normalizeCatalogCode = (value) => {
   const normalized = cleanScalar(value)?.normalize('NFKC').trim().toUpperCase() ?? null;
   if (!normalized) fail('Movie is missing catalog code');
@@ -473,6 +517,7 @@ export const buildAll = async ({includeWorkId = null} = {}) => {
   const usedPerformerIds = new Set();
   const seriesNamesByStableId = new Map();
   const tagNamesByStableId = new Map();
+  const facNamesByStableId = new Map();
   const registryById = new Map((registry.records ?? []).map((record) => [record.id, record]));
   const taxonomyById = new Map((taxonomy.tags ?? []).map((tag) => [tag.id, tag]));
   const sourceTagMap = taxonomy.source_tag_map ?? {};
@@ -526,6 +571,12 @@ export const buildAll = async ({includeWorkId = null} = {}) => {
       source,
       isPublished,
       tagNamesByStableId,
+    });
+    const facRelations = validateFacRelations({
+      catalogCode,
+      source,
+      isPublished,
+      facNamesByStableId,
     });
 
     const sourceTags = cleanArray(source?.source_tags ?? frontmatter.sourceTags);
@@ -589,6 +640,7 @@ export const buildAll = async ({includeWorkId = null} = {}) => {
         performer_relations: performerRelations,
         ...(isPublished ? {series_relations: seriesRelations} : {}),
         ...(isPublished ? {tag_relations: tagRelations} : {}),
+        ...(isPublished ? {fac_relations: facRelations} : {}),
         raw_studio_name: cleanScalar(source?.studio ?? frontmatter.studio),
         raw_series_names: cleanArray(Array.isArray(source?.series) ? source.series : source?.series ? [source.series] : frontmatter.series ? [frontmatter.series] : []),
         source_tags: sourceTags,

@@ -4,6 +4,7 @@ import {readFile} from 'node:fs/promises';
 import {parseListing, parseWorkPage} from '../scripts/source/cc18-parser.mjs';
 import './series-relations.test.mjs';
 import './tag-relations.test.mjs';
+import './fac-relations.test.mjs';
 
 test('parses required fields from a CC18 work page fixture', async () => {
   const html = await readFile(new URL('./fixtures/cc18-work-minimal.html', import.meta.url), 'utf8');
@@ -35,6 +36,15 @@ test('parses required fields from a CC18 work page fixture', async () => {
     source_url: 'https://cc18.tv/search.php?s_type=tag&s_tid=4',
     observed_at: item.fetched_at,
   }]);
+  assert.deepEqual(item.source_relations.fac, [{
+    source_type: 'fac',
+    source_id: '1',
+    stable_source_id: 'cc18.tv:fac:1',
+    source_name: '測試片商',
+    source_url: 'https://cc18.tv/search.php?s_type=fac&s_tid=1',
+    observed_at: item.fetched_at,
+  }]);
+  assert.equal(item.studio, '測試片商');
   assert.equal(item.series, '測試系列');
   assert.deepEqual(item.source_tags, ['測試標籤']);
   assert.equal(item.cover_source_url, 'https://cc18.tv/preview/demo-800.jpg');
@@ -182,6 +192,7 @@ test('keeps a catalogued work with no public synopsis as partial metadata', () =
   assert.equal(item.description, null);
   assert.deepEqual(item.source_relations.series, []);
   assert.deepEqual(item.source_relations.tags, []);
+  assert.deepEqual(item.source_relations.fac, []);
 });
 
 test('tag relations preserve DOM order, allow same-name different IDs and reject duplicate IDs', () => {

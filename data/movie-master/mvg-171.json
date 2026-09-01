@@ -99,6 +99,16 @@
         "observed_at": "2026-08-31T13:55:36.283Z"
       }
     ],
+    "fac_relations": [
+      {
+        "source_type": "fac",
+        "source_id": "70",
+        "stable_source_id": "cc18.tv:fac:70",
+        "source_name": "gloryquest",
+        "source_url": "https://cc18.tv/search.php?s_type=fac&s_tid=70",
+        "observed_at": "2026-09-01T12:25:54.236Z"
+      }
+    ],
     "raw_studio_name": "gloryquest",
     "raw_series_names": [],
     "source_tags": [
