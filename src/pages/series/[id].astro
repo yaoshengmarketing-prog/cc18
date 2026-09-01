@@ -1,0 +1,109 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import MovieCardV1 from '../../components/MovieCardV1.astro';
+import {loadSeriesCatalog} from '../../lib/series-catalog.mjs';
+
+interface PublicWorkCard {
+  stable_movie_id: string;
+  source_cover: string;
+  title: string;
+  catalog_code: string;
+  release_date: string;
+  performers: string[];
+  canonical_topics: Array<{id: string; label: string}>;
+  has_remotion_promo: boolean;
+  href: string;
+}
+interface SeriesPageRecord {
+  stable_series_id: string;
+  route_segment: string;
+  href: string;
+  source_name: string;
+  display_name: string;
+  metadata_identity_label: string;
+  public_work_count: number;
+  public_works: PublicWorkCard[];
+  index_decision: 'INDEX_READY' | 'NOINDEX_THIN';
+}
+
+export async function getStaticPaths() {
+  const catalog = await loadSeriesCatalog();
+  return (catalog.series as SeriesPageRecord[]).map((series) => ({
+    params: {id: series.route_segment},
+    props: {series},
+  }));
+}
+
+const {series} = Astro.props as {series: SeriesPageRecord};
+const canonical = new URL(series.href, Astro.site ?? Astro.url.origin).href;
+const description = `整理${series.metadata_identity_label}在本站已發布的作品，目前收錄 ${series.public_work_count} 部；卡片依作品發行日新到舊。`;
+const itemList = {
+  '@type': 'ItemList',
+  '@id': `${canonical}#published-works`,
+  numberOfItems: series.public_work_count,
+  itemListElement: series.public_works.map((card, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: card.catalog_code,
+    item: new URL(card.href, canonical).href,
+  })),
+};
+const structuredData = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {'@type': 'ListItem', position: 1, name: '首頁', item: new URL('/', canonical).href},
+      {'@type': 'ListItem', position: 2, name: '系列', item: new URL('/series/', canonical).href},
+      {'@type': 'ListItem', position: 3, name: series.display_name, item: canonical},
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': canonical,
+    url: canonical,
+    name: series.display_name,
+    mainEntity: itemList,
+  },
+];
+---
+
+<BaseLayout
+  title={`${series.metadata_identity_label}系列作品整理`}
+  description={description}
+  robots={series.index_decision === 'INDEX_READY' ? undefined : 'noindex,follow'}
+  adult={true}
+  structuredData={structuredData}
+>
+  <article class="series-page" data-series-id={series.stable_series_id}>
+    <nav class="breadcrumbs" aria-label="麵包屑">
+      <a href="/">首頁</a><span>／</span><a href="/series/">系列</a><span>／</span><b>{series.display_name}</b>
+    </nav>
+    <header class="page-intro series-intro">
+      <p class="eyebrow">SERIES HUB</p>
+      <h1>{series.display_name}</h1>
+      <p class="series-source-name"><span>來源系列名稱</span><b>{series.source_name}</b></p>
+      <p class="series-stable-id"><span>Stable series ID</span><code>{series.stable_series_id}</code></p>
+      <p>依 CC18 來源系列身分整理本站已發布作品，目前收錄 {series.public_work_count} 部；卡片依作品發行日新到舊。本頁不代表來源市場的完整系列或官方集數順序。</p>
+    </header>
+    <section aria-labelledby="series-works-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">PUBLISHED WORKS</p><h2 id="series-works-title">本站已發布作品</h2></div>
+        <p>共 {series.public_work_count} 部。</p>
+      </div>
+      <div class="card-grid movie-card-grid">
+        {series.public_works.map((card) => <MovieCardV1 card={card} />)}
+      </div>
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .series-source-name,
+  .series-stable-id { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: baseline; }
+  .series-source-name span,
+  .series-stable-id span { color: #68686f; font-size: .8rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+  .series-source-name b { font-weight: 700; }
+  .series-stable-id code { overflow-wrap: anywhere; font-size: .9rem; }
+</style>

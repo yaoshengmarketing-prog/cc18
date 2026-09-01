@@ -12,17 +12,25 @@ import {sourceRecordFor} from '../../lib/source-records';
 import {searchContentFor} from '../../lib/search-content';
 import {reviewQualityFor} from '../../lib/review-quality';
 import {loadPerformerCatalog} from '../../lib/performer-catalog.mjs';
+import {loadSeriesCatalog} from '../../lib/series-catalog.mjs';
 
 interface OrderedPerformerRecord {
   stable_performer_id: string;
   primary_display_name: string;
   href: string;
 }
+interface OrderedSeriesRecord {
+  stable_series_id: string;
+  source_name: string;
+  display_name: string;
+  href: string;
+}
 
 export async function getStaticPaths() {
-  const [reviews, performerCatalog] = await Promise.all([
+  const [reviews, performerCatalog, seriesCatalog] = await Promise.all([
     getCollection('reviews', ({data}) => data.status === 'published'),
     loadPerformerCatalog(),
+    loadSeriesCatalog(),
   ]);
   return reviews.map((review) => ({
     params: {id: review.data.id.toLowerCase()},
@@ -32,10 +40,14 @@ export async function getStaticPaths() {
         stable_movie_id: string;
         performers: OrderedPerformerRecord[];
       }>).find(({stable_movie_id: stableMovieId}) => stableMovieId === `cc18:${review.data.id}`)?.performers ?? [],
+      series: (seriesCatalog.ordered_series_by_work as Array<{
+        stable_movie_id: string;
+        series: OrderedSeriesRecord[];
+      }>).find(({stable_movie_id: stableMovieId}) => stableMovieId === `cc18:${review.data.id}`)?.series ?? [],
     },
   }));
 }
-const {review, performers} = Astro.props;
+const {review, performers, series} = Astro.props;
 const {Content} = await render(review);
 const allReviews = await getCollection('reviews', ({data}) => data.status === 'published');
 const related = new Map(allReviews.map((item) => [item.data.id, item]));
@@ -68,7 +80,15 @@ const structuredData: Array<Record<string, unknown>> = [
     mainEntityOfPage: pageUrl.href,
     author: {'@type': 'Organization', name: 'CC18 影格編輯台', url: new URL('/method/', pageUrl).href},
     publisher: {'@type': 'Organization', name: 'CC18 影格'},
-    about: [review.data.id, ...review.data.actress, ...(review.data.series ? [review.data.series] : [])],
+    about: [
+      review.data.id,
+      ...review.data.actress,
+      ...series.map((item: OrderedSeriesRecord) => ({
+        '@type': 'Thing',
+        name: item.display_name,
+        url: new URL(item.href, pageUrl).href,
+      })),
+    ],
   },
 ];
 if (review.data.videoUrl) structuredData.push({
@@ -128,7 +148,7 @@ if (review.data.videoUrl) structuredData.push({
         <figcaption>CC18 影格原創情境圖 · 依作品企劃切角製作，不取代原始作品封面</figcaption>
       </figure>
     )}
-    <WorkFacts review={review} source={source} search={search} performers={performers} />
+    <WorkFacts review={review} source={source} search={search} performers={performers} series={series} />
     <TopicElements sourceTags={review.data.sourceTags} />
     {search && <DecisionGuide content={search} related={related} />}
     <div class="article-layout">

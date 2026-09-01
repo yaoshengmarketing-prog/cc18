@@ -10,8 +10,13 @@ interface PerformerLink {
   primary_display_name: string;
   href: string;
 }
-interface Props {review: Review; source?: SourceRecord; search?: SearchContent; performers?: PerformerLink[];}
-const {review, source, search, performers = []} = Astro.props;
+interface SeriesLink {
+  stable_series_id: string;
+  display_name: string;
+  href: string;
+}
+interface Props {review: Review; source?: SourceRecord; search?: SearchContent; performers?: PerformerLink[]; series?: SeriesLink[];}
+const {review, source, search, performers = [], series = []} = Astro.props;
 const verifiedAt = source?.fetched_at ? new Date(source.fetched_at) : review.data.publishedAt;
 const quality = source?.source_tags.find((tag) => /^(?:4k|hd|720p)$/i.test(tag));
 ---
@@ -34,7 +39,9 @@ const quality = source?.source_tags.find((tag) => /^(?:4k|hd|720p)$/i.test(tag))
         : review.data.actress.join('、') || '來源未列出演員'}</dd>
     </div>
     <div><dt>片商</dt><dd>{review.data.studio || '來源未列出'}</dd></div>
-    <div><dt>系列</dt><dd>{review.data.series ? <a href={`/series/${encodeURIComponent(review.data.series)}/`}>{review.data.series}</a> : '非系列／來源未列出'}</dd></div>
+    <div><dt>系列</dt><dd>{series.length
+      ? series.map((item, index) => <>{index > 0 && '、'}<a href={item.href} data-series-id={item.stable_series_id}>{item.display_name}</a></>)
+      : '非系列／來源未列出'}</dd></div>
     <div><dt>片長</dt><dd>{durationLabel(search?.duration_seconds)}</dd></div>
     <div><dt>影像規格</dt><dd>{quality?.toUpperCase() ?? '來源未標示'}</dd></div>
     <div><dt>資料驗證</dt><dd>{formatDate(verifiedAt)}</dd></div>

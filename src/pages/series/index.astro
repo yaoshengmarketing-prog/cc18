@@ -1,8 +1,26 @@
 ---
-import {getCollection} from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-const reviews = await getCollection('reviews', ({data}) => data.status === 'published');
-const counts = new Map<string, number>();
-reviews.map((r) => r.data.series).filter(Boolean).forEach((name) => counts.set(name!, (counts.get(name!) ?? 0) + 1));
+import {loadSeriesCatalog} from '../../lib/series-catalog.mjs';
+interface SeriesIndexRecord {
+  stable_series_id: string;
+  href: string;
+  display_name: string;
+  public_work_count: number;
+}
+const catalog = await loadSeriesCatalog();
 ---
-<BaseLayout title="系列索引" description="依系列整理作品順序、系列公式與每部作品的影評差異。" adult={true}><section class="page-intro"><p class="eyebrow">SERIES INDEX</p><h1>系列索引</h1><p>比較同系列作品採用的公式與每一部真正不同的切角。</p></section><section class="index-list">{[...counts].map(([name,count]) => <a href={`/series/${encodeURIComponent(name)}/`}><strong>{name}</strong><span>{count} 部作品</span></a>)}</section></BaseLayout>
+<BaseLayout title="系列索引" description="依可靠來源系列身分整理本站已發布作品；不以相同名稱推測或合併系列。" adult={true}>
+  <section class="page-intro">
+    <p class="eyebrow">SERIES INDEX</p>
+    <h1>系列索引</h1>
+    <p>依 CC18 來源系列 ID 整理本站已發布作品；各頁只代表本站收錄，不宣稱來源市場完整。</p>
+  </section>
+  <section class="index-list">
+    {(catalog.series as SeriesIndexRecord[]).map((series) => (
+      <a href={series.href} data-series-id={series.stable_series_id}>
+        <strong>{series.display_name}</strong>
+        <span>{series.public_work_count} 部作品</span>
+      </a>
+    ))}
+  </section>
+</BaseLayout>

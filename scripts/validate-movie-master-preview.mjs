@@ -26,12 +26,23 @@ export const LEGACY_PERFORMER_REDIRECTS = [
   ['星空ねる', 'cc18-tv-actor-54454'],
 ];
 
+export const LEGACY_SERIES_REDIRECTS = [
+  ['同期女子と相部屋に！', 'cc18-tv-series-20710'],
+  ['性感覚醒！人妻エステ', 'cc18-tv-series-20725'],
+  ['至高の膣内射精', 'cc18-tv-series-18993'],
+  ['【初撮り】ネットでAV応募→AV体験撮影', 'cc18-tv-series-14969'],
+];
+
 export const expectedCloudflareRedirects = () => [
   '/reviews/:slug/ /works/:slug/ 301',
   '/reviews/:slug /works/:slug/ 301',
   ...LEGACY_PERFORMER_REDIRECTS.flatMap(([legacyName, routeSegment]) => [
     `/actresses/${legacyName}/ /actresses/${routeSegment}/ 301`,
     `/actresses/${legacyName} /actresses/${routeSegment}/ 301`,
+  ]),
+  ...LEGACY_SERIES_REDIRECTS.flatMap(([legacyName, routeSegment]) => [
+    `/series/${legacyName}/ /series/${routeSegment}/ 301`,
+    `/series/${legacyName} /series/${routeSegment}/ 301`,
   ]),
 ].join('\n') + '\n';
 
@@ -123,8 +134,12 @@ const expectedRedirects = expectedCloudflareRedirects();
 if (redirects.replaceAll('\r\n', '\n') !== expectedRedirects) throw new Error('Cloudflare redirect contract is missing or changed');
 if (redirects.includes('/works/:slug/ /reviews/')) throw new Error('Reverse work redirect would create a loop');
 if (/\/actresses\/[^\s:*?]+\*|\/actresses\/:/u.test(redirects)) throw new Error('Wildcard performer redirect is not allowed');
+if (/\/series\/[^\s:*?]+\*|\/series\/:/u.test(redirects)) throw new Error('Wildcard series redirect is not allowed');
 for (const [, routeSegment] of LEGACY_PERFORMER_REDIRECTS) {
   if (redirects.includes(`/actresses/${routeSegment}/ /actresses/`)) throw new Error(`Reverse performer redirect would create a loop: ${routeSegment}`);
+}
+for (const [, routeSegment] of LEGACY_SERIES_REDIRECTS) {
+  if (redirects.includes(`/series/${routeSegment}/ /series/`)) throw new Error(`Reverse series redirect would create a loop: ${routeSegment}`);
 }
 
 assertUniqueStableMovieIds(masters);

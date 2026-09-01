@@ -19,6 +19,7 @@ import {
   expectedCloudflareRedirects,
   isPublicMovieCardMaster,
   LEGACY_PERFORMER_REDIRECTS,
+  LEGACY_SERIES_REDIRECTS,
 } from '../scripts/validate-movie-master-preview.mjs';
 import {normalizeWorkSlug, resolveInternalWorkHref, workCanonicalUrl, workPath} from '../src/lib/work-url.mjs';
 import {resolveProjectRoot} from '../src/lib/project-root.mjs';
@@ -328,14 +329,20 @@ test('public work route replaces the review renderer and Cloudflare redirects ar
     readFile(new URL('../public/_routes.json', import.meta.url), 'utf8').then(JSON.parse),
   ]);
   assert.equal(redirects.replaceAll('\r\n', '\n'), expectedCloudflareRedirects());
-  assert.equal(redirects.trimEnd().split(/\r?\n/u).length, 30);
+  assert.equal(redirects.trimEnd().split(/\r?\n/u).length, 38);
   assert.equal(LEGACY_PERFORMER_REDIRECTS.length, 14);
   for (const [legacyName, routeSegment] of LEGACY_PERFORMER_REDIRECTS) {
     assert.match(redirects, new RegExp(`^/actresses/${legacyName}/ /actresses/${routeSegment}/ 301$`, 'mu'));
     assert.match(redirects, new RegExp(`^/actresses/${legacyName} /actresses/${routeSegment}/ 301$`, 'mu'));
   }
+  assert.equal(LEGACY_SERIES_REDIRECTS.length, 4);
+  for (const [legacyName, routeSegment] of LEGACY_SERIES_REDIRECTS) {
+    assert.match(redirects, new RegExp(`^/series/${legacyName}/ /series/${routeSegment}/ 301$`, 'mu'));
+    assert.match(redirects, new RegExp(`^/series/${legacyName} /series/${routeSegment}/ 301$`, 'mu'));
+  }
   assert.doesNotMatch(redirects, /\/works\/:slug\/?\s+\/reviews\//);
   assert.doesNotMatch(redirects, /\/actresses\/[^\s:*?]+\*|\/actresses\/:/u);
+  assert.doesNotMatch(redirects, /\/series\/[^\s:*?]+\*|\/series\/:/u);
   assert.deepEqual(routes.include, ['/media/*']);
 });
 
