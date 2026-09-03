@@ -31,3 +31,12 @@ test('common CC18 presentation variants provide safe title signals without raw p
   assert.deepEqual(safeSource.safe_title_signals.map(({value}) => value), ['獨家配信', '高畫質', '孕婦設定']);
   assert.equal(JSON.stringify(safeSource).includes('不可外送'), false);
 });
+
+test('a source with no optional performer, series, or mapped tag remains usable', () => {
+  const safeSource = buildSafePublicSource({
+    id: 'TEST-003', release_date: '2026-09-03', actress: [], series: null,
+    title: '僅有來源標題', description: '', source_tags: [],
+  });
+  assert.deepEqual(safeSource.safe_title_signals, []);
+  assert.equal(safeSource.core_source_concept, null);
+});

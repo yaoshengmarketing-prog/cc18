@@ -137,3 +137,21 @@ test('retries one truncated local JSON response before returning a valid brief',
   assert.equal(calls, 2);
   assert.equal(result.core_source_concept, '共享私人空間');
 });
+
+test('an incomplete local brief falls back to deterministic source data after bounded attempts', async () => {
+  let calls = 0;
+  const result = await createLocalSourceBrief({
+    id: 'TEST-009', title: '共享私人空間', description: '同事共享房間', actress: [], series: null, source_tags: [],
+  }, {
+    local_analysis: {endpoint: 'http://127.0.0.1:11434', vision_model: 'qwen2.5vl:7b', request_timeout_ms: 1000},
+  }, async () => {
+    calls += 1;
+    return {ok: true, json: async () => ({message: {content: '{}'}})};
+  });
+  assert.equal(calls, 2);
+  assert.equal(result.core_source_concept, '共享私人空間');
+});
+
+test('a source with no traceable concept returns no brief instead of blocking the work', () => {
+  assert.equal(createDeterministicSourceBrief({id: 'TEST-010', title: '', description: '', actress: [], series: null, source_tags: []}), null);
+});

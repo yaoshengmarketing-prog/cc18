@@ -72,9 +72,7 @@ export function normalizeLocalSourceBrief(value) {
 
 export function createDeterministicSourceBrief(source) {
   const coreSourceConcept = resolveCoreSourceConcept('', source);
-  if (!coreSourceConcept) {
-    throw Object.assign(new Error(`${source.id}: no traceable source concept for cloud editorial`), {code: 'EDITORIAL_SAFE_SIGNALS_INSUFFICIENT'});
-  }
+  if (!coreSourceConcept) return null;
   const sourceConcepts = coreConceptCandidates(source).filter((value) => {
     const text = [source.title, source.series, source.description].filter(Boolean).join('\n');
     return text.includes(value);
@@ -143,7 +141,14 @@ export async function createLocalSourceBrief(source, config, fetchImplementation
       clearTimeout(timeout);
     }
   }
-  throw new Error(`Local source brief failed after retry: ${lastError?.message ?? 'unknown error'}`);
+  const fallback = createDeterministicSourceBrief(source);
+  console.warn(JSON.stringify({
+    event: 'local_source_brief_warning',
+    movie_id: source.id,
+    reason: lastError?.message ?? 'unknown error',
+    fallback: fallback ? 'deterministic_source_brief' : 'none',
+  }));
+  return fallback;
 }
 
 export {BRIEF_SCHEMA};

@@ -1,0 +1,139 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
+import {cp, mkdir, mkdtemp, readFile, rm, writeFile} from 'node:fs/promises';
+import {tmpdir} from 'node:os';
+import {dirname, join, resolve} from 'node:path';
+import {spawnSync} from 'node:child_process';
+
+const repositoryRoot = resolve(import.meta.dirname, '..');
+const copyPath = async (root, path) => {
+  const target = join(root, path);
+  await mkdir(dirname(target), {recursive: true});
+  await cp(join(repositoryRoot, path), target, {recursive: true});
+};
+
+const buildFixture = async () => {
+  const root = await mkdtemp(join(tmpdir(), 'cc18-content-fail-soft-'));
+  for (const path of [
+    'scripts/validate-content.mjs',
+    'scripts/editorial/lib/safe-editorial-payload.mjs',
+    'src/lib/performer-localization-policy.mjs',
+    'src/lib/performer-identity.mjs',
+    'src/lib/performer-url.mjs',
+    'config/review-policy.json',
+    'config/title-policy.json',
+    'data/taxonomy.json',
+    'data/tag-candidates.json',
+    'data/movie-registry.json',
+    'data/localization/performers-zh-tw.json',
+    'data/source-records',
+    'data/review-quality',
+    'data/search-content',
+    'content/reviews',
+  ]) await copyPath(root, path);
+  return root;
+};
+
+const runValidator = (root) => spawnSync(process.execPath, [join(root, 'scripts/validate-content.mjs')], {
+  cwd: root,
+  encoding: 'utf8',
+});
+
+test('automated draft QA publishes sparse prose with notes instead of requesting a rewrite', async () => {
+  const directory = await mkdtemp(join(tmpdir(), 'cc18-sparse-qa-'));
+  const movieId = 'DSOD-006';
+  try {
+    const formal = await readFile(join(repositoryRoot, 'content/reviews', `${movieId}.md`), 'utf8');
+    const markdown = formal
+      .replace(/^title: .*$/mu, 'title: "自由格式標題"')
+      .replace(/^seoTitle: .*$/mu, 'seoTitle: "自由格式SEO標題"')
+      .replace(/^socialTitle: .*$/mu, 'socialTitle: "自由格式社群標題"')
+      .replace(/^titleSignals:\r?\n(?:  - .*\r?\n)*/mu, 'titleSignals:\n  - "非來源逐字訊號"\n')
+      .replace(/\r?\n---\r?\n[\s\S]*$/u, '\n---\n\n## 簡短資料\n\n只有一段。\n');
+    const reviewPath = join(directory, 'review.md');
+    const reportPath = join(directory, 'report.json');
+    await writeFile(reviewPath, markdown, 'utf8');
+    const result = spawnSync(process.execPath, [
+      join(repositoryRoot, 'scripts/editorial/qa-draft.mjs'),
+      movieId,
+      `--review=${reviewPath}`,
+      `--report=${reportPath}`,
+    ], {cwd: repositoryRoot, encoding: 'utf8'});
+    assert.equal(result.status, 0, result.stderr || result.stdout);
+    const report = JSON.parse(await readFile(reportPath, 'utf8'));
+    assert.equal(report.status, 'PASS_WITH_NOTES');
+    assert.equal(report.passed, true);
+    assert.equal(report.publishable, true);
+    assert.deepEqual(report.issues, []);
+    assert.deepEqual(report.repair_issues, []);
+    assert.ok(report.notes.includes('insufficient_sections'));
+    assert.ok(report.notes.includes('missing_decision_value'));
+    assert.ok(report.notes.includes('invalid_title_signal_count'));
+    assert.ok(report.notes.includes('missing_movie_id_in_titles'));
+    assert.ok(report.notes.includes('untraceable_title_signal'));
+  } finally {
+    await rm(directory, {recursive: true, force: true});
+  }
+});
+
+test('sparse content becomes warnings while identity mismatches still fail closed', async () => {
+  const root = await buildFixture();
+  const movieId = 'DSOD-006';
+  try {
+    const reviewPath = join(root, 'content/reviews', `${movieId}.md`);
+    let markdown = await readFile(reviewPath, 'utf8');
+    markdown = markdown
+      .replace(/^title: .*$/mu, 'title: "自由格式標題"')
+      .replace(/^seoTitle: .*$/mu, 'seoTitle: "自由格式SEO標題"')
+      .replace(/^socialTitle: .*$/mu, 'socialTitle: "自由格式社群標題"')
+      .replace(/^titleSignals:\r?\n(?:  - .*\r?\n)*/mu, 'titleSignals:\n  - "非來源逐字訊號"\n')
+      .replace(/^canonicalTagIds:\r?\n(?:  - .*\r?\n)*/mu, 'canonicalTagIds:\n  []\n')
+      .replace(/\r?\n---\r?\n[\s\S]*$/u, '\n---\n\n## 簡短資料\n\n只有一段。\n');
+    await writeFile(reviewPath, markdown, 'utf8');
+
+    const qualityPath = join(root, 'data/review-quality', `${movieId}.json`);
+    const quality = JSON.parse(await readFile(qualityPath, 'utf8'));
+    quality.review_sha256 = createHash('sha256').update(markdown).digest('hex');
+    quality.evidence = [];
+    quality.rewrite_attempts = 999;
+    quality.approved_for_publish = true;
+    quality.scores = {
+      overall: 0, source_fidelity: 0, specificity: 0, originality: 0,
+      search_value: 0, decision_value: 0, narrative_coherence: 0,
+    };
+    await writeFile(qualityPath, `${JSON.stringify(quality, null, 2)}\n`, 'utf8');
+
+    const searchPath = join(root, 'data/search-content', `${movieId}.json`);
+    const search = JSON.parse(await readFile(searchPath, 'utf8'));
+    search.quick_decision = {thesis: '', story_density: 'unknown', pace: 'unknown', presentation: []};
+    search.audience_fit = {for: [], not_for: []};
+    search.questions_answered = [];
+    search.recommendations = [];
+    search.evidence_job_id = null;
+    search.duration_seconds = null;
+    search.sample_windows = 0;
+    search.timeline_summary = [];
+    await writeFile(searchPath, `${JSON.stringify(search, null, 2)}\n`, 'utf8');
+
+    const accepted = runValidator(root);
+    assert.equal(accepted.status, 0, accepted.stderr || accepted.stdout);
+    assert.match(accepted.stdout, /Content valid: 16 published review\(s\)/u);
+    assert.match(accepted.stderr, /content_validation_warnings/u);
+    for (const code of [
+      'title_signal_count', 'missing_canonical_tags', 'insufficient_source_evidence',
+      'rewrite_limit_observed', 'missing_quick_decision', 'insufficient_search_intents',
+      'quality_score_below_target', 'display_title_missing_catalog_number',
+      'seo_title_missing_catalog_number', 'social_title_missing_catalog_number',
+      'untraceable_title_signal',
+    ]) assert.match(accepted.stderr, new RegExp(code, 'u'));
+
+    search.movie_id = 'OTHER-999';
+    await writeFile(searchPath, `${JSON.stringify(search, null, 2)}\n`, 'utf8');
+    const rejected = runValidator(root);
+    assert.notEqual(rejected.status, 0);
+    assert.match(rejected.stderr, /DSOD-006: search-content identity mismatch/u);
+  } finally {
+    await rm(root, {recursive: true, force: true});
+  }
+});

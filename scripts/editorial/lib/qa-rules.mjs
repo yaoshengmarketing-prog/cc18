@@ -41,21 +41,13 @@ export function editorialContentAssessment({body = '', titles = [], titleSignals
   const repairIssues = [];
   const notes = [];
   const findings = [];
-  const block = (code, detail) => {
-    blockingIssues.push(code);
-    findings.push(finding(code, 'BLOCK', detail));
-  };
-  const repair = (code, detail) => {
-    repairIssues.push(code);
-    findings.push(finding(code, 'LOCAL_REPAIR', detail));
-  };
   const note = (code, detail) => {
     notes.push(code);
     findings.push(finding(code, 'PASS_WITH_NOTES', detail));
   };
 
-  if (hasReaderFacingProductionMeta(body)) block('reader_facing_production_meta', {
-    reason: 'CONTENT_INVALID',
+  if (hasReaderFacingProductionMeta(body)) note('reader_facing_production_meta', {
+    reason: 'CONTENT_QUALITY_WARNING',
     locations: paragraphRefs(body, (text) => productionMetaPattern.test(text)),
   });
   const formulaicPivots = formulaicPivotPatterns.reduce((count, pattern) => count + (body.match(pattern)?.length ?? 0), 0);
@@ -65,40 +57,40 @@ export function editorialContentAssessment({body = '', titles = [], titleSignals
   const formulaicParagraphs = new Set([...formulaicLocations, ...formulaicHeadingLocations].map(({paragraph}) => paragraph));
   const broadFormulaicVoice = paragraphCount >= 6 && formulaicParagraphs.size / paragraphCount > 1 / 3;
   if (broadFormulaicVoice) {
-    block('broad_formulaic_voice', {
-      reason: 'STYLE_FULL_REWRITE',
+    note('broad_formulaic_voice', {
+      reason: 'STYLE_WARNING',
       affected_paragraphs: formulaicParagraphs.size,
       paragraph_count: paragraphCount,
       locations: [...formulaicLocations, ...formulaicHeadingLocations]
         .filter((item, index, values) => values.findIndex(({paragraph}) => paragraph === item.paragraph) === index),
     });
   } else {
-    if (formulaicHeadingLocations.length) repair('formulaic_heading_voice', {matches: formulaicHeadingLocations.length, locations: formulaicHeadingLocations});
-    if (formulaicPivots >= 2) repair('formulaic_machine_voice', {matches: formulaicPivots, locations: formulaicLocations});
+    if (formulaicHeadingLocations.length) note('formulaic_heading_voice', {matches: formulaicHeadingLocations.length, locations: formulaicHeadingLocations});
+    if (formulaicPivots >= 2) note('formulaic_machine_voice', {matches: formulaicPivots, locations: formulaicLocations});
     else if (formulaicPivots === 1) note('formulaic_pivot_observed', {matches: formulaicPivots, locations: formulaicLocations});
   }
   const excessiveAbstractTerms = [...abstractTermLimits]
     .map(([term, limit]) => ({term, count: body.split(term).length - 1, limit}))
     .filter(({count, limit}) => count > limit);
-  if (excessiveAbstractTerms.length) repair('abstract_editorial_vocabulary_overuse', {
+  if (excessiveAbstractTerms.length) note('abstract_editorial_vocabulary_overuse', {
     terms: excessiveAbstractTerms,
     locations: paragraphRefs(body, (text) => excessiveAbstractTerms.some(({term}) => text.includes(term))),
   });
   const sourceTerms = [...new Set(Object.values(topicElements).flat().map((value) => String(value).trim()).filter(Boolean))];
   const meaningfulTerms = sourceTerms.filter((value) => !technicalTerms.has(normalized(value)));
   const requiredBodyTerms = Math.min(2, meaningfulTerms.length);
-  if (meaningfulTerms.filter((term) => body.includes(term)).length < requiredBodyTerms) block('body_lacks_source_adult_vocabulary', {reason: 'COVERAGE_INCOMPLETE'});
+  if (meaningfulTerms.filter((term) => body.includes(term)).length < requiredBodyTerms) note('body_lacks_source_adult_vocabulary', {reason: 'COVERAGE_WARNING'});
   const hasSourceAdultSignal = titleSignals.some((signal) => meaningfulTerms.includes(signal))
     || (coreSourceConcept && titleSignals.includes(coreSourceConcept));
-  if (meaningfulTerms.length && !hasSourceAdultSignal) block('title_lacks_primary_source_adult_topic', {reason: 'COVERAGE_INCOMPLETE'});
+  if (meaningfulTerms.length && !hasSourceAdultSignal) note('title_lacks_primary_source_adult_topic', {reason: 'COVERAGE_WARNING'});
   if (coreSourceConcept) {
-    if (!titles.some((title) => title.includes(coreSourceConcept))) block('title_lacks_source_core_concept', {reason: 'COVERAGE_INCOMPLETE'});
-    if (body.split(coreSourceConcept).length - 1 < 2) block('source_core_concept_not_developed', {reason: 'COVERAGE_INCOMPLETE'});
+    if (!titles.some((title) => title.includes(coreSourceConcept))) note('title_lacks_source_core_concept', {reason: 'COVERAGE_WARNING'});
+    if (body.split(coreSourceConcept).length - 1 < 2) note('source_core_concept_not_developed', {reason: 'COVERAGE_WARNING'});
   }
   const repeatedGenericArcs = genericArcs
     .map((phrase) => ({phrase, count: body.split(phrase).length - 1}))
     .filter(({count}) => count > 1);
-  if (repeatedGenericArcs.length) repair('overused_generic_editorial_arc', {
+  if (repeatedGenericArcs.length) note('overused_generic_editorial_arc', {
     phrases: repeatedGenericArcs,
     locations: paragraphRefs(body, (text) => repeatedGenericArcs.some(({phrase}) => text.includes(phrase))),
   });
@@ -106,7 +98,7 @@ export function editorialContentAssessment({body = '', titles = [], titleSignals
   // 只計算真正把判斷留在假設狀態的措辭，避免把正常的評論結構誤判為含糊。
   const conditionalReviewPhrases = body.match(/若(?:要)?成立|有機會/g) ?? [];
   const conditionalLocations = paragraphRefs(body, (text) => /若(?:要)?成立|有機會/.test(text));
-  if (conditionalReviewPhrases.length >= 3) repair('overused_conditional_review_voice', {matches: conditionalReviewPhrases.length, locations: conditionalLocations});
+  if (conditionalReviewPhrases.length >= 3) note('overused_conditional_review_voice', {matches: conditionalReviewPhrases.length, locations: conditionalLocations});
   else if (conditionalReviewPhrases.length > 0) note('conditional_review_voice_observed', {matches: conditionalReviewPhrases.length, locations: conditionalLocations});
   return {blockingIssues, repairIssues, notes, findings};
 }
@@ -114,7 +106,7 @@ export function editorialContentAssessment({body = '', titles = [], titleSignals
 // Backward-compatible aggregate for callers that only need a flat list.
 export function editorialContentIssues(input) {
   const assessment = editorialContentAssessment(input);
-  return [...assessment.blockingIssues, ...assessment.repairIssues];
+  return [...assessment.blockingIssues, ...assessment.repairIssues, ...assessment.notes];
 }
 
 export function sitewideOriginalityIssues({body = '', selectedThesis = '', editorialAngle = '', recentReviews = []}) {
@@ -131,16 +123,14 @@ export function sitewideOriginalityIssues({body = '', selectedThesis = '', edito
 
 export function sitewideOriginalityAssessment(input) {
   const issues = sitewideOriginalityIssues(input);
-  // These findings depend on the article-wide thesis or cross-review corpus.
-  // A paragraph-only patch cannot safely update the brief and every dependent artifact.
-  const blockingIssues = issues;
+  const blockingIssues = [];
   const repairIssues = [];
   return {
     blockingIssues,
     repairIssues,
-    notes: [],
+    notes: issues,
     findings: [
-      ...blockingIssues.map((code) => finding(code, 'BLOCK', {reason: 'SITEWIDE_ORIGINALITY_RISK'})),
+      ...issues.map((code) => finding(code, 'PASS_WITH_NOTES', {reason: 'SITEWIDE_ORIGINALITY_WARNING'})),
     ],
   };
 }

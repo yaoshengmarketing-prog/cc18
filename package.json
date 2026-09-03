@@ -62,7 +62,7 @@
     "editorial:safety:test": "node --test tests/editorial-safe-payload.test.mjs",
     "editorial:local-source:test": "node --test tests/editorial-local-source-brief.test.mjs",
     "editorial:normalization:test": "node --test tests/editorial-provider-normalization.test.mjs tests/editorial-resilience.test.mjs",
-    "editorial:qa-rules:test": "node --test tests/editorial-qa-rules.test.mjs tests/editorial-approval.test.mjs tests/editorial-local-repair.test.mjs",
+    "editorial:qa-rules:test": "node --test tests/editorial-qa-rules.test.mjs tests/editorial-approval.test.mjs tests/editorial-local-repair.test.mjs tests/content-fail-soft.test.mjs",
     "editorial:search:test": "node --test tests/editorial-search-content.test.mjs",
     "image:provider:test": "node --test tests/image-provider.test.mjs",
     "image:provider:smoke": "node scripts/image/provider-smoke.mjs",

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {normalizeEditorialResult, parseFirstJsonObject} from '../scripts/editorial/lib/provider-normalization.mjs';
+import {normalizeEditorialResult, parseFirstJsonObject, publicationProjectionForEvidence} from '../scripts/editorial/lib/provider-normalization.mjs';
 
 test('extracts the first complete JSON object and ignores gateway trailing prose', () => {
   assert.deepEqual(parseFirstJsonObject('```json\n{"ok":true}\n``` trailing'), {ok: true});
@@ -190,4 +190,154 @@ test('preserves top-level review_sections returned alongside an empty sections a
   assert.match(normalized.sections[0].body, /密着企劃/);
   assert.match(normalized.sections[2].body, /口交題材/);
   assert.match(normalized.sections.at(-1).body, /未必適合/);
+});
+
+test('sparse provider content receives local display fallbacks without inventing source facts', () => {
+  const normalized = normalizeEditorialResult({
+    angle_candidates: [],
+    selected_thesis: '',
+    title_signals: [],
+    title: '',
+    seo_title: '',
+    social_title: '',
+    short_review: '   ',
+    editorial_angle: '',
+    editorial_tag_ids: [],
+    evidence: [],
+    creative_reconstruction_notes: [],
+    unsupported_claims_excluded: [],
+    decision_guide: {
+      thesis: '', story_density: 'unknown', pace: 'unknown', presentation: [],
+      audience_for: [], audience_not_for: [], questions_answered: [],
+    },
+    sections: [],
+  }, {
+    movieId: 'TEST-008',
+    safePublicSource: {core_source_concept: null, safe_title_signals: [], topic_elements: {}},
+    safeVideoAnalysis: {observations: []},
+  });
+
+  assert.match(normalized.short_review, /TEST-008/);
+  assert.equal(normalized.sections.length, 0);
+  assert.equal(normalized.evidence.length, 0);
+  assert.equal(normalized.decision_guide.questions_answered.length, 3);
+  assert.equal(normalized.decision_guide.audience_for.length, 2);
+  assert.equal(normalized.decision_guide.audience_not_for.length, 2);
+});
+
+test('insufficient video citations replace every public prose surface with one source-only projection', () => {
+  const safePublicSource = {
+    core_source_concept: '來源企劃',
+    safe_title_signals: [{type: 'theme', value: '來源企劃', source_field: 'title'}],
+    creative_seed_brief: {themes: [], creative_seeds: []},
+  };
+  const videoResult = normalizeEditorialResult({
+    title: 'TEST-010 影片觀察',
+    seo_title: 'TEST-010 鏡位分析',
+    social_title: 'TEST-010 表演反應',
+    short_review: '鏡頭先拉近，後段收音與呼吸明顯改變。',
+    editorial_angle: '以實際鏡位和剪輯變化判斷。',
+    evidence: [{basis: 'video_sample', signal: '鏡位', supports: '影片觀察', observation_refs: [0, 1]}],
+    decision_guide: {
+      thesis: '影片前後段的鏡位與表演反應形成明顯差異。',
+      story_density: 'high', pace: 'fast', presentation: ['近距離鏡位'],
+      audience_for: ['偏好鏡位變化的觀眾'], audience_not_for: ['不偏好快速剪輯的觀眾'],
+      questions_answered: ['後段如何改變？鏡位拉近。', '收音如何？呼吸更明顯。', '表演如何？反應更強。'],
+    },
+    sections: [{heading: '影片觀察', body: '鏡頭、收音、剪輯與表演反應都在後段改變。'}],
+  }, {
+    movieId: 'TEST-010',
+    safePublicSource,
+    safeVideoAnalysis: {duration_seconds: 600, sample_windows: 8, average_confidence: 0.9, observations: []},
+  });
+
+  const projection = publicationProjectionForEvidence({
+    result: videoResult,
+    movieId: 'TEST-010',
+    safePublicSource,
+    safeVideoAnalysis: {
+      duration_seconds: 600,
+      sample_windows: 8,
+      average_confidence: 0.9,
+      observations: [{i: 0}, {i: 1}],
+    },
+  });
+  const publicText = JSON.stringify(projection.result);
+  assert.equal(projection.downgraded, true);
+  assert.equal(projection.publishVideoEvidence, false);
+  assert.equal(projection.safeVideoAnalysis.sample_windows, 0);
+  assert.equal(projection.result.sections.length, 1);
+  assert.ok(projection.result.evidence.every(({basis, observation_refs: refs}) => basis === 'public_source' && refs.length === 0));
+  for (const leaked of ['鏡頭先拉近', '快速剪輯', '反應更強', '實際鏡位']) assert.doesNotMatch(publicText, new RegExp(leaked, 'u'));
+  assert.match(publicText, /沒有足夠的分散影片引用/u);
+  assert.match(publicText, /來源企劃/u);
+});
+
+test('three distinct video citations preserve the video-backed result', () => {
+  const result = {evidence: [{basis: 'video_sample', observation_refs: [0, 2, 4]}], sections: [{heading: '觀察', body: '有足夠引用。'}]};
+  const safeVideoAnalysis = {
+    duration_seconds: 600,
+    sample_windows: 8,
+    average_confidence: 0.9,
+    observations: [{i: 0}, {i: 2}, {i: 4}],
+  };
+  const projection = publicationProjectionForEvidence({
+    result, movieId: 'TEST-011', safePublicSource: {safe_title_signals: []}, safeVideoAnalysis,
+  });
+  assert.equal(projection.downgraded, false);
+  assert.equal(projection.publishVideoEvidence, true);
+  assert.equal(projection.result, result);
+  assert.equal(projection.safeVideoAnalysis, safeVideoAnalysis);
+});
+
+test('invented, out-of-range, or non-video observation refs cannot preserve video prose', () => {
+  const safePublicSource = {
+    core_source_concept: '來源企劃',
+    safe_title_signals: [{type: 'theme', value: '來源企劃', source_field: 'title'}],
+  };
+  const safeVideoAnalysis = {
+    duration_seconds: 120,
+    sample_windows: 2,
+    average_confidence: 0.8,
+    observations: [{i: 0}, {i: 1}],
+  };
+  for (const evidence of [
+    [{basis: 'video_sample', observation_refs: [97, 98, 99]}],
+    [{basis: 'video_sample', observation_refs: [0, 1, 99]}],
+    [{basis: 'public_source', observation_refs: [0, 1, 2]}],
+  ]) {
+    const result = {evidence, short_review: '未受支持的影片觀察', sections: [{heading: '觀察', body: '未受支持的影片觀察'}]};
+    const projection = publicationProjectionForEvidence({
+      result, movieId: 'TEST-012', safePublicSource, safeVideoAnalysis,
+    });
+    assert.equal(projection.downgraded, true);
+    assert.equal(projection.publishVideoEvidence, false);
+    assert.equal(projection.safeVideoAnalysis.sample_windows, 0);
+    assert.doesNotMatch(JSON.stringify(projection.result), /未受支持的影片觀察/u);
+  }
+});
+
+test('source-only repair always replaces stale video prose even when old refs look valid', () => {
+  const result = {
+    evidence: [{basis: 'video_sample', observation_refs: [0, 1, 2]}],
+    short_review: '舊影片正文仍描述鏡位與收音。',
+    decision_guide: {thesis: '舊影片結論。'},
+    sections: [{heading: '舊觀察', body: '舊影片正文仍描述鏡位與收音。'}],
+  };
+  const projection = publicationProjectionForEvidence({
+    result,
+    movieId: 'TEST-013',
+    safePublicSource: {
+      core_source_concept: '來源企劃',
+      safe_title_signals: [{type: 'theme', value: '來源企劃', source_field: 'title'}],
+    },
+    safeVideoAnalysis: {observations: [{i: 0}, {i: 1}, {i: 2}], sample_windows: 3},
+    sourceOnly: true,
+  });
+  const publicText = JSON.stringify(projection.result);
+  assert.equal(projection.downgraded, true);
+  assert.equal(projection.publishVideoEvidence, false);
+  assert.equal(projection.safeVideoAnalysis.sample_windows, 0);
+  assert.doesNotMatch(publicText, /舊影片/u);
+  assert.ok(projection.result.evidence.every(({basis, observation_refs: refs}) => basis === 'public_source' && refs.length === 0));
 });

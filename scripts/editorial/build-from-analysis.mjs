@@ -3,7 +3,7 @@ import {mkdir, readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {assertEditorialProviderReady, editorialApiKey, loadLocalEditorialEnvironment, requestStructuredEditorial} from './lib/openai-writer.mjs';
 import {buildSafePublicSource, buildSafeVideoAnalysis, safeCanonicalTagIds} from './lib/safe-editorial-payload.mjs';
-import {normalizeEditorialResult, parseFirstJsonObject} from './lib/provider-normalization.mjs';
+import {normalizeEditorialResult, parseFirstJsonObject, publicationProjectionForEvidence} from './lib/provider-normalization.mjs';
 import {writeSearchContent} from './lib/search-content.mjs';
 import {createDeterministicSourceBrief, createLocalSourceBrief} from './lib/local-source-brief.mjs';
 import {ensureAllPerformersInTitle, fillMissingEditorialTitle} from './lib/editorial-fallbacks.mjs';
@@ -61,10 +61,10 @@ const outputSchema = {
   additionalProperties: false,
   required: ['angle_candidates', 'selected_thesis', 'title_signals', 'title', 'seo_title', 'social_title', 'short_review', 'editorial_angle', 'editorial_tag_ids', 'evidence', 'creative_reconstruction_notes', 'unsupported_claims_excluded', 'decision_guide', 'sections'],
   properties: {
-    angle_candidates: {type: 'array', minItems: 3, maxItems: 3, items: {type: 'string', maxLength: 180}},
+    angle_candidates: {type: 'array', maxItems: 3, items: {type: 'string', maxLength: 180}},
     selected_thesis: {type: 'string', maxLength: 240},
     title_signals: {
-      type: 'array', minItems: 2, maxItems: 4,
+      type: 'array', maxItems: 4,
       items: {
         type: 'object', additionalProperties: false,
         required: ['type', 'value', 'source_field'],
@@ -80,9 +80,9 @@ const outputSchema = {
     social_title: {type: 'string', maxLength: 90},
     short_review: {type: 'string', maxLength: 240},
     editorial_angle: {type: 'string', maxLength: 300},
-    editorial_tag_ids: {type: 'array', minItems: 1, maxItems: 4, uniqueItems: true, items: {type: 'string', enum: providerTagIds}},
+    editorial_tag_ids: {type: 'array', maxItems: 4, uniqueItems: true, items: {type: 'string', enum: providerTagIds}},
     evidence: {
-      type: 'array', minItems: 5, maxItems: 10,
+      type: 'array', maxItems: 10,
       items: {
         type: 'object', additionalProperties: false,
         required: ['basis', 'signal', 'supports', 'observation_refs'],
@@ -94,29 +94,29 @@ const outputSchema = {
         },
       },
     },
-    creative_reconstruction_notes: {type: 'array', minItems: 2, maxItems: 8, items: {type: 'string', minLength: 8, maxLength: 180}},
-    unsupported_claims_excluded: {type: 'array', minItems: 1, maxItems: 5, items: {type: 'string', maxLength: 160}},
+    creative_reconstruction_notes: {type: 'array', maxItems: 8, items: {type: 'string', maxLength: 180}},
+    unsupported_claims_excluded: {type: 'array', maxItems: 5, items: {type: 'string', maxLength: 160}},
     decision_guide: {
       type: 'object', additionalProperties: false,
       required: ['thesis', 'story_density', 'pace', 'presentation', 'audience_for', 'audience_not_for', 'questions_answered'],
       properties: {
-        thesis: {type: 'string', minLength: 20, maxLength: 260},
+        thesis: {type: 'string', maxLength: 260},
         story_density: {type: 'string', enum: ['low', 'medium', 'high', 'unknown']},
         pace: {type: 'string', enum: ['slow', 'balanced', 'fast', 'varied', 'unknown']},
-        presentation: {type: 'array', minItems: 2, maxItems: 4, uniqueItems: true, items: {type: 'string', maxLength: 40}},
-        audience_for: {type: 'array', minItems: 2, maxItems: 4, uniqueItems: true, items: {type: 'string', minLength: 8, maxLength: 120}},
-        audience_not_for: {type: 'array', minItems: 2, maxItems: 4, uniqueItems: true, items: {type: 'string', minLength: 8, maxLength: 120}},
-        questions_answered: {type: 'array', minItems: 3, maxItems: 6, uniqueItems: true, items: {type: 'string', minLength: 8, maxLength: 120}},
+        presentation: {type: 'array', maxItems: 4, uniqueItems: true, items: {type: 'string', maxLength: 40}},
+        audience_for: {type: 'array', maxItems: 4, uniqueItems: true, items: {type: 'string', maxLength: 120}},
+        audience_not_for: {type: 'array', maxItems: 4, uniqueItems: true, items: {type: 'string', maxLength: 120}},
+        questions_answered: {type: 'array', maxItems: 6, uniqueItems: true, items: {type: 'string', maxLength: 120}},
       },
     },
     sections: {
-      type: 'array', minItems: 6, maxItems: 7,
+      type: 'array', maxItems: 7,
       items: {
         type: 'object', additionalProperties: false,
         required: ['heading', 'body'],
         properties: {
           heading: {type: 'string', maxLength: 50},
-          body: {type: 'string', minLength: 180, maxLength: 700},
+          body: {type: 'string', maxLength: 700},
         },
       },
     },
@@ -133,7 +133,7 @@ const safeVideoAnalysis = buildSafeVideoAnalysis(analysis);
 const sourceOnlyGuard = sourceOnly
   ? '本次是 source-only：正文只能使用 public_source 與本地 Editorial Brief 中可追溯的來源片名、公開簡介、人物關係、企劃設定、core_source_concept 與 topic_elements。要將這些資訊自然寫成完整段落，並說明它們如何影響選片判斷。沒有 video_analysis 證據時，不得聲稱已觀察到情節、場景銜接、鏡位、聲音、剪輯、演技、表情或身體語言，也不可虛構演員私生活、真實身分或年齡。'
   : '';
-const system = `你是 CC18 的繁體中文資深影評編輯。public_source.core_source_concept 是本作來源片名、系列或簡介中最具辨識度的企劃核心；它必須出現在 title 或 seo_title，控制 selected_thesis，並在至少兩個不同段落中得到實質分析。public_source.topic_elements 是由 CC18 原始標籤確定映射的題材字詞；正文必須自然使用重要的成人題材，說明題材與設定的組合、選片價值與取捨，不可只堆關鍵字。Canonical Tag 由規則引擎決定；你只選 editorial_tag_ids，表示影評觀點而非來源事實。文章要完整、具體且有選片價值，但所有作品事實只能來自 public_source、Editorial Brief 或 video_analysis；不得把未提供的情節、場景、鏡位、聲音、剪輯、表演或觀看結果寫成事實。${sourceOnlyGuard}公開欄位不得提到 AI、模型、提示詞、QA、source-only、資料欄位或內部製作方法。只能輸出 sections，不要輸出 review_sections；sections 必須有六至七節，每節 body 至少 180 字。每節先直接回答一個選片問題，再以可追溯的人物關係、設定或題材支持判斷。最後一節必須同時說明適合與不適合的觀眾。句型要自然變化，不得以公式化翻轉句代替論證。title_signals 必須從 safe_title_signals 原樣選取二至四個，且必須包含 core_source_concept；顯示標題、SEO 標題及社群標題都必須包含番號。decision_guide.thesis 必須至少二十個中文字並直接協助選片。演員未知時不可發明姓名。只輸出符合 JSON Schema 的 JSON。`;
+const system = `你是 CC18 的繁體中文資深影評編輯。public_source.core_source_concept 與 topic_elements 是可用的來源線索；有資料時自然用於選片說明，不為湊數堆疊關鍵字。Canonical Tag 由規則引擎決定；editorial_tag_ids只表示影評觀點。文章可依實際資料量自由決定段落數與長度，但所有作品事實只能來自 public_source、Editorial Brief 或 video_analysis；不得把未提供的情節、場景、鏡位、聲音、剪輯、表演或觀看結果寫成事實。${sourceOnlyGuard}公開欄位不得提到 AI、模型、提示詞、QA、source-only、資料欄位或內部製作方法。輸出欄位使用 sections；每節直接回答一個選片問題，再以可追溯資料支持判斷。若使用 title_signals，只能從 safe_title_signals 原樣選取；沒有適合訊號時可以留空。標題可自然撰寫，系統會另行補上必要的作品識別格式。演員未知時不可發明姓名。只輸出符合 JSON Schema 的 JSON。`;
 const prompt = {
   task: '產生可審查的 Editorial Brief 與影評草稿',
   public_source: safePublicSource,
@@ -145,9 +145,9 @@ const prompt = {
   method_note_location: '網站編輯方法頁；正文不需重複免責句',
   section_contract: {
     output_field: 'sections',
-    count: '6-7',
-    minimum_body_characters: 180,
-    required_development: ['core_source_concept 至少兩節', 'topic_elements 至少兩節', '最後一節同時說明適合與不適合觀眾'],
+    count: '依可用資料自由決定',
+    minimum_body_characters: 0,
+    required_development: ['只使用可追溯資料', '資訊不足時可以縮短或省略段落'],
     evidence_boundary: '只寫 public_source、Editorial Brief 或 video_analysis 可證明的作品內容',
   },
   rewrite_attempt: rewriteAttempt,
@@ -165,7 +165,7 @@ if (feedbackArgument) {
     missing_decision_value: '最後一節與 decision_guide 必須同時交代適合誰、不適合誰與具體取捨，不可只重複題材名稱。',
     body_lacks_source_adult_vocabulary: '將 public_source.topic_elements 中有來源的成人詞彙自然寫入至少兩個完整段落，說明它們在企劃中的作用，不可只列詞。',
     source_core_concept_not_developed: '以 public_source.core_source_concept 組織全文，至少在兩個不同段落說明設定、題材組合與選片差異。',
-    insufficient_sections: '輸出欄位必須是 sections，且必須有六至七個不同段落；每節 body 至少 180 字，不得改用 review_sections 或只回傳摘要。',
+    insufficient_sections: '段落數與篇幅只記錄為 warning，不要求重寫；保留現有可追溯內容。',
   };
   const failureReasons = feedback.failure_reasons ?? [
     ...(feedback.issues ?? []),
@@ -188,27 +188,28 @@ const generation = repairExisting
     schema: outputSchema,
     instructions: system,
     input: prompt,
-    requiredNonBlankFields: ['short_review'],
-    blankFieldRepair: {
-      field: 'short_review',
-      schema: {
-        type: 'object',
-        additionalProperties: false,
-        required: ['short_review'],
-        properties: {short_review: {type: 'string', minLength: 1, maxLength: 240, pattern: '.*\\S.*'}},
-      },
-      instructions: '只修補 short_review。根據提供的 public_source 與 editorial_brief，寫一段非空白、完整且有實質選片資訊的繁體中文短評。只能使用其中可追溯的作品設定、題材與成人詞彙；不得補寫來源未提供的情節、場景、鏡位、聲音、剪輯、表演或觀看結果。只輸出符合 Schema 的 JSON。',
-      input: {
-        movie_id: movieId,
-        public_source: safePublicSource,
-        editorial_brief: localCreativeBrief,
-      },
-    },
   });
 if (!repairExisting) await appendEditorialUsage({root, movieId, rewriteAttempt, usage: generation.usage});
-const result = normalizeEditorialResult(parseFirstJsonObject(generation.text), {movieId, safePublicSource, safeVideoAnalysis});
+let result = normalizeEditorialResult(parseFirstJsonObject(generation.text), {movieId, safePublicSource, safeVideoAnalysis});
+const publicationProjection = publicationProjectionForEvidence({
+  result,
+  movieId,
+  safePublicSource,
+  safeVideoAnalysis,
+  sourceOnly,
+});
+result = publicationProjection.result;
+const publishVideoEvidence = publicationProjection.publishVideoEvidence;
+if (publicationProjection.downgraded) {
+  console.warn(JSON.stringify({
+    event: 'editorial_content_warning',
+    movie_id: movieId,
+    code: 'insufficient_video_evidence_refs',
+    distinct_video_windows: publicationProjection.distinctVideoWindows,
+    fallback: 'complete_public_metadata_projection',
+  }));
+}
 result.editorial_tag_ids = [...new Set((result.editorial_tag_ids ?? []).filter((id) => providerTagIds.includes(id)))].slice(0, 4);
-if (!result.editorial_tag_ids.length) result.editorial_tag_ids = ['story'];
 const providerFields = Object.keys(result).sort();
 const providerFallbacks = [];
 
@@ -221,17 +222,27 @@ if (!result.social_title?.trim()) {
   result.social_title = result.title.slice(0, 90);
   providerFallbacks.push('social_title');
 }
-if (!Array.isArray(result.title_signals) || result.title_signals.length < 2) {
+const safeSignalsByIdentity = new Map(safePublicSource.safe_title_signals.map((signal) => [
+  `${signal.type}\u0000${signal.value}\u0000${signal.source_field}`,
+  signal,
+]));
+result.title_signals = (Array.isArray(result.title_signals) ? result.title_signals : [])
+  .map((signal) => safeSignalsByIdentity.get(`${signal?.type}\u0000${signal?.value}\u0000${signal?.source_field}`))
+  .filter(Boolean);
+if (result.title_signals.length < Math.min(2, safePublicSource.safe_title_signals.length)) {
   result.title_signals = safePublicSource.safe_title_signals.slice(0, 4);
   providerFallbacks.push('title_signals');
 }
 const coreSourceConcept = safePublicSource.core_source_concept;
 if (coreSourceConcept) {
   const coreSignal = safePublicSource.safe_title_signals.find(({value}) => value === coreSourceConcept);
-  if (!coreSignal) throw new Error(`Core source concept is missing from safe title signals: ${coreSourceConcept}`);
-  const withoutCore = result.title_signals.filter(({value}) => value !== coreSourceConcept);
-  const performer = withoutCore.find(({type}) => type === 'performer');
-  result.title_signals = [performer, coreSignal, ...withoutCore.filter((signal) => signal !== performer)].filter(Boolean).slice(0, 4);
+  if (coreSignal) {
+    const withoutCore = result.title_signals.filter(({value}) => value !== coreSourceConcept);
+    const performer = withoutCore.find(({type}) => type === 'performer');
+    result.title_signals = [performer, coreSignal, ...withoutCore.filter((signal) => signal !== performer)].filter(Boolean).slice(0, 4);
+  } else {
+    console.warn(JSON.stringify({event: 'editorial_content_warning', movie_id: movieId, code: 'core_source_concept_not_in_title_signals'}));
+  }
 }
 for (const requiredArray of ['angle_candidates', 'editorial_tag_ids', 'evidence', 'creative_reconstruction_notes', 'unsupported_claims_excluded', 'sections']) {
   if (!Array.isArray(result[requiredArray])) throw new Error(`Editorial provider returned no ${requiredArray}; fields=${providerFields.join(',')}`);
@@ -267,38 +278,41 @@ const sourceTextByField = {
   series: source.series ?? '',
   safe_signals: safePublicSource.safe_title_signals.map(({value}) => value).join('、'),
 };
-for (const signal of result.title_signals) {
-  if (!sourceTextByField[signal.source_field]?.includes(signal.value)) {
-    throw new Error(`Untraceable title signal ${signal.value} in ${signal.source_field}`);
-  }
+const traceableTitleSignals = result.title_signals.filter((signal) => sourceTextByField[signal.source_field]?.includes(signal.value));
+if (traceableTitleSignals.length !== result.title_signals.length) {
+  console.warn(JSON.stringify({event: 'editorial_content_warning', movie_id: movieId, code: 'untraceable_title_signals_removed'}));
 }
+result.title_signals = traceableTitleSignals;
 const signalValues = result.title_signals.map(({value}) => value);
-if (signalValues.filter((value) => result.title.includes(value)).length < 2) {
+const expectedTitleSignals = Math.min(2, signalValues.length);
+if (expectedTitleSignals && signalValues.filter((value) => result.title.includes(value)).length < expectedTitleSignals) {
   const generated = result.title.replace(movieId, '').trim().replace(/^[｜|：:—–-]+/, '').trim();
-  result.title = `${movieId} ${signalValues[0]} × ${signalValues[1]}｜${generated}`.slice(0, 90);
+  result.title = `${movieId} ${signalValues.slice(0, expectedTitleSignals).join(' × ')}${generated ? `｜${generated}` : ''}`.slice(0, 90);
 }
-if (!signalValues.some((value) => result.social_title.includes(value))) {
+if (signalValues.length && !signalValues.some((value) => result.social_title.includes(value))) {
   const generated = result.social_title.replace(movieId, '').trim().replace(/^[｜|：:—–-]+/, '').trim();
   result.social_title = `${movieId}｜${signalValues[0]}：${generated}`.slice(0, 90);
 }
 for (const tag of result.editorial_tag_ids) {
   if (!providerTagIds.includes(tag)) throw new Error(`Unknown generated editorial tag: ${tag}`);
 }
-const usedEvidence = new Set(result.evidence.flatMap(({observation_refs}) => observation_refs));
-if (!sourceOnly && usedEvidence.size < 3) throw new Error('Video-enhanced draft must cite at least three distinct video sample windows');
+const publishedVideoAnalysis = publicationProjection.safeVideoAnalysis;
+const publishedAnalysis = publishVideoEvidence ? analysis : {...analysis, job_id: null};
 
 const brief = {
   schema_version: 1,
   id: movieId,
   generated_at: new Date().toISOString(),
-  generation_mode: sourceOnly ? 'creative_first_source_only' : 'creative_first_video_enhanced',
+  generation_mode: publishVideoEvidence ? 'creative_first_video_enhanced' : 'creative_first_source_only',
   generation_model: generation.usage.model,
   rewrite_attempt: rewriteAttempt,
   source_record: `data/source-records/${movieId}.json`,
-  video_analysis_job_id: analysis.job_id ?? null,
+  video_analysis_job_id: publishVideoEvidence ? analysis.job_id ?? null : null,
   local_creative_brief: localCreativeBrief,
   locally_repaired_at: repairExisting ? new Date().toISOString() : null,
-  video_coverage: analysis.coverage,
+  video_coverage: publishVideoEvidence
+    ? analysis.coverage
+    : {strategy: 'source_only_fallback', sample_windows: 0, average_confidence: null},
   topic_elements: topicElements,
   ...result,
 };
@@ -400,6 +414,14 @@ const quality = {
 };
 await writeFile(resolve(root, `data/review-quality/${movieId}.json`), `${JSON.stringify(quality, null, 2)}\n`);
 
-await writeSearchContent({root, source, sourceRecordText, safeVideoAnalysis, result, analysis, registry});
+await writeSearchContent({
+  root,
+  source,
+  sourceRecordText,
+  safeVideoAnalysis: publishedVideoAnalysis,
+  result,
+  analysis: publishedAnalysis,
+  registry,
+});
 
 console.log(JSON.stringify({movie_id: movieId, brief: `data/editorial-briefs/${movieId}.json`, review: `content/reviews/${movieId}.md`, status: 'draft'}, null, 2));

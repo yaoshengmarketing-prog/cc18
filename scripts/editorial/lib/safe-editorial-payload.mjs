@@ -156,9 +156,6 @@ export function buildSafePublicSource(source, localCreativeBrief = null, taxonom
     type: 'theme', value: concept.value, source_field: concept.source_field,
   }))];
   const uniqueSignals = [...new Map(safeTitleSignals.map((signal) => [`${signal.type}:${signal.value}`, signal])).values()].slice(0, 8);
-  if (uniqueSignals.length < 2) {
-    throw Object.assign(new Error(`${source.id}: fewer than two safe source-grounded title signals`), {code: 'EDITORIAL_SAFE_SIGNALS_INSUFFICIENT'});
-  }
   return {
     id: source.id,
     release_date: source.release_date,

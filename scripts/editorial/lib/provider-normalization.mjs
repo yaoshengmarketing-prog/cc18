@@ -220,6 +220,12 @@ export function normalizeEditorialResult(raw, {movieId, safePublicSource, safeVi
   }
 
   const decisionGuide = normalizedDecisionGuide(raw.decision_guide ?? raw.decisionGuide ?? raw.search_content, raw, brief, sourceSignals, angleCandidates);
+  const fallbackSignalLabels = sourceSignals.map(({value}) => value).filter(Boolean).slice(0, 2);
+  const fallbackShortReview = safePublicSource.core_source_concept
+    ? `本作以「${safePublicSource.core_source_concept}」為主要來源線索；其餘資訊不足處暫不補寫。`
+    : fallbackSignalLabels.length
+      ? `本作可先從${fallbackSignalLabels.join('、')}等可追溯來源線索判斷是否符合偏好。`
+      : `${movieId}目前僅保留可驗證的作品識別與來源資料，其他內容不足處暫不補寫。`;
   if (sections.length && (!/適合|偏好|推薦/.test(sections.at(-1).body) || !/未必|不適合|取捨/.test(sections.at(-1).body))) {
     const decisionContext = safePublicSource.core_source_concept ?? sourceSignals[0]?.value ?? movieId;
     // 保持為一個包含作品專屬 decisionContext 的完整句子；若在中間斷句，
@@ -234,7 +240,7 @@ export function normalizeEditorialResult(raw, {movieId, safePublicSource, safeVi
     title: clip(firstText(raw.title, raw.review_title, raw.reviewTitle, review.title, review.review_title, brief.title), 90),
     seo_title: clip(firstText(raw.seo_title, raw.seoTitle, review.seo_title, review.seoTitle, brief.seo_title), 100),
     social_title: clip(firstText(raw.social_title, raw.socialTitle, review.social_title, review.socialTitle, brief.social_title), 90),
-    short_review: clip(firstText(raw.short_review, review.intro, brief.positioning, raw.editorial_angle), 240),
+    short_review: clip(firstText(raw.short_review, review.intro, brief.positioning, raw.editorial_angle, fallbackShortReview), 240),
     editorial_angle: clip(firstText(raw.editorial_angle, brief.angle, brief.positioning, raw.decision_guide?.thesis, angleCandidates[0]), 300),
     editorial_tag_ids: raw.editorial_tag_ids?.length ? raw.editorial_tag_ids : (raw.canonical_tag_ids?.length ? raw.canonical_tag_ids : derivedEditorialTags(safeVideoAnalysis)),
     evidence: raw.evidence?.length ? raw.evidence : (safeVideoAnalysis.observations?.length ? derivedEvidence(safeVideoAnalysis) : derivedSourceEvidence(safePublicSource)),
@@ -247,5 +253,88 @@ export function normalizeEditorialResult(raw, {movieId, safePublicSource, safeVi
     ],
     decision_guide: decisionGuide,
     sections,
+  };
+}
+
+const emptyVideoProjection = () => ({
+  duration_seconds: null,
+  sample_windows: 0,
+  average_confidence: null,
+  observations: [],
+});
+
+export function publicationProjectionForEvidence({result, movieId, safePublicSource, safeVideoAnalysis, sourceOnly = false}) {
+  const observedVideoRefs = new Set((safeVideoAnalysis.observations ?? [])
+    .map(({i}) => i)
+    .filter(Number.isInteger));
+  const videoEvidence = (result.evidence ?? []).filter(({basis}) => ['video_sample', 'both'].includes(basis));
+  const videoRefs = new Set(videoEvidence
+    .flatMap(({observation_refs: refs}) => refs ?? [])
+    .filter((ref) => Number.isInteger(ref) && observedVideoRefs.has(ref)));
+  const hasInvalidEvidenceRefs = (result.evidence ?? []).some(({basis, observation_refs: refs = []}) => refs.some((ref) => (
+    !['video_sample', 'both'].includes(basis)
+    || !Number.isInteger(ref)
+    || !observedVideoRefs.has(ref)
+  )));
+  const publishVideoEvidence = !sourceOnly && !hasInvalidEvidenceRefs && videoRefs.size >= 3;
+  if (publishVideoEvidence) {
+    return {
+      result,
+      safeVideoAnalysis,
+      publishVideoEvidence,
+      downgraded: false,
+      distinctVideoWindows: videoRefs.size,
+    };
+  }
+
+  const sourceSignals = safePublicSource.safe_title_signals ?? [];
+  const sourceConcept = safePublicSource.core_source_concept ?? sourceSignals[0]?.value ?? null;
+  const sourceSummary = sourceConcept
+    ? '來源資料可確認本作以「' + sourceConcept + '」作為主要作品線索。'
+    : movieId + '目前只有可驗證的作品識別與基本來源資料。';
+  const noVideoConclusion = '目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。';
+  const sourceEvidence = derivedSourceEvidence(safePublicSource)
+    .filter(({basis}) => basis === 'public_source');
+  const titleSuffix = sourceConcept ? '｜' + sourceConcept : '｜作品資料';
+  const fallback = normalizeEditorialResult({
+    angle_candidates: [sourceSummary],
+    selected_thesis: sourceSummary,
+    title_signals: sourceSignals,
+    title: movieId + titleSuffix,
+    seo_title: movieId + ' 作品資料' + (sourceConcept ? '｜' + sourceConcept : ''),
+    social_title: movieId + titleSuffix,
+    short_review: sourceSummary + noVideoConclusion,
+    editorial_angle: sourceSummary,
+    editorial_tag_ids: [],
+    evidence: sourceEvidence,
+    creative_reconstruction_notes: ['公開內容只保留可追溯的來源資料整理。'],
+    unsupported_claims_excluded: ['未保留缺少足夠影片引用的觀看觀察。'],
+    decision_guide: {
+      thesis: sourceSummary + noVideoConclusion,
+      story_density: 'unknown',
+      pace: 'unknown',
+      presentation: sourceSignals.map(({value}) => value).filter(Boolean).slice(0, 4),
+      audience_for: ['想先依來源題材與作品設定挑選的觀眾', '接受目前只提供來源資料整理的觀眾'],
+      audience_not_for: ['需要影片抽樣觀察才能決定的觀眾', '需要鏡位、收音或段落變化結論的觀眾'],
+      questions_answered: [
+        '來源資料可確認什麼？' + sourceSummary,
+        '目前能否提供影片觀察？' + noVideoConclusion,
+        '如何使用本頁？可先依來源題材與作品識別資訊判斷是否符合偏好。',
+      ],
+    },
+    sections: [{
+      heading: '來源資料與選片範圍',
+      body: sourceSummary + noVideoConclusion,
+    }],
+  }, {movieId, safePublicSource, safeVideoAnalysis: emptyVideoProjection()});
+  fallback.editorial_tag_ids = [];
+  fallback.evidence = sourceEvidence;
+
+  return {
+    result: fallback,
+    safeVideoAnalysis: emptyVideoProjection(),
+    publishVideoEvidence: false,
+    downgraded: true,
+    distinctVideoWindows: videoRefs.size,
   };
 }

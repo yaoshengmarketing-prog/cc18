@@ -9,7 +9,7 @@ import {
   sourceOnlyGroundingIssues,
 } from '../scripts/editorial/lib/qa-rules.mjs';
 
-test('source-only QA allows creative audiovisual commentary but still requires a source-specific title concept', () => {
+test('source-only QA records a missing source-specific title concept', () => {
   const issues = sourceOnlyGroundingIssues({
     body: '文章宣稱近距離鏡位與呼吸節奏帶來沉浸感。',
     titleSignals: ['測試演員', '高畫質'],
@@ -18,7 +18,7 @@ test('source-only QA allows creative audiovisual commentary but still requires a
   assert.deepEqual(issues, ['missing_source_specific_title_concept']);
 });
 
-test('content QA requires source adult vocabulary in both title strategy and prose', () => {
+test('content QA detects missing source adult vocabulary in title strategy and prose', () => {
   assert.deepEqual(editorialContentIssues({
     body: '文章只有節奏、反差與氣氛，沒有回答實際題材。',
     titleSignals: ['測試演員', '高畫質'],
@@ -38,14 +38,14 @@ test('content QA requires source adult vocabulary in both title strategy and pro
   }), []);
 });
 
-test('content QA rejects repeated generic arcs instead of banning the vocabulary entirely', () => {
+test('content QA detects repeated generic arcs without banning the vocabulary entirely', () => {
   assert.deepEqual(editorialContentIssues({
     body: '主導權轉移是第一段的結論；後面又把主導權轉移當作唯一結論。',
     titleSignals: [], topicElements: {},
   }), ['overused_generic_editorial_arc']);
 });
 
-test('content QA rejects a review that repeatedly avoids making a judgment', () => {
+test('content QA detects a review that repeatedly avoids making a judgment', () => {
   assert.deepEqual(editorialContentIssues({
     body: '這部若成立會有層次，後段有機會形成轉折，整體有機會適合某些觀眾。',
     titleSignals: [], topicElements: {},
@@ -60,7 +60,7 @@ test('content QA rejects a review that repeatedly avoids making a judgment', () 
   }), []);
 });
 
-test('content QA rejects production meta language and repeated machine-like pivots', () => {
+test('content QA detects production meta language and repeated machine-like pivots', () => {
   assert.equal(hasReaderFacingProductionMeta('以 source_only 條件整理'), true);
   assert.equal(hasReaderFacingProductionMeta('直接分析作品的角色與題材'), false);
   assert.deepEqual(editorialContentIssues({
@@ -81,27 +81,29 @@ test('content QA rejects production meta language and repeated machine-like pivo
   }), ['formulaic_machine_voice']);
 });
 
-test('content QA rejects excessive abstract editorial vocabulary', () => {
+test('content QA detects excessive abstract editorial vocabulary', () => {
   assert.deepEqual(editorialContentIssues({
     body: '層次層次層次層次層次層次',
     titleSignals: [], topicElements: {},
   }), ['abstract_editorial_vocabulary_overuse']);
 });
 
-test('content QA separates blocking errors, local repairs, and non-blocking notes', () => {
+test('content QA reports prose and style findings as non-blocking notes', () => {
   const blocked = editorialContentAssessment({
     body: '這篇文章由 AI 生成。',
     titleSignals: [], topicElements: {},
   });
-  assert.deepEqual(blocked.blockingIssues, ['reader_facing_production_meta']);
+  assert.deepEqual(blocked.blockingIssues, []);
   assert.deepEqual(blocked.repairIssues, []);
+  assert.deepEqual(blocked.notes, ['reader_facing_production_meta']);
 
   const repair = editorialContentAssessment({
     body: '真正的重點不在於場景，而在於人物。比較聰明的地方是題材集中。',
     titleSignals: [], topicElements: {},
   });
   assert.deepEqual(repair.blockingIssues, []);
-  assert.deepEqual(repair.repairIssues, ['formulaic_machine_voice']);
+  assert.deepEqual(repair.repairIssues, []);
+  assert.deepEqual(repair.notes, ['formulaic_machine_voice']);
   assert.equal(repair.findings[0].locations.length, 1);
   assert.match(repair.findings[0].locations[0].excerpt, /真正的重點/);
 
@@ -114,16 +116,17 @@ test('content QA separates blocking errors, local repairs, and non-blocking note
   assert.deepEqual(noted.notes, ['formulaic_pivot_observed']);
 });
 
-test('formulaic contrast in a heading requires local repair even when used once', () => {
+test('formulaic contrast in a heading produces a warning even when used once', () => {
   const assessment = editorialContentAssessment({
     body: '## 3p・4p 的關鍵不在場面大，而在主角能否留下畫面中心\n\n正文直接說明多人配置如何影響角色。',
     titleSignals: [], topicElements: {},
   });
-  assert.deepEqual(assessment.repairIssues, ['formulaic_heading_voice']);
+  assert.deepEqual(assessment.repairIssues, []);
+  assert.deepEqual(assessment.notes, ['formulaic_heading_voice', 'formulaic_pivot_observed']);
   assert.equal(assessment.findings[0].locations[0].paragraph, 1);
 });
 
-test('formulaic language across more than one third of paragraphs requires full rewrite', () => {
+test('formulaic language across more than one third of paragraphs remains publishable with a warning', () => {
   const assessment = editorialContentAssessment({
     body: [
       '## 第一段不是看場面，而是看人物',
@@ -135,11 +138,12 @@ test('formulaic language across more than one third of paragraphs requires full 
     ].join('\n\n'),
     titleSignals: [], topicElements: {},
   });
-  assert.deepEqual(assessment.blockingIssues, ['broad_formulaic_voice']);
+  assert.deepEqual(assessment.blockingIssues, []);
   assert.deepEqual(assessment.repairIssues, []);
+  assert.deepEqual(assessment.notes, ['broad_formulaic_voice']);
 });
 
-test('content QA requires the source-title core in a title and develops it beyond one mention', () => {
+test('content QA detects when the source-title core is absent or underdeveloped', () => {
   assert.deepEqual(editorialContentIssues({
     titles: ['TEST-001 學生妹中出'],
     body: '本文只在這裡提到一次露出慾望，後面全部改談角色覺醒。',
@@ -161,7 +165,7 @@ test('source-only QA accepts creative audiovisual commentary with a traceable to
   assert.deepEqual(issues, []);
 });
 
-test('sitewide originality rejects a reused agency-shift thesis and exact reusable prose', () => {
+test('sitewide originality detects a reused agency-shift thesis and exact reusable prose', () => {
   const issues = sitewideOriginalityIssues({
     selectedThesis: '角色先被安排進入企劃，最後接管整體節奏。',
     editorialAngle: '分析角色如何掌握場面。',
@@ -181,7 +185,7 @@ test('sitewide originality rejects a reused agency-shift thesis and exact reusab
   }), []);
 });
 
-test('sitewide originality sends thesis-level and exact reuse back to full rewrite', () => {
+test('sitewide originality records thesis-level and exact reuse without blocking publication', () => {
   const assessment = sitewideOriginalityAssessment({
     selectedThesis: '角色被安排進入企劃，最後接管場面。',
     editorialAngle: '觀察主導權。',
@@ -192,6 +196,24 @@ test('sitewide originality sends thesis-level and exact reuse back to full rewri
       body: '這是一句足夠長而且與站內另一篇完全重複的評論內容。',
     }],
   });
-  assert.deepEqual(assessment.blockingIssues, ['reused_generic_thesis_family', 'sitewide_reused_sentences']);
+  assert.deepEqual(assessment.blockingIssues, []);
   assert.deepEqual(assessment.repairIssues, []);
+  assert.deepEqual(assessment.notes, ['reused_generic_thesis_family', 'sitewide_reused_sentences']);
+});
+
+test('sparse prose, missing source-term coverage, and repeated style remain publishable', () => {
+  const assessment = editorialContentAssessment({
+    titles: ['TEST-001'],
+    body: '真正的重點不在於篇幅，而在於先完成。真正的重點不在於篇幅，而在於先完成。',
+    titleSignals: [],
+    topicElements: {identity: ['人妻'], action: ['中出']},
+    coreSourceConcept: '來源企劃',
+  });
+  assert.deepEqual(assessment.blockingIssues, []);
+  assert.deepEqual(assessment.repairIssues, []);
+  assert.ok(assessment.notes.includes('formulaic_pivot_observed'));
+  assert.ok(assessment.notes.includes('body_lacks_source_adult_vocabulary'));
+  assert.ok(assessment.notes.includes('title_lacks_primary_source_adult_topic'));
+  assert.ok(assessment.notes.includes('title_lacks_source_core_concept'));
+  assert.ok(assessment.notes.includes('source_core_concept_not_developed'));
 });
