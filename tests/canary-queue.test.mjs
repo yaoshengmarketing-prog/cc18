@@ -4,7 +4,7 @@ import {mkdtemp, readFile, rm} from 'node:fs/promises';
 import {join} from 'node:path';
 import {tmpdir} from 'node:os';
 import {FileQueueStore} from '../scripts/queue/store.mjs';
-import {alreadyPublishedRequestedIds, classifyCanaryStageOutcome, isNonBlockingVideoOutcome, registryDraftIds} from '../scripts/canary/selection.mjs';
+import {alreadyPublishedRequestedIds, classifyCanaryStageOutcome, isNonBlockingMediaOutcome, isNonBlockingVideoOutcome, registryDraftIds} from '../scripts/canary/selection.mjs';
 
 test('explicit canary may promote a Registry draft but refuses a published record', () => {
   const registry = {records: [
@@ -21,6 +21,11 @@ test('video retry or terminal failure does not block an approved article while r
   assert.equal(isNonBlockingVideoOutcome({stage: 'video', status: 'failed'}), true);
   assert.equal(isNonBlockingVideoOutcome({stage: 'video', status: 'leased'}), false);
   assert.equal(isNonBlockingVideoOutcome({stage: 'image', status: 'retry'}), false);
+  assert.equal(isNonBlockingMediaOutcome({stage: 'image', status: 'retry'}), true);
+  assert.equal(isNonBlockingMediaOutcome({stage: 'image', status: 'failed'}), true);
+  assert.deepEqual(classifyCanaryStageOutcome({
+    stage: 'image', required: false, exitCode: 1, job: {status: 'retry'},
+  }), {continuePipeline: true, reportStatus: 'retry_non_blocking'});
   assert.deepEqual(classifyCanaryStageOutcome({
     stage: 'video', required: false, exitCode: 1, job: {status: 'retry'},
   }), {continuePipeline: true, reportStatus: 'retry_non_blocking'});
@@ -35,8 +40,11 @@ test('single-work canary protects but is not blocked by unrelated pre-existing u
   assert.match(source, /protectedUntrackedPaths/u);
   assert.match(source, /assertProtectedUntrackedUnchanged/u);
   assert.match(source, /protected pre-existing untracked artifact/u);
+  assert.match(source, /stage: 'image'[\s\S]*required: false/u);
   assert.match(source, /stage: 'video'[\s\S]*required: false/u);
   assert.match(source, /stage: 'publish'[\s\S]*required: true/u);
+  assert.match(source, /imageGenerationEnabled \? \[\{stage: 'image'/u);
+  assert.doesNotMatch(source, /Canary requires CC18_ALLOW_EDITORIAL_TRANSMISSION=YES and CC18_ALLOW_IMAGE_TRANSMISSION=YES/u);
   assert.match(source, /classifyCanaryStageOutcome/u);
   assert.doesNotMatch(source, /Canary requires a clean Git worktree/u);
 });

@@ -195,6 +195,14 @@ test('keeps a catalogued work with no public synopsis as partial metadata', () =
   assert.deepEqual(item.source_relations.fac, []);
 });
 
+test('keeps sparse works when cover or performer display text is unavailable', () => {
+  const html = '<h1>稀疏來源 SPARSE-001</h1><div class="date">2026-08-25</div><div class="tag-info"><a href="/search.php?s_type=actor&s_tid=3">  </a></div>';
+  const item = parseWorkPage(html, 'https://cc18.tv/player.php?uuid=sparse&cat=19');
+  assert.equal(item.cover_source_url, null);
+  assert.deepEqual(item.actress, []);
+  assert.deepEqual(item.source_relations.performers, []);
+});
+
 test('tag relations preserve DOM order, allow same-name different IDs and reject duplicate IDs', () => {
   const shell = (links) => `<h1>標籤驗證 TAG-001</h1><p class="movie_player_up_pic"><img src="/preview/tag.jpg"></p><div class="date">2026-08-25</div><div class="tag-info">${links}</div>`;
   const item = parseWorkPage(shell('<a href="/search.php?s_type=tag&s_tid=9">同名</a><a href="/search.php?s_type=tag&s_tid=3">同名</a><a href="/search.php?s_type=tag&s_tid=7">第三</a>'), 'https://cc18.tv/player.php?uuid=tags&cat=19');

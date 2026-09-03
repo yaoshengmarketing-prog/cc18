@@ -59,6 +59,9 @@ const source = sourceRecordFor(review.data.id);
 const search = searchContentFor(review.data.id);
 const quality = reviewQualityFor(review.data.id);
 const editorialTags = reviewEditorialTags(review);
+const canonicalTags = visibleTags(review);
+const rawSourceTags = sourceTagItems(review.data.sourceTags);
+const hasPerformerNames = performers.length > 0 || review.data.actress.length > 0;
 if (!quality?.approved_for_publish) throw new Error(`${review.data.id}: approved review quality record missing`);
 if (!evidence) throw new Error(`${review.data.id}: Movie Master Evidence projection missing`);
 const pageUrl = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
@@ -128,25 +131,25 @@ if (review.data.videoUrl) structuredData.push({
         <p class="lead">{review.data.shortReview}</p>
         <dl class="watch-meta">
           <div><dt>上片日期</dt><dd>{formatDate(review.data.releaseDate)}</dd></div>
-          <div>
+          {hasPerformerNames && <div>
             <dt>演員</dt>
             <dd>{performers.length
               ? performers.map((performer, index) => <>{index > 0 && '、'}<a href={performer.href} data-performer-id={performer.stable_performer_id}>{performer.primary_display_name}</a></>)
-              : review.data.actress.join('、') || '來源未列出'}</dd>
-          </div>
+              : review.data.actress.join('、')}</dd>
+          </div>}
           <div><dt>片商</dt><dd>{review.data.studio || '來源未列出'}</dd></div>
         </dl>
-        <TagList tags={visibleTags(review).slice(0, 6)} />
+        {canonicalTags.length > 0 && <TagList tags={canonicalTags.slice(0, 6)} />}
         <a class="button source-cta" href={review.data.sourceUrl} target="_blank" rel="sponsored noopener">
           <span>完整影片與原始作品資訊</span><b>前往 CC18 播放 ↗</b>
         </a>
       </div>
     </header>
-    <section class="review-tag-board" aria-label="作品標籤">
-      <div><p class="tag-label">站內題材</p><TagList tags={visibleTags(review)} /></div>
-      <div><p class="tag-label source-tag-label">CC18 原始標籤</p><TagList tags={sourceTagItems(review.data.sourceTags)} /></div>
+    {(canonicalTags.length > 0 || rawSourceTags.length > 0 || editorialTags.length > 0) && <section class="review-tag-board" aria-label="作品標籤">
+      {canonicalTags.length > 0 && <div><p class="tag-label">站內題材</p><TagList tags={canonicalTags} /></div>}
+      {rawSourceTags.length > 0 && <div><p class="tag-label source-tag-label">CC18 原始標籤</p><TagList tags={rawSourceTags} /></div>}
       {editorialTags.length > 0 && <div><p class="tag-label editorial-tag-label">影評觀點</p><TagList tags={editorialTags} /></div>}
-    </section>
+    </section>}
     {review.data.heroUrl && (
       <figure class="review-hero-art">
         <img src={review.data.heroUrl} alt={`${review.data.id} 原創非露骨情境主視覺`} loading="eager" />

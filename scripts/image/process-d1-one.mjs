@@ -9,6 +9,7 @@ import {awaitImageTask, createImageTask, downloadGeneratedImage, imageApiKey, li
 import {buildArtworkPrompts} from './lib/artwork-prompt.mjs';
 import {assertApprovedReviewForMedia} from './lib/approval-gate.mjs';
 import {listR2Objects} from '../r2/object-store.mjs';
+import {continuePublicationAfterImageFailure, publicationCoverAfterImageFailure} from './lib/fail-soft.mjs';
 
 const requestedMovieId = process.argv[2]?.trim().toUpperCase() ?? null;
 if (requestedMovieId && !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(requestedMovieId)) throw new Error('Usage: npm run image:d1:process-one -- [MOVIE-ID]');
@@ -25,20 +26,14 @@ const assertLocalApproval = async (movieId) => {
   return assertApprovedReviewForMedia({movieId, markdown, quality, registry});
 };
 if (requestedMovieId) await assertLocalApproval(requestedMovieId);
-// Fail before provider discovery, task creation, or D1 claim. This prevents a
-// paid image generation from completing when the configured R2 upload path is
-// unavailable in the current execution environment.
-await listR2Objects({bucket: config.r2_bucket, prefix: '.cc18-upload-preflight/'});
-const apiKey = imageApiKey(config);
-if (!apiKey) throw Object.assign(new Error(`${config.api_key_env} is not configured; image job was not claimed`), {code: 'IMAGE_PROVIDER_NOT_CONFIGURED'});
-const models = await listImageModels({config, apiKey});
-for (const role of Object.keys(config.roles)) selectImageSpec(config, models, role);
-
 const store = queueStoreFromEnvironment({mode: 'd1'});
 let job = requestedMovieId ? await store.findJob({movieId: requestedMovieId, stage: 'image'}) : null;
 if (requestedMovieId && !job) job = await store.enqueueJob({movieId: requestedMovieId, stage: 'image'});
 if (requestedMovieId && job?.status === 'retry') {
   job = await store.requeueRetry({jobId: job.id, allowedErrorCodes: ['IMAGE_GENERATION_FAILED']}) ?? job;
+}
+if (requestedMovieId && job?.status === 'failed') {
+  job = await store.requeueFailedMedia({jobId: job.id, stage: 'image'}) ?? job;
 }
 const workerId = `image-${hostname()}-${process.pid}-${randomUUID().slice(0, 8)}`;
 const claimed = await store.claim({stage: 'image', jobId: job?.id ?? null, workerId, leaseSeconds: pipeline.queue.lease_seconds});
@@ -50,17 +45,38 @@ const movieId = claimed.movie_id;
 const runtime = resolve(root, '.cc18-image', 'runtime', claimed.id);
 await mkdir(runtime, {recursive: true});
 
-const run = (script, args) => new Promise((resolveRun, rejectRun) => {
+const run = (script, args, errorCode = 'IMAGE_GENERATION_FAILED') => new Promise((resolveRun, rejectRun) => {
   const child = spawn(process.execPath, [resolve(root, script), ...args], {cwd: root, stdio: 'inherit'});
   child.once('error', rejectRun);
-  child.once('exit', (code) => code === 0 ? resolveRun() : rejectRun(new Error(`${script} exited with ${code}`)));
+  child.once('exit', (code) => code === 0
+    ? resolveRun()
+    : rejectRun(Object.assign(new Error(`${script} exited with ${code}`), {code: errorCode})));
 });
 
+let publicationCover = null;
 try {
   await assertLocalApproval(movieId);
   const movie = await store.getMovie(movieId);
   if (!movie) throw Object.assign(new Error(`${movieId}: D1 movie record missing`), {code: 'MOVIE_SOURCE_MISSING'});
   const source = JSON.parse(movie.source_json);
+  if (source.id !== movieId) throw Object.assign(new Error(`${movieId}: D1 source identity mismatch`), {code: 'MOVIE_SOURCE_MISMATCH'});
+  const review = await readFile(resolve(root, 'content', 'reviews', `${movieId}.md`), 'utf8');
+  publicationCover = publicationCoverAfterImageFailure({reviewMarkdown: review, source});
+  try {
+    await listR2Objects({bucket: config.r2_bucket, prefix: '.cc18-upload-preflight/'});
+  } catch (error) {
+    throw Object.assign(new Error(`Image upload preflight failed: ${error.message}`), {code: 'IMAGE_UPLOAD_UNAVAILABLE'});
+  }
+  const apiKey = imageApiKey(config);
+  if (!apiKey) throw Object.assign(new Error(`${config.api_key_env} is not configured`), {code: 'IMAGE_PROVIDER_NOT_CONFIGURED'});
+  let models;
+  try {
+    models = await listImageModels({config, apiKey});
+    for (const role of Object.keys(config.roles)) selectImageSpec(config, models, role);
+  } catch (error) {
+    if (error?.code) throw error;
+    throw Object.assign(new Error(`Image provider discovery failed: ${error.message}`), {code: 'IMAGE_PROVIDER_UNAVAILABLE'});
+  }
   const brief = JSON.parse(await readFile(resolve(root, `data/editorial-briefs/${movieId}.json`), 'utf8'));
   const prompts = buildArtworkPrompts({source, localCreativeBrief: brief.local_creative_brief});
   await mkdir(resolve(root, 'data', 'image-briefs'), {recursive: true});
@@ -85,12 +101,15 @@ try {
     files[role] = path;
     taskIds.push(taskId);
   }
-  await run('scripts/image/finalize-assets.mjs', [movieId, `--hero=${files.article_hero}`, `--vertical=${files.vertical_scene}`, `--provider=${config.provider}`, `--model=${config.model}`, `--task-ids=${taskIds.join(',')}`, `--version=${claimed.attempt}`]);
+  await run('scripts/image/finalize-assets.mjs', [movieId, `--hero=${files.article_hero}`, `--vertical=${files.vertical_scene}`, `--provider=${config.provider}`, `--model=${config.model}`, `--task-ids=${taskIds.join(',')}`, `--version=${claimed.attempt}`], 'IMAGE_UPLOAD_FAILED');
   await store.finishJob({jobId: claimed.id, workerId, outcome: 'completed'});
-  const [videoJob, publishJob] = await Promise.all([
+  const [videoJob, existingPublishJob] = await Promise.all([
     store.enqueueJob({movieId, stage: 'video', priority: claimed.priority, discoveryRunId: claimed.discovery_run_id}),
     store.enqueueJob({movieId, stage: 'publish', priority: claimed.priority, discoveryRunId: claimed.discovery_run_id}),
   ]);
+  const publishJob = existingPublishJob.status === 'completed'
+    ? await store.requeueCompletedForUpdate({jobId: existingPublishJob.id}) ?? existingPublishJob
+    : existingPublishJob;
   console.log(JSON.stringify({
     movie_id: movieId,
     image_job_id: claimed.id,
@@ -100,12 +119,33 @@ try {
     publication_ready_without_video: true,
   }, null, 2));
 } catch (error) {
-  const outcome = claimed.attempt >= claimed.max_attempts ? 'failed' : 'retry';
-  await store.finishJob({
-    jobId: claimed.id, workerId, outcome, errorCode: error?.code ?? 'IMAGE_GENERATION_FAILED',
-    retryAt: outcome === 'retry' ? new Date(Date.now() + 30 * 60_000).toISOString() : null,
-  });
-  throw error;
+  if (publicationCover) {
+    const fallback = await continuePublicationAfterImageFailure({
+      store,
+      claimed,
+      workerId,
+      error,
+      retryAt: new Date(Date.now() + 30 * 60_000).toISOString(),
+    });
+    console.warn(JSON.stringify({
+      event: 'image_failure_non_blocking',
+      movie_id: movieId,
+      image_job_id: claimed.id,
+      image_status: fallback.outcome,
+      image_error_code: error?.code ?? 'IMAGE_GENERATION_FAILED',
+      publication_cover: publicationCover,
+      publish_job_id: fallback.publishJob.id,
+      publish_status: fallback.publishJob.status,
+    }, null, 2));
+    process.exitCode = 0;
+  } else {
+    const outcome = claimed.attempt >= claimed.max_attempts ? 'failed' : 'retry';
+    await store.finishJob({
+      jobId: claimed.id, workerId, outcome, errorCode: error?.code ?? 'IMAGE_GENERATION_FAILED',
+      retryAt: outcome === 'retry' ? new Date(Date.now() + 30 * 60_000).toISOString() : null,
+    });
+    throw error;
+  }
 } finally {
   if (runtime.startsWith(resolve(root, '.cc18-image', 'runtime'))) await rm(runtime, {recursive: true, force: true});
 }

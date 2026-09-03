@@ -15,6 +15,9 @@ if (requestedMovieId && !job) job = await store.enqueueJob({movieId: requestedMo
 if (requestedMovieId && job?.status === 'retry') {
   job = await store.requeueRetry({jobId: job.id, allowedErrorCodes: ['VIDEO_RENDER_FAILED']}) ?? job;
 }
+if (requestedMovieId && job?.status === 'failed') {
+  job = await store.requeueFailedMedia({jobId: job.id, stage: 'video'}) ?? job;
+}
 const workerId = `video-${hostname()}-${process.pid}-${randomUUID().slice(0, 8)}`;
 const claimed = await store.claim({stage: 'video', jobId: job?.id ?? null, workerId, leaseSeconds: pipeline.queue.lease_seconds});
 if (!claimed) {
@@ -41,7 +44,10 @@ try {
   await run(process.execPath, [remotion, 'render', 'video/src/index.ts', 'CC18Vertical', output, `--props=video/examples/${slug}.json`, '--codec=h264', '--crf=18', '--pixel-format=yuv420p']);
   await run(process.execPath, [resolve(root, 'scripts/video/finalize-video.mjs'), movieId, `--input=${output}`]);
   await store.finishJob({jobId: claimed.id, workerId, outcome: 'completed'});
-  const publishJob = await store.enqueueJob({movieId, stage: 'publish', priority: claimed.priority, discoveryRunId: claimed.discovery_run_id});
+  const existingPublishJob = await store.enqueueJob({movieId, stage: 'publish', priority: claimed.priority, discoveryRunId: claimed.discovery_run_id});
+  const publishJob = existingPublishJob.status === 'completed'
+    ? await store.requeueCompletedForUpdate({jobId: existingPublishJob.id}) ?? existingPublishJob
+    : existingPublishJob;
   console.log(JSON.stringify({movie_id: movieId, video_job_id: claimed.id, status: 'completed', publish_job_id: publishJob.id, publish_status: publishJob.status}, null, 2));
 } catch (error) {
   const outcome = claimed.attempt >= claimed.max_attempts ? 'failed' : 'retry';

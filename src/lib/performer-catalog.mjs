@@ -8,7 +8,7 @@ import {
   performerRouteSegment,
   performerStableIdFromSourceId,
 } from './performer-url.mjs';
-import {buildPerformerLocalizationMap} from './performer-localization-policy.mjs';
+import {buildPerformerLocalizationMap, resolvePerformerDisplayRecord} from './performer-localization-policy.mjs';
 import {
   validateCanonicalMovieIdentity,
   validateCanonicalMovieMasterIndexEntries,
@@ -177,9 +177,11 @@ export function buildPerformerCatalog({cards, masters, localization, searchIndex
     typedWorkIds.push(card.stable_movie_id);
     for (const [index, relation] of relations.entries()) {
       const id = relation.stable_source_id;
-      const localized = localizationById.get(id);
-      if (!localized) throw new Error(`${master.source.catalog_code}: typed performer ${id} is absent from localization`);
-      if (localized.source_name !== relation.source_name) throw new Error(`${master.source.catalog_code}: source performer name mismatch for ${id}`);
+      const localized = resolvePerformerDisplayRecord({
+        stablePerformerId: id,
+        sourceName: relation.source_name,
+        localizations: localizationById,
+      });
       const primary = localized.primary_display_name;
       requireText(primary, `${id} primary display name`);
       const actualDisplay = display[index];
@@ -209,7 +211,14 @@ export function buildPerformerCatalog({cards, masters, localization, searchIndex
 
   const performers = [];
   for (const id of relationIds) {
-    const localized = localizationById.get(id);
+    const firstRelation = publicMasters
+      .flatMap((master) => master.source.performer_relations)
+      .find(({stable_source_id: stableId}) => stableId === id);
+    const localized = resolvePerformerDisplayRecord({
+      stablePerformerId: id,
+      sourceName: firstRelation?.source_name,
+      localizations: localizationById,
+    });
     const search = searchById.get(id);
     const primaryDisplayName = localized.primary_display_name;
     if (search.display_name !== primaryDisplayName

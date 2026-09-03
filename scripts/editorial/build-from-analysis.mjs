@@ -322,6 +322,7 @@ await writeFile(resolve(root, `data/editorial-briefs/${movieId}.json`), `${JSON.
 const yamlText = (value) => JSON.stringify(value);
 const yamlList = (values) => values.length ? values.map((value) => `  - ${value}`).join('\n') : '  []';
 const today = new Intl.DateTimeFormat('en-CA', {timeZone: 'Asia/Taipei'}).format(new Date());
+const publicationCover = source.cover_source_url ?? '/images/movie-cover-fallback.svg';
 const markdown = `---
 id: ${movieId}
 sourceTitle: ${yamlText(source.title)}
@@ -339,7 +340,7 @@ studio: ${yamlText(source.studio ?? '')}
 series: ${yamlText(source.series ?? '')}
 sourceUrl: ${source.source_url}
 sourceSite: cc18.tv
-coverUrl: ${source.cover_source_url}
+coverUrl: ${publicationCover}
 shortReview: ${yamlText(result.short_review)}
 editorialAngle: ${yamlText(result.editorial_angle)}
 sourceTags:

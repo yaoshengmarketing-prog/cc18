@@ -14,9 +14,10 @@ if (!Number.isInteger(max) || max < 1 || max > 3) throw new Error('--max must be
 const requestedIds = (option('--ids') ?? '').split(',').map((value) => value.trim().toUpperCase()).filter(Boolean);
 if (requestedIds.some((id) => !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(id))) throw new Error('--ids contains an invalid movie id');
 if (requestedIds.length > max) throw new Error('--ids cannot contain more entries than --max');
-if (process.env.CC18_ALLOW_EDITORIAL_TRANSMISSION !== 'YES' || process.env.CC18_ALLOW_IMAGE_TRANSMISSION !== 'YES') {
-  throw new Error('Canary requires CC18_ALLOW_EDITORIAL_TRANSMISSION=YES and CC18_ALLOW_IMAGE_TRANSMISSION=YES');
+if (process.env.CC18_ALLOW_EDITORIAL_TRANSMISSION !== 'YES') {
+  throw new Error('Canary requires CC18_ALLOW_EDITORIAL_TRANSMISSION=YES');
 }
+const imageGenerationEnabled = process.env.CC18_ALLOW_IMAGE_TRANSMISSION === 'YES';
 buildR2WranglerEnvironment();
 const git = (args) => {
   const result = spawnSync('git', args, {cwd: root, encoding: 'utf8'});
@@ -57,7 +58,7 @@ const candidates = requestedIds.length
   : (await store.listCanaryCandidates({limit: max, excludeMovieIds: [...registeredIds]})).map(({movie_id}) => movie_id);
 const stages = [
   {stage: 'editorial', script: 'scripts/editorial/handoff-d1.mjs', args: (id) => [id, '--source-only', ...(draftIds.has(id) ? ['--qa-only'] : []), '--retry-now'], required: true},
-  {stage: 'image', script: 'scripts/image/process-d1-one.mjs', args: (id) => [id], required: true},
+  ...(imageGenerationEnabled ? [{stage: 'image', script: 'scripts/image/process-d1-one.mjs', args: (id) => [id], required: false}] : []),
   {stage: 'video', script: 'scripts/video/process-d1-one.mjs', args: (id) => [id], required: false},
   {stage: 'publish', script: 'scripts/publish/process-d1-one.mjs', args: (id) => [id], required: true},
 ];
@@ -67,7 +68,7 @@ const run = (script, args) => new Promise((resolveRun) => {
   child.once('close', (code) => resolveRun({code: code ?? 1}));
 });
 
-const report = {schema_version: 1, started_at: new Date().toISOString(), maximum_works: max, selected: candidates, completed: [], failed: []};
+const report = {schema_version: 1, started_at: new Date().toISOString(), maximum_works: max, image_generation_enabled: imageGenerationEnabled, selected: candidates, completed: [], failed: []};
 for (const movieId of candidates) {
   const work = {movie_id: movieId, stages: []};
   try {

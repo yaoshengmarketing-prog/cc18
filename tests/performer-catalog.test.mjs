@@ -388,6 +388,43 @@ test('a future typed performer is data-driven and same-name identities remain se
   assert.equal(unrelated.metadata_identity_label, unrelated.primary_display_name);
 });
 
+test('a new typed performer uses the source name until localization exists', async () => {
+  const inputs = clone(await formalInputs());
+  const targetMaster = inputs.masters.find(({source}) => source.catalog_code === 'ENDS-322');
+  const id = 'cc18.tv:actor:999998';
+  const name = '來源新人物';
+  targetMaster.source.performer_relations = [{
+    source_type: 'actor', source_id: '999998', stable_source_id: id, source_name: name,
+    source_url: 'https://cc18.tv/search.php?s_type=actor&s_tid=999998', observed_at: '2026-08-01T00:00:00.000Z',
+  }];
+  targetMaster.display.performers = [{
+    source_actor_id: id, name_ja: null, display_name_zh_tw: null,
+    display_name: name, verification_status: 'SOURCE_NAME_FALLBACK',
+  }];
+  inputs.searchIndex.performers.push({
+    stable_actor_id: id, display_name: name, display_name_zh_tw: null, name_ja: null,
+    source_name: name, searchable_aliases: [], related_movie_ids: [targetMaster.stable_movie_id],
+  });
+  const catalog = buildPerformerCatalog(inputs);
+  const performer = catalog.performers.find(({stable_performer_id: performerId}) => performerId === id);
+  assert.equal(performer.primary_display_name, name);
+  assert.equal(performer.verification_status, undefined);
+  assert.deepEqual(performer.searchable_aliases, []);
+  assert.deepEqual(performer.schema_alternate_names, []);
+  const projection = validatePerformerRelations({
+    catalogCode: 'TEST-001',
+    source: {
+      actress: [name], fetched_at: '2026-08-01T00:00:00.000Z',
+      source_relations: {performers: [{...targetMaster.source.performer_relations[0]}]},
+    },
+    isPublished: true,
+    localizations: new Map(),
+    usedPerformerIds: new Set(),
+  });
+  assert.equal(projection.displayProjection[0].display_name, name);
+  assert.equal(projection.displayProjection[0].verification_status, 'SOURCE_NAME_FALLBACK');
+});
+
 test('catalog fails closed before deduplication on duplicate and mismatched identity data', async () => {
   const base = await formalInputs();
   const duplicateRelation = clone(base);
@@ -744,4 +781,18 @@ test('Movie Master and Search consumers reject loose performer IDs behaviorally'
     localizations,
     usedPerformerIds: new Set(),
   }), /invalid performer relation URL/);
+});
+
+test('performer identity validation accepts an exact source-name fallback without a localization record', () => {
+  const relation = {
+    source_type: 'actor', source_id: '999998', stable_source_id: 'cc18.tv:actor:999998', source_name: '來源新人物',
+    source_url: 'https://cc18.tv/search.php?s_type=actor&s_tid=999998',
+  };
+  assert.equal(validatePerformerIdentity({
+    catalogCode: 'TEST-001',
+    registryNames: ['來源新人物'],
+    sourceNames: ['來源新人物'],
+    relations: [relation],
+    localizations: new Map(),
+  }), true);
 });

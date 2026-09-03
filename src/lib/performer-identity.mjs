@@ -2,6 +2,7 @@ import {
   parsePerformerSourceId, parsePerformerSourceUrl, parsePerformerStableId,
   performerStableIdFromSourceId,
 } from './performer-url.mjs';
+import {resolvePerformerDisplayRecord} from './performer-localization-policy.mjs';
 
 export const validatePerformerIdentity = ({catalogCode, registryNames, sourceNames, relations, localizations}) => {
   if (!Array.isArray(registryNames) || !Array.isArray(sourceNames) || !Array.isArray(relations)) {
@@ -26,9 +27,10 @@ export const validatePerformerIdentity = ({catalogCode, registryNames, sourceNam
       || parsedUrl.sourceId !== sourceId || parsedUrl.stableId !== stableId) {
       throw new Error(`${catalogCode}: performer relation identity mismatch for ${stableId}`);
     }
-    const localized = localizations.get(stableId);
-    if (!localized || localized.source_name !== sourceName) {
-      throw new Error(`${catalogCode}: missing or mismatched performer localization for ${stableId}`);
+    try {
+      resolvePerformerDisplayRecord({stablePerformerId: stableId, sourceName, localizations});
+    } catch (error) {
+      throw new Error(`${catalogCode}: invalid performer display source for ${stableId}: ${error.message}`);
     }
   }
   return true;

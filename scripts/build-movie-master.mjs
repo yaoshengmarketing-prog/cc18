@@ -11,7 +11,7 @@ import {
   parsePerformerStableId,
   performerStableIdFromSourceId,
 } from '../src/lib/performer-url.mjs';
-import {buildPerformerLocalizationMap} from '../src/lib/performer-localization-policy.mjs';
+import {buildPerformerLocalizationMap, resolvePerformerDisplayRecord} from '../src/lib/performer-localization-policy.mjs';
 import {parseSeriesSourceId, parseSeriesStableId, seriesStableIdFromSourceId} from '../src/lib/series-identity.mjs';
 import {parseTagSourceId, parseTagStableId, tagStableIdFromSourceId} from '../src/lib/tag-identity.mjs';
 import {facStableIdFromSourceId, parseFacSourceId, parseFacStableId} from '../src/lib/fac-identity.mjs';
@@ -189,8 +189,12 @@ export const validatePerformerRelations = ({catalogCode, source, isPublished, lo
     }
     if (!sourceName || sourceName !== rawNames[index]) fail(`${catalogCode}: performer source name mismatch`);
     if (!observedAt || observedAt !== cleanScalar(source?.fetched_at)) fail(`${catalogCode}: performer observed_at must equal Source Record fetched_at`);
-    const localized = localizations.get(stableSourceId);
-    if (!localized || cleanScalar(localized.source_name) !== sourceName) fail(`${catalogCode}: missing or mismatched performer localization ${stableSourceId}`);
+    let localized;
+    try {
+      localized = resolvePerformerDisplayRecord({stablePerformerId: stableSourceId, sourceName, localizations});
+    } catch (error) {
+      fail(`${catalogCode}: invalid performer display source ${stableSourceId}: ${error.message}`);
+    }
     const displayName = localized.primary_display_name;
     usedPerformerIds.add(stableSourceId);
     sourceProjection.push({

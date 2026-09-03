@@ -5,6 +5,11 @@ import {buildArtworkPrompts} from '../scripts/image/lib/artwork-prompt.mjs';
 import {createHash} from 'node:crypto';
 import {assertApprovedReviewForMedia, refreshApprovedReviewHash} from '../scripts/image/lib/approval-gate.mjs';
 import {readFile} from 'node:fs/promises';
+import {
+  continuePublicationAfterImageFailure,
+  INTERNAL_COVER_FALLBACK,
+  publicationCoverAfterImageFailure,
+} from '../scripts/image/lib/fail-soft.mjs';
 
 const config = {
   base_url: 'https://api.aitokenking.com.tw/api/v1', allowed_hosts: ['api.aitokenking.com.tw'], model: 'seedream-4.5',
@@ -97,7 +102,7 @@ test('approved image frontmatter changes receive a deterministic publishable rev
   );
 });
 
-test('image worker verifies R2 before provider access or D1 claim', async () => {
+test('image worker claims before media preflight but still verifies R2 before paid provider access', async () => {
   const source = await readFile(new URL('../scripts/image/process-d1-one.mjs', import.meta.url), 'utf8');
   const preflight = source.indexOf("await listR2Objects({bucket: config.r2_bucket, prefix: '.cc18-upload-preflight/'})");
   const providerDiscovery = source.indexOf('await listImageModels');
@@ -105,7 +110,7 @@ test('image worker verifies R2 before provider access or D1 claim', async () => 
   const paidGeneration = source.indexOf('await createImageTask');
   assert.ok(preflight >= 0);
   assert.ok(preflight < providerDiscovery);
-  assert.ok(preflight < d1Claim);
+  assert.ok(d1Claim < preflight);
   assert.ok(preflight < paidGeneration);
 });
 
@@ -114,4 +119,41 @@ test('completed images enqueue publication independently from the optional video
   assert.match(source, /stage: 'video'/u);
   assert.match(source, /stage: 'publish'/u);
   assert.match(source, /publication_ready_without_video: true/u);
+  assert.match(source, /job\?\.status === 'failed'/u);
+  assert.match(source, /requeueFailedMedia\(\{jobId: job\.id, stage: 'image'\}\)/u);
+  assert.match(source, /requeueCompletedForUpdate/u);
+});
+
+test('a completed optional video requeues publication so the later asset can appear', async () => {
+  const source = await readFile(new URL('../scripts/video/process-d1-one.mjs', import.meta.url), 'utf8');
+  assert.match(source, /job\?\.status === 'failed'/u);
+  assert.match(source, /requeueFailedMedia\(\{jobId: job\.id, stage: 'video'\}\)/u);
+  assert.match(source, /existingPublishJob\.status === 'completed'/u);
+  assert.match(source, /requeueCompletedForUpdate/u);
+});
+
+test('image failure keeps a source or internal cover and queues publication while retaining retry state', async () => {
+  assert.equal(publicationCoverAfterImageFailure({
+    reviewMarkdown: '---\ncoverUrl: https://cc18.tv/cover.jpg\n---\n', source: {},
+  }), 'https://cc18.tv/cover.jpg');
+  assert.equal(publicationCoverAfterImageFailure({reviewMarkdown: '---\n---\n', source: {cover_source_url: 'https://cc18.tv/source.jpg'}}), 'https://cc18.tv/source.jpg');
+  assert.equal(publicationCoverAfterImageFailure({reviewMarkdown: '---\n---\n', source: {cover_source_url: null}}), INTERNAL_COVER_FALLBACK);
+
+  const calls = [];
+  const store = {
+    enqueueJob: async (value) => { calls.push(['enqueue', value]); return {id: 'publish-1', status: 'queued'}; },
+    finishJob: async (value) => { calls.push(['finish', value]); return {id: value.jobId, status: value.outcome}; },
+  };
+  const result = await continuePublicationAfterImageFailure({
+    store,
+    claimed: {id: 'image-1', movie_id: 'TEST-001', attempt: 1, max_attempts: 5, priority: 2, discovery_run_id: 'run-1'},
+    workerId: 'worker-1',
+    error: Object.assign(new Error('provider unavailable'), {code: 'IMAGE_PROVIDER_UNAVAILABLE'}),
+    retryAt: '2026-09-03T00:30:00.000Z',
+  });
+  assert.equal(result.outcome, 'retry');
+  assert.deepEqual(calls.map(([kind]) => kind), ['enqueue', 'finish']);
+  assert.equal(calls[0][1].stage, 'publish');
+  assert.equal(calls[1][1].errorCode, 'IMAGE_PROVIDER_UNAVAILABLE');
+  assert.equal(calls[1][1].retryAt, '2026-09-03T00:30:00.000Z');
 });

@@ -7,6 +7,10 @@ const isoNow = () => new Date().toISOString();
 const emptyState = () => ({schema_version: 1, updated_at: null, runs: [], movies: [], jobs: []});
 const normalizedId = (value) => value.trim().toUpperCase();
 const jobKey = (movieId, stage) => `${normalizedId(movieId)}:${stage}:v1`;
+const mediaStage = (stage) => {
+  if (!['image', 'video'].includes(stage)) throw new Error(`Invalid media stage: ${stage}`);
+  return stage;
+};
 
 async function atomicWrite(path, value) {
   await mkdir(dirname(path), {recursive: true});
@@ -240,6 +244,39 @@ export class FileQueueStore {
     return structuredClone(job);
   }
 
+  async requeueCompletedForUpdate({jobId, now = new Date()}) {
+    const state = await this.read();
+    const job = state.jobs.find((item) => item.id === jobId && item.status === 'completed');
+    if (!job) return null;
+    job.status = 'queued';
+    job.attempt = 0;
+    job.completed_at = null;
+    job.next_retry_at = null;
+    job.last_error_code = null;
+    job.claimed_by = null;
+    job.lease_expires_at = null;
+    job.updated_at = now.toISOString();
+    await this.save(state);
+    return structuredClone(job);
+  }
+
+  async requeueFailedMedia({jobId, stage, now = new Date()}) {
+    const expectedStage = mediaStage(stage);
+    const state = await this.read();
+    const job = state.jobs.find((item) => item.id === jobId && item.stage === expectedStage && item.status === 'failed');
+    if (!job) return null;
+    job.status = 'queued';
+    job.attempt = 0;
+    job.completed_at = null;
+    job.next_retry_at = null;
+    job.last_error_code = null;
+    job.claimed_by = null;
+    job.lease_expires_at = null;
+    job.updated_at = now.toISOString();
+    await this.save(state);
+    return structuredClone(job);
+  }
+
   async completeBlockedAfterQa({jobId, allowedErrorCodes, now = new Date()}) {
     const state = await this.read();
     const job = state.jobs.find((item) => item.id === jobId && item.status === 'blocked' && allowedErrorCodes.includes(item.last_error_code));
@@ -457,6 +494,31 @@ export class D1RestQueueStore {
       sql: `UPDATE pipeline_jobs SET status='queued', next_retry_at=NULL, last_error_code=NULL, updated_at=?
             WHERE id=? AND status='retry' AND last_error_code IN (${placeholders}) RETURNING *`,
       params: [now.toISOString(), jobId, ...allowedErrorCodes],
+    });
+    return result.results?.[0] ?? null;
+  }
+
+  async requeueCompletedForUpdate({jobId, now = new Date()}) {
+    const nowIso = now.toISOString();
+    const [result] = await this.query({
+      sql: `UPDATE pipeline_jobs
+            SET status='queued', attempt=0, completed_at=NULL, next_retry_at=NULL, last_error_code=NULL,
+                claimed_by=NULL, lease_expires_at=NULL, updated_at=?
+            WHERE id=? AND status='completed' RETURNING *`,
+      params: [nowIso, jobId],
+    });
+    return result.results?.[0] ?? null;
+  }
+
+  async requeueFailedMedia({jobId, stage, now = new Date()}) {
+    const expectedStage = mediaStage(stage);
+    const nowIso = now.toISOString();
+    const [result] = await this.query({
+      sql: `UPDATE pipeline_jobs
+            SET status='queued', attempt=0, completed_at=NULL, next_retry_at=NULL, last_error_code=NULL,
+                claimed_by=NULL, lease_expires_at=NULL, updated_at=?
+            WHERE id=? AND stage=? AND status='failed' RETURNING *`,
+      params: [nowIso, jobId, expectedStage],
     });
     return result.results?.[0] ?? null;
   }

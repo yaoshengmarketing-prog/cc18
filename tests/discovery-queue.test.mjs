@@ -138,11 +138,62 @@ test('discovers every listing item, deduplicates persistently, and leases atomic
   const finalized = await store.completeBlockedAfterQa({jobId: editorial.id, allowedErrorCodes: ['EDITORIAL_QA_FAILED'], now: new Date('2026-08-26T05:04:09Z')});
   assert.equal(finalized.status, 'completed');
   assert.equal(finalized.completed_at, '2026-08-26T05:04:09.000Z');
-  assert.equal((await store.summary()).jobs_by_status.completed, 2);
+  const update = await store.requeueCompletedForUpdate({jobId: editorial.id, now: new Date('2026-08-26T05:04:10Z')});
+  assert.equal(update.status, 'queued');
+  assert.equal(update.attempt, 0);
+  assert.equal(update.completed_at, null);
+  assert.equal((await store.summary()).jobs_by_status.completed, 1);
+
+  const image = await store.enqueueJob({movieId: 'NEW-001', stage: 'image', now: new Date('2026-08-26T05:05:00Z')});
+  const imageClaim = await store.claim({stage: 'image', jobId: image.id, workerId: 'image-a', now: new Date('2026-08-26T05:05:01Z')});
+  await store.finishJob({jobId: imageClaim.id, workerId: 'image-a', outcome: 'failed', errorCode: 'IMAGE_GENERATION_FAILED', now: new Date('2026-08-26T05:05:02Z')});
+  assert.equal(await store.requeueFailedMedia({jobId: image.id, stage: 'video', now: new Date('2026-08-26T05:05:03Z')}), null);
+  const reopenedImage = await store.requeueFailedMedia({jobId: image.id, stage: 'image', now: new Date('2026-08-26T05:05:04Z')});
+  assert.equal(reopenedImage.status, 'queued');
+  assert.equal(reopenedImage.attempt, 0);
+  assert.equal(reopenedImage.last_error_code, null);
+  assert.equal((await store.claim({stage: 'image', jobId: image.id, workerId: 'image-b', now: new Date('2026-08-26T05:05:05Z')})).attempt, 1);
 
   const resolvedDirectory = resolve(directory);
   assert.ok(resolvedDirectory.startsWith(`${resolve(tmpdir())}${sep}`));
   await rm(resolvedDirectory, {recursive: true});
+});
+
+test('requeues a completed D1 publication for a later media update', async () => {
+  let statement;
+  const fetchImpl = async (_url, options) => {
+    statement = JSON.parse(options.body);
+    return {
+      ok: true,
+      status: 200,
+      json: async () => ({success: true, errors: [], result: [{success: true, results: [{id: 'publish-1', status: 'queued', attempt: 0}], meta: {changes: 1}}]}),
+    };
+  };
+  const store = new D1RestQueueStore({accountId: 'account', databaseId: 'database', apiToken: 'token', fetchImpl});
+  const requeued = await store.requeueCompletedForUpdate({jobId: 'publish-1', now: new Date('2026-09-03T01:00:00Z')});
+  assert.equal(requeued.status, 'queued');
+  assert.match(statement.sql, /status='completed'/);
+  assert.match(statement.sql, /attempt=0/);
+  assert.deepEqual(statement.params, ['2026-09-03T01:00:00.000Z', 'publish-1']);
+});
+
+test('reopens only an explicitly targeted failed D1 media job', async () => {
+  let statement;
+  const fetchImpl = async (_url, options) => {
+    statement = JSON.parse(options.body);
+    return {
+      ok: true,
+      status: 200,
+      json: async () => ({success: true, errors: [], result: [{success: true, results: [{id: 'image-1', stage: 'image', status: 'queued', attempt: 0}], meta: {changes: 1}}]}),
+    };
+  };
+  const store = new D1RestQueueStore({accountId: 'account', databaseId: 'database', apiToken: 'token', fetchImpl});
+  const requeued = await store.requeueFailedMedia({jobId: 'image-1', stage: 'image', now: new Date('2026-09-03T01:10:00Z')});
+  assert.equal(requeued.status, 'queued');
+  assert.match(statement.sql, /stage=\? AND status='failed'/);
+  assert.match(statement.sql, /attempt=0/);
+  assert.deepEqual(statement.params, ['2026-09-03T01:10:00.000Z', 'image-1', 'image']);
+  await assert.rejects(() => store.requeueFailedMedia({jobId: 'editorial-1', stage: 'editorial'}), /Invalid media stage/);
 });
 
 test('fails closed when the listing selector returns no candidates', async () => {

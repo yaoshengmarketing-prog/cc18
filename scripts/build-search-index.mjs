@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url';
 import {loadPublishedMovieCardCatalog} from '../src/lib/movie-master.mjs';
 import {searchableAliasNames} from '../src/lib/catalog-search.mjs';
 import {parsePerformerStableId} from '../src/lib/performer-url.mjs';
-import {buildPerformerLocalizationMap} from '../src/lib/performer-localization-policy.mjs';
+import {buildPerformerLocalizationMap, resolvePerformerDisplayRecord} from '../src/lib/performer-localization-policy.mjs';
 import {
   validateCanonicalMovieIdentity,
   validateCanonicalMovieMasterIndexEntries,
@@ -169,8 +169,12 @@ export async function buildSearchIndex() {
     const displayPerformers = master.display.performers;
     for (const [index, performer] of displayPerformers.entries()) {
       const stableActorId = performerIds[index];
-      const localized = localizedById.get(stableActorId);
-      if (!localized) throw new Error(`${entry.catalog_code}: missing performer localization for ${stableActorId}`);
+      const sourceRelation = master.source.performer_relations[index];
+      const localized = resolvePerformerDisplayRecord({
+        stablePerformerId: stableActorId,
+        sourceName: sourceRelation.source_name,
+        localizations: localizedById,
+      });
       const expectedDisplayName = clean(localized.display_name_zh_tw) ?? clean(localized.name_ja) ?? clean(localized.source_name);
       if (!expectedDisplayName || performer.display_name !== expectedDisplayName) {
         throw new Error(`${entry.catalog_code}: performer display projection mismatch for ${stableActorId}`);

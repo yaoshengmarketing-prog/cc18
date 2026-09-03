@@ -9,7 +9,7 @@ export interface SourceRecord {
   series?: string | null;
   source_tags: string[];
   description?: string | null;
-  cover_source_url: string;
+  cover_source_url?: string | null;
   source_url: string;
   source_site: 'cc18.tv';
   fetched_at: string;

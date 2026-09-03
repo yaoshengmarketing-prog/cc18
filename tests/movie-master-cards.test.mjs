@@ -89,6 +89,14 @@ test('one exact untracked work reaches Movie Master, public cards and Search bef
       join(fixture, 'scripts', 'build-movie-master.mjs'),
     );
     await cp(
+      fileURLToPath(new URL('../scripts/build-search-index.mjs', import.meta.url)),
+      join(fixture, 'scripts', 'build-search-index.mjs'),
+    );
+    await cp(
+      fileURLToPath(new URL('../src/lib/performer-localization-policy.mjs', import.meta.url)),
+      join(fixture, 'src', 'lib', 'performer-localization-policy.mjs'),
+    );
+    await cp(
       fileURLToPath(new URL('../src/lib/series-identity.mjs', import.meta.url)),
       join(fixture, 'src', 'lib', 'series-identity.mjs'),
     );
@@ -110,7 +118,7 @@ test('one exact untracked work reaches Movie Master, public cards and Search bef
       );
     }
     registry.records.push({
-      id: 'TEST-999', actress: [], release_date: '2026-08-31', source_url: 'https://cc18.tv/player.php?uuid=test999&cat=19',
+      id: 'TEST-999', actress: ['來源新演員'], release_date: '2026-08-31', source_url: 'https://cc18.tv/player.php?uuid=test999&cat=19',
       source_site: 'cc18.tv', review_status: 'published', cover_status: 'remote_source', image_status: 'rendered',
       video_status: 'pending', template: 'story', published_at: '2026-08-31',
     });
@@ -126,7 +134,7 @@ titleSignals:
   - "首次發布"
 titleVersion: 1
 actress:
-  []
+  - 來源新演員
 releaseDate: 2026-08-31
 publishedAt: 2026-08-31
 studio: ""
@@ -155,10 +163,13 @@ featured: false
     await writeFile(join(fixture, 'content', 'reviews', 'DO-NOT-READ.md'), 'this unrelated draft must never be parsed\n');
     await writeFile(join(fixture, 'data', 'source-records', 'TEST-999.json'), `${JSON.stringify({
       id: 'TEST-999', title: '測試來源標題', original_title_ja: null, translated_title_zh_tw: null,
-      release_date: '2026-08-31', actress: [], studio: null, series: null, source_tags: [],
+      release_date: '2026-08-31', actress: ['來源新演員'], studio: null, series: null, source_tags: [],
       description: '隔離測試來源資料。', cover_source_url: 'https://cc18.tv/preview/test-999.jpg',
       source_url: 'https://cc18.tv/player.php?uuid=test999&cat=19', source_site: 'cc18.tv',
-      fetched_at: '2026-08-31T00:00:00.000Z', source_relations: {performers: [], series: [], tags: [], fac: []},
+      fetched_at: '2026-08-31T00:00:00.000Z', source_relations: {performers: [{
+        source_type: 'actor', source_id: '999998', stable_source_id: 'cc18.tv:actor:999998', source_name: '來源新演員',
+        source_url: 'https://cc18.tv/search.php?s_type=actor&s_tid=999998', observed_at: '2026-08-31T00:00:00.000Z',
+      }], series: [], tags: [], fac: []},
     }, null, 2)}\n`);
     const before = JSON.parse(await readFile(join(fixture, 'data', 'movie-master', 'index.json'), 'utf8'));
     await execFileAsync(process.execPath, ['scripts/build-movie-master.mjs', '--write', '--include-work=TEST-999'], {cwd: fixture});
@@ -172,8 +183,18 @@ featured: false
     assert.equal(master.stable_movie_id, 'cc18:TEST-999');
     assert.equal(master.publishing.is_published, true);
     assert.equal(master.media.remotion_promo_ref, null);
+    assert.equal(master.display.performers[0].display_name, '來源新演員');
     assert.equal(search.movies.find(({card}) => card.stable_movie_id === 'cc18:TEST-999')?.card.title, '首次發布閉環');
     assert.equal(search.movies.find(({card}) => card.stable_movie_id === 'cc18:TEST-999')?.card.href, '/works/test-999/');
+    assert.deepEqual(search.performers.find(({stable_actor_id: id}) => id === 'cc18.tv:actor:999998'), {
+      stable_actor_id: 'cc18.tv:actor:999998',
+      display_name: '來源新演員',
+      display_name_zh_tw: null,
+      name_ja: null,
+      source_name: '來源新演員',
+      searchable_aliases: [],
+      related_movie_ids: ['cc18:TEST-999'],
+    });
     assert.equal(index.entries.some(({catalog_code}) => catalog_code === 'DO-NOT-READ'), false);
   } finally {
     await rm(fixture, {recursive: true, force: true});
@@ -366,8 +387,12 @@ test('stable performer routes and public surfaces use the shared performer autho
   assert.match(workRoute, /ordered_performers_by_work/u);
   assert.match(workRoute, /stable_movie_id:\s*stableMovieId/u);
   assert.match(workRoute, /<WorkFacts[^>]*performers=\{performers\}/u);
+  assert.match(workRoute, /hasPerformerNames && <div>/u);
   assert.match(facts, /href=\{performer\.href\}/u);
   assert.match(facts, /data-performer-id=\{performer\.stable_performer_id\}/u);
+  assert.match(facts, /hasPerformerNames && <div>/u);
+  assert.doesNotMatch(workRoute, /來源未列出<\/dd>/u);
+  assert.doesNotMatch(facts, /來源未列出演員/u);
   assert.match(searchRoute, /performerHref\(person\.stable_actor_id\)/u);
   assert.doesNotMatch(searchRoute, /encodeURIComponent\(person\.(?:name|primary_display_name)/u);
 });

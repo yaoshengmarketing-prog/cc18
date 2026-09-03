@@ -5,6 +5,7 @@ import {cp, mkdir, mkdtemp, readFile, rm, writeFile} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import {dirname, join, resolve} from 'node:path';
 import {spawnSync} from 'node:child_process';
+import {decisionGuideViewModel} from '../src/lib/decision-guide.mjs';
 
 const repositoryRoot = resolve(import.meta.dirname, '..');
 const copyPath = async (root, path) => {
@@ -136,4 +137,23 @@ test('sparse content becomes warnings while identity mismatches still fail close
   } finally {
     await rm(root, {recursive: true, force: true});
   }
+});
+
+test('empty auxiliary content and canonical topics remain renderable without invented placeholders', async () => {
+  const empty = decisionGuideViewModel({quick_decision: null, audience_fit: null, recommendations: null}, []);
+  assert.equal(empty.hasContent, false);
+  assert.deepEqual(empty.presentation, []);
+  assert.deepEqual(empty.audienceFor, []);
+  const partial = decisionGuideViewModel({
+    quick_decision: {thesis: '只保留現有可用的選片說明。'},
+    audience_fit: {for: [], not_for: []},
+  }, []);
+  assert.equal(partial.hasContent, true);
+  assert.equal(partial.thesis, '只保留現有可用的選片說明。');
+
+  const builder = await readFile(join(repositoryRoot, 'scripts/editorial/build-from-analysis.mjs'), 'utf8');
+  const validator = await readFile(join(repositoryRoot, 'scripts/validate-content.mjs'), 'utf8');
+  assert.match(builder, /source\.cover_source_url \?\? '\/images\/movie-cover-fallback\.svg'/u);
+  assert.match(validator, /warn\(record\.id, 'missing_canonical_tags'\)/u);
+  assert.doesNotMatch(validator, /throw new Error\(`\$\{record\.id\}: at least one canonical tag/u);
 });

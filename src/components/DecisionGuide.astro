@@ -3,6 +3,7 @@ import type {Review} from '../lib/reviews';
 import {reviewHref} from '../lib/reviews';
 import type {SearchContent} from '../lib/search-content';
 import {decisionLevelLabel, paceLabel} from '../lib/search-content';
+import {decisionGuideViewModel} from '../lib/decision-guide.mjs';
 
 interface TimelineItem {
   phase: 'opening' | 'middle' | 'late';
@@ -13,9 +14,11 @@ interface TimelineItem {
 interface Props {content: SearchContent; related: Map<string, Review>; timeline?: TimelineItem[];}
 const {content, related, timeline = []} = Astro.props;
 const phaseLabel = {opening: '開端', middle: '中段', late: '後段'};
+const view = decisionGuideViewModel(content, timeline);
+const {quickDecision, thesis, presentation, audienceFor, audienceNotFor, recommendations, hasMetrics, hasContent} = view;
 ---
 
-<section class="decision-guide" aria-labelledby="decision-title">
+{hasContent && <section class="decision-guide" aria-labelledby="decision-title">
   <header class="decision-heading">
     <div>
       <p class="eyebrow">WATCH DECISION BOARD</p>
@@ -24,17 +27,17 @@ const phaseLabel = {opening: '開端', middle: '中段', late: '後段'};
   </header>
 
   <div class="decision-summary">
-    <p class="decision-thesis">{content.quick_decision.thesis}</p>
-    <dl class="decision-metrics">
-      <div><dt>故事密度</dt><dd>{decisionLevelLabel(content.quick_decision.story_density)}</dd></div>
-      <div><dt>節奏傾向</dt><dd>{paceLabel(content.quick_decision.pace)}</dd></div>
-      <div><dt>呈現方式</dt><dd>{content.quick_decision.presentation.join(' · ')}</dd></div>
-    </dl>
+    {thesis && <p class="decision-thesis">{thesis}</p>}
+    {hasMetrics && <dl class="decision-metrics">
+      {quickDecision?.story_density && <div><dt>故事密度</dt><dd>{decisionLevelLabel(quickDecision.story_density)}</dd></div>}
+      {quickDecision?.pace && <div><dt>節奏傾向</dt><dd>{paceLabel(quickDecision.pace)}</dd></div>}
+      {presentation.length > 0 && <div><dt>呈現方式</dt><dd>{presentation.join(' · ')}</dd></div>}
+    </dl>}
   </div>
 
-  {timeline.length > 0 && (
+  {view.timeline.length > 0 && (
     <div class="timeline-board" aria-label="分散抽樣結構摘要">
-      {timeline.map((item) => (
+      {view.timeline.map((item: TimelineItem) => (
         <article class={`timeline-stop ${item.phase}`}>
           <div class="timeline-index"><span>{phaseLabel[item.phase]}</span><b>{item.label}</b></div>
           <p>{item.summary}</p>
@@ -44,22 +47,22 @@ const phaseLabel = {opening: '開端', middle: '中段', late: '後段'};
     </div>
   )}
 
-  <div class="fit-grid">
-    <section>
+  {(audienceFor.length > 0 || audienceNotFor.length > 0) && <div class="fit-grid">
+    {audienceFor.length > 0 && <section>
       <h3>比較適合</h3>
-      <ul>{content.audience_fit.for.map((item) => <li>{item}</li>)}</ul>
-    </section>
-    <section class="not-for">
+      <ul>{audienceFor.map((item) => <li>{item}</li>)}</ul>
+    </section>}
+    {audienceNotFor.length > 0 && <section class="not-for">
       <h3>可能不適合</h3>
-      <ul>{content.audience_fit.not_for.map((item) => <li>{item}</li>)}</ul>
-    </section>
-  </div>
+      <ul>{audienceNotFor.map((item) => <li>{item}</li>)}</ul>
+    </section>}
+  </div>}
 
-  {content.recommendations.length > 0 && (
+  {recommendations.length > 0 && (
     <section class="reasoned-recommendations">
       <div class="mini-heading"><p class="eyebrow">WHY THIS NEXT</p><h3>有理由的延伸選片</h3></div>
       <div class="recommendation-list">
-        {content.recommendations.map((item) => {
+        {recommendations.map((item) => {
           const review = related.get(item.movie_id);
           return review && (
             <a href={reviewHref(review)}>
@@ -73,4 +76,4 @@ const phaseLabel = {opening: '開端', middle: '中段', late: '後段'};
       </div>
     </section>
   )}
-</section>
+</section>}

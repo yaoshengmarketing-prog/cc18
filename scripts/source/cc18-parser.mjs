@@ -28,7 +28,7 @@ const performerRelations = ($, baseUrl, workId) => {
     if (classified.sourceType !== 'actor') return;
     const parsed = parsePerformerSourceUrl(href, {baseUrl});
     const sourceName = clean($(element).text());
-    if (!sourceName) throw new Error(`${workId ?? 'unknown work'}: actor relation has an empty source name: ${href}`);
+    if (!sourceName) return;
     if (seen.has(parsed.stableId)) throw new Error(`${workId ?? 'unknown work'}: duplicate actor relation ${parsed.stableId}`);
     seen.add(parsed.stableId);
     relations.push({
@@ -206,7 +206,7 @@ export function parseWorkPage(html, sourceUrl) {
     fetched_at: fetchedAt,
   };
 
-  for (const field of ['id', 'title', 'release_date', 'cover_source_url']) {
+  for (const field of ['id', 'title', 'release_date']) {
     if (!result[field]) throw new Error(`CC18 work page missing required field: ${field}`);
   }
   return result;

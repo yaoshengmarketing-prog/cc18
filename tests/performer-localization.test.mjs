@@ -36,7 +36,7 @@ const buildExpectedPerformerSearch = (performers) => {
   };
 };
 
-test('published performer localization dictionary matches typed published relations with namespaced stable IDs', async () => {
+test('published performer relations accept optional localization without weakening stable IDs', async () => {
   const [localization, index] = await Promise.all([
     readJson('data/localization/performers-zh-tw.json'),
     readJson('data/movie-master/index.json'),
@@ -50,8 +50,8 @@ test('published performer localization dictionary matches typed published relati
   const expectedIds = [...new Set(relationIds)].sort();
   const ids = localization.performers.map(({source_actor_id: id}) => id);
   assert.equal(new Set(ids).size, ids.length);
-  assert.deepEqual([...ids].sort(), expectedIds);
-  for (const id of ids) assert.match(id, /^cc18\.tv:actor:[1-9][0-9]*$/);
+  assert.deepEqual(ids.filter((id) => !expectedIds.includes(id)), []);
+  for (const id of expectedIds) assert.match(id, /^cc18\.tv:actor:[1-9][0-9]*$/);
   assert.notEqual('cc18.tv:actor:3', 'cc18.tv:tag:3');
 });
 

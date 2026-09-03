@@ -108,3 +108,26 @@ export const buildPerformerLocalizationMap = (localization) => {
   }
   return result;
 };
+
+export const resolvePerformerDisplayRecord = ({stablePerformerId, sourceName, localizations}) => {
+  parsePerformerStableId(stablePerformerId);
+  const canonicalSourceName = text(sourceName, `${stablePerformerId} source_name`);
+  const localized = localizations.get(stablePerformerId);
+  if (localized) {
+    if (localized.source_name !== canonicalSourceName) {
+      throw new Error(`${stablePerformerId}: localization source_name differs from the source relation`);
+    }
+    return localized;
+  }
+  return {
+    source_actor_id: stablePerformerId,
+    source_name: canonicalSourceName,
+    name_ja: null,
+    display_name_zh_tw: null,
+    aliases: [],
+    verification_status: 'SOURCE_NAME_FALLBACK',
+    source_references: [],
+    primary_display_name: canonicalSourceName,
+    schema_alternate_names: [],
+  };
+};
