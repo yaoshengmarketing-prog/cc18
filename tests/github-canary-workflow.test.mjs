@@ -25,6 +25,7 @@ test('end-to-end canary is manual, exact-ID, serialized and uses split D1 and R2
   assert.match(workflow, /CLOUDFLARE_R2_API_TOKEN: \$\{\{ secrets\.CLOUDFLARE_R2_API_TOKEN \}\}/);
   assert.match(workflow, /npm run canary:run -- --max=1 --ids="\$MOVIE_ID"/);
   assert.doesNotMatch(workflow, /schedule:/);
+  assert.match(workflow, /actions\/checkout@v7[\s\S]*ref: main[\s\S]*fetch-depth: 0/u);
 });
 
 test('existing Registry drafts are re-QAed instead of paying for a blind rewrite', async () => {

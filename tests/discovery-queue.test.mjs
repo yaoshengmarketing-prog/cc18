@@ -196,6 +196,24 @@ test('reopens only an explicitly targeted failed D1 media job', async () => {
   await assert.rejects(() => store.requeueFailedMedia({jobId: 'editorial-1', stage: 'editorial'}), /Invalid media stage/);
 });
 
+test('reopens only an explicitly targeted failed D1 publish job', async () => {
+  let statement;
+  const fetchImpl = async (_url, options) => {
+    statement = JSON.parse(options.body);
+    return {
+      ok: true,
+      status: 200,
+      json: async () => ({success: true, errors: [], result: [{success: true, results: [{id: 'publish-1', stage: 'publish', status: 'queued', attempt: 0}], meta: {changes: 1}}]}),
+    };
+  };
+  const store = new D1RestQueueStore({accountId: 'account', databaseId: 'database', apiToken: 'token', fetchImpl});
+  const requeued = await store.requeueFailedPublish({jobId: 'publish-1', now: new Date('2026-09-03T01:20:00Z')});
+  assert.equal(requeued.status, 'queued');
+  assert.match(statement.sql, /stage='publish' AND status='failed'/u);
+  assert.match(statement.sql, /attempt=0/u);
+  assert.deepEqual(statement.params, ['2026-09-03T01:20:00.000Z', 'publish-1']);
+});
+
 test('fails closed when the listing selector returns no candidates', async () => {
   const directory = await mkdtemp(join(tmpdir(), 'cc18-discovery-empty-'));
   const store = new FileQueueStore(join(directory, 'queue.json'));

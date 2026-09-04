@@ -49,6 +49,7 @@ test('publisher builds exact first-publish projections before validation and com
   const gitAdd = source.indexOf("await run('git', ['add'");
   assert.ok(masterWrite >= 0 && masterWrite < astroBuild);
   assert.ok(astroBuild < masterCheck && masterCheck < gitAdd);
+  assert.match(source, /job\?\.status === 'failed'[\s\S]*requeueFailedPublish/u);
 });
 
 test('publisher reads bounded frontmatter and release metadata', () => {

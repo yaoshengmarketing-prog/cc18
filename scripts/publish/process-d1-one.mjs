@@ -26,6 +26,9 @@ if (requestedMovieId && job?.status === 'retry') {
     allowedErrorCodes: ['PUBLISH_VALIDATION_FAILED', 'PUBLISH_DIRTY_WORKTREE', 'PUBLISH_GIT_FAILED', 'PUBLISH_MEDIA_UNAVAILABLE', 'PUBLISH_MEDIA_INVALID', 'PUBLISH_DEPLOY_TIMEOUT'],
   }) ?? job;
 }
+if (requestedMovieId && job?.status === 'failed') {
+  job = await store.requeueFailedPublish({jobId: job.id}) ?? job;
+}
 const workerId = `publisher-${hostname()}-${process.pid}-${randomUUID().slice(0, 8)}`;
 const claimed = await store.claim({stage: 'publish', jobId: job?.id ?? null, workerId, leaseSeconds: pipeline.queue.lease_seconds});
 if (!claimed) {

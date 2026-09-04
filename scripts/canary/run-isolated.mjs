@@ -1,0 +1,124 @@
+import {spawn, spawnSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
+import {readFile, stat} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import {queueStoreFromEnvironment} from '../queue/store.mjs';
+import {alreadyPublishedRequestedIds} from './selection.mjs';
+import {
+  assertSingleWorkRequest,
+  createCleanWorktree,
+  deleteWorkCheckpoint,
+  removeCleanWorktree,
+  restoreWorkCheckpoint,
+  saveWorkCheckpoint,
+} from './isolation.mjs';
+
+const root = resolve(import.meta.dirname, '..', '..');
+const option = (name) => process.argv.slice(2).find((value) => value.startsWith(`${name}=`))?.slice(name.length + 1);
+const max = Number(option('--max') ?? 1);
+const requestedIds = (option('--ids') ?? '').split(',').map((value) => value.trim().toUpperCase()).filter(Boolean);
+if (requestedIds.some((id) => !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(id))) throw new Error('--ids contains an invalid movie id');
+assertSingleWorkRequest({max, requestedIds});
+
+const git = (args, {allowFailure = false} = {}) => {
+  const result = spawnSync('git', args, {cwd: root, encoding: 'utf8', windowsHide: true});
+  if (!allowFailure && result.status !== 0) throw new Error(result.stderr?.trim() || `git ${args.join(' ')} failed`);
+  return result;
+};
+if (git(['status', '--porcelain', '--untracked-files=no']).stdout.trim()) {
+  throw new Error('Canary refuses tracked or staged changes before isolated execution');
+}
+const protectedPaths = git(['ls-files', '--others', '--exclude-standard']).stdout.trim().split(/\r?\n/u).filter(Boolean);
+const fingerprint = async (path) => {
+  const absolute = resolve(root, path);
+  const [bytes, details] = await Promise.all([readFile(absolute), stat(absolute)]);
+  return {sha256: createHash('sha256').update(bytes).digest('hex'), bytes: details.size, mtime_ms: details.mtimeMs};
+};
+const before = new Map(await Promise.all(protectedPaths.map(async (path) => [path, await fingerprint(path)])));
+const assertProtected = async () => {
+  const afterPaths = git(['ls-files', '--others', '--exclude-standard']).stdout.trim().split(/\r?\n/u).filter(Boolean);
+  if (JSON.stringify(afterPaths) !== JSON.stringify(protectedPaths)) {
+    throw new Error('Canary changed the protected untracked path set');
+  }
+  for (const [path, expected] of before) {
+    let actual;
+    try { actual = await fingerprint(path); } catch { throw new Error(`Canary protected untracked file disappeared: ${path}`); }
+    if (JSON.stringify(actual) !== JSON.stringify(expected)) throw new Error(`Canary protected untracked file changed: ${path}`);
+  }
+};
+
+git(['fetch', '--quiet', 'origin', 'main']);
+const baseCommit = git(['rev-parse', 'origin/main']).stdout.trim();
+const registry = JSON.parse(git(['show', 'origin/main:data/movie-registry.json']).stdout);
+const store = queueStoreFromEnvironment({mode: 'd1'});
+const resumablePublishedIds = new Set();
+for (const {id, review_status: status} of registry.records) {
+  if (status === 'draft') continue;
+  const [editorial, publish] = await Promise.all([
+    store.findJob({movieId: id, stage: 'editorial'}),
+    store.findJob({movieId: id, stage: 'publish'}),
+  ]);
+  if (editorial?.status === 'completed' && publish && publish.status !== 'completed') {
+    resumablePublishedIds.add(id.toUpperCase());
+  }
+}
+const refusedPublished = alreadyPublishedRequestedIds(registry, requestedIds)
+  .filter((id) => !resumablePublishedIds.has(id));
+if (refusedPublished.length) throw new Error(`Canary refuses already-published Registry records: ${refusedPublished.join(', ')}`);
+const excludedPublishedIds = registry.records
+  .filter(({review_status: status, id}) => status !== 'draft' && !resumablePublishedIds.has(id.toUpperCase()))
+  .map(({id}) => id.toUpperCase());
+const candidates = requestedIds.length
+  ? requestedIds
+  : (await store.listCanaryCandidates({limit: 1, excludeMovieIds: excludedPublishedIds})).map(({movie_id}) => movie_id);
+const movieId = candidates[0] ?? null;
+if (!movieId) {
+  await assertProtected();
+  console.log(JSON.stringify({event: 'isolated_canary_queue_empty', base_commit: baseCommit, maximum_works: 1}, null, 2));
+  process.exit(0);
+}
+
+const isolated = await createCleanWorktree({repositoryRoot: root, baseRef: 'origin/main'});
+let result = {code: 1};
+let restored = null;
+let checkpoint = null;
+let deletedCheckpoint = null;
+try {
+  restored = await restoreWorkCheckpoint({repositoryRoot: root, workspaceRoot: isolated.workspaceRoot, movieId});
+  result = await new Promise((resolveRun) => {
+    const child = spawn(process.execPath, [resolve(isolated.workspaceRoot, 'scripts/canary/run.mjs'), '--max=1', `--ids=${movieId}`], {
+      cwd: isolated.workspaceRoot,
+      env: {...process.env, CC18_CANARY_ISOLATED_WORKSPACE: 'YES'},
+      windowsHide: true,
+      stdio: 'inherit',
+    });
+    child.once('error', (error) => resolveRun({code: 1, error: error.message}));
+    child.once('close', (code) => resolveRun({code: code ?? 1}));
+  });
+  if (result.code !== 0) {
+    const editorial = await store.findJob({movieId, stage: 'editorial'});
+    if (editorial?.status === 'completed') {
+      checkpoint = await saveWorkCheckpoint({
+        repositoryRoot: root,
+        workspaceRoot: isolated.workspaceRoot,
+        baseRef: 'origin/main',
+        movieId,
+      });
+    }
+  } else {
+    deletedCheckpoint = deleteWorkCheckpoint({repositoryRoot: root, movieId});
+  }
+} finally {
+  await removeCleanWorktree({repositoryRoot: root, ...isolated});
+  await assertProtected();
+}
+console.log(JSON.stringify({
+  event: 'isolated_canary_finished',
+  movie_id: movieId,
+  base_commit: baseCommit,
+  restored_checkpoint: restored,
+  saved_checkpoint: checkpoint,
+  deleted_checkpoint: deletedCheckpoint,
+  exit_code: result.code,
+}, null, 2));
+if (result.code !== 0) process.exitCode = result.code;

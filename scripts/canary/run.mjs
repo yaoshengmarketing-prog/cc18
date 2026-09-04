@@ -3,17 +3,20 @@ import {createHash} from 'node:crypto';
 import {mkdir, readFile, stat, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {queueStoreFromEnvironment} from '../queue/store.mjs';
-import {alreadyPublishedRequestedIds, classifyCanaryStageOutcome, registryDraftIds} from './selection.mjs';
+import {classifyCanaryStageOutcome, registryDraftIds} from './selection.mjs';
 import {buildR2WranglerEnvironment} from '../r2/wrangler-auth.mjs';
 import {allowedPublishPaths} from '../publish/lib/publisher.mjs';
 
 const root = resolve(import.meta.dirname, '..', '..');
+if (process.env.CC18_CANARY_ISOLATED_WORKSPACE !== 'YES') {
+  throw new Error('Canary must run through the single-work isolated runner');
+}
 const option = (name) => process.argv.slice(2).find((value) => value.startsWith(`${name}=`))?.slice(name.length + 1);
 const max = Number(option('--max') ?? 1);
-if (!Number.isInteger(max) || max < 1 || max > 3) throw new Error('--max must be an integer from 1 to 3');
+if (max !== 1) throw new Error('Isolated canary requires --max=1');
 const requestedIds = (option('--ids') ?? '').split(',').map((value) => value.trim().toUpperCase()).filter(Boolean);
 if (requestedIds.some((id) => !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(id))) throw new Error('--ids contains an invalid movie id');
-if (requestedIds.length > max) throw new Error('--ids cannot contain more entries than --max');
+if (requestedIds.length !== 1) throw new Error('Isolated canary requires exactly one movie ID');
 if (process.env.CC18_ALLOW_EDITORIAL_TRANSMISSION !== 'YES') {
   throw new Error('Canary requires CC18_ALLOW_EDITORIAL_TRANSMISSION=YES');
 }
@@ -49,13 +52,18 @@ const assertProtectedUntrackedUnchanged = async () => {
 
 const store = queueStoreFromEnvironment({mode: 'd1'});
 const registry = JSON.parse(await readFile(resolve(root, 'data', 'movie-registry.json'), 'utf8'));
-const registeredIds = new Set(registry.records.map(({id}) => id.toUpperCase()));
 const draftIds = registryDraftIds(registry);
-const publishedRequestedIds = alreadyPublishedRequestedIds(registry, requestedIds);
-if (publishedRequestedIds.length) throw new Error(`Canary refuses already-published Registry records: ${publishedRequestedIds.join(', ')}`);
-const candidates = requestedIds.length
-  ? requestedIds
-  : (await store.listCanaryCandidates({limit: max, excludeMovieIds: [...registeredIds]})).map(({movie_id}) => movie_id);
+const existingRegistryRecord = registry.records.find(({id}) => id.toUpperCase() === requestedIds[0]);
+if (existingRegistryRecord && existingRegistryRecord.review_status !== 'draft') {
+  const [editorialJob, publishJob] = await Promise.all([
+    store.findJob({movieId: requestedIds[0], stage: 'editorial'}),
+    store.findJob({movieId: requestedIds[0], stage: 'publish'}),
+  ]);
+  if (editorialJob?.status !== 'completed' || !publishJob || publishJob.status === 'completed') {
+    throw new Error(`Canary refuses already-published Registry record: ${requestedIds[0]}`);
+  }
+}
+const candidates = requestedIds;
 const stages = [
   {stage: 'editorial', script: 'scripts/editorial/handoff-d1.mjs', args: (id) => [id, '--source-only', ...(draftIds.has(id) ? ['--qa-only'] : []), '--retry-now'], required: true},
   ...(imageGenerationEnabled ? [{stage: 'image', script: 'scripts/image/process-d1-one.mjs', args: (id) => [id], required: false}] : []),
@@ -79,13 +87,13 @@ for (const movieId of candidates) {
     for (const {stage, script, args, required} of stages) {
       const existing = await store.findJob({movieId, stage});
       if (existing?.status === 'completed') {
-        if (stage === 'editorial' && draftIds.has(movieId)) {
+        if (stage === 'editorial') {
           const result = await run('scripts/editorial/rehydrate-completed.mjs', [movieId]);
           if (result.code !== 0) throw new Error(`${movieId}: completed editorial approval could not be rehydrated`);
           work.stages.push({stage, status: 'rehydrated_from_completed_d1', attempt: existing.attempt});
           continue;
         }
-        if (stage === 'video' && draftIds.has(movieId)) {
+        if (stage === 'video') {
           const result = await run('scripts/r2/rehydrate-media.mjs', [movieId]);
           if (result.code !== 0) throw new Error(`${movieId}: completed R2 media could not be rehydrated`);
           work.stages.push({stage, status: 'rehydrated_from_completed_r2', attempt: existing.attempt});

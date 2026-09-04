@@ -4,6 +4,7 @@ import {mkdtemp, readFile, rm} from 'node:fs/promises';
 import {join} from 'node:path';
 import {tmpdir} from 'node:os';
 import {FileQueueStore} from '../scripts/queue/store.mjs';
+import {assertSingleWorkRequest, checkpointArtifactPaths} from '../scripts/canary/isolation.mjs';
 import {alreadyPublishedRequestedIds, classifyCanaryStageOutcome, isNonBlockingMediaOutcome, isNonBlockingVideoOutcome, registryDraftIds} from '../scripts/canary/selection.mjs';
 
 test('explicit canary may promote a Registry draft but refuses a published record', () => {
@@ -36,6 +37,13 @@ test('video retry or terminal failure does not block an approved article while r
 
 test('single-work canary protects but is not blocked by unrelated pre-existing untracked drafts', async () => {
   const source = await readFile(new URL('../scripts/canary/run.mjs', import.meta.url), 'utf8');
+  const isolated = await readFile(new URL('../scripts/canary/run-isolated.mjs', import.meta.url), 'utf8');
+  assert.match(source, /CC18_CANARY_ISOLATED_WORKSPACE/u);
+  assert.match(source, /Isolated canary requires exactly one movie ID/u);
+  assert.match(isolated, /listCanaryCandidates\(\{limit: 1/u);
+  assert.match(isolated, /createCleanWorktree/u);
+  assert.match(isolated, /restoreWorkCheckpoint/u);
+  assert.match(isolated, /saveWorkCheckpoint/u);
   assert.match(source, /status', '--porcelain', '--untracked-files=no/u);
   assert.match(source, /protectedUntrackedPaths/u);
   assert.match(source, /assertProtectedUntrackedUnchanged/u);
@@ -47,6 +55,19 @@ test('single-work canary protects but is not blocked by unrelated pre-existing u
   assert.doesNotMatch(source, /Canary requires CC18_ALLOW_EDITORIAL_TRANSMISSION=YES and CC18_ALLOW_IMAGE_TRANSMISSION=YES/u);
   assert.match(source, /classifyCanaryStageOutcome/u);
   assert.doesNotMatch(source, /Canary requires a clean Git worktree/u);
+});
+
+test('production canary accepts one work and excludes generated shared projections from checkpoints', () => {
+  assert.doesNotThrow(() => assertSingleWorkRequest({max: 1, requestedIds: []}));
+  assert.doesNotThrow(() => assertSingleWorkRequest({max: 1, requestedIds: ['NEW-001']}));
+  assert.throws(() => assertSingleWorkRequest({max: 2, requestedIds: []}), /requires --max=1/u);
+  assert.throws(() => assertSingleWorkRequest({max: 1, requestedIds: ['A-001', 'B-001']}), /at most one/u);
+  const paths = checkpointArtifactPaths('NEW-001');
+  assert.deepEqual(paths.filter((path) => !path.includes('NEW-001') && !path.includes('new-001')), [
+    'data/movie-registry.json',
+    'data/tag-candidates.json',
+  ]);
+  assert.equal(paths.some((path) => /movie-master|search-index/u.test(path)), false);
 });
 
 test('repairs expired leases and selects only validated editorial candidates', async () => {
@@ -66,6 +87,34 @@ test('repairs expired leases and selects only validated editorial candidates', a
     assert.deepEqual(candidates.map(({movie_id}) => movie_id), ['NEW-001', 'OLD-001']);
     const withoutRegistered = await store.listCanaryCandidates({limit: 3, now, excludeMovieIds: ['new-001']});
     assert.deepEqual(withoutRegistered.map(({movie_id}) => movie_id), ['OLD-001']);
+  } finally {
+    await rm(directory, {recursive: true, force: true});
+  }
+});
+
+test('a fresh work is selected before a failed work and completed editorial remains resumable', async () => {
+  const directory = await mkdtemp(join(tmpdir(), 'cc18-canary-resume-'));
+  try {
+    const store = new FileQueueStore(join(directory, 'queue.json'));
+    const now = new Date('2026-09-03T00:00:00.000Z');
+    for (const [id, releaseDate] of [['FAILED-001', '2026-09-03'], ['FRESH-001', '2026-09-02']]) {
+      await store.upsertDiscovery({record: {id, release_date: releaseDate, source_url: `https://cc18.tv/player.php?uuid=${id}`, description: '完整'}, classification: 'eligible', runId: null, priority: 10, stages: ['editorial']});
+    }
+    const failedEditorial = await store.findJob({movieId: 'FAILED-001', stage: 'editorial'});
+    const claimedEditorial = await store.claim({stage: 'editorial', jobId: failedEditorial.id, workerId: 'editor', now});
+    await store.finishJob({jobId: claimedEditorial.id, workerId: 'editor', outcome: 'completed', now});
+    const failedPublish = await store.enqueueJob({movieId: 'FAILED-001', stage: 'publish', now});
+    const claimedPublish = await store.claim({stage: 'publish', jobId: failedPublish.id, workerId: 'publisher', now});
+    await store.finishJob({jobId: claimedPublish.id, workerId: 'publisher', outcome: 'failed', errorCode: 'PUBLISH_GIT_FAILED', now});
+
+    const first = await store.listCanaryCandidates({limit: 1, now});
+    assert.equal(first[0].movie_id, 'FRESH-001');
+    const second = await store.listCanaryCandidates({limit: 1, now, excludeMovieIds: ['FRESH-001']});
+    assert.equal(second[0].movie_id, 'FAILED-001');
+    assert.equal(second[0].resume_rank, 2);
+    const reopened = await store.requeueFailedPublish({jobId: failedPublish.id, now});
+    assert.equal(reopened.status, 'queued');
+    assert.equal(reopened.attempt, 0);
   } finally {
     await rm(directory, {recursive: true, force: true});
   }

@@ -11,6 +11,9 @@ const mediaStage = (stage) => {
   if (!['image', 'video'].includes(stage)) throw new Error(`Invalid media stage: ${stage}`);
   return stage;
 };
+const isClaimable = (job, nowIso) => job && job.attempt < job.max_attempts
+  && (job.status === 'queued' || job.status === 'retry' || (job.status === 'leased' && job.lease_expires_at <= nowIso))
+  && (!job.next_retry_at || job.next_retry_at <= nowIso);
 
 async function atomicWrite(path, value) {
   await mkdir(dirname(path), {recursive: true});
@@ -137,14 +140,29 @@ export class FileQueueStore {
     const state = await this.read();
     const nowIso = now.toISOString();
     const excluded = new Set(excludeMovieIds.map(normalizedId));
-    return state.jobs.filter((job) => job.stage === 'editorial' && job.attempt < job.max_attempts)
-      .filter((job) => !excluded.has(job.movie_id))
-      .filter((job) => job.status === 'queued' || job.status === 'retry' || (job.status === 'leased' && job.lease_expires_at <= nowIso))
-      .filter((job) => !job.next_retry_at || job.next_retry_at <= nowIso)
-      .map((job) => ({job, movie: state.movies.find(({id}) => id === job.movie_id)}))
+    return state.jobs.filter((job) => job.stage === 'editorial')
+      .map((editorial) => ({
+        editorial,
+        publish: state.jobs.find((job) => job.movie_id === editorial.movie_id && job.stage === 'publish'),
+        movie: state.movies.find(({id}) => id === editorial.movie_id),
+      }))
+      .filter(({editorial}) => !excluded.has(editorial.movie_id))
       .filter(({movie}) => movie?.classification === 'eligible' && movie?.metadata_status === 'validated')
-      .sort((left, right) => String(right.movie.release_date).localeCompare(String(left.movie.release_date)) || right.job.priority - left.job.priority || left.job.created_at.localeCompare(right.job.created_at))
-      .slice(0, limit).map(({job, movie}) => structuredClone({...job, release_date: movie.release_date, metadata_status: movie.metadata_status}));
+      .map(({editorial, publish, movie}) => {
+        if (isClaimable(editorial, nowIso)) {
+          return {job: editorial, movie, resume_rank: editorial.status === 'queued' && editorial.attempt === 0 ? 0 : 2};
+        }
+        if (editorial.status !== 'completed' || publish?.status === 'completed') return null;
+        if (!publish || isClaimable(publish, nowIso)) return {job: editorial, movie, resume_rank: 1};
+        if (publish.status === 'failed') return {job: editorial, movie, resume_rank: 2};
+        return null;
+      })
+      .filter(Boolean)
+      .sort((left, right) => left.resume_rank - right.resume_rank
+        || String(right.movie.release_date).localeCompare(String(left.movie.release_date))
+        || right.job.priority - left.job.priority
+        || left.job.created_at.localeCompare(right.job.created_at))
+      .slice(0, limit).map(({job, movie, resume_rank}) => structuredClone({...job, release_date: movie.release_date, metadata_status: movie.metadata_status, resume_rank}));
   }
 
   async getMovie(movieId) {
@@ -277,6 +295,22 @@ export class FileQueueStore {
     return structuredClone(job);
   }
 
+  async requeueFailedPublish({jobId, now = new Date()}) {
+    const state = await this.read();
+    const job = state.jobs.find((item) => item.id === jobId && item.stage === 'publish' && item.status === 'failed');
+    if (!job) return null;
+    job.status = 'queued';
+    job.attempt = 0;
+    job.completed_at = null;
+    job.next_retry_at = null;
+    job.last_error_code = null;
+    job.claimed_by = null;
+    job.lease_expires_at = null;
+    job.updated_at = now.toISOString();
+    await this.save(state);
+    return structuredClone(job);
+  }
+
   async completeBlockedAfterQa({jobId, allowedErrorCodes, now = new Date()}) {
     const state = await this.read();
     const job = state.jobs.find((item) => item.id === jobId && item.status === 'blocked' && allowedErrorCodes.includes(item.last_error_code));
@@ -390,17 +424,33 @@ export class D1RestQueueStore {
     const bounded = Math.max(1, Math.min(3, Number(limit) || 1));
     const nowIso = now.toISOString();
     const excluded = [...new Set(excludeMovieIds.map(normalizedId))];
-    const exclusionClause = excluded.length ? ` AND j.movie_id NOT IN (${excluded.map(() => '?').join(',')})` : '';
+    const exclusionClause = excluded.length ? ` AND e.movie_id NOT IN (${excluded.map(() => '?').join(',')})` : '';
     const [result] = await this.query({
-      sql: `SELECT j.*, m.release_date, m.metadata_status
-            FROM pipeline_jobs j JOIN movies m ON m.id=j.movie_id
-            WHERE j.stage='editorial' AND j.attempt < j.max_attempts
+      sql: `SELECT e.*, m.release_date, m.metadata_status,
+              CASE
+                WHEN e.status='queued' AND e.attempt=0 THEN 0
+                WHEN e.status='completed' AND (p.id IS NULL OR p.status!='failed') THEN 1
+                ELSE 2
+              END AS resume_rank
+            FROM pipeline_jobs e
+            JOIN movies m ON m.id=e.movie_id
+            LEFT JOIN pipeline_jobs p ON p.movie_id=e.movie_id AND p.stage='publish'
+            WHERE e.stage='editorial'
               AND m.classification='eligible' AND m.metadata_status='validated'
               ${exclusionClause}
-              AND (j.status IN ('queued','retry') OR (j.status='leased' AND j.lease_expires_at <= ?))
-              AND (j.next_retry_at IS NULL OR j.next_retry_at <= ?)
-            ORDER BY m.release_date DESC, j.priority DESC, j.created_at ASC LIMIT ?`,
-      params: [...excluded, nowIso, nowIso, bounded],
+              AND (
+                (e.attempt < e.max_attempts
+                  AND (e.status IN ('queued','retry') OR (e.status='leased' AND e.lease_expires_at <= ?))
+                  AND (e.next_retry_at IS NULL OR e.next_retry_at <= ?))
+                OR
+                (e.status='completed' AND (p.id IS NULL OR p.status='failed' OR (
+                  p.attempt < p.max_attempts
+                  AND (p.status IN ('queued','retry') OR (p.status='leased' AND p.lease_expires_at <= ?))
+                  AND (p.next_retry_at IS NULL OR p.next_retry_at <= ?)
+                )))
+              )
+            ORDER BY resume_rank ASC, m.release_date DESC, e.priority DESC, e.created_at ASC LIMIT ?`,
+      params: [...excluded, nowIso, nowIso, nowIso, nowIso, bounded],
     });
     return result.results ?? [];
   }
@@ -519,6 +569,18 @@ export class D1RestQueueStore {
                 claimed_by=NULL, lease_expires_at=NULL, updated_at=?
             WHERE id=? AND stage=? AND status='failed' RETURNING *`,
       params: [nowIso, jobId, expectedStage],
+    });
+    return result.results?.[0] ?? null;
+  }
+
+  async requeueFailedPublish({jobId, now = new Date()}) {
+    const nowIso = now.toISOString();
+    const [result] = await this.query({
+      sql: `UPDATE pipeline_jobs
+            SET status='queued', attempt=0, completed_at=NULL, next_retry_at=NULL, last_error_code=NULL,
+                claimed_by=NULL, lease_expires_at=NULL, updated_at=?
+            WHERE id=? AND stage='publish' AND status='failed' RETURNING *`,
+      params: [nowIso, jobId],
     });
     return result.results?.[0] ?? null;
   }
