@@ -552,9 +552,10 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "SNOS-364"
+        "SNOS-364",
+        "JUR-862"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
@@ -678,6 +679,26 @@
       "occurrences": 1,
       "source_ids": [
         "NSODN-025"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "熟女",
+      "occurrences": 1,
+      "source_ids": [
+        "JUR-862"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "義母",
+      "occurrences": 1,
+      "source_ids": [
+        "JUR-862"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
