@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-06T19:46:58.451Z",
+  "generated_at": "2026-09-06T19:50:07.249Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 30,
-  "formal_movie_count": 29,
+  "tracked_input_count": 31,
+  "formal_movie_count": 30,
   "demo_count": 1,
-  "published_count": 26,
+  "published_count": 27,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -152,6 +152,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "60da7d907b139fc38f1731c3ab3ede3dfb38941db3e3de8f5dd05496b3cbd404"
+    },
+    {
+      "stable_movie_id": "cc18:RKI-750",
+      "catalog_code": "RKI-750",
+      "slug": "rki-750",
+      "master_path": "data/movie-master/rki-750.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "1183dfdf646b39c15fff63c84e5e1ce87da617b96ba0fd98444afcd356bf6345"
     },
     {
       "stable_movie_id": "cc18:ROYD-348",

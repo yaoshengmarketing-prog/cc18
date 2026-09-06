@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:5175273b9bae5abb834cf50888da38cc296bb29317b877eba50073cd84c071dd",
-  "source_generated_at": "2026-09-06T19:46:58.451Z",
+  "source_revision": "sha256:0558a9dde3865dec19882558fba04a23b46938d6f98fa49e70565a205f71ac5c",
+  "source_generated_at": "2026-09-06T19:50:07.249Z",
   "counts": {
-    "movies": 26,
-    "performers": 28,
+    "movies": 27,
+    "performers": 29,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -314,6 +314,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:274",
+      "display_name": "蓮實克蕾兒",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "蓮實克蕾兒",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:RKI-750"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:25683",
       "display_name": "蘭華",
       "display_name_zh_tw": null,
@@ -568,6 +579,55 @@
         "article_title": "NSODN-025 彩月七緒｜我所不認識的表情",
         "display_short_title": null,
         "slug": "nsodn-025"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:RKI-750",
+        "source_cover": "https://cc18.tv/preview/80/b/ecjJva7j894-800.jpg?v=1788503911",
+        "title": "RKI-750 蓮實克蕾兒 × 世界一ザーメンを大量に発射する男のぶっかけSEX｜蓮實克蕾兒",
+        "catalog_code": "RKI-750",
+        "release_date": "2026-09-04",
+        "performers": [
+          "蓮實克蕾兒"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "facial",
+            "label": "顏射題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/rki-750/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:274"
+      ],
+      "search": {
+        "source_title": "新・世界第一精液大量噴發男的超噴精SEX 蓮實克蕾兒",
+        "article_title": "RKI-750 蓮實克蕾兒 × 世界一ザーメンを大量に発射する男のぶっかけSEX｜蓮實克蕾兒",
+        "display_short_title": null,
+        "slug": "rki-750"
       }
     },
     {

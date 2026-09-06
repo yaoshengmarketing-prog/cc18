@@ -703,6 +703,16 @@
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
       "status": "quarantined"
+    },
+    {
+      "label": "早洩",
+      "occurrences": 1,
+      "source_ids": [
+        "RKI-750"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
     }
   ]
 }

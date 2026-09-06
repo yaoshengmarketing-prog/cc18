@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "RKI-750",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-06T19:49:24.581Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/RKI-750/hero-v1.jpg",
+      "r2_key": "works/2026/09/RKI-750/hero-v1.jpg",
+      "bytes": 486926,
+      "sha256": "59fd8de13f2d45c2895841a6f322073a9d2696bad40a5091021596015de3b2c0",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "60e18bd6-baa1-4ce4-b8b5-798c0b432349",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/RKI-750/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/RKI-750/scene-vertical-v1.jpg",
+      "bytes": 1590860,
+      "sha256": "00ab88fcab9f1c2805eff390d6e8c2eb9b264a8c600fa2d3c19fcaf1b8f1f29f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "b7443bea-51b1-40f7-9de2-39d4344dba21",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3228486,
+    "sha256": "ded2687be7e193ad530fb59b163e6fb019f58d485f44d3999d560261ebdb60c5",
+    "target_r2_key": "works/2026/09/RKI-750/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/RKI-750/vertical-v1.mp4"
+  }
+}

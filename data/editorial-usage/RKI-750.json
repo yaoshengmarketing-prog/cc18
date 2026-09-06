@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "RKI-750",
+  "calls": [
+    {
+      "generated_at": "2026-09-06T19:48:44.491Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2346,
+      "cached_input_tokens": 0,
+      "output_tokens": 1330,
+      "total_tokens": 3676,
+      "estimated_cost_usd": 0.041655,
+      "estimated_payg_cash_cost_usd": 0.043738,
+      "direct_openai_reference_usd": 0.025815,
+      "gateway_premium_usd": 0.01584,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2346,
+    "cached_input_tokens": 0,
+    "output_tokens": 1330,
+    "estimated_cost_usd": 0.041655,
+    "estimated_payg_cash_cost_usd": 0.043738,
+    "direct_openai_reference_usd": 0.025815,
+    "gateway_premium_usd": 0.01584
+  }
+}
