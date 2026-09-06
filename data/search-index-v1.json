@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:08c6400b3c12d4d1b37b75b7c4a95f34c55fdd72544179e468674aeed2dbe05c",
-  "source_generated_at": "2026-09-06T19:36:21.810Z",
+  "source_revision": "sha256:44e636550d691b820b84a898c263d977f50839e7a87f0a546b34770c436c44e2",
+  "source_generated_at": "2026-09-06T19:39:43.205Z",
   "counts": {
-    "movies": 23,
-    "performers": 25,
+    "movies": 24,
+    "performers": 26,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -278,6 +278,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-364"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:26610",
+      "display_name": "楓富愛",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "楓富愛",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-401"
       ]
     },
     {
@@ -655,6 +666,59 @@
         "article_title": "SNOS-372 清原美優｜母性滿滿的溫柔大姊姊",
         "display_short_title": null,
         "slug": "snos-372"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-401",
+        "source_cover": "https://cc18.tv/preview/80/b/5pwrQgUkScD-800.jpg?v=1788555970",
+        "title": "SNOS-401 楓富愛 × 美少女設定｜楓富愛",
+        "catalog_code": "SNOS-401",
+        "release_date": "2026-09-04",
+        "performers": [
+          "楓富愛"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-butt",
+            "label": "美尻"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-401/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:26610"
+      ],
+      "search": {
+        "source_title": "超短裙針織連身裙大姊姊的緊身曲線與上移若隱若現 楓富愛",
+        "article_title": "SNOS-401 楓富愛 × 美少女設定｜楓富愛",
+        "display_short_title": null,
+        "slug": "snos-401"
       }
     },
     {
