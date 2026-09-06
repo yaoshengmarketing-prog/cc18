@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:249dd52838ba778a3be106267e54c9ae09d7e416c059cbdc07e21a1d624ef6b6",
-  "source_generated_at": "2026-09-06T21:41:43.845Z",
+  "source_revision": "sha256:d507c725ef94d62b0637b47d3526233c8c79f1a1f840169479be44d7695d01f4",
+  "source_generated_at": "2026-09-06T21:45:18.369Z",
   "counts": {
-    "movies": 57,
-    "performers": 69,
+    "movies": 58,
+    "performers": 70,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -666,6 +666,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:FCDSS-117"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53324",
+      "display_name": "鳥羽いく",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "鳥羽いく",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PIYO-238"
       ]
     },
     {
@@ -2674,6 +2685,51 @@
         "article_title": "GOJI-111 教師與學生 × 美少女設定｜教師與學生",
         "display_short_title": null,
         "slug": "goji-111"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:PIYO-238",
+        "source_cover": "https://cc18.tv/preview/80/b/lD7QUhhnv6y-800.jpg?v=1788338334",
+        "title": "PIYO-238 鳥羽いく｜鳥羽郁",
+        "catalog_code": "PIYO-238",
+        "release_date": "2026-08-30",
+        "performers": [
+          "鳥羽いく"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/piyo-238/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53324"
+      ],
+      "search": {
+        "source_title": "「跟爸爸做肛交的女孩這輩子都嫁不出去喔」亂倫肛門中毒少女 鳥羽郁",
+        "article_title": "PIYO-238 鳥羽いく｜鳥羽郁",
+        "display_short_title": null,
+        "slug": "piyo-238"
       }
     },
     {

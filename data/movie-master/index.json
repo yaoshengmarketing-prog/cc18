@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-06T21:41:43.845Z",
+  "generated_at": "2026-09-06T21:45:18.369Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 61,
-  "formal_movie_count": 60,
+  "tracked_input_count": 62,
+  "formal_movie_count": 61,
   "demo_count": 1,
-  "published_count": 57,
+  "published_count": 58,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -377,6 +377,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "7c70e6aadcfebfdc1783051c723a4a51cd8f2dd9d7dac016c6d08354194649c8"
+    },
+    {
+      "stable_movie_id": "cc18:PIYO-238",
+      "catalog_code": "PIYO-238",
+      "slug": "piyo-238",
+      "master_path": "data/movie-master/piyo-238.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "b5a59a667b1afe7da37c6365979584bd0510144a4928471c1ec1199bf3871371"
     },
     {
       "stable_movie_id": "cc18:PRIAN-054",
