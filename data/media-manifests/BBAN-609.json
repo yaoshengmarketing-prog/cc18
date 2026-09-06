@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "BBAN-609",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-06T19:17:10.552Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/BBAN-609/hero-v1.jpg",
+      "r2_key": "works/2026/09/BBAN-609/hero-v1.jpg",
+      "bytes": 924750,
+      "sha256": "c2b3e03527c65340f8968eaaa94ceb34160324742cb331d6c4f589ecb8efa76b",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "39e67da9-40dd-44a9-aac8-1a4b67420844",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/BBAN-609/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/BBAN-609/scene-vertical-v1.jpg",
+      "bytes": 1074025,
+      "sha256": "0b79be9fbef0a33689eb4efd3224e08c577b0138322eec98565d6c31d9cdf092",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "0f7b1423-adc9-4017-bc7c-3434e248578b",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2974273,
+    "sha256": "85d76a36e3b1172e7d063ce5f0b5de508d486eda5771ea98fc2650d2ae357fad",
+    "target_r2_key": "works/2026/09/BBAN-609/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/BBAN-609/vertical-v1.mp4"
+  }
+}

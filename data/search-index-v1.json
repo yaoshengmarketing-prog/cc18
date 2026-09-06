@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:abb9a1cd418060388fb5c98f593af4a853f458b9e08998b5e10730d61d56d4ac",
-  "source_generated_at": "2026-09-06T19:14:25.653Z",
+  "source_revision": "sha256:f725a8092be3b173bc27d581db102cde1c0845917d32f34f0a0c824c332976c0",
+  "source_generated_at": "2026-09-06T19:17:52.990Z",
   "counts": {
-    "movies": 17,
-    "performers": 15,
+    "movies": 18,
+    "performers": 17,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -37,6 +37,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:28151",
+      "display_name": "小野寺舞",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "小野寺舞",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:BBAN-609"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:27777",
       "display_name": "池田真理奈",
       "display_name_zh_tw": null,
@@ -56,6 +67,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PRIAN-054"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54007",
+      "display_name": "和栗ゆゆ",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "和栗ゆゆ",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:BBAN-609"
       ]
     },
     {
@@ -196,6 +218,53 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:BBAN-609",
+        "source_cover": "https://cc18.tv/preview/80/b/DFohJtYht5A-800.jpg?v=1788503910",
+        "title": "BBAN-609 小野寺舞、和栗ゆゆ｜我們將在這地獄中生存下去",
+        "catalog_code": "BBAN-609",
+        "release_date": "2026-09-04",
+        "performers": [
+          "小野寺舞",
+          "和栗ゆゆ"
+        ],
+        "canonical_topics": [
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/bban-609/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28151",
+        "cc18.tv:actor:54007"
+      ],
+      "search": {
+        "source_title": "我們將在這地獄中生存下去——。被極惡黑心企業束縛的新進限界OL，最後一絲希望竟是蕾絲邊。",
+        "article_title": "BBAN-609 小野寺舞、和栗ゆゆ｜我們將在這地獄中生存下去",
+        "display_short_title": null,
+        "slug": "bban-609"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:SNOS-364",
