@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:b07002b80b578e4f8cd1367e6c03e9b0949a3f7a660fa5cc0ebcdf2e1812decc",
-  "source_generated_at": "2026-09-06T20:18:19.379Z",
+  "source_revision": "sha256:0b1aa9671ac9fd4734708879f7fe376366ea308ff8bb35e19f3bd2ea62eeccf6",
+  "source_generated_at": "2026-09-06T20:22:01.010Z",
   "counts": {
-    "movies": 35,
-    "performers": 36,
+    "movies": 36,
+    "performers": 37,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -78,6 +78,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:BBAN-609"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:43533",
+      "display_name": "天羽梨梨花",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "天羽梨梨花",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MILK-306"
       ]
     },
     {
@@ -1346,6 +1357,47 @@
         "article_title": "SNOS-447 仲村美羽｜口交到插入",
         "display_short_title": null,
         "slug": "snos-447"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MILK-306",
+        "source_cover": "https://cc18.tv/preview/80/b/z07G8oLtx3s-800.jpg?v=1788431926",
+        "title": "MILK-306 天羽梨梨花 × 高畫質｜天羽梨梨花",
+        "catalog_code": "MILK-306",
+        "release_date": "2026-09-03",
+        "performers": [
+          "天羽梨梨花"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/milk-306/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:43533"
+      ],
+      "search": {
+        "source_title": "『只讓老師看到真實的我』性癖崩壞的現代J系辣妹與老師的禁忌關係 天羽梨梨花",
+        "article_title": "MILK-306 天羽梨梨花 × 高畫質｜天羽梨梨花",
+        "display_short_title": null,
+        "slug": "milk-306"
       }
     },
     {

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-06T20:18:19.379Z",
+  "generated_at": "2026-09-06T20:22:01.010Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 39,
-  "formal_movie_count": 38,
+  "tracked_input_count": 40,
+  "formal_movie_count": 39,
   "demo_count": 1,
-  "published_count": 35,
+  "published_count": 36,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -170,6 +170,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "704784d96f8121a83b6e7fd4539ab62fa927857f2cb87ddbe08810f630077779"
+    },
+    {
+      "stable_movie_id": "cc18:MILK-306",
+      "catalog_code": "MILK-306",
+      "slug": "milk-306",
+      "master_path": "data/movie-master/milk-306.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "c1b637bfe7adcf2b78b883e0e1291bc7be20aa4edfc2d6070a44e7ff73f79fa2"
     },
     {
       "stable_movie_id": "cc18:MVG-171",
