@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:e4aed9df26c8c4722bd71d487d1674d5366c6f1213bee9fdd6e0c30efbf40845",
-  "source_generated_at": "2026-09-06T20:54:46.301Z",
+  "source_revision": "sha256:8ab59fcddac408af0164f804360380d2810a6173b861ad3565e3fe4e80dae918",
+  "source_generated_at": "2026-09-06T20:58:48.849Z",
   "counts": {
-    "movies": 45,
-    "performers": 47,
+    "movies": 46,
+    "performers": 48,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -122,6 +122,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:FWAY-106"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54206",
+      "display_name": "石田紗季",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "石田紗季",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DLDSS-549"
       ]
     },
     {
@@ -1742,6 +1753,51 @@
         "article_title": "DLDSS-545 花守夏步、角奈保｜人妻女教師",
         "display_short_title": null,
         "slug": "dldss-545"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DLDSS-549",
+        "source_cover": "https://cc18.tv/preview/80/b/e9dBwvCeKfG-800.jpg?v=1787193621",
+        "title": "DLDSS-549 石田紗季｜拜託妳",
+        "catalog_code": "DLDSS-549",
+        "release_date": "2026-09-03",
+        "performers": [
+          "石田紗季"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dldss-549/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54206"
+      ],
+      "search": {
+        "source_title": "拜託妳，就算被那傢伙的肉棒幹到高潮時，也請不要放開我的手，一直看著我。 石田紗季",
+        "article_title": "DLDSS-549 石田紗季｜拜託妳",
+        "display_short_title": null,
+        "slug": "dldss-549"
       }
     },
     {
