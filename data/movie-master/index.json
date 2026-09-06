@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-06T20:04:12.862Z",
+  "generated_at": "2026-09-06T20:07:47.393Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 35,
-  "formal_movie_count": 34,
+  "tracked_input_count": 36,
+  "formal_movie_count": 35,
   "demo_count": 1,
-  "published_count": 31,
+  "published_count": 32,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -80,6 +80,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "118f23970dbb1f0ba50eaf6a246f52c78d3c7ccbfb4790256e49ca1101770800"
+    },
+    {
+      "stable_movie_id": "cc18:FWAY-106",
+      "catalog_code": "FWAY-106",
+      "slug": "fway-106",
+      "master_path": "data/movie-master/fway-106.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "c1693cb853f33ecfe0674da4b0112d6a304ac30af629f659034c808d5054ab0f"
     },
     {
       "stable_movie_id": "cc18:GAREA-627",
