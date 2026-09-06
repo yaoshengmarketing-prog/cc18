@@ -1,6 +1,8 @@
-name: Content pipeline (manual canary)
+name: Content pipeline
 
 on:
+  schedule:
+    - cron: '0 * * * *'
   workflow_dispatch:
     inputs:
       stage:
@@ -30,7 +32,7 @@ concurrency:
 jobs:
   pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v7
         with:
@@ -43,23 +45,47 @@ jobs:
       - run: npm ci
       - run: npm run registry:validate
       - run: npm run content:validate
+      - name: Configure publisher identity
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.stage == 'publish' || inputs.stage == 'end-to-end'))
+        run: |
+          git config user.name "cc18-publisher[bot]"
+          git config user.email "cc18-publisher[bot]@users.noreply.github.com"
+      - name: Discover all eligible works and drain the D1 queue
+        if: github.event_name == 'schedule'
+        env:
+          AITOKENKING_API_KEY: ${{ secrets.AITOKENKING_API_KEY }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_D1_DATABASE_ID: ${{ vars.CLOUDFLARE_D1_DATABASE_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_R2_API_TOKEN: ${{ secrets.CLOUDFLARE_R2_API_TOKEN }}
+          CC18_R2_AUTH_MODE: api-token
+          CC18_ALLOW_EDITORIAL_TRANSMISSION: YES
+          CC18_ALLOW_IMAGE_TRANSMISSION: YES
+        shell: bash
+        run: |
+          set +e
+          npm run discovery:run -- --store=d1
+          discovery_exit=$?
+          set -e
+          npm run canary:drain -- --time-budget-minutes=240
+          exit "$discovery_exit"
       - name: Verify editorial provider connectivity only
-        if: inputs.stage == 'editorial-smoke'
+        if: github.event_name == 'workflow_dispatch' && inputs.stage == 'editorial-smoke'
         env:
           AITOKENKING_API_KEY: ${{ secrets.AITOKENKING_API_KEY }}
         run: npm run editorial:provider:smoke
       - name: Run discovery and queue eligible works
-        if: inputs.stage == 'discover'
+        if: github.event_name == 'workflow_dispatch' && inputs.stage == 'discover'
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_D1_DATABASE_ID: ${{ vars.CLOUDFLARE_D1_DATABASE_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npm run discovery:run -- --store=${{ inputs.queue_store }}
       - name: Run foundation stage
-        if: inputs.stage != 'discover' && inputs.stage != 'publish' && inputs.stage != 'editorial-smoke' && inputs.stage != 'end-to-end'
+        if: github.event_name == 'workflow_dispatch' && inputs.stage != 'discover' && inputs.stage != 'publish' && inputs.stage != 'editorial-smoke' && inputs.stage != 'end-to-end'
         run: node scripts/pipeline.mjs "${{ inputs.stage }}"
       - name: Require an exact movie ID for publishing
-        if: inputs.stage == 'publish' || inputs.stage == 'end-to-end'
+        if: github.event_name == 'workflow_dispatch' && (inputs.stage == 'publish' || inputs.stage == 'end-to-end')
         shell: bash
         env:
           MOVIE_ID: ${{ inputs.movie_id }}
@@ -69,13 +95,8 @@ jobs:
             exit 1
           fi
           echo "MOVIE_ID=${MOVIE_ID^^}" >> "$GITHUB_ENV"
-      - name: Configure publisher identity
-        if: inputs.stage == 'publish' || inputs.stage == 'end-to-end'
-        run: |
-          git config user.name "cc18-publisher[bot]"
-          git config user.email "cc18-publisher[bot]@users.noreply.github.com"
       - name: Run one end-to-end D1 canary
-        if: inputs.stage == 'end-to-end'
+        if: github.event_name == 'workflow_dispatch' && inputs.stage == 'end-to-end'
         env:
           AITOKENKING_API_KEY: ${{ secrets.AITOKENKING_API_KEY }}
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
@@ -87,12 +108,13 @@ jobs:
           CC18_ALLOW_IMAGE_TRANSMISSION: YES
         run: npm run canary:run -- --max=1 --ids="$MOVIE_ID"
       - name: Validate, deploy and complete the D1 publish job
-        if: inputs.stage == 'publish'
+        if: github.event_name == 'workflow_dispatch' && inputs.stage == 'publish'
         env:
           MOVIE_ID: ${{ inputs.movie_id }}
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_D1_DATABASE_ID: ${{ vars.CLOUDFLARE_D1_DATABASE_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npm run publish:d1:process-one -- "$MOVIE_ID"
-      - name: Guard production activation
-        run: echo "Daily schedule and automatic production remain intentionally disabled; discovery is manual only."
+      - name: Confirm serialized production automation
+        if: github.event_name == 'schedule'
+        run: echo "Hourly discovery and serial single-work queue draining are enabled."

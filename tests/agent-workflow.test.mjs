@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 
 const config = JSON.parse(await readFile(new URL('../config/agent-roles.json', import.meta.url), 'utf8'));
+const pipeline = JSON.parse(await readFile(new URL('../config/pipeline.json', import.meta.url), 'utf8'));
 const requiredRoles = ['scout', 'tag_curator', 'editor', 'critic_qa', 'media_producer', 'publisher'];
 
 test('agent workflow configuration has the required role-separated DAG', () => {
@@ -57,8 +58,23 @@ test('handoff envelope and source-of-truth boundaries are explicit', () => {
   assert.equal(config.source_of_truth.source_identity_and_provenance, 'source_record');
 });
 
-test('canary is manual, bounded and cannot enable production scheduling', () => {
-  assert.equal(config.production_schedule_enabled, false);
+test('production scheduling drains the D1 queue serially without a daily work limit', () => {
+  assert.equal(config.production_schedule_enabled, true);
+  assert.equal(config.production_schedule.trigger, 'hourly_github_actions');
+  assert.equal(config.production_schedule.cron_utc, '0 * * * *');
+  assert.equal(config.production_schedule.queue_authority, 'cloudflare_d1');
+  assert.equal(config.production_schedule.enqueue_all_eligible, true);
+  assert.equal(config.production_schedule.daily_work_limit, null);
+  assert.equal(config.production_schedule.maximum_parallel_works, 1);
+  assert.equal(config.production_schedule.drain_until_empty, true);
+  assert.equal(pipeline.production.mode, 'scheduled_serial');
+  assert.equal(pipeline.production.batch_size, 1);
+  assert.equal(pipeline.production.max_parallel, 1);
+  assert.equal(Object.hasOwn(pipeline.discovery, 'hard_discovery_cap'), false);
+  assert.equal(pipeline.publishing.daily_enabled, false);
+});
+
+test('the historical canary remains bounded and separate from scheduled production', () => {
   assert.equal(config.canary.enabled, true);
   assert.equal(config.canary.daily_schedule_enabled, false);
   assert.equal(config.canary.manual_trigger_only, true);

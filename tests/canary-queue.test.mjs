@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {mkdtemp, readFile, rm} from 'node:fs/promises';
 import {join} from 'node:path';
 import {tmpdir} from 'node:os';
-import {FileQueueStore} from '../scripts/queue/store.mjs';
+import {D1RestQueueStore, FileQueueStore} from '../scripts/queue/store.mjs';
 import {assertSingleWorkRequest, checkpointArtifactPaths} from '../scripts/canary/isolation.mjs';
 import {alreadyPublishedRequestedIds, classifyCanaryStageOutcome, isNonBlockingMediaOutcome, isNonBlockingVideoOutcome, registryDraftIds} from '../scripts/canary/selection.mjs';
 
@@ -40,10 +40,15 @@ test('single-work canary protects but is not blocked by unrelated pre-existing u
   const isolated = await readFile(new URL('../scripts/canary/run-isolated.mjs', import.meta.url), 'utf8');
   assert.match(source, /CC18_CANARY_ISOLATED_WORKSPACE/u);
   assert.match(source, /Isolated canary requires exactly one movie ID/u);
-  assert.match(isolated, /listCanaryCandidates\(\{limit: 1/u);
+  assert.match(isolated, /listCanaryCandidates\(\{\s*limit: 1/u);
+  assert.match(isolated, /--exclude/u);
+  assert.match(isolated, /CC18_CANARY_RESULT/u);
   assert.match(isolated, /createCleanWorktree/u);
   assert.match(isolated, /restoreWorkCheckpoint/u);
   assert.match(isolated, /saveWorkCheckpoint/u);
+  assert.match(isolated, /recordWorkError\('checkpoint_restore'/u);
+  assert.match(isolated, /recordWorkError\('checkpoint_save'/u);
+  assert.match(isolated, /work_error: workError/u);
   assert.match(source, /status', '--porcelain', '--untracked-files=no/u);
   assert.match(source, /protectedUntrackedPaths/u);
   assert.match(source, /assertProtectedUntrackedUnchanged/u);
@@ -90,6 +95,36 @@ test('repairs expired leases and selects only validated editorial candidates', a
   } finally {
     await rm(directory, {recursive: true, force: true});
   }
+});
+
+test('D1 canary selection keeps more than 95 exclusions in one bounded query parameter', async () => {
+  let statement;
+  const fetchImpl = async (_url, options) => {
+    statement = JSON.parse(options.body);
+    return {
+      ok: true,
+      status: 200,
+      json: async () => ({
+        success: true,
+        errors: [],
+        result: [{success: true, results: [{movie_id: 'NEXT-001'}], meta: {changes: 0}}],
+      }),
+    };
+  };
+  const store = new D1RestQueueStore({accountId: 'account', databaseId: 'database', apiToken: 'token', fetchImpl});
+  const excluded = Array.from({length: 120}, (_, index) => `DONE-${String(index + 1).padStart(3, '0')}`);
+
+  const candidates = await store.listCanaryCandidates({
+    limit: 1,
+    now: new Date('2026-09-04T00:00:00.000Z'),
+    excludeMovieIds: excluded,
+  });
+
+  assert.deepEqual(candidates.map(({movie_id}) => movie_id), ['NEXT-001']);
+  assert.match(statement.sql, /json_each\(\?\)/u);
+  assert.equal(statement.params.length, 6);
+  assert.deepEqual(JSON.parse(statement.params[0]), excluded);
+  assert.ok(statement.params.length <= 100);
 });
 
 test('a fresh work is selected before a failed work and completed editorial remains resumable', async () => {

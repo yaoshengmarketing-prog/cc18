@@ -14,7 +14,6 @@
     "upcoming_window_days": 30,
     "ingest_all_eligible": true,
     "minimum_candidates": 1,
-    "hard_discovery_cap": 500,
     "request_delay_ms": 1000,
     "maximum_error_ratio": 0.2
   },
@@ -27,7 +26,7 @@
     "lease_seconds": 900,
     "max_attempts": 5
   },
-  "production": {"mode": "dry_run", "batch_size": 20, "max_parallel": 3, "continue_on_media_failure": true},
+  "production": {"mode": "scheduled_serial", "batch_size": 1, "max_parallel": 1, "continue_on_media_failure": true},
   "canary": {"enabled": true, "default_batch_size": 1, "max_per_run": 3, "require_validated_metadata": true, "media_analysis": "optional_non_blocking", "stages": ["editorial", "image", "video", "publish"]},
   "editorial": {
     "writer_contract": "prompts/review-writer.md",

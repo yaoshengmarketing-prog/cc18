@@ -36,7 +36,6 @@ export async function discoverBatch({
       for (const workUrl of parseListing(await response.text(), listingUrl)) candidateSet.add(workUrl);
     }
     if (candidateSet.size < config.minimum_candidates) throw new Error(`Discovery returned too few candidates: ${candidateSet.size} < ${config.minimum_candidates}`);
-    if (candidateSet.size > config.hard_discovery_cap) throw new Error(`Discovery cap exceeded: ${candidateSet.size} > ${config.hard_discovery_cap}`);
     summary.candidates = candidateSet.size;
 
     let index = 0;

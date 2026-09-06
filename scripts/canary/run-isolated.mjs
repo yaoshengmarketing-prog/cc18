@@ -17,8 +17,16 @@ const root = resolve(import.meta.dirname, '..', '..');
 const option = (name) => process.argv.slice(2).find((value) => value.startsWith(`${name}=`))?.slice(name.length + 1);
 const max = Number(option('--max') ?? 1);
 const requestedIds = (option('--ids') ?? '').split(',').map((value) => value.trim().toUpperCase()).filter(Boolean);
+const excludedIds = (option('--exclude') ?? '').split(',').map((value) => value.trim().toUpperCase()).filter(Boolean);
 if (requestedIds.some((id) => !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(id))) throw new Error('--ids contains an invalid movie id');
+if (excludedIds.some((id) => !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(id))) throw new Error('--exclude contains an invalid movie id');
 assertSingleWorkRequest({max, requestedIds});
+
+export const CANARY_RESULT_PREFIX = 'CC18_CANARY_RESULT=';
+const emitResult = (report) => {
+  console.log(JSON.stringify(report, null, 2));
+  console.log(`${CANARY_RESULT_PREFIX}${JSON.stringify(report)}`);
+};
 
 const git = (args, {allowFailure = false} = {}) => {
   const result = spawnSync('git', args, {cwd: root, encoding: 'utf8', windowsHide: true});
@@ -70,11 +78,14 @@ const excludedPublishedIds = registry.records
   .map(({id}) => id.toUpperCase());
 const candidates = requestedIds.length
   ? requestedIds
-  : (await store.listCanaryCandidates({limit: 1, excludeMovieIds: excludedPublishedIds})).map(({movie_id}) => movie_id);
+  : (await store.listCanaryCandidates({
+      limit: 1,
+      excludeMovieIds: [...new Set([...excludedPublishedIds, ...excludedIds])],
+    })).map(({movie_id}) => movie_id);
 const movieId = candidates[0] ?? null;
 if (!movieId) {
   await assertProtected();
-  console.log(JSON.stringify({event: 'isolated_canary_queue_empty', base_commit: baseCommit, maximum_works: 1}, null, 2));
+  emitResult({event: 'isolated_canary_queue_empty', base_commit: baseCommit, maximum_works: 1});
   process.exit(0);
 }
 
@@ -83,42 +94,66 @@ let result = {code: 1};
 let restored = null;
 let checkpoint = null;
 let deletedCheckpoint = null;
+let workError = null;
+const recordWorkError = (phase, error) => {
+  workError ??= {phase, message: String(error?.message ?? error)};
+  result = {code: 1, error: workError.message};
+};
 try {
-  restored = await restoreWorkCheckpoint({repositoryRoot: root, workspaceRoot: isolated.workspaceRoot, movieId});
-  result = await new Promise((resolveRun) => {
-    const child = spawn(process.execPath, [resolve(isolated.workspaceRoot, 'scripts/canary/run.mjs'), '--max=1', `--ids=${movieId}`], {
-      cwd: isolated.workspaceRoot,
-      env: {...process.env, CC18_CANARY_ISOLATED_WORKSPACE: 'YES'},
-      windowsHide: true,
-      stdio: 'inherit',
-    });
-    child.once('error', (error) => resolveRun({code: 1, error: error.message}));
-    child.once('close', (code) => resolveRun({code: code ?? 1}));
-  });
-  if (result.code !== 0) {
-    const editorial = await store.findJob({movieId, stage: 'editorial'});
-    if (editorial?.status === 'completed') {
-      checkpoint = await saveWorkCheckpoint({
-        repositoryRoot: root,
-        workspaceRoot: isolated.workspaceRoot,
-        baseRef: 'origin/main',
-        movieId,
+  try {
+    restored = await restoreWorkCheckpoint({repositoryRoot: root, workspaceRoot: isolated.workspaceRoot, movieId});
+  } catch (error) {
+    recordWorkError('checkpoint_restore', error);
+  }
+  if (!workError) {
+    result = await new Promise((resolveRun) => {
+      const child = spawn(process.execPath, [resolve(isolated.workspaceRoot, 'scripts/canary/run.mjs'), '--max=1', `--ids=${movieId}`], {
+        cwd: isolated.workspaceRoot,
+        env: {...process.env, CC18_CANARY_ISOLATED_WORKSPACE: 'YES'},
+        windowsHide: true,
+        stdio: 'inherit',
       });
+      child.once('error', (error) => resolveRun({code: 1, error: error.message}));
+      child.once('close', (code) => resolveRun({code: code ?? 1}));
+    });
+    if (result.code !== 0) {
+      const editorial = await store.findJob({movieId, stage: 'editorial'});
+      if (editorial?.status === 'completed') {
+        try {
+          checkpoint = await saveWorkCheckpoint({
+            repositoryRoot: root,
+            workspaceRoot: isolated.workspaceRoot,
+            baseRef: 'origin/main',
+            movieId,
+          });
+        } catch (error) {
+          recordWorkError('checkpoint_save', error);
+        }
+      }
+    } else {
+      try {
+        deletedCheckpoint = deleteWorkCheckpoint({repositoryRoot: root, movieId});
+      } catch (error) {
+        recordWorkError('checkpoint_delete', error);
+      }
     }
-  } else {
-    deletedCheckpoint = deleteWorkCheckpoint({repositoryRoot: root, movieId});
   }
 } finally {
-  await removeCleanWorktree({repositoryRoot: root, ...isolated});
+  try {
+    await removeCleanWorktree({repositoryRoot: root, ...isolated});
+  } catch (error) {
+    recordWorkError('worktree_cleanup', error);
+  }
   await assertProtected();
 }
-console.log(JSON.stringify({
+emitResult({
   event: 'isolated_canary_finished',
   movie_id: movieId,
   base_commit: baseCommit,
   restored_checkpoint: restored,
   saved_checkpoint: checkpoint,
   deleted_checkpoint: deletedCheckpoint,
+  work_error: workError,
   exit_code: result.code,
-}, null, 2));
+});
 if (result.code !== 0) process.exitCode = result.code;

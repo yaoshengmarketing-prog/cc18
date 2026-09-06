@@ -2,7 +2,7 @@
   "schema_version": 1,
   "workflow_id": "cc18-content-v1",
   "execution_model": "role_separated_pipeline",
-  "production_schedule_enabled": false,
+  "production_schedule_enabled": true,
   "source_of_truth": {
     "queue_and_job_state": "cloudflare_d1",
     "source_identity_and_provenance": "source_record",
@@ -138,6 +138,16 @@
         "candidate_tag_has_not_reached_promotion_threshold"
       ]
     }
+  },
+  "production_schedule": {
+    "trigger": "hourly_github_actions",
+    "cron_utc": "0 * * * *",
+    "timezone": "UTC",
+    "queue_authority": "cloudflare_d1",
+    "enqueue_all_eligible": true,
+    "daily_work_limit": null,
+    "maximum_parallel_works": 1,
+    "drain_until_empty": true
   },
   "canary": {
     "enabled": true,

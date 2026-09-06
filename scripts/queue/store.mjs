@@ -67,8 +67,12 @@ export class FileQueueStore {
       };
       state.movies.push(movie);
     } else {
+      movie.release_date = record.release_date;
       movie.last_seen_at = now;
       movie.source_url = record.source_url;
+      movie.source_uuid = new URL(record.source_url).searchParams.get('uuid');
+      movie.classification = classification;
+      movie.metadata_status = record.description ? 'validated' : 'partial';
       movie.source_record = record;
     }
 
@@ -366,7 +370,7 @@ export class D1RestQueueStore {
       {
         sql: `INSERT INTO movies (id, release_date, source_url, source_uuid, first_seen_at, last_seen_at, classification, metadata_status, source_json)
               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-              ON CONFLICT(id) DO UPDATE SET source_url=excluded.source_url, source_uuid=excluded.source_uuid, last_seen_at=excluded.last_seen_at, source_json=excluded.source_json
+              ON CONFLICT(id) DO UPDATE SET release_date=excluded.release_date, source_url=excluded.source_url, source_uuid=excluded.source_uuid, last_seen_at=excluded.last_seen_at, classification=excluded.classification, metadata_status=excluded.metadata_status, source_json=excluded.source_json
               RETURNING first_seen_at = ? AS is_new`,
         params: [id, record.release_date, record.source_url, sourceUuid, now, now, classification, record.description ? 'validated' : 'partial', JSON.stringify(record), now],
       },
@@ -424,7 +428,9 @@ export class D1RestQueueStore {
     const bounded = Math.max(1, Math.min(3, Number(limit) || 1));
     const nowIso = now.toISOString();
     const excluded = [...new Set(excludeMovieIds.map(normalizedId))];
-    const exclusionClause = excluded.length ? ` AND e.movie_id NOT IN (${excluded.map(() => '?').join(',')})` : '';
+    const exclusionClause = excluded.length
+      ? ' AND NOT EXISTS (SELECT 1 FROM json_each(?) excluded WHERE excluded.value=e.movie_id)'
+      : '';
     const [result] = await this.query({
       sql: `SELECT e.*, m.release_date, m.metadata_status,
               CASE
@@ -450,7 +456,7 @@ export class D1RestQueueStore {
                 )))
               )
             ORDER BY resume_rank ASC, m.release_date DESC, e.priority DESC, e.created_at ASC LIMIT ?`,
-      params: [...excluded, nowIso, nowIso, nowIso, nowIso, bounded],
+      params: [...(excluded.length ? [JSON.stringify(excluded)] : []), nowIso, nowIso, nowIso, nowIso, bounded],
     });
     return result.results ?? [];
   }
