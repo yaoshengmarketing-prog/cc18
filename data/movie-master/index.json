@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-06T21:07:00.266Z",
+  "generated_at": "2026-09-06T21:10:28.060Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 52,
-  "formal_movie_count": 51,
+  "tracked_input_count": 53,
+  "formal_movie_count": 52,
   "demo_count": 1,
-  "published_count": 48,
+  "published_count": 49,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -458,6 +458,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "01481f84970f5f5903d5333296859e81dc4c4e455766622449ee35d608c76e45"
+    },
+    {
+      "stable_movie_id": "cc18:SW-1066",
+      "catalog_code": "SW-1066",
+      "slug": "sw-1066",
+      "master_path": "data/movie-master/sw-1066.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "86127aa77191625a3f951bcdbe667b87a6a69efc023391832eeb4458750d7915"
     },
     {
       "stable_movie_id": "cc18:TPNS-037",
