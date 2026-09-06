@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:cce7d9f89d359931e7a85dc4c01a93f4b83dc70d32997462f7a0592c9500bf9e",
-  "source_generated_at": "2026-09-06T19:32:31.491Z",
+  "source_revision": "sha256:08c6400b3c12d4d1b37b75b7c4a95f34c55fdd72544179e468674aeed2dbe05c",
+  "source_generated_at": "2026-09-06T19:36:21.810Z",
   "counts": {
-    "movies": 22,
-    "performers": 24,
+    "movies": 23,
+    "performers": 25,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -78,6 +78,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DSOD-006"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:29933",
+      "display_name": "百永さりな",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "百永さりな",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:ROYD-348"
       ]
     },
     {
@@ -434,6 +445,59 @@
         "article_title": "NGOD-355 那賀崎雪音｜隨你怎麼做都行",
         "display_short_title": null,
         "slug": "ngod-355"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:ROYD-348",
+        "source_cover": "https://cc18.tv/preview/80/b/wvjuItjIf5d-800.jpg?v=1788503911",
+        "title": "ROYD-348 百永さりな｜イチャラブご奉仕",
+        "catalog_code": "ROYD-348",
+        "release_date": "2026-09-04",
+        "performers": [
+          "百永さりな"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/royd-348/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:29933"
+      ],
+      "search": {
+        "source_title": "對御宅族超絕溫柔的爆乳辣妹上司全肯定寵溺 甜美奉仕媚男主觀自慰支援 百永紗里奈",
+        "article_title": "ROYD-348 百永さりな｜イチャラブご奉仕",
+        "display_short_title": null,
+        "slug": "royd-348"
       }
     },
     {

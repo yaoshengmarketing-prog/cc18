@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "ROYD-348",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-06T19:35:40.576Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/ROYD-348/hero-v1.jpg",
+      "r2_key": "works/2026/09/ROYD-348/hero-v1.jpg",
+      "bytes": 658989,
+      "sha256": "63e50afff596626845236278bd60046072ae21a8f129a9bd06b1204763263526",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "3dbd4dd4-7129-4ab2-bfc0-c4bbc7b30146",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/ROYD-348/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/ROYD-348/scene-vertical-v1.jpg",
+      "bytes": 646384,
+      "sha256": "9dd13334af29ee064e4e28cbd456117cb33b6f610a9fe09d9d8ce7b67967265a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "09cf2817-f616-4487-b5de-00ed17a66953",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2000918,
+    "sha256": "eb9d32d0f3f39d0ce7efd2bcd112165015ab5736982f9a6c6c68bd48a1c0708d",
+    "target_r2_key": "works/2026/09/ROYD-348/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/ROYD-348/vertical-v1.mp4"
+  }
+}
