@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "DLDSS-528",
+  "review_sha256": "97f3b08cbd3d9da071caa3dc6680e3538a0791be2be7bc7bbd1dbfc58678de85",
+  "selected_thesis": "來源資料可確認本作以「dahlia出道」作為主要作品線索。",
+  "title_basis": {
+    "performer": "宮上唯依花",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "宮上唯依花",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "dahlia出道",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "宮上唯依花",
+    "presentation_feature": "dahlia出道",
+    "editorial_judgment": "來源資料可確認本作以「dahlia出道」作為主要作品線索。",
+    "source_keywords": [
+      "宮上唯依花",
+      "dahlia出道",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：宮上唯依花",
+      "supports": "這項可追溯來源訊號支持文章以「宮上唯依花」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：dahlia出道",
+      "supports": "這項可追溯來源訊號支持文章以「dahlia出道」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：dahlia出道",
+      "supports": "這項可追溯來源訊號支持文章以「dahlia出道」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻・主婦",
+      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：HD",
+      "supports": "這項可追溯來源訊號支持文章以「HD」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z"
+}

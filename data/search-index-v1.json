@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:9254458931436f777f23a0e7fe16b86df919c3d014e7c087ceb937abdb4423ab",
-  "source_generated_at": "2026-09-06T20:33:16.660Z",
+  "source_revision": "sha256:b9346b99c3f72b7b84b6ebb2ad133b093f9d95873e6fe3006e3294c6f92cb70a",
+  "source_generated_at": "2026-09-06T20:36:54.539Z",
   "counts": {
-    "movies": 39,
-    "performers": 40,
+    "movies": 40,
+    "performers": 41,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -331,6 +331,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:JUR-850"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54491",
+      "display_name": "宮上唯依花",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "宮上唯依花",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DLDSS-528"
       ]
     },
     {
@@ -1391,6 +1402,47 @@
         "article_title": "SNOS-447 仲村美羽｜口交到插入",
         "display_short_title": null,
         "slug": "snos-447"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DLDSS-528",
+        "source_cover": "https://cc18.tv/preview/80/b/uxEleX7N26A-800.jpg?v=1785740572",
+        "title": "DLDSS-528 宮上唯依花｜dahlia出道",
+        "catalog_code": "DLDSS-528",
+        "release_date": "2026-09-03",
+        "performers": [
+          "宮上唯依花"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dldss-528/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54491"
+      ],
+      "search": {
+        "source_title": "「高嶺之花」的完熟期——。48歲，前秘書。宮上唯依花 出道 不變的美貌，進化中的性慾。",
+        "article_title": "DLDSS-528 宮上唯依花｜dahlia出道",
+        "display_short_title": null,
+        "slug": "dldss-528"
       }
     },
     {
