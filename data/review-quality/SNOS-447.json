@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-447",
+  "review_sha256": "c40072624a2e4dd30835d5cc3c732ac54dab9ebf916b1000a66ac4f80ca927e8",
+  "selected_thesis": "來源資料可確認本作以「口交到插入」作為主要作品線索。",
+  "title_basis": {
+    "performer": "仲村美羽",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "仲村美羽",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "口交到插入",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "仲村美羽",
+    "presentation_feature": "口交到插入",
+    "editorial_judgment": "來源資料可確認本作以「口交到插入」作為主要作品線索。",
+    "source_keywords": [
+      "仲村美羽",
+      "口交到插入",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：仲村美羽",
+      "supports": "這項可追溯來源訊號支持文章以「仲村美羽」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：口交到插入",
+      "supports": "這項可追溯來源訊號支持文章以「口交到插入」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：窈窕",
+      "supports": "這項可追溯來源訊號支持文章以「窈窕」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：口交",
+      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：戲劇、連續劇",
+      "supports": "這項可追溯來源訊號支持文章以「戲劇、連續劇」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z"
+}

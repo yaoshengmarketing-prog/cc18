@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:3ed514720fd99afd44c4e0c08a1be49a117fd26764873a84557883bdcb2cd239",
-  "source_generated_at": "2026-09-06T20:11:17.909Z",
+  "source_revision": "sha256:23e1c762ee8ce3a25ee458aa5ae44f21cc0dc9d1248bb457342ce24976d0738d",
+  "source_generated_at": "2026-09-06T20:15:09.195Z",
   "counts": {
-    "movies": 33,
-    "performers": 34,
+    "movies": 34,
+    "performers": 35,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -100,6 +100,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:FWAY-106"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:8297",
+      "display_name": "仲村美羽",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "仲村美羽",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-447"
       ]
     },
     {
@@ -1218,6 +1229,59 @@
         "article_title": "SNOS-401 楓富愛 × 美少女設定｜楓富愛",
         "display_short_title": null,
         "slug": "snos-401"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-447",
+        "source_cover": "https://cc18.tv/preview/80/b/xLTYCN6GD98-800.jpg?v=1788575899",
+        "title": "SNOS-447 仲村美羽｜口交到插入",
+        "catalog_code": "SNOS-447",
+        "release_date": "2026-09-04",
+        "performers": [
+          "仲村美羽"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-447/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:8297"
+      ],
+      "search": {
+        "source_title": "電影女優「仲村美羽」從接吻、口交到插入，由零開始熱烈指導的一對一情色戲教學",
+        "article_title": "SNOS-447 仲村美羽｜口交到插入",
+        "display_short_title": null,
+        "slug": "snos-447"
       }
     },
     {
