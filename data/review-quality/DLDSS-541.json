@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "DLDSS-541",
+  "review_sha256": "24e39e04ad34089e0ebc3e4afa47c9b851c983514d72ae78874207c7872e5f47",
+  "selected_thesis": "來源資料可確認本作以「美乃雀」作為主要作品線索。",
+  "title_basis": {
+    "performer": "美乃雀",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "美乃雀",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "娼婦 今夜、私は最も醜い男に抱かれますー。",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "美乃雀",
+    "presentation_feature": "娼婦 今夜、私は最も醜い男に抱かれますー。",
+    "editorial_judgment": "來源資料可確認本作以「美乃雀」作為主要作品線索。",
+    "source_keywords": [
+      "美乃雀",
+      "娼婦 今夜、私は最も醜い男に抱かれますー。",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：美乃雀",
+      "supports": "這項可追溯來源訊號支持文章以「美乃雀」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：娼婦 今夜、私は最も醜い男に抱かれますー。",
+      "supports": "這項可追溯來源訊號支持文章以「娼婦 今夜、私は最も醜い男に抱かれますー。」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：美乃雀",
+      "supports": "這項可追溯來源訊號支持文章以「美乃雀」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻・主婦",
+      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z"
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "DLDSS-541",
+  "calls": [
+    {
+      "generated_at": "2026-09-06T20:31:54.630Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2369,
+      "cached_input_tokens": 0,
+      "output_tokens": 1243,
+      "total_tokens": 3612,
+      "estimated_cost_usd": 0.039813,
+      "estimated_payg_cash_cost_usd": 0.041803,
+      "direct_openai_reference_usd": 0.024567,
+      "gateway_premium_usd": 0.015245,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2369,
+    "cached_input_tokens": 0,
+    "output_tokens": 1243,
+    "estimated_cost_usd": 0.039813,
+    "estimated_payg_cash_cost_usd": 0.041803,
+    "direct_openai_reference_usd": 0.024567,
+    "gateway_premium_usd": 0.015245
+  }
+}
