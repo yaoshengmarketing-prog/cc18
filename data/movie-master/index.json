@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-06T21:49:10.109Z",
+  "generated_at": "2026-09-06T21:52:51.583Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 63,
-  "formal_movie_count": 62,
+  "tracked_input_count": 64,
+  "formal_movie_count": 63,
   "demo_count": 1,
-  "published_count": 59,
+  "published_count": 60,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -332,6 +332,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "04b2bbc912cec26f87fd14c0bdf65b1e65635b36b3ce3dc0e6bdf8713466544b"
+    },
+    {
+      "stable_movie_id": "cc18:MAAN-1192",
+      "catalog_code": "MAAN-1192",
+      "slug": "maan-1192",
+      "master_path": "data/movie-master/maan-1192.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "88fd890ce0433aa0bc1640488fad5040cc570007089646cb1b3237e8db672810"
     },
     {
       "stable_movie_id": "cc18:MCSR-639",

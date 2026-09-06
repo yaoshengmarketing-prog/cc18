@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:cbdafbe8b261c18527d95c2ace26736c0bd3d1054f29904d977980347311cb6b",
-  "source_generated_at": "2026-09-06T21:49:10.109Z",
+  "source_revision": "sha256:1771b6e4778dab3a529da437e873269651ef2a255e336f9d92261a2de29c5594",
+  "source_generated_at": "2026-09-06T21:52:51.583Z",
   "counts": {
-    "movies": 59,
-    "performers": 70,
+    "movies": 60,
+    "performers": 72,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -287,6 +287,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DLDSS-545"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:52226",
+      "display_name": "谷村凪咲",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "谷村凪咲",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MAAN-1192"
       ]
     },
     {
@@ -754,6 +765,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DOKS-689"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:48812",
+      "display_name": "橘いおり",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "橘いおり",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MAAN-1192"
       ]
     },
     {
@@ -2730,6 +2752,65 @@
         "article_title": "HAWA-385 沒有女友 × 彼女のいない貧乏な自分にあるのは有り余る性欲と安アパートだけ｜沒有女友",
         "display_short_title": null,
         "slug": "hawa-385"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MAAN-1192",
+        "source_cover": "https://cc18.tv/preview/80/b/uKqtTP3zrfu-800.jpg?v=1788669484",
+        "title": "MAAN-1192 橘いおり、谷村凪咲｜プールナンパ",
+        "catalog_code": "MAAN-1192",
+        "release_date": "2026-08-30",
+        "performers": [
+          "橘いおり",
+          "谷村凪咲"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "fhd",
+            "label": "全高清 FHD"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "gyaru",
+            "label": "辣妹"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "streaming-only",
+            "label": "配信限定"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/maan-1192/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:48812",
+        "cc18.tv:actor:52226"
+      ],
+      "search": {
+        "source_title": "獨家 泳池搭訕 伊織 凪咲",
+        "article_title": "MAAN-1192 橘いおり、谷村凪咲｜プールナンパ",
+        "display_short_title": null,
+        "slug": "maan-1192"
       }
     },
     {

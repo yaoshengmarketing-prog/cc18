@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MAAN-1192",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-06T21:52:08.848Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/MAAN-1192/hero-v1.jpg",
+      "r2_key": "works/2026/08/MAAN-1192/hero-v1.jpg",
+      "bytes": 688329,
+      "sha256": "276e347e1704fa2eb5777bb77fc41b57574a65eb6aa07274e39a23ae1c53aad9",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "4fdef6c0-a517-431a-8ba0-c9aa932b4479",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/MAAN-1192/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/08/MAAN-1192/scene-vertical-v1.jpg",
+      "bytes": 873183,
+      "sha256": "e5d5e3f5a086c3d91d9ea14469da5388130a6a8818692bbb803c8fdba53680a8",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "2661f0e9-d4d5-4364-bee9-dfeee603d2f4",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2657103,
+    "sha256": "42758425627b2661e515576bde65a1eeca458bf904393f64a43bb1edca85cb76",
+    "target_r2_key": "works/2026/08/MAAN-1192/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/MAAN-1192/vertical-v1.mp4"
+  }
+}

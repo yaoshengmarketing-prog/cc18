@@ -380,12 +380,13 @@
     },
     {
       "label": "泳裝",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "CMJU-008",
         "FWAY-103",
         "FWAY-106",
-        "FCDSS-117"
+        "FCDSS-117",
+        "MAAN-1192"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-07",
@@ -1037,6 +1038,16 @@
       "occurrences": 1,
       "source_ids": [
         "PIYO-238"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "白虎",
+      "occurrences": 1,
+      "source_ids": [
+        "MAAN-1192"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
