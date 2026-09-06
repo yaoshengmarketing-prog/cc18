@@ -1,5 +1,5 @@
 import {spawnSync} from 'node:child_process';
-import {copyFile, lstat, mkdir, mkdtemp, readFile, rm, symlink, writeFile} from 'node:fs/promises';
+import {copyFile, lstat, mkdir, mkdtemp, readFile, rm, stat, symlink, writeFile} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import {dirname, isAbsolute, join, relative, resolve} from 'node:path';
 
@@ -45,6 +45,17 @@ export const assertSingleWorkRequest = ({max, requestedIds}) => {
   if (max !== 1) throw new Error('Production canary requires --max=1');
   if (requestedIds.length > 1) throw new Error('Production canary accepts at most one movie ID');
 };
+
+export async function protectedIsolatedUntrackedPaths({workspaceRoot, paths, managedNodeModulesLink = false}) {
+  const normalized = paths.map(normalizePath);
+  if (!managedNodeModulesLink || !normalized.includes('node_modules')) return normalized;
+  const dependencyPath = resolve(workspaceRoot, 'node_modules');
+  const [linkDetails, targetDetails] = await Promise.all([lstat(dependencyPath), stat(dependencyPath)]);
+  if (!linkDetails.isSymbolicLink() || !targetDetails.isDirectory()) {
+    throw new Error('Isolated canary node_modules is not the runner-managed directory link');
+  }
+  return normalized.filter((path) => path !== 'node_modules');
+}
 
 export const checkpointRef = (movieId) => `refs/notes/cc18-checkpoints/${assertMovieId(movieId).toLowerCase()}`;
 
@@ -144,7 +155,7 @@ export async function createCleanWorktree({repositoryRoot, baseRef = 'origin/mai
     if (git({root: workspaceRoot, args: ['status', '--porcelain', '--untracked-files=no']})) {
       throw new Error('Isolated canary worktree is not clean');
     }
-    return {parent, workspaceRoot, baseCommit};
+    return {parent, workspaceRoot, baseCommit, nodeModulesLinked: linkNodeModules};
   } catch (error) {
     try { git({root: repositoryRoot, args: ['worktree', 'remove', '--force', workspaceRoot]}); } catch {}
     await rm(parent, {recursive: true, force: true});

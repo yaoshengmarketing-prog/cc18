@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {execFileSync} from 'node:child_process';
-import {mkdir, mkdtemp, readFile, rm, writeFile} from 'node:fs/promises';
+import {execFileSync, spawnSync} from 'node:child_process';
+import {copyFile, mkdir, mkdtemp, readFile, rm, symlink, writeFile} from 'node:fs/promises';
 import {join} from 'node:path';
 import {tmpdir} from 'node:os';
 import {
@@ -9,6 +9,7 @@ import {
   checkpointRef,
   deleteWorkCheckpoint,
   removeCleanWorktree,
+  protectedIsolatedUntrackedPaths,
   restoreWorkCheckpoint,
   saveWorkCheckpoint,
 } from '../scripts/canary/isolation.mjs';
@@ -19,6 +20,74 @@ const put = async (root, path, value) => {
   await mkdir(join(target, '..'), {recursive: true});
   await writeFile(target, value, 'utf8');
 };
+
+test('runner-managed node_modules directory link is excluded without hiding other untracked paths', async () => {
+  const temporary = await mkdtemp(join(tmpdir(), 'cc18-canary-dependency-link-'));
+  try {
+    const workspace = join(temporary, 'workspace');
+    const dependencies = join(temporary, 'dependencies');
+    await mkdir(workspace);
+    await mkdir(dependencies);
+    await symlink(dependencies, join(workspace, 'node_modules'), process.platform === 'win32' ? 'junction' : 'dir');
+    await symlink(dependencies, join(workspace, 'other-link'), process.platform === 'win32' ? 'junction' : 'dir');
+    await put(workspace, 'ordinary.txt', 'protected\n');
+    const protectedPaths = await protectedIsolatedUntrackedPaths({
+      workspaceRoot: workspace,
+      paths: ['node_modules', 'other-link', 'ordinary.txt'],
+      managedNodeModulesLink: true,
+    });
+    assert.deepEqual(protectedPaths, ['other-link', 'ordinary.txt']);
+    assert.deepEqual(await protectedIsolatedUntrackedPaths({
+      workspaceRoot: workspace,
+      paths: ['node_modules', 'ordinary.txt'],
+      managedNodeModulesLink: false,
+    }), ['node_modules', 'ordinary.txt']);
+  } finally {
+    await rm(temporary, {recursive: true, force: true});
+  }
+});
+
+test('isolated canary crosses the untracked guard and enters the existing editorial flow with a directory link', async () => {
+  const temporary = await mkdtemp(join(tmpdir(), 'cc18-canary-flow-link-'));
+  try {
+    const fixture = join(temporary, 'repo');
+    const dependencies = join(temporary, 'dependencies');
+    await mkdir(fixture);
+    await mkdir(dependencies);
+    for (const path of ['scripts/canary/run.mjs', 'scripts/canary/isolation.mjs']) {
+      await mkdir(join(fixture, ...path.split('/').slice(0, -1)), {recursive: true});
+      await copyFile(new URL(`../${path}`, import.meta.url), join(fixture, ...path.split('/')));
+    }
+    await put(fixture, '.gitignore', 'node_modules/\n.cc18-canary/\nflow-marker.txt\n');
+    await put(fixture, 'data/movie-registry.json', '{"records":[]}\n');
+    await put(fixture, 'scripts/queue/store.mjs', `import {appendFile} from 'node:fs/promises';\nexport const queueStoreFromEnvironment = () => ({\n  async getMovie() { await appendFile(new URL('../../flow-marker.txt', import.meta.url), 'd1-movie\\n'); return {classification: 'eligible', metadata_status: 'validated'}; },\n  async findJob() { return {status: 'queued', attempt: 0}; },\n});\n`);
+    await put(fixture, 'scripts/canary/selection.mjs', `export const registryDraftIds = () => new Set();\nexport const classifyCanaryStageOutcome = ({stage}) => ({continuePipeline: true, reportStatus: stage + '_completed'});\n`);
+    await put(fixture, 'scripts/r2/wrangler-auth.mjs', 'export const buildR2WranglerEnvironment = () => ({});\n');
+    await put(fixture, 'scripts/publish/lib/publisher.mjs', 'export const allowedPublishPaths = () => new Set();\n');
+    for (const path of ['scripts/editorial/handoff-d1.mjs', 'scripts/video/process-d1-one.mjs', 'scripts/publish/process-d1-one.mjs']) {
+      await put(fixture, path, `import {appendFile} from 'node:fs/promises';\nawait appendFile(new URL('${'../'.repeat(path.split('/').length - 1)}flow-marker.txt', import.meta.url), '${path}\\n');\n`);
+    }
+    git(fixture, 'init');
+    git(fixture, 'config', 'user.name', 'test');
+    git(fixture, 'config', 'user.email', 'test@example.invalid');
+    git(fixture, 'add', '.');
+    git(fixture, 'commit', '-m', 'fixture');
+    await symlink(dependencies, join(fixture, 'node_modules'), process.platform === 'win32' ? 'junction' : 'dir');
+    const result = spawnSync(process.execPath, [join(fixture, 'scripts/canary/run.mjs'), '--max=1', '--ids=TEST-001'], {
+      cwd: fixture,
+      encoding: 'utf8',
+      env: {...process.env, CC18_CANARY_ISOLATED_WORKSPACE: 'YES', CC18_CANARY_MANAGED_NODE_MODULES_LINK: 'YES', CC18_ALLOW_EDITORIAL_TRANSMISSION: 'YES'},
+    });
+    assert.equal(result.status, 0, `${result.stdout}\n${result.stderr}`);
+    assert.doesNotMatch(`${result.stdout}\n${result.stderr}`, /EISDIR/u);
+    const marker = await readFile(join(fixture, 'flow-marker.txt'), 'utf8');
+    assert.match(marker, /d1-movie/u);
+    assert.match(marker, /scripts\/editorial\/handoff-d1\.mjs/u);
+    assert.match(marker, /scripts\/publish\/process-d1-one\.mjs/u);
+  } finally {
+    await rm(temporary, {recursive: true, force: true});
+  }
+});
 
 test('a failed work checkpoint cannot contaminate the next work or shared projections', async () => {
   const temporary = await mkdtemp(join(tmpdir(), 'cc18-canary-isolation-test-'));

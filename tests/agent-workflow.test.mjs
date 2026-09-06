@@ -61,7 +61,7 @@ test('handoff envelope and source-of-truth boundaries are explicit', () => {
 test('production scheduling drains the D1 queue serially without a daily work limit', () => {
   assert.equal(config.production_schedule_enabled, true);
   assert.equal(config.production_schedule.trigger, 'hourly_github_actions');
-  assert.equal(config.production_schedule.cron_utc, '0 * * * *');
+  assert.equal(config.production_schedule.cron_utc, '17 * * * *');
   assert.equal(config.production_schedule.queue_authority, 'cloudflare_d1');
   assert.equal(config.production_schedule.enqueue_all_eligible, true);
   assert.equal(config.production_schedule.daily_work_limit, null);

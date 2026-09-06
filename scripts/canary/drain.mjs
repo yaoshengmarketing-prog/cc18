@@ -16,6 +16,8 @@ export function parseCanaryResult(output) {
   }
 }
 
+export const queueDrainExitCode = (summary) => summary.outcome === 'failed' ? 1 : 0;
+
 export async function runOneIsolated({excludeMovieIds = []} = {}) {
   const args = [resolve(root, 'scripts/canary/run-isolated.mjs'), '--max=1'];
   if (excludeMovieIds.length) args.push(`--exclude=${excludeMovieIds.join(',')}`);
@@ -50,18 +52,23 @@ export async function drainIsolatedQueue({runOne = runOneIsolated, logger = cons
     failed: [],
     work_errors: [],
     stop_reason: null,
+    outcome: null,
+  };
+  const finish = (stopReason) => {
+    summary.stop_reason = stopReason;
+    summary.outcome = summary.failed.length === 0
+      ? 'success'
+      : summary.completed.length === 0 ? 'failed' : 'partial';
+    logger.log(JSON.stringify(summary, null, 2));
+    return summary;
   };
   while (true) {
     if (deadlineAt !== null && now() >= deadlineAt) {
-      summary.stop_reason = 'time_budget_reached';
-      logger.log(JSON.stringify(summary, null, 2));
-      return summary;
+      return finish('time_budget_reached');
     }
     const {exitCode, report} = await runOne({excludeMovieIds: [...attemptedMovieIds]});
     if (report.event === 'isolated_canary_queue_empty') {
-      summary.stop_reason = 'queue_empty';
-      logger.log(JSON.stringify(summary, null, 2));
-      return summary;
+      return finish('queue_empty');
     }
     if (report.event !== 'isolated_canary_finished' || !report.movie_id) {
       throw new Error(`Unexpected isolated canary result: ${report.event ?? 'missing event'}`);
@@ -85,7 +92,8 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
   if (budgetMinutes !== null && (!Number.isFinite(budgetMinutes) || budgetMinutes <= 0)) {
     throw new Error('--time-budget-minutes must be a positive number');
   }
-  await drainIsolatedQueue({
+  const summary = await drainIsolatedQueue({
     deadlineAt: budgetMinutes === null ? null : Date.now() + budgetMinutes * 60_000,
   });
+  process.exitCode = queueDrainExitCode(summary);
 }

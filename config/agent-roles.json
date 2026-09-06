@@ -141,7 +141,7 @@
   },
   "production_schedule": {
     "trigger": "hourly_github_actions",
-    "cron_utc": "0 * * * *",
+    "cron_utc": "17 * * * *",
     "timezone": "UTC",
     "queue_authority": "cloudflare_d1",
     "enqueue_all_eligible": true,

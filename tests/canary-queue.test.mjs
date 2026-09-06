@@ -44,6 +44,7 @@ test('single-work canary protects but is not blocked by unrelated pre-existing u
   assert.match(isolated, /--exclude/u);
   assert.match(isolated, /CC18_CANARY_RESULT/u);
   assert.match(isolated, /createCleanWorktree/u);
+  assert.match(isolated, /CC18_CANARY_MANAGED_NODE_MODULES_LINK/u);
   assert.match(isolated, /restoreWorkCheckpoint/u);
   assert.match(isolated, /saveWorkCheckpoint/u);
   assert.match(isolated, /recordWorkError\('checkpoint_restore'/u);

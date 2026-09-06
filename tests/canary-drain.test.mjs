@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {drainIsolatedQueue, parseCanaryResult} from '../scripts/canary/drain.mjs';
+import {drainIsolatedQueue, parseCanaryResult, queueDrainExitCode} from '../scripts/canary/drain.mjs';
 
 const quietLogger = {log() {}};
 
@@ -32,6 +32,8 @@ test('scheduled drain processes every queued work serially and continues after o
     message: 'checkpoint fixture failed',
   }]);
   assert.equal(summary.stop_reason, 'queue_empty');
+  assert.equal(summary.outcome, 'partial');
+  assert.equal(queueDrainExitCode(summary), 0);
 });
 
 test('empty queue is a successful no-op', async () => {
@@ -46,7 +48,26 @@ test('empty queue is a successful no-op', async () => {
     failed: [],
     work_errors: [],
     stop_reason: 'queue_empty',
+    outcome: 'success',
   });
+});
+
+test('a drain where every attempted work fails reports failure while still trying the next work', async () => {
+  const results = [
+    {exitCode: 1, report: {event: 'isolated_canary_finished', movie_id: 'A-001'}},
+    {exitCode: 1, report: {event: 'isolated_canary_finished', movie_id: 'B-001'}},
+    {exitCode: 0, report: {event: 'isolated_canary_queue_empty'}},
+  ];
+  const summary = await drainIsolatedQueue({
+    logger: quietLogger,
+    runOne: async () => results.shift(),
+  });
+  assert.deepEqual(summary.processed, ['A-001', 'B-001']);
+  assert.deepEqual(summary.failed, ['A-001', 'B-001']);
+  assert.deepEqual(summary.completed, []);
+  assert.equal(summary.stop_reason, 'queue_empty');
+  assert.equal(summary.outcome, 'failed');
+  assert.equal(queueDrainExitCode(summary), 1);
 });
 
 test('a time-budget stop leaves remaining works for the next clean drain invocation', async () => {

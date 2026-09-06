@@ -109,7 +109,11 @@ try {
     result = await new Promise((resolveRun) => {
       const child = spawn(process.execPath, [resolve(isolated.workspaceRoot, 'scripts/canary/run.mjs'), '--max=1', `--ids=${movieId}`], {
         cwd: isolated.workspaceRoot,
-        env: {...process.env, CC18_CANARY_ISOLATED_WORKSPACE: 'YES'},
+        env: {
+          ...process.env,
+          CC18_CANARY_ISOLATED_WORKSPACE: 'YES',
+          CC18_CANARY_MANAGED_NODE_MODULES_LINK: isolated.nodeModulesLinked ? 'YES' : 'NO',
+        },
         windowsHide: true,
         stdio: 'inherit',
       });
