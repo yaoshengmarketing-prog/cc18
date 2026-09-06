@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "DOKS-690",
+  "calls": [
+    {
+      "generated_at": "2026-09-06T21:24:27.412Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2426,
+      "cached_input_tokens": 0,
+      "output_tokens": 1535,
+      "total_tokens": 3961,
+      "estimated_cost_usd": 0.046668,
+      "estimated_payg_cash_cost_usd": 0.049001,
+      "direct_openai_reference_usd": 0.02909,
+      "gateway_premium_usd": 0.017577,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2426,
+    "cached_input_tokens": 0,
+    "output_tokens": 1535,
+    "estimated_cost_usd": 0.046668,
+    "estimated_payg_cash_cost_usd": 0.049001,
+    "direct_openai_reference_usd": 0.02909,
+    "gateway_premium_usd": 0.017577
+  }
+}

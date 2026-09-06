@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "DOKS-690",
+  "review_sha256": "f8f435a1fceda2f1f601a68a5cb3d261b7fc3713c7eea1ea3d5c07225db713ba",
+  "selected_thesis": "來源資料可確認本作以「口交」作為主要作品線索。",
+  "title_basis": {
+    "performer": "清巳玲乃、那賀崎雪音、虹村ゆみ、渡來楓、花吹詩音",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "清巳玲乃",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "口交",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "performer",
+        "value": "那賀崎雪音",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "虹村ゆみ",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "清巳玲乃",
+    "presentation_feature": "口交",
+    "editorial_judgment": "來源資料可確認本作以「口交」作為主要作品線索。",
+    "source_keywords": [
+      "清巳玲乃",
+      "口交",
+      "那賀崎雪音",
+      "虹村ゆみ"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：清巳玲乃",
+      "supports": "這項可追溯來源訊號支持文章以「清巳玲乃」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：那賀崎雪音",
+      "supports": "這項可追溯來源訊號支持文章以「那賀崎雪音」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：虹村ゆみ",
+      "supports": "這項可追溯來源訊號支持文章以「虹村ゆみ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：渡來楓",
+      "supports": "這項可追溯來源訊號支持文章以「渡來楓」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：花吹詩音",
+      "supports": "這項可追溯來源訊號支持文章以「花吹詩音」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：角色扮演",
+      "supports": "這項可追溯來源訊號支持文章以「角色扮演」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：口交",
+      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z"
+}

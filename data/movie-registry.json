@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-06T21:22:21.936Z",
+  "updated_at": "2026-09-06T21:26:04.306Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -835,6 +835,25 @@
       ],
       "release_date": "2026-09-01",
       "source_url": "https://cc18.tv/player.php?uuid=34BFSlkkqfh&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-06"
+    },
+    {
+      "id": "DOKS-690",
+      "actress": [
+        "清巳玲乃",
+        "那賀崎雪音",
+        "虹村ゆみ",
+        "渡來楓",
+        "花吹詩音"
+      ],
+      "release_date": "2026-09-01",
+      "source_url": "https://cc18.tv/player.php?uuid=eQeW_hake4p&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
