@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "IESP-765",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-06T21:17:53.701Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/IESP-765/hero-v1.jpg",
+      "r2_key": "works/2026/09/IESP-765/hero-v1.jpg",
+      "bytes": 679095,
+      "sha256": "b5728016f1387f61e73bd32366270f36cc40a6d0d87df8c27f44e0c85b238a93",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "d5985555-05fd-4c13-a185-42069570a748",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/IESP-765/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/IESP-765/scene-vertical-v1.jpg",
+      "bytes": 938607,
+      "sha256": "484b7eb35c5b0daf8c2fa52cedcdf400ce3e79810eecb715c1c5231d63daadb1",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "f8c7746f-ed81-4e3f-968c-48545d91d12e",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2727394,
+    "sha256": "9fb4a9977bd7c315ced98e8ba238f672e11eefcd1630500aecd881a3b95ec87e",
+    "target_r2_key": "works/2026/09/IESP-765/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/IESP-765/vertical-v1.mp4"
+  }
+}

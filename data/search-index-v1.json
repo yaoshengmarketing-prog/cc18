@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:90acd5a4b51710cda3099caa2ddc27d77b3156eb16a191945a39d073b57d9d9c",
-  "source_generated_at": "2026-09-06T21:14:52.137Z",
+  "source_revision": "sha256:552d1f79e43d27871b5f45e00aa97dd2b24d3f38edc51e17b6be6fde5ffa6b20",
+  "source_generated_at": "2026-09-06T21:18:36.778Z",
   "counts": {
-    "movies": 50,
-    "performers": 56,
+    "movies": 51,
+    "performers": 57,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -111,6 +111,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:FCDSS-117"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53536",
+      "display_name": "天音流菜",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "天音流菜",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:IESP-765"
       ]
     },
     {
@@ -2217,6 +2228,47 @@
         "article_title": "SW-1066 既然你這麼想看 × 企劃片｜既然你這麼想看",
         "display_short_title": null,
         "slug": "sw-1066"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:IESP-765",
+        "source_cover": "https://cc18.tv/preview/80/b/9N9h8mQjB4w-800.jpg?v=1788403109",
+        "title": "IESP-765 天音流菜 × 高畫質｜天音流菜",
+        "catalog_code": "IESP-765",
+        "release_date": "2026-09-02",
+        "performers": [
+          "天音流菜"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/iesp-765/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53536"
+      ],
+      "search": {
+        "source_title": "天音流菜 播種新婚生活",
+        "article_title": "IESP-765 天音流菜 × 高畫質｜天音流菜",
+        "display_short_title": null,
+        "slug": "iesp-765"
       }
     },
     {

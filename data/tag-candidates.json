@@ -916,6 +916,16 @@
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
       "status": "quarantined"
+    },
+    {
+      "label": "第一人稱視點",
+      "occurrences": 1,
+      "source_ids": [
+        "IESP-765"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
     }
   ]
 }

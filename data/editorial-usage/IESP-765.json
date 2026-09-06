@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "IESP-765",
+  "calls": [
+    {
+      "generated_at": "2026-09-06T21:17:13.230Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2409,
+      "cached_input_tokens": 0,
+      "output_tokens": 1479,
+      "total_tokens": 3888,
+      "estimated_cost_usd": 0.045323,
+      "estimated_payg_cash_cost_usd": 0.047589,
+      "direct_openai_reference_usd": 0.028207,
+      "gateway_premium_usd": 0.017115,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2409,
+    "cached_input_tokens": 0,
+    "output_tokens": 1479,
+    "estimated_cost_usd": 0.045323,
+    "estimated_payg_cash_cost_usd": 0.047589,
+    "direct_openai_reference_usd": 0.028207,
+    "gateway_premium_usd": 0.017115
+  }
+}
