@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:2204587eaa5ec7b96ddff151a5e204ed7119eec1e8b0e85644efe6eb80a978bf",
-  "source_generated_at": "2026-09-06T19:21:27.815Z",
+  "source_revision": "sha256:900bf47e02a6b183030b095bfb61da993c6bc66b8241d2879ff48b1a7f0be6c2",
+  "source_generated_at": "2026-09-06T19:25:33.243Z",
   "counts": {
-    "movies": 19,
-    "performers": 18,
+    "movies": 20,
+    "performers": 19,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -157,6 +157,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:54605",
+      "display_name": "秋瀬りり",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "秋瀬りり",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:IPZZ-986"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:28932",
       "display_name": "美咲音",
       "display_name_zh_tw": null,
@@ -274,6 +285,55 @@
         "article_title": "BBAN-609 小野寺舞、和栗ゆゆ｜我們將在這地獄中生存下去",
         "display_short_title": null,
         "slug": "bban-609"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:IPZZ-986",
+        "source_cover": "https://cc18.tv/preview/80/b/r3SwLLE9O6Y-800.jpg?v=1788555981",
+        "title": "IPZZ-986 秋瀬りり｜45kg",
+        "catalog_code": "IPZZ-986",
+        "release_date": "2026-09-04",
+        "performers": [
+          "秋瀬りり"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ipzz-986/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54605"
+      ],
+      "search": {
+        "source_title": "以神秘眼神為特徵的前禁戀偶像中出AV出道，現役時代一直隱藏的165cm 45kg I罩杯身材太驚人了。 秋瀨莉莉",
+        "article_title": "IPZZ-986 秋瀬りり｜45kg",
+        "display_short_title": null,
+        "slug": "ipzz-986"
       }
     },
     {

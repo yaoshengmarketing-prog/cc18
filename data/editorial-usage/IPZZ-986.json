@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "IPZZ-986",
+  "calls": [
+    {
+      "generated_at": "2026-09-06T19:24:11.184Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2277,
+      "cached_input_tokens": 0,
+      "output_tokens": 1320,
+      "total_tokens": 3597,
+      "estimated_cost_usd": 0.041085,
+      "estimated_payg_cash_cost_usd": 0.043139,
+      "direct_openai_reference_usd": 0.025493,
+      "gateway_premium_usd": 0.015593,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2277,
+    "cached_input_tokens": 0,
+    "output_tokens": 1320,
+    "estimated_cost_usd": 0.041085,
+    "estimated_payg_cash_cost_usd": 0.043139,
+    "direct_openai_reference_usd": 0.025493,
+    "gateway_premium_usd": 0.015593
+  }
+}
