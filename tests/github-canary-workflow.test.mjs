@@ -29,7 +29,7 @@ test('end-to-end canary remains manual, exact-ID, serialized and uses split D1 a
 });
 
 test('hourly production discovery queues to D1 and drains serial isolated works without a daily limit', () => {
-  assert.match(workflow, /schedule:\s*\n\s*- cron: '0 \* \* \* \*'/u);
+  assert.match(workflow, /schedule:\s*\n\s*- cron: '17 \* \* \* \*'/u);
   assert.match(workflow, /group: cc18-content-pipeline[\s\S]*cancel-in-progress: false/u);
   assert.match(workflow, /Configure publisher identity[\s\S]*github\.event_name == 'schedule'[\s\S]*cc18-publisher\[bot\][\s\S]*Discover all eligible works/u);
   const scheduledStep = workflow.match(/- name: Discover all eligible works and drain the D1 queue[\s\S]*?(?=\n\s+- name: Verify editorial provider connectivity only)/u)?.[0];
