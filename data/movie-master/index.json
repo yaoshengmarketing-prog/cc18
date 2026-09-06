@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-06T20:00:55.234Z",
+  "generated_at": "2026-09-06T20:04:12.862Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 34,
-  "formal_movie_count": 33,
+  "tracked_input_count": 35,
+  "formal_movie_count": 34,
   "demo_count": 1,
-  "published_count": 30,
+  "published_count": 31,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -89,6 +89,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "4f77039dffa1883ef622eda770712edd8352c10d3944d06ea510e1c60de26fa6"
+    },
+    {
+      "stable_movie_id": "cc18:HHF-111",
+      "catalog_code": "HHF-111",
+      "slug": "hhf-111",
+      "master_path": "data/movie-master/hhf-111.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "b4fa2df07c050f105a737082b0ba9444ea5bdb118c157e3456a63bf76ef12d07"
     },
     {
       "stable_movie_id": "cc18:HUNTC-568",
