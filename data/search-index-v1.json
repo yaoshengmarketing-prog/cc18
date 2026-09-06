@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:b9346b99c3f72b7b84b6ebb2ad133b093f9d95873e6fe3006e3294c6f92cb70a",
-  "source_generated_at": "2026-09-06T20:36:54.539Z",
+  "source_revision": "sha256:4031e3cae66b0e684f0a81880caaf759a732e2adb76851204081b7c6fd440c7f",
+  "source_generated_at": "2026-09-06T20:40:13.494Z",
   "counts": {
-    "movies": 40,
-    "performers": 41,
+    "movies": 41,
+    "performers": 43,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -158,6 +158,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:47210",
+      "display_name": "角奈保",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "角奈保",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DLDSS-545"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:3586",
       "display_name": "谷原希美",
       "display_name_zh_tw": null,
@@ -213,6 +224,17 @@
       ],
       "related_movie_ids": [
         "cc18:SNOS-371"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:45988",
+      "display_name": "花守夏步",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "花守夏步",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DLDSS-545"
       ]
     },
     {
@@ -1539,6 +1561,53 @@
         "article_title": "DLDSS-541 美乃雀 × 娼婦 今夜、私は最も醜い男に抱かれますー。｜美乃雀",
         "display_short_title": null,
         "slug": "dldss-541"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DLDSS-545",
+        "source_cover": "https://cc18.tv/preview/80/b/dHyJ16x5b1I-800.jpg?v=1787121624",
+        "title": "DLDSS-545 花守夏步、角奈保｜人妻女教師",
+        "catalog_code": "DLDSS-545",
+        "release_date": "2026-09-03",
+        "performers": [
+          "花守夏步",
+          "角奈保"
+        ],
+        "canonical_topics": [
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dldss-545/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:45988",
+        "cc18.tv:actor:47210"
+      ],
+      "search": {
+        "source_title": "為了從不良學生手中保護優等生…人妻女教師 放學後肉便器 角奈保/花守夏歩",
+        "article_title": "DLDSS-545 花守夏步、角奈保｜人妻女教師",
+        "display_short_title": null,
+        "slug": "dldss-545"
       }
     },
     {
