@@ -410,12 +410,13 @@
     },
     {
       "label": "紀錄片",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "SNOS-371"
+        "SNOS-371",
+        "SNOS-358"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-09-07",
       "status": "quarantined"
     },
     {
@@ -625,6 +626,16 @@
       "occurrences": 1,
       "source_ids": [
         "SNOS-372"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "酒店小姐",
+      "occurrences": 1,
+      "source_ids": [
+        "SNOS-358"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",

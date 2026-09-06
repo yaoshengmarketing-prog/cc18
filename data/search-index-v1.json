@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:bf06f4e1086fffa237234c4bd21ab1987f85e0435347384e48807af16cc2cdb4",
-  "source_generated_at": "2026-09-06T19:29:01.227Z",
+  "source_revision": "sha256:cce7d9f89d359931e7a85dc4c01a93f4b83dc70d32997462f7a0592c9500bf9e",
+  "source_generated_at": "2026-09-06T19:32:31.491Z",
   "counts": {
-    "movies": 21,
-    "performers": 20,
+    "movies": 22,
+    "performers": 24,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -34,6 +34,28 @@
       ],
       "related_movie_ids": [
         "cc18:SNOS-369"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28866",
+      "display_name": "三田真鈴",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "三田真鈴",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-358"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28777",
+      "display_name": "久和原聖羅",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "久和原聖羅",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-358"
       ]
     },
     {
@@ -92,6 +114,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:50752",
+      "display_name": "幸村泉希",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "幸村泉希",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-358"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:34284",
       "display_name": "河北彩花",
       "display_name_zh_tw": null,
@@ -102,6 +135,17 @@
       ],
       "related_movie_ids": [
         "cc18:SNOS-371"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53486",
+      "display_name": "青坂あおい",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "青坂あおい",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-358"
       ]
     },
     {
@@ -390,6 +434,61 @@
         "article_title": "NGOD-355 那賀崎雪音｜隨你怎麼做都行",
         "display_short_title": null,
         "slug": "ngod-355"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-358",
+        "source_cover": "https://cc18.tv/preview/80/b/5NyrfiVuGg-800.jpg?v=1788555976",
+        "title": "SNOS-358 久和原聖羅、三田真鈴、幸村泉希、青坂あおい",
+        "catalog_code": "SNOS-358",
+        "release_date": "2026-09-04",
+        "performers": [
+          "久和原聖羅",
+          "三田真鈴",
+          "幸村泉希",
+          "青坂あおい"
+        ],
+        "canonical_topics": [
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "self-shot",
+            "label": "自拍視角"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-358/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28777",
+        "cc18.tv:actor:28866",
+        "cc18.tv:actor:50752",
+        "cc18.tv:actor:53486"
+      ],
+      "search": {
+        "source_title": "頂級陪酒女的陪睡率很低完全是個大謊言！？無論是同伴中還是接客中都不斷挑逗，將大客的粗雞巴玩弄於股掌之間，只要開了頂級香檳小穴就濕得一塌糊塗，偷偷拍到了很多陪睡營業的畫面！ 三田真鈴",
+        "article_title": "SNOS-358 久和原聖羅、三田真鈴、幸村泉希、青坂あおい",
+        "display_short_title": null,
+        "slug": "snos-358"
       }
     },
     {

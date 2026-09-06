@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-358",
+  "review_sha256": "57cb529eb3beabee2ce5c34fdff10eb0210e585e30f8f7cc9458cb6c50e63bac",
+  "selected_thesis": "來源資料可確認本作以「三田真鈴」作為主要作品線索。",
+  "title_basis": {
+    "performer": "久和原聖羅、三田真鈴、幸村泉希、青坂あおい",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "久和原聖羅",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "三田真鈴",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "幸村泉希",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "青坂あおい",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "久和原聖羅",
+    "presentation_feature": "三田真鈴",
+    "editorial_judgment": "來源資料可確認本作以「三田真鈴」作為主要作品線索。",
+    "source_keywords": [
+      "久和原聖羅",
+      "三田真鈴",
+      "幸村泉希",
+      "青坂あおい"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：久和原聖羅",
+      "supports": "這項可追溯來源訊號支持文章以「久和原聖羅」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：三田真鈴",
+      "supports": "這項可追溯來源訊號支持文章以「三田真鈴」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：幸村泉希",
+      "supports": "這項可追溯來源訊號支持文章以「幸村泉希」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：青坂あおい",
+      "supports": "這項可追溯來源訊號支持文章以「青坂あおい」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：自拍形式",
+      "supports": "這項可追溯來源訊號支持文章以「自拍形式」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：紀錄片形式",
+      "supports": "這項可追溯來源訊號支持文章以「紀錄片形式」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z"
+}

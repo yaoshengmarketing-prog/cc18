@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-06T19:28:59.640Z",
+  "updated_at": "2026-09-06T19:32:29.866Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -360,6 +360,24 @@
       ],
       "release_date": "2026-09-04",
       "source_url": "https://cc18.tv/player.php?uuid=4EWng2xSD6E&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-06"
+    },
+    {
+      "id": "SNOS-358",
+      "actress": [
+        "久和原聖羅",
+        "三田真鈴",
+        "幸村泉希",
+        "青坂あおい"
+      ],
+      "release_date": "2026-09-04",
+      "source_url": "https://cc18.tv/player.php?uuid=5NyrfiVuGg&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
