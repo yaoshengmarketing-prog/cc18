@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "HUNTC-626",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-06T20:10:34.546Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/HUNTC-626/hero-v1.jpg",
+      "r2_key": "works/2026/09/HUNTC-626/hero-v1.jpg",
+      "bytes": 672388,
+      "sha256": "c32164e494fb477f2d88cfe8847da23e40c62fc3adff531b33da2a3801c2c938",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "0ba236ac-6f7d-4b0e-993c-04008a7bb20f",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/HUNTC-626/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/HUNTC-626/scene-vertical-v1.jpg",
+      "bytes": 1125286,
+      "sha256": "35d863fc9df9578594dc0b69dfa619654488e88ba794f61bf58d072b014be240",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "0e68c5bb-d699-40d5-a651-718fb05f8f38",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3254278,
+    "sha256": "efff2470e149abde0df245797c661d64d2e7960969006368663ed272b8eed8be",
+    "target_r2_key": "works/2026/09/HUNTC-626/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/HUNTC-626/vertical-v1.mp4"
+  }
+}

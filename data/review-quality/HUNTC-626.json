@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "HUNTC-626",
+  "review_sha256": "16ff8e56354ec55fe1161deebf72d35bfe6d56a532a702703b6f685b4b60c5a4",
+  "selected_thesis": "來源資料可確認本作以「翹臀實在太色了」作為主要作品線索。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "翹臀實在太色了",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "ママさんバレーのむちむちブルマ",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "翹臀實在太色了",
+    "presentation_feature": "ママさんバレーのむちむちブルマ",
+    "editorial_judgment": "來源資料可確認本作以「翹臀實在太色了」作為主要作品線索。",
+    "source_keywords": [
+      "翹臀實在太色了",
+      "ママさんバレーのむちむちブルマ",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "series：ママさんバレーのむちむちブルマ",
+      "supports": "這項可追溯來源訊號支持文章以「ママさんバレーのむちむちブルマ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：翹臀實在太色了",
+      "supports": "這項可追溯來源訊號支持文章以「翹臀實在太色了」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻・主婦",
+      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：口交",
+      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：騎乘位",
+      "supports": "這項可追溯來源訊號支持文章以「騎乘位」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z"
+}
