@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:0558a9dde3865dec19882558fba04a23b46938d6f98fa49e70565a205f71ac5c",
-  "source_generated_at": "2026-09-06T19:50:07.249Z",
+  "source_revision": "sha256:4189aaf59b86910ddef018d0ac46a771f2656e07e3267fbde5bdf353cebdbad6",
+  "source_generated_at": "2026-09-06T19:53:56.426Z",
   "counts": {
-    "movies": 27,
-    "performers": 29,
+    "movies": 28,
+    "performers": 30,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -256,6 +256,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:90",
+      "display_name": "風間由美",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "風間由美",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:JUR-850"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:29110",
       "display_name": "彩月七緒",
       "display_name_zh_tw": null,
@@ -444,6 +455,55 @@
         "article_title": "IPZZ-986 秋瀬りり｜45kg",
         "display_short_title": null,
         "slug": "ipzz-986"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:JUR-850",
+        "source_cover": "https://cc18.tv/preview/80/b/oJcNVV82cq-800.jpg?v=1788555972",
+        "title": "JUR-850 風間由美｜你一直在看我的屁股吧",
+        "catalog_code": "JUR-850",
+        "release_date": "2026-09-04",
+        "performers": [
+          "風間由美"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/jur-850/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:90"
+      ],
+      "search": {
+        "source_title": "「你一直在看我的屁股吧？」工作時也忍不住在意、欲求不滿的肉感美尻女上司，陪她減肥後…只要有空就被她以訓練為名，用中出騎乘位不斷榨精。 風間由美",
+        "article_title": "JUR-850 風間由美｜你一直在看我的屁股吧",
+        "display_short_title": null,
+        "slug": "jur-850"
       }
     },
     {

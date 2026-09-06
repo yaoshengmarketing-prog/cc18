@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "JUR-850",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-06T19:53:09.619Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/JUR-850/hero-v1.jpg",
+      "r2_key": "works/2026/09/JUR-850/hero-v1.jpg",
+      "bytes": 708224,
+      "sha256": "32ad17ea0e3361be4d54d1dafd3d185e1e88fcc425b31d1b34b0f3f8e52fd58b",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "a0adc727-abd5-4eb4-918a-0161be0b4e82",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/JUR-850/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/JUR-850/scene-vertical-v1.jpg",
+      "bytes": 588148,
+      "sha256": "30a842ed367eddf5ed4e38fb420bd1da57548c5b2a3d94e812a4a64b4b3c642d",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "4e696ef4-127d-41fb-bdb2-751ee2ceb305",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 1980736,
+    "sha256": "0f9dc7e26c924c07aac23cfd4ab573cf18ef9305bcc800bc190dcc4717afe670",
+    "target_r2_key": "works/2026/09/JUR-850/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/JUR-850/vertical-v1.mp4"
+  }
+}
