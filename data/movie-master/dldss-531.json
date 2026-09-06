@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.1.0",
+  "stable_movie_id": "cc18:DLDSS-531",
+  "slug": "dldss-531",
+  "is_demo": false,
+  "source": {
+    "catalog_code": "DLDSS-531",
+    "source_title": "DAHLIA電擊移籍 女神純轉生 奇蹟的維納斯降臨—。",
+    "release_date": "2026-09-01",
+    "source_url": "https://cc18.tv/player.php?uuid=4bNmMJL9T&cat=19",
+    "source_site_movie_id": "4bNmMJL9T",
+    "public_description": "那簡直是奇蹟。FALENO的超專屬・女神ジュン降臨到了試圖開創新時代的DAHLIA。因為她那壓倒性的美貌,讓粉絲們目不轉睛的色情魅力,以及對劇情作品充滿熱情的她,正是DAHLIA邁向巔峰所絕對需要的維納斯。",
+    "source_cover": "https://cc18.tv/preview/80/b/4bNmMJL9T-800.jpg?v=1788403108",
+    "raw_performer_names": [
+      "女神ジュン"
+    ],
+    "performer_relations": [
+      {
+        "source_type": "actor",
+        "source_id": "31206",
+        "stable_source_id": "cc18.tv:actor:31206",
+        "source_name": "女神ジュン",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=31206",
+        "observed_at": "2026-09-06T17:04:28.578Z"
+      }
+    ],
+    "series_relations": [],
+    "tag_relations": [
+      {
+        "source_type": "tag",
+        "source_id": "479",
+        "stable_source_id": "cc18.tv:tag:479",
+        "source_name": "720p",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=479",
+        "observed_at": "2026-09-06T17:04:28.578Z"
+      }
+    ],
+    "fac_relations": [],
+    "raw_studio_name": null,
+    "raw_series_names": [],
+    "source_tags": [
+      "720p"
+    ],
+    "source_record_ref": "data/source-records/DLDSS-531.json",
+    "source_snapshot_ref": null,
+    "source_fetched_at": "2026-09-06T17:04:28.578Z",
+    "source_verified_at": null,
+    "source_parser_version": null
+  },
+  "display": {
+    "performers": [
+      {
+        "source_actor_id": "cc18.tv:actor:31206",
+        "name_ja": null,
+        "display_name_zh_tw": null,
+        "display_name": "女神ジュン",
+        "verification_status": "SOURCE_NAME_FALLBACK"
+      }
+    ]
+  },
+  "titles": {
+    "article_title": "DLDSS-531 女神ジュン｜DAHLIA電擊移籍",
+    "translated_title_zh_tw": null,
+    "display_short_title": null,
+    "seo_title": "DLDSS-531 女神ジュン｜作品資料｜DAHLIA電擊移籍"
+  },
+  "derived": {
+    "quality_codes": [
+      "HD_720P"
+    ],
+    "duration_seconds": null,
+    "canonical_topic_tag_ids": [
+      "hd"
+    ]
+  },
+  "editorial": {
+    "one_line_summary": "來源資料可確認本作以「DAHLIA電擊移籍」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "article_ref": "content/reviews/DLDSS-531.md",
+    "article_evidence_level": "PUBLIC_METADATA",
+    "article_evidence_scope": "SOURCE_TITLE_DESCRIPTION_TAGS"
+  },
+  "media": {
+    "remotion_promo_ref": "data/media-manifests/DLDSS-531.json#/video"
+  },
+  "evidence": {
+    "records": []
+  },
+  "publishing": {
+    "is_published": true,
+    "published_at": "2026-09-06",
+    "canonical_url": "https://cc18.pages.dev/works/dldss-531/",
+    "indexability": "INDEX",
+    "content_hash": "8900600a19f614ae0fc9ea9fde0f1aee27dd1d361edb9db490be7ea37ed01e16"
+  },
+  "legacy": {
+    "legacy_published_at": null,
+    "legacy_published_at_semantics": null
+  }
+}

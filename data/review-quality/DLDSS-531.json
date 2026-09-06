@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "DLDSS-531",
+  "review_sha256": "bf54ff21e67ca15311ed391e19881dae94beee32b0fdfa53c57ecf45f0b9f2f5",
+  "selected_thesis": "來源資料可確認本作以「DAHLIA電擊移籍」作為主要作品線索。",
+  "title_basis": {
+    "performer": "女神ジュン",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "女神ジュン",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "DAHLIA電擊移籍",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "720p",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "女神ジュン",
+    "presentation_feature": "DAHLIA電擊移籍",
+    "editorial_judgment": "來源資料可確認本作以「DAHLIA電擊移籍」作為主要作品線索。",
+    "source_keywords": [
+      "女神ジュン",
+      "DAHLIA電擊移籍",
+      "高畫質",
+      "720p"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：女神ジュン",
+      "supports": "這項可追溯來源訊號支持文章以「女神ジュン」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：DAHLIA電擊移籍",
+      "supports": "這項可追溯來源訊號支持文章以「DAHLIA電擊移籍」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：女神純轉生",
+      "supports": "這項可追溯來源訊號支持文章以「女神純轉生」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：奇蹟的維納斯降臨",
+      "supports": "這項可追溯來源訊號支持文章以「奇蹟的維納斯降臨」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z"
+}
