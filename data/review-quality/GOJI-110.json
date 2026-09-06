@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "GOJI-110",
+  "review_sha256": "b5041677be48e432a23cf9f8bc464cfb10372fb271dcfee1215806f9ae03280f",
+  "selected_thesis": "來源資料可確認本作以「近親相姦」作為主要作品線索。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "近親相姦",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "騎乘位",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "近親相姦",
+    "presentation_feature": "高畫質",
+    "editorial_judgment": "來源資料可確認本作以「近親相姦」作為主要作品線索。",
+    "source_keywords": [
+      "近親相姦",
+      "高畫質",
+      "中出",
+      "騎乘位"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：近親相姦",
+      "supports": "這項可追溯來源訊號支持文章以「近親相姦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：騎乘位",
+      "supports": "這項可追溯來源訊號支持文章以「騎乘位」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：戲劇、連續劇",
+      "supports": "這項可追溯來源訊號支持文章以「戲劇、連續劇」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：HD",
+      "supports": "這項可追溯來源訊號支持文章以「HD」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：越來越像妻子的女兒誘惑2",
+      "supports": "這項可追溯來源訊號支持文章以「越來越像妻子的女兒誘惑2」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z"
+}

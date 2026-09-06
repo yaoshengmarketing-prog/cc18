@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-06T21:34:02.228Z",
+  "generated_at": "2026-09-06T21:38:12.434Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 59,
-  "formal_movie_count": 58,
+  "tracked_input_count": 60,
+  "formal_movie_count": 59,
   "demo_count": 1,
-  "published_count": 55,
+  "published_count": 56,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -233,6 +233,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "4f77039dffa1883ef622eda770712edd8352c10d3944d06ea510e1c60de26fa6"
+    },
+    {
+      "stable_movie_id": "cc18:GOJI-110",
+      "catalog_code": "GOJI-110",
+      "slug": "goji-110",
+      "master_path": "data/movie-master/goji-110.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "2fb5ddddae7df41e03852af131e875b4fb897b3e3acf15775532a00cebc6ebe5"
     },
     {
       "stable_movie_id": "cc18:HHF-111",
