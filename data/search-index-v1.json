@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:900bf47e02a6b183030b095bfb61da993c6bc66b8241d2879ff48b1a7f0be6c2",
-  "source_generated_at": "2026-09-06T19:25:33.243Z",
+  "source_revision": "sha256:bf06f4e1086fffa237234c4bd21ab1987f85e0435347384e48807af16cc2cdb4",
+  "source_generated_at": "2026-09-06T19:29:01.227Z",
   "counts": {
-    "movies": 20,
-    "performers": 19,
+    "movies": 21,
+    "performers": 20,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -201,6 +201,17 @@
       ],
       "related_movie_ids": [
         "cc18:SNOS-360"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28382",
+      "display_name": "清原美優",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "清原美優",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-372"
       ]
     },
     {
@@ -432,6 +443,55 @@
         "article_title": "SNOS-364 園梨音｜游泳19年",
         "display_short_title": null,
         "slug": "snos-364"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-372",
+        "source_cover": "https://cc18.tv/preview/80/b/4EWng2xSD6E-800.jpg?v=1788503910",
+        "title": "SNOS-372 清原美優｜母性滿滿的溫柔大姊姊",
+        "catalog_code": "SNOS-372",
+        "release_date": "2026-09-04",
+        "performers": [
+          "清原美優"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "dirty-talk",
+            "label": "言語挑逗"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-372/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28382"
+      ],
+      "search": {
+        "source_title": "母性滿滿的溫柔大姊姊，用歐派啾啾、幫雞巴打手槍寵溺你的世界第一爽授乳PLAY 小日向美優",
+        "article_title": "SNOS-372 清原美優｜母性滿滿的溫柔大姊姊",
+        "display_short_title": null,
+        "slug": "snos-372"
       }
     },
     {
