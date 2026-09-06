@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:750eaeb6dfc730b736f85cb77707809725b26467ee94b22fafa75299f82d1eda",
-  "source_generated_at": "2026-09-06T20:51:21.537Z",
+  "source_revision": "sha256:e4aed9df26c8c4722bd71d487d1674d5366c6f1213bee9fdd6e0c30efbf40845",
+  "source_generated_at": "2026-09-06T20:54:46.301Z",
   "counts": {
-    "movies": 44,
-    "performers": 46,
+    "movies": 45,
+    "performers": 47,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -78,6 +78,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:BBAN-609"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:6771",
+      "display_name": "小澤菜穗",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "小澤菜穗",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DLDSS-552"
       ]
     },
     {
@@ -1731,6 +1742,51 @@
         "article_title": "DLDSS-545 花守夏步、角奈保｜人妻女教師",
         "display_short_title": null,
         "slug": "dldss-545"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DLDSS-552",
+        "source_cover": "https://cc18.tv/preview/80/b/4hvhUOyCIcN-800.jpg?v=1786927223",
+        "title": "DLDSS-552 小澤菜穗｜小沢菜穂",
+        "catalog_code": "DLDSS-552",
+        "release_date": "2026-09-03",
+        "performers": [
+          "小澤菜穗"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dldss-552/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:6771"
+      ],
+      "search": {
+        "source_title": "像這樣的大嬸也可以無套做愛嗎？ 小沢菜穂",
+        "article_title": "DLDSS-552 小澤菜穗｜小沢菜穂",
+        "display_short_title": null,
+        "slug": "dldss-552"
       }
     },
     {

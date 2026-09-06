@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "DLDSS-552",
+  "review_sha256": "aa53f3e7f7ed110c3bc89b90ff5bef36a57e04c5adf7f7092aba57fccadf0eca",
+  "selected_thesis": "來源資料可確認本作以「小沢菜穂」作為主要作品線索。",
+  "title_basis": {
+    "performer": "小澤菜穗",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "小澤菜穗",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "小沢菜穂",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "こんなおばさんでもナマでしてくれますか？",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "小澤菜穗",
+    "presentation_feature": "小沢菜穂",
+    "editorial_judgment": "來源資料可確認本作以「小沢菜穂」作為主要作品線索。",
+    "source_keywords": [
+      "小澤菜穗",
+      "小沢菜穂",
+      "こんなおばさんでもナマでしてくれますか？",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：小澤菜穗",
+      "supports": "這項可追溯來源訊號支持文章以「小澤菜穗」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：こんなおばさんでもナマでしてくれますか？",
+      "supports": "這項可追溯來源訊號支持文章以「こんなおばさんでもナマでしてくれますか？」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：小沢菜穂",
+      "supports": "這項可追溯來源訊號支持文章以「小沢菜穂」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻・主婦",
+      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z"
+}

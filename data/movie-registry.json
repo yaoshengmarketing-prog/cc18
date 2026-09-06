@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-06T20:51:19.659Z",
+  "updated_at": "2026-09-06T20:54:44.489Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -707,6 +707,21 @@
       ],
       "release_date": "2026-09-03",
       "source_url": "https://cc18.tv/player.php?uuid=ip3fMROoA7p&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-06"
+    },
+    {
+      "id": "DLDSS-552",
+      "actress": [
+        "小澤菜穗"
+      ],
+      "release_date": "2026-09-03",
+      "source_url": "https://cc18.tv/player.php?uuid=4hvhUOyCIcN&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
