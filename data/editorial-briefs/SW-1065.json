@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "id": "SW-1065",
+  "generated_at": "2026-09-06T21:05:05.659Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "gpt-5.4",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SW-1065.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": null,
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "企劃片",
+      "720p",
+      "HD"
+    ]
+  },
+  "angle_candidates": [
+    "來源資料可確認本作以「企劃片」作為主要作品線索。",
+    "高畫質的企劃呈現與觀看取向",
+    "企劃片的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "來源資料可確認本作以「企劃片」作為主要作品線索。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "企劃片",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "企劃片",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "720p",
+      "source_field": "safe_signals"
+    }
+  ],
+  "title": "SW-1065｜企劃片",
+  "seo_title": "SW-1065 作品資料｜企劃片",
+  "social_title": "SW-1065｜企劃片",
+  "short_review": "來源資料可確認本作以「企劃片」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+  "editorial_angle": "來源資料可確認本作以「企劃片」作為主要作品線索。",
+  "editorial_tag_ids": [],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "theme：企劃片",
+      "supports": "這項可追溯來源訊號支持文章以「企劃片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：企劃片",
+      "supports": "這項可追溯來源訊號支持文章以「企劃片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：HD",
+      "supports": "這項可追溯來源訊號支持文章以「HD」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "公開內容只保留可追溯的來源資料整理。"
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "decision_guide": {
+    "thesis": "來源資料可確認本作以「企劃片」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "企劃片",
+      "高畫質",
+      "企劃片",
+      "720p"
+    ],
+    "audience_for": [
+      "想先依來源題材與作品設定挑選的觀眾",
+      "接受目前只提供來源資料整理的觀眾"
+    ],
+    "audience_not_for": [
+      "需要影片抽樣觀察才能決定的觀眾",
+      "需要鏡位、收音或段落變化結論的觀眾"
+    ],
+    "questions_answered": [
+      "來源資料可確認什麼？來源資料可確認本作以「企劃片」作為主要作品線索。",
+      "目前能否提供影片觀察？目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+      "如何使用本頁？可先依來源題材與作品識別資訊判斷是否符合偏好。"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "來源資料與選片範圍",
+      "body": "來源資料可確認本作以「企劃片」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。\n\n以「企劃片」為選片基準，適合：想先依來源題材與作品設定挑選的觀眾；接受目前只提供來源資料整理的觀眾；若偏好：需要影片抽樣觀察才能決定的觀眾；需要鏡位、收音或段落變化結論的觀眾，則未必適合，這是本作最明確的觀看取捨。"
+    }
+  ]
+}
