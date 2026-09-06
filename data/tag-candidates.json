@@ -380,11 +380,12 @@
     },
     {
       "label": "泳裝",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "CMJU-008",
         "FWAY-103",
-        "FWAY-106"
+        "FWAY-106",
+        "FCDSS-117"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-07",
@@ -796,9 +797,10 @@
     },
     {
       "label": "超過4小時",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "HHF-111"
+        "HHF-111",
+        "FCDSS-117"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
@@ -880,6 +882,36 @@
       "occurrences": 1,
       "source_ids": [
         "FNS-243"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "健身教練",
+      "occurrences": 1,
+      "source_ids": [
+        "FCDSS-117"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "啦啦隊女孩",
+      "occurrences": 1,
+      "source_ids": [
+        "FCDSS-117"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "アスリート",
+      "occurrences": 1,
+      "source_ids": [
+        "FCDSS-117"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",

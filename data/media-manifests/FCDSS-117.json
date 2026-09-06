@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "FCDSS-117",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-06T21:14:09.301Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/FCDSS-117/hero-v1.jpg",
+      "r2_key": "works/2026/09/FCDSS-117/hero-v1.jpg",
+      "bytes": 708595,
+      "sha256": "2ae6bdd5fc28ea0e20c40f7e37aac342ae43e3f1e29edd2149a990f20cb30cbb",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "bf3aedf3-e131-4368-9e17-d022fe79f283",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/FCDSS-117/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/FCDSS-117/scene-vertical-v1.jpg",
+      "bytes": 951438,
+      "sha256": "ceda86edfacd7a2ef27c63556af656d57995955f8ffa86b2de9d2519d633c45f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "210fb9b7-3b16-46af-bad2-6a692beb9792",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2549413,
+    "sha256": "747b30da04978fd55c168aa1c2cb77e53fb99cb2dd0ba9b2f2d40e26cc9fcb1b",
+    "target_r2_key": "works/2026/09/FCDSS-117/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/FCDSS-117/vertical-v1.mp4"
+  }
+}

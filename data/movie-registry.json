@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-06T21:10:26.175Z",
+  "updated_at": "2026-09-06T21:14:50.260Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -778,6 +778,28 @@
       "actress": [],
       "release_date": "2026-09-03",
       "source_url": "https://cc18.tv/player.php?uuid=cyFS1Ohs7cj&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-06"
+    },
+    {
+      "id": "FCDSS-117",
+      "actress": [
+        "天使萌",
+        "吉高寧寧",
+        "美乃雀",
+        "桃尻かなめ",
+        "沙月恵奈",
+        "逢月日葵",
+        "凰華鈴",
+        "本郷愛（二階堂夢）"
+      ],
+      "release_date": "2026-09-03",
+      "source_url": "https://cc18.tv/player.php?uuid=f8_6QxBrQfs&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

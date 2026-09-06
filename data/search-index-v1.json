@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:7284de75884743d05b65e00ba49fa58cbda1867d2ecb15ab2aa0d38e0d07f4e1",
-  "source_generated_at": "2026-09-06T21:10:28.060Z",
+  "source_revision": "sha256:90acd5a4b51710cda3099caa2ddc27d77b3156eb16a191945a39d073b57d9d9c",
+  "source_generated_at": "2026-09-06T21:14:52.137Z",
   "counts": {
-    "movies": 49,
-    "performers": 49,
+    "movies": 50,
+    "performers": 56,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -103,6 +103,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:2794",
+      "display_name": "天使萌",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "天使萌",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FCDSS-117"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:46839",
       "display_name": "巴光莉",
       "display_name_zh_tw": null,
@@ -125,6 +136,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:47082",
+      "display_name": "本郷愛（二階堂夢）",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "本郷愛（二階堂夢）",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FCDSS-117"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:54206",
       "display_name": "石田紗季",
       "display_name_zh_tw": null,
@@ -144,6 +166,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-447"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:18894",
+      "display_name": "吉高寧寧",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "吉高寧寧",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FCDSS-117"
       ]
     },
     {
@@ -177,6 +210,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PRIAN-054"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:25615",
+      "display_name": "沙月恵奈",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "沙月恵奈",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FCDSS-117"
       ]
     },
     {
@@ -352,7 +396,8 @@
       "source_name": "美乃雀",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:DLDSS-541"
+        "cc18:DLDSS-541",
+        "cc18:FCDSS-117"
       ]
     },
     {
@@ -400,6 +445,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:25214",
+      "display_name": "桃尻かなめ",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "桃尻かなめ",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FCDSS-117"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:43599",
       "display_name": "桃瀨日葵",
       "display_name_zh_tw": null,
@@ -444,6 +500,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:39724",
+      "display_name": "凰華鈴",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "凰華鈴",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FCDSS-117"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:29110",
       "display_name": "彩月七緒",
       "display_name_zh_tw": null,
@@ -477,6 +544,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-372"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:27471",
+      "display_name": "逢月日葵",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "逢月日葵",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FCDSS-117"
       ]
     },
     {
@@ -1903,6 +1981,53 @@
         "article_title": "DLDSS-552 小澤菜穗｜小沢菜穂",
         "display_short_title": null,
         "slug": "dldss-552"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:FCDSS-117",
+        "source_cover": "https://cc18.tv/preview/80/b/f8_6QxBrQfs-800.jpg?v=1788439123",
+        "title": "FCDSS-117 天使萌、吉高寧寧、美乃雀、桃尻かなめ、沙月恵奈、逢月日葵、凰華鈴、本郷愛（二階堂夢）｜faleno総集編",
+        "catalog_code": "FCDSS-117",
+        "release_date": "2026-09-03",
+        "performers": [
+          "天使萌",
+          "吉高寧寧",
+          "美乃雀",
+          "桃尻かなめ",
+          "沙月恵奈",
+          "逢月日葵",
+          "凰華鈴",
+          "本郷愛（二階堂夢）"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/fcdss-117/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:2794",
+        "cc18.tv:actor:18894",
+        "cc18.tv:actor:24460",
+        "cc18.tv:actor:25214",
+        "cc18.tv:actor:25615",
+        "cc18.tv:actor:27471",
+        "cc18.tv:actor:39724",
+        "cc18.tv:actor:47082"
+      ],
+      "search": {
+        "source_title": "與女子運動員的運動服性交15場4小時精選！【FALENO著衣性愛特選】",
+        "article_title": "FCDSS-117 天使萌、吉高寧寧、美乃雀、桃尻かなめ、沙月恵奈、逢月日葵、凰華鈴、本郷愛（二階堂夢）｜faleno総集編",
+        "display_short_title": null,
+        "slug": "fcdss-117"
       }
     },
     {

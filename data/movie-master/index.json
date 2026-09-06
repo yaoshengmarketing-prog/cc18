@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-06T21:10:28.060Z",
+  "generated_at": "2026-09-06T21:14:52.137Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 53,
-  "formal_movie_count": 52,
+  "tracked_input_count": 54,
+  "formal_movie_count": 53,
   "demo_count": 1,
-  "published_count": 49,
+  "published_count": 50,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -152,6 +152,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "d293a77edf82e99fda599b219a569cdc6cd4c4d81411c89fd17e3e5e97afdfbc"
+    },
+    {
+      "stable_movie_id": "cc18:FCDSS-117",
+      "catalog_code": "FCDSS-117",
+      "slug": "fcdss-117",
+      "master_path": "data/movie-master/fcdss-117.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "b6a5765c1d6b774f95df98ea7bb425dff4b725c13d087881c7e8ca5b6e38c654"
     },
     {
       "stable_movie_id": "cc18:FNS-243",
