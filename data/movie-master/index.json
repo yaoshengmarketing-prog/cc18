@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-06T19:17:52.990Z",
+  "generated_at": "2026-09-06T19:21:27.815Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 22,
-  "formal_movie_count": 21,
+  "tracked_input_count": 23,
+  "formal_movie_count": 22,
   "demo_count": 1,
-  "published_count": 18,
+  "published_count": 19,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -107,6 +107,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "ac86250e9d70f02a05b09848b5f4f1ee541ad58fb83ff064a324a421a4a88477"
+    },
+    {
+      "stable_movie_id": "cc18:NGOD-355",
+      "catalog_code": "NGOD-355",
+      "slug": "ngod-355",
+      "master_path": "data/movie-master/ngod-355.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "c1d877e22058829f5b82c736bf2eacfd7f4e71975626a5b7aa335d6c00422144"
     },
     {
       "stable_movie_id": "cc18:PRIAN-054",

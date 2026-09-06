@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:f725a8092be3b173bc27d581db102cde1c0845917d32f34f0a0c824c332976c0",
-  "source_generated_at": "2026-09-06T19:17:52.990Z",
+  "source_revision": "sha256:2204587eaa5ec7b96ddff151a5e204ed7119eec1e8b0e85644efe6eb80a978bf",
+  "source_generated_at": "2026-09-06T19:21:27.815Z",
   "counts": {
-    "movies": 18,
-    "performers": 17,
+    "movies": 19,
+    "performers": 18,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -67,6 +67,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PRIAN-054"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:29381",
+      "display_name": "那賀崎雪音",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "那賀崎雪音",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:NGOD-355"
       ]
     },
     {
@@ -263,6 +274,51 @@
         "article_title": "BBAN-609 小野寺舞、和栗ゆゆ｜我們將在這地獄中生存下去",
         "display_short_title": null,
         "slug": "bban-609"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:NGOD-355",
+        "source_cover": "https://cc18.tv/preview/80/b/ozRzgrxLp95-800.jpg?v=1788640716",
+        "title": "NGOD-355 那賀崎雪音｜隨你怎麼做都行",
+        "catalog_code": "NGOD-355",
+        "release_date": "2026-09-04",
+        "performers": [
+          "那賀崎雪音"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ngod-355/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:29381"
+      ],
+      "search": {
+        "source_title": "「隨你怎麼做都行…」被女兒的婚約者幹到子宮深處而徹底墮落，已被巨根調教完畢的原本認真端莊的母親 那賀崎雪音",
+        "article_title": "NGOD-355 那賀崎雪音｜隨你怎麼做都行",
+        "display_short_title": null,
+        "slug": "ngod-355"
       }
     },
     {
