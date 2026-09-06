@@ -1,14 +1,25 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:9cf1fa970954d2ef8a1908fa31de76a94cb6e35fcb4a176273dda8b10efcbfbf",
-  "source_generated_at": "2026-09-06T21:30:22.502Z",
+  "source_revision": "sha256:09b5b3268aac92da46677ffe49551bde53b2b478565cc280cd4a25800d7cf636",
+  "source_generated_at": "2026-09-06T21:34:02.228Z",
   "counts": {
-    "movies": 54,
-    "performers": 68,
+    "movies": 55,
+    "performers": 69,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
   "performers": [
+    {
+      "stable_actor_id": "cc18.tv:actor:46735",
+      "display_name": "一宮留衣",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "一宮留衣",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:START-601"
+      ]
+    },
     {
       "stable_actor_id": "cc18.tv:actor:27185",
       "display_name": "一ノ瀬ラム",
@@ -2528,6 +2539,59 @@
         "article_title": "DOKS-690 清巳玲乃、那賀崎雪音、虹村ゆみ、渡來楓、花吹詩音｜口交",
         "display_short_title": null,
         "slug": "doks-690"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:START-601",
+        "source_cover": "https://cc18.tv/preview/80/b/g0aeb6vA89l-800.jpg?v=1788511155",
+        "title": "START-601 一宮留衣 × 美少女設定｜一宮留衣",
+        "catalog_code": "START-601",
+        "release_date": "2026-09-01",
+        "performers": [
+          "一宮留衣"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "college-student",
+            "label": "女大學生"
+          },
+          {
+            "id": "facial",
+            "label": "顏射題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/start-601/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:46735"
+      ],
+      "search": {
+        "source_title": "「聽說A大校花留衣是用陪睡拿到女主播內定的」讓得意忘形的校花被約會軟體的大叔玩弄並顏射直播，在社群媒體瘋傳導致人生毀滅。 一宮留衣",
+        "article_title": "START-601 一宮留衣 × 美少女設定｜一宮留衣",
+        "display_short_title": null,
+        "slug": "start-601"
       }
     },
     {
