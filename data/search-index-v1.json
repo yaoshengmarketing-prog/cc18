@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:a5e22c4b3e8124a1401f02705e708dd0254e3fb7c8784e5fb5dc072c19df5aaa",
-  "source_generated_at": "2026-09-06T20:43:59.979Z",
+  "source_revision": "sha256:219fc0aa5a8098eb4d1a58bc752cbeb29a985036682006cdcad91e482b380590",
+  "source_generated_at": "2026-09-06T20:47:58.262Z",
   "counts": {
-    "movies": 42,
-    "performers": 44,
+    "movies": 43,
+    "performers": 45,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -477,6 +477,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:RKI-750"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:46713",
+      "display_name": "濱邊彌生",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "濱邊彌生",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FNS-243"
       ]
     },
     {
@@ -1664,6 +1675,55 @@
         "article_title": "DLDSS-545 花守夏步、角奈保｜人妻女教師",
         "display_short_title": null,
         "slug": "dldss-545"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:FNS-243",
+        "source_cover": "https://cc18.tv/preview/80/b/a8MBez4j8a-800.jpg?v=1786344076",
+        "title": "FNS-243 濱邊彌生｜畢業典禮結束10分鐘後",
+        "catalog_code": "FNS-243",
+        "release_date": "2026-09-03",
+        "performers": [
+          "濱邊彌生"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/fns-243/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:46713"
+      ],
+      "search": {
+        "source_title": "畢業典禮結束10分鐘後… 與剛才還是學生、現在已是畢業生的前女學生直奔摩鐵，直到性慾枯竭為止瘋狂做愛，我真是個沒救的男人。 濱邊彌生",
+        "article_title": "FNS-243 濱邊彌生｜畢業典禮結束10分鐘後",
+        "display_short_title": null,
+        "slug": "fns-243"
       }
     },
     {
