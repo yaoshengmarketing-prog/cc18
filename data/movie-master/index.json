@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-06T19:39:43.205Z",
+  "generated_at": "2026-09-06T19:43:14.383Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 28,
-  "formal_movie_count": 27,
+  "tracked_input_count": 29,
+  "formal_movie_count": 28,
   "demo_count": 1,
-  "published_count": 24,
+  "published_count": 25,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -125,6 +125,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "c1d877e22058829f5b82c736bf2eacfd7f4e71975626a5b7aa335d6c00422144"
+    },
+    {
+      "stable_movie_id": "cc18:NSODN-025",
+      "catalog_code": "NSODN-025",
+      "slug": "nsodn-025",
+      "master_path": "data/movie-master/nsodn-025.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "7c70e6aadcfebfdc1783051c723a4a51cd8f2dd9d7dac016c6d08354194649c8"
     },
     {
       "stable_movie_id": "cc18:PRIAN-054",

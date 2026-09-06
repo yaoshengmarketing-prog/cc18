@@ -593,9 +593,10 @@
     },
     {
       "label": "不倫",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "NGOD-355"
+        "NGOD-355",
+        "NSODN-025"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
@@ -603,9 +604,10 @@
     },
     {
       "label": "寝取り・寝取られ・ntr",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "NGOD-355"
+        "NGOD-355",
+        "NSODN-025"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
@@ -666,6 +668,16 @@
       "occurrences": 1,
       "source_ids": [
         "SNOS-401"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "偷窺",
+      "occurrences": 1,
+      "source_ids": [
+        "NSODN-025"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",

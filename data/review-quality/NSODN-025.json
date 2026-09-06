@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "NSODN-025",
+  "review_sha256": "5e5ebcf6078cae5e9b75cb84088be5d9b2345a4e33f6551b41e2066ce6a09600",
+  "selected_thesis": "來源資料可確認本作以「我所不認識的表情」作為主要作品線索。",
+  "title_basis": {
+    "performer": "彩月七緒",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "彩月七緒",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "我所不認識的表情",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "自拍形式",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "彩月七緒",
+    "presentation_feature": "我所不認識的表情",
+    "editorial_judgment": "來源資料可確認本作以「我所不認識的表情」作為主要作品線索。",
+    "source_keywords": [
+      "彩月七緒",
+      "我所不認識的表情",
+      "自拍形式",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：彩月七緒",
+      "supports": "這項可追溯來源訊號支持文章以「彩月七緒」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：自拍形式",
+      "supports": "這項可追溯來源訊號支持文章以「自拍形式」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：我所不認識的表情",
+      "supports": "這項可追溯來源訊號支持文章以「我所不認識的表情」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：自拍",
+      "supports": "這項可追溯來源訊號支持文章以「自拍」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z"
+}

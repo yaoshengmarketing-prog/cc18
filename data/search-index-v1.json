@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:44e636550d691b820b84a898c263d977f50839e7a87f0a546b34770c436c44e2",
-  "source_generated_at": "2026-09-06T19:39:43.205Z",
+  "source_revision": "sha256:d14859c262dfa3aa7bbb859830f67de8ab9f44b94d1cffb20634d29623602ace",
+  "source_generated_at": "2026-09-06T19:43:14.383Z",
   "counts": {
-    "movies": 24,
-    "performers": 26,
+    "movies": 25,
+    "performers": 27,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -245,6 +245,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:29110",
+      "display_name": "彩月七緒",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "彩月七緒",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:NSODN-025"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:28722",
       "display_name": "淺野心",
       "display_name_zh_tw": "淺野心",
@@ -456,6 +467,51 @@
         "article_title": "NGOD-355 那賀崎雪音｜隨你怎麼做都行",
         "display_short_title": null,
         "slug": "ngod-355"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:NSODN-025",
+        "source_cover": "https://cc18.tv/preview/80/b/2Ci4sYpqd9-800.jpg?v=1788503911",
+        "title": "NSODN-025 彩月七緒｜我所不認識的表情",
+        "catalog_code": "NSODN-025",
+        "release_date": "2026-09-04",
+        "performers": [
+          "彩月七緒"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "self-shot",
+            "label": "自拍視角"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/nsodn-025/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:29110"
+      ],
+      "search": {
+        "source_title": "我從不知道妳會露出那樣的表情。我所不認識的表情、聲音、舉止。在得知這一切的那晚，我射出的精液比平常濃稠了許多倍。-練○區在住 七緒（24） 結婚生活第2年的實錄不倫記錄 彩月七緒",
+        "article_title": "NSODN-025 彩月七緒｜我所不認識的表情",
+        "display_short_title": null,
+        "slug": "nsodn-025"
       }
     },
     {

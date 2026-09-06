@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "NSODN-025",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-06T19:42:30.803Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/NSODN-025/hero-v1.jpg",
+      "r2_key": "works/2026/09/NSODN-025/hero-v1.jpg",
+      "bytes": 675789,
+      "sha256": "6093ea1eacd466287f0a51d57610f5d5169b4f049e3a70d7020fa7affbb763e6",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "6a335ffb-45e3-4c5a-8598-8de7cffde672",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/NSODN-025/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/NSODN-025/scene-vertical-v1.jpg",
+      "bytes": 1157334,
+      "sha256": "c17807d6d1dd19a90e6e0316ef2cf656aecf62e473dff2c918d9965a27619c70",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "d9691bb2-4aa6-4d66-83db-d69e924c4cbc",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3274961,
+    "sha256": "a05063f9cfa215e0281afdd10ed89e3acdad5d71d288af8c433594e090db54e7",
+    "target_r2_key": "works/2026/09/NSODN-025/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/NSODN-025/vertical-v1.mp4"
+  }
+}
