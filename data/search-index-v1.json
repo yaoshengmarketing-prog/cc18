@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:4189aaf59b86910ddef018d0ac46a771f2656e07e3267fbde5bdf353cebdbad6",
-  "source_generated_at": "2026-09-06T19:53:56.426Z",
+  "source_revision": "sha256:be8980a2fbcedfdfe1ad63c5234db5d22145bcd7af0006be22d1ab5767fd514d",
+  "source_generated_at": "2026-09-06T19:57:44.248Z",
   "counts": {
-    "movies": 28,
-    "performers": 30,
+    "movies": 29,
+    "performers": 31,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -336,6 +336,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:53622",
+      "display_name": "雛形みくる",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "雛形みくる",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FWAY-103"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:25683",
       "display_name": "蘭華",
       "display_name_zh_tw": null,
@@ -406,6 +417,55 @@
         "article_title": "BBAN-609 小野寺舞、和栗ゆゆ｜我們將在這地獄中生存下去",
         "display_short_title": null,
         "slug": "bban-609"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:FWAY-103",
+        "source_cover": "https://cc18.tv/preview/80/b/jfambMbIhc0-800.jpg?v=1788640711",
+        "title": "FWAY-103 雛形みくる｜White",
+        "catalog_code": "FWAY-103",
+        "release_date": "2026-09-04",
+        "performers": [
+          "雛形みくる"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/fway-103/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53622"
+      ],
+      "search": {
+        "source_title": "White Mirage 雛形美久琉",
+        "article_title": "FWAY-103 雛形みくる｜White",
+        "display_short_title": null,
+        "slug": "fway-103"
       }
     },
     {

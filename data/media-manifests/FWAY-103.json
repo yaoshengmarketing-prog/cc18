@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "FWAY-103",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-06T19:57:01.510Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/FWAY-103/hero-v1.jpg",
+      "r2_key": "works/2026/09/FWAY-103/hero-v1.jpg",
+      "bytes": 794576,
+      "sha256": "5ddc583d89d10cd2eb0ada32431d7776c4470543f03e3898ddf758404caf7c46",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "c5930be4-adbf-4d0d-baf4-984b0bfc7aa4",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/FWAY-103/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/FWAY-103/scene-vertical-v1.jpg",
+      "bytes": 1103166,
+      "sha256": "a2c883afd0d65f376d29228c1df0bcc19b2e9ceb1c8fcdb24e70b8b4ee88a8a5",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "6da31400-ab22-4843-9101-dfd543a735a0",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3400863,
+    "sha256": "4ff07c7964ace7be3cb907970e6c050c5b3ed6dea8400b456ce34b1c6c64124d",
+    "target_r2_key": "works/2026/09/FWAY-103/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/FWAY-103/vertical-v1.mp4"
+  }
+}

@@ -380,12 +380,13 @@
     },
     {
       "label": "泳裝",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "CMJU-008"
+        "CMJU-008",
+        "FWAY-103"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-09-07",
       "status": "quarantined"
     },
     {
@@ -431,13 +432,14 @@
     },
     {
       "label": "制服",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "SNOS-409",
-        "SNOS-369"
+        "SNOS-369",
+        "FWAY-103"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-09-07",
       "status": "quarantined"
     },
     {
@@ -720,6 +722,16 @@
       "occurrences": 1,
       "source_ids": [
         "JUR-850"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "性感內衣",
+      "occurrences": 1,
+      "source_ids": [
+        "FWAY-103"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
