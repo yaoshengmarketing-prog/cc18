@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "GOJI-111",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-06T21:41:00.114Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/GOJI-111/hero-v1.jpg",
+      "r2_key": "works/2026/08/GOJI-111/hero-v1.jpg",
+      "bytes": 1288258,
+      "sha256": "6a39b13e6d1076874ab581082140cf0608e4e1204a64e0f155b2bf0b3bdb5bd0",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "2ef9a5ab-a256-4998-86ac-fc6772fe43b4",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/GOJI-111/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/08/GOJI-111/scene-vertical-v1.jpg",
+      "bytes": 1065760,
+      "sha256": "0075641bf893ddd5da9087db0c5ededc4a4f40238d6de26cdfa7b5e7c4fd2fa8",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "3a501e1c-a3a0-4ceb-9f3b-5640564a54df",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3148417,
+    "sha256": "071daacbc5cbe40043b7c1a8c26ea2651dbb254d1f572bd14c58b5c6788a4823",
+    "target_r2_key": "works/2026/08/GOJI-111/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/GOJI-111/vertical-v1.mp4"
+  }
+}
