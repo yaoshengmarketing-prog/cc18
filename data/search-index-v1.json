@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:0b1aa9671ac9fd4734708879f7fe376366ea308ff8bb35e19f3bd2ea62eeccf6",
-  "source_generated_at": "2026-09-06T20:22:01.010Z",
+  "source_revision": "sha256:99da3bffc892cd981eefca304c3628e980bee02d1dc44ac51313e1520d43f5a1",
+  "source_generated_at": "2026-09-06T20:25:35.841Z",
   "counts": {
-    "movies": 36,
-    "performers": 37,
+    "movies": 37,
+    "performers": 38,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -158,6 +158,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:3586",
+      "display_name": "谷原希美",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "谷原希美",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DLDSS-530"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:29381",
       "display_name": "那賀崎雪音",
       "display_name_zh_tw": null,
@@ -165,6 +176,7 @@
       "source_name": "那賀崎雪音",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:DLDSS-530",
         "cc18:NGOD-355"
       ]
     },
@@ -1357,6 +1369,53 @@
         "article_title": "SNOS-447 仲村美羽｜口交到插入",
         "display_short_title": null,
         "slug": "snos-447"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DLDSS-530",
+        "source_cover": "https://cc18.tv/preview/80/b/5hbcyEVwc3z-800.jpg?v=1785824208",
+        "title": "DLDSS-530 谷原希美、那賀崎雪音｜大嬸",
+        "catalog_code": "DLDSS-530",
+        "release_date": "2026-09-03",
+        "performers": [
+          "谷原希美",
+          "那賀崎雪音"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dldss-530/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:3586",
+        "cc18.tv:actor:29381"
+      ],
+      "search": {
+        "source_title": "「大嬸，妳對兒子做什麼教育啊？」被兒子的不良女友「性支配」的家庭。 谷原希美/那賀崎雪音",
+        "article_title": "DLDSS-530 谷原希美、那賀崎雪音｜大嬸",
+        "display_short_title": null,
+        "slug": "dldss-530"
       }
     },
     {

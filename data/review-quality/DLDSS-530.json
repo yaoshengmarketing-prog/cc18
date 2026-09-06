@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "DLDSS-530",
+  "review_sha256": "1c074033734941d207c3d2961b50f8a8615f006710793382bb18a266f201ee6a",
+  "selected_thesis": "來源資料可確認本作以「大嬸」作為主要作品線索。",
+  "title_basis": {
+    "performer": "谷原希美、那賀崎雪音",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "谷原希美",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "大嬸",
+        "source_field": "title"
+      },
+      {
+        "type": "performer",
+        "value": "那賀崎雪音",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "谷原希美",
+    "presentation_feature": "大嬸",
+    "editorial_judgment": "來源資料可確認本作以「大嬸」作為主要作品線索。",
+    "source_keywords": [
+      "谷原希美",
+      "大嬸",
+      "那賀崎雪音",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：谷原希美",
+      "supports": "這項可追溯來源訊號支持文章以「谷原希美」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：那賀崎雪音",
+      "supports": "這項可追溯來源訊號支持文章以「那賀崎雪音」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：大嬸",
+      "supports": "這項可追溯來源訊號支持文章以「大嬸」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：癡女",
+      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻・主婦",
+      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：3p・4p",
+      "supports": "這項可追溯來源訊號支持文章以「3p・4p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z"
+}

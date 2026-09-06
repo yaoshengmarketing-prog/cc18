@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-06T20:21:59.168Z",
+  "updated_at": "2026-09-06T20:25:34.167Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -585,6 +585,22 @@
       ],
       "release_date": "2026-09-03",
       "source_url": "https://cc18.tv/player.php?uuid=z07G8oLtx3s&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-06"
+    },
+    {
+      "id": "DLDSS-530",
+      "actress": [
+        "谷原希美",
+        "那賀崎雪音"
+      ],
+      "release_date": "2026-09-03",
+      "source_url": "https://cc18.tv/player.php?uuid=5hbcyEVwc3z&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
