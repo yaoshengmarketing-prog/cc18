@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-06T20:15:09.195Z",
+  "generated_at": "2026-09-06T20:18:19.379Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 38,
-  "formal_movie_count": 37,
+  "tracked_input_count": 39,
+  "formal_movie_count": 38,
   "demo_count": 1,
-  "published_count": 34,
+  "published_count": 35,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -134,6 +134,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "e751ab9a901398d53692873571dfe2e92a797c0add5472e286c6f011a12141af"
+    },
+    {
+      "stable_movie_id": "cc18:IPZZ-988",
+      "catalog_code": "IPZZ-988",
+      "slug": "ipzz-988",
+      "master_path": "data/movie-master/ipzz-988.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "f6cf7a0ed8343bfcab32292cf03c45514911d625d2306507478ddee5b51194a5"
     },
     {
       "stable_movie_id": "cc18:JUR-850",

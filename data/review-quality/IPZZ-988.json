@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "IPZZ-988",
+  "review_sha256": "3d4a74a222eff1b97b5f6446f483eca8c0aefa2ad5cbc3a44fd48cb6f3dacbc6",
+  "selected_thesis": "來源資料可確認本作以「被男人選中的女人」作為主要作品線索。",
+  "title_basis": {
+    "performer": "神田真弥",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "神田真弥",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "被男人選中的女人",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "神田真弥",
+    "presentation_feature": "被男人選中的女人",
+    "editorial_judgment": "來源資料可確認本作以「被男人選中的女人」作為主要作品線索。",
+    "source_keywords": [
+      "神田真弥",
+      "被男人選中的女人",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：神田真弥",
+      "supports": "這項可追溯來源訊號支持文章以「神田真弥」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：被男人選中的女人",
+      "supports": "這項可追溯來源訊號支持文章以「被男人選中的女人」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：窈窕",
+      "supports": "這項可追溯來源訊號支持文章以「窈窕」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：顏射",
+      "supports": "這項可追溯來源訊號支持文章以「顏射」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：親吻",
+      "supports": "這項可追溯來源訊號支持文章以「親吻」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z"
+}
