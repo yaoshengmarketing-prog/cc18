@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "BBAN-601",
+  "review_sha256": "5886748f9bd8f949f7a0e2f572ca76ebeba730a0163692a38907f73f4d707b58",
+  "selected_thesis": "來源資料可確認本作以「家中隨處肉穴全露」作為主要作品線索。",
+  "title_basis": {
+    "performer": "桃瀨日葵、巴光莉",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "桃瀨日葵",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "家中隨處肉穴全露",
+        "source_field": "title"
+      },
+      {
+        "type": "performer",
+        "value": "巴光莉",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "桃瀨日葵",
+    "presentation_feature": "家中隨處肉穴全露",
+    "editorial_judgment": "來源資料可確認本作以「家中隨處肉穴全露」作為主要作品線索。",
+    "source_keywords": [
+      "桃瀨日葵",
+      "家中隨處肉穴全露",
+      "巴光莉",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：桃瀨日葵",
+      "supports": "這項可追溯來源訊號支持文章以「桃瀨日葵」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：巴光莉",
+      "supports": "這項可追溯來源訊號支持文章以「巴光莉」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：家中隨處肉穴全露",
+      "supports": "這項可追溯來源訊號支持文章以「家中隨處肉穴全露」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：独占配信",
+      "supports": "這項可追溯來源訊號支持文章以「独占配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：HD",
+      "supports": "這項可追溯來源訊號支持文章以「HD」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z"
+}

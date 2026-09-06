@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "BBAN-601",
+  "calls": [
+    {
+      "generated_at": "2026-09-06T19:59:31.574Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2347,
+      "cached_input_tokens": 0,
+      "output_tokens": 1239,
+      "total_tokens": 3586,
+      "estimated_cost_usd": 0.039613,
+      "estimated_payg_cash_cost_usd": 0.041593,
+      "direct_openai_reference_usd": 0.024452,
+      "gateway_premium_usd": 0.01516,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2347,
+    "cached_input_tokens": 0,
+    "output_tokens": 1239,
+    "estimated_cost_usd": 0.039613,
+    "estimated_payg_cash_cost_usd": 0.041593,
+    "direct_openai_reference_usd": 0.024452,
+    "gateway_premium_usd": 0.01516
+  }
+}

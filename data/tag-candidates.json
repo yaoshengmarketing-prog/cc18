@@ -576,9 +576,10 @@
     },
     {
       "label": "蕾絲親吻",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "BBAN-609"
+        "BBAN-609",
+        "BBAN-601"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
@@ -586,9 +587,10 @@
     },
     {
       "label": "女同性戀",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "BBAN-609"
+        "BBAN-609",
+        "BBAN-601"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
@@ -732,6 +734,36 @@
       "occurrences": 1,
       "source_ids": [
         "FWAY-103"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "情侶",
+      "occurrences": 1,
+      "source_ids": [
+        "BBAN-601"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "SM",
+      "occurrences": 1,
+      "source_ids": [
+        "BBAN-601"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "ノーパン",
+      "occurrences": 1,
+      "source_ids": [
+        "BBAN-601"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",

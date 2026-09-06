@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:be8980a2fbcedfdfe1ad63c5234db5d22145bcd7af0006be22d1ab5767fd514d",
-  "source_generated_at": "2026-09-06T19:57:44.248Z",
+  "source_revision": "sha256:d42c6b7be563ff61f7a7f013b776db1d337d8be498c2096414408eaf521666a6",
+  "source_generated_at": "2026-09-06T20:00:55.234Z",
   "counts": {
-    "movies": 29,
-    "performers": 31,
+    "movies": 30,
+    "performers": 33,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -78,6 +78,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:BBAN-609"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:46839",
+      "display_name": "巴光莉",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "巴光莉",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:BBAN-601"
       ]
     },
     {
@@ -267,6 +278,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:43599",
+      "display_name": "桃瀨日葵",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "桃瀨日葵",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:BBAN-601"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:29110",
       "display_name": "彩月七緒",
       "display_name_zh_tw": null,
@@ -372,6 +394,41 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:BBAN-601",
+        "source_cover": "https://cc18.tv/preview/80/b/1SefevMWD8G-800.jpg?v=1788511144",
+        "title": "BBAN-601 桃瀨日葵、巴光莉｜家中隨處肉穴全露",
+        "catalog_code": "BBAN-601",
+        "release_date": "2026-09-04",
+        "performers": [
+          "桃瀨日葵",
+          "巴光莉"
+        ],
+        "canonical_topics": [
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/bban-601/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:43599",
+        "cc18.tv:actor:46839"
+      ],
+      "search": {
+        "source_title": "家中隨處肉穴全露 無內褲貪婪主從蕾絲邊",
+        "article_title": "BBAN-601 桃瀨日葵、巴光莉｜家中隨處肉穴全露",
+        "display_short_title": null,
+        "slug": "bban-601"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:BBAN-609",

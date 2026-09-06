@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-06T19:57:44.248Z",
+  "generated_at": "2026-09-06T20:00:55.234Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 33,
-  "formal_movie_count": 32,
+  "tracked_input_count": 34,
+  "formal_movie_count": 33,
   "demo_count": 1,
-  "published_count": 29,
+  "published_count": 30,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -17,6 +17,15 @@
       "is_demo": false,
       "is_published": false,
       "content_hash": "11d4b72de8bd4fe3bec5e06ae97fb229828a723b348f53898eedacb96240411a"
+    },
+    {
+      "stable_movie_id": "cc18:BBAN-601",
+      "catalog_code": "BBAN-601",
+      "slug": "bban-601",
+      "master_path": "data/movie-master/bban-601.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "1803f6cf26b109f75cc9d04a46b9ba4ea21156cbb4f0874d813081cb02f39963"
     },
     {
       "stable_movie_id": "cc18:BBAN-609",
