@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:99da3bffc892cd981eefca304c3628e980bee02d1dc44ac51313e1520d43f5a1",
-  "source_generated_at": "2026-09-06T20:25:35.841Z",
+  "source_revision": "sha256:6b75363992204b43729b6b4aa1414230ffe1a3827fdc74f6fe8993913ddac597",
+  "source_generated_at": "2026-09-06T20:29:46.841Z",
   "counts": {
-    "movies": 37,
-    "performers": 38,
+    "movies": 38,
+    "performers": 39,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -342,6 +342,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:IPZZ-988"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53377",
+      "display_name": "神喜ミア",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "神喜ミア",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FNS-244"
       ]
     },
     {
@@ -1416,6 +1427,47 @@
         "article_title": "DLDSS-530 谷原希美、那賀崎雪音｜大嬸",
         "display_short_title": null,
         "slug": "dldss-530"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:FNS-244",
+        "source_cover": "https://cc18.tv/preview/80/b/_BFWSsaW8i-800.jpg?v=1786429355",
+        "title": "FNS-244 神喜ミア｜樸素OL後輩的屁股太大了",
+        "catalog_code": "FNS-244",
+        "release_date": "2026-09-03",
+        "performers": [
+          "神喜ミア"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "office-lady",
+            "label": "OL"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/fns-244/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53377"
+      ],
+      "search": {
+        "source_title": "樸素OL後輩的屁股太大了，忍不住從後面猛幹 神喜美亞",
+        "article_title": "FNS-244 神喜ミア｜樸素OL後輩的屁股太大了",
+        "display_short_title": null,
+        "slug": "fns-244"
       }
     },
     {

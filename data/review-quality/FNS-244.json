@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "FNS-244",
+  "review_sha256": "25b9670364790ade37f9f81525a4976b503b0f65b3e4fe3456a789c19be24ea5",
+  "selected_thesis": "來源資料可確認本作以「樸素OL後輩的屁股太大了」作為主要作品線索。",
+  "title_basis": {
+    "performer": "神喜ミア",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "神喜ミア",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "樸素OL後輩的屁股太大了",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "神喜ミア",
+    "presentation_feature": "樸素OL後輩的屁股太大了",
+    "editorial_judgment": "來源資料可確認本作以「樸素OL後輩的屁股太大了」作為主要作品線索。",
+    "source_keywords": [
+      "神喜ミア",
+      "樸素OL後輩的屁股太大了",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：神喜ミア",
+      "supports": "這項可追溯來源訊號支持文章以「神喜ミア」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：樸素OL後輩的屁股太大了",
+      "supports": "這項可追溯來源訊號支持文章以「樸素OL後輩的屁股太大了」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：OL",
+      "supports": "這項可追溯來源訊號支持文章以「OL」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：騎乘位",
+      "supports": "這項可追溯來源訊號支持文章以「騎乘位」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：HD",
+      "supports": "這項可追溯來源訊號支持文章以「HD」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z"
+}

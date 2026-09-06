@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "FNS-244",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-06T20:29:04.202Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/FNS-244/hero-v1.jpg",
+      "r2_key": "works/2026/09/FNS-244/hero-v1.jpg",
+      "bytes": 665291,
+      "sha256": "9ff4b73f9d08f99d5ec7d4070c99388ba8dd08227d6ee21582eada5ce54fdc64",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "a75adccb-f6de-4f3d-9ea2-81d28bfe2c85",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/FNS-244/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/FNS-244/scene-vertical-v1.jpg",
+      "bytes": 1050139,
+      "sha256": "57cf147131386f9e101c8969d690f22dd63b34416a2ba56bbaf0b31226690cf7",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "a4a91d71-fa64-47db-affa-408228a1fd91",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2840238,
+    "sha256": "26360370f69f3d152d9c36a704dda8724c7715285e6c2a77e091801af0823894",
+    "target_r2_key": "works/2026/09/FNS-244/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/FNS-244/vertical-v1.mp4"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "FNS-244",
+  "calls": [
+    {
+      "generated_at": "2026-09-06T20:28:08.771Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2394,
+      "cached_input_tokens": 0,
+      "output_tokens": 1791,
+      "total_tokens": 4185,
+      "estimated_cost_usd": 0.052268,
+      "estimated_payg_cash_cost_usd": 0.054881,
+      "direct_openai_reference_usd": 0.03285,
+      "gateway_premium_usd": 0.019418,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2394,
+    "cached_input_tokens": 0,
+    "output_tokens": 1791,
+    "estimated_cost_usd": 0.052268,
+    "estimated_payg_cash_cost_usd": 0.054881,
+    "direct_openai_reference_usd": 0.03285,
+    "gateway_premium_usd": 0.019418
+  }
+}

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-06T20:25:35.841Z",
+  "generated_at": "2026-09-06T20:29:46.841Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 41,
-  "formal_movie_count": 40,
+  "tracked_input_count": 42,
+  "formal_movie_count": 41,
   "demo_count": 1,
-  "published_count": 37,
+  "published_count": 38,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -80,6 +80,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "d293a77edf82e99fda599b219a569cdc6cd4c4d81411c89fd17e3e5e97afdfbc"
+    },
+    {
+      "stable_movie_id": "cc18:FNS-244",
+      "catalog_code": "FNS-244",
+      "slug": "fns-244",
+      "master_path": "data/movie-master/fns-244.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "6a5076d045f049b7b5c0d6d68654dba6b97f8e1bceea97563f66be4b0f07d96e"
     },
     {
       "stable_movie_id": "cc18:FWAY-103",
