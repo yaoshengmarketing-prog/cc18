@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:1771b6e4778dab3a529da437e873269651ef2a255e336f9d92261a2de29c5594",
-  "source_generated_at": "2026-09-06T21:52:51.583Z",
+  "source_revision": "sha256:c107baf9129e928ca729505d18c8aeb4a00eb843e03639f989c958ecc00440cb",
+  "source_generated_at": "2026-09-06T23:58:18.913Z",
   "counts": {
-    "movies": 60,
-    "performers": 72,
+    "movies": 61,
+    "performers": 73,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -545,6 +545,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:26800",
+      "display_name": "倉本蓳",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "倉本蓳",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DSOD-031"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:54491",
       "display_name": "宮上唯依花",
       "display_name_zh_tw": null,
@@ -906,6 +917,59 @@
         "article_title": "BBAN-609 小野寺舞、和栗ゆゆ｜我們將在這地獄中生存下去",
         "display_short_title": null,
         "slug": "bban-609"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DSOD-031",
+        "source_cover": "https://cc18.tv/preview/80/b/5EoHqQHdd1l-800.jpg?v=1788503910",
+        "title": "DSOD-031 倉本蓳｜如果要道歉",
+        "catalog_code": "DSOD-031",
+        "release_date": "2026-09-04",
+        "performers": [
+          "倉本蓳"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dsod-031/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:26800"
+      ],
+      "search": {
+        "source_title": "「如果要道歉，我寧願死！」絕對不道歉的傲慢欺凌者。用媚藥徹底摧毀她的自尊，讓她只在做愛時流著淚說「對不起，請原諒我」，在絕頂抽搐中不斷道歉的雌墮記錄。 倉本蓳",
+        "article_title": "DSOD-031 倉本蓳｜如果要道歉",
+        "display_short_title": null,
+        "slug": "dsod-031"
       }
     },
     {

@@ -435,12 +435,13 @@
     },
     {
       "label": "制服",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "SNOS-409",
         "SNOS-369",
         "FWAY-103",
-        "MILK-306"
+        "MILK-306",
+        "DSOD-031"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-07",

@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-031",
+  "review_sha256": "f9231668f2909c2cec74b3f9bd061da81a630085f16666f0a9b8514dcbe0ac75",
+  "selected_thesis": "來源資料可確認本作以「如果要道歉」作為主要作品線索。",
+  "title_basis": {
+    "performer": "倉本蓳",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "倉本蓳",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "如果要道歉",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "倉本蓳",
+    "presentation_feature": "如果要道歉",
+    "editorial_judgment": "來源資料可確認本作以「如果要道歉」作為主要作品線索。",
+    "source_keywords": [
+      "倉本蓳",
+      "如果要道歉",
+      "美少女設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：倉本蓳",
+      "supports": "這項可追溯來源訊號支持文章以「倉本蓳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：美少女設定",
+      "supports": "這項可追溯來源訊號支持文章以「美少女設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：如果要道歉",
+      "supports": "這項可追溯來源訊號支持文章以「如果要道歉」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：美少女",
+      "supports": "這項可追溯來源訊號支持文章以「美少女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：窈窕",
+      "supports": "這項可追溯來源訊號支持文章以「窈窕」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z"
+}
