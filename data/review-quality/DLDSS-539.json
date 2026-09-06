@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "DLDSS-539",
+  "review_sha256": "7cf05b7245f00c4a00f83d139cb5f8e28e8292cb5ec990b69a7505b2388e1638",
+  "selected_thesis": "來源資料可確認本作以「回鄉探親的7天」作為主要作品線索。",
+  "title_basis": {
+    "performer": "春日々音",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "春日々音",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "回鄉探親的7天",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "春日々音",
+    "presentation_feature": "回鄉探親的7天",
+    "editorial_judgment": "來源資料可確認本作以「回鄉探親的7天」作為主要作品線索。",
+    "source_keywords": [
+      "春日々音",
+      "回鄉探親的7天",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：春日々音",
+      "supports": "這項可追溯來源訊號支持文章以「春日々音」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：回鄉探親的7天",
+      "supports": "這項可追溯來源訊號支持文章以「回鄉探親的7天」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻・主婦",
+      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：HD",
+      "supports": "這項可追溯來源訊號支持文章以「HD」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z"
+}

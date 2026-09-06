@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:4031e3cae66b0e684f0a81880caaf759a732e2adb76851204081b7c6fd440c7f",
-  "source_generated_at": "2026-09-06T20:40:13.494Z",
+  "source_revision": "sha256:a5e22c4b3e8124a1401f02705e708dd0254e3fb7c8784e5fb5dc072c19df5aaa",
+  "source_generated_at": "2026-09-06T20:43:59.979Z",
   "counts": {
-    "movies": 41,
-    "performers": 43,
+    "movies": 42,
+    "performers": 44,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -259,6 +259,17 @@
       ],
       "related_movie_ids": [
         "cc18:SNOS-409"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54080",
+      "display_name": "春日々音",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "春日々音",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DLDSS-539"
       ]
     },
     {
@@ -1512,6 +1523,51 @@
         "article_title": "DLDSS-530 谷原希美、那賀崎雪音｜大嬸",
         "display_short_title": null,
         "slug": "dldss-530"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DLDSS-539",
+        "source_cover": "https://cc18.tv/preview/80/b/V74F8gnYeJ-800.jpg?v=1786344074",
+        "title": "DLDSS-539 春日々音｜回鄉探親的7天",
+        "catalog_code": "DLDSS-539",
+        "release_date": "2026-09-03",
+        "performers": [
+          "春日々音"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dldss-539/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54080"
+      ],
+      "search": {
+        "source_title": "回鄉探親的7天，與兩位義弟浸泡在溫泉中的人妻中出 春日日音",
+        "article_title": "DLDSS-539 春日々音｜回鄉探親的7天",
+        "display_short_title": null,
+        "slug": "dldss-539"
       }
     },
     {
