@@ -573,10 +573,11 @@
     },
     {
       "label": "姐姐系",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "SNOS-364",
-        "SNOS-372"
+        "SNOS-372",
+        "DOKS-689"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
@@ -839,9 +840,10 @@
     },
     {
       "label": "玩具",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "MILK-306"
+        "MILK-306",
+        "DOKS-689"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
@@ -922,6 +924,46 @@
       "occurrences": 1,
       "source_ids": [
         "IESP-765"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "其他癖好",
+      "occurrences": 1,
+      "source_ids": [
+        "DOKS-689"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "藥物、迷姦",
+      "occurrences": 1,
+      "source_ids": [
+        "DOKS-689"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "貧乳",
+      "occurrences": 1,
+      "source_ids": [
+        "DOKS-689"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "羞辱",
+      "occurrences": 1,
+      "source_ids": [
+        "DOKS-689"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",

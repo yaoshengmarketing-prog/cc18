@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-06T21:18:34.860Z",
+  "updated_at": "2026-09-06T21:22:21.936Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -815,6 +815,26 @@
       ],
       "release_date": "2026-09-02",
       "source_url": "https://cc18.tv/player.php?uuid=9N9h8mQjB4w&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-06"
+    },
+    {
+      "id": "DOKS-689",
+      "actress": [
+        "泉莉音",
+        "川栄結愛",
+        "新田好実",
+        "南日菜乃",
+        "百合良",
+        "橘未来"
+      ],
+      "release_date": "2026-09-01",
+      "source_url": "https://cc18.tv/player.php?uuid=34BFSlkkqfh&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

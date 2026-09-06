@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "DOKS-689",
+  "review_sha256": "11bb8915079b0ff73fd4b6e31ef69550173f140083fbe0a56963b4eb00dac9c4",
+  "selected_thesis": "來源資料可確認本作以「玩具」作為主要作品線索。",
+  "title_basis": {
+    "performer": "泉莉音、川栄結愛、新田好実、南日菜乃、百合良、橘未来",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "泉莉音",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "玩具",
+        "source_field": "description"
+      },
+      {
+        "type": "performer",
+        "value": "川栄結愛",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "新田好実",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "泉莉音",
+    "presentation_feature": "玩具",
+    "editorial_judgment": "來源資料可確認本作以「玩具」作為主要作品線索。",
+    "source_keywords": [
+      "泉莉音",
+      "玩具",
+      "川栄結愛",
+      "新田好実"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：泉莉音",
+      "supports": "這項可追溯來源訊號支持文章以「泉莉音」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：川栄結愛",
+      "supports": "這項可追溯來源訊號支持文章以「川栄結愛」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：新田好実",
+      "supports": "這項可追溯來源訊號支持文章以「新田好実」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：南日菜乃",
+      "supports": "這項可追溯來源訊號支持文章以「南日菜乃」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：百合良",
+      "supports": "這項可追溯來源訊號支持文章以「百合良」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：橘未来",
+      "supports": "這項可追溯來源訊號支持文章以「橘未来」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：玩具",
+      "supports": "這項可追溯來源訊號支持文章以「玩具」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z"
+}
