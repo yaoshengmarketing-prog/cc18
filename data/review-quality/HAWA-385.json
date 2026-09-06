@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "HAWA-385",
+  "review_sha256": "1463670e0723efe2be4cbd9fe69b662ad5087457264703ca5c438514938304f5",
+  "selected_thesis": "來源資料可確認本作以「沒有女友」作為主要作品線索。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "沒有女友",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "彼女のいない貧乏な自分にあるのは有り余る性欲と安アパートだけ",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "人妻・主婦",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "沒有女友",
+    "presentation_feature": "彼女のいない貧乏な自分にあるのは有り余る性欲と安アパートだけ",
+    "editorial_judgment": "來源資料可確認本作以「沒有女友」作為主要作品線索。",
+    "source_keywords": [
+      "沒有女友",
+      "彼女のいない貧乏な自分にあるのは有り余る性欲と安アパートだけ",
+      "高畫質",
+      "人妻・主婦"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "series：彼女のいない貧乏な自分にあるのは有り余る性欲と安アパートだけ",
+      "supports": "這項可追溯來源訊號支持文章以「彼女のいない貧乏な自分にあるのは有り余る性欲と安アパートだけ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：沒有女友",
+      "supports": "這項可追溯來源訊號支持文章以「沒有女友」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻・主婦",
+      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：美尻",
+      "supports": "這項可追溯來源訊號支持文章以「美尻」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：淫亂・過激系",
+      "supports": "這項可追溯來源訊號支持文章以「淫亂・過激系」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z"
+}
