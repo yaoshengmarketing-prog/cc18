@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:219fc0aa5a8098eb4d1a58bc752cbeb29a985036682006cdcad91e482b380590",
-  "source_generated_at": "2026-09-06T20:47:58.262Z",
+  "source_revision": "sha256:750eaeb6dfc730b736f85cb77707809725b26467ee94b22fafa75299f82d1eda",
+  "source_generated_at": "2026-09-06T20:51:21.537Z",
   "counts": {
-    "movies": 43,
-    "performers": 45,
+    "movies": 44,
+    "performers": 46,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -466,6 +466,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-401"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:30379",
+      "display_name": "與田鈴",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "與田鈴",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DLDSS-521"
       ]
     },
     {
@@ -1446,6 +1457,51 @@
         "article_title": "SNOS-447 仲村美羽｜口交到插入",
         "display_short_title": null,
         "slug": "snos-447"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DLDSS-521",
+        "source_cover": "https://cc18.tv/preview/80/b/ip3fMROoA7p-800.jpg?v=1787553649",
+        "title": "DLDSS-521 與田鈴｜從丈夫出門上班到回家",
+        "catalog_code": "DLDSS-521",
+        "release_date": "2026-09-03",
+        "performers": [
+          "與田鈴"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dldss-521/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:30379"
+      ],
+      "search": {
+        "source_title": "「從丈夫出門上班到回家，定時的9點到18點之間…我正努力與義父進行『造孫』的內射SEX中―。」 與田鈴",
+        "article_title": "DLDSS-521 與田鈴｜從丈夫出門上班到回家",
+        "display_short_title": null,
+        "slug": "dldss-521"
       }
     },
     {
