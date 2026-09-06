@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:8ab59fcddac408af0164f804360380d2810a6173b861ad3565e3fe4e80dae918",
-  "source_generated_at": "2026-09-06T20:58:48.849Z",
+  "source_revision": "sha256:03a281d98ebcbf11c0b7c3747a1843da33994dd6b90877db37eda2e6e6bfa4f2",
+  "source_generated_at": "2026-09-06T21:02:19.491Z",
   "counts": {
-    "movies": 46,
-    "performers": 48,
+    "movies": 47,
+    "performers": 49,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -408,6 +408,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:BBAN-601"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54221",
+      "display_name": "桜坂ふうか",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "桜坂ふうか",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DLDSS-551"
       ]
     },
     {
@@ -1798,6 +1809,55 @@
         "article_title": "DLDSS-549 石田紗季｜拜託妳",
         "display_short_title": null,
         "slug": "dldss-549"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DLDSS-551",
+        "source_cover": "https://cc18.tv/preview/80/b/6bULmN4PBe_-800.jpg?v=1788331146",
+        "title": "DLDSS-551 桜坂ふうか｜櫻坂風花",
+        "catalog_code": "DLDSS-551",
+        "release_date": "2026-09-03",
+        "performers": [
+          "桜坂ふうか"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dldss-551/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54221"
+      ],
+      "search": {
+        "source_title": "渴望慾望的社長夫人密訪汗臭油膩中年男的用務員室 櫻坂風花",
+        "article_title": "DLDSS-551 桜坂ふうか｜櫻坂風花",
+        "display_short_title": null,
+        "slug": "dldss-551"
       }
     },
     {
