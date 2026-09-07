@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:92bfe2da5b328b406d5cab7f69e849d4cfdaf6cf01c053580c3acbab61dd7f78",
-  "source_generated_at": "2026-09-07T00:29:23.346Z",
+  "source_revision": "sha256:0409c7cacb5bc98d2a80a9381c987a7b6f0cecb3bc868aa6af262464969b0a97",
+  "source_generated_at": "2026-09-07T10:22:09.914Z",
   "counts": {
-    "movies": 69,
-    "performers": 78,
+    "movies": 70,
+    "performers": 81,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -45,6 +45,17 @@
       ],
       "related_movie_ids": [
         "cc18:SNOS-369"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28563",
+      "display_name": "九井珠奈緒",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "九井珠奈緒",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:RLMP-013"
       ]
     },
     {
@@ -426,6 +437,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:29079",
+      "display_name": "雨宮響",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "雨宮響",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:RLMP-013"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:53486",
       "display_name": "青坂あおい",
       "display_name_zh_tw": null,
@@ -688,6 +710,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:1122",
+      "display_name": "推川悠里",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "推川悠里",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:RLMP-013"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:28722",
       "display_name": "淺野心",
       "display_name_zh_tw": "淺野心",
@@ -894,6 +927,63 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:RLMP-013",
+        "source_cover": "https://cc18.tv/preview/80/b/2I6uaxB_V5T-800.jpg?v=1788727099",
+        "title": "RLMP-013 推川悠里、九井珠奈緒、雨宮響｜完成",
+        "catalog_code": "RLMP-013",
+        "release_date": "2026-09-05",
+        "performers": [
+          "推川悠里",
+          "九井珠奈緒",
+          "雨宮響"
+        ],
+        "canonical_topics": [
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "facial",
+            "label": "顏射題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/rlmp-013/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:1122",
+        "cc18.tv:actor:28563",
+        "cc18.tv:actor:29079"
+      ],
+      "search": {
+        "source_title": "完成。我們的肉奴●媽媽排球。～毫不客氣地持續內射的滿身大汗滿身汁液的懷孕集訓～",
+        "article_title": "RLMP-013 推川悠里、九井珠奈緒、雨宮響｜完成",
+        "display_short_title": null,
+        "slug": "rlmp-013"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:BBAN-601",

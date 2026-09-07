@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "RLMP-013",
+  "review_sha256": "baf6f8727d1b9095d34690133937e3b06e65003a91d43135f60eaed549caafb9",
+  "selected_thesis": "來源資料可確認本作以「完成」作為主要作品線索。",
+  "title_basis": {
+    "performer": "推川悠里、九井珠奈緒、雨宮響",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "推川悠里",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "完成",
+        "source_field": "title"
+      },
+      {
+        "type": "performer",
+        "value": "九井珠奈緒",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "雨宮響",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "推川悠里",
+    "presentation_feature": "完成",
+    "editorial_judgment": "來源資料可確認本作以「完成」作為主要作品線索。",
+    "source_keywords": [
+      "推川悠里",
+      "完成",
+      "九井珠奈緒",
+      "雨宮響"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：推川悠里",
+      "supports": "這項可追溯來源訊號支持文章以「推川悠里」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：九井珠奈緒",
+      "supports": "這項可追溯來源訊號支持文章以「九井珠奈緒」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：雨宮響",
+      "supports": "這項可追溯來源訊號支持文章以「雨宮響」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：完成",
+      "supports": "這項可追溯來源訊號支持文章以「完成」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻・主婦",
+      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-06T16:00:00.000Z"
+}
