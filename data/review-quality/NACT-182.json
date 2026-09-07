@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "NACT-182",
+  "review_sha256": "608f6342175b07684abe01972c68a4bd21254cdffcf369626b72dd2af6c1d6f1",
+  "selected_thesis": "來源資料可確認本作以「オイルマニア」作為主要作品線索。",
+  "title_basis": {
+    "performer": "月野江翠",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "月野江翠",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "オイルマニア",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "月野江翠",
+    "presentation_feature": "オイルマニア",
+    "editorial_judgment": "來源資料可確認本作以「オイルマニア」作為主要作品線索。",
+    "source_keywords": [
+      "月野江翠",
+      "オイルマニア",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：月野江翠",
+      "supports": "這項可追溯來源訊號支持文章以「月野江翠」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：オイルマニア",
+      "supports": "這項可追溯來源訊號支持文章以「オイルマニア」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：オイルマニア",
+      "supports": "這項可追溯來源訊號支持文章以「オイルマニア」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：癡女",
+      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：口交",
+      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：騎乘位",
+      "supports": "這項可追溯來源訊號支持文章以「騎乘位」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-06T16:00:00.000Z"
+}

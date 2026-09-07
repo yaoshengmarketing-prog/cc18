@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:0409c7cacb5bc98d2a80a9381c987a7b6f0cecb3bc868aa6af262464969b0a97",
-  "source_generated_at": "2026-09-07T10:22:09.914Z",
+  "source_revision": "sha256:996a05215410b4a1f4511f522843dd8517a4b8053e3bdc5e4cc3d42acef873b1",
+  "source_generated_at": "2026-09-07T10:25:29.010Z",
   "counts": {
-    "movies": 70,
-    "performers": 81,
+    "movies": 71,
+    "performers": 82,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -199,6 +199,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:BBAN-601"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28900",
+      "display_name": "月野江翠",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "月野江翠",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:NACT-182"
       ]
     },
     {
@@ -927,6 +938,59 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:NACT-182",
+        "source_cover": "https://cc18.tv/preview/80/b/4GsF8q_Ro5r-800.jpg?v=1788655153",
+        "title": "NACT-182 月野江翠｜オイルマニア",
+        "catalog_code": "NACT-182",
+        "release_date": "2026-09-05",
+        "performers": [
+          "月野江翠"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/nact-182/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28900"
+      ],
+      "search": {
+        "source_title": "油狂 月野江すい",
+        "article_title": "NACT-182 月野江翠｜オイルマニア",
+        "display_short_title": null,
+        "slug": "nact-182"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:RLMP-013",

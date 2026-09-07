@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-07T10:22:07.719Z",
+  "updated_at": "2026-09-07T10:25:26.888Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -1104,6 +1104,21 @@
       ],
       "release_date": "2026-09-05",
       "source_url": "https://cc18.tv/player.php?uuid=2I6uaxB_V5T&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-07"
+    },
+    {
+      "id": "NACT-182",
+      "actress": [
+        "月野江翠"
+      ],
+      "release_date": "2026-09-05",
+      "source_url": "https://cc18.tv/player.php?uuid=4GsF8q_Ro5r&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
