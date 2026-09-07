@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "SPSF-55",
+  "review_sha256": "edf0d32dc23b6c997ee68e31c6efca8f72ab211f635747c72cabe54beeebeb9c",
+  "selected_thesis": "來源資料可確認本作以「SPSF-55」作為主要作品線索。",
+  "title_basis": {
+    "performer": "若月萌亞",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "若月萌亞",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "SPSF-55",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "戦隊ヒロインアクションピンチ",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "若月萌亞",
+    "presentation_feature": "SPSF-55",
+    "editorial_judgment": "來源資料可確認本作以「SPSF-55」作為主要作品線索。",
+    "source_keywords": [
+      "若月萌亞",
+      "SPSF-55",
+      "戦隊ヒロインアクションピンチ",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：若月萌亞",
+      "supports": "這項可追溯來源訊號支持文章以「若月萌亞」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：戦隊ヒロインアクションピンチ",
+      "supports": "這項可追溯來源訊號支持文章以「戦隊ヒロインアクションピンチ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：SPSF-55",
+      "supports": "這項可追溯來源訊號支持文章以「SPSF-55」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：星海戰隊凱薩五人組",
+      "supports": "這項可追溯來源訊號支持文章以「星海戰隊凱薩五人組」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：若月もあ",
+      "supports": "這項可追溯來源訊號支持文章以「若月もあ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-06T16:00:00.000Z"
+}

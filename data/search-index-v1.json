@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:2d1fe33fb8c1fe94b38c1e7fa5f46dbde0cb91d7e8b7e9ad01b067d0d0447380",
-  "source_generated_at": "2026-09-07T10:29:02.087Z",
+  "source_revision": "sha256:0ce56406f16a8d26d40c1c6858219f216a6c9e3da96a9f2915aca3005781336c",
+  "source_generated_at": "2026-09-07T10:32:49.583Z",
   "counts": {
-    "movies": 72,
-    "performers": 82,
+    "movies": 73,
+    "performers": 83,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -587,6 +587,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:NAMH-074"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28685",
+      "display_name": "若月萌亞",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "若月萌亞",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SPSF-55"
       ]
     },
     {
@@ -2393,6 +2404,39 @@
         "article_title": "SNOS-447 仲村美羽｜口交到插入",
         "display_short_title": null,
         "slug": "snos-447"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SPSF-55",
+        "source_cover": "https://cc18.tv/preview/80/b/2mltTS0Zp6R-800.jpg?v=1788727088",
+        "title": "SPSF-55 若月萌亞｜SPSF-55",
+        "catalog_code": "SPSF-55",
+        "release_date": "2026-09-04",
+        "performers": [
+          "若月萌亞"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/spsf-55/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28685"
+      ],
+      "search": {
+        "source_title": "SPSF-55 戰隊女主角動作危機～淪陷 星海戰隊凱薩五人組 凱薩黃［動作危機篇］ 若月もあ",
+        "article_title": "SPSF-55 若月萌亞｜SPSF-55",
+        "display_short_title": null,
+        "slug": "spsf-55"
       }
     },
     {

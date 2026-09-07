@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-07T10:28:59.896Z",
+  "updated_at": "2026-09-07T10:32:47.441Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -1134,6 +1134,21 @@
       ],
       "release_date": "2026-09-05",
       "source_url": "https://cc18.tv/player.php?uuid=DRxVyh8kW5Q&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-07"
+    },
+    {
+      "id": "SPSF-55",
+      "actress": [
+        "若月萌亞"
+      ],
+      "release_date": "2026-09-04",
+      "source_url": "https://cc18.tv/player.php?uuid=2mltTS0Zp6R&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

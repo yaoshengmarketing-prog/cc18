@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.1.0",
+  "stable_movie_id": "cc18:SPSF-55",
+  "slug": "spsf-55",
+  "is_demo": false,
+  "source": {
+    "catalog_code": "SPSF-55",
+    "source_title": "SPSF-55 戰隊女主角動作危機～淪陷 星海戰隊凱薩五人組 凱薩黃［動作危機篇］ 若月もあ",
+    "release_date": "2026-09-04",
+    "source_url": "https://cc18.tv/player.php?uuid=2mltTS0Zp6R&cat=19",
+    "source_site_movie_id": "2mltTS0Zp6R",
+    "public_description": "化名為Kaiser Yellow的Luna Sylphy查到了據說能獲得永恆生命的Galaxia Stone所在地，於是獨自先行前往該處。然而，敵人Bowjack截獲了Luna掌握的情報，Ika Renta隊長為了阻擋她的去路，派遣了怪人Clayzo與怪人Kichigeran發動攻擊。Yellow雖然陷入苦戰，但仍設法抵達了Galaxia Stone所在的地下洞窟。然而，守護著Galaxia Stone的木乃伊怪人Mamidark從長眠中甦醒，襲擊了Yellow。Yellow究竟能否將Galaxia Stone收入囊中呢？［BAD END］",
+    "source_cover": "https://cc18.tv/preview/80/b/2mltTS0Zp6R-800.jpg?v=1788727088",
+    "raw_performer_names": [
+      "若月萌亞"
+    ],
+    "performer_relations": [
+      {
+        "source_type": "actor",
+        "source_id": "28685",
+        "stable_source_id": "cc18.tv:actor:28685",
+        "source_name": "若月萌亞",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=28685",
+        "observed_at": "2026-09-07T10:18:54.605Z"
+      }
+    ],
+    "series_relations": [
+      {
+        "source_type": "series",
+        "source_id": "20697",
+        "stable_source_id": "cc18.tv:series:20697",
+        "source_name": "戦隊ヒロインアクションピンチ",
+        "source_url": "https://cc18.tv/search.php?s_type=series&s_tid=20697",
+        "observed_at": "2026-09-07T10:18:54.605Z"
+      }
+    ],
+    "tag_relations": [
+      {
+        "source_type": "tag",
+        "source_id": "11",
+        "stable_source_id": "cc18.tv:tag:11",
+        "source_name": "AV女優片",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=11",
+        "observed_at": "2026-09-07T10:18:54.605Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "14",
+        "stable_source_id": "cc18.tv:tag:14",
+        "source_name": "動作遊戲‧格鬥",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=14",
+        "observed_at": "2026-09-07T10:18:54.605Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "128",
+        "stable_source_id": "cc18.tv:tag:128",
+        "source_name": "樣品動畫",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=128",
+        "observed_at": "2026-09-07T10:18:54.605Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "146",
+        "stable_source_id": "cc18.tv:tag:146",
+        "source_name": "ACT(動作)",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=146",
+        "observed_at": "2026-09-07T10:18:54.605Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "181",
+        "stable_source_id": "cc18.tv:tag:181",
+        "source_name": "特攝",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=181",
+        "observed_at": "2026-09-07T10:18:54.605Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "479",
+        "stable_source_id": "cc18.tv:tag:479",
+        "source_name": "720p",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=479",
+        "observed_at": "2026-09-07T10:18:54.605Z"
+      }
+    ],
+    "fac_relations": [
+      {
+        "source_type": "fac",
+        "source_id": "121",
+        "stable_source_id": "cc18.tv:fac:121",
+        "source_name": "GIGA",
+        "source_url": "https://cc18.tv/search.php?s_type=fac&s_tid=121",
+        "observed_at": "2026-09-07T10:18:54.605Z"
+      }
+    ],
+    "raw_studio_name": "GIGA",
+    "raw_series_names": [
+      "戦隊ヒロインアクションピンチ"
+    ],
+    "source_tags": [
+      "AV女優片",
+      "動作遊戲‧格鬥",
+      "樣品動畫",
+      "ACT(動作)",
+      "特攝",
+      "720p"
+    ],
+    "source_record_ref": "data/source-records/SPSF-55.json",
+    "source_snapshot_ref": null,
+    "source_fetched_at": "2026-09-07T10:18:54.605Z",
+    "source_verified_at": null,
+    "source_parser_version": null
+  },
+  "display": {
+    "performers": [
+      {
+        "source_actor_id": "cc18.tv:actor:28685",
+        "name_ja": null,
+        "display_name_zh_tw": null,
+        "display_name": "若月萌亞",
+        "verification_status": "SOURCE_NAME_FALLBACK"
+      }
+    ]
+  },
+  "titles": {
+    "article_title": "SPSF-55 若月萌亞｜SPSF-55",
+    "translated_title_zh_tw": null,
+    "display_short_title": null,
+    "seo_title": "SPSF-55 若月萌亞｜作品資料｜SPSF-55"
+  },
+  "derived": {
+    "quality_codes": [
+      "HD_720P"
+    ],
+    "duration_seconds": null,
+    "canonical_topic_tag_ids": [
+      "adult-performer",
+      "hd"
+    ]
+  },
+  "editorial": {
+    "one_line_summary": "來源資料可確認本作以「SPSF-55」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "article_ref": "content/reviews/SPSF-55.md",
+    "article_evidence_level": "PUBLIC_METADATA",
+    "article_evidence_scope": "SOURCE_TITLE_DESCRIPTION_TAGS"
+  },
+  "media": {
+    "remotion_promo_ref": "data/media-manifests/SPSF-55.json#/video"
+  },
+  "evidence": {
+    "records": []
+  },
+  "publishing": {
+    "is_published": true,
+    "published_at": "2026-09-07",
+    "canonical_url": "https://cc18.pages.dev/works/spsf-55/",
+    "indexability": "INDEX",
+    "content_hash": "03a2b402786934959274de1de7666793236488da0f9adfbe95695605982c3d9c"
+  },
+  "legacy": {
+    "legacy_published_at": null,
+    "legacy_published_at_semantics": null
+  }
+}

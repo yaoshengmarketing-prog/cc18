@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "SPSF-55",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-07T10:32:07.503Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/SPSF-55/hero-v1.jpg",
+      "r2_key": "works/2026/09/SPSF-55/hero-v1.jpg",
+      "bytes": 689965,
+      "sha256": "04f9e3306ef52aca1b46da2b8e72798d93684c1656df87951eba5d049ee662e3",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "642c570b-275c-4b76-92b1-fb5b70acc155",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/SPSF-55/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/SPSF-55/scene-vertical-v1.jpg",
+      "bytes": 794973,
+      "sha256": "84c4b27bd05338716605978ec98c1e7f61fdadab367065b412ace36ce2d163ea",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "59785a93-02ac-4273-9fbe-3f8dd922ffd0",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2355078,
+    "sha256": "e891c8136a3784c5cbf72e2d04c029e9c825238867235af76f7b28050aa10c4e",
+    "target_r2_key": "works/2026/09/SPSF-55/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/SPSF-55/vertical-v1.mp4"
+  }
+}
