@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "CEMD-889",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-07T16:38:59.276Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/CEMD-889/hero-v1.jpg",
+      "r2_key": "works/2026/09/CEMD-889/hero-v1.jpg",
+      "bytes": 863847,
+      "sha256": "08896a27fad5b10ef4848d2e63ed48c4005dd94a162d71115abd037ef2ac9d1a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "e8080463-c844-437c-9ac1-a06b62d8447c",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/CEMD-889/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/CEMD-889/scene-vertical-v1.jpg",
+      "bytes": 940651,
+      "sha256": "48cb99b321c681a8d13f8f3c6d7df96b8badfb85d66970fab5471cff33ecbbe1",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "44ae4a44-2563-4213-9feb-ed8fede0d1af",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2452311,
+    "sha256": "dbbb2c73b70718c1c9e7ed9c3361ce379f19f940b251d48666849bb8b63bb0a7",
+    "target_r2_key": "works/2026/09/CEMD-889/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/CEMD-889/vertical-v1.mp4"
+  }
+}

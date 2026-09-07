@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:0ce56406f16a8d26d40c1c6858219f216a6c9e3da96a9f2915aca3005781336c",
-  "source_generated_at": "2026-09-07T10:32:49.583Z",
+  "source_revision": "sha256:048be63a4a62e6a55036e6dd3a7802eeb83033c2a3e3908b542b48e94c7462c8",
+  "source_generated_at": "2026-09-07T16:43:52.996Z",
   "counts": {
-    "movies": 73,
-    "performers": 83,
+    "movies": 77,
+    "performers": 86,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -155,6 +155,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-374"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:24396",
+      "display_name": "天川そら",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "天川そら",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:EKDV-826"
       ]
     },
     {
@@ -309,6 +320,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DOKS-689"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:41229",
+      "display_name": "糸井瑠花",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "糸井瑠花",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CEMD-889"
       ]
     },
     {
@@ -901,6 +923,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:565",
+      "display_name": "橫山夏希",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "橫山夏希",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CLOT-043"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:46713",
       "display_name": "濱邊彌生",
       "display_name_zh_tw": null,
@@ -950,6 +983,165 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:CEMD-889",
+        "source_cover": "https://cc18.tv/preview/80/b/nk96zNagj45-800.jpg?v=1788727088",
+        "title": "CEMD-889 糸井瑠花｜44",
+        "catalog_code": "CEMD-889",
+        "release_date": "2026-09-05",
+        "performers": [
+          "糸井瑠花"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/cemd-889/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:41229"
+      ],
+      "search": {
+        "source_title": "恥辱,凌辱,跳蛋裝著・繁華街約會！44 糸井瑠花",
+        "article_title": "CEMD-889 糸井瑠花｜44",
+        "display_short_title": null,
+        "slug": "cemd-889"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:CLOT-043",
+        "source_cover": "https://cc18.tv/preview/80/b/nRJtxGjm12G-800.jpg?v=1788727093",
+        "title": "CLOT-043 橫山夏希｜魅惑の黒パンスト女上司",
+        "catalog_code": "CLOT-043",
+        "release_date": "2026-09-05",
+        "performers": [
+          "橫山夏希"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "office-lady",
+            "label": "OL"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/clot-043/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:565"
+      ],
+      "search": {
+        "source_title": "魅惑的黑色連褲襪女上司 横山夏希",
+        "article_title": "CLOT-043 橫山夏希｜魅惑の黒パンスト女上司",
+        "display_short_title": null,
+        "slug": "clot-043"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:EKDV-826",
+        "source_cover": "https://cc18.tv/preview/80/b/a8mgLh_GU2c-800.jpg?v=1788727094",
+        "title": "EKDV-826 天川そら｜彼女と癒され同棲生活",
+        "catalog_code": "EKDV-826",
+        "release_date": "2026-09-05",
+        "performers": [
+          "天川そら"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "kissing",
+            "label": "親吻互動"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ekdv-826/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:24396"
+      ],
+      "search": {
+        "source_title": "【4K】互相凝視的騎乘位令人難以抗拒… 與肉食系高超女友的療癒同居生活 天川そら",
+        "article_title": "EKDV-826 天川そら｜彼女と癒され同棲生活",
+        "display_short_title": null,
+        "slug": "ekdv-826"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:GVH-878",
@@ -1050,6 +1242,59 @@
         "article_title": "NACT-182 月野江翠｜オイルマニア",
         "display_short_title": null,
         "slug": "nact-182"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:OREMO-606",
+        "source_cover": "https://cc18.tv/preview/80/b/BEO__F3sW19-800.jpg?v=1788726957",
+        "title": "OREMO-606 獨家 × 素人企劃｜獨家",
+        "catalog_code": "OREMO-606",
+        "release_date": "2026-09-05",
+        "performers": [],
+        "canonical_topics": [
+          {
+            "id": "amateur",
+            "label": "素人"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "fhd",
+            "label": "全高清 FHD"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "streaming-only",
+            "label": "配信限定"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/oremo-606/"
+      },
+      "performer_ids": [],
+      "search": {
+        "source_title": "獨家 愛&惠美里",
+        "article_title": "OREMO-606 獨家 × 素人企劃｜獨家",
+        "display_short_title": null,
+        "slug": "oremo-606"
       }
     },
     {
