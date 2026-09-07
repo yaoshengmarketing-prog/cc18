@@ -566,11 +566,12 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
-        "HAWA-385"
+        "HAWA-385",
+        "DSOD-067"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
@@ -1049,6 +1050,26 @@
       "occurrences": 1,
       "source_ids": [
         "MAAN-1192"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "多汗",
+      "occurrences": 1,
+      "source_ids": [
+        "DSOD-067"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "ヨガ",
+      "occurrences": 1,
+      "source_ids": [
+        "DSOD-067"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",

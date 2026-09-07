@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-067",
+  "review_sha256": "ae5e65cb0b09106083552e7e24a0e6f11826ee6c3243cd5c4015064e3caa4c40",
+  "selected_thesis": "來源資料可確認本作以「被下媚藥發汗發情」作為主要作品線索。",
+  "title_basis": {
+    "performer": "宍戸里帆",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "宍戸里帆",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "被下媚藥發汗發情",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "ガクガク痙攣敏感ホットヨガ教室",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "宍戸里帆",
+    "presentation_feature": "被下媚藥發汗發情",
+    "editorial_judgment": "來源資料可確認本作以「被下媚藥發汗發情」作為主要作品線索。",
+    "source_keywords": [
+      "宍戸里帆",
+      "被下媚藥發汗發情",
+      "ガクガク痙攣敏感ホットヨガ教室",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：宍戸里帆",
+      "supports": "這項可追溯來源訊號支持文章以「宍戸里帆」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：ガクガク痙攣敏感ホットヨガ教室",
+      "supports": "這項可追溯來源訊號支持文章以「ガクガク痙攣敏感ホットヨガ教室」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：被下媚藥發汗發情",
+      "supports": "這項可追溯來源訊號支持文章以「被下媚藥發汗發情」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-06T16:00:00.000Z"
+}

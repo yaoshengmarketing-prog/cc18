@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:c107baf9129e928ca729505d18c8aeb4a00eb843e03639f989c958ecc00440cb",
-  "source_generated_at": "2026-09-06T23:58:18.913Z",
+  "source_revision": "sha256:d88a87e1fe9dd623f9cd1fd74b43c5194d31be5c24819b034b7373c5ce126f91",
+  "source_generated_at": "2026-09-07T00:02:01.427Z",
   "counts": {
-    "movies": 61,
-    "performers": 73,
+    "movies": 62,
+    "performers": 74,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -265,6 +265,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PRIAN-054"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:27246",
+      "display_name": "宍戸里帆",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "宍戸里帆",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DSOD-067"
       ]
     },
     {
@@ -970,6 +981,51 @@
         "article_title": "DSOD-031 倉本蓳｜如果要道歉",
         "display_short_title": null,
         "slug": "dsod-031"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DSOD-067",
+        "source_cover": "https://cc18.tv/preview/80/b/z6MoFbteF8z-800.jpg?v=1788525534",
+        "title": "DSOD-067 宍戸里帆｜被下媚藥發汗發情",
+        "catalog_code": "DSOD-067",
+        "release_date": "2026-09-04",
+        "performers": [
+          "宍戸里帆"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dsod-067/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27246"
+      ],
+      "search": {
+        "source_title": "被下媚藥發汗發情！自然而然地粗俗開腿噴水漏尿！全身抽搐痙攣敏感熱瑜伽教室 宍戶里帆",
+        "article_title": "DSOD-067 宍戸里帆｜被下媚藥發汗發情",
+        "display_short_title": null,
+        "slug": "dsod-067"
       }
     },
     {
