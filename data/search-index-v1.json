@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:0ce56406f16a8d26d40c1c6858219f216a6c9e3da96a9f2915aca3005781336c",
-  "source_generated_at": "2026-09-07T10:32:49.583Z",
+  "source_revision": "sha256:b8f480cc55104f7e6c6b25f4bea5dbd2c24901262b4b72ffadf5842bcbe72e1c",
+  "source_generated_at": "2026-09-07T16:31:56.960Z",
   "counts": {
-    "movies": 73,
-    "performers": 83,
+    "movies": 74,
+    "performers": 84,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -155,6 +155,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-374"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:24396",
+      "display_name": "天川そら",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "天川そら",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:EKDV-826"
       ]
     },
     {
@@ -950,6 +961,67 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:EKDV-826",
+        "source_cover": "https://cc18.tv/preview/80/b/a8mgLh_GU2c-800.jpg?v=1788727094",
+        "title": "EKDV-826 天川そら｜彼女と癒され同棲生活",
+        "catalog_code": "EKDV-826",
+        "release_date": "2026-09-05",
+        "performers": [
+          "天川そら"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "kissing",
+            "label": "親吻互動"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ekdv-826/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:24396"
+      ],
+      "search": {
+        "source_title": "【4K】互相凝視的騎乘位令人難以抗拒… 與肉食系高超女友的療癒同居生活 天川そら",
+        "article_title": "EKDV-826 天川そら｜彼女と癒され同棲生活",
+        "display_short_title": null,
+        "slug": "ekdv-826"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:GVH-878",
