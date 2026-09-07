@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:048be63a4a62e6a55036e6dd3a7802eeb83033c2a3e3908b542b48e94c7462c8",
-  "source_generated_at": "2026-09-07T16:43:52.996Z",
+  "source_revision": "sha256:ac88d6298bb366f959fdd30b079299f9df6a9a6a82263c6d16b3cc506988d9f8",
+  "source_generated_at": "2026-09-07T16:47:24.624Z",
   "counts": {
-    "movies": 77,
-    "performers": 86,
+    "movies": 78,
+    "performers": 87,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -468,6 +468,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DOKS-690"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53386",
+      "display_name": "花咲澪",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "花咲澪",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:IPZZ-941"
       ]
     },
     {
@@ -1798,6 +1809,55 @@
         "article_title": "IPZZ-916 三澄寧々｜三澄寧寧",
         "display_short_title": null,
         "slug": "ipzz-916"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:IPZZ-941",
+        "source_cover": "https://cc18.tv/preview/80/b/x3YR5D5eLZ-800.jpg?v=1788555973",
+        "title": "IPZZ-941 花咲澪｜黑化後的我趁死黨住院期間",
+        "catalog_code": "IPZZ-941",
+        "release_date": "2026-09-04",
+        "performers": [
+          "花咲澪"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ipzz-941/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53386"
+      ],
+      "search": {
+        "source_title": "我暗戀的打工同事澪小姐竟然背叛我跟死黨交往！黑化後的我趁死黨住院期間，將禁慾到發癢的她徹底強姦，把她調教成沒有我就活不下去的肉便器！ 花咲澪",
+        "article_title": "IPZZ-941 花咲澪｜黑化後的我趁死黨住院期間",
+        "display_short_title": null,
+        "slug": "ipzz-941"
       }
     },
     {
