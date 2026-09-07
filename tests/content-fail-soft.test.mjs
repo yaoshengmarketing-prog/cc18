@@ -117,9 +117,11 @@ test('sparse content becomes warnings while identity mismatches still fail close
     search.timeline_summary = [];
     await writeFile(searchPath, `${JSON.stringify(search, null, 2)}\n`, 'utf8');
 
+    const registry = JSON.parse(await readFile(join(root, 'data/movie-registry.json'), 'utf8'));
+    const publishedCount = registry.records.filter(({review_status: status}) => status === 'published').length;
     const accepted = runValidator(root);
     assert.equal(accepted.status, 0, accepted.stderr || accepted.stdout);
-    assert.match(accepted.stdout, /Content valid: 16 published review\(s\)/u);
+    assert.match(accepted.stdout, new RegExp(`Content valid: ${publishedCount} published review\\(s\\)`, 'u'));
     assert.match(accepted.stderr, /content_validation_warnings/u);
     for (const code of [
       'title_signal_count', 'missing_canonical_tags', 'insufficient_source_evidence',

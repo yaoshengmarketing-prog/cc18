@@ -5,7 +5,9 @@ import {copyFile, mkdir, mkdtemp, readFile, rm, symlink, writeFile} from 'node:f
 import {join} from 'node:path';
 import {tmpdir} from 'node:os';
 import {
+  assertRestoredCheckpointAuthorization,
   createCleanWorktree,
+  createRestoredCheckpointAuthorization,
   checkpointRef,
   deleteWorkCheckpoint,
   removeCleanWorktree,
@@ -47,7 +49,7 @@ test('runner-managed node_modules directory link is excluded without hiding othe
   }
 });
 
-test('isolated canary crosses the untracked guard and enters the existing editorial flow with a directory link', async () => {
+test('isolated canary accepts an authorized checkpoint and enters the existing editorial flow with a directory link', async () => {
   const temporary = await mkdtemp(join(tmpdir(), 'cc18-canary-flow-link-'));
   try {
     const fixture = join(temporary, 'repo');
@@ -73,10 +75,23 @@ test('isolated canary crosses the untracked guard and enters the existing editor
     git(fixture, 'add', '.');
     git(fixture, 'commit', '-m', 'fixture');
     await symlink(dependencies, join(fixture, 'node_modules'), process.platform === 'win32' ? 'junction' : 'dir');
+    await put(fixture, 'data/movie-registry.json', '{"records":[{"id":"TEST-001","review_status":"draft"}]}\n');
+    await put(fixture, 'data/source-records/TEST-001.json', '{"id":"TEST-001"}\n');
+    const restoredAuthorization = await createRestoredCheckpointAuthorization({
+      workspaceRoot: fixture,
+      movieId: 'TEST-001',
+      restoredPaths: ['data/movie-registry.json', 'data/source-records/TEST-001.json'],
+    });
     const result = spawnSync(process.execPath, [join(fixture, 'scripts/canary/run.mjs'), '--max=1', '--ids=TEST-001'], {
       cwd: fixture,
       encoding: 'utf8',
-      env: {...process.env, CC18_CANARY_ISOLATED_WORKSPACE: 'YES', CC18_CANARY_MANAGED_NODE_MODULES_LINK: 'YES', CC18_ALLOW_EDITORIAL_TRANSMISSION: 'YES'},
+      env: {
+        ...process.env,
+        CC18_CANARY_ISOLATED_WORKSPACE: 'YES',
+        CC18_CANARY_MANAGED_NODE_MODULES_LINK: 'YES',
+        CC18_CANARY_RESTORED_CHECKPOINT: JSON.stringify(restoredAuthorization),
+        CC18_ALLOW_EDITORIAL_TRANSMISSION: 'YES',
+      },
     });
     assert.equal(result.status, 0, `${result.stdout}\n${result.stderr}`);
     assert.doesNotMatch(`${result.stdout}\n${result.stderr}`, /EISDIR/u);
@@ -167,6 +182,35 @@ test('a failed work checkpoint cannot contaminate the next work or shared projec
       'M data/tag-candidates.json',
       '?? content/reviews/A-001.md',
     ]);
+    const authorization = await createRestoredCheckpointAuthorization({
+      workspaceRoot: retryWorkspace.workspaceRoot,
+      movieId: 'A-001',
+      restoredPaths: restored.paths,
+    });
+    assert.deepEqual(await assertRestoredCheckpointAuthorization({
+      workspaceRoot: retryWorkspace.workspaceRoot,
+      movieId: 'A-001',
+      authorization,
+    }), authorization.paths.map(({path}) => path));
+    await put(retryWorkspace.workspaceRoot, 'content/reviews/B-002.md', 'OTHER WORK\n');
+    await assert.rejects(() => assertRestoredCheckpointAuthorization({
+      workspaceRoot: retryWorkspace.workspaceRoot,
+      movieId: 'A-001',
+      authorization,
+    }), /worktree changes differ/u);
+    await rm(join(retryWorkspace.workspaceRoot, 'content/reviews/B-002.md'));
+    await put(retryWorkspace.workspaceRoot, 'content/reviews/A-001.md', 'ALTERED AFTER AUTHORIZATION\n');
+    await assert.rejects(() => assertRestoredCheckpointAuthorization({
+      workspaceRoot: retryWorkspace.workspaceRoot,
+      movieId: 'A-001',
+      authorization,
+    }), /content changed after validation/u);
+    await put(retryWorkspace.workspaceRoot, 'content/reviews/A-001.md', 'A CHECKPOINT\n');
+    await assert.rejects(() => assertRestoredCheckpointAuthorization({
+      workspaceRoot: retryWorkspace.workspaceRoot,
+      movieId: 'B-001',
+      authorization,
+    }), /invalid restored checkpoint authorization/u);
     git(retryWorkspace.workspaceRoot, 'config', 'user.name', 'test');
     git(retryWorkspace.workspaceRoot, 'config', 'user.email', 'test@example.invalid');
     registry.records.find(({id}) => id === 'A-001').review_status = 'published';

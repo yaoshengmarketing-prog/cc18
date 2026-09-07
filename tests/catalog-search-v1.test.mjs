@@ -2,7 +2,13 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {buildSearchIndex} from '../scripts/build-search-index.mjs';
-import {classifySearchQuery, normalizeCatalogCode, searchCatalog, searchableAliasNames} from '../src/lib/catalog-search.mjs';
+import {
+  classifySearchQuery,
+  compactSearchText,
+  normalizeCatalogCode,
+  searchCatalog,
+  searchableAliasNames,
+} from '../src/lib/catalog-search.mjs';
 
 const expectedPeople = new Map([
   ['cc18.tv:actor:54454', {movie: 'cc18:SNOS-409', queries: ['星空ねる', '星空音琉', 'ねる', '音琉', '星空']}],
@@ -55,28 +61,54 @@ test('SNOS-345 search keeps source and localized performer names on one actor an
 
 test('single Han and kana characters search performers only with field-priority ordering and stable ID deduplication', async () => {
   const index = await buildSearchIndex();
-  const cases = new Map([
-    ['音', {
-      people: ['cc18.tv:actor:28932', 'cc18.tv:actor:54454'],
-      movies: ['cc18:NAMH-074', 'cc18:SNOS-409'],
-    }],
-    ['星', {people: ['cc18.tv:actor:54454'], movies: ['cc18:SNOS-409']}],
-    ['空', {people: ['cc18.tv:actor:54454'], movies: ['cc18:SNOS-409']}],
-    ['ね', {people: ['cc18.tv:actor:54454'], movies: ['cc18:SNOS-409']}],
-    ['澪', {people: ['cc18.tv:actor:30343'], movies: ['cc18:SDAB-358']}],
-  ]);
-  for (const [query, expected] of cases) {
+  const expectedMatches = (query) => index.performers.map((person) => {
+    const fields = [
+      ['display_name_zh_tw', person.display_name_zh_tw, 4],
+      ['name_ja', person.name_ja, 3],
+      ['source_name', person.source_name, 2],
+      ...(person.searchable_aliases ?? []).map((name) => ['searchable_alias', name, 1]),
+    ].filter(([, name]) => Boolean(name));
+    let best = null;
+    for (const [field, name, priority] of fields) {
+      const normalizedName = compactSearchText(name);
+      const normalizedQuery = compactSearchText(query);
+      const kind = normalizedName === normalizedQuery ? 'exact'
+        : normalizedName.startsWith(normalizedQuery) ? 'prefix'
+          : normalizedName.includes(normalizedQuery) ? 'partial'
+            : null;
+      if (!kind) continue;
+      const score = priority * 1000 + {exact: 300, prefix: 200, partial: 100}[kind];
+      if (!best || score > best.score) best = {field, score};
+    }
+    return best ? {...person, ...best} : null;
+  }).filter(Boolean)
+    .sort((left, right) => right.score - left.score || left.display_name.localeCompare(right.display_name, 'zh-Hant'));
+
+  for (const query of ['音', '星', '空', 'ね', '澪']) {
     const result = searchCatalog(index, query);
+    const people = expectedMatches(query);
+    const byId = new Map(people.map((person) => [person.stable_actor_id, person]));
+    const movies = index.movies.filter((movie) => movie.performer_ids.some((id) => byId.has(id)))
+      .map((movie) => ({
+        ...movie,
+        score: Math.max(...movie.performer_ids.map((id) => byId.get(id)?.score ?? 0)),
+      }))
+      .sort((left, right) => right.score - left.score
+        || (right.card.release_date ?? '').localeCompare(left.card.release_date ?? '')
+        || left.card.catalog_code.localeCompare(right.card.catalog_code, 'en'));
     assert.equal(result.valid, true, query);
     assert.equal(result.performerOnly, true, query);
-    assert.deepEqual(result.people.map(({stable_actor_id}) => stable_actor_id), expected.people, query);
-    assert.deepEqual(result.movies.map(({card}) => card.stable_movie_id), expected.movies, query);
+    assert.deepEqual(result.people.map(({stable_actor_id}) => stable_actor_id), people.map(({stable_actor_id}) => stable_actor_id), query);
+    assert.deepEqual(result.movies.map(({card}) => card.stable_movie_id), movies.map(({card}) => card.stable_movie_id), query);
     assert.equal(new Set(result.people.map(({stable_actor_id}) => stable_actor_id)).size, result.people.length, query);
     assert.equal(new Set(result.movies.map(({card}) => card.stable_movie_id)).size, result.movies.length, query);
   }
   const sound = searchCatalog(index, '音');
-  assert.equal(sound.people[0].match_field, 'name_ja');
-  assert.equal(sound.people[1].match_field, 'searchable_alias');
+  const jaMatchIndex = sound.people.findIndex(({stable_actor_id: id}) => id === 'cc18.tv:actor:28932');
+  const aliasMatchIndex = sound.people.findIndex(({stable_actor_id: id}) => id === 'cc18.tv:actor:54454');
+  assert.equal(sound.people[jaMatchIndex].match_field, 'name_ja');
+  assert.equal(sound.people[aliasMatchIndex].match_field, 'searchable_alias');
+  assert.ok(jaMatchIndex < aliasMatchIndex, 'name_ja field priority must outrank searchable_alias');
 });
 
 test('single-character performer search never scans movie fields', () => {

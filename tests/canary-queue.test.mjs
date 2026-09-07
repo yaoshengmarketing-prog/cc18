@@ -46,11 +46,13 @@ test('single-work canary protects but is not blocked by unrelated pre-existing u
   assert.match(isolated, /createCleanWorktree/u);
   assert.match(isolated, /CC18_CANARY_MANAGED_NODE_MODULES_LINK/u);
   assert.match(isolated, /restoreWorkCheckpoint/u);
+  assert.match(isolated, /createRestoredCheckpointAuthorization/u);
   assert.match(isolated, /saveWorkCheckpoint/u);
   assert.match(isolated, /recordWorkError\('checkpoint_restore'/u);
   assert.match(isolated, /recordWorkError\('checkpoint_save'/u);
   assert.match(isolated, /work_error: workError/u);
-  assert.match(source, /status', '--porcelain', '--untracked-files=no/u);
+  assert.match(source, /assertRestoredCheckpointAuthorization/u);
+  assert.match(source, /CC18_CANARY_RESTORED_CHECKPOINT/u);
   assert.match(source, /protectedUntrackedPaths/u);
   assert.match(source, /assertProtectedUntrackedUnchanged/u);
   assert.match(source, /protected pre-existing untracked artifact/u);

@@ -63,7 +63,7 @@ for (const evidence of records) {
     if (notice.find('h2').text().trim() !== '依據：公開來源資料') throw new Error(`${evidence.catalog_code}: public Evidence title mismatch`);
     if (notice.find('p').last().text().trim() !== expectedPublicText) throw new Error(`${evidence.catalog_code}: public Evidence copy mismatch`);
     if ($('.timeline-board').length !== 0) throw new Error(`${evidence.catalog_code}: PUBLIC_METADATA rendered a video timeline`);
-  } else {
+  } else if (evidence.evidence_level === 'DISTRIBUTED_SAMPLE') {
     distributedCount += 1;
     const expectedText = `本文使用 ${evidence.sample_windows} 個分散抽樣窗；僅支持已引用窗口內的視覺觀察，不代表逐秒完整觀看，也不支持未轉錄音訊或抽樣窗口之間的完整順序。選片建議與解讀屬本站編輯整理。`;
     if (notice.find('h2').text().trim() !== '依據：分散影片抽樣') throw new Error(`${evidence.catalog_code}: distributed Evidence title mismatch`);
@@ -73,12 +73,12 @@ for (const evidence of records) {
     for (const item of evidence.timeline) {
       if (!html.includes(item.label) || !html.includes(item.summary)) throw new Error(`${evidence.catalog_code}: Movie Master timeline content missing`);
     }
+  } else {
+    throw new Error(`${evidence.catalog_code}: unsupported Evidence level ${evidence.evidence_level}`);
   }
 }
 
-if (publicMetadataCount !== 15 || distributedCount !== 1) {
-  throw new Error(`Evidence distribution mismatch: ${publicMetadataCount} PUBLIC_METADATA, ${distributedCount} DISTRIBUTED_SAMPLE`);
-}
+if (publicMetadataCount + distributedCount !== records.length) throw new Error('Evidence distribution does not cover the public catalog');
 const workDirectories = (await readdir(resolve(dist, 'works'), {withFileTypes: true})).filter((entry) => entry.isDirectory());
 if (workDirectories.length !== records.length) throw new Error('Built work-page set differs from the Evidence catalog');
 

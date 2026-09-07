@@ -114,13 +114,24 @@ test('performer search contract supports continuous partial matches and deduplic
   assert.equal(search('星空').length, 1);
 });
 
-test('10 published Source Records preserve 14 typed performer relations and original names', async () => {
-  const index = await readJson('data/movie-master/index.json');
+test('published Source Records preserve the current typed performer relation set and original names', async () => {
+  const [index, registry] = await Promise.all([
+    readJson('data/movie-master/index.json'),
+    readJson('data/movie-registry.json'),
+  ]);
   const publishedEntries = index.entries.filter(({is_published: isPublished}) => isPublished);
+  const publishedCodes = registry.records
+    .filter(({review_status: status}) => status === 'published')
+    .map(({id}) => id)
+    .sort();
+  assert.deepEqual(publishedEntries.map(({catalog_code: code}) => code).sort(), publishedCodes);
+  const publishedSources = await Promise.all(publishedEntries
+    .map(({catalog_code: catalogCode}) => readJson(`data/source-records/${catalogCode}.json`)));
+  const expectedRecordsWithPerformers = publishedSources.filter(({actress}) => actress.length > 0).length;
+  const expectedRelationCount = publishedSources.reduce((count, {actress}) => count + actress.length, 0);
   let recordsWithPerformers = 0;
   let relationCount = 0;
-  for (const {catalog_code: catalogCode} of publishedEntries) {
-    const source = await readJson(`data/source-records/${catalogCode}.json`);
+  for (const source of publishedSources) {
     const relations = source.source_relations?.performers ?? [];
     if (source.actress.length === 0) {
       assert.deepEqual(relations, []);
@@ -138,6 +149,6 @@ test('10 published Source Records preserve 14 typed performer relations and orig
       assert.equal(url.searchParams.get('s_tid'), relation.source_id);
     }
   }
-  assert.equal(recordsWithPerformers, 10);
-  assert.equal(relationCount, 14);
+  assert.equal(recordsWithPerformers, expectedRecordsWithPerformers);
+  assert.equal(relationCount, expectedRelationCount);
 });

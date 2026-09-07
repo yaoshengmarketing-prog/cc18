@@ -59,6 +59,57 @@ test('structured request uses Responses API schema and store false', async () =>
   assert.equal(result.text, '{"ok":true}');
 });
 
+test('provider content filter uses one deterministic source fallback without repeating the prompt', async () => {
+  let calls = 0;
+  const result = await requestStructuredEditorial({
+    apiKey: 'test-only',
+    config: {...config, api_retry_count: 3},
+    schema: {type: 'object'},
+    instructions: 'full draft',
+    input: {movie_id: 'FILTER-001'},
+    contentFilterFallbackText: '{}',
+    fetchImplementation: async () => {
+      calls += 1;
+      return new Response(JSON.stringify({
+        error: {
+          code: 'content_filter',
+          message: 'request filtered',
+          innererror: {code: 'ResponsibleAIPolicyViolation'},
+        },
+      }), {status: 400, headers: {'content-type': 'application/json'}});
+    },
+  });
+  assert.equal(calls, 1);
+  assert.deepEqual(result, {text: '{}', usage: null, fallback: 'provider_content_filter'});
+});
+
+test('gateway-wrapped provider content filter also falls back after one request', async () => {
+  let calls = 0;
+  const result = await requestStructuredEditorial({
+    apiKey: 'test-only',
+    config: {...config, api_retry_count: 3},
+    schema: {type: 'object'},
+    instructions: 'full draft',
+    input: {movie_id: 'FILTER-002'},
+    contentFilterFallbackText: '{}',
+    fetchImplementation: async () => {
+      calls += 1;
+      return new Response(JSON.stringify({
+        error: {
+          message: JSON.stringify({
+            error: {
+              code: 'content_filter',
+              innererror: {code: 'ResponsibleAIPolicyViolation'},
+            },
+          }),
+        },
+      }), {status: 400, headers: {'content-type': 'application/json'}});
+    },
+  });
+  assert.equal(calls, 1);
+  assert.equal(result.fallback, 'provider_content_filter');
+});
+
 test('blank short_review uses one targeted repair request instead of regenerating the draft', async () => {
   let calls = 0;
   const requestBodies = [];

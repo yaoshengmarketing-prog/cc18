@@ -341,3 +341,26 @@ test('source-only repair always replaces stale video prose even when old refs lo
   assert.doesNotMatch(publicText, /舊影片/u);
   assert.ok(projection.result.evidence.every(({basis, observation_refs: refs}) => basis === 'public_source' && refs.length === 0));
 });
+
+test('an empty provider result becomes a complete source-only publication after a content filter', () => {
+  const safePublicSource = {
+    core_source_concept: '可追溯來源企劃',
+    safe_title_signals: [{type: 'source_topic', value: '可追溯來源企劃', source_field: 'safe_signals'}],
+    source_url: 'https://cc18.tv/player.php?uuid=test',
+  };
+  const safeVideoAnalysis = {duration_seconds: null, sample_windows: 0, average_confidence: null, observations: []};
+  const normalized = normalizeEditorialResult({}, {movieId: 'FILTER-001', safePublicSource, safeVideoAnalysis});
+  const projection = publicationProjectionForEvidence({
+    result: normalized,
+    movieId: 'FILTER-001',
+    safePublicSource,
+    safeVideoAnalysis,
+    sourceOnly: true,
+  });
+  assert.equal(projection.publishVideoEvidence, false);
+  assert.equal(projection.downgraded, true);
+  assert.match(projection.result.short_review, /可追溯來源企劃/u);
+  assert.equal(projection.result.sections.length, 1);
+  assert.deepEqual(projection.result.editorial_tag_ids, []);
+  assert.ok(projection.result.evidence.every(({basis}) => basis === 'public_source'));
+});

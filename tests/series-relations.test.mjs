@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
 import {
   parseSeriesSourceId,
   parseSeriesRouteSegment,
@@ -312,18 +313,43 @@ test('work page series links and Article Schema share the exact typed catalog pr
   }), true);
 });
 
-test('formal series catalog exposes four thin stable entities and twelve explicit non-series works', async () => {
+test('formal series catalog matches the current published Registry and typed Movie Master relations', async () => {
   const catalog = await loadSeriesCatalog();
-  assert.deepEqual(catalog.counts, {public_works: 16, stable_series: 4, thin_series: 4, index_ready_series: 0});
-  assert.deepEqual(catalog.series.map(({stable_series_id: id}) => id).sort(), [
-    'cc18.tv:series:14969',
-    'cc18.tv:series:18993',
-    'cc18.tv:series:20710',
-    'cc18.tv:series:20725',
+  const [registry, index] = await Promise.all([
+    readFile(new URL('../data/movie-registry.json', import.meta.url), 'utf8').then(JSON.parse),
+    readFile(new URL('../data/movie-master/index.json', import.meta.url), 'utf8').then(JSON.parse),
   ]);
-  assert.equal(catalog.ordered_series_by_work.filter(({series}) => series.length === 0).length, 12);
-  assert.equal(catalog.series.every(({display_name: display, source_name: source, index_decision: decision}) => (
-    display === source && decision === 'NOINDEX_THIN'
+  const publishedCodes = new Set(registry.records
+    .filter(({review_status: status}) => status === 'published')
+    .map(({id}) => id));
+  const publicMasters = [];
+  for (const entry of index.entries.filter(({catalog_code: code, is_demo: demo}) => publishedCodes.has(code) && !demo)) {
+    const master = JSON.parse(await readFile(new URL(`../${entry.master_path}`, import.meta.url), 'utf8'));
+    if (master.publishing?.indexability === 'INDEX') publicMasters.push(master);
+  }
+  const workCountBySeries = new Map();
+  let explicitNoSeries = 0;
+  for (const master of publicMasters) {
+    const relations = master.source?.series_relations;
+    assert.ok(Array.isArray(relations), `${master.source?.catalog_code}: missing explicit series relation array`);
+    if (relations.length === 0) explicitNoSeries += 1;
+    for (const relation of relations) {
+      workCountBySeries.set(relation.stable_source_id, (workCountBySeries.get(relation.stable_source_id) ?? 0) + 1);
+    }
+  }
+  const expectedSeriesIds = [...workCountBySeries.keys()].sort();
+  const expectedThin = [...workCountBySeries.values()].filter((count) => count < 3).length;
+  const expectedIndexReady = workCountBySeries.size - expectedThin;
+  assert.deepEqual(catalog.counts, {
+    public_works: publicMasters.length,
+    stable_series: workCountBySeries.size,
+    thin_series: expectedThin,
+    index_ready_series: expectedIndexReady,
+  });
+  assert.deepEqual(catalog.series.map(({stable_series_id: id}) => id).sort(), expectedSeriesIds);
+  assert.equal(catalog.ordered_series_by_work.filter(({series}) => series.length === 0).length, explicitNoSeries);
+  assert.equal(catalog.series.every(({display_name: display, source_name: source, index_decision: decision, public_work_count: count}) => (
+    display === source && decision === (count >= 3 ? 'INDEX_READY' : 'NOINDEX_THIN')
   )), true);
 });
 

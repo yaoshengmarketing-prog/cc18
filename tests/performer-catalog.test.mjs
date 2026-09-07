@@ -355,6 +355,7 @@ test('a second typed public work changes index policy without a hardcoded perfor
 
 test('a future typed performer is data-driven and same-name identities remain separate', async () => {
   const inputs = clone(await formalInputs());
+  const baselinePerformerCount = buildPerformerCatalog(clone(inputs)).performers.length;
   const targetMaster = inputs.masters.find(({source}) => source.catalog_code === 'ENDS-322');
   const id = 'cc18.tv:actor:999999';
   const name = '美咲音';
@@ -372,7 +373,7 @@ test('a future typed performer is data-driven and same-name identities remain se
     source_name: name, searchable_aliases: [], related_movie_ids: [targetMaster.stable_movie_id],
   });
   const catalog = buildPerformerCatalog(inputs);
-  assert.equal(catalog.performers.length, 15);
+  assert.equal(catalog.performers.length, baselinePerformerCount + 1);
   const sameNamePerformers = catalog.performers.filter(({primary_display_name: primary}) => primary === name);
   assert.equal(sameNamePerformers.length, 2);
   assert.equal(catalog.performers.some(({stable_performer_id: performerId}) => performerId === id), true);

@@ -3,6 +3,15 @@ import {parseFirstJsonObject} from './provider-normalization.mjs';
 
 const wait = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
 
+const nestedProviderError = (message) => {
+  if (typeof message !== 'string' || !message.trim().startsWith('{')) return null;
+  try {
+    return JSON.parse(message).error ?? null;
+  } catch {
+    return null;
+  }
+};
+
 const tokenCost = ({inputTokens, cachedInputTokens, outputTokens}, pricing) => {
   if (!pricing) return null;
   const uncachedInputTokens = Math.max(0, inputTokens - cachedInputTokens);
@@ -98,6 +107,7 @@ export async function requestStructuredEditorial({
   input,
   requiredNonBlankFields = [],
   blankFieldRepair = null,
+  contentFilterFallbackText = null,
   fetchImplementation = fetch,
 }) {
   const attempts = Math.max(1, Number(config.api_retry_count ?? 1));
@@ -136,10 +146,22 @@ export async function requestStructuredEditorial({
       });
       const body = await response.json().catch(() => ({}));
       if (!response.ok) {
+        const nestedError = nestedProviderError(body.error?.message);
+        const providerCodes = [
+          body.error?.code,
+          body.error?.innererror?.code,
+          nestedError?.code,
+          nestedError?.innererror?.code,
+        ];
+        const contentFiltered = providerCodes.includes('content_filter')
+          || providerCodes.includes('ResponsibleAIPolicyViolation');
         const error = Object.assign(
           new Error(`OpenAI Responses API returned HTTP ${response.status}: ${body.error?.message ?? 'unknown error'}`),
-          {status: response.status},
+          {status: response.status, ...(contentFiltered ? {code: 'EDITORIAL_PROVIDER_CONTENT_FILTER'} : {})},
         );
+        if (contentFiltered && typeof contentFilterFallbackText === 'string') {
+          return {text: contentFilterFallbackText, usage: null, fallback: 'provider_content_filter'};
+        }
         if (![408, 409, 429].includes(response.status) && response.status < 500) throw error;
         lastError = error;
       } else {

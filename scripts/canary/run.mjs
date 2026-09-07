@@ -6,7 +6,7 @@ import {queueStoreFromEnvironment} from '../queue/store.mjs';
 import {classifyCanaryStageOutcome, registryDraftIds} from './selection.mjs';
 import {buildR2WranglerEnvironment} from '../r2/wrangler-auth.mjs';
 import {allowedPublishPaths} from '../publish/lib/publisher.mjs';
-import {protectedIsolatedUntrackedPaths} from './isolation.mjs';
+import {assertRestoredCheckpointAuthorization, protectedIsolatedUntrackedPaths} from './isolation.mjs';
 
 const root = resolve(import.meta.dirname, '..', '..');
 if (process.env.CC18_CANARY_ISOLATED_WORKSPACE !== 'YES') {
@@ -28,15 +28,27 @@ const git = (args) => {
   if (result.status !== 0) throw new Error(result.stderr || `git ${args.join(' ')} failed`);
   return result.stdout.trim();
 };
-if (git(['status', '--porcelain', '--untracked-files=no'])) {
-  throw new Error('Canary refuses tracked or staged changes');
+let restoredAuthorization = null;
+if (process.env.CC18_CANARY_RESTORED_CHECKPOINT) {
+  try {
+    restoredAuthorization = JSON.parse(process.env.CC18_CANARY_RESTORED_CHECKPOINT);
+  } catch {
+    throw new Error('Canary received invalid restored checkpoint authorization JSON');
+  }
 }
-const protectedUntrackedPaths = await protectedIsolatedUntrackedPaths({
+const managedNodeModulesLink = process.env.CC18_CANARY_MANAGED_NODE_MODULES_LINK === 'YES';
+const authorizedRestoredPaths = new Set(await assertRestoredCheckpointAuthorization({
+  workspaceRoot: root,
+  movieId: requestedIds[0],
+  authorization: restoredAuthorization,
+  managedNodeModulesLink,
+}));
+const protectedUntrackedPaths = (await protectedIsolatedUntrackedPaths({
   workspaceRoot: root,
   paths: git(['ls-files', '--others', '--exclude-standard'])
     .split(/\r?\n/u).filter(Boolean).map((path) => path.replaceAll('\\', '/')),
-  managedNodeModulesLink: process.env.CC18_CANARY_MANAGED_NODE_MODULES_LINK === 'YES',
-});
+  managedNodeModulesLink,
+})).filter((path) => !authorizedRestoredPaths.has(path));
 const fingerprint = async (repoPath) => {
   const absolute = resolve(root, repoPath);
   const [bytes, details] = await Promise.all([readFile(absolute), stat(absolute)]);

@@ -6,6 +6,7 @@ import {queueStoreFromEnvironment} from '../queue/store.mjs';
 import {alreadyPublishedRequestedIds} from './selection.mjs';
 import {
   assertSingleWorkRequest,
+  createRestoredCheckpointAuthorization,
   createCleanWorktree,
   deleteWorkCheckpoint,
   removeCleanWorktree,
@@ -92,6 +93,7 @@ if (!movieId) {
 const isolated = await createCleanWorktree({repositoryRoot: root, baseRef: 'origin/main'});
 let result = {code: 1};
 let restored = null;
+let restoredAuthorization = null;
 let checkpoint = null;
 let deletedCheckpoint = null;
 let workError = null;
@@ -102,6 +104,13 @@ const recordWorkError = (phase, error) => {
 try {
   try {
     restored = await restoreWorkCheckpoint({repositoryRoot: root, workspaceRoot: isolated.workspaceRoot, movieId});
+    if (restored.restored) {
+      restoredAuthorization = await createRestoredCheckpointAuthorization({
+        workspaceRoot: isolated.workspaceRoot,
+        movieId,
+        restoredPaths: restored.paths,
+      });
+    }
   } catch (error) {
     recordWorkError('checkpoint_restore', error);
   }
@@ -113,6 +122,7 @@ try {
           ...process.env,
           CC18_CANARY_ISOLATED_WORKSPACE: 'YES',
           CC18_CANARY_MANAGED_NODE_MODULES_LINK: isolated.nodeModulesLinked ? 'YES' : 'NO',
+          ...(restoredAuthorization ? {CC18_CANARY_RESTORED_CHECKPOINT: JSON.stringify(restoredAuthorization)} : {}),
         },
         windowsHide: true,
         stdio: 'inherit',

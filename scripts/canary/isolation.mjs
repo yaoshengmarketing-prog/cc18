@@ -1,4 +1,5 @@
 import {spawnSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
 import {copyFile, lstat, mkdir, mkdtemp, readFile, rm, stat, symlink, writeFile} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import {dirname, isAbsolute, join, relative, resolve} from 'node:path';
@@ -90,6 +91,79 @@ export const checkpointArtifactPaths = (movieId) => {
 };
 
 const sharedCheckpointPaths = new Set(['data/movie-registry.json', 'data/tag-candidates.json']);
+
+const gitPaths = ({root, args}) => git({root, args})
+  .split(/\r?\n/u)
+  .filter(Boolean)
+  .map(normalizePath);
+
+const restoredPathSnapshot = async (workspaceRoot, path) => {
+  const absolute = resolve(workspaceRoot, path);
+  if (!await exists(absolute)) return {path, state: 'deleted'};
+  const details = await lstat(absolute);
+  if (!details.isFile()) throw new Error(`Restored checkpoint artifact is not a file: ${path}`);
+  const bytes = await readFile(absolute);
+  return {
+    path,
+    state: 'file',
+    bytes: details.size,
+    sha256: createHash('sha256').update(bytes).digest('hex'),
+  };
+};
+
+const currentRestoredPaths = ({workspaceRoot, managedNodeModulesLink = false}) => {
+  const staged = gitPaths({root: workspaceRoot, args: ['diff', '--cached', '--name-only']});
+  if (staged.length) throw new Error(`Restored checkpoint left staged changes: ${staged.join(', ')}`);
+  const tracked = gitPaths({root: workspaceRoot, args: ['diff', '--name-only']});
+  const untracked = gitPaths({root: workspaceRoot, args: ['ls-files', '--others', '--exclude-standard']})
+    .filter((path) => !(managedNodeModulesLink && path === 'node_modules'));
+  return [...new Set([...tracked, ...untracked])].sort();
+};
+
+export async function createRestoredCheckpointAuthorization({workspaceRoot, movieId, restoredPaths}) {
+  const id = assertMovieId(movieId);
+  const allowed = new Set(checkpointArtifactPaths(id));
+  const declared = restoredPaths.map(normalizePath);
+  if (new Set(declared).size !== declared.length) throw new Error(`${id}: restored checkpoint repeats an artifact path`);
+  const undeclared = declared.filter((path) => !allowed.has(path));
+  if (undeclared.length) throw new Error(`${id}: restored checkpoint authorizes unrelated paths: ${undeclared.join(', ')}`);
+  const actual = currentRestoredPaths({workspaceRoot, managedNodeModulesLink: true});
+  const unexpected = actual.filter((path) => !declared.includes(path));
+  if (unexpected.length) throw new Error(`${id}: restored checkpoint produced unauthorized changes: ${unexpected.join(', ')}`);
+  return {
+    schema_version: 1,
+    movie_id: id,
+    paths: await Promise.all(actual.map((path) => restoredPathSnapshot(workspaceRoot, path))),
+  };
+}
+
+export async function assertRestoredCheckpointAuthorization({workspaceRoot, movieId, authorization, managedNodeModulesLink = false}) {
+  const id = assertMovieId(movieId);
+  const actual = currentRestoredPaths({workspaceRoot, managedNodeModulesLink});
+  if (!authorization) {
+    if (actual.length) throw new Error(`Canary refuses unauthorized tracked or untracked changes: ${actual.join(', ')}`);
+    return [];
+  }
+  if (authorization.schema_version !== 1 || authorization.movie_id !== id || !Array.isArray(authorization.paths)) {
+    throw new Error(`${id}: invalid restored checkpoint authorization`);
+  }
+  const allowed = new Set(checkpointArtifactPaths(id));
+  const authorizedPaths = authorization.paths.map(({path}) => normalizePath(String(path ?? '')));
+  if (new Set(authorizedPaths).size !== authorizedPaths.length) throw new Error(`${id}: duplicate restored checkpoint authorization path`);
+  const unrelated = authorizedPaths.filter((path) => !allowed.has(path));
+  if (unrelated.length) throw new Error(`${id}: checkpoint authorization contains unrelated paths: ${unrelated.join(', ')}`);
+  if (JSON.stringify(actual) !== JSON.stringify([...authorizedPaths].sort())) {
+    throw new Error(`${id}: worktree changes differ from the restored checkpoint authorization`);
+  }
+  const snapshots = await Promise.all(actual.map((path) => restoredPathSnapshot(workspaceRoot, path)));
+  const expected = [...authorization.paths]
+    .map((entry) => ({...entry, path: normalizePath(String(entry.path ?? ''))}))
+    .sort((a, b) => a.path < b.path ? -1 : a.path > b.path ? 1 : 0);
+  if (JSON.stringify(snapshots) !== JSON.stringify(expected)) {
+    throw new Error(`${id}: restored checkpoint content changed after validation`);
+  }
+  return authorizedPaths;
+}
 
 const parseJson = (text, label) => {
   try {

@@ -125,15 +125,33 @@ test('Evidence authority mismatches fail closed', () => {
   }
 });
 
-test('the live published catalog is exactly 15 PUBLIC_METADATA and one valid HUNTC-568 sample', async () => {
+test('the live Evidence catalog matches the current public Movie Master set and distribution', async () => {
   const {records} = await loadPublishedWorkEvidenceCatalog();
-  assert.equal(records.length, 16);
-  assert.equal(records.filter(({evidence_level: level}) => level === 'PUBLIC_METADATA').length, 15);
-  assert.equal(records.filter(({evidence_level: level}) => level === 'DISTRIBUTED_SAMPLE').length, 1);
-  const sampled = records.find(({evidence_level: level}) => level === 'DISTRIBUTED_SAMPLE');
-  assert.equal(sampled.catalog_code, 'HUNTC-568');
-  assert.equal(sampled.sample_windows, 24);
-  assert.equal(sampled.timeline.length, 3);
+  const [registry, index] = await Promise.all([
+    readFile(new URL('../data/movie-registry.json', import.meta.url), 'utf8').then(JSON.parse),
+    readFile(new URL('../data/movie-master/index.json', import.meta.url), 'utf8').then(JSON.parse),
+  ]);
+  const publishedCodes = new Set(registry.records
+    .filter(({review_status: status}) => status === 'published')
+    .map(({id}) => id));
+  const expectedById = new Map();
+  for (const entry of index.entries.filter(({catalog_code: code, is_demo: demo}) => publishedCodes.has(code) && !demo)) {
+    const master = JSON.parse(await readFile(new URL(`../${entry.master_path}`, import.meta.url), 'utf8'));
+    if (master.publishing?.indexability === 'INDEX') {
+      expectedById.set(entry.stable_movie_id, master.editorial?.article_evidence_level);
+    }
+  }
+  assert.deepEqual(records.map(({stable_movie_id: id}) => id).sort(), [...expectedById.keys()].sort());
+  const expectedDistribution = Object.groupBy(expectedById.values(), (level) => level);
+  const actualDistribution = Object.groupBy(records, ({evidence_level: level}) => level);
+  assert.deepEqual(
+    Object.fromEntries(Object.entries(actualDistribution).map(([level, items]) => [level, items.length])),
+    Object.fromEntries(Object.entries(expectedDistribution).map(([level, items]) => [level, items.length])),
+  );
+  const huntc = records.find(({catalog_code: code}) => code === 'HUNTC-568');
+  assert.equal(huntc.evidence_level, 'DISTRIBUTED_SAMPLE');
+  assert.equal(huntc.sample_windows, 24);
+  assert.equal(huntc.timeline.length, 3);
 });
 
 test('work route emits one semantic Evidence notice in the approved component order', async () => {

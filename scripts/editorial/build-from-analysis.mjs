@@ -188,15 +188,17 @@ const generation = repairExisting
     schema: outputSchema,
     instructions: system,
     input: prompt,
+    contentFilterFallbackText: '{}',
   });
-if (!repairExisting) await appendEditorialUsage({root, movieId, rewriteAttempt, usage: generation.usage});
+if (!repairExisting && generation.usage) await appendEditorialUsage({root, movieId, rewriteAttempt, usage: generation.usage});
 let result = normalizeEditorialResult(parseFirstJsonObject(generation.text), {movieId, safePublicSource, safeVideoAnalysis});
+const providerContentFiltered = generation.fallback === 'provider_content_filter';
 const publicationProjection = publicationProjectionForEvidence({
   result,
   movieId,
   safePublicSource,
   safeVideoAnalysis,
-  sourceOnly,
+  sourceOnly: sourceOnly || providerContentFiltered,
 });
 result = publicationProjection.result;
 const publishVideoEvidence = publicationProjection.publishVideoEvidence;
@@ -206,6 +208,14 @@ if (publicationProjection.downgraded) {
     movie_id: movieId,
     code: 'insufficient_video_evidence_refs',
     distinct_video_windows: publicationProjection.distinctVideoWindows,
+    fallback: 'complete_public_metadata_projection',
+  }));
+}
+if (providerContentFiltered) {
+  console.warn(JSON.stringify({
+    event: 'editorial_content_warning',
+    movie_id: movieId,
+    code: 'editorial_provider_content_filter',
     fallback: 'complete_public_metadata_projection',
   }));
 }
@@ -304,7 +314,7 @@ const brief = {
   id: movieId,
   generated_at: new Date().toISOString(),
   generation_mode: publishVideoEvidence ? 'creative_first_video_enhanced' : 'creative_first_source_only',
-  generation_model: generation.usage.model,
+  generation_model: generation.usage?.model ?? 'deterministic-source-fallback',
   rewrite_attempt: rewriteAttempt,
   source_record: `data/source-records/${movieId}.json`,
   video_analysis_job_id: publishVideoEvidence ? analysis.job_id ?? null : null,
