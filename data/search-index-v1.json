@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:7c7b83f853fd7075ffa5ff59b3d05dae7f17d3bcbdf25785570ca5895311c2c2",
-  "source_generated_at": "2026-09-07T00:21:30.070Z",
+  "source_revision": "sha256:03f59c0301abcb3b076e1378926b32816ec91baf7a57a4d8047bf0d99f9d21eb",
+  "source_generated_at": "2026-09-07T00:26:02.603Z",
   "counts": {
-    "movies": 67,
-    "performers": 77,
+    "movies": 68,
+    "performers": 78,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -133,6 +133,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DOKS-689"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:29165",
+      "display_name": "川越仁子",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "川越仁子",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-374"
       ]
     },
     {
@@ -2023,6 +2034,55 @@
         "article_title": "SNOS-372 清原美優｜母性滿滿的溫柔大姊姊",
         "display_short_title": null,
         "slug": "snos-372"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-374",
+        "source_cover": "https://cc18.tv/preview/80/b/1XY4MWa_MdL-800.jpg?v=1788555975",
+        "title": "SNOS-374 川越仁子｜深知自己美貌的女醫生",
+        "catalog_code": "SNOS-374",
+        "release_date": "2026-09-04",
+        "performers": [
+          "川越仁子"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-374/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:29165"
+      ],
+      "search": {
+        "source_title": "深知自己美貌的女醫生，色氣全開讓患者勃起後…還會幫你做肉棒按摩喔 川越仁子",
+        "article_title": "SNOS-374 川越仁子｜深知自己美貌的女醫生",
+        "display_short_title": null,
+        "slug": "snos-374"
       }
     },
     {
