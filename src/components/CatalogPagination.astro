@@ -1,0 +1,24 @@
+---
+interface Props { current: number; total: number; }
+const {current, total} = Astro.props;
+const href = (page: number) => page === 1 ? '/latest/' : `/latest/${page}/`;
+const pages = Array.from({length: total}, (_, index) => index + 1)
+  .filter(page => page === 1 || page === total || Math.abs(page - current) <= 2);
+---
+{total > 1 && <nav class="catalog-pagination" aria-label="作品分頁">
+  {current > 1 && <a href={href(current - 1)} rel="prev">上一頁</a>}
+  {pages.map((page, index) => <>
+    {index > 0 && page - pages[index - 1] > 1 && <span aria-hidden="true">…</span>}
+    <a href={href(page)} aria-current={page === current ? 'page' : undefined} aria-label={`第 ${page} 頁`}>{page}</a>
+  </>)}
+  {current < total && <a href={href(current + 1)} rel="next">下一頁</a>}
+  <span class="page-count">第 {current}／{total} 頁</span>
+</nav>}
+<style>
+  .catalog-pagination {display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;margin:24px auto 60px;padding:0 16px;}
+  a {display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:8px 12px;border:1px solid #aaa;text-decoration:none;color:inherit;}
+  a[aria-current="page"] {background:#d71161;color:white;border-color:#d71161;}
+  a:hover {border-color:#d71161;}
+  a:focus-visible {outline:3px solid #d71161;outline-offset:3px;}
+  .page-count {width:100%;text-align:center;font-size:14px;margin-top:8px;}
+</style>

@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import MovieCardV1 from '../../components/MovieCardV1.astro';
+import CatalogPagination from '../../components/CatalogPagination.astro';
+import {loadLatestAddedMovieCardCatalog} from '../../lib/movie-master.mjs';
+import {catalogPages} from '../../lib/catalog-pagination.mjs';
+import type {InferGetStaticPropsType} from 'astro';
+
+export async function getStaticPaths() {
+  const catalog = await loadLatestAddedMovieCardCatalog();
+  return catalogPages(catalog.cards).map(page => ({
+    params: {page: page.current === 1 ? undefined : String(page.current)}, props: page,
+  }));
+}
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+const {cards, current, total} = Astro.props;
+---
+<BaseLayout title={current === 1 ? '最新收錄' : `最新收錄｜第 ${current} 頁`} description={`依本站收錄時間排序的作品列表，第 ${current} 頁；卡片日期為作品發行日。`} adult={true}>
+  <section class="page-intro"><p class="eyebrow">LATEST ADDED</p><h1>最新收錄{current > 1 ? ` · 第 ${current} 頁` : ''}</h1><p>依本站收錄時間排序；卡片日期為作品發行日。</p></section>
+  <section class="card-grid" aria-label="最新作品">
+    {cards.map((card, index) => <MovieCardV1 card={card} priority={index < 3} />)}
+  </section>
+  <CatalogPagination current={current} total={total} />
+</BaseLayout>

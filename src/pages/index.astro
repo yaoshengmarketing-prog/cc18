@@ -3,6 +3,8 @@ import {getCollection} from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import HomePerformerExplore from '../components/HomePerformerExplore.astro';
 import MovieCardV1 from '../components/MovieCardV1.astro';
+import CatalogPagination from '../components/CatalogPagination.astro';
+import {catalogPages} from '../lib/catalog-pagination.mjs';
 import PromoVideoCard from '../components/PromoVideoCard.astro';
 import TagList from '../components/TagList.astro';
 import {byNewest, formatDate, reviewHref, reviewTagIds, visibleTags} from '../lib/reviews';
@@ -13,6 +15,7 @@ import {tagItems} from '../lib/taxonomy';
 const reviews = (await getCollection('reviews', ({data}) => data.status === 'published')).sort(byNewest);
 const featured = reviews.find(({data}) => data.featured) ?? reviews[0];
 const catalog = await loadLatestAddedMovieCardCatalog();
+const firstPage = catalogPages(catalog.cards)[0];
 const promoCatalog = await loadLatestAddedPromoCatalog({limit: 3});
 const performerCatalog = await loadPerformerCatalog();
 const performerCount = performerCatalog.performers.length;
@@ -62,8 +65,9 @@ const tags = tagItems(tagIds);
       <a href="/latest/">查看全部 →</a>
     </div>
     <div class="card-grid" role="list">
-      {catalog.cards.map((card) => <div role="listitem"><MovieCardV1 card={card} /></div>)}
+      {firstPage.cards.map((card) => <div role="listitem"><MovieCardV1 card={card} /></div>)}
     </div>
+    <CatalogPagination current={1} total={firstPage.total} />
   </section>
 
   <section class="promo-picks" data-promo-picks>
