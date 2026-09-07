@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-07T16:35:42.775Z",
+  "updated_at": "2026-09-07T16:39:39.414Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -1179,6 +1179,21 @@
       ],
       "release_date": "2026-09-05",
       "source_url": "https://cc18.tv/player.php?uuid=nRJtxGjm12G&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-07"
+    },
+    {
+      "id": "CEMD-889",
+      "actress": [
+        "糸井瑠花"
+      ],
+      "release_date": "2026-09-05",
+      "source_url": "https://cc18.tv/player.php?uuid=nk96zNagj45&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

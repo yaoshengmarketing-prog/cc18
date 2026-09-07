@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-07T16:35:44.991Z",
+  "generated_at": "2026-09-07T16:39:41.611Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 79,
-  "formal_movie_count": 78,
+  "tracked_input_count": 80,
+  "formal_movie_count": 79,
   "demo_count": 1,
-  "published_count": 75,
+  "published_count": 76,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -44,6 +44,15 @@
       "is_demo": true,
       "is_published": false,
       "content_hash": "d623fffee11bc955d62ed8234f4ff71e4bc0a4a8e0489e6306ede1f43a34ba06"
+    },
+    {
+      "stable_movie_id": "cc18:CEMD-889",
+      "catalog_code": "CEMD-889",
+      "slug": "cemd-889",
+      "master_path": "data/movie-master/cemd-889.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "2f00ee2679c9057ff35b37f7b9954abbe93ca909a23faa8921e42463bfb7f553"
     },
     {
       "stable_movie_id": "cc18:CLOT-043",
