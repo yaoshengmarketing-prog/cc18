@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "GVH-878",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-07T10:28:19.431Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/GVH-878/hero-v1.jpg",
+      "r2_key": "works/2026/09/GVH-878/hero-v1.jpg",
+      "bytes": 629420,
+      "sha256": "6e0567edbd685fa206ea26cf6ab1ed23cc71772523b7efca43c366e6dd3e9fbc",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "67e3b0e3-dece-4f3e-9528-a41695d686b7",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/GVH-878/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/GVH-878/scene-vertical-v1.jpg",
+      "bytes": 697838,
+      "sha256": "c7c74bf4a723df1612cdd94cf399bb99ea9589e1a6856ee8d1fb69ab0c8665de",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "0b652719-56a6-45a0-881d-6bb684afdf4a",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2081170,
+    "sha256": "999bc6e1f94d4c0fbb741b363c255d90a4ad12626e6933557689cca260d56847",
+    "target_r2_key": "works/2026/09/GVH-878/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/GVH-878/vertical-v1.mp4"
+  }
+}
