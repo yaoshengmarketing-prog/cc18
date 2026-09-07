@@ -132,28 +132,14 @@ function normalizedSections(raw, review) {
   const normalized = sections
     .map((section, index) => {
       if (typeof section === 'string') {
-        return {heading: `作品重點 ${index + 1}`, body: clip(section, 700)};
+        return {heading: `作品重點 ${index + 1}`, body: section.trim()};
       }
       const heading = section?.heading ?? section?.title ?? section?.section_heading ?? section?.name;
       const body = section?.body ?? section?.content ?? section?.text ?? section?.analysis ?? section?.paragraph;
-      return {heading: clip(heading, 50), body: clip(body, 700)};
+      return {heading: clip(heading, 50), body: typeof body === 'string' ? body.trim() : ''};
     })
     .filter(({heading, body}) => heading && body)
-  if (normalized.length > 7) {
-    normalized[1].body = clip(`${normalized[0].body}\n\n${normalized[1].body}`, 700);
-    normalized.shift();
-  }
-  const seenSentences = new Set();
-  for (const section of normalized) {
-    section.body = section.body.split(/(?<=[。！？!?])\s*/).filter((sentence) => {
-      const key = sentence.replace(/[\s。！？!?]/g, '');
-      if (key.length < 16) return true;
-      if (seenSentences.has(key)) return false;
-      seenSentences.add(key);
-      return true;
-    }).join('');
-  }
-  return normalized.filter(({body}) => body.trim()).slice(0, 7);
+  return normalized;
 }
 
 function normalizedDecisionGuide(rawGuide, raw, brief, sourceSignals, angleCandidates) {
@@ -209,7 +195,7 @@ export function normalizeEditorialResult(raw, {movieId, safePublicSource, safeVi
   const sections = normalizedSections(raw, review);
   if (review.conclusion && sections.length) {
     const last = sections.at(-1);
-    if (!last.body.includes(review.conclusion.trim())) last.body = clip(`${last.body}\n\n${review.conclusion}`, 700);
+    if (!sections.some(({body}) => body.includes(review.conclusion.trim()))) last.body = `${last.body}\n\n${review.conclusion}`;
   }
 
   const highlights = brief.what_to_highlight ?? [];
@@ -226,12 +212,6 @@ export function normalizeEditorialResult(raw, {movieId, safePublicSource, safeVi
     : fallbackSignalLabels.length
       ? `本作可先從${fallbackSignalLabels.join('、')}等可追溯來源線索判斷是否符合偏好。`
       : `${movieId}目前僅保留可驗證的作品識別與來源資料，其他內容不足處暫不補寫。`;
-  if (sections.length && (!/適合|偏好|推薦/.test(sections.at(-1).body) || !/未必|不適合|取捨/.test(sections.at(-1).body))) {
-    const decisionContext = safePublicSource.core_source_concept ?? sourceSignals[0]?.value ?? movieId;
-    // 保持為一個包含作品專屬 decisionContext 的完整句子；若在中間斷句，
-    // 後半段會成為每篇完全相同的站內句子，反過來觸發 originality QA。
-    sections.at(-1).body = clip(`${sections.at(-1).body}\n\n以「${decisionContext}」為選片基準，適合：${decisionGuide.audience_for.join('；')}；若偏好：${decisionGuide.audience_not_for.join('；')}，則未必適合，這是本作最明確的觀看取捨。`, 700);
-  }
   return {
     ...raw,
     angle_candidates: angleCandidates.slice(0, 3).map((value) => clip(value, 180)),
@@ -277,6 +257,15 @@ export function publicationProjectionForEvidence({result, movieId, safePublicSou
     || !observedVideoRefs.has(ref)
   )));
   const publishVideoEvidence = !sourceOnly && !hasInvalidEvidenceRefs && videoRefs.size >= 3;
+  // Source commentary does not require video citations. Keep the author's prose;
+  // factual support remains subject to editorial QA.
+  const sourceCommentary = !hasInvalidEvidenceRefs && videoEvidence.length === 0
+    && (result.evidence ?? []).some(({basis}) => basis === 'public_source')
+    && (result.sections ?? []).some(({body}) => typeof body === 'string' && body.trim());
+  if (sourceCommentary) {
+    return {result, safeVideoAnalysis: emptyVideoProjection(), publishVideoEvidence: false,
+      downgraded: false, distinctVideoWindows: 0};
+  }
   if (publishVideoEvidence) {
     return {
       result,

@@ -118,3 +118,12 @@ jobs:
       - name: Confirm serialized production automation
         if: github.event_name == 'schedule'
         run: echo "Hourly discovery and serial single-work queue draining are enabled."
+      - name: Preserve editorial responses for diagnosis
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: editorial-responses-${{ github.run_id }}-${{ github.run_attempt }}
+          path: .cc18-editorial-responses/
+          include-hidden-files: true
+          if-no-files-found: ignore
+          retention-days: 7

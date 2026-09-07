@@ -2,6 +2,27 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {normalizeEditorialResult, parseFirstJsonObject, publicationProjectionForEvidence} from '../scripts/editorial/lib/provider-normalization.mjs';
 
+test('source commentary survives without video and preserves long paragraphs and all sections', () => {
+  const safePublicSource = {safe_title_signals: [{type: 'theme', value: '訪談企劃'}]};
+  const sections = Array.from({length: 9}, (_, i) => ({heading: `分析 ${i}`, body: `段落 ${i}：${'來源訪談呈現不同觀點。'.repeat(100)}\n\n結尾保留。`}));
+  const normalized = normalizeEditorialResult({sections, evidence: [{basis: 'public_source', signal: '訪談企劃', observation_refs: []}]}, {
+    movieId: 'TEST-020', safePublicSource, safeVideoAnalysis: {observations: []},
+  });
+  const projection = publicationProjectionForEvidence({result: normalized, movieId: 'TEST-020', safePublicSource,
+    safeVideoAnalysis: {observations: []}, sourceOnly: true});
+  assert.equal(projection.downgraded, false);
+  assert.equal(projection.publishVideoEvidence, false);
+  assert.deepEqual(projection.result.sections, sections);
+});
+
+test('an empty response cannot qualify as source commentary through derived evidence', () => {
+  const safePublicSource = {safe_title_signals: [{type: 'theme', value: '訪談企劃'}]};
+  const safeVideoAnalysis = {observations: []};
+  const result = normalizeEditorialResult({}, {movieId: 'TEST-021', safePublicSource, safeVideoAnalysis});
+  assert.equal(publicationProjectionForEvidence({result, movieId: 'TEST-021', safePublicSource,
+    safeVideoAnalysis, sourceOnly: true}).downgraded, true);
+});
+
 test('extracts the first complete JSON object and ignores gateway trailing prose', () => {
   assert.deepEqual(parseFirstJsonObject('```json\n{"ok":true}\n``` trailing'), {ok: true});
 });
@@ -22,7 +43,7 @@ test('preserves nested review_draft sections returned by gateway models', () => 
   assert.equal(normalized.sections.length, 7);
   assert.equal(normalized.sections[1].heading, '段落 1');
   assert.match(normalized.sections[1].body, /獨特內容1/);
-  assert.match(normalized.sections.at(-1).body, /未必適合/);
+  assert.equal(normalized.sections.at(-1).body, review_draft.closing);
   assert.doesNotMatch(normalized.sections.at(-1).body, /觀眾。若偏好/);
 });
 
@@ -60,7 +81,7 @@ test('maps the alternate gateway editorial shape into the CC18 contract', () => 
     review: {intro: '短評', sections: Array.from({length: 6}, (_, i) => ({heading: `段落${i}`, content: `第${i}段的獨特內容。${'內容'.repeat(100)}`})), conclusion: '總評'},
   }, {movieId: 'TEST-001', safePublicSource, safeVideoAnalysis});
   assert.equal(normalized.title_signals.length, 2);
-  assert.equal(normalized.sections.length, 7);
+  assert.equal(normalized.sections.length, 8);
   assert.equal(normalized.evidence.length, 5);
   assert.deepEqual(normalized.editorial_tag_ids, ['story', 'contrast-charm']);
 });
@@ -189,7 +210,7 @@ test('preserves top-level review_sections returned alongside an empty sections a
   assert.equal(normalized.sections[0].heading, '選片問題 1');
   assert.match(normalized.sections[0].body, /密着企劃/);
   assert.match(normalized.sections[2].body, /口交題材/);
-  assert.match(normalized.sections.at(-1).body, /未必適合/);
+  assert.doesNotMatch(normalized.sections.at(-1).body, /這是本作最明確的觀看取捨/);
 });
 
 test('sparse provider content receives local display fallbacks without inventing source facts', () => {

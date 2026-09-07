@@ -110,13 +110,13 @@ const outputSchema = {
       },
     },
     sections: {
-      type: 'array', maxItems: 7,
+      type: 'array',
       items: {
         type: 'object', additionalProperties: false,
         required: ['heading', 'body'],
         properties: {
           heading: {type: 'string', maxLength: 50},
-          body: {type: 'string', maxLength: 700},
+          body: {type: 'string'},
         },
       },
     },
@@ -191,6 +191,14 @@ const generation = repairExisting
     contentFilterFallbackText: '{}',
   });
 if (!repairExisting && generation.usage) await appendEditorialUsage({root, movieId, rewriteAttempt, usage: generation.usage});
+// Retain the paid response before normalization or any publication decision.
+const responseDirectory = resolve(process.env.CC18_EDITORIAL_RESPONSE_DIR ?? resolve(root, '.cc18-editorial-responses'), movieId);
+await mkdir(responseDirectory, {recursive: true});
+await writeFile(resolve(responseDirectory, `${Date.now()}-${rewriteAttempt}.json`), JSON.stringify({
+  movie_id: movieId, rewrite_attempt: rewriteAttempt, source_only: sourceOnly,
+  source_sha256: createHash('sha256').update(sourceRecordText).digest('hex'),
+  generation,
+}, null, 2));
 let result = normalizeEditorialResult(parseFirstJsonObject(generation.text), {movieId, safePublicSource, safeVideoAnalysis});
 const providerContentFiltered = generation.fallback === 'provider_content_filter';
 const publicationProjection = publicationProjectionForEvidence({
@@ -200,17 +208,23 @@ const publicationProjection = publicationProjectionForEvidence({
   safeVideoAnalysis,
   sourceOnly: sourceOnly || providerContentFiltered,
 });
-result = publicationProjection.result;
 const publishVideoEvidence = publicationProjection.publishVideoEvidence;
-if (publicationProjection.downgraded) {
+if (publicationProjection.downgraded || providerContentFiltered || !result.sections.length) {
   console.warn(JSON.stringify({
     event: 'editorial_content_warning',
     movie_id: movieId,
     code: 'insufficient_video_evidence_refs',
     distinct_video_windows: publicationProjection.distinctVideoWindows,
-    fallback: 'complete_public_metadata_projection',
+    fallback: 'publication_stopped_original_response_saved',
   }));
+  // Exit distinctly so the queue does not pay for the same deterministic failure.
+  console.error(JSON.stringify({event: 'editorial_review_required', movie_id: movieId,
+    code: 'EDITORIAL_REVIEW_REQUIRED', reason: providerContentFiltered
+      ? 'provider_content_filter' : 'unsupported_or_empty_editorial',
+    response_directory: responseDirectory}));
+  process.exit(42);
 }
+result = publicationProjection.result;
 if (providerContentFiltered) {
   console.warn(JSON.stringify({
     event: 'editorial_content_warning',

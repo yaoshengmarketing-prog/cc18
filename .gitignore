@@ -26,6 +26,7 @@ media-output/
 .cc18-canary/
 
 # Test and tool output
+.cc18-editorial-responses/
 coverage/
 playwright-report/
 test-results/

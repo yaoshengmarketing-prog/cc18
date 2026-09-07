@@ -120,6 +120,7 @@ try {
         cwd: isolated.workspaceRoot,
         env: {
           ...process.env,
+          CC18_EDITORIAL_RESPONSE_DIR: resolve(root, '.cc18-editorial-responses'),
           CC18_CANARY_ISOLATED_WORKSPACE: 'YES',
           CC18_CANARY_MANAGED_NODE_MODULES_LINK: isolated.nodeModulesLinked ? 'YES' : 'NO',
           ...(restoredAuthorization ? {CC18_CANARY_RESTORED_CHECKPOINT: JSON.stringify(restoredAuthorization)} : {}),

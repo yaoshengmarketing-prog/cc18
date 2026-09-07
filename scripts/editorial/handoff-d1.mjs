@@ -74,7 +74,9 @@ const run = (script, args, failureCode, allowFailure = false) => new Promise((re
   child.once('error', rejectRun);
   child.once('exit', (code) => code === 0 || allowFailure
     ? resolveRun(code)
-    : rejectRun(Object.assign(new Error(`${script} exited with ${code}`), {code: failureCode})));
+    : rejectRun(Object.assign(new Error(`${script} exited with ${code}`), {
+      code: code === 42 ? 'EDITORIAL_REVIEW_REQUIRED' : failureCode,
+    })));
 });
 
 const leaseIntervalMs = Math.max(30_000, Math.floor(pipeline.queue.lease_seconds * 1000 / 3));
@@ -148,7 +150,7 @@ try {
 } catch (error) {
   clearInterval(leaseTimer);
   await leasePending;
-  const outcome = error?.code === 'EDITORIAL_QA_FAILED' ? 'blocked' : (claimed.attempt >= claimed.max_attempts ? 'failed' : 'retry');
+  const outcome = ['EDITORIAL_QA_FAILED', 'EDITORIAL_REVIEW_REQUIRED'].includes(error?.code) ? 'blocked' : (claimed.attempt >= claimed.max_attempts ? 'failed' : 'retry');
   await store.finishJob({
     jobId: claimed.id,
     workerId,
