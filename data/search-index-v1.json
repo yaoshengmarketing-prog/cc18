@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:91b732cee2f9996d9e2e0cb42d4d75091a3c890f6a4ce21db696733c00299957",
-  "source_generated_at": "2026-09-07T00:05:52.094Z",
+  "source_revision": "sha256:a73d83db489daea98d1dda317f6fb267b1f382e996d71d3011b72a81d847764f",
+  "source_generated_at": "2026-09-07T00:10:03.473Z",
   "counts": {
-    "movies": 63,
-    "performers": 75,
+    "movies": 64,
+    "performers": 76,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -188,6 +188,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:FCDSS-117"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54380",
+      "display_name": "永野紬",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "永野紬",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:IPZZ-978"
       ]
     },
     {
@@ -1278,6 +1289,51 @@
         "article_title": "IPZZ-943 愛才莉亞 × 美少女設定｜愛才莉亞",
         "display_short_title": null,
         "slug": "ipzz-943"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:IPZZ-978",
+        "source_cover": "https://cc18.tv/preview/80/b/2zpx4iLdI4r-800.jpg?v=1788568695",
+        "title": "IPZZ-978 永野紬｜在幼兒園重逢的性格最差",
+        "catalog_code": "IPZZ-978",
+        "release_date": "2026-09-04",
+        "performers": [
+          "永野紬"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ipzz-978/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54380"
+      ],
+      "search": {
+        "source_title": "無法對溫柔男友說出口的美人保育士扭曲過去：在幼兒園重逢的性格最差、性愛最棒的渣男前男友，我這抖M再次墮落在其過於抖S的活塞抽插之中。 永野紬",
+        "article_title": "IPZZ-978 永野紬｜在幼兒園重逢的性格最差",
+        "display_short_title": null,
+        "slug": "ipzz-978"
       }
     },
     {

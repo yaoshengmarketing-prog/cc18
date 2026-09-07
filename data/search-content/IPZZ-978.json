@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "movie_id": "IPZZ-978",
+  "generated_at": "2026-09-07T00:08:18.986Z",
+  "source_snapshot_hash": "sha256:e55e961b9fef6601b6bd383be23c1245732bd869be8255346c3830823986c2a3",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "來源資料可確認本作以「在幼兒園重逢的性格最差」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "永野紬",
+      "高畫質",
+      "獨家配信",
+      "在幼兒園重逢的性格最差"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想先依來源題材與作品設定挑選的觀眾",
+      "接受目前只提供來源資料整理的觀眾"
+    ],
+    "not_for": [
+      "需要影片抽樣觀察才能決定的觀眾",
+      "需要鏡位、收音或段落變化結論的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "來源資料可確認什麼？來源資料可確認本作以「在幼兒園重逢的性格最差」作為主要作品線索。",
+    "目前能否提供影片觀察？目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "如何使用本頁？可先依來源題材與作品識別資訊判斷是否符合偏好。"
+  ]
+}

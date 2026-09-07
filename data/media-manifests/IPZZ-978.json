@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "IPZZ-978",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-07T00:09:19.086Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/IPZZ-978/hero-v1.jpg",
+      "r2_key": "works/2026/09/IPZZ-978/hero-v1.jpg",
+      "bytes": 675739,
+      "sha256": "15d7395b57faf39c97e1ed063dba2f7439be6451168a11577d8a4d0b4990cd37",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "3fdfe5b6-3015-408b-9c7d-386a6510c309",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/IPZZ-978/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/IPZZ-978/scene-vertical-v1.jpg",
+      "bytes": 1139635,
+      "sha256": "d7d695e4081df4bccf886ed227b8c2c657d6970ab0d9fc33d1e642411d2d361a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "53df2eb6-f43f-48ae-874e-38ebb573d01a",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2689263,
+    "sha256": "b4eae055c31cc36c82e3ff9b4d29436e7d402bb9393390292e2a6e1bce82801c",
+    "target_r2_key": "works/2026/09/IPZZ-978/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/IPZZ-978/vertical-v1.mp4"
+  }
+}

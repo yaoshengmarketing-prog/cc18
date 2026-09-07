@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "IPZZ-978",
+  "review_sha256": "9b8d0d5a7f81db330eb6745bb61e60e3385303fc21ad7c7de6feca1a42f9d679",
+  "selected_thesis": "來源資料可確認本作以「在幼兒園重逢的性格最差」作為主要作品線索。",
+  "title_basis": {
+    "performer": "永野紬",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "永野紬",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "在幼兒園重逢的性格最差",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "永野紬",
+    "presentation_feature": "在幼兒園重逢的性格最差",
+    "editorial_judgment": "來源資料可確認本作以「在幼兒園重逢的性格最差」作為主要作品線索。",
+    "source_keywords": [
+      "永野紬",
+      "在幼兒園重逢的性格最差",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：永野紬",
+      "supports": "這項可追溯來源訊號支持文章以「永野紬」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：在幼兒園重逢的性格最差",
+      "supports": "這項可追溯來源訊號支持文章以「在幼兒園重逢的性格最差」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：淫亂・過激系",
+      "supports": "這項可追溯來源訊號支持文章以「淫亂・過激系」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：アクメ・オーガズム",
+      "supports": "這項可追溯來源訊號支持文章以「アクメ・オーガズム」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-06T16:00:00.000Z"
+}
