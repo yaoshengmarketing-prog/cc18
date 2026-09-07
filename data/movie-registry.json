@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-07T00:10:00.961Z",
+  "updated_at": "2026-09-07T00:13:42.279Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -1014,6 +1014,21 @@
       ],
       "release_date": "2026-09-04",
       "source_url": "https://cc18.tv/player.php?uuid=2zpx4iLdI4r&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-07"
+    },
+    {
+      "id": "SNOS-363",
+      "actress": [
+        "雛形みくる"
+      ],
+      "release_date": "2026-09-04",
+      "source_url": "https://cc18.tv/player.php?uuid=1rgnkTwAye6&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
