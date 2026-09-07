@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "movie_id": "MCSR-639",
+  "description_sha256": "257ffaa66570a0c4b939af4a584029afe08de7b618c06de95795a2da5f4ff59d",
+  "sentence_indices": [],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

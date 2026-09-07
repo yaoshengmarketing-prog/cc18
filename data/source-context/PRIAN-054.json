@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "movie_id": "PRIAN-054",
+  "description_sha256": "b1beea0e60e6a63b5b2268911b8cbc2e06a03fe1deffd73efa53710ac768ffea",
+  "sentence_indices": [],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

@@ -1,6 +1,27 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {buildSourceContext, auditWriterSource} from '../scripts/editorial/lib/source-context.mjs';
+import {buildSourceContext, auditWriterSource, sourceDescriptionHash, validateContextSelection} from '../scripts/editorial/lib/source-context.mjs';
+
+test('local sentence selection recovers background outside the keyword list without rewriting it', () => {
+  const source = {id: 'TEST-901', description: '母親一直擔心兒子有些不可靠。'};
+  assert.equal(buildSourceContext(source).excerpts.length, 0);
+  const selection = {movie_id: source.id, description_sha256: sourceDescriptionHash(source), sentence_indices: [0]};
+  assert.equal(buildSourceContext(source, {selection}).excerpts[0].text, source.description);
+});
+test('stale, out-of-range or unrelated selections cannot inject facts into Writer input', () => {
+  const source = {id: 'TEST-902', description: '母親一直擔心兒子有些不可靠。'};
+  const valid = {movie_id: source.id, description_sha256: sourceDescriptionHash(source), sentence_indices: [0]};
+  for (const patch of [{movie_id: 'OTHER-001'}, {description_sha256: 'old'}, {sentence_indices: [99]}, {sentence_indices: [-1]}]) {
+    assert.equal(validateContextSelection(source, {...valid, ...patch}), null);
+    assert.equal(buildSourceContext(source, {selection: {...valid, ...patch}}).excerpts.length, 0);
+  }
+});
+test('local model selection cannot override graphic sentence exclusion', () => {
+  const source = {id: 'TEST-903', description: '旅行企劃包括性交描寫。'};
+  const selection = {movie_id: source.id, description_sha256: sourceDescriptionHash(source), sentence_indices: [0]};
+  assert.deepEqual(validateContextSelection(source, selection), []);
+  assert.equal(buildSourceContext(source, {selection}).excerpts.length, 0);
+});
 
 test('transmits intact source sentences with verifiable offsets, including negation', () => {
   const source = {description: '這不是訪談，而是一部旅行紀錄。\n兩位同事在旅館重逢。'};

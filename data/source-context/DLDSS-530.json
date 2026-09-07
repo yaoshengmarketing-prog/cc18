@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "movie_id": "DLDSS-530",
+  "description_sha256": "ce3e387e17ebb1339494edc72bba734ef00262f7755608d26d2cd3390dcd59dc",
+  "sentence_indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

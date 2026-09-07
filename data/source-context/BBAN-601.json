@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "movie_id": "BBAN-601",
+  "description_sha256": "8faab446004e5329460e0f9e55179efd55520b09eab81073a8d1e0fff2c21a15",
+  "sentence_indices": [
+    0,
+    1,
+    6,
+    9,
+    10
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

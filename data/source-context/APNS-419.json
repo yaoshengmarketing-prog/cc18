@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "movie_id": "APNS-419",
+  "description_sha256": "f164d382fd754b532bef9edab0455766341c5aeb4c06fa508efc84e368837a3d",
+  "sentence_indices": [
+    2,
+    4
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

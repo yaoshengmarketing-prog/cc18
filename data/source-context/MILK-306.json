@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "movie_id": "MILK-306",
+  "description_sha256": "03b06370aa5824f9b9b740990444a9172c83628d05bea58d2781d4b4a6592370",
+  "sentence_indices": [
+    0,
+    2
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

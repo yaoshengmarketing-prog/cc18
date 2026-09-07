@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "movie_id": "ENDS-322",
+  "description_sha256": "df08aa443f43089d8129fd7917f29828b0541261a288ce7003b1225d9310ee71",
+  "sentence_indices": [],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

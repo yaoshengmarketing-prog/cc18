@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "movie_id": "DSOD-006",
+  "description_sha256": "a4c508a8d32194451bf8c36bb4a13ff1f6dcc87af04de0e70f9b743a67e7be4d",
+  "sentence_indices": [
+    0,
+    1
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

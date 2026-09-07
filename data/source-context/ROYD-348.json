@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "movie_id": "ROYD-348",
+  "description_sha256": "517bfc463964f37aa15a75428d4166665517eda9da8dea6a202c7197ad767e4a",
+  "sentence_indices": [
+    1,
+    3,
+    4
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

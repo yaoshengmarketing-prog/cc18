@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "movie_id": "NAMH-074",
+  "description_sha256": "bdd1b5b036adc83098aa22c77db928f52a9789f8492884e5df737e13d2f01114",
+  "sentence_indices": [
+    1,
+    2,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    14
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

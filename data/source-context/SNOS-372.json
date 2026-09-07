@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-372",
+  "description_sha256": "aa64c66c63af7dc90c91043df34ea780d8b11e68f514d6ec41f974436f17865c",
+  "sentence_indices": [
+    1,
+    2,
+    4,
+    5
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

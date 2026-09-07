@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "movie_id": "RKI-750",
+  "description_sha256": "a2df30c720c922db6a961315a34ee9f0ca9c6712c7580c1d822b84caa56b3959",
+  "sentence_indices": [
+    0,
+    7
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

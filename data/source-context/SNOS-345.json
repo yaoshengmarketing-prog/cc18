@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-345",
+  "description_sha256": "3160c5ca8d2d0f4720f8201909c78ccaceab96a679edfc6ecc73ac16863ac1b3",
+  "sentence_indices": [
+    0
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

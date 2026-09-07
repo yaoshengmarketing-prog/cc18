@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "movie_id": "IPZZ-943",
+  "description_sha256": "61ba9d78d8e2adf938f1485dd746294ff44c048e3744e588fc9249b7153bba76",
+  "sentence_indices": [],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

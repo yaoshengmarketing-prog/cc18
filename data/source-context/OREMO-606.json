@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "movie_id": "OREMO-606",
+  "description_sha256": "453ce3f7a0b3b34150e892e68234cda5b40e02e36311f19f6d280f67855d6041",
+  "sentence_indices": [
+    0
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

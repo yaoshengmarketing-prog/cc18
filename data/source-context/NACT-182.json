@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "movie_id": "NACT-182",
+  "description_sha256": "7031c7a9b477d7eb306a1f42e606d360f05f0c0b17ca2d73bd59f0bb8e5c0d22",
+  "sentence_indices": [],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

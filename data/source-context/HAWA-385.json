@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "movie_id": "HAWA-385",
+  "description_sha256": "721015ca697cad80fc966503b88edbc72fa44773a190d2f081ac692b19971911",
+  "sentence_indices": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

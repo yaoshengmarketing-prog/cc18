@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "movie_id": "FWAY-103",
+  "description_sha256": "c507ac71acffc3cfdd38a4ac8a95d343cdb623a47d9bc7efb7dc34e309e3f69e",
+  "sentence_indices": [],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "movie_id": "EKDV-826",
+  "description_sha256": "c8b22ad74fb485c58347912e61881d4ba0370b096a474a191d50da4e3d822e56",
+  "sentence_indices": [
+    0,
+    1,
+    3
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "movie_id": "SW-1065",
+  "description_sha256": "8da86678d0bfe3f84e4000d60ddd7357e191ccfc95001ca669d969da9c57abba",
+  "sentence_indices": [],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

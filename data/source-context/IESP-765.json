@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "movie_id": "IESP-765",
+  "description_sha256": "f4d5015ef3af36a7a04bfe7275a947ae012bd7909fdd4f9f7c20f422492ae105",
+  "sentence_indices": [
+    0
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

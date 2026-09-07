@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "movie_id": "CEMD-889",
+  "description_sha256": "e996921f95b568c88754ef87430710a6375a568c415bf07e5f4eb860f5255daa",
+  "sentence_indices": [
+    0
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

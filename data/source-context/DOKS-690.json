@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "movie_id": "DOKS-690",
+  "description_sha256": "efddc1d1375761f3fc31c5ca1a97e1271db4c93d5d1f15d8742aa0b2b849e876",
+  "sentence_indices": [],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

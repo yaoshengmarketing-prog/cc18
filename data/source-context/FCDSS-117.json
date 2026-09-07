@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "movie_id": "FCDSS-117",
+  "description_sha256": "41805a6d547b6f12f360b566cacb85cffc37ba6cc68e81a823cbad60119bfeb2",
+  "sentence_indices": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

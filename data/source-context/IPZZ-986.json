@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "movie_id": "IPZZ-986",
+  "description_sha256": "b89258ff88a2966834e5b5137a4fa3f5b4b6a712728eb6f2cf1c400b9cddd731",
+  "sentence_indices": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    9
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "movie_id": "SIRO-5722",
+  "description_sha256": "c47cbe9057517dfc03c72d1fa8108bc0a4f05b97e5d26b0409401ae9623b59fc",
+  "sentence_indices": [
+    0
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

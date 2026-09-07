@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "movie_id": "PIYO-238",
+  "description_sha256": "f5cdbffd4a83f0a6f9034bb048bc123e9d38f778ca0e86c0aecf6f724af5decf",
+  "sentence_indices": [
+    0,
+    6
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

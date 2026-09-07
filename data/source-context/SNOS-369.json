@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-369",
+  "description_sha256": "4f4d0e5005a229332a2bc83f78af1fb53276c59854e3c30a41c992693e0c798c",
+  "sentence_indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

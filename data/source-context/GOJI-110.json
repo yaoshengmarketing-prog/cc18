@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "movie_id": "GOJI-110",
+  "description_sha256": "4985e580784041394f3d4b5dfd70783039b3df5acb25e931e76449fb5cd6b6bd",
+  "sentence_indices": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

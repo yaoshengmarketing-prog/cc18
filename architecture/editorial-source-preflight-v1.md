@@ -30,3 +30,11 @@ The Writer now receives intact, non-graphic contextual sentences selected from d
 `node scripts/editorial/audit-source-input.mjs` audits local snapshots without calling a model. Its report distinguishes missing descriptions, descriptions with no selected context, available source context and available video context. It never treats text length or available context as proof of review quality. Live input snapshots are saved before the request, including failed requests.
 
 The first offline audit of 81 snapshots found 37 with selected context and 44 with descriptions but no selected context. This is a projection diagnostic, not a claim that 44 original works lack information. More comprehensive semantic source summarization remains necessary for those cases.
+
+## Local semantic selection
+
+`node scripts/editorial/select-source-context-local.mjs` uses the configured loopback model to select complete contextual sentence indices for the remaining snapshots. It does not paraphrase or create story facts. The selection is saved in `data/source-context/` with a description hash; changed source text, wrong identities or invalid indices invalidate it. Graphic sentence exclusion still applies after model selection. Empty valid selections are cached to avoid repeating the same local work.
+
+The local run improved the 81-snapshot audit from 37 to 72 works with context. Nine snapshots still have no selected context. These numbers describe input availability, not approval of prose or publication. New snapshots can use the same local command; GitHub does not call the user's loopback model.
+
+An isolated paid Writer preview is available via `preview-source-context.mjs MOVIE-ID --run-paid` and saves only local diagnostics. It is bounded to one request and 2500 output tokens, with no publication or image generation. The initial external preview was not executed because automatic approval review required explicit authorization for the selected payload and AItokenKing destination.

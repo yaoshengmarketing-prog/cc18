@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "movie_id": "CLOT-043",
+  "description_sha256": "5d13d35d67b6a96629342bf22aad87e6e93d2ba0cc5cacc63a078203c5bbb710",
+  "sentence_indices": [
+    0,
+    4
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

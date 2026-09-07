@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "movie_id": "YAKO-099",
+  "description_sha256": "44f03203d0ab78c06f05d8545ebc8ce576f7c66d05af41212c56205d752e24f6",
+  "sentence_indices": [
+    2,
+    3
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

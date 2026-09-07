@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "movie_id": "GVH-878",
+  "description_sha256": "60306970dc9060c1b6d0966a6a9800ecbf14d9e128fc2caf68fce2e967e452c0",
+  "sentence_indices": [
+    3
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "movie_id": "SPSF-55",
+  "description_sha256": "8d8f8512268832fa884c2db972ed496d18c116f63ba8375c0b91f88dfcdebd36",
+  "sentence_indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "method": "local_extractive_selection",
+  "model": "qwen2.5vl:7b"
+}
