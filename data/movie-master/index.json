@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-07T00:26:02.603Z",
+  "generated_at": "2026-09-07T00:29:23.346Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 72,
-  "formal_movie_count": 71,
+  "tracked_input_count": 73,
+  "formal_movie_count": 72,
   "demo_count": 1,
-  "published_count": 68,
+  "published_count": 69,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -440,6 +440,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "c1d877e22058829f5b82c736bf2eacfd7f4e71975626a5b7aa335d6c00422144"
+    },
+    {
+      "stable_movie_id": "cc18:NHDTC-249",
+      "catalog_code": "NHDTC-249",
+      "slug": "nhdtc-249",
+      "master_path": "data/movie-master/nhdtc-249.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "7819787cd766c649714cb85d259994ae5bb15862d12df79281a7da40df013451"
     },
     {
       "stable_movie_id": "cc18:NSODN-025",

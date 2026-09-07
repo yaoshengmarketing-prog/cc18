@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "NHDTC-249",
+  "review_sha256": "04c05ceb2d0799898e40bec3771beb653a66a43042000fcbebba4d0994ac70ce",
+  "selected_thesis": "來源資料可確認本作以「明明是我先喜歡她的」作為主要作品線索。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "明明是我先喜歡她的",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "若い女に憑りついて性欲を満たすヤリマン憑依おばさんに密着",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "紀錄片形式",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "明明是我先喜歡她的",
+    "presentation_feature": "若い女に憑りついて性欲を満たすヤリマン憑依おばさんに密着",
+    "editorial_judgment": "來源資料可確認本作以「明明是我先喜歡她的」作為主要作品線索。",
+    "source_keywords": [
+      "明明是我先喜歡她的",
+      "若い女に憑りついて性欲を満たすヤリマン憑依おばさんに密着",
+      "紀錄片形式",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "series：若い女に憑りついて性欲を満たすヤリマン憑依おばさんに密着",
+      "supports": "這項可追溯來源訊號支持文章以「若い女に憑りついて性欲を満たすヤリマン憑依おばさんに密着」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：紀錄片形式",
+      "supports": "這項可追溯來源訊號支持文章以「紀錄片形式」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：明明是我先喜歡她的",
+      "supports": "這項可追溯來源訊號支持文章以「明明是我先喜歡她的」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：癡女",
+      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：口交",
+      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-06T16:00:00.000Z"
+}

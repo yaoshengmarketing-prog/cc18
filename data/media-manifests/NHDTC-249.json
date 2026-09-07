@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "NHDTC-249",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-07T00:28:40.347Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/NHDTC-249/hero-v1.jpg",
+      "r2_key": "works/2026/09/NHDTC-249/hero-v1.jpg",
+      "bytes": 647388,
+      "sha256": "4cd31e7b31e558314b15ccfe2adb48d00e733af14676702950216fff5a2213b9",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "e802d11d-4250-42cc-861a-06e240bedbc0",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/NHDTC-249/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/NHDTC-249/scene-vertical-v1.jpg",
+      "bytes": 772717,
+      "sha256": "0ca162bfe19c69140f369ca2144e972c40069956ca129d470cfe201843b820c0",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "b18ba239-10ae-4ecf-8047-201ba80029bc",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2264986,
+    "sha256": "3d87f734f8088436e96924d6239e04fa0698ec73a4a64b10066faf2b00ab4df4",
+    "target_r2_key": "works/2026/09/NHDTC-249/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/NHDTC-249/vertical-v1.mp4"
+  }
+}
