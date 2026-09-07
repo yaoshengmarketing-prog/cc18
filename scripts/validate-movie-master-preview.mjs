@@ -2,6 +2,7 @@ import {access, readFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {pathToFileURL} from 'node:url';
 import {loadLatestAddedPromoCatalog} from '../src/lib/movie-master.mjs';
+import {CATALOG_PAGE_SIZE} from '../src/lib/catalog-pagination.mjs';
 import {loadPerformerCatalog} from '../src/lib/performer-catalog.mjs';
 import {
   validateCanonicalMovieMasterIndexEntries,
@@ -78,6 +79,12 @@ const redirects = await readFile(resolve(root, 'dist/_redirects'), 'utf8');
 const searchIndex = await readJson('data/search-index-v1.json');
 const performerCatalog = await loadPerformerCatalog();
 const index = await readJson('data/movie-master/index.json');
+const latestPages = await Promise.all(Array.from({length: Math.max(1, Math.ceil(index.published_count / CATALOG_PAGE_SIZE))},
+  (_, i) => readFile(resolve(root, i === 0 ? 'dist/latest/index.html' : `dist/latest/${i + 1}/index.html`), 'utf8')));
+for (const [i, pageHtml] of latestPages.entries()) {
+  const expected = Math.min(CATALOG_PAGE_SIZE, index.published_count - i * CATALOG_PAGE_SIZE);
+  if ((pageHtml.match(/<article class="movie-card-v1"/g) ?? []).length !== expected) throw new Error(`Latest page ${i + 1} has incorrect card count`);
+}
 validateCanonicalMovieMasterIndexEntries(index.entries);
 const masters = await Promise.all(index.entries.map(async (entry) => {
   const master = await readJson(entry.master_path);
@@ -125,7 +132,7 @@ const promoSection = homeHtml.match(/<section class="promo-picks" data-promo-pic
 const performerExploreSections = [...homeHtml.matchAll(/<section class="home-performer-explore"[^>]*data-home-performer-explore[^>]*>([\s\S]*?)<\/section>/g)];
 const promoCards = [...promoSection.matchAll(/<article class="promo-video-card" data-promo-card data-movie-id="([^"]+)"[^>]*>([\s\S]*?)<\/article>/g)]
   .map((match) => ({stableMovieId: match[1], html: match[2]}));
-const latestCards = [...latestHtml.matchAll(/<article class="movie-card-v1" data-movie-id="([^"]+)"[^>]*>([\s\S]*?)<\/article>/g)]
+const latestCards = [...latestPages.join('\n').matchAll(/<article class="movie-card-v1" data-movie-id="([^"]+)"[^>]*>([\s\S]*?)<\/article>/g)]
   .map((match) => ({stableMovieId: match[1], html: match[2]}));
 const latestIds = latestCards.map(({stableMovieId}) => stableMovieId);
 const pathExists = async (path) => access(path).then(() => true, () => false);
@@ -162,10 +169,11 @@ if (renderedCards.length !== index.published_count || new Set(renderedIds).size 
 if (latestCards.length !== index.published_count || new Set(latestIds).size !== index.published_count) {
   throw new Error(`Latest expected ${index.published_count} unique cards, received ${latestCards.length}`);
 }
-if (homeCards.length !== index.published_count || new Set(homeIds).size !== index.published_count) {
-  throw new Error(`Homepage expected ${index.published_count} unique cards, received ${homeCards.length}`);
+const homeCount = Math.min(CATALOG_PAGE_SIZE, index.published_count);
+if (homeCards.length !== homeCount || new Set(homeIds).size !== homeCount) {
+  throw new Error(`Homepage expected ${homeCount} unique cards, received ${homeCards.length}`);
 }
-if (homeCatalogCodes.some((catalogCode) => !catalogCode) || new Set(homeCatalogCodes).size !== index.published_count) {
+if (homeCatalogCodes.some((catalogCode) => !catalogCode) || new Set(homeCatalogCodes).size !== homeCount) {
   throw new Error('Homepage catalog codes are missing or duplicated');
 }
 if (promoCards.length !== promoCatalog.cards.length || promoCards.length !== 3) {
@@ -180,7 +188,7 @@ if (renderedIds.join('\n') !== expectedReleaseIds.join('\n')) {
 if (latestIds.join('\n') !== expectedLatestAddedIds.join('\n')) {
   throw new Error('Latest card order differs from published_at DESC + catalog_code ASC');
 }
-if (homeIds.join('\n') !== expectedLatestAddedIds.join('\n') || homeIds.join('\n') !== latestIds.join('\n')) {
+if (homeIds.join('\n') !== expectedLatestAddedIds.slice(0, homeCount).join('\n') || homeIds.join('\n') !== latestIds.slice(0, homeCount).join('\n')) {
   throw new Error('Homepage and Latest do not share latest_added ordering');
 }
 for (const master of expectedExcluded) {

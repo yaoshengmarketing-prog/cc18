@@ -422,7 +422,7 @@ test('SNOS-345 card uses the approved short title projected by Movie Master', as
 
 test('Latest renders latest_added while the neutral catalog retains release-date ordering', async () => {
   const [latestPage, latestAdded, neutral, index] = await Promise.all([
-    readFile(new URL('../src/pages/latest/index.astro', import.meta.url), 'utf8'),
+    readFile(new URL('../src/pages/latest/[...page].astro', import.meta.url), 'utf8'),
     loadLatestAddedMovieCardCatalog(),
     loadPublishedMovieCardCatalog(),
     readJson('data/movie-master/index.json'),
@@ -570,7 +570,7 @@ test('promo projection fails when qualified candidates cannot satisfy the reques
 test('homepage keeps its Markdown featured Hero and shares latest_added with Latest', async () => {
   const [homePage, latestPage, latestAdded] = await Promise.all([
     readFile(new URL('../src/pages/index.astro', import.meta.url), 'utf8'),
-    readFile(new URL('../src/pages/latest/index.astro', import.meta.url), 'utf8'),
+    readFile(new URL('../src/pages/latest/[...page].astro', import.meta.url), 'utf8'),
     loadLatestAddedMovieCardCatalog(),
   ]);
 
@@ -585,7 +585,7 @@ test('homepage keeps its Markdown featured Hero and shares latest_added with Lat
   assert.match(homePage, /featured\.data\.shortReview/);
   assert.match(homePage, /featured\.data\.sourceUrl/);
   assert.match(homePage, /loadLatestAddedMovieCardCatalog\(\)/);
-  assert.match(homePage, /catalog\.cards\.map\(\(card\) =>/);
+  assert.match(homePage, /firstPage\.cards\.map\(\(card\) =>/);
   assert.match(homePage, /<MovieCardV1 card=\{card\} \/>/);
   assert.match(homePage, /依本站收錄時間排序；卡片日期為作品發行日。/);
   assert.match(latestPage, /依本站收錄時間排序；卡片日期為作品發行日。/);
@@ -671,7 +671,7 @@ test('preview and formal search keep the neutral catalog while home and Latest s
     readFile(new URL('../src/lib/movie-master.mjs', import.meta.url), 'utf8'),
     readFile(new URL('../src/pages/index.astro', import.meta.url), 'utf8'),
     readFile(new URL('../src/pages/preview/movie-master-cards/index.astro', import.meta.url), 'utf8'),
-    readFile(new URL('../src/pages/latest/index.astro', import.meta.url), 'utf8'),
+    readFile(new URL('../src/pages/latest/[...page].astro', import.meta.url), 'utf8'),
     readFile(new URL('../scripts/build-search-index.mjs', import.meta.url), 'utf8'),
   ]);
   assert.match(library, /export async function loadPublishedMovieCardCatalog\(\)/);
