@@ -101,7 +101,14 @@ for (const movieId of candidates) {
     if (protectedCollision.length) throw new Error(`${movieId}: protected pre-existing untracked artifact(s): ${protectedCollision.join(', ')}`);
     const movie = await store.getMovie(movieId);
     if (!movie || movie.classification !== 'eligible' || movie.metadata_status !== 'validated') throw new Error(`${movieId}: not an eligible validated work`);
+    let sourcePreflightPassed = false;
     for (const {stage, script, args, required} of stages) {
+      if (!sourcePreflightPassed && ['image', 'video', 'publish'].includes(stage)) {
+        const preflight = await run('scripts/publish/source-preflight.mjs', [movieId, '--repair-source']);
+        if (preflight.code !== 0) throw new Error(`${movieId}: source publication preflight failed before media generation`);
+        sourcePreflightPassed = true;
+        work.stages.push({stage: 'source_preflight', status: 'passed'});
+      }
       const existing = await store.findJob({movieId, stage});
       if (existing?.status === 'completed') {
         if (stage === 'editorial') {

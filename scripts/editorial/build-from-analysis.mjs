@@ -197,6 +197,13 @@ await mkdir(responseDirectory, {recursive: true});
 await writeFile(resolve(responseDirectory, `${Date.now()}-${rewriteAttempt}.json`), JSON.stringify({
   movie_id: movieId, rewrite_attempt: rewriteAttempt, source_only: sourceOnly,
   source_sha256: createHash('sha256').update(sourceRecordText).digest('hex'),
+  input: prompt,
+  input_audit: {
+    source_description_characters: String(source.description ?? '').length,
+    transmitted_source_concepts: safePublicSource.creative_seed_brief?.source_concepts?.length ?? 0,
+    transmitted_video_observations: safeVideoAnalysis.observations?.length ?? 0,
+    raw_description_transmitted: false,
+  },
   generation,
 }, null, 2));
 let result = normalizeEditorialResult(parseFirstJsonObject(generation.text), {movieId, safePublicSource, safeVideoAnalysis});

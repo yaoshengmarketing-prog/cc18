@@ -98,6 +98,7 @@ const stopLease = async () => {
 };
 
 try {
+  await run('scripts/publish/source-preflight.mjs', [movieId, '--repair-source'], 'EDITORIAL_REVIEW_REQUIRED');
   if (qaOnly) {
     await run('scripts/editorial/qa-draft.mjs', [movieId], 'EDITORIAL_QA_FAILED');
   } else {

@@ -90,7 +90,7 @@
     "video:props:test": "node --test tests/video-props.test.mjs",
     "movie-cards:test": "node --test tests/movie-master-cards.test.mjs",
     "movie-cards:postbuild": "node scripts/validate-movie-master-preview.mjs",
-    "publisher:test": "node --test tests/publisher.test.mjs tests/publish-waves.test.mjs",
+    "publisher:test": "node --test tests/publisher.test.mjs tests/publish-waves.test.mjs tests/source-preflight.test.mjs",
     "load:synthetic": "node scripts/load/synthetic-queue.mjs",
     "publish:d1:process-one": "node scripts/publish/process-d1-one.mjs"
   },

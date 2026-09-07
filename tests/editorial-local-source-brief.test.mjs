@@ -86,7 +86,9 @@ test('external creative brief deterministically removes graphic local-model pros
   const payload = JSON.stringify(buildSafePublicSource(source, graphicBrief));
   assert.doesNotMatch(payload, /口交|顏射|性行為|性器|露骨|9P|10發/);
   assert.match(payload, /成長與學習/);
-  assert.match(payload, /棚內場景/);
+  assert.equal(JSON.parse(payload).creative_seed_brief.setting, null);
+  assert.equal(JSON.parse(payload).creative_seed_brief.premise, null);
+  assert.doesNotMatch(payload, /逐步建立自信|初次嘗試與後段熟練/);
   assert.match(payload, /弓道少女|一日特訓/);
 });
 

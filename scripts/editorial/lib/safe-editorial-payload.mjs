@@ -69,24 +69,12 @@ const safeBriefTheme = (value) => {
   return theme && !unsafeBriefPattern.test(theme) ? theme : null;
 };
 
-const safeBriefSetting = (value) => classify(value, [
-  {pattern: /office|workplace|辦公|職場|オフィス/, label: '職場型室內場景'},
-  {pattern: /school|class|校園|教室|学校/, label: '校園型場景'},
-  {pattern: /hotel|旅館|飯店|ホテル/, label: '旅館型室內場景'},
-  {pattern: /studio|set|攝影棚|スタジオ/, label: '棚內場景'},
-  {pattern: /outdoor|street|戶外|街道|屋外/, label: '戶外場景'},
-], '一般室內場景');
-
 // The local model may understand graphic source prose, but no generated sentence from
 // that pass is trusted for external transmission. Rebuild a compact, deterministic
 // abstraction from allowlisted themes and setting categories instead.
 export function buildExternalCreativeBrief(localBrief, source = {}) {
   if (!localBrief) return null;
   const themes = [...new Set((localBrief.themes ?? []).map(safeBriefTheme).filter(Boolean))].slice(0, 4);
-  for (const fallback of ['角色成長', '互動節奏', '關係轉折']) {
-    if (themes.length >= 3) break;
-    if (!themes.includes(fallback)) themes.push(fallback);
-  }
   const sourceConcepts = [...new Set((localBrief.search_concepts ?? []).map((value) => String(value ?? '').normalize('NFKC').trim()).filter((value) => {
     if (value.length < 2 || value.length > 30 || unsafeBriefPattern.test(value)) return false;
     return String(source.title ?? '').includes(value) || String(source.description ?? '').includes(value);
@@ -96,17 +84,15 @@ export function buildExternalCreativeBrief(localBrief, source = {}) {
   }));
   return {
     core_source_concept: String(localBrief.core_source_concept ?? '').normalize('NFKC').trim().slice(0, 30),
-    premise: `以${themes[0]}與${themes[1]}為主軸，聚焦角色由嘗試、適應到掌握節奏的轉變。`,
-    relationship: '主角與引導者及其他參與者之間的合作關係',
-    role_dynamic: '主角從接受引導逐步建立自信，並在互動中取得更鮮明的主導性。',
-    central_tension: `如何在密集安排中呈現${themes[0]}，同時讓前後段落形成清楚差異。`,
-    setting: safeBriefSetting(localBrief.setting),
+    // An abstract local brief is not evidence of scenes, relationships or character arcs.
+    premise: null,
+    relationship: null,
+    role_dynamic: null,
+    central_tension: null,
+    setting: null,
     themes,
-    creative_seeds: [
-      '用初次嘗試與後段熟練形成敘事對照',
-      '透過引導者的回應呈現主角心態與節奏變化',
-      '以階段式任務推動故事，而不是堆疊相似橋段',
-    ],
+    creative_seeds: [],
+    evidence_scope: 'source_concepts 為來源摘錄；themes 只供組織文章，不證明作品情節。未確認的場景與人物關係保持未知。',
     source_concepts: sourceConcepts,
   };
 }

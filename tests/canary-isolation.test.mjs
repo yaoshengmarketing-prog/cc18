@@ -66,7 +66,7 @@ test('isolated canary accepts an authorized checkpoint and enters the existing e
     await put(fixture, 'scripts/canary/selection.mjs', `export const registryDraftIds = () => new Set();\nexport const classifyCanaryStageOutcome = ({stage}) => ({continuePipeline: true, reportStatus: stage + '_completed'});\n`);
     await put(fixture, 'scripts/r2/wrangler-auth.mjs', 'export const buildR2WranglerEnvironment = () => ({});\n');
     await put(fixture, 'scripts/publish/lib/publisher.mjs', 'export const allowedPublishPaths = () => new Set();\n');
-    for (const path of ['scripts/editorial/handoff-d1.mjs', 'scripts/video/process-d1-one.mjs', 'scripts/publish/process-d1-one.mjs']) {
+    for (const path of ['scripts/editorial/handoff-d1.mjs', 'scripts/publish/source-preflight.mjs', 'scripts/video/process-d1-one.mjs', 'scripts/publish/process-d1-one.mjs']) {
       await put(fixture, path, `import {appendFile} from 'node:fs/promises';\nawait appendFile(new URL('${'../'.repeat(path.split('/').length - 1)}flow-marker.txt', import.meta.url), '${path}\\n');\n`);
     }
     git(fixture, 'init');
@@ -99,6 +99,7 @@ test('isolated canary accepts an authorized checkpoint and enters the existing e
     assert.match(marker, /d1-movie/u);
     assert.match(marker, /scripts\/editorial\/handoff-d1\.mjs/u);
     assert.match(marker, /scripts\/publish\/process-d1-one\.mjs/u);
+    assert.ok(marker.indexOf('scripts/publish/source-preflight.mjs') < marker.indexOf('scripts/video/process-d1-one.mjs'));
   } finally {
     await rm(temporary, {recursive: true, force: true});
   }
