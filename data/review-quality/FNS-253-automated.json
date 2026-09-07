@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "id": "FNS-253",
+  "checked_at": "2026-09-07T00:19:42.699Z",
+  "review_sha256": "25e8a6503a2064de041ee331dde909c7db22f6d2bfed253c57ec0a8821d433c4",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "sitewide_reused_sentences",
+    "insufficient_sections",
+    "missing_creative_reconstruction_audit"
+  ],
+  "findings": [
+    {
+      "code": "sitewide_reused_sentences",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "SITEWIDE_ORIGINALITY_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 1,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

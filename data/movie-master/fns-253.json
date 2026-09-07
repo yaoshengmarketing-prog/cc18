@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.1.0",
+  "stable_movie_id": "cc18:FNS-253",
+  "slug": "fns-253",
+  "is_demo": false,
+  "source": {
+    "catalog_code": "FNS-253",
+    "source_title": "FNS-253 為了逃離突如其來的豪雨,同班男女潛入夜晚的校舍,兩人獨處…在互相溫暖濕透身體的過程中交纏在一起 浜辺やよい",
+    "release_date": "2026-09-04",
+    "source_url": "https://cc18.tv/player.php?uuid=cLQjgjLWr7o&cat=19",
+    "source_site_movie_id": "cLQjgjLWr7o",
+    "public_description": "大學生彌生趁暑假回老家。在那裡與昔日朋友重逢,舉辦了一場章魚燒派對。其中也有她一直喜歡的那個他。派對結束後,彌生和他因為回家方向相同,兩人一起走過懷舊的道路。這時突然下起雨。他們躲進路過的母校避雨。從一扇從以前就必定沒鎖的窗戶潛入校舍。雖是夏天,淋濕的身體仍感到寒冷。兩人互相依偎取暖,自然而然地身體也交纏在一起。學生時代以來的感情爆發的兩人,一邊回憶往事,即使雨停了也繼續性交。",
+    "source_cover": "https://cc18.tv/preview/80/b/cLQjgjLWr7o-800.jpg?v=1788655154",
+    "raw_performer_names": [
+      "濱邊彌生"
+    ],
+    "performer_relations": [
+      {
+        "source_type": "actor",
+        "source_id": "46713",
+        "stable_source_id": "cc18.tv:actor:46713",
+        "source_name": "濱邊彌生",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=46713",
+        "observed_at": "2026-09-06T23:55:00.106Z"
+      }
+    ],
+    "series_relations": [],
+    "tag_relations": [
+      {
+        "source_type": "tag",
+        "source_id": "479",
+        "stable_source_id": "cc18.tv:tag:479",
+        "source_name": "720p",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=479",
+        "observed_at": "2026-09-06T23:55:00.106Z"
+      }
+    ],
+    "fac_relations": [],
+    "raw_studio_name": null,
+    "raw_series_names": [],
+    "source_tags": [
+      "720p"
+    ],
+    "source_record_ref": "data/source-records/FNS-253.json",
+    "source_snapshot_ref": null,
+    "source_fetched_at": "2026-09-06T23:55:00.106Z",
+    "source_verified_at": null,
+    "source_parser_version": null
+  },
+  "display": {
+    "performers": [
+      {
+        "source_actor_id": "cc18.tv:actor:46713",
+        "name_ja": null,
+        "display_name_zh_tw": null,
+        "display_name": "濱邊彌生",
+        "verification_status": "SOURCE_NAME_FALLBACK"
+      }
+    ]
+  },
+  "titles": {
+    "article_title": "FNS-253 濱邊彌生｜FNS-253",
+    "translated_title_zh_tw": null,
+    "display_short_title": null,
+    "seo_title": "FNS-253 濱邊彌生｜作品資料｜FNS-253"
+  },
+  "derived": {
+    "quality_codes": [
+      "HD_720P"
+    ],
+    "duration_seconds": null,
+    "canonical_topic_tag_ids": [
+      "hd"
+    ]
+  },
+  "editorial": {
+    "one_line_summary": "來源資料可確認本作以「FNS-253」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "article_ref": "content/reviews/FNS-253.md",
+    "article_evidence_level": "PUBLIC_METADATA",
+    "article_evidence_scope": "SOURCE_TITLE_DESCRIPTION_TAGS"
+  },
+  "media": {
+    "remotion_promo_ref": "data/media-manifests/FNS-253.json#/video"
+  },
+  "evidence": {
+    "records": []
+  },
+  "publishing": {
+    "is_published": true,
+    "published_at": "2026-09-07",
+    "canonical_url": "https://cc18.pages.dev/works/fns-253/",
+    "indexability": "INDEX",
+    "content_hash": "8862429ec79a22d68c873dcda0133d22c56310426fe69a6836cf660663f40f37"
+  },
+  "legacy": {
+    "legacy_published_at": null,
+    "legacy_published_at_semantics": null
+  }
+}

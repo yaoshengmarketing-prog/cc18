@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "movie_id": "FNS-253",
+  "generated_at": "2026-09-07T00:19:42.631Z",
+  "source_snapshot_hash": "sha256:8c9820a947da09cdadce444d45104988679e4c096aaa4acb0f291c7c62b07add",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "來源資料可確認本作以「FNS-253」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "濱邊彌生",
+      "高畫質",
+      "FNS-253",
+      "720p"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想先依來源題材與作品設定挑選的觀眾",
+      "接受目前只提供來源資料整理的觀眾"
+    ],
+    "not_for": [
+      "需要影片抽樣觀察才能決定的觀眾",
+      "需要鏡位、收音或段落變化結論的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "FNS-243",
+      "relation_type": "same_performer",
+      "reason": "同樣由濱邊彌生出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "濱邊彌生"
+      ],
+      "contrast_signals": [
+        "畢業典禮結束10分鐘後",
+        "美少女設定"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "來源資料可確認什麼？來源資料可確認本作以「FNS-253」作為主要作品線索。",
+    "目前能否提供影片觀察？目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "如何使用本頁？可先依來源題材與作品識別資訊判斷是否符合偏好。"
+  ]
+}

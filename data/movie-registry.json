@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-07T00:17:13.728Z",
+  "updated_at": "2026-09-07T00:21:27.652Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -1044,6 +1044,21 @@
       ],
       "release_date": "2026-09-04",
       "source_url": "https://cc18.tv/player.php?uuid=1CzqDeSIPbv&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-07"
+    },
+    {
+      "id": "FNS-253",
+      "actress": [
+        "濱邊彌生"
+      ],
+      "release_date": "2026-09-04",
+      "source_url": "https://cc18.tv/player.php?uuid=cLQjgjLWr7o&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

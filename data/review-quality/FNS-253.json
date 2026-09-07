@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "FNS-253",
+  "review_sha256": "617582ff769b5ad3f0c54352f329a95a48ed9a417e8cbc2d749497853b15a651",
+  "selected_thesis": "來源資料可確認本作以「FNS-253」作為主要作品線索。",
+  "title_basis": {
+    "performer": "濱邊彌生",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "濱邊彌生",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "FNS-253",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "720p",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "濱邊彌生",
+    "presentation_feature": "FNS-253",
+    "editorial_judgment": "來源資料可確認本作以「FNS-253」作為主要作品線索。",
+    "source_keywords": [
+      "濱邊彌生",
+      "FNS-253",
+      "高畫質",
+      "720p"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：濱邊彌生",
+      "supports": "這項可追溯來源訊號支持文章以「濱邊彌生」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：FNS-253",
+      "supports": "這項可追溯來源訊號支持文章以「FNS-253」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：浜辺やよい",
+      "supports": "這項可追溯來源訊號支持文章以「浜辺やよい」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-06T16:00:00.000Z"
+}

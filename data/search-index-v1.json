@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:171204748913d71cdb0da7426fe75f5815ff9b6bd58680b514ec2bbbe0ac990a",
-  "source_generated_at": "2026-09-07T00:17:16.192Z",
+  "source_revision": "sha256:7c7b83f853fd7075ffa5ff59b3d05dae7f17d3bcbdf25785570ca5895311c2c2",
+  "source_generated_at": "2026-09-07T00:21:30.070Z",
   "counts": {
-    "movies": 66,
+    "movies": 67,
     "performers": 77,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -841,7 +841,8 @@
       "source_name": "濱邊彌生",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:FNS-243"
+        "cc18:FNS-243",
+        "cc18:FNS-253"
       ]
     },
     {
@@ -1060,6 +1061,35 @@
         "article_title": "DSOD-067 宍戸里帆｜被下媚藥發汗發情",
         "display_short_title": null,
         "slug": "dsod-067"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:FNS-253",
+        "source_cover": "https://cc18.tv/preview/80/b/cLQjgjLWr7o-800.jpg?v=1788655154",
+        "title": "FNS-253 濱邊彌生｜FNS-253",
+        "catalog_code": "FNS-253",
+        "release_date": "2026-09-04",
+        "performers": [
+          "濱邊彌生"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/fns-253/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:46713"
+      ],
+      "search": {
+        "source_title": "FNS-253 為了逃離突如其來的豪雨,同班男女潛入夜晚的校舍,兩人獨處…在互相溫暖濕透身體的過程中交纏在一起 浜辺やよい",
+        "article_title": "FNS-253 濱邊彌生｜FNS-253",
+        "display_short_title": null,
+        "slug": "fns-253"
       }
     },
     {
