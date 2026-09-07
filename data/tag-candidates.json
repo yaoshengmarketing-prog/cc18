@@ -581,12 +581,13 @@
     },
     {
       "label": "姐姐系",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "SNOS-364",
         "SNOS-372",
         "DOKS-689",
-        "DOKS-690"
+        "DOKS-690",
+        "IPZZ-916"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
@@ -1062,9 +1063,10 @@
     },
     {
       "label": "多汗",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "DSOD-067"
+        "DSOD-067",
+        "IPZZ-916"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
