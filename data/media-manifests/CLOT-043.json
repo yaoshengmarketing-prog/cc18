@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "CLOT-043",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-07T16:35:01.570Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/CLOT-043/hero-v1.jpg",
+      "r2_key": "works/2026/09/CLOT-043/hero-v1.jpg",
+      "bytes": 821002,
+      "sha256": "0b73d6c15b53724c1b213b1f5508a17e29c7acb56ea03516540da87f3f72c89d",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "042f3467-4d35-4a9a-9670-195531226d49",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/CLOT-043/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/CLOT-043/scene-vertical-v1.jpg",
+      "bytes": 1042264,
+      "sha256": "80d6b60273f1d93e156a592f89b4dbcf215424f67174ce61bc19d706af1f86cd",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "f9e76c3f-663f-404c-a34c-554a8e714dc2",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2862447,
+    "sha256": "80355a0ad4946aa7f0aa330496b833879abcc3802643fc03752d79b2dfb980fc",
+    "target_r2_key": "works/2026/09/CLOT-043/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/CLOT-043/vertical-v1.mp4"
+  }
+}

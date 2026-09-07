@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-07T16:31:56.960Z",
+  "generated_at": "2026-09-07T16:35:44.991Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 78,
-  "formal_movie_count": 77,
+  "tracked_input_count": 79,
+  "formal_movie_count": 78,
   "demo_count": 1,
-  "published_count": 74,
+  "published_count": 75,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -44,6 +44,15 @@
       "is_demo": true,
       "is_published": false,
       "content_hash": "d623fffee11bc955d62ed8234f4ff71e4bc0a4a8e0489e6306ede1f43a34ba06"
+    },
+    {
+      "stable_movie_id": "cc18:CLOT-043",
+      "catalog_code": "CLOT-043",
+      "slug": "clot-043",
+      "master_path": "data/movie-master/clot-043.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "5615cc7e205eb2f461fd611fe46dfe5686c0a04af02221f94aa7235eab8d8060"
     },
     {
       "stable_movie_id": "cc18:CMJU-008",

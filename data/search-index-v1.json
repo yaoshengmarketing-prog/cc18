@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:b8f480cc55104f7e6c6b25f4bea5dbd2c24901262b4b72ffadf5842bcbe72e1c",
-  "source_generated_at": "2026-09-07T16:31:56.960Z",
+  "source_revision": "sha256:efbddf05f80bdf7fb6a2766eb6d54be724c6956ceb251e2f31be80ca243e3c36",
+  "source_generated_at": "2026-09-07T16:35:44.991Z",
   "counts": {
-    "movies": 74,
-    "performers": 84,
+    "movies": 75,
+    "performers": 85,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -912,6 +912,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:565",
+      "display_name": "橫山夏希",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "橫山夏希",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CLOT-043"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:46713",
       "display_name": "濱邊彌生",
       "display_name_zh_tw": null,
@@ -961,6 +972,51 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:CLOT-043",
+        "source_cover": "https://cc18.tv/preview/80/b/nRJtxGjm12G-800.jpg?v=1788727093",
+        "title": "CLOT-043 橫山夏希｜魅惑の黒パンスト女上司",
+        "catalog_code": "CLOT-043",
+        "release_date": "2026-09-05",
+        "performers": [
+          "橫山夏希"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "office-lady",
+            "label": "OL"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/clot-043/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:565"
+      ],
+      "search": {
+        "source_title": "魅惑的黑色連褲襪女上司 横山夏希",
+        "article_title": "CLOT-043 橫山夏希｜魅惑の黒パンスト女上司",
+        "display_short_title": null,
+        "slug": "clot-043"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:EKDV-826",
