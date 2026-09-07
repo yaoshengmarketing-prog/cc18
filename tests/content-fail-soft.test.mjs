@@ -19,6 +19,7 @@ const buildFixture = async () => {
   for (const path of [
     'scripts/validate-content.mjs',
     'scripts/editorial/lib/safe-editorial-payload.mjs',
+    'scripts/editorial/lib/source-context.mjs',
     'src/lib/performer-localization-policy.mjs',
     'src/lib/performer-identity.mjs',
     'src/lib/performer-url.mjs',
