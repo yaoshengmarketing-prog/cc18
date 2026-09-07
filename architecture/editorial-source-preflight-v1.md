@@ -22,3 +22,11 @@ This preflight covers source identity failures; it does not guarantee that a lat
 Regression coverage includes long text, more than seven sections, source-only prose retention, malformed identities, unchanged-source repair and refusal to adopt changed facts. APNS-419 was refreshed locally without a paid model call. DSOD-067 passes source preflight.
 
 Actual new Writer output and a single full production publication still need verification. Raw descriptions are still not sent to the external Writer; retaining prose does not itself solve insufficient source context. Daily spending budgets and a complete per-work paid-request ledger remain separate work.
+
+## Source context diagnostics
+
+The Writer now receives intact, non-graphic contextual sentences selected from descriptions, with exact source offsets. Sentences are not spliced to remove negations or unsupported fragments. A bounded context budget omits whole sentences and records omission reasons. These excerpts are source claims, not verified viewing observations or instructions.
+
+`node scripts/editorial/audit-source-input.mjs` audits local snapshots without calling a model. Its report distinguishes missing descriptions, descriptions with no selected context, available source context and available video context. It never treats text length or available context as proof of review quality. Live input snapshots are saved before the request, including failed requests.
+
+The first offline audit of 81 snapshots found 37 with selected context and 44 with descriptions but no selected context. This is a projection diagnostic, not a claim that 44 original works lack information. More comprehensive semantic source summarization remains necessary for those cases.

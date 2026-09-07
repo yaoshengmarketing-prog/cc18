@@ -56,12 +56,16 @@ function derivedEvidence(safeVideoAnalysis) {
 }
 
 function derivedSourceEvidence(safePublicSource) {
-  const evidence = (safePublicSource.safe_title_signals ?? []).map((item) => ({
+  const evidence = (safePublicSource.source_context ?? []).map(({text}) => ({
+    basis: 'public_source', signal: clip(text, 300),
+    supports: '支持對公開企劃設定的評論，不代表觀看過影片。', observation_refs: [],
+  }));
+  evidence.push(...(safePublicSource.safe_title_signals ?? []).map((item) => ({
     basis: 'public_source',
     signal: clip(`${item.type}：${item.value}`, 300),
     supports: clip(`這項可追溯來源訊號支持文章以「${item.value}」作為選片辨識與標題依據。`, 240),
     observation_refs: [],
-  }));
+  })));
   for (const theme of safePublicSource.creative_seed_brief?.themes ?? []) {
     evidence.push({
       basis: 'creative_reconstruction',

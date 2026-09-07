@@ -1,3 +1,4 @@
+import {buildSourceContext} from './source-context.mjs';
 const normalize = (value) => String(value ?? '').normalize('NFKC').trim().toLowerCase();
 
 const safeSourceTagSignals = new Map([
@@ -151,6 +152,7 @@ export function buildSafePublicSource(source, localCreativeBrief = null, taxonom
     safe_title_signals: uniqueSignals,
     topic_elements: topicElements,
     creative_seed_brief: externalBrief,
+    source_context: buildSourceContext(source).excerpts,
   };
 }
 
