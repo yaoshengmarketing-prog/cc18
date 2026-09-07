@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "OREMO-606",
+  "calls": [
+    {
+      "generated_at": "2026-09-07T16:42:06.804Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2562,
+      "cached_input_tokens": 0,
+      "output_tokens": 1091,
+      "total_tokens": 3653,
+      "estimated_cost_usd": 0.037358,
+      "estimated_payg_cash_cost_usd": 0.039225,
+      "direct_openai_reference_usd": 0.02277,
+      "gateway_premium_usd": 0.014588,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2562,
+    "cached_input_tokens": 0,
+    "output_tokens": 1091,
+    "estimated_cost_usd": 0.037358,
+    "estimated_payg_cash_cost_usd": 0.039225,
+    "direct_openai_reference_usd": 0.02277,
+    "gateway_premium_usd": 0.014588
+  }
+}

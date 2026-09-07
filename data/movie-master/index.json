@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-07T16:39:41.611Z",
+  "generated_at": "2026-09-07T16:43:52.996Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 80,
-  "formal_movie_count": 79,
+  "tracked_input_count": 81,
+  "formal_movie_count": 80,
   "demo_count": 1,
-  "published_count": 76,
+  "published_count": 77,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -503,6 +503,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "7c70e6aadcfebfdc1783051c723a4a51cd8f2dd9d7dac016c6d08354194649c8"
+    },
+    {
+      "stable_movie_id": "cc18:OREMO-606",
+      "catalog_code": "OREMO-606",
+      "slug": "oremo-606",
+      "master_path": "data/movie-master/oremo-606.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "8a043ef198de3052f8182dc11b66f2aca2864de49fe283fb3d4c02f6500255b8"
     },
     {
       "stable_movie_id": "cc18:PIYO-238",

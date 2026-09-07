@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "OREMO-606",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-07T16:43:08.353Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/OREMO-606/hero-v1.jpg",
+      "r2_key": "works/2026/09/OREMO-606/hero-v1.jpg",
+      "bytes": 1920683,
+      "sha256": "a96418c1a63819456cf31b4568339e6d1d9d622fa77654dd4d0d431da16669f3",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "523d6d0a-52f8-48d8-b6b0-75b6674be075",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/OREMO-606/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/OREMO-606/scene-vertical-v1.jpg",
+      "bytes": 918831,
+      "sha256": "0fc54e58c87ae0d831463c32a83ec5f95b4888cba9baeabce3dfc8fbcef831a0",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "d4c1b9a5-bf43-4b1d-88ad-4133b63ea00a",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3277815,
+    "sha256": "f8b4eb49de6f80f61c48a4d92af8eaaa5745e5472790b276118bc40cfc544859",
+    "target_r2_key": "works/2026/09/OREMO-606/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/OREMO-606/vertical-v1.mp4"
+  }
+}
