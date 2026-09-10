@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "AARM-366",
+  "calls": [
+    {
+      "generated_at": "2026-09-07T16:55:54.439Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2491,
+      "cached_input_tokens": 0,
+      "output_tokens": 978,
+      "total_tokens": 3469,
+      "estimated_cost_usd": 0.03446,
+      "estimated_payg_cash_cost_usd": 0.036183,
+      "direct_openai_reference_usd": 0.020897,
+      "gateway_premium_usd": 0.013562,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2491,
+    "cached_input_tokens": 0,
+    "output_tokens": 978,
+    "estimated_cost_usd": 0.03446,
+    "estimated_payg_cash_cost_usd": 0.036183,
+    "direct_openai_reference_usd": 0.020897,
+    "gateway_premium_usd": 0.013562
+  }
+}

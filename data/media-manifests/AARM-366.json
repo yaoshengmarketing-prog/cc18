@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "AARM-366",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-10T21:59:51.174Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/AARM-366/hero-v1.jpg",
+      "r2_key": "works/2026/09/AARM-366/hero-v1.jpg",
+      "bytes": 560602,
+      "sha256": "184632e96eb1f3ecca94a8e990d916d532b3a57fba56969b9e2c537872fa7f09",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/AARM-366/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/AARM-366/scene-vertical-v1.jpg",
+      "bytes": 1191738,
+      "sha256": "464c6930bb455b7f8c368b284647e6877a12f750c2ce9c4df4b2fd951545a54a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3206683,
+    "sha256": "8a43663470d237859003b53a65a693eb79a990ed2c45e5f56344f4e22283773a",
+    "target_r2_key": "works/2026/09/AARM-366/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/AARM-366/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

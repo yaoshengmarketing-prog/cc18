@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "AARM-366",
+  "checked_at": "2026-09-10T21:59:49.614Z",
+  "review_sha256": "a862cb49a603a9ce3d71ceb6b929ef116481b7c7c7c8757f50b1cc23792c13aa",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就現有公開資訊來看，AARM-366 最明確的賣點不是劇情設定，而是由系列名與核心概念直接指向的企劃主題：『最強ご褒美チクビ性感』。這個命名本身已經把選片重心放在感官主題的集中展示，而 creative brief 中可追溯的來源線索『緩急自在的指技玩弄』，則進一步強化它屬於單一"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
