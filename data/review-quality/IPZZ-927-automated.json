@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "IPZZ-927",
+  "checked_at": "2026-09-11T14:57:54.252Z",
+  "review_sha256": "06428de1ac2425cfb8226efbd5917776e74c572688222b3c4f4222fbea609369",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看公開資訊，這部作品最明確的賣點就是「被灌酒喝醉後」這個核心企劃設定。來源簡介直接提到，夢在法事上久違與同級生重逢，接著像當年一樣被灌酒喝醉，昔日的本性再次覺醒。對選片來說，這代表它不是單靠單一身分標籤推進，而是用一個明確觸發點去帶出角色狀態變化。對偏好有前提、有轉折感的觀"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "從目前可追溯資料判斷，它更接近以劇情前提包裝的企劃片。原因在於公開資訊已交代一個清楚場合：法事上的同學重逢，並以喝醉作為角色變化的起點。雖然現有資料不足以證明後續情節密度、場面調度或敘事深度，但至少可以確認，它的選片吸引力不是只有表面標籤，而是建立在「重逢—灌酒—覺醒」這條概念鏈"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

@@ -586,17 +586,18 @@
     },
     {
       "label": "姐姐系",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "SNOS-364",
         "SNOS-372",
         "DOKS-689",
         "DOKS-690",
         "IPZZ-916",
-        "IPZZ-941"
+        "IPZZ-941",
+        "IPZZ-927"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-08",
+      "last_seen": "2026-09-10",
       "status": "quarantined"
     },
     {
@@ -1282,12 +1283,13 @@
     },
     {
       "label": "パンスト・タイツ",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "CLOT-043"
+        "CLOT-043",
+        "IPZZ-927"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-09-08",
+      "last_seen": "2026-09-10",
       "status": "quarantined"
     },
     {
