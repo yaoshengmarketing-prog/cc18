@@ -530,13 +530,14 @@
     },
     {
       "label": "m女",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "MVG-171",
-        "IPZZ-978"
+        "IPZZ-978",
+        "ALOG-032"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-16",
       "status": "quarantined"
     },
     {
@@ -1003,14 +1004,15 @@
     },
     {
       "label": "羞辱",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "DOKS-689",
         "START-601",
-        "DDK-241"
+        "DDK-241",
+        "ALOG-032"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-15",
+      "last_seen": "2026-09-16",
       "status": "quarantined"
     },
     {

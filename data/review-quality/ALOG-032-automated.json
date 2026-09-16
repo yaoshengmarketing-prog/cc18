@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "ALOG-032",
+  "checked_at": "2026-09-16T06:28:20.201Z",
+  "review_sha256": "4ac96009f4f814b019377b2e939fdc12ddec4f6f062e24a1c12b3c593ddf151f",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看已公開、可追溯的資訊，ALOG-032 最明確的賣點就是「內射拷貝」這個企劃核心。來源同時給出 CREAMPIE、COPY，以及公開簡介裡「透過複印美少女的歐派和肉穴，來慰藉興奮身體的企劃」這類描述，代表本作的辨識度不是來自已知演員、系列延伸或明確劇情線，而是來自一個概念"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "適合會主動搜尋明確題材關鍵字的觀眾，例如偏好美少女設定、對中出主題有固定需求，或對特殊企劃命名有興趣的人。若你選片時本來就重視「這次作品到底在賣什麼概念」，那麼 ALOG-032 的訊息是清楚的：它不是靠已知卡司吸引，也不是靠已公開的故事關係取勝，而是靠內射拷貝這個核心概念建立辨"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "綜合公開來源，ALOG-032 可視為一部企劃設定先行、主題集中度高的作品。它的選片價值主要建立在「內射拷貝」這個可被立即辨識的核心概念，再加上美少女與自拍形式等訊號，形成相對直接的購看片單理由。因為缺少更多已確認的劇情與人物資訊，最合理的期待方式不是把它想成故事片，而是把它看作"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "ALOG-032",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T06:28:21.583Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/ALOG-032/hero-v1.jpg",
+      "r2_key": "works/2026/09/ALOG-032/hero-v1.jpg",
+      "bytes": 595963,
+      "sha256": "b081ded55db1919fb74f324533638caafe3635eb6fe264bba9b3ce1c7acddd47",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/ALOG-032/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/ALOG-032/scene-vertical-v1.jpg",
+      "bytes": 1063484,
+      "sha256": "616e97f9ed909d8760a96532dfdfde6672e4dfa4e51fb0dc82ce84775e68ed42",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2893441,
+    "sha256": "ba8b02705d1e06fbfc6b8e2d8673b35753e3f9ec590d98a2dfa84278f38c20e0",
+    "target_r2_key": "works/2026/09/ALOG-032/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/ALOG-032/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
