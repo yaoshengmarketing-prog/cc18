@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "OFTR-015",
+  "checked_at": "2026-09-16T06:30:40.924Z",
+  "review_sha256": "acffe9c4ee037eab1a44d19695ba0b96fa26892d9099c7cff20c22de6b91e8be",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "這次的選片核心很明確，最能區分作品個性的來源概念就是「男女混雜地互相展示自慰」。這不是一般用人物關係或明確劇情推進來吸引觀眾的設定，而比較接近一種把互動形式擺在最前面的企劃。從公開線索來看，作品重點不在已知的角色背景或固定關係，而在一群人彼此觀看、彼此刺激的展示結構，因此若你選片"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

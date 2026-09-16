@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "OFTR-015",
+  "calls": [
+    {
+      "generated_at": "2026-09-16T00:24:22.111Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2506,
+      "cached_input_tokens": 0,
+      "output_tokens": 1012,
+      "total_tokens": 3518,
+      "estimated_cost_usd": 0.0353,
+      "estimated_payg_cash_cost_usd": 0.037065,
+      "direct_openai_reference_usd": 0.021445,
+      "gateway_premium_usd": 0.013855,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2506,
+    "cached_input_tokens": 0,
+    "output_tokens": 1012,
+    "estimated_cost_usd": 0.0353,
+    "estimated_payg_cash_cost_usd": 0.037065,
+    "direct_openai_reference_usd": 0.021445,
+    "gateway_premium_usd": 0.013855
+  }
+}

@@ -616,13 +616,14 @@
     },
     {
       "label": "女同性戀",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "BBAN-609",
-        "BBAN-601"
+        "BBAN-601",
+        "OFTR-015"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-16",
       "status": "quarantined"
     },
     {
@@ -827,13 +828,14 @@
     },
     {
       "label": "超過4小時",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "HHF-111",
-        "FCDSS-117"
+        "FCDSS-117",
+        "OFTR-015"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-16",
       "status": "quarantined"
     },
     {
@@ -875,27 +877,29 @@
     },
     {
       "label": "玩具",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "MILK-306",
         "DOKS-689",
         "NACT-182",
-        "EKDV-826"
+        "EKDV-826",
+        "OFTR-015"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-08",
+      "last_seen": "2026-09-16",
       "status": "quarantined"
     },
     {
       "label": "自慰",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "MILK-306",
         "DOKS-690",
-        "SQTE-718"
+        "SQTE-718",
+        "OFTR-015"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-15",
+      "last_seen": "2026-09-16",
       "status": "quarantined"
     },
     {

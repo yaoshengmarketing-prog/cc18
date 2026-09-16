@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-16T06:28:21.586Z",
+  "updated_at": "2026-09-16T06:30:42.420Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -1330,6 +1330,19 @@
       "video_status": "rendered",
       "template": "story",
       "published_at": "2026-09-15"
+    },
+    {
+      "id": "OFTR-015",
+      "actress": [],
+      "release_date": "2026-09-12",
+      "source_url": "https://cc18.tv/player.php?uuid=kpklmEXsLe&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-16"
     }
   ]
 }

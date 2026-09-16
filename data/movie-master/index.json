@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T06:28:23.966Z",
+  "generated_at": "2026-09-16T06:30:44.782Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 89,
-  "formal_movie_count": 88,
+  "tracked_input_count": 90,
+  "formal_movie_count": 89,
   "demo_count": 1,
-  "published_count": 85,
+  "published_count": 86,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -548,6 +548,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "7c70e6aadcfebfdc1783051c723a4a51cd8f2dd9d7dac016c6d08354194649c8"
+    },
+    {
+      "stable_movie_id": "cc18:OFTR-015",
+      "catalog_code": "OFTR-015",
+      "slug": "oftr-015",
+      "master_path": "data/movie-master/oftr-015.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "e5f0a8580b117ca339b87abc9dfd1d471c21119ff813e6835c208b27a1884138"
     },
     {
       "stable_movie_id": "cc18:OFTR-016",

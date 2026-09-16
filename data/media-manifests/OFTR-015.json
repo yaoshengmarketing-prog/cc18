@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "OFTR-015",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T06:30:42.416Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/OFTR-015/hero-v1.jpg",
+      "r2_key": "works/2026/09/OFTR-015/hero-v1.jpg",
+      "bytes": 817517,
+      "sha256": "452d81dd1265c868a02e6b58acbf7791156e41c21c11fb7a31843e042185a239",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/OFTR-015/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/OFTR-015/scene-vertical-v1.jpg",
+      "bytes": 1429875,
+      "sha256": "d417b8d774fa112564d3b6d5fb714b8aa68602cdef768314d3b1343e4b95f5b4",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3222226,
+    "sha256": "a36363674498cc1c3f92e0860db60055a980d97917c86519949cc3c6d37f1a50",
+    "target_r2_key": "works/2026/09/OFTR-015/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/OFTR-015/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
