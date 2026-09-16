@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "PKPD-434",
+  "checked_at": "2026-09-16T06:12:58.931Z",
+  "review_sha256": "49423a367cc0cfdab38bd82be4aea98b2b5cf1b75375dd2eaa7512bc5eeb9f5b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可確認的公開資訊，這部作品最明確的吸引點就是它把「內射房間喝酒紀錄片」當成核心企劃，並且放在《中出し部屋呑みドキュメント》這個系列名稱之下。這代表它的賣點首先不是複雜劇情，而是以一個可快速理解的情境包裝作品：在房間、喝酒、以紀錄片式包裝去接近更貼身的互動想像。再加上公"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "來源摘錄寫著：「好想邀請可愛又性格好的女優來我家，忘掉攝影機徹底地來場真格的修幹！」這段公開簡介最重要的功能，是交代作品想營造的主觀願望與親密情境：不是強調外部場面，而是把幻想集中在『邀請女優到家中』與『像把攝影機存在感降到最低』的設定上。當然，這只能被視為企劃文案與設定方向，不"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

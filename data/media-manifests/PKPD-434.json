@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "PKPD-434",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T06:13:57.890Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/PKPD-434/hero-v1.jpg",
+      "r2_key": "works/2026/09/PKPD-434/hero-v1.jpg",
+      "bytes": 699319,
+      "sha256": "5c635d963ba76797458875cd9212204b2d52c951a22fd910e52307ea76ac8825",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "86063ad4-d04c-4808-8f68-c0ba56d78851",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/PKPD-434/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/PKPD-434/scene-vertical-v1.jpg",
+      "bytes": 695399,
+      "sha256": "bb6907eb873a9d68756f74c5794a2823f9e4dfbabe5e8768d4cdcb50ce053258",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "2682f7f6-b2cd-4ab5-b185-93fe6cd75f50",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2057875,
+    "sha256": "377ff8d148cf80f5bf5a5d45e46d1aa0d57f012509d213247d28f3040056cee7",
+    "target_r2_key": "works/2026/09/PKPD-434/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/PKPD-434/vertical-v1.mp4"
+  }
+}

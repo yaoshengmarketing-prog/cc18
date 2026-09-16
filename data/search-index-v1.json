@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:ac88d6298bb366f959fdd30b079299f9df6a9a6a82263c6d16b3cc506988d9f8",
-  "source_generated_at": "2026-09-07T16:47:24.624Z",
+  "source_revision": "sha256:9e4f56f917aba85193623507140471037693b6a3e5f49831252188c4a02bbd20",
+  "source_generated_at": "2026-09-16T06:14:41.244Z",
   "counts": {
-    "movies": 78,
-    "performers": 87,
+    "movies": 79,
+    "performers": 88,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -969,6 +969,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:27814",
+      "display_name": "蘆名穗花",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "蘆名穗花",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PKPD-434"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:25683",
       "display_name": "蘭華",
       "display_name_zh_tw": null,
@@ -994,6 +1005,59 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:PKPD-434",
+        "source_cover": "https://cc18.tv/preview/80/b/ljUsGmJ0u9F-800.jpg?v=1789418331",
+        "title": "PKPD-434 蘆名穗花｜內射房間喝酒紀錄片的企劃吸引力，在自拍形式裡放大",
+        "catalog_code": "PKPD-434",
+        "release_date": "2026-09-12",
+        "performers": [
+          "蘆名穗花"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "fantasy-concept",
+            "label": "幻想企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "self-shot",
+            "label": "自拍視角"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/pkpd-434/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27814"
+      ],
+      "search": {
+        "source_title": "內射房間喝酒紀錄片 G罩杯撒嬌美麗大姊姊 蘆名穗花",
+        "article_title": "PKPD-434 蘆名穗花｜內射房間喝酒紀錄片的企劃吸引力，在自拍形式裡放大",
+        "display_short_title": null,
+        "slug": "pkpd-434"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:CEMD-889",

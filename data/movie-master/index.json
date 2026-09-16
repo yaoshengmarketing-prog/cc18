@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-07T16:47:24.624Z",
+  "generated_at": "2026-09-16T06:14:41.244Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 82,
-  "formal_movie_count": 81,
+  "tracked_input_count": 83,
+  "formal_movie_count": 82,
   "demo_count": 1,
-  "published_count": 78,
+  "published_count": 79,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -530,6 +530,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "b5a59a667b1afe7da37c6365979584bd0510144a4928471c1ec1199bf3871371"
+    },
+    {
+      "stable_movie_id": "cc18:PKPD-434",
+      "catalog_code": "PKPD-434",
+      "slug": "pkpd-434",
+      "master_path": "data/movie-master/pkpd-434.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "6cf37aa803d1d5c437a4ec8ddaf7ea9988d3c0be7c6b3cbacfae2ee1caeed3d8"
     },
     {
       "stable_movie_id": "cc18:PRIAN-054",
