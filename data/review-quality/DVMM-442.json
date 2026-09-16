@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "DVMM-442",
+  "review_sha256": "133ca78fc71c7ce14b4e6de5e5082296d147bf59ee0416a1b6a8757dc405abc1",
+  "selected_thesis": "以一般男女監控AV為核心，主打三人好友關係中的單戀、青梅竹馬與NTR線索，屬於系列公式下仍具情境辨識度的企劃片。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "一般男女監控AV",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "マジックミラーの向こうには○○",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "素人",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "一般男女監控AV",
+    "presentation_feature": "マジックミラーの向こうには○○",
+    "editorial_judgment": "以一般男女監控AV為核心，主打三人好友關係中的單戀、青梅竹馬與NTR線索，屬於系列公式下仍具情境辨識度的企劃片。",
+    "source_keywords": [
+      "一般男女監控AV",
+      "マジックミラーの向こうには○○",
+      "素人",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "這是一個對戀愛消極、無法踏出第一步的處男大學生所提出的企劃！",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "我們邀請毫不知情的單戀女孩及其男友（男主角的死黨）出演，將這三人好友團邀請至特設攝影棚！",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：マジックミラーの向こうには○○",
+      "supports": "這項可追溯來源訊號支持文章以「マジックミラーの向こうには○○」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：素人企劃",
+      "supports": "這項可追溯來源訊號支持文章以「素人企劃」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：一般男女監控AV",
+      "supports": "這項可追溯來源訊號支持文章以「一般男女監控AV」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：素人",
+      "supports": "這項可追溯來源訊號支持文章以「素人」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-13T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}
