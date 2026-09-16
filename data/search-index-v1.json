@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:5719c0507819a948c6ce1d571ce246192ab11064cc76baa628d07aa1cac234a4",
-  "source_generated_at": "2026-09-16T06:41:45.450Z",
+  "source_revision": "sha256:0210e413d4831a7a561967a824ca8d1248e7a2cf5d817a8eeb24e15ee3f3990a",
+  "source_generated_at": "2026-09-16T06:43:37.257Z",
   "counts": {
-    "movies": 91,
-    "performers": 93,
+    "movies": 92,
+    "performers": 94,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -112,6 +112,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-358"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54541",
+      "display_name": "大野瑞季",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "大野瑞季",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MIFD-735"
       ]
     },
     {
@@ -1530,6 +1541,55 @@
         "article_title": "EYAN-221 夏花まろん｜不要碰我",
         "display_short_title": null,
         "slug": "eyan-221"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MIFD-735",
+        "source_cover": "https://cc18.tv/preview/80/b/bPuSUXkYS8n-800.jpg?v=1789187982",
+        "title": "MIFD-735 大野瑞季｜以「騙人的吧」撐起劇情懸念的亂交企劃",
+        "catalog_code": "MIFD-735",
+        "release_date": "2026-09-11",
+        "performers": [
+          "大野瑞季"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mifd-735/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54541"
+      ],
+      "search": {
+        "source_title": "欸，騙人的吧？？ 和剛開始社內戀情的兩情相悅男友，在興奮的初次約會後前往飯店，沒想到那裡竟然有客戶公司的色情大叔們，雖然成了中出亂交的獵物，卻還是被幹到一次次地高潮。 大野瑞季",
+        "article_title": "MIFD-735 大野瑞季｜以「騙人的吧」撐起劇情懸念的亂交企劃",
+        "display_short_title": null,
+        "slug": "mifd-735"
       }
     },
     {

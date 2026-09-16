@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "MIFD-735",
+  "review_sha256": "9dbe48af50a40c6e09e1fba7226a66c072e4c8e83fff7544487a3ee04cd82d20",
+  "selected_thesis": "大野瑞季的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "大野瑞季",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "大野瑞季",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "騙人的吧",
+        "source_field": "title"
+      },
+      {
+        "type": "act_or_position",
+        "value": "亂交",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "大野瑞季",
+    "presentation_feature": "騙人的吧",
+    "editorial_judgment": "大野瑞季的企劃呈現與觀看取向",
+    "source_keywords": [
+      "大野瑞季",
+      "騙人的吧",
+      "亂交"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "我開始和公司的後輩瑞季交往。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "就在這時，接到了一通來自客戶公司邀請參加家庭派對的電話。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "從社員出道後的第二部作品起，正式解禁中出！",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：大野瑞季",
+      "supports": "這項可追溯來源訊號支持文章以「大野瑞季」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：騙人的吧",
+      "supports": "這項可追溯來源訊號支持文章以「騙人的吧」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：亂交",
+      "supports": "這項可追溯來源訊號支持文章以「亂交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：戲劇、連續劇",
+      "supports": "這項可追溯來源訊號支持文章以「戲劇、連續劇」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-12T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

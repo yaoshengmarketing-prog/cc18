@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "MIFD-735",
+  "calls": [
+    {
+      "generated_at": "2026-09-13T18:53:36.185Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2618,
+      "cached_input_tokens": 0,
+      "output_tokens": 1388,
+      "total_tokens": 4006,
+      "estimated_cost_usd": 0.04432,
+      "estimated_payg_cash_cost_usd": 0.046536,
+      "direct_openai_reference_usd": 0.027365,
+      "gateway_premium_usd": 0.016955,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2618,
+    "cached_input_tokens": 0,
+    "output_tokens": 1388,
+    "estimated_cost_usd": 0.04432,
+    "estimated_payg_cash_cost_usd": 0.046536,
+    "direct_openai_reference_usd": 0.027365,
+    "gateway_premium_usd": 0.016955
+  }
+}

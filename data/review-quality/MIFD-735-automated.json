@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "MIFD-735",
+  "checked_at": "2026-09-16T06:43:33.167Z",
+  "review_sha256": "9dbe48af50a40c6e09e1fba7226a66c072e4c8e83fff7544487a3ee04cd82d20",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看現有公開資料，這部作品最明確的入口就是「騙人的吧」這個核心概念。它不是單純把演員或形式標籤放上去，而是先用一句帶有驚訝與反轉感的語氣，提示作品會把重心放在企劃式的情境推進上。再對照公開簡介中的資訊：敘述從「我開始和公司的後輩瑞季交往」起頭，接著很快轉向「接到客戶公司邀請參"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "從來源標籤來看，作品同時帶有「AV女優片」、「亂交」以及「戲劇、連續劇」等訊號，這表示它的包裝並不是只強調單一行為，而是把企劃設定與戲劇脈絡一起端出來。若你選片時會在意是否有明確人物位置與事件開端，這部的公開簡介至少已經給出一段可辨識的人際起點：主述者與公司後輩瑞季交往，之後又因"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
