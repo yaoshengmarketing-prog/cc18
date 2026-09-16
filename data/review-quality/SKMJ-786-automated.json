@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "SKMJ-786",
+  "checked_at": "2026-09-16T07:30:52.309Z",
+  "review_sha256": "a27de127206578f97caad5344eea32f9e1ff03f3ae91d1e5088c6ca21023181e",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "body_lacks_source_adult_vocabulary",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資訊，SKMJ-786 最明確的選片理由，就是它把主軸直接收束在「首次油滑手交篇」這個企劃概念上。這種命名方式代表作品的辨識度不是來自已知演員、系列品牌或複雜人物關係，而是來自單一主題的集中呈現。對想找明確題材、希望一眼判斷是否符合口味的觀眾來說，這種片子"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "「素人」是這部片另一個清楚可追溯的來源訊號。它讓作品的市場定位更加直接：不是靠明星辨識度，而是靠企劃與身份標籤形成新鮮感。對部分觀眾而言，這樣的設定通常會提升作品的入門吸引力，因為判斷標準更集中在題材是否對味，而不是是否追演員、追系列。也因為演員資訊目前未知，素人屬性就成為選片時"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

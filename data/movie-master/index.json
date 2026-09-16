@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T07:28:47.288Z",
+  "generated_at": "2026-09-16T07:30:57.143Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 116,
-  "formal_movie_count": 115,
+  "tracked_input_count": 117,
+  "formal_movie_count": 116,
   "demo_count": 1,
-  "published_count": 112,
+  "published_count": 113,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -863,6 +863,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "a0dd7317499da2595f189e853b06645c03838c1784fe457190a4c2628adc2684"
+    },
+    {
+      "stable_movie_id": "cc18:SKMJ-786",
+      "catalog_code": "SKMJ-786",
+      "slug": "skmj-786",
+      "master_path": "data/movie-master/skmj-786.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "edb17f117ad53ddd1b4161d40843e37dd01c2176b45f9bb274f2f9cc3cf0552b"
     },
     {
       "stable_movie_id": "cc18:SNOS-345",
