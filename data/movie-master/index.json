@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T16:59:38.186Z",
+  "generated_at": "2026-09-16T17:04:36.002Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 160,
-  "formal_movie_count": 159,
+  "tracked_input_count": 161,
+  "formal_movie_count": 160,
   "demo_count": 1,
-  "published_count": 156,
+  "published_count": 157,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -521,6 +521,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "b4fa2df07c050f105a737082b0ba9444ea5bdb118c157e3456a63bf76ef12d07"
+    },
+    {
+      "stable_movie_id": "cc18:HJMO-739",
+      "catalog_code": "HJMO-739",
+      "slug": "hjmo-739",
+      "master_path": "data/movie-master/hjmo-739.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "95c95cb9e0a647555a916fb32aa441e879127085bc82ed7a60270259a425011d"
     },
     {
       "stable_movie_id": "cc18:HMN-918",

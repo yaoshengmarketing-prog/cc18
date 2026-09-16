@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "HJMO-739",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T17:03:49.184Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/HJMO-739/hero-v1.jpg",
+      "r2_key": "works/2026/09/HJMO-739/hero-v1.jpg",
+      "bytes": 582372,
+      "sha256": "fd3f6c64778555463f9f047bfeb6ad1efecca94ffbcc62bf5351b6bcd17aa261",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "227443b1-7181-43a2-b046-490dd56fb834",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/HJMO-739/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/HJMO-739/scene-vertical-v1.jpg",
+      "bytes": 1015559,
+      "sha256": "ace30040341e4f7b8a70af594b6c505d6b14504bb5a06b1136b6ad7b24845eaf",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "68f50ccd-6d9e-4d72-b014-d168e147181c",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2835843,
+    "sha256": "c4c78cd4e621d84d61efe6a2fba23c1ac018080b5feb423faf727fb7fb495c8f",
+    "target_r2_key": "works/2026/09/HJMO-739/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/HJMO-739/vertical-v1.mp4"
+  }
+}

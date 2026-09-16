@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "HJMO-739",
+  "checked_at": "2026-09-16T17:02:47.070Z",
+  "review_sha256": "26e34b12ad74f135ab04934dc05667907e1baa601612dbdbaf1d8b376e3b126f",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 5,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "這部作品目前最明確的賣點，不是已知演員或已公開劇情，而是系列名稱本身就很完整地交代了企劃方向。《彼女なら彼氏のチ○ポ当てられるでしょ！？》加上核心概念「既然是女朋友」，讓人一眼就能理解它是以情侶辨識、關係測試與企劃命題為吸引力的作品。對選片來說，這種片最重要的不是故事有多複雜，而"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "系列名已經把公式感說得很清楚：它不是隱藏題，而是直接把「既然是女朋友」當成判準。這種系列的優勢，在於觀眾能快速掌握作品想玩的命題，也能預期每一作都會圍繞同一個核心測試展開。從選片角度來看，這代表它的穩定性高，適合喜歡明確主題的人；但也意味著你是否買單，關鍵就在於你對這個命題本身有"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "以目前資料判斷，HJMO-739 的可看點屬於標準的企劃先行型作品：它不是靠已知演員，也不是靠公開故事摘要，而是靠一個有辨識度的系列命題吸引觀眾。若你喜歡的是設定清楚、方向明白、能快速理解賣點的片，這部有其吸引力；若你期待更具體的人物關係、情節推進或角色變化，現階段公開資訊還無法"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

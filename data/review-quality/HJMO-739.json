@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "HJMO-739",
+  "review_sha256": "5a4734d79e5dcfe075783e3672a9bf3264ff1c3cd8dc8f18467b019247b2536e",
+  "selected_thesis": "彼女なら彼氏のチ○ポ当てられるでしょ！？的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "既然是女朋友",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "彼女なら彼氏のチ○ポ当てられるでしょ！？",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "既然是女朋友",
+    "presentation_feature": "彼女なら彼氏のチ○ポ当てられるでしょ！？",
+    "editorial_judgment": "彼女なら彼氏のチ○ポ当てられるでしょ！？的企劃呈現與觀看取向",
+    "source_keywords": [
+      "既然是女朋友",
+      "彼女なら彼氏のチ○ポ当てられるでしょ！？",
+      "素人企劃",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "series：彼女なら彼氏のチ○ポ当てられるでしょ！？",
+      "supports": "這項可追溯來源訊號支持文章以「彼女なら彼氏のチ○ポ当てられるでしょ！？」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：素人企劃",
+      "supports": "這項可追溯來源訊號支持文章以「素人企劃」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：既然是女朋友",
+      "supports": "這項可追溯來源訊號支持文章以「既然是女朋友」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：素人",
+      "supports": "這項可追溯來源訊號支持文章以「素人」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：口交",
+      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "目前沒有演員資訊，無法從個人魅力或既有形象切入。",
+    "缺少公開劇情與人物關係細節，不能延伸描述未確認的互動發展。",
+    "可把握的重點主要來自系列名、核心概念與公開標籤，文章宜聚焦企劃判斷。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-15T16:00:00.000Z"
+}

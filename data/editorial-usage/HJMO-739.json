@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "HJMO-739",
+  "calls": [
+    {
+      "generated_at": "2026-09-16T17:02:46.857Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2948,
+      "cached_input_tokens": 0,
+      "output_tokens": 1494,
+      "total_tokens": 4442,
+      "estimated_cost_usd": 0.048355,
+      "estimated_payg_cash_cost_usd": 0.050773,
+      "direct_openai_reference_usd": 0.02978,
+      "gateway_premium_usd": 0.018575,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2948,
+    "cached_input_tokens": 0,
+    "output_tokens": 1494,
+    "estimated_cost_usd": 0.048355,
+    "estimated_payg_cash_cost_usd": 0.050773,
+    "direct_openai_reference_usd": 0.02978,
+    "gateway_premium_usd": 0.018575
+  }
+}
