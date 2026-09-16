@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "START-625",
+  "checked_at": "2026-09-16T09:24:02.579Z",
+  "review_sha256": "4ad06e3e6dd7d0dc7c2abf09b313dd7425090b8972f3ef2c95a7f2a642cd685e",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 5,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最明確的選片依據，是作品把核心概念直接放在「與素人男性單獨共處」這個設定上。對想找企劃導向作品的觀眾來說，這比單純以動作或畫質分類更有辨識度，因為它先界定了互動框架：重點不是複雜背景，而是讓女優與素人之間的獨處條件成為主軸。再加上公開介紹提到，這是一個「為了讓七瀨溫發揮史上最強色"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "從目前可追溯資料來看，七瀬溫的吸引力主要不是來自額外人物設定，而是來自企劃對她個人表現力的集中強調。公開文案直接把焦點放在她「發揮史上最強色情技巧」的設計意圖上，這代表選片時可以把她視為本作的中心看點：企劃不是平均分配注意力給多個元素，而是有意識地把七瀨溫放在主展示位。對熟悉演員"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

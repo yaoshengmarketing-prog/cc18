@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:87a9a8cf331f4413d0b0ee334c4f9d9e62ba66c37405f54c9dda3b69119b2c60",
-  "source_generated_at": "2026-09-16T09:21:25.164Z",
+  "source_revision": "sha256:9bdbaa9d6e0129d00c5fde23f4635348d1fd7c62ad6323994cd17a78a0e52434",
+  "source_generated_at": "2026-09-16T09:24:09.235Z",
   "counts": {
-    "movies": 150,
-    "performers": 176,
+    "movies": 151,
+    "performers": 177,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -89,6 +89,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MIDA-744"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53727",
+      "display_name": "七瀬温",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "七瀬温",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:START-625"
       ]
     },
     {
@@ -8167,6 +8178,51 @@
         "article_title": "START-602 minamo｜臉部特化",
         "display_short_title": null,
         "slug": "start-602"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:START-625",
+        "source_cover": "https://cc18.tv/preview/80/b/ioRsGPaPRft-800.jpg?v=1788511151",
+        "title": "START-625 七瀬温｜與素人男性單獨共處的展示型企劃",
+        "catalog_code": "START-625",
+        "release_date": "2026-09-01",
+        "performers": [
+          "七瀬温"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "amateur",
+            "label": "素人"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/start-625/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53727"
+      ],
+      "search": {
+        "source_title": "與素人男性單獨共處，同衣食住且共射精，挑戰最大射精次數的史上最大全色情潛能發揮SP！合計16次射精！七瀨溫",
+        "article_title": "START-625 七瀬温｜與素人男性單獨共處的展示型企劃",
+        "display_short_title": null,
+        "slug": "start-625"
       }
     },
     {
