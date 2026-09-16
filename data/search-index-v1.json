@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:b47f1e97338910327a8f878e8e754965f48945ca19b11c0195b83ec7973c5201",
-  "source_generated_at": "2026-09-16T07:10:26.660Z",
+  "source_revision": "sha256:ea34780c65682a829064c5b3d48e4c1ea2fb53636bfa41f1f9d07340e514bed0",
+  "source_generated_at": "2026-09-16T07:12:56.624Z",
   "counts": {
-    "movies": 104,
-    "performers": 103,
+    "movies": 105,
+    "performers": 104,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -277,6 +277,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:BBAN-601"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:38051",
+      "display_name": "日向由奈",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "日向由奈",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PRED-894"
       ]
     },
     {
@@ -2340,6 +2351,59 @@
         "article_title": "PRED-890 楪可憐 × AV女優片｜楪可憐｜中出主題下的展示型企劃判讀",
         "display_short_title": null,
         "slug": "pred-890"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:PRED-894",
+        "source_cover": "https://cc18.tv/preview/80/b/8ukU5aD5bfM-800.jpg?v=1789245600",
+        "title": "PRED-894 日向由奈｜母親沉溺於渣男之中",
+        "catalog_code": "PRED-894",
+        "release_date": "2026-09-11",
+        "performers": [
+          "日向由奈"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "student",
+            "label": "學生妹"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/pred-894/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:38051"
+      ],
+      "search": {
+        "source_title": "母親沉溺於渣男之中。而我，被強迫要幫她「幫忙」。 日向由奈",
+        "article_title": "PRED-894 日向由奈｜母親沉溺於渣男之中",
+        "display_short_title": null,
+        "slug": "pred-894"
       }
     },
     {

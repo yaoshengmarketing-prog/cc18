@@ -1,0 +1,52 @@
+{
+  "schema_version": 2,
+  "id": "PRED-894",
+  "checked_at": "2026-09-16T07:12:52.203Z",
+  "review_sha256": "ce8ff2497c5ce85bdf69c82e7a9bc9af413ea3d0fe047e14334756805d4ad3c9",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資料判斷，這部作品最值得注意的地方，是它把賣點明確放在企劃前提上。來源直接指出「母親沉溺於渣男之中」，而 creative brief 裡又保留了「而我」「被強迫要幫她『幫忙』」這些來自標題的摘錄，讓整體不是單純依靠身分類型或常見標籤來吸引目光，而是先建"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "公開來源可確認的演出者是日向由奈，並且 safe title signals 與 source concepts 都把她放在與「美少女」相連的位置；topic elements 另提供了「AV女優片」「美少女」「學生妹」等身份訊號。這表示本作在包裝上，會把演出者的年輕感與美少女設"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "以現有資料看，我會把它歸在「設定先行的展示型企劃」。理由是目前沒有可驗證的完整人物關係、具體場景或事件推進，但標題核心概念非常鮮明，且 creative brief 也明示可從「企劃設定、角色變化、互動節奏」來組織文章，同時提醒未確認的場景與人物關係保持未知。換句話說，這部片目前"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "它的吸引力主要來自身份包裝與核心前提之間的反差。一方面，公開訊號給出「美少女設定」「學生設定」等較偏年輕、直觀的外部印象；另一方面，核心概念卻是「母親沉溺於渣男之中」，甚至延伸出主角被迫介入的來源線索。這會讓作品的第一印象不是單純人物展示，而是把相對輕盈的角色包裝，放進一個帶有壓"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

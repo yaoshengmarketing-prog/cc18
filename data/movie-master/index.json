@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T07:10:26.660Z",
+  "generated_at": "2026-09-16T07:12:56.624Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 108,
-  "formal_movie_count": 107,
+  "tracked_input_count": 109,
+  "formal_movie_count": 108,
   "demo_count": 1,
-  "published_count": 104,
+  "published_count": 105,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -728,6 +728,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "0eba634998155eaa6beaaf088e1fd71827f11e9daa21ed8c0e463e87f5c2fba8"
+    },
+    {
+      "stable_movie_id": "cc18:PRED-894",
+      "catalog_code": "PRED-894",
+      "slug": "pred-894",
+      "master_path": "data/movie-master/pred-894.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "c2386dbb3d7ebc625033ccb5864f6bfc4177bc0913646c2d57736ac3c0fa4cf4"
     },
     {
       "stable_movie_id": "cc18:PRIAN-054",
