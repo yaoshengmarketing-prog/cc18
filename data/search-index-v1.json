@@ -1,14 +1,25 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:e2190f4555bb1367e5c6410479f2a127ac245ae3e3dbaa112f55fa6978060313",
-  "source_generated_at": "2026-09-16T06:23:51.798Z",
+  "source_revision": "sha256:2987a61b3f44a7ccaa75efacc4447c8f5bc1db0ffac5656f736471e7a4d13c12",
+  "source_generated_at": "2026-09-16T06:26:11.876Z",
   "counts": {
-    "movies": 83,
-    "performers": 89,
+    "movies": 84,
+    "performers": 90,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
   "performers": [
+    {
+      "stable_actor_id": "cc18.tv:actor:28978",
+      "display_name": "一色沙羅",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "一色沙羅",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DDK-241"
+      ]
+    },
     {
       "stable_actor_id": "cc18.tv:actor:46735",
       "display_name": "一宮留衣",
@@ -1069,6 +1080,47 @@
         "article_title": "BBTU-119 九井珠奈緒｜ぱいシャ企劃下的巨乳展示型選片",
         "display_short_title": null,
         "slug": "bbtu-119"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DDK-241",
+        "source_cover": "https://cc18.tv/preview/80/b/juTnWOZdM6D-800.jpg?v=1789367981",
+        "title": "DDK-241 一色沙羅｜剛毛肉便器：以企劃概念為主的展示型選片",
+        "catalog_code": "DDK-241",
+        "release_date": "2026-09-12",
+        "performers": [
+          "一色沙羅"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ddk-241/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28978"
+      ],
+      "search": {
+        "source_title": "剛毛肉便器 噴水怪物 一色沙羅",
+        "article_title": "DDK-241 一色沙羅｜剛毛肉便器：以企劃概念為主的展示型選片",
+        "display_short_title": null,
+        "slug": "ddk-241"
       }
     },
     {

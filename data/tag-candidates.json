@@ -572,7 +572,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -580,7 +580,8 @@
         "DSOD-067",
         "SNOS-363",
         "EKDV-826",
-        "SQTE-718"
+        "SQTE-718",
+        "DDK-241"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-15",
@@ -1002,13 +1003,14 @@
     },
     {
       "label": "羞辱",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "DOKS-689",
-        "START-601"
+        "START-601",
+        "DDK-241"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-15",
       "status": "quarantined"
     },
     {
@@ -1308,9 +1310,10 @@
     },
     {
       "label": "拘束",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "BBTU-119"
+        "BBTU-119",
+        "DDK-241"
       ],
       "first_seen": "2026-09-15",
       "last_seen": "2026-09-15",
@@ -1331,6 +1334,26 @@
       "occurrences": 1,
       "source_ids": [
         "OFTR-016"
+      ],
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-15",
+      "status": "quarantined"
+    },
+    {
+      "label": "鬼畜系",
+      "occurrences": 1,
+      "source_ids": [
+        "DDK-241"
+      ],
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-15",
+      "status": "quarantined"
+    },
+    {
+      "label": "放尿・お漏らし",
+      "occurrences": 1,
+      "source_ids": [
+        "DDK-241"
       ],
       "first_seen": "2026-09-15",
       "last_seen": "2026-09-15",

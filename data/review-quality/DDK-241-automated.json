@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "DDK-241",
+  "checked_at": "2026-09-16T06:26:08.167Z",
+  "review_sha256": "fb21571545a1c6dab53e4dd9302308d6ce054c09530ac50521fb59c170a1b31b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "body_lacks_source_adult_vocabulary",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "以現有公開資料來看，DDK-241 最明確的賣點不是可驗證的劇情展開，而是直接由片名核心概念成立的企劃吸引力。來源中最突出的辨識點是「剛毛肉便器」，這不只是標籤式字眼，也決定了本片的選片方向：它更接近一部以單一刺激概念包裝、集中呈現特定幻想主題的作品。再加上公開資料可見演出者為一"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "它的差異點首先來自片名就高度聚焦的核心主題，其次是一色沙羅作為已知演出者，讓作品至少有明確的觀看入口。再者，公開訊號中帶有高畫質、HD、720p、獨家配信等資訊，雖然這些規格不應取代主題本身成為首要賣點，但對於想找來源明確、包裝完成度較高作品的觀眾，仍有一定輔助價值。綜合來看，D"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T06:23:51.798Z",
+  "generated_at": "2026-09-16T06:26:11.876Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 87,
-  "formal_movie_count": 86,
+  "tracked_input_count": 88,
+  "formal_movie_count": 87,
   "demo_count": 1,
-  "published_count": 83,
+  "published_count": 84,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -80,6 +80,15 @@
       "is_demo": false,
       "is_published": false,
       "content_hash": "7d501e9dfc6f998dbcf74a10a69b326f9a9b8854c5d782c74aded66792bf0bc9"
+    },
+    {
+      "stable_movie_id": "cc18:DDK-241",
+      "catalog_code": "DDK-241",
+      "slug": "ddk-241",
+      "master_path": "data/movie-master/ddk-241.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "1fb70d24fcf2943bbf1c05cca67d7de1ce8ed122e473919865a5557fa1769963"
     },
     {
       "stable_movie_id": "cc18:DLDSS-521",

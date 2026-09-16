@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "DDK-241",
+  "calls": [
+    {
+      "generated_at": "2026-09-15T05:02:21.851Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2541,
+      "cached_input_tokens": 0,
+      "output_tokens": 1096,
+      "total_tokens": 3637,
+      "estimated_cost_usd": 0.037365,
+      "estimated_payg_cash_cost_usd": 0.039233,
+      "direct_openai_reference_usd": 0.022793,
+      "gateway_premium_usd": 0.014573,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2541,
+    "cached_input_tokens": 0,
+    "output_tokens": 1096,
+    "estimated_cost_usd": 0.037365,
+    "estimated_payg_cash_cost_usd": 0.039233,
+    "direct_openai_reference_usd": 0.022793,
+    "gateway_premium_usd": 0.014573
+  }
+}
