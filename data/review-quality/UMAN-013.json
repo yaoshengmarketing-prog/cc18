@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "UMAN-013",
+  "review_sha256": "0252b5387572bfcaae4964602ee57a449e645b95583c024916072d9ed9541eda",
+  "selected_thesis": "藤沢麗央的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "藤沢麗央",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "藤沢麗央",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "禁斷義父NTR",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "人妻・主婦",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "藤沢麗央",
+    "presentation_feature": "禁斷義父NTR",
+    "editorial_judgment": "藤沢麗央的企劃呈現與觀看取向",
+    "source_keywords": [
+      "藤沢麗央",
+      "禁斷義父NTR",
+      "人妻・主婦"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "結婚三年的年輕人妻與丈夫的父親同住。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：藤沢麗央",
+      "supports": "這項可追溯來源訊號支持文章以「藤沢麗央」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：禁斷義父NTR",
+      "supports": "這項可追溯來源訊號支持文章以「禁斷義父NTR」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻・主婦",
+      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-07T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

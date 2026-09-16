@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "id": "UMAN-013",
+  "checked_at": "2026-09-16T09:01:43.354Z",
+  "review_sha256": "0252b5387572bfcaae4964602ee57a449e645b95583c024916072d9ed9541eda",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "body_lacks_source_adult_vocabulary",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最明確的選片理由，是作品把核心賣點直接放在「禁斷義父NTR」這個企劃概念上，並且由公開簡介補足了關係壓力的來源：一名結婚三年的年輕人妻，與丈夫的父親同住。這種設定的關鍵，不在於是否堆疊大量外在元素，而在於人物距離本身已經足以形成緊張感。同住讓家庭關係、日常接觸與倫理界線自然重疊，"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "依目前來源來看，這部作品比較偏向由劇情前提驅動的企劃，而不是單靠規格或單一形式包裝。原因是最能區分作品的資訊並非畫質或配信形式，而是「義父」「人妻」「同住」這幾個可互相連動的條件。它們共同組成了一個有明確倫理邊界的家庭場域，也讓「NTR」不只是標籤，而是建立在特定人物位置上的題材"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

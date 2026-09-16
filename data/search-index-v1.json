@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:e31a1c42a8b5ceef20f866cb1b6c7734ddc0af2f6396b1523daf0f677b36d547",
-  "source_generated_at": "2026-09-16T08:58:47.619Z",
+  "source_revision": "sha256:1be685028e8264dd1619a3015ca1f4bbb1c0b004921ee3355ba68bb0ff31921e",
+  "source_generated_at": "2026-09-16T09:01:49.622Z",
   "counts": {
-    "movies": 141,
-    "performers": 171,
+    "movies": 142,
+    "performers": 172,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1853,6 +1853,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-313"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:25756",
+      "display_name": "藤沢麗央",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "藤沢麗央",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:UMAN-013"
       ]
     },
     {
@@ -6782,6 +6793,55 @@
         "article_title": "UMAN-012 推川悠里｜悲報企劃下的人妻設定選片觀察",
         "display_short_title": null,
         "slug": "uman-012"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:UMAN-013",
+        "source_cover": "https://cc18.tv/preview/80/b/feECIDnn9a7-800.jpg?v=1788640714",
+        "title": "UMAN-013 藤沢麗央｜禁斷義父NTR：以同住設定撐起的不安感",
+        "catalog_code": "UMAN-013",
+        "release_date": "2026-09-04",
+        "performers": [
+          "藤沢麗央"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "fantasy-concept",
+            "label": "幻想企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/uman-013/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:25756"
+      ],
+      "search": {
+        "source_title": "禁斷義父NTR 被大討厭的絕倫義父羞辱的爆乳美尻妻 藤澤麗央",
+        "article_title": "UMAN-013 藤沢麗央｜禁斷義父NTR：以同住設定撐起的不安感",
+        "display_short_title": null,
+        "slug": "uman-013"
       }
     },
     {
