@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:804b7a6f70910533edd6001ecc515dee750599b5dff5ec454b2c279a85997ae7",
-  "source_generated_at": "2026-09-16T07:49:54.904Z",
+  "source_revision": "sha256:9e7a46e4a7e049e4ac95d75d17bdd2b83b00999b265876a338179206eeb91757",
+  "source_generated_at": "2026-09-16T07:52:35.641Z",
   "counts": {
-    "movies": 121,
-    "performers": 117,
+    "movies": 122,
+    "performers": 118,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1010,6 +1010,17 @@
       "related_movie_ids": [
         "cc18:DVMM-444",
         "cc18:RLMP-013"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:23717",
+      "display_name": "涼森玲夢",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "涼森玲夢",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:ABF-383"
       ]
     },
     {
@@ -3190,6 +3201,59 @@
         "article_title": "TGBS-003 獨家 × Tokyo Girls Bad Night～トーキョーガール｜獨家美容師企劃：自拍配信取向明確",
         "display_short_title": null,
         "slug": "tgbs-003"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:ABF-383",
+        "source_cover": "https://cc18.tv/preview/80/b/86mAqy_037I-800.jpg?v=1789072849",
+        "title": "ABF-383 涼森玲夢｜月刊ハメ撮り自拍企劃：以系列概念為主的展示型選片",
+        "catalog_code": "ABF-383",
+        "release_date": "2026-09-10",
+        "performers": [
+          "涼森玲夢"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "amateur",
+            "label": "素人"
+          },
+          {
+            "id": "beautiful-butt",
+            "label": "美尻"
+          },
+          {
+            "id": "fhd",
+            "label": "全高清 FHD"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "self-shot",
+            "label": "自拍視角"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/abf-383/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:23717"
+      ],
+      "search": {
+        "source_title": "月刊情色自拍 本能全開3本番 涼森玲夢",
+        "article_title": "ABF-383 涼森玲夢｜月刊ハメ撮り自拍企劃：以系列概念為主的展示型選片",
+        "display_short_title": null,
+        "slug": "abf-383"
       }
     },
     {

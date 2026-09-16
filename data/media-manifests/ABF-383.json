@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "ABF-383",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T07:52:31.908Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/ABF-383/hero-v1.jpg",
+      "r2_key": "works/2026/09/ABF-383/hero-v1.jpg",
+      "bytes": 808711,
+      "sha256": "b9a00f4e51b803ba256ba07653df066e5aa37228ff8a2bbdc5ec5d3576711f70",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/ABF-383/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/ABF-383/scene-vertical-v1.jpg",
+      "bytes": 1205702,
+      "sha256": "15cd7bbd7d7ca9f92bfb0fb1f2ba4f40243ff70ec49220a35b190b289f02cbcf",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3120765,
+    "sha256": "9fe3d4ced9b9a2fb0e5e3ec465aea4319c6ed2797a693cf1752edf9076126f7a",
+    "target_r2_key": "works/2026/09/ABF-383/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/ABF-383/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "ABF-383",
+  "checked_at": "2026-09-16T07:52:30.529Z",
+  "review_sha256": "1df73bf8dd9406f1f13683ab0bd1364d76c343acf69f9ecb53c9777046170192",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資訊，ABF-383 最明確的核心不是完整劇情設定，而是「月刊ハメ撮り」這個系列概念本身。來源同時給出系列名、題名中的「月刊情色自拍」「本能全開3本番」以及「自拍」訊號，顯示這部作品的辨識重點落在企劃形式與呈現方式，而不是已被明確公開的人物關係或場景敘事。"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "目前能確定的是出演者為涼森玲夢，而她的名字也直接出現在來源題名概念中，代表她不是邊緣資訊，而是作品識別的一部分。對選片判斷而言，這使 ABF-383 不只是泛稱的自拍企劃，而是帶有明確出演者辨識度的系列作品。若觀眾本來就會依演員選片，這一點會比未公開的人物關係或場景設定更具參考價"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
