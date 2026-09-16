@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "DVMM-444",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T07:07:58.270Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/DVMM-444/hero-v1.jpg",
+      "r2_key": "works/2026/09/DVMM-444/hero-v1.jpg",
+      "bytes": 617705,
+      "sha256": "d38a13627799fc49e62861d9cee9b5424d9f3ee7544c0d0466e010eea2f3689a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/DVMM-444/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/DVMM-444/scene-vertical-v1.jpg",
+      "bytes": 1366244,
+      "sha256": "40628670a4fa2ea00fff4411e35c8ef696143f25f33f8072473890e595ddd0c4",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2727462,
+    "sha256": "989e580f1e507e484bf26b9fc8c656c391ad1c02d01a0435e49b1afaa6e5caba",
+    "target_r2_key": "works/2026/09/DVMM-444/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/DVMM-444/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

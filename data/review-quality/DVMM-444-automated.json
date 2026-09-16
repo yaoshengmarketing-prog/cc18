@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "DVMM-444",
+  "checked_at": "2026-09-16T07:07:56.903Z",
+  "review_sha256": "7e6717899f2793b9c1b0421494af3f2094d17e007fd322b4019911d3c7df1bb3",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只根據目前可追溯的公開資料來看，這部作品最明確的辨識點不是複雜劇情，而是題名直接提出的核心概念「只要發情」。這種來源概念很適合作為選片起點，因為它先把作品重心放在單一企劃命題上，再由演出者推川悠里去承接題材魅力。公開標籤同時指向「人妻・主婦」與「中出」，因此本作較像是以特定成人"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "從公開標籤來看，本片的成人題材組合相當集中：身份是「人妻・主婦」，身體特徵是「巨乳」，行為標籤則包含「中出」。這種組合的效果，在選片上通常不是增加故事層次，而是快速建立受眾辨識。也就是說，本作的賣點更偏向題材聚焦與標籤明確，讓觀眾可以很快判斷是否符合自身偏好。相較之下，像場景、人"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}
