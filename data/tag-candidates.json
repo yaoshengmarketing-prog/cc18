@@ -729,12 +729,13 @@
     },
     {
       "label": "修長",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "SNOS-401"
+        "SNOS-401",
+        "REBD-1065"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-13",
       "status": "quarantined"
     },
     {
@@ -1608,6 +1609,16 @@
       ],
       "first_seen": "2026-09-16",
       "last_seen": "2026-09-16",
+      "status": "quarantined"
+    },
+    {
+      "label": "性感",
+      "occurrences": 1,
+      "source_ids": [
+        "REBD-1065"
+      ],
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
       "status": "quarantined"
     }
   ]

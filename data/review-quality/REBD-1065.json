@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "REBD-1065",
+  "review_sha256": "0877332284acde84f611d3e68cd416caa0f0c5a2354d2420da07ab55b4244104",
+  "selected_thesis": "絵恋空的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "絵恋空",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "絵恋空",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "Sora3",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "Sora（絵恋空）",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "印象寫真",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "絵恋空",
+    "presentation_feature": "Sora3",
+    "editorial_judgment": "絵恋空的企劃呈現與觀看取向",
+    "source_keywords": [
+      "絵恋空",
+      "Sora3",
+      "Sora（絵恋空）",
+      "印象寫真"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "「其實上次拍攝時是我人生最重要時期...努力減肥後比起一年前看到我的身材會更高興」微笑著說道。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：絵恋空",
+      "supports": "這項可追溯來源訊號支持文章以「絵恋空」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：Sora（絵恋空）",
+      "supports": "這項可追溯來源訊號支持文章以「Sora（絵恋空）」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：Sora3",
+      "supports": "這項可追溯來源訊號支持文章以「Sora3」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：印象寫真",
+      "supports": "這項可追溯來源訊號支持文章以「印象寫真」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-12T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "REBD-1065",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T07:43:19.811Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/REBD-1065/hero-v1.jpg",
+      "r2_key": "works/2026/09/REBD-1065/hero-v1.jpg",
+      "bytes": 431007,
+      "sha256": "1ea94efce378ed2723d47a657503908ab6d553214f5c9bc03c90eb18f5edec32",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/REBD-1065/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/REBD-1065/scene-vertical-v1.jpg",
+      "bytes": 844993,
+      "sha256": "7e1beb78792ffd40d063703c932219daad65abd045cb2509d4481859e360cee9",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2211262,
+    "sha256": "d296f6f2b04a7d3a453e506da00f6e56247e0aa4b0f2e298c1ce355d77153d73",
+    "target_r2_key": "works/2026/09/REBD-1065/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/REBD-1065/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
