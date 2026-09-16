@@ -394,12 +394,13 @@
     },
     {
       "label": "電動按摩棒",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "CMJU-008"
+        "CMJU-008",
+        "TGBS-003"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-09-12",
       "status": "quarantined"
     },
     {
@@ -590,17 +591,18 @@
     },
     {
       "label": "姐姐系",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "SNOS-364",
         "SNOS-372",
         "DOKS-689",
         "DOKS-690",
         "IPZZ-916",
-        "IPZZ-941"
+        "IPZZ-941",
+        "TGBS-003"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-08",
+      "last_seen": "2026-09-12",
       "status": "quarantined"
     },
     {
@@ -1363,6 +1365,16 @@
       ],
       "first_seen": "2026-09-15",
       "last_seen": "2026-09-15",
+      "status": "quarantined"
+    },
+    {
+      "label": "清楚",
+      "occurrences": 1,
+      "source_ids": [
+        "TGBS-003"
+      ],
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12",
       "status": "quarantined"
     }
   ]

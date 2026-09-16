@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "id": "TGBS-003",
+  "checked_at": "2026-09-16T06:34:53.365Z",
+  "review_sha256": "f8ae07d5f56626ab63d6ba6deca2574ed762ffd93eb3475bb68d2e3125ee5b8b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 6,
+          "excerpt": "在 topic_elements 裡，最直接的成人主題是「中出」，形式面則集中在「自拍」「配信専用」「獨家限定」與畫質標示。這種組合會讓作品的主打重心非常集中：一方面用明確行為主題建立市場辨識度，另一方面再用自拍與配信感去強化親近、直接、展示型的企劃印象。由於沒有更多可驗證的場景"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
