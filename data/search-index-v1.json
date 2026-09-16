@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:b3c1ae4cc393bad20b344e40a74bf75c5e7ffa8a937b9f2ec5ce7417accbbdee",
-  "source_generated_at": "2026-09-16T07:47:43.725Z",
+  "source_revision": "sha256:804b7a6f70910533edd6001ecc515dee750599b5dff5ec454b2c279a85997ae7",
+  "source_generated_at": "2026-09-16T07:49:54.904Z",
   "counts": {
-    "movies": 120,
-    "performers": 116,
+    "movies": 121,
+    "performers": 117,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1314,6 +1314,17 @@
       ],
       "related_movie_ids": [
         "cc18:SNOS-345"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:482",
+      "display_name": "AIKA",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "AIKA",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:REBD-1063"
       ]
     }
   ],
@@ -3261,6 +3272,47 @@
         "article_title": "REBD-1062 藤浦惠｜Meguri3：以系列企劃為主的展示型選片",
         "display_short_title": null,
         "slug": "rebd-1062"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:REBD-1063",
+        "source_cover": "https://cc18.tv/preview/80/b/4OmIsGvtb9E-800.jpg?v=1789029563",
+        "title": "REBD-1063 AIKA｜Aika4印象寫真：延續海外拍攝的展示型企劃",
+        "catalog_code": "REBD-1063",
+        "release_date": "2026-09-10",
+        "performers": [
+          "AIKA"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "image-video",
+            "label": "印象寫真"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/rebd-1063/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:482"
+      ],
+      "search": {
+        "source_title": "Aika4 快樂女孩衝刺！！・AIKA",
+        "article_title": "REBD-1063 AIKA｜Aika4印象寫真：延續海外拍攝的展示型企劃",
+        "display_short_title": null,
+        "slug": "rebd-1063"
       }
     },
     {

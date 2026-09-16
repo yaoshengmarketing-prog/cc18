@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "REBD-1063",
+  "checked_at": "2026-09-16T07:49:49.572Z",
+  "review_sha256": "ed899902ba16f806ddf42dd66dfa09973b1943ba664221a1bc0925e622b81b39",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果先看來源能確定的資訊，這部片最明確的選片核心就是「Aika4」。這個概念直接來自片名相關來源，同時又與系列名稱「Aika（AIKA）」互相呼應，表示作品的辨識重點首先不是劇情事件，而是圍繞 AIKA 本人的一組延伸企劃。再加上公開標示中的「印象寫真」與「AV女優片」，可以判斷"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "可以，而且這是目前少數有具體內容感的公開介紹。來源摘錄提到，作品是「繼續前作的海外拍攝之後，這次在泰國進行了拍攝」。這句話至少提供兩層可追溯判斷：第一，它不是孤立單篇，而是帶有延續前作企劃方向的系列感；第二，拍攝地轉到泰國，讓這部作品在同類展示型內容中多了一個可辨識的外部條件。雖"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "REBD-1063",
+  "review_sha256": "ed899902ba16f806ddf42dd66dfa09973b1943ba664221a1bc0925e622b81b39",
+  "selected_thesis": "AIKA的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "AIKA",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "AIKA",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "Aika4",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "印象寫真",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "AIKA",
+    "presentation_feature": "Aika4",
+    "editorial_judgment": "AIKA的企劃呈現與觀看取向",
+    "source_keywords": [
+      "AIKA",
+      "Aika4",
+      "印象寫真"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "繼續前作的海外拍攝之後，這次在泰國進行了拍攝。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：AIKA",
+      "supports": "這項可追溯來源訊號支持文章以「AIKA」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：Aika（AIKA）",
+      "supports": "這項可追溯來源訊號支持文章以「Aika（AIKA）」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：Aika4",
+      "supports": "這項可追溯來源訊號支持文章以「Aika4」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：印象寫真",
+      "supports": "這項可追溯來源訊號支持文章以「印象寫真」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-14T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}
