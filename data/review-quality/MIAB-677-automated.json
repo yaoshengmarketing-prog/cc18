@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "MIAB-677",
+  "checked_at": "2026-09-16T07:28:42.486Z",
+  "review_sha256": "b35d1845b06f05d911c0ba0c7efa6685f0b87d499fd4f32815eeb5967d5c2793",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "因為目前最穩定、最可追溯的辨識點不是情節，而是系列名稱與企劃名本身。public source 提供的 core source concept 即為「ドリームウーマン」，creative brief 的 source concepts 也指出「夢幻女郎Vol.101」與「逢澤美優"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

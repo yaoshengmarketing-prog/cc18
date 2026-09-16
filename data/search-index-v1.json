@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:0305ae89068d5447b915747f32a3ea7cdefb44cbee0cfe1029b6fe69ac9a49b8",
-  "source_generated_at": "2026-09-16T07:26:36.245Z",
+  "source_revision": "sha256:bc6b06e0207ac5954e3da5d512ea85911687bd9b17e87bb98999b939378cfaae",
+  "source_generated_at": "2026-09-16T07:28:47.288Z",
   "counts": {
-    "movies": 111,
-    "performers": 109,
+    "movies": 112,
+    "performers": 110,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1038,6 +1038,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:29025",
+      "display_name": "逢澤美優",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "逢澤美優",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MIAB-677"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:53324",
       "display_name": "鳥羽いく",
       "display_name_zh_tw": null,
@@ -2016,6 +2027,55 @@
         "article_title": "MANX-034 菊乃らん｜監禁絶叫部屋：以企劃設定為先的系列選片",
         "display_short_title": null,
         "slug": "manx-034"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MIAB-677",
+        "source_cover": "https://cc18.tv/preview/80/b/9hR3nGqqy1-800.jpg?v=1789202429",
+        "title": "MIAB-677 逢澤美優｜ドリームウーマン企劃下的口交展示型選片",
+        "catalog_code": "MIAB-677",
+        "release_date": "2026-09-11",
+        "performers": [
+          "逢澤美優"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "facial",
+            "label": "顏射題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/miab-677/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:29025"
+      ],
+      "search": {
+        "source_title": "夢幻女郎Vol.101 逢澤美優",
+        "article_title": "MIAB-677 逢澤美優｜ドリームウーマン企劃下的口交展示型選片",
+        "display_short_title": null,
+        "slug": "miab-677"
       }
     },
     {

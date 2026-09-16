@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "MIAB-677",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T07:28:43.943Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/MIAB-677/hero-v1.jpg",
+      "r2_key": "works/2026/09/MIAB-677/hero-v1.jpg",
+      "bytes": 1287006,
+      "sha256": "a79c74629781cd8b9fdcfc8708b77686801fff57080bbbf6eb96131d2431fa11",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/MIAB-677/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/MIAB-677/scene-vertical-v1.jpg",
+      "bytes": 1571549,
+      "sha256": "3a2a9964979b4192e35101107792dd467fb1096dd78c37fb8f2e9a26d0ea00af",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3325561,
+    "sha256": "90e14b1f6da1c5723371f48b6d17cfcd8a207c6d98562bfb8218a70777cae7ab",
+    "target_r2_key": "works/2026/09/MIAB-677/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/MIAB-677/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

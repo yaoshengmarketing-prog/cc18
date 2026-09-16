@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "MIAB-677",
+  "calls": [
+    {
+      "generated_at": "2026-09-16T00:30:24.799Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2584,
+      "cached_input_tokens": 0,
+      "output_tokens": 1219,
+      "total_tokens": 3803,
+      "estimated_cost_usd": 0.040348,
+      "estimated_payg_cash_cost_usd": 0.042365,
+      "direct_openai_reference_usd": 0.024745,
+      "gateway_premium_usd": 0.015603,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2584,
+    "cached_input_tokens": 0,
+    "output_tokens": 1219,
+    "estimated_cost_usd": 0.040348,
+    "estimated_payg_cash_cost_usd": 0.042365,
+    "direct_openai_reference_usd": 0.024745,
+    "gateway_premium_usd": 0.015603
+  }
+}
