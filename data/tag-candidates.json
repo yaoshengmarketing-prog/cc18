@@ -792,13 +792,14 @@
     },
     {
       "label": "巨尻",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "JUR-850",
         "FNS-244",
         "DOKS-690",
         "MRSS-192",
-        "DVMM-444"
+        "DVMM-444",
+        "KIBD-355"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-15",
@@ -847,11 +848,12 @@
     },
     {
       "label": "超過4小時",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "HHF-111",
         "FCDSS-117",
-        "OFTR-015"
+        "OFTR-015",
+        "KIBD-355"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-16",
@@ -859,16 +861,17 @@
     },
     {
       "label": "背後位",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "HHF-111",
         "HUNTC-626",
         "GOJI-110",
         "GOJI-111",
-        "NACT-182"
+        "NACT-182",
+        "KIBD-355"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-15",
       "status": "quarantined"
     },
     {

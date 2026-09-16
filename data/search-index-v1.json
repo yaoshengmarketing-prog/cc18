@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:0ea3145d818a8b2c862724c34376cbfb0dc3d5f2cc1d4b83d95e9b4b2e962089",
-  "source_generated_at": "2026-09-16T07:15:04.509Z",
+  "source_revision": "sha256:24e6730fbe1d203f8fe509eaa918a23a26489c4119ca18684e20d74b26658d1e",
+  "source_generated_at": "2026-09-16T07:17:31.702Z",
   "counts": {
-    "movies": 106,
-    "performers": 105,
+    "movies": 107,
+    "performers": 106,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -388,6 +388,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:FCDSS-117"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:25879",
+      "display_name": "成海美雨",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "成海美雨",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:KIBD-355"
       ]
     },
     {
@@ -1803,6 +1814,55 @@
         "article_title": "EYAN-221 夏花まろん｜不要碰我",
         "display_short_title": null,
         "slug": "eyan-221"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:KIBD-355",
+        "source_cover": "https://cc18.tv/preview/80/b/aQP8myDvTJ-800.jpg?v=1789245741",
+        "title": "KIBD-355 成海美雨｜辣妹風格主導的展示型選片",
+        "catalog_code": "KIBD-355",
+        "release_date": "2026-09-11",
+        "performers": [
+          "成海美雨"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-butt",
+            "label": "美尻"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "gyaru",
+            "label": "辣妹"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/kibd-355/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:25879"
+      ],
+      "search": {
+        "source_title": "肉感豐滿巨臀辣妹強幹後背位活塞94連發！ 成海美雨",
+        "article_title": "KIBD-355 成海美雨｜辣妹風格主導的展示型選片",
+        "display_short_title": null,
+        "slug": "kibd-355"
       }
     },
     {

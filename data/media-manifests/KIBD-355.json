@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "KIBD-355",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T07:17:28.567Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/KIBD-355/hero-v1.jpg",
+      "r2_key": "works/2026/09/KIBD-355/hero-v1.jpg",
+      "bytes": 575735,
+      "sha256": "56ba0383e7faed985494bf817713ad989b858d2ccb536aebc3b6c393a752a935",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/KIBD-355/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/KIBD-355/scene-vertical-v1.jpg",
+      "bytes": 1111904,
+      "sha256": "2f54ae509d1d849ae77273e9d9fd0ea9ccf51692727d306cd2d101041d2ab48a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2923985,
+    "sha256": "c8cb84293521d38db617d2f0762e143c37f7cb7a4edb608b69ed81ab6fc3f6b5",
+    "target_r2_key": "works/2026/09/KIBD-355/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/KIBD-355/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "KIBD-355",
+  "checked_at": "2026-09-16T07:17:27.171Z",
+  "review_sha256": "f80f43f39565a15b5080380829a3d4ca7f12d9fa9414b49b3b2a4d43bfb9380b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資訊，這部作品最直接的選片理由就是「成海美雨」本人作為核心賣點。來源中的 core concept 與 title 線索都集中在她的名字，同時安全訊號又補上「辣妹風格」「美尻」「高畫質」「獨家配信」等辨識元素，表示本作不是以複雜劇情設定取勝，而是把人物形象"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "「辣妹」是這部片目前最清楚、也最具辨識度的主題詞。它不只是外觀標籤，也影響整體選片期待：觀眾通常會把這類作品視為風格先行、形象鮮明的企劃。再加上 safe title signals 裡同時出現「辣妹風格」與「美尻」，可看出來源在包裝上更強調視覺型魅力與人物印象，而不是人物背景或"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

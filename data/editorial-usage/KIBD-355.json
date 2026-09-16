@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "KIBD-355",
+  "calls": [
+    {
+      "generated_at": "2026-09-15T05:12:54.921Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2519,
+      "cached_input_tokens": 0,
+      "output_tokens": 1206,
+      "total_tokens": 3725,
+      "estimated_cost_usd": 0.03973,
+      "estimated_payg_cash_cost_usd": 0.041717,
+      "direct_openai_reference_usd": 0.024387,
+      "gateway_premium_usd": 0.015343,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2519,
+    "cached_input_tokens": 0,
+    "output_tokens": 1206,
+    "estimated_cost_usd": 0.03973,
+    "estimated_payg_cash_cost_usd": 0.041717,
+    "direct_openai_reference_usd": 0.024387,
+    "gateway_premium_usd": 0.015343
+  }
+}
