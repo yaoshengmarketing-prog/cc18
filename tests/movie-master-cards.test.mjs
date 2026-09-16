@@ -172,7 +172,10 @@ featured: false
       }], series: [], tags: [], fac: []},
     }, null, 2)}\n`);
     const before = JSON.parse(await readFile(join(fixture, 'data', 'movie-master', 'index.json'), 'utf8'));
+    const unrelatedMasterPath = join(fixture, 'data', 'movie-master', 'apns-419.json');
+    const unrelatedMasterBefore = await readFile(unrelatedMasterPath, 'utf8');
     await execFileAsync(process.execPath, ['scripts/build-movie-master.mjs', '--write', '--include-work=TEST-999'], {cwd: fixture});
+    const unrelatedMasterAfter = await readFile(unrelatedMasterPath, 'utf8');
     await execFileAsync(process.execPath, ['scripts/build-search-index.mjs', '--write'], {cwd: fixture});
     const [index, master, search] = await Promise.all([
       readFile(join(fixture, 'data', 'movie-master', 'index.json'), 'utf8').then(JSON.parse),
@@ -180,6 +183,7 @@ featured: false
       readFile(join(fixture, 'data', 'search-index-v1.json'), 'utf8').then(JSON.parse),
     ]);
     assert.equal(index.published_count, before.published_count + 1);
+    assert.equal(unrelatedMasterAfter, unrelatedMasterBefore);
     assert.equal(master.stable_movie_id, 'cc18:TEST-999');
     assert.equal(master.publishing.is_published, true);
     assert.equal(master.media.remotion_promo_ref, null);

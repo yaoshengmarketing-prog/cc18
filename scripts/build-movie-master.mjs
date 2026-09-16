@@ -822,15 +822,24 @@ const expectedOutputs = async (result) => {
   ]);
 };
 
-const writeOutputs = async (outputs) => {
+const scopedOutputPaths = (outputs, includeWorkId) => {
+  if (!includeWorkId) return new Set(outputs.keys());
+  const masterPath = `data/movie-master/${includeWorkId.toLowerCase()}.json`;
+  if (!outputs.has(masterPath)) fail(`${includeWorkId}: generated Movie Master output is missing`);
+  return new Set(['data/movie-master/index.json', masterPath]);
+};
+
+const writeOutputs = async (outputs, {includeWorkId = null} = {}) => {
   await mkdir(outputDirectory, {recursive: true});
   const expectedNames = new Set([...outputs.keys()].map((path) => basename(path)));
   const existingNames = (await readdir(outputDirectory)).filter((name) => name.endsWith('.json'));
   const stale = existingNames.filter((name) => !expectedNames.has(name));
   if (stale.length) fail(`Unexpected Movie Master output(s); refusing to delete automatically: ${stale.join(', ')}`);
 
+  const writablePaths = scopedOutputPaths(outputs, includeWorkId);
   let changed = 0;
   for (const [repoPath, text] of outputs) {
+    if (!writablePaths.has(repoPath)) continue;
     const path = fromRepoPath(repoPath);
     let current = null;
     try {
@@ -845,7 +854,7 @@ const writeOutputs = async (outputs) => {
   return changed;
 };
 
-const checkOutputs = async (outputs) => {
+const checkOutputs = async (outputs, {includeWorkId = null} = {}) => {
   const issues = [];
   let existingNames = [];
   try {
@@ -856,7 +865,9 @@ const checkOutputs = async (outputs) => {
   const expectedNames = new Set([...outputs.keys()].map((path) => basename(path)));
   for (const name of existingNames) if (!expectedNames.has(name)) issues.push(`unexpected output: data/movie-master/${name}`);
 
+  const checkedPaths = scopedOutputPaths(outputs, includeWorkId);
   for (const [repoPath, expected] of outputs) {
+    if (!checkedPaths.has(repoPath)) continue;
     try {
       const actual = await readFile(fromRepoPath(repoPath), 'utf8');
       if (actual !== expected) issues.push(`out of date: ${repoPath}`);
@@ -896,10 +907,10 @@ const main = async () => {
     } else {
       const outputs = await expectedOutputs(result);
       if (mode === '--write') {
-        const changed = await writeOutputs(outputs);
+        const changed = await writeOutputs(outputs, {includeWorkId});
         console.log(`Movie Master write complete: ${result.masters.length} master(s), ${changed} file(s) changed.`);
       } else {
-        await checkOutputs(outputs);
+        await checkOutputs(outputs, {includeWorkId});
         console.log(`Movie Master check passed: ${result.masters.length} master(s), ${outputs.size} output file(s) current.`);
       }
       console.log(jsonText(summary).trimEnd());

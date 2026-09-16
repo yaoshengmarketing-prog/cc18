@@ -226,22 +226,22 @@ const publicationProjection = publicationProjectionForEvidence({
   sourceOnly: sourceOnly || providerContentFiltered,
 });
 const publishVideoEvidence = publicationProjection.publishVideoEvidence;
-if (publicationProjection.downgraded || providerContentFiltered || !result.sections.length) {
+result = publicationProjection.result;
+if (publicationProjection.downgraded) {
   console.warn(JSON.stringify({
     event: 'editorial_content_warning',
     movie_id: movieId,
     code: 'insufficient_video_evidence_refs',
     distinct_video_windows: publicationProjection.distinctVideoWindows,
-    fallback: 'publication_stopped_original_response_saved',
+    fallback: 'complete_public_metadata_projection',
   }));
-  // Exit distinctly so the queue does not pay for the same deterministic failure.
+}
+if (!result.sections.length) {
   console.error(JSON.stringify({event: 'editorial_review_required', movie_id: movieId,
-    code: 'EDITORIAL_REVIEW_REQUIRED', reason: providerContentFiltered
-      ? 'provider_content_filter' : 'unsupported_or_empty_editorial',
+    code: 'EDITORIAL_REVIEW_REQUIRED', reason: 'unsupported_or_empty_editorial',
     response_directory: responseDirectory}));
   process.exit(42);
 }
-result = publicationProjection.result;
 if (providerContentFiltered) {
   console.warn(JSON.stringify({
     event: 'editorial_content_warning',
