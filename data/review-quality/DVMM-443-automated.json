@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "DVMM-443",
+  "checked_at": "2026-09-16T07:40:11.625Z",
+  "review_sha256": "2fe0b92149c733eb7f37f67b56ca0f9f16cca6b1c2dee82c7b935b991ed6397c",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "這部片較適合喜歡素人企劃包裝、且對「女大學生」與「巨乳」這類來源已明示的身份與外型條件有興趣的觀眾。public source 的 topic_elements 也點出「3p・4p」與「中出」等成人主題，因此它的選片定位不是日常戀愛感，而是更接近多人互動與條件企劃並行的展示型作品"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "它的特色在於把「監控／觀察型系列框架」與「條件式篩選」綁在一起。系列名本身已經決定了這不是單純紀錄，而是帶有實驗與安排意味的企劃形式；source_concepts 又補上「H罩杯以上限定」這個明確門檻，讓作品在主題辨識上更集中。再結合「感情好的女大生三人組」這段公開簡介，可以看"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

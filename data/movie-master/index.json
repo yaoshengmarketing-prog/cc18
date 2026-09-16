@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T07:38:06.971Z",
+  "generated_at": "2026-09-16T07:40:16.599Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 120,
-  "formal_movie_count": 119,
+  "tracked_input_count": 121,
+  "formal_movie_count": 120,
   "demo_count": 1,
-  "published_count": 116,
+  "published_count": 117,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -251,6 +251,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "94b1eae30de5c5a90c10a7cca355750e0f173fd254036d34af9ca956ed78e6c4"
+    },
+    {
+      "stable_movie_id": "cc18:DVMM-443",
+      "catalog_code": "DVMM-443",
+      "slug": "dvmm-443",
+      "master_path": "data/movie-master/dvmm-443.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "9933a7276f5edb417c2e0571ce8e47ca9632026ce745c8bce3c69fdc22684e37"
     },
     {
       "stable_movie_id": "cc18:DVMM-444",
