@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "PPPE-440",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T06:50:16.395Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/PPPE-440/hero-v1.jpg",
+      "r2_key": "works/2026/09/PPPE-440/hero-v1.jpg",
+      "bytes": 570712,
+      "sha256": "75f749f75f58369d3b55c12c83dc6700cf509b97968d6d2557cc4e5251d093cb",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/PPPE-440/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/PPPE-440/scene-vertical-v1.jpg",
+      "bytes": 794299,
+      "sha256": "9c507a3e4f4b3ba1e6fc0a8af2ad65c8d12111720326371e9575ef4f165457e9",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2352784,
+    "sha256": "f32548bd3cc46722645a7b943723aa7dd5025084c356f2d70fa994c3194e4254",
+    "target_r2_key": "works/2026/09/PPPE-440/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/PPPE-440/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "PPPE-440",
+  "checked_at": "2026-09-16T06:50:14.969Z",
+  "review_sha256": "47c5da68551f667266ab007cb580a2aa88d68b34ba9e61cb5197604837ecf805",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資訊，這部作品最明確的判斷基礎，就是它以「家庭內深吻痴漢內射強姦」作為核心企劃概念。這不是需要再推測的延伸解讀，而是來源已經直接指出的主軸，因此選片時應優先把它視為一部題材導向非常強的作品，而不是先期待複雜人物關係或完整敘事鋪陳。再加上 topic ele"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "依現有資料，我會把它放在展示型企劃的判斷上。原因不是否定它可能帶有劇情包裝，而是因為目前可被證明的資訊幾乎都集中在核心題材、演出者與呈現標籤，例如「家庭內深吻痴漢內射強姦」、「中出」、「親吻」、「美少女」、「巨乳」、「獨家配信」、「高畫質」。相對地，人物關係、場景脈絡、情節推進、"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
