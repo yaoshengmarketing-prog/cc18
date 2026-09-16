@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "UMAN-012",
+  "checked_at": "2026-09-16T08:53:12.261Z",
+  "review_sha256": "b155eb40b887e51e500da3195539c213ea1163a6c8c6afaa53032789f49327a2",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資料來看，這部作品最先吸引人的地方不是單一表演元素，而是「悲報」這個核心概念如何包住整個企劃方向。來源簡介明確指出，一名與兒子夫婦同居的父親，因對兒媳成熟而帶有情色感的身體產生興趣，進而安裝多台攝影機偷拍。這讓作品的第一層賣點，落在帶有家庭內部張力的設定"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "公開資料可確認演出者為推川悠里，並帶有「人妻・主婦」與「巨乳」等來源標籤。這樣的組合，讓本作的選片判斷比較自然地往成熟角色形象靠攏：一方面是人妻設定本身容易承接家庭同居、禁忌視線與被窺視的企劃前提，另一方面則是身體特徵標籤與簡介中提到的「熟透且色氣」描述互相呼應，使角色定位更集中"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}
