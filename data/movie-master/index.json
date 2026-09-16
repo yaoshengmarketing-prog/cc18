@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T09:18:31.911Z",
+  "generated_at": "2026-09-16T09:21:25.164Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 153,
-  "formal_movie_count": 152,
+  "tracked_input_count": 154,
+  "formal_movie_count": 153,
   "demo_count": 1,
-  "published_count": 149,
+  "published_count": 150,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1295,6 +1295,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "d231bf75059eabfb37c8c21eb1f0a6a5b4f77ecf85f53179c542ac7b554a4a36"
+    },
+    {
+      "stable_movie_id": "cc18:START-602",
+      "catalog_code": "START-602",
+      "slug": "start-602",
+      "master_path": "data/movie-master/start-602.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "74b881fcfe007d6f49371ad219f439cf05cb1219abc2e01a645c8067c079d4fa"
     },
     {
       "stable_movie_id": "cc18:SW-1065",

@@ -927,14 +927,15 @@
     },
     {
       "label": "打手槍",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "SNOS-447",
         "GOJI-110",
         "SNOS-374",
         "NACT-182",
         "SKMJ-786",
-        "UMD-1019"
+        "UMD-1019",
+        "START-602"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-16",

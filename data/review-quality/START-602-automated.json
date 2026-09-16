@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "id": "START-602",
+  "checked_at": "2026-09-16T09:21:18.543Z",
+  "review_sha256": "ba6a2e31834a1900af7f724c88a5b42372ea5ed45c584f73347bc62890ec51be",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果是先看企劃辨識度來挑片，START-602 最明確的理由就是公開資訊已經把「臉部特化」放在作品核心。這代表它的賣點首先不是複雜劇情，也不是人物關係鋪陳，而是把觀看焦點集中在表現主體本身。再加上來源標題中的「用誘惑淫語低喃痴女化」與「4種Cosplay情境」，可以判斷這是一部以"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "已知演出者為 minamo，這讓作品至少具備清楚的單一表演焦點。當公開概念又同時強調「臉部特化」時，選片判斷自然會更偏向『由演出者個人呈現撐起企劃』的方向。也就是說，這不是靠多重人物關係或故事背景建立吸引力的作品，而是更依賴演出者在企劃設定中的辨識度。對熟悉 minamo、或本來"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "因為「臉部特化」本身是一個非常集中的主題，若只有單一概念，作品可能容易給人形式單線的印象；但公開來源再補上「4種Cosplay情境」，就讓企劃多了層次感。它至少說明作品不是只靠單一外觀概念反覆延伸，而是試圖用不同情境包裝同一核心賣點。這種設計會讓選片時更容易把它歸到『主題明確、變"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

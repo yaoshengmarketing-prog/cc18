@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:f2645a5bcdb0f0577c77c9415a619fdc7798067bf6ee8f05f10b137ca985f62f",
-  "source_generated_at": "2026-09-16T09:18:31.911Z",
+  "source_revision": "sha256:87a9a8cf331f4413d0b0ee334c4f9d9e62ba66c37405f54c9dda3b69119b2c60",
+  "source_generated_at": "2026-09-16T09:21:25.164Z",
   "counts": {
-    "movies": 149,
-    "performers": 175,
+    "movies": 150,
+    "performers": 176,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1961,6 +1961,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:REBD-1063"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:26351",
+      "display_name": "minamo",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "minamo",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:START-602"
       ]
     },
     {
@@ -8107,6 +8118,55 @@
         "article_title": "START-601 一宮留衣 × 美少女設定｜一宮留衣",
         "display_short_title": null,
         "slug": "start-601"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:START-602",
+        "source_cover": "https://cc18.tv/preview/80/b/nR0x7uyfZb4-800.jpg?v=1788511155",
+        "title": "START-602 minamo｜臉部特化",
+        "catalog_code": "START-602",
+        "release_date": "2026-09-01",
+        "performers": [
+          "minamo"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/start-602/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:26351"
+      ],
+      "search": {
+        "source_title": "臉部特化 完全主觀視角直到內射為止都別移開視線 用誘惑淫語低喃痴女化 4種Cosplay情境 MINAMO",
+        "article_title": "START-602 minamo｜臉部特化",
+        "display_short_title": null,
+        "slug": "start-602"
       }
     },
     {
