@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "ROYD-357",
+  "checked_at": "2026-09-16T08:12:04.755Z",
+  "review_sha256": "54ca5e730176956b74dc2e9baed0a389a830f4a22ade97d4db7a759882c9ec1e",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資料來判斷，這部作品最明確的吸引點不是已知情節細節，而是系列核心概念本身：\"人生初の彼氏ができた\"。這種企劃設定天然帶有一個很清楚的觀看入口，也就是把注意力放在角色狀態的改變，以及「第一次擁有男友」這個前提可能帶出的互動氣氛。對選片來說，這比單純堆疊動作"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "公開來源已確認演出者為音無鈴，因此這部片在選片上也具備明確的演員辨識度。只是就目前資料範圍，我們能安全談的不是她在具體橋段中的表現，而是她與這個系列概念的搭配方式：當作品主打的是「人生初の彼氏ができた」這種角色狀態變化時，觀眾通常會更在意整體企劃是否能成立，而不是只看單一刺激元素"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

@@ -725,12 +725,13 @@
     },
     {
       "label": "數位薄碼",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "ROYD-348"
+        "ROYD-348",
+        "ROYD-357"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-09",
       "status": "quarantined"
     },
     {
@@ -878,14 +879,15 @@
     },
     {
       "label": "背後位",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "HHF-111",
         "HUNTC-626",
         "GOJI-110",
         "GOJI-111",
         "NACT-182",
-        "KIBD-355"
+        "KIBD-355",
+        "ROYD-357"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-15",
@@ -1557,11 +1559,12 @@
     },
     {
       "label": "青梅竹馬",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "DVMM-442"
+        "DVMM-442",
+        "ROYD-357"
       ],
-      "first_seen": "2026-09-15",
+      "first_seen": "2026-09-09",
       "last_seen": "2026-09-15",
       "status": "quarantined"
     },

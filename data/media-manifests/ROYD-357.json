@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "ROYD-357",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T08:12:06.119Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/ROYD-357/hero-v1.jpg",
+      "r2_key": "works/2026/09/ROYD-357/hero-v1.jpg",
+      "bytes": 709731,
+      "sha256": "f393734add60b708ba9e6212092515d69d6ca4990358c6b027a19c0652200465",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/ROYD-357/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/ROYD-357/scene-vertical-v1.jpg",
+      "bytes": 777878,
+      "sha256": "51204941ecc39c6a88f560f5eb1acee3dbaa9d31e8c0f4045d6e599b5d904df2",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2316068,
+    "sha256": "386012dcb4c0acd65888549431cbf1b0f4ebed7f65c14275e5f4e24f467e5735",
+    "target_r2_key": "works/2026/09/ROYD-357/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/ROYD-357/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
