@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "MANX-034",
+  "review_sha256": "4dc4093a62dbf0d891bcc3932e93a457cb3c5e80c71f2175cfcd25942fd2a2eb",
+  "selected_thesis": "菊乃らん的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "菊乃らん",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "菊乃らん",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "監禁絶叫部屋",
+        "source_field": "series"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "菊乃らん",
+    "presentation_feature": "監禁絶叫部屋",
+    "editorial_judgment": "菊乃らん的企劃呈現與觀看取向",
+    "source_keywords": [
+      "菊乃らん",
+      "監禁絶叫部屋",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：菊乃らん",
+      "supports": "這項可追溯來源訊號支持文章以「菊乃らん」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：監禁絶叫部屋",
+      "supports": "這項可追溯來源訊號支持文章以「監禁絶叫部屋」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：監禁絶叫部屋",
+      "supports": "這項可追溯來源訊號支持文章以「監禁絶叫部屋」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-12T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "MANX-034",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T06:48:11.430Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/MANX-034/hero-v1.jpg",
+      "r2_key": "works/2026/09/MANX-034/hero-v1.jpg",
+      "bytes": 773757,
+      "sha256": "c0fef9249b24d2773828695f5299ab1992c519ddc276e435a39dd2f408b1b133",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/MANX-034/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/MANX-034/scene-vertical-v1.jpg",
+      "bytes": 938656,
+      "sha256": "9c7234afca1ac332ce738c71a828b347fcd61688b9126dd036ccbdba2253844c",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3087598,
+    "sha256": "3fe472566890ddd8b52db33fc1b1660b5d63d096c8057b39c4af3596734bb5fc",
+    "target_r2_key": "works/2026/09/MANX-034/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/MANX-034/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

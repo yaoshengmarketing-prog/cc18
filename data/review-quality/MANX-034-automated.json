@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "MANX-034",
+  "checked_at": "2026-09-16T06:48:10.009Z",
+  "review_sha256": "4dc4093a62dbf0d891bcc3932e93a457cb3c5e80c71f2175cfcd25942fd2a2eb",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 6,
+          "excerpt": "來源標籤中可見「AV女優片」「巨乳」「中出」，以及動作面向的「淫亂・過激系」「アクメ・オーガズム」。這些資訊能幫助判斷作品的市場定位：它不是主打日常感、戀愛鋪陳或關係細節的公開介紹，而是偏向以強烈成人題材訊號來快速界定受眾。其中又以「監禁絶叫部屋」這個核心概念最具區別性，「中出」"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

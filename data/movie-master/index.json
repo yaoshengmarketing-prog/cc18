@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T06:45:50.995Z",
+  "generated_at": "2026-09-16T06:48:14.058Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 97,
-  "formal_movie_count": 96,
+  "tracked_input_count": 98,
+  "formal_movie_count": 97,
   "demo_count": 1,
-  "published_count": 93,
+  "published_count": 94,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -476,6 +476,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "88fd890ce0433aa0bc1640488fad5040cc570007089646cb1b3237e8db672810"
+    },
+    {
+      "stable_movie_id": "cc18:MANX-034",
+      "catalog_code": "MANX-034",
+      "slug": "manx-034",
+      "master_path": "data/movie-master/manx-034.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "fc82de13309eea56ede47f964ea00bb0b00cd1c4816b9b2b57d86213afc73e39"
     },
     {
       "stable_movie_id": "cc18:MCSR-639",

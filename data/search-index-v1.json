@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:cb03b7055a8874aa744e7782fb4a61c1e652e477e13be05b53691d3be7d033c5",
-  "source_generated_at": "2026-09-16T06:45:50.995Z",
+  "source_revision": "sha256:1ee766a11f4e008356a15b525cffd5929269b3512d76f73f45be244d5b2a4e3e",
+  "source_generated_at": "2026-09-16T06:48:14.058Z",
   "counts": {
-    "movies": 93,
-    "performers": 95,
+    "movies": 94,
+    "performers": 96,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -914,6 +914,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:28175",
+      "display_name": "菊乃らん",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "菊乃らん",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MANX-034"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:54224",
       "display_name": "園梨音",
       "display_name_zh_tw": null,
@@ -1552,6 +1563,59 @@
         "article_title": "EYAN-221 夏花まろん｜不要碰我",
         "display_short_title": null,
         "slug": "eyan-221"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MANX-034",
+        "source_cover": "https://cc18.tv/preview/80/b/83uc_Ur8baT-800.jpg?v=1789159318",
+        "title": "MANX-034 菊乃らん｜監禁絶叫部屋：以企劃設定為先的系列選片",
+        "catalog_code": "MANX-034",
+        "release_date": "2026-09-11",
+        "performers": [
+          "菊乃らん"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/manx-034/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28175"
+      ],
+      "search": {
+        "source_title": "絕叫房間 監禁強暴直到壞掉為止的絕頂連發 菊乃蘭",
+        "article_title": "MANX-034 菊乃らん｜監禁絶叫部屋：以企劃設定為先的系列選片",
+        "display_short_title": null,
+        "slug": "manx-034"
       }
     },
     {

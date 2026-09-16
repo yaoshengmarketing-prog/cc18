@@ -1323,12 +1323,13 @@
     },
     {
       "label": "拘束",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "BBTU-119",
-        "DDK-241"
+        "DDK-241",
+        "MANX-034"
       ],
-      "first_seen": "2026-09-15",
+      "first_seen": "2026-09-14",
       "last_seen": "2026-09-15",
       "status": "quarantined"
     },

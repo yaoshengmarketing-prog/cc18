@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "MANX-034",
+  "calls": [
+    {
+      "generated_at": "2026-09-13T18:59:41.172Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2551,
+      "cached_input_tokens": 0,
+      "output_tokens": 1299,
+      "total_tokens": 3850,
+      "estimated_cost_usd": 0.041982,
+      "estimated_payg_cash_cost_usd": 0.044082,
+      "direct_openai_reference_usd": 0.025863,
+      "gateway_premium_usd": 0.01612,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2551,
+    "cached_input_tokens": 0,
+    "output_tokens": 1299,
+    "estimated_cost_usd": 0.041982,
+    "estimated_payg_cash_cost_usd": 0.044082,
+    "direct_openai_reference_usd": 0.025863,
+    "gateway_premium_usd": 0.01612
+  }
+}
