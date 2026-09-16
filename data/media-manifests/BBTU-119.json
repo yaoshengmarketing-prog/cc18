@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "BBTU-119",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T06:18:59.411Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/BBTU-119/hero-v1.jpg",
+      "r2_key": "works/2026/09/BBTU-119/hero-v1.jpg",
+      "bytes": 1406264,
+      "sha256": "1e41d408d12b04cf560d5ad169dc465f0c72481f4adbba1bad2b910f819d1296",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/BBTU-119/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/BBTU-119/scene-vertical-v1.jpg",
+      "bytes": 1061890,
+      "sha256": "08de51fbf58f0810baffeebfad5bb19372d65e51499477aa09b77e519446b51c",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3513765,
+    "sha256": "23318ee6c26c1f0570a99040cee9ca3c2d4ed808ba289807d8db84c68e5de3e4",
+    "target_r2_key": "works/2026/09/BBTU-119/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/BBTU-119/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

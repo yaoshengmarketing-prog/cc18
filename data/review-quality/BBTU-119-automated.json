@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "BBTU-119",
+  "checked_at": "2026-09-16T06:18:57.987Z",
+  "review_sha256": "16984203d597cad4a98c9d1b1ad4e38c7a4f9edfeb4bcbc696c0dedd9c996fe5",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "公開資料已確認演出者為九井珠奈緒，因此本片的選片價值之一，就是以單一已知演出者去承接「ぱいシャ」這個核心企劃。由於來源同時標示「巨乳」，而 creative seed brief 的 source concepts 又出現「乳噴」與「拘束」等詞，能看出這支作品在企劃包裝上，傾向把"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "相當明確。從 safe title signals 與 topic elements 來看，可穩定確認的題材焦點包含「ぱいシャ」、「巨乳」、「亂交」與「噴精」。其中真正應該作為選片核心的，不是單獨某個熱門標籤，而是「ぱいシャ」這個來源已反覆出現的主概念。換句話說，其他標籤比較像是"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

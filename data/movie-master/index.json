@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T06:16:41.361Z",
+  "generated_at": "2026-09-16T06:19:01.622Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 84,
-  "formal_movie_count": 83,
+  "tracked_input_count": 85,
+  "formal_movie_count": 84,
   "demo_count": 1,
-  "published_count": 80,
+  "published_count": 81,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -35,6 +35,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "a1af263453edb76706e9744c88e19b7c1b6577e0258b722cd74e96dd25e47a65"
+    },
+    {
+      "stable_movie_id": "cc18:BBTU-119",
+      "catalog_code": "BBTU-119",
+      "slug": "bbtu-119",
+      "master_path": "data/movie-master/bbtu-119.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "2b56fa3050cd6e9e848ab0926a6fdb9db85ce4aad381e00f50b4ae3c662f51ae"
     },
     {
       "stable_movie_id": "cc18:CC18-DEMO-001",
