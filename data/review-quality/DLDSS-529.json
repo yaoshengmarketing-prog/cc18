@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "DLDSS-529",
+  "review_sha256": "b4b4a5e1a2b5c913abf8ed691dead9b586532fd8f39a5b7f0fb20f2205c4ef42",
+  "selected_thesis": "小泉玖美的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "小泉玖美",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "小泉玖美",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "電擊移籍",
+        "source_field": "title"
+      },
+      {
+        "type": "theme",
+        "value": "從人妻變身女優",
+        "source_field": "title"
+      }
+    ],
+    "primary_theme": "小泉玖美",
+    "presentation_feature": "電擊移籍",
+    "editorial_judgment": "小泉玖美的企劃呈現與觀看取向",
+    "source_keywords": [
+      "小泉玖美",
+      "電擊移籍",
+      "從人妻變身女優"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：小泉玖美",
+      "supports": "這項可追溯來源訊號支持文章以「小泉玖美」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：電擊移籍",
+      "supports": "這項可追溯來源訊號支持文章以「電擊移籍」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：DAHLIA",
+      "supports": "這項可追溯來源訊號支持文章以「DAHLIA」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：小泉玖美",
+      "supports": "這項可追溯來源訊號支持文章以「小泉玖美」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：41歲",
+      "supports": "這項可追溯來源訊號支持文章以「41歲」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：從人妻變身女優",
+      "supports": "這項可追溯來源訊號支持文章以「從人妻變身女優」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-08T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

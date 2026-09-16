@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:a59d2137f7c2863b63c1051765c23c41e04140511522298f073923d197ee2bfe",
-  "source_generated_at": "2026-09-16T09:16:11.112Z",
+  "source_revision": "sha256:f2645a5bcdb0f0577c77c9415a619fdc7798067bf6ee8f05f10b137ca985f62f",
+  "source_generated_at": "2026-09-16T09:18:31.911Z",
   "counts": {
-    "movies": 148,
-    "performers": 174,
+    "movies": 149,
+    "performers": 175,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -234,6 +234,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PRWF-016"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53577",
+      "display_name": "小泉玖美",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "小泉玖美",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DLDSS-529"
       ]
     },
     {
@@ -7207,6 +7218,35 @@
         "article_title": "DLDSS-528 宮上唯依花｜dahlia出道",
         "display_short_title": null,
         "slug": "dldss-528"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DLDSS-529",
+        "source_cover": "https://cc18.tv/preview/80/b/cI8Bnr0r3d8-800.jpg?v=1788575898",
+        "title": "DLDSS-529 小泉玖美｜電擊移籍：以身份轉換撐起話題性的展示型企劃",
+        "catalog_code": "DLDSS-529",
+        "release_date": "2026-09-03",
+        "performers": [
+          "小泉玖美"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dldss-529/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53577"
+      ],
+      "search": {
+        "source_title": "電擊移籍 DAHLIA 小泉玖美 41歲 從人妻變身女優。那位「真實人妻」來了！",
+        "article_title": "DLDSS-529 小泉玖美｜電擊移籍：以身份轉換撐起話題性的展示型企劃",
+        "display_short_title": null,
+        "slug": "dldss-529"
       }
     },
     {
