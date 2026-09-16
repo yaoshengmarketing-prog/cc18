@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "SQTE-717",
+  "review_sha256": "9613f257a2d897323e2b20bec29c2c9103b086fdac790aa8753329404d4b1c13",
+  "selected_thesis": "善場麻美(茉城麻美)的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "善場麻美(茉城麻美)",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "善場麻美(茉城麻美)",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "假日與女友",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "假日與女友。",
+        "source_field": "series"
+      },
+      {
+        "type": "setting",
+        "value": "溫泉場景",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "善場麻美(茉城麻美)",
+    "presentation_feature": "假日與女友",
+    "editorial_judgment": "善場麻美(茉城麻美)的企劃呈現與觀看取向",
+    "source_keywords": [
+      "善場麻美(茉城麻美)",
+      "假日與女友",
+      "假日與女友。",
+      "溫泉場景"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "一抵達旅館就開始做愛！",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "「比平常更興奮了」在溫泉做愛而興奮不已的女友，那扭動腰肢的騎乘位簡直太猛了！",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：善場麻美(茉城麻美)",
+      "supports": "這項可追溯來源訊號支持文章以「善場麻美(茉城麻美)」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：假日與女友。",
+      "supports": "這項可追溯來源訊號支持文章以「假日與女友。」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：美少女設定",
+      "supports": "這項可追溯來源訊號支持文章以「美少女設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：自拍形式",
+      "supports": "這項可追溯來源訊號支持文章以「自拍形式」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "setting：溫泉場景",
+      "supports": "這項可追溯來源訊號支持文章以「溫泉場景」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：假日與女友",
+      "supports": "這項可追溯來源訊號支持文章以「假日與女友」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-15T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

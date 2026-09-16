@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "SQTE-717",
+  "checked_at": "2026-09-16T11:35:56.268Z",
+  "review_sha256": "9613f257a2d897323e2b20bec29c2c9103b086fdac790aa8753329404d4b1c13",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果是衝著企劃辨識度來選，這片最清楚的吸引點就是「假日與女友」這個核心概念。來源已明示系列名為《假日與女友。》，creative brief 也把它列為核心來源概念，代表它的賣點不是複雜劇情，而是把假日同行、女友氛圍與親密互動包裝成主要觀看入口。再加上公開簡介直接點出旅館、溫泉等"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "可追溯資料中，最有辨識度的是「一抵達旅館就開始做愛」以及「在溫泉做愛而興奮不已的女友」這兩個宣傳重點。這些文字至少說明了企劃把旅館抵達後的快速進入狀態，以及溫泉場景的刺激感，放在很前面的賣點位置。對選片來說，這代表本作的差異化不在人物關係反轉或多線劇情，而是在既定情境下迅速交付主"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

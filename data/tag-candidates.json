@@ -1397,13 +1397,14 @@
     },
     {
       "label": "溫泉",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "OREMO-606",
-        "OFTR-016"
+        "OFTR-016",
+        "SQTE-717"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-09-15",
+      "last_seen": "2026-09-16",
       "status": "quarantined"
     },
     {

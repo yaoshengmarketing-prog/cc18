@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:8507ba5ba7dd96e02a6b56c90d153b05762490b135cb98646f3038f16689413f",
-  "source_generated_at": "2026-09-16T09:26:30.213Z",
+  "source_revision": "sha256:aae8ae9eb3da36eab8fe45e66f526bbd6a6a87631fa4d9c7c173e01a4b6c2a82",
+  "source_generated_at": "2026-09-16T11:36:02.207Z",
   "counts": {
-    "movies": 152,
-    "performers": 180,
+    "movies": 153,
+    "performers": 181,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1598,6 +1598,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:34578",
+      "display_name": "善場麻美(茉城麻美)",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "善場麻美(茉城麻美)",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SQTE-717"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:25216",
       "display_name": "森日向子",
       "display_name_zh_tw": null,
@@ -2352,6 +2363,63 @@
         "article_title": "PKPD-434 蘆名穗花｜內射房間喝酒紀錄片的企劃吸引力，在自拍形式裡放大",
         "display_short_title": null,
         "slug": "pkpd-434"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SQTE-717",
+        "source_cover": "https://cc18.tv/preview/80/b/i_7nsRhz3b2-800.jpg?v=1789418334",
+        "title": "SQTE-717 善場麻美(茉城麻美)｜假日與女友企劃下的溫泉賣點整理",
+        "catalog_code": "SQTE-717",
+        "release_date": "2026-09-12",
+        "performers": [
+          "善場麻美(茉城麻美)"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "self-shot",
+            "label": "自拍視角"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/sqte-717/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:34578"
+      ],
+      "search": {
+        "source_title": "假日與女友。與愛撒嬌的女友親熱做愛溫泉約會 善場麻美",
+        "article_title": "SQTE-717 善場麻美(茉城麻美)｜假日與女友企劃下的溫泉賣點整理",
+        "display_short_title": null,
+        "slug": "sqte-717"
       }
     },
     {
