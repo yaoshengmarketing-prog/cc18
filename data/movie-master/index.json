@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T06:50:19.036Z",
+  "generated_at": "2026-09-16T06:52:12.900Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 99,
-  "formal_movie_count": 98,
+  "tracked_input_count": 100,
+  "formal_movie_count": 99,
   "demo_count": 1,
-  "published_count": 95,
+  "published_count": 96,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -539,6 +539,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "573e0d8f57be78b2e0c7cf5934638cc1a310ae9e629092f69ee6b72241b1d9d7"
+    },
+    {
+      "stable_movie_id": "cc18:MUKC-132",
+      "catalog_code": "MUKC-132",
+      "slug": "mukc-132",
+      "master_path": "data/movie-master/mukc-132.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "505bea3207daa97bdcaea41c05eb0131ba424b143891ecc7556f5defc988a487"
     },
     {
       "stable_movie_id": "cc18:MVG-171",

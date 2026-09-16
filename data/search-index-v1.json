@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:dd95d9d34fb22724d11a5ac6607d213de30013439f14035248f45465adf8f8dd",
-  "source_generated_at": "2026-09-16T06:50:19.036Z",
+  "source_revision": "sha256:bb4ebccd56abc733198410bad61c003b732682269eda77280013deb57dbe4bc5",
+  "source_generated_at": "2026-09-16T06:52:12.900Z",
   "counts": {
-    "movies": 95,
-    "performers": 97,
+    "movies": 96,
+    "performers": 98,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -721,6 +721,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SDAB-358"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53883",
+      "display_name": "音田絵凛",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "音田絵凛",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MUKC-132"
       ]
     },
     {
@@ -1778,6 +1789,59 @@
         "article_title": "MNGS-082 春陽モカ｜想要學分的留級辣妹撒嬌：以角色企劃取勝的展示型作品",
         "display_short_title": null,
         "slug": "mngs-082"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MUKC-132",
+        "source_cover": "https://cc18.tv/preview/80/b/SsqnHZjl1i-800.jpg?v=1789245598",
+        "title": "MUKC-132 音田絵凛｜拋棄活動而沉迷於陪睡性愛的企劃型選片",
+        "catalog_code": "MUKC-132",
+        "release_date": "2026-09-11",
+        "performers": [
+          "音田絵凛"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "cosplay",
+            "label": "角色扮演"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mukc-132/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53883"
+      ],
+      "search": {
+        "source_title": "原石系新人偶像的首次情色自拍個人拍攝。拋棄活動而沉迷於陪睡性愛，對這早熟子宮進行無責任的播種內射。 音田繪凜",
+        "article_title": "MUKC-132 音田絵凛｜拋棄活動而沉迷於陪睡性愛的企劃型選片",
+        "display_short_title": null,
+        "slug": "mukc-132"
       }
     },
     {

@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "MUKC-132",
+  "review_sha256": "39865f8630dc7dcecd661aa3c1d7441ba59dbe3451f444f87d7add9cc10963f0",
+  "selected_thesis": "音田絵凛的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "音田絵凛",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "音田絵凛",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "拋棄活動而沉迷於陪睡性愛",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "theme",
+        "value": "角色扮演",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "音田絵凛",
+    "presentation_feature": "拋棄活動而沉迷於陪睡性愛",
+    "editorial_judgment": "音田絵凛的企劃呈現與觀看取向",
+    "source_keywords": [
+      "音田絵凛",
+      "拋棄活動而沉迷於陪睡性愛",
+      "角色扮演"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：音田絵凛",
+      "supports": "這項可追溯來源訊號支持文章以「音田絵凛」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：美少女設定",
+      "supports": "這項可追溯來源訊號支持文章以「美少女設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：角色扮演",
+      "supports": "這項可追溯來源訊號支持文章以「角色扮演」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：偶像設定",
+      "supports": "這項可追溯來源訊號支持文章以「偶像設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：拋棄活動而沉迷於陪睡性愛",
+      "supports": "這項可追溯來源訊號支持文章以「拋棄活動而沉迷於陪睡性愛」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-13T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

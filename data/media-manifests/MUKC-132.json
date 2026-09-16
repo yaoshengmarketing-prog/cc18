@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "MUKC-132",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T06:52:10.212Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/MUKC-132/hero-v1.jpg",
+      "r2_key": "works/2026/09/MUKC-132/hero-v1.jpg",
+      "bytes": 619932,
+      "sha256": "c7e0245adc05a95642627cc792a95648ca8ea9721286160652a2353d0e98a4f4",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/MUKC-132/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/MUKC-132/scene-vertical-v1.jpg",
+      "bytes": 988482,
+      "sha256": "44515d967ffd83abe690a43f5ae843435c2ca0792338c9610e8637f1c9ab957b",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2937736,
+    "sha256": "a0ad3f9adc3731f895d4e856aa7c693675c37bd0227ee41e3088d9715e2465ef",
+    "target_r2_key": "works/2026/09/MUKC-132/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/MUKC-132/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

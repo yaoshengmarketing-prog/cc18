@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "MUKC-132",
+  "checked_at": "2026-09-16T06:52:08.797Z",
+  "review_sha256": "39865f8630dc7dcecd661aa3c1d7441ba59dbe3451f444f87d7add9cc10963f0",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只根據目前可追溯的公開資料來看，這部作品最明確的吸引力不是複雜劇情，而是企劃核心本身：以「拋棄活動而沉迷於陪睡性愛」作為主軸，直接把作品重心放在一種角色狀態的偏移與設定刺激上。這種題材的辨識度很高，因為它不是單純羅列標籤，而是提供了一個清楚的企劃方向，讓觀眾在選片時能先抓到作品"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "公開來源已知演出者為音田絵凛，並且安全訊號與主題元素同時指向「美少女設定」「偶像設定」與「角色扮演」。因此，這部片的選片價值很大程度建立在演出者形象與企劃包裝的結合：不是單靠單一行為標籤，而是讓表演者被放進一個具有身份想像的展示框架裡。對偏好以人物設定、外在印象與企劃完成度來挑片"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
