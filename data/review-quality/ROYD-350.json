@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "ROYD-350",
+  "review_sha256": "d3d3dcbdff2f1924f7dbd0c78f972bd8ffabd65cf7487761727d6ddf44b676be",
+  "selected_thesis": "木下日葵（花澤日葵）的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "木下日葵（花澤日葵）",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "木下日葵（花澤日葵）",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "両リーグ性覇",
+        "source_field": "series"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "木下日葵（花澤日葵）",
+    "presentation_feature": "両リーグ性覇",
+    "editorial_judgment": "木下日葵（花澤日葵）的企劃呈現與觀看取向",
+    "source_keywords": [
+      "木下日葵（花澤日葵）",
+      "両リーグ性覇",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "然而，她卻是一個完全不顧慮部下與後輩的女性員工，每天將壓制他人視為日常，不分男女地盡情進行職場霸凌！",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "她簡直就是個性騷擾與職場霸凌都隨心所欲的二刀流女上司。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：木下日葵（花澤日葵）",
+      "supports": "這項可追溯來源訊號支持文章以「木下日葵（花澤日葵）」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：両リーグ性覇",
+      "supports": "這項可追溯來源訊號支持文章以「両リーグ性覇」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：両リーグ性覇",
+      "supports": "這項可追溯來源訊號支持文章以「両リーグ性覇」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：口交",
+      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-08T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

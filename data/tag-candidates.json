@@ -739,10 +739,11 @@
     },
     {
       "label": "數位薄碼",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "ROYD-348",
-        "ROYD-357"
+        "ROYD-357",
+        "ROYD-350"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-09",
