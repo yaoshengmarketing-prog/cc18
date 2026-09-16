@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "NHDTC-247",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T09:16:05.929Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/NHDTC-247/hero-v1.jpg",
+      "r2_key": "works/2026/09/NHDTC-247/hero-v1.jpg",
+      "bytes": 744276,
+      "sha256": "3d1a8121d55c21ac755a28657bbfb13d55c5fabfe80152b3d38e5bb7d72d9c94",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/NHDTC-247/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/NHDTC-247/scene-vertical-v1.jpg",
+      "bytes": 1131036,
+      "sha256": "dd553658395133ab5fa52e23f816ae9fba6dad4fe7555adbab7915fd8b00b8e0",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3092566,
+    "sha256": "77cf1ab80e5338c9322d81a2cdc6331d03370b1a60c87e669033163874489e3b",
+    "target_r2_key": "works/2026/09/NHDTC-247/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/NHDTC-247/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

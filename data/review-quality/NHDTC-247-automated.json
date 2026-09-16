@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "NHDTC-247",
+  "checked_at": "2026-09-16T09:16:04.505Z",
+  "review_sha256": "a8fce42b352f40e897f80dbb1e92e0ce502196abb406ed8547c293472c0cbf0c",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 6,
+          "excerpt": "最有辨識度的仍是片名與公開簡介共同指向的主題組合：曬痕、美少女、泳池、羞恥，以及描述中可追溯的「泳裝」。其中「羞恥」是直接寫在來源標題裡的核心字眼，「泳裝」則補足了視覺與題材定位。這些元素組合起來，讓作品的吸引力更偏向明確主題包裝，而非複雜設定展開。再加上 topic_eleme"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "它的優勢在於題材指向非常直接。對想找「泳裝」與「羞恥」這類明確主題的觀眾來說，本作幾乎不需要額外解讀就能理解賣點；系列名與核心概念也讓作品具備清楚的入口。另一方面，公開資料沒有提供演員名單，也沒有可確認的人物關係、場景細節或劇情梗概，因此它的選片優勢不是角色辨識度，而是企劃辨識度"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
