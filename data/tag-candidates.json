@@ -380,7 +380,7 @@
     },
     {
       "label": "泳裝",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "CMJU-008",
         "FWAY-103",
@@ -388,10 +388,11 @@
         "FCDSS-117",
         "MAAN-1192",
         "MIDA-783",
-        "NHDTC-247"
+        "NHDTC-247",
+        "SKMJ-788"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-14",
+      "last_seen": "2026-09-17",
       "status": "quarantined"
     },
     {
@@ -934,7 +935,7 @@
     },
     {
       "label": "打手槍",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "SNOS-447",
         "GOJI-110",
@@ -943,10 +944,11 @@
         "SKMJ-786",
         "UMD-1019",
         "START-602",
-        "START-625"
+        "START-625",
+        "SKMJ-788"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-16",
+      "last_seen": "2026-09-17",
       "status": "quarantined"
     },
     {
@@ -1583,14 +1585,15 @@
     },
     {
       "label": "4P",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
-        "DVMM-443"
+        "DVMM-443",
+        "SKMJ-788"
       ],
       "first_seen": "2026-09-14",
-      "last_seen": "2026-09-16",
+      "last_seen": "2026-09-17",
       "status": "quarantined"
     },
     {
@@ -1658,12 +1661,13 @@
     },
     {
       "label": "搭訕",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "SKMJ-786"
+        "SKMJ-786",
+        "SKMJ-788"
       ],
       "first_seen": "2026-09-16",
-      "last_seen": "2026-09-16",
+      "last_seen": "2026-09-17",
       "status": "quarantined"
     },
     {

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "SKMJ-788",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T17:08:53.969Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/SKMJ-788/hero-v1.jpg",
+      "r2_key": "works/2026/09/SKMJ-788/hero-v1.jpg",
+      "bytes": 698225,
+      "sha256": "1894d8fd4b8fedc6142a73d268625f050b40d71ac3318de325ec524a55d5e75a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "1a9b6849-daaa-48c9-b73a-81772db87ef9",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/SKMJ-788/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/SKMJ-788/scene-vertical-v1.jpg",
+      "bytes": 1129447,
+      "sha256": "ad1b21c8eb8621d52eb3f8663eaa21cbcbd6d3fd5f216135defd847ee61cdab9",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "df8a0e30-dfb9-4728-ad58-b788ec3a8fb5",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3417330,
+    "sha256": "e73bea2a8607aa64e0dbe52f7fe026d914cd58543a0cf23bfdb2b8c37749022e",
+    "target_r2_key": "works/2026/09/SKMJ-788/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/SKMJ-788/vertical-v1.mp4"
+  }
+}

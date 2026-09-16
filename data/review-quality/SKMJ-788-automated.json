@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "SKMJ-788",
+  "checked_at": "2026-09-16T17:07:54.509Z",
+  "review_sha256": "1f071a2fa302f250c1dc60c73e2bd039599a3dd63debc8b44f23cc6898804fa6",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果是先看企劃成立與否的觀眾，SKMJ-788 的主要吸引力很明確：來源資訊把「賞金就越高」放在最核心的位置，並且還出現「最高100萬日圓ww」這種直接的獎金提示。這代表它的可看點首先不是已知角色背景，而是以獎勵機制推動內容的挑戰式企劃。再加上系列名「絶倫デカチン連続射精チャレン"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "從可追溯資料來看，這部片的企劃取向偏向明顯的系列公式型作品。系列名稱已經交代它不是單純單點設定，而是建立在可重複辨識的挑戰框架上；creative brief 也把「企劃設定」列為組織文章的核心主題之一。這種作品通常適合喜歡先理解玩法、再決定是否入手的觀眾。就選片判斷而言，若你偏"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "以現有公開資訊判斷，SKMJ-788 的故事感不是最優先的賣點。creative brief 雖然提到可從「角色變化」「互動節奏」來組織文章，但同時也明確說明這些主題不能被當成已證明情節；目前沒有可確認的人物關係、具體場景或完整敘事前提。因此更合理的判斷是：這部作品的觀看期待應放"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
