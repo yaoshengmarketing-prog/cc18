@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "HUNTC-656",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T08:14:59.689Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/HUNTC-656/hero-v1.jpg",
+      "r2_key": "works/2026/09/HUNTC-656/hero-v1.jpg",
+      "bytes": 674073,
+      "sha256": "902a709c01b4bcb5ea508c3254159a55f286fa2dab909e1a7661556dad365b32",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/HUNTC-656/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/HUNTC-656/scene-vertical-v1.jpg",
+      "bytes": 1041442,
+      "sha256": "3af399bfbc15f1b0f0f63c67da9e977970e02388b58f6d1c0125d8bb8bdf65ea",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2866148,
+    "sha256": "a3bf7421b462efde9ed00e46da4298225a8e558de690f02c670e7ad00f7625f5",
+    "target_r2_key": "works/2026/09/HUNTC-656/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/HUNTC-656/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

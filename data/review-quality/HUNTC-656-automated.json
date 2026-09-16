@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "HUNTC-656",
+  "checked_at": "2026-09-16T08:14:58.221Z",
+  "review_sha256": "eb4992bf9495407d78177b6a5850eca69378d01dcb2697987afe04b90359d97a",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "《HUNTC-656》的選片核心很明確，主軸不是單一角色資訊，而是系列概念「私立性交学園」。公開來源把它設定成一個將性視為課程一環的校園企劃，並且以「讓學生真摯面對性」與「支持日本的未來」這類宣傳語，強化它作為世界觀型作品的企圖。對選片來說，這代表吸引力主要來自企劃前提本身：觀眾"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "可追溯的來源賣點集中在兩部分。第一是身份與主題標記：安全訊號與 topic elements 都指出「學生設定／學生妹」是核心辨識之一，並搭配「中出」「口交」「騎乘位」「3p・4p」等動作面元素，讓作品的成人主題輪廓相對清楚。第二是發行呈現面：資料標示為「獨家配信」與「HD／72"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
