@@ -635,14 +635,15 @@
     },
     {
       "label": "不倫",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
-        "DLDSS-552"
+        "DLDSS-552",
+        "MIDA-744"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-14",
       "status": "quarantined"
     },
     {

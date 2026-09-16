@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:fddb09f21ace335120601685b7d1fec084397278edbb87fd7ca70a0aef1bd7fe",
-  "source_generated_at": "2026-09-16T07:00:32.807Z",
+  "source_revision": "sha256:d2f783064cccd7c1737945192ae6d3787976b3d94d4b1c18f314a18a3800cfc3",
+  "source_generated_at": "2026-09-16T07:02:48.088Z",
   "counts": {
-    "movies": 100,
-    "performers": 101,
+    "movies": 101,
+    "performers": 102,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -56,6 +56,17 @@
       ],
       "related_movie_ids": [
         "cc18:SNOS-369"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:21612",
+      "display_name": "七澤美亞",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "七澤美亞",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MIDA-744"
       ]
     },
     {
@@ -1721,6 +1732,59 @@
         "article_title": "MANX-034 菊乃らん｜監禁絶叫部屋：以企劃設定為先的系列選片",
         "display_short_title": null,
         "slug": "manx-034"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MIDA-744",
+        "source_cover": "https://cc18.tv/preview/80/b/S3XJ5XcB4V-800.jpg?v=1789159318",
+        "title": "MIDA-744 七澤美亞｜最頂級的不倫生活",
+        "catalog_code": "MIDA-744",
+        "release_date": "2026-09-11",
+        "performers": [
+          "七澤美亞"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "kissing",
+            "label": "親吻互動"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mida-744/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:21612"
+      ],
+      "search": {
+        "source_title": "最頂級的不倫生活。無論是做愛還是日常，全方位讓我深陷其中的纖細小惡魔情婦，與理智融化的甜蜜性交。 七澤米亞",
+        "article_title": "MIDA-744 七澤美亞｜最頂級的不倫生活",
+        "display_short_title": null,
+        "slug": "mida-744"
       }
     },
     {
