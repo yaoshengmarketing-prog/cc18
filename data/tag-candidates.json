@@ -1613,12 +1613,13 @@
     },
     {
       "label": "性感",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "REBD-1065"
+        "REBD-1065",
+        "REBD-1062"
       ],
       "first_seen": "2026-09-13",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-09-14",
       "status": "quarantined"
     }
   ]

@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "REBD-1062",
+  "checked_at": "2026-09-16T07:45:28.682Z",
+  "review_sha256": "df5f656b4e4926340f6e0eef794c5b40118f6fcd5abf1f6f215899318572577e",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 8,
+          "excerpt": "來源摘錄提到「與前作一樣，本作也在微笑之國泰國取景拍攝。」這條資訊的價值，在於補強本作的系列延續感與企劃包裝方向。它至少說明，作品不是孤立的一次性命名，而是延續前作外景路線的安排。對選片判斷而言，這通常會讓人預期作品在整體氣質上更重視異地取景所帶來的企劃辨識度。不過需要區分的是，"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "若讀者本來就會追藤浦惠，那 REBD-1062 的吸引力主要在於她被放進一個已有命名辨識度的系列企劃中。公開來源已知出演者為藤浦惠，並搭配「AV女優片」「巨乳」「印象寫真」等標記，形成相當明確的人物展示取向。換句話說，這部片的賣點不是已被公開驗證的複雜角色關係，而是藤浦惠作為核心"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 7,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

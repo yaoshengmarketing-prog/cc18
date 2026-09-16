@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:7ddbde02eb1c29246c139332650fad570591d5313a5fda2fbfc4f43d94a2067a",
-  "source_generated_at": "2026-09-16T07:43:23.333Z",
+  "source_revision": "sha256:e003e445ecc5bce512d8e5b5928183b7567664cc2f66601eeddb5c3b6f6714d7",
+  "source_generated_at": "2026-09-16T07:45:33.662Z",
   "counts": {
-    "movies": 118,
-    "performers": 114,
+    "movies": 119,
+    "performers": 115,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1257,6 +1257,17 @@
       "related_movie_ids": [
         "cc18:FWAY-103",
         "cc18:SNOS-363"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:391",
+      "display_name": "藤浦惠",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "藤浦惠",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:REBD-1062"
       ]
     },
     {
@@ -3157,6 +3168,47 @@
         "article_title": "TGBS-003 獨家 × Tokyo Girls Bad Night～トーキョーガール｜獨家美容師企劃：自拍配信取向明確",
         "display_short_title": null,
         "slug": "tgbs-003"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:REBD-1062",
+        "source_cover": "https://cc18.tv/preview/80/b/1ZJyUswvh8R-800.jpg?v=1789029563",
+        "title": "REBD-1062 藤浦惠｜Meguri3：以系列企劃為主的展示型選片",
+        "catalog_code": "REBD-1062",
+        "release_date": "2026-09-10",
+        "performers": [
+          "藤浦惠"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "image-video",
+            "label": "印象寫真"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/rebd-1062/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:391"
+      ],
+      "search": {
+        "source_title": "Meguri3 樂園的甜蜜耳語・巡",
+        "article_title": "REBD-1062 藤浦惠｜Meguri3：以系列企劃為主的展示型選片",
+        "display_short_title": null,
+        "slug": "rebd-1062"
       }
     },
     {

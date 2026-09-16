@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-16T07:43:19.817Z",
+  "updated_at": "2026-09-16T07:45:30.063Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -1806,6 +1806,21 @@
       ],
       "release_date": "2026-09-10",
       "source_url": "https://cc18.tv/player.php?uuid=DwH0tGFlA3J&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-13"
+    },
+    {
+      "id": "REBD-1062",
+      "actress": [
+        "藤浦惠"
+      ],
+      "release_date": "2026-09-10",
+      "source_url": "https://cc18.tv/player.php?uuid=1ZJyUswvh8R&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

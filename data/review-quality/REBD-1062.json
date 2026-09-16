@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "REBD-1062",
+  "review_sha256": "df5f656b4e4926340f6e0eef794c5b40118f6fcd5abf1f6f215899318572577e",
+  "selected_thesis": "藤浦惠的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "藤浦惠",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "藤浦惠",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "Meguri3",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "Meguri（めぐり）",
+        "source_field": "series"
+      }
+    ],
+    "primary_theme": "藤浦惠",
+    "presentation_feature": "Meguri3",
+    "editorial_judgment": "藤浦惠的企劃呈現與觀看取向",
+    "source_keywords": [
+      "藤浦惠",
+      "Meguri3",
+      "Meguri（めぐり）"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "與前作一樣，本作也在微笑之國泰國取景拍攝。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：藤浦惠",
+      "supports": "這項可追溯來源訊號支持文章以「藤浦惠」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：Meguri（めぐり）",
+      "supports": "這項可追溯來源訊號支持文章以「Meguri（めぐり）」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：Meguri3",
+      "supports": "這項可追溯來源訊號支持文章以「Meguri3」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：印象寫真",
+      "supports": "這項可追溯來源訊號支持文章以「印象寫真」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-12T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}
