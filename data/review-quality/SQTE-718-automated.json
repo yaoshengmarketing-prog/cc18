@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "SQTE-718",
+  "checked_at": "2026-09-16T06:16:37.666Z",
+  "review_sha256": "72d7656534da52c47f869fd73b2e321ef2bc85c6d86f9272a5e9b575a2a5336e",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果先從選片理由來看，這部作品最明確的吸引力不是已知劇情，而是企劃本身：來源直接給出系列名「いつでも使えるオナホ後輩」，而 creative brief 也把它整理成「隨時可用的飛機杯後輩」這個核心概念。這種命名方式本身就很強烈，代表作品賣點優先落在角色定位與企劃設定，而不是複雜"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "會，而且影響很大。系列名「いつでも使えるオナホ後輩」本身就帶有明確公式感：它先定義角色位置，再把整體趣味收束到固定題材。這類作品的好處是期待值容易建立，觀眾一看到系列名，大致就能知道作品主打的幻想方向；相對地，若你期待的是人物關係層層推進或情節轉折，現有公開資訊並不足以支持那種判"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

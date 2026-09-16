@@ -572,17 +572,18 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
         "HAWA-385",
         "DSOD-067",
         "SNOS-363",
-        "EKDV-826"
+        "EKDV-826",
+        "SQTE-718"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-08",
+      "last_seen": "2026-09-15",
       "status": "quarantined"
     },
     {
@@ -884,13 +885,14 @@
     },
     {
       "label": "自慰",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "MILK-306",
-        "DOKS-690"
+        "DOKS-690",
+        "SQTE-718"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-15",
       "status": "quarantined"
     },
     {
