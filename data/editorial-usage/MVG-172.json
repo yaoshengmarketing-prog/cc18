@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "MVG-172",
+  "calls": [
+    {
+      "generated_at": "2026-09-08T04:41:16.746Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2515,
+      "cached_input_tokens": 0,
+      "output_tokens": 1257,
+      "total_tokens": 3772,
+      "estimated_cost_usd": 0.040857,
+      "estimated_payg_cash_cost_usd": 0.0429,
+      "direct_openai_reference_usd": 0.025143,
+      "gateway_premium_usd": 0.015715,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2515,
+    "cached_input_tokens": 0,
+    "output_tokens": 1257,
+    "estimated_cost_usd": 0.040857,
+    "estimated_payg_cash_cost_usd": 0.0429,
+    "direct_openai_reference_usd": 0.025143,
+    "gateway_premium_usd": 0.015715
+  }
+}

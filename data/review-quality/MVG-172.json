@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "MVG-172",
+  "review_sha256": "edf2981d919ec0782149b790d9088428873a38cc1b3189336244acf43f63bfe4",
+  "selected_thesis": "鳥羽いく的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "鳥羽いく",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "鳥羽いく",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "鳥羽郁",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "鳥羽いく",
+    "presentation_feature": "鳥羽郁",
+    "editorial_judgment": "鳥羽いく的企劃呈現與觀看取向",
+    "source_keywords": [
+      "鳥羽いく",
+      "鳥羽郁",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：鳥羽いく",
+      "supports": "這項可追溯來源訊號支持文章以「鳥羽いく」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：鳥羽郁",
+      "supports": "這項可追溯來源訊號支持文章以「鳥羽郁」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：窈窕",
+      "supports": "這項可追溯來源訊號支持文章以「窈窕」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：独占配信",
+      "supports": "這項可追溯來源訊號支持文章以「独占配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-07T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": 2,
+  "id": "MVG-172",
+  "checked_at": "2026-09-16T08:45:52.766Z",
+  "review_sha256": "edf2981d919ec0782149b790d9088428873a38cc1b3189336244acf43f63bfe4",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "body_lacks_source_adult_vocabulary",
+    "overused_generic_editorial_arc",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 8,
+          "excerpt": "這裡的「反差魅力」不是來自未經證實的演出細節，而是來自來源詞彙之間的組合方式。公開標籤裡有窈窕這種偏向外型印象的訊號，核心摘錄又有「羞恥」這種情緒性關鍵詞，兩者放在同一部作品的選片語境中，容易形成外在形象與題材情緒之間的對照感。這種對照不等於具體情節，也不能直接推導角色變化已被完"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "overused_generic_editorial_arc",
+      "scope": "PASS_WITH_NOTES",
+      "phrases": [
+        {
+          "phrase": "反差魅力",
+          "count": 2
+        }
+      ],
+      "locations": [
+        {
+          "paragraph": 7,
+          "excerpt": "## 為什麼會判斷它帶有反差魅力？"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "這裡的「反差魅力」不是來自未經證實的演出細節，而是來自來源詞彙之間的組合方式。公開標籤裡有窈窕這種偏向外型印象的訊號，核心摘錄又有「羞恥」這種情緒性關鍵詞，兩者放在同一部作品的選片語境中，容易形成外在形象與題材情緒之間的對照感。這種對照不等於具體情節，也不能直接推導角色變化已被完"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

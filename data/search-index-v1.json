@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:68eefbe786b6953854113b2a26effe717a50db9c356a896326b87cf5ce481e76",
-  "source_generated_at": "2026-09-16T08:43:43.339Z",
+  "source_revision": "sha256:05be1e42bcb7025fe4afa783ae17ba48b640ee45447313068b4c7c79189c92cd",
+  "source_generated_at": "2026-09-16T08:45:58.626Z",
   "counts": {
-    "movies": 135,
+    "movies": 136,
     "performers": 167,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -1483,6 +1483,7 @@
       "source_name": "鳥羽いく",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:MVG-172",
         "cc18:PIYO-238"
       ]
     },
@@ -4592,6 +4593,47 @@
         "article_title": "MKMP-758 篠田優、濱崎真緒、芹沢かのん、美咲佳奈、高瀨里奈、美園和花、一條美緒、皆月光、黒川すみれ、若宮穗乃、月乃露娜、吉根柚莉愛、奏音花音、彌生美月、松本一香、東條夏、田",
         "display_short_title": null,
         "slug": "mkmp-758"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MVG-172",
+        "source_cover": "https://cc18.tv/preview/80/b/1LTpj_eC9b1-800.jpg?v=1788763087",
+        "title": "MVG-172 鳥羽いく｜以鳥羽郁與羞恥概念為核心的展示型企劃判讀",
+        "catalog_code": "MVG-172",
+        "release_date": "2026-09-05",
+        "performers": [
+          "鳥羽いく"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mvg-172/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53324"
+      ],
+      "search": {
+        "source_title": "家裡蹲喪女尼特（真貨）的臉部崩壞羞恥高潮！ 鳥羽郁",
+        "article_title": "MVG-172 鳥羽いく｜以鳥羽郁與羞恥概念為核心的展示型企劃判讀",
+        "display_short_title": null,
+        "slug": "mvg-172"
       }
     },
     {
