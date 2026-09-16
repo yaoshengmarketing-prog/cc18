@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:54ff3de0e88805810687700a1fcb0ec93f34b50c28876a57551f0cc2530e543b",
-  "source_generated_at": "2026-09-16T07:35:36.882Z",
+  "source_revision": "sha256:22f65586d678477bd426664ba788cdfab3eb023c7bfd5a3580d03d78b52cb742",
+  "source_generated_at": "2026-09-16T07:38:06.971Z",
   "counts": {
-    "movies": 115,
-    "performers": 112,
+    "movies": 116,
+    "performers": 113,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -134,6 +134,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-358"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:48374",
+      "display_name": "三好佑香",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "三好佑香",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PRED-902"
       ]
     },
     {
@@ -2902,6 +2913,59 @@
         "article_title": "PRED-894 日向由奈｜母親沉溺於渣男之中",
         "display_short_title": null,
         "slug": "pred-894"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:PRED-902",
+        "source_cover": "https://cc18.tv/preview/80/b/iBYoeKq9Gfp-800.jpg?v=1789245601",
+        "title": "PRED-902 三好佑香｜女友不在家",
+        "catalog_code": "PRED-902",
+        "release_date": "2026-09-11",
+        "performers": [
+          "三好佑香"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "kissing",
+            "label": "親吻互動"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/pred-902/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:48374"
+      ],
+      "search": {
+        "source_title": "女友不在家…與女友的親友汗流浹背地瘋狂中出出軌性愛的三天。 三好佑香",
+        "article_title": "PRED-902 三好佑香｜女友不在家",
+        "display_short_title": null,
+        "slug": "pred-902"
       }
     },
     {

@@ -603,7 +603,7 @@
     },
     {
       "label": "姐姐系",
-      "occurrences": 9,
+      "occurrences": 10,
       "source_ids": [
         "SNOS-364",
         "SNOS-372",
@@ -613,10 +613,11 @@
         "IPZZ-941",
         "TGBS-003",
         "EYAN-221",
-        "PRED-890"
+        "PRED-890",
+        "PRED-902"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-09-16",
       "status": "quarantined"
     },
     {

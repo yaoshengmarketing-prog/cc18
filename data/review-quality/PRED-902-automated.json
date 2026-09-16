@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "PRED-902",
+  "checked_at": "2026-09-16T07:38:01.807Z",
+  "review_sha256": "d9602229868a6091d812d3e2787bcc1771ab479dbbc7b8348138d2a85db9055c",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資料來看，這部片最明確的選片理由就是「女友不在家」這個核心概念。它不是單純堆疊動作標籤，而是一個先把情境框架說清楚的企劃入口。對觀眾來說，這種前提通常代表作品會把注意力放在情境成立、想像空間與互動推進上；即使目前沒有更完整的劇情介紹，光是這個概念就足以讓"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "公開來源已知演出者是三好佑香，因此選片判斷上可以把她視為作品辨識度的主要支點之一。當一部作品的可用劇情資訊有限時，表演者本身往往會成為觀眾決定是否點進去的重要依據。這裡的關鍵不在於替她附會未提供的人設，而是她的名字與「女友不在家」這個企劃概念形成了清楚的觀看入口：一邊是演出者辨識"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

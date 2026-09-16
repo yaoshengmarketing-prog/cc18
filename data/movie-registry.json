@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-16T07:35:33.325Z",
+  "updated_at": "2026-09-16T07:38:03.470Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -1763,6 +1763,21 @@
       ],
       "release_date": "2026-09-11",
       "source_url": "https://cc18.tv/player.php?uuid=2f1d5YcBGdn&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-16"
+    },
+    {
+      "id": "PRED-902",
+      "actress": [
+        "三好佑香"
+      ],
+      "release_date": "2026-09-11",
+      "source_url": "https://cc18.tv/player.php?uuid=iBYoeKq9Gfp&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

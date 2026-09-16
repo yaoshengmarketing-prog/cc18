@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "movie_id": "PRED-902",
+  "generated_at": "2026-09-16T00:42:08.410Z",
+  "source_snapshot_hash": "sha256:1e2cc508c04db853a0dfc319807cb7963a73121347c132ab434189a84f54d249",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "三好佑香的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "三好佑香",
+      "高畫質",
+      "獨家配信",
+      "女友不在家"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "未提供可驗證劇情簡介，不能延伸描述人物身分、偷情、出軌或特定關係。",
+      "未提供 video_analysis，不能聲稱節奏、演技、鏡位、剪輯、聲音或實際場景內容。",
+      "動作標籤僅能作為公開元素，不能推論發生順序與篇幅比重。"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？三好佑香的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+    "有哪些觀看取捨？未提供可驗證劇情簡介，不能延伸描述人物身分、偷情、出軌或特定關係。"
+  ]
+}
