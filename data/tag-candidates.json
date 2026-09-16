@@ -1503,12 +1503,13 @@
     },
     {
       "label": "4P",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "PRWF-016"
+        "PRWF-016",
+        "NMSL-047"
       ],
       "first_seen": "2026-09-14",
-      "last_seen": "2026-09-14",
+      "last_seen": "2026-09-16",
       "status": "quarantined"
     },
     {

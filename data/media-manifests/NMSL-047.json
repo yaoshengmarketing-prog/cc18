@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "NMSL-047",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T07:19:27.651Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/NMSL-047/hero-v1.jpg",
+      "r2_key": "works/2026/09/NMSL-047/hero-v1.jpg",
+      "bytes": 607916,
+      "sha256": "f322c50f6dc7cfa72974eb70520927c181e11d672dc11c82e4bcd0f8c6a9812a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/NMSL-047/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/NMSL-047/scene-vertical-v1.jpg",
+      "bytes": 927059,
+      "sha256": "a5a5173893bcd8d414711a39cbbaf1efe0ac199d0d054af0eb4d4728b289a295",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2543519,
+    "sha256": "6eb6f39f600a7419951ce3eb709d2bc6489c085feb903e779199c85a7d7ce6d1",
+    "target_r2_key": "works/2026/09/NMSL-047/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/NMSL-047/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

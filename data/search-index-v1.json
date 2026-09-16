@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:24e6730fbe1d203f8fe509eaa918a23a26489c4119ca18684e20d74b26658d1e",
-  "source_generated_at": "2026-09-16T07:17:31.702Z",
+  "source_revision": "sha256:9882ac4f37a44c1f54a8e0f3b096d3deff15e0dc5ae912c5461b7942fa8126b4",
+  "source_generated_at": "2026-09-16T07:19:30.903Z",
   "counts": {
-    "movies": 107,
+    "movies": 108,
     "performers": 106,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -299,6 +299,7 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:NACT-182",
+        "cc18:NMSL-047",
         "cc18:SQTE-718"
       ]
     },
@@ -2365,6 +2366,59 @@
         "article_title": "MUKC-132 音田絵凛｜拋棄活動而沉迷於陪睡性愛的企劃型選片",
         "display_short_title": null,
         "slug": "mukc-132"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:NMSL-047",
+        "source_cover": "https://cc18.tv/preview/80/b/NIaNuPVXa7-800.jpg?v=1789389619",
+        "title": "NMSL-047 月野江翠｜以中出與亂交題材構成的展示型企劃",
+        "catalog_code": "NMSL-047",
+        "release_date": "2026-09-11",
+        "performers": [
+          "月野江翠"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/nmsl-047/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28900"
+      ],
+      "search": {
+        "source_title": "涉足爸爸活而淪為肉便器的潮吹漏尿女大生 月野江翠",
+        "article_title": "NMSL-047 月野江翠｜以中出與亂交題材構成的展示型企劃",
+        "display_short_title": null,
+        "slug": "nmsl-047"
       }
     },
     {
