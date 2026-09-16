@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "movie_id": "MNGS-077",
+  "generated_at": "2026-09-15T19:08:51.661Z",
+  "source_snapshot_hash": "sha256:6cff45e322bcc857e424cc20d7d71b8fdfff34d3d21619a07999483605a6396e",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "適合會先看題材鉤子、再決定是否投入的觀眾；不特別適合期待完整人物關係、明確場景鋪陳或高密度敘事的人。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "美園和花",
+      "高畫質",
+      "獨家配信",
+      "散發異味的臭大叔"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？適合會先看題材鉤子、再決定是否投入的觀眾；不特別適合期待完整人物關係、明確場景鋪陳或高密度敘事的人。",
+    "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+    "有哪些觀看取捨？只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+  ]
+}

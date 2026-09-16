@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "MNGS-077",
+  "checked_at": "2026-09-16T07:22:03.898Z",
+  "review_sha256": "440ff8755cc3f3f28875d0ca3f67403146865f9de502ab1eee4e984be4025289",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最直接的理由，是它有一個非常明確而且帶刺激性的來源概念：\"散發異味的臭大叔\"。在目前可追溯的公開資料裡，這不是附帶標籤，而是最能區分作品的核心企劃。也因為這個設定本身就具有強烈排斥感與題材辨識度，它會直接影響觀眾是否願意進場。若你本來就會被極端設定、單點概念或企劃鉤子吸引，這類作"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "依現有來源判斷，它更接近企劃展示型作品，而不是以完整敘事見長的劇情片。原因很單純：可確認的資料集中在標題概念、演出者、行為標籤與配信資訊，卻沒有足夠的公開內容支持更細的劇情分析。creative_seed_brief 雖然另列出\"監禁家族計畫\"與\"監禁\"等概念，但同時也明確指出未"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

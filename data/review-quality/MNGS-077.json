@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "MNGS-077",
+  "review_sha256": "440ff8755cc3f3f28875d0ca3f67403146865f9de502ab1eee4e984be4025289",
+  "selected_thesis": "適合會先看題材鉤子、再決定是否投入的觀眾；不特別適合期待完整人物關係、明確場景鋪陳或高密度敘事的人。",
+  "title_basis": {
+    "performer": "美園和花",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "美園和花",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "散發異味的臭大叔",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "美園和花",
+    "presentation_feature": "散發異味的臭大叔",
+    "editorial_judgment": "適合會先看題材鉤子、再決定是否投入的觀眾；不特別適合期待完整人物關係、明確場景鋪陳或高密度敘事的人。",
+    "source_keywords": [
+      "美園和花",
+      "散發異味的臭大叔",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：美園和花",
+      "supports": "這項可追溯來源訊號支持文章以「美園和花」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：散發異味的臭大叔",
+      "supports": "這項可追溯來源訊號支持文章以「散發異味的臭大叔」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：アクメ・オーガズム",
+      "supports": "這項可追溯來源訊號支持文章以「アクメ・オーガズム」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-14T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

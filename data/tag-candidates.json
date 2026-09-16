@@ -1032,13 +1032,14 @@
     },
     {
       "label": "羞辱",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "DOKS-689",
         "START-601",
         "DDK-241",
         "ALOG-032",
-        "MUDR-406"
+        "MUDR-406",
+        "MNGS-077"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-16",
@@ -1056,12 +1057,13 @@
     },
     {
       "label": "近親相姦",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "GOJI-110"
+        "GOJI-110",
+        "MNGS-077"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-16",
       "status": "quarantined"
     },
     {
@@ -1530,6 +1532,16 @@
       ],
       "first_seen": "2026-09-15",
       "last_seen": "2026-09-15",
+      "status": "quarantined"
+    },
+    {
+      "label": "監禁",
+      "occurrences": 1,
+      "source_ids": [
+        "MNGS-077"
+      ],
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-16",
       "status": "quarantined"
     }
   ]
