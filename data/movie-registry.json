@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-16T06:34:54.758Z",
+  "updated_at": "2026-09-16T06:36:56.695Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -1369,6 +1369,21 @@
       "video_status": "rendered",
       "template": "story",
       "published_at": "2026-09-12"
+    },
+    {
+      "id": "MIMK-291",
+      "actress": [
+        "北岡果林"
+      ],
+      "release_date": "2026-09-11",
+      "source_url": "https://cc18.tv/player.php?uuid=kgZ8Dooh4cf&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-13"
     }
   ]
 }

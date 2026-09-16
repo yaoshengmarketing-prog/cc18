@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "MIMK-291",
+  "checked_at": "2026-09-16T06:36:55.217Z",
+  "review_sha256": "db1d463cda24bc1cc65382e49402e67b7a66ca6a516dbd75e259ee0ae8629512",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果先看選片重點，最明確的入口不是複雜劇情，而是來源已經直接給出的企劃辨識度：這是一部以「系列累計突破10萬部」作為主軸賣點的作品。這種資訊會直接影響判斷方式，因為它把焦點放在系列品牌的既有吸引力與企劃延續性，而不只是單一角色設定。再加上來源摘錄裡出現「援交存檔」與「人生最高援交"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "這句來源摘錄的作用，主要不是證明某段具體情節真的如何發展，而是提供作品想營造的情感包裝方向。它把題材從單純的一次性刺激，延伸到「事後仍會想起」的記憶性體驗，等於替作品補上一層回憶濾鏡與理想化投射。對選片者來說，這代表本作即使以成人行為標籤吸引注意，包裝上仍試圖建立一種可被反覆想像"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

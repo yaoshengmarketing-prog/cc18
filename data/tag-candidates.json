@@ -437,16 +437,17 @@
     },
     {
       "label": "制服",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "SNOS-409",
         "SNOS-369",
         "FWAY-103",
         "MILK-306",
-        "DSOD-031"
+        "DSOD-031",
+        "MIMK-291"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-13",
       "status": "quarantined"
     },
     {
@@ -574,7 +575,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -583,7 +584,8 @@
         "SNOS-363",
         "EKDV-826",
         "SQTE-718",
-        "DDK-241"
+        "DDK-241",
+        "MIMK-291"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-15",
@@ -1375,6 +1377,16 @@
       ],
       "first_seen": "2026-09-12",
       "last_seen": "2026-09-12",
+      "status": "quarantined"
+    },
+    {
+      "label": "原作改編",
+      "occurrences": 1,
+      "source_ids": [
+        "MIMK-291"
+      ],
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
       "status": "quarantined"
     }
   ]

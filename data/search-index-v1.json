@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:86512d9f37ee43d1e0e3290ceb4622b047036860d6f440cf8eef22907d009e5e",
-  "source_generated_at": "2026-09-16T06:34:57.170Z",
+  "source_revision": "sha256:cb2edf1081d7ed153e8ae4672652c9aea708f6a05716a6fb1fc7b3f58a6dab0e",
+  "source_generated_at": "2026-09-16T06:36:59.140Z",
   "counts": {
-    "movies": 88,
-    "performers": 90,
+    "movies": 89,
+    "performers": 91,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -256,6 +256,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:FWAY-106"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:29341",
+      "display_name": "北岡果林",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "北岡果林",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MIMK-291"
       ]
     },
     {
@@ -1440,6 +1451,51 @@
         "article_title": "TIKB-226｜性慾大爆發的肉棒中毒者：以 Cosplay 美少女設定撐起的展示型企劃",
         "display_short_title": null,
         "slug": "tikb-226"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MIMK-291",
+        "source_cover": "https://cc18.tv/preview/80/b/kgZ8Dooh4cf-800.jpg?v=1789173573",
+        "title": "MIMK-291 北岡果林｜援交企劃外殼下，以系列累計突破10萬部為主軸的展示型作品",
+        "catalog_code": "MIMK-291",
+        "release_date": "2026-09-11",
+        "performers": [
+          "北岡果林"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mimk-291/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:29341"
+      ],
+      "search": {
+        "source_title": "FANZA同人排行榜第1名 系列累計突破10萬部 真人版 援交存檔 憑時空跳躍能力讓冷淡女變嬌羞 直到爽到壞掉為止的無限攻略！ 北岡果林",
+        "article_title": "MIMK-291 北岡果林｜援交企劃外殼下，以系列累計突破10萬部為主軸的展示型作品",
+        "display_short_title": null,
+        "slug": "mimk-291"
       }
     },
     {

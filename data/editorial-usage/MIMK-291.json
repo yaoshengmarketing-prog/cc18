@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "MIMK-291",
+  "calls": [
+    {
+      "generated_at": "2026-09-13T01:03:00.986Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2623,
+      "cached_input_tokens": 0,
+      "output_tokens": 1588,
+      "total_tokens": 4211,
+      "estimated_cost_usd": 0.048845,
+      "estimated_payg_cash_cost_usd": 0.051287,
+      "direct_openai_reference_usd": 0.030378,
+      "gateway_premium_usd": 0.018467,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2623,
+    "cached_input_tokens": 0,
+    "output_tokens": 1588,
+    "estimated_cost_usd": 0.048845,
+    "estimated_payg_cash_cost_usd": 0.051287,
+    "direct_openai_reference_usd": 0.030378,
+    "gateway_premium_usd": 0.018467
+  }
+}
