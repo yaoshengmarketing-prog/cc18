@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:9bdbaa9d6e0129d00c5fde23f4635348d1fd7c62ad6323994cd17a78a0e52434",
-  "source_generated_at": "2026-09-16T09:24:09.235Z",
+  "source_revision": "sha256:8507ba5ba7dd96e02a6b56c90d153b05762490b135cb98646f3038f16689413f",
+  "source_generated_at": "2026-09-16T09:26:30.213Z",
   "counts": {
-    "movies": 151,
-    "performers": 177,
+    "movies": 152,
+    "performers": 180,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -17,7 +17,8 @@
       "source_name": "一色沙羅",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:DDK-241"
+        "cc18:DDK-241",
+        "cc18:DSJH-020"
       ]
     },
     {
@@ -806,6 +807,7 @@
       "source_name": "幸村泉希",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:DSJH-020",
         "cc18:NSODN-023",
         "cc18:SNOS-358"
       ]
@@ -1154,6 +1156,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:26300",
+      "display_name": "美之嶋惠理",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "美之嶋惠理",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DSJH-020"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:3290",
       "display_name": "美咲佳奈",
       "display_name_zh_tw": null,
@@ -1228,7 +1241,8 @@
       "source_name": "虹村ゆみ",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:DOKS-690"
+        "cc18:DOKS-690",
+        "cc18:DSJH-020"
       ]
     },
     {
@@ -1493,6 +1507,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:53995",
+      "display_name": "清水優愛",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "清水優愛",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DSJH-020"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:28382",
       "display_name": "清原美優",
       "display_name_zh_tw": null,
@@ -1591,7 +1616,8 @@
       "source_name": "渡來楓",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:DOKS-690"
+        "cc18:DOKS-690",
+        "cc18:DSJH-020"
       ]
     },
     {
@@ -1701,6 +1727,7 @@
       "source_name": "椿莉香",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:DSJH-020",
         "cc18:MKMP-758"
       ]
     },
@@ -1891,6 +1918,17 @@
       "related_movie_ids": [
         "cc18:FWAY-103",
         "cc18:SNOS-363"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:47541",
+      "display_name": "瀧川堇",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "瀧川堇",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DSJH-020"
       ]
     },
     {
@@ -8076,6 +8114,73 @@
         "article_title": "DOKS-690 清巳玲乃、那賀崎雪音、虹村ゆみ、渡來楓、花吹詩音｜口交",
         "display_short_title": null,
         "slug": "doks-690"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DSJH-020",
+        "source_cover": "https://cc18.tv/preview/80/b/nRGLf1Wpc7B-800.jpg?v=1788417509",
+        "title": "DSJH-020 椿莉香、美之嶋惠理、一色沙羅、虹村ゆみ、瀧川堇、渡來楓、幸村泉希、清水優愛｜作品企劃解析",
+        "catalog_code": "DSJH-020",
+        "release_date": "2026-09-01",
+        "performers": [
+          "椿莉香",
+          "美之嶋惠理",
+          "一色沙羅",
+          "虹村ゆみ",
+          "瀧川堇",
+          "渡來楓",
+          "幸村泉希",
+          "清水優愛"
+        ],
+        "canonical_topics": [
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dsjh-020/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:25176",
+        "cc18.tv:actor:26300",
+        "cc18.tv:actor:28978",
+        "cc18.tv:actor:30283",
+        "cc18.tv:actor:47541",
+        "cc18.tv:actor:49152",
+        "cc18.tv:actor:50752",
+        "cc18.tv:actor:53995"
+      ],
+      "search": {
+        "source_title": "和解的條件是全身舌頭清洗身體！？因為受傷連澡都不能洗的我那臭身體,讓兩位美女從頭到腳舔了個遍",
+        "article_title": "DSJH-020 椿莉香、美之嶋惠理、一色沙羅、虹村ゆみ、瀧川堇、渡來楓、幸村泉希、清水優愛｜作品企劃解析",
+        "display_short_title": null,
+        "slug": "dsjh-020"
       }
     },
     {

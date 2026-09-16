@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "DSJH-020",
+  "calls": [
+    {
+      "generated_at": "2026-09-08T10:17:46.616Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2441,
+      "cached_input_tokens": 0,
+      "output_tokens": 1157,
+      "total_tokens": 3598,
+      "estimated_cost_usd": 0.038238,
+      "estimated_payg_cash_cost_usd": 0.040149,
+      "direct_openai_reference_usd": 0.023457,
+      "gateway_premium_usd": 0.01478,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2441,
+    "cached_input_tokens": 0,
+    "output_tokens": 1157,
+    "estimated_cost_usd": 0.038238,
+    "estimated_payg_cash_cost_usd": 0.040149,
+    "direct_openai_reference_usd": 0.023457,
+    "gateway_premium_usd": 0.01478
+  }
+}

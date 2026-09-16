@@ -1,0 +1,60 @@
+{
+  "schema_version": 2,
+  "id": "DSJH-020",
+  "checked_at": "2026-09-16T09:26:23.307Z",
+  "review_sha256": "ab0b5d137c21f66a91c67c665c63fd81369bfdb03f3d3719ca536371ee7e056a",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "title_lacks_primary_source_adult_topic",
+    "insufficient_sections",
+    "missing_source_specific_title_concept"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果是用題材標籤快速篩選，DSJH-020 最明確的入口是「美少女」主題搭配八位演出者名單。公開資料列出椿莉香、美之嶋惠理、一色沙羅、虹村ゆみ、瀧川堇、渡來楓、幸村泉希、清水優愛，這讓作品的第一辨識點不是單人角色塑造，而是多人陣容的集中展示。對偏好一次認識多位演出者、或習慣從企劃"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "多人陣容最大的影響，是把觀眾的期待從單一主角的完整敘事，轉向多樣化名單帶來的選擇感。DSJH-020 一次集結八位演出者，公開標籤又同時涵蓋「窈窕」與「巨乳」兩種身形取向，代表它在來源層面就已經把吸引力建立在較寬的偏好覆蓋面上。換句話說，這不是需要先理解角色關係才能進入的片，而是"
+        }
+      ]
+    },
+    {
+      "code": "title_lacks_primary_source_adult_topic",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "missing_source_specific_title_concept",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 8,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 2
+  }
+}

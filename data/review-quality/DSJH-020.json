@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "DSJH-020",
+  "review_sha256": "ab0b5d137c21f66a91c67c665c63fd81369bfdb03f3d3719ca536371ee7e056a",
+  "selected_thesis": "椿莉香的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "椿莉香、美之嶋惠理、一色沙羅、虹村ゆみ、瀧川堇、渡來楓、幸村泉希、清水優愛",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "椿莉香",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "美之嶋惠理",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "一色沙羅",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "虹村ゆみ",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "椿莉香",
+    "presentation_feature": "美之嶋惠理",
+    "editorial_judgment": "椿莉香的企劃呈現與觀看取向",
+    "source_keywords": [
+      "椿莉香",
+      "美之嶋惠理",
+      "一色沙羅",
+      "虹村ゆみ"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：椿莉香",
+      "supports": "這項可追溯來源訊號支持文章以「椿莉香」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：美之嶋惠理",
+      "supports": "這項可追溯來源訊號支持文章以「美之嶋惠理」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：一色沙羅",
+      "supports": "這項可追溯來源訊號支持文章以「一色沙羅」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：虹村ゆみ",
+      "supports": "這項可追溯來源訊號支持文章以「虹村ゆみ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：瀧川堇",
+      "supports": "這項可追溯來源訊號支持文章以「瀧川堇」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：渡來楓",
+      "supports": "這項可追溯來源訊號支持文章以「渡來楓」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：幸村泉希",
+      "supports": "這項可追溯來源訊號支持文章以「幸村泉希」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：清水優愛",
+      "supports": "這項可追溯來源訊號支持文章以「清水優愛」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-07T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

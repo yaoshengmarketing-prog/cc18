@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "DSJH-020",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T09:26:24.759Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/DSJH-020/hero-v1.jpg",
+      "r2_key": "works/2026/09/DSJH-020/hero-v1.jpg",
+      "bytes": 708439,
+      "sha256": "8890e04951640a293e2812d1875e4e3de2c43f350fe0be622b4333cb57192fbd",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 角色成長, 互動節奏, 關係轉折. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/DSJH-020/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/DSJH-020/scene-vertical-v1.jpg",
+      "bytes": 952995,
+      "sha256": "163ac06937418a6312a0b4080297ec7d0c59a1bac0f9435f4cd161d3b0bb6703",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 角色成長, 互動節奏, 關係轉折. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2666386,
+    "sha256": "36b9bde029411b24c241817d58b0b81a4647783433a7017923e0654172a7f3fc",
+    "target_r2_key": "works/2026/09/DSJH-020/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/DSJH-020/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
