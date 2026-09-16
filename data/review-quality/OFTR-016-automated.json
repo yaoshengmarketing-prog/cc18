@@ -1,0 +1,58 @@
+{
+  "schema_version": 2,
+  "id": "OFTR-016",
+  "checked_at": "2026-09-16T06:23:48.061Z",
+  "review_sha256": "32ae6c2da1e1c90375a610f88be19d453dc0e3947ded6ab811f74c8ba7f2881c",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "broad_formulaic_voice"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 5,
+      "paragraph_count": 12,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果是從企劃辨識度來挑片，這部作品最直接的賣點，就是標題已經把核心概念講得很清楚：在溫泉街發現的大奶小姐，而且地點還進一步指向「in熱海」與「溫泉」。這種設定不是靠單一角色故事取勝，而是靠場域與企劃包裝先建立興趣。再加上來源文字明確提到「目標是100萬日圓賞金」，代表它的吸引力很"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "依目前可追溯資料判斷，這部更接近展示型企劃，而不是以完整人物弧線為主的劇情片。原因很簡單：公開資訊最強的內容不是角色背景的推進，而是企劃前提、地點概念，以及參加者名單。來源摘錄列出5名參加者，包含遙小姐、結奈小姐、芽衣小姐、繪里香、靜香小姐，也附上公司職員、離婚女、學生等身分說明"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "這部片的另一個明確判斷基礎，是參加者配置本身就被當成主打。公開描述直接點出總共5名爆乳女孩參加，並以G罩杯、H罩杯作為辨識焦點；同時又搭配公司職員、學生、離婚女等不同背景標籤。對選片來說，這表示作品並不是押在單一明星辨識度，而是用多人、不同職業或人生狀態的組合，去做出一種名單式吸"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "即使不延伸未被證實的場面內容，光從來源可知的「溫泉街」「溫泉」「in熱海」幾個訊號來看，這個場域已經足以成為作品辨識點。因為它不是抽象背景，而是與標題核心直接綁在一起，等於告訴觀眾：這不是一般隨機募集，而是特定地點、特定氛圍下的企劃包裝。這類設定通常會讓選片時的印象更鮮明，也比單"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "來源裡確實有素人、中出、亂交，以及720p、HD、高畫質等訊號，這些都能幫助理解作品屬性；但若要做選片判斷，它們比較像補充，不是最核心的區別。真正把這部片和其他同類作品分開的，仍然是「在溫泉街發現的大奶小姐」這個主概念，以及「目標是100萬日圓賞金」所暗示的企劃形式。換句話說，規"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

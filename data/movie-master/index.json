@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T06:21:32.153Z",
+  "generated_at": "2026-09-16T06:23:51.798Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 86,
-  "formal_movie_count": 85,
+  "tracked_input_count": 87,
+  "formal_movie_count": 86,
   "demo_count": 1,
-  "published_count": 82,
+  "published_count": 83,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -530,6 +530,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "7c70e6aadcfebfdc1783051c723a4a51cd8f2dd9d7dac016c6d08354194649c8"
+    },
+    {
+      "stable_movie_id": "cc18:OFTR-016",
+      "catalog_code": "OFTR-016",
+      "slug": "oftr-016",
+      "master_path": "data/movie-master/oftr-016.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "f32a720ef93b4bc68af94beeb1a973c31756b9d129ee60874b536d772f953af3"
     },
     {
       "stable_movie_id": "cc18:OREMO-606",

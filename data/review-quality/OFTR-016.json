@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "OFTR-016",
+  "review_sha256": "32ae6c2da1e1c90375a610f88be19d453dc0e3947ded6ab811f74c8ba7f2881c",
+  "selected_thesis": "素人企劃的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "在溫泉街發現的大奶小姐",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "setting",
+        "value": "溫泉場景",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "在溫泉街發現的大奶小姐",
+    "presentation_feature": "素人企劃",
+    "editorial_judgment": "素人企劃的企劃呈現與觀看取向",
+    "source_keywords": [
+      "在溫泉街發現的大奶小姐",
+      "素人企劃",
+      "溫泉場景"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "這次參加的包括：遙小姐（23歲）G罩杯公司職員！",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "結奈小姐（24歲）G罩杯公司職員、芽衣小姐（27歲）H罩杯離婚女、繪里香（21歲）H罩杯學生、靜香小姐（26歲）G罩杯公司職員，總共5名爆乳女孩參加！",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：素人企劃",
+      "supports": "這項可追溯來源訊號支持文章以「素人企劃」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "setting：溫泉場景",
+      "supports": "這項可追溯來源訊號支持文章以「溫泉場景」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：在溫泉街發現的大奶小姐",
+      "supports": "這項可追溯來源訊號支持文章以「在溫泉街發現的大奶小姐」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：素人",
+      "supports": "這項可追溯來源訊號支持文章以「素人」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：亂交",
+      "supports": "這項可追溯來源訊號支持文章以「亂交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-14T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

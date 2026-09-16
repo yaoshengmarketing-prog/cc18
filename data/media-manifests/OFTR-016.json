@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "OFTR-016",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T06:23:49.472Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/OFTR-016/hero-v1.jpg",
+      "r2_key": "works/2026/09/OFTR-016/hero-v1.jpg",
+      "bytes": 950983,
+      "sha256": "b53574e656e257a7cda0d6f6736f0ee969844320a872607b7a13e6923fe40bb6",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 在溫泉街發現的大奶小姐, 溫泉, 企劃設定, 角色變化. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/OFTR-016/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/OFTR-016/scene-vertical-v1.jpg",
+      "bytes": 1108108,
+      "sha256": "1319405f8e81e2a6dc940e71026420cce3880fb6f349c81dab8d76fceaf4cd31",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 在溫泉街發現的大奶小姐, 溫泉, 企劃設定, 角色變化. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2918640,
+    "sha256": "3720d4d478ee9a5f89c6951bf6d1e689c0bc0ade90f4d354bb83c7630b47c60a",
+    "target_r2_key": "works/2026/09/OFTR-016/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/OFTR-016/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
