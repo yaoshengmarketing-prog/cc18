@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T06:52:12.900Z",
+  "generated_at": "2026-09-16T06:54:16.588Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 100,
-  "formal_movie_count": 99,
+  "tracked_input_count": 101,
+  "formal_movie_count": 100,
   "demo_count": 1,
-  "published_count": 96,
+  "published_count": 97,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -494,6 +494,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "704784d96f8121a83b6e7fd4539ab62fa927857f2cb87ddbe08810f630077779"
+    },
+    {
+      "stable_movie_id": "cc18:MIDA-786",
+      "catalog_code": "MIDA-786",
+      "slug": "mida-786",
+      "master_path": "data/movie-master/mida-786.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "b4b6bae50cbbf6543dea192eeaedf430edd2a7afb853c4e3c35ad764113f29d1"
     },
     {
       "stable_movie_id": "cc18:MIFD-735",

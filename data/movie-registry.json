@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-16T06:52:10.216Z",
+  "updated_at": "2026-09-16T06:54:13.839Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -1482,6 +1482,21 @@
       ],
       "release_date": "2026-09-11",
       "source_url": "https://cc18.tv/player.php?uuid=SsqnHZjl1i&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-14"
+    },
+    {
+      "id": "MIDA-786",
+      "actress": [
+        "泉ももか"
+      ],
+      "release_date": "2026-09-11",
+      "source_url": "https://cc18.tv/player.php?uuid=7A0MoAOKebs&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

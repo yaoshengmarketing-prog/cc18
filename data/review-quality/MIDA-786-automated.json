@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "id": "MIDA-786",
+  "checked_at": "2026-09-16T06:54:12.449Z",
+  "review_sha256": "4c1e1ab1289ecda44c444cf610f241a520dc63bd9b10bf5de197d2d95223e6a7",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資訊，這部作品最明確的辨識點不是系列設定，也不是已知人物關係，而是標題核心概念「那個夏日的過錯」。這種命名方式本身就比單純功能型標籤更有企劃感，會把選片重心拉向一個帶有情緒與回想意味的主題包裝。對觀眾來說，這代表它的吸引力首先來自題名所營造的聯想空間，再由"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "這個核心概念的重要性，在於它為作品提供了一個比一般標籤更具方向性的閱讀入口。它暗示的不是可被直接確認的情節，而是一種帶有季節感、回憶感與錯誤感的包裝語氣。對選片者來說，這會影響預期：如果你偏好的是光靠標籤就能快速理解內容功能的作品，這個題名未必是主要吸引力；但如果你會在意企劃是否"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

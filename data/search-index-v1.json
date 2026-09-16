@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:bb4ebccd56abc733198410bad61c003b732682269eda77280013deb57dbe4bc5",
-  "source_generated_at": "2026-09-16T06:52:12.900Z",
+  "source_revision": "sha256:b4d8346caa2b8d2430e16316c9409fa31caacc961bd4e7ce4b36945ccdec1f0f",
+  "source_generated_at": "2026-09-16T06:54:16.588Z",
   "counts": {
-    "movies": 96,
-    "performers": 98,
+    "movies": 97,
+    "performers": 99,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -641,6 +641,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DOKS-689"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:30393",
+      "display_name": "泉ももか",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "泉ももか",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MIDA-786"
       ]
     },
     {
@@ -1638,6 +1649,59 @@
         "article_title": "MANX-034 菊乃らん｜監禁絶叫部屋：以企劃設定為先的系列選片",
         "display_short_title": null,
         "slug": "manx-034"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MIDA-786",
+        "source_cover": "https://cc18.tv/preview/80/b/7A0MoAOKebs-800.jpg?v=1789116076",
+        "title": "MIDA-786 泉ももか｜那個夏日的過錯：以企劃命名帶出想像空間",
+        "catalog_code": "MIDA-786",
+        "release_date": "2026-09-11",
+        "performers": [
+          "泉ももか"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mida-786/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:30393"
+      ],
+      "search": {
+        "source_title": "自從目擊到哥哥一手拿著色情雜誌拚命地擼雞巴的那一刻起，與覺醒性慾的妹妹大汗淋漓地瘋狂內射，那個夏日的過錯 泉百華",
+        "article_title": "MIDA-786 泉ももか｜那個夏日的過錯：以企劃命名帶出想像空間",
+        "display_short_title": null,
+        "slug": "mida-786"
       }
     },
     {

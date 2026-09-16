@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "MIDA-786",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T06:54:13.835Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/MIDA-786/hero-v1.jpg",
+      "r2_key": "works/2026/09/MIDA-786/hero-v1.jpg",
+      "bytes": 699763,
+      "sha256": "a8df25e3722a83d12b81850d9eb3e6220ae8f5766baea65998ac6736ab9cdb32",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/MIDA-786/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/MIDA-786/scene-vertical-v1.jpg",
+      "bytes": 1109991,
+      "sha256": "1efdb7c854f456ede576f5c007d4f5d5ecd920a3b78fd8eb7b7180de90ec5a53",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3021813,
+    "sha256": "438451c217c42cd74777abd16c2ee4145eee13717ba32575e8d7989cbef7d61b",
+    "target_r2_key": "works/2026/09/MIDA-786/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/MIDA-786/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

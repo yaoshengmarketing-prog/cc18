@@ -974,13 +974,14 @@
     },
     {
       "label": "第一人稱視點",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "IESP-765",
-        "IPZZ-943"
+        "IPZZ-943",
+        "MIDA-786"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-14",
       "status": "quarantined"
     },
     {
@@ -1100,13 +1101,14 @@
     },
     {
       "label": "多汗",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "DSOD-067",
-        "IPZZ-916"
+        "IPZZ-916",
+        "MIDA-786"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-14",
       "status": "quarantined"
     },
     {
