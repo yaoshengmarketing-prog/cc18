@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:dc0ab5e792313592a515e8b168c12d23cacccae36a4789d3fcd617c8a3108e14",
-  "source_generated_at": "2026-09-16T08:48:16.024Z",
+  "source_revision": "sha256:b687d12b84e1a5ed9b0e981d7a7ac9d1b090156ad593fedc7179874bd200a22f",
+  "source_generated_at": "2026-09-16T08:50:32.136Z",
   "counts": {
-    "movies": 137,
-    "performers": 168,
+    "movies": 138,
+    "performers": 169,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1619,6 +1619,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DOKS-689"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:13845",
+      "display_name": "新村朱里",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "新村朱里",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:AVSA-455"
       ]
     },
     {
@@ -4218,6 +4229,67 @@
         "article_title": "APAK-337 浅海なみ × 淫亂絶頂學生指導｜浅海なみ｜淫亂絕頂學生指導：以系列企劃辨識度取勝",
         "display_short_title": null,
         "slug": "apak-337"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:AVSA-455",
+        "source_cover": "https://cc18.tv/preview/80/b/ncZrlWF1m3T-800.jpg?v=1788770330",
+        "title": "AVSA-455 新村朱里｜耳邊淫語的低喃與深吻之沼：主打反差企劃的展示型選片",
+        "catalog_code": "AVSA-455",
+        "release_date": "2026-09-05",
+        "performers": [
+          "新村朱里"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "dirty-talk",
+            "label": "言語挑逗"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "kissing",
+            "label": "親吻互動"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/avsa-455/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:13845"
+      ],
+      "search": {
+        "source_title": "耳邊淫語的低喃與深吻之沼：白天是良妻，夜晚是狩獵M男的變態淫女妻！ 新村晶",
+        "article_title": "AVSA-455 新村朱里｜耳邊淫語的低喃與深吻之沼：主打反差企劃的展示型選片",
+        "display_short_title": null,
+        "slug": "avsa-455"
       }
     },
     {

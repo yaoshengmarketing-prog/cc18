@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-16T08:48:11.496Z",
+  "updated_at": "2026-09-16T08:50:27.642Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -2138,6 +2138,21 @@
       ],
       "release_date": "2026-09-05",
       "source_url": "https://cc18.tv/player.php?uuid=iBdwUWHXMat&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-09"
+    },
+    {
+      "id": "AVSA-455",
+      "actress": [
+        "新村朱里"
+      ],
+      "release_date": "2026-09-05",
+      "source_url": "https://cc18.tv/player.php?uuid=ncZrlWF1m3T&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

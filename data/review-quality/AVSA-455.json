@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "AVSA-455",
+  "review_sha256": "f87d677332ac3f9826c71a7468edaf055941a7156c67aa5227e8ffde98436863",
+  "selected_thesis": "新村朱里的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "新村朱里",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "新村朱里",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "耳邊淫語的低喃與深吻之沼",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "人妻・主婦",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "癡女",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "新村朱里",
+    "presentation_feature": "耳邊淫語的低喃與深吻之沼",
+    "editorial_judgment": "新村朱里的企劃呈現與觀看取向",
+    "source_keywords": [
+      "新村朱里",
+      "耳邊淫語的低喃與深吻之沼",
+      "人妻・主婦",
+      "癡女"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：新村朱里",
+      "supports": "這項可追溯來源訊號支持文章以「新村朱里」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：耳邊淫語的低喃與深吻之沼",
+      "supports": "這項可追溯來源訊號支持文章以「耳邊淫語的低喃與深吻之沼」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：癡女",
+      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻・主婦",
+      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-08T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

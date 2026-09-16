@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "AVSA-455",
+  "checked_at": "2026-09-16T08:50:26.265Z",
+  "review_sha256": "f87d677332ac3f9826c71a7468edaf055941a7156c67aa5227e8ffde98436863",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資訊來看，這部作品最明確的吸引點，就是標題核心概念所指向的「耳邊淫語的低喃與深吻之沼」。這不是單純堆疊常見標籤，而是直接構成了本作的辨識重心：主題集中在淫語與親吻兩個互動元素，企劃方向相對明確。再加上演出者為新村朱里，公開標籤又同時帶出「人妻・主婦」與「"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "是，而且這幾乎是目前最有依據的影評切入點之一。公開來源中的「白天是良妻」與「人妻・主婦」身份訊號，和「癡女」、「淫語」這類偏主動挑逗的元素放在一起，會形成很明顯的反差結構：外在角色形象偏向日常與穩定，主題概念卻朝向濃烈的親密誘惑。即使我們不能把這種反差延伸成具體情節，也不能宣稱角"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "最合理的期待方式，是把它看成一部由核心概念帶動的企劃作：以「耳邊淫語的低喃與深吻之沼」作為主軸，搭配新村朱里、人妻／主婦、癡女、巨乳等公開訊號，形成清楚的市場定位。公開資料也顯示本作提供高畫質與獨家配信等呈現資訊，但這些仍屬輔助條件，不能取代主題本身。換句話說，這部作品是否值得選"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
