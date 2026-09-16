@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:69454ab32e5388b424b80acbcdee7ce63f740a9b4d9b80e831b685ce7d8918fa",
-  "source_generated_at": "2026-09-16T11:41:12.734Z",
+  "source_revision": "sha256:4efdbb99c77ea074c7ceb11cb097da07180da621f7d201e251c9e7fab85a9720",
+  "source_generated_at": "2026-09-16T16:59:38.186Z",
   "counts": {
-    "movies": 155,
-    "performers": 182,
+    "movies": 156,
+    "performers": 183,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -235,6 +235,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DLDSS-531"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:37386",
+      "display_name": "小日向芽瑠",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "小日向芽瑠",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SUJI-319"
       ]
     },
     {
@@ -2599,6 +2610,51 @@
         "article_title": "SQTE-719 千葉優花｜再用力拍我：以企劃口號主導的展示型選片",
         "display_short_title": null,
         "slug": "sqte-719"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SUJI-319",
+        "source_cover": "https://cc18.tv/preview/80/b/CrXkWPLaCa-800.jpg?v=1789418337",
+        "title": "SUJI-319 小日向芽瑠｜パイパン田舎美少女",
+        "catalog_code": "SUJI-319",
+        "release_date": "2026-09-12",
+        "performers": [
+          "小日向芽瑠"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "fantasy-concept",
+            "label": "幻想企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/suji-319/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:37386"
+      ],
+      "search": {
+        "source_title": "白虎鄉下美少女～突然想起小時候的記憶，想去確認看看…～平胸白虎漏尿愛琉醬 149cm 小日向愛琉",
+        "article_title": "SUJI-319 小日向芽瑠｜パイパン田舎美少女",
+        "display_short_title": null,
+        "slug": "suji-319"
       }
     },
     {

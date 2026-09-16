@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "SUJI-319",
+  "checked_at": "2026-09-16T16:57:49.995Z",
+  "review_sha256": "31dcd8f6bcdf4b4f077d453b2ef6b3cf350bc58289d3b54b63397681ba8ca093",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "body_lacks_source_adult_vocabulary",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只根據目前可追溯的公開資料，SUJI-319 最明確的賣點就是系列核心概念「パイパン田舎美少女」。這個名稱本身已經替作品劃出很清楚的選片方向：重點不是複雜故事資訊，而是以系列企劃去集中人物形象與觀看期待。再加上演出者為小日向芽瑠，作品在標題建構上已具備人物與企劃兩個主要辨識點，"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "對熟悉系列選片的觀眾來說，「パイパン田舎美少女」這個核心概念已經足以形成期待。它的吸引力在於風格夠集中、題材辨識也夠直接，會讓人快速知道作品主打的是哪一種人物類型與企劃方向。這種系列公式感未必代表內容單薄，反而常是選片效率高的原因：你不是在賭未知劇情，而是在確認自己是否想看這個明"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

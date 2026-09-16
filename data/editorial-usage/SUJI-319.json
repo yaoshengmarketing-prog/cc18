@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "SUJI-319",
+  "calls": [
+    {
+      "generated_at": "2026-09-16T16:57:49.782Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2990,
+      "cached_input_tokens": 0,
+      "output_tokens": 1589,
+      "total_tokens": 4579,
+      "estimated_cost_usd": 0.050702,
+      "estimated_payg_cash_cost_usd": 0.053238,
+      "direct_openai_reference_usd": 0.03131,
+      "gateway_premium_usd": 0.019393,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2990,
+    "cached_input_tokens": 0,
+    "output_tokens": 1589,
+    "estimated_cost_usd": 0.050702,
+    "estimated_payg_cash_cost_usd": 0.053238,
+    "direct_openai_reference_usd": 0.03131,
+    "gateway_premium_usd": 0.019393
+  }
+}

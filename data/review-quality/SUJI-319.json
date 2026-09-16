@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "SUJI-319",
+  "review_sha256": "44af2965c5729e072d7ecd7ce1db99c33f51325c69112ffbe9073b29fc7a8e61",
+  "selected_thesis": "小日向芽瑠的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "小日向芽瑠",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "小日向芽瑠",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "パイパン田舎美少女",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "小日向芽瑠",
+    "presentation_feature": "パイパン田舎美少女",
+    "editorial_judgment": "小日向芽瑠的企劃呈現與觀看取向",
+    "source_keywords": [
+      "小日向芽瑠",
+      "パイパン田舎美少女",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：小日向芽瑠",
+      "supports": "這項可追溯來源訊號支持文章以「小日向芽瑠」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：パイパン田舎美少女",
+      "supports": "這項可追溯來源訊號支持文章以「パイパン田舎美少女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：パイパン田舎美少女",
+      "supports": "這項可追溯來源訊號支持文章以「パイパン田舎美少女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-15T16:00:00.000Z"
+}

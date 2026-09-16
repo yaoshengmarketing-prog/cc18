@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T11:41:12.734Z",
+  "generated_at": "2026-09-16T16:59:38.186Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 159,
-  "formal_movie_count": 158,
+  "tracked_input_count": 160,
+  "formal_movie_count": 159,
   "demo_count": 1,
-  "published_count": 155,
+  "published_count": 156,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1349,6 +1349,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "be35f1aa14f2def152e3d90f2609a820b3a6343785ab8c17e157f172dd255741"
+    },
+    {
+      "stable_movie_id": "cc18:SUJI-319",
+      "catalog_code": "SUJI-319",
+      "slug": "suji-319",
+      "master_path": "data/movie-master/suji-319.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "3240f73571406fd4545545305e6baeb5a8394b8371e3e5c3fee3772a1f699c2a"
     },
     {
       "stable_movie_id": "cc18:SW-1065",
