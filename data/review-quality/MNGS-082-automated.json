@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "MNGS-082",
+  "checked_at": "2026-09-16T06:45:46.996Z",
+  "review_sha256": "ad95b4bac3d941276c3d121c94a78ea2ea1eeea4b2eaaaa1844a1835b5ae933e",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資訊，這部作品最明確的吸引力，就是「想要學分的留級辣妹撒嬌」這個企劃核心本身。它不是單純堆疊常見標籤，而是直接把角色身分、動機方向與互動語氣綁在一起：一方面有「留級辣妹」帶出的角色辨識度，另一方面又有「想要學分」與「撒嬌」這種帶有目的性的互動前提。對選片來"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "這部片的公開標籤提供了相當直接的內容方向。identity 類別裡有 AV女優片、癡女、辣妹，說明它的賣點集中在角色屬性與主動感印象；action 類別裡則有中出、口交、騎乘位，代表作品在宣傳層面也明確強調成人內容的可辨識賣點。這些資訊合在一起時，對選片最有幫助的地方，不是推斷具"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
