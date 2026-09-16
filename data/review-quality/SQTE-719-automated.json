@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "SQTE-719",
+  "checked_at": "2026-09-16T11:38:19.458Z",
+  "review_sha256": "9a670dfb00af60f22ca1279ea24f878547d83a7ec5f9b81af91ca57066dd30a1",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資料來看，SQTE-719 最明確的選片重點不是完整劇情，而是由標題直接拋出的企劃口號「再用力拍我」。這種核心概念本身就很強，能快速界定作品想傳達的刺激方向，也比單純堆疊常見標籤更有辨識度。再加上片名線索中同時出現千葉優花，使作品的賣點集中在演出者與企劃"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:aae8ae9eb3da36eab8fe45e66f526bbd6a6a87631fa4d9c7c173e01a4b6c2a82",
-  "source_generated_at": "2026-09-16T11:36:02.207Z",
+  "source_revision": "sha256:f412af80ebad67a40f753bdaeef00acc0d840f65b7257f13d2c1b5f06a11c7ee",
+  "source_generated_at": "2026-09-16T11:38:25.013Z",
   "counts": {
-    "movies": 153,
-    "performers": 181,
+    "movies": 154,
+    "performers": 182,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -202,6 +202,17 @@
       "related_movie_ids": [
         "cc18:NSODN-023",
         "cc18:SNOS-358"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:52799",
+      "display_name": "千葉優花",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "千葉優花",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SQTE-719"
       ]
     },
     {
@@ -2473,6 +2484,63 @@
         "article_title": "SQTE-718 月野江翠 × いつでも使えるオナホ後輩｜月野江翠｜隨時可用的後輩企劃：系列公式下的展示型選片",
         "display_short_title": null,
         "slug": "sqte-718"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SQTE-719",
+        "source_cover": "https://cc18.tv/preview/80/b/6ovds4uSI_-800.jpg?v=1789418338",
+        "title": "SQTE-719 千葉優花｜再用力拍我：以企劃口號主導的展示型選片",
+        "catalog_code": "SQTE-719",
+        "release_date": "2026-09-12",
+        "performers": [
+          "千葉優花"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/sqte-719/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:52799"
+      ],
+      "search": {
+        "source_title": "再用力拍我、掐我脖子。渴望被欺負的變態抖M巨乳 千葉優花",
+        "article_title": "SQTE-719 千葉優花｜再用力拍我：以企劃口號主導的展示型選片",
+        "display_short_title": null,
+        "slug": "sqte-719"
       }
     },
     {

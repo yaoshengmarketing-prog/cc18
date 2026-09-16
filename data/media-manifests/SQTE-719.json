@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "SQTE-719",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T11:38:20.995Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/SQTE-719/hero-v1.jpg",
+      "r2_key": "works/2026/09/SQTE-719/hero-v1.jpg",
+      "bytes": 676469,
+      "sha256": "3d577f32c3a5d3b92a27a725c2b3f744f551336ba3df621f8a5efc56eb27577f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/SQTE-719/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/SQTE-719/scene-vertical-v1.jpg",
+      "bytes": 834351,
+      "sha256": "8e7e2294060329fc10562f7cc96e303d72f9268db759d076d4ff99c06ea5b8e2",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2495656,
+    "sha256": "85ef3f1ea106aa6eab4eee37ab94d297a2afe4f1393fcf9089e49c2223d3c775",
+    "target_r2_key": "works/2026/09/SQTE-719/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/SQTE-719/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
