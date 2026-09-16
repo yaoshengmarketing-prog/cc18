@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T06:56:20.943Z",
+  "generated_at": "2026-09-16T06:58:27.211Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 102,
-  "formal_movie_count": 101,
+  "tracked_input_count": 103,
+  "formal_movie_count": 102,
   "demo_count": 1,
-  "published_count": 98,
+  "published_count": 99,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -692,6 +692,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "60da7d907b139fc38f1731c3ab3ede3dfb38941db3e3de8f5dd05496b3cbd404"
+    },
+    {
+      "stable_movie_id": "cc18:PRWF-016",
+      "catalog_code": "PRWF-016",
+      "slug": "prwf-016",
+      "master_path": "data/movie-master/prwf-016.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "81735fe0530fdd7ae2b769f6b7381e30d057684a34442c168237b33c14323d9e"
     },
     {
       "stable_movie_id": "cc18:RKI-750",

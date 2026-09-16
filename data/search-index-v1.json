@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:a8e2893e4bf99b3313f55a7ab442f19b3b2ef60587a9c894acddadc216513f89",
-  "source_generated_at": "2026-09-16T06:56:20.943Z",
+  "source_revision": "sha256:f4dde7b8840d5f6c1fb615d6655ecfd8c819f6d9cf028605776e0caf3b0404d8",
+  "source_generated_at": "2026-09-16T06:58:27.211Z",
   "counts": {
-    "movies": 98,
-    "performers": 100,
+    "movies": 99,
+    "performers": 101,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -145,6 +145,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DLDSS-531"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53984",
+      "display_name": "小松空",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "小松空",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PRWF-016"
       ]
     },
     {
@@ -2072,6 +2083,55 @@
         "article_title": "PRED-890 楪可憐 × AV女優片｜楪可憐｜中出主題下的展示型企劃判讀",
         "display_short_title": null,
         "slug": "pred-890"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:PRWF-016",
+        "source_cover": "https://cc18.tv/preview/80/b/3aKiIf_qXby-800.jpg?v=1789288831",
+        "title": "PRWF-016 小松空｜直到迎接早晨也停不下來：以旅館夫妻經營設定撐起的企劃型作品",
+        "catalog_code": "PRWF-016",
+        "release_date": "2026-09-11",
+        "performers": [
+          "小松空"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/prwf-016/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53984"
+      ],
+      "search": {
+        "source_title": "在夫婦經營的旅館被大叔客人的晚酌召喚…直到迎接早晨也停不下來，墮入中出接待的妻子 小松空",
+        "article_title": "PRWF-016 小松空｜直到迎接早晨也停不下來：以旅館夫妻經營設定撐起的企劃型作品",
+        "display_short_title": null,
+        "slug": "prwf-016"
       }
     },
     {

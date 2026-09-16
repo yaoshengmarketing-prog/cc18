@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "PRWF-016",
+  "checked_at": "2026-09-16T06:58:22.947Z",
+  "review_sha256": "c29ec48b39073a5f2a9965ef24554a866d13a88293b794223ab3927e70f547a7",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看可追溯的公開資訊，這部片最明確的吸引點，不是複雜人物關係，而是非常直接的企劃核心：『直到迎接早晨也停不下來』。這句核心概念本身就已經替作品定下節奏方向，讓人預期它會把重點放在長時間、持續推進的接待處境上，而不是以多線敘事取勝。再加上標題中明示的『中出接待』，整體選片理由會"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
