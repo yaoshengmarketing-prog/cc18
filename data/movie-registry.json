@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-16T09:11:14.961Z",
+  "updated_at": "2026-09-16T09:13:45.540Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -2276,6 +2276,21 @@
       ],
       "release_date": "2026-09-04",
       "source_url": "https://cc18.tv/player.php?uuid=2gaAZhIGOar&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-10"
+    },
+    {
+      "id": "DSOD-060",
+      "actress": [
+        "彩月七緒"
+      ],
+      "release_date": "2026-09-04",
+      "source_url": "https://cc18.tv/player.php?uuid=tCZj6MhUBcq&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

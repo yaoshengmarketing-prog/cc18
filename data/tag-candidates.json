@@ -672,7 +672,7 @@
     },
     {
       "label": "寝取り・寝取られ・ntr",
-      "occurrences": 17,
+      "occurrences": 18,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -690,7 +690,8 @@
         "SNOS-339",
         "NNOD-002",
         "UMAN-012",
-        "UMAN-013"
+        "UMAN-013",
+        "DSOD-060"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-15",
@@ -1735,6 +1736,16 @@
       ],
       "first_seen": "2026-09-09",
       "last_seen": "2026-09-09",
+      "status": "quarantined"
+    },
+    {
+      "label": "讓她生",
+      "occurrences": 1,
+      "source_ids": [
+        "DSOD-060"
+      ],
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-09-10",
       "status": "quarantined"
     }
   ]

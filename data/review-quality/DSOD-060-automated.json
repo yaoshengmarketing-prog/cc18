@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "DSOD-060",
+  "checked_at": "2026-09-16T09:13:44.061Z",
+  "review_sha256": "1faf9b4dabc205c6b4fe1afacf63cba3cb1ebeab3f66e439d59e4e9e9abf1064",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果是衝著企劃辨識度來選片，DSOD-060 的核心吸引力很清楚：它直接掛在《寝取られ種付けプレス》這個系列與概念之下。對熟悉此類題材的觀眾來說，系列名稱本身就先交代了作品會優先圍繞哪一種觀看期待建立賣點，因此它的可看性首先不是來自未知劇情，而是來自明確的企劃框架。就目前可追溯資"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "公開資料可確認演出者為彩月七緒，而創作線索中又出現「溫柔到快要溢出的超乳女友」這樣的來源摘錄，讓本作的角色包裝方向相當明確：它不是只靠單一題材名目推進，而是把演出者與角色印象一起綁進作品入口。再對照 topic elements 裡的「美少女」「巨乳」等元素，可以看出本片的選角訴"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "以現有資料判斷，我會把它放在展示型企劃優先、劇情設定輔助的位置。原因不是因為作品沒有故事，而是目前能確認的資訊主要集中在系列概念、角色標籤與主題元素，例如《寝取られ種付けプレス》這個核心概念，以及美少女、巨乳、中出等來源標示。這些訊號更像是在建立觀看入口與題材期待，而不是提供完整"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}
