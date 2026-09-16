@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "PRED-890",
+  "checked_at": "2026-09-16T06:41:41.500Z",
+  "review_sha256": "4044a362b70fc87f87988d25b2a8fd19ee513e6d1e04752d067c5d2931d4321a",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果以目前可追溯的公開資訊來看，這部片最明確的選片理由，就是作品焦點高度集中在楪可憐本人。來源中的 core source concept 直接指向「楪可憐」，而片名線索又同時帶出「中出」，代表這不是靠複雜人物關係或明確劇情設定來吸引觀眾的作品，而是更偏向以出演者本身的存在感，搭"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "從現有資料判斷，它更接近展示型企劃。原因不是因為我們已知任何具體情節，而是因為來源沒有提供人物關係、場景設定、故事前提或衝突結構；creative seed brief 也明確指出 premise、relationship、role dynamic、central tension"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

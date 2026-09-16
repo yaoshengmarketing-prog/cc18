@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:7b0b9de0de064ba626b33fd0751fadd7465e65bd7b2b2a59e73730d11ca634d6",
-  "source_generated_at": "2026-09-16T06:39:31.418Z",
+  "source_revision": "sha256:5719c0507819a948c6ce1d571ce246192ab11064cc76baa628d07aa1cac234a4",
+  "source_generated_at": "2026-09-16T06:41:45.450Z",
   "counts": {
-    "movies": 90,
-    "performers": 92,
+    "movies": 91,
+    "performers": 93,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -936,6 +936,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:26017",
+      "display_name": "楪可憐",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "楪可憐",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PRED-890"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:30379",
       "display_name": "與田鈴",
       "display_name_zh_tw": null,
@@ -1564,6 +1575,59 @@
         "article_title": "MIMK-291 北岡果林｜援交企劃外殼下，以系列累計突破10萬部為主軸的展示型作品",
         "display_short_title": null,
         "slug": "mimk-291"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:PRED-890",
+        "source_cover": "https://cc18.tv/preview/80/b/4AZlBtF74g-800.jpg?v=1789159316",
+        "title": "PRED-890 楪可憐 × AV女優片｜楪可憐｜中出主題下的展示型企劃判讀",
+        "catalog_code": "PRED-890",
+        "release_date": "2026-09-11",
+        "performers": [
+          "楪可憐"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/pred-890/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:26017"
+      ],
+      "search": {
+        "source_title": "【自慰特化】【特寫長鏡頭】【極致猥褻角度】專為自慰而拍！濃縮拍攝楪可憐淫蕩肉體的連續中出性愛紀錄 楪可憐",
+        "article_title": "PRED-890 楪可憐 × AV女優片｜楪可憐｜中出主題下的展示型企劃判讀",
+        "display_short_title": null,
+        "slug": "pred-890"
       }
     },
     {
