@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T06:19:01.622Z",
+  "generated_at": "2026-09-16T06:21:32.153Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 85,
-  "formal_movie_count": 84,
+  "tracked_input_count": 86,
+  "formal_movie_count": 85,
   "demo_count": 1,
-  "published_count": 81,
+  "published_count": 82,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -467,6 +467,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "c1b637bfe7adcf2b78b883e0e1291bc7be20aa4edfc2d6070a44e7ff73f79fa2"
+    },
+    {
+      "stable_movie_id": "cc18:MRSS-192",
+      "catalog_code": "MRSS-192",
+      "slug": "mrss-192",
+      "master_path": "data/movie-master/mrss-192.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "573e0d8f57be78b2e0c7cf5934638cc1a310ae9e629092f69ee6b72241b1d9d7"
     },
     {
       "stable_movie_id": "cc18:MVG-171",

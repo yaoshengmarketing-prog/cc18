@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "id": "MRSS-192",
+  "checked_at": "2026-09-16T06:21:28.557Z",
+  "review_sha256": "4789af92a25fc202fb5f7b4329eb3135a23708585be5f8b275bea53690f76ae7",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就目前可追溯的公開資訊來看，這部作品最明確的核心賣點不是劇情線，而是「隔著衣服都能看出豐滿臀部」這個非常直接的企劃概念。這個來源概念本身就已經把觀眾的注意力集中到身體輪廓與視覺辨識度上，而 safe signals 也進一步對應到「美尻」，讓選片方向更清楚：它不是以複雜背景設定取"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 3,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

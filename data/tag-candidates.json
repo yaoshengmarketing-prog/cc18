@@ -771,14 +771,15 @@
     },
     {
       "label": "巨尻",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "JUR-850",
         "FNS-244",
-        "DOKS-690"
+        "DOKS-690",
+        "MRSS-192"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-15",
       "status": "quarantined"
     },
     {
@@ -1309,6 +1310,16 @@
       "occurrences": 1,
       "source_ids": [
         "BBTU-119"
+      ],
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-15",
+      "status": "quarantined"
+    },
+    {
+      "label": "エマニエル",
+      "occurrences": 1,
+      "source_ids": [
+        "MRSS-192"
       ],
       "first_seen": "2026-09-15",
       "last_seen": "2026-09-15",
