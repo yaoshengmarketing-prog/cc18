@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "MKMP-758",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T08:43:38.933Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/MKMP-758/hero-v1.jpg",
+      "r2_key": "works/2026/09/MKMP-758/hero-v1.jpg",
+      "bytes": 661538,
+      "sha256": "cb758704b8bd8c97f6730e2bc5eedff7fb4946394163e61cad896acf07f9a5d5",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 角色成長, 互動節奏, 關係轉折. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/MKMP-758/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/MKMP-758/scene-vertical-v1.jpg",
+      "bytes": 1234749,
+      "sha256": "ef07d596dbdbb16246c2dc066d34bf5b7dc8585dc3747e79fc9c75dfa4fc7fea",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 角色成長, 互動節奏, 關係轉折. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3337390,
+    "sha256": "31b6c0506133a37bdfefd8d43f464f58301720f337c9bb544614acafe53485f4",
+    "target_r2_key": "works/2026/09/MKMP-758/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/MKMP-758/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "movie_id": "MKMP-758",
+  "generated_at": "2026-09-08T04:38:16.524Z",
+  "source_snapshot_hash": "sha256:44e8a58e2bb568582484d1e7ccf9494b4859d127afb7be928fb3b1a2360570ae",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "篠田優的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "篠田優",
+      "濱崎真緒",
+      "芹沢かのん",
+      "美咲佳奈"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "FCDSS-117",
+      "relation_type": "same_performer",
+      "reason": "同樣由沙月恵奈、逢月日葵出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "沙月恵奈",
+        "逢月日葵"
+      ],
+      "contrast_signals": [
+        "天使萌",
+        "吉高寧寧"
+      ]
+    },
+    {
+      "movie_id": "MVG-171",
+      "relation_type": "same_performer",
+      "reason": "同樣由蘭華出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "蘭華"
+      ],
+      "contrast_signals": [
+        "辣妹",
+        "3p・4p"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？篠田優的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+    "有哪些觀看取捨？只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+  ]
+}

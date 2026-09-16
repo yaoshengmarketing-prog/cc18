@@ -1,0 +1,60 @@
+{
+  "schema_version": 2,
+  "id": "MKMP-758",
+  "checked_at": "2026-09-16T08:43:37.521Z",
+  "review_sha256": "0665d5448e721064ba827fe493a9e9589cf0369bf12c406952d02abd11616530",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "title_lacks_primary_source_adult_topic",
+    "insufficient_sections",
+    "missing_source_specific_title_concept"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "從目前可追溯的公開資料來看，MKMP-758 最明確的辨識點不是單一角色關係或劇情線，而是大型多人陣容結合「癡女」主題的企劃形式。公開演出名單涵蓋篠田優、濱崎真緒、芹沢かのん、美咲佳奈等多位演出者，搭配 topic elements 中可確認的「癡女」「中出」「口交」，使這部作品"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "有，而且這幾乎是本作最直接的選片理由。公開名單列出大量演出者，代表它在宣傳層面明顯主打多人共演的規模感。對會依照熟面孔、喜歡同企劃一次收錄多位演出者的觀眾來說，這類作品的價值通常不在單一敘事，而在於陣容廣度本身。尤其當 safe title signals 已明確可用到篠田優、濱"
+        }
+      ]
+    },
+    {
+      "code": "title_lacks_primary_source_adult_topic",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "missing_source_specific_title_concept",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 8,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 2
+  }
+}

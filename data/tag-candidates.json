@@ -872,12 +872,13 @@
     },
     {
       "label": "超過4小時",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "HHF-111",
         "FCDSS-117",
         "OFTR-015",
-        "KIBD-355"
+        "KIBD-355",
+        "MKMP-758"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-16",
@@ -1685,6 +1686,16 @@
       ],
       "first_seen": "2026-09-11",
       "last_seen": "2026-09-11",
+      "status": "quarantined"
+    },
+    {
+      "label": "合輯、精選",
+      "occurrences": 1,
+      "source_ids": [
+        "MKMP-758"
+      ],
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-08",
       "status": "quarantined"
     }
   ]

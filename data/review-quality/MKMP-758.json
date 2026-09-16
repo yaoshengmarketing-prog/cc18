@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "MKMP-758",
+  "review_sha256": "0665d5448e721064ba827fe493a9e9589cf0369bf12c406952d02abd11616530",
+  "selected_thesis": "篠田優的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "篠田優、濱崎真緒、芹沢かのん、美咲佳奈、高瀨里奈、美園和花、一條美緒、皆月光、黒川すみれ、若宮穗乃、月乃露娜、吉根柚莉愛、奏音花音、彌生美月、松本一香、東條夏、田中寧寧、椿莉香、森日向子、月野かすみ、沙月恵奈、蘭華、有岡美羽、乙愛麗絲、北野未奈、花狩舞、天馬唯、新井里真、胡桃さくら、末広純、逢月日葵、流川莉央、都月琉衣紗、星乃夏月、尾崎惠梨香、結月莉亞、戶川奈美、小那海綾(佐佐波綾)、逢澤美優、秋元幸香、木下日葵（花澤日葵）、Nia（伊東愛瑠）、静河、稻場流花(莉莉遙香)",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "篠田優",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "濱崎真緒",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "芹沢かのん",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "美咲佳奈",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "篠田優",
+    "presentation_feature": "濱崎真緒",
+    "editorial_judgment": "篠田優的企劃呈現與觀看取向",
+    "source_keywords": [
+      "篠田優",
+      "濱崎真緒",
+      "芹沢かのん",
+      "美咲佳奈"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：篠田優",
+      "supports": "這項可追溯來源訊號支持文章以「篠田優」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：濱崎真緒",
+      "supports": "這項可追溯來源訊號支持文章以「濱崎真緒」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：芹沢かのん",
+      "supports": "這項可追溯來源訊號支持文章以「芹沢かのん」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：美咲佳奈",
+      "supports": "這項可追溯來源訊號支持文章以「美咲佳奈」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：高瀨里奈",
+      "supports": "這項可追溯來源訊號支持文章以「高瀨里奈」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：美園和花",
+      "supports": "這項可追溯來源訊號支持文章以「美園和花」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：一條美緒",
+      "supports": "這項可追溯來源訊號支持文章以「一條美緒」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：皆月光",
+      "supports": "這項可追溯來源訊號支持文章以「皆月光」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-07T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

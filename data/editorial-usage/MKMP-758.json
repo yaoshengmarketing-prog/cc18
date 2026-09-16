@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "MKMP-758",
+  "calls": [
+    {
+      "generated_at": "2026-09-08T04:38:16.454Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2654,
+      "cached_input_tokens": 0,
+      "output_tokens": 1193,
+      "total_tokens": 3847,
+      "estimated_cost_usd": 0.040113,
+      "estimated_payg_cash_cost_usd": 0.042118,
+      "direct_openai_reference_usd": 0.02453,
+      "gateway_premium_usd": 0.015583,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2654,
+    "cached_input_tokens": 0,
+    "output_tokens": 1193,
+    "estimated_cost_usd": 0.040113,
+    "estimated_payg_cash_cost_usd": 0.042118,
+    "direct_openai_reference_usd": 0.02453,
+    "gateway_premium_usd": 0.015583
+  }
+}

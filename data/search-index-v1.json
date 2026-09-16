@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:fcffaff6d96f1543a68cabce2581952f10a731f6c005930a95705cf5aae8f911",
-  "source_generated_at": "2026-09-16T08:41:08.084Z",
+  "source_revision": "sha256:68eefbe786b6953854113b2a26effe717a50db9c356a896326b87cf5ce481e76",
+  "source_generated_at": "2026-09-16T08:43:43.339Z",
   "counts": {
-    "movies": 134,
-    "performers": 129,
+    "movies": 135,
+    "performers": 167,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -32,6 +32,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:22228",
+      "display_name": "一條美緒",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "一條美緒",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:27185",
       "display_name": "一ノ瀬ラム",
       "display_name_zh_tw": null,
@@ -42,6 +53,17 @@
       ],
       "related_movie_ids": [
         "cc18:DSOD-006"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:25796",
+      "display_name": "乙愛麗絲",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "乙愛麗絲",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
       ]
     },
     {
@@ -192,6 +214,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:28871",
+      "display_name": "小那海綾(佐佐波綾)",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "小那海綾(佐佐波綾)",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:53984",
       "display_name": "小松空",
       "display_name_zh_tw": null,
@@ -303,6 +336,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:26384",
+      "display_name": "天馬唯",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "天馬唯",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:46839",
       "display_name": "巴光莉",
       "display_name_zh_tw": null,
@@ -311,6 +355,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:BBAN-601"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28729",
+      "display_name": "戶川奈美",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "戶川奈美",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
       ]
     },
     {
@@ -325,6 +380,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:23639",
+      "display_name": "月乃露娜",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "月乃露娜",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:28900",
       "display_name": "月野江翠",
       "display_name_zh_tw": null,
@@ -335,6 +401,28 @@
         "cc18:NACT-182",
         "cc18:NMSL-047",
         "cc18:SQTE-718"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:25568",
+      "display_name": "月野かすみ",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "月野かすみ",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:30287",
+      "display_name": "木下日葵（花澤日葵）",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "木下日葵（花澤日葵）",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
       ]
     },
     {
@@ -360,6 +448,28 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:26181",
+      "display_name": "北野未奈",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "北野未奈",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:27365",
+      "display_name": "末広純",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "末広純",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:47082",
       "display_name": "本郷愛（二階堂夢）",
       "display_name_zh_tw": null,
@@ -379,6 +489,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:IPZZ-978"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:25052",
+      "display_name": "田中寧寧",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "田中寧寧",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
       ]
     },
     {
@@ -444,7 +565,8 @@
       "source_name": "吉根柚莉愛",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:HEZ-919"
+        "cc18:HEZ-919",
+        "cc18:MKMP-758"
       ]
     },
     {
@@ -478,6 +600,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:KIBD-355"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:25698",
+      "display_name": "有岡美羽",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "有岡美羽",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
       ]
     },
     {
@@ -549,6 +682,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:27862",
+      "display_name": "尾崎惠梨香",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "尾崎惠梨香",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:25615",
       "display_name": "沙月恵奈",
       "display_name_zh_tw": null,
@@ -556,7 +700,8 @@
       "source_name": "沙月恵奈",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:FCDSS-117"
+        "cc18:FCDSS-117",
+        "cc18:MKMP-758"
       ]
     },
     {
@@ -650,6 +795,28 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:24852",
+      "display_name": "東條夏",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "東條夏",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:24264",
+      "display_name": "松本一香",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "松本一香",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:34284",
       "display_name": "河北彩花",
       "display_name_zh_tw": null,
@@ -707,6 +874,28 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:26186",
+      "display_name": "花狩舞",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "花狩舞",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:2159",
+      "display_name": "芹沢かのん",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "芹沢かのん",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:29079",
       "display_name": "雨宮響",
       "display_name_zh_tw": null,
@@ -738,6 +927,28 @@
       "related_movie_ids": [
         "cc18:DOKS-689",
         "cc18:MUDR-406"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:23958",
+      "display_name": "奏音花音",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "奏音花音",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:27751",
+      "display_name": "星乃夏月",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "星乃夏月",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
       ]
     },
     {
@@ -824,6 +1035,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:27567",
+      "display_name": "流川莉央",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "流川莉央",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:53726",
       "display_name": "浅海なみ",
       "display_name_zh_tw": null,
@@ -832,6 +1054,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:APAK-337"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:22414",
+      "display_name": "皆月光",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "皆月光",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
       ]
     },
     {
@@ -845,6 +1078,17 @@
       ],
       "related_movie_ids": [
         "cc18:SDAB-358"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:29065",
+      "display_name": "秋元幸香",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "秋元幸香",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
       ]
     },
     {
@@ -871,6 +1115,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:3290",
+      "display_name": "美咲佳奈",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "美咲佳奈",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:28932",
       "display_name": "美咲音",
       "display_name_zh_tw": null,
@@ -889,7 +1144,19 @@
       "source_name": "美園和花",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:MKMP-758",
         "cc18:MNGS-077"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:27218",
+      "display_name": "胡桃さくら",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "胡桃さくら",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
       ]
     },
     {
@@ -901,6 +1168,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SPSF-55"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:22888",
+      "display_name": "若宮穗乃",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "若宮穗乃",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
       ]
     },
     {
@@ -1059,6 +1337,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:5639",
+      "display_name": "高瀨里奈",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "高瀨里奈",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:39724",
       "display_name": "凰華鈴",
       "display_name_zh_tw": null,
@@ -1159,7 +1448,8 @@
       "source_name": "逢月日葵",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:FCDSS-117"
+        "cc18:FCDSS-117",
+        "cc18:MKMP-758"
       ]
     },
     {
@@ -1170,7 +1460,19 @@
       "source_name": "逢澤美優",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:MIAB-677"
+        "cc18:MIAB-677",
+        "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:27736",
+      "display_name": "都月琉衣紗",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "都月琉衣紗",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
       ]
     },
     {
@@ -1182,6 +1484,28 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PIYO-238"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:22609",
+      "display_name": "黒川すみれ",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "黒川すみれ",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:25216",
+      "display_name": "森日向子",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "森日向子",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
       ]
     },
     {
@@ -1204,6 +1528,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MUKD-585"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28406",
+      "display_name": "結月莉亞",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "結月莉亞",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
       ]
     },
     {
@@ -1251,6 +1586,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:26428",
+      "display_name": "新井里真",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "新井里真",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:30592",
       "display_name": "新田好実",
       "display_name_zh_tw": null,
@@ -1259,6 +1605,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DOKS-689"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:25176",
+      "display_name": "椿莉香",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "椿莉香",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
       ]
     },
     {
@@ -1317,6 +1674,28 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:41941",
+      "display_name": "静河",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "静河",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:47559",
+      "display_name": "稻場流花(莉莉遙香)",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "稻場流花(莉莉遙香)",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:274",
       "display_name": "蓮實克蕾兒",
       "display_name_zh_tw": null,
@@ -1361,6 +1740,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:75",
+      "display_name": "篠田優",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "篠田優",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:35011",
       "display_name": "篠真有",
       "display_name_zh_tw": null,
@@ -1369,6 +1759,28 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MIDA-783"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:24104",
+      "display_name": "彌生美月",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "彌生美月",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:1176",
+      "display_name": "濱崎真緒",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "濱崎真緒",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
       ]
     },
     {
@@ -1425,6 +1837,7 @@
       "source_name": "蘭華",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:MKMP-758",
         "cc18:MVG-171"
       ]
     },
@@ -1450,6 +1863,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:REBD-1063"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:30342",
+      "display_name": "Nia（伊東愛瑠）",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "Nia（伊東愛瑠）",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-758"
       ]
     },
     {
@@ -4037,6 +4461,137 @@
         "article_title": "GVH-878 羽月乃蒼 × 學生設定｜羽月乃蒼",
         "display_short_title": null,
         "slug": "gvh-878"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MKMP-758",
+        "source_cover": "https://cc18.tv/preview/80/b/Ciqp48pHtd2-800.jpg?v=1788770324",
+        "title": "MKMP-758 篠田優、濱崎真緒、芹沢かのん、美咲佳奈、高瀨里奈、美園和花、一條美緒、皆月光、黒川すみれ、若宮穗乃、月乃露娜、吉根柚莉愛、奏音花音、彌生美月、松本一香、東條夏、田",
+        "catalog_code": "MKMP-758",
+        "release_date": "2026-09-05",
+        "performers": [
+          "篠田優",
+          "濱崎真緒",
+          "芹沢かのん",
+          "美咲佳奈",
+          "高瀨里奈",
+          "美園和花",
+          "一條美緒",
+          "皆月光",
+          "黒川すみれ",
+          "若宮穗乃",
+          "月乃露娜",
+          "吉根柚莉愛",
+          "奏音花音",
+          "彌生美月",
+          "松本一香",
+          "東條夏",
+          "田中寧寧",
+          "椿莉香",
+          "森日向子",
+          "月野かすみ",
+          "沙月恵奈",
+          "蘭華",
+          "有岡美羽",
+          "乙愛麗絲",
+          "北野未奈",
+          "花狩舞",
+          "天馬唯",
+          "新井里真",
+          "胡桃さくら",
+          "末広純",
+          "逢月日葵",
+          "流川莉央",
+          "都月琉衣紗",
+          "星乃夏月",
+          "尾崎惠梨香",
+          "結月莉亞",
+          "戶川奈美",
+          "小那海綾(佐佐波綾)",
+          "逢澤美優",
+          "秋元幸香",
+          "木下日葵（花澤日葵）",
+          "Nia（伊東愛瑠）",
+          "静河",
+          "稻場流花(莉莉遙香)"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mkmp-758/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:75",
+        "cc18.tv:actor:1176",
+        "cc18.tv:actor:2159",
+        "cc18.tv:actor:3290",
+        "cc18.tv:actor:5639",
+        "cc18.tv:actor:22084",
+        "cc18.tv:actor:22228",
+        "cc18.tv:actor:22414",
+        "cc18.tv:actor:22609",
+        "cc18.tv:actor:22888",
+        "cc18.tv:actor:23639",
+        "cc18.tv:actor:23911",
+        "cc18.tv:actor:23958",
+        "cc18.tv:actor:24104",
+        "cc18.tv:actor:24264",
+        "cc18.tv:actor:24852",
+        "cc18.tv:actor:25052",
+        "cc18.tv:actor:25176",
+        "cc18.tv:actor:25216",
+        "cc18.tv:actor:25568",
+        "cc18.tv:actor:25615",
+        "cc18.tv:actor:25683",
+        "cc18.tv:actor:25698",
+        "cc18.tv:actor:25796",
+        "cc18.tv:actor:26181",
+        "cc18.tv:actor:26186",
+        "cc18.tv:actor:26384",
+        "cc18.tv:actor:26428",
+        "cc18.tv:actor:27218",
+        "cc18.tv:actor:27365",
+        "cc18.tv:actor:27471",
+        "cc18.tv:actor:27567",
+        "cc18.tv:actor:27736",
+        "cc18.tv:actor:27751",
+        "cc18.tv:actor:27862",
+        "cc18.tv:actor:28406",
+        "cc18.tv:actor:28729",
+        "cc18.tv:actor:28871",
+        "cc18.tv:actor:29025",
+        "cc18.tv:actor:29065",
+        "cc18.tv:actor:30287",
+        "cc18.tv:actor:30342",
+        "cc18.tv:actor:41941",
+        "cc18.tv:actor:47559"
+      ],
+      "search": {
+        "source_title": "百發絕頂極樂激射精BEST",
+        "article_title": "MKMP-758 篠田優、濱崎真緒、芹沢かのん、美咲佳奈、高瀨里奈、美園和花、一條美緒、皆月光、黒川すみれ、若宮穗乃、月乃露娜、吉根柚莉愛、奏音花音、彌生美月、松本一香、東條夏、田",
+        "display_short_title": null,
+        "slug": "mkmp-758"
       }
     },
     {
