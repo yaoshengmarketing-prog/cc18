@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "UMD-1019",
+  "checked_at": "2026-09-16T07:55:40.168Z",
+  "review_sha256": "2c331bd125902b2c60122c63f1b8ff3a60b8e0c6b36a0bb5328532ac28363ed9",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資訊，這部作品最明確的辨識點不是複雜劇情，而是「素股play發生意外」這個核心企劃。它同時出現在系列命名與 creative brief 的 core source concept，代表本作的選片吸引力主要來自一個容易理解、也容易被系列化操作的情境設計。對"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "綜合目前來源，本片較適合喜歡明確企劃設定、接受系列公式感、並且希望從公開標題就能理解作品重點的觀眾。creative seed brief 也提示可從「企劃設定、角色變化、互動節奏」來組織閱讀，但同時明確指出未確認的人物關係與場景應保持未知。因此，最穩妥的判斷是：這不是一部應該靠"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

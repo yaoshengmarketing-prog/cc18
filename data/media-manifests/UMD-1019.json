@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "UMD-1019",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T07:55:41.573Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/UMD-1019/hero-v1.jpg",
+      "r2_key": "works/2026/09/UMD-1019/hero-v1.jpg",
+      "bytes": 738408,
+      "sha256": "d366a72cc8ab3e38d61e6e9cd9674f8e91c23bcdb024032434fe659b43e3d36f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/UMD-1019/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/UMD-1019/scene-vertical-v1.jpg",
+      "bytes": 744294,
+      "sha256": "02b40d71f14da17ff9e93afedb35cc35fcb46e425d1813f7e714af97ee756138",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2337572,
+    "sha256": "701dc62258823521ff51b9854f0b57aa42e43693bce5f76001a0ec39f56224cd",
+    "target_r2_key": "works/2026/09/UMD-1019/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/UMD-1019/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "movie_id": "UMD-1019",
+  "generated_at": "2026-09-14T20:59:19.794Z",
+  "source_snapshot_hash": "sha256:b9b8d51a23839059b731b38cc8a433d75f3b30e1a99d620326b92cc1d339ae62",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "由衣陽菜的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "由衣陽菜",
+      "糸井瑠花",
+      "葉月真由",
+      "素股プレイでハプニング！！妹とセックスの練習中に間違ってヌル"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "CEMD-889",
+      "relation_type": "same_performer",
+      "reason": "同樣由糸井瑠花出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "糸井瑠花"
+      ],
+      "contrast_signals": [
+        "44",
+        "恥辱、凌辱、戴上跳蛋・繁華街約會！"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？由衣陽菜的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+    "有哪些觀看取捨？只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+  ]
+}

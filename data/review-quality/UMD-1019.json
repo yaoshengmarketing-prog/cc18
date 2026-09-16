@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "UMD-1019",
+  "review_sha256": "2c331bd125902b2c60122c63f1b8ff3a60b8e0c6b36a0bb5328532ac28363ed9",
+  "selected_thesis": "由衣陽菜的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "由衣陽菜、糸井瑠花、葉月真由",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "由衣陽菜",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "素股play發生意外",
+        "source_field": "title"
+      },
+      {
+        "type": "performer",
+        "value": "糸井瑠花",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "葉月真由",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "由衣陽菜",
+    "presentation_feature": "素股play發生意外",
+    "editorial_judgment": "由衣陽菜的企劃呈現與觀看取向",
+    "source_keywords": [
+      "由衣陽菜",
+      "素股play發生意外",
+      "糸井瑠花",
+      "葉月真由"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：由衣陽菜",
+      "supports": "這項可追溯來源訊號支持文章以「由衣陽菜」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：糸井瑠花",
+      "supports": "這項可追溯來源訊號支持文章以「糸井瑠花」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：葉月真由",
+      "supports": "這項可追溯來源訊號支持文章以「葉月真由」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：素股プレイでハプニング！！妹とセックスの練習中に間違ってヌル",
+      "supports": "這項可追溯來源訊號支持文章以「素股プレイでハプニング！！妹とセックスの練習中に間違ってヌル」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：素股play發生意外",
+      "supports": "這項可追溯來源訊號支持文章以「素股play發生意外」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：騎乘位",
+      "supports": "這項可追溯來源訊號支持文章以「騎乘位」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-13T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

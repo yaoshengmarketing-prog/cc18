@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:9e7a46e4a7e049e4ac95d75d17bdd2b83b00999b265876a338179206eeb91757",
-  "source_generated_at": "2026-09-16T07:52:35.641Z",
+  "source_revision": "sha256:85c33d0133d287abf63978fa3b5c79edfbec78156d7d7d605a48b24e40db168f",
+  "source_generated_at": "2026-09-16T07:55:45.471Z",
   "counts": {
-    "movies": 122,
-    "performers": 118,
+    "movies": 123,
+    "performers": 120,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -381,6 +381,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:37276",
+      "display_name": "由衣陽菜",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "由衣陽菜",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:UMD-1019"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:54543",
       "display_name": "白川美玲",
       "display_name_zh_tw": null,
@@ -487,7 +498,8 @@
       "source_name": "糸井瑠花",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:CEMD-889"
+        "cc18:CEMD-889",
+        "cc18:UMD-1019"
       ]
     },
     {
@@ -1189,6 +1201,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PRED-890"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:43518",
+      "display_name": "葉月真由",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "葉月真由",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:UMD-1019"
       ]
     },
     {
@@ -3418,6 +3441,55 @@
         "article_title": "REBD-1065 絵恋空｜Sora3 印象寫真：以系列企劃與狀態變化作為看點",
         "display_short_title": null,
         "slug": "rebd-1065"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:UMD-1019",
+        "source_cover": "https://cc18.tv/preview/80/b/kWGNHOGjN8b-800.jpg?v=1788957536",
+        "title": "UMD-1019 由衣陽菜、糸井瑠花、葉月真由｜素股play發生意外：系列公式下的企劃型看點",
+        "catalog_code": "UMD-1019",
+        "release_date": "2026-09-09",
+        "performers": [
+          "由衣陽菜",
+          "糸井瑠花",
+          "葉月真由"
+        ],
+        "canonical_topics": [
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "fingering",
+            "label": "指交"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/umd-1019/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:37276",
+        "cc18.tv:actor:41229",
+        "cc18.tv:actor:43518"
+      ],
+      "search": {
+        "source_title": "素股play發生意外！！與妹妹練習做愛時不小心滑進去插入！！ 13",
+        "article_title": "UMD-1019 由衣陽菜、糸井瑠花、葉月真由｜素股play發生意外：系列公式下的企劃型看點",
+        "display_short_title": null,
+        "slug": "umd-1019"
       }
     },
     {

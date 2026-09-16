@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T07:52:35.641Z",
+  "generated_at": "2026-09-16T07:55:45.471Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 126,
-  "formal_movie_count": 125,
+  "tracked_input_count": 127,
+  "formal_movie_count": 126,
   "demo_count": 1,
-  "published_count": 122,
+  "published_count": 123,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1133,6 +1133,15 @@
       "is_demo": false,
       "is_published": false,
       "content_hash": "0a23679c8bb641853b11b96b36f7ec3ae4fcbb6162f1f0733cbc62a0cd0b57af"
+    },
+    {
+      "stable_movie_id": "cc18:UMD-1019",
+      "catalog_code": "UMD-1019",
+      "slug": "umd-1019",
+      "master_path": "data/movie-master/umd-1019.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "382b60d7cdf36a16194ca93df6c8c23094c6f638c5346c4f0f73df28e38fdb3a"
     },
     {
       "stable_movie_id": "cc18:YAKO-099",
