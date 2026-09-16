@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "TIKB-226",
+  "checked_at": "2026-09-16T06:33:02.724Z",
+  "review_sha256": "a7899fa0fb2f3d806dcf6388e15da21e7bef8c1f10c22cf1636aea169a650563",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只從目前可追溯的公開資訊來看，這部作品最明確的賣點就是「性慾大爆發的肉棒中毒者」這個企劃核心。它不是走複雜人物關係或具體情節轉折的路線，而是用一個高度濃縮、方向很清楚的角色定位來吸引觀眾：把慾望強度直接放到作品正中央。再加上來源同時給出「癡女」與「美少女」兩個身份標籤，代表它"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "本作最值得注意的，是來源訊號之間形成的反差結構。一邊是「美少女」「迷你身材」「可愛臉蛋」這種偏向輕盈、可愛、易親近的包裝；另一邊則是「性慾大爆發的肉棒中毒者」與「癡女」這種慾望強度很高的企劃概念。這種反差並不是來自已被驗證的表演細節，而是來自公開設定本身的組合方式。也因為如此，選"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

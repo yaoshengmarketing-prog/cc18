@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T06:30:44.782Z",
+  "generated_at": "2026-09-16T06:33:06.545Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 90,
-  "formal_movie_count": 89,
+  "tracked_input_count": 91,
+  "formal_movie_count": 90,
   "demo_count": 1,
-  "published_count": 86,
+  "published_count": 87,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -800,6 +800,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "86127aa77191625a3f951bcdbe667b87a6a69efc023391832eeb4458750d7915"
+    },
+    {
+      "stable_movie_id": "cc18:TIKB-226",
+      "catalog_code": "TIKB-226",
+      "slug": "tikb-226",
+      "master_path": "data/movie-master/tikb-226.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "a3298bd579e3251784064b936a452c7dc5c1b5ab9c8a3a96128e29741b2ea132"
     },
     {
       "stable_movie_id": "cc18:TPNS-037",

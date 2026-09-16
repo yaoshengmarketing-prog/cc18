@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "TIKB-226",
+  "calls": [
+    {
+      "generated_at": "2026-09-16T00:27:39.360Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2602,
+      "cached_input_tokens": 0,
+      "output_tokens": 1387,
+      "total_tokens": 3989,
+      "estimated_cost_usd": 0.044217,
+      "estimated_payg_cash_cost_usd": 0.046428,
+      "direct_openai_reference_usd": 0.02731,
+      "gateway_premium_usd": 0.016907,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2602,
+    "cached_input_tokens": 0,
+    "output_tokens": 1387,
+    "estimated_cost_usd": 0.044217,
+    "estimated_payg_cash_cost_usd": 0.046428,
+    "direct_openai_reference_usd": 0.02731,
+    "gateway_premium_usd": 0.016907
+  }
+}
