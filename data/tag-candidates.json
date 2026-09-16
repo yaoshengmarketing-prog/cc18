@@ -443,7 +443,7 @@
     },
     {
       "label": "制服",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "SNOS-409",
         "SNOS-369",
@@ -452,7 +452,8 @@
         "DSOD-031",
         "MIMK-291",
         "MUDR-406",
-        "MUKD-585"
+        "MUKD-585",
+        "SQTE-716"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-16",

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T11:38:25.013Z",
+  "generated_at": "2026-09-16T11:41:12.734Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 158,
-  "formal_movie_count": 157,
+  "tracked_input_count": 159,
+  "formal_movie_count": 158,
   "demo_count": 1,
-  "published_count": 154,
+  "published_count": 155,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1286,6 +1286,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "03a2b402786934959274de1de7666793236488da0f9adfbe95695605982c3d9c"
+    },
+    {
+      "stable_movie_id": "cc18:SQTE-716",
+      "catalog_code": "SQTE-716",
+      "slug": "sqte-716",
+      "master_path": "data/movie-master/sqte-716.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "f44db2b2b43fe42b8c0bca81ffe8037566427a7be1af24a9d70064c0e146bb8b"
     },
     {
       "stable_movie_id": "cc18:SQTE-717",

@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "SQTE-716",
+  "review_sha256": "f097b3d86991fea37cb66eb9128fc96314943d8db175108ffd250fa42edad65f",
+  "selected_thesis": "花守夏步的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "花守夏步",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "花守夏步",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "放課後はお泊りSEX",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "花守夏步",
+    "presentation_feature": "放課後はお泊りSEX",
+    "editorial_judgment": "花守夏步的企劃呈現與觀看取向",
+    "source_keywords": [
+      "花守夏步",
+      "放課後はお泊りSEX",
+      "美少女設定"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：花守夏步",
+      "supports": "這項可追溯來源訊號支持文章以「花守夏步」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：放課後はお泊りSEX",
+      "supports": "這項可追溯來源訊號支持文章以「放課後はお泊りSEX」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：美少女設定",
+      "supports": "這項可追溯來源訊號支持文章以「美少女設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：自拍形式",
+      "supports": "這項可追溯來源訊號支持文章以「自拍形式」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：放課後はお泊りSEX",
+      "supports": "這項可追溯來源訊號支持文章以「放課後はお泊りSEX」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-15T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}
