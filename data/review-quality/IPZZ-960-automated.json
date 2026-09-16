@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "IPZZ-960",
+  "checked_at": "2026-09-16T08:09:19.838Z",
+  "review_sha256": "98ee59d682bb2760e692c647bdb69ae3ef89f2f5bb5e9564bfc023c7dbc3794e",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只從目前可追溯的公開資訊來看，這部作品最明確的辨識點不是複雜人物關係，而是企劃核心本身：片源直接給出「就算勃起」這個概念，同時搭配角色扮演、AV女優片、巨乳等訊號。這代表它的選片吸引力，首先建立在一個可以被快速理解的題目上，再由表演包裝與外型條件去放大觀看興趣。對想找明確主題、"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "綜合公開來源，IPZZ-960 的判斷重點很清楚：它的核心不是未知關係線，而是以「就算勃起」為主軸，結合角色扮演與職場語感包裝，並由ひなの花音這位演出者承接整體吸引力。這使它更接近一部主題鮮明的展示型企劃作品。若你想找的是概念清楚、標籤辨識度高、由演員與設定共同撐起興趣的片型，這"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
