@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "SNOS-313",
+  "checked_at": "2026-09-16T08:58:41.291Z",
+  "review_sha256": "49ba2872889132b0b98fb6f5b0db1371eda7783500512b39a2d65ae11d537006",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "這支作品最明確的選片核心，是來源已直接給出的「極上自慰支援」企劃概念。若觀眾是在找有清楚主題導向、不是單靠模糊氛圍包裝的作品，這個概念本身就足以成為第一層判斷依據。再加上公開資訊中可追溯的動作標籤包含口交、顏射與アクメ・オーガズム，代表它的賣點不是劇情鋪陳，而是圍繞明確成人主題來"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
