@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.1.0",
+  "stable_movie_id": "cc18:FNS-254",
+  "slug": "fns-254",
+  "is_demo": false,
+  "source": {
+    "catalog_code": "FNS-254",
+    "source_title": "妻子的繼女長成了正值發情期的神乳少女，因此盡情修幹的性長記錄。 神喜米亞",
+    "release_date": "2026-09-06",
+    "source_url": "https://cc18.tv/player.php?uuid=sI04Qhq7Gbm&cat=19",
+    "source_site_movie_id": "sI04Qhq7Gbm",
+    "public_description": "「怎麼樣…跟爸爸說『最喜歡你的雞〇了』看看…」五年前,我與帶著孩子的離婚婦女相遇並再婚。突然間,我就有了女兒米亞。起初,為了拉近關係我很努力,但原本就反對再婚的米亞,始終無法順利縮短我們之間的距離。五年過去了,米亞成長得超乎想像地美麗,我開始無法再把她當作女兒,只能當作女人看待。就在某天,妻子因為打工地點的員工旅遊要出門,我必須和米亞兩人獨處。這是一部記錄這三天內,女兒動搖心情的紀錄片。",
+    "source_cover": "https://cc18.tv/preview/80/b/sI04Qhq7Gbm-800.jpg?v=1788871154",
+    "raw_performer_names": [
+      "神喜ミア"
+    ],
+    "performer_relations": [
+      {
+        "source_type": "actor",
+        "source_id": "53377",
+        "stable_source_id": "cc18.tv:actor:53377",
+        "source_name": "神喜ミア",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=53377",
+        "observed_at": "2026-09-09T09:46:13.975Z"
+      }
+    ],
+    "series_relations": [],
+    "tag_relations": [
+      {
+        "source_type": "tag",
+        "source_id": "479",
+        "stable_source_id": "cc18.tv:tag:479",
+        "source_name": "720p",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=479",
+        "observed_at": "2026-09-09T09:46:13.975Z"
+      }
+    ],
+    "fac_relations": [],
+    "raw_studio_name": null,
+    "raw_series_names": [],
+    "source_tags": [
+      "720p"
+    ],
+    "source_record_ref": "data/source-records/FNS-254.json",
+    "source_snapshot_ref": null,
+    "source_fetched_at": "2026-09-09T09:46:13.975Z",
+    "source_verified_at": null,
+    "source_parser_version": null
+  },
+  "display": {
+    "performers": [
+      {
+        "source_actor_id": "cc18.tv:actor:53377",
+        "name_ja": null,
+        "display_name_zh_tw": null,
+        "display_name": "神喜ミア",
+        "verification_status": "SOURCE_NAME_FALLBACK"
+      }
+    ]
+  },
+  "titles": {
+    "article_title": "FNS-254 神喜ミア｜因此盡情修幹的性長記錄：以企劃設定帶動角色變化想像",
+    "translated_title_zh_tw": null,
+    "display_short_title": null,
+    "seo_title": "FNS-254 神喜ミア影評｜因此盡情修幹的性長記錄，以企劃設定撐起選片焦點"
+  },
+  "derived": {
+    "quality_codes": [
+      "HD_720P"
+    ],
+    "duration_seconds": null,
+    "canonical_topic_tag_ids": [
+      "hd"
+    ]
+  },
+  "editorial": {
+    "one_line_summary": "本作以「因此盡情修幹的性長記錄」為主要來源線索；其餘資訊不足處暫不補寫。",
+    "article_ref": "content/reviews/FNS-254.md",
+    "article_evidence_level": "PUBLIC_METADATA",
+    "article_evidence_scope": "SOURCE_TITLE_DESCRIPTION_TAGS"
+  },
+  "media": {
+    "remotion_promo_ref": "data/media-manifests/FNS-254.json#/video"
+  },
+  "evidence": {
+    "records": []
+  },
+  "publishing": {
+    "is_published": true,
+    "published_at": "2026-09-09",
+    "canonical_url": "https://cc18.pages.dev/works/fns-254/",
+    "indexability": "INDEX",
+    "content_hash": "bfae8c94fce011747df04ea5d160ac43a9c1a183d4253a0646f34e30e4befc06"
+  },
+  "legacy": {
+    "legacy_published_at": null,
+    "legacy_published_at_semantics": null
+  }
+}

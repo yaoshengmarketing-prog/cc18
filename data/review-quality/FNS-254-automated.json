@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "FNS-254",
+  "checked_at": "2026-09-16T08:00:35.678Z",
+  "review_sha256": "a5a13703c737afe26e2808b8f94031a6ea4b6a23f8a2228a58e7a7e136355315",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "這部作品目前最明確、也最足以支撐選片判斷的焦點，就是片名提出的「因此盡情修幹的性長記錄」這個企劃核心。從來源來看，作品不是以已知的明確情節、場景資訊或角色設定取勝，而是把重心放在一段帶有變化意味的紀錄形式上。再對照公開介紹中的一句「這是一部記錄這三天內,女兒動搖心情的紀錄片」，可"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 9,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

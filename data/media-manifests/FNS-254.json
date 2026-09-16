@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "FNS-254",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T08:00:37.094Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/FNS-254/hero-v1.jpg",
+      "r2_key": "works/2026/09/FNS-254/hero-v1.jpg",
+      "bytes": 660527,
+      "sha256": "2ab5be20e7c9966d27f770835582126e909699b4a7e892984508fec0dc03a99b",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/FNS-254/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/FNS-254/scene-vertical-v1.jpg",
+      "bytes": 915720,
+      "sha256": "bd110ba81b990e7320831469360d30c0a18e3083b9ddd0c55b017fd944464699",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2873845,
+    "sha256": "ee72e8efaab2337f4fec26f9fa699a5337e4a298ade43097e9f0ec294258e493",
+    "target_r2_key": "works/2026/09/FNS-254/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/FNS-254/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

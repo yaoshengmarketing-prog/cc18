@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:b2998faa44d872f214921ef6ed6470244f3cf9e96bb58da63184961dc7686a44",
-  "source_generated_at": "2026-09-16T07:58:27.131Z",
+  "source_revision": "sha256:31520b8c5dd39fe373ef8010b55dd59dc39a4129e2c97b03698a5564b18abb8e",
+  "source_generated_at": "2026-09-16T08:00:40.962Z",
   "counts": {
-    "movies": 124,
+    "movies": 125,
     "performers": 121,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -999,7 +999,8 @@
       "source_name": "神喜ミア",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:FNS-244"
+        "cc18:FNS-244",
+        "cc18:FNS-254"
       ]
     },
     {
@@ -3556,6 +3557,35 @@
         "article_title": "UMD-1019 由衣陽菜、糸井瑠花、葉月真由｜素股play發生意外：系列公式下的企劃型看點",
         "display_short_title": null,
         "slug": "umd-1019"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:FNS-254",
+        "source_cover": "https://cc18.tv/preview/80/b/sI04Qhq7Gbm-800.jpg?v=1788871154",
+        "title": "FNS-254 神喜ミア｜因此盡情修幹的性長記錄：以企劃設定帶動角色變化想像",
+        "catalog_code": "FNS-254",
+        "release_date": "2026-09-06",
+        "performers": [
+          "神喜ミア"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/fns-254/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53377"
+      ],
+      "search": {
+        "source_title": "妻子的繼女長成了正值發情期的神乳少女，因此盡情修幹的性長記錄。 神喜米亞",
+        "article_title": "FNS-254 神喜ミア｜因此盡情修幹的性長記錄：以企劃設定帶動角色變化想像",
+        "display_short_title": null,
+        "slug": "fns-254"
       }
     },
     {
