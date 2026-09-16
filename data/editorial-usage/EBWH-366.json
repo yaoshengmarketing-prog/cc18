@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "EBWH-366",
+  "calls": [
+    {
+      "generated_at": "2026-09-14T00:23:30.001Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2574,
+      "cached_input_tokens": 0,
+      "output_tokens": 1344,
+      "total_tokens": 3918,
+      "estimated_cost_usd": 0.04311,
+      "estimated_payg_cash_cost_usd": 0.045266,
+      "direct_openai_reference_usd": 0.026595,
+      "gateway_premium_usd": 0.016515,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2574,
+    "cached_input_tokens": 0,
+    "output_tokens": 1344,
+    "estimated_cost_usd": 0.04311,
+    "estimated_payg_cash_cost_usd": 0.045266,
+    "direct_openai_reference_usd": 0.026595,
+    "gateway_premium_usd": 0.016515
+  }
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:b4d8346caa2b8d2430e16316c9409fa31caacc961bd4e7ce4b36945ccdec1f0f",
-  "source_generated_at": "2026-09-16T06:54:16.588Z",
+  "source_revision": "sha256:a8e2893e4bf99b3313f55a7ab442f19b3b2ef60587a9c894acddadc216513f89",
+  "source_generated_at": "2026-09-16T06:56:20.943Z",
   "counts": {
-    "movies": 97,
-    "performers": 99,
+    "movies": 98,
+    "performers": 100,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -490,6 +490,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-358"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54330",
+      "display_name": "東峯日奈子",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "東峯日奈子",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:EBWH-366"
       ]
     },
     {
@@ -1539,6 +1550,55 @@
         "article_title": "TIKB-226｜性慾大爆發的肉棒中毒者：以 Cosplay 美少女設定撐起的展示型企劃",
         "display_short_title": null,
         "slug": "tikb-226"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:EBWH-366",
+        "source_cover": "https://cc18.tv/preview/80/b/psoJC9eDX16-800.jpg?v=1789209619",
+        "title": "EBWH-366 東峯日奈子｜暑假回鄉下老家：以主觀密著企劃撐起想像空間",
+        "catalog_code": "EBWH-366",
+        "release_date": "2026-09-11",
+        "performers": [
+          "東峯日奈子"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ebwh-366/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54330"
+      ],
+      "search": {
+        "source_title": "暑假回鄉下老家，發現表妹日奈子一直在偷偷自慰。「要是被媽媽或親戚發現我就死定了…」為了封口而幫我自慰，溫柔地幫我射精 東峯日奈子",
+        "article_title": "EBWH-366 東峯日奈子｜暑假回鄉下老家：以主觀密著企劃撐起想像空間",
+        "display_short_title": null,
+        "slug": "ebwh-366"
       }
     },
     {
