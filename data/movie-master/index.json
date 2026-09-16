@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T07:55:45.471Z",
+  "generated_at": "2026-09-16T07:58:27.131Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 127,
-  "formal_movie_count": 126,
+  "tracked_input_count": 128,
+  "formal_movie_count": 127,
   "demo_count": 1,
-  "published_count": 123,
+  "published_count": 124,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1133,6 +1133,15 @@
       "is_demo": false,
       "is_published": false,
       "content_hash": "0a23679c8bb641853b11b96b36f7ec3ae4fcbb6162f1f0733cbc62a0cd0b57af"
+    },
+    {
+      "stable_movie_id": "cc18:UMD-1017",
+      "catalog_code": "UMD-1017",
+      "slug": "umd-1017",
+      "master_path": "data/movie-master/umd-1017.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "17c2c5c38f7799166bf47b07e72dd021f0e7e0ff3e5dd8385c52def30fe3ebd5"
     },
     {
       "stable_movie_id": "cc18:UMD-1019",

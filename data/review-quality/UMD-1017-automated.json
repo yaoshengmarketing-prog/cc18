@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "UMD-1017",
+  "checked_at": "2026-09-16T07:58:21.838Z",
+  "review_sha256": "8ac4790c6f5c98c35b67a3edfe19b74b222b2cc49180fc8f66dca8793b68c292",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資訊來看，UMD-1017 最明確的賣點就是片名提煉出的核心概念「魅惑的突起」。這不是一般可被其他熱門標籤取代的泛用題材，而是整體選片判斷的第一優先：它直接指出作品想讓觀眾注意的身體展示方向。再配合來源中的「巨乳」標籤，以及三位演出者推川悠里、小野坂唯香"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "來源標籤包含「癡女」與「人妻・主婦」，再加上「巨乳」這項身體條件標示，已經勾勒出本作的題材方向。這些元素的作用，主要不是證明具體情節，而是幫助判斷作品在市場定位上更偏向成熟身份想像與肉體魅力展示的組合。也因為目前沒有更多公開敘事資訊，這些身份標籤應被視為作品包裝與題材定位的一部分"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

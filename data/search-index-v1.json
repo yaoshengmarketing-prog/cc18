@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:85c33d0133d287abf63978fa3b5c79edfbec78156d7d7d605a48b24e40db168f",
-  "source_generated_at": "2026-09-16T07:55:45.471Z",
+  "source_revision": "sha256:b2998faa44d872f214921ef6ed6470244f3cf9e96bb58da63184961dc7686a44",
+  "source_generated_at": "2026-09-16T07:58:27.131Z",
   "counts": {
-    "movies": 123,
-    "performers": 120,
+    "movies": 124,
+    "performers": 121,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -221,7 +221,8 @@
       "source_name": "小野坂唯香",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:MRSS-192"
+        "cc18:MRSS-192",
+        "cc18:UMD-1017"
       ]
     },
     {
@@ -591,6 +592,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:BBAN-609"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:47540",
+      "display_name": "岬光莉",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "岬光莉",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:UMD-1017"
       ]
     },
     {
@@ -1021,7 +1033,8 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DVMM-444",
-        "cc18:RLMP-013"
+        "cc18:RLMP-013",
+        "cc18:UMD-1017"
       ]
     },
     {
@@ -3441,6 +3454,59 @@
         "article_title": "REBD-1065 絵恋空｜Sora3 印象寫真：以系列企劃與狀態變化作為看點",
         "display_short_title": null,
         "slug": "rebd-1065"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:UMD-1017",
+        "source_cover": "https://cc18.tv/preview/80/b/2CiHS_Dg16z-800.jpg?v=1788957537",
+        "title": "UMD-1017 推川悠里、小野坂唯香、岬光莉｜魅惑的突起：以展示型企劃為主的選片",
+        "catalog_code": "UMD-1017",
+        "release_date": "2026-09-09",
+        "performers": [
+          "推川悠里",
+          "小野坂唯香",
+          "岬光莉"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/umd-1017/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:1122",
+        "cc18.tv:actor:29888",
+        "cc18.tv:actor:47540"
+      ],
+      "search": {
+        "source_title": "魅惑的突起 隔壁的乳頭凸起人妻",
+        "article_title": "UMD-1017 推川悠里、小野坂唯香、岬光莉｜魅惑的突起：以展示型企劃為主的選片",
+        "display_short_title": null,
+        "slug": "umd-1017"
       }
     },
     {
