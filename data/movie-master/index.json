@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T08:45:58.626Z",
+  "generated_at": "2026-09-16T08:48:16.024Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 140,
-  "formal_movie_count": 139,
+  "tracked_input_count": 141,
+  "formal_movie_count": 140,
   "demo_count": 1,
-  "published_count": 136,
+  "published_count": 137,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -638,6 +638,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "704784d96f8121a83b6e7fd4539ab62fa927857f2cb87ddbe08810f630077779"
+    },
+    {
+      "stable_movie_id": "cc18:MDBK-429",
+      "catalog_code": "MDBK-429",
+      "slug": "mdbk-429",
+      "master_path": "data/movie-master/mdbk-429.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "c9aeb7745520323703d105b5b5782bcc14f0aab0291fdcc121f0f00a416ec518"
     },
     {
       "stable_movie_id": "cc18:MIAB-677",

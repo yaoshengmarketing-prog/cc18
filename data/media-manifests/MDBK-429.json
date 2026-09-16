@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "MDBK-429",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T08:48:11.493Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/MDBK-429/hero-v1.jpg",
+      "r2_key": "works/2026/09/MDBK-429/hero-v1.jpg",
+      "bytes": 590865,
+      "sha256": "e65a5183d03113cd976c84e75372aae6bd3a8bcaa83fdb8a2a52133e7d2c5250",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/MDBK-429/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/MDBK-429/scene-vertical-v1.jpg",
+      "bytes": 932052,
+      "sha256": "7cad27fd5a81664710251e5f3fe80f0db36e43f388c957b5e8cfefb8e7af0d10",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2533167,
+    "sha256": "eb8633245bcd942ff40cdbc1212f3d0172763ef1e06f3f4615b328f4eeb9ab9e",
+    "target_r2_key": "works/2026/09/MDBK-429/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/MDBK-429/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

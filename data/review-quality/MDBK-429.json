@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "MDBK-429",
+  "review_sha256": "5f9fd4066662a0fca36966b8c1f4f8d8a19908b5862632f8ede567148b35bfd5",
+  "selected_thesis": "天馬唯的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "天馬唯、南日菜乃、桜ゆの",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "天馬唯",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "おしゃぶりペット",
+        "source_field": "series"
+      },
+      {
+        "type": "theme",
+        "value": "角色扮演",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "天馬唯",
+    "presentation_feature": "おしゃぶりペット",
+    "editorial_judgment": "天馬唯的企劃呈現與觀看取向",
+    "source_keywords": [
+      "天馬唯",
+      "おしゃぶりペット",
+      "角色扮演"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：天馬唯",
+      "supports": "這項可追溯來源訊號支持文章以「天馬唯」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：南日菜乃",
+      "supports": "這項可追溯來源訊號支持文章以「南日菜乃」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：桜ゆの",
+      "supports": "這項可追溯來源訊號支持文章以「桜ゆの」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：おしゃぶりペット",
+      "supports": "這項可追溯來源訊號支持文章以「おしゃぶりペット」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：美少女設定",
+      "supports": "這項可追溯來源訊號支持文章以「美少女設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：角色扮演",
+      "supports": "這項可追溯來源訊號支持文章以「角色扮演」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-08T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

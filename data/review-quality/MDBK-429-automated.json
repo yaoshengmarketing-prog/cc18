@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "MDBK-429",
+  "checked_at": "2026-09-16T08:48:09.643Z",
+  "review_sha256": "5f9fd4066662a0fca36966b8c1f4f8d8a19908b5862632f8ede567148b35bfd5",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果先從可確認的公開資訊來看，這部作品最明確的辨識點，就是系列名與核心概念都集中在「おしゃぶりペット」這個企劃設定上。對選片來說，這代表它的吸引力首先不是來自已知劇情，而是來自一個被系列名稱直接框定的角色扮演主題。再加上來源中的題名線索出現「只要一回家」，會讓這個企劃多一層偏向日"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "從可追溯來源來看，作品的主題元素主要落在「美少女」、「角色扮演」，以及動作面上的「口交」「中出」。其中真正影響選片判斷的核心，仍然是「おしゃぶりペット」加上角色扮演這條主線；後兩者比較像是內容層級的公開標示，而不是能單獨定義作品氣質的設定。換句話說，這部片的辨識度不是靠大量題材堆"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

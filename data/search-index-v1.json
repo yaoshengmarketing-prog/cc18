@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:05be1e42bcb7025fe4afa783ae17ba48b640ee45447313068b4c7c79189c92cd",
-  "source_generated_at": "2026-09-16T08:45:58.626Z",
+  "source_revision": "sha256:dc0ab5e792313592a515e8b168c12d23cacccae36a4789d3fcd617c8a3108e14",
+  "source_generated_at": "2026-09-16T08:48:16.024Z",
   "counts": {
-    "movies": 136,
-    "performers": 167,
+    "movies": 137,
+    "performers": 168,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -343,6 +343,7 @@
       "source_name": "天馬唯",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:MDBK-429",
         "cc18:MKMP-758"
       ]
     },
@@ -926,6 +927,7 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DOKS-689",
+        "cc18:MDBK-429",
         "cc18:MUDR-406"
       ]
     },
@@ -1311,6 +1313,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DLDSS-551"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:44598",
+      "display_name": "桜ゆの",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "桜ゆの",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MDBK-429"
       ]
     },
     {
@@ -4462,6 +4475,59 @@
         "article_title": "GVH-878 羽月乃蒼 × 學生設定｜羽月乃蒼",
         "display_short_title": null,
         "slug": "gvh-878"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MDBK-429",
+        "source_cover": "https://cc18.tv/preview/80/b/iBdwUWHXMat-800.jpg?v=1788813462",
+        "title": "MDBK-429 天馬唯、南日菜乃、桜ゆの｜おしゃぶりペット的角色扮演企劃感",
+        "catalog_code": "MDBK-429",
+        "release_date": "2026-09-05",
+        "performers": [
+          "天馬唯",
+          "南日菜乃",
+          "桜ゆの"
+        ],
+        "canonical_topics": [
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "cosplay",
+            "label": "角色扮演"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mdbk-429/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:26384",
+        "cc18.tv:actor:39862",
+        "cc18.tv:actor:44598"
+      ],
+      "search": {
+        "source_title": "只要一回家，就會用讓雞巴沾滿口水的口交來迎接我的，完全被馴服的舔棒寵物（MDBK-429）",
+        "article_title": "MDBK-429 天馬唯、南日菜乃、桜ゆの｜おしゃぶりペット的角色扮演企劃感",
+        "display_short_title": null,
+        "slug": "mdbk-429"
       }
     },
     {
