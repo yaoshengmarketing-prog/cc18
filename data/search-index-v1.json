@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:3e3138c0196c1c26e92857500c44dc99943051156375952bfc4d11890b46c0c0",
-  "source_generated_at": "2026-09-16T07:22:08.480Z",
+  "source_revision": "sha256:b51691fd952d1238df1e911492da7d5e55f3e29699c4616112a5646cf0839b0c",
+  "source_generated_at": "2026-09-16T07:24:17.720Z",
   "counts": {
-    "movies": 109,
-    "performers": 107,
+    "movies": 110,
+    "performers": 108,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -79,6 +79,17 @@
       "related_movie_ids": [
         "cc18:BBTU-119",
         "cc18:RLMP-013"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:29348",
+      "display_name": "十川亞里沙",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "十川亞里沙",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:ACZD-250"
       ]
     },
     {
@@ -1630,6 +1641,43 @@
         "article_title": "TIKB-226｜性慾大爆發的肉棒中毒者：以 Cosplay 美少女設定撐起的展示型企劃",
         "display_short_title": null,
         "slug": "tikb-226"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:ACZD-250",
+        "source_cover": "https://cc18.tv/preview/80/b/CNaVi1M38d8-800.jpg?v=1789389622",
+        "title": "ACZD-250 十川亞里沙｜マニア倶楽部プレミアム企劃下的羞恥緊縛選片觀點",
+        "catalog_code": "ACZD-250",
+        "release_date": "2026-09-11",
+        "performers": [
+          "十川亞里沙"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/aczd-250/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:29348"
+      ],
+      "search": {
+        "source_title": "繩之淫花 十川亞里沙",
+        "article_title": "ACZD-250 十川亞里沙｜マニア倶楽部プレミアム企劃下的羞恥緊縛選片觀點",
+        "display_short_title": null,
+        "slug": "aczd-250"
       }
     },
     {

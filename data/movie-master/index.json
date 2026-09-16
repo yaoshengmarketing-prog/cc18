@@ -1,14 +1,23 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T07:22:08.480Z",
+  "generated_at": "2026-09-16T07:24:17.720Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 113,
-  "formal_movie_count": 112,
+  "tracked_input_count": 114,
+  "formal_movie_count": 113,
   "demo_count": 1,
-  "published_count": 109,
+  "published_count": 110,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
+    {
+      "stable_movie_id": "cc18:ACZD-250",
+      "catalog_code": "ACZD-250",
+      "slug": "aczd-250",
+      "master_path": "data/movie-master/aczd-250.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "d58a99c527bcd87b4e308c666224a8df8fcc33f1b18a323a275f18a3a96872a6"
+    },
     {
       "stable_movie_id": "cc18:ALOG-032",
       "catalog_code": "ALOG-032",

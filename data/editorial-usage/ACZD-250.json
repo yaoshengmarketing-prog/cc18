@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "ACZD-250",
+  "calls": [
+    {
+      "generated_at": "2026-09-15T19:11:16.739Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2608,
+      "cached_input_tokens": 0,
+      "output_tokens": 1297,
+      "total_tokens": 3905,
+      "estimated_cost_usd": 0.042223,
+      "estimated_payg_cash_cost_usd": 0.044334,
+      "direct_openai_reference_usd": 0.025975,
+      "gateway_premium_usd": 0.016248,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2608,
+    "cached_input_tokens": 0,
+    "output_tokens": 1297,
+    "estimated_cost_usd": 0.042223,
+    "estimated_payg_cash_cost_usd": 0.044334,
+    "direct_openai_reference_usd": 0.025975,
+    "gateway_premium_usd": 0.016248
+  }
+}

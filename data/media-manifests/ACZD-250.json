@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "ACZD-250",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T07:24:14.409Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/ACZD-250/hero-v1.jpg",
+      "r2_key": "works/2026/09/ACZD-250/hero-v1.jpg",
+      "bytes": 1666714,
+      "sha256": "929620867a958a7fe3f06a2d2f84d93843add3ac742b9be2ecccef5fe9b64d79",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/ACZD-250/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/ACZD-250/scene-vertical-v1.jpg",
+      "bytes": 863516,
+      "sha256": "b1ae74ce323960fdb2bbebf64c6e86ac11fecf5b62c2f4c02d4e2d1c4a228911",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3158928,
+    "sha256": "470990f65e86c05e7d53701fc62fea14fe141718fed656633a6c9bfb37ab39e3",
+    "target_r2_key": "works/2026/09/ACZD-250/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/ACZD-250/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
