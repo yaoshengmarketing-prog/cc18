@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "DVMM-445",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T17:13:25.864Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/DVMM-445/hero-v1.jpg",
+      "r2_key": "works/2026/09/DVMM-445/hero-v1.jpg",
+      "bytes": 653465,
+      "sha256": "bb52a36c56f4f92cddfa0ab978f440d4f5a04d034ca0cc74ce4931b3b8b360ce",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "bf046622-f43a-4131-9f03-e8df47a5305b",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/DVMM-445/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/DVMM-445/scene-vertical-v1.jpg",
+      "bytes": 599336,
+      "sha256": "bee373c797448c020ab2495ffbf2b8627e6f44288ff0eb43e2082f95a5f520bd",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "355cb073-a167-4360-8e05-43b33a791eae",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2089635,
+    "sha256": "ea1932e44e9339636f02ef7f72fe6eca6978ac9d9294e23d8c1313459085f2c1",
+    "target_r2_key": "works/2026/09/DVMM-445/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/DVMM-445/vertical-v1.mp4"
+  }
+}

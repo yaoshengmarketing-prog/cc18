@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "id": "DVMM-445",
+  "checked_at": "2026-09-16T17:12:27.391Z",
+  "review_sha256": "bc710d70ae57c1309fa5c9d26c9005303f06495effb6b7ca567e1c9c54b40c78",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只從目前可追溯的公開資料來看，這部作品最明確的選片切入點，是它把企劃核心直接放在「所以我內射到她滿足為止」這個概念上。這不是需要觀眾再自行推理的隱性主題，而是已經寫進來源資訊裡的核心賣點。對想找明確主題、進場前就知道作品主軸的人來說，這種片型的辨識度很高：它不是以複雜人物關係"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "目前已知演出者為天馬唯，這使作品至少具備清楚的觀看入口：觀眾可以因演出者本身而進場，再確認她是否適合這種以明確主題包裝的企劃型作品。由於沒有更多可驗證的劇情、人物互動或場景資料，較穩妥的判斷方式，不是延伸去談未被證實的表演細節，而是回到作品如何把演出者放進系列與題材框架中。換句話"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "系列名稱「色白デカ尻の家事代行おばさんに即ハメ！」已經提供了非常清楚的商品定位：它明顯偏向可快速辨識題材與角色類型的系列包裝。再加上 topic elements 中可追溯到的身分標籤「人妻・主婦」，可以看出這部作品的選片邏輯，並不是要觀眾等待大量未知情節揭露，而是先用成熟身分想"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 2
+  }
+}
