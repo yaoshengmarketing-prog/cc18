@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "id": "NNOD-002",
+  "checked_at": "2026-09-16T08:19:37.422Z",
+  "review_sha256": "d132215f04c827c9fbd4efed51576dc81e7eca46fe0be301fe3cbf770c06abeb",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "body_lacks_source_adult_vocabulary",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 8,
+          "excerpt": "可追溯的張力來源，主要是「女上司」與「想離職的部下」之間天然存在的上下位關係，再加上「別說要辭職了」這句核心命題，讓整個企劃帶有明顯的挽留與施壓色彩。來源也出現「痴女上司的個別逆強姦勸誘」這種強烈描述，進一步把主導權偏向女方。就選片角度來說，這代表它的賣點不是單純職場背景，而是權"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

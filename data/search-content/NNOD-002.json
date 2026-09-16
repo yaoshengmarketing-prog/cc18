@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "movie_id": "NNOD-002",
+  "generated_at": "2026-09-11T10:37:01.974Z",
+  "source_snapshot_hash": "sha256:f0822149c64361cc3ac8bcfcacee5d83accc5cbd71f6efedfdf54de40f4c5088",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "以「挽留想離職的部下」為核心賣點的角色企劃，主打女上司與部下之間帶有壓迫感的勸誘關係，選片重點不在複雜背景，而在一句命題就能成立的情境張力。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "波多野結衣",
+      "高畫質",
+      "獨家配信",
+      "別說要辭職了"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？以「挽留想離職的部下」為核心賣點的角色企劃，主打女上司與部下之間帶有壓迫感的勸誘關係，選片重點不在複雜背景，而在一句命題就能成立的情境張力。",
+    "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+    "有哪些觀看取捨？只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+  ]
+}
