@@ -1,0 +1,70 @@
+{
+  "schema_version": 2,
+  "id": "MIDA-783",
+  "checked_at": "2026-09-16T08:41:02.300Z",
+  "review_sha256": "f92da4938e7d7c0ea9033d18cde4e0cbbf2f8a7421c6e98803f3b2041b600980",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "overused_generic_editorial_arc",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "這部作品目前最清楚、也最適合拿來作為選片依據的核心，是「篠真有」這位演出者本身，加上公開簡介裡明確出現的「不斷被中出」與「漸漸無法拒絕學生的要求」這條企劃主線。從可追溯資料來看，它不是以複雜世界觀或多線角色關係見長，而是把焦點集中在單一人物如何被放進一個持續施壓的情境裡。對想看以"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "這個判斷直接來自公開簡介的措辭。介紹不是只停在「被包圍」或「被拍攝」這類靜態條件，而是進一步寫到真有「漸漸無法拒絕學生的要求」。這表示作品至少在企劃描述層面，刻意把人物從原本可能仍有界線的狀態，推向一個接受度逐步改變的位置。即使在沒有更多已驗證影像資訊的情況下，我們仍可合理判斷，"
+        }
+      ]
+    },
+    {
+      "code": "overused_generic_editorial_arc",
+      "scope": "PASS_WITH_NOTES",
+      "phrases": [
+        {
+          "phrase": "主導權轉移",
+          "count": 2
+        }
+      ],
+      "locations": [
+        {
+          "paragraph": 6,
+          "excerpt": "如果你的選片偏好是明確題材導向，像是會先看演出者、再看關鍵行為標籤是否鮮明，那本作的資訊相對集中：演出者為篠真有，題材上有 AV 女優片、巨乳，以及中出、顏射等明確來源標籤。不過真正讓它和一般單純標籤堆疊拉開差異的，還是公開簡介裡那個「逐漸無法拒絕」的設計。也因此，它更適合對角色"
+        },
+        {
+          "paragraph": 7,
+          "excerpt": "## 為什麼會判斷它帶有主導權轉移與角色變化的看點？"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
