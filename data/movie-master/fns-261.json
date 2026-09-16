@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.1.0",
+  "stable_movie_id": "cc18:FNS-261",
+  "slug": "fns-261",
+  "is_demo": false,
+  "source": {
+    "catalog_code": "FNS-261",
+    "source_title": "既然在網路上被炎上了，那被幹也可以吧？ 八蜜凜",
+    "release_date": "2026-09-11",
+    "source_url": "https://cc18.tv/player.php?uuid=a9o2CR8XY8J&cat=19",
+    "source_site_movie_id": "a9o2CR8XY8J",
+    "public_description": "一名在社群媒體上發布天真無知、引起公憤而遭到炎上的女性網紅，雖然不知道她是靠什麼賺錢的，但看起來很有錢。而一名在公寓管理公司打清潔工的男人，人生中唯一的樂趣就是追蹤網路上的炎上事件。這兩個人生截然不同的男女，竟然偶然產生了交集。男人在自己工作的公寓裡，發現了那個正處於炎上風暴中心的女人。男人偷偷拍攝了走出家門的女人，並在社群媒體上發文「炎上女的住處曝光！」，結果引起瘋傳。滿足了承認欲的男人，揮舞著錯誤的正義感，決定採取凶行。他趁女人不在家時潛入其住處，屏息等待時機。在女人回家的瞬間，制裁性愛開始了。面對這個被她瞧不起的男人的強姦，女人只能屈服。那張吸引了眾多追隨者的美麗臉龐、巨乳與肢體，在這一夜被玷污直到墮落。",
+    "source_cover": "https://cc18.tv/preview/80/b/a9o2CR8XY8J-800.jpg?v=1789367989",
+    "raw_performer_names": [
+      "八蜜凛"
+    ],
+    "performer_relations": [
+      {
+        "source_type": "actor",
+        "source_id": "27657",
+        "stable_source_id": "cc18.tv:actor:27657",
+        "source_name": "八蜜凛",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=27657",
+        "observed_at": "2026-09-15T19:01:09.956Z"
+      }
+    ],
+    "series_relations": [],
+    "tag_relations": [
+      {
+        "source_type": "tag",
+        "source_id": "479",
+        "stable_source_id": "cc18.tv:tag:479",
+        "source_name": "720p",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=479",
+        "observed_at": "2026-09-15T19:01:09.956Z"
+      }
+    ],
+    "fac_relations": [],
+    "raw_studio_name": null,
+    "raw_series_names": [],
+    "source_tags": [
+      "720p"
+    ],
+    "source_record_ref": "data/source-records/FNS-261.json",
+    "source_snapshot_ref": null,
+    "source_fetched_at": "2026-09-15T19:01:09.956Z",
+    "source_verified_at": null,
+    "source_parser_version": null
+  },
+  "display": {
+    "performers": [
+      {
+        "source_actor_id": "cc18.tv:actor:27657",
+        "name_ja": null,
+        "display_name_zh_tw": null,
+        "display_name": "八蜜凛",
+        "verification_status": "SOURCE_NAME_FALLBACK"
+      }
+    ]
+  },
+  "titles": {
+    "article_title": "FNS-261 八蜜凛｜既然在網路上被炎上了：以炎上題材撐起選片辨識度",
+    "translated_title_zh_tw": null,
+    "display_short_title": null,
+    "seo_title": "FNS-261 八蜜凛影評｜既然在網路上被炎上了，以炎上企劃設定製造話題辨識度"
+  },
+  "derived": {
+    "quality_codes": [
+      "HD_720P"
+    ],
+    "duration_seconds": null,
+    "canonical_topic_tag_ids": [
+      "hd"
+    ]
+  },
+  "editorial": {
+    "one_line_summary": "本作以「既然在網路上被炎上了」為主要來源線索；其餘資訊不足處暫不補寫。",
+    "article_ref": "content/reviews/FNS-261.md",
+    "article_evidence_level": "PUBLIC_METADATA",
+    "article_evidence_scope": "SOURCE_TITLE_DESCRIPTION_TAGS"
+  },
+  "media": {
+    "remotion_promo_ref": "data/media-manifests/FNS-261.json#/video"
+  },
+  "evidence": {
+    "records": []
+  },
+  "publishing": {
+    "is_published": true,
+    "published_at": "2026-09-15",
+    "canonical_url": "https://cc18.pages.dev/works/fns-261/",
+    "indexability": "INDEX",
+    "content_hash": "8e48ceeb9ae1ddaba849197053a7c784e3c519595acb9539b4104590da0c857e"
+  },
+  "legacy": {
+    "legacy_published_at": null,
+    "legacy_published_at_semantics": null
+  }
+}

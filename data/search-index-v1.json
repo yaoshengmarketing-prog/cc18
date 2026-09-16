@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:b51691fd952d1238df1e911492da7d5e55f3e29699c4616112a5646cf0839b0c",
-  "source_generated_at": "2026-09-16T07:24:17.720Z",
+  "source_revision": "sha256:0305ae89068d5447b915747f32a3ea7cdefb44cbee0cfe1029b6fe69ac9a49b8",
+  "source_generated_at": "2026-09-16T07:26:36.245Z",
   "counts": {
-    "movies": 110,
-    "performers": 108,
+    "movies": 111,
+    "performers": 109,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -79,6 +79,17 @@
       "related_movie_ids": [
         "cc18:BBTU-119",
         "cc18:RLMP-013"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:27657",
+      "display_name": "八蜜凛",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "八蜜凛",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FNS-261"
       ]
     },
     {
@@ -1874,6 +1885,35 @@
         "article_title": "EYAN-221 夏花まろん｜不要碰我",
         "display_short_title": null,
         "slug": "eyan-221"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:FNS-261",
+        "source_cover": "https://cc18.tv/preview/80/b/a9o2CR8XY8J-800.jpg?v=1789367989",
+        "title": "FNS-261 八蜜凛｜既然在網路上被炎上了：以炎上題材撐起選片辨識度",
+        "catalog_code": "FNS-261",
+        "release_date": "2026-09-11",
+        "performers": [
+          "八蜜凛"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/fns-261/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27657"
+      ],
+      "search": {
+        "source_title": "既然在網路上被炎上了，那被幹也可以吧？ 八蜜凜",
+        "article_title": "FNS-261 八蜜凛｜既然在網路上被炎上了：以炎上題材撐起選片辨識度",
+        "display_short_title": null,
+        "slug": "fns-261"
       }
     },
     {

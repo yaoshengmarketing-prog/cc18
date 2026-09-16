@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "id": "FNS-261",
+  "checked_at": "2026-09-16T07:26:31.485Z",
+  "review_sha256": "578fc02352b109fcd43bdbe998fafa1b874b9ac7775e0a889e678b26b3182427",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資料，FNS-261 最明確的賣點不是已知情節細節，而是它把「既然在網路上被炎上了」直接做成作品的核心概念。這種命名方式本身就很有辨識度，因為它不是單靠常見題材詞彙吸引注意，而是先把網路炎上、輿論放大與私人生活被拖進公共視線的企劃感拋到前面。對選片來說，這"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "目前能確定的演出者資訊是八蜜凛。由於沒有更多公開人物介紹、角色名稱或關係設定，不能進一步把她的角色功能說得過滿；但從片名與公開摘錄來看，這部片的識別方式明顯是「演出者 + 炎上概念」的組合。換句話說，八蜜凛在這裡的吸引力，很可能不是建立在已知系列公式或複雜人物群像，而是由她與這個"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "這部片目前最適合推薦給重視「設定鉤子」的觀眾，也就是會先看企劃概念是否夠鮮明，再決定要不要點開的人。公開資料裡最突出的不是場景規模、人物關係層次或系列延續，而是炎上題材本身帶出的現代性與衝突感。另外，source 中也出現「那被幹也可以吧」這一段標題來源概念，顯示整體包裝走的是爭"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
