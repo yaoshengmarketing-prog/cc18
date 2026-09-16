@@ -408,12 +408,13 @@
     },
     {
       "label": "子宮頸",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "CMJU-008"
+        "CMJU-008",
+        "MIDA-785"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-09-17",
       "status": "quarantined"
     },
     {
@@ -603,7 +604,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 11,
+      "occurrences": 12,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -615,10 +616,11 @@
         "DDK-241",
         "MIMK-291",
         "MIKR-123",
-        "SNOS-339"
+        "SNOS-339",
+        "MIDA-785"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-15",
+      "last_seen": "2026-09-17",
       "status": "quarantined"
     },
     {
@@ -1590,12 +1592,13 @@
     },
     {
       "label": "4P",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
         "DVMM-443",
-        "SKMJ-788"
+        "SKMJ-788",
+        "MIDA-785"
       ],
       "first_seen": "2026-09-14",
       "last_seen": "2026-09-17",

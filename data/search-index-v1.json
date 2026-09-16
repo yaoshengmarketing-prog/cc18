@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:93b674237855bef8b815eac619472ff3f41486dc6f7ab913ca3b8739b52cbc12",
-  "source_generated_at": "2026-09-16T17:14:12.668Z",
+  "source_revision": "sha256:f29bd0bb7e7e3b7161a5208a17daf24bf76c1491267442b138ee322c1d03a152",
+  "source_generated_at": "2026-09-16T17:19:09.840Z",
   "counts": {
-    "movies": 159,
-    "performers": 183,
+    "movies": 160,
+    "performers": 184,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -594,6 +594,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DLDSS-549"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:25119",
+      "display_name": "石原希望",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "石原希望",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MIDA-785"
       ]
     },
     {
@@ -3412,6 +3423,59 @@
         "article_title": "MIDA-783 篠真有｜以中出設定推動主導權轉移的企劃型作品",
         "display_short_title": null,
         "slug": "mida-783"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MIDA-785",
+        "source_cover": "https://cc18.tv/preview/80/b/9OeULWOwbF-800.jpg?v=1789202429",
+        "title": "MIDA-785 石原希望｜美白胴體狂暴高潮超快感",
+        "catalog_code": "MIDA-785",
+        "release_date": "2026-09-11",
+        "performers": [
+          "石原希望"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mida-785/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:25119"
+      ],
+      "search": {
+        "source_title": "美白胴體狂暴高潮超快感 子宮頸口G點開發潮吹絕頂 石原希望",
+        "article_title": "MIDA-785 石原希望｜美白胴體狂暴高潮超快感",
+        "display_short_title": null,
+        "slug": "mida-785"
       }
     },
     {
