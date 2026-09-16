@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "MIDA-788",
+  "checked_at": "2026-09-16T07:10:22.089Z",
+  "review_sha256": "3298b97b3f650a6066d0c1e832232f6f0534a8dcdb83589f5ced1be83b25925d",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "這部片的吸引力首先來自演出者指向非常集中。公開來源把「戀川小桃」直接作為核心概念，同時演員欄也明確標示為恋川こもも，代表選片判斷幾乎可以直接建立在演出者本人的辨識度上。其次，主題標籤集中在「巨乳」與「淫亂・過激系」，這使作品的訴求相對直接：它不是以關係設定、服裝扮演或特殊場景作為"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

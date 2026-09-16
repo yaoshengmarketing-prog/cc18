@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:34f6c27227d1bd48755c72e37effec4d3bef88c923dbc9d273f6b08e130d23d7",
-  "source_generated_at": "2026-09-16T07:08:01.213Z",
+  "source_revision": "sha256:b47f1e97338910327a8f878e8e754965f48945ca19b11c0195b83ec7973c5201",
+  "source_generated_at": "2026-09-16T07:10:26.660Z",
   "counts": {
-    "movies": 103,
-    "performers": 102,
+    "movies": 104,
+    "performers": 103,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -821,6 +821,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DLDSS-528"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53643",
+      "display_name": "恋川こもも",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "恋川こもも",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MIDA-788"
       ]
     },
     {
@@ -1929,6 +1940,51 @@
         "article_title": "MIDA-786 泉ももか｜那個夏日的過錯：以企劃命名帶出想像空間",
         "display_short_title": null,
         "slug": "mida-786"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MIDA-788",
+        "source_cover": "https://cc18.tv/preview/80/b/3zn26nZF786-800.jpg?v=1789116076",
+        "title": "MIDA-788 恋川こもも｜巨乳與淫亂・過激系標籤下的展示型企劃判讀",
+        "catalog_code": "MIDA-788",
+        "release_date": "2026-09-11",
+        "performers": [
+          "恋川こもも"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mida-788/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53643"
+      ],
+      "search": {
+        "source_title": "心情煩躁時只要呼喚就立刻到場的樸素眼鏡爆乳，方便好用的肉感飛機杯K罩杯內射15發 戀川小桃",
+        "article_title": "MIDA-788 恋川こもも｜巨乳與淫亂・過激系標籤下的展示型企劃判讀",
+        "display_short_title": null,
+        "slug": "mida-788"
       }
     },
     {
