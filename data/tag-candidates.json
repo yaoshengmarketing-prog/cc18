@@ -439,7 +439,7 @@
     },
     {
       "label": "制服",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "SNOS-409",
         "SNOS-369",
@@ -447,10 +447,11 @@
         "MILK-306",
         "DSOD-031",
         "MIMK-291",
-        "MUDR-406"
+        "MUDR-406",
+        "MUKD-585"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-14",
+      "last_seen": "2026-09-16",
       "status": "quarantined"
     },
     {
@@ -1008,11 +1009,12 @@
     },
     {
       "label": "其他癖好",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "DOKS-689",
         "DOKS-690",
-        "MIAB-677"
+        "MIAB-677",
+        "MUKD-585"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-16",

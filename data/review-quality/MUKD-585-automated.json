@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "MUKD-585",
+  "checked_at": "2026-09-16T07:33:01.162Z",
+  "review_sha256": "b1d7016844f42f88e36a534e8f5393938585fde7759bfb64c53a9a6099686a83",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看可追溯的公開資訊，MUKD-585 最清楚的辨識點不是複雜劇情，而是以「還什麼都不知道」作為企劃核心。這個概念同時出現在來源標題線索中，還連動到「戀愛經驗零」「紬醬」等詞，讓作品的主打方向更接近一種從陌生、未熟悉到逐步被帶入情境的角色起點。對選片來說，這代表它的吸引力主要"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "來源可確認演出者為湯浅紬，並帶有學生設定、學生妹這類身份訊號。再加上「還什麼都不知道」與「戀愛經驗零」這組概念，整體形成的不是成熟主導型形象，而是偏向以陌生感、未經驗感與起步狀態為賣點的包裝方式。這會直接影響選片判斷：如果觀眾在意的是角色從零開始的設定魅力，這部片的公開資訊是有明"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

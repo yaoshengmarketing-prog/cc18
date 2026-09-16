@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T07:30:57.143Z",
+  "generated_at": "2026-09-16T07:33:05.939Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 117,
-  "formal_movie_count": 116,
+  "tracked_input_count": 118,
+  "formal_movie_count": 117,
   "demo_count": 1,
-  "published_count": 113,
+  "published_count": 114,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -665,6 +665,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "505bea3207daa97bdcaea41c05eb0131ba424b143891ecc7556f5defc988a487"
+    },
+    {
+      "stable_movie_id": "cc18:MUKD-585",
+      "catalog_code": "MUKD-585",
+      "slug": "mukd-585",
+      "master_path": "data/movie-master/mukd-585.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "b3bb4972fa5daf497d0f15ae8d4878ef33a26ed3b10c9479ec701e176638a087"
     },
     {
       "stable_movie_id": "cc18:MVG-171",
