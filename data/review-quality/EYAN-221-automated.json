@@ -1,0 +1,70 @@
+{
+  "schema_version": 2,
+  "id": "EYAN-221",
+  "checked_at": "2026-09-16T06:39:27.394Z",
+  "review_sha256": "9052d6c25d22857cdc527479772f1487b0c64c31f1f48730d6e314f24581f874",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "overused_generic_editorial_arc",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最明確的選片理由，是來源直接給出一個辨識度很高的核心概念：「不要碰我」。這不是一般只靠身分類型或行為標籤成立的作品，而是先用一句拒絕式語言建立企劃印象。再對照同一批可追溯的來源概念中還出現「不要舔我」「不要插進來」與「來自岳父的噁心性騷擾」，可以看出這部片的吸引力主要來自一種持續"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "以目前可追溯資料來看，這部片更適合歸到展示型企劃來理解。原因不是說它沒有劇情，而是來源並沒有提供足夠的已驗證情節、人物關係展開或場景脈絡，反而把重心放在一句句強烈的拒絕語與越界設定上。creative seed brief 也明確提示可從「企劃設定、角色變化、互動節奏」來組織文章"
+        }
+      ]
+    },
+    {
+      "code": "overused_generic_editorial_arc",
+      "scope": "PASS_WITH_NOTES",
+      "phrases": [
+        {
+          "phrase": "反差魅力",
+          "count": 2
+        }
+      ],
+      "locations": [
+        {
+          "paragraph": 7,
+          "excerpt": "## 為什麼會有反差魅力？"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "反差魅力主要來自兩層來源可見訊號的組合。第一層是「人妻・主婦」這個身份標籤，通常會先讓人預期角色被放在較日常、較穩定的類型框架裡；第二層則是「不要碰我」這種直接而激烈的拒絕語感，再加上來源概念中的「來自岳父的噁心性騷擾」，把作品整體氣味推向更明顯的禁忌與不適邊界。這樣的組合使它不"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

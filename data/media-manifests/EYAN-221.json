@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "EYAN-221",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T06:39:28.870Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/EYAN-221/hero-v1.jpg",
+      "r2_key": "works/2026/09/EYAN-221/hero-v1.jpg",
+      "bytes": 743452,
+      "sha256": "dd61f79473d26b52e73b5dcfaa7bf098c4ee910a44cbe80751cabfff5bf409f8",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/EYAN-221/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/EYAN-221/scene-vertical-v1.jpg",
+      "bytes": 1251534,
+      "sha256": "9c8d68ee37cdc594f539707658e3db9514983769d3ff0cd803e584a989efbdc9",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2665830,
+    "sha256": "e12f16ee9214b5e77b7fd137b56f5de1734b6f4cdf29cca9e365c208a0b9e9dd",
+    "target_r2_key": "works/2026/09/EYAN-221/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/EYAN-221/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:cb2edf1081d7ed153e8ae4672652c9aea708f6a05716a6fb1fc7b3f58a6dab0e",
-  "source_generated_at": "2026-09-16T06:36:59.140Z",
+  "source_revision": "sha256:7b0b9de0de064ba626b33fd0751fadd7465e65bd7b2b2a59e73730d11ca634d6",
+  "source_generated_at": "2026-09-16T06:39:31.418Z",
   "counts": {
-    "movies": 89,
-    "performers": 91,
+    "movies": 90,
+    "performers": 92,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -710,6 +710,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DSOD-031"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54643",
+      "display_name": "夏花まろん",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "夏花まろん",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:EYAN-221"
       ]
     },
     {
@@ -1451,6 +1462,63 @@
         "article_title": "TIKB-226｜性慾大爆發的肉棒中毒者：以 Cosplay 美少女設定撐起的展示型企劃",
         "display_short_title": null,
         "slug": "tikb-226"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:EYAN-221",
+        "source_cover": "https://cc18.tv/preview/80/b/4mAakypWy81-800.jpg?v=1789245598",
+        "title": "EYAN-221 夏花まろん｜不要碰我",
+        "catalog_code": "EYAN-221",
+        "release_date": "2026-09-11",
+        "performers": [
+          "夏花まろん"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/eyan-221/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54643"
+      ],
+      "search": {
+        "source_title": "不要碰我、不要舔我、不要插進來…來自岳父的噁心性騷擾，忍受無奈性愛的人妻噩夢 夏花栗",
+        "article_title": "EYAN-221 夏花まろん｜不要碰我",
+        "display_short_title": null,
+        "slug": "eyan-221"
       }
     },
     {
