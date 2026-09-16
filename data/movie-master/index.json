@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T07:45:33.662Z",
+  "generated_at": "2026-09-16T07:47:43.725Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 123,
-  "formal_movie_count": 122,
+  "tracked_input_count": 124,
+  "formal_movie_count": 123,
   "demo_count": 1,
-  "published_count": 119,
+  "published_count": 120,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -413,6 +413,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "65811ec8bdf12c6b5e2cd078dc09bdaf11200ac27d49cc01a3f2c40589a8d027"
+    },
+    {
+      "stable_movie_id": "cc18:HEZ-919",
+      "catalog_code": "HEZ-919",
+      "slug": "hez-919",
+      "master_path": "data/movie-master/hez-919.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "12d91a41374c5f94fcf7e05754e10a346e07ff8c488079f921140196b1a7d517"
     },
     {
       "stable_movie_id": "cc18:HHF-111",

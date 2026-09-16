@@ -1,0 +1,46 @@
+{
+  "schema_version": 2,
+  "id": "HEZ-919",
+  "checked_at": "2026-09-16T07:47:38.534Z",
+  "review_sha256": "166129aab119259e2144bd1b7c4ee3b9be02a4808386fa0f116cdbb22be0c9ee",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "source_core_concept_not_developed"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 10,
+          "excerpt": "其他可作為輔助判斷的訊號，包括來源標示中的「素人企劃」、「高畫質／HD」以及動作標籤「亂交」。不過就選片優先順序來說，這些訊號更像補充，而不是核心。因為標題與系列已經非常強勢地指向『閉經前熟女』這個主概念，所以技術規格與附加標籤較難取代主題本身。實際選片時，可以把它理解成：這不是"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

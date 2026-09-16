@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:e003e445ecc5bce512d8e5b5928183b7567664cc2f66601eeddb5c3b6f6714d7",
-  "source_generated_at": "2026-09-16T07:45:33.662Z",
+  "source_revision": "sha256:b3c1ae4cc393bad20b344e40a74bf75c5e7ffa8a937b9f2ec5ce7417accbbdee",
+  "source_generated_at": "2026-09-16T07:47:43.725Z",
   "counts": {
-    "movies": 119,
-    "performers": 115,
+    "movies": 120,
+    "performers": 116,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -411,6 +411,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-447"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:23911",
+      "display_name": "吉根柚莉愛",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "吉根柚莉愛",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:HEZ-919"
       ]
     },
     {
@@ -3168,6 +3179,47 @@
         "article_title": "TGBS-003 獨家 × Tokyo Girls Bad Night～トーキョーガール｜獨家美容師企劃：自拍配信取向明確",
         "display_short_title": null,
         "slug": "tgbs-003"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:HEZ-919",
+        "source_cover": "https://cc18.tv/preview/80/b/bENJGur56bG-800.jpg?v=1789029563",
+        "title": "HEZ-919 吉根柚莉愛｜而用屁眼處理的閉經前熟女：以企劃設定驅動的選片",
+        "catalog_code": "HEZ-919",
+        "release_date": "2026-09-10",
+        "performers": [
+          "吉根柚莉愛"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "amateur",
+            "label": "素人"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/hez-919/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:23911"
+      ],
+      "search": {
+        "source_title": "家事與育兒忙碌到無法排解的性慾，在正午時分於家中自語「因為出軌是不可能的…」而用屁眼處理的閉經前熟女 柚莉愛小姐（假名） 吉根柚莉愛",
+        "article_title": "HEZ-919 吉根柚莉愛｜而用屁眼處理的閉經前熟女：以企劃設定驅動的選片",
+        "display_short_title": null,
+        "slug": "hez-919"
       }
     },
     {
