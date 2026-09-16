@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "APAK-337",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T08:07:06.674Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/APAK-337/hero-v1.jpg",
+      "r2_key": "works/2026/09/APAK-337/hero-v1.jpg",
+      "bytes": 834103,
+      "sha256": "e081b76e3533f0ad4ec16290c27b3d4d23692a7052996a49b792a37f5606a6c1",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/APAK-337/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/APAK-337/scene-vertical-v1.jpg",
+      "bytes": 1006258,
+      "sha256": "69e876d543027dd967c6a8f9825a27f94e21f0542ed2912cfa9c35d7ffdd2dc4",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3134195,
+    "sha256": "926b9c41861bbba653a913b9ff3a9ac3b0fafdeedd1c64530ba6f0fa76cc0e77",
+    "target_r2_key": "works/2026/09/APAK-337/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/APAK-337/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

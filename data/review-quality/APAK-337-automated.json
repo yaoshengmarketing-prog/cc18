@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "id": "APAK-337",
+  "checked_at": "2026-09-16T08:07:05.226Z",
+  "review_sha256": "2e48a79ad2d3ac248735252164f0502c1326c4537bf6e32a3e5b4082ca9f2160",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "broad_formulaic_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 4,
+      "paragraph_count": 10,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果是依企劃辨識度選片，APAK-337 的優勢很明確。公開來源已給出系列名「淫亂絶頂學生指導」，再加上安全訊號中的「學生設定」與演出者「浅海なみ」，讓作品的主打方向非常集中。這種片名與系列概念直接扣合的作品，通常適合想快速確認題材是否對味的觀眾：你不是靠複雜故事進場，而是先看它"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "就現有資料判斷，這部更接近企劃導向、同時帶有演員展示型性質的作品。原因在於公開資訊最完整的部分，是系列名稱、演出者、學生身分訊號，以及動作面標籤如「中出」「顏射」「淫亂・過激系」「アクメ・オーガズム」。這種資訊排列方式，重點通常不是鋪陳一段已被明確公開的人物關係，而是用企劃主題去"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "來源文字中的概念線索相當直接，包括 creative brief 收錄的題名摘錄「要去了」「請把我弄壞」「淫亂絕頂生徒指導」以及演出者名字。這些線索共同指向的，不是複雜世界觀，而是強烈、集中、帶有衝擊性的企劃語氣。再對照 topic_elements 中的「淫亂・過激系」與「アク"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "若你本來就會追演出者，本作的選片價值在於「浅海なみ」被放在非常核心的位置。標題訊號與作品識別都明確把她放進主要辨識元素之一，代表這不是需要靠多線角色關係理解的作品，而是能直接以演出者搭配系列企劃來判斷是否符合口味。換句話說，對熟悉她作品路線的觀眾來說，APAK-337 的吸引力是"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
