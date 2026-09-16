@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "MUDR-406",
+  "checked_at": "2026-09-16T07:00:28.530Z",
+  "review_sha256": "0ba3410c3e330fc7858f874d95e66370c4bf14faaa9db14c3ddbb0894f8c9795",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只根據公開來源來看，這部作品最明確的辨識點不是複雜劇情，而是「從那天起就一直如此」這個核心概念如何搭配系列名稱中的制服美少女設定來成立整體企劃。片名與系列都把持續性的狀態、角色形象與特定成人題材直接綁在一起，因此它的吸引力更像是建立在明確設定與系列路線，而不是需要大量背景鋪陳的"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

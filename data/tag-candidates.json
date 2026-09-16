@@ -437,17 +437,18 @@
     },
     {
       "label": "制服",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "SNOS-409",
         "SNOS-369",
         "FWAY-103",
         "MILK-306",
         "DSOD-031",
-        "MIMK-291"
+        "MIMK-291",
+        "MUDR-406"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-09-14",
       "status": "quarantined"
     },
     {
@@ -1019,12 +1020,13 @@
     },
     {
       "label": "羞辱",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "DOKS-689",
         "START-601",
         "DDK-241",
-        "ALOG-032"
+        "ALOG-032",
+        "MUDR-406"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-16",
@@ -1486,6 +1488,16 @@
       "occurrences": 1,
       "source_ids": [
         "PRWF-016"
+      ],
+      "first_seen": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "status": "quarantined"
+    },
+    {
+      "label": "緊縛",
+      "occurrences": 1,
+      "source_ids": [
+        "MUDR-406"
       ],
       "first_seen": "2026-09-14",
       "last_seen": "2026-09-14",

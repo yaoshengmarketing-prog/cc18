@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:f4dde7b8840d5f6c1fb615d6655ecfd8c819f6d9cf028605776e0caf3b0404d8",
-  "source_generated_at": "2026-09-16T06:58:27.211Z",
+  "source_revision": "sha256:fddb09f21ace335120601685b7d1fec084397278edbb87fd7ca70a0aef1bd7fe",
+  "source_generated_at": "2026-09-16T07:00:32.807Z",
   "counts": {
-    "movies": 99,
+    "movies": 100,
     "performers": 101,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -590,7 +590,8 @@
       "source_name": "南日菜乃",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:DOKS-689"
+        "cc18:DOKS-689",
+        "cc18:MUDR-406"
       ]
     },
     {
@@ -1924,6 +1925,51 @@
         "article_title": "MNGS-082 春陽モカ｜想要學分的留級辣妹撒嬌：以角色企劃取勝的展示型作品",
         "display_short_title": null,
         "slug": "mngs-082"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MUDR-406",
+        "source_cover": "https://cc18.tv/preview/80/b/AdTWBVVyie5-800.jpg?v=1789245602",
+        "title": "MUDR-406 南日菜乃｜從那天起就一直如此的美少女設定，偏企劃導向的系列選片",
+        "catalog_code": "MUDR-406",
+        "release_date": "2026-09-11",
+        "performers": [
+          "南日菜乃"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mudr-406/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:39862"
+      ],
+      "search": {
+        "source_title": "從那天起就一直如此…。 緊縛調教內射的制服美少女 南日菜乃",
+        "article_title": "MUDR-406 南日菜乃｜從那天起就一直如此的美少女設定，偏企劃導向的系列選片",
+        "display_short_title": null,
+        "slug": "mudr-406"
       }
     },
     {

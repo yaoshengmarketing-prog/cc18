@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "MUDR-406",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T07:00:29.953Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/MUDR-406/hero-v1.jpg",
+      "r2_key": "works/2026/09/MUDR-406/hero-v1.jpg",
+      "bytes": 604337,
+      "sha256": "7a07a67eddee962e3a3c30779ddbe41e0c53691bd14a0956f014a2da51f9ab90",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/MUDR-406/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/MUDR-406/scene-vertical-v1.jpg",
+      "bytes": 970974,
+      "sha256": "99e1fd69205a7d4847d306286b28ad5c04c360b6500256352473d99c89aefc78",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3080794,
+    "sha256": "5c0ce382afe469df4e9abdc8bf116a3baa3ca5846e79fd9829d13d25b0876b52",
+    "target_r2_key": "works/2026/09/MUDR-406/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/MUDR-406/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

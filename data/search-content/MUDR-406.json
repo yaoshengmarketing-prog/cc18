@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "movie_id": "MUDR-406",
+  "generated_at": "2026-09-14T00:28:52.197Z",
+  "source_snapshot_hash": "sha256:1b345281524f5a77abfa20d2b64d6e7b449c67cbaf7b21b503207e37cb080da1",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "南日菜乃的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "南日菜乃",
+      "あの日からずっと…。緊縛調教中出しされる制服美少女",
+      "美少女設定",
+      "高畫質"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "DOKS-689",
+      "relation_type": "same_performer",
+      "reason": "同樣由南日菜乃出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "南日菜乃"
+      ],
+      "contrast_signals": [
+        "泉莉音",
+        "玩具"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？南日菜乃的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+    "有哪些觀看取捨？只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+  ]
+}
