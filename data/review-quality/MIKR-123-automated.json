@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "id": "MIKR-123",
+  "checked_at": "2026-09-16T07:15:00.068Z",
+  "review_sha256": "f41c7fdee6343df784ded9aba42f413efb48b0fec44fafb8e3efd3594b05891a",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資訊，這部作品最明確的賣點不是劇情關係，而是以「白川汁」為核心概念來包裝整體企劃。來源標題進一步給出「大爆散」、「淫水3500cc」、「痙攣5819次」、「美麗大姊姊汗水與潮水四濺」等訊號，顯示宣傳重心集中在強烈、誇張、以身體反應與感官刺激為主的展示型內容"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "從 topic elements 來看，這部片的可確認定位包括「AV女優片」、「淫亂・過激系」與「アクメ・オーガズム」。這些標籤共同指向一種很明確的片型：主軸不是情境日常，也不是關係轉折，而是圍繞單一演出者與高刺激體感意象展開。再加上核心概念直接使用演員名加上專屬化標記的「白川汁"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "已知演員只有白川美玲，因此選片判斷自然會落在她是否足以支撐這種單點集中的企劃。從命名方式來看，「白川汁」不是中性描述，而是把作品識別直接壓在她身上，代表公開宣傳就是以她作為內容辨識核心。這會影響選片方式：如果你本來就會優先追演員企劃、或偏好以單一女優風格為中心的作品，這類命名通常"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

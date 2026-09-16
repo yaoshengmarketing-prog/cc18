@@ -578,7 +578,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 9,
+      "occurrences": 10,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -588,7 +588,8 @@
         "EKDV-826",
         "SQTE-718",
         "DDK-241",
-        "MIMK-291"
+        "MIMK-291",
+        "MIKR-123"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-15",
@@ -1114,14 +1115,15 @@
     },
     {
       "label": "多汗",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "DSOD-067",
         "IPZZ-916",
-        "MIDA-786"
+        "MIDA-786",
+        "MIKR-123"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-14",
+      "last_seen": "2026-09-15",
       "status": "quarantined"
     },
     {
