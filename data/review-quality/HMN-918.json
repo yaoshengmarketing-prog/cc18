@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "HMN-918",
+  "review_sha256": "eef083169b93c40f8583584d47b39962fc29258a0bd40aec52a78c393e4ce853",
+  "selected_thesis": "綾瀬まりあ的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "綾瀬まりあ",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "綾瀬まりあ",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "向您介紹我色到不行的女友",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "女大學生",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "綾瀬まりあ",
+    "presentation_feature": "向您介紹我色到不行的女友",
+    "editorial_judgment": "綾瀬まりあ的企劃呈現與觀看取向",
+    "source_keywords": [
+      "綾瀬まりあ",
+      "向您介紹我色到不行的女友",
+      "女大學生",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "這次是記錄我們在戶外接吻、輕微露出並拍攝情色自拍的過程。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：綾瀬まりあ",
+      "supports": "這項可追溯來源訊號支持文章以「綾瀬まりあ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：向您介紹我色到不行的女友",
+      "supports": "這項可追溯來源訊號支持文章以「向您介紹我色到不行的女友」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：癡女",
+      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：女大學生",
+      "supports": "這項可追溯來源訊號支持文章以「女大學生」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-15T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

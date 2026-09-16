@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "id": "HMN-918",
+  "checked_at": "2026-09-16T07:35:31.931Z",
+  "review_sha256": "eef083169b93c40f8583584d47b39962fc29258a0bd40aec52a78c393e4ce853",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "broad_formulaic_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 4,
+      "paragraph_count": 10,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資訊來看，這部作品最明確的賣點，是它把重心放在「向您介紹我色到不行的女友」這個企劃句上。這表示它的吸引力首先不在複雜劇情，而是在一個高度直白的展示型前提：透過女友式包裝，去成立角色的強烈性慾形象。來源中另外出現「恐怖的20歲性慾」這種說法，也進一步強化了"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "可確認的來源線索包括演出者綾瀬まりあ，以及題材標籤中的「AV女優片」「癡女」「女大學生」。這些元素共同指向一種很明確的人物塑形方式：作品不是把角色放在完全空白的位置，而是先用身份與氣質標籤建立觀看入口。特別是「女大學生」與「癡女」並列時，會形成一種帶有企劃感的反差包裝，讓角色既保"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "以現有資料判斷，這部片更接近展示型企劃，而非高劇情密度作品。原因很簡單：目前可追溯到的核心內容都圍繞在作品概念、角色標籤與行為主題，例如「向您介紹我色到不行的女友」與「中出」，而不是具體故事背景、人物關係發展或情節轉折。連 creative brief 也明確把可用組織主題放在「"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "公開摘錄提到「記錄我們在戶外接吻、輕微露出並拍攝情色自拍的過程」，這對選片來說相當重要，因為它補上了作品在企劃層面的具體方向：不是單純靠標題口號，而是把「女友介紹」延伸成帶有記錄感與私密展示感的安排。這樣的描述會讓作品更偏向以情境包裝、互動感與挑逗式企劃來吸引觀眾。不過這裡仍要嚴"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

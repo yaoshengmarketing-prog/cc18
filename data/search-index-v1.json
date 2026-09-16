@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:cf18d9857a323759bd9a787060c8d23b91e55cc94098f9e359ca93acbe4140ad",
-  "source_generated_at": "2026-09-16T07:33:05.939Z",
+  "source_revision": "sha256:54ff3de0e88805810687700a1fcb0ec93f34b50c28876a57551f0cc2530e543b",
+  "source_generated_at": "2026-09-16T07:35:36.882Z",
   "counts": {
-    "movies": 114,
-    "performers": 111,
+    "movies": 115,
+    "performers": 112,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1148,6 +1148,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:53650",
+      "display_name": "綾瀬まりあ",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "綾瀬まりあ",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:HMN-918"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:30379",
       "display_name": "與田鈴",
       "display_name_zh_tw": null,
@@ -1936,6 +1947,55 @@
         "article_title": "FNS-261 八蜜凛｜既然在網路上被炎上了：以炎上題材撐起選片辨識度",
         "display_short_title": null,
         "slug": "fns-261"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:HMN-918",
+        "source_cover": "https://cc18.tv/preview/80/b/2f1d5YcBGdn-800.jpg?v=1789123373",
+        "title": "HMN-918 綾瀬まりあ｜向您介紹我色到不行的女友：展示型企劃先行",
+        "catalog_code": "HMN-918",
+        "release_date": "2026-09-11",
+        "performers": [
+          "綾瀬まりあ"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "college-student",
+            "label": "女大學生"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/hmn-918/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53650"
+      ],
+      "search": {
+        "source_title": "向您介紹我色到不行的女友 恐怖的20歲性慾 與隨即濕透且不斷高潮的超雜魚小穴全身性感帶女大生進行中出性愛 綾瀨真里亞",
+        "article_title": "HMN-918 綾瀬まりあ｜向您介紹我色到不行的女友：展示型企劃先行",
+        "display_short_title": null,
+        "slug": "hmn-918"
       }
     },
     {
