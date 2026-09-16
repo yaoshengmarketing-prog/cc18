@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-16T08:14:59.692Z",
+  "updated_at": "2026-09-16T08:17:14.958Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -1995,6 +1995,21 @@
       "video_status": "rendered",
       "template": "story",
       "published_at": "2026-09-08"
+    },
+    {
+      "id": "SNOS-339",
+      "actress": [
+        "安達夕莉"
+      ],
+      "release_date": "2026-09-04",
+      "source_url": "https://cc18.tv/player.php?uuid=4AIIG686p4e&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-09"
     }
   ]
 }

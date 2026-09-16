@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-339",
+  "generated_at": "2026-09-09T18:45:53.025Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "gpt-5.4",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SNOS-339.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "憂鬱的我",
+    "premise": "作品以「憂鬱的我」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「憂鬱的我」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "憂鬱的我",
+      "人生中最硬梆梆的一次",
+      "安達夕莉",
+      "自拍"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "アクメ・オーガズム"
+    ],
+    "presentation": [
+      "自拍",
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "sourceTitle": "憂鬱的我 人生中最硬梆梆的一次 安達夕莉 自拍",
+  "originalTitleJa": null,
+  "translatedTitleZhTw": null,
+  "title": "SNOS-339 安達夕莉｜自拍企劃下的《憂鬱的我》：展示型設定比故事更關鍵",
+  "seoTitle": "SNOS-339 安達夕莉影評｜自拍形式下的《憂鬱的我》，以企劃展示感作為主要看點",
+  "socialTitle": "SNOS-339 安達夕莉：當《憂鬱的我》遇上自拍企劃",
+  "titleSignals": [
+    "安達夕莉",
+    "自拍形式",
+    "憂鬱的我"
+  ],
+  "coreSourceConcept": "憂鬱的我",
+  "titleVersion": 1,
+  "editorial_tag_ids": [
+    "showcase-format",
+    "story"
+  ],
+  "sections": [
+    {
+      "heading": "這部片最值得先看哪個選片重點？",
+      "body": "若只從目前可追溯的公開資訊判斷，SNOS-339 最明確的選片重點不是完整劇情，而是以「憂鬱的我」為核心概念、再結合「自拍」形式去包裝作品。片名已直接給出情緒主軸，creative brief 也把「企劃設定」列為文章可組織的主要方向；因此，這部作品更像是先由概念與呈現方式吸引觀眾，而不是靠已知人物關係或明確情節推進。對想找設定感鮮明、形式辨識度高的觀眾來說，這會是比一般只看演員名單更有效的判斷依據。"
+    },
+    {
+      "heading": "公開資料能支持它有明確故事性嗎？",
+      "body": "目前資料不足以支持它具有高密度、可具體描述的故事內容。public source 沒有提供人物關係、場景設定、衝突脈絡或事件發展，creative brief 也明確指出未確認的場景與人物關係必須保持未知。雖然「憂鬱的我」本身帶有角色狀態的暗示，但這仍屬於概念層級，不能直接延伸成完整劇情。因此若要評估本片，較穩妥的方式是把它視為一個以情緒題名與形式包裝為主的企劃，而不是預設它會展開複雜敘事。"
+    },
+    {
+      "heading": "安達夕莉在這部片中的吸引力，主要來自哪裡？",
+      "body": "從來源可確定的資訊來看，安達夕莉是這部作品最明確的人物辨識點，並且她的名字直接出現在來源片名相關資訊中。由於缺乏可驗證的情節與角色關係，選片時對她的期待，會主要落在她與企劃概念的結合：也就是由演出者去承接「憂鬱的我」這個主題，以及自拍形式帶來的近距離展示感。換句話說，這部片的吸引力較像是『演出者 × 情緒概念 × 呈現形式』的組合，而不是可被具體描述的角色互動。"
+    },
+    {
+      "heading": "自拍形式會如何影響觀眾的選片判斷？",
+      "body": "「自拍」是這部作品非常關鍵的來源訊號，且同時出現在 safe title signals 與 topic elements 的 presentation 類別中，可信度高。對選片判斷來說，自拍形式通常代表作品會強調主觀呈現與企劃辨識度，而這也使本片更接近展示型企劃的閱讀方式：觀眾會先在意形式是否帶來新鮮感，再考慮其他元素。另一方面，來源也出現高畫質、720p、HD、4K、獨家配信等資訊，但依標題規則，這些技術與發行訊號不應取代核心主題，因此它們只能算輔助條件，不能蓋過「憂鬱的我」與「自拍」這兩個真正影響選片的中心。"
+    },
+    {
+      "heading": "如果只看來源資料，這部片適合哪一類觀眾？",
+      "body": "若你偏好從作品概念切入，而不是先要求完整劇情簡介，SNOS-339 會比較有吸引力。它適合對情緒題名有興趣、也願意接受自拍形式作為主要企劃差異的觀眾；尤其當片名同時拋出「憂鬱的我」與「人生中最硬梆梆的一次」這種強烈對照時，作品的可看性便建立在概念張力之上。不過，若你期待明確人物關係、具體場景鋪陳或已知敘事線索，目前公開資料並不能支持這類期待。以現有資訊來看，它最合理的定位仍是由安達夕莉擔綱、以自拍形式承載主題的展示型企劃作品。"
+    }
+  ],
+  "angle_candidates": [
+    "安達夕莉的企劃呈現與觀看取向",
+    "自拍形式的企劃呈現與觀看取向",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "安達夕莉的企劃呈現與觀看取向",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "安達夕莉",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "憂鬱的我",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "自拍形式",
+      "source_field": "safe_signals"
+    }
+  ],
+  "seo_title": "SNOS-339 安達夕莉影評｜自拍形式下的《憂鬱的我》，以企劃展示感作為主要看點",
+  "social_title": "SNOS-339 安達夕莉：當《憂鬱的我》遇上自拍企劃",
+  "short_review": "本作以「憂鬱的我」為主要來源線索；其餘資訊不足處暫不補寫。",
+  "editorial_angle": "安達夕莉的企劃呈現與觀看取向",
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：安達夕莉",
+      "supports": "這項可追溯來源訊號支持文章以「安達夕莉」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：自拍形式",
+      "supports": "這項可追溯來源訊號支持文章以「自拍形式」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：憂鬱的我",
+      "supports": "這項可追溯來源訊號支持文章以「憂鬱的我」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：アクメ・オーガズム",
+      "supports": "這項可追溯來源訊號支持文章以「アクメ・オーガズム」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：自拍",
+      "supports": "這項可追溯來源訊號支持文章以「自拍」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "正文只將來源記錄與編輯摘要中可追溯的設定、題材與詞彙組織為選片說明",
+    "未有影片證據時，不將場景、鏡位、聲音、表演或情節寫成已觀察事實"
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "decision_guide": {
+    "thesis": "安達夕莉的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "安達夕莉",
+      "自拍形式",
+      "高畫質",
+      "獨家配信"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "這部作品的主要企劃切角是什麼？安達夕莉的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+      "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+      "有哪些觀看取捨？只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  }
+}

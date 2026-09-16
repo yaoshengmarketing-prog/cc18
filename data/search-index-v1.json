@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:462686b6757cb5c982b5c53a0c22573013c9569b5ab165e1e3a391cea4016a39",
-  "source_generated_at": "2026-09-16T08:15:03.865Z",
+  "source_revision": "sha256:7ef4bff9bea95aaf79eb02cb6b84aeb99bf6bebfd96d792d6a943a634a521d45",
+  "source_generated_at": "2026-09-16T08:17:19.107Z",
   "counts": {
-    "movies": 130,
-    "performers": 125,
+    "movies": 131,
+    "performers": 126,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -445,6 +445,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:FCDSS-117"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:27703",
+      "display_name": "安達夕莉",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "安達夕莉",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-339"
       ]
     },
     {
@@ -5239,6 +5250,55 @@
         "article_title": "ROYD-357 音無鈴｜人生初の彼氏ができた：以企劃設定帶動選片興趣",
         "display_short_title": null,
         "slug": "royd-357"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-339",
+        "source_cover": "https://cc18.tv/preview/80/b/4AIIG686p4e-800.jpg?v=1788555976",
+        "title": "SNOS-339 安達夕莉｜自拍企劃下的《憂鬱的我》：展示型設定比故事更關鍵",
+        "catalog_code": "SNOS-339",
+        "release_date": "2026-09-04",
+        "performers": [
+          "安達夕莉"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "self-shot",
+            "label": "自拍視角"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-339/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27703"
+      ],
+      "search": {
+        "source_title": "最喜歡的那個女孩竟然和死黨交往，還被死黨拜託當情色自拍的攝影師，憂鬱的我。但…人生中最硬梆梆的一次。 安達夕莉",
+        "article_title": "SNOS-339 安達夕莉｜自拍企劃下的《憂鬱的我》：展示型設定比故事更關鍵",
+        "display_short_title": null,
+        "slug": "snos-339"
       }
     },
     {

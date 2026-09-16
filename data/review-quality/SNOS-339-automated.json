@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "id": "SNOS-339",
+  "checked_at": "2026-09-16T08:17:13.523Z",
+  "review_sha256": "7951b544d3d4c2ad106783d88c292002913a06f5d5d2f136681aa2755f690f74",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "body_lacks_source_adult_vocabulary",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只從目前可追溯的公開資訊判斷，SNOS-339 最明確的選片重點不是完整劇情，而是以「憂鬱的我」為核心概念、再結合「自拍」形式去包裝作品。片名已直接給出情緒主軸，creative brief 也把「企劃設定」列為文章可組織的主要方向；因此，這部作品更像是先由概念與呈現方式吸引觀"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
