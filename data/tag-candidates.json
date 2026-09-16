@@ -609,7 +609,7 @@
     },
     {
       "label": "姐姐系",
-      "occurrences": 11,
+      "occurrences": 12,
       "source_ids": [
         "SNOS-364",
         "SNOS-372",
@@ -621,7 +621,8 @@
         "EYAN-221",
         "PRED-890",
         "PRED-902",
-        "IPZZ-960"
+        "IPZZ-960",
+        "IPZZ-944"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-16",
@@ -1673,6 +1674,16 @@
       ],
       "first_seen": "2026-09-09",
       "last_seen": "2026-09-09",
+      "status": "quarantined"
+    },
+    {
+      "label": "家教",
+      "occurrences": 1,
+      "source_ids": [
+        "IPZZ-944"
+      ],
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
       "status": "quarantined"
     }
   ]

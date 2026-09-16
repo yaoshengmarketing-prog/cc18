@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "IPZZ-944",
+  "checked_at": "2026-09-16T08:23:26.475Z",
+  "review_sha256": "488b6160543a10ed84ea464879ecba02001f5296f16459cf806102ed66127533",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據公開資料來看，IPZZ-944 最明確的賣點不是複雜劇情，而是「在畢業之前」這個時間限制本身。片名與來源摘錄都把重心放在畢業前的短暫關係，公開簡介也直接提到「與前藝人家庭教師流菜老師之間，一段期間限定的戀情」。這種設定很容易形成清楚的觀看期待：不是單純靠單一行為標籤撐場"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "以公開來源來說，白石るな是目前最明確的人物資訊，並且片名來源概念中也出現「白石流菜」與「流菜老師」這類命名線索，顯示作品在包裝上明顯把角色印象與演出者形象結合。這會讓本片比較接近一種角色展示型企劃：不是只把出演者放進通用題材，而是試圖讓她與「畢業前」「家庭教師」「期間限定戀情」這"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

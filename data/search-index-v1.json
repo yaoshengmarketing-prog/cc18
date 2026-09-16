@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:b56b3e4a57c6a6bd46cb24522e8d0124b94fc798d313e700c9dabe425708ea2c",
-  "source_generated_at": "2026-09-16T08:19:43.053Z",
+  "source_revision": "sha256:090b85f79c02db0f0aca1aaa7e4a3b28a5b94ccf54494fe6c1e0078cee88c750",
+  "source_generated_at": "2026-09-16T08:23:32.226Z",
   "counts": {
-    "movies": 132,
-    "performers": 127,
+    "movies": 133,
+    "performers": 128,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -401,6 +401,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MIKR-123"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54373",
+      "display_name": "白石るな",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "白石るな",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:IPZZ-944"
       ]
     },
     {
@@ -4726,6 +4737,55 @@
         "article_title": "IPZZ-943 愛才莉亞 × 美少女設定｜愛才莉亞",
         "display_short_title": null,
         "slug": "ipzz-943"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:IPZZ-944",
+        "source_cover": "https://cc18.tv/preview/80/b/BWV3egnLk1H-800.jpg?v=1788556183",
+        "title": "IPZZ-944 白石るな｜在畢業之前：期間限定戀情的企劃吸引力",
+        "catalog_code": "IPZZ-944",
+        "release_date": "2026-09-04",
+        "performers": [
+          "白石るな"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "kissing",
+            "label": "親吻互動"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ipzz-944/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54373"
+      ],
+      "search": {
+        "source_title": "「在畢業之前，你可以把我當成你的女朋友喔？」用溫柔的法式深吻與包容般的慢節奏性愛治癒了對女性失去信心的我，前藝人家庭教師流菜老師 白石流菜",
+        "article_title": "IPZZ-944 白石るな｜在畢業之前：期間限定戀情的企劃吸引力",
+        "display_short_title": null,
+        "slug": "ipzz-944"
       }
     },
     {
