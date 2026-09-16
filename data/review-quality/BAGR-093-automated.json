@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "BAGR-093",
+  "checked_at": "2026-09-16T08:04:02.618Z",
+  "review_sha256": "146554f72830166f14e6a1e9e3bddf4cded8c13ee45496842d28d8e88fa3fc86",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只根據目前可追溯的公開資料來看，這部作品最明確的吸引點，不是在已知劇情事件，而是在作品如何把「梓真理乃」這個核心概念直接放到選片中心。片方已知資訊同時指向梓まりの、美少女設定，以及獨家配信、高畫質等呈現面條件，因此它更像是一部以人物印象與企劃包裝為主軸的作品。對觀眾來說，這代表"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

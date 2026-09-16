@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T08:00:40.962Z",
+  "generated_at": "2026-09-16T08:04:07.911Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 129,
-  "formal_movie_count": 128,
+  "tracked_input_count": 130,
+  "formal_movie_count": 129,
   "demo_count": 1,
-  "published_count": 125,
+  "published_count": 126,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -44,6 +44,15 @@
       "is_demo": false,
       "is_published": false,
       "content_hash": "11d4b72de8bd4fe3bec5e06ae97fb229828a723b348f53898eedacb96240411a"
+    },
+    {
+      "stable_movie_id": "cc18:BAGR-093",
+      "catalog_code": "BAGR-093",
+      "slug": "bagr-093",
+      "master_path": "data/movie-master/bagr-093.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "009f0d14a92aabebd0fe3a916ea73a4cae0bd8001582b298976c0e50286aae67"
     },
     {
       "stable_movie_id": "cc18:BBAN-601",

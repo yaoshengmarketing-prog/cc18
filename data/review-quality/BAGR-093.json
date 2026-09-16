@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "BAGR-093",
+  "review_sha256": "146554f72830166f14e6a1e9e3bddf4cded8c13ee45496842d28d8e88fa3fc86",
+  "selected_thesis": "梓まりの的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "梓まりの",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "梓まりの",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "梓真理乃",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "梓まりの",
+    "presentation_feature": "梓真理乃",
+    "editorial_judgment": "梓まりの的企劃呈現與觀看取向",
+    "source_keywords": [
+      "梓まりの",
+      "梓真理乃",
+      "美少女設定"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：梓まりの",
+      "supports": "這項可追溯來源訊號支持文章以「梓まりの」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：美少女設定",
+      "supports": "這項可追溯來源訊號支持文章以「美少女設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：梓真理乃",
+      "supports": "這項可追溯來源訊號支持文章以「梓真理乃」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：癡女",
+      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：美少女",
+      "supports": "這項可追溯來源訊號支持文章以「美少女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-07T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

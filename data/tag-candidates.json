@@ -496,7 +496,7 @@
     },
     {
       "label": "美乳",
-      "occurrences": 10,
+      "occurrences": 11,
       "source_ids": [
         "SNOS-369",
         "SNOS-447",
@@ -507,7 +507,8 @@
         "NACT-182",
         "CLOT-043",
         "PKPD-434",
-        "UMD-1017"
+        "UMD-1017",
+        "BAGR-093"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-16",
@@ -930,12 +931,13 @@
     },
     {
       "label": "自慰",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "MILK-306",
         "DOKS-690",
         "SQTE-718",
-        "OFTR-015"
+        "OFTR-015",
+        "BAGR-093"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-16",
@@ -1652,6 +1654,16 @@
       ],
       "first_seen": "2026-09-15",
       "last_seen": "2026-09-15",
+      "status": "quarantined"
+    },
+    {
+      "label": "淫女",
+      "occurrences": 1,
+      "source_ids": [
+        "BAGR-093"
+      ],
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
       "status": "quarantined"
     }
   ]

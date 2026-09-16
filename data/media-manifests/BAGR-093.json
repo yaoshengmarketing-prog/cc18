@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "BAGR-093",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T08:04:04.027Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/BAGR-093/hero-v1.jpg",
+      "r2_key": "works/2026/09/BAGR-093/hero-v1.jpg",
+      "bytes": 774473,
+      "sha256": "4886bec32972f0a528820a99d43cd9f384abe68a810843eba122285b9edfdecd",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/BAGR-093/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/BAGR-093/scene-vertical-v1.jpg",
+      "bytes": 1428370,
+      "sha256": "192de4a02d321fa97a7fba35a227635c5a5c8ad564c53179bdf39976f2416bc1",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3340760,
+    "sha256": "ed8ef4a4ff4b97cfd364b684054421f6bc9b17722cf23a8cbb9fa87952da7f00",
+    "target_r2_key": "works/2026/09/BAGR-093/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/BAGR-093/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

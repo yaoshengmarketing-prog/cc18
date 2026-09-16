@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:31520b8c5dd39fe373ef8010b55dd59dc39a4129e2c97b03698a5564b18abb8e",
-  "source_generated_at": "2026-09-16T08:00:40.962Z",
+  "source_revision": "sha256:58140506faa3a45e64073ab8c2119624177c9ab85f1e457be9e3fdca2ea359a0",
+  "source_generated_at": "2026-09-16T08:04:07.911Z",
   "counts": {
-    "movies": 125,
-    "performers": 121,
+    "movies": 126,
+    "performers": 122,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1036,6 +1036,17 @@
         "cc18:DVMM-444",
         "cc18:RLMP-013",
         "cc18:UMD-1017"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53874",
+      "display_name": "梓まりの",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "梓まりの",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:BAGR-093"
       ]
     },
     {
@@ -3586,6 +3597,55 @@
         "article_title": "FNS-254 神喜ミア｜因此盡情修幹的性長記錄：以企劃設定帶動角色變化想像",
         "display_short_title": null,
         "slug": "fns-254"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:BAGR-093",
+        "source_cover": "https://cc18.tv/preview/80/b/1GT01Rgfa7D-800.jpg?v=1788813464",
+        "title": "BAGR-093 梓まりの｜以「梓真理乃」為核心的美少女展示型企劃",
+        "catalog_code": "BAGR-093",
+        "release_date": "2026-09-05",
+        "performers": [
+          "梓まりの"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/bagr-093/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53874"
+      ],
+      "search": {
+        "source_title": "身材絕佳的淫蕩痴女婊子不分對象地將男人幹盡 她的空虛之心如艾莉卡之花般孤獨綻放 梓真理乃",
+        "article_title": "BAGR-093 梓まりの｜以「梓真理乃」為核心的美少女展示型企劃",
+        "display_short_title": null,
+        "slug": "bagr-093"
       }
     },
     {
