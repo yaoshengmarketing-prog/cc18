@@ -1,0 +1,46 @@
+{
+  "schema_version": 2,
+  "id": "NSODN-023",
+  "checked_at": "2026-09-16T09:04:02.780Z",
+  "review_sha256": "cbd6f5cf6d456fbe482ff7de7234435f92c82d13117fde7350f689cb05c7dcb4",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "title_lacks_primary_source_adult_topic"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資料來看，這部片最鮮明的賣點不是已知劇情細節，而是「偷竊美人三姊妹」這個核心企劃概念。這個概念直接來自來源標示，也比一般性的素人或高畫質標籤更能區分作品印象。再加上演出名單有久和原聖羅、日向由奈、幸村泉希三人，片名概念與三人配置形成了明確的對應，讓選片時"
+        }
+      ]
+    },
+    {
+      "code": "title_lacks_primary_source_adult_topic",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

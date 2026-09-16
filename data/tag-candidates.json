@@ -416,12 +416,13 @@
     },
     {
       "label": "紀錄片",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "SNOS-371",
         "SNOS-358",
         "NHDTC-249",
-        "ACZD-250"
+        "ACZD-250",
+        "NSODN-023"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-16",

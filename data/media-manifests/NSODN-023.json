@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "NSODN-023",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T09:04:04.233Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/NSODN-023/hero-v1.jpg",
+      "r2_key": "works/2026/09/NSODN-023/hero-v1.jpg",
+      "bytes": 748232,
+      "sha256": "73a0822dda8f701b490fb40e268abd5a500aaba4cb434530d48d3c42360b8036",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/NSODN-023/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/NSODN-023/scene-vertical-v1.jpg",
+      "bytes": 1194944,
+      "sha256": "e69ea4dda34913970ad80ed178d7c79bf73641b2e8cc532f057bdd9a332cb893",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3500887,
+    "sha256": "344480bb54f47c59f95e006f9da1af02b0641646350962a7a4a37dde969c0c62",
+    "target_r2_key": "works/2026/09/NSODN-023/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/NSODN-023/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
