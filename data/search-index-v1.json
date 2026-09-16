@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:0cb9aeb93fc862a07be6778b1bfdebb8dbe4c42d87cfdba71bf69bdf093fbb76",
-  "source_generated_at": "2026-09-16T09:08:50.455Z",
+  "source_revision": "sha256:9ac35440305d7073d5e5f0439ea2e38782d099d01366b3a06bdd69048b2fc7e6",
+  "source_generated_at": "2026-09-16T09:11:20.031Z",
   "counts": {
-    "movies": 145,
-    "performers": 173,
+    "movies": 146,
+    "performers": 174,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1528,6 +1528,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:25946",
+      "display_name": "黒川一花",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "黒川一花",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:ACHJ-089"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:22609",
       "display_name": "黒川すみれ",
       "display_name_zh_tw": null,
@@ -1889,6 +1900,7 @@
       "source_name": "藤浦惠",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:ACHJ-089",
         "cc18:REBD-1062"
       ]
     },
@@ -4984,6 +4996,53 @@
         "article_title": "RLMP-013 推川悠里、九井珠奈緒、雨宮響｜完成",
         "display_short_title": null,
         "slug": "rlmp-013"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:ACHJ-089",
+        "source_cover": "https://cc18.tv/preview/80/b/2gaAZhIGOar-800.jpg?v=1788583099",
+        "title": "ACHJ-089 藤浦惠、黒川一花｜七つの調教企劃下的熟女變化看點",
+        "catalog_code": "ACHJ-089",
+        "release_date": "2026-09-04",
+        "performers": [
+          "藤浦惠",
+          "黒川一花"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "dirty-talk",
+            "label": "言語挑逗"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/achj-089/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:391",
+        "cc18.tv:actor:25946"
+      ],
+      "search": {
+        "source_title": "童貞的我為何變成了變態…被住在隔壁的美麗人妻教導「這才是正常的喔！」的七種調教",
+        "article_title": "ACHJ-089 藤浦惠、黒川一花｜七つの調教企劃下的熟女變化看點",
+        "display_short_title": null,
+        "slug": "achj-089"
       }
     },
     {

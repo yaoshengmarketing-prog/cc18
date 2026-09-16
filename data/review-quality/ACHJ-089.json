@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "ACHJ-089",
+  "review_sha256": "e17bb024784b30a4b3c565b4dfc80846abac0f015d6f8a6f3ace29df22d9b3af",
+  "selected_thesis": "藤浦惠的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "藤浦惠、黒川一花",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "藤浦惠",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "七つの調教",
+        "source_field": "series"
+      },
+      {
+        "type": "performer",
+        "value": "黒川一花",
+        "source_field": "actress"
+      },
+      {
+        "type": "identity",
+        "value": "人妻・主婦",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "藤浦惠",
+    "presentation_feature": "七つの調教",
+    "editorial_judgment": "藤浦惠的企劃呈現與觀看取向",
+    "source_keywords": [
+      "藤浦惠",
+      "七つの調教",
+      "黒川一花",
+      "人妻・主婦"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：藤浦惠",
+      "supports": "這項可追溯來源訊號支持文章以「藤浦惠」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：黒川一花",
+      "supports": "這項可追溯來源訊號支持文章以「黒川一花」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：七つの調教",
+      "supports": "這項可追溯來源訊號支持文章以「七つの調教」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：七つの調教",
+      "supports": "這項可追溯來源訊號支持文章以「七つの調教」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：癡女",
+      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻・主婦",
+      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-09T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

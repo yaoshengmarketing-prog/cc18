@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "ACHJ-089",
+  "calls": [
+    {
+      "generated_at": "2026-09-10T00:33:25.171Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2547,
+      "cached_input_tokens": 0,
+      "output_tokens": 1334,
+      "total_tokens": 3881,
+      "estimated_cost_usd": 0.04275,
+      "estimated_payg_cash_cost_usd": 0.044888,
+      "direct_openai_reference_usd": 0.026378,
+      "gateway_premium_usd": 0.016373,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2547,
+    "cached_input_tokens": 0,
+    "output_tokens": 1334,
+    "estimated_cost_usd": 0.04275,
+    "estimated_payg_cash_cost_usd": 0.044888,
+    "direct_openai_reference_usd": 0.026378,
+    "gateway_premium_usd": 0.016373
+  }
+}

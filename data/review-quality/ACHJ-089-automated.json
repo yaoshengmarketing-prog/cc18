@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "id": "ACHJ-089",
+  "checked_at": "2026-09-16T09:11:13.544Z",
+  "review_sha256": "e17bb024784b30a4b3c565b4dfc80846abac0f015d6f8a6f3ace29df22d9b3af",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看可追溯的公開資訊，本作最明確的辨識點就是系列名「七つの調教」。這代表它的吸引力首先不是建立在已知劇情細節，而是建立在企劃本身：以「調教」與「七種變化」作為包裝核心，再把角色轉變當成主要賣點。對選片來說，這種作品通常更適合對企劃設定有興趣、想看系列概念如何落在人物身上的觀眾"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "依現有來源，我會把它歸在企劃展示型傾向較強的作品。原因不是因為它沒有故事，而是因為目前可被追溯的核心資訊幾乎都圍繞在系列概念、身份題材與變化主題：像是「七つの調教」、熟女、以及由 title concept 帶出的「變成了變態」這類轉向式設定。這些元素足以形成觀看前的預期，但還不"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "可直接參考的來源關鍵字主要有三組。第一組是系列概念「七つの調教」，這是整部作品最核心的識別。第二組是人物屬性，包括「癡女」「人妻・主婦」「熟女」，共同指向成熟且帶有主動誘惑想像的題材面。第三組則是 action 與 presentation 類線索，例如「淫語」與「独占配信／HD"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

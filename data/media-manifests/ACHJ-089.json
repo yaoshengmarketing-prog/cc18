@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "ACHJ-089",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-16T09:11:14.958Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/ACHJ-089/hero-v1.jpg",
+      "r2_key": "works/2026/09/ACHJ-089/hero-v1.jpg",
+      "bytes": 643545,
+      "sha256": "2acda70274aca04a64ad7d7138c36a7c4b1a606abce62aa22cf3036e6c343bfc",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/ACHJ-089/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/ACHJ-089/scene-vertical-v1.jpg",
+      "bytes": 686805,
+      "sha256": "a54cbed4cc795d2dbf6822a7ee6ab503a4d4d855119c9a40ea891da229310965",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2058841,
+    "sha256": "133fb5642bfb1bdfe3609f2b3a2ef26cbc2befece3c6519928d588fcaa2698b7",
+    "target_r2_key": "works/2026/09/ACHJ-089/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/ACHJ-089/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T09:08:50.455Z",
+  "generated_at": "2026-09-16T09:11:20.031Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 149,
-  "formal_movie_count": 148,
+  "tracked_input_count": 150,
+  "formal_movie_count": 149,
   "demo_count": 1,
-  "published_count": 145,
+  "published_count": 146,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -17,6 +17,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "f20364501a1d8ba428efdb24bb8bb03f09515452778aa6cbacd8bebf0a19d139"
+    },
+    {
+      "stable_movie_id": "cc18:ACHJ-089",
+      "catalog_code": "ACHJ-089",
+      "slug": "achj-089",
+      "master_path": "data/movie-master/achj-089.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "2a4b681bd006feac95a10daef39cd95be9022c96de5fca70418973bbf248b5d6"
     },
     {
       "stable_movie_id": "cc18:ACZD-250",
