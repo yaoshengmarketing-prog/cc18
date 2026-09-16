@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:f05cad174ad8e3d0a85d0c28a88b6508c600f27e75998c943029f998ae80e95d",
-  "source_generated_at": "2026-09-16T08:53:18.331Z",
+  "source_revision": "sha256:0775c6e023fb05d0011d9183114ab97b4297bc4065f30dcfabb57f258993f14d",
+  "source_generated_at": "2026-09-16T08:56:08.780Z",
   "counts": {
-    "movies": 139,
-    "performers": 169,
+    "movies": 140,
+    "performers": 170,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -894,6 +894,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:29332",
+      "display_name": "金松季歩",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "金松季歩",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-342"
       ]
     },
     {
@@ -6207,6 +6218,55 @@
         "article_title": "SNOS-339 安達夕莉｜自拍企劃下的《憂鬱的我》：展示型設定比故事更關鍵",
         "display_short_title": null,
         "slug": "snos-339"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-342",
+        "source_cover": "https://cc18.tv/preview/80/b/VZAeEMX553-800.jpg?v=1788525531",
+        "title": "SNOS-342 金松季歩｜這就是色情的最終形態：展示型企劃取向明確",
+        "catalog_code": "SNOS-342",
+        "release_date": "2026-09-04",
+        "performers": [
+          "金松季歩"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-342/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:29332"
+      ],
+      "search": {
+        "source_title": "這就是色情的最終形態：超越慾望極限的M覺醒最大絕頂 金松季步",
+        "article_title": "SNOS-342 金松季歩｜這就是色情的最終形態：展示型企劃取向明確",
+        "display_short_title": null,
+        "slug": "snos-342"
       }
     },
     {

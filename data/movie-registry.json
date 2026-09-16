@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-16T08:53:13.723Z",
+  "updated_at": "2026-09-16T08:56:04.107Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -2168,6 +2168,21 @@
       ],
       "release_date": "2026-09-04",
       "source_url": "https://cc18.tv/player.php?uuid=keaTEk3OHi&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-08"
+    },
+    {
+      "id": "SNOS-342",
+      "actress": [
+        "金松季歩"
+      ],
+      "release_date": "2026-09-04",
+      "source_url": "https://cc18.tv/player.php?uuid=VZAeEMX553&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

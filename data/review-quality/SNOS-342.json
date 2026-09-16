@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-342",
+  "review_sha256": "5c37146e3223dc6432089fd824224970651b74455e0bc0a5dd9459060f600c23",
+  "selected_thesis": "金松季歩的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "金松季歩",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "金松季歩",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "這就是色情的最終形態",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "淫亂・過激系",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "金松季歩",
+    "presentation_feature": "這就是色情的最終形態",
+    "editorial_judgment": "金松季歩的企劃呈現與觀看取向",
+    "source_keywords": [
+      "金松季歩",
+      "這就是色情的最終形態",
+      "AV女優片",
+      "淫亂・過激系"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：金松季歩",
+      "supports": "這項可追溯來源訊號支持文章以「金松季歩」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：這就是色情的最終形態",
+      "supports": "這項可追溯來源訊號支持文章以「這就是色情的最終形態」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：淫亂・過激系",
+      "supports": "這項可追溯來源訊號支持文章以「淫亂・過激系」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：アクメ・オーガズム",
+      "supports": "這項可追溯來源訊號支持文章以「アクメ・オーガズム」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-07T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

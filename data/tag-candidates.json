@@ -855,10 +855,11 @@
     },
     {
       "label": "SM",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "BBAN-601",
-        "ACZD-250"
+        "ACZD-250",
+        "SNOS-342"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-16",
@@ -1387,14 +1388,15 @@
     },
     {
       "label": "拘束",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "BBTU-119",
         "DDK-241",
         "MANX-034",
-        "ACZD-250"
+        "ACZD-250",
+        "SNOS-342"
       ],
-      "first_seen": "2026-09-14",
+      "first_seen": "2026-09-08",
       "last_seen": "2026-09-16",
       "status": "quarantined"
     },
@@ -1593,11 +1595,12 @@
     },
     {
       "label": "打屁屁",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "ACZD-250"
+        "ACZD-250",
+        "SNOS-342"
       ],
-      "first_seen": "2026-09-16",
+      "first_seen": "2026-09-08",
       "last_seen": "2026-09-16",
       "status": "quarantined"
     },

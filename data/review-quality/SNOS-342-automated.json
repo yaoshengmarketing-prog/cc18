@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "SNOS-342",
+  "checked_at": "2026-09-16T08:56:02.673Z",
+  "review_sha256": "5c37146e3223dc6432089fd824224970651b74455e0bc0a5dd9459060f600c23",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果是從企劃辨識度來挑片，SNOS-342 最明確的吸引力，就是來源直接拋出的核心概念「這就是色情的最終形態」。這不是依賴複雜劇情或人物關係來建立期待，而是把作品重心放在一種強烈、直接的展示型企劃訴求上。公開資料同時標示金松季歩，以及「AV女優片」「淫亂・過激系」「アクメ・オーガ"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "這部片的企劃方向相當集中。首先，creative seed brief 把可用的組織主題放在「企劃設定、角色變化、互動節奏」，但同時也清楚指出這些主題只是文章組織線索，不能直接當成已證明的劇情。真正可落實的來源概念，仍是「這就是色情的最終形態」、金松季歩，以及 descripti"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
