@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "DSOD-078",
+  "checked_at": "2026-09-16T09:08:44.110Z",
+  "review_sha256": "f584bcd22221036b8ebebe203415fe3d4ed8a3bed54a9adbd0d4eacda68becf7",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 8,
+          "excerpt": "幾個最關鍵的來源訊號包括：第一，桃園怜奈是整體辨識核心，這不只是演員欄位資訊，也與 core_source_concept 一致；第二，系列名「【ハイレグ無様特化】おほ声肉便器」顯示出作品有強烈系列定位，對熟悉此類企劃的觀眾會有直接吸引力；第三，topic_elements 提到"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
