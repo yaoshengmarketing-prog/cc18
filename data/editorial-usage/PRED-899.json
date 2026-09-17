@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "PRED-899",
+  "calls": [
+    {
+      "generated_at": "2026-09-17T18:35:08.644Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 3064,
+      "cached_input_tokens": 0,
+      "output_tokens": 1211,
+      "total_tokens": 4275,
+      "estimated_cost_usd": 0.042568,
+      "estimated_payg_cash_cost_usd": 0.044696,
+      "direct_openai_reference_usd": 0.025825,
+      "gateway_premium_usd": 0.016743,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 3064,
+    "cached_input_tokens": 0,
+    "output_tokens": 1211,
+    "estimated_cost_usd": 0.042568,
+    "estimated_payg_cash_cost_usd": 0.044696,
+    "direct_openai_reference_usd": 0.025825,
+    "gateway_premium_usd": 0.016743
+  }
+}

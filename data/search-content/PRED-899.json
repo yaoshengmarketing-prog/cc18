@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "movie_id": "PRED-899",
+  "generated_at": "2026-09-17T18:35:08.723Z",
+  "source_snapshot_hash": "sha256:a0e522eb07ef9cff92752d78027978412a9139cdd2284a6357f5f7ce8dd04d8a",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "來源資料可確認本作以「NTR」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "幸村泉希",
+      "○○NTR",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想先依來源題材與作品設定挑選的觀眾",
+      "接受目前只提供來源資料整理的觀眾"
+    ],
+    "not_for": [
+      "需要影片抽樣觀察才能決定的觀眾",
+      "需要鏡位、收音或段落變化結論的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SNOS-358",
+      "relation_type": "same_performer",
+      "reason": "同樣由幸村泉希出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "幸村泉希"
+      ],
+      "contrast_signals": [
+        "久和原聖羅",
+        "三田真鈴"
+      ]
+    },
+    {
+      "movie_id": "NSODN-023",
+      "relation_type": "same_performer",
+      "reason": "同樣由幸村泉希出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "幸村泉希"
+      ],
+      "contrast_signals": [
+        "久和原聖羅",
+        "日向由奈"
+      ]
+    },
+    {
+      "movie_id": "DSJH-020",
+      "relation_type": "same_performer",
+      "reason": "同樣由幸村泉希出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "幸村泉希"
+      ],
+      "contrast_signals": [
+        "椿莉香",
+        "美之嶋惠理"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "來源資料可確認什麼？來源資料可確認本作以「NTR」作為主要作品線索。",
+    "目前能否提供影片觀察？目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "如何使用本頁？可先依來源題材與作品識別資訊判斷是否符合偏好。"
+  ]
+}

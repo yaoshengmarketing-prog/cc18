@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "PRED-899",
+  "review_sha256": "4b4b5a42a75fda56f3358266113b3512e673f240d58a85b98ed948935c9c7c88",
+  "selected_thesis": "來源資料可確認本作以「NTR」作為主要作品線索。",
+  "title_basis": {
+    "performer": "幸村泉希",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "幸村泉希",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "NTR",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "○○NTR",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "幸村泉希",
+    "presentation_feature": "NTR",
+    "editorial_judgment": "來源資料可確認本作以「NTR」作為主要作品線索。",
+    "source_keywords": [
+      "幸村泉希",
+      "NTR",
+      "○○NTR",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "結婚一年來，幸村夫婦一直過著平穩的生活。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：幸村泉希",
+      "supports": "這項可追溯來源訊號支持文章以「幸村泉希」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：○○NTR",
+      "supports": "這項可追溯來源訊號支持文章以「○○NTR」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：NTR",
+      "supports": "這項可追溯來源訊號支持文章以「NTR」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：窈窕",
+      "supports": "這項可追溯來源訊號支持文章以「窈窕」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-16T16:00:00.000Z"
+}

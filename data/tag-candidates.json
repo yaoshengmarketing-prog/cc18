@@ -629,7 +629,7 @@
     },
     {
       "label": "姐姐系",
-      "occurrences": 13,
+      "occurrences": 14,
       "source_ids": [
         "SNOS-364",
         "SNOS-372",
@@ -643,10 +643,11 @@
         "PRED-902",
         "IPZZ-960",
         "IPZZ-944",
-        "PRED-898"
+        "PRED-898",
+        "PRED-899"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "status": "quarantined"
     },
     {
@@ -687,7 +688,7 @@
     },
     {
       "label": "寝取り・寝取られ・ntr",
-      "occurrences": 20,
+      "occurrences": 21,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -708,10 +709,11 @@
         "UMAN-013",
         "DSOD-060",
         "HJMO-739",
-        "DVMM-445"
+        "DVMM-445",
+        "PRED-899"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "status": "quarantined"
     },
     {
@@ -1550,32 +1552,34 @@
     },
     {
       "label": "寢取・被寢取",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
         "DVMM-442",
         "DVMM-444",
         "HJMO-739",
-        "DVMM-445"
+        "DVMM-445",
+        "PRED-899"
       ],
       "first_seen": "2026-09-14",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "status": "quarantined"
     },
     {
       "label": "NTR",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
         "DVMM-442",
         "DVMM-444",
         "HJMO-739",
-        "DVMM-445"
+        "DVMM-445",
+        "PRED-899"
       ],
       "first_seen": "2026-09-14",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "status": "quarantined"
     },
     {
