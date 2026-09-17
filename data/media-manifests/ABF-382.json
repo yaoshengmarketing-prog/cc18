@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "ABF-382",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-17T18:17:34.661Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/ABF-382/hero-v1.jpg",
+      "r2_key": "works/2026/09/ABF-382/hero-v1.jpg",
+      "bytes": 940073,
+      "sha256": "6feea1659d5636f81529d5b3a20cf7892eced6601964b74465014e888ced2909",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "043ed773-6a59-45fc-a456-aae2c6766af8",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/ABF-382/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/ABF-382/scene-vertical-v1.jpg",
+      "bytes": 979283,
+      "sha256": "7ec7ab86307636b475925d417c41781817f8005114420d0baac08ac06a3fa61f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "cfd9a357-3b8e-46be-a2a8-5adc3ff6eff8",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3323329,
+    "sha256": "62513b87ed9796a3ec7a3512aecbc8dfad3180f3d14ec0070d4f0172df2d1f0c",
+    "target_r2_key": "works/2026/09/ABF-382/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/ABF-382/vertical-v1.mp4"
+  }
+}

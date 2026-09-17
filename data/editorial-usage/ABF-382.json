@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "ABF-382",
+  "calls": [
+    {
+      "generated_at": "2026-09-17T18:16:25.268Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2999,
+      "cached_input_tokens": 0,
+      "output_tokens": 1239,
+      "total_tokens": 4238,
+      "estimated_cost_usd": 0.042873,
+      "estimated_payg_cash_cost_usd": 0.045016,
+      "direct_openai_reference_usd": 0.026083,
+      "gateway_premium_usd": 0.01679,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2999,
+    "cached_input_tokens": 0,
+    "output_tokens": 1239,
+    "estimated_cost_usd": 0.042873,
+    "estimated_payg_cash_cost_usd": 0.045016,
+    "direct_openai_reference_usd": 0.026083,
+    "gateway_premium_usd": 0.01679
+  }
+}

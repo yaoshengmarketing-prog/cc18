@@ -507,7 +507,7 @@
     },
     {
       "label": "美乳",
-      "occurrences": 12,
+      "occurrences": 13,
       "source_ids": [
         "SNOS-369",
         "SNOS-447",
@@ -520,10 +520,11 @@
         "PKPD-434",
         "UMD-1017",
         "BAGR-093",
-        "SNOS-313"
+        "SNOS-313",
+        "ABF-382"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-16",
+      "last_seen": "2026-09-18",
       "status": "quarantined"
     },
     {
@@ -1257,14 +1258,15 @@
     },
     {
       "label": "ローション・オイル",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "NACT-182",
         "BBTU-119",
-        "HSM-090"
+        "HSM-090",
+        "ABF-382"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "status": "quarantined"
     },
     {
