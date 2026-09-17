@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "HNHU-217",
+  "checked_at": "2026-09-17T13:43:49.484Z",
+  "review_sha256": "fe8ed02d83bc745b03958457164e02f1699bfaef3f40f69eab525b559507f616",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看公開來源，HNHU-217 最明確的辨識點不是單一行為標籤，而是「獨家」包住整個素人企劃，再由標題中的幾個設定詞把記憶點集中起來。來源可追溯的資訊包括「素人」「窈窕」「中出」，以及 creative seed 裡從標題摘出的「3個月沒有滿足需求的美女」「只要一接吻就發出淫"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
