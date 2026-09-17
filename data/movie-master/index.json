@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-17T01:39:55.428Z",
+  "generated_at": "2026-09-17T01:44:05.317Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 167,
-  "formal_movie_count": 166,
+  "tracked_input_count": 168,
+  "formal_movie_count": 167,
   "demo_count": 1,
-  "published_count": 163,
+  "published_count": 164,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1061,6 +1061,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "c2386dbb3d7ebc625033ccb5864f6bfc4177bc0913646c2d57736ac3c0fa4cf4"
+    },
+    {
+      "stable_movie_id": "cc18:PRED-898",
+      "catalog_code": "PRED-898",
+      "slug": "pred-898",
+      "master_path": "data/movie-master/pred-898.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "7b0bef827028d390ca875d0b8e612590ccd9501e9d0d598f183984ce53484411"
     },
     {
       "stable_movie_id": "cc18:PRED-902",
