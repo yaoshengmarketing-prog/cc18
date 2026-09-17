@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "HSM-090",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-17T13:36:08.402Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/HSM-090/hero-v1.jpg",
+      "r2_key": "works/2026/09/HSM-090/hero-v1.jpg",
+      "bytes": 713799,
+      "sha256": "59a7cb6ff30ddbb1dde1ee4c4b89d150fa35520541f0f6c6f8b040891e1a6e8d",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "383043c3-e19d-44f2-95fb-5bbc34322890",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/HSM-090/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/HSM-090/scene-vertical-v1.jpg",
+      "bytes": 833339,
+      "sha256": "6d5007b4e71e0c55e42f72c5aa1d684e77f207e721d82072d4bbdc7d2aed03f0",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "95fe55b0-f40f-40e7-8471-b5ca5e4ee5aa",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2325935,
+    "sha256": "9d7a2713ffced1109016918e4d4a522b1c3a3454113ec427204c90afe4552248",
+    "target_r2_key": "works/2026/09/HSM-090/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/HSM-090/vertical-v1.mp4"
+  }
+}

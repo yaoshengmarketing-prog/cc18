@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-17T13:32:30.613Z",
+  "updated_at": "2026-09-17T13:36:50.442Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -2556,6 +2556,21 @@
       "actress": [],
       "release_date": "2026-09-11",
       "source_url": "https://cc18.tv/player.php?uuid=8V83uO_OBcc&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-17"
+    },
+    {
+      "id": "HSM-090",
+      "actress": [
+        "友江めい"
+      ],
+      "release_date": "2026-09-10",
+      "source_url": "https://cc18.tv/player.php?uuid=2ZhDP61Ny7v&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "HSM-090",
+  "review_sha256": "c0c3540e58ff5b235272ee0d64ec94e54f20a2a11119e3b703a9662c3d64245f",
+  "selected_thesis": "來源資料可確認本作以「處女畢業」作為主要作品線索。",
+  "title_basis": {
+    "performer": "友江めい",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "友江めい",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "處女畢業",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "自拍形式",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "友江めい",
+    "presentation_feature": "處女畢業",
+    "editorial_judgment": "來源資料可確認本作以「處女畢業」作為主要作品線索。",
+    "source_keywords": [
+      "友江めい",
+      "處女畢業",
+      "自拍形式",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "迷你蘿莉系美處女偽娘 友江芽衣 18歲 AV出道！",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：友江めい",
+      "supports": "這項可追溯來源訊號支持文章以「友江めい」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：自拍形式",
+      "supports": "這項可追溯來源訊號支持文章以「自拍形式」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：處女畢業",
+      "supports": "這項可追溯來源訊號支持文章以「處女畢業」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：變性人",
+      "supports": "這項可追溯來源訊號支持文章以「變性人」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：自拍",
+      "supports": "這項可追溯來源訊號支持文章以「自拍」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-16T16:00:00.000Z"
+}

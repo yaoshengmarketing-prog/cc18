@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:aad4feaac33c18f94586a8ef7a2fafe1a4df8829599757bffdd08fa9a77ba714",
-  "source_generated_at": "2026-09-17T13:32:37.224Z",
+  "source_revision": "sha256:f3b0abb0aae1a3cae0e227d8ec6775a2bfa81b76f3e15d5a65f40699e308e8e1",
+  "source_generated_at": "2026-09-17T13:36:57.071Z",
   "counts": {
-    "movies": 165,
-    "performers": 186,
+    "movies": 166,
+    "performers": 187,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -335,6 +335,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-374"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54624",
+      "display_name": "友江めい",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "友江めい",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:HSM-090"
       ]
     },
     {
@@ -4752,6 +4763,47 @@
         "article_title": "HEZ-919 吉根柚莉愛｜而用屁眼處理的閉經前熟女：以企劃設定驅動的選片",
         "display_short_title": null,
         "slug": "hez-919"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:HSM-090",
+        "source_cover": "https://cc18.tv/preview/80/b/2ZhDP61Ny7v-800.jpg?v=1789029563",
+        "title": "HSM-090 友江めい｜處女畢業",
+        "catalog_code": "HSM-090",
+        "release_date": "2026-09-10",
+        "performers": [
+          "友江めい"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "self-shot",
+            "label": "自拍視角"
+          },
+          {
+            "id": "transgender",
+            "label": "變性人"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/hsm-090/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54624"
+      ],
+      "search": {
+        "source_title": "處女畢業 迷你蘿莉系美處女偽娘 友江芽衣 18歲 AV出道",
+        "article_title": "HSM-090 友江めい｜處女畢業",
+        "display_short_title": null,
+        "slug": "hsm-090"
       }
     },
     {
