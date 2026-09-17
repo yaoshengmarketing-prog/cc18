@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "MIDA-781",
+  "review_sha256": "8a370a0ac955075376a97e6668d38469b132fd87de6893773813f6ab106fa56e",
+  "selected_thesis": "奥井千晴的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "奥井千晴",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "奥井千晴",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "奧井千晴",
+        "source_field": "title"
+      },
+      {
+        "type": "theme",
+        "value": "角色扮演",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "奥井千晴",
+    "presentation_feature": "奧井千晴",
+    "editorial_judgment": "奥井千晴的企劃呈現與觀看取向",
+    "source_keywords": [
+      "奥井千晴",
+      "奧井千晴",
+      "角色扮演",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：奥井千晴",
+      "supports": "這項可追溯來源訊號支持文章以「奥井千晴」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：角色扮演",
+      "supports": "這項可追溯來源訊號支持文章以「角色扮演」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：奧井千晴",
+      "supports": "這項可追溯來源訊號支持文章以「奧井千晴」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "costume：角色扮演",
+      "supports": "這項可追溯來源訊號支持文章以「角色扮演」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：口交",
+      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-16T16:00:00.000Z"
+}

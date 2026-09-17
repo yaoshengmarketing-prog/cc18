@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "MIDA-781",
+  "checked_at": "2026-09-17T01:37:53.568Z",
+  "review_sha256": "be411a18fe8c561431b9986fb4151ca235e271c5653e7c0269023c0a1d32c917",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就現有公開資料來看，MIDA-781 最明確的核心不是複雜劇情，而是以「奧井千晴」本人作為主辨識點，搭配「角色扮演」與「AV女優片」這類企劃型標籤來建立吸引力。題名與來源概念都直接指向奧井千晴，代表選片時最先成立的理由，就是觀眾是否對她本人的存在感與企劃包裝有興趣。再加上公開元素"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "「角色扮演」是這部片最實用的選片訊號之一，因為它同時出現在安全標題訊號與 topic elements 的 clothing 類別中，顯示這不是偶然附帶，而是公開資料裡可以反覆確認的主題包裝。即使目前沒有更細的人設資訊可供展開，這個訊號仍足以影響判斷：它暗示本作不是單純只靠演員姓"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

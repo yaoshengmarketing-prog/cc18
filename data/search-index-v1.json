@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:6276317edb5aaa90eb2c60bfc8a755a3c498b196098b5b2f87ee390f09fd6484",
-  "source_generated_at": "2026-09-17T01:35:05.210Z",
+  "source_revision": "sha256:7f8235819ba22c63470fa2cea6f58634c8edc8aeddcfab7203c196ce6aa17127",
+  "source_generated_at": "2026-09-17T01:39:55.428Z",
   "counts": {
-    "movies": 162,
-    "performers": 184,
+    "movies": 163,
+    "performers": 185,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1641,6 +1641,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SQTE-717"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53983",
+      "display_name": "奥井千晴",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "奥井千晴",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MIDA-781"
       ]
     },
     {
@@ -3452,6 +3463,55 @@
         "article_title": "MIDA-744 七澤美亞｜最頂級的不倫生活",
         "display_short_title": null,
         "slug": "mida-744"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MIDA-781",
+        "source_cover": "https://cc18.tv/preview/80/b/43Td21oSpbZ-800.jpg?v=1789159321",
+        "title": "MIDA-781 奥井千晴｜角色扮演企劃：以人設與淫語訊號撐起的展示型選片",
+        "catalog_code": "MIDA-781",
+        "release_date": "2026-09-11",
+        "performers": [
+          "奥井千晴"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cosplay",
+            "label": "角色扮演"
+          },
+          {
+            "id": "dirty-talk",
+            "label": "言語挑逗"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mida-781/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53983"
+      ],
+      "search": {
+        "source_title": "「我最～喜歡口交了」因父母再婚而成為家人的思春期口交義妹，穿著卑猥Cosplay索要肉棒，連清理工作也將最後一滴精液舔得乾乾淨淨 奧井千晴",
+        "article_title": "MIDA-781 奥井千晴｜角色扮演企劃：以人設與淫語訊號撐起的展示型選片",
+        "display_short_title": null,
+        "slug": "mida-781"
       }
     },
     {
