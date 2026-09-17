@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "movie_id": "YJNS-001",
+  "generated_at": "2026-09-17T01:28:26.268Z",
+  "source_snapshot_hash": "sha256:dc80f1a935e2c2ae052cded01efd8579a336278aee209e88765181eb5044ede8",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "素人企劃的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "素人企劃",
+      "高畫質",
+      "獨家配信",
+      "獨自在家女孩守護隊"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "無演員姓名可用，不能補寫人物身分。",
+      "無 video_analysis，不能描述實際場景、表演、鏡位、剪輯或聲音。",
+      "公開來源僅能支持對企劃設定、宣傳前提與選片取向的評論。"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？素人企劃的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+    "有哪些觀看取捨？無演員姓名可用，不能補寫人物身分。"
+  ]
+}

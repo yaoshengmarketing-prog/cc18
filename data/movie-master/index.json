@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-16T17:19:09.840Z",
+  "generated_at": "2026-09-17T01:30:15.533Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 164,
-  "formal_movie_count": 163,
+  "tracked_input_count": 165,
+  "formal_movie_count": 164,
   "demo_count": 1,
-  "published_count": 160,
+  "published_count": 161,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1484,6 +1484,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "85b8906c22f0c163b7ba45da92dfaebd6b67560f2d9916e7f9605a0e09f6802e"
+    },
+    {
+      "stable_movie_id": "cc18:YJNS-001",
+      "catalog_code": "YJNS-001",
+      "slug": "yjns-001",
+      "master_path": "data/movie-master/yjns-001.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "e4ea8bbcd06748da32dfc12a1728a794a6b802a5f39fcaf605bfab6bddda88b9"
     }
   ]
 }

@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "id": "YJNS-001",
+  "checked_at": "2026-09-17T01:28:26.365Z",
+  "review_sha256": "8c9e7005d039e7506b59588fe303d193c7e4d1ded01e15b549f182ad931913a0",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "body_lacks_source_adult_vocabulary",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "這次最明確的選片理由，來自片名與核心概念直接給出的「獨自在家女孩守護隊」。在已知資訊不多的情況下，這個命名已經清楚表明作品不是單靠單一人物賣點，而是以一個帶有團體色彩、企劃感強烈的前提來吸引觀眾。再加上來源中另有「檔案1」這類標示，也讓人傾向把它理解為偏展示型、以設定包裝為重心的"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

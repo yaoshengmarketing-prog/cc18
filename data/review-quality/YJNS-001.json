@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "YJNS-001",
+  "review_sha256": "20ec4faabc85bd44274e12999ccc7a2cf10d3530ca37a81bf3caf0ec05329be9",
+  "selected_thesis": "素人企劃的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨自在家女孩守護隊",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨自在家女孩守護隊",
+    "presentation_feature": "素人企劃",
+    "editorial_judgment": "素人企劃的企劃呈現與觀看取向",
+    "source_keywords": [
+      "獨自在家女孩守護隊",
+      "素人企劃",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "成員共有5名，平時全部都在小學擔任教師。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "一旦發現中意的女孩，我們會從她們放學的情況開始用望遠鏡頭拍攝，有時甚至會潛入她們公寓的陽台，將她們換衣服的樣子拍下來進行「守護」。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "『家庭訪問時在廁所安裝的攝影機，有拍到東西嗎？",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：素人企劃",
+      "supports": "這項可追溯來源訊號支持文章以「素人企劃」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：獨自在家女孩守護隊",
+      "supports": "這項可追溯來源訊號支持文章以「獨自在家女孩守護隊」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：素人",
+      "supports": "這項可追溯來源訊號支持文章以「素人」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：独占配信",
+      "supports": "這項可追溯來源訊號支持文章以「独占配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "無演員姓名可用，不能補寫人物身分。",
+    "無 video_analysis，不能描述實際場景、表演、鏡位、剪輯或聲音。",
+    "公開來源僅能支持對企劃設定、宣傳前提與選片取向的評論。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-16T16:00:00.000Z"
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "YJNS-001",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-17T01:29:24.203Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/YJNS-001/hero-v1.jpg",
+      "r2_key": "works/2026/09/YJNS-001/hero-v1.jpg",
+      "bytes": 607117,
+      "sha256": "d9acd8918543584b45fe27720bac26ae30b7478467a504219309537f199124a6",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "f6644a15-2abc-4183-8ab2-b5569dc6f36f",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/YJNS-001/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/YJNS-001/scene-vertical-v1.jpg",
+      "bytes": 967260,
+      "sha256": "fa98d960a4b4d44e17bff60df0300e8671568530a8feb25af1821ab3e096441f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "b0f68fc7-f6ee-414b-b46e-dbdaa2a5e5b9",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2326608,
+    "sha256": "2d62b538fcf57054392439ff1ec03cb72f7b0dad5a2bf105c725b2ec02da722c",
+    "target_r2_key": "works/2026/09/YJNS-001/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/YJNS-001/vertical-v1.mp4"
+  }
+}
