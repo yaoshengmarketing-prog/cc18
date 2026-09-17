@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-17T18:24:26.200Z",
+  "updated_at": "2026-09-17T18:32:13.115Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -2599,6 +2599,21 @@
       ],
       "release_date": "2026-09-12",
       "source_url": "https://cc18.tv/player.php?uuid=Bq3r3BhBU2_&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-17"
+    },
+    {
+      "id": "PPPE-442",
+      "actress": [
+        "杏津杏"
+      ],
+      "release_date": "2026-09-11",
+      "source_url": "https://cc18.tv/player.php?uuid=k3zZoai1Cfc&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

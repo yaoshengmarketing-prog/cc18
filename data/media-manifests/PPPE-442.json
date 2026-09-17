@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "PPPE-442",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-17T18:31:34.465Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/PPPE-442/hero-v1.jpg",
+      "r2_key": "works/2026/09/PPPE-442/hero-v1.jpg",
+      "bytes": 667558,
+      "sha256": "1ffe0a27c6a3b2e81b3e8150e2f541ad6e23dac1165d3ae4d497b749e6d7bb7f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "249e50f4-1978-47c5-8847-8f4e47be7f8a",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/PPPE-442/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/PPPE-442/scene-vertical-v1.jpg",
+      "bytes": 1237002,
+      "sha256": "3a52d4aacf43dadd8aeeed1a44605e94f2b5b2234879f40d0e51d2cd5d142f33",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "5a537338-98ca-4aca-97bb-5f72f5c00208",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3644093,
+    "sha256": "5ffb6d85761c884abd99f41a93fca63127a6cb5821d8c73e00de139001476f5c",
+    "target_r2_key": "works/2026/09/PPPE-442/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/PPPE-442/vertical-v1.mp4"
+  }
+}

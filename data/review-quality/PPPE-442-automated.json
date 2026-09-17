@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "id": "PPPE-442",
+  "checked_at": "2026-09-17T18:30:34.629Z",
+  "review_sha256": "e3c4e3aa44a38415abefecc6d693a25d6f77a3f903872464eb8c838b20195778",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "因為來源中的 core source concept 就是「杏津杏」，而且片名可用訊號、演員欄位與 creative seed brief 都反覆指向她本人。這代表本作的辨識焦點不是一個已被公開說明的情節，而是由演出者本身來承接企劃吸引力。對選片者來說，這種作品的判斷方式通常會回"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "系列名「スペンス乳腺開発クリニック」本身就提供了很強的企劃框架感。即使目前沒有可進一步驗證的公開劇情介紹，光是系列名稱已足以讓人預期這不是日常寫實取向，而是明顯依賴系列設定、概念包裝與固定賣點辨識的作品。也因為如此，這部片在選片上會更吃「你是否買單這個系列公式」：如果你偏好有明確"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
