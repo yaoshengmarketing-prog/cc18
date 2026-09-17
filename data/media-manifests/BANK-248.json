@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "BANK-248",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-17T01:34:15.296Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/BANK-248/hero-v1.jpg",
+      "r2_key": "works/2026/09/BANK-248/hero-v1.jpg",
+      "bytes": 870789,
+      "sha256": "9c45b7cfd7e0e807e2e168affaf115551b3331c6c1f7ce58d08121cdd04ae062",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "12669250-16ee-479b-825d-541ae112b0a0",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 溫泉, 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictio"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/BANK-248/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/BANK-248/scene-vertical-v1.jpg",
+      "bytes": 1727590,
+      "sha256": "15b3e88f2b1b350e684e9d97f25000b29dfcc09d0032230aa50c97612bce42be",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "096248a8-f6b7-4ba1-a95e-11418b6f995b",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 溫泉, 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictio"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3995537,
+    "sha256": "bccd3ddb2300783ed7cbc9847bcf4e9a327d814cbeb09eb27fdb1485996f1c89",
+    "target_r2_key": "works/2026/09/BANK-248/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/BANK-248/vertical-v1.mp4"
+  }
+}

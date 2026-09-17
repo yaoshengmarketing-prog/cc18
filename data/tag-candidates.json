@@ -445,7 +445,7 @@
     },
     {
       "label": "制服",
-      "occurrences": 9,
+      "occurrences": 10,
       "source_ids": [
         "SNOS-409",
         "SNOS-369",
@@ -455,10 +455,11 @@
         "MIMK-291",
         "MUDR-406",
         "MUKD-585",
-        "SQTE-716"
+        "SQTE-716",
+        "BANK-248"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-16",
+      "last_seen": "2026-09-17",
       "status": "quarantined"
     },
     {
@@ -974,16 +975,17 @@
     },
     {
       "label": "自慰",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "MILK-306",
         "DOKS-690",
         "SQTE-718",
         "OFTR-015",
-        "BAGR-093"
+        "BAGR-093",
+        "BANK-248"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-16",
+      "last_seen": "2026-09-17",
       "status": "quarantined"
     },
     {
@@ -1000,13 +1002,14 @@
     },
     {
       "label": "野外",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "DLDSS-539",
-        "CEMD-889"
+        "CEMD-889",
+        "BANK-248"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-08",
+      "last_seen": "2026-09-17",
       "status": "quarantined"
     },
     {
@@ -1182,12 +1185,13 @@
     },
     {
       "label": "白虎",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "MAAN-1192",
         "UMD-1019",
         "UMD-1017",
-        "SUJI-319"
+        "SUJI-319",
+        "BANK-248"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-17",
@@ -1414,14 +1418,15 @@
     },
     {
       "label": "溫泉",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "OREMO-606",
         "OFTR-016",
-        "SQTE-717"
+        "SQTE-717",
+        "BANK-248"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-09-16",
+      "last_seen": "2026-09-17",
       "status": "quarantined"
     },
     {
@@ -1819,6 +1824,16 @@
       "occurrences": 1,
       "source_ids": [
         "YJNS-001"
+      ],
+      "first_seen": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "status": "quarantined"
+    },
+    {
+      "label": "若妻・幼妻",
+      "occurrences": 1,
+      "source_ids": [
+        "BANK-248"
       ],
       "first_seen": "2026-09-17",
       "last_seen": "2026-09-17",

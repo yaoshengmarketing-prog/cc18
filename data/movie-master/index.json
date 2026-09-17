@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-17T01:30:15.533Z",
+  "generated_at": "2026-09-17T01:35:05.210Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 165,
-  "formal_movie_count": 164,
+  "tracked_input_count": 166,
+  "formal_movie_count": 165,
   "demo_count": 1,
-  "published_count": 161,
+  "published_count": 162,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -80,6 +80,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "009f0d14a92aabebd0fe3a916ea73a4cae0bd8001582b298976c0e50286aae67"
+    },
+    {
+      "stable_movie_id": "cc18:BANK-248",
+      "catalog_code": "BANK-248",
+      "slug": "bank-248",
+      "master_path": "data/movie-master/bank-248.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "6129b9654d8fa0473787b28de9923bf09aed3683523929eae4644986bff61900"
     },
     {
       "stable_movie_id": "cc18:BBAN-601",
