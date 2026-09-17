@@ -788,10 +788,11 @@
     },
     {
       "label": "偷窺",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "NSODN-025",
-        "YJNS-001"
+        "YJNS-001",
+        "HRSM-159"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-17",
@@ -1468,10 +1469,11 @@
     },
     {
       "label": "鬼畜系",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "DDK-241",
-        "YJNS-001"
+        "YJNS-001",
+        "HRSM-159"
       ],
       "first_seen": "2026-09-15",
       "last_seen": "2026-09-17",

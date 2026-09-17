@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "HRSM-159",
+  "checked_at": "2026-09-17T13:30:39.874Z",
+  "review_sha256": "a7328e1e070737143e1dec9e0878614a25edef5e468d72bdaa4922de5e590562",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果先看可追溯的公開資訊，HRSM-159 最明確的辨識核心就是片名中的「鮮奶油滿滿的播種4名」。這個概念本身就比一般泛用標籤更能定義作品方向：它不是以已知演員、系列世界觀或人物關係為主，而是直接把企劃主題放在最前面。再對照來源中的「素人企劃」「素人」與「中出」等訊號，可以合理判"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "整體而言，HRSM-159 的定位很清楚：它是一部由核心概念驅動的素人展示型作品。片名中的「鮮奶油滿滿的播種4名」提供了最主要的差異化來源，搭配「中出」與「淫亂・過激系」等公開標籤，讓它在同類型作品裡具備明確、直接的題材辨識度。現階段最穩妥的編輯判斷，不是替它延伸出未被證實的故事"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
