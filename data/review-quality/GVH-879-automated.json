@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "GVH-879",
+  "checked_at": "2026-09-17T18:21:21.438Z",
+  "review_sha256": "24587d239a47d7cdb2326ce4bf704bb55200ab99e53c2a1b2416d55fd3518b30",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "目前可追溯的訊號主要不是角色背景，而是演出者名稱與「美少女」這個公開標示的組合。來源沒有補足更細的人物設定，因此持野蓬在本作的吸引力，現階段更像是被放進「禁断介護」這個企劃容器裡，去承接美少女路線的呈現。這也讓選片邏輯變得很直接：如果你本來就會優先看持野蓬，或偏好以美少女形象作為"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "以目前來源來看，我會把它歸為展示型企劃優先。原因不是它一定沒有故事，而是公開資料真正穩固的部分，集中在系列概念、演出者與幾個標籤化元素，例如「禁断介護」、「美少女」、「巨乳」、以及動作標示中的「中出」「親吻」。這些資訊足以描述作品的市場定位與題材方向，卻不足以證明有明確的敘事密度"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
