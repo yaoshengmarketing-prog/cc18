@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-18T06:16:44.498Z",
+  "updated_at": "2026-09-18T06:21:05.358Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -2716,6 +2716,19 @@
       "actress": [],
       "release_date": "2026-09-13",
       "source_url": "https://cc18.tv/player.php?uuid=165DOYQEE1z&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-18"
+    },
+    {
+      "id": "HAWA-386",
+      "actress": [],
+      "release_date": "2026-09-13",
+      "source_url": "https://cc18.tv/player.php?uuid=PmF3s9aC&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

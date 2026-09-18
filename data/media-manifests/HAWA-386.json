@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "HAWA-386",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-18T06:20:30.509Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/HAWA-386/hero-v1.jpg",
+      "r2_key": "works/2026/09/HAWA-386/hero-v1.jpg",
+      "bytes": 605075,
+      "sha256": "19160c9985879496e92832c95974f6f2bd4f2c0efcc3f532f083842c2e77a759",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "f4c69e9c-fdb6-4943-b7e7-e27317a13420",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/HAWA-386/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/HAWA-386/scene-vertical-v1.jpg",
+      "bytes": 1653923,
+      "sha256": "83764a7ef5174ab562f329dcc65f65b6ff1dfe418e1993c171df549e44fea1a4",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "a285a240-77f7-4124-8f79-32db0586e373",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3280666,
+    "sha256": "c3a9f04f3aad97d46cf90d737fd443f44369f3e3087eb7693b24b4db7d48ec32",
+    "target_r2_key": "works/2026/09/HAWA-386/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/HAWA-386/vertical-v1.mp4"
+  }
+}

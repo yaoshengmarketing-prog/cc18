@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-18T06:16:50.054Z",
+  "generated_at": "2026-09-18T06:21:10.751Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 180,
-  "formal_movie_count": 179,
+  "tracked_input_count": 181,
+  "formal_movie_count": 180,
   "demo_count": 1,
-  "published_count": 176,
+  "published_count": 177,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -566,6 +566,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "65811ec8bdf12c6b5e2cd078dc09bdaf11200ac27d49cc01a3f2c40589a8d027"
+    },
+    {
+      "stable_movie_id": "cc18:HAWA-386",
+      "catalog_code": "HAWA-386",
+      "slug": "hawa-386",
+      "master_path": "data/movie-master/hawa-386.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "4e8c368f9504001daad780217d96266bec550ece7eb524265726ce7c0939fb0c"
     },
     {
       "stable_movie_id": "cc18:HEZ-919",

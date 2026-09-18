@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "HAWA-386",
+  "checked_at": "2026-09-18T06:19:34.516Z",
+  "review_sha256": "ed4d9a5da50744189536b786baa0d42762dfd18c48132a040ec2a4940cff63b9",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只根據目前可追溯的公開資訊，這部作品最明確的吸引力並不是複雜人物關係，而是企劃概念本身：以「幫自墮落的我處理性慾」作為核心賣點，直接把觀看期待集中在欲望處理與角色功能設定上。再加上它隸屬於《熟れたおばさん肉オナホに発射し放題！！》系列，整體判斷會更偏向一部主題鮮明、訴求直接的系"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "目前可確認的題材訊號包括「人妻・主婦」、「巨乳」以及「中出」「3p・4p」等元素，這些資訊足以勾勒出作品的市場定位：它主要不是靠未知演員名單或特定故事背景帶動，而是靠身份屬性、身體特徵與行為標籤來建立選片理由。另一方面，creative seed brief 也收錄了描述中的「潮"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
