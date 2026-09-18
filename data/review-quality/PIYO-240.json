@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "PIYO-240",
+  "review_sha256": "7d573e5851733f032e470c2b06158cd83fe22add73830bda209013e595eaf42a",
+  "selected_thesis": "來源資料可確認本作以「こっそり強●精飲」作為主要作品線索。",
+  "title_basis": {
+    "performer": "青葉春、鳥羽いく、白鳥怜",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "青葉春",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "こっそり強●精飲",
+        "source_field": "series"
+      },
+      {
+        "type": "performer",
+        "value": "鳥羽いく",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "白鳥怜",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "青葉春",
+    "presentation_feature": "こっそり強●精飲",
+    "editorial_judgment": "來源資料可確認本作以「こっそり強●精飲」作為主要作品線索。",
+    "source_keywords": [
+      "青葉春",
+      "こっそり強●精飲",
+      "鳥羽いく",
+      "白鳥怜"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：青葉春",
+      "supports": "這項可追溯來源訊號支持文章以「青葉春」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：鳥羽いく",
+      "supports": "這項可追溯來源訊號支持文章以「鳥羽いく」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：白鳥怜",
+      "supports": "這項可追溯來源訊號支持文章以「白鳥怜」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：こっそり強●精飲",
+      "supports": "這項可追溯來源訊號支持文章以「こっそり強●精飲」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "setting：學生設定",
+      "supports": "這項可追溯來源訊號支持文章以「學生設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：こっそり強●精飲",
+      "supports": "這項可追溯來源訊號支持文章以「こっそり強●精飲」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：學生妹",
+      "supports": "這項可追溯來源訊號支持文章以「學生妹」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-17T16:00:00.000Z"
+}

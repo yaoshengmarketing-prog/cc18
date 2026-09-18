@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-18T06:04:06.591Z",
+  "generated_at": "2026-09-18T06:08:28.601Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 177,
-  "formal_movie_count": 176,
+  "tracked_input_count": 178,
+  "formal_movie_count": 177,
   "demo_count": 1,
-  "published_count": 173,
+  "published_count": 174,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1088,6 +1088,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "b5a59a667b1afe7da37c6365979584bd0510144a4928471c1ec1199bf3871371"
+    },
+    {
+      "stable_movie_id": "cc18:PIYO-240",
+      "catalog_code": "PIYO-240",
+      "slug": "piyo-240",
+      "master_path": "data/movie-master/piyo-240.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "aed6ea9d13547e9ad198ca080b5b01051379445fbc79e5fc4081d51e73f684e8"
     },
     {
       "stable_movie_id": "cc18:PKPD-434",

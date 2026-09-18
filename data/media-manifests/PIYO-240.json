@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "PIYO-240",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-18T06:07:48.181Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/PIYO-240/hero-v1.jpg",
+      "r2_key": "works/2026/09/PIYO-240/hero-v1.jpg",
+      "bytes": 461891,
+      "sha256": "8cd820ec2cd54834e0a0a3796b8920fddbcb1645227aca7c0ca09bb59f1ef2a8",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "24160c9d-cb80-4e92-b6eb-da80dca7234d",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/PIYO-240/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/PIYO-240/scene-vertical-v1.jpg",
+      "bytes": 1048806,
+      "sha256": "7bf613246c148ec8c7f564446542f0b8efffaa021c1a18f63a47da2c76f7989a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "46f70808-e223-4d3f-b4c6-5e5802fc281d",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3111761,
+    "sha256": "83bc107d594d2f79587e24aa29f839339cc81abf5d2a4f783f3deeafad0d8f6f",
+    "target_r2_key": "works/2026/09/PIYO-240/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/PIYO-240/vertical-v1.mp4"
+  }
+}

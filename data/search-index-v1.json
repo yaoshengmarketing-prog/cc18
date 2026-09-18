@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:d5e03be6c4381d5f3ae1e4e6a190ca08e7bbcfe5beda786df05d4355d87eb886",
-  "source_generated_at": "2026-09-18T06:04:06.591Z",
+  "source_revision": "sha256:9d5096bc25c2d41d2e6447de01cf118acb28451290b155e5bbacb7953bad1007",
+  "source_generated_at": "2026-09-18T06:08:28.601Z",
   "counts": {
-    "movies": 173,
-    "performers": 191,
+    "movies": 174,
+    "performers": 193,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -619,6 +619,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:53483",
+      "display_name": "白鳥怜",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "白鳥怜",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PIYO-240"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:54206",
       "display_name": "石田紗季",
       "display_name_zh_tw": null,
@@ -1036,6 +1047,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-358"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:48814",
+      "display_name": "青葉春",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "青葉春",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PIYO-240"
       ]
     },
     {
@@ -1664,7 +1686,8 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MVG-172",
-        "cc18:PIYO-238"
+        "cc18:PIYO-238",
+        "cc18:PIYO-240"
       ]
     },
     {
@@ -2315,6 +2338,51 @@
         "article_title": "CPZ69-015 綾瀬心、七原さゆ｜オタク・オデッセイ",
         "display_short_title": null,
         "slug": "cpz69-015"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:PIYO-240",
+        "source_cover": "https://cc18.tv/preview/80/b/AJp7uKMkbE-800.jpg?v=1789501239",
+        "title": "PIYO-240 青葉春、鳥羽いく、白鳥怜｜こっそり強●精飲",
+        "catalog_code": "PIYO-240",
+        "release_date": "2026-09-13",
+        "performers": [
+          "青葉春",
+          "鳥羽いく",
+          "白鳥怜"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "student",
+            "label": "學生妹"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/piyo-240/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:48814",
+        "cc18.tv:actor:53324",
+        "cc18.tv:actor:53483"
+      ],
+      "search": {
+        "source_title": "好想讓在街上偶遇的那個女孩偷偷喝下精液啊…在可頌、蛋糕、布丁、飲料中加入特製白色糖漿…而最後，讓她生吞滾燙的精液就是我們的使命。",
+        "article_title": "PIYO-240 青葉春、鳥羽いく、白鳥怜｜こっそり強●精飲",
+        "display_short_title": null,
+        "slug": "piyo-240"
       }
     },
     {
