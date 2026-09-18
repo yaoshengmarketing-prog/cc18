@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-18T00:24:03.880Z",
+  "generated_at": "2026-09-18T05:59:56.470Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 175,
-  "formal_movie_count": 174,
+  "tracked_input_count": 176,
+  "formal_movie_count": 175,
   "demo_count": 1,
-  "published_count": 171,
+  "published_count": 172,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1016,6 +1016,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "28e495505700e6cfb2c3ca1872a790f313791ce0f8ac8da4eccbc1bd58054526"
+    },
+    {
+      "stable_movie_id": "cc18:NOSKN-104",
+      "catalog_code": "NOSKN-104",
+      "slug": "noskn-104",
+      "master_path": "data/movie-master/noskn-104.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "d1cdbdb2f16f54dd2d115426e94ccb30136b1a3fbc73f939e9f3964d237a5f47"
     },
     {
       "stable_movie_id": "cc18:NSODN-023",

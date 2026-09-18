@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "movie_id": "NOSKN-104",
+  "generated_at": "2026-09-18T05:57:59.296Z",
+  "source_snapshot_hash": "sha256:d6b16a413b9f71828826fd08a36a7c611ed5317effa6d3bb9444875c5db1b51a",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "來源資料可確認本作以「糸井瑠花」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "糸井瑠花",
+      "美少女設定",
+      "角色扮演",
+      "偶像設定"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想先依來源題材與作品設定挑選的觀眾",
+      "接受目前只提供來源資料整理的觀眾"
+    ],
+    "not_for": [
+      "需要影片抽樣觀察才能決定的觀眾",
+      "需要鏡位、收音或段落變化結論的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "CEMD-889",
+      "relation_type": "same_performer",
+      "reason": "同樣由糸井瑠花出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "糸井瑠花"
+      ],
+      "contrast_signals": [
+        "44",
+        "恥辱、凌辱、戴上跳蛋・繁華街約會！"
+      ]
+    },
+    {
+      "movie_id": "UMD-1019",
+      "relation_type": "same_performer",
+      "reason": "同樣由糸井瑠花出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "糸井瑠花"
+      ],
+      "contrast_signals": [
+        "由衣陽菜",
+        "素股play發生意外"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "來源資料可確認什麼？來源資料可確認本作以「糸井瑠花」作為主要作品線索。",
+    "目前能否提供影片觀察？目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "如何使用本頁？可先依來源題材與作品識別資訊判斷是否符合偏好。"
+  ]
+}

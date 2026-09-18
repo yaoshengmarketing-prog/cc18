@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "NOSKN-104",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-18T05:59:14.542Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/NOSKN-104/hero-v1.jpg",
+      "r2_key": "works/2026/09/NOSKN-104/hero-v1.jpg",
+      "bytes": 616607,
+      "sha256": "913e92933504ee0a94abcd0e13e6ac287771a4b85e12202421aa56fdb7b1775a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "2654d360-b056-4847-a96c-fbcaa53addbd",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/NOSKN-104/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/NOSKN-104/scene-vertical-v1.jpg",
+      "bytes": 954137,
+      "sha256": "0545a61881b9e4d493900be0d891ac18335966551dfd0e6a5c6493010598cbf0",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "db1edff5-4146-49b7-b549-ace3a9100c01",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2770082,
+    "sha256": "7e5f8ae7270c18259432164d649a2262378a91abb41e43340fb90dc52ba533fa",
+    "target_r2_key": "works/2026/09/NOSKN-104/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/NOSKN-104/vertical-v1.mp4"
+  }
+}
