@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:3e8d9648b8817f3065690dbe8d4cb6cd1009e8fc3ec224002735112bcf2acef2",
-  "source_generated_at": "2026-09-18T06:25:06.396Z",
+  "source_revision": "sha256:aef0f7de1081b155bb6c88fdd22c915e4d622bd9239b8ac8a195679046472343",
+  "source_generated_at": "2026-09-18T06:29:04.368Z",
   "counts": {
-    "movies": 178,
-    "performers": 194,
+    "movies": 179,
+    "performers": 195,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -506,6 +506,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:FWAY-106"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:299",
+      "display_name": "冬木舞",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "冬木舞",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:HOKS-235"
       ]
     },
     {
@@ -2754,6 +2765,59 @@
         "article_title": "GVH-879 持野蓬｜禁断介護企劃下的美少女展示型選片",
         "display_short_title": null,
         "slug": "gvh-879"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:HOKS-235",
+        "source_cover": "https://cc18.tv/preview/80/b/4EQCwfYD98X-800.jpg?v=1789432736",
+        "title": "HOKS-235 冬木舞｜まじめ妻",
+        "catalog_code": "HOKS-235",
+        "release_date": "2026-09-12",
+        "performers": [
+          "冬木舞"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/hoks-235/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:299"
+      ],
+      "search": {
+        "source_title": "端莊人妻 初次出軌性愛 冬木舞",
+        "article_title": "HOKS-235 冬木舞｜まじめ妻",
+        "display_short_title": null,
+        "slug": "hoks-235"
       }
     },
     {

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-18T06:25:06.396Z",
+  "generated_at": "2026-09-18T06:29:04.368Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 182,
-  "formal_movie_count": 181,
+  "tracked_input_count": 183,
+  "formal_movie_count": 182,
   "demo_count": 1,
-  "published_count": 178,
+  "published_count": 179,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -611,6 +611,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "eb94b86f72c4235019cd4095c30b4b3924e122a707c6301ee11ad4fd0ffeb806"
+    },
+    {
+      "stable_movie_id": "cc18:HOKS-235",
+      "catalog_code": "HOKS-235",
+      "slug": "hoks-235",
+      "master_path": "data/movie-master/hoks-235.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "63d44af4f6e4701eed367d6494fd8193cc24c4d2526ababf499413c2b75fa2ab"
     },
     {
       "stable_movie_id": "cc18:HRSM-159",

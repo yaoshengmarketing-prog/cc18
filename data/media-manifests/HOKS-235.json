@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "HOKS-235",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-18T06:28:24.717Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/HOKS-235/hero-v1.jpg",
+      "r2_key": "works/2026/09/HOKS-235/hero-v1.jpg",
+      "bytes": 752200,
+      "sha256": "7849ad8199fea99eb8f5e835dc9aa01f7ed5573c2fa6ad126a8006fa3ef69523",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "024ef801-969d-496a-8c33-26bcb49c8649",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/HOKS-235/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/HOKS-235/scene-vertical-v1.jpg",
+      "bytes": 778120,
+      "sha256": "cba8e27df9103698feab13bc3ae09e5a03c363292972edb984fbe8a1bafd1596",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "4cc632e8-1249-43ed-ba47-6eb58cddff87",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2402831,
+    "sha256": "27aebfe41e6b847299f26946418140a8e5cf69f94cff0f5f49bf675caf927823",
+    "target_r2_key": "works/2026/09/HOKS-235/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/HOKS-235/vertical-v1.mp4"
+  }
+}
