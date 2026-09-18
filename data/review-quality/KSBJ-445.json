@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "KSBJ-445",
+  "review_sha256": "bc552e27b0f8144a15ab3dd05d128652b1f63219291cc112e3ccd1fcec344031",
+  "selected_thesis": "平岡里枝子的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "平岡里枝子",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "平岡里枝子",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "息子に色仕掛けをする淫母",
+        "source_field": "series"
+      }
+    ],
+    "primary_theme": "平岡里枝子",
+    "presentation_feature": "息子に色仕掛けをする淫母",
+    "editorial_judgment": "平岡里枝子的企劃呈現與觀看取向",
+    "source_keywords": [
+      "平岡里枝子",
+      "息子に色仕掛けをする淫母"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：平岡里枝子",
+      "supports": "這項可追溯來源訊號支持文章以「平岡里枝子」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：息子に色仕掛けをする淫母",
+      "supports": "這項可追溯來源訊號支持文章以「息子に色仕掛けをする淫母」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：息子に色仕掛けをする淫母",
+      "supports": "這項可追溯來源訊號支持文章以「息子に色仕掛けをする淫母」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：戲劇、連續劇",
+      "supports": "這項可追溯來源訊號支持文章以「戲劇、連續劇」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-17T16:00:00.000Z"
+}

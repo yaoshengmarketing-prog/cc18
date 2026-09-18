@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "KSBJ-445",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-18T06:41:09.054Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/KSBJ-445/hero-v1.jpg",
+      "r2_key": "works/2026/09/KSBJ-445/hero-v1.jpg",
+      "bytes": 613671,
+      "sha256": "c27b4726d0e4cc70f83c157567626d1c44e378ea8e70e9d14e0ac0c9ac182615",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "59625c3f-6731-4a49-98ea-507e7d6841c0",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/KSBJ-445/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/KSBJ-445/scene-vertical-v1.jpg",
+      "bytes": 975457,
+      "sha256": "44f4813f2f9ec61df6253ba0b68774443dfec2428ba95ffe04ff09b54035b8dc",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "c2d3a846-861a-4f71-b9ec-a0489f2c8c33",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2988848,
+    "sha256": "4841ced8fa3197ed68946c398ed8930e79fefb5d3c52e5b4bbd512b35aafb183",
+    "target_r2_key": "works/2026/09/KSBJ-445/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/KSBJ-445/vertical-v1.mp4"
+  }
+}

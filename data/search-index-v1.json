@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:f7d90a6ccc298421d4b56192c5fc7ba4f8763bac29b99338fef11ba001d3513e",
-  "source_generated_at": "2026-09-18T06:37:50.267Z",
+  "source_revision": "sha256:f2a9e3491cef3b3b218549f4e4e6c14744a32462c0b19339adba654987209b07",
+  "source_generated_at": "2026-09-18T06:41:49.278Z",
   "counts": {
-    "movies": 181,
-    "performers": 197,
+    "movies": 182,
+    "performers": 198,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -550,6 +550,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:5208",
+      "display_name": "平岡里枝子",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "平岡里枝子",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:KSBJ-445"
       ]
     },
     {
@@ -2869,6 +2880,55 @@
         "article_title": "HOKS-235 冬木舞｜まじめ妻",
         "display_short_title": null,
         "slug": "hoks-235"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:KSBJ-445",
+        "source_cover": "https://cc18.tv/preview/80/b/b08seCrKScm-800.jpg?v=1789367981",
+        "title": "KSBJ-445 平岡里枝子｜以「息子に色仕掛けをする淫母」為核心的系列企劃判斷",
+        "catalog_code": "KSBJ-445",
+        "release_date": "2026-09-12",
+        "performers": [
+          "平岡里枝子"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ksbj-445/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:5208"
+      ],
+      "search": {
+        "source_title": "不想讓兒子獨立而對他色誘的淫母 平岡里枝子",
+        "article_title": "KSBJ-445 平岡里枝子｜以「息子に色仕掛けをする淫母」為核心的系列企劃判斷",
+        "display_short_title": null,
+        "slug": "ksbj-445"
       }
     },
     {

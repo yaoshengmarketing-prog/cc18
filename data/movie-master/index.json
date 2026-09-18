@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-18T06:37:50.267Z",
+  "generated_at": "2026-09-18T06:41:49.278Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 185,
-  "formal_movie_count": 184,
+  "tracked_input_count": 186,
+  "formal_movie_count": 185,
   "demo_count": 1,
-  "published_count": 181,
+  "published_count": 182,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -782,6 +782,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "2d5f73d654e7823d617aff023bd1a8f0832d5db6cc65248f921880da98e7f28c"
+    },
+    {
+      "stable_movie_id": "cc18:KSBJ-445",
+      "catalog_code": "KSBJ-445",
+      "slug": "ksbj-445",
+      "master_path": "data/movie-master/ksbj-445.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "abd16ae145b25c54ff4d5a373e9c8acc0c6b1ba84e80866e791d38afa7b3f25b"
     },
     {
       "stable_movie_id": "cc18:MAAN-1192",
