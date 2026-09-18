@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "HONB-499",
+  "checked_at": "2026-09-18T18:48:56.481Z",
+  "review_sha256": "cdca6130530ab66d3f9f9587c084bcea2a5cd465bda1911b0bbd40ec501996e9",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最明確的選片入口是系列與企劃概念本身。公開來源把本作歸在《昭和ならセーフ》系列，creative seed 也進一步提到可追溯的來源概念為「昭和時代就安全10」。這表示它的辨識度首先不是來自已知演員或明確劇情，而是來自一個帶有時代感包裝的企劃命名。對選片來說，這種作品通常更適合以"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "這部比較適合兩類觀眾：第一，是對《昭和ならセーフ》這種系列命名與企劃框架本身有興趣的人；第二，是偏好主題集中、呈現形式明確，並且不特別要求已知演員或完整故事鋪陳的人。以目前資訊來看，它的核心不是角色名單或已驗證劇情，而是「昭和ならセーフ」這個企劃概念，加上自拍形式與單一主題的清楚"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

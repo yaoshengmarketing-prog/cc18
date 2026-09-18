@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-18T18:46:09.690Z",
+  "generated_at": "2026-09-18T18:50:45.827Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 191,
-  "formal_movie_count": 190,
+  "tracked_input_count": 192,
+  "formal_movie_count": 191,
   "demo_count": 1,
-  "published_count": 187,
+  "published_count": 188,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -629,6 +629,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "63d44af4f6e4701eed367d6494fd8193cc24c4d2526ababf499413c2b75fa2ab"
+    },
+    {
+      "stable_movie_id": "cc18:HONB-499",
+      "catalog_code": "HONB-499",
+      "slug": "honb-499",
+      "master_path": "data/movie-master/honb-499.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "f5a6052de5ad7da7cdd654bd4afe9f52bd487f6b33b22e428b8ad54c9d3a30ea"
     },
     {
       "stable_movie_id": "cc18:HRSM-159",

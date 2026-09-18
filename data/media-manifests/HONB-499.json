@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "HONB-499",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-18T18:49:58.274Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/HONB-499/hero-v1.jpg",
+      "r2_key": "works/2026/09/HONB-499/hero-v1.jpg",
+      "bytes": 1071684,
+      "sha256": "395d3de4ab79e32f14d8edb54391db1dc4220825b616287045d9a7de997949fd",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "1802a1a1-6022-4aa5-a658-a1cfcfe3ec78",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/HONB-499/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/HONB-499/scene-vertical-v1.jpg",
+      "bytes": 882365,
+      "sha256": "a3e278f71f5eea4ca24a86a5a1c468734afa59c96c43010d740b209bfcf2608f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "60beeab7-eb1b-49c3-98d4-cd1f2e15efd2",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2794487,
+    "sha256": "4db939b8ecd6865851d3e0f460416a048b68173c5074075628d01779bc9cd532",
+    "target_r2_key": "works/2026/09/HONB-499/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/HONB-499/vertical-v1.mp4"
+  }
+}
