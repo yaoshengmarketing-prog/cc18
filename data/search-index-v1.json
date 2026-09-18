@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:31cef9d2d4fa8efe81b7c0c29e80780f65ebebf3386f0bd29c1cedc7fa5774ca",
-  "source_generated_at": "2026-09-18T06:33:47.524Z",
+  "source_revision": "sha256:f7d90a6ccc298421d4b56192c5fc7ba4f8763bac29b99338fef11ba001d3513e",
+  "source_generated_at": "2026-09-18T06:37:50.267Z",
   "counts": {
-    "movies": 180,
-    "performers": 196,
+    "movies": 181,
+    "performers": 197,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -517,6 +517,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:HOKS-235"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:23647",
+      "display_name": "冬愛琴音",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "冬愛琴音",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:TENN-052"
       ]
     },
     {
@@ -3352,6 +3363,55 @@
         "article_title": "SUJI-319 小日向芽瑠｜パイパン田舎美少女",
         "display_short_title": null,
         "slug": "suji-319"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:TENN-052",
+        "source_cover": "https://cc18.tv/preview/80/b/EbxsKdwUMeE-800.jpg?v=1789547945",
+        "title": "TENN-052 冬愛琴音 × 美少女設定｜冬愛琴音",
+        "catalog_code": "TENN-052",
+        "release_date": "2026-09-12",
+        "performers": [
+          "冬愛琴音"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "cosplay",
+            "label": "角色扮演"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "facial",
+            "label": "顏射題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/tenn-052/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:23647"
+      ],
+      "search": {
+        "source_title": "冬愛琴音 七種誘惑 讓男人著迷的變幻自在女主角",
+        "article_title": "TENN-052 冬愛琴音 × 美少女設定｜冬愛琴音",
+        "display_short_title": null,
+        "slug": "tenn-052"
       }
     },
     {

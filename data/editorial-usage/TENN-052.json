@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "TENN-052",
+  "calls": [
+    {
+      "generated_at": "2026-09-18T06:35:59.628Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 3073,
+      "cached_input_tokens": 0,
+      "output_tokens": 1314,
+      "total_tokens": 4387,
+      "estimated_cost_usd": 0.04493,
+      "estimated_payg_cash_cost_usd": 0.047176,
+      "direct_openai_reference_usd": 0.027393,
+      "gateway_premium_usd": 0.017537,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 3073,
+    "cached_input_tokens": 0,
+    "output_tokens": 1314,
+    "estimated_cost_usd": 0.04493,
+    "estimated_payg_cash_cost_usd": 0.047176,
+    "direct_openai_reference_usd": 0.027393,
+    "gateway_premium_usd": 0.017537
+  }
+}

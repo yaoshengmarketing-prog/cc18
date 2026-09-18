@@ -610,7 +610,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 15,
+      "occurrences": 16,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -626,7 +626,8 @@
         "MIDA-785",
         "PPPE-442",
         "PIYO-240",
-        "HAWA-386"
+        "HAWA-386",
+        "TENN-052"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-18",

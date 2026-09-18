@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "TENN-052",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-18T06:37:10.508Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/TENN-052/hero-v1.jpg",
+      "r2_key": "works/2026/09/TENN-052/hero-v1.jpg",
+      "bytes": 877178,
+      "sha256": "4106622d4afa690265da7ba1ddf237ba328eeccd14dea4f9a0331142b3a600ef",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "7f371db6-1f76-4c9d-8a43-e97273e97216",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/TENN-052/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/TENN-052/scene-vertical-v1.jpg",
+      "bytes": 1143024,
+      "sha256": "d9690a56c04a1faf96b1718b297abceaa2ac029a3936c1ff8bbbc3df96b5566e",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "6cec0477-1d04-4dfe-993c-eea9b2962054",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3551770,
+    "sha256": "b738b0a9d1e6be0434f5bc987d18f5d48dd2888e593f6a99f95503e604ec0cad",
+    "target_r2_key": "works/2026/09/TENN-052/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/TENN-052/vertical-v1.mp4"
+  }
+}

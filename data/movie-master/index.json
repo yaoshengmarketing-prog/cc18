@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-18T06:33:47.524Z",
+  "generated_at": "2026-09-18T06:37:50.267Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 184,
-  "formal_movie_count": 183,
+  "tracked_input_count": 185,
+  "formal_movie_count": 184,
   "demo_count": 1,
-  "published_count": 180,
+  "published_count": 181,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1583,6 +1583,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "86127aa77191625a3f951bcdbe667b87a6a69efc023391832eeb4458750d7915"
+    },
+    {
+      "stable_movie_id": "cc18:TENN-052",
+      "catalog_code": "TENN-052",
+      "slug": "tenn-052",
+      "master_path": "data/movie-master/tenn-052.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "2f5fdc47b36e55f7a32cab9aec39c5e74021f1d01564d3c8f1622cbdc7d0b516"
     },
     {
       "stable_movie_id": "cc18:TGBS-003",
