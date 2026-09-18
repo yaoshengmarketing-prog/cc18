@@ -487,12 +487,13 @@
     },
     {
       "label": "マッサージ・リフレ",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "SNOS-345"
+        "SNOS-345",
+        "DANDYA-050"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-09-18",
       "status": "quarantined"
     },
     {
@@ -678,15 +679,16 @@
     },
     {
       "label": "不倫",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
         "DLDSS-552",
-        "MIDA-744"
+        "MIDA-744",
+        "DANDYA-050"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-14",
+      "last_seen": "2026-09-18",
       "status": "quarantined"
     },
     {
@@ -734,7 +736,7 @@
     },
     {
       "label": "乳交",
-      "occurrences": 11,
+      "occurrences": 12,
       "source_ids": [
         "SNOS-372",
         "GOJI-110",
@@ -746,7 +748,8 @@
         "MIDA-788",
         "UMD-1019",
         "SNOS-313",
-        "PPPE-442"
+        "PPPE-442",
+        "DANDYA-050"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-18",
@@ -1437,15 +1440,16 @@
     },
     {
       "label": "溫泉",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "OREMO-606",
         "OFTR-016",
         "SQTE-717",
-        "BANK-248"
+        "BANK-248",
+        "DANDYA-050"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "status": "quarantined"
     },
     {
@@ -1882,6 +1886,16 @@
       "occurrences": 1,
       "source_ids": [
         "GVH-879"
+      ],
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "status": "quarantined"
+    },
+    {
+      "label": "旅行",
+      "occurrences": 1,
+      "source_ids": [
+        "DANDYA-050"
       ],
       "first_seen": "2026-09-18",
       "last_seen": "2026-09-18",
