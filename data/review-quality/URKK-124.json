@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "URKK-124",
+  "review_sha256": "26f11d9d7f9cf60225de86ee83cc4c9f28f55413f661bba78aa4222643acca42",
+  "selected_thesis": "倉木詩織的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "倉木詩織、山下紗和、日向由奈、桜ゆの",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "倉木詩織",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "山下紗和",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "倉木詩織",
+    "presentation_feature": "山下紗和",
+    "editorial_judgment": "倉木詩織的企劃呈現與觀看取向",
+    "source_keywords": [
+      "倉木詩織",
+      "山下紗和",
+      "美少女設定"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：倉木詩織",
+      "supports": "這項可追溯來源訊號支持文章以「倉木詩織」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：山下紗和",
+      "supports": "這項可追溯來源訊號支持文章以「山下紗和」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：日向由奈",
+      "supports": "這項可追溯來源訊號支持文章以「日向由奈」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：桜ゆの",
+      "supports": "這項可追溯來源訊號支持文章以「桜ゆの」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：美少女設定",
+      "supports": "這項可追溯來源訊號支持文章以「美少女設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "setting：學生設定",
+      "supports": "這項可追溯來源訊號支持文章以「學生設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-17T16:00:00.000Z"
+}

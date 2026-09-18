@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "movie_id": "URKK-124",
+  "generated_at": "2026-09-18T18:39:42.156Z",
+  "source_snapshot_hash": "sha256:df173efb1e961e53d0c3b4b74e4153b4a2b401313be1d6ec62028b510e226cad",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "倉木詩織的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "倉木詩織",
+      "山下紗和",
+      "日向由奈",
+      "桜ゆの"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "PRED-894",
+      "relation_type": "same_performer",
+      "reason": "同樣由日向由奈出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "日向由奈"
+      ],
+      "contrast_signals": [
+        "母親沉溺於渣男之中",
+        "美少女設定"
+      ]
+    },
+    {
+      "movie_id": "MDBK-429",
+      "relation_type": "same_performer",
+      "reason": "同樣由桜ゆの出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "桜ゆの"
+      ],
+      "contrast_signals": [
+        "天馬唯",
+        "おしゃぶりペット"
+      ]
+    },
+    {
+      "movie_id": "NSODN-023",
+      "relation_type": "same_performer",
+      "reason": "同樣由日向由奈出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "日向由奈"
+      ],
+      "contrast_signals": [
+        "久和原聖羅",
+        "幸村泉希"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？倉木詩織的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+    "有哪些觀看取捨？只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+  ]
+}

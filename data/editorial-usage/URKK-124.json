@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "URKK-124",
+  "calls": [
+    {
+      "generated_at": "2026-09-18T18:39:42.061Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 3082,
+      "cached_input_tokens": 0,
+      "output_tokens": 1344,
+      "total_tokens": 4426,
+      "estimated_cost_usd": 0.04565,
+      "estimated_payg_cash_cost_usd": 0.047933,
+      "direct_openai_reference_usd": 0.027865,
+      "gateway_premium_usd": 0.017785,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 3082,
+    "cached_input_tokens": 0,
+    "output_tokens": 1344,
+    "estimated_cost_usd": 0.04565,
+    "estimated_payg_cash_cost_usd": 0.047933,
+    "direct_openai_reference_usd": 0.027865,
+    "gateway_premium_usd": 0.017785
+  }
+}

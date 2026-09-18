@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:c1056c73d47de629179e8902d2cc3669d74f3b0d58ebf7b8797e330252b22b44",
-  "source_generated_at": "2026-09-18T18:33:28.334Z",
+  "source_revision": "sha256:79d36781bbd928e89b90c1d228b1da85688b0acaf1dbea4350428c42681bfba5",
+  "source_generated_at": "2026-09-18T18:41:11.968Z",
   "counts": {
-    "movies": 185,
-    "performers": 200,
+    "movies": 186,
+    "performers": 202,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -338,6 +338,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:34750",
+      "display_name": "山下紗和",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "山下紗和",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:URKK-124"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:26486",
       "display_name": "川栄結愛",
       "display_name_zh_tw": null,
@@ -469,7 +480,8 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:NSODN-023",
-        "cc18:PRED-894"
+        "cc18:PRED-894",
+        "cc18:URKK-124"
       ]
     },
     {
@@ -1481,6 +1493,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:22049",
+      "display_name": "倉木詩織",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "倉木詩織",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:URKK-124"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:26800",
       "display_name": "倉本蓳",
       "display_name_zh_tw": null,
@@ -1576,7 +1599,8 @@
       "source_name": "桜ゆの",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:MDBK-429"
+        "cc18:MDBK-429",
+        "cc18:URKK-124"
       ]
     },
     {
@@ -3637,6 +3661,57 @@
         "article_title": "TIKB-226｜性慾大爆發的肉棒中毒者：以 Cosplay 美少女設定撐起的展示型企劃",
         "display_short_title": null,
         "slug": "tikb-226"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:URKK-124",
+        "source_cover": "https://cc18.tv/preview/80/b/1LQR6dfCYeD-800.jpg?v=1789418338",
+        "title": "URKK-124 倉木詩織、山下紗和、日向由奈、桜ゆの｜後宮設定下的展示型企劃判斷",
+        "catalog_code": "URKK-124",
+        "release_date": "2026-09-12",
+        "performers": [
+          "倉木詩織",
+          "山下紗和",
+          "日向由奈",
+          "桜ゆの"
+        ],
+        "canonical_topics": [
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "student",
+            "label": "學生妹"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/urkk-124/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:22049",
+        "cc18.tv:actor:34750",
+        "cc18.tv:actor:38051",
+        "cc18.tv:actor:44598"
+      ],
+      "search": {
+        "source_title": "「用小穴幫你退燒喔」多幸感200％後宮看病",
+        "article_title": "URKK-124 倉木詩織、山下紗和、日向由奈、桜ゆの｜後宮設定下的展示型企劃判斷",
+        "display_short_title": null,
+        "slug": "urkk-124"
       }
     },
     {

@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "id": "URKK-124",
+  "checked_at": "2026-09-18T18:39:42.250Z",
+  "review_sha256": "f5c4350b9c0fc56707996263a26244cdb010fdf007e297f2cc1f3f8b4f90ac92",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "body_lacks_source_adult_vocabulary",
+    "title_lacks_primary_source_adult_topic",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資訊來看，這部作品最明確的賣點就是「後宮」這個核心企劃。它不是來自延伸解讀，而是直接能從來源概念中確認的主軸；再加上公開演出名單同時列出倉木詩織、山下紗和、日向由奈、桜ゆの，整體判斷會自然偏向多人角色並列、以組合感與配置感取勝的作品。對選片來說，這代表它"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "這部作品比較適合會先被題材企劃吸引的觀眾，尤其是對「後宮」這種一眼可辨識的設定有興趣，並且願意把選片重點放在多人陣容與角色展示感的人。倉木詩織、山下紗和、日向由奈、桜ゆの的同場配置，再加上美少女、學生設定，已經足以構成相當明確的作品入口。現階段最穩妥的編輯判斷是：它不是靠已知劇情"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "title_lacks_primary_source_adult_topic",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 3
+  }
+}

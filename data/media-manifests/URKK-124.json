@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "URKK-124",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-18T18:40:24.009Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/URKK-124/hero-v1.jpg",
+      "r2_key": "works/2026/09/URKK-124/hero-v1.jpg",
+      "bytes": 617232,
+      "sha256": "f81a3850a5fa59c75703f252c043c0d4fde776887823d983af91d2ea85e258cd",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "8d9ef0f1-2f9d-455f-a195-f108317a516b",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/URKK-124/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/URKK-124/scene-vertical-v1.jpg",
+      "bytes": 1269514,
+      "sha256": "777c77d9e9d3df37d67c6dac0ed2480d79cb32ff2ba9e158979be68a81b814e5",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "ac94f8d3-6d2f-467b-8e6e-bf6599f0302f",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3730511,
+    "sha256": "783b270b64e879603e7927d61eb694d84ceb89496616ff5f097ef6746b4cb2c5",
+    "target_r2_key": "works/2026/09/URKK-124/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/URKK-124/vertical-v1.mp4"
+  }
+}

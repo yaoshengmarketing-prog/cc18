@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-18T18:33:28.334Z",
+  "generated_at": "2026-09-18T18:41:11.968Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 189,
-  "formal_movie_count": 188,
+  "tracked_input_count": 190,
+  "formal_movie_count": 189,
   "demo_count": 1,
-  "published_count": 185,
+  "published_count": 186,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1691,6 +1691,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "382b60d7cdf36a16194ca93df6c8c23094c6f638c5346c4f0f73df28e38fdb3a"
+    },
+    {
+      "stable_movie_id": "cc18:URKK-124",
+      "catalog_code": "URKK-124",
+      "slug": "urkk-124",
+      "master_path": "data/movie-master/urkk-124.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "f6ff37a310921ba134579ee415f9cb80a19335fb7fa4a712b108532a4ab16628"
     },
     {
       "stable_movie_id": "cc18:YAKO-099",

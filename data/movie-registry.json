@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-18T18:33:21.419Z",
+  "updated_at": "2026-09-18T18:41:04.908Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -2847,6 +2847,24 @@
       ],
       "release_date": "2026-09-15",
       "source_url": "https://cc18.tv/player.php?uuid=kkYpmeTBEo&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-18"
+    },
+    {
+      "id": "URKK-124",
+      "actress": [
+        "倉木詩織",
+        "山下紗和",
+        "日向由奈",
+        "桜ゆの"
+      ],
+      "release_date": "2026-09-12",
+      "source_url": "https://cc18.tv/player.php?uuid=1LQR6dfCYeD&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
