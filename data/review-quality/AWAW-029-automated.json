@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "AWAW-029",
+  "checked_at": "2026-09-18T00:22:27.518Z",
+  "review_sha256": "9f9d51ceac644512adfeb09002d780dcae7d0ecbf0d94075ee9565e708ad0195",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果從可追溯的公開資訊來看，AWAW-029 最明確的賣點不是複雜劇情，而是「情色自拍紀錄片」這個核心企劃。片名與來源摘錄都反覆指向自拍、紀錄片感與拍攝行為本身，像是公開介紹中的「我借了電影社的攝影機，來拍吧！」，就把作品的入口放在『誰在拍、為什麼拍』的設定上。這使它更適合被歸入"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "從來源概念「在騷貨與渣男聚集的據點」以及 topic elements 中的「亂交」來看，作品包裝的是一種偏向刺激、集合式、展示感強的成人題材語氣。這些資訊足以支持我們判斷它不是主打細膩日常或慢熱推進的類型，而是更靠近高概念、直接拋出場域與行為標籤的企劃作品。不過，因為沒有更多可"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "AWAW-029 的選片價值，主要建立在一個夠直接也夠好懂的核心：以學生設定包裝的情色自拍紀錄片。它的可辨識度高，企劃方向集中，公開介紹也把拍攝行為本身放進賣點裡，讓作品在還沒談到更多情節前，就先靠形式成立存在感。從現有資料看，它最值得注意的不是故事深度，而是題材標籤與拍攝概念是"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

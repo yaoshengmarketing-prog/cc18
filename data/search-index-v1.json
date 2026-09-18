@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:3ec6ee0a465ccced610a2de95d0e0ba5fd31d13a10fd1f60bd82e9113064c2ff",
-  "source_generated_at": "2026-09-17T18:36:57.076Z",
+  "source_revision": "sha256:b0ffca26c7aeb7ef2e9c19322fb480abbf1f0009f9c5a12423de2806b27e19dd",
+  "source_generated_at": "2026-09-18T00:24:03.880Z",
   "counts": {
-    "movies": 170,
+    "movies": 171,
     "performers": 189,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -2229,6 +2229,43 @@
         "article_title": "ALOG-032 內射拷貝 × 美少女設定｜內射拷貝企劃下的美少女展示型選片",
         "display_short_title": null,
         "slug": "alog-032"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:AWAW-029",
+        "source_cover": "https://cc18.tv/preview/80/b/nHaLOypaL2e-800.jpg?v=1789432869",
+        "title": "AWAW-029 情色自拍紀錄片：學生設定與自拍企劃撐起的展示型選片",
+        "catalog_code": "AWAW-029",
+        "release_date": "2026-09-12",
+        "performers": [],
+        "canonical_topics": [
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "self-shot",
+            "label": "自拍視角"
+          },
+          {
+            "id": "student",
+            "label": "學生妹"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/awaw-029/"
+      },
+      "performer_ids": [],
+      "search": {
+        "source_title": "情色自拍紀錄片 秘密基地亂交派對。Z世代女孩超低廉的貞操觀念！在騷貨與渣男聚集的據點，初次見面的男女竟然能如此輕易地做愛…",
+        "article_title": "AWAW-029 情色自拍紀錄片：學生設定與自拍企劃撐起的展示型選片",
+        "display_short_title": null,
+        "slug": "awaw-029"
       }
     },
     {

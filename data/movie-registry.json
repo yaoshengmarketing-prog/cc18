@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-17T18:36:51.538Z",
+  "updated_at": "2026-09-18T00:23:56.693Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -2636,6 +2636,19 @@
       "video_status": "rendered",
       "template": "story",
       "published_at": "2026-09-17"
+    },
+    {
+      "id": "AWAW-029",
+      "actress": [],
+      "release_date": "2026-09-12",
+      "source_url": "https://cc18.tv/player.php?uuid=nHaLOypaL2e&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-18"
     }
   ]
 }
