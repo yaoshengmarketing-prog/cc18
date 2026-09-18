@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-18T06:46:06.288Z",
+  "generated_at": "2026-09-18T11:19:15.872Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 187,
-  "formal_movie_count": 186,
+  "tracked_input_count": 188,
+  "formal_movie_count": 187,
   "demo_count": 1,
-  "published_count": 183,
+  "published_count": 184,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -755,6 +755,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "f6cf7a0ed8343bfcab32292cf03c45514911d625d2306507478ddee5b51194a5"
+    },
+    {
+      "stable_movie_id": "cc18:JERA-050",
+      "catalog_code": "JERA-050",
+      "slug": "jera-050",
+      "master_path": "data/movie-master/jera-050.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "381975dd8bdec843fa32bb808491136ab2b276b9efcd9a68d9eaedc54d1974d8"
     },
     {
       "stable_movie_id": "cc18:JUR-850",

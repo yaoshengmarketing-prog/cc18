@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "JERA-050",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-18T11:18:23.820Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/JERA-050/hero-v1.jpg",
+      "r2_key": "works/2026/09/JERA-050/hero-v1.jpg",
+      "bytes": 667169,
+      "sha256": "5897eeef25656c5cc740089e1580bfc4f6c3f3cfc67da7970cacaf405d3a23e1",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "28c2e5a1-a292-42d8-b9da-56ec92a71da0",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/JERA-050/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/JERA-050/scene-vertical-v1.jpg",
+      "bytes": 835508,
+      "sha256": "cfe7e953277e5dff3997b511c2340621d351f481419ebfd0fcfc5b0df1602229",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "36089ba9-adf2-4e11-bf70-8b53dc46b41d",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2772267,
+    "sha256": "7ed662cd8d4d10f4f7153c7f4d1584bf6d69735a1f954e6ecc4e0b33f14f799e",
+    "target_r2_key": "works/2026/09/JERA-050/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/JERA-050/vertical-v1.mp4"
+  }
+}

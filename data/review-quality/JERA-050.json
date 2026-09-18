@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "JERA-050",
+  "review_sha256": "903681d0157a0c7fa6b85f526331d489e5bbf939dec53c2eae655ad84d305448",
+  "selected_thesis": "小鈴蜜柑的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "小鈴蜜柑",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "小鈴蜜柑",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "初次吞精的打工妹",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "自拍形式",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "小鈴蜜柑",
+    "presentation_feature": "初次吞精的打工妹",
+    "editorial_judgment": "小鈴蜜柑的企劃呈現與觀看取向",
+    "source_keywords": [
+      "小鈴蜜柑",
+      "初次吞精的打工妹",
+      "自拍形式"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：小鈴蜜柑",
+      "supports": "這項可追溯來源訊號支持文章以「小鈴蜜柑」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：自拍形式",
+      "supports": "這項可追溯來源訊號支持文章以「自拍形式」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：初次吞精的打工妹",
+      "supports": "這項可追溯來源訊號支持文章以「初次吞精的打工妹」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：自拍",
+      "supports": "這項可追溯來源訊號支持文章以「自拍」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-17T16:00:00.000Z"
+}

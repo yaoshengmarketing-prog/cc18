@@ -1191,13 +1191,14 @@
     },
     {
       "label": "吞精",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "PIYO-238",
         "HAWA-385",
         "MIAB-677",
         "PIYO-240",
-        "HAWA-386"
+        "HAWA-386",
+        "JERA-050"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-18",
@@ -1737,12 +1738,13 @@
     },
     {
       "label": "デート",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "HMN-918"
+        "HMN-918",
+        "JERA-050"
       ],
       "first_seen": "2026-09-16",
-      "last_seen": "2026-09-16",
+      "last_seen": "2026-09-18",
       "status": "quarantined"
     },
     {
