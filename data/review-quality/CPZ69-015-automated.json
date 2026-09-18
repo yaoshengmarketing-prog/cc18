@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "id": "CPZ69-015",
+  "checked_at": "2026-09-18T06:02:32.604Z",
+  "review_sha256": "37591d4205f8f474cc36c53fc1cef1efba4a49f0e4be45dbf00b821afc41f02a",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果是用「先看設定是否夠明確」來挑片，CPZ69-015 的優先理由很清楚：公開資料同時給了系列名「オタク・オデッセイ」、雙演員配置綾瀬心與七原さゆ，以及可追溯的來源概念「我推的雙胞胎」「姊妹」。這些線索讓它的賣點不是分散的標籤拼貼，而是有一個相對集中的企劃軸心。對想找題材辨識度"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "高。因為「角色扮演」同時出現在 safe_title_signals 與 topic_elements 的 clothing／theme 相關訊號裡，屬於可重複驗證的公開資訊。這表示它不是可有可無的附帶標籤，而是足以進入標題與選片摘要的主題要素。再和「オタク・オデッセイ」這個系列"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 7,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

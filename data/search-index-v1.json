@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:898397a7165110ff26e4200ef0bd831f494a9114d8bf4defa19ad7b704fd1036",
-  "source_generated_at": "2026-09-18T05:59:56.470Z",
+  "source_revision": "sha256:d5e03be6c4381d5f3ae1e4e6a190ca08e7bbcfe5beda786df05d4355d87eb886",
+  "source_generated_at": "2026-09-18T06:04:06.591Z",
   "counts": {
-    "movies": 172,
-    "performers": 189,
+    "movies": 173,
+    "performers": 191,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -65,6 +65,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:29369",
+      "display_name": "七原さゆ",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "七原さゆ",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CPZ69-015"
       ]
     },
     {
@@ -1868,6 +1879,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:27596",
+      "display_name": "綾瀬心",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "綾瀬心",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CPZ69-015"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:53650",
       "display_name": "綾瀬まりあ",
       "display_name_zh_tw": null,
@@ -2242,6 +2264,57 @@
         "article_title": "NOSKN-104 糸井瑠花 × 美少女設定｜糸井瑠花",
         "display_short_title": null,
         "slug": "noskn-104"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:CPZ69-015",
+        "source_cover": "https://cc18.tv/preview/80/b/s6WD_KT504m-800.jpg?v=1787884757",
+        "title": "CPZ69-015 綾瀬心、七原さゆ｜オタク・オデッセイ",
+        "catalog_code": "CPZ69-015",
+        "release_date": "2026-09-17",
+        "performers": [
+          "綾瀬心",
+          "七原さゆ"
+        ],
+        "canonical_topics": [
+          {
+            "id": "cosplay",
+            "label": "角色扮演"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "facial",
+            "label": "顏射題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/cpz69-015/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27596",
+        "cc18.tv:actor:29369"
+      ],
+      "search": {
+        "source_title": "我推的雙胞胎 枕營業醜聞・雙美巨乳3P篇",
+        "article_title": "CPZ69-015 綾瀬心、七原さゆ｜オタク・オデッセイ",
+        "display_short_title": null,
+        "slug": "cpz69-015"
       }
     },
     {

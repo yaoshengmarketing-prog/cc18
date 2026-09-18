@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "CPZ69-015",
+  "review_sha256": "9d901b6715c2fd895463c234885e2961768d06995cace09acaf0a1614070f55f",
+  "selected_thesis": "綾瀬心的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "綾瀬心、七原さゆ",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "綾瀬心",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "オタク・オデッセイ",
+        "source_field": "series"
+      },
+      {
+        "type": "performer",
+        "value": "七原さゆ",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "角色扮演",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "綾瀬心",
+    "presentation_feature": "オタク・オデッセイ",
+    "editorial_judgment": "綾瀬心的企劃呈現與觀看取向",
+    "source_keywords": [
+      "綾瀬心",
+      "オタク・オデッセイ",
+      "七原さゆ",
+      "角色扮演"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：綾瀬心",
+      "supports": "這項可追溯來源訊號支持文章以「綾瀬心」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：七原さゆ",
+      "supports": "這項可追溯來源訊號支持文章以「七原さゆ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：オタク・オデッセイ",
+      "supports": "這項可追溯來源訊號支持文章以「オタク・オデッセイ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：角色扮演",
+      "supports": "這項可追溯來源訊號支持文章以「角色扮演」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：オタク・オデッセイ",
+      "supports": "這項可追溯來源訊號支持文章以「オタク・オデッセイ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "costume：角色扮演",
+      "supports": "這項可追溯來源訊號支持文章以「角色扮演」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-17T16:00:00.000Z"
+}

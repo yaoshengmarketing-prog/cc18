@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-18T05:59:56.470Z",
+  "generated_at": "2026-09-18T06:04:06.591Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 176,
-  "formal_movie_count": 175,
+  "tracked_input_count": 177,
+  "formal_movie_count": 176,
   "demo_count": 1,
-  "published_count": 172,
+  "published_count": 173,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -170,6 +170,15 @@
       "is_demo": false,
       "is_published": false,
       "content_hash": "7d501e9dfc6f998dbcf74a10a69b326f9a9b8854c5d782c74aded66792bf0bc9"
+    },
+    {
+      "stable_movie_id": "cc18:CPZ69-015",
+      "catalog_code": "CPZ69-015",
+      "slug": "cpz69-015",
+      "master_path": "data/movie-master/cpz69-015.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "1418b147831bc33f8865f76ebe1eede28b43118e9325c563e75321a79ed24315"
     },
     {
       "stable_movie_id": "cc18:DDK-241",
