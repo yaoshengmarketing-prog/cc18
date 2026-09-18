@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "MMPV-005",
+  "checked_at": "2026-09-18T06:23:47.592Z",
+  "review_sha256": "e224344c2c2979af44e1f55d69ff96095b3588c09bea6e74b5adf1a0f22c7ee3",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最適合的切入點是把它視為一部由企劃概念主導的系列作品，而不是先期待完整劇情。公開資料裡最明確的辨識點就是系列名「顔シコ！」與核心概念「顔シコ」，再加上 creative seed 中可追溯的「顏尻」「臉部特寫誘惑主觀視角」等來源線索，已經足以說明本作的主打方向集中在臉部凝視感與企"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "演出者「松井日奈子」是本作最具體的個人化辨識點，而「學生設定」則提供了角色包裝的方向。兩者結合後，選片判斷會更偏向人物形象與企劃契合度：也就是說，這部片不是靠複雜角色關係取勝，而是靠演出者在特定設定下，去承接「顔シコ」這個核心主題。公開 topic elements 另列出「學生"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

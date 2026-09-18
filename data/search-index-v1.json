@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:07a03265052855a9716cf5917230fc0b2587ef23f16013b2417fde8057210134",
-  "source_generated_at": "2026-09-18T06:21:10.751Z",
+  "source_revision": "sha256:3e8d9648b8817f3065690dbe8d4cb6cd1009e8fc3ec224002735112bcf2acef2",
+  "source_generated_at": "2026-09-18T06:25:06.396Z",
   "counts": {
-    "movies": 177,
-    "performers": 193,
+    "movies": 178,
+    "performers": 194,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -923,6 +923,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:29822",
+      "display_name": "松井日奈子",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "松井日奈子",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MMPV-005"
       ]
     },
     {
@@ -2743,6 +2754,55 @@
         "article_title": "GVH-879 持野蓬｜禁断介護企劃下的美少女展示型選片",
         "display_short_title": null,
         "slug": "gvh-879"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MMPV-005",
+        "source_cover": "https://cc18.tv/preview/80/b/1s_Mt1ltf5D-800.jpg?v=1789432736",
+        "title": "MMPV-005 松井日奈子｜顔シコ",
+        "catalog_code": "MMPV-005",
+        "release_date": "2026-09-12",
+        "performers": [
+          "松井日奈子"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "dirty-talk",
+            "label": "言語挑逗"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "student",
+            "label": "學生妹"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mmpv-005/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:29822"
+      ],
+      "search": {
+        "source_title": "顏尻！臉部特寫誘惑主觀視角 想被最愛盯著看高潮表情的松井小姐輕蔑＆辱罵地疼愛 松井日奈子",
+        "article_title": "MMPV-005 松井日奈子｜顔シコ",
+        "display_short_title": null,
+        "slug": "mmpv-005"
       }
     },
     {

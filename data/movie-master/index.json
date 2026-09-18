@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-18T06:21:10.751Z",
+  "generated_at": "2026-09-18T06:25:06.396Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 181,
-  "formal_movie_count": 180,
+  "tracked_input_count": 182,
+  "formal_movie_count": 181,
   "demo_count": 1,
-  "published_count": 177,
+  "published_count": 178,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -908,6 +908,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "a958b8b1c68726f2473ea64f13b81545b8b48bc6e63e11e485adaf72d90b44ae"
+    },
+    {
+      "stable_movie_id": "cc18:MMPV-005",
+      "catalog_code": "MMPV-005",
+      "slug": "mmpv-005",
+      "master_path": "data/movie-master/mmpv-005.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "657668c7cc7de9bef3b531df19dc8b1710aa713ec4364cd8648226e73b0e6ebb"
     },
     {
       "stable_movie_id": "cc18:MNGS-077",
