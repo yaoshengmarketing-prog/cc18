@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "SDJS-382",
+  "review_sha256": "4b8871d8fb5c6c67c2a326448e469494cd48903fb17e64344d7505cc23799566",
+  "selected_thesis": "來源資料可確認本作以「SOD女子社員」作為主要作品線索。",
+  "title_basis": {
+    "performer": "与田ひかげ",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "与田ひかげ",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "SOD女子社員",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "与田ひかげ",
+    "presentation_feature": "SOD女子社員",
+    "editorial_judgment": "來源資料可確認本作以「SOD女子社員」作為主要作品線索。",
+    "source_keywords": [
+      "与田ひかげ",
+      "SOD女子社員",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：与田ひかげ",
+      "supports": "這項可追溯來源訊號支持文章以「与田ひかげ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：SOD女子社員",
+      "supports": "這項可追溯來源訊號支持文章以「SOD女子社員」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：SOD女子社員",
+      "supports": "這項可追溯來源訊號支持文章以「SOD女子社員」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：OL",
+      "supports": "這項可追溯來源訊號支持文章以「OL」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：HD",
+      "supports": "這項可追溯來源訊號支持文章以「HD」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-17T16:00:00.000Z"
+}

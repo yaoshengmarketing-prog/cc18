@@ -543,7 +543,7 @@
     },
     {
       "label": "羞恥",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "MVG-171",
         "DLDSS-530",
@@ -551,10 +551,11 @@
         "ACZD-250",
         "MVG-172",
         "UMAN-012",
-        "NHDTC-247"
+        "NHDTC-247",
+        "SDJS-382"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-16",
+      "last_seen": "2026-09-19",
       "status": "quarantined"
     },
     {
@@ -611,7 +612,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 16,
+      "occurrences": 17,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -628,10 +629,11 @@
         "PPPE-442",
         "PIYO-240",
         "HAWA-386",
-        "TENN-052"
+        "TENN-052",
+        "SDJS-382"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "status": "quarantined"
     },
     {
@@ -983,7 +985,7 @@
     },
     {
       "label": "玩具",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "MILK-306",
         "DOKS-689",
@@ -991,10 +993,11 @@
         "EKDV-826",
         "OFTR-015",
         "DSOD-078",
-        "MURIKURI-015"
+        "MURIKURI-015",
+        "SDJS-382"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "status": "quarantined"
     },
     {

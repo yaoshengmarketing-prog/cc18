@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:a2a9e7bffe3fe398da7bb9babf9dacd59a6507f27b6dbcc40c77892e132251e8",
-  "source_generated_at": "2026-09-18T11:19:15.872Z",
+  "source_revision": "sha256:c1056c73d47de629179e8902d2cc3669d74f3b0d58ebf7b8797e330252b22b44",
+  "source_generated_at": "2026-09-18T18:33:28.334Z",
   "counts": {
-    "movies": 184,
-    "performers": 199,
+    "movies": 185,
+    "performers": 200,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -357,6 +357,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-374"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53579",
+      "display_name": "与田ひかげ",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "与田ひかげ",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SDJS-382"
       ]
     },
     {
@@ -2404,6 +2415,47 @@
         "article_title": "CPZ69-015 綾瀬心、七原さゆ｜オタク・オデッセイ",
         "display_short_title": null,
         "slug": "cpz69-015"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SDJS-382",
+        "source_cover": "https://cc18.tv/preview/80/b/kkYpmeTBEo-800.jpg?v=1789634412",
+        "title": "SDJS-382 与田ひかげ｜SOD女子社員",
+        "catalog_code": "SDJS-382",
+        "release_date": "2026-09-15",
+        "performers": [
+          "与田ひかげ"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "office-lady",
+            "label": "OL"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/sdjs-382/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53579"
+      ],
+      "search": {
+        "source_title": "SOD女職員人事部第二年與田日景挑戰悶絕忍耐業務！在未來後輩的注視下被責玩進行公司說明會！",
+        "article_title": "SDJS-382 与田ひかげ｜SOD女子社員",
+        "display_short_title": null,
+        "slug": "sdjs-382"
       }
     },
     {

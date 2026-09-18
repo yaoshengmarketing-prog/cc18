@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-18T11:19:15.872Z",
+  "generated_at": "2026-09-18T18:33:28.334Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 188,
-  "formal_movie_count": 187,
+  "tracked_input_count": 189,
+  "formal_movie_count": 188,
   "demo_count": 1,
-  "published_count": 184,
+  "published_count": 185,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1349,6 +1349,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "b9b2ad134b7094c1eb0dda679f7c046eb06971e0c603d771d9b5d97e309cbcff"
+    },
+    {
+      "stable_movie_id": "cc18:SDJS-382",
+      "catalog_code": "SDJS-382",
+      "slug": "sdjs-382",
+      "master_path": "data/movie-master/sdjs-382.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "060c70ac92efe51d7b91ee8db8a8bcd0922021bbc623e9e2c7a9f0bc432f1958"
     },
     {
       "stable_movie_id": "cc18:SIRO-5722",

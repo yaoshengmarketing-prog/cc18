@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "SDJS-382",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-18T18:32:38.201Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/SDJS-382/hero-v1.jpg",
+      "r2_key": "works/2026/09/SDJS-382/hero-v1.jpg",
+      "bytes": 1518170,
+      "sha256": "107c1ad9c4408c499e223663c27561919fece96ba1ef8201dbaaa6ee3c7acbc5",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "605d6c7f-9c70-4a29-b2dd-185de05cc974",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/SDJS-382/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/SDJS-382/scene-vertical-v1.jpg",
+      "bytes": 1126688,
+      "sha256": "68ed665f56a2683f9f06ddc9f8a47a1c70c5173b1ad0d142bd1e17ec4ef1ef23",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "275ac9ba-00e5-4e9c-a2e9-e545c52c9dda",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3436262,
+    "sha256": "69ffacc56990f893e5f1f65b41c324e34a46add21eea19a58488af5e8ae1ae05",
+    "target_r2_key": "works/2026/09/SDJS-382/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/SDJS-382/vertical-v1.mp4"
+  }
+}
