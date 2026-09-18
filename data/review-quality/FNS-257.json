@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "FNS-257",
+  "review_sha256": "f4a1afc8a2a0ed1bc70f4031a63ce9a34264b0259fb294713146a68a13eaada9",
+  "selected_thesis": "明里紬的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "明里紬",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "明里紬",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "讓關係陷入了泥沼般的狀態",
+        "source_field": "title"
+      }
+    ],
+    "primary_theme": "明里紬",
+    "presentation_feature": "讓關係陷入了泥沼般的狀態",
+    "editorial_judgment": "明里紬的企劃呈現與觀看取向",
+    "source_keywords": [
+      "明里紬",
+      "讓關係陷入了泥沼般的狀態"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：明里紬",
+      "supports": "這項可追溯來源訊號支持文章以「明里紬」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：讓關係陷入了泥沼般的狀態",
+      "supports": "這項可追溯來源訊號支持文章以「讓關係陷入了泥沼般的狀態」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：明里紬",
+      "supports": "這項可追溯來源訊號支持文章以「明里紬」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：互動節奏",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-17T16:00:00.000Z"
+}

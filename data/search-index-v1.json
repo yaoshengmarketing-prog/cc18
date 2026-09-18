@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:aef0f7de1081b155bb6c88fdd22c915e4d622bd9239b8ac8a195679046472343",
-  "source_generated_at": "2026-09-18T06:29:04.368Z",
+  "source_revision": "sha256:31cef9d2d4fa8efe81b7c0c29e80780f65ebebf3386f0bd29c1cedc7fa5774ca",
+  "source_generated_at": "2026-09-18T06:33:47.524Z",
   "counts": {
-    "movies": 179,
-    "performers": 195,
+    "movies": 180,
+    "performers": 196,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -912,6 +912,17 @@
         "cc18:NSODN-023",
         "cc18:PRED-899",
         "cc18:SNOS-358"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:16075",
+      "display_name": "明里紬",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "明里紬",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FNS-257"
       ]
     },
     {
@@ -2712,6 +2723,35 @@
         "article_title": "DDK-241 一色沙羅｜剛毛肉便器：以企劃概念為主的展示型選片",
         "display_short_title": null,
         "slug": "ddk-241"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:FNS-257",
+        "source_cover": "https://cc18.tv/preview/80/b/x2cmZb8OY9Z-800.jpg?v=1789501250",
+        "title": "FNS-257 明里紬 × 讓關係陷入了泥沼般的狀態｜明里紬｜讓關係陷入泥沼的企劃，重點在關係轉折想像",
+        "catalog_code": "FNS-257",
+        "release_date": "2026-09-12",
+        "performers": [
+          "明里紬"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/fns-257/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:16075"
+      ],
+      "search": {
+        "source_title": "與同樣被戀人背叛的女性友人，互相舔舐傷口與私處的性愛實在太舒服，讓關係陷入了泥沼般的狀態。明里紬",
+        "article_title": "FNS-257 明里紬 × 讓關係陷入了泥沼般的狀態｜明里紬｜讓關係陷入泥沼的企劃，重點在關係轉折想像",
+        "display_short_title": null,
+        "slug": "fns-257"
       }
     },
     {

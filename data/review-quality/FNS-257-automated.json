@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "id": "FNS-257",
+  "checked_at": "2026-09-18T06:31:32.796Z",
+  "review_sha256": "51f04d9c6d497411c5062099732bb684172cbf32ea9b711edf613e0ca3119392",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "這部作品目前最明確、也最有辨識度的訊號，不是系列背景或複雜人物設定，而是來源直接給出的核心概念：『讓關係陷入了泥沼般的狀態』。在可追溯資訊有限的前提下，這句話幾乎就是整部作品的選片依據，因為它把重心清楚放在關係變化，而不是單純技術規格或其他外部包裝。對想找帶有情境推進感、重視互動"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 8,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
