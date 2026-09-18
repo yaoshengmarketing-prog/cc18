@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:f523782c7a2fe63f897ad2ca17f0ea697c075efb455f4d3a11bea860fe409558",
-  "source_generated_at": "2026-09-18T18:50:45.827Z",
+  "source_revision": "sha256:7c3d7e341eacb373dbdbf55a7fa2f26286086e82f83f099fba6a658ae3a878c2",
+  "source_generated_at": "2026-09-18T18:55:03.091Z",
   "counts": {
-    "movies": 188,
-    "performers": 203,
+    "movies": 189,
+    "performers": 204,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1162,6 +1162,17 @@
         "cc18:DOKS-689",
         "cc18:MDBK-429",
         "cc18:MUDR-406"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53772",
+      "display_name": "咲月ひな",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "咲月ひな",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SUJI-318"
       ]
     },
     {
@@ -3617,6 +3628,55 @@
         "article_title": "SQTE-719 千葉優花｜再用力拍我：以企劃口號主導的展示型選片",
         "display_short_title": null,
         "slug": "sqte-719"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SUJI-318",
+        "source_cover": "https://cc18.tv/preview/80/b/bm4OWb05Hbt-800.jpg?v=1789367988",
+        "title": "SUJI-318 咲月ひな｜偶然搭訕的女孩太可愛了：以企劃設定取勝的美少女片",
+        "catalog_code": "SUJI-318",
+        "release_date": "2026-09-12",
+        "performers": [
+          "咲月ひな"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "fantasy-concept",
+            "label": "幻想企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/suji-318/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53772"
+      ],
+      "search": {
+        "source_title": "偶然搭訕的女孩太可愛了…尾行猥褻・綁架強姦精液飲用・昏睡姦 三股辮貧乳白虎少女陽菜醬149cm 咲月陽菜",
+        "article_title": "SUJI-318 咲月ひな｜偶然搭訕的女孩太可愛了：以企劃設定取勝的美少女片",
+        "display_short_title": null,
+        "slug": "suji-318"
       }
     },
     {

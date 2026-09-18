@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "id": "SUJI-318",
+  "checked_at": "2026-09-18T18:53:18.704Z",
+  "review_sha256": "9d0515d9db814d5b059cb5eb8ff4bd992b21ecc856aa6156e9208e6318833c32",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "broad_formulaic_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 3,
+      "paragraph_count": 8,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資料來看，SUJI-318 最適合從「企劃設定是否成立」這個角度理解。它的核心賣點非常明確：系列名與核心概念都指向「偶然搭訕的女孩太可愛了」，也就是以一個帶有即興感、邂逅感的起點，去包裝整部作品的吸引力。這類作品的選片關鍵，通常不在複雜劇情，而在於題材一"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "從來源可確認的資料來看，這部片對咲月ひな的使用方式，首先建立在「美少女」這個公開標示上，而不是更複雜的人物背景。creative seed 的來源摘錄還出現了「白虎」與「貧乳」等標記，表示宣傳重心偏向外型辨識度與角色印象的快速建立。這會影響選片判斷：如果你在意的是演員是否被放進一"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "除了主題與演出者之外，來源還提供了幾個輔助判斷訊號。第一，topic elements 中有「中出」，這讓作品的主要成人主題足夠明確；第二，公開標示有「獨家配信」與「HD／720p／高畫質」這類呈現資訊，雖然它們不應凌駕於內容主題之上，但對偏好線上觀看、重視基本規格的觀眾來說仍是"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

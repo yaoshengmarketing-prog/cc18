@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "SUJI-318",
+  "review_sha256": "3001b53cb3b966bfb462e750e61398516761c082e5438ea1373ee56d571a21fe",
+  "selected_thesis": "咲月ひな的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "咲月ひな",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "咲月ひな",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "偶然搭訕的女孩太可愛了",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "偶然声を掛けた女の子が可愛くて…",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "咲月ひな",
+    "presentation_feature": "偶然搭訕的女孩太可愛了",
+    "editorial_judgment": "咲月ひな的企劃呈現與觀看取向",
+    "source_keywords": [
+      "咲月ひな",
+      "偶然搭訕的女孩太可愛了",
+      "偶然声を掛けた女の子が可愛くて…",
+      "美少女設定"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：咲月ひな",
+      "supports": "這項可追溯來源訊號支持文章以「咲月ひな」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：偶然声を掛けた女の子が可愛くて…",
+      "supports": "這項可追溯來源訊號支持文章以「偶然声を掛けた女の子が可愛くて…」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：美少女設定",
+      "supports": "這項可追溯來源訊號支持文章以「美少女設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：偶然搭訕的女孩太可愛了",
+      "supports": "這項可追溯來源訊號支持文章以「偶然搭訕的女孩太可愛了」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：美少女",
+      "supports": "這項可追溯來源訊號支持文章以「美少女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-17T16:00:00.000Z"
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "SUJI-318",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-18T18:54:15.896Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/SUJI-318/hero-v1.jpg",
+      "r2_key": "works/2026/09/SUJI-318/hero-v1.jpg",
+      "bytes": 418811,
+      "sha256": "fb8813619f618cdf66b5bc5005f4f8bd6ae39d184cb0d75941958a6e3dd87570",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "c24ecd31-411d-4e98-8cf1-68dcaa8a6f02",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/SUJI-318/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/SUJI-318/scene-vertical-v1.jpg",
+      "bytes": 1609422,
+      "sha256": "8d304a2d5cc27d82e935db4e3f6fdfe60ba68f1e33ba31c355060859bafde428",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "adc12d10-d5c8-46eb-9327-b0bcc6a292ef",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3165932,
+    "sha256": "13df017eec4e1ef2a9c3c3555458d83129f78ae6bb3049358a4a9bc12e6ae716",
+    "target_r2_key": "works/2026/09/SUJI-318/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/SUJI-318/vertical-v1.mp4"
+  }
+}
