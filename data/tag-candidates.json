@@ -975,17 +975,18 @@
     },
     {
       "label": "玩具",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "MILK-306",
         "DOKS-689",
         "NACT-182",
         "EKDV-826",
         "OFTR-015",
-        "DSOD-078"
+        "DSOD-078",
+        "MURIKURI-015"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-16",
+      "last_seen": "2026-09-18",
       "status": "quarantined"
     },
     {
@@ -1107,14 +1108,15 @@
     },
     {
       "label": "貧乳",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "DOKS-689",
         "MVG-172",
-        "SUJI-319"
+        "SUJI-319",
+        "MURIKURI-015"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "status": "quarantined"
     },
     {
@@ -1629,14 +1631,15 @@
     },
     {
       "label": "4P",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
         "DVMM-443",
         "SKMJ-788",
         "MIDA-785",
-        "CPZ69-015"
+        "CPZ69-015",
+        "MURIKURI-015"
       ],
       "first_seen": "2026-09-14",
       "last_seen": "2026-09-18",
@@ -1832,13 +1835,14 @@
     },
     {
       "label": "小柄",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "NHDTC-247",
-        "SUJI-319"
+        "SUJI-319",
+        "MURIKURI-015"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-18",
       "status": "quarantined"
     },
     {
@@ -1896,6 +1900,16 @@
       "occurrences": 1,
       "source_ids": [
         "DANDYA-050"
+      ],
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "status": "quarantined"
+    },
+    {
+      "label": "體操服・運動短褲",
+      "occurrences": 1,
+      "source_ids": [
+        "MURIKURI-015"
       ],
       "first_seen": "2026-09-18",
       "last_seen": "2026-09-18",

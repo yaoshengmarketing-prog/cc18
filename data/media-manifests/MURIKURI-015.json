@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MURIKURI-015",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-18T06:16:09.311Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/MURIKURI-015/hero-v1.jpg",
+      "r2_key": "works/2026/09/MURIKURI-015/hero-v1.jpg",
+      "bytes": 678869,
+      "sha256": "a8b2bd551f3b999f952227fb09ed9b8bc03229818e3f5259f262928fae07ab59",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "0e927661-6ea6-4094-a3da-ca6858fd08fd",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/MURIKURI-015/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/MURIKURI-015/scene-vertical-v1.jpg",
+      "bytes": 1077382,
+      "sha256": "afdba7e4616acb37e711d2c0a96345267ee58dc7b6b22f8031aa172d530a909e",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "82682e2e-f963-46a9-9348-8baa005cb66e",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3019892,
+    "sha256": "949a60fc476c9f3516f019c698a74ac98949222dbc1dc4d44bc039ddfa8ac560",
+    "target_r2_key": "works/2026/09/MURIKURI-015/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/MURIKURI-015/vertical-v1.mp4"
+  }
+}
