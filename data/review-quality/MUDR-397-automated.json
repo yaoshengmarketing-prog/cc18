@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "MUDR-397",
+  "checked_at": "2026-09-18T06:44:14.737Z",
+  "review_sha256": "3b7ab21962ccc233676459ec8f9787bb2808e516ea57bc0eab95ee650561cfdc",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資訊，這部作品最明確的辨識點不是人物背景，而是它把「發現大人的玩具了」當成核心企劃概念來推進。這種命名方式本身就很直接，重點放在刺激好奇心、啟動變化，讓作品的選片價值先建立在設定入口，而不是複雜劇情。再加上來源概念裡還出現「即刻修幹」、「深喉嚨口爆」、「戶"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "以現有資料判斷，重心明顯更接近企劃展示。公開來源沒有提供完整人物身份、穩定關係或明確世界觀，但有一條很清楚的推進線：從「把她帶到攝影棚，首先遞給她準備好的制服Cosplay服裝」到「我忍不住突然與她深情接吻」，再到「我再也忍不住，在拍攝前就立刻將她壓在身下進行播種」。這些描述顯示"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "雖然人物身份與關係仍然未知，但「發現大人的玩具了」這個核心概念，本身就暗示一種從好奇、接觸到被捲入的角色變化方向。再對照公開摘錄裡的攝影棚與制服Cosplay安排，可以理解作品很可能把外在企劃包裝，當成角色狀態改變的起點。這也是它值得被歸到「角色覺醒」視角的原因：不是因為已有完整"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

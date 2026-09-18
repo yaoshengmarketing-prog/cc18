@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-18T06:41:49.278Z",
+  "generated_at": "2026-09-18T06:46:06.288Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 186,
-  "formal_movie_count": 185,
+  "tracked_input_count": 187,
+  "formal_movie_count": 186,
   "demo_count": 1,
-  "published_count": 182,
+  "published_count": 183,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -971,6 +971,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "573e0d8f57be78b2e0c7cf5934638cc1a310ae9e629092f69ee6b72241b1d9d7"
+    },
+    {
+      "stable_movie_id": "cc18:MUDR-397",
+      "catalog_code": "MUDR-397",
+      "slug": "mudr-397",
+      "master_path": "data/movie-master/mudr-397.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "c8a6254b4420cefd857253e71ff3955ef9fcafcec09e599aee2a7b6203f63498"
     },
     {
       "stable_movie_id": "cc18:MUDR-406",

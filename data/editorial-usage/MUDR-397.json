@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "MUDR-397",
+  "calls": [
+    {
+      "generated_at": "2026-09-18T06:44:14.565Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 3214,
+      "cached_input_tokens": 0,
+      "output_tokens": 1395,
+      "total_tokens": 4609,
+      "estimated_cost_usd": 0.047457,
+      "estimated_payg_cash_cost_usd": 0.04983,
+      "direct_openai_reference_usd": 0.02896,
+      "gateway_premium_usd": 0.018498,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 3214,
+    "cached_input_tokens": 0,
+    "output_tokens": 1395,
+    "estimated_cost_usd": 0.047457,
+    "estimated_payg_cash_cost_usd": 0.04983,
+    "direct_openai_reference_usd": 0.02896,
+    "gateway_premium_usd": 0.018498
+  }
+}
