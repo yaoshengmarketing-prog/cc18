@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MKON-148",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-18T18:45:22.266Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/MKON-148/hero-v1.jpg",
+      "r2_key": "works/2026/09/MKON-148/hero-v1.jpg",
+      "bytes": 615881,
+      "sha256": "54ea9126ffa40973c1f8eed3ffdd2e0e8cfe50e425bdbfd3b04e9075b13e406e",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "34c87675-7503-49f5-94da-660086ed2b8a",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/MKON-148/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/MKON-148/scene-vertical-v1.jpg",
+      "bytes": 1120001,
+      "sha256": "679cf13577790d8293d1e294101745bdff1822898582fb7ebde167a435b97825",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "dfed5459-aefa-41a3-92b7-ea0a445e18ff",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3037682,
+    "sha256": "e5a34a6abb5cf11cbcb35ab49417cb8c5be2e93b97c58b11632d458e87c8b978",
+    "target_r2_key": "works/2026/09/MKON-148/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/MKON-148/vertical-v1.mp4"
+  }
+}

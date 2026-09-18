@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "MKON-148",
+  "checked_at": "2026-09-18T18:44:40.430Z",
+  "review_sha256": "4dab6721b77736ae542f68986af01b5530b73a34e42372e0283e69794159d9f6",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "在目前可追溯的公開資料裡，最重要的不是三位角色各自承擔了什麼戲劇功能，而是『三人同列』本身就已經強化了後宮式企劃的可讀性。皆瀨明里、日向由奈、花守夏步同時出現在演出名單，會讓這部作品在選片時自然偏向多人互動想像與組合型吸引力，而不是單一主角獨撐的類型。這也影響判斷方式：讀者若偏好"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "題材面上，topic elements 已可追溯到「中出」，這讓作品在成人要素的溝通上相對直接，也補足了企劃概念之外的功能性吸引力。換句話說，這片不是只有人設口號，而是同時有明確的成人題材標籤可供選片參考。不過從目前資料量來看，這個要素更像是作品的明示方向，而不是足以單獨代表整體"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 3
+  }
+}

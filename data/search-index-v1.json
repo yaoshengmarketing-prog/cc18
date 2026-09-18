@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:79d36781bbd928e89b90c1d228b1da85688b0acaf1dbea4350428c42681bfba5",
-  "source_generated_at": "2026-09-18T18:41:11.968Z",
+  "source_revision": "sha256:ab4aa30a7f2caa4aaa9457fffc8a8c63805f7c66a96c4dabcddd6fd12658266d",
+  "source_generated_at": "2026-09-18T18:46:09.690Z",
   "counts": {
-    "movies": 186,
-    "performers": 202,
+    "movies": 187,
+    "performers": 203,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -479,6 +479,7 @@
       "source_name": "日向由奈",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:MKON-148",
         "cc18:NSODN-023",
         "cc18:PRED-894",
         "cc18:URKK-124"
@@ -1058,6 +1059,7 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DLDSS-545",
+        "cc18:MKON-148",
         "cc18:SQTE-716"
       ]
     },
@@ -1309,6 +1311,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:27377",
+      "display_name": "皆瀨明里",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "皆瀨明里",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKON-148"
       ]
     },
     {
@@ -3065,6 +3078,59 @@
         "article_title": "KSBJ-445 平岡里枝子｜以「息子に色仕掛けをする淫母」為核心的系列企劃判斷",
         "display_short_title": null,
         "slug": "ksbj-445"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MKON-148",
+        "source_cover": "https://cc18.tv/preview/80/b/c8dXapPN4G-800.jpg?v=1789418471",
+        "title": "MKON-148 皆瀨明里、日向由奈、花守夏步｜陰沉的我：以後宮企劃包裝角色變化",
+        "catalog_code": "MKON-148",
+        "release_date": "2026-09-12",
+        "performers": [
+          "皆瀨明里",
+          "日向由奈",
+          "花守夏步"
+        ],
+        "canonical_topics": [
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "fantasy-concept",
+            "label": "幻想企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "student",
+            "label": "學生妹"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mkon-148/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27377",
+        "cc18.tv:actor:38051",
+        "cc18.tv:actor:45988"
+      ],
+      "search": {
+        "source_title": "陰沉的我，竟然被妹妹們拿來當作懲罰遊戲的道具，結果竟然跟她們來了一場中出後宮SEX！！",
+        "article_title": "MKON-148 皆瀨明里、日向由奈、花守夏步｜陰沉的我：以後宮企劃包裝角色變化",
+        "display_short_title": null,
+        "slug": "mkon-148"
       }
     },
     {

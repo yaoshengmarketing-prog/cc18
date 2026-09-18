@@ -1184,13 +1184,14 @@
     },
     {
       "label": "學生服",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "GOJI-111",
-        "CPZ69-015"
+        "CPZ69-015",
+        "MKON-148"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "status": "quarantined"
     },
     {
@@ -1628,15 +1629,16 @@
     },
     {
       "label": "姊妹",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "EBWH-366",
         "UMD-1019",
         "MIDA-781",
-        "CPZ69-015"
+        "CPZ69-015",
+        "MKON-148"
       ],
       "first_seen": "2026-09-14",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "status": "quarantined"
     },
     {
@@ -1869,10 +1871,11 @@
     },
     {
       "label": "後宮",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "DSJH-020",
-        "URKK-124"
+        "URKK-124",
+        "MKON-148"
       ],
       "first_seen": "2026-09-08",
       "last_seen": "2026-09-19",
