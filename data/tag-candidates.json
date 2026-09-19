@@ -612,7 +612,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 18,
+      "occurrences": 19,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -631,7 +631,8 @@
         "HAWA-386",
         "TENN-052",
         "SDJS-382",
-        "ABF-386"
+        "ABF-386",
+        "PTS-555"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-19",
@@ -1398,12 +1399,13 @@
     },
     {
       "label": "絲襪",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "CLOT-043"
+        "CLOT-043",
+        "PTS-555"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-09-08",
+      "last_seen": "2026-09-19",
       "status": "quarantined"
     },
     {
@@ -1441,12 +1443,13 @@
     },
     {
       "label": "タイツ",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "CLOT-043"
+        "CLOT-043",
+        "PTS-555"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-09-08",
+      "last_seen": "2026-09-19",
       "status": "quarantined"
     },
     {
@@ -1461,12 +1464,13 @@
     },
     {
       "label": "パンスト・タイツ",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "CLOT-043"
+        "CLOT-043",
+        "PTS-555"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-09-08",
+      "last_seen": "2026-09-19",
       "status": "quarantined"
     },
     {
@@ -1485,14 +1489,15 @@
     },
     {
       "label": "拘束",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "BBTU-119",
         "DDK-241",
         "MANX-034",
         "ACZD-250",
         "SNOS-342",
-        "MXGS-1445"
+        "MXGS-1445",
+        "PTS-555"
       ],
       "first_seen": "2026-09-08",
       "last_seen": "2026-09-19",

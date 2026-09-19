@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "PTS-555",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-19T06:06:25.575Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/PTS-555/hero-v1.jpg",
+      "r2_key": "works/2026/09/PTS-555/hero-v1.jpg",
+      "bytes": 571033,
+      "sha256": "7ba56f8fc92d7a69aefb62d076166459c3feec2a3d30efd1feec33b9bc4e9ad2",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "1fa44b1c-a805-4215-9830-a958b11db04d",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/PTS-555/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/PTS-555/scene-vertical-v1.jpg",
+      "bytes": 543386,
+      "sha256": "a8ff7fd231644498bf95caa5283bd3bcfc9420cdb13a91c5f0a13e0a6dc197ec",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "c822b4b1-15dd-4b0f-9218-38e1e041338a",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 1961152,
+    "sha256": "fb0a4854ab09e5b70f7a98b61ab1c946e124b6f91fe503c5059d1de49952aec1",
+    "target_r2_key": "works/2026/09/PTS-555/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/PTS-555/vertical-v1.mp4"
+  }
+}

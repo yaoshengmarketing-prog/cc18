@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "PTS-555",
+  "checked_at": "2026-09-19T06:05:45.594Z",
+  "review_sha256": "2680dea01e2f9c959beb66691d12e986b6528048c81cde0b3894c99b10258561",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果是從選片角度出發，PTS-555 最清楚的吸引點，就是片名直接拋出的「汗流浹背褲襪OL限定」這個核心企劃。它不是單靠單一身分標籤，而是把 OL 身分、炎熱狀態與明確限制條件綁在一起，讓作品從一開始就有鮮明方向。公開資料同時還出現「拘束」與 OL 等來源訊號，代表這部片的可辨識"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "依現有來源來看，PTS-555 更接近展示型企劃片。原因不是它沒有設定，而是它的設定功能很明確：把「盛夏」、「OL」、「熱工作室」、「汗流浹背」與片名中的限制條件集中成一個可被迅速理解的企劃框架。這類作品的選片重點，通常在於概念是否夠集中、題材是否夠明確。就這部而言，核心概念與公"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "綜合公開資料，PTS-555 的優勢在於主題集中、企劃辨識度高，而且簡介中的情境設計與片名核心概念一致，讓作品的賣點非常明白。它的判斷基礎不是角色背景深度，也不是已知的劇情轉折，而是題材被清楚框定後所形成的主題吸引力。因此若你的選片習慣是先看企劃是否夠明確、是否有足夠鮮明的主軸，"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
