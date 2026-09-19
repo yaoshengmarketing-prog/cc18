@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "IENF-458",
+  "checked_at": "2026-09-19T00:30:50.809Z",
+  "review_sha256": "d7a56c5e6b697673e95a1ddcb97b457425b916da06bcb5f17784156d571a5896",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "這部作品最明確的辨識點，不是單一演員資訊，而是系列名稱《私のパンツ見てたよね？》與核心概念「私のパンツ見てたよね」。從公開資料來看，它的吸引力主要建立在一句能立刻成立情境張力的挑釁式命題，也就是「你剛才在看我的內褲吧」這種直接點破視線與羞恥感的企劃出發點。對選片來說，這代表它更像"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "因為本作已有清楚系列名《私のパンツ見てたよね？》，所以判斷重點自然會落在系列公式是否成立。從來源資料可知，這個系列核心不是複雜世界觀，而是把一句具有挑逗與指認意味的話，轉化成作品識別。這類作品通常適合把注意力放在企劃是否夠鮮明、題材訊號是否集中，而不是期待大量背景鋪陳。也因此，若"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

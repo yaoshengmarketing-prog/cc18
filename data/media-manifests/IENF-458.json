@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "IENF-458",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-19T00:31:46.082Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/IENF-458/hero-v1.jpg",
+      "r2_key": "works/2026/09/IENF-458/hero-v1.jpg",
+      "bytes": 527317,
+      "sha256": "024a4aee264ace0fb9e91e1daba90d791e7b93d62349dbbed50f1d338bf3047c",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "2f272442-4e7d-4215-9eb7-09cd55daa95f",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/IENF-458/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/IENF-458/scene-vertical-v1.jpg",
+      "bytes": 1231679,
+      "sha256": "4a37b61f15440e747526bab311fca82ade57d61de4229392b7af5cabea83c21d",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "f201be6a-4ada-4e88-8c80-14b3120b9754",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2844876,
+    "sha256": "f115ae97af9fa3f0e3b18e21e87118bffc6b3bc693792a768c25a575042496ae",
+    "target_r2_key": "works/2026/09/IENF-458/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/IENF-458/vertical-v1.mp4"
+  }
+}

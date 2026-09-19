@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "IENF-458",
+  "calls": [
+    {
+      "generated_at": "2026-09-19T00:30:50.563Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 3115,
+      "cached_input_tokens": 0,
+      "output_tokens": 1260,
+      "total_tokens": 4375,
+      "estimated_cost_usd": 0.043925,
+      "estimated_payg_cash_cost_usd": 0.046121,
+      "direct_openai_reference_usd": 0.026687,
+      "gateway_premium_usd": 0.017237,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 3115,
+    "cached_input_tokens": 0,
+    "output_tokens": 1260,
+    "estimated_cost_usd": 0.043925,
+    "estimated_payg_cash_cost_usd": 0.046121,
+    "direct_openai_reference_usd": 0.026687,
+    "gateway_premium_usd": 0.017237
+  }
+}
