@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "WA-593",
+  "checked_at": "2026-09-19T14:55:16.115Z",
+  "review_sha256": "420e622d98dbfd81a013343054efa093060a42ab4595f45495c0d2b3a7e4fcd2",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就公開資料來看，這部作品最明確的核心賣點是「亂交」企劃本身，並且把主體放在「人妻・主婦」身分上。來源簡介直接提到，因壓力與育兒而長期累積欲求不滿的媽媽友，首次參加野外音樂祭；再加上 safe signals 與 topic elements 都明確指向亂交、3p・4p、中出等行為"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "本作的設定辨識度主要來自「野外音樂祭」與「喝酒邀約」的組合。公開摘錄提到，這群媽媽友帶著開放感首次參加野外音樂祭，並且在熱氣與酒精催化下，從一句「要一起喝一杯嗎？」展開後續發展。這樣的設定讓作品的企劃方向不只是多人互動而已，而是把場域放在更偏向節慶、社交與臨場鬆動的氛圍裡。也因此"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
