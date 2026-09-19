@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "SNOS-444",
+  "checked_at": "2026-09-19T18:04:06.805Z",
+  "review_sha256": "68bb5322f5788bee4e67af3e07b400032cde12604062542d414b1fb3784e3e7f",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看可追溯來源，這部作品最明確的辨識點不是一般性的成人標籤，而是片名核心概念「170cm」。這個設定直接把選片焦點從常見類型拉回到出演者條件本身，讓作品更接近一種以身形條件與存在感為主軸的展示型企劃。再結合來源中的「G罩杯『新卒』AV女優」與出演者星空ねる，這部片的吸引力主要"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "公開摘錄提到「在這次拍攝之前，我們要求她必須禁欲」，以及「在禁欲期間，她努力壓抑著心中蠢蠢欲動的慾望，終於迎來了拍攝」。這類文字的重要性不在於證明實際表現結果，而在於它為作品加上一層前置蓄積的企劃說明。換句話說，作品不是只靠類型標籤吸引人，而是透過禁欲這個宣傳設定，強化拍攝時機與"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "這部片較合理的期待，應該放在出演者條件、企劃設定與標籤組合所形成的整體辨識度。已知來源提供了星空ねる、170cm、巨乳、3p・4p，以及禁欲後迎來拍攝的宣傳設定，這些元素足以構成一個明確的選片輪廓：不是靠故事懸念取勝，而是靠條件鮮明的出演者與集中式企劃包裝來吸引目光。若觀眾本來就"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

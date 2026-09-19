@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-444",
+  "review_sha256": "6fbcddad3dcb8eae91df04748a62a36dfc61de8d5f84318754d73a43db12b06a",
+  "selected_thesis": "星空ねる的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "星空ねる",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "星空ねる",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "170cm",
+        "source_field": "title"
+      },
+      {
+        "type": "act_or_position",
+        "value": "3p・4p",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "星空ねる",
+    "presentation_feature": "170cm",
+    "editorial_judgment": "星空ねる的企劃呈現與觀看取向",
+    "source_keywords": [
+      "星空ねる",
+      "170cm",
+      "3p・4p"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "因此，在這次拍攝之前，我們要求她必須禁欲。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "在禁欲期間，她努力壓抑著心中蠢蠢欲動的慾望，終於迎來了拍攝。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：星空ねる",
+      "supports": "這項可追溯來源訊號支持文章以「星空ねる」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：170cm",
+      "supports": "這項可追溯來源訊號支持文章以「170cm」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：3p・4p",
+      "supports": "這項可追溯來源訊號支持文章以「3p・4p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：アクメ・オーガズム",
+      "supports": "這項可追溯來源訊號支持文章以「アクメ・オーガズム」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-18T16:00:00.000Z"
+}

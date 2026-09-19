@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:dc7092ec5a80ff7fcc60c5812ccbc3cf87a127e34842435b2ef76a9a95e98984",
-  "source_generated_at": "2026-09-19T15:01:40.547Z",
+  "source_revision": "sha256:4e51a07eb41483373a84b75574f65226fae94d524cf0a64fcd14df3169230788",
+  "source_generated_at": "2026-09-19T18:06:11.316Z",
   "counts": {
-    "movies": 207,
+    "movies": 208,
     "performers": 221,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -1331,7 +1331,8 @@
         "星空音琉"
       ],
       "related_movie_ids": [
-        "cc18:SNOS-409"
+        "cc18:SNOS-409",
+        "cc18:SNOS-444"
       ]
     },
     {
@@ -2707,6 +2708,59 @@
         "article_title": "SNOS-393 初美なのか｜討厭到死的OL設定，主打企劃反差",
         "display_short_title": null,
         "slug": "snos-393"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-444",
+        "source_cover": "https://cc18.tv/preview/80/b/2MNfDoanP46-800.jpg?v=1789785554",
+        "title": "SNOS-444 星空ねる｜170cm企劃下的展示型選片",
+        "catalog_code": "SNOS-444",
+        "release_date": "2026-09-18",
+        "performers": [
+          "星空ねる"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-444/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54454"
+      ],
+      "search": {
+        "source_title": "170cm G罩杯「新卒」AV女優，新鮮小穴大痙攣—社會人最高女子潮吹、仰後翻，人生首次的大絕頂高潮 星空音琉",
+        "article_title": "SNOS-444 星空ねる｜170cm企劃下的展示型選片",
+        "display_short_title": null,
+        "slug": "snos-444"
       }
     },
     {

@@ -617,7 +617,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 19,
+      "occurrences": 20,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -637,10 +637,11 @@
         "TENN-052",
         "SDJS-382",
         "ABF-386",
-        "PTS-555"
+        "PTS-555",
+        "SNOS-444"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-19",
+      "last_seen": "2026-09-20",
       "status": "quarantined"
     },
     {
@@ -1695,7 +1696,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 12,
+      "occurrences": 13,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -1708,10 +1709,11 @@
         "FNEW-024",
         "MXGS-1445",
         "SDAB-359",
-        "WA-593"
+        "WA-593",
+        "SNOS-444"
       ],
       "first_seen": "2026-09-14",
-      "last_seen": "2026-09-19",
+      "last_seen": "2026-09-20",
       "status": "quarantined"
     },
     {
