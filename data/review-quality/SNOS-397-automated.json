@@ -1,0 +1,28 @@
+{
+  "schema_version": 2,
+  "id": "SNOS-397",
+  "checked_at": "2026-09-19T18:13:34.926Z",
+  "review_sha256": "80ccb5fb3439201eaa580780b93e7c106c1c940d3d1d0287d58367441b41871a",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

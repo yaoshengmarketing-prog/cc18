@@ -646,7 +646,7 @@
     },
     {
       "label": "姐姐系",
-      "occurrences": 15,
+      "occurrences": 16,
       "source_ids": [
         "SNOS-364",
         "SNOS-372",
@@ -662,10 +662,11 @@
         "IPZZ-944",
         "PRED-898",
         "PRED-899",
-        "MVSH-006"
+        "MVSH-006",
+        "SNOS-397"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-19",
+      "last_seen": "2026-09-20",
       "status": "quarantined"
     },
     {
@@ -984,7 +985,7 @@
     },
     {
       "label": "打手槍",
-      "occurrences": 9,
+      "occurrences": 10,
       "source_ids": [
         "SNOS-447",
         "GOJI-110",
@@ -994,10 +995,11 @@
         "UMD-1019",
         "START-602",
         "START-625",
-        "SKMJ-788"
+        "SKMJ-788",
+        "SNOS-397"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-20",
       "status": "quarantined"
     },
     {
