@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "SCMF-004",
+  "checked_at": "2026-09-19T00:47:49.782Z",
+  "review_sha256": "2606dc8d3e10aa7f82c0f5e2f032b4c17cc50c799b6816a75df60467152f9847",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 6,
+          "excerpt": "以現有資料來看，我會把它歸在展示型企劃優先。理由很簡單：目前最穩固的來源都是系列名稱、核心概念、角色標示與人物簡介，而不是可驗證的完整情節架構。像是「美少女」「角色扮演」「癡女」「淫語」這些元素，都更像是在為企劃口味定調；再加上「完全主觀SEX」本身就是一種明確形式，代表選片時應"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "最能代表本作風格的來源訊號，我會抓三個。第一是系列名「美少女コスプレイヤー完全主観SEX」，它直接定義了美少女、角色扮演與主觀形式。第二是核心概念「甜虐完全主觀SEX」，這決定了作品在體感上不是單純角色扮演，而是更強調甜與虐並置的互動包裝。第三是來源摘錄中的人物關係前提：想成為偶"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

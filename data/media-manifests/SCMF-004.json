@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "SCMF-004",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-19T00:48:45.768Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/SCMF-004/hero-v1.jpg",
+      "r2_key": "works/2026/09/SCMF-004/hero-v1.jpg",
+      "bytes": 593880,
+      "sha256": "6bf602bc197043417a53b1b7ca399bdf09683260eb625f0384a21e4a0d2d58ae",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "b7b91003-1001-4d22-a1fd-9b4efd58e410",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/SCMF-004/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/SCMF-004/scene-vertical-v1.jpg",
+      "bytes": 1666021,
+      "sha256": "4f3559be28a7f53f573b690dd66b3f756eb9b67603c44a6dd09bb0a7f6826937",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "52d53408-c092-43ba-82bc-53d74af7760f",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3537144,
+    "sha256": "42d444df2b3fa4d214404727e173f3e00b21851e69c1375f2e1b8086db70e4b7",
+    "target_r2_key": "works/2026/09/SCMF-004/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/SCMF-004/vertical-v1.mp4"
+  }
+}
