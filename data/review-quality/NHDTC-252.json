@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "NHDTC-252",
+  "review_sha256": "3901ab495641d4bcae495ab662a6ae6936d58d05c85daf81556385568b8c8928",
+  "selected_thesis": "高畫質的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "在擁擠的巴士上動彈不得",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "人妻・主婦",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "口交",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "在擁擠的巴士上動彈不得",
+    "presentation_feature": "人妻・主婦",
+    "editorial_judgment": "高畫質的企劃呈現與觀看取向",
+    "source_keywords": [
+      "在擁擠的巴士上動彈不得",
+      "人妻・主婦",
+      "口交"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：在擁擠的巴士上動彈不得",
+      "supports": "這項可追溯來源訊號支持文章以「在擁擠的巴士上動彈不得」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻・主婦",
+      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：口交",
+      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：顏射",
+      "supports": "這項可追溯來源訊號支持文章以「顏射」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：親吻",
+      "supports": "這項可追溯來源訊號支持文章以「親吻」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：HD",
+      "supports": "這項可追溯來源訊號支持文章以「HD」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-18T16:00:00.000Z"
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "NHDTC-252",
+  "checked_at": "2026-09-19T14:37:59.117Z",
+  "review_sha256": "9f01d886eb505f49da57f54ab264575ca7c2362ced5ec663b78417aa44c22398",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資訊來看，NHDTC-252 最明確的吸引力，是它把核心賣點直接壓在「在擁擠的巴士上動彈不得」這個企劃設定上。這種設計的判斷重點，不在於複雜人物背景，而在於受限空間本身能否成立為觀看理由。片名已經把限制條件說得很直接，因此它適合對明確情境型題材有偏好的讀"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "從現有資料看，最強的來源線索仍是片名中的處境設定，以及公開標籤提供的身份與行為組合。創作線索雖提到可從「企劃設定、角色變化、互動節奏」整理文章，但同時也明白指出，這些主題只是組織評論的方向，不能直接當成已被證實的情節。因此較穩妥的編輯判斷是：本作目前更接近以單一明確概念帶動內容辨"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
