@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "MXGS-1445",
+  "checked_at": "2026-09-19T06:00:58.282Z",
+  "review_sha256": "0869f4e76e5b4f028f932962f3de5a02c81dc37cc00110de8f650a5ac92a5bb5",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最明確的理由，是它有一個一眼就能成立的企劃入口：公開來源直接指出核心概念是「皮拉提斯體驗」，同時片名線索還帶出「變態教練的特別指導」。這讓作品不是單靠單一成人元素吸引注意，而是先用日常健身、流行體驗這種比較輕盈的門檻，把觀眾帶進一個會逐步轉向刺激與失控的設定框架。對選片來說，這種"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "來源摘錄裡先寫到「比健身房簡單，比瑜伽更流行且輕鬆」，再接上「容易受影響的我立刻就報名了」，這組資訊很清楚地建立出一個從跟風嘗試開始的角色起點。接著公開簡介又寫到，報名後遇上「有變態教練的皮拉提斯課」，並進一步提到從被玩弄、被調教，到「不知不覺間」感到興奮。即使不補充任何未被證實"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "就可用公開資料來看，片名與演出者資訊都把千葉優花放在辨識中心，安全標籤則補充了「窈窕」「巨乳」等外型訊號。這些來源資料讓作品在企劃設定之外，還有明確的人物辨識度：一方面是演出者本身作為選片入口，另一方面是她被放進「皮拉提斯體驗」這類強調身體伸展、體態聯想的企劃裡，會自然提高主題與"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

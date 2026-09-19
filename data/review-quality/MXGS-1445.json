@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "MXGS-1445",
+  "review_sha256": "0fbff4d06bcf006f4e77b88a8a854b09fc26f196182e93898b48fac0652a6c9f",
+  "selected_thesis": "千葉優花的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "千葉優花",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "千葉優花",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "皮拉提斯體驗",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "千葉優花",
+    "presentation_feature": "皮拉提斯體驗",
+    "editorial_judgment": "千葉優花的企劃呈現與觀看取向",
+    "source_keywords": [
+      "千葉優花",
+      "皮拉提斯體驗",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "比健身房簡單，比瑜伽更流行且輕鬆…雖然不太明白，但容易受影響的我立刻就報名了。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "結果我報名到了有變態教練的皮拉提斯課，身體被他玩弄得慘不忍睹，但不知不覺間，我竟然對被他調教的感覺感到興奮起來…",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：千葉優花",
+      "supports": "這項可追溯來源訊號支持文章以「千葉優花」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：皮拉提斯體驗",
+      "supports": "這項可追溯來源訊號支持文章以「皮拉提斯體驗」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：窈窕",
+      "supports": "這項可追溯來源訊號支持文章以「窈窕」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：親吻",
+      "supports": "這項可追溯來源訊號支持文章以「親吻」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-18T16:00:00.000Z"
+}
