@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "SDMM-239",
+  "review_sha256": "5d877289f672d27ea554544635d8922349b57af96e313bc8224760b1feca54e7",
+  "selected_thesis": "谷梓的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "谷梓、八森若菜、鹿野あも、鳥羽いく、月待青花、音羽ゆうあ",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "谷梓",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "初めての杭打ち騎乗位",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "谷梓",
+    "presentation_feature": "初めての杭打ち騎乗位",
+    "editorial_judgment": "谷梓的企劃呈現與觀看取向",
+    "source_keywords": [
+      "谷梓",
+      "初めての杭打ち騎乗位",
+      "素人企劃"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：谷梓",
+      "supports": "這項可追溯來源訊號支持文章以「谷梓」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：八森若菜",
+      "supports": "這項可追溯來源訊號支持文章以「八森若菜」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：鹿野あも",
+      "supports": "這項可追溯來源訊號支持文章以「鹿野あも」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：鳥羽いく",
+      "supports": "這項可追溯來源訊號支持文章以「鳥羽いく」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：月待青花",
+      "supports": "這項可追溯來源訊號支持文章以「月待青花」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：音羽ゆうあ",
+      "supports": "這項可追溯來源訊號支持文章以「音羽ゆうあ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：初めての杭打ち騎乗位",
+      "supports": "這項可追溯來源訊號支持文章以「初めての杭打ち騎乗位」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：素人企劃",
+      "supports": "這項可追溯來源訊號支持文章以「素人企劃」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-18T16:00:00.000Z"
+}

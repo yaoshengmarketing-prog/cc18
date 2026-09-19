@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "SDMM-239",
+  "checked_at": "2026-09-19T14:51:06.323Z",
+  "review_sha256": "36f2145d6eb1da42488e8ecf6165f49571d703a3da3867fc0530a904943af30b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果是以企劃辨識度來挑片，這部作品最直接的賣點，就是系列名已經把核心玩法說得非常清楚：主軸就是「初めての杭打ち騎乗位」。對選片者而言，這代表它不是靠複雜劇情吸引注意，而是以單一明確主題來組織內容。再加上來源中同時出現「魔鏡號」、「保健體育課外教學」與「點燃思春期的性好奇心」這些概"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "topic elements 提供了「素人」「學生妹」兩個身份訊號，搭配「保健體育課外教學」與「點燃思春期的性好奇心」這些來源概念，能看出本作的包裝語氣偏向青春感、入門感與好奇心被啟動的企劃框架。這類訊號對選片判斷的作用，不是證明具體劇情，而是幫助理解作品想營造的入口：它將觀看門"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 3
+  }
+}

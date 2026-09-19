@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "SDMM-239",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-19T14:51:53.474Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/SDMM-239/hero-v1.jpg",
+      "r2_key": "works/2026/09/SDMM-239/hero-v1.jpg",
+      "bytes": 653381,
+      "sha256": "672eb4c7eb0b240ef4b491dcbdce69af84ed4c344205e1482ac32a0171dd271f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "2508262b-fa63-40a8-bf4b-cc751424c047",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/SDMM-239/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/SDMM-239/scene-vertical-v1.jpg",
+      "bytes": 954803,
+      "sha256": "5537b621b70bdc0b82ebdc392e2c7a23c93b4a1dd57975ebe201f3937542f5ef",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "45c36e10-1259-4fd0-a13e-32da35bf1f30",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2855969,
+    "sha256": "b30a954a66c01f53d55235ddc803c0822051491af4daac71289551704c79737d",
+    "target_r2_key": "works/2026/09/SDMM-239/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/SDMM-239/vertical-v1.mp4"
+  }
+}

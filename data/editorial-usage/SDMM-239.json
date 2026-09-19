@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "SDMM-239",
+  "calls": [
+    {
+      "generated_at": "2026-09-19T14:51:06.171Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 3253,
+      "cached_input_tokens": 0,
+      "output_tokens": 1198,
+      "total_tokens": 4451,
+      "estimated_cost_usd": 0.04322,
+      "estimated_payg_cash_cost_usd": 0.045381,
+      "direct_openai_reference_usd": 0.026103,
+      "gateway_premium_usd": 0.017118,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 3253,
+    "cached_input_tokens": 0,
+    "output_tokens": 1198,
+    "estimated_cost_usd": 0.04322,
+    "estimated_payg_cash_cost_usd": 0.045381,
+    "direct_openai_reference_usd": 0.026103,
+    "gateway_premium_usd": 0.017118
+  }
+}
