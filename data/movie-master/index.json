@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-19T00:32:34.538Z",
+  "generated_at": "2026-09-19T00:36:26.228Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 195,
-  "formal_movie_count": 194,
+  "tracked_input_count": 196,
+  "formal_movie_count": 195,
   "demo_count": 1,
-  "published_count": 191,
+  "published_count": 192,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1079,6 +1079,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "ec7cf97c01a92c0595dbfad5d424401e36da01ff0542e2cec4d56fa0cda8b9dc"
+    },
+    {
+      "stable_movie_id": "cc18:MVSD-700",
+      "catalog_code": "MVSD-700",
+      "slug": "mvsd-700",
+      "master_path": "data/movie-master/mvsd-700.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "30fffb6e555ce45f6b82a29493b1994273d2ea3f1e91b135a37299d8e66e2a95"
     },
     {
       "stable_movie_id": "cc18:NACT-182",

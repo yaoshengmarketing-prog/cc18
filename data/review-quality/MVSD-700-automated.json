@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "id": "MVSD-700",
+  "checked_at": "2026-09-19T00:34:58.015Z",
+  "review_sha256": "da452bfd48de01355149044e8841ccea81cee7315f19b563a0f9b2b2016fa383",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資訊，MVSD-700 最明確的選片重點不是角色關係，也不是具體情節，而是「OD」這個核心企劃概念本身。來源中的 core source concept 直接指向 OD，題名相關摘錄又同時出現「TRANS」「CHEMSEX」「尿液狂噴爆速活塞FUCK」「辣"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
