@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-19T14:44:04.996Z",
+  "generated_at": "2026-09-19T14:48:09.996Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 207,
-  "formal_movie_count": 206,
+  "tracked_input_count": 208,
+  "formal_movie_count": 207,
   "demo_count": 1,
-  "published_count": 203,
+  "published_count": 204,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1475,6 +1475,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "b9b2ad134b7094c1eb0dda679f7c046eb06971e0c603d771d9b5d97e309cbcff"
+    },
+    {
+      "stable_movie_id": "cc18:SDAB-359",
+      "catalog_code": "SDAB-359",
+      "slug": "sdab-359",
+      "master_path": "data/movie-master/sdab-359.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "f192d3a17ba12b589434f465fedc1b5c057763b5a5adca9c3a559179c71c14a4"
     },
     {
       "stable_movie_id": "cc18:SDJS-382",

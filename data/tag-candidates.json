@@ -996,7 +996,7 @@
     },
     {
       "label": "玩具",
-      "occurrences": 10,
+      "occurrences": 11,
       "source_ids": [
         "MILK-306",
         "DOKS-689",
@@ -1007,7 +1007,8 @@
         "MURIKURI-015",
         "SDJS-382",
         "MXGS-1445",
-        "NHDTC-245"
+        "NHDTC-245",
+        "SDAB-359"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-19",
@@ -1314,15 +1315,16 @@
     },
     {
       "label": "ローション・オイル",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "NACT-182",
         "BBTU-119",
         "HSM-090",
-        "ABF-382"
+        "ABF-382",
+        "SDAB-359"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "status": "quarantined"
     },
     {
@@ -1685,7 +1687,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 10,
+      "occurrences": 11,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -1696,7 +1698,8 @@
         "MURIKURI-015",
         "HAWA-386",
         "FNEW-024",
-        "MXGS-1445"
+        "MXGS-1445",
+        "SDAB-359"
       ],
       "first_seen": "2026-09-14",
       "last_seen": "2026-09-19",

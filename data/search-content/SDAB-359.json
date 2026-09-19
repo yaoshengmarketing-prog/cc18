@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "movie_id": "SDAB-359",
+  "generated_at": "2026-09-19T14:46:43.516Z",
+  "source_snapshot_hash": "sha256:73b5be11678457b110220ceb5fd9d51d3c918b247a32bc02e7098c2fd240850b",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "從企劃設定是否足以構成選片理由出發，評估本作如何以單一核心概念整合人物形象與多人配置。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "要結愛",
+      "美少女設定",
+      "高畫質",
+      "18歲性感開發"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SDAB-358",
+      "relation_type": "same_performer",
+      "reason": "同樣由要結愛出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "要結愛"
+      ],
+      "contrast_signals": [
+        "相沢澪",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？從企劃設定是否足以構成選片理由出發，評估本作如何以單一核心概念整合人物形象與多人配置。",
+    "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+    "有哪些觀看取捨？只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+  ]
+}

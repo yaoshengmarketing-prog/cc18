@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "SDAB-359",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-19T14:47:26.165Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/SDAB-359/hero-v1.jpg",
+      "r2_key": "works/2026/09/SDAB-359/hero-v1.jpg",
+      "bytes": 1241833,
+      "sha256": "36b3cd0e7d5ced46c9fbd91e64a2aa355553adfc24d4a4698055b41e500e0e00",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "cefa232a-4cda-4323-996f-7bd0da50d771",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/SDAB-359/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/SDAB-359/scene-vertical-v1.jpg",
+      "bytes": 1102490,
+      "sha256": "bfc07af04a525c9a3aaa7049cf416b4d5e3cea0abbe0d01d33d00304ec7e0778",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "89743e21-ef56-477f-83ff-c9031adfd979",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3393410,
+    "sha256": "1e6e763a7a90e025106e2668e5badde6b506550ec8259e8a168adb6dea098534",
+    "target_r2_key": "works/2026/09/SDAB-359/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/SDAB-359/vertical-v1.mp4"
+  }
+}
