@@ -612,7 +612,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 17,
+      "occurrences": 18,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -630,7 +630,8 @@
         "PIYO-240",
         "HAWA-386",
         "TENN-052",
-        "SDJS-382"
+        "SDJS-382",
+        "ABF-386"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-19",
@@ -1231,14 +1232,15 @@
     },
     {
       "label": "白虎",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "MAAN-1192",
         "UMD-1019",
         "UMD-1017",
         "SUJI-319",
         "BANK-248",
-        "SUJI-318"
+        "SUJI-318",
+        "ABF-386"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-19",

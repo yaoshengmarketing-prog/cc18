@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "ABF-386",
+  "review_sha256": "9a40f1c75f416a3229d591e8f5b15ff138eb0243b7a09709f77e8f07cc5e4e45",
+  "selected_thesis": "三佳詩的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "三佳詩",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "三佳詩",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "同棲中出し性交録",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "同棲中出し性交録。",
+        "source_field": "series"
+      }
+    ],
+    "primary_theme": "三佳詩",
+    "presentation_feature": "同棲中出し性交録",
+    "editorial_judgment": "三佳詩的企劃呈現與觀看取向",
+    "source_keywords": [
+      "三佳詩",
+      "同棲中出し性交録",
+      "同棲中出し性交録。"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：三佳詩",
+      "supports": "這項可追溯來源訊號支持文章以「三佳詩」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：同棲中出し性交録。",
+      "supports": "這項可追溯來源訊號支持文章以「同棲中出し性交録。」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：素人企劃",
+      "supports": "這項可追溯來源訊號支持文章以「素人企劃」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：同棲中出し性交録",
+      "supports": "這項可追溯來源訊號支持文章以「同棲中出し性交録」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：素人",
+      "supports": "這項可追溯來源訊號支持文章以「素人」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-18T16:00:00.000Z"
+}

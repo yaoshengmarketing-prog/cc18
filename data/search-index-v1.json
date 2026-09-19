@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:78446ac7584c634f57b8898c70f22d86a669cd6f3bfff6f7b23404a0d7e43108",
-  "source_generated_at": "2026-09-19T00:49:35.609Z",
+  "source_revision": "sha256:3b83719cf4d5bf2704c87307d88dc672c19789c31c1101c2185f2b817c9ed30a",
+  "source_generated_at": "2026-09-19T05:57:49.044Z",
   "counts": {
-    "movies": 195,
-    "performers": 205,
+    "movies": 196,
+    "performers": 206,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -190,6 +190,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PRED-902"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53168",
+      "display_name": "三佳詩",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "三佳詩",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:ABF-386"
       ]
     },
     {
@@ -2423,6 +2434,55 @@
         "article_title": "NOSKN-104 糸井瑠花 × 美少女設定｜糸井瑠花",
         "display_short_title": null,
         "slug": "noskn-104"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:ABF-386",
+        "source_cover": "https://cc18.tv/preview/80/b/fwUqBbOwG1x-800.jpg?v=1789763928",
+        "title": "ABF-386 三佳詩｜同棲中出し性交録：以系列企劃感為主的選片",
+        "catalog_code": "ABF-386",
+        "release_date": "2026-09-17",
+        "performers": [
+          "三佳詩"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "amateur",
+            "label": "素人"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "fhd",
+            "label": "全高清 FHD"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/abf-386/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53168"
+      ],
+      "search": {
+        "source_title": "被性慾支配的倒錯情侶同居內射性交錄。 三佳詩",
+        "article_title": "ABF-386 三佳詩｜同棲中出し性交録：以系列企劃感為主的選片",
+        "display_short_title": null,
+        "slug": "abf-386"
       }
     },
     {

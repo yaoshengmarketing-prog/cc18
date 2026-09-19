@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "ABF-386",
+  "checked_at": "2026-09-19T05:56:07.894Z",
+  "review_sha256": "2b6123d4212dd17d2ea086971040d2f9381f0fe0f79abf4011dc069dc85f22ef",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只依目前可追溯的公開資料來看，ABF-386 最明確的賣點不是複雜劇情，而是由系列名稱直接建立的企劃方向。作品歸在「同棲中出し性交録。」系列，核心概念也同樣指向「同棲中出し性交録」，再加上 topic elements 中已知的「中出」與演出者三佳詩，讓它更適合被理解成一部以主"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}
