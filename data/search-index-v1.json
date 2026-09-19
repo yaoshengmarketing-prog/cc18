@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:69b005f9ffb646bd9ad7865e8444cd41f0efe7a872223cfabc03c0fe5b6d424f",
-  "source_generated_at": "2026-09-19T06:11:33.372Z",
+  "source_revision": "sha256:078760801820ed611004128b32201cdb6bfc5adfc9a094b0b3b33d1262e36c96",
+  "source_generated_at": "2026-09-19T14:30:41.567Z",
   "counts": {
-    "movies": 199,
+    "movies": 200,
     "performers": 207,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -1048,7 +1048,8 @@
         "河北彩伽"
       ],
       "related_movie_ids": [
-        "cc18:SNOS-371"
+        "cc18:SNOS-371",
+        "cc18:SNOS-377"
       ]
     },
     {
@@ -2446,6 +2447,55 @@
         "article_title": "NOSKN-104 糸井瑠花 × 美少女設定｜糸井瑠花",
         "display_short_title": null,
         "slug": "noskn-104"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-377",
+        "source_cover": "https://cc18.tv/preview/80/b/in416BhENfm-800.jpg?v=1789807160",
+        "title": "SNOS-377 河北彩花｜覺醒成了抖M：以角色變化為主軸的企劃型作品",
+        "catalog_code": "SNOS-377",
+        "release_date": "2026-09-18",
+        "performers": [
+          "河北彩花"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-377/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:34284"
+      ],
+      "search": {
+        "source_title": "「今天想做點不尋常的愛...」如此撒嬌的空姐女友被我粗暴地幹個徹底後，覺醒成了抖M 河北彩花",
+        "article_title": "SNOS-377 河北彩花｜覺醒成了抖M：以角色變化為主軸的企劃型作品",
+        "display_short_title": null,
+        "slug": "snos-377"
       }
     },
     {

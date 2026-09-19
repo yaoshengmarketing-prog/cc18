@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "id": "SNOS-377",
+  "checked_at": "2026-09-19T14:28:41.992Z",
+  "review_sha256": "b99ac46e308cb5ec09f63ee416ae9041ed898fbb5eb7a84141a91dab1b43a5fa",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只從目前可追溯的公開資訊來看，這部作品最明確的吸引力就是標題直接拋出的核心概念：「覺醒成了抖M」。這種寫法不是單純列出內容分類，而是先建立一個角色變化的方向，讓作品判斷重點落在「設定如何成立」與「企劃如何圍繞這個轉變展開」。再加上演出者是河北彩花，對熟悉演員企劃取向的觀眾來說"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "在目前資料有限的情況下，河北彩花本身就是非常重要的選片依據。因為作品沒有公開更多角色關係與劇情細節，演出者名稱自然成為觀眾建立預期的主要入口。加上本作核心概念並非單一動作標籤，而是帶有角色面向的「覺醒成了抖M」，因此演出者與企劃概念的結合，會比單純技術規格更有判斷力。換句話說，這"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "來源中的 topic elements 顯示，作品可確認的取向包括「AV女優片」、「淫亂・過激系」與「アクメ・オーガズム」。這些標籤讓作品定位相當清楚：它不是以服裝、場景或關係設定作為主賣點，而是把主題集中在成人企劃的刺激性與角色狀態變化上。相較之下，像 720p、HD、獨家配信"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}
