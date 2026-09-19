@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "FNEW-024",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-19T00:44:14.726Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/FNEW-024/hero-v1.jpg",
+      "r2_key": "works/2026/09/FNEW-024/hero-v1.jpg",
+      "bytes": 966157,
+      "sha256": "ee71fccaf4e129143fd9302f5018affddf2379f92663f635378eb08f0be1142e",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "9d556caf-8bf0-49ba-9908-da9361f0dcf8",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/FNEW-024/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/FNEW-024/scene-vertical-v1.jpg",
+      "bytes": 1281513,
+      "sha256": "617157fb996ede98e814bf5265de9bb6024733a6dc9e7859b8a18c7dd825f79d",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "8a03f65c-addc-4b62-aff3-149f53ee2a54",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2722395,
+    "sha256": "fa4e91ca4540a1650cf61662fc937eb6e24098b0c3e6853cc38f692083b8a5c4",
+    "target_r2_key": "works/2026/09/FNEW-024/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/FNEW-024/vertical-v1.mp4"
+  }
+}

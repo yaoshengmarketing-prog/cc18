@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-19T00:40:32.559Z",
+  "updated_at": "2026-09-19T00:44:56.192Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -2962,6 +2962,21 @@
       "actress": [],
       "release_date": "2026-09-12",
       "source_url": "https://cc18.tv/player.php?uuid=vd38lLIZm9s&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-19"
+    },
+    {
+      "id": "FNEW-024",
+      "actress": [
+        "清宮ななは"
+      ],
+      "release_date": "2026-09-12",
+      "source_url": "https://cc18.tv/player.php?uuid=1xKHUDWU0d5&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
