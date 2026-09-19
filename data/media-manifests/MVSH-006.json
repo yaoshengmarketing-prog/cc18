@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MVSH-006",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-19T06:10:52.630Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/MVSH-006/hero-v1.jpg",
+      "r2_key": "works/2026/09/MVSH-006/hero-v1.jpg",
+      "bytes": 552096,
+      "sha256": "d615976267a4e736ff32acc83374e695e8d9f75601724e094757c78db639f6bd",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "7b4bc102-4a01-4088-bdcb-2b0b90a01135",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/MVSH-006/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/MVSH-006/scene-vertical-v1.jpg",
+      "bytes": 1043252,
+      "sha256": "c97f74c9158285570f79ea29432648b4d94d0d346a07ea722126ae9b995b890f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "3d04b930-0c84-461d-a52e-4af9199db57c",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2675865,
+    "sha256": "1585bc1fd9906f9b1bbc6f4d6a5ad6da6ea21b36fd5f785ace10720650b1228b",
+    "target_r2_key": "works/2026/09/MVSH-006/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/MVSH-006/vertical-v1.mp4"
+  }
+}

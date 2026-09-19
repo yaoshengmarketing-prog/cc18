@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:d10660aa9da1562589c9c05b180e07975814d86725763d58251cb8e67c43d80f",
-  "source_generated_at": "2026-09-19T06:07:06.651Z",
+  "source_revision": "sha256:69b005f9ffb646bd9ad7865e8444cd41f0efe7a872223cfabc03c0fe5b6d424f",
+  "source_generated_at": "2026-09-19T06:11:33.372Z",
   "counts": {
-    "movies": 198,
-    "performers": 206,
+    "movies": 199,
+    "performers": 207,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1826,6 +1826,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:34984",
+      "display_name": "釈アリス",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "釈アリス",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MVSH-006"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:53324",
       "display_name": "鳥羽いく",
       "display_name_zh_tw": null,
@@ -2695,6 +2706,51 @@
         "article_title": "MVSD-700｜以 OD 與辣妹企劃為核心的展示型選片",
         "display_short_title": null,
         "slug": "mvsd-700"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MVSH-006",
+        "source_cover": "https://cc18.tv/preview/80/b/34uVEK9rY8V-800.jpg?v=1789677568",
+        "title": "MVSH-006 釈アリス｜搬到對面房間的大姊姊：以鄰里企劃撐起想像空間",
+        "catalog_code": "MVSH-006",
+        "release_date": "2026-09-15",
+        "performers": [
+          "釈アリス"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mvsh-006/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:34984"
+      ],
+      "search": {
+        "source_title": "搬到對面房間的大姊姊，竟然是個會故意在只認識妻子的中年大叔面前展現全裸、自慰和做愛，然後擅自興奮的危險裸族露出狂美女。 釋愛麗絲",
+        "article_title": "MVSH-006 釈アリス｜搬到對面房間的大姊姊：以鄰里企劃撐起想像空間",
+        "display_short_title": null,
+        "slug": "mvsh-006"
       }
     },
     {

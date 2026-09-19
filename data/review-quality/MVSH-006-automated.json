@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "id": "MVSH-006",
+  "checked_at": "2026-09-19T06:09:53.206Z",
+  "review_sha256": "82582285e8fad401ce4f142e955d33baf3951976066ca5f37fedbc2662d6002a",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "body_lacks_source_adult_vocabulary",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資訊來看，這部作品最清楚的吸引點不是複雜劇情，而是「搬到對面房間的大姊姊」這個核心企劃。這個概念本身就帶有很強的日常距離感：不是遙遠、抽象的人設，而是被放進住家對門這種近身生活半徑裡。對選片來說，這種設定的優勢在於它能立刻建立觀看方向，讓人預期作品會把重"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
