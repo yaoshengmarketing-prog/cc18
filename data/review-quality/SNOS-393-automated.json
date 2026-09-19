@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "id": "SNOS-393",
+  "checked_at": "2026-09-19T14:33:37.420Z",
+  "review_sha256": "52619a34bc4c804eaa2f09e3d32ee83590a5d1348bf827903891fc399e6d0d7e",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資訊來判斷，SNOS-393 最鮮明的賣點就是標題核心概念「討厭到死」。這不是一般偏中性的身份標籤，而是一個帶有明確情緒方向的企劃語句，會直接影響觀眾對作品的預期：不是單靠人物外型或畫質規格來吸引，而是先用強烈態度建立作品辨識度。再加上公開標籤中的「初美"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

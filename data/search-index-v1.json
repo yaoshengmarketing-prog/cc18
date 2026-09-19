@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:078760801820ed611004128b32201cdb6bfc5adfc9a094b0b3b33d1262e36c96",
-  "source_generated_at": "2026-09-19T14:30:41.567Z",
+  "source_revision": "sha256:4293052f35988da478d7d0ef98d845c5cfd9b4b5ac13ee7c4ae93ae3834b0647",
+  "source_generated_at": "2026-09-19T14:35:05.550Z",
   "counts": {
-    "movies": 200,
-    "performers": 207,
+    "movies": 201,
+    "performers": 208,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -854,6 +854,17 @@
       "related_movie_ids": [
         "cc18:GVH-878",
         "cc18:PRIAN-054"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:51709",
+      "display_name": "初美なのか",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "初美なのか",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-393"
       ]
     },
     {
@@ -2496,6 +2507,59 @@
         "article_title": "SNOS-377 河北彩花｜覺醒成了抖M：以角色變化為主軸的企劃型作品",
         "display_short_title": null,
         "slug": "snos-377"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-393",
+        "source_cover": "https://cc18.tv/preview/80/b/agGUzKVf8-800.jpg?v=1789778318",
+        "title": "SNOS-393 初美なのか｜討厭到死的OL設定，主打企劃反差",
+        "catalog_code": "SNOS-393",
+        "release_date": "2026-09-18",
+        "performers": [
+          "初美なのか"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "office-lady",
+            "label": "OL"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-393/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:51709"
+      ],
+      "search": {
+        "source_title": "討厭到死、性騷擾上司獲得的時間停止技能 初美菜乃花",
+        "article_title": "SNOS-393 初美なのか｜討厭到死的OL設定，主打企劃反差",
+        "display_short_title": null,
+        "slug": "snos-393"
       }
     },
     {
