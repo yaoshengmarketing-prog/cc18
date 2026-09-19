@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-337",
+  "review_sha256": "bd7a01019353597e70176773ef4ddceb33e71e2f2ce1b8f1831c8d9ae61aec88",
+  "selected_thesis": "蜜このは的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "蜜このは",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "蜜このは",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "出類拔萃20歲美神肉體",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "蜜このは",
+    "presentation_feature": "出類拔萃20歲美神肉體",
+    "editorial_judgment": "蜜このは的企劃呈現與觀看取向",
+    "source_keywords": [
+      "蜜このは",
+      "出類拔萃20歲美神肉體",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：蜜このは",
+      "supports": "這項可追溯來源訊號支持文章以「蜜このは」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：出類拔萃20歲美神肉體",
+      "supports": "這項可追溯來源訊號支持文章以「出類拔萃20歲美神肉體」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：3p・4p",
+      "supports": "這項可追溯來源訊號支持文章以「3p・4p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：アクメ・オーガズム",
+      "supports": "這項可追溯來源訊號支持文章以「アクメ・オーガズム」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-18T16:00:00.000Z"
+}
