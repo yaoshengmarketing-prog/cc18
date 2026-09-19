@@ -1,0 +1,28 @@
+{
+  "schema_version": 2,
+  "id": "NHDTC-245",
+  "checked_at": "2026-09-19T14:42:10.944Z",
+  "review_sha256": "62c34cac684f5fdcf36922facf11c40c7bac23581f194120e82dc86fe844a4e3",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
