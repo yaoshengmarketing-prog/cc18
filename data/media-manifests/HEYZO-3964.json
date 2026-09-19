@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "HEYZO-3964",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-19T00:27:45.367Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/HEYZO-3964/hero-v1.jpg",
+      "r2_key": "works/2026/09/HEYZO-3964/hero-v1.jpg",
+      "bytes": 605802,
+      "sha256": "838a8933c3dd238d69e06feec88170225f9e03429505fbb923de50be49a9b048",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "831f2562-01ad-4a4b-a147-f0d5a952636c",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/HEYZO-3964/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/HEYZO-3964/scene-vertical-v1.jpg",
+      "bytes": 707996,
+      "sha256": "c06fde2858a52a54c0640f5b2c85c93659fd5f660176affbb735c7e39db04656",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "58460f2d-c2a8-43be-8ba0-9a24046597d9",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2005289,
+    "sha256": "337258b3c727a50e453b7fbf6fcac4d2555e16013386438890220a3a51ec7567",
+    "target_r2_key": "works/2026/09/HEYZO-3964/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/HEYZO-3964/vertical-v1.mp4"
+  }
+}

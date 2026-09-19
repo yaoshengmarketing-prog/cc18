@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-18T18:54:55.795Z",
+  "updated_at": "2026-09-19T00:28:25.672Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -2917,6 +2917,19 @@
       "video_status": "rendered",
       "template": "story",
       "published_at": "2026-09-18"
+    },
+    {
+      "id": "HEYZO-3964",
+      "actress": [],
+      "release_date": "2026-09-17",
+      "source_url": "https://cc18.tv/player.php?uuid=yZZnHit7e6&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-19"
     }
   ]
 }

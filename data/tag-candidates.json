@@ -1955,6 +1955,16 @@
       "first_seen": "2026-09-18",
       "last_seen": "2026-09-18",
       "status": "quarantined"
+    },
+    {
+      "label": "無碼片",
+      "occurrences": 1,
+      "source_ids": [
+        "HEYZO-3964"
+      ],
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-09-19",
+      "status": "quarantined"
     }
   ]
 }
