@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "PYM-577",
+  "checked_at": "2026-09-19T14:59:58.828Z",
+  "review_sha256": "bc947b8e616ff0a56208e1b20572d68d63362d663c6f48d810c27edad44148f2",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "title_lacks_primary_source_adult_topic",
+    "insufficient_sections",
+    "missing_source_specific_title_concept"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "title_lacks_primary_source_adult_topic",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "missing_source_specific_title_concept",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 2
+  }
+}

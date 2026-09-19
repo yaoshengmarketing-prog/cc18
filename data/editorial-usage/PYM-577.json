@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "PYM-577",
+  "calls": [
+    {
+      "generated_at": "2026-09-19T14:59:58.674Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 3247,
+      "cached_input_tokens": 0,
+      "output_tokens": 1058,
+      "total_tokens": 4305,
+      "estimated_cost_usd": 0.04004,
+      "estimated_payg_cash_cost_usd": 0.042042,
+      "direct_openai_reference_usd": 0.023987,
+      "gateway_premium_usd": 0.016053,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 3247,
+    "cached_input_tokens": 0,
+    "output_tokens": 1058,
+    "estimated_cost_usd": 0.04004,
+    "estimated_payg_cash_cost_usd": 0.042042,
+    "direct_openai_reference_usd": 0.023987,
+    "gateway_premium_usd": 0.016053
+  }
+}

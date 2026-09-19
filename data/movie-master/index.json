@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-19T14:56:59.502Z",
+  "generated_at": "2026-09-19T15:01:40.547Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 210,
-  "formal_movie_count": 209,
+  "tracked_input_count": 211,
+  "formal_movie_count": 210,
   "demo_count": 1,
-  "published_count": 206,
+  "published_count": 207,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1385,6 +1385,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "3f16fd463dc420cce5f126e2682e4d1e7f13ac630f0991dd58dcaaf500504547"
+    },
+    {
+      "stable_movie_id": "cc18:PYM-577",
+      "catalog_code": "PYM-577",
+      "slug": "pym-577",
+      "master_path": "data/movie-master/pym-577.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "45cba219bf036dcddb19c04a783e4a2c82d2c1accfea11d3160138630c12c0af"
     },
     {
       "stable_movie_id": "cc18:REBD-1062",

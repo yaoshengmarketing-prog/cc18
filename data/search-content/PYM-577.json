@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "movie_id": "PYM-577",
+  "generated_at": "2026-09-19T14:59:58.747Z",
+  "source_snapshot_hash": "sha256:056676f650ffbfbaf0c3a833f1b102c7a580fc862690f1e83010955720bb838c",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "河合陽菜的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "河合陽菜",
+      "一條美緒",
+      "本田桃",
+      "有加里野乃香"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MKMP-758",
+      "relation_type": "same_performer",
+      "reason": "同樣由一條美緒出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "一條美緒"
+      ],
+      "contrast_signals": [
+        "篠田優",
+        "濱崎真緒"
+      ]
+    },
+    {
+      "movie_id": "SDMM-239",
+      "relation_type": "same_performer",
+      "reason": "同樣由音羽ゆうあ出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "音羽ゆうあ"
+      ],
+      "contrast_signals": [
+        "谷梓",
+        "初めての杭打ち騎乗位"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？河合陽菜的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+    "有哪些觀看取捨？只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+  ]
+}

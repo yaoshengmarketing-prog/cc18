@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:67be2087f0c9ae29009325f84a6695f87e5e19acaf60a4177cf8a52d35e6a7d4",
-  "source_generated_at": "2026-09-19T14:56:59.502Z",
+  "source_revision": "sha256:dc7092ec5a80ff7fcc60c5812ccbc3cf87a127e34842435b2ef76a9a95e98984",
+  "source_generated_at": "2026-09-19T15:01:40.547Z",
   "counts": {
-    "movies": 206,
-    "performers": 213,
+    "movies": 207,
+    "performers": 221,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -40,7 +40,8 @@
       "source_name": "一條美緒",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:MKMP-758"
+        "cc18:MKMP-758",
+        "cc18:PYM-577"
       ]
     },
     {
@@ -644,6 +645,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:26082",
+      "display_name": "本田桃",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "本田桃",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PYM-577"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:47082",
       "display_name": "本郷愛（二階堂夢）",
       "display_name_zh_tw": null,
@@ -810,6 +822,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:27536",
+      "display_name": "有加里野乃香",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "有加里野乃香",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PYM-577"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:25698",
       "display_name": "有岡美羽",
       "display_name_zh_tw": null,
@@ -876,6 +899,17 @@
       "related_movie_ids": [
         "cc18:GVH-878",
         "cc18:PRIAN-054"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:30284",
+      "display_name": "西尾真里奈",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "西尾真里奈",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PYM-577"
       ]
     },
     {
@@ -992,6 +1026,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:54026",
+      "display_name": "命永遠",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "命永遠",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PYM-577"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:54007",
       "display_name": "和栗ゆゆ",
       "display_name_zh_tw": null,
@@ -1094,6 +1139,17 @@
       "related_movie_ids": [
         "cc18:SNOS-371",
         "cc18:SNOS-377"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:19374",
+      "display_name": "河合陽菜",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "河合陽菜",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PYM-577"
       ]
     },
     {
@@ -1298,6 +1354,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MNGS-082"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:50759",
+      "display_name": "柊みおり",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "柊みおり",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PYM-577"
       ]
     },
     {
@@ -1560,6 +1627,7 @@
       "source_name": "音羽ゆうあ",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:PYM-577",
         "cc18:SDMM-239"
       ]
     },
@@ -1627,6 +1695,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DLDSS-528"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:27968",
+      "display_name": "宮城理惠",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "宮城理惠",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PYM-577"
       ]
     },
     {
@@ -2316,6 +2395,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-313"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53348",
+      "display_name": "藤川乃風",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "藤川乃風",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PYM-577"
       ]
     },
     {
@@ -3033,6 +3123,61 @@
         "article_title": "PTS-555｜汗流浹背褲襪OL限定：以企劃條件推進的OL主題作",
         "display_short_title": null,
         "slug": "pts-555"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:PYM-577",
+        "source_cover": "https://cc18.tv/preview/80/b/nrmFa77cdI-800.jpg?v=1789677567",
+        "title": "PYM-577 河合陽菜、一條美緒、本田桃、有加里野乃香、宮城理惠、西尾真里奈、柊みおり、藤川乃風、音羽ゆうあ、命永遠｜等10人｜騎乘位特化：明確展示型企劃的選片判斷",
+        "catalog_code": "PYM-577",
+        "release_date": "2026-09-15",
+        "performers": [
+          "河合陽菜",
+          "一條美緒",
+          "本田桃",
+          "有加里野乃香",
+          "宮城理惠",
+          "西尾真里奈",
+          "柊みおり",
+          "藤川乃風",
+          "音羽ゆうあ",
+          "命永遠"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/pym-577/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:19374",
+        "cc18.tv:actor:22228",
+        "cc18.tv:actor:26082",
+        "cc18.tv:actor:27536",
+        "cc18.tv:actor:27968",
+        "cc18.tv:actor:30284",
+        "cc18.tv:actor:50759",
+        "cc18.tv:actor:53348",
+        "cc18.tv:actor:53603",
+        "cc18.tv:actor:54026"
+      ],
+      "search": {
+        "source_title": "騎乘位特化 屁股撞擊假陽具自慰 淫水直流肉棒全吞 自拍女子10人",
+        "article_title": "PYM-577 河合陽菜、一條美緒、本田桃、有加里野乃香、宮城理惠、西尾真里奈、柊みおり、藤川乃風、音羽ゆうあ、命永遠｜等10人｜騎乘位特化：明確展示型企劃的選片判斷",
+        "display_short_title": null,
+        "slug": "pym-577"
       }
     },
     {

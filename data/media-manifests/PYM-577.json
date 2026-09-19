@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "PYM-577",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-19T15:01:00.231Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/PYM-577/hero-v1.jpg",
+      "r2_key": "works/2026/09/PYM-577/hero-v1.jpg",
+      "bytes": 585609,
+      "sha256": "7e89903aa459961c995bf1c2a2ea462c7146d0aca89646d81cad03040d6ac9ec",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "bd8d4e68-e9b7-4b81-9130-769036263748",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/PYM-577/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/PYM-577/scene-vertical-v1.jpg",
+      "bytes": 721675,
+      "sha256": "c7b6d625ebf84b3904e219cfaf54dfdfa7c23e1df8a6c756229a0712ff2425ba",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "5febb36a-b0fb-42c6-9329-4cf168b15423",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2054933,
+    "sha256": "f15f7818506cc1cbee98f4e1ad546c4fd2e075e75a506616814d493ec9d8c9f9",
+    "target_r2_key": "works/2026/09/PYM-577/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/PYM-577/vertical-v1.mp4"
+  }
+}

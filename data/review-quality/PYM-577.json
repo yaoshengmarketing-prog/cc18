@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "PYM-577",
+  "review_sha256": "dcb5ea32967f6c661e5a619672d97c90d94527e613a0b723f077ca8976305595",
+  "selected_thesis": "河合陽菜的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "河合陽菜、一條美緒、本田桃、有加里野乃香、宮城理惠、西尾真里奈、柊みおり、藤川乃風、音羽ゆうあ、命永遠",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "河合陽菜",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "一條美緒",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "本田桃",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "有加里野乃香",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "河合陽菜",
+    "presentation_feature": "一條美緒",
+    "editorial_judgment": "河合陽菜的企劃呈現與觀看取向",
+    "source_keywords": [
+      "河合陽菜",
+      "一條美緒",
+      "本田桃",
+      "有加里野乃香"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：河合陽菜",
+      "supports": "這項可追溯來源訊號支持文章以「河合陽菜」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：一條美緒",
+      "supports": "這項可追溯來源訊號支持文章以「一條美緒」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：本田桃",
+      "supports": "這項可追溯來源訊號支持文章以「本田桃」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：有加里野乃香",
+      "supports": "這項可追溯來源訊號支持文章以「有加里野乃香」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：宮城理惠",
+      "supports": "這項可追溯來源訊號支持文章以「宮城理惠」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：西尾真里奈",
+      "supports": "這項可追溯來源訊號支持文章以「西尾真里奈」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：柊みおり",
+      "supports": "這項可追溯來源訊號支持文章以「柊みおり」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：藤川乃風",
+      "supports": "這項可追溯來源訊號支持文章以「藤川乃風」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-18T16:00:00.000Z"
+}
