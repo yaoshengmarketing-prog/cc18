@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-19T00:36:26.228Z",
+  "generated_at": "2026-09-19T00:40:40.293Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 196,
-  "formal_movie_count": 195,
+  "tracked_input_count": 197,
+  "formal_movie_count": 196,
   "demo_count": 1,
-  "published_count": 192,
+  "published_count": 193,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1205,6 +1205,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "8a043ef198de3052f8182dc11b66f2aca2864de49fe283fb3d4c02f6500255b8"
+    },
+    {
+      "stable_movie_id": "cc18:PAKO-108",
+      "catalog_code": "PAKO-108",
+      "slug": "pako-108",
+      "master_path": "data/movie-master/pako-108.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "5b4726caef7a3251bc356766f2dbd964aa76839e60941274c60b5ecce67dae75"
     },
     {
       "stable_movie_id": "cc18:PIYO-238",

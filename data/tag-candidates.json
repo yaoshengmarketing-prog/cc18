@@ -685,21 +685,22 @@
     },
     {
       "label": "不倫",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
         "DLDSS-552",
         "MIDA-744",
-        "DANDYA-050"
+        "DANDYA-050",
+        "PAKO-108"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "status": "quarantined"
     },
     {
       "label": "寝取り・寝取られ・ntr",
-      "occurrences": 21,
+      "occurrences": 22,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -721,10 +722,11 @@
         "DSOD-060",
         "HJMO-739",
         "DVMM-445",
-        "PRED-899"
+        "PRED-899",
+        "PAKO-108"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "status": "quarantined"
     },
     {
@@ -1591,7 +1593,7 @@
     },
     {
       "label": "寢取・被寢取",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -1599,15 +1601,16 @@
         "DVMM-444",
         "HJMO-739",
         "DVMM-445",
-        "PRED-899"
+        "PRED-899",
+        "PAKO-108"
       ],
       "first_seen": "2026-09-14",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "status": "quarantined"
     },
     {
       "label": "NTR",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -1615,10 +1618,11 @@
         "DVMM-444",
         "HJMO-739",
         "DVMM-445",
-        "PRED-899"
+        "PRED-899",
+        "PAKO-108"
       ],
       "first_seen": "2026-09-14",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-19",
       "status": "quarantined"
     },
     {
