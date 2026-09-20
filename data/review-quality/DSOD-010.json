@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-010",
+  "review_sha256": "f790f6ee06a5647cc01f972b8523f6b8da3a9087ed5b7b62e00b93a4342ae9f0",
+  "selected_thesis": "一ノ瀬ラム的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "一ノ瀬ラム、池田真理奈、柚木れんか、柊もみじ",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "一ノ瀬ラム",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "女子禁制雞雞夜晚泳池",
+        "source_field": "title"
+      },
+      {
+        "type": "performer",
+        "value": "池田真理奈",
+        "source_field": "actress"
+      },
+      {
+        "type": "identity",
+        "value": "變性人",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "一ノ瀬ラム",
+    "presentation_feature": "女子禁制雞雞夜晚泳池",
+    "editorial_judgment": "一ノ瀬ラム的企劃呈現與觀看取向",
+    "source_keywords": [
+      "一ノ瀬ラム",
+      "女子禁制雞雞夜晚泳池",
+      "池田真理奈",
+      "變性人"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：一ノ瀬ラム",
+      "supports": "這項可追溯來源訊號支持文章以「一ノ瀬ラム」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：池田真理奈",
+      "supports": "這項可追溯來源訊號支持文章以「池田真理奈」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：柚木れんか",
+      "supports": "這項可追溯來源訊號支持文章以「柚木れんか」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：柊もみじ",
+      "supports": "這項可追溯來源訊號支持文章以「柊もみじ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：女子禁制雞雞夜晚泳池",
+      "supports": "這項可追溯來源訊號支持文章以「女子禁制雞雞夜晚泳池」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：變性人",
+      "supports": "這項可追溯來源訊號支持文章以「變性人」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-19T16:00:00.000Z"
+}

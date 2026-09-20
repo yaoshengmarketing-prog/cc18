@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "DSOD-010",
+  "calls": [
+    {
+      "generated_at": "2026-09-20T16:14:10.009Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 3325,
+      "cached_input_tokens": 0,
+      "output_tokens": 1156,
+      "total_tokens": 4481,
+      "estimated_cost_usd": 0.042635,
+      "estimated_payg_cash_cost_usd": 0.044767,
+      "direct_openai_reference_usd": 0.025653,
+      "gateway_premium_usd": 0.016982,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 3325,
+    "cached_input_tokens": 0,
+    "output_tokens": 1156,
+    "estimated_cost_usd": 0.042635,
+    "estimated_payg_cash_cost_usd": 0.044767,
+    "direct_openai_reference_usd": 0.025653,
+    "gateway_premium_usd": 0.016982
+  }
+}

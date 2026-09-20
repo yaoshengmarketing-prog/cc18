@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "DSOD-010",
+  "checked_at": "2026-09-20T16:14:10.220Z",
+  "review_sha256": "9e0a28e0874584d3f1d68c1e16ff4d91d2fb04e1a2b59b43c1e08a084a581c51",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資訊，DSOD-010 最明確的賣點不是已知劇情，而是「女子禁制雞雞夜晚泳池」這個企劃概念本身。這個核心名稱已經直接界定作品的辨識度：它不是靠系列延伸，也不是靠已公開的人物關係來建立期待，而是用一個高度主題化、帶有場域想像的設定來吸引觀眾。對選片來說，這代"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "公開名單列出一ノ瀬ラム、池田真理奈、柚木れんか、柊もみじ四位演出者，這讓本作在選片上有一個很直接的優勢：陣容不是單人主打，而是多人企劃配置。再結合來源中的 action 標籤包含「亂交」與「アナルセックス(男の娘)」，可以合理判斷片方希望凸顯的是多名演出者共同服務同一企劃概念的組"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}
