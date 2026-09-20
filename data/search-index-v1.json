@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:932d121b57d224b6b3d2d58d679ab3aebc237699991ba26bc824779ad247734b",
-  "source_generated_at": "2026-09-20T06:34:30.502Z",
+  "source_revision": "sha256:fd8e2931cd9cc1f9e8a714ef25bdedb98dbf1f57b153c1d432eee622a8f7d170",
+  "source_generated_at": "2026-09-20T16:11:07.885Z",
   "counts": {
-    "movies": 214,
-    "performers": 225,
+    "movies": 215,
+    "performers": 226,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1699,6 +1699,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:53384",
+      "display_name": "夏生なつ",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "夏生なつ",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-375"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:54643",
       "display_name": "夏花まろん",
       "display_name_zh_tw": null,
@@ -2846,6 +2857,59 @@
         "article_title": "SNOS-337 蜜このは｜出類拔萃20歲美神肉體：以展示型企劃凸顯主角條件",
         "display_short_title": null,
         "slug": "snos-337"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-375",
+        "source_cover": "https://cc18.tv/preview/80/b/4UVnAnTSfJ-800.jpg?v=1789785554",
+        "title": "SNOS-375 夏生なつ｜一見面就拉開拉鍊：直球企劃先聲奪人",
+        "catalog_code": "SNOS-375",
+        "release_date": "2026-09-18",
+        "performers": [
+          "夏生なつ"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-375/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53384"
+      ],
+      "search": {
+        "source_title": "一見面就拉開拉鍊！長得可愛卻色到爆的租借女友 夏生夏",
+        "article_title": "SNOS-375 夏生なつ｜一見面就拉開拉鍊：直球企劃先聲奪人",
+        "display_short_title": null,
+        "slug": "snos-375"
       }
     },
     {

@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "id": "SNOS-375",
+  "checked_at": "2026-09-20T16:08:59.825Z",
+  "review_sha256": "90913a3b14136146ddb502dbf13b561dfafc8b35fd0a32ad0280a1941359175b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最明確的入口，就是來源概念本身的「一見面就拉開拉鍊」。這種命名方式幾乎不靠背景鋪陳，而是把企劃主軸直接放到檯面上，讓人一眼知道作品要賣的不是複雜人物關係，而是快速進入狀態的刺激感。若你挑片時偏好設定先行、節奏明快、重點清楚的作品，這個核心概念本身就已經構成足夠明確的選片理由。"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "就公開來源可確認的資訊來看，本作演出者為夏生なつ。片名訊號與公開標籤把焦點放在她與企劃設定的直接結合，意味著作品賣點不是系列世界觀或複數角色關係，而是由單一出演者去承接整個主題強度。對觀眾來說，這會讓選片判斷更單純：如果你本來就會因演出者而進片，這部片的包裝方式很明顯是把夏生なつ"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "來源中的 identity 標籤包含「AV女優片」與「癡女」，body 標籤則有「巨乳」，action 標籤有「口交」。這些資訊雖然不能直接證明具體段落怎麼安排，但已足夠說明作品定位偏向成人主題鮮明、吸引力訴求直接的類型。其中「癡女」尤其重要，因為它和「一見面就拉開拉鍊」形成同一"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

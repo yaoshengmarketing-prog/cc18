@@ -759,7 +759,7 @@
     },
     {
       "label": "乳交",
-      "occurrences": 12,
+      "occurrences": 13,
       "source_ids": [
         "SNOS-372",
         "GOJI-110",
@@ -772,20 +772,22 @@
         "UMD-1019",
         "SNOS-313",
         "PPPE-442",
-        "DANDYA-050"
+        "DANDYA-050",
+        "SNOS-375"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-21",
       "status": "quarantined"
     },
     {
       "label": "酒店小姐",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "SNOS-358"
+        "SNOS-358",
+        "SNOS-375"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-21",
       "status": "quarantined"
     },
     {
