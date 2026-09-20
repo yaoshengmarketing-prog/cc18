@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "HUNTC-550",
+  "checked_at": "2026-09-20T06:23:48.328Z",
+  "review_sha256": "b0e21c9a6beefad90dc700a080f42b02d19791dbd13df7b895c54c3c6b26c625",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只根據目前可追溯的公開資訊來看，這部片最適合從「企劃設定是否明確」來判斷。它的系列名就是《夢の母娘丼！》，核心概念也直接落在「夢の母娘丼」，這代表作品的吸引力首先不是建立在已知演員資訊，而是建立在一個非常明確的主題企劃上。對選片者來說，這種片型通常不是看角色背景是否完整，而是看"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "系列名稱《夢の母娘丼！》本身就把作品取向講得很直接：它強調的是一種帶有幻想感、組合感與標誌性的系列主題。creative seed brief 中可追溯的來源摘錄，像是「只有媽媽偷吃太狡猾了」「欲求不滿的母親則慾火焚身」「明明女兒就在旁邊」，都屬於公開文案層級的概念提示。這些文字"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
