@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "JIMMY-009",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-20T06:33:41.354Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/JIMMY-009/hero-v1.jpg",
+      "r2_key": "works/2026/09/JIMMY-009/hero-v1.jpg",
+      "bytes": 734479,
+      "sha256": "549ffaf22d386b71baa700f325d81bc02fe0d1daba2ffadf41122fec2636d8b0",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "35b746ae-dff2-4960-9be7-0c0780b5fca2",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/JIMMY-009/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/JIMMY-009/scene-vertical-v1.jpg",
+      "bytes": 1071708,
+      "sha256": "828123a5b426ef515e1d017456ca2b45777ed4eafc92bc064f8dc67153d5e03b",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "6aac784a-57a9-4ea5-bcfa-431871369300",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3046105,
+    "sha256": "4d61db9eed28b9705ffffb6eeaa95503ceca25f9fb8e127215acb0b947464517",
+    "target_r2_key": "works/2026/09/JIMMY-009/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/JIMMY-009/vertical-v1.mp4"
+  }
+}

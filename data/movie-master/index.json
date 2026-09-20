@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-20T06:30:12.867Z",
+  "generated_at": "2026-09-20T06:34:30.502Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 217,
-  "formal_movie_count": 216,
+  "tracked_input_count": 218,
+  "formal_movie_count": 217,
   "demo_count": 1,
-  "published_count": 213,
+  "published_count": 214,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -827,6 +827,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "381975dd8bdec843fa32bb808491136ab2b276b9efcd9a68d9eaedc54d1974d8"
+    },
+    {
+      "stable_movie_id": "cc18:JIMMY-009",
+      "catalog_code": "JIMMY-009",
+      "slug": "jimmy-009",
+      "master_path": "data/movie-master/jimmy-009.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "85d33cbb5c1c69883d875ce805c26638bbceebe791421f066296d2d36e59d733"
     },
     {
       "stable_movie_id": "cc18:JUR-850",

@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "JIMMY-009",
+  "checked_at": "2026-09-20T06:32:44.720Z",
+  "review_sha256": "5da379ed10502a0b4bf42c2a5f16a2094896715f4be17d8c251d15e1aecfb133",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 10,
+          "excerpt": "如果你選片時最重視的是「題材一句話就能成立」，那這部作品的吸引力會比資訊量本身更重要。它適合喜歡同居框架、熟人關係距離感，以及想從企劃前提判斷作品是否對味的觀眾。相對地，如果你期待的是已知情節很多、角色背景完整、可先讀到大量故事資訊再決定是否觀看，那目前公開資料給出的支撐就相對有"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 9,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

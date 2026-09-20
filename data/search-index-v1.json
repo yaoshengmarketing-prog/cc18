@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:478024151a31374d3824e5cc3cff26a16f095ab5cdcf6269af4ce0567373d54f",
-  "source_generated_at": "2026-09-20T06:30:12.867Z",
+  "source_revision": "sha256:932d121b57d224b6b3d2d58d679ab3aebc237699991ba26bc824779ad247734b",
+  "source_generated_at": "2026-09-20T06:34:30.502Z",
   "counts": {
-    "movies": 213,
-    "performers": 224,
+    "movies": 214,
+    "performers": 225,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1776,6 +1776,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:54252",
+      "display_name": "桜木なぎさ",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "桜木なぎさ",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:JIMMY-009"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:54221",
       "display_name": "桜坂ふうか",
       "display_name_zh_tw": null,
@@ -3340,6 +3351,35 @@
         "article_title": "MXGS-1445 千葉優花｜皮拉提斯體驗",
         "display_short_title": null,
         "slug": "mxgs-1445"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:JIMMY-009",
+        "source_cover": "https://cc18.tv/preview/80/b/kqIQ2ZHpQ45-800.jpg?v=1789699171",
+        "title": "JIMMY-009 桜木なぎさ｜與親戚男子的同居生活：以企劃設定帶動選片",
+        "catalog_code": "JIMMY-009",
+        "release_date": "2026-09-15",
+        "performers": [
+          "桜木なぎさ"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/jimmy-009/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54252"
+      ],
+      "search": {
+        "source_title": "與親戚男子的同居生活 必須教這個不懂怎麼對待女人的孩子，子宮頸口不是食物喔 櫻木渚",
+        "article_title": "JIMMY-009 桜木なぎさ｜與親戚男子的同居生活：以企劃設定帶動選片",
+        "display_short_title": null,
+        "slug": "jimmy-009"
       }
     },
     {

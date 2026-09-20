@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-20T06:30:04.063Z",
+  "updated_at": "2026-09-20T06:34:21.597Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -3262,6 +3262,21 @@
       ],
       "release_date": "2026-09-18",
       "source_url": "https://cc18.tv/player.php?uuid=8gbSwd4YIf&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-20"
+    },
+    {
+      "id": "JIMMY-009",
+      "actress": [
+        "桜木なぎさ"
+      ],
+      "release_date": "2026-09-15",
+      "source_url": "https://cc18.tv/player.php?uuid=kqIQ2ZHpQ45&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

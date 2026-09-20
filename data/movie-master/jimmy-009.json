@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.1.0",
+  "stable_movie_id": "cc18:JIMMY-009",
+  "slug": "jimmy-009",
+  "is_demo": false,
+  "source": {
+    "catalog_code": "JIMMY-009",
+    "source_title": "與親戚男子的同居生活 必須教這個不懂怎麼對待女人的孩子，子宮頸口不是食物喔 櫻木渚",
+    "release_date": "2026-09-15",
+    "source_url": "https://cc18.tv/player.php?uuid=kqIQ2ZHpQ45&cat=19",
+    "source_site_movie_id": "kqIQ2ZHpQ45",
+    "public_description": "在我在都市獨自生活的房間裡，不得不暫時照顧進入長期假期的親戚男孩…他的品味落後了兩圈，帶著還很稚嫩的知識在那邊裝酷…這樣下去根本不會受女生歡迎吧…雖然被大嬸說了「幫他變成個男人喔！」，但能做的事也就只有那件事了吧…自慰時的幻想對象怎麼可能出現在現實生活中嘛…不過他也有點可愛的地方。從揉奶的方法開始仔細教他，還有舔陰的方法、戴保險套的方法…就這樣一步步讓他脫胎換骨，變成一個帥氣的男性呢。雖然感覺彼此之間這麼近的距離感有點危險，但被他弄到高潮好多次，回過神來發現好像有點喜歡上他了…還有喔，在真正的做愛時，如果說出「絕頂」或「子宮頸口」之類的話，女生會被嚇跑的，所以絕對不能說，要給我記好了喔！",
+    "source_cover": "https://cc18.tv/preview/80/b/kqIQ2ZHpQ45-800.jpg?v=1789699171",
+    "raw_performer_names": [
+      "桜木なぎさ"
+    ],
+    "performer_relations": [
+      {
+        "source_type": "actor",
+        "source_id": "54252",
+        "stable_source_id": "cc18.tv:actor:54252",
+        "source_name": "桜木なぎさ",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=54252",
+        "observed_at": "2026-09-20T06:16:35.815Z"
+      }
+    ],
+    "series_relations": [],
+    "tag_relations": [
+      {
+        "source_type": "tag",
+        "source_id": "479",
+        "stable_source_id": "cc18.tv:tag:479",
+        "source_name": "720p",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=479",
+        "observed_at": "2026-09-20T06:16:35.815Z"
+      }
+    ],
+    "fac_relations": [],
+    "raw_studio_name": null,
+    "raw_series_names": [],
+    "source_tags": [
+      "720p"
+    ],
+    "source_record_ref": "data/source-records/JIMMY-009.json",
+    "source_snapshot_ref": null,
+    "source_fetched_at": "2026-09-20T06:16:35.815Z",
+    "source_verified_at": null,
+    "source_parser_version": null
+  },
+  "display": {
+    "performers": [
+      {
+        "source_actor_id": "cc18.tv:actor:54252",
+        "name_ja": null,
+        "display_name_zh_tw": null,
+        "display_name": "桜木なぎさ",
+        "verification_status": "SOURCE_NAME_FALLBACK"
+      }
+    ]
+  },
+  "titles": {
+    "article_title": "JIMMY-009 桜木なぎさ｜與親戚男子的同居生活：以企劃設定帶動選片",
+    "translated_title_zh_tw": null,
+    "display_short_title": null,
+    "seo_title": "JIMMY-009 桜木なぎさ影評｜與親戚男子的同居生活，偏重設定辨識度的選片"
+  },
+  "derived": {
+    "quality_codes": [
+      "HD_720P"
+    ],
+    "duration_seconds": null,
+    "canonical_topic_tag_ids": [
+      "hd"
+    ]
+  },
+  "editorial": {
+    "one_line_summary": "本作以「與親戚男子的同居生活」為主要來源線索；其餘資訊不足處暫不補寫。",
+    "article_ref": "content/reviews/JIMMY-009.md",
+    "article_evidence_level": "PUBLIC_METADATA",
+    "article_evidence_scope": "SOURCE_TITLE_DESCRIPTION_TAGS"
+  },
+  "media": {
+    "remotion_promo_ref": "data/media-manifests/JIMMY-009.json#/video"
+  },
+  "evidence": {
+    "records": []
+  },
+  "publishing": {
+    "is_published": true,
+    "published_at": "2026-09-20",
+    "canonical_url": "https://cc18.pages.dev/works/jimmy-009/",
+    "indexability": "INDEX",
+    "content_hash": "85d33cbb5c1c69883d875ce805c26638bbceebe791421f066296d2d36e59d733"
+  },
+  "legacy": {
+    "legacy_published_at": null,
+    "legacy_published_at_semantics": null
+  }
+}
