@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "id": "SNOS-330",
+  "checked_at": "2026-09-20T06:28:07.287Z",
+  "review_sha256": "262f3e4b04cb442bfa4a3d407bb6beda64d535d054b495b465d77ad3218e6610",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資訊，SNOS-330 最明確的賣點不是複雜故事，而是片名核心概念「要出來了」本身。這個概念又和來源線索中的「明明是偶像」、「潮吹」一起出現，讓作品的辨識度集中在一個很直接的企劃對比：以白石透羽為中心，主打美少女形象，同時把強烈的生理反應作為宣傳焦點。對選"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

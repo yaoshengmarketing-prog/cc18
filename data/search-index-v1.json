@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:5f48c8a2b923a77311c384701966fa755094dcd6fe9d7ea983b9c04e50b0db25",
-  "source_generated_at": "2026-09-20T06:25:35.222Z",
+  "source_revision": "sha256:478024151a31374d3824e5cc3cff26a16f095ab5cdcf6269af4ce0567373d54f",
+  "source_generated_at": "2026-09-20T06:30:12.867Z",
   "counts": {
-    "movies": 212,
-    "performers": 223,
+    "movies": 213,
+    "performers": 224,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -719,6 +719,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MIKR-123"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54169",
+      "display_name": "白石透羽",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "白石透羽",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-330"
       ]
     },
     {
@@ -2718,6 +2729,59 @@
         "article_title": "NOSKN-104 糸井瑠花 × 美少女設定｜糸井瑠花",
         "display_short_title": null,
         "slug": "noskn-104"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-330",
+        "source_cover": "https://cc18.tv/preview/80/b/8gbSwd4YIf-800.jpg?v=1789850330",
+        "title": "SNOS-330 白石透羽｜要出來了：以企劃反差撐起辨識度",
+        "catalog_code": "SNOS-330",
+        "release_date": "2026-09-18",
+        "performers": [
+          "白石透羽"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-330/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54169"
+      ],
+      "search": {
+        "source_title": "「要出來了…吶，要出來了…小穴裡的潮水止不住啊…（汗）」【放送事故】博多偶像候選生首次羞澀超漏尿超潮吹…明明是偶像。 白石透羽",
+        "article_title": "SNOS-330 白石透羽｜要出來了：以企劃反差撐起辨識度",
+        "display_short_title": null,
+        "slug": "snos-330"
       }
     },
     {
