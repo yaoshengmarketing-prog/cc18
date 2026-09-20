@@ -489,13 +489,14 @@
     },
     {
       "label": "マッサージ・リフレ",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "SNOS-345",
-        "DANDYA-050"
+        "DANDYA-050",
+        "HUNTC-659"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-20",
       "status": "quarantined"
     },
     {
@@ -1496,16 +1497,17 @@
     },
     {
       "label": "溫泉",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "OREMO-606",
         "OFTR-016",
         "SQTE-717",
         "BANK-248",
-        "DANDYA-050"
+        "DANDYA-050",
+        "HUNTC-659"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-20",
       "status": "quarantined"
     },
     {

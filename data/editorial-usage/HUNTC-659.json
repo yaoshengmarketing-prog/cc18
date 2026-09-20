@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "HUNTC-659",
+  "calls": [
+    {
+      "generated_at": "2026-09-20T06:19:04.936Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 3414,
+      "cached_input_tokens": 0,
+      "output_tokens": 1081,
+      "total_tokens": 4495,
+      "estimated_cost_usd": 0.041392,
+      "estimated_payg_cash_cost_usd": 0.043462,
+      "direct_openai_reference_usd": 0.02475,
+      "gateway_premium_usd": 0.016642,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 3414,
+    "cached_input_tokens": 0,
+    "output_tokens": 1081,
+    "estimated_cost_usd": 0.041392,
+    "estimated_payg_cash_cost_usd": 0.043462,
+    "direct_openai_reference_usd": 0.02475,
+    "gateway_premium_usd": 0.016642
+  }
+}

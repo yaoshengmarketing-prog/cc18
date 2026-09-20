@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "HUNTC-659",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-20T06:20:33.600Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/HUNTC-659/hero-v1.jpg",
+      "r2_key": "works/2026/09/HUNTC-659/hero-v1.jpg",
+      "bytes": 803622,
+      "sha256": "0bae60ed8098b5181a63b5a978542efd88c4768bdd6edc53208fa8616661a57f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "34e80b74-c7c7-4d9b-90cc-848998a8dfae",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 她們還會陪您一起泡溫泉, 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Origin"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/HUNTC-659/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/HUNTC-659/scene-vertical-v1.jpg",
+      "bytes": 846170,
+      "sha256": "2824afd2a0d87c71ec27b91a6113297a2df96a53b83280946438cdcc17d8f85e",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "c8185062-51ab-45dc-b438-dda5100dcf08",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 她們還會陪您一起泡溫泉, 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Origin"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2297494,
+    "sha256": "2e6885e673f4e5b52415a174177921dee26911d439754b53fa99cf2fb2578951",
+    "target_r2_key": "works/2026/09/HUNTC-659/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/HUNTC-659/vertical-v1.mp4"
+  }
+}
