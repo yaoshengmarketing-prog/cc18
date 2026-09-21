@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "START-633",
+  "calls": [
+    {
+      "generated_at": "2026-09-21T11:40:43.851Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 3411,
+      "cached_input_tokens": 0,
+      "output_tokens": 1333,
+      "total_tokens": 4744,
+      "estimated_cost_usd": 0.047047,
+      "estimated_payg_cash_cost_usd": 0.0494,
+      "direct_openai_reference_usd": 0.028522,
+      "gateway_premium_usd": 0.018525,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 3411,
+    "cached_input_tokens": 0,
+    "output_tokens": 1333,
+    "estimated_cost_usd": 0.047047,
+    "estimated_payg_cash_cost_usd": 0.0494,
+    "direct_openai_reference_usd": 0.028522,
+    "gateway_premium_usd": 0.018525
+  }
+}

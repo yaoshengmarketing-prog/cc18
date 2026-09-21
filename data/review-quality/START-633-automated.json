@@ -1,0 +1,65 @@
+{
+  "schema_version": 2,
+  "id": "START-633",
+  "checked_at": "2026-09-21T11:40:44.126Z",
+  "review_sha256": "05b7a9558c41a7e11799e7b3f1d58b62bdba60f8d69411256e8db9bad5ad3d55",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "broad_formulaic_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 4,
+      "paragraph_count": 10,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最明確的選片理由，是它把注意力集中在「30天後就著床的妻子」這個單一句型就能成立的企劃概念上。從公開來源來看，這不只是一般成人題材標籤，而是直接決定作品辨識度的核心設定；再加上來源摘錄提到「在備孕壓力下苦惱的夫婦面前，颯爽地出現了一名神祕鄰居」，讓整體方向從單純身份或行為分類，進"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "依據來源可追溯的資訊，這部作品偏向戲劇化、連續劇式包裝的企劃片。topic elements 中出現「戲劇、連續劇」，creative seed brief 也把討論重心放在「企劃設定、角色變化、互動節奏」，並明確指出未確認的場景與人物關係應保持未知。這代表選片判斷可以合理落在："
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "就已知資料而言，唯井真尋是本作唯一明確可辨識的演出焦點，因此她本身就是片單入口之一。尤其當核心概念已經非常鮮明時，演員的重要性不在於補充未知情節，而在於承接這個企劃的中心位置：來源 title 的 source concepts 同時列出「唯井真尋」與「受備孕中的新婚夫婦之託」「"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "若你偏好的是有明確前提、並且從人妻／主婦身份與中出題材出發的作品，這部片會比較對味。公開標籤已提供「人妻・主婦」與「中出」兩個清楚方向，而核心設定又不是日常生活切片，而是帶有期限感與結果導向的企劃句。再加上 source concepts 提到「NTR」，可見作品在宣傳辨識上也帶"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

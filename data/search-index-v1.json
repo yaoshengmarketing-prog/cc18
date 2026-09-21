@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:9220a72dbf1f3e90dc50067609f293b56c8e4f3906d5ab1fa0e72e1c1e35d087",
-  "source_generated_at": "2026-09-21T11:37:38.603Z",
+  "source_revision": "sha256:1f45386aef1c651dd1ce7f8b88e5ddb365667bc767caf72ead0c38578960b25d",
+  "source_generated_at": "2026-09-21T11:42:35.412Z",
   "counts": {
-    "movies": 230,
-    "performers": 232,
+    "movies": 231,
+    "performers": 233,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1925,6 +1925,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:FCDSS-117"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:22362",
+      "display_name": "唯井真尋",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "唯井真尋",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:START-633"
       ]
     },
     {
@@ -4495,6 +4506,55 @@
         "article_title": "SDMM-239 谷梓 × 初めての杭打ち騎乗位｜谷梓、八森若菜、鹿野あも、鳥羽いく、月待青花、音羽ゆうあ｜等人｜初次杭打騎乘位企劃：以系列公式與好奇心設定支撐的展示型選片",
         "display_short_title": null,
         "slug": "sdmm-239"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:START-633",
+        "source_cover": "https://cc18.tv/preview/80/b/annLi5rv70-800.jpg?v=1789634414",
+        "title": "START-633 唯井真尋｜30天後就著床的妻子：以備孕壓力撐起的企劃型劇情",
+        "catalog_code": "START-633",
+        "release_date": "2026-09-15",
+        "performers": [
+          "唯井真尋"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/start-633/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:22362"
+      ],
+      "search": {
+        "source_title": "『看著我被你以外的人搞到懷孕吧…』30天後就著床的妻子…受備孕中的新婚夫婦之託，被絕倫鄰居男瘋狂內射的公然托卵NTR性交紀錄 唯井真尋",
+        "article_title": "START-633 唯井真尋｜30天後就著床的妻子：以備孕壓力撐起的企劃型劇情",
+        "display_short_title": null,
+        "slug": "start-633"
       }
     },
     {
