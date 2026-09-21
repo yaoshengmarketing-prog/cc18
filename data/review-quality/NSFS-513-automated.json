@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "NSFS-513",
+  "checked_at": "2026-09-21T17:06:35.486Z",
+  "review_sha256": "b8f9a687a3a1334deab3395d49493b08c9b929e0ded8fea60059d39d24ad5821",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "從目前可追溯的來源來看，這部片會比較適合偏好人妻題材、同時也在意人物關係變化的觀眾。來源標籤裡可確認有「人妻・主婦」與「戲劇、連續劇」，而公開簡介也不是只停留在單一情境，而是帶出婚姻壓力、舊部下重逢，以及一段過去曾發生過的驅逐事件。這表示它的選片理由更接近『看角色處境如何被推動』"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "以公開資料可確認的部分來說，Nia（伊東愛瑠）是本作目前最明確的人物焦點。由於核心概念直接落在社長夫人薰的處境上，演員的吸引力會與角色設定綁得很緊：不是單純姓名掛帥，而是她被放進一個婚姻壓力、舊識重逢與秘密曝光後果交錯的企劃裡。對熟悉演員作品、又重視角色框架的觀眾而言，這種『以人"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "NSFS-513",
+  "review_sha256": "bd1b866469231257311cf458459e62cd84ad39e173bd9261946bacd03939ad2a",
+  "selected_thesis": "Nia（伊東愛瑠）的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "Nia（伊東愛瑠）",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "Nia（伊東愛瑠）",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "沉沦于员工之手的社长夫人",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "人妻・主婦",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "Nia（伊東愛瑠）",
+    "presentation_feature": "沉沦于员工之手的社长夫人",
+    "editorial_judgment": "Nia（伊東愛瑠）的企劃呈現與觀看取向",
+    "source_keywords": [
+      "Nia（伊東愛瑠）",
+      "沉沦于员工之手的社长夫人",
+      "人妻・主婦"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "經營著一家小公司的大吉與薰夫婦。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "忍受著丈夫高壓態度的薰，在丈夫住院期間與曾經的部下、如今是快遞員的神重逢。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "過去因為得知薰的秘密而被趕出公司的神，懷著複雜的心情，靜靜地望向遠方。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：Nia（伊東愛瑠）",
+      "supports": "這項可追溯來源訊號支持文章以「Nia（伊東愛瑠）」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：沉沦于员工之手的社长夫人",
+      "supports": "這項可追溯來源訊號支持文章以「沉沦于员工之手的社长夫人」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻・主婦",
+      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：戲劇、連續劇",
+      "supports": "這項可追溯來源訊號支持文章以「戲劇、連續劇」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-20T16:00:00.000Z"
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "movie_id": "NSFS-513",
+  "generated_at": "2026-09-21T17:06:35.387Z",
+  "source_snapshot_hash": "sha256:3151b1299ed3407b0280c87a679a1aeec2160becd6f1d8795129f6604fbfa11d",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "Nia（伊東愛瑠）的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "Nia（伊東愛瑠）",
+      "高畫質",
+      "獨家配信",
+      "沉沦于员工之手的社长夫人"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MKMP-758",
+      "relation_type": "same_performer",
+      "reason": "同樣由Nia（伊東愛瑠）出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "Nia（伊東愛瑠）"
+      ],
+      "contrast_signals": [
+        "篠田優",
+        "濱崎真緒"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？Nia（伊東愛瑠）的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+    "有哪些觀看取捨？只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+  ]
+}
