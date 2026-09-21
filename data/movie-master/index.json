@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-20T16:15:42.552Z",
+  "generated_at": "2026-09-21T00:21:25.108Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 220,
-  "formal_movie_count": 219,
+  "tracked_input_count": 221,
+  "formal_movie_count": 220,
   "demo_count": 1,
-  "published_count": 216,
+  "published_count": 217,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -143,6 +143,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "2b56fa3050cd6e9e848ab0926a6fdb9db85ce4aad381e00f50b4ae3c662f51ae"
+    },
+    {
+      "stable_movie_id": "cc18:BONY-207",
+      "catalog_code": "BONY-207",
+      "slug": "bony-207",
+      "master_path": "data/movie-master/bony-207.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "716a66d47e16b950400b533dc525172e54a3fb55ab8fc9508e55172b96f022b7"
     },
     {
       "stable_movie_id": "cc18:CC18-DEMO-001",

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:4e6e9e39db57b7331e6e947cffbddde39971b833e147ec9a6b090854dec36683",
-  "source_generated_at": "2026-09-20T16:15:42.552Z",
+  "source_revision": "sha256:400997f7e213aa1bbd0fbe264365c9cdb42560dcca5dd2639e0e02e9cdd5a5e6",
+  "source_generated_at": "2026-09-21T00:21:25.108Z",
   "counts": {
-    "movies": 216,
-    "performers": 226,
+    "movies": 217,
+    "performers": 227,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -809,6 +809,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:FCDSS-117"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:24148",
+      "display_name": "妃ひかり",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "妃ひかり",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:BONY-207"
       ]
     },
     {
@@ -2616,6 +2627,59 @@
         "article_title": "ABF-382 同棲中出し性交録 × 同棲中出し性交録。｜同棲中出し性交録",
         "display_short_title": null,
         "slug": "abf-382"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:BONY-207",
+        "source_cover": "https://cc18.tv/preview/80/b/y4F3olR24A-800.jpg?v=1789857566",
+        "title": "BONY-207 妃ひかり｜中出企劃：以不拔出連續射精陰道內搖晃為核心的展示型選片",
+        "catalog_code": "BONY-207",
+        "release_date": "2026-09-18",
+        "performers": [
+          "妃ひかり"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "fantasy-concept",
+            "label": "幻想企劃"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/bony-207/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:24148"
+      ],
+      "search": {
+        "source_title": "不拔出連續射精陰道內搖晃！！ 陰道容量超載無限制內射 妃光莉",
+        "article_title": "BONY-207 妃ひかり｜中出企劃：以不拔出連續射精陰道內搖晃為核心的展示型選片",
+        "display_short_title": null,
+        "slug": "bony-207"
       }
     },
     {

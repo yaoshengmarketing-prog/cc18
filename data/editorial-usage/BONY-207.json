@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "BONY-207",
+  "calls": [
+    {
+      "generated_at": "2026-09-21T00:19:31.036Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 3302,
+      "cached_input_tokens": 0,
+      "output_tokens": 1196,
+      "total_tokens": 4498,
+      "estimated_cost_usd": 0.04342,
+      "estimated_payg_cash_cost_usd": 0.045591,
+      "direct_openai_reference_usd": 0.026195,
+      "gateway_premium_usd": 0.017225,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 3302,
+    "cached_input_tokens": 0,
+    "output_tokens": 1196,
+    "estimated_cost_usd": 0.04342,
+    "estimated_payg_cash_cost_usd": 0.045591,
+    "direct_openai_reference_usd": 0.026195,
+    "gateway_premium_usd": 0.017225
+  }
+}

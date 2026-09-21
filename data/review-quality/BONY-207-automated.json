@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "BONY-207",
+  "checked_at": "2026-09-21T00:19:31.273Z",
+  "review_sha256": "eb3fa859a17ae2e2f90a24d12ab596677a53ac4579fbde93a5b6ddf2a5df20a7",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若以公開可追溯的資訊來看，BONY-207 最明確的賣點，就是企劃核心直接鎖定在「不拔出連續射精陰道內搖晃」。這不是泛用的中出標籤而已，而是比一般題材更強調單一刺激概念的企劃設計，因此它的選片價值主要不在劇情鋪陳，而在於是否想看一部由明確性癖命題帶動的作品。再加上系列名「まんキャ"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "除了核心概念之外，來源標籤還可見「口交」、「3p・4p」、「HD／720p」、「獨家配信」與「妄想族」等資訊。對選片來說，這些訊號的作用是補充作品取向：一方面，它不是只靠單一中出標籤支撐，而是放在更明確的成人企劃框架中；另一方面，畫質與配信形式屬於附加條件，可以幫助在同類題材中做"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "BONY-207 比較適合三種觀眾：第一，是直接追妃ひかり的人；第二，是會依系列名稱與企劃公式選片的人；第三，是對中出主題中更強調連續性與概念化刺激設計有興趣的人。相對地，若你期待完整劇情、清楚角色關係或更具情境鋪陳的作品，現有公開資料並沒有提供足夠支持。就選片判斷而言，它的優勢"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

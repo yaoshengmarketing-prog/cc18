@@ -1012,7 +1012,7 @@
     },
     {
       "label": "玩具",
-      "occurrences": 11,
+      "occurrences": 12,
       "source_ids": [
         "MILK-306",
         "DOKS-689",
@@ -1024,10 +1024,11 @@
         "SDJS-382",
         "MXGS-1445",
         "NHDTC-245",
-        "SDAB-359"
+        "SDAB-359",
+        "BONY-207"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-19",
+      "last_seen": "2026-09-21",
       "status": "quarantined"
     },
     {
@@ -1707,7 +1708,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 15,
+      "occurrences": 16,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -1723,10 +1724,11 @@
         "WA-593",
         "SNOS-444",
         "SNOS-337",
-        "HUNTC-550"
+        "HUNTC-550",
+        "BONY-207"
       ],
       "first_seen": "2026-09-14",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-09-21",
       "status": "quarantined"
     },
     {
@@ -1902,12 +1904,13 @@
     },
     {
       "label": "讓她生",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "DSOD-060"
+        "DSOD-060",
+        "BONY-207"
       ],
       "first_seen": "2026-09-10",
-      "last_seen": "2026-09-10",
+      "last_seen": "2026-09-21",
       "status": "quarantined"
     },
     {
