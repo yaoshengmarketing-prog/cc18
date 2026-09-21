@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-21T17:08:16.952Z",
+  "generated_at": "2026-09-21T17:13:40.192Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 236,
-  "formal_movie_count": 235,
+  "tracked_input_count": 237,
+  "formal_movie_count": 236,
   "demo_count": 1,
-  "published_count": 232,
+  "published_count": 233,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1421,6 +1421,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "5b4726caef7a3251bc356766f2dbd964aa76839e60941274c60b5ecce67dae75"
+    },
+    {
+      "stable_movie_id": "cc18:PETS-072",
+      "catalog_code": "PETS-072",
+      "slug": "pets-072",
+      "master_path": "data/movie-master/pets-072.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "0bbc63e61d72339e3f91d161f04dece373d57c7e05346c1943964a13f75ad611"
     },
     {
       "stable_movie_id": "cc18:PIYO-238",

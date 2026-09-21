@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "PETS-072",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-21T17:12:47.642Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/PETS-072/hero-v1.jpg",
+      "r2_key": "works/2026/09/PETS-072/hero-v1.jpg",
+      "bytes": 738805,
+      "sha256": "5d7e27facba1c49f67d56d48e2bb1871ddde880c262b8966d2a68608e14d2f15",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "da901300-5c1d-4907-92b1-1b792ea2c8a2",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/PETS-072/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/PETS-072/scene-vertical-v1.jpg",
+      "bytes": 1461235,
+      "sha256": "0e5752fd05a8be82a4d6687d1b26e7c985e225888e4bbf7f6cb22ccf4a74afae",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "f870b4bc-c0a8-4d62-a3fa-9f6753aac3fe",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3638591,
+    "sha256": "24f5f068fb589e9af26b876f004c6884f15a86e4f51efeed0e0f2559f819da99",
+    "target_r2_key": "works/2026/09/PETS-072/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/PETS-072/vertical-v1.mp4"
+  }
+}
