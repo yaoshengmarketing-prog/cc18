@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "MKON-149",
+  "checked_at": "2026-09-21T10:46:54.025Z",
+  "review_sha256": "f51cb2b50a5c33a76b37b03dbcf413f5bff0484d4de0f0c8739fe2bb06f002e1",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就目前可追溯的公開資訊來看，MKON-149 最明確的辨識點不是完整劇情，而是「AV女優 ○○とは？」這個系列式企劃本身。片名核心與 creative brief 都反覆指向「AV女優 ○○とは／波多野結衣是什麼」這種提問式包裝，因此本作更適合先從企劃意圖理解：它像是在用系列框架"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

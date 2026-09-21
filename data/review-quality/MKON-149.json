@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "MKON-149",
+  "review_sha256": "27b7980face488b91416f7bde0e417cf050c409d5270c87ae46b9dc14162ba7d",
+  "selected_thesis": "波多野結衣的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "波多野結衣",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "波多野結衣",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "AV女優 ○○とは",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "AV女優 ○○とは？",
+        "source_field": "series"
+      }
+    ],
+    "primary_theme": "波多野結衣",
+    "presentation_feature": "AV女優 ○○とは",
+    "editorial_judgment": "波多野結衣的企劃呈現與觀看取向",
+    "source_keywords": [
+      "波多野結衣",
+      "AV女優 ○○とは",
+      "AV女優 ○○とは？"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：波多野結衣",
+      "supports": "這項可追溯來源訊號支持文章以「波多野結衣」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：AV女優 ○○とは？",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優 ○○とは？」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：AV女優 ○○とは",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優 ○○とは」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-20T16:00:00.000Z"
+}

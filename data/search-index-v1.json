@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:9129a71ff00aae7443a9c04a25e29b42bd185e57b9fab950f6dc2cd0e6ee069d",
-  "source_generated_at": "2026-09-21T00:30:27.864Z",
+  "source_revision": "sha256:3492211c792bfb3d9a7021154f5417f60c7778006417001ee8c3afc45d032d75",
+  "source_generated_at": "2026-09-21T10:48:46.483Z",
   "counts": {
-    "movies": 219,
+    "movies": 220,
     "performers": 227,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -1184,6 +1184,7 @@
       "source_name": "波多野結衣",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:MKON-149",
         "cc18:NNOD-002"
       ]
     },
@@ -2584,6 +2585,63 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:MKON-149",
+        "source_cover": "https://cc18.tv/preview/80/b/B_hMB4i0u5p-800.jpg?v=1789951066",
+        "title": "MKON-149 波多野結衣｜AV女優 ○○とは：以展示型企劃為主的系列判斷",
+        "catalog_code": "MKON-149",
+        "release_date": "2026-09-19",
+        "performers": [
+          "波多野結衣"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "fantasy-concept",
+            "label": "幻想企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mkon-149/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:189"
+      ],
+      "search": {
+        "source_title": "AV女優 波多野結衣是什麼？",
+        "article_title": "MKON-149 波多野結衣｜AV女優 ○○とは：以展示型企劃為主的系列判斷",
+        "display_short_title": null,
+        "slug": "mkon-149"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:ABF-382",
