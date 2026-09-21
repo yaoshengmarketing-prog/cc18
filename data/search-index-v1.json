@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:4383e584ec34301956006f00132dd11fc2e9b996425dd1ac50b43c41601c76cf",
-  "source_generated_at": "2026-09-21T17:24:02.196Z",
+  "source_revision": "sha256:9ec4a6887512c771b0963cf457df204c150d894583b18baee583cb84f8075c58",
+  "source_generated_at": "2026-09-21T17:29:21.213Z",
   "counts": {
-    "movies": 235,
-    "performers": 235,
+    "movies": 236,
+    "performers": 236,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1750,6 +1750,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:26463",
+      "display_name": "香水純",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "香水純",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:HMN-911"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:29996",
       "display_name": "倉木華",
       "display_name_zh_tw": null,
@@ -3144,6 +3155,55 @@
         "article_title": "DSOD-114 花宮きょうこ｜進行特技騎乘位：主導企劃感鮮明的展示型選片",
         "display_short_title": null,
         "slug": "dsod-114"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:HMN-911",
+        "source_cover": "https://cc18.tv/preview/80/b/1Gpwng7JJ9U-800.jpg?v=1789871910",
+        "title": "HMN-911 香水純｜中出設定下的身分反差選片觀點",
+        "catalog_code": "HMN-911",
+        "release_date": "2026-09-18",
+        "performers": [
+          "香水純"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "dirty-talk",
+            "label": "言語挑逗"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/hmn-911/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:26463"
+      ],
+      "search": {
+        "source_title": "在M性感店遇到的女王大人竟然是地味女職員！立場逆轉後在公司也持續的痴女PLAY，讓我被逆強姦中出個不停的我… 香水純",
+        "article_title": "HMN-911 香水純｜中出設定下的身分反差選片觀點",
+        "display_short_title": null,
+        "slug": "hmn-911"
       }
     },
     {

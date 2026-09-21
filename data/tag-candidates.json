@@ -954,15 +954,16 @@
     },
     {
       "label": "SM",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "BBAN-601",
         "ACZD-250",
         "SNOS-342",
-        "MISM-463"
+        "MISM-463",
+        "HMN-911"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-21",
+      "last_seen": "2026-09-22",
       "status": "quarantined"
     },
     {
@@ -1486,13 +1487,14 @@
     },
     {
       "label": "M男",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "CLOT-043",
-        "ACHJ-089"
+        "ACHJ-089",
+        "HMN-911"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-09-10",
+      "last_seen": "2026-09-22",
       "status": "quarantined"
     },
     {

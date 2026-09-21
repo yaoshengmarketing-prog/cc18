@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-21T17:23:47.417Z",
+  "updated_at": "2026-09-21T17:29:10.390Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -3587,6 +3587,21 @@
       ],
       "release_date": "2026-09-18",
       "source_url": "https://cc18.tv/player.php?uuid=kWXgyoNerfb&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-21"
+    },
+    {
+      "id": "HMN-911",
+      "actress": [
+        "香水純"
+      ],
+      "release_date": "2026-09-18",
+      "source_url": "https://cc18.tv/player.php?uuid=1Gpwng7JJ9U&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

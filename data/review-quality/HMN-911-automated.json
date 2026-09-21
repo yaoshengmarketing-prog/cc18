@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "HMN-911",
+  "checked_at": "2026-09-21T17:27:31.276Z",
+  "review_sha256": "5e4505a26e419d6d31d7c1851ea6ae726c3017b72ae5a5e2de5fc4767d425895",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資訊來判斷，這部作品最先吸引人的不是單一刺激標籤，而是「香水純」被放進一個具體企劃情境後產生的身分反差。公開簡介直接給出起點：一名因工作壓力大而前往M性感店的角色，叫來的小姐竟然是公司裡那位地味女職員——香水。這個設定讓作品的賣點不只是癡女、中出、淫語等"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "目前能確認的來源重點包括：演出者為香水純，公開標示含有癡女、中出、淫語，以及高畫質、獨家配信等資訊；另外，來源摘錄還提到「夜晚的辦公桌上進行全裸羞恥PLAY」。這些資料合起來，能看出作品不是走日常寫實淡味路線，而是把職場、羞恥感與挑逗語境包進同一個企劃框架。就編輯判斷而言，真正影"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "就目前來源能支持的範圍，香水純在本作的吸引力，首先來自她被放在「地味女職員」與另一種成人服務身份之間的反差框架中。這個核心不是單純因為演出者名字本身，而是她作為企劃中心，被公開簡介直接指定為那個讓情境翻轉的人物。creative brief 也提示可從企劃設定、角色變化與互動節奏"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
