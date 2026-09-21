@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "JUR-865",
+  "checked_at": "2026-09-21T11:21:03.872Z",
+  "review_sha256": "67c2610d14ef1e8bbc0866acafd5f8dc436832580c275625617c32aa0b8b8949",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果你的選片起點是演出者本身，JUR-865 最直接的吸引力就是木村玲衣。現有公開來源裡，最明確且可追溯的核心資訊就是她的名字，連 creative brief 也把「木村玲衣」列為 core source concept。這代表這部作品在閱讀與選片上，最穩定的切入點不是複雜劇情"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "在已知標籤中，最適合作為主選點的是「人妻・主婦」。依 title policy 的優先順序，當沒有更明確的關係或場景資訊時，身份類題材通常比畫質或配信形式更適合成為標題與選片主軸。這也讓本作的市場定位相對清楚：它不是靠技術規格吸引人，而是靠成人題材中的身份想像來建立第一層辨識。至"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

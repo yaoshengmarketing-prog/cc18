@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "JUR-865",
+  "review_sha256": "531873800b621a628a9e5a69ce4f040c46e864cbe4eb0ae8e1fb674cf82be790",
+  "selected_thesis": "木村玲衣的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "木村玲衣",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "木村玲衣",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "学級委員の僕だけが知る生徒指導・○○先生の裏の顔。",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "人妻・主婦",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "木村玲衣",
+    "presentation_feature": "学級委員の僕だけが知る生徒指導・○○先生の裏の顔。",
+    "editorial_judgment": "木村玲衣的企劃呈現與觀看取向",
+    "source_keywords": [
+      "木村玲衣",
+      "学級委員の僕だけが知る生徒指導・○○先生の裏の顔。",
+      "人妻・主婦"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：木村玲衣",
+      "supports": "這項可追溯來源訊號支持文章以「木村玲衣」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：学級委員の僕だけが知る生徒指導・○○先生の裏の顔。",
+      "supports": "這項可追溯來源訊號支持文章以「学級委員の僕だけが知る生徒指導・○○先生の裏の顔。」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：木村玲衣",
+      "supports": "這項可追溯來源訊號支持文章以「木村玲衣」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻・主婦",
+      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-20T16:00:00.000Z"
+}

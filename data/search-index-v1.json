@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:0ae3ee9d2401afb8fc77fda80e863c8f5a46c0bbd7e71fc509038394a93edf70",
-  "source_generated_at": "2026-09-21T11:18:12.052Z",
+  "source_revision": "sha256:919e974f1ed1147a407dc3f00a30818185a6b1bc1e6ab58c5e721b8424844cf4",
+  "source_generated_at": "2026-09-21T11:22:54.702Z",
   "counts": {
-    "movies": 226,
-    "performers": 230,
+    "movies": 227,
+    "performers": 231,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -566,6 +566,17 @@
       "related_movie_ids": [
         "cc18:MKMP-758",
         "cc18:ROYD-350"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28721",
+      "display_name": "木村玲衣",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "木村玲衣",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:JUR-865"
       ]
     },
     {
@@ -2993,6 +3004,51 @@
         "article_title": "HUNTC-659 あなたのお背中を流します × 學生設定｜あなたのお背中を流します",
         "display_short_title": null,
         "slug": "huntc-659"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:JUR-865",
+        "source_cover": "https://cc18.tv/preview/80/b/2JquJtTI6ag-800.jpg?v=1789814361",
+        "title": "JUR-865 木村玲衣｜人妻・主婦題材下，系列設定先行的一作",
+        "catalog_code": "JUR-865",
+        "release_date": "2026-09-18",
+        "performers": [
+          "木村玲衣"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/jur-865/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28721"
+      ],
+      "search": {
+        "source_title": "身为班长的只有我知道的学生指导·玲衣老师的另一面。放学后,与全校最认真的女教师一起沉迷于校内露出——。 木村玲衣",
+        "article_title": "JUR-865 木村玲衣｜人妻・主婦題材下，系列設定先行的一作",
+        "display_short_title": null,
+        "slug": "jur-865"
       }
     },
     {

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-21T11:18:12.052Z",
+  "generated_at": "2026-09-21T11:22:54.702Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 230,
-  "formal_movie_count": 229,
+  "tracked_input_count": 231,
+  "formal_movie_count": 230,
   "demo_count": 1,
-  "published_count": 226,
+  "published_count": 227,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -899,6 +899,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "04b2bbc912cec26f87fd14c0bdf65b1e65635b36b3ce3dc0e6bdf8713466544b"
+    },
+    {
+      "stable_movie_id": "cc18:JUR-865",
+      "catalog_code": "JUR-865",
+      "slug": "jur-865",
+      "master_path": "data/movie-master/jur-865.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "927cc7243161339a3f17769719c9134306a8078fe0b622ea053072c0052c99ae"
     },
     {
       "stable_movie_id": "cc18:JUR-866",
