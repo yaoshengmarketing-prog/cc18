@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "MISM-463",
+  "review_sha256": "6ee0035d115a5e5089f5027859856e39020a86cba839498b2083ff1c86a89c9c",
+  "selected_thesis": "來源資料可確認本作以「屁眼喉嚨深處小穴」作為主要作品線索。",
+  "title_basis": {
+    "performer": "辰巳マリナ",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "辰巳マリナ",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "屁眼喉嚨深處小穴",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "アナル喉奥マ○コ 最狂贅沢3穴フルコース",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "辰巳マリナ",
+    "presentation_feature": "屁眼喉嚨深處小穴",
+    "editorial_judgment": "來源資料可確認本作以「屁眼喉嚨深處小穴」作為主要作品線索。",
+    "source_keywords": [
+      "辰巳マリナ",
+      "屁眼喉嚨深處小穴",
+      "アナル喉奥マ○コ 最狂贅沢3穴フルコース",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：辰巳マリナ",
+      "supports": "這項可追溯來源訊號支持文章以「辰巳マリナ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：アナル喉奥マ○コ 最狂贅沢3穴フルコース",
+      "supports": "這項可追溯來源訊號支持文章以「アナル喉奥マ○コ 最狂贅沢3穴フルコース」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：屁眼喉嚨深處小穴",
+      "supports": "這項可追溯來源訊號支持文章以「屁眼喉嚨深處小穴」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：淫亂・過激系",
+      "supports": "這項可追溯來源訊號支持文章以「淫亂・過激系」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-20T16:00:00.000Z"
+}
