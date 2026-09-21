@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "MVSD-706",
+  "checked_at": "2026-09-21T11:35:30.198Z",
+  "review_sha256": "d9d6bd675b0db0af5ad8993335761f205f3f5e3dc0cb1c5a6d4b607728524138",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "這片最明確的選片依據，不是已知劇情，而是來源本身就很鮮明的企劃概念：『人妻自宅沙龍』。從系列名稱與 creative seed 裡的『人妻居家沙龍』可以看出，作品的辨識度主要建立在居家、人妻與沙龍式企劃包裝上，而不是一個已被公開證實的複雜故事線。若你挑片時會優先看系列概念是否清楚"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

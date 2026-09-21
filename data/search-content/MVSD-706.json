@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "movie_id": "MVSD-706",
+  "generated_at": "2026-09-21T11:35:30.077Z",
+  "source_snapshot_hash": "sha256:11fec64a579be33343543d6d0141591f098d804c42c522b7aa9b49a5cc005ff0",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "持野蓬的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "持野蓬",
+      "人妻自宅沙龍",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "GVH-879",
+      "relation_type": "same_performer",
+      "reason": "同樣由持野蓬出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "持野蓬"
+      ],
+      "contrast_signals": [
+        "禁断介護",
+        "美少女設定"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？持野蓬的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+    "有哪些觀看取捨？只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+  ]
+}

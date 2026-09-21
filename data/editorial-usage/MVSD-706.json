@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "MVSD-706",
+  "calls": [
+    {
+      "generated_at": "2026-09-21T11:35:29.925Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 3318,
+      "cached_input_tokens": 0,
+      "output_tokens": 1049,
+      "total_tokens": 4367,
+      "estimated_cost_usd": 0.040192,
+      "estimated_payg_cash_cost_usd": 0.042202,
+      "direct_openai_reference_usd": 0.02403,
+      "gateway_premium_usd": 0.016162,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 3318,
+    "cached_input_tokens": 0,
+    "output_tokens": 1049,
+    "estimated_cost_usd": 0.040192,
+    "estimated_payg_cash_cost_usd": 0.042202,
+    "direct_openai_reference_usd": 0.02403,
+    "gateway_premium_usd": 0.016162
+  }
+}

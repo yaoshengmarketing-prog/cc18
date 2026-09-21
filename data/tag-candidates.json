@@ -493,14 +493,15 @@
     },
     {
       "label": "マッサージ・リフレ",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "SNOS-345",
         "DANDYA-050",
-        "HUNTC-659"
+        "HUNTC-659",
+        "MVSD-706"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-09-21",
       "status": "quarantined"
     },
     {
@@ -725,7 +726,7 @@
     },
     {
       "label": "寝取り・寝取られ・ntr",
-      "occurrences": 26,
+      "occurrences": 27,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -752,7 +753,8 @@
         "MVSH-006",
         "SDMM-239",
         "DSOD-038",
-        "SNOS-399"
+        "SNOS-399",
+        "MVSD-706"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-21",
@@ -1356,14 +1358,15 @@
     },
     {
       "label": "ローション・オイル",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "NACT-182",
         "BBTU-119",
         "HSM-090",
         "ABF-382",
         "SDAB-359",
-        "ABF-385"
+        "ABF-385",
+        "MVSD-706"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-21",
@@ -1661,7 +1664,7 @@
     },
     {
       "label": "寢取・被寢取",
-      "occurrences": 12,
+      "occurrences": 13,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -1674,7 +1677,8 @@
         "MVSH-006",
         "SDMM-239",
         "DSOD-038",
-        "SNOS-399"
+        "SNOS-399",
+        "MVSD-706"
       ],
       "first_seen": "2026-09-14",
       "last_seen": "2026-09-21",
@@ -1682,7 +1686,7 @@
     },
     {
       "label": "NTR",
-      "occurrences": 12,
+      "occurrences": 13,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -1695,7 +1699,8 @@
         "MVSH-006",
         "SDMM-239",
         "DSOD-038",
-        "SNOS-399"
+        "SNOS-399",
+        "MVSD-706"
       ],
       "first_seen": "2026-09-14",
       "last_seen": "2026-09-21",
