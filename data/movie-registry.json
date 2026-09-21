@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-21T11:13:15.924Z",
+  "updated_at": "2026-09-21T11:18:01.956Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -3441,6 +3441,21 @@
       ],
       "release_date": "2026-09-18",
       "source_url": "https://cc18.tv/player.php?uuid=8FOZDRrjp5s&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-21"
+    },
+    {
+      "id": "SNOS-399",
+      "actress": [
+        "淺野心"
+      ],
+      "release_date": "2026-09-18",
+      "source_url": "https://cc18.tv/player.php?uuid=vy1eRsWy54G&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

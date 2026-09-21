@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "SNOS-399",
+  "checked_at": "2026-09-21T11:16:21.648Z",
+  "review_sha256": "4c1de586c6ee0c8af2b986054c88f77701b0b13362e1b5fea146e377ddb47960",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果要先抓住《SNOS-399》的選片重點，最明確的答案就是它把「巨根姦通NTR」放在最前面，顯示這不是靠零散元素拼湊的作品，而是由單一核心企劃直接主導判斷方向。公開來源能確認的資訊裡，這個概念同時出現在 title 與 creative brief 的 source conce"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "公開來源已確認演出者為淺野心，因此本作的另一個穩定辨識點就是演員本身。即使目前沒有更多可驗證的角色關係、人物背景或具體情節可供展開，淺野心依然是標題與搜尋判斷中不可忽略的核心資訊。對熟悉演員選片邏輯的觀眾而言，這類作品通常會先以演員加上主題概念來形成觀看決策：也就是說，你不是因為"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "《SNOS-399》適合把淺野心與「巨根姦通NTR」視為主要選片理由、並且偏好戲劇包裝下強企劃主題的觀眾；它目前最清楚的價值，不在已公開的細節豐富度，而在題材核心夠集中、辨識度夠高。"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}
