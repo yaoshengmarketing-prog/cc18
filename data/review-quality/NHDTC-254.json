@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "NHDTC-254",
+  "review_sha256": "13176a237058f10036b5be046aa36b26b0eef160170a55c25ee5ecbe147abec3",
+  "selected_thesis": "來源資料可確認本作以「增量內射SP」作為主要作品線索。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "增量內射SP",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "就寝中の夜行バスで指マンされた恐怖に目を開けられず寝たふりし",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "setting",
+        "value": "學生設定",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "增量內射SP",
+    "presentation_feature": "就寝中の夜行バスで指マンされた恐怖に目を開けられず寝たふりし",
+    "editorial_judgment": "來源資料可確認本作以「增量內射SP」作為主要作品線索。",
+    "source_keywords": [
+      "增量內射SP",
+      "就寝中の夜行バスで指マンされた恐怖に目を開けられず寝たふりし",
+      "美少女設定",
+      "學生設定"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "series：就寝中の夜行バスで指マンされた恐怖に目を開けられず寝たふりし",
+      "supports": "這項可追溯來源訊號支持文章以「就寝中の夜行バスで指マンされた恐怖に目を開けられず寝たふりし」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：美少女設定",
+      "supports": "這項可追溯來源訊號支持文章以「美少女設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "setting：學生設定",
+      "supports": "這項可追溯來源訊號支持文章以「學生設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：增量內射SP",
+      "supports": "這項可追溯來源訊號支持文章以「增量內射SP」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：美少女",
+      "supports": "這項可追溯來源訊號支持文章以「美少女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：學生妹",
+      "supports": "這項可追溯來源訊號支持文章以「學生妹」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-20T16:00:00.000Z"
+}

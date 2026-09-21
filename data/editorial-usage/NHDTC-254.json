@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "NHDTC-254",
+  "calls": [
+    {
+      "generated_at": "2026-09-21T00:24:08.072Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 3267,
+      "cached_input_tokens": 0,
+      "output_tokens": 1200,
+      "total_tokens": 4467,
+      "estimated_cost_usd": 0.043335,
+      "estimated_payg_cash_cost_usd": 0.045502,
+      "direct_openai_reference_usd": 0.026167,
+      "gateway_premium_usd": 0.017167,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 3267,
+    "cached_input_tokens": 0,
+    "output_tokens": 1200,
+    "estimated_cost_usd": 0.043335,
+    "estimated_payg_cash_cost_usd": 0.045502,
+    "direct_openai_reference_usd": 0.026167,
+    "gateway_premium_usd": 0.017167
+  }
+}
