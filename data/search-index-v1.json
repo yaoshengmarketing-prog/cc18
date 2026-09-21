@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:c5f154e224e2d3d5c95670c4ab909d12c6f3fd717136ea9d7300bfddeba50e77",
-  "source_generated_at": "2026-09-21T11:27:59.294Z",
+  "source_revision": "sha256:30aaa2604ac950a89c2b83eba055345e6524db8f502eec6659eadf13214e0066",
+  "source_generated_at": "2026-09-21T11:32:29.794Z",
   "counts": {
-    "movies": 228,
-    "performers": 231,
+    "movies": 229,
+    "performers": 232,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1196,6 +1196,17 @@
       "related_movie_ids": [
         "cc18:SNOS-371",
         "cc18:SNOS-377"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:22099",
+      "display_name": "河合明日菜",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "河合明日菜",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:ABF-385"
       ]
     },
     {
@@ -3645,6 +3656,55 @@
         "article_title": "SNOS-444 星空ねる｜170cm企劃下的展示型選片",
         "display_short_title": null,
         "slug": "snos-444"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:ABF-385",
+        "source_cover": "https://cc18.tv/preview/80/b/AKC5e2rpaa-800.jpg?v=1789763928",
+        "title": "ABF-385 河合明日菜｜甘とろ密着エステ：以企劃設定取勝的展示型作品",
+        "catalog_code": "ABF-385",
+        "release_date": "2026-09-17",
+        "performers": [
+          "河合明日菜"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "amateur",
+            "label": "素人"
+          },
+          {
+            "id": "beauty-salon",
+            "label": "美容院"
+          },
+          {
+            "id": "fhd",
+            "label": "全高清 FHD"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/abf-385/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:22099"
+      ],
+      "search": {
+        "source_title": "甜美融化密著按摩 最後一滴都被榨乾的極上排毒 射精無限制 河合明日菜",
+        "article_title": "ABF-385 河合明日菜｜甘とろ密着エステ：以企劃設定取勝的展示型作品",
+        "display_short_title": null,
+        "slug": "abf-385"
       }
     },
     {

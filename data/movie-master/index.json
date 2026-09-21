@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-21T11:27:59.294Z",
+  "generated_at": "2026-09-21T11:32:29.794Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 232,
-  "formal_movie_count": 231,
+  "tracked_input_count": 233,
+  "formal_movie_count": 232,
   "demo_count": 1,
-  "published_count": 228,
+  "published_count": 229,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -26,6 +26,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "f20364501a1d8ba428efdb24bb8bb03f09515452778aa6cbacd8bebf0a19d139"
+    },
+    {
+      "stable_movie_id": "cc18:ABF-385",
+      "catalog_code": "ABF-385",
+      "slug": "abf-385",
+      "master_path": "data/movie-master/abf-385.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "e31faaeffb977fbbe6116e0c1f7ff1897f36f97dbb38cdf05b3696336e66e283"
     },
     {
       "stable_movie_id": "cc18:ABF-386",

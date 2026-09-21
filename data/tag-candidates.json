@@ -773,7 +773,7 @@
     },
     {
       "label": "乳交",
-      "occurrences": 14,
+      "occurrences": 15,
       "source_ids": [
         "SNOS-372",
         "GOJI-110",
@@ -788,7 +788,8 @@
         "PPPE-442",
         "DANDYA-050",
         "SNOS-375",
-        "SNOS-398"
+        "SNOS-398",
+        "ABF-385"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-21",
@@ -1355,16 +1356,17 @@
     },
     {
       "label": "ローション・オイル",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "NACT-182",
         "BBTU-119",
         "HSM-090",
         "ABF-382",
-        "SDAB-359"
+        "SDAB-359",
+        "ABF-385"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-19",
+      "last_seen": "2026-09-21",
       "status": "quarantined"
     },
     {
@@ -2104,6 +2106,26 @@
       "occurrences": 1,
       "source_ids": [
         "DSOD-093"
+      ],
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "status": "quarantined"
+    },
+    {
+      "label": "按摩",
+      "occurrences": 1,
+      "source_ids": [
+        "ABF-385"
+      ],
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "status": "quarantined"
+    },
+    {
+      "label": "エステ・マッサージ",
+      "occurrences": 1,
+      "source_ids": [
+        "ABF-385"
       ],
       "first_seen": "2026-09-21",
       "last_seen": "2026-09-21",

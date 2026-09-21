@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "ABF-385",
+  "checked_at": "2026-09-21T11:30:56.572Z",
+  "review_sha256": "0fb8be3984c88b58385f7e601fd60d06215edf0234f38b586279d8cc8c68cfd2",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "body_lacks_source_adult_vocabulary",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資料來看，ABF-385 最明確的賣點不是複雜劇情，而是由系列名與題名共同建立的企劃主軸：\"甘とろ密着エステ\"。這個核心概念直接把作品重心放在「甜美、黏近、按摩式互動」的想像上，也讓選片判斷很清楚——它更像是一部以情境包裝與親密距離感為主的展示型作品。再"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "在現有來源裡，河合明日菜是最重要的表演者資訊，也是標題與選片時最具辨識度的要素之一。由於沒有更多可驗證的劇情、場面或表演觀察，這次判斷不能延伸到她在片中的具體演法，但就選片層面而言，已知演出者本身就足以提高作品辨識度。再結合來源標示的身材特徵與系列企劃，這部片的吸引力更接近「演出"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
