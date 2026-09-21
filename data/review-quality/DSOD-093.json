@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-093",
+  "review_sha256": "4b9639a637774f0572fd07ef83ad9db8d4814faaeb0995ab6675b3aab6a8036a",
+  "selected_thesis": "音無鈴的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "音無鈴",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "音無鈴",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "認真肉棒指導",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "音無鈴",
+    "presentation_feature": "認真肉棒指導",
+    "editorial_judgment": "音無鈴的企劃呈現與觀看取向",
+    "source_keywords": [
+      "音無鈴",
+      "認真肉棒指導"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：音無鈴",
+      "supports": "這項可追溯來源訊號支持文章以「音無鈴」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：認真肉棒指導",
+      "supports": "這項可追溯來源訊號支持文章以「認真肉棒指導」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：独占配信",
+      "supports": "這項可追溯來源訊號支持文章以「独占配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：HD",
+      "supports": "這項可追溯來源訊號支持文章以「HD」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-20T16:00:00.000Z"
+}

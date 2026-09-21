@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "DSOD-093",
+  "checked_at": "2026-09-21T10:56:28.721Z",
+  "review_sha256": "18437a690addbcd63cb9ac60b6333aa479ed03b2be69a8db914a21f1507aaf3b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "body_lacks_source_adult_vocabulary",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資料來判斷，DSOD-093 最明確的賣點不是複雜劇情，而是「認真肉棒指導」這個企劃核心本身。這個概念直接來自來源標示的 core source concept，也是整部作品目前最有辨識度的資訊。對選片來說，這代表它比較適合把重點放在單一主題的觀眾：你若"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "就現有來源來看，這部更接近企劃展示型作品。原因不是因為能確認任何具體橋段，而是公開資料沒有提供完整人物關係、場景設定、衝突線或敘事摘要；相對地，最清楚且可追溯的資訊反而是「認真肉棒指導」這個單一企劃命題，以及 creative seed brief 中可用來組織理解的主題方向，例"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

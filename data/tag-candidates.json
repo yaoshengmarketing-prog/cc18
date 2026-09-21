@@ -1355,12 +1355,13 @@
     },
     {
       "label": "動作遊戲‧格鬥",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "SPSF-55"
+        "SPSF-55",
+        "DSOD-093"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-21",
       "status": "quarantined"
     },
     {
@@ -1706,12 +1707,13 @@
     },
     {
       "label": "オナサポ",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "EBWH-366"
+        "EBWH-366",
+        "DSOD-093"
       ],
       "first_seen": "2026-09-14",
-      "last_seen": "2026-09-14",
+      "last_seen": "2026-09-21",
       "status": "quarantined"
     },
     {
@@ -2044,6 +2046,46 @@
       ],
       "first_seen": "2026-09-19",
       "last_seen": "2026-09-19",
+      "status": "quarantined"
+    },
+    {
+      "label": "女教師",
+      "occurrences": 1,
+      "source_ids": [
+        "DSOD-093"
+      ],
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "status": "quarantined"
+    },
+    {
+      "label": "校園物語",
+      "occurrences": 1,
+      "source_ids": [
+        "DSOD-093"
+      ],
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "status": "quarantined"
+    },
+    {
+      "label": "喜劇",
+      "occurrences": 1,
+      "source_ids": [
+        "DSOD-093"
+      ],
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
+      "status": "quarantined"
+    },
+    {
+      "label": "ギャグ・コメディ",
+      "occurrences": 1,
+      "source_ids": [
+        "DSOD-093"
+      ],
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-21",
       "status": "quarantined"
     }
   ]
