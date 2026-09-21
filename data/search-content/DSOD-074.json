@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "movie_id": "DSOD-074",
+  "generated_at": "2026-09-21T17:16:44.676Z",
+  "source_snapshot_hash": "sha256:8a3fd52a0be3d34348308feb09a43a0ec1b217c1634bad75549fa9440a8f9097",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "來源資料可確認本作以「悶熱」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "姫咲華",
+      "蒸れる、汗だく、滴る。濃厚体液まみれ限界性交ドキュメント",
+      "紀錄片形式",
+      "高畫質"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想先依來源題材與作品設定挑選的觀眾",
+      "接受目前只提供來源資料整理的觀眾"
+    ],
+    "not_for": [
+      "需要影片抽樣觀察才能決定的觀眾",
+      "需要鏡位、收音或段落變化結論的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "來源資料可確認什麼？來源資料可確認本作以「悶熱」作為主要作品線索。",
+    "目前能否提供影片觀察？目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "如何使用本頁？可先依來源題材與作品識別資訊判斷是否符合偏好。"
+  ]
+}

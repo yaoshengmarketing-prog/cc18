@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-074",
+  "review_sha256": "41272510bd81a96ee260efabadb5a7341b00a413f105f5275c72b4b9dab2e777",
+  "selected_thesis": "來源資料可確認本作以「悶熱」作為主要作品線索。",
+  "title_basis": {
+    "performer": "姫咲華",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "姫咲華",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "悶熱",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "蒸れる、汗だく、滴る。濃厚体液まみれ限界性交ドキュメント",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "紀錄片形式",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "姫咲華",
+    "presentation_feature": "悶熱",
+    "editorial_judgment": "來源資料可確認本作以「悶熱」作為主要作品線索。",
+    "source_keywords": [
+      "姫咲華",
+      "悶熱",
+      "蒸れる、汗だく、滴る。濃厚体液まみれ限界性交ドキュメント",
+      "紀錄片形式"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "狂亂的體液交換紀錄片 【※完全收錄在超越極限的發汗盡頭，她所展現的空洞表情※】",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：姫咲華",
+      "supports": "這項可追溯來源訊號支持文章以「姫咲華」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：蒸れる、汗だく、滴る。濃厚体液まみれ限界性交ドキュメント",
+      "supports": "這項可追溯來源訊號支持文章以「蒸れる、汗だく、滴る。濃厚体液まみれ限界性交ドキュメント」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：紀錄片形式",
+      "supports": "這項可追溯來源訊號支持文章以「紀錄片形式」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：悶熱",
+      "supports": "這項可追溯來源訊號支持文章以「悶熱」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-20T16:00:00.000Z"
+}

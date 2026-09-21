@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:f391553c9908015ed6e0fa186202ae88a28900c8b576eceaa6ee125041e40891",
-  "source_generated_at": "2026-09-21T17:13:40.192Z",
+  "source_revision": "sha256:e62d243cc6505a212d230a7888a15da864f1666f76a09bac39e1b1212c2e7b15",
+  "source_generated_at": "2026-09-21T17:18:33.624Z",
   "counts": {
-    "movies": 233,
-    "performers": 233,
+    "movies": 234,
+    "performers": 234,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1366,6 +1366,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:25186",
+      "display_name": "姫咲華",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "姫咲華",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DSOD-074"
       ]
     },
     {
@@ -2995,6 +3006,51 @@
         "article_title": "DSOD-038 笹倉彩 × トレーナーの子宮をエグるバックピストンにイキ堕ちして毎日寝取｜笹倉彩",
         "display_short_title": null,
         "slug": "dsod-038"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DSOD-074",
+        "source_cover": "https://cc18.tv/preview/80/b/l2Mlu4hQJ2D-800.jpg?v=1789850329",
+        "title": "DSOD-074 姫咲華｜悶熱",
+        "catalog_code": "DSOD-074",
+        "release_date": "2026-09-18",
+        "performers": [
+          "姫咲華"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dsod-074/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:25186"
+      ],
+      "search": {
+        "source_title": "悶熱、汗流浹背、滴落。濃厚體液滿身極限性交紀錄片 姬咲華",
+        "article_title": "DSOD-074 姫咲華｜悶熱",
+        "display_short_title": null,
+        "slug": "dsod-074"
       }
     },
     {
