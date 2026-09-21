@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-398",
+  "review_sha256": "ce088cd7e806f8ef9dcba5575fd69fc9084c06d493a8680ce55b49a4fbf47d77",
+  "selected_thesis": "鷲尾めい的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "鷲尾めい",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "鷲尾めい",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "重視規律",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "OL",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "鷲尾めい",
+    "presentation_feature": "重視規律",
+    "editorial_judgment": "鷲尾めい的企劃呈現與觀看取向",
+    "source_keywords": [
+      "鷲尾めい",
+      "重視規律",
+      "OL"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：鷲尾めい",
+      "supports": "這項可追溯來源訊號支持文章以「鷲尾めい」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：重視規律",
+      "supports": "這項可追溯來源訊號支持文章以「重視規律」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：OL",
+      "supports": "這項可追溯來源訊號支持文章以「OL」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-20T16:00:00.000Z"
+}

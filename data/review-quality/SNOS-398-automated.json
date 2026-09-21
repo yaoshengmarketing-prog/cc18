@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "id": "SNOS-398",
+  "checked_at": "2026-09-21T11:07:04.259Z",
+  "review_sha256": "f42bdcad6dc6cd898a25c75ab2c43006d174b95995b0592e1ccd6236da0d79d5",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "這部片的選片重點，首先不是複雜情節，而是來源概念本身非常明確：片名線索直接指向「重視規律」，而公開標籤又給出「OL」這個身份框架。對選片來說，這代表作品的吸引力主要建立在人物設定的清楚輪廓，也就是一個偏向秩序、規範感的職場身份，如何與成人作品的展示方向形成張力。再加上來源摘錄裡還"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}
