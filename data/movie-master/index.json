@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-21T00:25:50.829Z",
+  "generated_at": "2026-09-21T00:30:27.864Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 222,
-  "formal_movie_count": 221,
+  "tracked_input_count": 223,
+  "formal_movie_count": 222,
   "demo_count": 1,
-  "published_count": 218,
+  "published_count": 219,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -755,6 +755,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "97cdce96803a0504067c7d83707ed8f58cbdc92c2d22166222d1572f1537921c"
+    },
+    {
+      "stable_movie_id": "cc18:IENF-470",
+      "catalog_code": "IENF-470",
+      "slug": "ienf-470",
+      "master_path": "data/movie-master/ienf-470.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "48d3ed3e38e3a059a7e032280c79253a8322fb50592d5b20e3819c163800d6d5"
     },
     {
       "stable_movie_id": "cc18:IESP-765",

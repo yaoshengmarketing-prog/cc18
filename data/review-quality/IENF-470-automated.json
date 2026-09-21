@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "id": "IENF-470",
+  "checked_at": "2026-09-21T00:28:35.769Z",
+  "review_sha256": "c452a870b40f7203fc3adf08602b371eb206a20fb94a7727d47983b20e198931",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就公開來源來看，這部作品最明確的識別點是「色情女學生的淫語挑逗」。這不是延伸解讀，而是直接可追溯到系列名稱與來源概念的核心。再加上 topic elements 中可確認的「學生妹」與「淫語」，使它的選片方向非常集中：不是靠複雜劇情資訊吸引，而是以角色身份標記與語言挑逗主題作為主"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
