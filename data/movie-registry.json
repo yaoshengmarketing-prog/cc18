@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-21T10:58:08.020Z",
+  "updated_at": "2026-09-21T11:03:50.652Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -3396,6 +3396,21 @@
       ],
       "release_date": "2026-09-18",
       "source_url": "https://cc18.tv/player.php?uuid=yoVUjEfjYaZ&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-21"
+    },
+    {
+      "id": "JUR-866",
+      "actress": [
+        "沙月芽衣"
+      ],
+      "release_date": "2026-09-18",
+      "source_url": "https://cc18.tv/player.php?uuid=2ISHxqlMSfv&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

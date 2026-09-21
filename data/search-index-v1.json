@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:0d598812a09ff100f4a0fa83662830f8da174ed196ac8ac324675e973b58bca1",
-  "source_generated_at": "2026-09-21T10:58:17.771Z",
+  "source_revision": "sha256:93bdb81428a72dc7268b4208834b0bb877f76b655a33189f641fc168aa6a4f05",
+  "source_generated_at": "2026-09-21T11:04:00.594Z",
   "counts": {
-    "movies": 222,
-    "performers": 228,
+    "movies": 223,
+    "performers": 229,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -978,6 +978,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PPPE-442"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:25269",
+      "display_name": "沙月芽衣",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "沙月芽衣",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:JUR-866"
       ]
     },
     {
@@ -2928,6 +2939,51 @@
         "article_title": "HUNTC-659 あなたのお背中を流します × 學生設定｜あなたのお背中を流します",
         "display_short_title": null,
         "slug": "huntc-659"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:JUR-866",
+        "source_cover": "https://cc18.tv/preview/80/b/2ISHxqlMSfv-800.jpg?v=1789850325",
+        "title": "JUR-866 沙月芽衣｜丈夫出差的5天間：以家庭崩壞設定推進的劇情型選片",
+        "catalog_code": "JUR-866",
+        "release_date": "2026-09-18",
+        "performers": [
+          "沙月芽衣"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/jur-866/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:25269"
+      ],
+      "search": {
+        "source_title": "丈夫出差的5天間…屈服於最討厭的義父之下的拘束慢速活塞強姦 沙月芽衣",
+        "article_title": "JUR-866 沙月芽衣｜丈夫出差的5天間：以家庭崩壞設定推進的劇情型選片",
+        "display_short_title": null,
+        "slug": "jur-866"
       }
     },
     {

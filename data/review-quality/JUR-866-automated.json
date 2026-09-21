@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "id": "JUR-866",
+  "checked_at": "2026-09-21T11:01:15.402Z",
+  "review_sha256": "b5a15638537328a53e24d59fa4fcdaf381eeedec4eacbf126ad2a263157231bc",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資訊來看，JUR-866 最明確的賣點不是單一動作標籤，而是「丈夫出差的5天間」這個企劃軸心。這個時間限定概念本身就帶有連續性的壓力設計，讓作品天然偏向劇情設定導向，而不只是零散情境的堆疊。再加上公開簡介直接寫到原本「與丈夫幸福的結婚生活…卻被義父玉堂徹"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "目前可直接確認的是主演為沙月芽衣，而片名與簡介都把她置於一個由婚姻生活走向崩壞壓力的中心位置。由於沒有影像觀察可用，不能進一步斷言她在表演上的細節呈現，但從企劃角度看，這類作品通常仰賴主演去承接「原本穩定的生活狀態」與「被外力破壞後的處境轉變」兩層設定。因此，沙月芽衣在本作中的吸"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "如果你偏好的是有清楚企劃前提、能從片名就快速掌握衝突核心的作品，JUR-866 會相對對味。它的核心不是陌生設定，而是相當直白的家庭結構失衡：丈夫出差、婚姻生活、義父介入、幸福被摧毀。這些資訊都已足夠建立明確的觀看期待。相對地，如果你更在意具體場面設計、表演細節、剪接節奏或視聽風"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
