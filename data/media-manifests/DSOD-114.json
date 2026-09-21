@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-114",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-21T17:23:07.023Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/DSOD-114/hero-v1.jpg",
+      "r2_key": "works/2026/09/DSOD-114/hero-v1.jpg",
+      "bytes": 612887,
+      "sha256": "c0d0f14e443f763a250f4bb872d7414af99a2e93d6e7437067c86a5d41063f13",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "6fb33378-9df6-4dfb-aca6-1b7c8d8f40a9",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/DSOD-114/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/DSOD-114/scene-vertical-v1.jpg",
+      "bytes": 804925,
+      "sha256": "56d247d1c09931d5bac71df1f56c7de240780e7f5ab6d7227ee4f2fa5bbdd212",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "d12f1661-d7b3-4757-9ef3-13358397c68d",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2237706,
+    "sha256": "88d9822dce2564b9d9956790eae0fb156165d7a04503d2a09670f1b54a8deded",
+    "target_r2_key": "works/2026/09/DSOD-114/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/DSOD-114/vertical-v1.mp4"
+  }
+}

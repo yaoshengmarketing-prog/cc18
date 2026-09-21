@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:e62d243cc6505a212d230a7888a15da864f1666f76a09bac39e1b1212c2e7b15",
-  "source_generated_at": "2026-09-21T17:18:33.624Z",
+  "source_revision": "sha256:4383e584ec34301956006f00132dd11fc2e9b996425dd1ac50b43c41601c76cf",
+  "source_generated_at": "2026-09-21T17:24:02.196Z",
   "counts": {
-    "movies": 234,
-    "performers": 234,
+    "movies": 235,
+    "performers": 235,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1276,6 +1276,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:44414",
+      "display_name": "花宮きょうこ",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "花宮きょうこ",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DSOD-114"
       ]
     },
     {
@@ -3088,6 +3099,51 @@
         "article_title": "DSOD-093 音無鈴｜認真肉棒指導：以企劃設定為主的展示型選片",
         "display_short_title": null,
         "slug": "dsod-093"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DSOD-114",
+        "source_cover": "https://cc18.tv/preview/80/b/kWXgyoNerfb-800.jpg?v=1789850328",
+        "title": "DSOD-114 花宮きょうこ｜進行特技騎乘位：主導企劃感鮮明的展示型選片",
+        "catalog_code": "DSOD-114",
+        "release_date": "2026-09-18",
+        "performers": [
+          "花宮きょうこ"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dsod-114/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:44414"
+      ],
+      "search": {
+        "source_title": "【SEX作弊日】輕而易舉將毫無抵抗的小個子男子舉起，進行特技騎乘位。以壓倒性的筋力瘋狂玩弄的抖S掠食者痴女 花宮京子",
+        "article_title": "DSOD-114 花宮きょうこ｜進行特技騎乘位：主導企劃感鮮明的展示型選片",
+        "display_short_title": null,
+        "slug": "dsod-114"
       }
     },
     {

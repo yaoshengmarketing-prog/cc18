@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "DSOD-114",
+  "checked_at": "2026-09-21T17:21:49.135Z",
+  "review_sha256": "4cef4c33062ae4be6b4437be1eaceaad6528aa16f4043ff515d025e4444cc08b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "來源簡介提到，花宮きょうこ所對應的角色帶著強烈性慾，對私人教練、更衣室或外面的男人，以及健身房裡的兩個男人採取主動出擊的設定，文字甚至直接使用了帶有強制進攻色彩的描述。就選片判斷而言，這代表本作的重點不是等待互動慢慢升溫，而是把女性角色的進攻性與主導權放在前景。也因為這個設定相當"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
