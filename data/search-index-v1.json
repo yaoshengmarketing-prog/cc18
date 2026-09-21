@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:1c6b277cc5a0b3ca01f0b05b3af6ab9949b2bf44ed06a3b8a0ef04d9181b48a3",
-  "source_generated_at": "2026-09-21T11:08:54.160Z",
+  "source_revision": "sha256:d76c07cee446971704c927a33b65685bd899efa5dfb1934e29d535f5f813d12e",
+  "source_generated_at": "2026-09-21T11:13:25.884Z",
   "counts": {
-    "movies": 224,
-    "performers": 229,
+    "movies": 225,
+    "performers": 230,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2011,6 +2011,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:47793",
+      "display_name": "笹倉彩",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "笹倉彩",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DSOD-038"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:27471",
       "display_name": "逢月日葵",
       "display_name_zh_tw": null,
@@ -2813,6 +2824,47 @@
         "article_title": "DSOD-010 一ノ瀬ラム、池田真理奈、柚木れんか、柊もみじ｜等四人作｜女子禁制雞雞夜晚泳池：以企劃設定取勝的展示型選片",
         "display_short_title": null,
         "slug": "dsod-010"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DSOD-038",
+        "source_cover": "https://cc18.tv/preview/80/b/8FOZDRrjp5s-800.jpg?v=1789814360",
+        "title": "DSOD-038 笹倉彩 × トレーナーの子宮をエグるバックピストンにイキ堕ちして毎日寝取｜笹倉彩",
+        "catalog_code": "DSOD-038",
+        "release_date": "2026-09-18",
+        "performers": [
+          "笹倉彩"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dsod-038/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:47793"
+      ],
+      "search": {
+        "source_title": "訓練師的子宮被激烈的背後位抽插摧毀每天都沉溺於被偷情的巨乳人妻 笹倉彩",
+        "article_title": "DSOD-038 笹倉彩 × トレーナーの子宮をエグるバックピストンにイキ堕ちして毎日寝取｜笹倉彩",
+        "display_short_title": null,
+        "slug": "dsod-038"
       }
     },
     {
