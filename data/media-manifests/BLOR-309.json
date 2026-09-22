@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "BLOR-309",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-22T19:09:06.157Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/BLOR-309/hero-v1.jpg",
+      "r2_key": "works/2026/09/BLOR-309/hero-v1.jpg",
+      "bytes": 1280920,
+      "sha256": "ce5e9f7ab8886d77c3f98dd1edc1ad7b6d3e7063486eabffe5b51d340251e3c6",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "297bb0ec-900a-4318-a8e6-a1facdbff7a3",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/BLOR-309/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/BLOR-309/scene-vertical-v1.jpg",
+      "bytes": 904792,
+      "sha256": "078bd669b7061bd851c700792b727351708b080a8af3f4a5ae91497e316b8f5c",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "88c741aa-6696-45e2-9c34-d7acd01d2dcd",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3011503,
+    "sha256": "0da14fd5ba8a3190338c95d4001e687035c198bb07a0656b18c46a9fc878491c",
+    "target_r2_key": "works/2026/09/BLOR-309/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/BLOR-309/vertical-v1.mp4"
+  }
+}

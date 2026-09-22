@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-22T19:05:04.146Z",
+  "generated_at": "2026-09-22T19:09:57.545Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 248,
-  "formal_movie_count": 247,
+  "tracked_input_count": 249,
+  "formal_movie_count": 248,
   "demo_count": 1,
-  "published_count": 244,
+  "published_count": 245,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -161,6 +161,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "2b56fa3050cd6e9e848ab0926a6fdb9db85ce4aad381e00f50b4ae3c662f51ae"
+    },
+    {
+      "stable_movie_id": "cc18:BLOR-309",
+      "catalog_code": "BLOR-309",
+      "slug": "blor-309",
+      "master_path": "data/movie-master/blor-309.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "a04f9194b27e7e5496d9b6063f83e31524fb9fa0d1f4ccc241d7dcd3b0eb5398"
     },
     {
       "stable_movie_id": "cc18:BONY-207",
