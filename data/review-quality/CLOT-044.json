@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "CLOT-044",
+  "review_sha256": "c01205d753c54553e26003c7c4b53d8f93945d5dbc1d5b72318727898ea0da26",
+  "selected_thesis": "來源資料可確認本作以「褲襪的誘惑」作為主要作品線索。",
+  "title_basis": {
+    "performer": "佐藤愛瑠",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "佐藤愛瑠",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "褲襪的誘惑",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "パンストの誘惑(プラネットプラス)",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "佐藤愛瑠",
+    "presentation_feature": "褲襪的誘惑",
+    "editorial_judgment": "來源資料可確認本作以「褲襪的誘惑」作為主要作品線索。",
+    "source_keywords": [
+      "佐藤愛瑠",
+      "褲襪的誘惑",
+      "パンストの誘惑(プラネットプラス)",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：佐藤愛瑠",
+      "supports": "這項可追溯來源訊號支持文章以「佐藤愛瑠」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：パンストの誘惑(プラネットプラス)",
+      "supports": "這項可追溯來源訊號支持文章以「パンストの誘惑(プラネットプラス)」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：褲襪的誘惑",
+      "supports": "這項可追溯來源訊號支持文章以「褲襪的誘惑」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：口交",
+      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：HD",
+      "supports": "這項可追溯來源訊號支持文章以「HD」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-21T16:00:00.000Z"
+}

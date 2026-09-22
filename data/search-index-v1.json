@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:9ec4a6887512c771b0963cf457df204c150d894583b18baee583cb84f8075c58",
-  "source_generated_at": "2026-09-21T17:29:21.213Z",
+  "source_revision": "sha256:5302e798f28ceb42e2da7441d2add7a20fd3842a1b75362e6dfdf61e6b3ab381",
+  "source_generated_at": "2026-09-22T00:12:14.983Z",
   "counts": {
-    "movies": 236,
-    "performers": 236,
+    "movies": 237,
+    "performers": 237,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -945,6 +945,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PYM-577"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:51800",
+      "display_name": "佐藤愛瑠",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "佐藤愛瑠",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CLOT-044"
       ]
     },
     {
@@ -2689,6 +2700,47 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:CLOT-044",
+        "source_cover": "https://cc18.tv/preview/80/b/jDaAM4waz3E-800.jpg?v=1790023016",
+        "title": "CLOT-044 佐藤愛瑠｜褲襪的誘惑",
+        "catalog_code": "CLOT-044",
+        "release_date": "2026-09-20",
+        "performers": [
+          "佐藤愛瑠"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/clot-044/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:51800"
+      ],
+      "search": {
+        "source_title": "褲襪的誘惑 佐藤愛瑠",
+        "article_title": "CLOT-044 佐藤愛瑠｜褲襪的誘惑",
+        "display_short_title": null,
+        "slug": "clot-044"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:MKON-149",
