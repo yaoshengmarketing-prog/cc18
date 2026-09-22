@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "AMBI-214",
+  "review_sha256": "127f11f7e8632cfa60439d3087d92695018e4e10d605279c5320108fc161c7f7",
+  "selected_thesis": "來源資料可確認本作以「高星渚」作為主要作品線索。",
+  "title_basis": {
+    "performer": "高星なぎさ",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "高星なぎさ",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "高星渚",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "引きこもりの妹にマッチングアプリをさせてみたら…",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "高星なぎさ",
+    "presentation_feature": "高星渚",
+    "editorial_judgment": "來源資料可確認本作以「高星渚」作為主要作品線索。",
+    "source_keywords": [
+      "高星なぎさ",
+      "高星渚",
+      "引きこもりの妹にマッチングアプリをさせてみたら…",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：高星なぎさ",
+      "supports": "這項可追溯來源訊號支持文章以「高星なぎさ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：引きこもりの妹にマッチングアプリをさせてみたら…",
+      "supports": "這項可追溯來源訊號支持文章以「引きこもりの妹にマッチングアプリをさせてみたら…」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：高星渚",
+      "supports": "這項可追溯來源訊號支持文章以「高星渚」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：窈窕",
+      "supports": "這項可追溯來源訊號支持文章以「窈窕」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：口交",
+      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-21T16:00:00.000Z"
+}

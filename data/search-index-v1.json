@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:99d253202def84e5bbe028fbb70df898141c0f76b64e1f93bd5b029b9e341440",
-  "source_generated_at": "2026-09-22T00:37:20.503Z",
+  "source_revision": "sha256:4317b5be923094b751909713b53742b550ccb44bb7716506067735a2804f3376",
+  "source_generated_at": "2026-09-22T19:00:00.998Z",
   "counts": {
-    "movies": 242,
-    "performers": 241,
+    "movies": 243,
+    "performers": 242,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1984,6 +1984,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:53555",
+      "display_name": "高星なぎさ",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "高星なぎさ",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:AMBI-214"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:5639",
       "display_name": "高瀨里奈",
       "display_name_zh_tw": null,
@@ -2746,6 +2757,63 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:AMBI-214",
+        "source_cover": "https://cc18.tv/preview/80/b/dyJhTBt9eP-800.jpg?v=1790023017",
+        "title": "AMBI-214 高星なぎさ｜高星渚",
+        "catalog_code": "AMBI-214",
+        "release_date": "2026-09-20",
+        "performers": [
+          "高星なぎさ"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ambi-214/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53555"
+      ],
+      "search": {
+        "source_title": "讓宅在家的妹妹試試交友軟體後… 高星渚",
+        "article_title": "AMBI-214 高星なぎさ｜高星渚",
+        "display_short_title": null,
+        "slug": "ambi-214"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:CLOT-044",

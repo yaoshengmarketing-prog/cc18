@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "AMBI-214",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-22T18:59:05.760Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/AMBI-214/hero-v1.jpg",
+      "r2_key": "works/2026/09/AMBI-214/hero-v1.jpg",
+      "bytes": 751977,
+      "sha256": "541982f515826535d661205fa8ff93ce8c0f02d9cf0104d733ea8e8884a8feb7",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "db970f42-7321-41c3-a7bd-fb3d92435720",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/AMBI-214/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/AMBI-214/scene-vertical-v1.jpg",
+      "bytes": 1227955,
+      "sha256": "8a844073d899722746038964ea99fe56379d02f7dddf6a818af3fd9dd5a0b2d7",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "3412156f-63fa-40c5-afdb-8f03b136fc2d",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3628402,
+    "sha256": "341355cf21747538a6ad787a124d8064239a30d8d9b57bc563964d6d272e2812",
+    "target_r2_key": "works/2026/09/AMBI-214/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/AMBI-214/vertical-v1.mp4"
+  }
+}
