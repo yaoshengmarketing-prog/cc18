@@ -496,13 +496,14 @@
     },
     {
       "label": "マッサージ・リフレ",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "SNOS-345",
         "DANDYA-050",
         "HUNTC-659",
         "MVSD-706",
-        "BLOR-309"
+        "BLOR-309",
+        "HUNTC-572"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-23",
@@ -1934,15 +1935,16 @@
     },
     {
       "label": "淫女",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "BAGR-093",
         "AWAW-029",
         "MVSD-700",
-        "DSOD-072"
+        "DSOD-072",
+        "HUNTC-572"
       ],
       "first_seen": "2026-09-09",
-      "last_seen": "2026-09-22",
+      "last_seen": "2026-09-23",
       "status": "quarantined"
     },
     {
