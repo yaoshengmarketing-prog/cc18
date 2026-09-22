@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "C-2989",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-22T19:04:12.281Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/C-2989/hero-v1.jpg",
+      "r2_key": "works/2026/09/C-2989/hero-v1.jpg",
+      "bytes": 711774,
+      "sha256": "e19a88c622807747f38f690f5c986f2252f9639e1ce6447c708662ab3fbd815d",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "fcd36dfc-ccce-4766-b7a3-35bedf1b023d",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/C-2989/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/C-2989/scene-vertical-v1.jpg",
+      "bytes": 880314,
+      "sha256": "6f7524090994f749a70136d8087f0349a6570a73009c8bf32c4aa88cff516b8d",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "2a2e38c6-6574-404d-b9c7-bb14edf54a77",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2718605,
+    "sha256": "b32d32ad9b947658fd85be9d23089b7520b1351c55119a7a7dd5b7abe57989a3",
+    "target_r2_key": "works/2026/09/C-2989/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/C-2989/vertical-v1.mp4"
+  }
+}

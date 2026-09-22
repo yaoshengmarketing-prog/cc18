@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-22T19:00:00.998Z",
+  "generated_at": "2026-09-22T19:05:04.146Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 247,
-  "formal_movie_count": 246,
+  "tracked_input_count": 248,
+  "formal_movie_count": 247,
   "demo_count": 1,
-  "published_count": 243,
+  "published_count": 244,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -170,6 +170,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "716a66d47e16b950400b533dc525172e54a3fb55ab8fc9508e55172b96f022b7"
+    },
+    {
+      "stable_movie_id": "cc18:C-2989",
+      "catalog_code": "C-2989",
+      "slug": "c-2989",
+      "master_path": "data/movie-master/c-2989.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "92bd8838649b487d53ceb57298374ae8197156ce703587ecce40fd0374badaa4"
     },
     {
       "stable_movie_id": "cc18:CC18-DEMO-001",

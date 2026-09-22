@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-22T18:59:49.890Z",
+  "updated_at": "2026-09-22T19:04:53.050Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -3708,6 +3708,19 @@
       ],
       "release_date": "2026-09-20",
       "source_url": "https://cc18.tv/player.php?uuid=dyJhTBt9eP&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-22"
+    },
+    {
+      "id": "C-2989",
+      "actress": [],
+      "release_date": "2026-09-19",
+      "source_url": "https://cc18.tv/player.php?uuid=GjXve26v4T&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

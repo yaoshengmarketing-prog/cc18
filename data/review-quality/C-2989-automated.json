@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "C-2989",
+  "checked_at": "2026-09-22T19:03:14.444Z",
+  "review_sha256": "278510c8b5d82d8ab3343ae62c30ec76cf6c9f43f7c063723c93df05cae69b6d",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果以目前可追溯的公開資訊來看，C-2989 最明確的吸引力不是單一人物，而是它把「突擊成人片商」放在核心企劃位置。片名直接結合「NTR情侶」與「押しかけAV撮影」，創造出一種先由設定吸引觀眾、再由系列框架延伸觀看興趣的選片邏輯。對偏好企劃型作品的觀眾來說，這類作品的重點通常不是"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
