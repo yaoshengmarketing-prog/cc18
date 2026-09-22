@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "HEYZO-3939",
+  "review_sha256": "89f82153664f5f36a744a33afe9a945454c5ba81f2ceeb8ccc344fd0178d7dc2",
+  "selected_thesis": "來源資料可確認本作以「在真人脫衣麻將中」作為主要作品線索。",
+  "title_basis": {
+    "performer": "石崎れいな",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "石崎れいな",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "在真人脫衣麻將中",
+        "source_field": "title"
+      },
+      {
+        "type": "character",
+        "value": "人妻設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "石崎れいな",
+    "presentation_feature": "在真人脫衣麻將中",
+    "editorial_judgment": "來源資料可確認本作以「在真人脫衣麻將中」作為主要作品線索。",
+    "source_keywords": [
+      "石崎れいな",
+      "在真人脫衣麻將中",
+      "人妻設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "跟雀友聚會時,老公突然被公司緊急叫走。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：石崎れいな",
+      "supports": "這項可追溯來源訊號支持文章以「石崎れいな」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "character：人妻設定",
+      "supports": "這項可追溯來源訊號支持文章以「人妻設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：在真人脫衣麻將中",
+      "supports": "這項可追溯來源訊號支持文章以「在真人脫衣麻將中」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻",
+      "supports": "這項可追溯來源訊號支持文章以「人妻」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：亂交",
+      "supports": "這項可追溯來源訊號支持文章以「亂交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-21T16:00:00.000Z"
+}

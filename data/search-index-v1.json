@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:213bac224d204630bfdcc2323d4d6340d8d50356566b72de2d8284ef963b37ac",
-  "source_generated_at": "2026-09-22T00:17:24.242Z",
+  "source_revision": "sha256:6266b56671feba488f6ac6e88b8824812de32e5973b0cf198bf1d8599e9cae46",
+  "source_generated_at": "2026-09-22T00:22:17.897Z",
   "counts": {
-    "movies": 238,
-    "performers": 239,
+    "movies": 239,
+    "performers": 240,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -797,6 +797,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MIDA-785"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53371",
+      "display_name": "石崎れいな",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "石崎れいな",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:HEYZO-3939"
       ]
     },
     {
@@ -2761,6 +2772,47 @@
         "article_title": "CLOT-044 佐藤愛瑠｜褲襪的誘惑",
         "display_short_title": null,
         "slug": "clot-044"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:HEYZO-3939",
+        "source_cover": "https://cc18.tv/preview/80/b/20kZCIIHW4n-800.jpg?v=1790023020",
+        "title": "HEYZO-3939 石崎れいな｜在真人脫衣麻將中",
+        "catalog_code": "HEYZO-3939",
+        "release_date": "2026-09-19",
+        "performers": [
+          "石崎れいな"
+        ],
+        "canonical_topics": [
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/heyzo-3939/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53371"
+      ],
+      "search": {
+        "source_title": "在真人脫衣麻將中，我成功享用了一位已婚女性！- 石崎玲奈",
+        "article_title": "HEYZO-3939 石崎れいな｜在真人脫衣麻將中",
+        "display_short_title": null,
+        "slug": "heyzo-3939"
       }
     },
     {
