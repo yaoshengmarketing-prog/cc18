@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "NEO-954",
+  "review_sha256": "961e67b7dba91ee38c75fb97a72ab8a66e013f47152b5565fa8f5ffba262caf5",
+  "selected_thesis": "來源資料可確認本作以「おならと純情」作為主要作品線索。",
+  "title_basis": {
+    "performer": "鳥羽いく",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "鳥羽いく",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "おならと純情",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "鳥羽いく",
+    "presentation_feature": "おならと純情",
+    "editorial_judgment": "來源資料可確認本作以「おならと純情」作為主要作品線索。",
+    "source_keywords": [
+      "鳥羽いく",
+      "おならと純情",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "透過極其生動且彷彿能從畫面中聞到氣味的拍攝角度，讓您盡情享受100次以上的放屁快感。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：鳥羽いく",
+      "supports": "這項可追溯來源訊號支持文章以「鳥羽いく」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：おならと純情",
+      "supports": "這項可追溯來源訊號支持文章以「おならと純情」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：おならと純情",
+      "supports": "這項可追溯來源訊號支持文章以「おならと純情」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：美尻",
+      "supports": "這項可追溯來源訊號支持文章以「美尻」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：HD",
+      "supports": "這項可追溯來源訊號支持文章以「HD」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-21T16:00:00.000Z"
+}

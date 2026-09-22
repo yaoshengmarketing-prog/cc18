@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "movie_id": "NEO-954",
+  "generated_at": "2026-09-22T00:34:47.368Z",
+  "source_snapshot_hash": "sha256:19b978e5ce9b425471464d484f486c0d41164fa3b42bb6b9175d313c91998607",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "來源資料可確認本作以「おならと純情」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "鳥羽いく",
+      "おならと純情",
+      "高畫質",
+      "おならと純情"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想先依來源題材與作品設定挑選的觀眾",
+      "接受目前只提供來源資料整理的觀眾"
+    ],
+    "not_for": [
+      "需要影片抽樣觀察才能決定的觀眾",
+      "需要鏡位、收音或段落變化結論的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "PIYO-238",
+      "relation_type": "same_performer",
+      "reason": "同樣由鳥羽いく出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "鳥羽いく"
+      ],
+      "contrast_signals": [
+        "鳥羽郁",
+        "高畫質"
+      ]
+    },
+    {
+      "movie_id": "MVG-172",
+      "relation_type": "same_performer",
+      "reason": "同樣由鳥羽いく出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "鳥羽いく"
+      ],
+      "contrast_signals": [
+        "鳥羽郁",
+        "AV女優片"
+      ]
+    },
+    {
+      "movie_id": "PIYO-240",
+      "relation_type": "same_performer",
+      "reason": "同樣由鳥羽いく出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "鳥羽いく"
+      ],
+      "contrast_signals": [
+        "青葉春",
+        "こっそり強●精飲"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "來源資料可確認什麼？來源資料可確認本作以「おならと純情」作為主要作品線索。",
+    "目前能否提供影片觀察？目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "如何使用本頁？可先依來源題材與作品識別資訊判斷是否符合偏好。"
+  ]
+}

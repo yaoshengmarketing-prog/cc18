@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "NEO-954",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-22T00:35:47.015Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/NEO-954/hero-v1.jpg",
+      "r2_key": "works/2026/09/NEO-954/hero-v1.jpg",
+      "bytes": 1080456,
+      "sha256": "6581388fa1b369309519ab8f36377a7c646554144d5f5724fea9eb9c7d588be1",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "8c5130ce-2d81-43fb-84eb-340a177ac626",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/NEO-954/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/NEO-954/scene-vertical-v1.jpg",
+      "bytes": 1267506,
+      "sha256": "39ed1829f1231d50575c2b023d8b5777f556a723ba7798aa596927f8ebeb9a25",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "9f5049a9-1c07-4216-af39-ecb57c0b2d76",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3677030,
+    "sha256": "3f454ae595a37e6dc74db206fb39e1a9911ca728b540ff07055688dfd5671deb",
+    "target_r2_key": "works/2026/09/NEO-954/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/NEO-954/vertical-v1.mp4"
+  }
+}
