@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "TPIN-102",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-22T00:16:32.549Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/TPIN-102/hero-v1.jpg",
+      "r2_key": "works/2026/09/TPIN-102/hero-v1.jpg",
+      "bytes": 671504,
+      "sha256": "36e87647503fd628d0299147cd985b790557d82c45765fa2d74409fd3ddc0333",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "e87dfc98-8d89-499d-b694-b09f4add2ed5",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/TPIN-102/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/TPIN-102/scene-vertical-v1.jpg",
+      "bytes": 793406,
+      "sha256": "8e1fa6aa480ea082942e8e6e3f206f3ab52001f54773ba9ffe2035d0c39f3f6b",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "422e6a06-e5f2-4e5a-a743-1564e270cae7",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2122479,
+    "sha256": "50a2f654f95e89e4dc6aad6ccfe4579dc4e370978e197ca7ba197b583393cf6d",
+    "target_r2_key": "works/2026/09/TPIN-102/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/TPIN-102/vertical-v1.mp4"
+  }
+}

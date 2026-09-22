@@ -1768,7 +1768,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 16,
+      "occurrences": 17,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -1785,10 +1785,11 @@
         "SNOS-444",
         "SNOS-337",
         "HUNTC-550",
-        "BONY-207"
+        "BONY-207",
+        "TPIN-102"
       ],
       "first_seen": "2026-09-14",
-      "last_seen": "2026-09-21",
+      "last_seen": "2026-09-22",
       "status": "quarantined"
     },
     {
@@ -2072,12 +2073,13 @@
     },
     {
       "label": "媽媽系",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "KSBJ-445"
+        "KSBJ-445",
+        "TPIN-102"
       ],
       "first_seen": "2026-09-18",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-09-22",
       "status": "quarantined"
     },
     {

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-22T00:12:14.983Z",
+  "generated_at": "2026-09-22T00:17:24.242Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 241,
-  "formal_movie_count": 240,
+  "tracked_input_count": 242,
+  "formal_movie_count": 241,
   "demo_count": 1,
-  "published_count": 237,
+  "published_count": 238,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2096,6 +2096,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "a3298bd579e3251784064b936a452c7dc5c1b5ab9c8a3a96128e29741b2ea132"
+    },
+    {
+      "stable_movie_id": "cc18:TPIN-102",
+      "catalog_code": "TPIN-102",
+      "slug": "tpin-102",
+      "master_path": "data/movie-master/tpin-102.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "da5c2f3420efe6ae2d895b922cb9270cab5c7fabba39cffa44e61ba0dfaca48a"
     },
     {
       "stable_movie_id": "cc18:TPNS-037",

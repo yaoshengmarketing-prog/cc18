@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "TPIN-102",
+  "review_sha256": "27e7007d1df998f0cf518e123f29de5456507926c3a420347e33cc59aaf4c896",
+  "selected_thesis": "來源資料可確認本作以「母親的愛與扭曲的家庭狀況」作為主要作品線索。",
+  "title_basis": {
+    "performer": "平泉栞奈、むとうあやか",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "平泉栞奈",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "母親的愛與扭曲的家庭狀況",
+        "source_field": "title"
+      },
+      {
+        "type": "performer",
+        "value": "むとうあやか",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "辣妹風格",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "平泉栞奈",
+    "presentation_feature": "母親的愛與扭曲的家庭狀況",
+    "editorial_judgment": "來源資料可確認本作以「母親的愛與扭曲的家庭狀況」作為主要作品線索。",
+    "source_keywords": [
+      "平泉栞奈",
+      "母親的愛與扭曲的家庭狀況",
+      "むとうあやか",
+      "辣妹風格"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：平泉栞奈",
+      "supports": "這項可追溯來源訊號支持文章以「平泉栞奈」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：むとうあやか",
+      "supports": "這項可追溯來源訊號支持文章以「むとうあやか」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：辣妹風格",
+      "supports": "這項可追溯來源訊號支持文章以「辣妹風格」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：母親的愛與扭曲的家庭狀況",
+      "supports": "這項可追溯來源訊號支持文章以「母親的愛與扭曲的家庭狀況」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：辣妹",
+      "supports": "這項可追溯來源訊號支持文章以「辣妹」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-21T16:00:00.000Z"
+}

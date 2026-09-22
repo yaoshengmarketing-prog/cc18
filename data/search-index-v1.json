@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:5302e798f28ceb42e2da7441d2add7a20fd3842a1b75362e6dfdf61e6b3ab381",
-  "source_generated_at": "2026-09-22T00:12:14.983Z",
+  "source_revision": "sha256:213bac224d204630bfdcc2323d4d6340d8d50356566b72de2d8284ef963b37ac",
+  "source_generated_at": "2026-09-22T00:17:24.242Z",
   "counts": {
-    "movies": 237,
-    "performers": 237,
+    "movies": 238,
+    "performers": 239,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -643,6 +643,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:KSBJ-445"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54077",
+      "display_name": "平泉栞奈",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "平泉栞奈",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:TPIN-102"
       ]
     },
     {
@@ -2697,6 +2708,17 @@
       "related_movie_ids": [
         "cc18:IPZZ-960"
       ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54663",
+      "display_name": "むとうあやか",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "むとうあやか",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:TPIN-102"
+      ]
     }
   ],
   "movies": [
@@ -2890,6 +2912,57 @@
         "article_title": "PETS-072 放課後はオトコノ娘 × 辣妹風格｜放課後はオトコノ娘",
         "display_short_title": null,
         "slug": "pets-072"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:TPIN-102",
+        "source_cover": "https://cc18.tv/preview/80/b/jPyMwMrEZet-800.jpg?v=1789972675",
+        "title": "TPIN-102 平泉栞奈、むとうあやか｜母親的愛與扭曲的家庭狀況",
+        "catalog_code": "TPIN-102",
+        "release_date": "2026-09-19",
+        "performers": [
+          "平泉栞奈",
+          "むとうあやか"
+        ],
+        "canonical_topics": [
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "gyaru",
+            "label": "辣妹"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/tpin-102/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54077",
+        "cc18.tv:actor:54663"
+      ],
+      "search": {
+        "source_title": "母親的愛與扭曲的家庭狀況",
+        "article_title": "TPIN-102 平泉栞奈、むとうあやか｜母親的愛與扭曲的家庭狀況",
+        "display_short_title": null,
+        "slug": "tpin-102"
       }
     },
     {
