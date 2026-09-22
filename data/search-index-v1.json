@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:6266b56671feba488f6ac6e88b8824812de32e5973b0cf198bf1d8599e9cae46",
-  "source_generated_at": "2026-09-22T00:22:17.897Z",
+  "source_revision": "sha256:734d10b53fae4fec2206b395e5646c2f898cdfa713d3ac03885e4d6132bdbd4c",
+  "source_generated_at": "2026-09-22T00:27:13.589Z",
   "counts": {
-    "movies": 239,
-    "performers": 240,
+    "movies": 240,
+    "performers": 241,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -764,6 +764,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:IPZZ-944"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:25900",
+      "display_name": "白峰美羽",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "白峰美羽",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DSOD-072"
       ]
     },
     {
@@ -3205,6 +3216,51 @@
         "article_title": "DSOD-038 笹倉彩 × トレーナーの子宮をエグるバックピストンにイキ堕ちして毎日寝取｜笹倉彩",
         "display_short_title": null,
         "slug": "dsod-038"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DSOD-072",
+        "source_cover": "https://cc18.tv/preview/80/b/DO4BwAF_HaU-800.jpg?v=1789821552",
+        "title": "DSOD-072 白峰美羽 × 極其幸福的破滅衝動｜白峰美羽｜淫亂・過激系企劃下的極其幸福破滅衝動",
+        "catalog_code": "DSOD-072",
+        "release_date": "2026-09-18",
+        "performers": [
+          "白峰美羽"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dsod-072/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:25900"
+      ],
+      "search": {
+        "source_title": "極其幸福的破滅衝動。這個高傲的女人，我要徹底把她逼入絕境，把她當成調教沙包。 白峰美羽",
+        "article_title": "DSOD-072 白峰美羽 × 極其幸福的破滅衝動｜白峰美羽｜淫亂・過激系企劃下的極其幸福破滅衝動",
+        "display_short_title": null,
+        "slug": "dsod-072"
       }
     },
     {
