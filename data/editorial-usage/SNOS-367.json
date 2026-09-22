@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-367",
+  "calls": [
+    {
+      "generated_at": "2026-09-22T19:39:48.075Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 3438,
+      "cached_input_tokens": 0,
+      "output_tokens": 1154,
+      "total_tokens": 4592,
+      "estimated_cost_usd": 0.043155,
+      "estimated_payg_cash_cost_usd": 0.045313,
+      "direct_openai_reference_usd": 0.025905,
+      "gateway_premium_usd": 0.01725,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 3438,
+    "cached_input_tokens": 0,
+    "output_tokens": 1154,
+    "estimated_cost_usd": 0.043155,
+    "estimated_payg_cash_cost_usd": 0.045313,
+    "direct_openai_reference_usd": 0.025905,
+    "gateway_premium_usd": 0.01725
+  }
+}

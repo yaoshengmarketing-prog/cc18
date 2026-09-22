@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:493d58a985fe73cc4383a908cb1da4f4b20a3db4e980f89aff6e6aaff35b71eb",
-  "source_generated_at": "2026-09-22T19:36:33.429Z",
+  "source_revision": "sha256:3863b798a770ee458ed40db8526a1f8bac3fa3e1abd625b1ca4aea3f1c75ad9a",
+  "source_generated_at": "2026-09-22T19:41:42.725Z",
   "counts": {
-    "movies": 250,
-    "performers": 243,
+    "movies": 251,
+    "performers": 244,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -886,6 +886,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:KIBD-355"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53786",
+      "display_name": "早坂奏音",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "早坂奏音",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-367"
       ]
     },
     {
@@ -4195,6 +4206,55 @@
         "article_title": "SNOS-337 蜜このは｜出類拔萃20歲美神肉體：以展示型企劃凸顯主角條件",
         "display_short_title": null,
         "slug": "snos-337"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-367",
+        "source_cover": "https://cc18.tv/preview/80/b/cFvAgMcXDei-800.jpg?v=1789807159",
+        "title": "SNOS-367 早坂奏音｜學生設定下的反差企劃",
+        "catalog_code": "SNOS-367",
+        "release_date": "2026-09-18",
+        "performers": [
+          "早坂奏音"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "student",
+            "label": "學生妹"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-367/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53786"
+      ],
+      "search": {
+        "source_title": "不起眼的同級生脫掉衣服後竟然有超大奶！本人完全沒自覺的早熟I罩杯誘惑 早坂奏音",
+        "article_title": "SNOS-367 早坂奏音｜學生設定下的反差企劃",
+        "display_short_title": null,
+        "slug": "snos-367"
       }
     },
     {

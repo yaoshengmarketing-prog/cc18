@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "id": "SNOS-367",
+  "checked_at": "2026-09-22T19:39:48.320Z",
+  "review_sha256": "f87f8b4644b8cd286a9190af798af8d65eb2bb2c86ae664711ab840390409352",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資訊，這部作品最明確的吸引點不是複雜劇情，而是圍繞早坂奏音所建立的角色印象與企劃包裝。來源同時給出「早坂奏音」作為核心概念，並帶有學生設定、學生妹、巨乳，以及高畫質、獨家配信等訊號，表示它的選片重心更偏向人物展示與題材辨識度，而不是需要大量前情鋪陳的故事型"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
