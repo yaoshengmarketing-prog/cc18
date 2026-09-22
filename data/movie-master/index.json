@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-22T19:09:57.545Z",
+  "generated_at": "2026-09-22T19:15:52.608Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 249,
-  "formal_movie_count": 248,
+  "tracked_input_count": 250,
+  "formal_movie_count": 249,
   "demo_count": 1,
-  "published_count": 245,
+  "published_count": 246,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -206,6 +206,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "2f00ee2679c9057ff35b37f7b9954abbe93ca909a23faa8921e42463bfb7f553"
+    },
+    {
+      "stable_movie_id": "cc18:CJOD-548",
+      "catalog_code": "CJOD-548",
+      "slug": "cjod-548",
+      "master_path": "data/movie-master/cjod-548.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "ddddd8aabe51a6f55224ac34ea5f8dff9dabdf92eb0e36c0073209d1ab954b31"
     },
     {
       "stable_movie_id": "cc18:CLOT-043",

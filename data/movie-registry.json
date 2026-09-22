@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-22T19:09:46.639Z",
+  "updated_at": "2026-09-22T19:15:41.455Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -3734,6 +3734,21 @@
       "actress": [],
       "release_date": "2026-09-19",
       "source_url": "https://cc18.tv/player.php?uuid=rAyqPTKhW9m&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-22"
+    },
+    {
+      "id": "CJOD-548",
+      "actress": [
+        "釈アリス"
+      ],
+      "release_date": "2026-09-18",
+      "source_url": "https://cc18.tv/player.php?uuid=38NDfI2gu6c&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

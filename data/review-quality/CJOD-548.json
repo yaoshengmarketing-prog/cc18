@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "CJOD-548",
+  "review_sha256": "4672e85ff7b4f472139ab8c83d81af3b86dd522d3a7709838b989c73730812a8",
+  "selected_thesis": "釈アリス的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "釈アリス",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "釈アリス",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "回春アジアンメンズエステ",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "癡女",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "釈アリス",
+    "presentation_feature": "回春アジアンメンズエステ",
+    "editorial_judgment": "釈アリス的企劃呈現與觀看取向",
+    "source_keywords": [
+      "釈アリス",
+      "回春アジアンメンズエステ",
+      "癡女"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：釈アリス",
+      "supports": "這項可追溯來源訊號支持文章以「釈アリス」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：回春アジアンメンズエステ",
+      "supports": "這項可追溯來源訊號支持文章以「回春アジアンメンズエステ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：回春アジアンメンズエステ",
+      "supports": "這項可追溯來源訊號支持文章以「回春アジアンメンズエステ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：癡女",
+      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-21T16:00:00.000Z"
+}

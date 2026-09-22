@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "CJOD-548",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-22T19:15:00.538Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/CJOD-548/hero-v1.jpg",
+      "r2_key": "works/2026/09/CJOD-548/hero-v1.jpg",
+      "bytes": 565660,
+      "sha256": "a34b6cc491b132676a8a56a9db38d47216b1314503cd0ce63c841380effb1735",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "6036f24c-6904-440e-aa25-0e53f27b92b4",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/CJOD-548/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/CJOD-548/scene-vertical-v1.jpg",
+      "bytes": 972642,
+      "sha256": "aed79fea9341b14b7ed27788b0f9adc2a859f3e55f44970834d9e5baeeebf7fd",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "f5e7c6c1-3a6d-49a6-8938-7404ea1eaa51",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2779609,
+    "sha256": "9ec9a141efe5b2626e379b471df093f17b09bffe57a972a28e825fb788b42589",
+    "target_r2_key": "works/2026/09/CJOD-548/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/CJOD-548/vertical-v1.mp4"
+  }
+}

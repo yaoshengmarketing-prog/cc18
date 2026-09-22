@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "id": "CJOD-548",
+  "checked_at": "2026-09-22T19:13:44.750Z",
+  "review_sha256": "c08315706c7b20009ca7faea357ba15f4067a5e98d03dd707972e849beeeda48",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "broad_formulaic_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 4,
+      "paragraph_count": 10,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只從目前可追溯的公開資訊判斷，這部作品最明確的吸引力在於「回春アジアンメンズエステ」這個企劃本身。系列名已經先把作品的觀看期待框在男士美容式的情境包裝上，而來源摘錄又補上「色色的大姊姊主動痴女攻勢」與「可中出回春亞洲男士美容」這類描述，表示它不是單純靠單一體位或單一噱頭推進，"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "已知演出者為釈アリス，且公開線索直接把她放在系列企劃與主動型氣質的中心位置。雖然現有資料不足以支持更細緻的人物弧線或具體互動內容，但至少可以確認，這次的選角不是中性存在，而是與「痴女攻勢」這種主導感明確連動。對熟悉演員導向選片的讀者來說，這使本作更偏向看企劃如何包裝演員魅力，而不"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "來源可確認的成人主題包括「中出」、以及 topic elements 中列出的「口交」「騎乘位」。不過在選片排序上，真正優先的仍是「回春アジアンメンズエステ」這個主題框架，因為它比單一行為標籤更能說明作品的整體方向。換句話說，這不是只能用動作清單理解的作品，而是先以男士美容式企劃"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "以現有資訊來看，我會把它歸在展示型企劃優先。原因不是它完全沒有設定，而是目前可追溯資料幾乎都集中在系列概念、角色調性與可預期的互動賣點，像是「回春アジアンメンズエステ」「主動痴女攻勢」「中出」「騎乘位」等，這些都更接近企劃型作品常見的組成方式。相對地，人物關係、衝突進展、具體故事"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}
