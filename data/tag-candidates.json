@@ -1160,7 +1160,7 @@
     },
     {
       "label": "第一人稱視點",
-      "occurrences": 9,
+      "occurrences": 10,
       "source_ids": [
         "IESP-765",
         "IPZZ-943",
@@ -1170,10 +1170,11 @@
         "MMPV-005",
         "URKK-124",
         "SCMF-004",
-        "IENF-470"
+        "IENF-470",
+        "HMN-894"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-21",
+      "last_seen": "2026-09-23",
       "status": "quarantined"
     },
     {
@@ -1666,10 +1667,11 @@
     },
     {
       "label": "騎乗位中出し",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "PRED-890",
-        "AMBI-214"
+        "AMBI-214",
+        "HMN-894"
       ],
       "first_seen": "2026-09-13",
       "last_seen": "2026-09-23",
@@ -2258,6 +2260,26 @@
       ],
       "first_seen": "2026-09-22",
       "last_seen": "2026-09-22",
+      "status": "quarantined"
+    },
+    {
+      "label": "護士",
+      "occurrences": 1,
+      "source_ids": [
+        "HMN-894"
+      ],
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-23",
+      "status": "quarantined"
+    },
+    {
+      "label": "看護婦",
+      "occurrences": 1,
+      "source_ids": [
+        "HMN-894"
+      ],
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-23",
       "status": "quarantined"
     }
   ]

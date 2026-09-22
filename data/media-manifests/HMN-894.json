@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "HMN-894",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-22T19:25:17.798Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/HMN-894/hero-v1.jpg",
+      "r2_key": "works/2026/09/HMN-894/hero-v1.jpg",
+      "bytes": 725373,
+      "sha256": "e539a4b4891a7e7d385d7ec476d87782ed99d8d54d6102e9c7fc3011558cc12c",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "4cf9f5f8-c3ab-48f3-9471-6338c09c8394",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/HMN-894/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/HMN-894/scene-vertical-v1.jpg",
+      "bytes": 735683,
+      "sha256": "0663b0c087d6e9ad01d074fa92ce4f4c548ded4d83c410a9e0584a51b57a23c9",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "46cb80ac-8a27-4fff-b2b3-a521bf43a94d",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2393727,
+    "sha256": "7ef76cec3f826e614c13cdc742762518ffc3748b6f0fabeb0aa74d84f7c74b5b",
+    "target_r2_key": "works/2026/09/HMN-894/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/HMN-894/vertical-v1.mp4"
+  }
+}
