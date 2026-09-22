@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "HUBLK-079",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-22T19:35:41.732Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/HUBLK-079/hero-v1.jpg",
+      "r2_key": "works/2026/09/HUBLK-079/hero-v1.jpg",
+      "bytes": 727255,
+      "sha256": "eee09eef64a72219b750aede4ff78621721056db4783d8cbbcd5422d82fd1f22",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "342759b2-0730-48bc-a60e-9e5d643bc0e2",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/HUBLK-079/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/HUBLK-079/scene-vertical-v1.jpg",
+      "bytes": 782638,
+      "sha256": "b0c8b2e15485f95981581f9149aa955e4e029c8511c2ee1ae8e26d8dc1dabcf7",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "b5e4895b-4f45-46e4-bde9-6a103bb76b01",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2419516,
+    "sha256": "950e5cf7dc710ebe4dd09203dca16dfef792504204fb4a8e3b414009a13500fa",
+    "target_r2_key": "works/2026/09/HUBLK-079/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/HUBLK-079/vertical-v1.mp4"
+  }
+}
