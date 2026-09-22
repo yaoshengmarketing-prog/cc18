@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:823ee283e85d27310578b67b9c9ea4bc5fe2ecd9842ff63d7c0396421b6e8a83",
-  "source_generated_at": "2026-09-22T19:26:08.480Z",
+  "source_revision": "sha256:6f49a4e44251372ab8a8720849414fcf92dd113a4ed7e5d08e3702b8bce6ab22",
+  "source_generated_at": "2026-09-22T19:31:45.606Z",
   "counts": {
-    "movies": 248,
-    "performers": 242,
+    "movies": 249,
+    "performers": 243,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2287,6 +2287,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:28724",
+      "display_name": "湊羽琉",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "湊羽琉",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-396"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:54311",
       "display_name": "湯浅紬",
       "display_name_zh_tw": null,
@@ -4302,6 +4313,55 @@
         "article_title": "SNOS-393 初美なのか｜討厭到死的OL設定，主打企劃反差",
         "display_short_title": null,
         "slug": "snos-393"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-396",
+        "source_cover": "https://cc18.tv/preview/80/b/wIJWzbfDA9G-800.jpg?v=1789771113",
+        "title": "SNOS-396 湊羽琉｜南羽琉主題下的3p・4p展示型企劃",
+        "catalog_code": "SNOS-396",
+        "release_date": "2026-09-18",
+        "performers": [
+          "湊羽琉"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-396/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28724"
+      ],
+      "search": {
+        "source_title": "以9種情境震撼世界的動態M罩杯 南羽琉",
+        "article_title": "SNOS-396 湊羽琉｜南羽琉主題下的3p・4p展示型企劃",
+        "display_short_title": null,
+        "slug": "snos-396"
       }
     },
     {

@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "SNOS-396",
+  "checked_at": "2026-09-22T19:29:40.912Z",
+  "review_sha256": "04d2c06345cc1250863b50b4d0b46b5cec15a099d3cff0372357da52919212f9",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只看目前可追溯的公開資訊，這部作品最明確的辨識點不是完整劇情，而是以「南羽琉」作為核心概念來包裝，並由湊羽琉擔任演出主體。這種命名方式通常會讓選片焦點更集中在企劃設定本身，而不是人物關係或明確情節推進。對觀眾來說，是否對「南羽琉」這個概念有興趣，會直接影響看片意願。"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "已知演出者是湊羽琉，公開標籤另外指向「AV女優片」與「巨乳」。在選片層面，這些訊號的作用是協助觀眾快速確認作品定位：它不是以特殊世界觀或複雜角色關係為主打，而是由演出者辨識度、身體條件標籤與多人題材共同構成賣點。換句話說，這部作品的吸引力更接近明確主題集合，而不是需要先理解故事設"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
