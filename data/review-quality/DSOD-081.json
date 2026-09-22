@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-081",
+  "review_sha256": "a16c5722f941fc11e85fa1e5d32df9281112cbbcdf8b6fa7c5c77efa93ae595a",
+  "selected_thesis": "百永さりな的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "百永さりな",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "百永さりな",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "妻子回娘家期間",
+        "source_field": "title"
+      }
+    ],
+    "primary_theme": "百永さりな",
+    "presentation_feature": "妻子回娘家期間",
+    "editorial_judgment": "百永さりな的企劃呈現與觀看取向",
+    "source_keywords": [
+      "百永さりな",
+      "妻子回娘家期間"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：百永さりな",
+      "supports": "這項可追溯來源訊號支持文章以「百永さりな」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：妻子回娘家期間",
+      "supports": "這項可追溯來源訊號支持文章以「妻子回娘家期間」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：窈窕",
+      "supports": "這項可追溯來源訊號支持文章以「窈窕」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "relationship：部下・同僚",
+      "supports": "這項可追溯來源訊號支持文章以「部下・同僚」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-21T16:00:00.000Z"
+}

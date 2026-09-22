@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-22T00:27:02.149Z",
+  "updated_at": "2026-09-22T00:31:40.625Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -3663,6 +3663,21 @@
       ],
       "release_date": "2026-09-18",
       "source_url": "https://cc18.tv/player.php?uuid=DO4BwAF_HaU&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-22"
+    },
+    {
+      "id": "DSOD-081",
+      "actress": [
+        "百永さりな"
+      ],
+      "release_date": "2026-09-18",
+      "source_url": "https://cc18.tv/player.php?uuid=zx682tD0m3B&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "DSOD-081",
+  "checked_at": "2026-09-22T00:30:09.124Z",
+  "review_sha256": "2137606d0dd9ecc804a01dbcaa5159593951c8869a3a6b04a7736164430f576d",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只根據目前可追溯的公開資料來看，這部作品最清楚的吸引力在於「妻子回娘家期間」這個前提本身。它不是單純的標籤堆疊，而是一個能立即建立情境張力的企劃起點：時間有限、日常秩序暫時鬆動，並且把作品的焦點自然引向不倫感與越界感。來源摘錄裡同時出現「在靜謐之中」「忘卻家庭」「一次次交歡的恍"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "目前來源中的關係線索只有「部下・同僚」這類安全標記，以及標題概念所指向的婚姻空檔與不倫氛圍；但因為沒有更完整的公開簡介，我們不能把具體人物關係寫死。也正因如此，這部片的判斷重點應放在「關係如何被企劃化」：它顯然不是主打龐大世界觀，而是利用一段特定空檔，去放大原本不該跨越的距離。對"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}
