@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "DLDSS-540",
+  "review_sha256": "b7274a49172057816306acf0e1962483f858c337aa955679b7651e69da90bdd2",
+  "selected_thesis": "來源資料可確認本作以「宮上唯依花」作為主要作品線索。",
+  "title_basis": {
+    "performer": "宮上唯依花",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "宮上唯依花",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "720p",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "宮上唯依花",
+    "presentation_feature": "高畫質",
+    "editorial_judgment": "來源資料可確認本作以「宮上唯依花」作為主要作品線索。",
+    "source_keywords": [
+      "宮上唯依花",
+      "高畫質",
+      "720p"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：宮上唯依花",
+      "supports": "這項可追溯來源訊號支持文章以「宮上唯依花」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：宮上唯依花",
+      "supports": "這項可追溯來源訊號支持文章以「宮上唯依花」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-22T16:00:00.000Z"
+}
