@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "EMBM-055",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-23T00:37:25.931Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/EMBM-055/hero-v1.jpg",
+      "r2_key": "works/2026/09/EMBM-055/hero-v1.jpg",
+      "bytes": 662582,
+      "sha256": "d84b30965b4dc1a7d5f47b97b3635ce0512ebd154e2a5ca7acda57c760fe1ae1",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "0ed06dbe-0303-447b-8c9d-f79f813f59ef",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/EMBM-055/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/EMBM-055/scene-vertical-v1.jpg",
+      "bytes": 1079651,
+      "sha256": "9ae3c74ff0d8225fc22e6755766e1a1918351ca646b449cd44a40caaa6d5682b",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "d04d1da8-00ec-4fbb-8785-7a426d3b457e",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3176972,
+    "sha256": "4c8a29786d1fbf454e1b9fd55db53fd135b7f6ed527175e467eba31ccb728688",
+    "target_r2_key": "works/2026/09/EMBM-055/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/EMBM-055/vertical-v1.mp4"
+  }
+}

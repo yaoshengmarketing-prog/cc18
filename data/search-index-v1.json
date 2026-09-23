@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:3863b798a770ee458ed40db8526a1f8bac3fa3e1abd625b1ca4aea3f1c75ad9a",
-  "source_generated_at": "2026-09-22T19:41:42.725Z",
+  "source_revision": "sha256:32c6f959741ade9259197c087adadd93e0b987ed9f904d01147ed5c5d4dff3b6",
+  "source_generated_at": "2026-09-23T00:38:12.792Z",
   "counts": {
-    "movies": 251,
-    "performers": 244,
+    "movies": 252,
+    "performers": 249,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -282,6 +282,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SUJI-319"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:29262",
+      "display_name": "小坂日葵",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "小坂日葵",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:EMBM-055"
       ]
     },
     {
@@ -982,6 +993,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:30266",
+      "display_name": "羽月果音",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "羽月果音",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:EMBM-055"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:30284",
       "display_name": "西尾真里奈",
       "display_name_zh_tw": null,
@@ -990,6 +1012,28 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PYM-577"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53556",
+      "display_name": "西野美紅",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "西野美紅",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:EMBM-055"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:27840",
+      "display_name": "似鳥日菜",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "似鳥日菜",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:EMBM-055"
       ]
     },
     {
@@ -2177,6 +2221,7 @@
       "source_name": "逢澤美優",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:EMBM-055",
         "cc18:MIAB-677",
         "cc18:MKMP-758"
       ]
@@ -2361,6 +2406,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-364"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:24580",
+      "display_name": "塚田しおり",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "塚田しおり",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:EMBM-055"
       ]
     },
     {
@@ -2877,6 +2933,49 @@
         "article_title": "CLOT-044 佐藤愛瑠｜褲襪的誘惑",
         "display_short_title": null,
         "slug": "clot-044"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:EMBM-055",
+        "source_cover": "https://cc18.tv/preview/80/b/BK1GCp4nHdF-800.jpg?v=1790023015",
+        "title": "EMBM-055 塚田しおり、似鳥日菜、逢澤美優、小坂日葵、羽月果音、西野美紅｜パンスト足責め妻",
+        "catalog_code": "EMBM-055",
+        "release_date": "2026-09-20",
+        "performers": [
+          "塚田しおり",
+          "似鳥日菜",
+          "逢澤美優",
+          "小坂日葵",
+          "羽月果音",
+          "西野美紅"
+        ],
+        "canonical_topics": [
+          {
+            "id": "facial",
+            "label": "顏射題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/embm-055/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:24580",
+        "cc18.tv:actor:27840",
+        "cc18.tv:actor:29025",
+        "cc18.tv:actor:29262",
+        "cc18.tv:actor:30266",
+        "cc18.tv:actor:53556"
+      ],
+      "search": {
+        "source_title": "人妻用褲襪足緩緩責弄！不擅長責弄的純情年輕妻子，用屁股和腿徹底責弄M男的肉棒，讓他忍耐不住強行射精！",
+        "article_title": "EMBM-055 塚田しおり、似鳥日菜、逢澤美優、小坂日葵、羽月果音、西野美紅｜パンスト足責め妻",
+        "display_short_title": null,
+        "slug": "embm-055"
       }
     },
     {

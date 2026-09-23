@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-22T19:41:42.725Z",
+  "generated_at": "2026-09-23T00:38:12.792Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 255,
-  "formal_movie_count": 254,
+  "tracked_input_count": 256,
+  "formal_movie_count": 255,
   "demo_count": 1,
-  "published_count": 251,
+  "published_count": 252,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -557,6 +557,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "9b7fbfdb4ec48bdd8aef7be66430b77485349e6d37e7d875fa832c5ff022deab"
+    },
+    {
+      "stable_movie_id": "cc18:EMBM-055",
+      "catalog_code": "EMBM-055",
+      "slug": "embm-055",
+      "master_path": "data/movie-master/embm-055.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "ec88c6b1b63d85734e73055b3844386d492bf41242f219a5c56bbf46432b06e9"
     },
     {
       "stable_movie_id": "cc18:ENDS-322",

@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "EMBM-055",
+  "review_sha256": "a6a4e4150c8ff0b0712e95f355fca4add898a5e2f94d36c0d57196d34164e8fd",
+  "selected_thesis": "來源資料可確認本作以「パンスト足責め妻」作為主要作品線索。",
+  "title_basis": {
+    "performer": "塚田しおり、似鳥日菜、逢澤美優、小坂日葵、羽月果音、西野美紅",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "塚田しおり",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "パンスト足責め妻",
+        "source_field": "series"
+      },
+      {
+        "type": "performer",
+        "value": "似鳥日菜",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "逢澤美優",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "塚田しおり",
+    "presentation_feature": "パンスト足責め妻",
+    "editorial_judgment": "來源資料可確認本作以「パンスト足責め妻」作為主要作品線索。",
+    "source_keywords": [
+      "塚田しおり",
+      "パンスト足責め妻",
+      "似鳥日菜",
+      "逢澤美優"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：塚田しおり",
+      "supports": "這項可追溯來源訊號支持文章以「塚田しおり」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：似鳥日菜",
+      "supports": "這項可追溯來源訊號支持文章以「似鳥日菜」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：逢澤美優",
+      "supports": "這項可追溯來源訊號支持文章以「逢澤美優」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：小坂日葵",
+      "supports": "這項可追溯來源訊號支持文章以「小坂日葵」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：羽月果音",
+      "supports": "這項可追溯來源訊號支持文章以「羽月果音」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：西野美紅",
+      "supports": "這項可追溯來源訊號支持文章以「西野美紅」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：パンスト足責め妻",
+      "supports": "這項可追溯來源訊號支持文章以「パンスト足責め妻」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-22T16:00:00.000Z"
+}
