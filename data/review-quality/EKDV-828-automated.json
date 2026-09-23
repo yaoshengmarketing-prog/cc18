@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "id": "EKDV-828",
+  "checked_at": "2026-09-23T00:46:25.892Z",
+  "review_sha256": "336e3d106256dc117ed6ce3dd9ff128c6f5f4c40457abcd79f57ab186fd5300e",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 6,
+          "excerpt": "如果把公開資料攤開來看，響蓮的吸引力主要建立在幾個可追溯元素的疊加：首先是演出者本身被明確標示；其次是題材身份落在「AV女優片」與「癡女」；再來是外型訊號給出「窈窕」。這些資料共同指向的不是細膩人物弧線，而是一種偏主動、偏外放、以角色類型先行的觀看期待。也因為作品沒有更多已知劇情"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

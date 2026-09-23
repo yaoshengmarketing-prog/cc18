@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:244a2a02a360062178d954e815b7e5b94f5eeacd5dd294851ef2c3266fed4337",
-  "source_generated_at": "2026-09-23T00:42:58.420Z",
+  "source_revision": "sha256:44c546d3f1640018e7c613253615122f56ebb545de8787db3d8df8f329d10883",
+  "source_generated_at": "2026-09-23T00:47:57.967Z",
   "counts": {
-    "movies": 253,
-    "performers": 249,
+    "movies": 254,
+    "performers": 250,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2754,6 +2754,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:28211",
+      "display_name": "響蓮",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "響蓮",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:EKDV-828"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:25683",
       "display_name": "蘭華",
       "display_name_zh_tw": null,
@@ -3046,6 +3057,63 @@
         "article_title": "C-2989 突擊成人片商 × NTRカップル 押しかけAV撮影｜NTR情侶突擊成人片商：以企劃設定取勝的展示型系列作",
         "display_short_title": null,
         "slug": "c-2989"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:EKDV-828",
+        "source_cover": "https://cc18.tv/preview/80/b/3TaL1u_T_f8-800.jpg?v=1790023024",
+        "title": "EKDV-828 響蓮 × 4K】這個騷貨｜響蓮｜「這個騷貨」企劃下的展示型癡女作",
+        "catalog_code": "EKDV-828",
+        "release_date": "2026-09-19",
+        "performers": [
+          "響蓮"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "facial",
+            "label": "顏射題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ekdv-828/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28211"
+      ],
+      "search": {
+        "source_title": "【4K】這個騷貨…現在正處於發情期！？要不要試試看響蓮？",
+        "article_title": "EKDV-828 響蓮 × 4K】這個騷貨｜響蓮｜「這個騷貨」企劃下的展示型癡女作",
+        "display_short_title": null,
+        "slug": "ekdv-828"
       }
     },
     {

@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "EKDV-828",
+  "review_sha256": "355c2fc8ced57d3c7ccf2b62f75db3112784e1d5a30ffa5e0c3530393dfcbdda",
+  "selected_thesis": "響蓮的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "響蓮",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "響蓮",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "4K】這個騷貨",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "このメス女…只今発情真っ盛り！？",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "響蓮",
+    "presentation_feature": "4K】這個騷貨",
+    "editorial_judgment": "響蓮的企劃呈現與觀看取向",
+    "source_keywords": [
+      "響蓮",
+      "4K】這個騷貨",
+      "このメス女…只今発情真っ盛り！？",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：響蓮",
+      "supports": "這項可追溯來源訊號支持文章以「響蓮」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：このメス女…只今発情真っ盛り！？",
+      "supports": "這項可追溯來源訊號支持文章以「このメス女…只今発情真っ盛り！？」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：4K】這個騷貨",
+      "supports": "這項可追溯來源訊號支持文章以「4K】這個騷貨」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：癡女",
+      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：窈窕",
+      "supports": "這項可追溯來源訊號支持文章以「窈窕」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-22T16:00:00.000Z"
+}

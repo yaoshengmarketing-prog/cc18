@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "EKDV-828",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-23T00:47:11.809Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/EKDV-828/hero-v1.jpg",
+      "r2_key": "works/2026/09/EKDV-828/hero-v1.jpg",
+      "bytes": 753473,
+      "sha256": "d90be33733afdefd46e026ab5753a08319d1648d44732c6f4765118fc13d7e71",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "6de65a52-eeab-4c91-8cab-15f238e39771",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/EKDV-828/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/EKDV-828/scene-vertical-v1.jpg",
+      "bytes": 1609446,
+      "sha256": "95378acedba77722f7c0dfc5d223901ac10cdd2c2ddf5b00e79dc04bf428e9db",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "c027f5ab-b079-4d4a-9421-2bfd44f892f4",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3177555,
+    "sha256": "256763d7429b4246191bc7f93f27aa7fa540a49fbf1279ff0e95b2164b7d57d8",
+    "target_r2_key": "works/2026/09/EKDV-828/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/EKDV-828/vertical-v1.mp4"
+  }
+}
