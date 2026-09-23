@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.1.0",
+  "stable_movie_id": "cc18:FNS-233",
+  "slug": "fns-233",
+  "is_demo": false,
+  "source": {
+    "catalog_code": "FNS-233",
+    "source_title": "辣妹偶像初出勤！全力奉仕濕黏密著中出泡泡浴 美咲園花",
+    "release_date": "2026-09-19",
+    "source_url": "https://cc18.tv/player.php?uuid=8ACgu0P4Ta8&cat=19",
+    "source_site_movie_id": "8ACgu0P4Ta8",
+    "public_description": "前寫真偶像美咲園花首次到泡泡浴上班！從卿卿我我的即尺開始,用軟綿綿的胸部乳交,以抱起來最舒服的身體做滿身泡泡的服務,滑溜溜緊貼的氣墊床玩法,在床上笑著接受內射的優秀〇穴。讓人不敢相信是初次上班的全力服務,保證會讓人上癮！",
+    "source_cover": "https://cc18.tv/preview/80/b/8ACgu0P4Ta8-800.jpg?v=1790023018",
+    "raw_performer_names": [
+      "美咲そのか"
+    ],
+    "performer_relations": [
+      {
+        "source_type": "actor",
+        "source_id": "46711",
+        "stable_source_id": "cc18.tv:actor:46711",
+        "source_name": "美咲そのか",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=46711",
+        "observed_at": "2026-09-23T05:59:09.453Z"
+      }
+    ],
+    "series_relations": [],
+    "tag_relations": [
+      {
+        "source_type": "tag",
+        "source_id": "479",
+        "stable_source_id": "cc18.tv:tag:479",
+        "source_name": "720p",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=479",
+        "observed_at": "2026-09-23T05:59:09.453Z"
+      }
+    ],
+    "fac_relations": [],
+    "raw_studio_name": null,
+    "raw_series_names": [],
+    "source_tags": [
+      "720p"
+    ],
+    "source_record_ref": "data/source-records/FNS-233.json",
+    "source_snapshot_ref": null,
+    "source_fetched_at": "2026-09-23T05:59:09.453Z",
+    "source_verified_at": null,
+    "source_parser_version": null
+  },
+  "display": {
+    "performers": [
+      {
+        "source_actor_id": "cc18.tv:actor:46711",
+        "name_ja": null,
+        "display_name_zh_tw": null,
+        "display_name": "美咲そのか",
+        "verification_status": "SOURCE_NAME_FALLBACK"
+      }
+    ]
+  },
+  "titles": {
+    "article_title": "FNS-233 美咲そのか｜辣妹偶像初出勤：以企劃設定取勝的展示型首波印象",
+    "translated_title_zh_tw": null,
+    "display_short_title": null,
+    "seo_title": "FNS-233 美咲そのか影評｜辣妹偶像初出勤，以企劃設定取勝的展示型首波印象"
+  },
+  "derived": {
+    "quality_codes": [
+      "HD_720P"
+    ],
+    "duration_seconds": null,
+    "canonical_topic_tag_ids": [
+      "hd"
+    ]
+  },
+  "editorial": {
+    "one_line_summary": "本作以「辣妹偶像初出勤」為主要來源線索；其餘資訊不足處暫不補寫。",
+    "article_ref": "content/reviews/FNS-233.md",
+    "article_evidence_level": "PUBLIC_METADATA",
+    "article_evidence_scope": "SOURCE_TITLE_DESCRIPTION_TAGS"
+  },
+  "media": {
+    "remotion_promo_ref": "data/media-manifests/FNS-233.json#/video"
+  },
+  "evidence": {
+    "records": []
+  },
+  "publishing": {
+    "is_published": true,
+    "published_at": "2026-09-23",
+    "canonical_url": "https://cc18.pages.dev/works/fns-233/",
+    "indexability": "INDEX",
+    "content_hash": "aaebef4979de2552b9b7acc574ce52d6760ab33951e038124ea0bbef2467e486"
+  },
+  "legacy": {
+    "legacy_published_at": null,
+    "legacy_published_at_semantics": null
+  }
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:48a20e13df94a72ca3ad05ce7d653dd3f88dee915c04e0d899ce57a266b8e0ab",
-  "source_generated_at": "2026-09-23T06:19:56.181Z",
+  "source_revision": "sha256:7920e2674005480976dce2509b716c925a691ee742ad15d23a81a94f47010b20",
+  "source_generated_at": "2026-09-23T06:24:43.714Z",
   "counts": {
-    "movies": 265,
-    "performers": 258,
+    "movies": 266,
+    "performers": 259,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1793,6 +1793,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:46711",
+      "display_name": "美咲そのか",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "美咲そのか",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FNS-233"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:22084",
       "display_name": "美園和花",
       "display_name_zh_tw": null,
@@ -3364,6 +3375,35 @@
         "article_title": "EKDV-828 響蓮 × 4K】這個騷貨｜響蓮｜「這個騷貨」企劃下的展示型癡女作",
         "display_short_title": null,
         "slug": "ekdv-828"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:FNS-233",
+        "source_cover": "https://cc18.tv/preview/80/b/8ACgu0P4Ta8-800.jpg?v=1790023018",
+        "title": "FNS-233 美咲そのか｜辣妹偶像初出勤：以企劃設定取勝的展示型首波印象",
+        "catalog_code": "FNS-233",
+        "release_date": "2026-09-19",
+        "performers": [
+          "美咲そのか"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/fns-233/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:46711"
+      ],
+      "search": {
+        "source_title": "辣妹偶像初出勤！全力奉仕濕黏密著中出泡泡浴 美咲園花",
+        "article_title": "FNS-233 美咲そのか｜辣妹偶像初出勤：以企劃設定取勝的展示型首波印象",
+        "display_short_title": null,
+        "slug": "fns-233"
       }
     },
     {

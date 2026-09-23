@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "FNS-233",
+  "review_sha256": "d217289620b0da264e28acd1865ae7b4e38f638fc2fbaa74f3cb7be107bb3884",
+  "selected_thesis": "美咲そのか的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "美咲そのか",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "美咲そのか",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "辣妹偶像初出勤",
+        "source_field": "title"
+      }
+    ],
+    "primary_theme": "美咲そのか",
+    "presentation_feature": "辣妹偶像初出勤",
+    "editorial_judgment": "美咲そのか的企劃呈現與觀看取向",
+    "source_keywords": [
+      "美咲そのか",
+      "辣妹偶像初出勤"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：美咲そのか",
+      "supports": "這項可追溯來源訊號支持文章以「美咲そのか」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：辣妹偶像初出勤",
+      "supports": "這項可追溯來源訊號支持文章以「辣妹偶像初出勤」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：美咲園花",
+      "supports": "這項可追溯來源訊號支持文章以「美咲園花」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：互動節奏",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-22T16:00:00.000Z"
+}
