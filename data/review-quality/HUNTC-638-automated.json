@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "HUNTC-638",
+  "checked_at": "2026-09-23T06:38:16.204Z",
+  "review_sha256": "b8a9b6f9ad4c78a16e5445fefa6ea7a16bf3ece4c00501d214b574afb0d3395b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "可直接使用的線索主要有三組。第一是系列名「ボクも今日からSEX部！」，它說明這不是隨機拼貼標籤的單作，而是以固定企劃概念辨識的作品。第二是 safe title signals 與 topic elements 中的學生設定、學生妹，以及中出、口交等成人要素，這些資訊可用來判斷作"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "HUNTC-638 的選片重點，不是目前無法證實的細節演出，而是《ボクも今日からSEX部！》這個系列概念，如何用學生設定與「轉學後成為班上唯一男生」的前提，打造出辨識度很高的企劃型成人作品。"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
