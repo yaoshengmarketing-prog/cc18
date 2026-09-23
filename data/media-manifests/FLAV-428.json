@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "FLAV-428",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-23T06:28:37.882Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/FLAV-428/hero-v1.jpg",
+      "r2_key": "works/2026/09/FLAV-428/hero-v1.jpg",
+      "bytes": 914887,
+      "sha256": "7fe15ac8c41126094a5d511f327d59cb4e82d56b349f47496f7d2c18b06021fa",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "60cbd751-b951-484d-95b5-5724fa06f2f6",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/FLAV-428/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/FLAV-428/scene-vertical-v1.jpg",
+      "bytes": 955327,
+      "sha256": "97e3ea2f4833bfeaea6273e2685375eca7b13b1993e79bf28cbb10b87f61fe84",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "1d6cdfa1-88a3-4c09-9fb9-1dbb15744fa6",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2924854,
+    "sha256": "025999f1ac7eb3cc5dfe86218f8bce42f288df7f32a669d81306812aee92783b",
+    "target_r2_key": "works/2026/09/FLAV-428/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/FLAV-428/vertical-v1.mp4"
+  }
+}

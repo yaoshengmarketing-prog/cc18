@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-23T06:24:43.714Z",
+  "generated_at": "2026-09-23T06:29:27.364Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 270,
-  "formal_movie_count": 269,
+  "tracked_input_count": 271,
+  "formal_movie_count": 270,
   "demo_count": 1,
-  "published_count": 266,
+  "published_count": 267,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -620,6 +620,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "b6a5765c1d6b774f95df98ea7bb425dff4b725c13d087881c7e8ca5b6e38c654"
+    },
+    {
+      "stable_movie_id": "cc18:FLAV-428",
+      "catalog_code": "FLAV-428",
+      "slug": "flav-428",
+      "master_path": "data/movie-master/flav-428.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "5ec6f65d1a11e5cde38e000a9cfb4fbc25df1d8ee811c9d474f057ea82ee075f"
     },
     {
       "stable_movie_id": "cc18:FNEW-024",
