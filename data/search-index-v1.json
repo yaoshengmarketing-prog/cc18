@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:f392bc1ea7241ded7121303faa1d7dffcd47c34b8a26e143c46fbb6369de21b5",
-  "source_generated_at": "2026-09-23T23:50:21.003Z",
+  "source_revision": "sha256:46229b9f33c19b6dd32eb0daca57522561adc1c4b89c5236e0eb6df8423c6cab",
+  "source_generated_at": "2026-09-23T23:54:35.880Z",
   "counts": {
-    "movies": 281,
-    "performers": 267,
+    "movies": 282,
+    "performers": 268,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1724,6 +1724,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MIDA-786"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:27785",
+      "display_name": "流川春香",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "流川春香",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MKMP-756"
       ]
     },
     {
@@ -3796,6 +3807,55 @@
         "article_title": "HEYZO-3939 石崎れいな｜在真人脫衣麻將中",
         "display_short_title": null,
         "slug": "heyzo-3939"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MKMP-756",
+        "source_cover": "https://cc18.tv/preview/80/b/xGJYLExf_bS-800.jpg?v=1789994258",
+        "title": "MKMP-756 流川春香｜5年內射育性記錄：以企劃設定推動的不倫人妻題材",
+        "catalog_code": "MKMP-756",
+        "release_date": "2026-09-19",
+        "performers": [
+          "流川春香"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "kissing",
+            "label": "親吻互動"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mkmp-756/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27785"
+      ],
+      "search": {
+        "source_title": "5年內射育性記錄：乾涸的人妻愛上鄰居兒子，將其培育為絕倫肉棒的過程。 流川春香",
+        "article_title": "MKMP-756 流川春香｜5年內射育性記錄：以企劃設定推動的不倫人妻題材",
+        "display_short_title": null,
+        "slug": "mkmp-756"
       }
     },
     {

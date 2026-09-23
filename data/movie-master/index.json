@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-23T23:50:21.003Z",
+  "generated_at": "2026-09-23T23:54:35.880Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 285,
-  "formal_movie_count": 284,
+  "tracked_input_count": 286,
+  "formal_movie_count": 285,
   "demo_count": 1,
-  "published_count": 281,
+  "published_count": 282,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1358,6 +1358,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "ad7f5ca5b42f46796bee43f3ac7d5784ff484496afb6d6dce442ccafea5d4110"
+    },
+    {
+      "stable_movie_id": "cc18:MKMP-756",
+      "catalog_code": "MKMP-756",
+      "slug": "mkmp-756",
+      "master_path": "data/movie-master/mkmp-756.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "eadbf932f665a8d3b3b33b7b2eb1341bccd80dd81e73b995fbdacc6fac28a2eb"
     },
     {
       "stable_movie_id": "cc18:MKMP-758",

@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "MKMP-756",
+  "checked_at": "2026-09-23T23:53:02.260Z",
+  "review_sha256": "83e03fbfe250a2ca44ab29a7c5804d1d4a8ee3f0359c406a55b30e00f7e07960",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "本片最明確的辨識點不是單一動作標籤，而是「5年內射育性記錄」這個企劃概念本身。它直接構成作品的主軸，也讓這部片在一般人妻題材之外，多了一層偏展示型、回顧型的包裝方式。從公開資料來看，流川春香是已知演出者，並帶有「人妻・主婦」身分標籤，動作面則集中在「中出」與「親吻」。因此若觀眾選"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "如果觀眾是因為「人妻・主婦」與「不倫」這類設定進場，會自然期待作品把情感越界與身分落差作為主要賣點；而「乾涸的人妻愛上鄰居兒子」這條來源線索，則進一步把作品的張力導向禁忌感與角色狀態的改變。另一方面，「中出」與「親吻」兩個公開標籤又讓題材落點更明確：它不是純情節標示，而是把互動親"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "就可追溯資料而言，流川春香是這部作品最穩定的人物焦點。因為系列資訊未提供，片名識別與企劃概念便更集中地落在她與題材組合上：一方面是「流川春香」這個明確演出者訊號，另一方面是「人妻・主婦」「不倫」「5年內射育性記錄」共同構成的人設與企劃包裝。對選片者來說，這種組合的價值在於辨識簡單"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

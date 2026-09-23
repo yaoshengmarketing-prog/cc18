@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MKMP-756",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-23T23:53:42.207Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/MKMP-756/hero-v1.jpg",
+      "r2_key": "works/2026/09/MKMP-756/hero-v1.jpg",
+      "bytes": 639506,
+      "sha256": "c351c3d84c4635dd3ef06091fa2df55c6d588d892b0f6dae13b8774338ad0556",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "03d50d3a-fc2d-423a-aa13-42b746a9ff54",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/MKMP-756/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/MKMP-756/scene-vertical-v1.jpg",
+      "bytes": 1330675,
+      "sha256": "b86c3030264316c0d42d32c712131be5e1c996023672d7a2edb1fd45b470534f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "2deef9fa-d363-4e88-b1ca-96644918e81b",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2866223,
+    "sha256": "64eab8927b2342d1fcb4ae9251675cfc267dd4791c6486d0c76303b7d51c079c",
+    "target_r2_key": "works/2026/09/MKMP-756/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/MKMP-756/vertical-v1.mp4"
+  }
+}
