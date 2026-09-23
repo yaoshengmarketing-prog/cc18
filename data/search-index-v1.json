@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:44c546d3f1640018e7c613253615122f56ebb545de8787db3d8df8f329d10883",
-  "source_generated_at": "2026-09-23T00:47:57.967Z",
+  "source_revision": "sha256:a7eab5c9747c186fc4ad76c57042a9b206416c9edcf235096fd9845be1a36af4",
+  "source_generated_at": "2026-09-23T00:53:00.162Z",
   "counts": {
-    "movies": 254,
-    "performers": 250,
+    "movies": 255,
+    "performers": 251,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -841,6 +841,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-447"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:19047",
+      "display_name": "光",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "光",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SPSF-63"
       ]
     },
     {
@@ -3339,6 +3350,39 @@
         "article_title": "PETS-072 放課後はオトコノ娘 × 辣妹風格｜放課後はオトコノ娘",
         "display_short_title": null,
         "slug": "pets-072"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SPSF-63",
+        "source_cover": "https://cc18.tv/preview/80/b/4mcaUpxZp8w-800.jpg?v=1790080658",
+        "title": "SPSF-63 光 × スーパーレディー｜光｜超級女俠企劃：以系列設定為主的選片判斷",
+        "catalog_code": "SPSF-63",
+        "release_date": "2026-09-19",
+        "performers": [
+          "光"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/spsf-63/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:19047"
+      ],
+      "search": {
+        "source_title": "超級女俠 災難 巴輝",
+        "article_title": "SPSF-63 光 × スーパーレディー｜光｜超級女俠企劃：以系列設定為主的選片判斷",
+        "display_short_title": null,
+        "slug": "spsf-63"
       }
     },
     {

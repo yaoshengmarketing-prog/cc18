@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "SPSF-63",
+  "checked_at": "2026-09-23T00:51:08.287Z",
+  "review_sha256": "93224a7f80249d4a59fba2cd8f6e7213d86d576cd0990556c4d8fecf0525f9d3",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "body_lacks_source_adult_vocabulary"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果是從題材辨識度來挑片，這部作品最直接的吸引力，就是它把核心概念清楚放在「スーパーレディー」這個系列與「超級女俠」的來源詞上。公開資料能確認的重點不多，但也正因如此，選片判斷會更集中：它不是靠已知複雜人物關係或明確劇情摘要來賣點，而是以企劃型設定先建立觀看期待。對喜歡特定系列世"
+        },
+        {
+          "paragraph": 12,
+          "excerpt": "綜合公開資料，SPSF-63 最合理的定位，是一部以「スーパーレディー／超級女俠」為核心辨識點的系列企劃作。它目前最有力的賣點不是可被逐條驗證的劇情內容，而是題材名稱本身帶出的角色想像、系列調性，以及演出者光所形成的基本吸引力。因此，這不是一部適合用情節資訊來說服觀眾的作品，而是"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

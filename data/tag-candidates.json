@@ -1414,43 +1414,47 @@
     },
     {
       "label": "動作遊戲‧格鬥",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "SPSF-55",
-        "DSOD-093"
+        "DSOD-093",
+        "SPSF-63"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-21",
+      "last_seen": "2026-09-23",
       "status": "quarantined"
     },
     {
       "label": "樣品動畫",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "SPSF-55"
+        "SPSF-55",
+        "SPSF-63"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-23",
       "status": "quarantined"
     },
     {
       "label": "ACT(動作)",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "SPSF-55"
+        "SPSF-55",
+        "SPSF-63"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-23",
       "status": "quarantined"
     },
     {
       "label": "特攝",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "SPSF-55"
+        "SPSF-55",
+        "SPSF-63"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-23",
       "status": "quarantined"
     },
     {

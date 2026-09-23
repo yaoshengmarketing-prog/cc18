@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-23T00:47:57.967Z",
+  "generated_at": "2026-09-23T00:53:00.162Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 258,
-  "formal_movie_count": 257,
+  "tracked_input_count": 259,
+  "formal_movie_count": 258,
   "demo_count": 1,
-  "published_count": 254,
+  "published_count": 255,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2105,6 +2105,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "03a2b402786934959274de1de7666793236488da0f9adfbe95695605982c3d9c"
+    },
+    {
+      "stable_movie_id": "cc18:SPSF-63",
+      "catalog_code": "SPSF-63",
+      "slug": "spsf-63",
+      "master_path": "data/movie-master/spsf-63.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "ffb97e01cb4bd24c34983e7a27fd30f47f6a3ec6783c8a5d48318aa198a46f3c"
     },
     {
       "stable_movie_id": "cc18:SQTE-716",
