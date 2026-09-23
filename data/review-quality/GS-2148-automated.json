@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "GS-2148",
+  "checked_at": "2026-09-23T00:41:28.569Z",
+  "review_sha256": "5510cdd328ce2e2deb874d45b1c22f76e8f38fe264bc5c330be69130d4291a19",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "這部作品最明確的賣點，來自系列名「不倫の果てに」本身，以及標題線索中的「裏・不倫的結局」「番外篇」「人妻T智・續」「不倫」。這些公開資訊把作品定位得很清楚：它不是單靠單一角色標籤吸引目光，而是把「不倫」作為整體企劃核心，再往外延伸出續篇、番外篇與變體式觀看期待。對選片來說，這代表"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "從可追溯標籤來看，最穩定的主題是「人妻・主婦」與「不倫の果てに」。這表示本作的主要成人題材並不是技術規格或單次玩法，而是以已婚女性身分與不倫框架組成的企劃主軸。另有「3p・4p」這個動作／人數配置標記，說明作品在互動形式上不是單線設計，而是朝多人局面發展。不過在選片判斷上，這個標"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "如果你偏好的是有明確企劃包裝、以公開設定先建立觀看期待的作品，GS-2148 會是相對對味的一類。它的來源資訊幾乎都集中在系列概念、人妻身分、不倫題材，以及旅行與年輕男性同行所形成的刺激前提上，因此特別適合會先看「設定是否成立」的人。相對地，若你期待的是可從公開資料中直接讀到完整"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

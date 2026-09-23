@@ -726,7 +726,7 @@
     },
     {
       "label": "不倫",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -735,10 +735,11 @@
         "DANDYA-050",
         "PAKO-108",
         "NSFS-513",
-        "DSOD-081"
+        "DSOD-081",
+        "GS-2148"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-22",
+      "last_seen": "2026-09-23",
       "status": "quarantined"
     },
     {
@@ -1804,7 +1805,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 19,
+      "occurrences": 20,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -1824,7 +1825,8 @@
         "BONY-207",
         "TPIN-102",
         "SNOS-396",
-        "HUBLK-079"
+        "HUBLK-079",
+        "GS-2148"
       ],
       "first_seen": "2026-09-14",
       "last_seen": "2026-09-23",
@@ -2292,6 +2294,16 @@
       "occurrences": 1,
       "source_ids": [
         "HMN-894"
+      ],
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-23",
+      "status": "quarantined"
+    },
+    {
+      "label": "白目・失神",
+      "occurrences": 1,
+      "source_ids": [
+        "GS-2148"
       ],
       "first_seen": "2026-09-23",
       "last_seen": "2026-09-23",
