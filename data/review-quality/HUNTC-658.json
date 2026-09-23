@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "HUNTC-658",
+  "review_sha256": "ec1c0bfd4195cd6b2cabdd4a07e494a2decd80f638cc4c5a6e9166d48e0928d9",
+  "selected_thesis": "來源資料可確認本作以「家出ギャルたちのたまり場」作為主要作品線索。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "series",
+        "value": "家出ギャルたちのたまり場",
+        "source_field": "series"
+      },
+      {
+        "type": "setting",
+        "value": "學生設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "辣妹風格",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "家出ギャルたちのたまり場",
+    "presentation_feature": "學生設定",
+    "editorial_judgment": "來源資料可確認本作以「家出ギャルたちのたまり場」作為主要作品線索。",
+    "source_keywords": [
+      "家出ギャルたちのたまり場",
+      "學生設定",
+      "辣妹風格",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "series：家出ギャルたちのたまり場",
+      "supports": "這項可追溯來源訊號支持文章以「家出ギャルたちのたまり場」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "setting：學生設定",
+      "supports": "這項可追溯來源訊號支持文章以「學生設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：辣妹風格",
+      "supports": "這項可追溯來源訊號支持文章以「辣妹風格」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：家出ギャルたちのたまり場",
+      "supports": "這項可追溯來源訊號支持文章以「家出ギャルたちのたまり場」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：學生妹",
+      "supports": "這項可追溯來源訊號支持文章以「學生妹」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：辣妹",
+      "supports": "這項可追溯來源訊號支持文章以「辣妹」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-22T16:00:00.000Z"
+}

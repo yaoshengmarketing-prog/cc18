@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "movie_id": "HUNTC-658",
+  "generated_at": "2026-09-23T00:56:00.381Z",
+  "source_snapshot_hash": "sha256:a97564591c2c50fea6f14eaf5a91b4382d214b3d64ccb8473f02ab89b628658d",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "來源資料可確認本作以「家出ギャルたちのたまり場」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "家出ギャルたちのたまり場",
+      "學生設定",
+      "辣妹風格",
+      "高畫質"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想先依來源題材與作品設定挑選的觀眾",
+      "接受目前只提供來源資料整理的觀眾"
+    ],
+    "not_for": [
+      "需要影片抽樣觀察才能決定的觀眾",
+      "需要鏡位、收音或段落變化結論的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "來源資料可確認什麼？來源資料可確認本作以「家出ギャルたちのたまり場」作為主要作品線索。",
+    "目前能否提供影片觀察？目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "如何使用本頁？可先依來源題材與作品識別資訊判斷是否符合偏好。"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-23T00:52:51.448Z",
+  "updated_at": "2026-09-23T00:57:36.541Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -3883,6 +3883,19 @@
       ],
       "release_date": "2026-09-19",
       "source_url": "https://cc18.tv/player.php?uuid=4mcaUpxZp8w&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-23"
+    },
+    {
+      "id": "HUNTC-658",
+      "actress": [],
+      "release_date": "2026-09-18",
+      "source_url": "https://cc18.tv/player.php?uuid=C7qnRcYkY2O&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
