@@ -756,7 +756,7 @@
     },
     {
       "label": "寝取り・寝取られ・ntr",
-      "occurrences": 31,
+      "occurrences": 32,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -788,7 +788,8 @@
         "START-633",
         "NSFS-513",
         "DSOD-081",
-        "C-2989"
+        "C-2989",
+        "AGAV-182"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-23",
@@ -887,14 +888,15 @@
     },
     {
       "label": "偷窺",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "NSODN-025",
         "YJNS-001",
-        "HRSM-159"
+        "HRSM-159",
+        "AGAV-182"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-17",
+      "last_seen": "2026-09-23",
       "status": "quarantined"
     },
     {
@@ -1213,17 +1215,18 @@
     },
     {
       "label": "其他癖好",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "DOKS-689",
         "DOKS-690",
         "MIAB-677",
         "MUKD-585",
         "DSJH-020",
-        "CLOT-044"
+        "CLOT-044",
+        "AGAV-182"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-22",
+      "last_seen": "2026-09-23",
       "status": "quarantined"
     },
     {
@@ -1766,7 +1769,7 @@
     },
     {
       "label": "寢取・被寢取",
-      "occurrences": 17,
+      "occurrences": 18,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -1784,7 +1787,8 @@
         "START-633",
         "NSFS-513",
         "DSOD-081",
-        "C-2989"
+        "C-2989",
+        "AGAV-182"
       ],
       "first_seen": "2026-09-14",
       "last_seen": "2026-09-23",
@@ -1792,7 +1796,7 @@
     },
     {
       "label": "NTR",
-      "occurrences": 17,
+      "occurrences": 18,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -1810,7 +1814,8 @@
         "START-633",
         "NSFS-513",
         "DSOD-081",
-        "C-2989"
+        "C-2989",
+        "AGAV-182"
       ],
       "first_seen": "2026-09-14",
       "last_seen": "2026-09-23",
@@ -2230,22 +2235,24 @@
     },
     {
       "label": "喜劇",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "DSOD-093"
+        "DSOD-093",
+        "AGAV-182"
       ],
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-21",
+      "last_seen": "2026-09-23",
       "status": "quarantined"
     },
     {
       "label": "ギャグ・コメディ",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "DSOD-093"
+        "DSOD-093",
+        "AGAV-182"
       ],
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-21",
+      "last_seen": "2026-09-23",
       "status": "quarantined"
     },
     {
@@ -2403,6 +2410,16 @@
       "occurrences": 1,
       "source_ids": [
         "FEM-040"
+      ],
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-09-23",
+      "status": "quarantined"
+    },
+    {
+      "label": "覆面・マスク",
+      "occurrences": 1,
+      "source_ids": [
+        "AGAV-182"
       ],
       "first_seen": "2026-09-23",
       "last_seen": "2026-09-23",

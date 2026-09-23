@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:49325a3407796fbebb86350bd6adabde457d6ed57213deba74b1e7678c3ed3a0",
-  "source_generated_at": "2026-09-23T11:41:12.885Z",
+  "source_revision": "sha256:976c0c68ef7127e226dea7d1b14932943569d9f5331ba0807cefccb95bf78c38",
+  "source_generated_at": "2026-09-23T11:46:31.941Z",
   "counts": {
-    "movies": 273,
-    "performers": 261,
+    "movies": 274,
+    "performers": 262,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1136,6 +1136,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PPPE-442"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53725",
+      "display_name": "村流那",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "村流那",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:AGAV-182"
       ]
     },
     {
@@ -3326,6 +3337,51 @@
         "article_title": "NACT-188 由良佳奈｜143cm極小尺寸",
         "display_short_title": null,
         "slug": "nact-188"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:AGAV-182",
+        "source_cover": "https://cc18.tv/preview/80/b/eIziwAI47G-800.jpg?v=1790030216",
+        "title": "AGAV-182 村流那｜人間被窩",
+        "catalog_code": "AGAV-182",
+        "release_date": "2026-09-19",
+        "performers": [
+          "村流那"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "fantasy-concept",
+            "label": "幻想企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/agav-182/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53725"
+      ],
+      "search": {
+        "source_title": "人間被窩：與欲求不滿的那個女孩，鑽進被窩的我，趁睡覺偷襲時而NTR 村流那",
+        "article_title": "AGAV-182 村流那｜人間被窩",
+        "display_short_title": null,
+        "slug": "agav-182"
       }
     },
     {

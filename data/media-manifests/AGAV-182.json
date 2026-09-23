@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "AGAV-182",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-23T11:45:37.030Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/AGAV-182/hero-v1.jpg",
+      "r2_key": "works/2026/09/AGAV-182/hero-v1.jpg",
+      "bytes": 1069113,
+      "sha256": "cf7f611070e8a736be1ea046ef4d144bc74da44f910736aff80ff7484c348257",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "2c21982c-208d-4c4c-a4a1-c01df99c68fd",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/AGAV-182/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/AGAV-182/scene-vertical-v1.jpg",
+      "bytes": 839137,
+      "sha256": "91e7487b6313f09e4b2f15e32c1b8cf629d326078c9ff2045a6c0c7b0fb93832",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "1a948670-9cde-4ca4-9158-09fcdc2b765b",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2675166,
+    "sha256": "f14a69b16a89010eaaca7dae23876e03ef942b84917c59cf90c98e5591a7d4c1",
+    "target_r2_key": "works/2026/09/AGAV-182/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/AGAV-182/vertical-v1.mp4"
+  }
+}
