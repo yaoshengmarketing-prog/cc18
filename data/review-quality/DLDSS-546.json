@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "DLDSS-546",
+  "review_sha256": "4af8e298882ad875310f8bdf111c61a62a37ef3d8cd2c71a3ac0815196354fbc",
+  "selected_thesis": "叶愛的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "叶愛",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "叶愛",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "市民泳池遲早會被禁入",
+        "source_field": "title"
+      }
+    ],
+    "primary_theme": "叶愛",
+    "presentation_feature": "市民泳池遲早會被禁入",
+    "editorial_judgment": "叶愛的企劃呈現與觀看取向",
+    "source_keywords": [
+      "叶愛",
+      "市民泳池遲早會被禁入"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：叶愛",
+      "supports": "這項可追溯來源訊號支持文章以「叶愛」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：市民泳池遲早會被禁入",
+      "supports": "這項可追溯來源訊號支持文章以「市民泳池遲早會被禁入」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：叶愛",
+      "supports": "這項可追溯來源訊號支持文章以「叶愛」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：互動節奏",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-22T16:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "id": "DLDSS-546",
+  "checked_at": "2026-09-23T11:54:50.833Z",
+  "review_sha256": "da6b8835c22e5b9d552c087586cdd02de22f8943e990d47da712ccb51e446192",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資訊來判斷，DLDSS-546 最明確的吸引點不是已知情節細節，而是片名直接拋出的企劃概念：「市民泳池遲早會被禁入」。這種寫法本身就帶有強烈前提，表示作品的辨識度主要建立在特定場域與禁忌感的組合上，而不是已公開的人物關係或完整故事線。再加上已知演出者為叶"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 8,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

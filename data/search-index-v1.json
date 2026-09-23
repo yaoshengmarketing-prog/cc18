@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:1e03084ee018fe07878c268d06f65baadde6ea4d5206540646f5a046c90a4e89",
-  "source_generated_at": "2026-09-23T11:51:31.066Z",
+  "source_revision": "sha256:83f1522564c823232c7e8933c24fbeda1a77679b48fc9ef21c047ccd9a4da1d2",
+  "source_generated_at": "2026-09-23T11:57:00.712Z",
   "counts": {
-    "movies": 275,
-    "performers": 262,
+    "movies": 276,
+    "performers": 263,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -657,6 +657,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:25815",
+      "display_name": "叶愛",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "叶愛",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DLDSS-546"
       ]
     },
     {
@@ -4126,6 +4137,35 @@
         "article_title": "CJOD-548 釈アリス｜回春アジアンメンズエステ企劃下的主動型選片",
         "display_short_title": null,
         "slug": "cjod-548"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DLDSS-546",
+        "source_cover": "https://cc18.tv/preview/80/b/tB01UfBI2dk-800.jpg?v=1789972677",
+        "title": "DLDSS-546 叶愛｜市民泳池遲早會被禁入：以企劃設定撐起判斷的作品",
+        "catalog_code": "DLDSS-546",
+        "release_date": "2026-09-18",
+        "performers": [
+          "叶愛"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dldss-546/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:25815"
+      ],
+      "search": {
+        "source_title": "市民泳池遲早會被禁入。穿著「Bug級」競泳水著的人妻每週來游泳三次。 叶愛",
+        "article_title": "DLDSS-546 叶愛｜市民泳池遲早會被禁入：以企劃設定撐起判斷的作品",
+        "display_short_title": null,
+        "slug": "dldss-546"
       }
     },
     {

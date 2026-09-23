@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-23T11:51:31.066Z",
+  "generated_at": "2026-09-23T11:57:00.712Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 279,
-  "formal_movie_count": 278,
+  "tracked_input_count": 280,
+  "formal_movie_count": 279,
   "demo_count": 1,
-  "published_count": 275,
+  "published_count": 276,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -359,6 +359,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "47624e3328dc8cf8fda0c8a71a8f79a1646621176fc58de3429d8f6d66b26fdf"
+    },
+    {
+      "stable_movie_id": "cc18:DLDSS-546",
+      "catalog_code": "DLDSS-546",
+      "slug": "dldss-546",
+      "master_path": "data/movie-master/dldss-546.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "4c9cb28cf401e711b8c1a4dc8cde5e910aa3eafab38351e828cd525878450cd8"
     },
     {
       "stable_movie_id": "cc18:DLDSS-549",
