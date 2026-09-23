@@ -645,7 +645,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 24,
+      "occurrences": 25,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -670,7 +670,8 @@
         "SNOS-330",
         "DSOD-038",
         "DSOD-074",
-        "EKDV-828"
+        "EKDV-828",
+        "SNOS-400"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-23",
@@ -1815,7 +1816,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 21,
+      "occurrences": 22,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -1837,7 +1838,8 @@
         "SNOS-396",
         "HUBLK-079",
         "GS-2148",
-        "MISM-456"
+        "MISM-456",
+        "SNOS-400"
       ],
       "first_seen": "2026-09-14",
       "last_seen": "2026-09-23",

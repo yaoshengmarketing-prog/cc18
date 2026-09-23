@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-400",
+  "generated_at": "2026-09-23T01:05:44.657Z",
+  "source_snapshot_hash": "sha256:83c3f970412cb0ada2f7716e0e0e72f28461604110d74e3681213be90a5a811e",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "來源資料可確認本作以「七森莉莉」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "七森莉莉",
+      "高畫質",
+      "獨家配信",
+      "七森莉莉"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想先依來源題材與作品設定挑選的觀眾",
+      "接受目前只提供來源資料整理的觀眾"
+    ],
+    "not_for": [
+      "需要影片抽樣觀察才能決定的觀眾",
+      "需要鏡位、收音或段落變化結論的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SNOS-369",
+      "relation_type": "same_performer",
+      "reason": "同樣由七森莉莉出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "七森莉莉"
+      ],
+      "contrast_signals": [
+        "平時傲慢的辣妹學生",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "來源資料可確認什麼？來源資料可確認本作以「七森莉莉」作為主要作品線索。",
+    "目前能否提供影片觀察？目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "如何使用本頁？可先依來源題材與作品識別資訊判斷是否符合偏好。"
+  ]
+}
