@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:3b007d030e12cd2a9716939941dd290bfc5a0598476eac99f1816afc904820b4",
-  "source_generated_at": "2026-09-23T17:03:24.150Z",
+  "source_revision": "sha256:8f8482e0a8bfcbb67bb3224653207ebe0f0eeeea3cab493b4f724bdd3a321abf",
+  "source_generated_at": "2026-09-23T17:08:45.395Z",
   "counts": {
-    "movies": 279,
-    "performers": 266,
+    "movies": 280,
+    "performers": 267,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -261,6 +261,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MIFD-735"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54035",
+      "display_name": "大塚びる",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "大塚びる",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:OAE-315"
       ]
     },
     {
@@ -5228,6 +5239,51 @@
         "article_title": "NOSKN-104 糸井瑠花 × 美少女設定｜糸井瑠花",
         "display_short_title": null,
         "slug": "noskn-104"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:OAE-315",
+        "source_cover": "https://cc18.tv/preview/80/b/vus2yflN1x-800.jpg?v=1789850326",
+        "title": "OAE-315 大塚びる｜氣鼓鼓的粉红：以印象寫真包裝角色變化的展示型企劃",
+        "catalog_code": "OAE-315",
+        "release_date": "2026-09-18",
+        "performers": [
+          "大塚びる"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "image-video",
+            "label": "印象寫真"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/oae-315/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54035"
+      ],
+      "search": {
+        "source_title": "氣鼓鼓的粉红 大塚比瑠",
+        "article_title": "OAE-315 大塚びる｜氣鼓鼓的粉红：以印象寫真包裝角色變化的展示型企劃",
+        "display_short_title": null,
+        "slug": "oae-315"
       }
     },
     {

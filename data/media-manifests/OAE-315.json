@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "OAE-315",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-23T17:07:48.744Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/OAE-315/hero-v1.jpg",
+      "r2_key": "works/2026/09/OAE-315/hero-v1.jpg",
+      "bytes": 569164,
+      "sha256": "7d8b8f11dadc144e7bad1434f205142edd64947dcb933f9e57739c2cc8dfcaaf",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "535d0851-801a-4aea-b29f-2851e0496af1",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/OAE-315/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/OAE-315/scene-vertical-v1.jpg",
+      "bytes": 1205709,
+      "sha256": "b32a74cfe8c2209a5e83724246179ad154324cdb0b3110c3384ba8edb6a1bac1",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "71acf34d-8bdb-4953-804c-329714a004a6",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3468486,
+    "sha256": "dd078f9f5f80420dfc7d7ba16552fde2c23a7750bebbf146b48ed563f10cd6f1",
+    "target_r2_key": "works/2026/09/OAE-315/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/OAE-315/vertical-v1.mp4"
+  }
+}

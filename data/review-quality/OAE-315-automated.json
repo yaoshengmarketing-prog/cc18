@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "OAE-315",
+  "checked_at": "2026-09-23T17:06:52.469Z",
+  "review_sha256": "2cdb7e555e918d99f60b0ba71fec33b291d3753fddd7baef4c28ae73a44b3b40",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "這次最關鍵的來源線索就是核心概念「氣鼓鼓的粉红」。在沒有公開劇情簡介、人物設定與場景描述可用的情況下，這個片名概念自然成為判斷重心。它帶出的不是具體情節，而是一種情緒與色彩感的組合：一邊是帶點脾氣、鼓起情緒的狀態，一邊是偏柔和、帶有形象標誌意味的「粉红」。因此，本片的吸引力更像是"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "如果你偏好從企劃名稱、人物形象與整體包裝來挑片，OAE-315 值得先列入清單。尤其是對「印象寫真」形式有興趣，或對片名所呈現的情緒反差有感的觀眾，這部的辨識度算是明確。反過來說，若你在意的是完整故事、角色關係的明示、具體場景設定，現有公開資料並沒有提供足夠支持，選片時就應保守一"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
