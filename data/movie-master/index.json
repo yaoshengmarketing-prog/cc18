@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-23T17:08:45.395Z",
+  "generated_at": "2026-09-23T23:50:21.003Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 284,
-  "formal_movie_count": 283,
+  "tracked_input_count": 285,
+  "formal_movie_count": 284,
   "demo_count": 1,
-  "published_count": 280,
+  "published_count": 281,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -800,6 +800,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "82e290e217aa0c5e3723cf30585ef2cae8b382a64fc5f163976e17cb45670088"
+    },
+    {
+      "stable_movie_id": "cc18:HALT-093",
+      "catalog_code": "HALT-093",
+      "slug": "halt-093",
+      "master_path": "data/movie-master/halt-093.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "a1380995b8ad2afa730cce6c78b39fcf13fa0da1a25ab6d83a51c2d86f1748c9"
     },
     {
       "stable_movie_id": "cc18:HAWA-385",

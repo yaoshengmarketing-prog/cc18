@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "id": "HALT-093",
+  "checked_at": "2026-09-23T23:48:45.671Z",
+  "review_sha256": "82c753ec6b5f0a6ff460b6e864981fce3afe8efb665bd7e91ae9ad8acbf66f19",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只看可追溯的公開資訊，HALT-093 最明確的吸引力不是複雜劇情，而是「讓體質冰冷」這個企劃核心本身。這個概念直接來自片名與來源摘錄，並且還連動到「結果她徹底沉迷到漏尿不止」「成長為會潮吹的淫穴」等描述，因此選片判斷上可以先把它理解成一部以轉變、強化與企劃設定為主軸的作品。對"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "公開資料已知演出者是日向由奈，因此她自然是本作最直接的人物辨識來源。由於目前沒有可用的影像分析與場面觀察，不能把實際表演細節寫成事實；但從選片角度來看，片名與企劃文案都把變化幅度放得很前面，等於是把觀眾的期待集中在她如何承接這個設定。換句話說，這部片的賣點不是人物關係資訊，而是由"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "來源可確認本作帶有學生設定，並屬於【破廉恥濃～ムレムレ黒タイツ～】系列。即使我們不能補寫未提供的服裝、場景或互動細節，這兩項資訊仍足以影響選片判斷。學生設定代表作品在人物定位上走的是較明確、容易辨識的身份題材；系列名則意味著它可能會延續某種固定企劃語感與市場定位。對熟悉系列選片的"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 3
+  }
+}

@@ -652,7 +652,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 29,
+      "occurrences": 30,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -682,7 +682,8 @@
         "MXGS-1447",
         "NACT-184",
         "FLAV-428",
-        "SNOS-387"
+        "SNOS-387",
+        "HALT-093"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-24",
@@ -1539,28 +1540,30 @@
     },
     {
       "label": "足交",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "CLOT-043",
         "CLOT-044",
-        "EMBM-055"
+        "EMBM-055",
+        "HALT-093"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "status": "quarantined"
     },
     {
       "label": "絲襪",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "CLOT-043",
         "PTS-555",
         "CLOT-044",
         "EMBM-055",
-        "FLAV-428"
+        "FLAV-428",
+        "HALT-093"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "status": "quarantined"
     },
     {
@@ -1599,16 +1602,17 @@
     },
     {
       "label": "タイツ",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "CLOT-043",
         "PTS-555",
         "CLOT-044",
         "EMBM-055",
-        "FLAV-428"
+        "FLAV-428",
+        "HALT-093"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "status": "quarantined"
     },
     {
@@ -1624,16 +1628,17 @@
     },
     {
       "label": "パンスト・タイツ",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "CLOT-043",
         "PTS-555",
         "CLOT-044",
         "EMBM-055",
-        "FLAV-428"
+        "FLAV-428",
+        "HALT-093"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "status": "quarantined"
     },
     {

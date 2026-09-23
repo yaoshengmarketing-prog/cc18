@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "HALT-093",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-23T23:49:26.608Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/HALT-093/hero-v1.jpg",
+      "r2_key": "works/2026/09/HALT-093/hero-v1.jpg",
+      "bytes": 703916,
+      "sha256": "2c7e4e44e90d2f654a730cb555ee688d33eb68c118b0fc10297865b3a80fe34c",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "4e6213e0-ad07-44eb-b537-68c6d770f7de",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/HALT-093/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/HALT-093/scene-vertical-v1.jpg",
+      "bytes": 964091,
+      "sha256": "f694638f1471bcd5b9c43b753048509df874e8ede163e3ecb7a01ed43be774d1",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "3299c0fc-5f30-45ee-9e53-f4eb73285942",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2812967,
+    "sha256": "72a010e4eb83a8805f050442e2c8e007f03c4868e02c11755c7d0ec45ba38db9",
+    "target_r2_key": "works/2026/09/HALT-093/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/HALT-093/vertical-v1.mp4"
+  }
+}
