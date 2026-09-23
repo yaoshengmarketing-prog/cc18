@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-23T06:40:01.509Z",
+  "generated_at": "2026-09-23T06:45:06.762Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 273,
-  "formal_movie_count": 272,
+  "tracked_input_count": 274,
+  "formal_movie_count": 273,
   "demo_count": 1,
-  "published_count": 269,
+  "published_count": 270,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -926,6 +926,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "bae87f590979b19947ee08732d8f3b1fe6dae66541f40baa44c6bc157c4a308e"
+    },
+    {
+      "stable_movie_id": "cc18:HUBLK-081",
+      "catalog_code": "HUBLK-081",
+      "slug": "hublk-081",
+      "master_path": "data/movie-master/hublk-081.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "97384d9e73927c8884e040239726c3714cf533914fbbafab811666a7bb73d798"
     },
     {
       "stable_movie_id": "cc18:HUNTC-550",

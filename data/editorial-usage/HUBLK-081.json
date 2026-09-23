@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "HUBLK-081",
+  "calls": [
+    {
+      "generated_at": "2026-09-23T06:43:06.738Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 3495,
+      "cached_input_tokens": 0,
+      "output_tokens": 1412,
+      "total_tokens": 4907,
+      "estimated_cost_usd": 0.049245,
+      "estimated_payg_cash_cost_usd": 0.051707,
+      "direct_openai_reference_usd": 0.029917,
+      "gateway_premium_usd": 0.019327,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 3495,
+    "cached_input_tokens": 0,
+    "output_tokens": 1412,
+    "estimated_cost_usd": 0.049245,
+    "estimated_payg_cash_cost_usd": 0.051707,
+    "direct_openai_reference_usd": 0.029917,
+    "gateway_premium_usd": 0.019327
+  }
+}

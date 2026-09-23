@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "HUBLK-081",
+  "checked_at": "2026-09-23T06:43:06.955Z",
+  "review_sha256": "c1be07d930162d570ccd29522004f07d084caf9fd97f88b559049784ad5a6a83",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只看目前可追溯的公開資料，這部作品最明確的辨識點不是完整劇情，而是「ハンターブラック」這個核心企劃名稱。系列欄位與 core_source_concept 都指向同一個來源概念，表示它的選片重心首先落在企劃識別度，而不是單一人物背景或已知情節發展。對觀眾來說，這代表判斷方式應優"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "會，而且這正是本片目前最合理的閱讀方式之一。由於「ハンターブラック」同時出現在系列與核心概念，作品的辨識重心明顯由系列名稱承擔。這種情況通常代表選片時，觀眾會更依賴對系列既有印象來做判斷，而不是靠演員知名度或完整劇情簡介；尤其本作沒有提供演員資訊，系列本身就更像主要賣點。再加上公"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "如果你偏好的是來源訊號清楚、題材辨識快速的企劃型作品，HUBLK-081 會是可以先列入清單的片子。它的公開資料已經把幾個關鍵方向交代得很直接：系列核心是「ハンターブラック」，角色身分是「學生妹／學生設定」，成人題材標籤則集中在「中出、亂交」，另外還補上「獨家配信」與「高畫質」這"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}
