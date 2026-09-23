@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "ROYD-349",
+  "checked_at": "2026-09-23T12:00:43.701Z",
+  "review_sha256": "eca3f44f01d76c1867da358c6b32edb497f3774ab7e050807015767d2ecff242",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資料來看，這部作品最明確的入口不是已知劇情，而是「痩せ薬で」這個企劃概念本身。public source 已給出系列名「痩せ薬で…」與 core source concept「痩せ薬で」，代表它的辨識度主要來自設定而非單一情節摘要。也因為沒有公開的人物關"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "會，但要分清楚哪些是來源可證明的重點。safe title signals 與 topic elements 可確認的內容包含「AV女優片」、「口交」以及「淫亂・過激系」，這些都能作為題材方向的基礎判讀。其中最適合作為主要成人主題訊號的是「口交」，因為它比「高畫質」「獨家配信」這"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "以現有資料判斷，較接近展示型企劃片。原因不是說它一定沒有劇情，而是目前沒有可追溯的劇情摘要、人物關係、場景脈絡或衝突設定；相反地，最清楚的資訊集中在系列名、企劃核心與成人標籤。creative seed brief 也明確指出 themes 如「企劃設定」「角色變化」「互動節奏」"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:83f1522564c823232c7e8933c24fbeda1a77679b48fc9ef21c047ccd9a4da1d2",
-  "source_generated_at": "2026-09-23T11:57:00.712Z",
+  "source_revision": "sha256:9a32b6909c439d4f332a494d0b6a5e83f30c4b27dfa98599ca04ded73599a5c8",
+  "source_generated_at": "2026-09-23T12:02:43.370Z",
   "counts": {
-    "movies": 276,
-    "performers": 263,
+    "movies": 277,
+    "performers": 264,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2030,6 +2030,17 @@
       "related_movie_ids": [
         "cc18:DLDSS-528",
         "cc18:DLDSS-540"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:27054",
+      "display_name": "宮西ひかる",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "宮西ひかる",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:ROYD-349"
       ]
     },
     {
@@ -5195,6 +5206,51 @@
         "article_title": "NOSKN-104 糸井瑠花 × 美少女設定｜糸井瑠花",
         "display_short_title": null,
         "slug": "noskn-104"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:ROYD-349",
+        "source_cover": "https://cc18.tv/preview/80/b/9nvzfOg2yD-800.jpg?v=1789821550",
+        "title": "ROYD-349 宮西ひかる｜痩せ薬で：以企劃設定帶動判斷的展示型選片",
+        "catalog_code": "ROYD-349",
+        "release_date": "2026-09-18",
+        "performers": [
+          "宮西ひかる"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/royd-349/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27054"
+      ],
+      "search": {
+        "source_title": "『禁忌的瘦身藥』讓超絕纖細美女大覺醒！將長年積壓的性慾在弟弟身上完全發散的禁斷姐弟亂倫 宮西光",
+        "article_title": "ROYD-349 宮西ひかる｜痩せ薬で：以企劃設定帶動判斷的展示型選片",
+        "display_short_title": null,
+        "slug": "royd-349"
       }
     },
     {

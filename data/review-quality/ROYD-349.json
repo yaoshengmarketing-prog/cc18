@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "ROYD-349",
+  "review_sha256": "aac5798525fd06681f57c8b0b3b2920fab2363c3060bfbfdaaf986fc6e0e7406",
+  "selected_thesis": "宮西ひかる的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "宮西ひかる",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "宮西ひかる",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "痩せ薬で",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "痩せ薬で…",
+        "source_field": "series"
+      },
+      {
+        "type": "act_or_position",
+        "value": "口交",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "宮西ひかる",
+    "presentation_feature": "痩せ薬で",
+    "editorial_judgment": "宮西ひかる的企劃呈現與觀看取向",
+    "source_keywords": [
+      "宮西ひかる",
+      "痩せ薬で",
+      "痩せ薬で…",
+      "口交"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：宮西ひかる",
+      "supports": "這項可追溯來源訊號支持文章以「宮西ひかる」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：痩せ薬で…",
+      "supports": "這項可追溯來源訊號支持文章以「痩せ薬で…」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：痩せ薬で",
+      "supports": "這項可追溯來源訊號支持文章以「痩せ薬で」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：口交",
+      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：淫亂・過激系",
+      "supports": "這項可追溯來源訊號支持文章以「淫亂・過激系」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-22T16:00:00.000Z"
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "ROYD-349",
+  "calls": [
+    {
+      "generated_at": "2026-09-23T12:00:43.377Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 3559,
+      "cached_input_tokens": 0,
+      "output_tokens": 1244,
+      "total_tokens": 4803,
+      "estimated_cost_usd": 0.045785,
+      "estimated_payg_cash_cost_usd": 0.048074,
+      "direct_openai_reference_usd": 0.027557,
+      "gateway_premium_usd": 0.018228,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 3559,
+    "cached_input_tokens": 0,
+    "output_tokens": 1244,
+    "estimated_cost_usd": 0.045785,
+    "estimated_payg_cash_cost_usd": 0.048074,
+    "direct_openai_reference_usd": 0.027557,
+    "gateway_premium_usd": 0.018228
+  }
+}

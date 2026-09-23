@@ -853,12 +853,13 @@
     },
     {
       "label": "數位薄碼",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "ROYD-348",
         "ROYD-357",
         "ROYD-350",
-        "ROYD-362"
+        "ROYD-362",
+        "ROYD-349"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-23",
@@ -1288,7 +1289,7 @@
     },
     {
       "label": "近親相姦",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "GOJI-110",
         "MNGS-077",
@@ -1297,7 +1298,8 @@
         "AMBI-214",
         "HUBLK-079",
         "NACT-184",
-        "T-3800071"
+        "T-3800071",
+        "ROYD-349"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-23",
@@ -1837,7 +1839,7 @@
     },
     {
       "label": "姊妹",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "EBWH-366",
         "UMD-1019",
@@ -1845,7 +1847,8 @@
         "CPZ69-015",
         "MKON-148",
         "AMBI-214",
-        "NACT-184"
+        "NACT-184",
+        "ROYD-349"
       ],
       "first_seen": "2026-09-14",
       "last_seen": "2026-09-23",

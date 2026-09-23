@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-23T11:57:00.712Z",
+  "generated_at": "2026-09-23T12:02:43.370Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 280,
-  "formal_movie_count": 279,
+  "tracked_input_count": 281,
+  "formal_movie_count": 280,
   "demo_count": 1,
-  "published_count": 276,
+  "published_count": 277,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1934,6 +1934,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "d20714aecf84bb28d22e7db4ce5c2222a2b2c42128978df5d5f5668c3c5665ea"
+    },
+    {
+      "stable_movie_id": "cc18:ROYD-349",
+      "catalog_code": "ROYD-349",
+      "slug": "royd-349",
+      "master_path": "data/movie-master/royd-349.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "2babd793e584719df4e5b16845b3b745e508329e33817855145d92a70b5a2ad9"
     },
     {
       "stable_movie_id": "cc18:ROYD-350",
