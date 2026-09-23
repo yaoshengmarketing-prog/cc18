@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "NACT-185",
+  "checked_at": "2026-09-23T11:39:28.567Z",
+  "review_sha256": "06c312210a70ff3b30826d8e1689a77c4e3268aa50feaa889ef59bbe0c4414b2",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "本作最明確的辨識點，是片名與系列都集中在「マゾ覚醒人妻奴」這個概念上，重心不是複雜背景，而是以「人妻・主婦」身份結合覺醒型企劃來建立觀看方向。公開資料同時給出有村希、系列名，以及描述中的「中出」「拘束」等元素，顯示它的選片價值主要來自題材組合是否明確：一方面是人妻身份，另一方面是"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "本作較適合三類觀眾。第一，是會追有村希個人演出的人。第二，是偏好人妻題材，且希望主題不是單純身份標記，而是帶有明確覺醒、奴化企劃框架的人。第三，是接受系列型公式作品、重視題材濃度勝過情節展開的人。反過來說，如果你偏好強劇情、關係鋪陳或需要更多場景與人物資訊來建立期待，現有公開資訊"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

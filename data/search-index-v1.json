@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:72aeb02a5e83e080888d0829a7af6952a3aced291d8cfe826dbc1211b779ee38",
-  "source_generated_at": "2026-09-23T06:55:02.609Z",
+  "source_revision": "sha256:49325a3407796fbebb86350bd6adabde457d6ed57213deba74b1e7678c3ed3a0",
+  "source_generated_at": "2026-09-23T11:41:12.885Z",
   "counts": {
-    "movies": 272,
-    "performers": 260,
+    "movies": 273,
+    "performers": 261,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -955,6 +955,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PYM-577"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:21993",
+      "display_name": "有村希",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "有村希",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:NACT-185"
       ]
     },
     {
@@ -3152,6 +3163,59 @@
         "article_title": "NACT-184 かたよせ萩花｜實地指導・姐弟亂倫",
         "display_short_title": null,
         "slug": "nact-184"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:NACT-185",
+        "source_cover": "https://cc18.tv/preview/80/b/y2SZvedot2j-800.jpg?v=1790023015",
+        "title": "NACT-185 有村希｜マゾ覚醒人妻奴：以角色覺醒企劃為核心",
+        "catalog_code": "NACT-185",
+        "release_date": "2026-09-20",
+        "performers": [
+          "有村希"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/nact-185/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:21993"
+      ],
+      "search": {
+        "source_title": "M覺醒人妻奴隸 有村希",
+        "article_title": "NACT-185 有村希｜マゾ覚醒人妻奴：以角色覺醒企劃為核心",
+        "display_short_title": null,
+        "slug": "nact-185"
       }
     },
     {

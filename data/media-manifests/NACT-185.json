@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "NACT-185",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-23T11:40:14.118Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/NACT-185/hero-v1.jpg",
+      "r2_key": "works/2026/09/NACT-185/hero-v1.jpg",
+      "bytes": 651544,
+      "sha256": "77b0363c480043a6ca376dcc60dcb74c775fe53729c2e2c5e3636e3ad83acc28",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "806bb430-5981-4b72-9319-ecbbaf41dad1",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/NACT-185/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/NACT-185/scene-vertical-v1.jpg",
+      "bytes": 1056139,
+      "sha256": "61c3c599589080a9fb26ed88f07da97794a9e665a25de07cf6203a6eb99c8775",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "45f26057-5836-43bf-b18e-f465bae37501",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2799530,
+    "sha256": "3425d80c3a445115fa565dc3ebd4d15e366c9e992b36d7e1a3e415d9ae336cec",
+    "target_r2_key": "works/2026/09/NACT-185/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/NACT-185/vertical-v1.mp4"
+  }
+}
