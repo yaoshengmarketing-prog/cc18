@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-23T01:16:56.985Z",
+  "generated_at": "2026-09-23T01:22:00.180Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 264,
-  "formal_movie_count": 263,
+  "tracked_input_count": 265,
+  "formal_movie_count": 264,
   "demo_count": 1,
-  "published_count": 260,
+  "published_count": 261,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1439,6 +1439,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "8b1ff6bd62f11b9de82ca89013ffadce1efe39247d7c91b6655456ab2ab4bca0"
+    },
+    {
+      "stable_movie_id": "cc18:MXGS-1447",
+      "catalog_code": "MXGS-1447",
+      "slug": "mxgs-1447",
+      "master_path": "data/movie-master/mxgs-1447.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "ad2b31334db05c11c71cd0fb5541357f91f17e17f492233faf2f9ab346d0f081"
     },
     {
       "stable_movie_id": "cc18:NACT-182",
