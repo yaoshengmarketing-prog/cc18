@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:2c79bd368db7d24c445ee4391536da80e4e7c003c9532c8e153c2e81fe31d4f9",
-  "source_generated_at": "2026-09-23T06:50:08.695Z",
+  "source_revision": "sha256:72aeb02a5e83e080888d0829a7af6952a3aced291d8cfe826dbc1211b779ee38",
+  "source_generated_at": "2026-09-23T06:55:02.609Z",
   "counts": {
-    "movies": 271,
-    "performers": 259,
+    "movies": 272,
+    "performers": 260,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1500,7 +1500,8 @@
       "source_name": "青葉春",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:PIYO-240"
+        "cc18:PIYO-240",
+        "cc18:T-3800071"
       ]
     },
     {
@@ -2087,6 +2088,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:53766",
+      "display_name": "真宮しおり",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "真宮しおり",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:T-3800071"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:54607",
       "display_name": "神田真弥",
       "display_name_zh_tw": null,
@@ -2257,7 +2269,8 @@
       "source_name": "清宮ななは",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:FNEW-024"
+        "cc18:FNEW-024",
+        "cc18:T-3800071"
       ]
     },
     {
@@ -6217,6 +6230,51 @@
         "article_title": "MXGS-1447 天羽梨梨花｜最強接吻魔：以企劃概念主導的展示型選片",
         "display_short_title": null,
         "slug": "mxgs-1447"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:T-3800071",
+        "source_cover": "https://cc18.tv/preview/80/b/pDhyp7w5I4f-800.jpg?v=1789699170",
+        "title": "T-3800071 青葉春、真宮しおり、清宮ななは｜以「詩織」為核心的系列企劃型選片",
+        "catalog_code": "T-3800071",
+        "release_date": "2026-09-16",
+        "performers": [
+          "青葉春",
+          "真宮しおり",
+          "清宮ななは"
+        ],
+        "canonical_topics": [
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/t-3800071/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:48814",
+        "cc18.tv:actor:53766",
+        "cc18.tv:actor:54648"
+      ],
+      "search": {
+        "source_title": "真正的目標是再婚妻子的純潔繼女 春、詩織、七葉",
+        "article_title": "T-3800071 青葉春、真宮しおり、清宮ななは｜以「詩織」為核心的系列企劃型選片",
+        "display_short_title": null,
+        "slug": "t-3800071"
       }
     },
     {

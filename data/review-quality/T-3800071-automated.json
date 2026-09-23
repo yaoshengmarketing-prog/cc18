@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "T-3800071",
+  "checked_at": "2026-09-23T06:53:17.206Z",
+  "review_sha256": "73480e4c859bf54b1524cd47b595b2559176a3cc1f3b7c6b916f20f4b312ffb3",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "body_lacks_source_adult_vocabulary",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只從目前可追溯的公開資訊來看，這部作品最明確的選片理由，是它並不是單靠演員名單或畫質規格在成立，而是有一個相對清楚的核心辨識點：片名線索中的「詩織」，以及系列名《本当の狙いは再婚した嫁の無垢な連れ子》。這種組合代表它的賣點更偏向企劃設定與角色命名式的包裝，適合會優先看題材入口"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "在這筆資料裡，「詩織」是最具辨識度的核心來源概念，因為它直接來自片名線索，而不是後設標籤或編輯延伸判讀。當一部作品缺少更完整的公開故事介紹時，這種片名中的人物或概念詞，往往就是最穩定的閱讀入口。再加上 creative seed 中也重複出現「詩織」，表示這個名稱不是偶然點綴，而"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 2
+  }
+}
