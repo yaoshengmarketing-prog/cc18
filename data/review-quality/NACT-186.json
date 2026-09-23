@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "NACT-186",
+  "review_sha256": "f8b6c757a11c08f1c5a9bffd0b9842dd752db9cd30fb8d6ce54555aee56fabd7",
+  "selected_thesis": "來源資料可確認本作以「出張精油按摩」作為主要作品線索。",
+  "title_basis": {
+    "performer": "綾瀬ことね",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "綾瀬ことね",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "出張精油按摩",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "玉が空っぽになるまで精液を搾りとる！出張オイルマッサージ",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "綾瀬ことね",
+    "presentation_feature": "出張精油按摩",
+    "editorial_judgment": "來源資料可確認本作以「出張精油按摩」作為主要作品線索。",
+    "source_keywords": [
+      "綾瀬ことね",
+      "出張精油按摩",
+      "玉が空っぽになるまで精液を搾りとる！出張オイルマッサージ",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：綾瀬ことね",
+      "supports": "這項可追溯來源訊號支持文章以「綾瀬ことね」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：玉が空っぽになるまで精液を搾りとる！出張オイルマッサージ",
+      "supports": "這項可追溯來源訊號支持文章以「玉が空っぽになるまで精液を搾りとる！出張オイルマッサージ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：出張精油按摩",
+      "supports": "這項可追溯來源訊號支持文章以「出張精油按摩」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：癡女",
+      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-22T16:00:00.000Z"
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:2a93de4652cf89fdba0a17da06633366c8573ae2063869500935a7111bbd73e3",
-  "source_generated_at": "2026-09-23T06:10:03.979Z",
+  "source_revision": "sha256:a29c4f868f606619e032b6714d9499b4c548cd0194e067c089f3ef825de3d60a",
+  "source_generated_at": "2026-09-23T06:14:54.061Z",
   "counts": {
-    "movies": 263,
-    "performers": 256,
+    "movies": 264,
+    "performers": 257,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2567,6 +2567,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:53340",
+      "display_name": "綾瀬ことね",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "綾瀬ことね",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:NACT-186"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:53650",
       "display_name": "綾瀬まりあ",
       "display_name_zh_tw": null,
@@ -3105,6 +3116,63 @@
         "article_title": "NACT-184 かたよせ萩花｜實地指導・姐弟亂倫",
         "display_short_title": null,
         "slug": "nact-184"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:NACT-186",
+        "source_cover": "https://cc18.tv/preview/80/b/7MYD927I74u-800.jpg?v=1790023017",
+        "title": "NACT-186 綾瀬ことね｜出張精油按摩",
+        "catalog_code": "NACT-186",
+        "release_date": "2026-09-20",
+        "performers": [
+          "綾瀬ことね"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/nact-186/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53340"
+      ],
+      "search": {
+        "source_title": "直到蛋蛋空空為止將精液榨乾！出張精油按摩 綾瀨琴音",
+        "article_title": "NACT-186 綾瀬ことね｜出張精油按摩",
+        "display_short_title": null,
+        "slug": "nact-186"
       }
     },
     {

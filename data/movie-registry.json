@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-23T06:09:53.577Z",
+  "updated_at": "2026-09-23T06:14:43.688Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -4001,6 +4001,21 @@
       ],
       "release_date": "2026-09-20",
       "source_url": "https://cc18.tv/player.php?uuid=2I0JqMyaFcA&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-23"
+    },
+    {
+      "id": "NACT-186",
+      "actress": [
+        "綾瀬ことね"
+      ],
+      "release_date": "2026-09-20",
+      "source_url": "https://cc18.tv/player.php?uuid=7MYD927I74u&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
