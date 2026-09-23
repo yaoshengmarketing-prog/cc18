@@ -1,0 +1,66 @@
+{
+  "schema_version": 2,
+  "id": "FEM-040",
+  "checked_at": "2026-09-23T06:33:00.617Z",
+  "review_sha256": "93a250299e5543a89439f96df64206732c64b8be3c0ccc0e5078d5d145734c66",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "untraceable_title_signal",
+    "formulaic_pivot_observed",
+    "overused_generic_editorial_arc",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "untraceable_title_signal",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最明確的切入點是「白露」這個核心人物概念，搭配公開簡介裡的「AV出道」設定。來源文字直接指出，白露醬原本是在粉絲網站上受到歡迎的雌小鬼男娘，之後以認真女裝的形象推出出道作；因此這部作品的辨識度，不是來自複雜劇情或已知人物關係，而是來自一個原本已有受眾基礎的角色／形象，正式被包裝成"
+        }
+      ]
+    },
+    {
+      "code": "overused_generic_editorial_arc",
+      "scope": "PASS_WITH_NOTES",
+      "phrases": [
+        {
+          "phrase": "反差魅力",
+          "count": 2
+        }
+      ],
+      "locations": [
+        {
+          "paragraph": 7,
+          "excerpt": "## 為什麼會歸到反差魅力與角色變化的觀點？"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "這個判斷來自公開簡介中的語言組合：一方面，來源把白露描述為在粉絲網站上大受歡迎的雌小鬼男娘；另一方面，又強調「認真女裝後AV出道」。即使不能把這些宣傳語延伸成具體情節，我們仍可合理判斷，作品主打的是形象轉換帶來的吸引力，也就是從既有網路人氣形象，過渡到更正式、被商品化的出道姿態。"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

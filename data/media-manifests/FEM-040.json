@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "FEM-040",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-23T06:33:58.055Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/FEM-040/hero-v1.jpg",
+      "r2_key": "works/2026/09/FEM-040/hero-v1.jpg",
+      "bytes": 694054,
+      "sha256": "ec9c84a858b8c4e0bb599021b3caf5ee5cfd552bbe3601fe3a404d770091c188",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "10f593dd-e88f-4949-a863-8e446a668e53",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/FEM-040/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/FEM-040/scene-vertical-v1.jpg",
+      "bytes": 1398669,
+      "sha256": "2ed995f645fa197f05f242c114ad22a8c228f39daddfd8265ff19806e170f728",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "f006cd3d-e254-4020-bfdb-17ed91a12f0b",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2992462,
+    "sha256": "0fabf8b8344fadb0f0a8774f218b5cfb8fc9fddc56af18493ddfc5bb75d9ad03",
+    "target_r2_key": "works/2026/09/FEM-040/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/FEM-040/vertical-v1.mp4"
+  }
+}

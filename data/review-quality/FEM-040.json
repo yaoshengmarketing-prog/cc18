@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "FEM-040",
+  "review_sha256": "280e0f71b49f5129eb8d6b0db8087517c9daba0164d2b5e58f75708ca3106425",
+  "selected_thesis": "高畫質的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "白露",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "變性人",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "アナルセックス(男の娘)",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "白露",
+    "presentation_feature": "變性人",
+    "editorial_judgment": "高畫質的企劃呈現與觀看取向",
+    "source_keywords": [
+      "白露",
+      "變性人",
+      "アナルセックス(男の娘)"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "在粉絲網站上大受歡迎的雌小鬼男娘白露醬，認真女裝後AV出道了！",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "請欣賞白露醬的出道作。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：白露",
+      "supports": "這項可追溯來源訊號支持文章以「白露」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：變性人",
+      "supports": "這項可追溯來源訊號支持文章以「變性人」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：アナルセックス(男の娘)",
+      "supports": "這項可追溯來源訊號支持文章以「アナルセックス(男の娘)」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：独占配信",
+      "supports": "這項可追溯來源訊號支持文章以「独占配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：HD",
+      "supports": "這項可追溯來源訊號支持文章以「HD」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-22T16:00:00.000Z"
+}
