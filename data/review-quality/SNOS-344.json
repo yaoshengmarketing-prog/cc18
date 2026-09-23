@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-344",
+  "review_sha256": "9bc4792c4a8aee2abe531118b7c5b9f687e061508b6bb1cf4e096ac21f16eea4",
+  "selected_thesis": "來源資料可確認本作以「想盡辦法地狙擊我的肉棒」作為主要作品線索。",
+  "title_basis": {
+    "performer": "渡部ほの",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "渡部ほの",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "想盡辦法地狙擊我的肉棒",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "渡部ほの",
+    "presentation_feature": "想盡辦法地狙擊我的肉棒",
+    "editorial_judgment": "來源資料可確認本作以「想盡辦法地狙擊我的肉棒」作為主要作品線索。",
+    "source_keywords": [
+      "渡部ほの",
+      "想盡辦法地狙擊我的肉棒",
+      "美少女設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：渡部ほの",
+      "supports": "這項可追溯來源訊號支持文章以「渡部ほの」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：美少女設定",
+      "supports": "這項可追溯來源訊號支持文章以「美少女設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：想盡辦法地狙擊我的肉棒",
+      "supports": "這項可追溯來源訊號支持文章以「想盡辦法地狙擊我的肉棒」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：癡女",
+      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：美少女",
+      "supports": "這項可追溯來源訊號支持文章以「美少女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-22T16:00:00.000Z"
+}
