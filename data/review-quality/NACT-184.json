@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "NACT-184",
+  "review_sha256": "734fe4e5ae5526cf22fcebcd0a05da2559664800ee59f1f67b24ceff28686669",
+  "selected_thesis": "來源資料可確認本作以「實地指導・姐弟亂倫」作為主要作品線索。",
+  "title_basis": {
+    "performer": "かたよせ萩花",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "かたよせ萩花",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "實地指導・姐弟亂倫",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "かたよせ萩花",
+    "presentation_feature": "實地指導・姐弟亂倫",
+    "editorial_judgment": "來源資料可確認本作以「實地指導・姐弟亂倫」作為主要作品線索。",
+    "source_keywords": [
+      "かたよせ萩花",
+      "實地指導・姐弟亂倫",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：かたよせ萩花",
+      "supports": "這項可追溯來源訊號支持文章以「かたよせ萩花」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：實地指導・姐弟亂倫",
+      "supports": "這項可追溯來源訊號支持文章以「實地指導・姐弟亂倫」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：口交",
+      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：騎乘位",
+      "supports": "這項可追溯來源訊號支持文章以「騎乘位」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：戲劇、連續劇",
+      "supports": "這項可追溯來源訊號支持文章以「戲劇、連續劇」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-22T16:00:00.000Z"
+}
