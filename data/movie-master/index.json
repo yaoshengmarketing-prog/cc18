@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-23T00:57:45.342Z",
+  "generated_at": "2026-09-23T01:02:42.921Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 260,
-  "formal_movie_count": 259,
+  "tracked_input_count": 261,
+  "formal_movie_count": 260,
   "demo_count": 1,
-  "published_count": 256,
+  "published_count": 257,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1241,6 +1241,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "0e8f24c534170729b30b4f8940ab82fb64e8f1f9479dcf31dc1363ccae1142fe"
+    },
+    {
+      "stable_movie_id": "cc18:MISM-456",
+      "catalog_code": "MISM-456",
+      "slug": "mism-456",
+      "master_path": "data/movie-master/mism-456.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "383efaf0687df4fa49661cd1a265429db056f50aa9030d5f1faf6fdd1d56eaf1"
     },
     {
       "stable_movie_id": "cc18:MISM-463",

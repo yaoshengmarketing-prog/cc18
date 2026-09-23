@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:f02dad94c95a3b55e49443ce79ee6492766886bd082bb7d74d3f19ee021d4784",
-  "source_generated_at": "2026-09-23T00:57:45.342Z",
+  "source_revision": "sha256:f31ccbcc69b3b0da419e26d9eab0355b9c8ae2b19a1e06fa90a59f9a4ec23076",
+  "source_generated_at": "2026-09-23T01:02:42.921Z",
   "counts": {
-    "movies": 256,
-    "performers": 251,
+    "movies": 257,
+    "performers": 254,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1358,6 +1358,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:49058",
+      "display_name": "花衣つばき",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "花衣つばき",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MISM-456"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:54545",
       "display_name": "花吹詩音",
       "display_name_zh_tw": null,
@@ -1432,6 +1443,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:RLMP-013"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:29367",
+      "display_name": "青井藍",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "青井藍",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MISM-456"
       ]
     },
     {
@@ -2855,6 +2877,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:TPIN-102"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53678",
+      "display_name": "ゆうきすず",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "ゆうきすず",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MISM-456"
       ]
     }
   ],
@@ -4299,6 +4332,55 @@
         "article_title": "JUR-866 沙月芽衣｜丈夫出差的5天間：以家庭崩壞設定推進的劇情型選片",
         "display_short_title": null,
         "slug": "jur-866"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MISM-456",
+        "source_cover": "https://cc18.tv/preview/80/b/dA8nkUXuebO-800.jpg?v=1789850324",
+        "title": "MISM-456 青井藍、花衣つばき、ゆうきすず｜華麗深喉嚨",
+        "catalog_code": "MISM-456",
+        "release_date": "2026-09-18",
+        "performers": [
+          "青井藍",
+          "花衣つばき",
+          "ゆうきすず"
+        ],
+        "canonical_topics": [
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mism-456/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:29367",
+        "cc18.tv:actor:49058",
+        "cc18.tv:actor:53678"
+      ],
+      "search": {
+        "source_title": "華麗深喉嚨 ─ 日本女性之美 ─ 花衣椿 青井藍 優希鈴",
+        "article_title": "MISM-456 青井藍、花衣つばき、ゆうきすず｜華麗深喉嚨",
+        "display_short_title": null,
+        "slug": "mism-456"
       }
     },
     {

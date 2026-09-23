@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "MISM-456",
+  "checked_at": "2026-09-23T01:01:13.769Z",
+  "review_sha256": "feb569ef276db37ce7866ac077e5926d022e182448ee148e7efdaaba67772407",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只從公開可追溯資料判斷，MISM-456 最清楚的賣點就是「華麗深喉嚨」這個核心企劃概念。這不是靠劇情設定吸引人的類型，而是由標題直接提出主題，再由演出陣容與互動規模去支撐觀看期待。對想找明確主題導向、企劃辨識度高的作品來說，這種片名核心很直接，也讓選片時不必先預設複雜故事背"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "公開資料列出青井藍、花衣つばき、ゆうきすず三位演出者，這會直接影響作品的觀看定位。首先，三人名單本身就讓作品更接近多人展示型內容，而不是單一角色主導的敘事片。其次，來源中的 topic_elements 也標示了「3p・4p」「亂交」「淫亂・過激系」等方向，表示本片的企劃重心更傾"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

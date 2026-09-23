@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MISM-456",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-23T01:01:58.182Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/MISM-456/hero-v1.jpg",
+      "r2_key": "works/2026/09/MISM-456/hero-v1.jpg",
+      "bytes": 725530,
+      "sha256": "2b0fbff9662cdf38a7b8f8baa16376d4645750722ab5dd5b61ee0ac47a81fe87",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "38fa70d5-22a4-4c1a-a9ba-3f83d7f3b8a4",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/MISM-456/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/MISM-456/scene-vertical-v1.jpg",
+      "bytes": 1069115,
+      "sha256": "4421eafc2a460eb8d0810fa4e24076f350a6f3272b8641a1c2c334a7468e9eba",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "f9fb0044-728a-4116-bbc1-caf326c32ce9",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2625486,
+    "sha256": "38a45c20e4e675584e332209e9d2cb94edc711d39891ee8048bb1b138cf494b2",
+    "target_r2_key": "works/2026/09/MISM-456/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/MISM-456/vertical-v1.mp4"
+  }
+}
