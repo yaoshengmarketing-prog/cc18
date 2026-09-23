@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "NACT-188",
+  "calls": [
+    {
+      "generated_at": "2026-09-23T06:18:09.655Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 3507,
+      "cached_input_tokens": 0,
+      "output_tokens": 1868,
+      "total_tokens": 5375,
+      "estimated_cost_usd": 0.059565,
+      "estimated_payg_cash_cost_usd": 0.062543,
+      "direct_openai_reference_usd": 0.036788,
+      "gateway_premium_usd": 0.022777,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 3507,
+    "cached_input_tokens": 0,
+    "output_tokens": 1868,
+    "estimated_cost_usd": 0.059565,
+    "estimated_payg_cash_cost_usd": 0.062543,
+    "direct_openai_reference_usd": 0.036788,
+    "gateway_premium_usd": 0.022777
+  }
+}

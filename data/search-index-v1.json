@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:a29c4f868f606619e032b6714d9499b4c548cd0194e067c089f3ef825de3d60a",
-  "source_generated_at": "2026-09-23T06:14:54.061Z",
+  "source_revision": "sha256:48a20e13df94a72ca3ad05ce7d653dd3f88dee915c04e0d899ce57a266b8e0ab",
+  "source_generated_at": "2026-09-23T06:19:56.181Z",
   "counts": {
-    "movies": 264,
-    "performers": 257,
+    "movies": 265,
+    "performers": 258,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -755,6 +755,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:UMD-1019"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:27387",
+      "display_name": "由良佳奈",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "由良佳奈",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:NACT-188"
       ]
     },
     {
@@ -3173,6 +3184,59 @@
         "article_title": "NACT-186 綾瀬ことね｜出張精油按摩",
         "display_short_title": null,
         "slug": "nact-186"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:NACT-188",
+        "source_cover": "https://cc18.tv/preview/80/b/3wfV2jioG6U-800.jpg?v=1790023015",
+        "title": "NACT-188 由良佳奈｜143cm極小尺寸",
+        "catalog_code": "NACT-188",
+        "release_date": "2026-09-20",
+        "performers": [
+          "由良佳奈"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "cosplay",
+            "label": "角色扮演"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/nact-188/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27387"
+      ],
+      "search": {
+        "source_title": "【143cm極小尺寸×動漫音】『請讓我舒服到不行◆』垃圾場撿到的玩偶竟然人間化！戴上項圈與牽繩完全服從的蘿莉寵物絕頂交尾 由良佳奈",
+        "article_title": "NACT-188 由良佳奈｜143cm極小尺寸",
+        "display_short_title": null,
+        "slug": "nact-188"
       }
     },
     {
