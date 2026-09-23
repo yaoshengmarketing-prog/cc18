@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:bc4439f1ce19f14f28b76f4b116a5e3f0b60eb95a2a792c1e31ca73b7041df1d",
-  "source_generated_at": "2026-09-23T06:45:06.762Z",
+  "source_revision": "sha256:2c79bd368db7d24c445ee4391536da80e4e7c003c9532c8e153c2e81fe31d4f9",
+  "source_generated_at": "2026-09-23T06:50:08.695Z",
   "counts": {
-    "movies": 270,
+    "movies": 271,
     "performers": 259,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -448,7 +448,8 @@
       "source_name": "天川そら",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:EKDV-826"
+        "cc18:EKDV-826",
+        "cc18:ROYD-362"
       ]
     },
     {
@@ -4967,6 +4968,59 @@
         "article_title": "NOSKN-104 糸井瑠花 × 美少女設定｜糸井瑠花",
         "display_short_title": null,
         "slug": "noskn-104"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:ROYD-362",
+        "source_cover": "https://cc18.tv/preview/80/b/y4ZpBH12W9U-800.jpg?v=1789821548",
+        "title": "ROYD-362 天川そら｜我幫你舔雞巴",
+        "catalog_code": "ROYD-362",
+        "release_date": "2026-09-18",
+        "performers": [
+          "天川そら"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "coworker",
+            "label": "同事／部下"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/royd-362/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:24396"
+      ],
+      "search": {
+        "source_title": "我幫你舔雞巴，所以請假裝成我的男朋友！為了讓催婚的父母安心，我成了超可愛同期女同事的一日男友 天川空",
+        "article_title": "ROYD-362 天川そら｜我幫你舔雞巴",
+        "display_short_title": null,
+        "slug": "royd-362"
       }
     },
     {

@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "ROYD-362",
+  "review_sha256": "1ac772abbd7247caa55dd4e53842d00cb91e356387dfb3d1a4c7a318d18eb20d",
+  "selected_thesis": "來源資料可確認本作以「我幫你舔雞巴」作為主要作品線索。",
+  "title_basis": {
+    "performer": "天川そら",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "天川そら",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "我幫你舔雞巴",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "超カワイイ同期女子の一日彼氏になったボク",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "天川そら",
+    "presentation_feature": "我幫你舔雞巴",
+    "editorial_judgment": "來源資料可確認本作以「我幫你舔雞巴」作為主要作品線索。",
+    "source_keywords": [
+      "天川そら",
+      "我幫你舔雞巴",
+      "超カワイイ同期女子の一日彼氏になったボク",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "我成了超可愛同期女同事的一日男友。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：天川そら",
+      "supports": "這項可追溯來源訊號支持文章以「天川そら」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：超カワイイ同期女子の一日彼氏になったボク",
+      "supports": "這項可追溯來源訊號支持文章以「超カワイイ同期女子の一日彼氏になったボク」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：我幫你舔雞巴",
+      "supports": "這項可追溯來源訊號支持文章以「我幫你舔雞巴」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "relationship：部下・同僚",
+      "supports": "這項可追溯來源訊號支持文章以「部下・同僚」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-22T16:00:00.000Z"
+}
