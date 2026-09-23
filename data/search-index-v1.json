@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:606e92fb7f9fba49107a87b75e959fab141218ab279476b5bda935b5835ed10d",
-  "source_generated_at": "2026-09-23T01:07:44.828Z",
+  "source_revision": "sha256:08a2c5e8c4eaa87e7128902076104fc5d6ead0be8bf21a627b09a24e806c43ba",
+  "source_generated_at": "2026-09-23T01:12:13.976Z",
   "counts": {
-    "movies": 258,
-    "performers": 254,
+    "movies": 259,
+    "performers": 255,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -416,6 +416,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SDJS-382"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28434",
+      "display_name": "五日市芽依",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "五日市芽依",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DSOD-080"
       ]
     },
     {
@@ -3801,6 +3812,59 @@
         "article_title": "DSOD-074 姫咲華｜悶熱",
         "display_short_title": null,
         "slug": "dsod-074"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DSOD-080",
+        "source_cover": "https://cc18.tv/preview/80/b/ekK5dkRL54N-800.jpg?v=1789821553",
+        "title": "DSOD-080 五日市芽依｜偷拍是嗎：以企劃懸念帶動判斷的一作",
+        "catalog_code": "DSOD-080",
+        "release_date": "2026-09-18",
+        "performers": [
+          "五日市芽依"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "gyaru",
+            "label": "辣妹"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dsod-080/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28434"
+      ],
+      "search": {
+        "source_title": "「偷拍是嗎？有種嘛！」用手淫＆摳穴邊緣控射讓來實家旅館投訴的客人腦高潮到失神…將你誘向快感極限的前辣妹年輕女將！ 五日市芽依",
+        "article_title": "DSOD-080 五日市芽依｜偷拍是嗎：以企劃懸念帶動判斷的一作",
+        "display_short_title": null,
+        "slug": "dsod-080"
       }
     },
     {

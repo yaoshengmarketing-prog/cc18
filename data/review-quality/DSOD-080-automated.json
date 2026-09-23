@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "DSOD-080",
+  "checked_at": "2026-09-23T01:10:41.552Z",
+  "review_sha256": "97e2e16c9a9b24d22b948e0ce9e9e23c0088676888224fadeda63648b5e444a2",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資料，這部作品最明確的選片核心就是標題直接拋出的「偷拍是嗎」這個企劃概念。它不是一般單純靠人物標籤堆疊的作品，而是先用一個帶有疑問句感的設定把觀眾拉進來，形成明顯的懸念。對選片來說，這代表它的吸引力首先來自企劃包裝與前提想像，而不只是單一動作或規格資訊。五"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "目前公開介紹中，唯一較具體的人物背景是「芽依與青梅竹馬結婚後，繼承了實家的旅館」。這段資訊的價值不在於它已經證明了後續劇情如何展開，而在於它先建立出一個帶有婚後身分、舊識關係與家業場域的起點。這使作品不只是以抽象的成人標籤出發，而是有一個相對完整的生活設定作為包裝。對選片判斷來說"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "從可用來源來看，五日市芽依身上最清楚的形象訊號，是「美少女設定」與「辣妹風格」。這兩個標籤放在一起時，會形成一種相對直觀的選片方向：一方面強調外型印象與角色辨識度，另一方面也讓整體包裝更偏向醒目、外放、容易建立第一印象的路線。再加上來源中有「癡女」這個身份標籤，作品的宣傳重心就不"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
