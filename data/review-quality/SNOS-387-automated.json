@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "SNOS-387",
+  "checked_at": "2026-09-23T17:01:28.400Z",
+  "review_sha256": "7c8f38cb1c02de1566dbcb9d8a2010e8970a1540437bfb11ed086f51f26c5188",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只根據目前可追溯的公開資訊，這部片最明確的選片重點不是劇情設定，而是「村上悠華」本身被放在作品識別的核心位置。公開資料中的 core source concept 與來源摘錄都直接指向村上悠華，顯示本作的辨識方式偏向以演出者為中心，而非靠完整故事前提、角色關係或場景設定來吸引觀"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "以現有來源判斷，這部片較適合歸入展示型企劃的閱讀方式。原因不在於我們已知它有哪些具體段落，而是因為所有可確認的公開訊號幾乎都圍繞在演出者姓名與高強度性表現標籤，缺少故事背景、人物關係、空間設定等能支撐敘事型評論的基礎。換句話說，這類作品的選片關鍵通常不在「故事怎麼展開」，而在「你"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

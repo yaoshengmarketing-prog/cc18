@@ -402,13 +402,14 @@
     },
     {
       "label": "電動按摩棒",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "CMJU-008",
-        "TGBS-003"
+        "TGBS-003",
+        "SNOS-387"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-12",
+      "last_seen": "2026-09-24",
       "status": "quarantined"
     },
     {
@@ -651,7 +652,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 28,
+      "occurrences": 29,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -680,10 +681,11 @@
         "SNOS-400",
         "MXGS-1447",
         "NACT-184",
-        "FLAV-428"
+        "FLAV-428",
+        "SNOS-387"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "status": "quarantined"
     },
     {
@@ -1651,7 +1653,7 @@
     },
     {
       "label": "拘束",
-      "occurrences": 10,
+      "occurrences": 11,
       "source_ids": [
         "BBTU-119",
         "DDK-241",
@@ -1662,10 +1664,11 @@
         "PTS-555",
         "SNOS-377",
         "JUR-866",
-        "NACT-185"
+        "NACT-185",
+        "SNOS-387"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "status": "quarantined"
     },
     {

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:8ee8ed15b96e5a4fd598b38ce22307f02d4e5a723feb260b1e130a217dfdaf59",
-  "source_generated_at": "2026-09-23T12:07:59.027Z",
+  "source_revision": "sha256:3b007d030e12cd2a9716939941dd290bfc5a0598476eac99f1816afc904820b4",
+  "source_generated_at": "2026-09-23T17:03:24.150Z",
   "counts": {
-    "movies": 278,
-    "performers": 265,
+    "movies": 279,
+    "performers": 266,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1147,6 +1147,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PPPE-442"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28669",
+      "display_name": "村上悠華",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "村上悠華",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-387"
       ]
     },
     {
@@ -5572,6 +5583,55 @@
         "article_title": "SNOS-377 河北彩花｜覺醒成了抖M：以角色變化為主軸的企劃型作品",
         "display_short_title": null,
         "slug": "snos-377"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-387",
+        "source_cover": "https://cc18.tv/preview/80/b/viWpLaXv7L-800.jpg?v=1789799971",
+        "title": "SNOS-387 村上悠華 × AV女優片｜村上悠華｜以人物名義為核心的展示型企劃判讀",
+        "catalog_code": "SNOS-387",
+        "release_date": "2026-09-18",
+        "performers": [
+          "村上悠華"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-387/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28669"
+      ],
+      "search": {
+        "source_title": "餵食了一萬部AV的AI所教導的、將女性性感徹底摧毀的瘋狂絕頂全餐 村上悠華",
+        "article_title": "SNOS-387 村上悠華 × AV女優片｜村上悠華｜以人物名義為核心的展示型企劃判讀",
+        "display_short_title": null,
+        "slug": "snos-387"
       }
     },
     {
