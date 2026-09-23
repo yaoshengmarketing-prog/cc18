@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "NSFS-514",
+  "review_sha256": "e72f2e8ca486f9dc5392df8852a028142a2561e27d17dc06df5de34d96a12478",
+  "selected_thesis": "來源資料可確認本作以「超屈辱」作為主要作品線索。",
+  "title_basis": {
+    "performer": "虹村ゆみ",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "虹村ゆみ",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "超屈辱",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "超屈辱！！社員旅行で全員のおもちゃにされてしまった妻",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "虹村ゆみ",
+    "presentation_feature": "超屈辱",
+    "editorial_judgment": "來源資料可確認本作以「超屈辱」作為主要作品線索。",
+    "source_keywords": [
+      "虹村ゆみ",
+      "超屈辱",
+      "超屈辱！！社員旅行で全員のおもちゃにされてしまった妻",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "妻子由美失去了公司所有的功績。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "為了丈夫，她接受了社長的「特別要求」，參加了屈辱的員工旅行。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "在密室般的溫泉旅館中，妻子逐漸淪為男人們慾望的玩具。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：虹村ゆみ",
+      "supports": "這項可追溯來源訊號支持文章以「虹村ゆみ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：超屈辱！！社員旅行で全員のおもちゃにされてしまった妻",
+      "supports": "這項可追溯來源訊號支持文章以「超屈辱！！社員旅行で全員のおもちゃにされてしまった妻」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：超屈辱",
+      "supports": "這項可追溯來源訊號支持文章以「超屈辱」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻・主婦",
+      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-22T16:00:00.000Z"
+}

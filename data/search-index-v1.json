@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:976c0c68ef7127e226dea7d1b14932943569d9f5331ba0807cefccb95bf78c38",
-  "source_generated_at": "2026-09-23T11:46:31.941Z",
+  "source_revision": "sha256:1e03084ee018fe07878c268d06f65baadde6ea4d5206540646f5a046c90a4e89",
+  "source_generated_at": "2026-09-23T11:51:31.066Z",
   "counts": {
-    "movies": 274,
+    "movies": 275,
     "performers": 262,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -1881,7 +1881,8 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DOKS-690",
-        "cc18:DSJH-020"
+        "cc18:DSJH-020",
+        "cc18:NSFS-514"
       ]
     },
     {
@@ -3792,6 +3793,59 @@
         "article_title": "NSFS-513 Nia（伊東愛瑠）｜沉沦于员工之手的社长夫人：以角色變化帶動的劇情設定片",
         "display_short_title": null,
         "slug": "nsfs-513"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:NSFS-514",
+        "source_cover": "https://cc18.tv/preview/80/b/o4UA6akyBX-800.jpg?v=1789972673",
+        "title": "NSFS-514 虹村ゆみ｜超屈辱",
+        "catalog_code": "NSFS-514",
+        "release_date": "2026-09-19",
+        "performers": [
+          "虹村ゆみ"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/nsfs-514/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:30283"
+      ],
+      "search": {
+        "source_title": "超屈辱！！在員工旅行中被所有人當成玩具的妻子8 虹村由美",
+        "article_title": "NSFS-514 虹村ゆみ｜超屈辱",
+        "display_short_title": null,
+        "slug": "nsfs-514"
       }
     },
     {

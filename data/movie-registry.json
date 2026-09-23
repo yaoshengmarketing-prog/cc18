@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-23T11:46:18.321Z",
+  "updated_at": "2026-09-23T11:51:17.556Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -4160,6 +4160,21 @@
       ],
       "release_date": "2026-09-19",
       "source_url": "https://cc18.tv/player.php?uuid=eIziwAI47G&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-23"
+    },
+    {
+      "id": "NSFS-514",
+      "actress": [
+        "虹村ゆみ"
+      ],
+      "release_date": "2026-09-19",
+      "source_url": "https://cc18.tv/player.php?uuid=o4UA6akyBX&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

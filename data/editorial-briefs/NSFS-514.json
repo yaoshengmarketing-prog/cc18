@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "id": "NSFS-514",
+  "generated_at": "2026-09-23T11:49:52.830Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "gpt-5.4",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/NSFS-514.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "超屈辱",
+    "premise": "作品以「超屈辱」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「超屈辱」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "超屈辱",
+      "虹村由美"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "人妻・主婦"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "3p・4p"
+    ],
+    "presentation": [
+      "戲劇、連續劇",
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "angle_candidates": [
+    "來源資料可確認本作以「超屈辱」作為主要作品線索。",
+    "超屈辱！！社員旅行で全員のおもちゃにされてしまった妻的企劃呈現與觀看取向",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "來源資料可確認本作以「超屈辱」作為主要作品線索。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "虹村ゆみ",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "超屈辱",
+      "source_field": "title"
+    },
+    {
+      "type": "series",
+      "value": "超屈辱！！社員旅行で全員のおもちゃにされてしまった妻",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "title": "NSFS-514 虹村ゆみ｜超屈辱",
+  "seo_title": "NSFS-514 虹村ゆみ｜作品資料｜超屈辱",
+  "social_title": "NSFS-514｜超屈辱",
+  "short_review": "來源資料可確認本作以「超屈辱」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+  "editorial_angle": "來源資料可確認本作以「超屈辱」作為主要作品線索。",
+  "editorial_tag_ids": [],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "妻子由美失去了公司所有的功績。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "為了丈夫，她接受了社長的「特別要求」，參加了屈辱的員工旅行。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "在密室般的溫泉旅館中，妻子逐漸淪為男人們慾望的玩具。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：虹村ゆみ",
+      "supports": "這項可追溯來源訊號支持文章以「虹村ゆみ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：超屈辱！！社員旅行で全員のおもちゃにされてしまった妻",
+      "supports": "這項可追溯來源訊號支持文章以「超屈辱！！社員旅行で全員のおもちゃにされてしまった妻」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：超屈辱",
+      "supports": "這項可追溯來源訊號支持文章以「超屈辱」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻・主婦",
+      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "公開內容只保留可追溯的來源資料整理。"
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "decision_guide": {
+    "thesis": "來源資料可確認本作以「超屈辱」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "虹村ゆみ",
+      "超屈辱！！社員旅行で全員のおもちゃにされてしまった妻",
+      "高畫質",
+      "獨家配信"
+    ],
+    "audience_for": [
+      "想先依來源題材與作品設定挑選的觀眾",
+      "接受目前只提供來源資料整理的觀眾"
+    ],
+    "audience_not_for": [
+      "需要影片抽樣觀察才能決定的觀眾",
+      "需要鏡位、收音或段落變化結論的觀眾"
+    ],
+    "questions_answered": [
+      "來源資料可確認什麼？來源資料可確認本作以「超屈辱」作為主要作品線索。",
+      "目前能否提供影片觀察？目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+      "如何使用本頁？可先依來源題材與作品識別資訊判斷是否符合偏好。"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "來源資料與選片範圍",
+      "body": "來源資料可確認本作以「超屈辱」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。"
+    }
+  ]
+}

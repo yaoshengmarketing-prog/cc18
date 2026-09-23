@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "movie_id": "NSFS-514",
+  "generated_at": "2026-09-23T11:49:53.005Z",
+  "source_snapshot_hash": "sha256:5dfe7b6a13507fda2a1efdeb2fbacd58b999e86fb652bf4b8c5b64048d58d71b",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "來源資料可確認本作以「超屈辱」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "虹村ゆみ",
+      "超屈辱！！社員旅行で全員のおもちゃにされてしまった妻",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想先依來源題材與作品設定挑選的觀眾",
+      "接受目前只提供來源資料整理的觀眾"
+    ],
+    "not_for": [
+      "需要影片抽樣觀察才能決定的觀眾",
+      "需要鏡位、收音或段落變化結論的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "DOKS-690",
+      "relation_type": "same_performer",
+      "reason": "同樣由虹村ゆみ出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "虹村ゆみ"
+      ],
+      "contrast_signals": [
+        "清巳玲乃",
+        "口交"
+      ]
+    },
+    {
+      "movie_id": "DSJH-020",
+      "relation_type": "same_performer",
+      "reason": "同樣由虹村ゆみ出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "虹村ゆみ"
+      ],
+      "contrast_signals": [
+        "椿莉香",
+        "美之嶋惠理"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "來源資料可確認什麼？來源資料可確認本作以「超屈辱」作為主要作品線索。",
+    "目前能否提供影片觀察？目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "如何使用本頁？可先依來源題材與作品識別資訊判斷是否符合偏好。"
+  ]
+}

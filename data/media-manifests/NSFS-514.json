@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "NSFS-514",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-23T11:50:36.235Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/NSFS-514/hero-v1.jpg",
+      "r2_key": "works/2026/09/NSFS-514/hero-v1.jpg",
+      "bytes": 476822,
+      "sha256": "4471e8eb48f443cabf51aa2c7c317ce9ae7ae862f680bcce1e2570239e755a00",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "02b9450f-094f-4d9f-9328-da70c12d178c",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/NSFS-514/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/NSFS-514/scene-vertical-v1.jpg",
+      "bytes": 668195,
+      "sha256": "61fbdfed39dfc16d3d9b60f27240dd317a50735681848f8069bec66022803e2a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "063076a0-ea07-4b5d-9521-0ecff6d73d3a",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2333385,
+    "sha256": "4d83cc507bde59746bf1298fd4f8d319fe21ac38f5a96481cfac98889b068946",
+    "target_r2_key": "works/2026/09/NSFS-514/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/NSFS-514/vertical-v1.mp4"
+  }
+}
