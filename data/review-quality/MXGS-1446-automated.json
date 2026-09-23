@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "MXGS-1446",
+  "checked_at": "2026-09-23T12:05:59.393Z",
+  "review_sha256": "7d06459d4e9cf363c6fc7f2b4d3083ccd185fc4a554621a5c197accf3f02a020",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最明確的選片理由，是它由「出張相部屋」這個系列／企劃概念直接帶出觀看預期。就公開資料來看，這不是單靠單一動作標籤成立的作品，而是以企劃名稱作為辨識核心；因此若你本來就會優先挑選帶有明確框架感的系列作，這支會比一般零散題材更容易判斷方向。再加上演出者為朝日莉緒，公開標籤中還有 OL"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "來源中的動作元素列有中出、顏射、親吻與アクメ・オーガズム。這些標籤能幫助觀眾快速確認刺激類型的大方向，但在沒有更多公開介紹與影像驗證的情況下，較適合作為題材索引，而不是拿來延伸成具體段落、節奏安排或表現方式。換句話說，如果你選片時會先看動作偏好，這部的來源標示算是清楚；但真正使它"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "如果你偏好從系列企劃切入、重視題材辨識度，而且對 OL 與同僚關係這類職場框架有興趣，MXGS-1446 會是相對好判斷的一支。朝日莉緒本身也是明確可追溯的選片依據，能讓熟悉演出者的觀眾直接建立基本期待。相對地，若你追求的是公開資料就能看出完整劇情走向、角色轉折或場景設計的作品，"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

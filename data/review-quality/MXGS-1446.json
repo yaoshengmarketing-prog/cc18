@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "MXGS-1446",
+  "review_sha256": "280790cca42a2166b28478a032d011dd4412ef3feaf281a24496b6a303cc2836",
+  "selected_thesis": "朝日莉緒的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "朝日莉緒",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "朝日莉緒",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "出張相部屋",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "OL",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "relationship",
+        "value": "部下・同僚",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "朝日莉緒",
+    "presentation_feature": "出張相部屋",
+    "editorial_judgment": "朝日莉緒的企劃呈現與觀看取向",
+    "source_keywords": [
+      "朝日莉緒",
+      "出張相部屋",
+      "OL",
+      "部下・同僚"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：朝日莉緒",
+      "supports": "這項可追溯來源訊號支持文章以「朝日莉緒」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：出張相部屋",
+      "supports": "這項可追溯來源訊號支持文章以「出張相部屋」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：出張相部屋",
+      "supports": "這項可追溯來源訊號支持文章以「出張相部屋」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：OL",
+      "supports": "這項可追溯來源訊號支持文章以「OL」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：窈窕",
+      "supports": "這項可追溯來源訊號支持文章以「窈窕」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "relationship：部下・同僚",
+      "supports": "這項可追溯來源訊號支持文章以「部下・同僚」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-22T16:00:00.000Z"
+}

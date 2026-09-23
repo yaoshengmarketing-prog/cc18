@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-23T12:02:29.454Z",
+  "updated_at": "2026-09-23T12:07:45.203Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -4205,6 +4205,21 @@
       ],
       "release_date": "2026-09-18",
       "source_url": "https://cc18.tv/player.php?uuid=9nvzfOg2yD&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-23"
+    },
+    {
+      "id": "MXGS-1446",
+      "actress": [
+        "朝日莉緒"
+      ],
+      "release_date": "2026-09-16",
+      "source_url": "https://cc18.tv/player.php?uuid=B172fWPMdu&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
