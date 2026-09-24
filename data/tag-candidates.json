@@ -453,7 +453,7 @@
     },
     {
       "label": "制服",
-      "occurrences": 12,
+      "occurrences": 13,
       "source_ids": [
         "SNOS-409",
         "SNOS-369",
@@ -466,10 +466,11 @@
         "SQTE-716",
         "BANK-248",
         "CLOT-044",
-        "SNOS-367"
+        "SNOS-367",
+        "SNOS-403"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "status": "quarantined"
     },
     {
@@ -874,14 +875,15 @@
     },
     {
       "label": "修長",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "SNOS-401",
         "REBD-1065",
-        "REBD-1063"
+        "REBD-1063",
+        "SNOS-403"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-15",
+      "last_seen": "2026-09-24",
       "status": "quarantined"
     },
     {

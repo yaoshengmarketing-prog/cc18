@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-23T23:59:06.060Z",
+  "generated_at": "2026-09-24T00:03:40.082Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 287,
-  "formal_movie_count": 286,
+  "tracked_input_count": 288,
+  "formal_movie_count": 287,
   "demo_count": 1,
-  "published_count": 283,
+  "published_count": 284,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2312,6 +2312,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "a0ac33172212d6b3f3fc46775795b45ad6597d52921ec0bae97272d36ae160b5"
+    },
+    {
+      "stable_movie_id": "cc18:SNOS-403",
+      "catalog_code": "SNOS-403",
+      "slug": "snos-403",
+      "master_path": "data/movie-master/snos-403.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "282b45876414b666da5e9405055bfd318ac6c81039121cb3147c189164776d1f"
     },
     {
       "stable_movie_id": "cc18:SNOS-409",

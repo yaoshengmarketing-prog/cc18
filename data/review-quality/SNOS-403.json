@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-403",
+  "review_sha256": "ccb5d01d85fb5278f47070755fd926fb1864c52ec80012bc4869b3e6a3b16359",
+  "selected_thesis": "白上咲花的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "白上咲花",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "白上咲花",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "setting",
+        "value": "學生設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "白上咲花",
+    "presentation_feature": "美少女設定",
+    "editorial_judgment": "白上咲花的企劃呈現與觀看取向",
+    "source_keywords": [
+      "白上咲花",
+      "美少女設定",
+      "學生設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：白上咲花",
+      "supports": "這項可追溯來源訊號支持文章以「白上咲花」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：美少女設定",
+      "supports": "這項可追溯來源訊號支持文章以「美少女設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "setting：學生設定",
+      "supports": "這項可追溯來源訊號支持文章以「學生設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：白上咲花",
+      "supports": "這項可追溯來源訊號支持文章以「白上咲花」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：美少女",
+      "supports": "這項可追溯來源訊號支持文章以「美少女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-23T16:00:00.000Z"
+}
