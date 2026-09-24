@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:d39868c1500fdb35c802e5467744a0f00d0735dbd6993a0915a56d50e469ea2f",
-  "source_generated_at": "2026-09-24T00:03:40.082Z",
+  "source_revision": "sha256:7764ae99a6e1b4c288d3378515347e0ae81f74ce1c50d72dcc07f084b10e924f",
+  "source_generated_at": "2026-09-24T00:08:12.039Z",
   "counts": {
-    "movies": 284,
-    "performers": 270,
+    "movies": 285,
+    "performers": 271,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2701,6 +2701,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:UMD-1019"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:926",
+      "display_name": "夢乃愛華",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "夢乃愛華",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-405"
       ]
     },
     {
@@ -6240,6 +6251,55 @@
         "article_title": "SNOS-403 白上咲花｜美少女學生設定的展示型企劃",
         "display_short_title": null,
         "slug": "snos-403"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-405",
+        "source_cover": "https://cc18.tv/preview/80/b/1HINbl537eG-800.jpg?v=1789799970",
+        "title": "SNOS-405 夢乃愛華｜不穿內衣搭滿員電車",
+        "catalog_code": "SNOS-405",
+        "release_date": "2026-09-18",
+        "performers": [
+          "夢乃愛華"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "office-lady",
+            "label": "OL"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-405/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:926"
+      ],
+      "search": {
+        "source_title": "忘不了在人潮中被揉捏的快感，不穿內衣搭滿員電車，渴望被痴漢的色情OL 夢乃愛華",
+        "article_title": "SNOS-405 夢乃愛華｜不穿內衣搭滿員電車",
+        "display_short_title": null,
+        "slug": "snos-405"
       }
     },
     {

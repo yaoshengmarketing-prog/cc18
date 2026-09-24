@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-405",
+  "generated_at": "2026-09-24T00:06:38.626Z",
+  "source_snapshot_hash": "sha256:c00871d3b6d198b5064247b10a803e7c1b2c399dbd86d2771abea3433758425a",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "來源資料可確認本作以「不穿內衣搭滿員電車」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "夢乃愛華",
+      "高畫質",
+      "獨家配信",
+      "不穿內衣搭滿員電車"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想先依來源題材與作品設定挑選的觀眾",
+      "接受目前只提供來源資料整理的觀眾"
+    ],
+    "not_for": [
+      "需要影片抽樣觀察才能決定的觀眾",
+      "需要鏡位、收音或段落變化結論的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "來源資料可確認什麼？來源資料可確認本作以「不穿內衣搭滿員電車」作為主要作品線索。",
+    "目前能否提供影片觀察？目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "如何使用本頁？可先依來源題材與作品識別資訊判斷是否符合偏好。"
+  ]
+}
