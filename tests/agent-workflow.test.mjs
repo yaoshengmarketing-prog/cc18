@@ -60,14 +60,22 @@ test('handoff envelope and source-of-truth boundaries are explicit', () => {
 
 test('production scheduling drains the D1 queue serially without a daily work limit', () => {
   assert.equal(config.production_schedule_enabled, true);
-  assert.equal(config.production_schedule.trigger, 'hourly_github_actions');
+  assert.equal(config.production_schedule.trigger, 'hourly_github_discovery_with_local_serial_drain');
   assert.equal(config.production_schedule.cron_utc, '17 * * * *');
+  assert.equal(config.production_schedule.discovery_executor, 'github_actions');
+  assert.equal(config.production_schedule.queue_drain_executor, 'local_windows_scheduled_task');
+  assert.equal(config.production_schedule.local_drain_interval_minutes, 15);
+  assert.equal(config.production_schedule.local_drain_time_budget_minutes, 50);
   assert.equal(config.production_schedule.queue_authority, 'cloudflare_d1');
   assert.equal(config.production_schedule.enqueue_all_eligible, true);
   assert.equal(config.production_schedule.daily_work_limit, null);
   assert.equal(config.production_schedule.maximum_parallel_works, 1);
   assert.equal(config.production_schedule.drain_until_empty, true);
   assert.equal(pipeline.production.mode, 'scheduled_serial');
+  assert.equal(pipeline.production.discovery_executor, 'github_actions');
+  assert.equal(pipeline.production.drain_executor, 'local_windows_scheduled_task');
+  assert.equal(pipeline.production.drain_interval_minutes, 15);
+  assert.equal(pipeline.production.drain_time_budget_minutes, 50);
   assert.equal(pipeline.production.batch_size, 1);
   assert.equal(pipeline.production.max_parallel, 1);
   assert.equal(Object.hasOwn(pipeline.discovery, 'hard_discovery_cap'), false);

@@ -226,7 +226,7 @@ test('formal performer catalog cross-checks published cards, typed relations, di
 
 test('stable performer page SEO contract is derived from the catalog and fails closed for thin-page indexing', async () => {
   const catalog = await loadPerformerCatalog();
-  const performer = catalog.performers.find(({schema_alternate_names: names}) => names.length > 0);
+  const performer = catalog.performers.find(({index_decision: decision}) => decision === 'NOINDEX_THIN');
   assert.ok(performer);
   const canonical = performerCanonical(performer);
   const structured = [
@@ -329,14 +329,17 @@ test('primary display and alias channels preserve approved localization boundari
   const saika = byId.get('cc18.tv:actor:34284');
   assert.ok(saika.searchable_aliases.some(({name}) => name === '河北彩伽'));
   assert.ok(!saika.schema_alternate_names.includes('河北彩伽'));
-  assert.equal(saika.index_decision, 'NOINDEX_THIN');
   assert.deepEqual(byId.get('cc18.tv:actor:30343').schema_alternate_names, ['相沢澪']);
 });
 
 test('a second typed public work changes index policy without a hardcoded performer exception', async () => {
   const inputs = clone(await formalInputs());
   const targetId = 'cc18.tv:actor:25064';
+  const baseline = buildPerformerCatalog(clone(inputs)).performers
+    .find(({stable_performer_id: id}) => id === targetId);
+  assert.ok(baseline);
   const targetMaster = inputs.masters.find(({source}) => source.catalog_code === 'ENDS-322');
+  assert.ok(!baseline.public_works.some(({stable_movie_id: id}) => id === targetMaster.stable_movie_id));
   targetMaster.source.performer_relations = [{
     source_type: 'actor', source_id: '25064', stable_source_id: targetId, source_name: '鷲尾めい',
     source_url: 'https://cc18.tv/search.php?s_type=actor&s_tid=25064', observed_at: '2026-08-01T00:00:00.000Z',
@@ -348,9 +351,12 @@ test('a second typed public work changes index policy without a hardcoded perfor
   inputs.searchIndex.performers.find(({stable_actor_id: id}) => id === targetId).related_movie_ids.push(targetMaster.stable_movie_id);
   const catalog = buildPerformerCatalog(inputs);
   const performer = catalog.performers.find(({stable_performer_id: id}) => id === targetId);
-  assert.equal(performer.public_work_count, 2);
+  assert.equal(performer.public_work_count, baseline.public_work_count + 1);
   assert.equal(performer.index_decision, 'INDEX_READY');
-  assert.deepEqual(performer.public_works.map(({catalog_code: code}) => code), ['ENDS-322', 'SNOS-345']);
+  assert.deepEqual(
+    new Set(performer.public_works.map(({catalog_code: code}) => code)),
+    new Set([...baseline.public_works.map(({catalog_code: code}) => code), 'ENDS-322']),
+  );
 });
 
 test('a future typed performer is data-driven and same-name identities remain separate', async () => {

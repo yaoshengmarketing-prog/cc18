@@ -140,9 +140,13 @@
     }
   },
   "production_schedule": {
-    "trigger": "hourly_github_actions",
+    "trigger": "hourly_github_discovery_with_local_serial_drain",
     "cron_utc": "17 * * * *",
     "timezone": "UTC",
+    "discovery_executor": "github_actions",
+    "queue_drain_executor": "local_windows_scheduled_task",
+    "local_drain_interval_minutes": 15,
+    "local_drain_time_budget_minutes": 50,
     "queue_authority": "cloudflare_d1",
     "enqueue_all_eligible": true,
     "daily_work_limit": null,
