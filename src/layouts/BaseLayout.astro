@@ -34,6 +34,18 @@ const jsonLd = structuredData
 <html lang="zh-Hant">
   <head>
     <meta charset="UTF-8" />
+    {import.meta.env.PROD && <script is:inline>
+      if (window.location.hostname === 'jav.com.tw') {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-0FG819HD2T');
+        const tag = document.createElement('script');
+        tag.async = true;
+        tag.src = 'https://www.googletagmanager.com/gtag/js?id=G-0FG819HD2T';
+        document.head.appendChild(tag);
+      }
+    </script>}
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
     <meta name="robots" content={robots} />
