@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "MARN-007",
+  "review_sha256": "23520e0b018da962facb9db26afb3ebb041d59a42a2889d5e7a709da03dda032",
+  "selected_thesis": "MARN-007 的可追溯賣點集中在《阿紐》概念、三木環奈與印象寫真式的展示標籤；若你要找的是已被公開資訊清楚支撐的劇情片，這部目前更適合用『企劃辨識度』來評估。",
+  "title_basis": {
+    "performer": "三木環奈",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "三木環奈",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "アニュー",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "印象寫真",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "三木環奈",
+    "presentation_feature": "アニュー",
+    "editorial_judgment": "以《阿紐／アニュー》這個核心概念為中心，判斷 MARN-007 更接近由系列名稱、演員辨識度與展示標籤共同支撐的選片，而不是已有充分公開劇情可供驗證的故事片。",
+    "source_keywords": [
+      "三木環奈",
+      "アニュー",
+      "AV女優片",
+      "印象寫真"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開來源已明示演員為三木環奈，因此她本身就是最直接的選片依據之一。",
+      "basis": "public_source",
+      "signal": "performer: 三木環奈"
+    },
+    {
+      "observation_refs": [],
+      "supports": "系列欄位與核心概念都指向アニュー，且來源概念另收錄『阿紐』，足以把這個名稱視為本作最需要優先保留的識別點。",
+      "basis": "public_source",
+      "signal": "core concept: アニュー／阿紐"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤中可穩定確認的成人主題是『AV女優片』，比起未提供的劇情資訊更適合作為標題與選片說明的主軸。",
+      "basis": "public_source",
+      "signal": "identity: AV女優片"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源同時列出『印象寫真』與多個畫質標示，顯示目前可見資訊較偏向展示形式與呈現規格，而不是角色關係或情節摘要。",
+      "basis": "public_source",
+      "signal": "presentation: 印象寫真／720p／HD／4k"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱存在任何可確認的劇情主線或情節轉折",
+    "未聲稱已知人物關係、角色設定或互動結果",
+    "未聲稱已觀察到場景、鏡位、聲音、剪輯或表演細節",
+    "未將『角色變化』『互動節奏』寫成已發生的內容",
+    "未把畫質標示當成內容品質或實際觀看效果的保證"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-28T16:00:00.000Z"
+}

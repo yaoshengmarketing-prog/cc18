@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:7764ae99a6e1b4c288d3378515347e0ae81f74ce1c50d72dcc07f084b10e924f",
-  "source_generated_at": "2026-09-24T00:08:12.039Z",
+  "source_revision": "sha256:660f437dde866526b9386bf6530c9c96cd65cc358bf91aacd9fcd92c40c6bb82",
+  "source_generated_at": "2026-10-29T16:34:20.716Z",
   "counts": {
-    "movies": 285,
+    "movies": 286,
     "performers": 271,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -170,6 +170,7 @@
       "source_name": "三木環奈",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:MARN-007",
         "cc18:PPPE-440"
       ]
     },
@@ -3087,6 +3088,47 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:MARN-007",
+        "source_cover": "https://cc18.tv/preview/80/b/yGxJ918sYcJ-800.jpg?v=1793219792",
+        "title": "MARN-007 三木環奈｜AV女優片《阿紐》：先看企劃辨識度",
+        "catalog_code": "MARN-007",
+        "release_date": "2026-10-29",
+        "performers": [
+          "三木環奈"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "image-video",
+            "label": "印象寫真"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": false,
+        "href": "/works/marn-007/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:41927"
+      ],
+      "search": {
+        "source_title": "阿紐 三木環奈",
+        "article_title": "MARN-007 三木環奈｜AV女優片《阿紐》：先看企劃辨識度",
+        "display_short_title": null,
+        "slug": "marn-007"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:AMBI-214",

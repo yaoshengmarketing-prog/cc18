@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-24T00:08:12.039Z",
+  "generated_at": "2026-10-29T16:34:20.716Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 289,
-  "formal_movie_count": 288,
+  "tracked_input_count": 290,
+  "formal_movie_count": 289,
   "demo_count": 1,
-  "published_count": 285,
+  "published_count": 286,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1223,6 +1223,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "fc82de13309eea56ede47f964ea00bb0b00cd1c4816b9b2b57d86213afc73e39"
+    },
+    {
+      "stable_movie_id": "cc18:MARN-007",
+      "catalog_code": "MARN-007",
+      "slug": "marn-007",
+      "master_path": "data/movie-master/marn-007.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "c4df63816903bd694f530a48c5cf67baa5ea336d9fbf49c1f2bb157eae2e428d"
     },
     {
       "stable_movie_id": "cc18:MCSR-639",

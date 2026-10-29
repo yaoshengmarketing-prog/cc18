@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "movie_id": "MARN-007",
+  "generated_at": "2026-10-29T16:33:45.913Z",
+  "source_snapshot_hash": "sha256:2cbb1cb0c668532bee0154527bfae7d835628643d52664016fe2c8091b54a4b4",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "MARN-007 的可追溯賣點集中在《阿紐》概念、三木環奈與印象寫真式的展示標籤；若你要找的是已被公開資訊清楚支撐的劇情片，這部目前更適合用『企劃辨識度』來評估。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "優先從《阿紐／アニュー》這個名稱辨識作品企劃感。",
+      "以三木環奈作為主要觀看動機之一。",
+      "將『AV女優片』視為主要成人主題，不讓畫質詞彙取代內容判斷。",
+      "把『印象寫真』解讀為展示型訊號，而非劇情保證。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會因三木環奈而優先關注作品的人",
+      "對《阿紐／アニュー》這個名稱與系列辨識度有興趣的人",
+      "偏好印象寫真式展示感、接受公開資訊較精簡的觀眾"
+    ],
+    "not_for": [
+      "期待公開資料已明講完整劇情的人",
+      "會以人物關係、場景設定或情節轉折作為主要購片依據的人",
+      "希望先確認具體演出內容再決定的人"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "PPPE-440",
+      "relation_type": "same_performer",
+      "reason": "同樣由三木環奈出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "三木環奈"
+      ],
+      "contrast_signals": [
+        "家庭內深吻痴漢內射強姦",
+        "美少女設定"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部片最明確的選片鉤子是什麼？",
+    "公開資料比較支持劇情導向還是展示導向？",
+    "《阿紐》這個名稱對選片判斷有何作用？",
+    "哪些觀眾會比較適合先收這一部？"
+  ]
+}
