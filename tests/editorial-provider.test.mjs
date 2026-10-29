@@ -59,6 +59,24 @@ test('structured request uses Responses API schema and store false', async () =>
   assert.equal(result.text, '{"ok":true}');
 });
 
+test('structured request omits unsupported uniqueItems without changing the local schema', async () => {
+  const schema = {type: 'object', properties: {decision_guide: {type: 'object', properties: {
+    presentation: {type: 'array', uniqueItems: true, maxItems: 4, items: {type: 'string'}},
+  }}}};
+  let sentSchema;
+  await requestStructuredEditorial({
+    apiKey: 'test-only', config, schema, instructions: 'system', input: {movie_id: 'TEST-001'},
+    fetchImplementation: async (_url, options) => {
+      sentSchema = JSON.parse(options.body).text.format.schema;
+      return new Response(JSON.stringify({output: [{content: [{type: 'output_text', text: '{}'}]}]}), {status: 200});
+    },
+  });
+  assert.equal(schema.properties.decision_guide.properties.presentation.uniqueItems, true);
+  assert.deepEqual(sentSchema.properties.decision_guide.properties.presentation, {
+    type: 'array', maxItems: 4, items: {type: 'string'},
+  });
+});
+
 test('provider content filter uses one deterministic source fallback without repeating the prompt', async () => {
   let calls = 0;
   const result = await requestStructuredEditorial({

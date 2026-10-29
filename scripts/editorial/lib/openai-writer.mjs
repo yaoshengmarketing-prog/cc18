@@ -3,6 +3,18 @@ import {parseFirstJsonObject} from './provider-normalization.mjs';
 
 const wait = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
 
+// Responses API strict schemas do not accept uniqueItems. Keep the editorial
+// contract intact for local validation while sending only supported keywords.
+const providerSchema = (value) => {
+  if (Array.isArray(value)) return value.map(providerSchema);
+  if (value && typeof value === 'object') {
+    return Object.fromEntries(Object.entries(value)
+      .filter(([key]) => key !== 'uniqueItems')
+      .map(([key, entry]) => [key, providerSchema(entry)]));
+  }
+  return value;
+};
+
 const nestedProviderError = (message) => {
   if (typeof message !== 'string' || !message.trim().startsWith('{')) return null;
   try {
@@ -139,7 +151,7 @@ export async function requestStructuredEditorial({
               type: 'json_schema',
               name: 'cc18_editorial_draft',
               strict: true,
-              schema: repairPending ? blankFieldRepair.schema : schema,
+              schema: providerSchema(repairPending ? blankFieldRepair.schema : schema),
             },
           },
         }),

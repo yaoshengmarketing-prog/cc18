@@ -1,7 +1,7 @@
 import {access, readFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {pathToFileURL} from 'node:url';
-import {loadLatestAddedPromoCatalog} from '../src/lib/movie-master.mjs';
+import {loadLatestAddedMovieCardCatalog, loadLatestAddedPromoCatalog} from '../src/lib/movie-master.mjs';
 import {CATALOG_PAGE_SIZE} from '../src/lib/catalog-pagination.mjs';
 import {loadPerformerCatalog} from '../src/lib/performer-catalog.mjs';
 import {
@@ -92,6 +92,7 @@ const masters = await Promise.all(index.entries.map(async (entry) => {
   return master;
 }));
 const promoCatalog = await loadLatestAddedPromoCatalog({limit: 3});
+const latestAddedCatalog = await loadLatestAddedMovieCardCatalog();
 const expectedPublished = masters.filter(isPublicMovieCardMaster);
 const isValidDate = (value) => {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(value ?? '')) return false;
@@ -372,7 +373,12 @@ if ((latestHtml.match(/\[data-cover-fallback\]/g) ?? []).length !== 1) throw new
 if (latestHtml.includes('待補') || latestHtml.includes('演員資料待補')) throw new Error('Missing-value placeholder leaked into Latest');
 if (latestHtml.includes('/reviews/')) throw new Error('Legacy review URL leaked into Latest');
 if (!latestHtml.includes('依本站收錄時間排序；卡片日期為作品發行日。')) throw new Error('Latest date semantics are unclear');
-if (!homeHtml.includes('<section class="hero catalog-feature">')) throw new Error('Homepage Markdown featured Hero is missing');
+const heroHtml = homeHtml.match(/<section class="hero catalog-feature">([\s\S]*?)<\/section>/)?.[1];
+if (!heroHtml) throw new Error('Homepage latest published Hero is missing');
+if (!heroHtml.includes(`<p class="hero-number">${latestAddedCatalog.cards[0]?.catalog_code}</p>`)) {
+  throw new Error('Homepage Hero does not show the latest work published to this site');
+}
+if (!heroHtml.includes('<p class="eyebrow">最新收錄</p>')) throw new Error('Homepage Hero publication label is missing');
 if (!homeHtml.includes('data-cover-fallback="/images/movie-cover-fallback.svg"')) throw new Error('Homepage image fallback contract is missing');
 if ((homeHtml.match(/\[data-cover-fallback\]/g) ?? []).length !== 1) throw new Error('Homepage fallback handler must be emitted exactly once');
 if (homeHtml.includes('待補') || homeHtml.includes('演員資料待補')) throw new Error('Missing-value placeholder leaked into homepage');

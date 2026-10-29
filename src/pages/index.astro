@@ -7,14 +7,15 @@ import CatalogPagination from '../components/CatalogPagination.astro';
 import {catalogPages} from '../lib/catalog-pagination.mjs';
 import PromoVideoCard from '../components/PromoVideoCard.astro';
 import TagList from '../components/TagList.astro';
-import {byNewest, formatDate, reviewHref, reviewTagIds, visibleTags} from '../lib/reviews';
+import {reviewHref, reviewTagIds, visibleTags} from '../lib/reviews';
 import {loadLatestAddedMovieCardCatalog, loadLatestAddedPromoCatalog} from '../lib/movie-master.mjs';
 import {loadPerformerCatalog} from '../lib/performer-catalog.mjs';
 import {tagItems} from '../lib/taxonomy';
 
-const reviews = (await getCollection('reviews', ({data}) => data.status === 'published')).sort(byNewest);
-const featured = reviews.find(({data}) => data.featured) ?? reviews[0];
 const catalog = await loadLatestAddedMovieCardCatalog();
+const reviews = await getCollection('reviews', ({data}) => data.status === 'published');
+const featured = reviews.find(({data}) => data.id === catalog.cards[0]?.catalog_code);
+if (!featured) throw new Error('Homepage latest published work has no published review');
 const firstPage = catalogPages(catalog.cards)[0];
 const promoCatalog = await loadLatestAddedPromoCatalog({limit: 3});
 const performerCatalog = await loadPerformerCatalog();
@@ -44,7 +45,7 @@ const tags = tagItems(tagIds);
         <div class="film-edge" aria-hidden="true"></div>
       </div>
       <div class="hero-copy">
-        <p class="eyebrow">本週焦點 · {formatDate(featured.data.releaseDate)}</p>
+        <p class="eyebrow">最新收錄</p>
         <p class="hero-number">{featured.data.id}</p>
         <h1>{featured.data.title}</h1>
         <p class="hero-review">{featured.data.shortReview}</p>

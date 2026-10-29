@@ -571,7 +571,7 @@ test('promo projection fails when qualified candidates cannot satisfy the reques
   );
 });
 
-test('homepage keeps its Markdown featured Hero and shares latest_added with Latest', async () => {
+test('homepage Hero uses the latest published catalog work and shares latest_added with Latest', async () => {
   const [homePage, latestPage, latestAdded] = await Promise.all([
     readFile(new URL('../src/pages/index.astro', import.meta.url), 'utf8'),
     readFile(new URL('../src/pages/latest/[...page].astro', import.meta.url), 'utf8'),
@@ -583,7 +583,9 @@ test('homepage keeps its Markdown featured Hero and shares latest_added with Lat
   assert.equal(new Set(latestAdded.cards.map(({catalog_code: catalogCode}) => catalogCode)).size, latestAdded.cards.length);
   assert.ok(latestAdded.cards.every(({title}) => title.trim()));
   assert.match(homePage, /getCollection\('reviews'/);
-  assert.match(homePage, /reviews\.find\(\(\{data\}\) => data\.featured\)/);
+  assert.match(homePage, /reviews\.find\(\(\{data\}\) => data\.id === catalog\.cards\[0\]\?\.catalog_code\)/);
+  assert.doesNotMatch(homePage, /data\.featured|本週焦點/);
+  assert.match(homePage, /最新收錄<\/p>/);
   assert.match(homePage, /<section class="hero catalog-feature">/);
   assert.match(homePage, /featured\.data\.title/);
   assert.match(homePage, /featured\.data\.shortReview/);
