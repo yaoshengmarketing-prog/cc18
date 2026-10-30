@@ -454,7 +454,7 @@
     },
     {
       "label": "制服",
-      "occurrences": 13,
+      "occurrences": 14,
       "source_ids": [
         "SNOS-409",
         "SNOS-369",
@@ -468,10 +468,11 @@
         "BANK-248",
         "CLOT-044",
         "SNOS-367",
-        "SNOS-403"
+        "SNOS-403",
+        "MIDA-840"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-24",
+      "last_seen": "2026-10-31",
       "status": "quarantined"
     },
     {

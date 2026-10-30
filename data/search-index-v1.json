@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:60c06d610bb0b578ff714ad28faecb79c0b5fb2ef0ee2e3c58da1d0137acff3f",
-  "source_generated_at": "2026-10-30T20:14:45.396Z",
+  "source_revision": "sha256:3cf8e4f685c73e2daa6fa752d8c2b7c55e51e627494a8a91846c05165b54c207",
+  "source_generated_at": "2026-10-30T23:52:46.224Z",
   "counts": {
-    "movies": 296,
-    "performers": 277,
+    "movies": 297,
+    "performers": 278,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2870,6 +2870,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:43605",
+      "display_name": "輝星綺羅",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "輝星綺羅",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MIDA-840"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:53442",
       "display_name": "橘未来",
       "display_name_zh_tw": null,
@@ -3154,6 +3165,59 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:MIDA-840",
+        "source_cover": "https://cc18.tv/preview/80/b/pBq9tcU9O74-800.jpg?v=1793392593",
+        "title": "MIDA-840 輝星綺羅｜學生設定下的「對不起我要去了」：反差企劃先行",
+        "catalog_code": "MIDA-840",
+        "release_date": "2026-10-30",
+        "performers": [
+          "輝星綺羅"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "kissing",
+            "label": "親吻互動"
+          },
+          {
+            "id": "student",
+            "label": "學生妹"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mida-840/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:43605"
+      ],
+      "search": {
+        "source_title": "「對不起我要去了…！」風紀委員的樸素眼鏡制服女孩發出痙攣的阿嘿聲，被濃情大叔用深吻堵住嘴巴，一次又一次地被中出！ 輝星綺羅",
+        "article_title": "MIDA-840 輝星綺羅｜學生設定下的「對不起我要去了」：反差企劃先行",
+        "display_short_title": null,
+        "slug": "mida-840"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:MARN-007",

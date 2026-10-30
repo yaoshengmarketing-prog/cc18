@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "id": "MIDA-840",
+  "checked_at": "2026-10-30T23:51:03.861Z",
+  "review_sha256": "6b4a0bc16b6bfa79762774688d7e1170751042bd5507a400a826ca5930930087",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "從公開資料來看，MIDA-840 最清楚的賣點有三個：演出者是輝星綺羅、核心概念是「對不起我要去了」、成人主題則明確落在中出。這種組合很像一部先用一句話抓住注意力，再把角色身份與刺激方向快速講清楚的企劃型作品。由於目前沒有可驗證的觀看片段，能夠成立的判斷不是情節多細，而是它的賣點"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "公開標籤同時出現「AV女優片」「學生妹」，來源摘錄又帶到「制服」，因此本作的反差感相當明確：它不是單靠演員名字，而是把身份包裝一起推到前台。對某些觀眾來說，這種選片方式很有效，因為角色印象在看片前就已經建立完成；如果你本來就會被學生設定、制服線索吸引，這部片的入口門檻很低。相對地"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "這句話是本作最關鍵的辨識點。它不是一般性的標籤，而是有明顯情境感的核心概念，會讓整部作品的宣傳重心偏向臨界感、越線感與直接刺激。再對照來源摘錄中的「被濃情大叔用深吻堵住嘴巴」以及「一次又一次地被中出」，可以看出公開文案主打的是強烈、直接、甚至有點逼近口號式的成人企劃包裝。這也代表"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 6,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

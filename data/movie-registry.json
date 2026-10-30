@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T20:14:30.270Z",
+  "updated_at": "2026-10-30T23:52:36.767Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -4481,6 +4481,21 @@
       ],
       "release_date": "2026-10-24",
       "source_url": "https://cc18.tv/player.php?uuid=CPgSakRyB3D&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-10-30"
+    },
+    {
+      "id": "MIDA-840",
+      "actress": [
+        "輝星綺羅"
+      ],
+      "release_date": "2026-10-30",
+      "source_url": "https://cc18.tv/player.php?uuid=pBq9tcU9O74&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

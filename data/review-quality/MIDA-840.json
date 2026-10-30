@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "MIDA-840",
+  "review_sha256": "f936dc6d03d3a556ffbe564d6073c070bfa1611fc008e0a943745869107bb689",
+  "selected_thesis": "MIDA-840 的核心吸引力不在複雜情節，而在輝星綺羅結合學生設定後，讓「對不起我要去了」這句概念與中出主題形成明確反差企劃。",
+  "title_basis": {
+    "performer": "輝星綺羅",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "輝星綺羅",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "對不起我要去了",
+        "source_field": "title"
+      },
+      {
+        "type": "setting",
+        "value": "學生設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "輝星綺羅",
+    "presentation_feature": "對不起我要去了",
+    "editorial_judgment": "以公開標題與標籤來看，這部作品最值得討論的不是複雜劇情，而是「對不起我要去了」這句核心概念，如何和輝星綺羅、學生妹／制服設定，以及中出導向的成人主題綁在一起。選片重點因此落在企劃是否夠直接、身份反差是否夠明確，而不是去假設未公開證實的情節發展。",
+    "source_keywords": [
+      "輝星綺羅",
+      "對不起我要去了",
+      "學生設定",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品的辨識度首先來自演出者已知，選片時可直接鎖定輝星綺羅本人。",
+      "basis": "public_source",
+      "signal": "輝星綺羅"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤同時給出學生設定、學生妹與制服線索，顯示本作的重要賣點是角色身份與造型反差。",
+      "basis": "public_source",
+      "signal": "學生設定／學生妹／制服"
+    },
+    {
+      "observation_refs": [],
+      "supports": "「對不起我要去了」是最明確的核心概念，足以作為標題與評論主軸，說明作品主打一句話就能成立的企劃鈎子。",
+      "basis": "public_source",
+      "signal": "對不起我要去了"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開來源多次強調中出，並在標題摘錄出現「一次又一次地被中出」，顯示成人主題的主軸明確而直接。",
+      "basis": "public_source",
+      "signal": "中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "高畫質、720p、獨家配信屬於呈現層面的補充資訊，可加強上架辨識，但不足以取代企劃本身成為選片理由。",
+      "basis": "public_source",
+      "signal": "高畫質／720p／獨家配信"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標題摘錄中的「被濃情大叔用深吻堵住嘴巴」提供了宣傳語氣方向，說明本作偏向強烈情境式包裝，而非已知的細緻敘事。",
+      "basis": "public_source",
+      "signal": "被濃情大叔用深吻堵住嘴巴"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱存在已驗證的校園場景或教室場面。",
+    "未聲稱大叔與女主角之間有明確人物關係設定。",
+    "未聲稱深吻與中出的實際次數、順序或拍攝方式。",
+    "未聲稱角色有抗拒、轉變、覺醒或主導權變化。",
+    "未聲稱演技、表情、聲音、剪輯、鏡位或節奏表現。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-29T16:00:00.000Z"
+}
