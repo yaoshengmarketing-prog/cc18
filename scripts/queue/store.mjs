@@ -2,6 +2,7 @@ import {mkdir, readFile, rename, writeFile} from 'node:fs/promises';
 import {existsSync} from 'node:fs';
 import {dirname, resolve} from 'node:path';
 import {randomUUID} from 'node:crypto';
+import {isAdmittedCanaryWork} from '../canary/selection.mjs';
 
 const isoNow = () => new Date().toISOString();
 const emptyState = () => ({schema_version: 1, updated_at: null, runs: [], movies: [], jobs: []});
@@ -119,6 +120,18 @@ export class FileQueueStore {
     return {movies: state.movies.length, jobs: state.jobs.length, jobs_by_status: jobsByStatus, last_run: state.runs.at(-1) ?? null};
   }
 
+  async pendingPublicationWorkItems() {
+    const state = await this.read();
+    return state.jobs.filter(({stage}) => stage === 'editorial').map((editorial) => ({
+      movie_id: editorial.movie_id,
+      classification: state.movies.find(({id}) => id === editorial.movie_id)?.classification ?? null,
+      metadata_status: state.movies.find(({id}) => id === editorial.movie_id)?.metadata_status ?? null,
+      discovery_run_id: editorial.discovery_run_id,
+      editorial_status: editorial.status,
+      publish_status: state.jobs.find(({movie_id, stage}) => movie_id === editorial.movie_id && stage === 'publish')?.status ?? null,
+    })).filter(({publish_status}) => publish_status !== 'completed');
+  }
+
   async queueHealth({now = new Date()} = {}) {
     const state = await this.read();
     const nowIso = now.toISOString();
@@ -151,7 +164,7 @@ export class FileQueueStore {
         movie: state.movies.find(({id}) => id === editorial.movie_id),
       }))
       .filter(({editorial}) => !excluded.has(editorial.movie_id))
-      .filter(({movie}) => movie?.classification === 'eligible' && movie?.metadata_status === 'validated')
+      .filter(({movie, editorial}) => isAdmittedCanaryWork({movie, editorialJob: editorial}))
       .map(({editorial, publish, movie}) => {
         if (isClaimable(editorial, nowIso)) {
           return {job: editorial, movie, resume_rank: editorial.status === 'queued' && editorial.attempt === 0 ? 0 : 2};
@@ -405,6 +418,25 @@ export class D1RestQueueStore {
     };
   }
 
+  async pendingPublicationWorkItems() {
+    const pending = [];
+    for (let offset = 0; ; offset += 500) {
+      const [page] = await this.query({
+        sql: `SELECT e.movie_id, m.classification, m.metadata_status, e.discovery_run_id,
+                     e.status AS editorial_status, p.status AS publish_status
+              FROM pipeline_jobs e
+              JOIN movies m ON m.id=e.movie_id
+              LEFT JOIN pipeline_jobs p ON p.movie_id=e.movie_id AND p.stage='publish'
+              WHERE e.stage='editorial' AND (p.id IS NULL OR p.status!='completed')
+              ORDER BY e.created_at, e.movie_id LIMIT 500 OFFSET ?`,
+        params: [offset],
+      });
+      const rows = page.results ?? [];
+      pending.push(...rows);
+      if (rows.length < 500) return pending;
+    }
+  }
+
   async queueHealth({now = new Date()} = {}) {
     const nowIso = now.toISOString();
     const [stale, retries] = await this.query([
@@ -442,7 +474,8 @@ export class D1RestQueueStore {
             JOIN movies m ON m.id=e.movie_id
             LEFT JOIN pipeline_jobs p ON p.movie_id=e.movie_id AND p.stage='publish'
             WHERE e.stage='editorial'
-              AND m.classification='eligible' AND m.metadata_status='validated'
+              AND m.metadata_status='validated'
+              AND (m.classification='eligible' OR (m.classification='late_arrival' AND e.discovery_run_id IS NOT NULL))
               ${exclusionClause}
               AND (
                 (e.attempt < e.max_attempts

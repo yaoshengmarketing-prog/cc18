@@ -46,17 +46,22 @@ jobs:
       - run: npm run registry:validate
       - run: npm run content:validate
       - name: Configure publisher identity
-        if: github.event_name == 'workflow_dispatch' && (inputs.stage == 'publish' || inputs.stage == 'end-to-end')
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.stage == 'publish' || inputs.stage == 'end-to-end'))
         run: |
           git config user.name "cc18-publisher[bot]"
           git config user.email "cc18-publisher[bot]@users.noreply.github.com"
-      - name: Discover all eligible works and queue them in D1
+      - name: Discover and publish at most one queued work
         if: github.event_name == 'schedule'
         env:
+          AITOKENKING_API_KEY: ${{ secrets.AITOKENKING_API_KEY }}
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_D1_DATABASE_ID: ${{ vars.CLOUDFLARE_D1_DATABASE_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: npm run discovery:run -- --store=d1
+          CLOUDFLARE_R2_API_TOKEN: ${{ secrets.CLOUDFLARE_R2_API_TOKEN }}
+          CC18_R2_AUTH_MODE: api-token
+          CC18_ALLOW_EDITORIAL_TRANSMISSION: YES
+          CC18_ALLOW_IMAGE_TRANSMISSION: YES
+        run: node scripts/canary/scheduled-run.mjs --max-works=1 --time-budget-minutes=50
       - name: Verify editorial provider connectivity only
         if: github.event_name == 'workflow_dispatch' && inputs.stage == 'editorial-smoke'
         env:
@@ -103,9 +108,6 @@ jobs:
           CLOUDFLARE_D1_DATABASE_ID: ${{ vars.CLOUDFLARE_D1_DATABASE_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npm run publish:d1:process-one -- "$MOVIE_ID"
-      - name: Confirm serialized production automation
-        if: github.event_name == 'schedule'
-        run: echo "Hourly GitHub discovery is enabled; the local serialized worker drains D1 separately."
       - name: Preserve editorial responses for diagnosis
         if: always()
         uses: actions/upload-artifact@v4

@@ -12,6 +12,15 @@ export function registryDraftIds(registry) {
     .map((record) => record.id.toUpperCase()));
 }
 
+// Discovery only creates editorial jobs for eligible works. A later listing
+// observation may classify the same work as late_arrival as its release ages.
+// Preserve that already-admitted job, without admitting newly found history.
+export function isAdmittedCanaryWork({movie, editorialJob}) {
+  return movie?.metadata_status === 'validated'
+    && (movie.classification === 'eligible'
+      || (movie.classification === 'late_arrival' && Boolean(editorialJob?.discovery_run_id)));
+}
+
 export function isNonBlockingVideoOutcome({stage, status}) {
   return stage === 'video' && ['retry', 'failed'].includes(status);
 }

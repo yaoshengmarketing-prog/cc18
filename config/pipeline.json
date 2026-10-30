@@ -26,7 +26,7 @@
     "lease_seconds": 900,
     "max_attempts": 5
   },
-  "production": {"mode": "scheduled_serial", "discovery_executor": "github_actions", "drain_executor": "local_windows_scheduled_task", "drain_interval_minutes": 15, "drain_time_budget_minutes": 50, "batch_size": 1, "max_parallel": 1, "continue_on_media_failure": true},
+  "production": {"mode": "scheduled_serial", "discovery_executor": "github_actions", "drain_executor": "github_actions", "drain_interval_minutes": 60, "drain_time_budget_minutes": 50, "batch_size": 1, "max_parallel": 1, "continue_on_media_failure": true},
   "canary": {"enabled": true, "default_batch_size": 1, "max_per_run": 3, "require_validated_metadata": true, "media_analysis": "optional_non_blocking", "stages": ["editorial", "image", "video", "publish"]},
   "editorial": {
     "writer_contract": "prompts/review-writer.md",

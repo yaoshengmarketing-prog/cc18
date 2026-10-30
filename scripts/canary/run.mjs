@@ -3,7 +3,7 @@ import {createHash} from 'node:crypto';
 import {mkdir, readFile, stat, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {queueStoreFromEnvironment} from '../queue/store.mjs';
-import {classifyCanaryStageOutcome, registryDraftIds} from './selection.mjs';
+import {classifyCanaryStageOutcome, isAdmittedCanaryWork, registryDraftIds} from './selection.mjs';
 import {buildR2WranglerEnvironment} from '../r2/wrangler-auth.mjs';
 import {allowedPublishPaths} from '../publish/lib/publisher.mjs';
 import {assertRestoredCheckpointAuthorization, protectedIsolatedUntrackedPaths} from './isolation.mjs';
@@ -100,7 +100,8 @@ for (const movieId of candidates) {
     const protectedCollision = protectedUntrackedPaths.filter((path) => allowedPublishPaths(movieId).has(path));
     if (protectedCollision.length) throw new Error(`${movieId}: protected pre-existing untracked artifact(s): ${protectedCollision.join(', ')}`);
     const movie = await store.getMovie(movieId);
-    if (!movie || movie.classification !== 'eligible' || movie.metadata_status !== 'validated') throw new Error(`${movieId}: not an eligible validated work`);
+    const editorialJob = await store.findJob({movieId, stage: 'editorial'});
+    if (!isAdmittedCanaryWork({movie, editorialJob})) throw new Error(`${movieId}: not an admitted validated work`);
     let sourcePreflightPassed = false;
     for (const {stage, script, args, required} of stages) {
       if (!sourcePreflightPassed && ['image', 'video', 'publish'].includes(stage)) {

@@ -28,20 +28,22 @@ test('end-to-end canary remains manual, exact-ID, serialized and uses split D1 a
   assert.match(workflow, /actions\/checkout@v7[\s\S]*ref: main[\s\S]*fetch-depth: 0/u);
 });
 
-test('hourly GitHub production work only discovers and queues eligible works in D1', () => {
+test('hourly GitHub production work discovers and attempts one isolated queued work without manual inputs', () => {
   assert.match(workflow, /schedule:\s*\n\s*- cron: '17 \* \* \* \*'/u);
   assert.match(workflow, /group: cc18-content-pipeline[\s\S]*cancel-in-progress: false/u);
-  const publisherIdentityStep = workflow.match(/- name: Configure publisher identity[\s\S]*?(?=\n\s+- name: Discover all eligible works)/u)?.[0];
+  const publisherIdentityStep = workflow.match(/- name: Configure publisher identity[\s\S]*?(?=\n\s+- name: Discover and publish at most one queued work)/u)?.[0];
   assert.ok(publisherIdentityStep);
-  assert.doesNotMatch(publisherIdentityStep, /github\.event_name == 'schedule'/u);
-  const scheduledStep = workflow.match(/- name: Discover all eligible works and queue them in D1[\s\S]*?(?=\n\s+- name: Verify editorial provider connectivity only)/u)?.[0];
+  assert.match(publisherIdentityStep, /github\.event_name == 'schedule'/u);
+  const scheduledStep = workflow.match(/- name: Discover and publish at most one queued work[\s\S]*?(?=\n\s+- name: Verify editorial provider connectivity only)/u)?.[0];
   assert.ok(scheduledStep);
   assert.match(scheduledStep, /if: github\.event_name == 'schedule'/u);
-  assert.match(scheduledStep, /npm run discovery:run -- --store=d1/u);
+  assert.match(scheduledStep, /node scripts\/canary\/scheduled-run\.mjs --max-works=1 --time-budget-minutes=50/u);
   assert.doesNotMatch(scheduledStep, /inputs\./u);
-  assert.doesNotMatch(scheduledStep, /AITOKENKING_API_KEY|CLOUDFLARE_R2_API_TOKEN|CC18_ALLOW_EDITORIAL_TRANSMISSION|CC18_ALLOW_IMAGE_TRANSMISSION|canary:drain/u);
+  assert.match(scheduledStep, /AITOKENKING_API_KEY: \$\{\{ secrets\.AITOKENKING_API_KEY \}\}/u);
+  assert.match(scheduledStep, /CLOUDFLARE_R2_API_TOKEN: \$\{\{ secrets\.CLOUDFLARE_R2_API_TOKEN \}\}/u);
+  assert.match(scheduledStep, /CC18_ALLOW_EDITORIAL_TRANSMISSION: YES[\s\S]*CC18_ALLOW_IMAGE_TRANSMISSION: YES/u);
   assert.match(scheduledStep, /CLOUDFLARE_ACCOUNT_ID:[\s\S]*CLOUDFLARE_D1_DATABASE_ID:[\s\S]*CLOUDFLARE_API_TOKEN:/u);
-  assert.match(workflow, /local serialized worker drains D1 separately/u);
+  assert.doesNotMatch(workflow, /local serialized worker drains D1 separately/u);
 });
 
 test('existing Registry drafts are re-QAed instead of paying for a blind rewrite', async () => {

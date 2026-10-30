@@ -3,7 +3,7 @@ import {mkdir, readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {assertEditorialProviderReady, editorialApiKey, loadLocalEditorialEnvironment, requestStructuredEditorial} from './lib/openai-writer.mjs';
 import {buildSafePublicSource, buildSafeVideoAnalysis, safeCanonicalTagIds} from './lib/safe-editorial-payload.mjs';
-import {normalizeEditorialResult, parseFirstJsonObject, publicationProjectionForEvidence} from './lib/provider-normalization.mjs';
+import {normalizeEditorialResult, parseFirstJsonObject, publicationProjectionForEvidence, sanitizePublicEditorialResult} from './lib/provider-normalization.mjs';
 import {writeSearchContent} from './lib/search-content.mjs';
 import {createDeterministicSourceBrief, createLocalSourceBrief} from './lib/local-source-brief.mjs';
 import {ensureAllPerformersInTitle, fillMissingEditorialTitle} from './lib/editorial-fallbacks.mjs';
@@ -226,7 +226,7 @@ const publicationProjection = publicationProjectionForEvidence({
   sourceOnly: sourceOnly || providerContentFiltered,
 });
 const publishVideoEvidence = publicationProjection.publishVideoEvidence;
-result = publicationProjection.result;
+result = sanitizePublicEditorialResult(publicationProjection.result);
 if (publicationProjection.downgraded) {
   console.warn(JSON.stringify({
     event: 'editorial_content_warning',

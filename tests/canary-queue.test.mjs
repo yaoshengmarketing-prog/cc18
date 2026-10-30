@@ -5,7 +5,16 @@ import {join} from 'node:path';
 import {tmpdir} from 'node:os';
 import {D1RestQueueStore, FileQueueStore} from '../scripts/queue/store.mjs';
 import {assertSingleWorkRequest, checkpointArtifactPaths} from '../scripts/canary/isolation.mjs';
-import {alreadyPublishedRequestedIds, classifyCanaryStageOutcome, isNonBlockingMediaOutcome, isNonBlockingVideoOutcome, registryDraftIds} from '../scripts/canary/selection.mjs';
+import {alreadyPublishedRequestedIds, classifyCanaryStageOutcome, isAdmittedCanaryWork, isNonBlockingMediaOutcome, isNonBlockingVideoOutcome, registryDraftIds} from '../scripts/canary/selection.mjs';
+
+test('preflight admission matches the queued-work selector after the release window expires', () => {
+  const job = {stage: 'editorial', discovery_run_id: 'eligible-discovery-run'};
+  const movie = {classification: 'late_arrival', metadata_status: 'validated'};
+  assert.equal(isAdmittedCanaryWork({movie, editorialJob: job}), true);
+  assert.equal(isAdmittedCanaryWork({movie, editorialJob: {...job, discovery_run_id: null}}), false);
+  assert.equal(isAdmittedCanaryWork({movie: {...movie, metadata_status: 'partial'}, editorialJob: job}), false);
+  assert.equal(isAdmittedCanaryWork({movie: {...movie, classification: 'prelaunch_history'}, editorialJob: job}), false);
+});
 
 test('explicit canary may promote a Registry draft but refuses a published record', () => {
   const registry = {records: [
@@ -125,6 +134,7 @@ test('D1 canary selection keeps more than 95 exclusions in one bounded query par
 
   assert.deepEqual(candidates.map(({movie_id}) => movie_id), ['NEXT-001']);
   assert.match(statement.sql, /json_each\(\?\)/u);
+  assert.match(statement.sql, /m\.classification='late_arrival' AND e\.discovery_run_id IS NOT NULL/u);
   assert.equal(statement.params.length, 6);
   assert.deepEqual(JSON.parse(statement.params[0]), excluded);
   assert.ok(statement.params.length <= 100);

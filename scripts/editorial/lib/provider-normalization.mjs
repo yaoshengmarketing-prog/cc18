@@ -1,6 +1,51 @@
 const clip = (value, maximum) => String(value ?? '').trim().slice(0, maximum);
 const firstText = (...values) => values.find((value) => typeof value === 'string' && value.trim()) ?? '';
 
+const internalEditorialTerms = new Map([
+  ['creative_seed_brief', '企劃構想資料'],
+  ['core_source_concept', '主要來源線索'],
+  ['source_concepts', '來源名稱線索'],
+  ['topic_elements', '來源題材資料'],
+  ['role_dynamic', '角色互動'],
+  ['central_tension', '主要衝突'],
+  ['safe_title_signals', '作品名稱線索'],
+  ['public_source', '公開來源資料'],
+  ['video_analysis', '影片分析資料'],
+  ['premise', '故事前提'],
+  ['relationship', '人物關係'],
+  ['setting', '場景設定'],
+  ['presentation', '呈現形式'],
+]);
+const internalEditorialTermPattern = new RegExp(`\\b(?:${[...internalEditorialTerms.keys()].join('|')})\\b`, 'gu');
+
+// Provider field names belong in the working record, never in reader-facing copy.
+export function sanitizePublicEditorialResult(result) {
+  const clean = (value) => typeof value === 'string'
+    ? value.replace(internalEditorialTermPattern, (term) => internalEditorialTerms.get(term))
+    : value;
+  const cleanList = (values) => Array.isArray(values) ? values.map(clean) : values;
+  const guide = result.decision_guide ?? {};
+  return {
+    ...result,
+    angle_candidates: cleanList(result.angle_candidates),
+    selected_thesis: clean(result.selected_thesis),
+    title: clean(result.title),
+    seo_title: clean(result.seo_title),
+    social_title: clean(result.social_title),
+    short_review: clean(result.short_review),
+    editorial_angle: clean(result.editorial_angle),
+    decision_guide: {
+      ...guide,
+      thesis: clean(guide.thesis),
+      presentation: cleanList(guide.presentation),
+      audience_for: cleanList(guide.audience_for),
+      audience_not_for: cleanList(guide.audience_not_for),
+      questions_answered: cleanList(guide.questions_answered),
+    },
+    sections: (result.sections ?? []).map((section) => ({heading: clean(section.heading), body: clean(section.body)})),
+  };
+}
+
 export function parseFirstJsonObject(value) {
   const source = value.trim().replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '');
   let output = '';

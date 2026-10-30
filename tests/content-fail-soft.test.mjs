@@ -163,7 +163,7 @@ test('empty auxiliary content and canonical topics remain renderable without inv
 
 test('provider content-filter fallback continues with the complete public-metadata projection', async () => {
   const builder = await readFile(join(repositoryRoot, 'scripts/editorial/build-from-analysis.mjs'), 'utf8');
-  const projectionAssignment = builder.indexOf('result = publicationProjection.result;');
+  const projectionAssignment = builder.indexOf('result = sanitizePublicEditorialResult(publicationProjection.result);');
   const emptyProjectionGuard = builder.indexOf('if (!result.sections.length)');
   const providerWarning = builder.indexOf("code: 'editorial_provider_content_filter'");
   assert.ok(projectionAssignment >= 0 && projectionAssignment < emptyProjectionGuard);

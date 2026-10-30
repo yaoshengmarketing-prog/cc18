@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {drainIsolatedQueue, parseCanaryResult, queueDrainExitCode} from '../scripts/canary/drain.mjs';
+import {runScheduledCanary, summarizePendingWorkItems} from '../scripts/canary/scheduled-run.mjs';
 
 const quietLogger = {log() {}};
 
@@ -68,6 +69,57 @@ test('a drain where every attempted work fails reports failure while still tryin
   assert.equal(summary.stop_reason, 'queue_empty');
   assert.equal(summary.outcome, 'failed');
   assert.equal(queueDrainExitCode(summary), 1);
+});
+
+test('first scheduled attempt stops after one failure and leaves the next work for a later run', async () => {
+  const calls = [];
+  const first = await drainIsolatedQueue({logger: quietLogger, maximumWorks: 1,
+    runOne: async () => { calls.push('A-001'); return {exitCode: 1, report: {event: 'isolated_canary_finished', movie_id: 'A-001'}}; },
+  });
+  assert.deepEqual(calls, ['A-001']);
+  assert.deepEqual(first.failed, ['A-001']);
+  assert.equal(first.stop_reason, 'attempt_limit_reached');
+  assert.equal(first.outcome, 'failed');
+  assert.equal(queueDrainExitCode(first), 1);
+});
+
+test('scheduled result reports discovery, publication, and remaining work by reason', async () => {
+  const logs = [];
+  const store = {pendingPublicationWorkItems: async () => [
+    {movie_id: 'WAIT-001', classification: 'eligible', metadata_status: 'validated', discovery_run_id: 'run', editorial_status: 'queued', publish_status: null},
+    {movie_id: 'BAD-001', classification: 'late_arrival', metadata_status: 'partial', discovery_run_id: 'run', editorial_status: 'queued', publish_status: null},
+    {movie_id: 'FAILED-001', classification: 'eligible', metadata_status: 'validated', discovery_run_id: 'run', editorial_status: 'failed', publish_status: null},
+  ]};
+  const summary = await runScheduledCanary({store, config: {discovery: {listing_urls: ['https://cc18.tv/'], initial_stages: ['editorial']}, source: {user_agent: 'test'}, queue: {initial_stages: ['editorial']}},
+    deadlineAt: 1000, logger: {log: (value) => logs.push(value)},
+    discover: async () => ({new_movies: 2, enqueued: 2}),
+    drain: async ({maximumWorks}) => {
+      assert.equal(maximumWorks, 1);
+      return {processed: ['PUBLISHED-001'], completed: ['PUBLISHED-001'], failed: [], work_errors: [], stop_reason: 'attempt_limit_reached', outcome: 'success'};
+    },
+  });
+  assert.deepEqual(summary.attempted, ['PUBLISHED-001']);
+  assert.deepEqual(summary.published, ['PUBLISHED-001']);
+  assert.equal(summary.remaining.count, 3);
+  assert.deepEqual(summary.remaining.by_reason.data_mismatch, ['BAD-001']);
+  assert.deepEqual(summary.remaining.by_reason.execution_failed, ['FAILED-001']);
+  assert.deepEqual(summary.remaining.by_reason.awaiting_next_run, ['WAIT-001']);
+  assert.equal(summary.outcome, 'success');
+  assert.match(logs[0], /^CC18_SCHEDULE_RESULT=/u);
+  assert.deepEqual(summarizePendingWorkItems([{movie_id: 'WAIT-001', classification: 'eligible', metadata_status: 'validated'}],
+    {stop_reason: 'time_budget_reached'}).by_reason.time_budget, ['WAIT-001']);
+});
+
+test('discovery failure stops before publication and is not reported as success', async () => {
+  let drained = false;
+  const summary = await runScheduledCanary({store: {pendingPublicationWorkItems: async () => []},
+    config: {discovery: {listing_urls: []}, source: {}, queue: {}}, deadlineAt: 1000, logger: quietLogger,
+    discover: async () => { throw new Error('listing unavailable'); },
+    drain: async () => { drained = true; },
+  });
+  assert.equal(drained, false);
+  assert.equal(summary.outcome, 'failed');
+  assert.match(summary.error, /listing unavailable/u);
 });
 
 test('a time-budget stop leaves remaining works for the next clean drain invocation', async () => {

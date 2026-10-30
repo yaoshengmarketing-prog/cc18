@@ -1,35 +1,27 @@
 {
   "schema_version": 2,
   "id": "MARR-015",
-  "checked_at": "2026-10-30T08:06:05.663Z",
-  "review_sha256": "b1073d1348cb9292640d9d498589008e6079f6eaac986cee9bf6b467fd4756b3",
+  "checked_at": "2026-10-30T08:41:26.362Z",
+  "review_sha256": "61be63cff20963b3921d454ffe4123ae9930e20fc26f267564e7e076ae00ae68",
   "status": "PASS_WITH_NOTES",
   "passed": true,
   "publishable": true,
   "issues": [],
   "repair_issues": [],
   "notes": [
-    "formulaic_machine_voice",
+    "formulaic_pivot_observed",
     "insufficient_sections",
     "insufficient_evidence"
   ],
   "findings": [
     {
-      "code": "formulaic_machine_voice",
+      "code": "formulaic_pivot_observed",
       "scope": "PASS_WITH_NOTES",
-      "matches": 3,
+      "matches": 1,
       "locations": [
         {
           "paragraph": 2,
-          "excerpt": "以目前可追溯的公開資料來看，這部作品最明確的不是劇情，而是企劃包裝。來源同時給出「AV女優片」與「印象寫真」兩個關鍵標籤，系列名則是「ゆらら夢」。這種組合讓選片重點自然落在演員呈現、系列辨識與整體概念上，而不是故事前提、人物衝突或關係推進。尤其 creative_seed_bri"
-        },
-        {
-          "paragraph": 4,
-          "excerpt": "系列名與 core_source_concept 都指向「ゆらら夢」，表示這不是只靠單一題材標籤支撐的作品，而是有相對明確的系列識別。再加上來源摘錄還出現「搖曳之夢」與「YUUKA」兩個線索，能看出這部作品的公開包裝，傾向把夢感概念與演員名義並置。對選片者來說，這代表它的吸引力更"
-        },
-        {
-          "paragraph": 6,
-          "excerpt": "目前最穩定、最直接的賣點就是演員本人。公開欄位已知演員是新妻優香，而 source_concepts 另有「YUUKA」這個題名字樣，顯示作品在命名與辨識上，確實把演員個人放在相當前面的位置。這會讓本作更適合已經熟悉新妻優香，或至少願意先從演員個人氣質與系列包裝切入的觀眾。相對地"
+          "excerpt": "以目前可追溯的公開資料來看，這部作品最明確的不是劇情，而是企劃包裝。來源同時給出「AV女優片」與「印象寫真」兩個關鍵標籤，系列名則是「ゆらら夢」。這種組合讓選片重點自然落在演員呈現、系列辨識與整體概念上。公開介紹尚未交代故事前提、人物關係、角色互動、主要衝突或場景設定，因此不適合"
         }
       ]
     },

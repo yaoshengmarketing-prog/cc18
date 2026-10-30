@@ -63,7 +63,7 @@ test('isolated canary accepts an authorized checkpoint and enters the existing e
     await put(fixture, '.gitignore', 'node_modules/\n.cc18-canary/\nflow-marker.txt\n');
     await put(fixture, 'data/movie-registry.json', '{"records":[]}\n');
     await put(fixture, 'scripts/queue/store.mjs', `import {appendFile} from 'node:fs/promises';\nexport const queueStoreFromEnvironment = () => ({\n  async getMovie() { await appendFile(new URL('../../flow-marker.txt', import.meta.url), 'd1-movie\\n'); return {classification: 'eligible', metadata_status: 'validated'}; },\n  async findJob() { return {status: 'queued', attempt: 0}; },\n});\n`);
-    await put(fixture, 'scripts/canary/selection.mjs', `export const registryDraftIds = () => new Set();\nexport const classifyCanaryStageOutcome = ({stage}) => ({continuePipeline: true, reportStatus: stage + '_completed'});\n`);
+    await put(fixture, 'scripts/canary/selection.mjs', `export const registryDraftIds = () => new Set();\nexport const isAdmittedCanaryWork = () => true;\nexport const classifyCanaryStageOutcome = ({stage}) => ({continuePipeline: true, reportStatus: stage + '_completed'});\n`);
     await put(fixture, 'scripts/r2/wrangler-auth.mjs', 'export const buildR2WranglerEnvironment = () => ({});\n');
     await put(fixture, 'scripts/publish/lib/publisher.mjs', 'export const allowedPublishPaths = () => new Set();\n');
     for (const path of ['scripts/editorial/handoff-d1.mjs', 'scripts/publish/source-preflight.mjs', 'scripts/video/process-d1-one.mjs', 'scripts/publish/process-d1-one.mjs']) {

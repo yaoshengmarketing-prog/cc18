@@ -1,6 +1,19 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {normalizeEditorialResult, parseFirstJsonObject, publicationProjectionForEvidence} from '../scripts/editorial/lib/provider-normalization.mjs';
+import {normalizeEditorialResult, parseFirstJsonObject, publicationProjectionForEvidence, sanitizePublicEditorialResult} from '../scripts/editorial/lib/provider-normalization.mjs';
+
+test('reader-facing editorial copy replaces internal field names without losing their meaning', () => {
+  const result = sanitizePublicEditorialResult({
+    title: 'core_source_concept 與 source_concepts',
+    short_review: 'topic_elements 指向 presentation',
+    decision_guide: {thesis: 'creative_seed_brief 有 premise', questions_answered: ['relationship 與 role_dynamic']},
+    sections: [{heading: 'setting', body: 'creative_seed_brief 裡的 premise、relationship、role_dynamic、central_tension、setting 尚未公開確認。'}],
+  });
+  assert.equal(result.title, '主要來源線索 與 來源名稱線索');
+  assert.equal(result.short_review, '來源題材資料 指向 呈現形式');
+  assert.match(result.sections[0].body, /企劃構想資料.*故事前提.*人物關係.*角色互動.*主要衝突.*場景設定/u);
+  assert.doesNotMatch(JSON.stringify(result), /creative_seed_brief|core_source_concept|source_concepts|topic_elements|role_dynamic|central_tension/u);
+});
 
 test('source commentary survives without video and preserves long paragraphs and all sections', () => {
   const safePublicSource = {safe_title_signals: [{type: 'theme', value: '訪談企劃'}]};

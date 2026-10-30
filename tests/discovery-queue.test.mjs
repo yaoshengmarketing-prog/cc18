@@ -158,6 +158,42 @@ test('discovers every listing item, deduplicates persistently, and leases atomic
   await rm(resolvedDirectory, {recursive: true});
 });
 
+test('an eligible queued work remains selectable after aging out, while newly found history is not enqueued', async () => {
+  const directory = await mkdtemp(join(tmpdir(), 'cc18-discovery-aging-'));
+  try {
+    const store = new FileQueueStore(join(directory, 'queue.json'));
+    const listingUrl = 'https://cc18.tv/';
+    const admittedUrl = 'https://cc18.tv/player.php?uuid=admitted&cat=19';
+    const historyUrl = 'https://cc18.tv/player.php?uuid=history&cat=19';
+    let includeHistory = false;
+    const fetchImpl = async (url) => ({
+      ok: true,
+      status: 200,
+      text: async () => String(url) === listingUrl
+        ? `<a href="${admittedUrl}">admitted</a>${includeHistory ? `<a href="${historyUrl}">history</a>` : ''}`
+        : workHtml({id: String(url) === admittedUrl ? 'ADMITTED-001' : 'HISTORY-001', date: '2026-08-25'}),
+    });
+    const options = {listingUrls: [listingUrl], store, config: {...config, initial_stages: ['editorial', 'media_analysis']}, fetchImpl, logger: {warn() {}}};
+    const first = await discoverBatch({...options, now: new Date('2026-08-26T04:00:00Z')});
+    assert.equal(first.enqueued, 2);
+    includeHistory = true;
+    const second = await discoverBatch({...options, now: new Date('2026-09-03T04:00:00Z')});
+    assert.equal(second.late_arrival, 2);
+    assert.equal(second.enqueued, 0);
+    assert.equal((await store.getMovie('ADMITTED-001')).classification, 'late_arrival');
+    assert.equal((await store.getMovie('ADMITTED-001')).metadata_status, 'validated');
+    assert.ok((await store.findJob({movieId: 'ADMITTED-001', stage: 'editorial'}))?.discovery_run_id);
+    assert.equal(await store.findJob({movieId: 'HISTORY-001', stage: 'editorial'}), null);
+    assert.deepEqual((await store.listCanaryCandidates({limit: 3})).map(({movie_id}) => movie_id), ['ADMITTED-001']);
+    const third = await discoverBatch({...options, now: new Date('2026-09-03T04:00:00Z')});
+    assert.equal(third.enqueued, 0);
+    const state = await store.read();
+    assert.equal(state.jobs.filter(({movie_id, stage}) => movie_id === 'ADMITTED-001' && stage === 'editorial').length, 1);
+  } finally {
+    await rm(directory, {recursive: true, force: true});
+  }
+});
+
 test('rediscovery promotes one upcoming partial movie to one selectable eligible job', async () => {
   const directory = await mkdtemp(join(tmpdir(), 'cc18-discovery-transition-'));
   try {
