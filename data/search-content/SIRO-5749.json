@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "movie_id": "SIRO-5749",
+  "generated_at": "2026-10-30T14:11:30.728Z",
+  "source_snapshot_hash": "sha256:9739cb9ce04859359188b888b028e74c394bbe5146872564ec8cccbbfb2e0819",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "SIRO-5749 的選片關鍵，在於你是否偏好《初撮り》系列這種以素人OL身份、初次體驗感與獨家配信包裝來成立吸引力的展示型企劃；若你要找的是可明確驗證的劇情推進，公開資訊並沒有把重點放在那裡。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "以系列企劃為主的展示型作品",
+      "身份標籤明確，先靠素人與OL設定吸引注意",
+      "獨家配信與自拍形式強化企劃辨識度"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好《初撮り》系列公式的觀眾",
+      "會被素人與OL身份組合吸引的觀眾",
+      "接受作品以獨家配信與展示型企劃感作為主賣點的觀眾"
+    ],
+    "not_for": [
+      "把選片重心放在明確劇情轉折的觀眾",
+      "期待已知演員魅力或強人物關係鋪陳的觀眾",
+      "想從公開資訊確認大量場景細節的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SIRO-5722",
+      "relation_type": "same_series",
+      "reason": "同屬「【初撮り】ネットでAV応募→AV体験撮影」系列，可用來比較相同公式在不同作品中的角色設定與推進差異。",
+      "shared_signals": [
+        "【初撮り】ネットでAV応募→AV体験撮影"
+      ],
+      "contrast_signals": [
+        "素人企劃",
+        "害羞女孩"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部片最明確的賣點是什麼？",
+    "素人與OL標籤如何影響選片？",
+    "自拍與獨家配信代表什麼觀看方向？",
+    "它適合哪些觀眾，不適合哪些觀眾？"
+  ]
+}

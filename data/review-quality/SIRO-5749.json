@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "SIRO-5749",
+  "review_sha256": "013e7597e4b9c6efaf56924e37e4204cde1ea58b567742b55305fd6fcd5dff3a",
+  "selected_thesis": "SIRO-5749 的吸引力主要來自《初撮り》系列框架下的素人OL設定與獨家配信包裝，屬於展示型企劃強於劇情鋪陳的選片。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "【初撮り】ネットでAV応募→AV体験撮影",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "素人",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "OL",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "【初撮り】ネットでAV応募→AV体験撮影",
+    "editorial_judgment": "把作品放回《初撮り》系列的企劃脈絡來看，重點不是替它補出未公開的情節，而是判斷「素人／OL／初撮り／獨家配信」這組公開訊號，是否已足以構成明確的選片理由。",
+    "source_keywords": [
+      "獨家",
+      "【初撮り】ネットでAV応募→AV体験撮影",
+      "素人",
+      "OL"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "系列名稱直接提供了「初撮り」「AV體驗拍攝」的企劃框架，作品的第一層吸引力因此更偏向系列辨識度與初次體驗感。",
+      "basis": "public_source",
+      "signal": "【初撮り】ネットでAV応募→AV体験撮影"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤中的「素人」「OL」構成最清楚的身份入口，讓選片判斷可聚焦在身份反差與陌生感，而非已知演員名氣。",
+      "basis": "public_source",
+      "signal": "素人 / OL"
+    },
+    {
+      "observation_refs": [],
+      "supports": "「自拍」「配信専用」「独占配信」「高畫質／全高清」等資訊，說明作品的包裝重心包含呈現形式與配信定位，較接近展示型企劃。",
+      "basis": "public_source",
+      "signal": "自拍 / 配信専用 / 独占配信 / 全高清 (FHD)"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開來源把「獨家」放在核心概念位置，這讓作品的差異化更倚賴發行與企劃組合，而不是未公開的劇情資訊。",
+      "basis": "public_source",
+      "signal": "獨家"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未補寫任何未公開的場景流程或互動細節",
+    "未推定演員姓名、年齡、私下身分或職場背景",
+    "未把自拍形式延伸解讀為具體鏡位、剪輯、聲音或表演效果",
+    "未把OL標籤寫成可驗證的職場劇情",
+    "未把初撮り設定寫成已發生的情緒轉折或角色成長"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-29T16:00:00.000Z"
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "SIRO-5749",
+  "checked_at": "2026-10-30T14:11:30.812Z",
+  "review_sha256": "e502b886f79d939f32440c589da13c162b12462ab7fd0af97031258b39aa5d5a",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "公開資訊給出的身份線索很集中：一方面是「素人」，另一方面是「OL」，另外還有「窈窕」這種體態標籤。這表示作品的吸引力，主要不是建立在已知演員名單，而是建立在日常職業想像與素人企劃之間的反差。若你本來就偏好身份感鮮明的作品，這種「素人＋OL」的組合，比單純技術規格更能決定你會不會點"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 1
+  }
+}

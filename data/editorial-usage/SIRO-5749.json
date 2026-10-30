@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "SIRO-5749",
+  "calls": [
+    {
+      "generated_at": "2026-10-30T14:11:30.647Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4148,
+      "cached_input_tokens": 0,
+      "output_tokens": 4975,
+      "total_tokens": 9123,
+      "estimated_cost_usd": 0.132678,
+      "estimated_payg_cash_cost_usd": 0.139311,
+      "direct_openai_reference_usd": 0.084995,
+      "gateway_premium_usd": 0.047683,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4148,
+    "cached_input_tokens": 0,
+    "output_tokens": 4975,
+    "estimated_cost_usd": 0.132678,
+    "estimated_payg_cash_cost_usd": 0.139311,
+    "direct_openai_reference_usd": 0.084995,
+    "gateway_premium_usd": 0.047683
+  }
+}
