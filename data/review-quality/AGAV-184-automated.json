@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "id": "AGAV-184",
+  "checked_at": "2026-10-30T20:12:35.246Z",
+  "review_sha256": "cc4b1b1eb45e6d4cd057cd43ea874afb65834b14ef1d59ed58ced728fc750a88",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前公開資訊來挑片，AGAV-184 最醒目的不是已知劇情，而是「揉穴家族」這個企劃名稱。它直接提供了作品的辨識度，讓人一眼知道這不是單靠演員名單撐起來的普通發想，而是有明確題眼的題材包裝。再加上公開標籤另列出 3p・4p，代表本作在成人主題上也有清楚方向，因此選片時最"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "公開標籤同時出現「戲劇、連續劇」與 3p・4p，說明這部作品的包裝不是完全展示型直進，而是至少在命名與分類上，想把企劃感與互動主題一起推到前面。不過，這裡要分清楚兩件事：第一，3p・4p 是可直接採信的成人主題訊號；第二，「戲劇、連續劇」只能說明它有戲劇式企劃包裝，並不足以進一步"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "AGAV-184",
+  "review_sha256": "83a937e0114a6af4b99cf7cc0eaf6d8c90f79eb0764ca9c51410069a0de1f7d7",
+  "selected_thesis": "AGAV-184 最值得注意的，不是目前未知的細節劇情，而是「揉穴家族」這個企劃核心如何結合吉井美希、桐谷鈴音與 3p・4p 標籤，讓作品在公開資訊層面先建立清楚的觀看理由。",
+  "title_basis": {
+    "performer": "吉井美希（伊澤涼子、吉井美希）、桐谷鈴音",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "吉井美希（伊澤涼子、吉井美希）",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "揉穴家族",
+        "source_field": "title"
+      },
+      {
+        "type": "performer",
+        "value": "桐谷鈴音",
+        "source_field": "actress"
+      },
+      {
+        "type": "act_or_position",
+        "value": "3p・4p",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "吉井美希（伊澤涼子、吉井美希）",
+    "presentation_feature": "揉穴家族",
+    "editorial_judgment": "以公開可追溯資訊來看，AGAV-184 的選片重點不是已知劇情內容，而是「揉穴家族」這個企劃名稱本身，搭配雙演員與 3p・4p 標籤所形成的類型辨識度。",
+    "source_keywords": [
+      "吉井美希（伊澤涼子、吉井美希）",
+      "揉穴家族",
+      "桐谷鈴音",
+      "3p・4p"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "標題與論點以「揉穴家族」作為核心，因為這是公開來源中最明確、最能區分作品企劃方向的概念。",
+      "basis": "public_source",
+      "signal": "揉穴家族"
+    },
+    {
+      "observation_refs": [],
+      "supports": "可確認的演員配置為吉井美希與桐谷鈴音，因此評論可把雙人組合列為選片依據之一。",
+      "basis": "public_source",
+      "signal": "吉井美希（伊澤涼子、吉井美希）／桐谷鈴音"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤含 3p・4p，代表這是可直接用來判斷成人主題取向的來源資訊。",
+      "basis": "public_source",
+      "signal": "3p・4p"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤含「戲劇、連續劇」，因此可將本作定位為帶有戲劇企劃包裝的作品，但不足以推定具體情節密度。",
+      "basis": "public_source",
+      "signal": "戲劇、連續劇"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何具體場景、鏡位、聲音、剪輯或演技表現",
+    "未把「家族」延伸成已確認的母女、姊妹或其他人物關係",
+    "未聲稱作品具有高劇情密度、明確轉折或角色成長線",
+    "未推定兩位演員的戲份比例、主導關係或互動進程",
+    "未把高畫質、720p、HD、4k 寫成作品品質評價核心"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-29T16:00:00.000Z"
+}

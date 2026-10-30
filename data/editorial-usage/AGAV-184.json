@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "AGAV-184",
+  "calls": [
+    {
+      "generated_at": "2026-10-30T20:12:34.908Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4161,
+      "cached_input_tokens": 0,
+      "output_tokens": 3662,
+      "total_tokens": 7823,
+      "estimated_cost_usd": 0.1032,
+      "estimated_payg_cash_cost_usd": 0.10836,
+      "direct_openai_reference_usd": 0.065333,
+      "gateway_premium_usd": 0.037867,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4161,
+    "cached_input_tokens": 0,
+    "output_tokens": 3662,
+    "estimated_cost_usd": 0.1032,
+    "estimated_payg_cash_cost_usd": 0.10836,
+    "direct_openai_reference_usd": 0.065333,
+    "gateway_premium_usd": 0.037867
+  }
+}

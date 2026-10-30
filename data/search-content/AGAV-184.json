@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "movie_id": "AGAV-184",
+  "generated_at": "2026-10-30T20:12:35.086Z",
+  "source_snapshot_hash": "sha256:c42d12a9911bd72c1ac2b82439bd0c6b51df0cd943a157bc043a94a0fa238f81",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "AGAV-184 的可見吸引力集中在「揉穴家族」這個企劃名目，並由吉井美希、桐谷鈴音與 3p・4p 標籤補強；若你重視的是概念辨識度與組合感，這片比純粹追求明確劇情細節更值得留意。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以企劃名稱辨識作品",
+      "先看雙演員配置",
+      "把 3p・4p 視為主要成人主題",
+      "將戲劇包裝視為輔助選片訊號"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先看企劃名稱決定要不要點開的人",
+      "對雙演員組合有興趣的觀眾",
+      "偏好 3p・4p 主題的人",
+      "能接受戲劇包裝但不預設複雜劇情的人"
+    ],
+    "not_for": [
+      "想先確認完整劇情大綱的人",
+      "只偏好單一配對結構的觀眾",
+      "期待已知角色關係設定很明確的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這片先看什麼賣點",
+    "公開資訊能支持哪些期待",
+    "雙演員與 3p・4p 對選片有何意義",
+    "哪些觀眾較適合這部作品"
+  ]
+}
