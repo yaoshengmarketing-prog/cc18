@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "MARR-015",
+  "review_sha256": "e8c1f766e196f9e61fcba9779f33d0fda12208d58e690e2999d89e0def6c21b4",
+  "selected_thesis": "MARR-015 的可追溯價值，主要來自《ゆらら夢》這個系列概念與新妻優香的個人識別；以現有公開資料看，它更像印象寫真取向的展示型企劃，而不是能靠已知劇情設定來說服人的作品。",
+  "title_basis": {
+    "performer": "新妻優香",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "新妻優香",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "ゆらら夢",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "印象寫真",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "新妻優香",
+    "presentation_feature": "ゆらら夢",
+    "editorial_judgment": "把《ゆらら夢》視為系列識別明確的展示型企劃，從公開可追溯的演員、系列、身份與呈現標籤出發，判斷它更適合以包裝概念與觀看期待來選片，而不是以已知劇情內容來評價。",
+    "source_keywords": [
+      "新妻優香",
+      "ゆらら夢",
+      "AV女優片",
+      "印象寫真"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "可把本作判斷為展示型企劃，而非已知劇情導向作品。",
+      "basis": "public_source",
+      "signal": "公開標籤同時出現「AV女優片」與「印象寫真」，且未提供可驗證的 premise、relationship、setting。"
+    },
+    {
+      "observation_refs": [],
+      "supports": "選片時應優先看演員辨識度與系列名稱，而不是期待明確故事線。",
+      "basis": "public_source",
+      "signal": "演員欄位為「新妻優香」，系列欄位為「ゆらら夢」，creative_seed_brief 的 source_concepts 另出現「搖曳之夢」與「YUUKA」。"
+    },
+    {
+      "observation_refs": [],
+      "supports": "系列感是本作的重要入口。",
+      "basis": "public_source",
+      "signal": "core_source_concept 與 series 都指向「ゆらら夢」，顯示作品包裝重心與系列識別一致。"
+    },
+    {
+      "observation_refs": [],
+      "supports": "不宜把角色變化、互動節奏當成已被證實的情節內容。",
+      "basis": "public_source",
+      "signal": "creative_seed_brief 的 themes 明示只供組織文章，不證明作品情節。"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "任何已發生的劇情內容或故事轉折",
+    "任何人物關係、角色身分或場景設定的具體描述",
+    "任何鏡位、運鏡、聲音、剪輯、表情、演技或身體語言的評論",
+    "任何未公開服裝、動作或互動畫面的斷言",
+    "任何演員私生活、真實年齡或其他未提供身分資訊"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-29T16:00:00.000Z"
+}

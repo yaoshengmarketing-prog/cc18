@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "MARR-015",
+  "calls": [
+    {
+      "generated_at": "2026-10-30T08:06:05.338Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4072,
+      "cached_input_tokens": 0,
+      "output_tokens": 4305,
+      "total_tokens": 8377,
+      "estimated_cost_usd": 0.117222,
+      "estimated_payg_cash_cost_usd": 0.123084,
+      "direct_openai_reference_usd": 0.074755,
+      "gateway_premium_usd": 0.042467,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4072,
+    "cached_input_tokens": 0,
+    "output_tokens": 4305,
+    "estimated_cost_usd": 0.117222,
+    "estimated_payg_cash_cost_usd": 0.123084,
+    "direct_openai_reference_usd": 0.074755,
+    "gateway_premium_usd": 0.042467
+  }
+}

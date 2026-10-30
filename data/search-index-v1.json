@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:660f437dde866526b9386bf6530c9c96cd65cc358bf91aacd9fcd92c40c6bb82",
-  "source_generated_at": "2026-10-29T16:34:20.716Z",
+  "source_revision": "sha256:e83b7ef50a9ea575888c48496e8f7a4bbab81791cc62be1522d12f513c1d5749",
+  "source_generated_at": "2026-10-30T08:08:05.644Z",
   "counts": {
-    "movies": 286,
-    "performers": 271,
+    "movies": 287,
+    "performers": 272,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2660,6 +2660,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:46836",
+      "display_name": "新妻優香",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "新妻優香",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MARR-015"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:25176",
       "display_name": "椿莉香",
       "display_name_zh_tw": null,
@@ -3127,6 +3138,47 @@
         "article_title": "MARN-007 三木環奈｜AV女優片《阿紐》：先看企劃辨識度",
         "display_short_title": null,
         "slug": "marn-007"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MARR-015",
+        "source_cover": "https://cc18.tv/preview/80/b/h6qodG49mcw-800.jpg?v=1793256425",
+        "title": "MARR-015 新妻優香｜AV女優片《ゆらら夢》：偏展示型的印象寫真選片",
+        "catalog_code": "MARR-015",
+        "release_date": "2026-10-29",
+        "performers": [
+          "新妻優香"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "image-video",
+            "label": "印象寫真"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/marr-015/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:46836"
+      ],
+      "search": {
+        "source_title": "搖曳之夢 YUUKA",
+        "article_title": "MARR-015 新妻優香｜AV女優片《ゆらら夢》：偏展示型的印象寫真選片",
+        "display_short_title": null,
+        "slug": "marr-015"
       }
     },
     {
