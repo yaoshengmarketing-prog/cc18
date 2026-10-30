@@ -24,8 +24,10 @@ export function summarizePendingWorkItems(items, drain = null) {
 }
 
 export async function runScheduledCanary({store, config, discover = discoverBatch, drain = drainIsolatedQueue,
-  maximumWorks = 1, deadlineAt, logger = console} = {}) {
-  if (!Number.isInteger(maximumWorks) || maximumWorks < 1) throw new Error('Scheduled maximumWorks must be a positive integer');
+  maximumWorks = null, deadlineAt, logger = console} = {}) {
+  if (maximumWorks !== null && (!Number.isInteger(maximumWorks) || maximumWorks < 1)) {
+    throw new Error('Scheduled maximumWorks must be a positive integer or null');
+  }
   if (!Number.isFinite(deadlineAt) || deadlineAt <= 0) throw new Error('Scheduled deadlineAt must be a positive epoch millisecond value');
   const summary = {event: 'cc18_scheduled_publication_finished', discovery: null, attempted: [], published: [], failed: [],
     drain_stop_reason: null, remaining: null, error: null, outcome: null};
@@ -57,7 +59,8 @@ export async function runScheduledCanary({store, config, discover = discoverBatc
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const config = JSON.parse(await readFile(resolve(root, 'config/pipeline.json'), 'utf8'));
-  const maximumWorks = Number(option('--max-works') ?? 1);
+  const maximumWorksOption = option('--max-works');
+  const maximumWorks = maximumWorksOption === undefined ? null : Number(maximumWorksOption);
   const budgetMinutes = Number(option('--time-budget-minutes') ?? config.production.drain_time_budget_minutes);
   if (!Number.isFinite(budgetMinutes) || budgetMinutes <= 0) throw new Error('Scheduled time budget must be positive');
   const summary = await runScheduledCanary({

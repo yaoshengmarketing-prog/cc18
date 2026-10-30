@@ -83,7 +83,7 @@ test('first scheduled attempt stops after one failure and leaves the next work f
   assert.equal(queueDrainExitCode(first), 1);
 });
 
-test('scheduled result reports discovery, publication, and remaining work by reason', async () => {
+test('scheduled result drains without a work count limit and reports remaining work by reason', async () => {
   const logs = [];
   const store = {pendingPublicationWorkItems: async () => [
     {movie_id: 'WAIT-001', classification: 'eligible', metadata_status: 'validated', discovery_run_id: 'run', editorial_status: 'queued', publish_status: null},
@@ -94,8 +94,8 @@ test('scheduled result reports discovery, publication, and remaining work by rea
     deadlineAt: 1000, logger: {log: (value) => logs.push(value)},
     discover: async () => ({new_movies: 2, enqueued: 2}),
     drain: async ({maximumWorks}) => {
-      assert.equal(maximumWorks, 1);
-      return {processed: ['PUBLISHED-001'], completed: ['PUBLISHED-001'], failed: [], work_errors: [], stop_reason: 'attempt_limit_reached', outcome: 'success'};
+      assert.equal(maximumWorks, null);
+      return {processed: ['PUBLISHED-001'], completed: ['PUBLISHED-001'], failed: [], work_errors: [], stop_reason: 'time_budget_reached', outcome: 'success'};
     },
   });
   assert.deepEqual(summary.attempted, ['PUBLISHED-001']);
@@ -103,7 +103,7 @@ test('scheduled result reports discovery, publication, and remaining work by rea
   assert.equal(summary.remaining.count, 3);
   assert.deepEqual(summary.remaining.by_reason.data_mismatch, ['BAD-001']);
   assert.deepEqual(summary.remaining.by_reason.execution_failed, ['FAILED-001']);
-  assert.deepEqual(summary.remaining.by_reason.awaiting_next_run, ['WAIT-001']);
+  assert.deepEqual(summary.remaining.by_reason.time_budget, ['WAIT-001']);
   assert.equal(summary.outcome, 'success');
   assert.match(logs[0], /^CC18_SCHEDULE_RESULT=/u);
   assert.deepEqual(summarizePendingWorkItems([{movie_id: 'WAIT-001', classification: 'eligible', metadata_status: 'validated'}],

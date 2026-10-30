@@ -28,16 +28,17 @@ test('end-to-end canary remains manual, exact-ID, serialized and uses split D1 a
   assert.match(workflow, /actions\/checkout@v7[\s\S]*ref: main[\s\S]*fetch-depth: 0/u);
 });
 
-test('hourly GitHub production work discovers and attempts one isolated queued work without manual inputs', () => {
+test('hourly GitHub production work discovers and drains isolated queued works within a time budget without manual inputs', () => {
   assert.match(workflow, /schedule:\s*\n\s*- cron: '17 \* \* \* \*'/u);
   assert.match(workflow, /group: cc18-content-pipeline[\s\S]*cancel-in-progress: false/u);
-  const publisherIdentityStep = workflow.match(/- name: Configure publisher identity[\s\S]*?(?=\n\s+- name: Discover and publish at most one queued work)/u)?.[0];
+  const publisherIdentityStep = workflow.match(/- name: Configure publisher identity[\s\S]*?(?=\n\s+- name: Discover and publish queued works serially within time budget)/u)?.[0];
   assert.ok(publisherIdentityStep);
   assert.match(publisherIdentityStep, /github\.event_name == 'schedule'/u);
-  const scheduledStep = workflow.match(/- name: Discover and publish at most one queued work[\s\S]*?(?=\n\s+- name: Verify editorial provider connectivity only)/u)?.[0];
+  const scheduledStep = workflow.match(/- name: Discover and publish queued works serially within time budget[\s\S]*?(?=\n\s+- name: Verify editorial provider connectivity only)/u)?.[0];
   assert.ok(scheduledStep);
   assert.match(scheduledStep, /if: github\.event_name == 'schedule'/u);
-  assert.match(scheduledStep, /node scripts\/canary\/scheduled-run\.mjs --max-works=1 --time-budget-minutes=50/u);
+  assert.match(scheduledStep, /node scripts\/canary\/scheduled-run\.mjs --time-budget-minutes=50/u);
+  assert.doesNotMatch(scheduledStep, /--max-works=/u);
   assert.doesNotMatch(scheduledStep, /inputs\./u);
   assert.match(scheduledStep, /AITOKENKING_API_KEY: \$\{\{ secrets\.AITOKENKING_API_KEY \}\}/u);
   assert.match(scheduledStep, /CLOUDFLARE_R2_API_TOKEN: \$\{\{ secrets\.CLOUDFLARE_R2_API_TOKEN \}\}/u);

@@ -50,7 +50,7 @@ jobs:
         run: |
           git config user.name "cc18-publisher[bot]"
           git config user.email "cc18-publisher[bot]@users.noreply.github.com"
-      - name: Discover and publish at most one queued work
+      - name: Discover and publish queued works serially within time budget
         if: github.event_name == 'schedule'
         env:
           AITOKENKING_API_KEY: ${{ secrets.AITOKENKING_API_KEY }}
@@ -61,7 +61,7 @@ jobs:
           CC18_R2_AUTH_MODE: api-token
           CC18_ALLOW_EDITORIAL_TRANSMISSION: YES
           CC18_ALLOW_IMAGE_TRANSMISSION: YES
-        run: node scripts/canary/scheduled-run.mjs --max-works=1 --time-budget-minutes=50
+        run: node scripts/canary/scheduled-run.mjs --time-budget-minutes=50
       - name: Verify editorial provider connectivity only
         if: github.event_name == 'workflow_dispatch' && inputs.stage == 'editorial-smoke'
         env:

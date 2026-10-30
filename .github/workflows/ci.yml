@@ -20,6 +20,8 @@ jobs:
       - run: npm ci
       - run: npm run registry:validate
       - run: npm run content:validate
+      - name: Run scheduled pipeline regression tests
+        run: node --test tests/canary-drain.test.mjs tests/github-canary-workflow.test.mjs
       - run: npm run source:test
       - name: Run series relation tests
         run: npm run series:test
