@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "movie_id": "START-656",
+  "generated_at": "2026-10-30T19:39:34.846Z",
+  "source_snapshot_hash": "sha256:400b9983956d6b8bf8f565a21c82e2cf0db976695fa62e22756bbaf3b138c59e",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "這部片最值得注意的地方，是把『野外露出NTR』放進婚姻被前任舊照侵入的情境裡，讓題材刺激感有了明確的劇情入口。",
+    "story_density": "medium",
+    "pace": "unknown",
+    "presentation": [
+      "先說明主賣點，再區分劇情鉤子與輔助標籤。",
+      "以婚姻、前任照片與野外露出之間的連動，解釋本片為何值得被當成企劃片來看。",
+      "不把高畫質或720p當成主推薦理由。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先看企劃設定再決定是否入手的觀眾",
+      "對婚姻、前任介入與NTR壓力感有興趣的觀眾",
+      "會以本莊鈴作為主要選片依據的觀眾"
+    ],
+    "not_for": [
+      "只想依規格標籤挑片的觀眾",
+      "期待已被確認的具體場景強度或完整關係轉折的觀眾",
+      "偏好純展示型、不在意設定鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片的核心賣點是什麼？",
+    "公開簡介透露了多少劇情量？",
+    "本莊鈴在這個企劃中的選片意義是什麼？",
+    "哪些標籤是主賣點，哪些只是輔助資訊？",
+    "這片比較適合哪一類觀眾？"
+  ]
+}

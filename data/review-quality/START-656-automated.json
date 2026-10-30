@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "START-656",
+  "checked_at": "2026-10-30T19:39:34.999Z",
+  "review_sha256": "52e5549f7e7d2551771a41ff5229750d2732af3ed9047edba8b6c3f766e4e651",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就公開資訊看，核心不是單一的「野外」標籤，而是「野外露出NTR」如何被放進婚姻情境裡。簡介明白寫到，鈴在結婚生活中收到一封電子郵件，附件是過去被前男友拍下的露出PLAY照片。這個設定讓題材的刺激點，從單純露出，轉成過去關係回頭侵入現在婚姻的壓力感；也因此，本片更像一部靠企劃鉤子成"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 5,
+    "recommendations": 0
+  }
+}

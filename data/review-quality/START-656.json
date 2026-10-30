@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "START-656",
+  "review_sha256": "de1d85cc8bb4f1494590ff54da2e710e9a65e7a861951303c58e306d4eb73411",
+  "selected_thesis": "把『野外露出NTR』放進婚姻被前任舊照侵入的情境，是本作最有辨識度的地方。",
+  "title_basis": {
+    "performer": "本莊鈴",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "本莊鈴",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "野外露出NTR",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "戲劇、連續劇",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "本莊鈴",
+    "presentation_feature": "野外露出NTR",
+    "editorial_judgment": "把本作視為一部由婚姻現況、前任痕跡與野外露出題材交疊而成的企劃片；選片重點不在規格標籤，而在公開簡介已經成立的NTR式壓力感。",
+    "source_keywords": [
+      "本莊鈴",
+      "野外露出NTR",
+      "戲劇、連續劇"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "本作的區別點不是單獨的野外元素，而是婚姻生活中收到前男友所拍露出PLAY照片，讓『野外露出NTR』成為有明確導火線的設定。",
+      "basis": "public_source",
+      "signal": "野外露出NTR"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤包含『戲劇、連續劇』，而簡介也交代了婚姻、電子郵件與前任照片三個敘事要素，足以支持本片偏劇情企劃的判斷。",
+      "basis": "public_source",
+      "signal": "戲劇、連續劇"
+    },
+    {
+      "observation_refs": [],
+      "supports": "演員可確認為本莊鈴，且其姓名直接出現在可追溯片名線索中，表示演員辨識度是主要選片入口之一。",
+      "basis": "public_source",
+      "signal": "本莊鈴"
+    },
+    {
+      "observation_refs": [],
+      "supports": "『口交』『高畫質』『720p』都屬公開可見標籤，但相較於婚姻與前任照片觸發的主設定，它們更適合作為輔助資訊。",
+      "basis": "public_source",
+      "signal": "口交"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述電子郵件之後實際發生的關係發展或結局。",
+    "未聲稱存在任何已確認的野外實景段落、鏡位、剪輯、聲音或表演細節。",
+    "未把『口交』標籤擴寫為具體段落配置、次數或重點場面。",
+    "未推定丈夫與前男友的戲份比例、對手戲形式或最終關係變化。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-29T16:00:00.000Z"
+}

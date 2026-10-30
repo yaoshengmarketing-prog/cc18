@@ -1156,16 +1156,17 @@
     },
     {
       "label": "野外",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "DLDSS-539",
         "CEMD-889",
         "BANK-248",
         "MUDR-397",
-        "MVSH-006"
+        "MVSH-006",
+        "START-656"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-19",
+      "last_seen": "2026-10-31",
       "status": "quarantined"
     },
     {

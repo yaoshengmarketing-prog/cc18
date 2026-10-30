@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:466a46a57a5488f792429a4f5e88dcc2e31b96d3b6ac398a34338ef6214b400d",
-  "source_generated_at": "2026-10-30T19:33:26.077Z",
+  "source_revision": "sha256:433643733662cd10c272a4602714612ebe852fd46065c6d50a90106709c80a70",
+  "source_generated_at": "2026-10-30T19:41:27.898Z",
   "counts": {
-    "movies": 289,
-    "performers": 272,
+    "movies": 290,
+    "performers": 273,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -725,6 +725,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PYM-577"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:22271",
+      "display_name": "本莊鈴",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "本莊鈴",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:START-656"
       ]
     },
     {
@@ -3269,6 +3280,55 @@
         "article_title": "PAKO-110 迪斯科搭訕04｜素人企劃的安全話術與失控反差",
         "display_short_title": null,
         "slug": "pako-110"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:START-656",
+        "source_cover": "https://cc18.tv/preview/80/b/rHBKy4VGq5Q-800.jpg?v=1793219803",
+        "title": "START-656 本莊鈴｜野外露出NTR：婚姻被前任舊照敲開",
+        "catalog_code": "START-656",
+        "release_date": "2026-10-27",
+        "performers": [
+          "本莊鈴"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/start-656/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:22271"
+      ],
+      "search": {
+        "source_title": "野外露出NTR 與重逢的前男友被喚醒變態性癖的無性愛美人妻 本庄鈴",
+        "article_title": "START-656 本莊鈴｜野外露出NTR：婚姻被前任舊照敲開",
+        "display_short_title": null,
+        "slug": "start-656"
       }
     },
     {
