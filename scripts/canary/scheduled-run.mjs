@@ -66,13 +66,16 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
   });
   if (process.env.GITHUB_STEP_SUMMARY) {
     const discovery = summary.discovery ?? {};
+    const remainingReasons = summary.remaining?.by_reason ?? {};
     const lines = [
       '## CC18 scheduled publication',
-      `Discovery: ${discovery.new_movies ?? 0} new works, ${discovery.enqueued ?? 0} queued jobs`,
+      `Discovery: ${discovery.candidates ?? 0} candidates, ${discovery.fetched ?? 0} fetched, ${discovery.new_movies ?? 0} new works, ${discovery.enqueued ?? 0} queued jobs, ${discovery.errors?.length ?? 0} errors`,
       `Attempted (${summary.attempted.length}): ${summary.attempted.join(', ') || 'none'}`,
       `Published (${summary.published.length}): ${summary.published.join(', ') || 'none'}`,
       `Failed (${summary.failed.length}): ${summary.failed.join(', ') || 'none'}`,
+      ...(summary.work_errors?.length ? [`Failure details: ${summary.work_errors.map(({movie_id, stage, code}) => `${movie_id} (${stage ?? 'unknown stage'}, ${code ?? 'unknown code'})`).join(', ')}`] : []),
       `Remaining (${summary.remaining?.count ?? 'unknown'}): ${summary.remaining?.ids.join(', ') || 'none'}`,
+      ...Object.entries(remainingReasons).map(([reason, ids]) => `Remaining ${reason} (${ids.length}): ${ids.join(', ') || 'none'}`),
       `Stop: ${summary.drain_stop_reason ?? 'before drain'}; outcome: ${summary.outcome}`,
       ...(summary.error ? [`Error: ${summary.error}`] : []),
     ];
