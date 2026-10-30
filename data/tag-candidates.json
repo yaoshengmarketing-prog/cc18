@@ -477,16 +477,17 @@
     },
     {
       "label": "大屌",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "SNOS-409",
         "HJMO-739",
         "DVMM-445",
         "JUR-866",
-        "SNOS-399"
+        "SNOS-399",
+        "MIDA-851"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-21",
+      "last_seen": "2026-10-31",
       "status": "quarantined"
     },
     {
@@ -658,7 +659,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 30,
+      "occurrences": 31,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -689,10 +690,11 @@
         "NACT-184",
         "FLAV-428",
         "SNOS-387",
-        "HALT-093"
+        "HALT-093",
+        "MIDA-851"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-24",
+      "last_seen": "2026-10-31",
       "status": "quarantined"
     },
     {

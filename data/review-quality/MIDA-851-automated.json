@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "MIDA-851",
+  "checked_at": "2026-10-30T23:56:52.661Z",
+  "review_sha256": "0053424b2b10ab8356c63ed8eb766f99bc2a5220a4c3bb838c6644b10338d3ee",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "從公開資訊來看，MIDA-851 最明確的核心就是「小穴被巨根強行壓入撐開」這個主題本身。這不是需要額外猜測的延伸解讀，而是來源已直接給出的企劃概念。再加上演員標示為風見渚月，以及安全標籤裡同時出現「美少女」與「AV女優片」，本作的選片重心就很清楚：它不是先用故事吸引人，而是先用"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "較合理的判斷是展示型企劃。原因不是因為作品一定沒有故事，而是目前公開資料沒有提供前提、人物關係、角色動機、場景設定，也沒有系列脈絡可供延伸；連 creative brief 內的 故事前提、人物關係、role dynamic、場景設定 都維持未知。相對地，來源卻明確給了核心性主題"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

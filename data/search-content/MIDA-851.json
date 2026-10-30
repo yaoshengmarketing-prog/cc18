@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "movie_id": "MIDA-851",
+  "generated_at": "2026-10-30T23:56:52.576Z",
+  "source_snapshot_hash": "sha256:5a9f716b92174b4f8cbb02dd2b0fe797a9128051571d61994f10ff42384e291f",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若你對風見渚月有興趣，並且偏好『美少女』外型搭配高強度壓迫型主題的直球企劃，MIDA-851 的公開資訊已足夠成立選片理由；但若你期待完整故事、明確角色關係或可追蹤的情節推進，這部片目前公開資料並沒有提供那類保證。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "展示型企劃",
+      "演員形象先行",
+      "核心刺激設定明確"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想看風見渚月的新作的人",
+      "偏好美少女設定與強烈題材反差的人",
+      "選片時重視主題標籤清楚、刺激方向明確的人"
+    ],
+    "not_for": [
+      "期待完整人物關係與敘事鋪陳的人",
+      "選片時很在意具體場景設定或故事前提的人",
+      "不偏好強勢壓迫型核心主題的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片的主打賣點是什麼？",
+    "它偏劇情導向還是企劃導向？",
+    "公開資料裡有哪些可作為選片依據的補強訊號？",
+    "它適合哪些觀眾、又不太適合哪些觀眾？"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "MIDA-851",
+  "review_sha256": "65621283c800677adda68784c98ea0b10637266543f9247cd6ad328cd3ff00a9",
+  "selected_thesis": "這是一部由風見渚月與強烈核心主題共同撐起的展示型作品，價值在於題材訊號夠直、反差夠明確，而不是目前可見的故事厚度。",
+  "title_basis": {
+    "performer": "風見渚月",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "風見渚月",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "小穴被巨根強行壓入撐開",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "美少女",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "口交",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "風見渚月",
+    "presentation_feature": "小穴被巨根強行壓入撐開",
+    "editorial_judgment": "把這部作品視為由單一強烈題材與演員形象共同撐起的展示型企劃；選片重點不在故事鋪陳，而在公開主題是否足夠明確、以及美少女設定與高強度主軸之間的反差是否對胃口。",
+    "source_keywords": [
+      "風見渚月",
+      "小穴被巨根強行壓入撐開",
+      "美少女",
+      "口交"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "可明確以演員辨識作品，適合把『看人』作為第一層選片條件。",
+      "basis": "public_source",
+      "signal": "風見渚月"
+    },
+    {
+      "observation_refs": [],
+      "supports": "作品最突出的公開賣點是強烈且單點集中的性主題，足以作為標題與評論主軸。",
+      "basis": "public_source",
+      "signal": "小穴被巨根強行壓入撐開"
+    },
+    {
+      "observation_refs": [],
+      "supports": "『美少女』身份標籤與強勢主題並置，形成可預期的反差吸引力。",
+      "basis": "public_source",
+      "signal": "美少女"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資料提供的行為標籤以口交、顏射與來源摘錄中的潮吹為主，顯示本作更偏向明確刺激項目的展示，而非已知劇情驅動。",
+      "basis": "public_source",
+      "signal": "展示型企劃"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開欄位未提供人物關係、場景、前提或系列脈絡，因此不宜把它判定為高劇情密度作品。",
+      "basis": "public_source",
+      "signal": "低劇情密度"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未主張存在任何已確認的劇情前提、場景配置或角色關係。",
+    "未把口交、顏射、潮吹寫成固定順序或特定段落安排。",
+    "未根據高畫質、4k、獨家配信推論鏡位、剪輯、聲音或完成度。",
+    "未聲稱看見演員表情、演技、情緒變化或主導權轉移。",
+    "未補寫任何未公開的人設、真實身分、年齡或私生活資訊。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-29T16:00:00.000Z"
+}
