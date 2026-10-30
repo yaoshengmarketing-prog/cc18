@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "SCOH-270",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-10-30T20:08:32.818Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/SCOH-270/hero-v1.jpg",
+      "r2_key": "works/2026/10/SCOH-270/hero-v1.jpg",
+      "bytes": 712318,
+      "sha256": "e1e2277a12aee563ee884fce4e3154626d62135249732cabf12ac68316f2219f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "06acc54a969a4f1b9e762c951461841a",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/SCOH-270/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/SCOH-270/scene-vertical-v1.jpg",
+      "bytes": 956155,
+      "sha256": "969e6d5af4e259fa0a586379f958b7ffecb3776651b2ac6ccb91ea6d2e8cf848",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "74bc77135a9944699e41ec9a2f174e37",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2856095,
+    "sha256": "fdff277c806f884df0d259ae71d7fd4c93c4c0f3343fb698285e1209dc142433",
+    "target_r2_key": "works/2026/10/SCOH-270/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/SCOH-270/vertical-v1.mp4"
+  }
+}

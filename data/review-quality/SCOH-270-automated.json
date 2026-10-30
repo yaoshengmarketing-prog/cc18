@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "SCOH-270",
+  "checked_at": "2026-10-30T20:07:36.513Z",
+  "review_sha256": "bf03eb5f845a047f04ca0c5235f3de78c34c862a6f30894feef241fdb941b633",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "目前最清楚、也最值得作為選片起點的，是公開資料裡的「獨家」概念。再往下看，角色扮演、巨乳與中出三個標記把作品口味收得很集中，讓這片的吸引力不是建立在已知劇情，而是建立在題材命中率。如果你本來就會被角色扮演框架吸引，這組標籤的辨識度很直接。"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 3,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

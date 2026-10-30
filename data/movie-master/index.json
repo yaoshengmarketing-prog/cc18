@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-10-30T20:04:21.794Z",
+  "generated_at": "2026-10-30T20:09:32.555Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 298,
-  "formal_movie_count": 297,
+  "tracked_input_count": 299,
+  "formal_movie_count": 298,
   "demo_count": 1,
-  "published_count": 294,
+  "published_count": 295,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2069,6 +2069,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "0407f547587a2bb0f1e2dd5c62b269b8612d2ded879714921d49f16018b64b33"
+    },
+    {
+      "stable_movie_id": "cc18:SCOH-270",
+      "catalog_code": "SCOH-270",
+      "slug": "scoh-270",
+      "master_path": "data/movie-master/scoh-270.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "b537a579e6ccc79f21fd0e765186aa2314e4bdc476722900dc305bae5a845775"
     },
     {
       "stable_movie_id": "cc18:SDAB-358",

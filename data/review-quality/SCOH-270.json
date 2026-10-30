@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "SCOH-270",
+  "review_sha256": "670ef1c2e4bbe6322e686590a9dc77ae3597a1853c26a6dd855e8af71658bea3",
+  "selected_thesis": "SCOH-270 以「獨家」為核心包裝，透過角色扮演、巨乳與中出三個明確標記完成口味定位，較適合把它視為展示型題材選片，而非劇情導向作品。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "costume",
+        "value": "角色扮演",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "角色扮演",
+    "editorial_judgment": "以「獨家」為核心概念，從角色扮演、巨乳與中出等公開標記判斷本作屬於題材導向明確、較適合用口味標籤快速選片的展示型作品。",
+    "source_keywords": [
+      "獨家",
+      "角色扮演",
+      "巨乳",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "本作的選片核心不是已知劇情，而是以公開題材標記直接建立偏好入口。",
+      "basis": "public_source",
+      "signal": "獨家／角色扮演／巨乳／中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資料未提供可追溯的人物關係、故事前提與場景設定，因此更適合歸為展示型企劃取向。",
+      "basis": "public_source",
+      "signal": "premise、relationship、setting 皆未確認；series 為 null"
+    },
+    {
+      "observation_refs": [],
+      "supports": "配信與規格資訊是補充賣點，但不能取代題材本身作為主要判斷依據。",
+      "basis": "public_source",
+      "signal": "高畫質／720p／全高清（FHD）／獨家限定／配信専用"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未宣稱存在明確故事主線或角色成長",
+    "未寫入任何未公開的人物關係與場景設定",
+    "未描述鏡位、剪輯、聲音、表情、肢體語言或觀看體感",
+    "未將「摩●納」推定為具體角色名稱或世界觀來源",
+    "未補充未知演員身分、年齡或私生活資訊"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-29T16:00:00.000Z"
+}
