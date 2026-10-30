@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T14:11:30.824Z",
+  "updated_at": "2026-10-30T19:33:11.620Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -4373,6 +4373,19 @@
       "cover_status": "remote_source",
       "image_status": "pending",
       "video_status": "pending",
+      "template": "story",
+      "published_at": "2026-10-30"
+    },
+    {
+      "id": "PAKO-110",
+      "actress": [],
+      "release_date": "2026-10-27",
+      "source_url": "https://cc18.tv/player.php?uuid=yG5zJ_iV6d_&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
       "template": "story",
       "published_at": "2026-10-30"
     }

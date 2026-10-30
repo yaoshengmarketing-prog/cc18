@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "id": "PAKO-110",
+  "checked_at": "2026-10-30T19:31:29.682Z",
+  "review_sha256": "104c281789b6cb22cfd51b60803c279c2c07500bbae94432315edc695b9418c4",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "核心賣點很明確，就是「ディスコナンパ」這個系列概念本身。來源片名線索出現「迪斯科搭訕04」，再加上系列名直接對應到迪斯科搭訕企劃，代表它的辨識點首先不是演員，而是企劃框架：在夜生活、陌生接觸與搭訕情境裡推進內容。對選片來說，這種作品最值得注意的不是卡司辨識，而是你是否本來就吃這種"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "最有記憶點的是反差。公開簡介不是單純寫「去夜店」而已，而是先拋出「雖然夜店很輕浮，但迪斯可很安全」這句安撫，接著再把情勢推到震耳欲聾的音樂、烈酒醉意，以及妻子回神時已和陌生男子身處飯店房間的局面。這讓本作的吸引力更接近一種墜入式前提：觀眾若對「安全感如何一步步鬆動」這種企劃有興趣"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "以目前可追溯的資訊來看，我會把它放在「設定先行」的一側。原因不是因為已經能確認完整劇情執行，而是公開簡介至少提供了一條清楚的因果線：朋友的勸說、夜店的環境刺激、酒精介入，最後落到陌生男子與飯店房間的場面。這種寫法比純標籤堆疊更有故事入口。不過，因為沒有進一步影像證據，還不能把它說"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 3,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:61b4f867c21014ca69eab1bc2b2e2365c52ac07522758fd4894692caa77c76d1",
-  "source_generated_at": "2026-10-30T14:12:29.181Z",
+  "source_revision": "sha256:466a46a57a5488f792429a4f5e88dcc2e31b96d3b6ac398a34338ef6214b400d",
+  "source_generated_at": "2026-10-30T19:33:26.077Z",
   "counts": {
-    "movies": 288,
+    "movies": 289,
     "performers": 272,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -3236,6 +3236,39 @@
         "article_title": "SIRO-5749｜素人OL初撮り：獨家配信下的展示型企劃魅力",
         "display_short_title": null,
         "slug": "siro-5749"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:PAKO-110",
+        "source_cover": "https://cc18.tv/preview/80/b/yG5zJ_iV6d_-800.jpg?v=1793219808",
+        "title": "PAKO-110 迪斯科搭訕04｜素人企劃的安全話術與失控反差",
+        "catalog_code": "PAKO-110",
+        "release_date": "2026-10-27",
+        "performers": [],
+        "canonical_topics": [
+          {
+            "id": "amateur",
+            "label": "素人"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/pako-110/"
+      },
+      "performer_ids": [],
+      "search": {
+        "source_title": "迪斯科搭讪04",
+        "article_title": "PAKO-110 迪斯科搭訕04｜素人企劃的安全話術與失控反差",
+        "display_short_title": null,
+        "slug": "pako-110"
       }
     },
     {

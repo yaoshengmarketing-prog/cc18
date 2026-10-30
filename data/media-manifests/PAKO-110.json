@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "PAKO-110",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-10-30T19:32:24.895Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/PAKO-110/hero-v1.jpg",
+      "r2_key": "works/2026/10/PAKO-110/hero-v1.jpg",
+      "bytes": 684359,
+      "sha256": "cefa3f3f635627dbe83766963a1b42f4dafb105b11502b2ba682d23d89bd722e",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "94238cf300f04c4f83159669e8688d07",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/PAKO-110/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/PAKO-110/scene-vertical-v1.jpg",
+      "bytes": 1017105,
+      "sha256": "82b35e78c503bfc1490ed110294d5e0130971b6ec37dd10d78256b921be19945",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "2630c66fc0ab48979ad84bbb8c8c2ae3",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2675352,
+    "sha256": "6630acf7fb9c5943ec70a340f62acf8d2ad4f9ad2919abd25b35621093a24bda",
+    "target_r2_key": "works/2026/10/PAKO-110/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/PAKO-110/vertical-v1.mp4"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "movie_id": "PAKO-110",
+  "generated_at": "2026-10-30T19:31:29.525Z",
+  "source_snapshot_hash": "sha256:19e61dfa2df484f326f08113933d067c3fcc2efa18a6427b21deb2b84398c493",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "PAKO-110 的可看點不在已知卡司，而在「迪斯科搭訕」企劃本身；它用安全話術與失控落點的反差，建立出一部值得因前提而選的素人作品。",
+    "story_density": "medium",
+    "pace": "unknown",
+    "presentation": [
+      "系列企劃辨識度高",
+      "設定先行",
+      "以公開簡介中的反差前提作為主要選片依據",
+      "技術規格僅屬輔助訊號"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先看企劃概念再決定是否入手的人",
+      "偏好素人設定與陌生情境反差的人",
+      "對系列公式與前提設計有興趣的觀眾"
+    ],
+    "not_for": [
+      "只想依已知演員名單選片的人",
+      "需要已驗證鏡位、節奏或表演細節才會入手的人",
+      "對夜店搭訕企劃本身沒有興趣的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片的核心賣點是什麼",
+    "公開簡介提供了哪些足以影響選片的劇情線索",
+    "它更偏向企劃設定還是單純規格展示",
+    "哪些觀眾會比較適合這類作品"
+  ]
+}
