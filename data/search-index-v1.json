@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:433643733662cd10c272a4602714612ebe852fd46065c6d50a90106709c80a70",
-  "source_generated_at": "2026-10-30T19:41:27.898Z",
+  "source_revision": "sha256:f19deb8df38a89ccde5bb2e4224e8c555ee26f03e1a4c40e57471d0109caec25",
+  "source_generated_at": "2026-10-30T19:47:21.743Z",
   "counts": {
-    "movies": 290,
-    "performers": 273,
+    "movies": 291,
+    "performers": 274,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2638,6 +2638,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:50104",
+      "display_name": "新川空",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "新川空",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:START-657"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:26428",
       "display_name": "新井里真",
       "display_name_zh_tw": null,
@@ -3329,6 +3340,59 @@
         "article_title": "START-656 本莊鈴｜野外露出NTR：婚姻被前任舊照敲開",
         "display_short_title": null,
         "slug": "start-656"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:START-657",
+        "source_cover": "https://cc18.tv/preview/80/b/3_DCVLaOi6v-800.jpg?v=1793219807",
+        "title": "START-657 新川空｜亂交企劃下的展示型選片",
+        "catalog_code": "START-657",
+        "release_date": "2026-10-27",
+        "performers": [
+          "新川空"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "facial",
+            "label": "顏射題材"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/start-657/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:50104"
+      ],
+      "search": {
+        "source_title": "被暴走汁男優安卓機器人集體輪姦的管理人-SORA- 新川空",
+        "article_title": "START-657 新川空｜亂交企劃下的展示型選片",
+        "display_short_title": null,
+        "slug": "start-657"
       }
     },
     {

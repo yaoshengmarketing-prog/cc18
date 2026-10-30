@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "START-657",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-10-30T19:46:23.422Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/START-657/hero-v1.jpg",
+      "r2_key": "works/2026/10/START-657/hero-v1.jpg",
+      "bytes": 618391,
+      "sha256": "59f58bc90554e011508c6e583f0c0f196560ab475d0a355a3193712e89a56c89",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "45512e8efa6e4bd79fff42a8ff082f92",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/START-657/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/START-657/scene-vertical-v1.jpg",
+      "bytes": 893923,
+      "sha256": "6fa79c423d0518b113cd6579576567ff470938599313ac6b018e821bcc96d1b5",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "ff61992bbd5a409b86480efb4dc98cd7",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2855598,
+    "sha256": "8ef8dccb9c3d9c71a476a51fafd52c4afdcf88fc74c0fc1cfc56b00f7f1a1949",
+    "target_r2_key": "works/2026/10/START-657/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/START-657/vertical-v1.mp4"
+  }
+}

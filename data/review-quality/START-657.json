@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "START-657",
+  "review_sha256": "68e0bffc4e687c6c51e1cdf81f7a57dcc16c7037781063e949083928faf44a0b",
+  "selected_thesis": "當公開資訊主要集中在新川空與亂交等直接標籤時，這部片最合理的定位就是演員主導的展示型企劃，而不是已知設定先行的故事片。",
+  "title_basis": {
+    "performer": "新川空",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "新川空",
+        "source_field": "actress"
+      },
+      {
+        "type": "act_or_position",
+        "value": "亂交",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "戲劇、連續劇",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "新川空",
+    "presentation_feature": "亂交",
+    "editorial_judgment": "以新川空為核心辨識，評估這部作品是否屬於以演員與直接主題標籤帶動的展示型選片。",
+    "source_keywords": [
+      "新川空",
+      "亂交",
+      "戲劇、連續劇"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開資訊中最穩定且最具辨識度的核心是新川空，足以成為選片的第一判準。",
+      "basis": "public_source",
+      "signal": "新川空"
+    },
+    {
+      "observation_refs": [],
+      "supports": "中出、亂交、噴精是已公開的內容標籤，顯示作品賣點明確偏向直接成人主題，而不是已知的人物關係或完整情節簡介。",
+      "basis": "public_source",
+      "signal": "中出／亂交／噴精"
+    },
+    {
+      "observation_refs": [],
+      "supports": "戲劇、連續劇屬於來源標籤的一部分，可作為包裝形式的提示，但現有資料不足以把它直接等同於高劇情密度。",
+      "basis": "public_source",
+      "signal": "戲劇、連續劇"
+    },
+    {
+      "observation_refs": [],
+      "supports": "高畫質與720p、HD、4k等資訊屬技術層面的附加訊號，能補強觀看規格感，但不是作品核心賣點。",
+      "basis": "public_source",
+      "signal": "高畫質"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "具體劇情線與事件順序",
+    "人物關係與角色身分設定",
+    "場景配置與拍攝段落內容",
+    "表演細節、表情、聲音、剪輯或鏡位風格",
+    "任何未公開的系列脈絡"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-29T16:00:00.000Z"
+}

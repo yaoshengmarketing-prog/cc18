@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "movie_id": "START-657",
+  "generated_at": "2026-10-30T19:45:27.154Z",
+  "source_snapshot_hash": "sha256:c20219658bc16f1cc4bcefa1821b717ca6aa97e30e13371d5be7f57df31a72fe",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若你的第一需求是新川空本人，再加上對亂交這類直接主題標籤有明確偏好，這部片有清楚入口；但若你期待已知劇情設定或人物關係，現有公開資訊仍不足。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以演員辨識度帶動選片",
+      "成人主題標籤直接",
+      "形式上帶有戲劇、連續劇包裝提示"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "以新川空為主要選片依據的觀眾",
+      "偏好亂交、中出、噴精等直接主題標籤的觀眾",
+      "能接受作品資訊以企劃標籤先行的觀眾"
+    ],
+    "not_for": [
+      "想先確認完整劇情架構後再選片的人",
+      "特別在意已知人物關係與場景設定的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片最明確的選片理由是什麼？",
+    "公開標籤透露了哪些內容重心？",
+    "戲劇、連續劇標籤應該怎麼解讀？",
+    "哪些觀眾適合優先考慮這部片？"
+  ]
+}
