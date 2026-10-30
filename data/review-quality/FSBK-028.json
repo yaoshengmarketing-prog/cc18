@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "FSBK-028",
+  "review_sha256": "a30e9481c25c900088585f920c0aa5471b5837898a09d1358eae9c6c2c4b024f",
+  "selected_thesis": "FSBK-028 的可追溯賣點非常集中：以「ちいさなおしり」為核心辨識，再用中出與3p・4p等公開標籤明示刺激方向，因此最合理的評價角度不是故事，而是系列公式是否清楚、企劃展示是否夠直接。",
+  "title_basis": {
+    "performer": "北乃まい",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "北乃まい",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "ちいさなおしり",
+        "source_field": "series"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "北乃まい",
+    "presentation_feature": "ちいさなおしり",
+    "editorial_judgment": "以公開來源可追溯的系列名、主題概念與標籤來判斷，這部作品的吸引力主要不在劇情鋪陳，而在於把「ちいさなおしり」這個身體特徵企劃化，並以中出、3p・4p等來源標籤補強刺激方向，因此更適合從系列公式與展示型企劃的角度切入。",
+    "source_keywords": [
+      "北乃まい",
+      "ちいさなおしり",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "本作可優先視為以核心身體特徵為主的系列型企劃，而非先以情節設定辨識的作品。",
+      "basis": "public_source",
+      "signal": "series=ちいさなおしり；core_source_concept=ちいさなおしり；source_concepts含「小巧臀部」"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤把作品賣點集中在刺激項目與多人玩法，強化展示型取向。",
+      "basis": "public_source",
+      "signal": "topic_elements.action含「中出」「3p・4p」；source_concepts含「3穴強插失禁絕頂」"
+    },
+    {
+      "observation_refs": [],
+      "supports": "缺乏可追溯的前提、人物關係與場景設定，因此不宜把它寫成高劇情密度作品。",
+      "basis": "public_source",
+      "signal": "creative_seed_brief中的premise、relationship、role_dynamic、central_tension、setting皆為null"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱已觀察到任何具體場景、鏡位、剪輯、聲音或表演細節。",
+    "未虛構人物關係、故事前提、地點設定或角色弧線。",
+    "未把來源中的刺激語句寫成已驗證的實際演出結果。",
+    "未推定演員私生活、真實身分、年齡或拍攝狀態。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-29T16:00:00.000Z"
+}

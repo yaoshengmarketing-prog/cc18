@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "movie_id": "FSBK-028",
+  "generated_at": "2026-10-30T19:55:59.470Z",
+  "source_snapshot_hash": "sha256:a0bac4721693ac19a69b8e947bdecccd4b5657f89d847bccb9fe527feae934f9",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若從選片角度看，FSBK-028 的可追溯優勢在於「ちいさなおしり」這個核心概念足夠鮮明，再由中出與3p・4p等公開標籤把刺激方向說清楚；因此它更像系列公式完整、目的明確的展示型作品，而不是靠人物關係或情節推進取勝。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "系列公式明確",
+      "展示型企劃",
+      "核心賣點集中在小巧臀部概念",
+      "刺激標籤清楚但劇情資訊有限"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會直接追系列企劃的人",
+      "偏好核心身體特徵明確賣點的人",
+      "選片時重視中出、3p・4p等公開標籤的人"
+    ],
+    "not_for": [
+      "期待完整人物關係鋪陳的人",
+      "想先確認具體場景與演出節奏再選片的人",
+      "偏好高劇情密度敘事的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這片最明確的賣點是什麼？",
+    "它比較像劇情片還是展示型企劃？",
+    "公開資訊能支持多少人物與設定解讀？",
+    "它比較適合哪一類觀眾？"
+  ]
+}
