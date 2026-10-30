@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "id": "RT-042",
+  "checked_at": "2026-10-30T20:02:42.621Z",
+  "review_sha256": "fedcbea10e5c0db85ea5abb9cdbbd2d848551c787667b419b690d747726afdb8",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "若只根據目前可確認的公開資訊，我會把它歸在展示型企劃這一側。原因很簡單：片名另有「嚴選經典集錦」與「vol.4」，但沒有可追溯的明確前提，例如人物關係、具體場景、故事衝突或角色目標。這代表選片時更實際的讀法，不是期待單一敘事線，而是把它看成以題材與設定做整理的集錦內容。也因此，「"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "如果你選片時本來就會先看題材標籤，像是素人、美少女、角色扮演，並且會把「獨家配信」視為加分，那 RT-042 的方向其實很直接：它不是靠複雜設定吸引人，而是靠企劃組合本身讓偏好快速對位。再加上「嚴選經典集錦」「vol.4」這種訊號，也很適合能接受系列化、集錦化包裝的觀眾。反過來說"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 3,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

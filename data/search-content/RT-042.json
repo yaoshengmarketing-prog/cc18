@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "movie_id": "RT-042",
+  "generated_at": "2026-10-30T20:02:42.467Z",
+  "source_snapshot_hash": "sha256:ec9e38c0d293cd227c28d2ac456bf7ce9326c55db75d4ee09e62b2c6c1e398e8",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "RT-042 的吸引力不在已知劇情，而在「獨家」框架下，把素人、美少女與角色扮演等偏好集中成一部方向明確的展示型集錦。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "展示型企劃",
+      "集錦取向",
+      "獨家配信包裝"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會把「獨家配信」當成選片理由的人",
+      "偏好素人題材與美少女設定的人",
+      "喜歡角色扮演主題、接受展示型企劃的人",
+      "選片時會優先看明確成人題材標籤的人"
+    ],
+    "not_for": [
+      "想找明確人物關係與完整情節的人",
+      "特別在意場景設定或敘事起伏是否鮮明的人",
+      "不偏好系列化、集錦化企劃包裝的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片最值得先看的公開賣點是什麼？",
+    "它比較像劇情片，還是展示型企劃？",
+    "哪些觀眾會比較對味，哪些人可能不合？"
+  ]
+}

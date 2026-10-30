@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:e2d32a9c98a2b6b1411d15fa9556e9bffb60599b5b459b1a5fb399861f81dd91",
-  "source_generated_at": "2026-10-30T19:57:37.226Z",
+  "source_revision": "sha256:6caa06e4de2a80e4a415f55c8a552c6c5874d2ef2473a23a53eee50b2e1fcf2e",
+  "source_generated_at": "2026-10-30T20:04:21.794Z",
   "counts": {
-    "movies": 293,
+    "movies": 294,
     "performers": 275,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -3478,6 +3478,59 @@
         "article_title": "START-657 新川空｜亂交企劃下的展示型選片",
         "display_short_title": null,
         "slug": "start-657"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:RT-042",
+        "source_cover": "https://cc18.tv/preview/80/b/1kUzm8o9dcV-800.jpg?v=1793349374",
+        "title": "RT-042｜獨家角色扮演：偏展示型的素人企劃選片",
+        "catalog_code": "RT-042",
+        "release_date": "2026-10-26",
+        "performers": [],
+        "canonical_topics": [
+          {
+            "id": "amateur",
+            "label": "素人"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "cosplay",
+            "label": "角色扮演"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "fhd",
+            "label": "全高清 FHD"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "streaming-only",
+            "label": "配信限定"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/rt-042/"
+      },
+      "performer_ids": [],
+      "search": {
+        "source_title": "獨家 嚴選經典集錦 vol.4",
+        "article_title": "RT-042｜獨家角色扮演：偏展示型的素人企劃選片",
+        "display_short_title": null,
+        "slug": "rt-042"
       }
     },
     {

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-10-30T19:57:37.226Z",
+  "generated_at": "2026-10-30T20:04:21.794Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 297,
-  "formal_movie_count": 296,
+  "tracked_input_count": 298,
+  "formal_movie_count": 297,
   "demo_count": 1,
-  "published_count": 293,
+  "published_count": 294,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2051,6 +2051,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "ceed7f996d53b8e17bc00e013fe75df9a7817668cafa94438385956fab48d3e8"
+    },
+    {
+      "stable_movie_id": "cc18:RT-042",
+      "catalog_code": "RT-042",
+      "slug": "rt-042",
+      "master_path": "data/movie-master/rt-042.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "e8b9546b04cab5e1bdd8ba909ed4acd5f24383b791965db7d613b28713aca0ed"
     },
     {
       "stable_movie_id": "cc18:SCMF-004",

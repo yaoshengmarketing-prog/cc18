@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "RT-042",
+  "review_sha256": "f9acb357e36f85659f8134a0ad7bcac0fb4bd31a4ab7b531a6667618c011501c",
+  "selected_thesis": "RT-042 的吸引力不在已知劇情，而在「獨家」框架下，把素人、美少女與角色扮演等偏好集中成一部方向明確的展示型集錦。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "素人",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "theme",
+        "value": "角色扮演",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "素人",
+    "editorial_judgment": "從「獨家」這個最明確的公開賣點切入，評估它如何與素人、美少女、角色扮演等標籤組合成一部偏展示型的企劃集錦，並說明這種包裝對選片判斷的影響。",
+    "source_keywords": [
+      "獨家",
+      "素人",
+      "角色扮演",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "本作的核心辨識度首先來自「獨家」包裝，而不是人物或劇情前提。",
+      "basis": "public_source",
+      "signal": "片名可確認「獨家」，公開標示另有「獨家限定」「配信専用」「獨家配信」相互呼應。"
+    },
+    {
+      "observation_refs": [],
+      "supports": "選片重點集中在題材與企劃標籤的排列，而非可確認的角色關係。",
+      "basis": "public_source",
+      "signal": "公開資訊可確認「素人」「美少女」「角色扮演」等設定。"
+    },
+    {
+      "observation_refs": [],
+      "supports": "它更適合被理解為集錦式、展示型企劃，而非單一完整劇情片。",
+      "basis": "public_source",
+      "signal": "片名另有「嚴選經典集錦」與「vol.4」，但未見可追溯的具體人物關係、場景或情節前提。"
+    },
+    {
+      "observation_refs": [],
+      "supports": "題材強度有明確方向，可作為偏好篩選依據。",
+      "basis": "public_source",
+      "signal": "公開簡介可確認「中出」標示。"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未寫入任何未公開的人物關係或角色背景",
+    "未聲稱看見具體場景、鏡位、剪輯、聲音或表演細節",
+    "未發明演員姓名、年齡、身分或私生活資訊",
+    "未把「美少女設定」延伸成可驗證的真實人物資訊",
+    "未將高畫質標示誇大為作品核心內容保證"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-29T16:00:00.000Z"
+}
