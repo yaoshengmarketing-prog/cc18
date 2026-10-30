@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "NINE-127",
+  "review_sha256": "746a41ebfeb9ebb2424dc0c6758c50acd64fff716b853ce1dac4a23825108c5f",
+  "selected_thesis": "NINE-127 的價值在於企劃入口夠鮮明：它以減肥產品試用者為名搭訕，再疊加人妻主婦與肉感形象，形成一部系列公式感明確、設定先行的選片。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "以減肥產品試用者為名搭訕",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "声を掛けたら釣れちゃいました。",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "人妻・主婦",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "以減肥產品試用者為名搭訕",
+    "presentation_feature": "声を掛けたら釣れちゃいました。",
+    "editorial_judgment": "把本作定位為一部以企劃切入取勝的系列作，重點不在已被證實的劇情展開，而在公開設定如何用「以減肥產品試用者為名搭訕」這個入口，結合人妻主婦與肉感形象，形成可預期的類型吸引力。",
+    "source_keywords": [
+      "以減肥產品試用者為名搭訕",
+      "声を掛けたら釣れちゃいました。",
+      "人妻・主婦",
+      "巨乳"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "本作的主要辨識點應以『以減肥產品試用者為名搭訕』為核心，而非泛用標籤。",
+      "basis": "public_source",
+      "signal": "theme:以減肥產品試用者為名搭訕"
+    },
+    {
+      "observation_refs": [],
+      "supports": "系列名指出這是一部偏向搭訕企劃辨識度的作品，適合從系列公式感切入評論。",
+      "basis": "public_source",
+      "signal": "series:声を掛けたら釣れちゃいました。"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤中的『人妻・主婦』提供主要成人題材方向，能影響選片對象。",
+      "basis": "public_source",
+      "signal": "identity:人妻・主婦"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤中的『巨乳』與描述線索中的『肉感』，使本作更接近以形象與反差賣點驅動的企劃。",
+      "basis": "public_source",
+      "signal": "body_type:巨乳／肉感"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開可追溯主題聚焦於企劃設定、角色變化、互動節奏，因此評論可談選片判斷，但不延伸未證實情節。",
+      "basis": "public_source",
+      "signal": "themes:企劃設定／角色變化／互動節奏"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未寫成事實的具體場景、地點與事件順序",
+    "未寫成事實的人物關係發展與結果",
+    "未寫成事實的鏡位、剪輯、聲音與表演細節",
+    "未發明演員姓名、年齡或真實身份",
+    "未把『角色變化』與『互動節奏』說成已驗證的觀看結論"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-29T16:00:00.000Z"
+}

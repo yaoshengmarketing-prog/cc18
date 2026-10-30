@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "NINE-127",
+  "calls": [
+    {
+      "generated_at": "2026-10-30T19:50:36.351Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4136,
+      "cached_input_tokens": 0,
+      "output_tokens": 3174,
+      "total_tokens": 7310,
+      "estimated_cost_usd": 0.092095,
+      "estimated_payg_cash_cost_usd": 0.0967,
+      "direct_openai_reference_usd": 0.05795,
+      "gateway_premium_usd": 0.034145,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4136,
+    "cached_input_tokens": 0,
+    "output_tokens": 3174,
+    "estimated_cost_usd": 0.092095,
+    "estimated_payg_cash_cost_usd": 0.0967,
+    "direct_openai_reference_usd": 0.05795,
+    "gateway_premium_usd": 0.034145
+  }
+}

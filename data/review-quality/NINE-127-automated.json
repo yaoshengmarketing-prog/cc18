@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "NINE-127",
+  "checked_at": "2026-10-30T19:50:36.682Z",
+  "review_sha256": "c951f61abe95eec7ed9fcb54eb639a21cac52a667961ee6fa1dafcbdba61df2c",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就公開資訊來看，NINE-127 最清楚的賣點不是已知劇情，而是企劃入口本身：以「減肥產品試用者」為名搭訕。這種設計讓作品的辨識點非常直接，觀眾一眼就能知道它主打的是搭訕成立的企劃感，而不是先靠複雜人物設定吸引人。再加上系列名《声を掛けたら釣れちゃいました。》，本作更像是把「如何"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "公開標籤中的「人妻・主婦」是這部作品最重要的題材方向之一。它會直接影響觀眾對作品氣質的預期：不是單純陌生人搭訕，而是帶有日常身份感與禁忌想像的成人企劃。這種身份設定與「以減肥產品試用者為名搭訕」結合後，賣點會落在入口理由是否夠自然、身份反差是否夠有吸引力。因此，如果你挑片時本來就"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

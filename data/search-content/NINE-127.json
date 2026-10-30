@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "movie_id": "NINE-127",
+  "generated_at": "2026-10-30T19:50:36.526Z",
+  "source_snapshot_hash": "sha256:07e052c898791776db4bfb5cc00de5976d43393d24c648f0e43f022089f03e6d",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "如果你挑片時最在意的是搭訕企劃本身是否夠鮮明，那麼 NINE-127 的價值在於它把『以減肥產品試用者為名搭訕』放到最前面，再用人妻主婦與肉感形象補強吸引力；它更像是設定先行的系列企劃，而不是已知劇情密度很高的作品。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "企劃導向強於劇情導向",
+      "系列辨識度明確",
+      "身份與體型標籤帶出反差吸引力"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "對搭訕企劃題材有興趣的人",
+      "偏好人妻主婦類型與肉感形象的人",
+      "會因系列公式與題材入口而決定看片的人"
+    ],
+    "not_for": [
+      "期待已知完整故事線與明確人物關係的人",
+      "只想找公開資訊已能確認大量情節轉折的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這片最值得注意的賣點是什麼？",
+    "它比較偏劇情片還是企劃片？",
+    "哪些觀眾會對這個設定有興趣？",
+    "若想找明確情節推進，這片是否合適？"
+  ]
+}
