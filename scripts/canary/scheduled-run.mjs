@@ -40,7 +40,9 @@ export async function runScheduledCanary({store, config, discover = discoverBatc
     summary.failed = drained.failed;
     summary.drain_stop_reason = drained.stop_reason;
     summary.work_errors = drained.work_errors;
-    if (queueDrainExitCode(drained)) summary.error = 'All attempted works failed';
+    if (drained.stop_reason === 'editorial_provider_certificate_expired') {
+      summary.error = 'Editorial provider certificate expired';
+    } else if (queueDrainExitCode(drained)) summary.error = 'All attempted works failed';
   } catch (error) {
     summary.error = String(error?.message ?? error);
   }

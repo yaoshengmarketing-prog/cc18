@@ -1,4 +1,6 @@
 import {spawn} from 'node:child_process';
+import {readFileSync} from 'node:fs';
+import {connect} from 'node:tls';
 import {fileURLToPath} from 'node:url';
 import {resolve} from 'node:path';
 
@@ -18,10 +20,40 @@ export function parseCanaryResult(output) {
 
 export const queueDrainExitCode = (summary) => summary.outcome === 'failed' ? 1 : 0;
 
+export async function hasExpiredEditorialProviderCertificate() {
+  let endpoint;
+  try {
+    const config = JSON.parse(readFileSync(resolve(root, 'config/editorial-model.json'), 'utf8'));
+    endpoint = new URL(config.base_url);
+    if (endpoint.protocol !== 'https:') return false;
+  } catch {
+    return false;
+  }
+  return new Promise((resolveResult) => {
+    const socket = connect({
+      host: endpoint.hostname,
+      port: Number(endpoint.port || 443),
+      servername: endpoint.hostname,
+      rejectUnauthorized: true,
+    });
+    let settled = false;
+    const finish = (expired) => {
+      if (settled) return;
+      settled = true;
+      socket.destroy();
+      resolveResult(expired);
+    };
+    socket.once('secureConnect', () => finish(false));
+    socket.once('error', (error) => finish(error.code === 'CERT_HAS_EXPIRED'));
+    socket.setTimeout(7000, () => finish(false));
+  });
+}
+
 export async function runOneIsolated({excludeMovieIds = []} = {}) {
   const args = [resolve(root, 'scripts/canary/run-isolated.mjs'), '--max=1'];
   if (excludeMovieIds.length) args.push(`--exclude=${excludeMovieIds.join(',')}`);
   let stdout = '';
+  let stderr = '';
   const child = spawn(process.execPath, args, {
     cwd: root,
     env: process.env,
@@ -32,15 +64,23 @@ export async function runOneIsolated({excludeMovieIds = []} = {}) {
     process.stdout.write(chunk);
     stdout = `${stdout}${chunk}`.slice(-1_000_000);
   });
-  child.stderr.on('data', (chunk) => process.stderr.write(chunk));
+  child.stderr.on('data', (chunk) => {
+    process.stderr.write(chunk);
+    stderr = `${stderr}${chunk}`.slice(-100_000);
+  });
   const exitCode = await new Promise((resolveExit, reject) => {
     child.once('error', reject);
     child.once('close', (code) => resolveExit(code ?? 1));
   });
-  return {exitCode, report: parseCanaryResult(stdout)};
+  return {
+    exitCode,
+    report: parseCanaryResult(stdout),
+    observedProviderCertificateError: /\bCERT_HAS_EXPIRED\b/u.test(`${stdout}\n${stderr}`),
+  };
 }
 
-export async function drainIsolatedQueue({runOne = runOneIsolated, logger = console, deadlineAt = null, maximumWorks = null, now = Date.now} = {}) {
+export async function drainIsolatedQueue({runOne = runOneIsolated, logger = console, deadlineAt = null,
+  maximumWorks = null, now = Date.now, providerCertificateExpired = hasExpiredEditorialProviderCertificate} = {}) {
   if (deadlineAt !== null && (!Number.isFinite(deadlineAt) || deadlineAt <= 0)) {
     throw new Error('Queue drain deadline must be a positive epoch millisecond value');
   }
@@ -72,7 +112,7 @@ export async function drainIsolatedQueue({runOne = runOneIsolated, logger = cons
     if (deadlineAt !== null && now() >= deadlineAt) {
       return finish('time_budget_reached');
     }
-    const {exitCode, report} = await runOne({excludeMovieIds: [...attemptedMovieIds]});
+    const {exitCode, report, observedProviderCertificateError} = await runOne({excludeMovieIds: [...attemptedMovieIds]});
     if (report.event === 'isolated_canary_queue_empty') {
       return finish('queue_empty');
     }
@@ -88,6 +128,9 @@ export async function drainIsolatedQueue({runOne = runOneIsolated, logger = cons
     } else {
       summary.failed.push(movieId);
       if (report.work_error) summary.work_errors.push({movie_id: movieId, ...report.work_error});
+      if (observedProviderCertificateError && await providerCertificateExpired()) {
+        return finish('editorial_provider_certificate_expired');
+      }
     }
   }
 }
