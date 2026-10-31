@@ -108,6 +108,10 @@ test('one exact untracked work reaches Movie Master, public cards and Search bef
       fileURLToPath(new URL('../src/lib/fac-identity.mjs', import.meta.url)),
       join(fixture, 'src', 'lib', 'fac-identity.mjs'),
     );
+    await cp(
+      fileURLToPath(new URL('../src/lib/site-origin.mjs', import.meta.url)),
+      join(fixture, 'src', 'lib', 'site-origin.mjs'),
+    );
     const registryPath = join(fixture, 'data', 'movie-registry.json');
     const registry = JSON.parse(await readFile(registryPath, 'utf8'));
     for (const {id, review_status: reviewStatus} of registry.records) {
@@ -335,13 +339,13 @@ test('work URL helper normalizes IDs deterministically and preserves the trailin
   assert.equal(normalizeWorkSlug('ＳＮＯＳ－３４５'), 'snos-345');
   assert.equal(workPath('SNOS-345'), '/works/snos-345/');
   assert.equal(workPath('SNOS-345'), workPath('snos-345'));
-  assert.equal(workCanonicalUrl('https://cc18.pages.dev/base/', 'SNOS-345'), 'https://cc18.pages.dev/works/snos-345/');
+  assert.equal(workCanonicalUrl('https://jav.com.tw/base/', 'SNOS-345'), 'https://jav.com.tw/works/snos-345/');
   assert.doesNotMatch(workPath('SNOS-345'), /\/reviews\//);
   assert.throws(() => workPath('../SNOS-345'), /Invalid work slug or ID/);
 });
 
 test('work href resolution treats slug and catalog code as independent fields', () => {
-  const canonicalUrl = 'https://cc18.pages.dev/works/editorial-slug/';
+  const canonicalUrl = 'https://jav.com.tw/works/editorial-slug/';
   assert.equal(resolveInternalWorkHref(canonicalUrl, 'editorial-slug'), '/works/editorial-slug/');
   assert.equal(resolveInternalWorkHref(canonicalUrl, 'catalog-999'), null);
 });

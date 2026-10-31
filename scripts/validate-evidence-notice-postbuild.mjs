@@ -44,7 +44,7 @@ let publicMetadataCount = 0;
 let distributedCount = 0;
 
 for (const evidence of records) {
-  const pathname = new URL(evidence.href, 'https://cc18.pages.dev').pathname;
+  const pathname = new URL(evidence.href).pathname;
   const htmlPath = resolve(dist, pathname.replace(/^\//u, ''), 'index.html');
   const html = await readFile(htmlPath, 'utf8');
   const $ = load(html);

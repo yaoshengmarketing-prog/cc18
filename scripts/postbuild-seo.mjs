@@ -6,10 +6,11 @@ import {parsePerformerRouteSegment} from '../src/lib/performer-url.mjs';
 import {WORK_ROUTE_PREFIX} from '../src/lib/work-url.mjs';
 import {loadSeriesCatalog} from '../src/lib/series-catalog.mjs';
 import {parseSeriesRouteSegment} from '../src/lib/series-identity.mjs';
+import {PUBLIC_SITE_ORIGIN} from '../src/lib/site-origin.mjs';
 
 const root = resolve(import.meta.dirname, '..');
 const defaultDist = resolve(root, 'dist');
-const siteOrigin = 'https://cc18.pages.dev';
+const siteOrigin = PUBLIC_SITE_ORIGIN;
 
 export const APPROVED_SCHEMA_ALTERNATE_NAMES = [
   '相沢澪',
@@ -261,6 +262,14 @@ export async function runPostbuildSeo({
   loadSeries = loadSeriesCatalog,
 } = {}) {
   const files = await filesUnder(dist);
+  const robots = await readFile(resolve(dist, 'robots.txt'), 'utf8');
+  if (!robots.includes(`Sitemap: ${siteOrigin}/sitemap-index.xml`)) {
+    throw new Error('robots.txt points to a non-production Sitemap');
+  }
+  const sitemapIndex = await readFile(resolve(dist, 'sitemap-index.xml'), 'utf8');
+  if (!sitemapIndex.includes(`<loc>${siteOrigin}/sitemap-0.xml</loc>`)) {
+    throw new Error('Sitemap index points to a non-production URL');
+  }
   const notFoundHtml = await readFile(resolve(dist, '404.html'), 'utf8');
   if (!notFoundHtml.includes('name="robots" content="noindex,follow"') || !notFoundHtml.includes('這個番號不在片單裡')) {
     throw new Error('Static 404 contract missing: dist/404.html must be a noindex guidance page');
@@ -294,10 +303,17 @@ export async function runPostbuildSeo({
   const seriesResults = new Map();
   for (const path of htmlFiles) {
     const html = await readFile(path, 'utf8');
+    const relativePath = relative(dist, path).replaceAll('\\', '/');
+    const expectedPath = relativePath === 'index.html'
+      ? '/'
+      : `/${relativePath.slice(0, -'index.html'.length)}`;
     const canonical = html.match(/<link rel="canonical" href="([^"]+)"/)?.[1];
     const title = html.match(/<title>([^<]+)<\/title>/)?.[1];
     const description = html.match(/<meta name="description" content="([^"]*)"/)?.[1];
     if (!canonical || !title || !description) throw new Error(`SEO metadata missing in ${path}`);
+    if (canonical !== new URL(expectedPath, siteOrigin).href) {
+      throw new Error(`Public canonical origin or path mismatch in ${relativePath}: ${canonical}`);
+    }
     if (/name="robots" content="[^"]*noindex/i.test(html)) noindexUrls.add(canonical);
     if (titles.has(title)) throw new Error(`Duplicate page title: ${title}`);
     titles.set(title, canonical);
@@ -313,7 +329,6 @@ export async function runPostbuildSeo({
       if (!work) throw new Error(`Work page has no series catalog projection: ${canonical}`);
       validateWorkSeriesProjection({work, html, file: relative(dist, path).replaceAll('\\', '/')});
     }
-    const relativePath = relative(dist, path).replaceAll('\\', '/');
     if (relativePath === 'actresses/index.html') {
       if (/name="robots" content="[^"]*noindex/i.test(html)) throw new Error('Performer index must remain indexable');
       if (canonical !== `${siteOrigin}/actresses/`) throw new Error('Performer index canonical is invalid');
@@ -357,8 +372,12 @@ export async function runPostbuildSeo({
 
   const sitemapText = (await Promise.all(sitemapPaths.map((path) => readFile(path, 'utf8')))).join('\n');
   if (!sitemapText.includes(`<loc>${siteOrigin}/actresses/</loc>`)) throw new Error('Performer index is missing from sitemap');
-  const sitemapPerformerDetails = [...sitemapText.matchAll(/<loc>(https:\/\/cc18\.pages\.dev\/actresses\/[^<]+\/)<\/loc>/g)]
-    .map((match) => match[1]);
+  const sitemapUrls = [...sitemapText.matchAll(/<loc>([^<]+)<\/loc>/gu)].map((match) => match[1]);
+  if (sitemapUrls.some((url) => !url.startsWith(`${siteOrigin}/`))) {
+    throw new Error('Sitemap contains a non-production URL');
+  }
+  const sitemapPerformerDetails = sitemapUrls
+    .filter((url) => url.startsWith(`${siteOrigin}/actresses/`) && url !== `${siteOrigin}/actresses/`);
   const expectedIndexedDetails = catalog.performers
     .filter(({index_decision: decision}) => decision === 'INDEX_READY')
     .map(performerCanonical)
@@ -367,8 +386,8 @@ export async function runPostbuildSeo({
     throw new Error(`Performer sitemap set mismatch: ${sitemapPerformerDetails.join(',') || 'none'}`);
   }
   if (!sitemapText.includes(`<loc>${siteOrigin}/series/</loc>`)) throw new Error('Series index is missing from sitemap');
-  const sitemapSeriesDetails = [...sitemapText.matchAll(/<loc>(https:\/\/cc18\.pages\.dev\/series\/[^<]+\/)<\/loc>/g)]
-    .map((match) => match[1]);
+  const sitemapSeriesDetails = sitemapUrls
+    .filter((url) => url.startsWith(`${siteOrigin}/series/`) && url !== `${siteOrigin}/series/`);
   const expectedIndexedSeries = seriesCatalog.series
     .filter(({index_decision: decision}) => decision === 'INDEX_READY')
     .map(seriesCanonical)

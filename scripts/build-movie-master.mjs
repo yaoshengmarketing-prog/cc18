@@ -16,10 +16,10 @@ import {parseSeriesSourceId, parseSeriesStableId, seriesStableIdFromSourceId} fr
 import {parseTagSourceId, parseTagStableId, tagStableIdFromSourceId} from '../src/lib/tag-identity.mjs';
 import {facStableIdFromSourceId, parseFacSourceId, parseFacStableId} from '../src/lib/fac-identity.mjs';
 import {workCanonicalUrl} from '../src/lib/work-url.mjs';
+import {PUBLIC_SITE_ORIGIN} from '../src/lib/site-origin.mjs';
 
 const SCHEMA_VERSION = '1.1.0';
 const GENERATOR_VERSION = '1.1.0';
-const SITE_URL = 'https://cc18.pages.dev';
 const PERFORMER_LOCALIZATION_PATH = 'data/localization/performers-zh-tw.json';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const outputDirectory = join(root, 'data', 'movie-master');
@@ -683,7 +683,7 @@ export const buildAll = async ({includeWorkId = null} = {}) => {
       publishing: {
         is_published: isPublished,
         published_at: publishedAt,
-        canonical_url: isPublished ? workCanonicalUrl(SITE_URL, slug) : null,
+        canonical_url: isPublished ? workCanonicalUrl(PUBLIC_SITE_ORIGIN, slug) : null,
         indexability: isPublished && !isDemo ? 'INDEX' : 'NOINDEX',
         content_hash: contentHash({articleTitle, seoTitle, shortReview, body}),
       },

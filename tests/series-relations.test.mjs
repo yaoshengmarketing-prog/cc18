@@ -213,8 +213,8 @@ const seriesPageFixture = (series, {robots, records, extraHead = ''} = {}) => {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
       itemListElement: [
-        {'@type': 'ListItem', position: 1, name: '首頁', item: 'https://cc18.pages.dev/'},
-        {'@type': 'ListItem', position: 2, name: '系列', item: 'https://cc18.pages.dev/series/'},
+        {'@type': 'ListItem', position: 1, name: '首頁', item: 'https://jav.com.tw/'},
+        {'@type': 'ListItem', position: 2, name: '系列', item: 'https://jav.com.tw/series/'},
         {'@type': 'ListItem', position: 3, name: series.display_name, item: canonical},
       ],
     },
@@ -231,7 +231,7 @@ const seriesPageFixture = (series, {robots, records, extraHead = ''} = {}) => {
           '@type': 'ListItem',
           position: index + 1,
           name: work.catalog_code,
-          item: `https://cc18.pages.dev${work.href}`,
+          item: `https://jav.com.tw${work.href}`,
         })),
       },
     },
@@ -252,7 +252,7 @@ test('series SEO contract enforces canonical, robots, schema identity and exact 
   const catalog = buildSeriesCatalog({cards: [card()], masters: [master({})]});
   const thin = catalog.series[0];
   assert.deepEqual(validateSeriesPageHtml({series: thin, html: seriesPageFixture(thin)}), {
-    canonical: 'https://cc18.pages.dev/series/cc18-tv-series-20710/',
+    canonical: 'https://jav.com.tw/series/cc18-tv-series-20710/',
     shouldIndex: false,
   });
   assert.throws(() => validateSeriesPageHtml({series: thin, html: seriesPageFixture(thin, {
@@ -300,7 +300,7 @@ test('work page series links and Article Schema share the exact typed catalog pr
     about: ['TEST-001', {
       '@type': 'Thing',
       name: '系列甲',
-      url: 'https://cc18.pages.dev/series/cc18-tv-series-20710/',
+      url: 'https://jav.com.tw/series/cc18-tv-series-20710/',
     }],
   };
   const html = `<a href="/series/cc18-tv-series-20710/" data-series-id="cc18.tv:series:20710">系列甲</a><script type="application/ld+json">${JSON.stringify(article)}</script>`;

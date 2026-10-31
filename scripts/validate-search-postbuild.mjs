@@ -4,6 +4,7 @@ import {fileURLToPath} from 'node:url';
 import {parsePerformerStableId} from '../src/lib/performer-url.mjs';
 import {loadPublishedMovieCardCatalog} from '../src/lib/movie-master.mjs';
 import {validateCanonicalMovieIdentity} from '../src/lib/movie-master-identity.mjs';
+import {PUBLIC_SITE_ORIGIN} from '../src/lib/site-origin.mjs';
 
 const validateSearchMovieIdentity = (stableMovieId, catalogCode, label) => (
   validateCanonicalMovieIdentity({stableMovieId, catalogCode, label})
@@ -100,7 +101,7 @@ export async function validateSearchPostbuild() {
   ]);
 
   if (!html.includes('name="robots" content="noindex,follow"')) throw new Error('Search page robots contract is missing');
-  if (!html.includes('rel="canonical" href="https://cc18.pages.dev/search/"')) throw new Error('Search page canonical is invalid');
+  if (!html.includes(`rel="canonical" href="${PUBLIC_SITE_ORIGIN}/search/"`)) throw new Error('Search page canonical is invalid');
   if (!html.includes('action="/search/"') || !html.includes('name="q"')) throw new Error('Search form query contract is missing');
   if (
     index.counts.movies !== movieMasterIndex.published_count

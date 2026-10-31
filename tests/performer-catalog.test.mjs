@@ -50,8 +50,8 @@ const performerPageFixture = (performer, {robots, extraHead = '', structuredData
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
       itemListElement: [
-        {'@type': 'ListItem', position: 1, name: '首頁', item: 'https://cc18.pages.dev/'},
-        {'@type': 'ListItem', position: 2, name: '演員', item: 'https://cc18.pages.dev/actresses/'},
+        {'@type': 'ListItem', position: 1, name: '首頁', item: 'https://jav.com.tw/'},
+        {'@type': 'ListItem', position: 2, name: '演員', item: 'https://jav.com.tw/actresses/'},
         {'@type': 'ListItem', position: 3, name: performer.primary_display_name, item: canonical},
       ],
     },
@@ -234,8 +234,8 @@ test('stable performer page SEO contract is derived from the catalog and fails c
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
       itemListElement: [
-        {'@type': 'ListItem', position: 1, name: '首頁', item: 'https://cc18.pages.dev/'},
-        {'@type': 'ListItem', position: 2, name: '演員', item: 'https://cc18.pages.dev/actresses/'},
+        {'@type': 'ListItem', position: 1, name: '首頁', item: 'https://jav.com.tw/'},
+        {'@type': 'ListItem', position: 2, name: '演員', item: 'https://jav.com.tw/actresses/'},
         {'@type': 'ListItem', position: 3, name: performer.primary_display_name, item: canonical},
       ],
     },
