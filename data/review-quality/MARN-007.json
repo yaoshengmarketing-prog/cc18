@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "MARN-007",
-  "review_sha256": "23520e0b018da962facb9db26afb3ebb041d59a42a2889d5e7a709da03dda032",
-  "selected_thesis": "MARN-007 的可追溯賣點集中在《阿紐》概念、三木環奈與印象寫真式的展示標籤；若你要找的是已被公開資訊清楚支撐的劇情片，這部目前更適合用『企劃辨識度』來評估。",
+  "review_sha256": "fe871abff1b248955a43d78635a6225041f13adee4d769e0bfb3a7d40eb4717b",
+  "selected_thesis": "來源以三木環奈的自然感與成熟韻味並置，讓《阿紐》這次印象寫真的人物形象對照成為選片重點；這是宣傳建立的期待，不是成片觀察。",
   "title_basis": {
     "performer": "三木環奈",
     "signals": [
@@ -29,7 +29,7 @@
     ],
     "primary_theme": "三木環奈",
     "presentation_feature": "アニュー",
-    "editorial_judgment": "以《阿紐／アニュー》這個核心概念為中心，判斷 MARN-007 更接近由系列名稱、演員辨識度與展示標籤共同支撐的選片，而不是已有充分公開劇情可供驗證的故事片。",
+    "editorial_judgment": "來源以三木環奈的自然感與成熟韻味並置，讓《阿紐》這次印象寫真的人物形象對照成為選片重點；這是宣傳建立的期待，不是成片觀察。",
     "source_keywords": [
       "三木環奈",
       "アニュー",
@@ -61,6 +61,12 @@
       "supports": "來源同時列出『印象寫真』與多個畫質標示，顯示目前可見資訊較偏向展示形式與呈現規格，而不是角色關係或情節摘要。",
       "basis": "public_source",
       "signal": "presentation: 印象寫真／720p／HD／4k"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源簡介把三木環奈的天真自然與成熟韻味放在同一宣傳段落，支持文章分析形象並置。",
+      "basis": "public_source",
+      "signal": "source.description: 天真無邪、成熟韻味"
     }
   ],
   "unsupported_claims_excluded": [
@@ -73,5 +79,5 @@
   "scores": null,
   "rewrite_attempts": 0,
   "approved_for_publish": true,
-  "approved_at": "2026-10-28T16:00:00.000Z"
+  "approved_at": "2026-10-31T12:08:31.819Z"
 }

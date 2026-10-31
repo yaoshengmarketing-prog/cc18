@@ -378,9 +378,10 @@ const normalizeText = (value) => {
   return `${withoutTrailingWhitespace.replace(/\n*$/u, '')}\n`;
 };
 
-const contentHash = ({articleTitle, seoTitle, shortReview, body}) => {
+const contentHash = ({articleTitle, workTitle, seoTitle, shortReview, body}) => {
   const header = JSON.stringify({
     article_title: articleTitle ?? null,
+    ...(workTitle ? {work_title: workTitle} : {}),
     seo_title: seoTitle ?? null,
     short_review: shortReview ?? null,
   });
@@ -615,6 +616,7 @@ export const buildAll = async ({includeWorkId = null} = {}) => {
     const manifestPath = `data/media-manifests/${catalogCode}.json`;
     const manifest = availableFiles.has(manifestPath) ? await readAuthorityJson(manifestPath, `${catalogCode} Media Manifest`) : null;
     const articleTitle = cleanScalar(frontmatter.title);
+    const workTitle = cleanScalar(frontmatter.workTitle);
     const displayShortTitle = cleanScalar(frontmatter.displayShortTitle);
     const seoTitle = cleanScalar(frontmatter.seoTitle);
     const shortReview = cleanScalar(frontmatter.shortReview);
@@ -685,7 +687,7 @@ export const buildAll = async ({includeWorkId = null} = {}) => {
         published_at: publishedAt,
         canonical_url: isPublished ? workCanonicalUrl(PUBLIC_SITE_ORIGIN, slug) : null,
         indexability: isPublished && !isDemo ? 'INDEX' : 'NOINDEX',
-        content_hash: contentHash({articleTitle, seoTitle, shortReview, body}),
+        content_hash: contentHash({articleTitle, workTitle, seoTitle, shortReview, body}),
       },
       legacy: {
         legacy_published_at: legacyPublishedAt,

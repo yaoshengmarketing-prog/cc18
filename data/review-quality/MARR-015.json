@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "MARR-015",
-  "review_sha256": "61be63cff20963b3921d454ffe4123ae9930e20fc26f267564e7e076ae00ae68",
-  "selected_thesis": "MARR-015 的可追溯價值，主要來自《ゆらら夢》這個系列概念與新妻優香的個人識別；以現有公開資料看，它更像印象寫真取向的展示型企劃，而不是能靠已知劇情設定來說服人的作品。",
+  "review_sha256": "65b3c2e12fffe756f44a9d637b5a37953b2094f3717944c61215405d865cd2ac",
+  "selected_thesis": "來源以群馬秘湯為新妻優香的印象寫真建立場景期待；和以人物形象對照為主的MARN-007相比，兩部宣傳文案提供不同的選片理由。",
   "title_basis": {
     "performer": "新妻優香",
     "signals": [
@@ -29,7 +29,7 @@
     ],
     "primary_theme": "新妻優香",
     "presentation_feature": "ゆらら夢",
-    "editorial_judgment": "把《ゆらら夢》視為系列識別明確的展示型企劃，從公開可追溯的演員、系列、身份與呈現標籤出發，判斷它更適合以包裝概念與觀看期待來選片，而不是以已知劇情內容來評價。",
+    "editorial_judgment": "來源以群馬秘湯為新妻優香的印象寫真建立場景期待；和以人物形象對照為主的MARN-007相比，兩部宣傳文案提供不同的選片理由。",
     "source_keywords": [
       "新妻優香",
       "ゆらら夢",
@@ -61,6 +61,12 @@
       "supports": "不宜把角色變化、互動節奏當成已被證實的情節內容。",
       "basis": "public_source",
       "signal": "creative_seed_brief 的 themes 明示只供組織文章，不證明作品情節。"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源簡介明示群馬秘湯及湯煙，支持文章以場景期待分析本作宣傳。",
+      "basis": "public_source",
+      "signal": "source.description: 群馬秘湯、湯煙"
     }
   ],
   "unsupported_claims_excluded": [
@@ -73,5 +79,5 @@
   "scores": null,
   "rewrite_attempts": 0,
   "approved_for_publish": true,
-  "approved_at": "2026-10-29T16:00:00.000Z"
+  "approved_at": "2026-10-31T12:08:31.961Z"
 }

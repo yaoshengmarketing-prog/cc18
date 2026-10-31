@@ -123,7 +123,7 @@ export function validatePerformerPageHtml({performer, html, file = performer.hre
     throw new Error(`${performer.stable_performer_id}: visible stable performer identity is missing`);
   }
 
-  const expectedTitle = `${performer.metadata_identity_label}作品與人物資料｜CC18 影格`;
+  const expectedTitle = `${performer.metadata_identity_label}作品與人物資料｜JAV 影格`;
   const expectedDescription = `整理${performer.metadata_identity_label}的日文原名、經核准別名與已發布作品，目前收錄 ${performer.public_work_count} 部。`;
   if (!html.includes(`<title>${expectedTitle}</title>`)) throw new Error(`${performer.stable_performer_id}: performer title is not neutral and deterministic`);
   if (!html.includes(`<meta name="description" content="${expectedDescription}">`)) {
@@ -190,7 +190,7 @@ export function validateSeriesPageHtml({series, html, file = series.href}) {
     throw new Error(`${series.stable_series_id}: visible source series name is missing`);
   }
 
-  const expectedTitle = `${series.metadata_identity_label}系列作品整理｜CC18 影格`;
+  const expectedTitle = `${series.metadata_identity_label}系列作品整理｜JAV 影格`;
   const expectedDescription = `整理${series.metadata_identity_label}在本站已發布的作品，目前收錄 ${series.public_work_count} 部；卡片依作品發行日新到舊。`;
   if (!html.includes(`<title>${expectedTitle}</title>`)) throw new Error(`${series.stable_series_id}: series title is not deterministic`);
   if (!html.includes(`<meta name="description" content="${expectedDescription}">`)) {

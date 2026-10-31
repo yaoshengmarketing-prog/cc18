@@ -7,7 +7,7 @@ import WorkFacts from '../../components/WorkFacts.astro';
 import EvidenceNotice from '../../components/EvidenceNotice.astro';
 import DecisionGuide from '../../components/DecisionGuide.astro';
 import TopicElements from '../../components/TopicElements.astro';
-import {formatDate, reviewEditorialTags, visibleTags} from '../../lib/reviews';
+import {reviewEditorialTags, visibleTags} from '../../lib/reviews';
 import {sourceTagItems} from '../../lib/taxonomy';
 import {sourceRecordFor} from '../../lib/source-records';
 import {searchContentFor} from '../../lib/search-content';
@@ -15,6 +15,7 @@ import {reviewQualityFor} from '../../lib/review-quality';
 import {loadPerformerCatalog} from '../../lib/performer-catalog.mjs';
 import {loadSeriesCatalog} from '../../lib/series-catalog.mjs';
 import {loadPublishedWorkEvidenceCatalog} from '../../lib/movie-master.mjs';
+import {SITE_NAME} from '../../lib/site-brand.mjs';
 
 interface OrderedPerformerRecord {
   stable_performer_id: string;
@@ -64,6 +65,21 @@ const rawSourceTags = sourceTagItems(review.data.sourceTags);
 const hasPerformerNames = performers.length > 0 || review.data.actress.length > 0;
 if (!quality?.approved_for_publish) throw new Error(`${review.data.id}: approved review quality record missing`);
 if (!evidence) throw new Error(`${review.data.id}: Movie Master Evidence projection missing`);
+// The existing Evidence projection describes the material used, not editorial depth.
+const articleLabel = evidence.evidence_level === 'DISTRIBUTED_SAMPLE' ? '影片抽樣分析' : '來源資料整理';
+// Approved Markdown owns the work H1, article H2, lead and body. Source Record
+// keeps the original source name and URL; Movie Master projects card titles.
+const lead = review.data.shortReview;
+const sourceTitleIsReadableZh = /[\u3400-\u9fff]/u.test(review.data.sourceTitle)
+  && !/[\u3041-\u3096\u30a1-\u30fa]/u.test(review.data.sourceTitle)
+  && review.data.sourceTitle.length <= 36;
+const heading = review.data.workTitle ?? review.data.displayShortTitle
+  ?? (sourceTitleIsReadableZh ? review.data.sourceTitle : review.data.title.replace(new RegExp(`^${review.data.id}\\s*[｜|:：-]?\\s*`, 'i'), '').trim());
+const titleSubject = review.data.seoTitle;
+const socialTitleSubject = review.data.socialTitle;
+const showSourceName = review.data.sourceTitle !== heading;
+const hasPublishedVideo = review.data.videoStatus === 'rendered' && Boolean(review.data.videoUrl);
+const sourceLinkLabel = `CC18：${review.data.id}《${review.data.sourceTitle}》`;
 const pageUrl = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
 const imageUrl = new URL(review.data.heroUrl ?? review.data.coverUrl, Astro.site ?? Astro.url.origin);
 const structuredData: Array<Record<string, unknown>> = [
@@ -80,14 +96,13 @@ const structuredData: Array<Record<string, unknown>> = [
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: review.data.title,
-    description: review.data.shortReview,
+    description: lead,
     image: imageUrl.href,
     datePublished: review.data.publishedAt.toISOString(),
     dateModified: source?.fetched_at ?? review.data.publishedAt.toISOString(),
     inLanguage: 'zh-Hant',
     mainEntityOfPage: pageUrl.href,
-    author: {'@type': 'Organization', name: 'CC18 影格編輯台', url: new URL('/method/', pageUrl).href},
-    publisher: {'@type': 'Organization', name: 'CC18 影格'},
+    publisher: {'@type': 'Organization', name: SITE_NAME},
     about: [
       review.data.id,
       ...review.data.actress,
@@ -99,11 +114,11 @@ const structuredData: Array<Record<string, unknown>> = [
     ],
   },
 ];
-if (review.data.videoUrl) structuredData.push({
+if (hasPublishedVideo && review.data.videoUrl) structuredData.push({
   '@context': 'https://schema.org',
   '@type': 'VideoObject',
   name: review.data.socialTitle,
-  description: review.data.shortReview,
+  description: lead,
   thumbnailUrl: [imageUrl.href],
   uploadDate: review.data.publishedAt.toISOString(),
   duration: 'PT9S',
@@ -112,65 +127,69 @@ if (review.data.videoUrl) structuredData.push({
   isFamilyFriendly: false,
 });
 ---
-<BaseLayout title={review.data.seoTitle} socialTitle={review.data.socialTitle} description={review.data.shortReview} image={review.data.heroUrl ?? review.data.coverUrl} video={review.data.videoUrl} releaseId={quality.review_sha256} adult={true} structuredData={structuredData}>
+<BaseLayout title={titleSubject} socialTitle={socialTitleSubject} description={lead} image={review.data.heroUrl ?? review.data.coverUrl} video={hasPublishedVideo ? review.data.videoUrl : undefined} releaseId={quality.review_sha256} adult={true} structuredData={structuredData}>
   <article class="review-page">
     <nav class="breadcrumbs" aria-label="麵包屑">
       <a href="/">首頁</a><span>／</span><a href="/latest/">作品影評</a><span>／</span><b>{review.data.id}</b>
     </nav>
-    <header class="watch-deck">
-      <div class="watch-stage">
-        <VideoPlayer src={review.data.videoUrl} poster={review.data.coverUrl} sourceUrl={review.data.sourceUrl} title={review.data.id} />
+    <header class="work-page-hero">
+      <div class="work-hero-copy">
+        <p class="work-identity"><span class="mono-value">{review.data.id}</span><span class="work-material-label">{articleLabel}</span></p>
+        <h1>{heading}</h1>
+        {review.data.originalTitleJa && <p class="work-name-line"><span>日文原題</span><b lang="ja">{review.data.originalTitleJa}</b></p>}
+        {review.data.translatedTitleZhTw && review.data.translatedTitleZhTw !== heading && <p class="work-name-line"><span>繁中直譯</span><b>{review.data.translatedTitleZhTw}</b></p>}
+        {showSourceName && <p class="work-name-line"><span>來源名稱</span><b>{review.data.sourceTitle}</b></p>}
+        <p class="lead">{lead}</p>
+        {(hasPerformerNames || series.length > 0) && <div class="work-identity-links">
+          {hasPerformerNames && <div>演員 {performers.length
+            ? performers.map((performer, index) => <>{index > 0 && '、'}<a href={performer.href} data-performer-id={performer.stable_performer_id}>{performer.primary_display_name}</a></>)
+            : review.data.actress.join('、')}</div>}
+          {series.length > 0 && <div>系列 {series.map((item: OrderedSeriesRecord, index: number) => <>{index > 0 && '、'}<a href={item.href}>{item.display_name}</a></>)}</div>}
+        </div>}
+        <a class="button work-source-link" href={review.data.sourceUrl} target="_blank" rel="sponsored noopener noreferrer">{sourceLinkLabel} ↗</a>
       </div>
-      <div class="review-heading watch-panel">
-        <div class="watch-identity">
-          <img src={review.data.coverUrl} alt={`${review.data.id} 作品封面`} />
-          <div><p class="eyebrow">NEW REVIEW</p><p class="hero-number">{review.data.id}</p></div>
-        </div>
-        <p class="hero-number">{review.data.id}</p>
-        <h1>{review.data.title}</h1>
-        <p class="lead">{review.data.shortReview}</p>
-        <dl class="watch-meta">
-          <div><dt>上片日期</dt><dd>{formatDate(review.data.releaseDate)}</dd></div>
-          {hasPerformerNames && <div>
-            <dt>演員</dt>
-            <dd>{performers.length
-              ? performers.map((performer, index) => <>{index > 0 && '、'}<a href={performer.href} data-performer-id={performer.stable_performer_id}>{performer.primary_display_name}</a></>)
-              : review.data.actress.join('、')}</dd>
-          </div>}
-          <div><dt>片商</dt><dd>{review.data.studio || '來源未列出'}</dd></div>
-        </dl>
-        {canonicalTags.length > 0 && <TagList tags={canonicalTags.slice(0, 6)} />}
-        <a class="button source-cta" href={review.data.sourceUrl} target="_blank" rel="sponsored noopener">
-          <span>完整影片與原始作品資訊</span><b>前往 CC18 播放 ↗</b>
-        </a>
-      </div>
+      <figure class="work-hero-cover">
+        <img src={review.data.coverUrl} alt={`${review.data.id} 來源作品封面`} loading="eager" />
+        <figcaption>來源作品封面</figcaption>
+      </figure>
     </header>
+
+    <section class="work-story" aria-label={articleLabel}>
+      <div class="article-body">
+        <Content />
+      </div>
+      <div class="work-after-article">
+        <p>本作來源　<a href={review.data.sourceUrl} target="_blank" rel="sponsored noopener noreferrer">{sourceLinkLabel} ↗</a></p>
+        {(performers.length > 0 || series.length > 0) && <nav aria-label="延伸閱讀">
+          <strong>延伸閱讀</strong>
+          {performers.map((performer: OrderedPerformerRecord) => <a href={performer.href}>看{performer.primary_display_name}的站內作品</a>)}
+          {series.map((item: OrderedSeriesRecord) => <a href={item.href}>《{item.display_name}》系列入口</a>)}
+        </nav>}
+      </div>
+    </section>
+
+    {hasPublishedVideo && <section class="work-video" aria-labelledby="work-video-title">
+      <div><p class="eyebrow">SHORT VIDEO</p><h2 id="work-video-title">本站製作的 9 秒短片</h2></div>
+      <VideoPlayer src={review.data.videoUrl} poster={review.data.heroUrl ?? review.data.coverUrl} sourceUrl={review.data.sourceUrl} title={review.data.id} />
+    </section>}
+
+    <details class="work-details">
+      <summary>名稱與完整作品資料</summary>
+      <WorkFacts review={review} source={source} search={search} performers={performers} series={series} />
+    </details>
+    <EvidenceNotice evidence={evidence} />
+    {review.data.heroUrl && (
+      <figure class="review-hero-art">
+        <img src={review.data.heroUrl} alt={`${review.data.id} 原創非露骨情境主視覺`} loading="lazy" />
+        <figcaption>本站原創情境圖 · 不取代來源作品封面</figcaption>
+      </figure>
+    )}
     {(canonicalTags.length > 0 || rawSourceTags.length > 0 || editorialTags.length > 0) && <section class="review-tag-board" aria-label="作品標籤">
       {canonicalTags.length > 0 && <div><p class="tag-label">站內題材</p><TagList tags={canonicalTags} /></div>}
       {rawSourceTags.length > 0 && <div><p class="tag-label source-tag-label">CC18 原始標籤</p><TagList tags={rawSourceTags} /></div>}
       {editorialTags.length > 0 && <div><p class="tag-label editorial-tag-label">影評觀點</p><TagList tags={editorialTags} /></div>}
     </section>}
-    {review.data.heroUrl && (
-      <figure class="review-hero-art">
-        <img src={review.data.heroUrl} alt={`${review.data.id} 原創非露骨情境主視覺`} loading="eager" />
-        <figcaption>CC18 影格原創情境圖 · 依作品企劃切角製作，不取代原始作品封面</figcaption>
-      </figure>
-    )}
-    <WorkFacts review={review} source={source} search={search} performers={performers} series={series} />
-    <EvidenceNotice evidence={evidence} />
     <TopicElements sourceTags={review.data.sourceTags} />
     {search && <DecisionGuide content={search} related={related} timeline={evidence.timeline} />}
-    <div class="article-layout">
-      <div class="article-body">
-        <div class="article-kicker"><p class="eyebrow">FULL REVIEW</p><h2>完整影評</h2></div>
-        <Content />
-      </div>
-      <aside>
-        <p class="eyebrow">QUICK LINKS</p>
-        <h2>繼續找片</h2>
-        <a href="/method/">查看資料與編輯說明 →</a>
-        <a href={review.data.sourceUrl} target="_blank" rel="sponsored noopener">開啟 CC18 原始頁面 ↗</a>
-      </aside>
-    </div>
   </article>
 </BaseLayout>

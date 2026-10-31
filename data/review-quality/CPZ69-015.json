@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "CPZ69-015",
-  "review_sha256": "9d901b6715c2fd895463c234885e2961768d06995cace09acaf0a1614070f55f",
-  "selected_thesis": "綾瀬心的企劃呈現與觀看取向",
+  "review_sha256": "b0a5db6b5cce1441f8b2f0663bfd1d429e85efb4305c0bc9cc2c2d601d116625",
+  "selected_thesis": "第15彈宣傳主動調侃角色改編，與第13彈維持架空故事懸念的文案形成對照；粉絲默契提高辨識度，也可能讓不熟悉原梗的人自行補完設定。",
   "title_basis": {
     "performer": "綾瀬心、七原さゆ",
     "signals": [
@@ -29,7 +29,7 @@
     ],
     "primary_theme": "綾瀬心",
     "presentation_feature": "オタク・オデッセイ",
-    "editorial_judgment": "綾瀬心的企劃呈現與觀看取向",
+    "editorial_judgment": "第15彈宣傳主動調侃角色改編，與第13彈維持架空故事懸念的文案形成對照；粉絲默契提高辨識度，也可能讓不熟悉原梗的人自行補完設定。",
     "source_keywords": [
       "綾瀬心",
       "オタク・オデッセイ",
@@ -97,6 +97,12 @@
       "signal": "本機抽象創作主題：角色變化",
       "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
       "observation_refs": []
+    },
+    {
+      "observation_refs": [],
+      "supports": "CPZ69-013來源作品頁的簡介以199X架空年代、地下組織、赴日任務與最後選擇設懸念，支持兩份宣傳簡介的有限比較。",
+      "basis": "public_source",
+      "signal": "CC18 CPZ69-013 description: https://cc18.tv/player.php?uuid=86EuXWvpSel&cat=19"
     }
   ],
   "unsupported_claims_excluded": [
@@ -105,5 +111,5 @@
   "scores": null,
   "rewrite_attempts": 0,
   "approved_for_publish": true,
-  "approved_at": "2026-09-17T16:00:00.000Z"
+  "approved_at": "2026-10-31T12:08:31.959Z"
 }

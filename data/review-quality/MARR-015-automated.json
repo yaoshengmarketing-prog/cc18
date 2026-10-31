@@ -1,29 +1,57 @@
 {
   "schema_version": 2,
   "id": "MARR-015",
-  "checked_at": "2026-10-30T08:41:26.362Z",
-  "review_sha256": "61be63cff20963b3921d454ffe4123ae9930e20fc26f267564e7e076ae00ae68",
+  "checked_at": "2026-10-31T12:08:40.671Z",
+  "review_sha256": "65b3c2e12fffe756f44a9d637b5a37953b2094f3717944c61215405d865cd2ac",
   "status": "PASS_WITH_NOTES",
   "passed": true,
   "publishable": true,
   "issues": [],
   "repair_issues": [],
   "notes": [
+    "missing_movie_id_in_titles",
+    "missing_decision_value",
     "formulaic_pivot_observed",
+    "body_lacks_source_adult_vocabulary",
+    "title_lacks_source_core_concept",
+    "source_core_concept_not_developed",
     "insufficient_sections",
     "insufficient_evidence"
   ],
   "findings": [
+    {
+      "code": "missing_movie_id_in_titles",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
     {
       "code": "formulaic_pivot_observed",
       "scope": "PASS_WITH_NOTES",
       "matches": 1,
       "locations": [
         {
-          "paragraph": 2,
-          "excerpt": "以目前可追溯的公開資料來看，這部作品最明確的不是劇情，而是企劃包裝。來源同時給出「AV女優片」與「印象寫真」兩個關鍵標籤，系列名則是「ゆらら夢」。這種組合讓選片重點自然落在演員呈現、系列辨識與整體概念上。公開介紹尚未交代故事前提、人物關係、角色互動、主要衝突或場景設定，因此不適合"
+          "paragraph": 4,
+          "excerpt": "秘湯讓我期待的不是複雜情節，而是人物與環境之間能不能有呼應：她出現在那裡，是讓景色襯托她，還是讓她把旅途的私密感帶出來？兩種方向都比單純說「療癒」更值得留意。不過，這只是宣傳設定開出的問題；實際拍攝地點、畫面和節奏，不能光憑簡介下結論。"
         }
       ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "title_lacks_source_core_concept",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
     },
     {
       "code": "insufficient_sections",
@@ -35,7 +63,7 @@
     }
   ],
   "metrics": {
-    "sections": 5,
+    "sections": 1,
     "evidence_items": 4,
     "distinct_video_windows": 0,
     "repeated_sentence_groups": 0,
