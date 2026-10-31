@@ -18,6 +18,7 @@ test('scheduled drain processes every queued work serially and continues after o
   ];
   const summary = await drainIsolatedQueue({
     logger: quietLogger,
+    providerCertificateExpired: async () => { throw new Error('Unrelated failure must not probe provider TLS'); },
     runOne: async ({excludeMovieIds}) => {
       calls.push(excludeMovieIds);
       return results.shift();
@@ -55,12 +56,14 @@ test('empty queue is a successful no-op', async () => {
 
 test('a drain where every attempted work fails reports failure while still trying the next work', async () => {
   const results = [
-    {exitCode: 1, report: {event: 'isolated_canary_finished', movie_id: 'A-001'}},
+    {exitCode: 1, observedProviderCertificateError: true,
+      report: {event: 'isolated_canary_finished', movie_id: 'A-001'}},
     {exitCode: 1, report: {event: 'isolated_canary_finished', movie_id: 'B-001'}},
     {exitCode: 0, report: {event: 'isolated_canary_queue_empty'}},
   ];
   const summary = await drainIsolatedQueue({
     logger: quietLogger,
+    providerCertificateExpired: async () => false,
     runOne: async () => results.shift(),
   });
   assert.deepEqual(summary.processed, ['A-001', 'B-001']);
@@ -74,6 +77,7 @@ test('a drain where every attempted work fails reports failure while still tryin
 test('first scheduled attempt stops after one failure and leaves the next work for a later run', async () => {
   const calls = [];
   const first = await drainIsolatedQueue({logger: quietLogger, maximumWorks: 1,
+    providerCertificateExpired: async () => false,
     runOne: async () => { calls.push('A-001'); return {exitCode: 1, report: {event: 'isolated_canary_finished', movie_id: 'A-001'}}; },
   });
   assert.deepEqual(calls, ['A-001']);
@@ -81,6 +85,38 @@ test('first scheduled attempt stops after one failure and leaves the next work f
   assert.equal(first.stop_reason, 'attempt_limit_reached');
   assert.equal(first.outcome, 'failed');
   assert.equal(queueDrainExitCode(first), 1);
+});
+
+test('an expired shared provider certificate stops the round after the first failed work', async () => {
+  let calls = 0;
+  const summary = await drainIsolatedQueue({logger: quietLogger,
+    providerCertificateExpired: async () => true,
+    runOne: async () => {
+      calls += 1;
+      return {exitCode: 1, observedProviderCertificateError: true,
+        report: {event: 'isolated_canary_finished', movie_id: 'A-001'}};
+    },
+  });
+  assert.equal(calls, 1);
+  assert.deepEqual(summary.failed, ['A-001']);
+  assert.equal(summary.stop_reason, 'editorial_provider_certificate_expired');
+  assert.equal(queueDrainExitCode(summary), 1);
+});
+
+test('scheduled summary reports an expired provider certificate as a failed round', async () => {
+  const summary = await runScheduledCanary({
+    store: {pendingPublicationWorkItems: async () => []},
+    config: {discovery: {listing_urls: [], initial_stages: []}, source: {}, queue: {}},
+    deadlineAt: 1000,
+    logger: quietLogger,
+    discover: async () => ({new_movies: 0, enqueued: 0}),
+    drain: async () => ({processed: ['A-001'], completed: [], failed: ['A-001'], work_errors: [],
+      stop_reason: 'editorial_provider_certificate_expired', outcome: 'failed'}),
+  });
+  assert.deepEqual(summary.attempted, ['A-001']);
+  assert.deepEqual(summary.failed, ['A-001']);
+  assert.equal(summary.error, 'Editorial provider certificate expired');
+  assert.equal(summary.outcome, 'failed');
 });
 
 test('scheduled result drains without a work count limit and reports remaining work by reason', async () => {
