@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import {SITE_NAME, formatPageTitle} from '../lib/site-brand.mjs';
 
 interface Props {
   title: string;
@@ -11,6 +12,7 @@ interface Props {
   structuredData?: Record<string, unknown> | Array<Record<string, unknown>>;
   video?: string;
   releaseId?: string;
+  brandFirst?: boolean;
 }
 
 const {
@@ -23,7 +25,10 @@ const {
   structuredData,
   video,
   releaseId,
+  brandFirst = false,
 } = Astro.props;
+const pageTitle = formatPageTitle(title, {brandFirst});
+const socialPageTitle = formatPageTitle(socialTitle, {brandFirst});
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
 const jsonLd = structuredData
   ? JSON.stringify(structuredData).replace(/</g, '\\u003c')
@@ -52,22 +57,23 @@ const jsonLd = structuredData
     {releaseId && <meta name="cc18-release-id" content={releaseId} />}
     {adult && <meta name="rating" content="adult" />}
     <link rel="canonical" href={canonical} />
-    <meta property="og:title" content={`${socialTitle}｜CC18 影格`} />
+    <meta property="og:title" content={socialPageTitle} />
+    <meta property="og:site_name" content={SITE_NAME} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={new URL(image, Astro.site ?? Astro.url.origin)} />
     {video && <meta property="og:video" content={new URL(video, Astro.site ?? Astro.url.origin)} />}
     {video && <meta property="og:video:type" content="video/mp4" />}
     <meta name="theme-color" content="#101b25" />
     {jsonLd && <script is:inline type="application/ld+json" set:html={jsonLd}></script>}
-    <title>{title}｜CC18 影格</title>
+    <title>{pageTitle}</title>
   </head>
   <body>
     <a class="skip-link" href="#main">跳至主要內容</a>
     <header class="site-header">
       <div class="header-main">
-        <a class="brand" href="/" aria-label="CC18 影格首頁">
-          <span class="brand-mark">C18</span>
-          <span class="brand-name">CC18 影格<small>新片情報與選片指南</small></span>
+        <a class="brand" href="/" aria-label={`${SITE_NAME}首頁`}>
+          <span class="brand-mark">JAV</span>
+          <span class="brand-name">{SITE_NAME}<small>新片情報與選片指南</small></span>
         </a>
         <nav aria-label="主要導覽">
           <a href="/latest/">最新作品</a>
@@ -94,7 +100,8 @@ const jsonLd = structuredData
     <main id="main"><slot /></main>
     <footer class="site-footer">
       <div>
-        <span class="brand-mark small">C18</span>
+        <span class="brand-mark small">JAV</span>
+        <strong>{SITE_NAME}</strong>
         <p>整理 CC18 作品資料、題材線索與選片觀點；完整內容請前往原始作品頁。</p>
       </div>
       <nav aria-label="頁尾導覽">

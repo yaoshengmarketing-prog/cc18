@@ -232,6 +232,41 @@ for (const [index, {stableMovieId, html: promoHtml}] of promoCards.entries()) {
     throw new Error(`Homepage promo controls or CTA are missing for ${stableMovieId}`);
   }
 }
+const approvedShortTitles = {
+  'MARN-007': '三木環奈《阿紐》',
+  'CPZ69-015': '《我推的雙胞胎》',
+  'MARR-015': '新妻優香《搖曳之夢》',
+};
+const approvedWorkCopy = {
+  'MARN-007': {
+    workTitle: '三木環奈《阿紐》印象寫真',
+    articleHeading: '三木環奈的自然感，為什麼要與成熟氣質擺在一起？',
+    lead: '來源把三木環奈放進《阿紐／アニュー》系列，並以「天真」與「成熟」的形象反差介紹她；這個宣傳切角，比未交代的劇情更值得先看清楚。',
+  },
+  'CPZ69-015': {
+    workTitle: '《我推的雙胞胎》',
+    articleHeading: '「我知道你知道」：為什麼把破綻也寫進賣點？',
+    lead: '第 15 彈的宣傳不只借用熟悉的角色設定，還先笑自己的改編破綻。這種與讀者心照不宣的寫法，比一串題材標籤更容易留下印象。',
+  },
+  'MARR-015': {
+    workTitle: '新妻優香《搖曳之夢》',
+    articleHeading: '群馬秘湯，讓新妻優香這次的印象寫真有了去處',
+    lead: '來源把新妻優香與群馬秘湯放在一起，先給了讀者一個帶著湯煙與旅途感的場景期待。這是它比「印象寫真」標籤更具體的入口。',
+  },
+};
+for (const [catalogCode, shortTitle] of Object.entries(approvedShortTitles)) {
+  const stableMovieId = `cc18:${catalogCode}`;
+  if (expectedById.get(stableMovieId)?.titles?.display_short_title !== shortTitle) {
+    throw new Error(`${stableMovieId} formal display_short_title differs from approved short title`);
+  }
+  for (const [surface, cards] of [['preview', renderedCards], ['Latest', latestCards], ['homepage', homeCards]]) {
+    const card = cards.find((item) => item.stableMovieId === stableMovieId);
+    if (surface === 'homepage' && !card) continue;
+    if (!card) throw new Error(`${surface} is missing candidate card ${stableMovieId}`);
+    const title = card.html.match(/<h2[^>]*><a[^>]*>([^<]+)<\/a><\/h2>/)?.[1];
+    if (title !== shortTitle) throw new Error(`${surface} short title differs for ${stableMovieId}`);
+  }
+}
 for (const {stableMovieId, html: cardHtml} of renderedCards) {
   const master = expectedById.get(stableMovieId);
   if (!master) throw new Error(`Rendered card is not an eligible published Master: ${stableMovieId}`);
@@ -247,6 +282,23 @@ for (const {stableMovieId, html: cardHtml} of renderedCards) {
   if (!await pathExists(workHtmlPath)) throw new Error(`Published work page is missing: ${expectedPathname}`);
   if (await pathExists(legacyHtmlPath)) throw new Error(`Legacy review page still renders content: /reviews/${master.slug}/`);
   const workHtml = await readFile(workHtmlPath, 'utf8');
+  const approved = approvedWorkCopy[master.source.catalog_code];
+  if (approved) {
+    if (master.titles.article_title !== approved.articleHeading || master.editorial.one_line_summary !== approved.lead) {
+      throw new Error(`${stableMovieId} formal article title or lead differs from approved copy`);
+    }
+    const renderedH1 = workHtml.match(/<h1[^>]*>([^<]+)<\/h1>/u)?.[1];
+    const renderedH2 = workHtml.match(/<section class="work-story"[\s\S]*?<h2[^>]*>([^<]+)<\/h2>/u)?.[1];
+    if (renderedH1 !== approved.workTitle || renderedH2 !== approved.articleHeading || !workHtml.includes(approved.lead)) {
+      throw new Error(`${stableMovieId} page heading or lead differs from approved copy`);
+    }
+    const graphText = workHtml.match(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/u)?.[1];
+    const graph = graphText ? JSON.parse(graphText) : [];
+    const articleNode = (Array.isArray(graph) ? graph : [graph]).find((node) => node['@type'] === 'Article');
+    if (articleNode?.headline !== approved.articleHeading) {
+      throw new Error(`${stableMovieId} Article.headline differs from approved article heading`);
+    }
+  }
   const performerById = new Map(performerCatalog.performers.map((performer) => [performer.stable_performer_id, performer]));
   const expectedPerformers = master.source.performer_relations.map(({stable_source_id: stablePerformerId}) => {
     const performer = performerById.get(stablePerformerId);

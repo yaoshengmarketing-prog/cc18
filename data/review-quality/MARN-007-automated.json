@@ -1,44 +1,50 @@
 {
   "schema_version": 2,
   "id": "MARN-007",
-  "checked_at": "2026-10-29T16:33:47.298Z",
-  "review_sha256": "4a7b78be90a2933098c3e70f3460db2456bd07d3ebb634991ad6bc008b969f03",
+  "checked_at": "2026-10-31T12:08:40.669Z",
+  "review_sha256": "fe871abff1b248955a43d78635a6225041f13adee4d769e0bfb3a7d40eb4717b",
   "status": "PASS_WITH_NOTES",
   "passed": true,
   "publishable": true,
   "issues": [],
   "repair_issues": [],
   "notes": [
+    "missing_movie_id_in_titles",
+    "title_lacks_source_signals",
     "missing_decision_value",
-    "broad_formulaic_voice",
+    "body_lacks_source_adult_vocabulary",
+    "title_lacks_source_core_concept",
+    "source_core_concept_not_developed",
     "insufficient_sections",
     "insufficient_evidence"
   ],
   "findings": [
     {
+      "code": "missing_movie_id_in_titles",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "title_lacks_source_signals",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
       "code": "missing_decision_value",
       "scope": "PASS_WITH_NOTES"
     },
     {
-      "code": "broad_formulaic_voice",
+      "code": "body_lacks_source_adult_vocabulary",
       "scope": "PASS_WITH_NOTES",
-      "reason": "STYLE_WARNING",
-      "affected_paragraphs": 3,
-      "paragraph_count": 8,
-      "locations": [
-        {
-          "paragraph": 2,
-          "excerpt": "如果只根據目前能追溯的公開資訊來看，MARN-007 最清楚的選片點有三個：三木環奈、系列名「アニュー」，以及「AV女優片／印象寫真」這組標籤。前兩者決定了作品辨識度，後兩者則說明它在公開面向上更像一部以展示感與企劃名稱建立印象的作品。也因此，這部片的第一判斷不是『故事講了什麼』"
-        },
-        {
-          "paragraph": 4,
-          "excerpt": "現有資料沒有提供可驗證的人物關係、場景設定或完整劇情摘要，反而明確列出「AV女優片」「印象寫真」與 720p、HD、4k 等呈現資訊。這種資訊排列方式，通常更適合讀成一種企劃與展示導向的選片提示：觀眾先認出演員、再認作品概念，最後才由呈現形式補足吸引力。換句話說，至少在目前可見資"
-        },
-        {
-          "paragraph": 6,
-          "excerpt": "《阿紐／アニュー》不是普通的附帶標籤，而是這部作品最需要保留的核心來源概念。系列欄位直接使用「アニュー」，來源概念也重複指向這個名稱，代表它不只是隨機裝飾，而是作品定位的一部分。對選片來說，這種命名很重要，因為它會影響觀眾的期待方式：你不是先進去找一段已知情節，而是先接住這個企劃"
-        }
-      ]
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "title_lacks_source_core_concept",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
     },
     {
       "code": "insufficient_sections",
@@ -50,7 +56,7 @@
     }
   ],
   "metrics": {
-    "sections": 4,
+    "sections": 1,
     "evidence_items": 4,
     "distinct_video_windows": 0,
     "repeated_sentence_groups": 0,

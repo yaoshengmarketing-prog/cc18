@@ -11,11 +11,15 @@ import {reviewHref, reviewTagIds, visibleTags} from '../lib/reviews';
 import {loadLatestAddedMovieCardCatalog, loadLatestAddedPromoCatalog} from '../lib/movie-master.mjs';
 import {loadPerformerCatalog} from '../lib/performer-catalog.mjs';
 import {tagItems} from '../lib/taxonomy';
+import {SITE_NAME} from '../lib/site-brand.mjs';
 
 const catalog = await loadLatestAddedMovieCardCatalog();
 const reviews = await getCollection('reviews', ({data}) => data.status === 'published');
 const featured = reviews.find(({data}) => data.id === catalog.cards[0]?.catalog_code);
 if (!featured) throw new Error('Homepage latest published work has no published review');
+const featuredHeading = featured.data.displayShortTitle
+  ?? (featured.data.socialTitle.replace(new RegExp(`^${featured.data.id}\\s*[｜|:：—-]*\\s*`, 'i'), '').trim() || featured.data.title);
+const featuredLead = featured.data.shortReview;
 const firstPage = catalogPages(catalog.cards)[0];
 const promoCatalog = await loadLatestAddedPromoCatalog({limit: 3});
 const performerCatalog = await loadPerformerCatalog();
@@ -25,12 +29,21 @@ if (!Number.isInteger(performerCount) || performerCount < 1) {
 }
 const tagIds = [...new Set(reviews.flatMap(reviewTagIds))].slice(0, 12);
 const tags = tagItems(tagIds);
+const siteUrl = new URL('/', Astro.site ?? Astro.url.origin).href;
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': `${siteUrl}#website`,
+  url: siteUrl,
+  name: SITE_NAME,
+  publisher: {'@type': 'Organization', name: SITE_NAME},
+};
 ---
-<BaseLayout title="最新作品影評" description="CC18 最新作品、演員、系列、題材標籤與選片觀點，快速找到完整作品入口。" adult={true}>
+<BaseLayout title="AV 作品解析、女優介紹與系列整理" brandFirst={true} description="整理最新 AV 作品、女優、系列與題材線索，快速找到作品入口與編輯觀點。" adult={true} structuredData={structuredData}>
   <section class="catalog-lead">
     <div>
       <p class="eyebrow">NEW RELEASES</p>
-      <h1>今天想看哪一部？</h1>
+      <h1>AV 作品解析、女優與系列指南</h1>
       <p>用番號、演員、系列或題材搜尋，也可以直接往下看最新收錄。</p>
     </div>
     <form action="/search/" method="get" role="search" class="home-search">
@@ -47,11 +60,11 @@ const tags = tagItems(tagIds);
       <div class="hero-copy">
         <p class="eyebrow">最新收錄</p>
         <p class="hero-number">{featured.data.id}</p>
-        <h1>{featured.data.title}</h1>
-        <p class="hero-review">{featured.data.shortReview}</p>
+        <h2>{featuredHeading}</h2>
+        <p class="hero-review">{featuredLead}</p>
         <TagList tags={visibleTags(featured).slice(0, 4)} />
         <div class="hero-actions">
-          <a class="button primary" href={reviewHref(featured)}>閱讀完整影評</a>
+          <a class="button primary" href={reviewHref(featured)}>閱讀作品文章</a>
           <a class="button secondary" href={featured.data.sourceUrl} target="_blank" rel="sponsored noopener">前往 CC18 作品頁 ↗</a>
         </div>
         <p class="source-note">番號、日期、演員與題材一次看懂</p>
@@ -94,7 +107,7 @@ const tags = tagItems(tagIds);
     <div class="editorial-panel">
       <span class="quote-mark">18+</span>
       <p>先看封面與題材，再用影評判斷這部是不是你的菜。</p>
-      <small>CC18 影格選片指南</small>
+      <small>JAV 影格選片指南</small>
     </div>
   </section>
 </BaseLayout>

@@ -67,7 +67,7 @@ const {quickDecision, thesis, presentation, audienceFor, audienceNotFor, recomme
           return review && (
             <a href={reviewHref(review)}>
               <span class="mono-value">{item.movie_id}</span>
-              <b>{review.data.title}</b>
+              <b>{review.data.displayShortTitle ?? review.data.title}</b>
               <p>{item.reason}</p>
               <small>共同：{item.shared_signals.join('、')}　／　差異：{item.contrast_signals.join('、')}</small>
             </a>

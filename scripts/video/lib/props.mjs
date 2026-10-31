@@ -1,3 +1,5 @@
+import {SITE_NAME} from '../../../src/lib/site-brand.mjs';
+
 const clean = (value) => String(value ?? '').replace(/\s+/g, ' ').trim();
 
 export function compactText(value, maximum = 42) {
@@ -29,6 +31,6 @@ export function buildVerticalReviewProps({movieId, source, editorial, search, ma
     tags: tags.slice(0, 4),
     imageOne: absolute(vertical),
     imageTwo: absolute(hero),
-    siteName: 'CC18 影格',
+    siteName: SITE_NAME,
   };
 }

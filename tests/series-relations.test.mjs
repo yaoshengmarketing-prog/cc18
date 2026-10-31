@@ -238,7 +238,7 @@ const seriesPageFixture = (series, {robots, records, extraHead = ''} = {}) => {
   ];
   const description = `整理${series.metadata_identity_label}在本站已發布的作品，目前收錄 ${series.public_work_count} 部；卡片依作品發行日新到舊。`;
   return [
-    `<title>${series.metadata_identity_label}系列作品整理｜CC18 影格</title>`,
+    `<title>${series.metadata_identity_label}系列作品整理｜JAV 影格</title>`,
     `<meta name="description" content="${description}">`,
     `<meta name="robots" content="${robotsValue}">`,
     `<link rel="canonical" href="${canonical}">`,

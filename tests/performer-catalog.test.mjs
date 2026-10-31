@@ -68,7 +68,7 @@ const performerPageFixture = (performer, {robots, extraHead = '', structuredData
     ? 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1'
     : 'noindex,follow');
   return [
-    `<title>${performer.metadata_identity_label}作品與人物資料｜CC18 影格</title>`,
+    `<title>${performer.metadata_identity_label}作品與人物資料｜JAV 影格</title>`,
     `<meta name="description" content="整理${performer.metadata_identity_label}的日文原名、經核准別名與已發布作品，目前收錄 ${performer.public_work_count} 部。">`,
     `<meta name="robots" content="${robotsValue}">`,
     `<link rel="canonical" href="${canonical}">`,

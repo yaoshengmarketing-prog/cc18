@@ -149,6 +149,12 @@ for (const record of published) {
   }
 
   const body = markdown.replace(/^---\r?\n[\s\S]*?\r?\n---/, '');
+  if (scalar(yaml, 'workTitle')) {
+    const firstArticleHeading = body.match(/^##\s+(.+)$/m)?.[1]?.trim();
+    if (firstArticleHeading !== displayTitle) {
+      throw new Error(`${record.id}: first article H2 must match the approved article title`);
+    }
+  }
   approvedReviews.push({id: record.id, displayTitle, body});
 }
 

@@ -18,6 +18,6 @@ export const RemotionRoot = () => <Composition
     tags: ['新片', '劇情設定'],
     imageOne: 'images/demo-cover.svg',
     imageTwo: 'images/demo-hero.svg',
-    siteName: 'CC18 影格',
+    siteName: 'JAV 影格',
   }}
 />;
