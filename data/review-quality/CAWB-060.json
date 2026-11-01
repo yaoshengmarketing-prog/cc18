@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "CAWB-060",
+  "review_sha256": "7091834a92171f153cc71a69ed69d89a28b1026f61dfe127defa4ce6fcd3d5f2",
+  "selected_thesis": "CAWB-060 的可追溯賣點，是伊藤舞雪結合OL身份與單身赴任前提所形成的戲劇型入口，而非單靠高畫質或獨家配信等外層標示。",
+  "title_basis": {
+    "performer": "伊藤舞雪",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "伊藤舞雪",
+        "source_field": "actress"
+      },
+      {
+        "type": "identity",
+        "value": "OL",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "戲劇、連續劇",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "伊藤舞雪",
+    "presentation_feature": "OL",
+    "editorial_judgment": "從公開資料可見的唯一劇情鉤子「單身赴任」出發，將本作定位為以伊藤舞雪與OL身份包裝的戲劇型企劃，選片重點放在設定可辨識度，而不是規格標籤。",
+    "source_keywords": [
+      "伊藤舞雪",
+      "OL",
+      "中出",
+      "戲劇、連續劇"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "片名與來源概念都以伊藤舞雪為核心，可將演員本身視為第一選片入口。",
+      "basis": "public_source",
+      "signal": "伊藤舞雪"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤明示OL身份，足以作為標題與選片說明中的主要成人主題。",
+      "basis": "public_source",
+      "signal": "OL"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤提供中出要素，能確認作品販售訴求之一，但不足以延伸出未公開的具體橋段。",
+      "basis": "public_source",
+      "signal": "中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤含有戲劇、連續劇，表示本作至少在企劃包裝上強調故事框架，而非純規格導向。",
+      "basis": "public_source",
+      "signal": "戲劇、連續劇"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開摘錄唯一可追溯的前提是已婚男性因妻子也有工作而單身赴任，這構成目前最明確的劇情起點。",
+      "basis": "public_source",
+      "signal": "單身赴任"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱伊藤舞雪在片中的具體職位、姓名或人物關係。",
+    "未把『單身赴任』延伸成外遇、辦公室戀情、同居或三角關係等未公開情節。",
+    "未描述任何已發生的場景、鏡位、聲音、剪輯、表情、肢體語言或演技表現。",
+    "未把720p、HD、4K、獨家配信推定為實際觀看品質或作品完成度。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}

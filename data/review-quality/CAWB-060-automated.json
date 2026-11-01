@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "CAWB-060",
+  "checked_at": "2026-11-01T15:43:02.665Z",
+  "review_sha256": "5a9d3ed2d0a716252c02cfed2c3f7b281b3ae5c3f0efb5a9e77523c8f5d4f93a",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就公開資料來看，最穩定也最清楚的入口仍是伊藤舞雪本人。除了演員名稱之外，來源還給了兩個足以支撐選片判斷的方向：一是「OL」身份，二是「戲劇、連續劇」的企劃包裝。這代表本作不是只靠規格詞堆疊曝光，而是至少試圖用角色身份與故事框架建立觀看動機。若你本來就會因伊藤舞雪而點開作品，這次可"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "目前唯一可直接引用的劇情線索，是公開摘錄提到：一名已婚男性因妻子也有工作，於是成了「單身赴任」。這一句雖短，但很關鍵，因為它不是抽象標籤，而是一個明確的情境前提。它告訴我們，作品的故事起點和日常生活狀態有關，並非完全沒有背景的即時展開。不過，資料沒有進一步說明伊藤舞雪在其中扮演誰"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

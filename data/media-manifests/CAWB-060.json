@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "CAWB-060",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-01T15:43:59.957Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/CAWB-060/hero-v1.jpg",
+      "r2_key": "works/2026/10/CAWB-060/hero-v1.jpg",
+      "bytes": 696981,
+      "sha256": "c613ad445595af2e0deab51b3840e4c6e62dc47dd2596ff7f4cfb7541268b04e",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "3f19320895734ec2bdf13e18816e6d0e",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/CAWB-060/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/CAWB-060/scene-vertical-v1.jpg",
+      "bytes": 1543831,
+      "sha256": "0c284cc39e3358d27d7ed5646a3438b24350d6fd3490c7f3a762b0ea4daae83f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "79b34ce00d3347caa40c4764341ca26e",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3159491,
+    "sha256": "3666e8df8fc7a29f12ab86cc18e49194b4ca76f90d01189618ebf422af86d90c",
+    "target_r2_key": "works/2026/10/CAWB-060/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/CAWB-060/vertical-v1.mp4"
+  }
+}

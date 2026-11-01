@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "movie_id": "CAWB-060",
+  "generated_at": "2026-11-01T15:43:02.514Z",
+  "source_snapshot_hash": "sha256:90da7565efccd0160fbc8ecdecc62965bdfe6049a593bae81608b99c6e623afd",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "CAWB-060 的可追溯魅力，不在規格字眼，而在伊藤舞雪搭配OL身份與單身赴任前提所形成的戲劇型入口。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "先以伊藤舞雪作為明確入口。",
+      "以OL作為唯一主成人主題來建立標題與判斷。",
+      "把公開摘錄中的單身赴任前提視為劇情鉤子。",
+      "弱化高畫質與獨家配信等規格詞的比重，避免喧賓奪主。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "以演員辨識度作為第一選片標準的人",
+      "喜歡先有明確情境前提再進入作品的人",
+      "對OL身份與戲劇式企劃包裝有興趣的人"
+    ],
+    "not_for": [
+      "只想看已驗證場面細節或具體情節轉折的人",
+      "需要明確人物關係、場景配置或表演觀察後才決定的人",
+      "會把高畫質標籤當成唯一購片依據的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這支作品第一個該看什麼賣點？",
+    "公開簡介實際透露了哪些劇情資訊？",
+    "這些資訊如何影響選片判斷？",
+    "它比較適合哪些觀眾、又不適合哪些觀眾？"
+  ]
+}
