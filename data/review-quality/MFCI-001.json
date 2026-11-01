@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "MFCI-001",
+  "review_sha256": "f7cb494158ed81817353d4e3a4f5cd4122639b1973721b4a113ec52ac2da681b",
+  "selected_thesis": "MFCI-001 目前最合理的選片方式，不是期待已知故事，而是把它視為一部以「獨家」為包裝核心、以角色扮演與多人刺激標籤驅動的展示型企劃。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "theme",
+        "value": "角色扮演",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "亂交",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "角色扮演",
+    "editorial_judgment": "把這部作品定位為以「獨家」包裝為核心、由角色扮演與多人刺激標籤支撐的展示型企劃；在公開資料未提供明確劇情、人物關係與場景前，不把它寫成故事片，而是說明它為何更適合用題材偏好來判斷是否入手。",
+    "source_keywords": [
+      "獨家",
+      "角色扮演",
+      "巨乳",
+      "亂交"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品的第一辨識點是獨家配信包裝，而不是已公開的完整劇情前提。",
+      "basis": "public_source",
+      "signal": "獨家／獨家限定／配信専用"
+    },
+    {
+      "observation_refs": [],
+      "supports": "選片時最清楚的成人題材主軸是角色扮演。",
+      "basis": "public_source",
+      "signal": "角色扮演"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤把身材賣點與多人強度一起前置，顯示作品更依賴直接刺激點。",
+      "basis": "public_source",
+      "signal": "巨乳／中出／亂交／3p・4p"
+    },
+    {
+      "observation_refs": [],
+      "supports": "目前沒有足夠公開資訊支撐明確的人物關係、場景或劇情線。",
+      "basis": "public_source",
+      "signal": "premise、relationship、setting 皆未公開"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源題名中出現雙人命名，能支持『雙人包裝』這種選片印象，但不足以推出更具體關係設定。",
+      "basis": "public_source",
+      "signal": "柚乃&莉亞"
+    },
+    {
+      "observation_refs": [],
+      "supports": "將本作歸為展示型企劃，是根據已公開標籤集中於題材與刺激點、而非敘事資訊的編輯判斷。",
+      "basis": "creative_reconstruction",
+      "signal": "展示型企劃"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未撰寫任何未公開的劇情走向或結局",
+    "未描述任何實際場景、鏡位、剪輯、聲音或表演細節",
+    "未把「潮吹」寫成已觀察到的具體畫面結果",
+    "未推定「柚乃&莉亞」的真實身份、職業、年齡或固定關係",
+    "未把規格標示直接寫成已驗證的觀影品質結論"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}

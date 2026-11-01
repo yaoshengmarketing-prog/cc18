@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MFCI-001",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-01T16:00:05.472Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/MFCI-001/hero-v1.jpg",
+      "r2_key": "works/2026/10/MFCI-001/hero-v1.jpg",
+      "bytes": 691409,
+      "sha256": "29713ae926c63aedca1ac28c01742e0341c228454be0a88943ec6b5756018119",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "5bdb693b15a94dccbe2a67305e134a50",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/MFCI-001/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/MFCI-001/scene-vertical-v1.jpg",
+      "bytes": 937880,
+      "sha256": "92ad285ab716cb99e1c54c8dd34b65de5393b5cd75efa72401f9bec7fa74c15b",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "8727439f47e445f5b2bd827cc76b7f67",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2763007,
+    "sha256": "48d06ccd79ff40389acc0d97055c0b7e7cdd35ae2804cd081c0297b346cb7861",
+    "target_r2_key": "works/2026/10/MFCI-001/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/MFCI-001/vertical-v1.mp4"
+  }
+}

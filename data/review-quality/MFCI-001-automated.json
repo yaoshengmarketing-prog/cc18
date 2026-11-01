@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "MFCI-001",
+  "checked_at": "2026-11-01T15:59:23.621Z",
+  "review_sha256": "6bf0673beb2c825a43fe4e18fde81c9ec89055242781490d7ce52c0ce69e5f0c",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前公開資料，MFCI-001 最先成立的賣點不是故事，而是「獨家」這個包裝概念。來源不只把「獨家」放進題名線索，題材資訊也同時出現「獨家限定」與「配信専用」，再加上 720p、全高清（FHD）等規格標示，整體訊號很明確：它先把自己定位成一部有平台專屬感與配信屬性的作品。"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "本作最適合當成主軸來理解的，是「角色扮演」。這個元素同時出現在安全題名線索與服裝分類裡，辨識度最高，也最能替作品建立入口。其他公開標籤則把刺激方向補得更直接：身材面有「巨乳」，行為面有「中出」、「亂交」與「3p・4p」，而來源摘錄裡還另有「潮吹」這個宣傳詞。把這些資訊放在一起看，"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 6,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

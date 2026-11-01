@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-01T15:56:12.188Z",
+  "generated_at": "2026-11-01T16:01:03.143Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 311,
-  "formal_movie_count": 310,
+  "tracked_input_count": 312,
+  "formal_movie_count": 311,
   "demo_count": 1,
-  "published_count": 307,
+  "published_count": 308,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1322,6 +1322,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "c9aeb7745520323703d105b5b5782bcc14f0aab0291fdcc121f0f00a416ec518"
+    },
+    {
+      "stable_movie_id": "cc18:MFCI-001",
+      "catalog_code": "MFCI-001",
+      "slug": "mfci-001",
+      "master_path": "data/movie-master/mfci-001.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "14c873882b33859ecb138585059b1d073a5910e3ab7ff9ddfa2b328d07368cd9"
     },
     {
       "stable_movie_id": "cc18:MIAB-677",
