@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-01T23:46:38.861Z",
+  "generated_at": "2026-11-01T23:55:10.566Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 323,
-  "formal_movie_count": 322,
+  "tracked_input_count": 324,
+  "formal_movie_count": 323,
   "demo_count": 1,
-  "published_count": 319,
+  "published_count": 320,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2222,6 +2222,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "40362e214ddeea2df69dde3678a2d077f97001e6cd7b54d46fb6e36c5489f2cd"
+    },
+    {
+      "stable_movie_id": "cc18:ROYD-361",
+      "catalog_code": "ROYD-361",
+      "slug": "royd-361",
+      "master_path": "data/movie-master/royd-361.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "d0417d95d4fd1ceac37ab9d444adfb438d161a1e00c1c66289e246fce0491173"
     },
     {
       "stable_movie_id": "cc18:ROYD-362",
