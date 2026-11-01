@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "ATID-710",
+  "calls": [
+    {
+      "generated_at": "2026-11-01T19:54:14.796Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4267,
+      "cached_input_tokens": 0,
+      "output_tokens": 4655,
+      "total_tokens": 8922,
+      "estimated_cost_usd": 0.126073,
+      "estimated_payg_cash_cost_usd": 0.132376,
+      "direct_openai_reference_usd": 0.080492,
+      "gateway_premium_usd": 0.04558,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4267,
+    "cached_input_tokens": 0,
+    "output_tokens": 4655,
+    "estimated_cost_usd": 0.126073,
+    "estimated_payg_cash_cost_usd": 0.132376,
+    "direct_openai_reference_usd": 0.080492,
+    "gateway_premium_usd": 0.04558
+  }
+}

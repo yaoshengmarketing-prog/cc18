@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "ATID-710",
+  "checked_at": "2026-11-01T19:54:15.142Z",
+  "review_sha256": "219626ec2dd4d16b896ac5c9b81d7e67899590a25e1b8c5240e62bc119cf7bc9",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "這部作品最直接的吸引力，來自題名中可清楚辨識的核心概念：「沒想到內褲竟然透出來了」。從公開資訊來看，這不是需要讀很多前提才懂的設定，而是立即能成立的企劃型賣點。對選片來說，這種題眼的優勢在於辨識度高，能讓觀眾很快知道作品想主打的刺激來源。再加上主演是木下日葵（花澤日葵），因此本作"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "公開標籤中的「部下・同僚」提供了一個很重要的閱讀方向：作品不是完全抽象地只談身體展示，而是把刺激感放進熟悉的人際距離裡。這類關係框架的作用，在於讓企劃設定更容易被理解，也讓作品在選片時多出一層『近距離互動想像』的入口。不過，公開資料只足以確認這是關係標籤，還不足以證明是否有完整職"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 2
+  }
+}

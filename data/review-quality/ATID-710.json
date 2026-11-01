@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "ATID-710",
+  "review_sha256": "9a69ddb103a295e85a79335f0c2868dbdb05564bfb73379a991878d6af86144a",
+  "selected_thesis": "這是一部以「沒想到內褲竟然透出來了」為核心辨識點、由木下日葵與部下・同僚框架補強的展示型企劃；它的優勢在於賣點清楚，不在於已知的劇情厚度。",
+  "title_basis": {
+    "performer": "木下日葵（花澤日葵）",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "木下日葵（花澤日葵）",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "沒想到內褲竟然透出來了",
+        "source_field": "title"
+      },
+      {
+        "type": "relationship",
+        "value": "部下・同僚",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "美尻",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "木下日葵（花澤日葵）",
+    "presentation_feature": "沒想到內褲竟然透出來了",
+    "editorial_judgment": "以公開題名中的單一企劃鈎子為核心，評估木下日葵這部作品是否屬於關係標籤清楚、主打展示感而非劇情鋪陳的選片。",
+    "source_keywords": [
+      "木下日葵（花澤日葵）",
+      "沒想到內褲竟然透出來了",
+      "部下・同僚",
+      "美尻"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品最可辨識的賣點來自題名中的意外曝光概念，因此選片判斷應優先圍繞這個企劃鈎子，而不是替作品補出未公開的劇情。",
+      "basis": "public_source",
+      "signal": "沒想到內褲竟然透出來了"
+    },
+    {
+      "observation_refs": [],
+      "supports": "演員資訊明確，代表這片同時具備明顯的主演辨識度，可作為 performer 導向的選片理由。",
+      "basis": "public_source",
+      "signal": "木下日葵（花澤日葵）"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤提供了『部下・同僚』這個關係框架，足以說明作品想借用熟悉人際距離來放大企劃設定。",
+      "basis": "public_source",
+      "signal": "部下・同僚"
+    },
+    {
+      "observation_refs": [],
+      "supports": "『美尻』屬於外型焦點標籤，顯示本作除了企劃題眼，也把身體條件作為明確賣點之一。",
+      "basis": "public_source",
+      "signal": "美尻"
+    },
+    {
+      "observation_refs": [],
+      "supports": "HD、720p、獨家配信屬於公開呈現與配信資訊，可作為觀看便利性與版本辨識補充，但不足以單獨構成內容評價。",
+      "basis": "public_source",
+      "signal": "高畫質／720p／獨家配信"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何具體場景、服裝款式、透出發生方式或畫面呈現。",
+    "未推定部下・同僚的職位高低、工作場所、上下關係或後續互動發展。",
+    "未聲稱作品具有完整劇情線、關係轉折、角色覺醒或主導權變化。",
+    "未評論鏡位、剪輯、聲音、節奏、表情、肢體語言或演技表現。",
+    "未將創意摘錄中的「變成我的專屬飛機杯」擴寫為已確認情節事實。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}

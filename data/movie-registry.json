@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-01T19:50:11.865Z",
+  "updated_at": "2026-11-01T19:56:00.894Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -4687,6 +4687,21 @@
       ],
       "release_date": "2026-10-30",
       "source_url": "https://cc18.tv/player.php?uuid=mevP3xVKL9F&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-01"
+    },
+    {
+      "id": "ATID-710",
+      "actress": [
+        "木下日葵（花澤日葵）"
+      ],
+      "release_date": "2026-10-30",
+      "source_url": "https://cc18.tv/player.php?uuid=epd4MQqA1p&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

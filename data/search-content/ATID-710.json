@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "movie_id": "ATID-710",
+  "generated_at": "2026-11-01T19:54:14.991Z",
+  "source_snapshot_hash": "sha256:3e77371da699d3de403574ce9ba2320733ac67564f197268616d3a63a29df3f4",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若你對『意外透出』這類一眼可懂的企劃題眼有興趣，ATID-710 的選片理由很直接：它以木下日葵為中心，搭配部下・同僚關係與美尻標籤，形成標準而清楚的展示型吸引力；但現有公開資訊不足以把它解讀為劇情濃度高的作品。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "企劃概念先行",
+      "演員辨識度明確",
+      "關係標籤清楚但劇情資訊有限",
+      "配信與畫質資訊可作為次要加分"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好企劃鈎子明確、入口門檻低的觀眾",
+      "會以演員辨識度與關係標籤作為主要選片依據的人",
+      "對部下・同僚框架加上意外曝光概念有興趣的人"
+    ],
+    "not_for": [
+      "期待完整人物背景與清楚情節推進的觀眾",
+      "想先確認具體場景、演出細節或敘事轉折的人"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MKMP-758",
+      "relation_type": "same_performer",
+      "reason": "同樣由木下日葵（花澤日葵）出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "木下日葵（花澤日葵）"
+      ],
+      "contrast_signals": [
+        "篠田優",
+        "濱崎真緒"
+      ]
+    },
+    {
+      "movie_id": "ROYD-350",
+      "relation_type": "same_performer",
+      "reason": "同樣由木下日葵（花澤日葵）出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "木下日葵（花澤日葵）"
+      ],
+      "contrast_signals": [
+        "両リーグ性覇",
+        "中出"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這片最明確的選片理由是什麼？",
+    "公開的關係標籤會怎麼影響期待？",
+    "演員與外型標籤在這次企劃中扮演什麼角色？",
+    "這片適合哪一類觀眾？"
+  ]
+}
