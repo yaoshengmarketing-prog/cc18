@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:60105b19876be812273fd02b67ddbc909516759ae98ff3eb2c8a3e1597ff1900",
-  "source_generated_at": "2026-11-01T15:14:36.633Z",
+  "source_revision": "sha256:6eb9530d25797c8378a565991f0eff8eb4308d128dd9403b220ed89bcf168ea8",
+  "source_generated_at": "2026-11-01T15:18:59.125Z",
   "counts": {
-    "movies": 299,
-    "performers": 279,
+    "movies": 300,
+    "performers": 280,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -439,6 +439,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DSOD-080"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53477",
+      "display_name": "井上もも",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "井上もも",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MIDA-844"
       ]
     },
     {
@@ -3277,6 +3288,51 @@
         "article_title": "MIDA-840 輝星綺羅｜學生設定下的「對不起我要去了」：反差企劃先行",
         "display_short_title": null,
         "slug": "mida-840"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MIDA-844",
+        "source_cover": "https://cc18.tv/preview/80/b/a0wexTT66A-800.jpg?v=1793392595",
+        "title": "MIDA-844 井上もも｜想和你一起舒服地高潮",
+        "catalog_code": "MIDA-844",
+        "release_date": "2026-10-30",
+        "performers": [
+          "井上もも"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cosplay",
+            "label": "角色扮演"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mida-844/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53477"
+      ],
+      "search": {
+        "source_title": "想和你一起舒服地高潮 囁耳撒嬌淫語與精緻可愛口交溫柔責弄的療癒腦內融化自慰支援 井上桃",
+        "article_title": "MIDA-844 井上もも｜想和你一起舒服地高潮",
+        "display_short_title": null,
+        "slug": "mida-844"
       }
     },
     {
