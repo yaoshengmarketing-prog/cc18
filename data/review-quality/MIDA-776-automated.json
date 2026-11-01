@@ -1,0 +1,66 @@
+{
+  "schema_version": 2,
+  "id": "MIDA-776",
+  "checked_at": "2026-11-01T15:12:42.008Z",
+  "review_sha256": "8b8e12e9bb8c4c560a36f3504fc373fb0a40c8975cb5a57c8fd5f4ea9b97f607",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "broad_formulaic_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 3,
+      "paragraph_count": 8,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資訊，MIDA-776 最突出的賣點就是「站街女救濟蕾絲邊」這個核心概念。這種片名級別的設定本身就有很高辨識度，能立刻告訴觀眾它不是單純靠一般標籤在賣，而是先用一個強烈企劃前提來建立興趣。再加上公開介紹出現「救濟在公園站街的女孩們企劃！」與「一香的慈善事業"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "公開來源把松本一香放在非常核心的位置，甚至直接以「松本一香・全力體現企劃！」作為宣傳句。這種寫法的重點，不是證明我們已經知道她在片中的具體表演細節，而是說明作品把她視為企劃成立的主要承載者。再對照公開標籤中的「美少女」「窈窕」，可以看出本作的包裝方向相當明確：它希望觀眾用演員形象"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "就目前資料來看，我會把它放在「有故事鉤子、但公開資訊仍以企劃展示為主」的一側。原因不是它沒有故事感，而是公開可證明的資訊幾乎都在強調企劃名稱、企劃主旨與演員投入感，例如「全力體現企劃」「慈善事業企劃・第1彈」這些說法，都比較像在定義作品玩法，而不是交代具體劇情層次。因此，這部片較"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 1
+  }
+}

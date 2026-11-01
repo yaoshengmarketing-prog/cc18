@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T23:58:05.704Z",
+  "updated_at": "2026-11-01T15:14:21.595Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -4518,6 +4518,21 @@
       "video_status": "rendered",
       "template": "story",
       "published_at": "2026-10-30"
+    },
+    {
+      "id": "MIDA-776",
+      "actress": [
+        "松本一香"
+      ],
+      "release_date": "2026-10-30",
+      "source_url": "https://cc18.tv/player.php?uuid=eH_8joSBkaK&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-01"
     }
   ]
 }

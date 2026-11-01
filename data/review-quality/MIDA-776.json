@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "MIDA-776",
+  "review_sha256": "e2d4a5d16afbe9ef7aff212a1d995e6005b517e2473748dc775a72b95a0755a1",
+  "selected_thesis": "MIDA-776 最值得看的不是已公開的故事複雜度，而是松本一香與「站街女救濟蕾絲邊」這個高辨識企劃之間的搭配效果。",
+  "title_basis": {
+    "performer": "松本一香",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "松本一香",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "站街女救濟蕾絲邊",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "美少女",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "松本一香",
+    "presentation_feature": "站街女救濟蕾絲邊",
+    "editorial_judgment": "把這部片視為以企劃概念先抓住注意力的松本一香作品：公開資訊強調的是「站街女救濟蕾絲邊」這個設定鉤子，以及她全力體現企劃的包裝，而不是已公開的完整劇情細節。",
+    "source_keywords": [
+      "松本一香",
+      "站街女救濟蕾絲邊",
+      "美少女"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品最明確的辨識點來自「站街女救濟蕾絲邊」這個核心概念，可作為選片時的第一判斷依據。",
+      "basis": "public_source",
+      "signal": "站街女救濟蕾絲邊"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開介紹直接寫出「松本一香・全力體現企劃！」，顯示本作賣點明顯傾向演員投入企劃設定，而非先用已公開劇情細節說服觀眾。",
+      "basis": "public_source",
+      "signal": "松本一香・全力體現企劃"
+    },
+    {
+      "observation_refs": [],
+      "supports": "「救濟在公園站街的女孩們企劃！」與「一香的慈善事業企劃・第1彈！」都把焦點放在企劃框架，支持本作屬於設定先行的展示型選片。",
+      "basis": "public_source",
+      "signal": "企劃框架"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤中的「美少女」「窈窕」提供了作品包裝方向，說明本作也依賴演員形象辨識度來強化企劃吸引力。",
+      "basis": "public_source",
+      "signal": "美少女／窈窕"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱已觀察到任何公園場景的實際演出內容。",
+    "未推定所謂『站街的女孩們』與松本一香之間的明確人物關係。",
+    "未補寫蕾絲邊設定在片中如何展開或如何收束。",
+    "未描述鏡位、剪輯、聲音、節奏或表情等觀看後資訊。",
+    "未把「第1彈」延伸解讀為已確認的正式系列公式。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}

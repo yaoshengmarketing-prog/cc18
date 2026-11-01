@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "movie_id": "MIDA-776",
+  "generated_at": "2026-11-01T15:12:41.861Z",
+  "source_snapshot_hash": "sha256:41a2134f1626fd6f3a6847501073a5bd37366e9a0a843738d3406f80f4449fa7",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "MIDA-776 的核心吸引力不是已公開的複雜劇情，而是松本一香被放進「站街女救濟蕾絲邊」這個高辨識企劃中，形成設定先行、演員包裝鮮明的選片理由。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以公開企劃概念為主軸評估，而非假設未公開劇情。",
+      "重點放在松本一香與企劃設定的搭配是否有吸引力。",
+      "將本作定位為設定先行、演員形象明確的展示型作品。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先看設定鉤子選片的人",
+      "本來就偏好松本一香作品的人",
+      "喜歡美少女系包裝與企劃型題材的人"
+    ],
+    "not_for": [
+      "需要公開資訊先交代完整故事線才會入手的人",
+      "期待已確認角色關係與場景發展的人",
+      "不偏好企劃感強烈作品的人"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MKMP-758",
+      "relation_type": "same_performer",
+      "reason": "同樣由松本一香出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "松本一香"
+      ],
+      "contrast_signals": [
+        "篠田優",
+        "濱崎真緒"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這片最值得注意的公開賣點是什麼？",
+    "松本一香在這個企劃中的定位是什麼？",
+    "它更偏劇情型還是展示型企劃？",
+    "什麼樣的觀眾會比較適合先收這部？"
+  ]
+}
