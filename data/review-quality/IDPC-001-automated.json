@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "id": "IDPC-001",
+  "checked_at": "2026-11-01T15:54:33.292Z",
+  "review_sha256": "141e61fa047f9274947d00672432421721c1ed27a74787ce0dddd05005037400",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "broad_formulaic_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 4,
+      "paragraph_count": 10,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前能追溯的公開資訊，IDPC-001 最清楚的入口就是大原伶菜，以及所屬系列 First Impression。再加上來源片名裡反覆出現的「First」，這部作品給人的不是複雜設定，而是把「第一眼如何成立」放到最前面的企劃型商品。對選片來說，這代表它的判斷順序應該先看演"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "可確認的成人題材主要來自公開標籤：身份面有 AV女優片、癡女；外型面有窈窕；動作面則列出親吻與騎乘位。這些資料足夠說明本作的賣點不是藏得很深，而是偏向直接、易懂、能快速建立期待的類型。另外，720p、HD、獨家配信都屬於呈現與發行層面的資訊，能補充觀看條件，但不應被當成內容深度的"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "目前不適合。原因不是它一定沒有故事，而是公開資料沒有提供可驗證的前提、人物關係、場景設定或核心衝突；連 creative brief 也明確把未確認的場景與人物關係保留為未知。因此，較穩妥的判讀方式，是把它看成以系列公式與角色形象先行的作品：有清楚的成人標籤、有明確的第一印象包裝"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "來源線索中的「美女也是野獸」與「你喜歡色色的姊姊嗎」，會把整體包裝推向比較直白的誘惑感與反差感。這類語氣通常不是在承諾複雜世界觀，而是在替作品建立一個足夠快速的情緒入口：漂亮、主動、帶點攻勢。放回本作已知的癡女標籤來看，這種命名方向是互相呼應的，所以它更適合被理解為『第一眼就知道"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

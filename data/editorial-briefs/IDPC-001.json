@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "id": "IDPC-001",
+  "generated_at": "2026-11-01T15:54:32.970Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "gpt-5.4",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/IDPC-001.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "First",
+    "premise": "作品以「First」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「First」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "First",
+      "Impression",
+      "196",
+      "美女也是野獸",
+      "你喜歡色色的姊姊嗎",
+      "大原伶菜"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "癡女"
+    ],
+    "body": [
+      "窈窕"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "騎乘位",
+      "親吻"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "editorial_angle": "把可確認資訊收束在「First」這個核心概念上，判斷本作更像以大原伶菜個人辨識度與癡女定位撐起的第一印象型企劃，而不是已知劇情導向作品。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "大原伶菜",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "First",
+      "source_field": "title"
+    },
+    {
+      "type": "series",
+      "value": "First Impression",
+      "source_field": "series"
+    },
+    {
+      "type": "identity",
+      "value": "癡女",
+      "source_field": "safe_signals"
+    }
+  ],
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "大原伶菜、First Impression 系列與「First」概念，是本作最可追溯也最穩定的選片入口。",
+      "basis": "public_source",
+      "signal": "大原伶菜 / First Impression / First"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤可確認本作主打癡女定位，並補充窈窕體型與親吻、騎乘位等成人題材線索。",
+      "basis": "public_source",
+      "signal": "癡女 / 窈窕 / 親吻 / 騎乘位"
+    },
+    {
+      "observation_refs": [],
+      "supports": "HD、720p、獨家配信屬於呈現與上架資訊，可作為觀看門檻參考，但不足以取代內容判斷。",
+      "basis": "public_source",
+      "signal": "高畫質 / 720p / 獨家配信"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資料未提供可驗證的劇情前提、人物關係、場景設定與衝突，因此不能把它寫成高劇情密度作品。",
+      "basis": "public_source",
+      "signal": "premise null / relationship null / setting null / evidence_scope"
+    },
+    {
+      "observation_refs": [],
+      "supports": "片名線索中的「美女也是野獸」「你喜歡色色的姊姊嗎」會把閱讀重心推向反差包裝與直白訴求，而非複雜敘事。",
+      "basis": "public_source",
+      "signal": "美女也是野獸 / 你喜歡色色的姊姊嗎"
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "本文把「First」視為選片主軸，只討論它如何影響讀者對企劃方向的預期，不延伸為具體劇情。",
+    "「美女也是野獸」與「你喜歡色色的姊姊嗎」僅作為片名語氣線索，用來說明宣傳包裝的傾向，不當成已發生情節。",
+    "因缺乏可驗證的場景與人物資訊，關於互動節奏與角色變化只保留在選片層級的推測，不寫成內容事實。"
+  ],
+  "decision_guide": {
+    "thesis": "IDPC-001 的可確認賣點不在已知故事，而在「First」概念下的大原伶菜個人展示：癡女定位明確、成人標籤直給，整體更像第一眼吸引力鮮明的系列型企劃。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以大原伶菜本人辨識度作為第一入口",
+      "系列名 First Impression 強化初見型企劃感",
+      "公開成人題材集中在癡女、親吻、騎乘位等直觀標籤",
+      "高畫質與獨家配信是附加條件，不是核心賣點"
+    ],
+    "audience_for": [
+      "會先看演員與系列概念決定要不要點開的人",
+      "偏好癡女定位與直白成人題材標籤的人",
+      "想找第一印象鮮明、展示導向作品的人"
+    ],
+    "audience_not_for": [
+      "想先確認完整劇情、角色關係或場景設定的人",
+      "會把技術規格當成內容保證的人",
+      "偏好高劇情密度或明確情節轉折的人"
+    ],
+    "questions_answered": [
+      "這部片最明確的選片理由是什麼？",
+      "公開資訊能確認哪些成人題材？",
+      "是否適合期待完整劇情或人物關係推進？",
+      "比較適合哪一類觀眾？"
+    ]
+  },
+  "title": "IDPC-001 大原伶菜｜First 癡女企劃，賣點在第一印象展示力",
+  "seo_title": "IDPC-001 大原伶菜影評｜First 癡女企劃，偏系列展示而非劇情導向",
+  "sections": [
+    {
+      "heading": "這部片最值得先看的選片理由是什麼？",
+      "body": "如果只看目前能追溯的公開資訊，IDPC-001 最清楚的入口就是大原伶菜，以及所屬系列 First Impression。再加上來源片名裡反覆出現的「First」，這部作品給人的不是複雜設定，而是把「第一眼如何成立」放到最前面的企劃型商品。對選片來說，這代表它的判斷順序應該先看演員本人是否有吸引力、是否吃這種初見包裝，再決定要不要進一步點開。"
+    },
+    {
+      "heading": "公開資訊能確認哪些內容方向？",
+      "body": "可確認的成人題材主要來自公開標籤：身份面有 AV女優片、癡女；外型面有窈窕；動作面則列出親吻與騎乘位。這些資料足夠說明本作的賣點不是藏得很深，而是偏向直接、易懂、能快速建立期待的類型。另外，720p、HD、獨家配信都屬於呈現與發行層面的資訊，能補充觀看條件，但不應被當成內容深度的證據。"
+    },
+    {
+      "heading": "能不能期待完整劇情或關係推進？",
+      "body": "目前不適合。原因不是它一定沒有故事，而是公開資料沒有提供可驗證的前提、人物關係、場景設定或核心衝突；連 creative brief 也明確把未確認的場景與人物關係保留為未知。因此，較穩妥的判讀方式，是把它看成以系列公式與角色形象先行的作品：有清楚的成人標籤、有明確的第一印象包裝，但沒有足夠依據支持更細的劇情解讀。"
+    },
+    {
+      "heading": "片名語氣會如何影響選片判斷？",
+      "body": "來源線索中的「美女也是野獸」與「你喜歡色色的姊姊嗎」，會把整體包裝推向比較直白的誘惑感與反差感。這類語氣通常不是在承諾複雜世界觀，而是在替作品建立一個足夠快速的情緒入口：漂亮、主動、帶點攻勢。放回本作已知的癡女標籤來看，這種命名方向是互相呼應的，所以它更適合被理解為『第一眼就知道自己在賣什麼』的作品。"
+    },
+    {
+      "heading": "這部片適合哪一類觀眾？",
+      "body": "如果你選片時優先看演員、系列名與成人主題是否夠明確，IDPC-001 的資訊其實很集中：大原伶菜、First Impression、癡女、親吻、騎乘位，方向一目了然。相反地，如果你需要先知道角色是什麼關係、故事在哪裡展開、節奏是否有轉折，那麼這次公開資料不足以支撐那種期待。換句話說，它比較像是給『先吃設定與第一印象』的觀眾，而不是給『先看故事完成度』的觀眾。"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何可驗證的完整劇情主線",
+    "未聲稱存在特定人物關係、姊姊身份或角色背景",
+    "未描述任何具體場景、地點、鏡位、剪輯、聲音或表演細節",
+    "未宣稱已觀察到親吻或騎乘位如何呈現，只引用公開標籤",
+    "未推定演員私生活、真實身分、年齡或個人經歷"
+  ],
+  "editorial_tag_ids": [
+    "contrast-charm",
+    "series-formula",
+    "showcase-format"
+  ],
+  "social_title": "IDPC-001 大原伶菜：First 癡女企劃看第一眼吸引力",
+  "short_review": "IDPC-001 從公開資訊來看，重點不在已知故事，而在大原伶菜於 First Impression 企劃中的第一印象展示。癡女、窈窕、親吻與騎乘位等標籤都很直白，但角色關係與情節仍是未知，因此更適合當成系列型、展示型作品來判斷。",
+  "selected_thesis": "IDPC-001 的可確認賣點不在已知故事，而在「First」概念下的大原伶菜個人展示：癡女定位明確、成人標籤直給，整體更像第一眼吸引力鮮明的系列型企劃。",
+  "angle_candidates": [
+    "從「First」概念切入，討論為何本作更適合用第一印象而非劇情來判斷",
+    "以大原伶菜與 First Impression 系列為核心，分析這部片的展示型企劃屬性",
+    "從「美女也是野獸」「你喜歡色色的姊姊嗎」的片名語氣，解讀本作的反差包裝策略"
+  ]
+}

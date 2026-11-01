@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:d5c1d5aab74873772b6b3d0e5867ba3725b788fa051c8ad58074cb230c8b0615",
-  "source_generated_at": "2026-11-01T15:51:09.969Z",
+  "source_revision": "sha256:2e07087496e12e3f87ace3c671fbfe9d7434a0e3dc84be7b1db9ebb9ce126625",
+  "source_generated_at": "2026-11-01T15:56:12.188Z",
   "counts": {
-    "movies": 306,
-    "performers": 284,
+    "movies": 307,
+    "performers": 285,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -251,6 +251,17 @@
       "related_movie_ids": [
         "cc18:MXGS-1445",
         "cc18:SQTE-719"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54821",
+      "display_name": "大原伶菜",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "大原伶菜",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:IDPC-001"
       ]
     },
     {
@@ -3321,6 +3332,59 @@
         "article_title": "DRPT-124 糸井瑠花｜巨乳標籤之外，更靠羞恥概念成立的展示型企劃",
         "display_short_title": null,
         "slug": "drpt-124"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:IDPC-001",
+        "source_cover": "https://cc18.tv/preview/80/b/AcYoIVpyU6B-800.jpg?v=1793399795",
+        "title": "IDPC-001 大原伶菜｜First 癡女企劃，賣點在第一印象展示力",
+        "catalog_code": "IDPC-001",
+        "release_date": "2026-10-30",
+        "performers": [
+          "大原伶菜"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "kissing",
+            "label": "親吻互動"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/idpc-001/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54821"
+      ],
+      "search": {
+        "source_title": "First Impression 196 美女也是野獸。你喜歡色色的姊姊嗎？大原伶菜 AV出道",
+        "article_title": "IDPC-001 大原伶菜｜First 癡女企劃，賣點在第一印象展示力",
+        "display_short_title": null,
+        "slug": "idpc-001"
       }
     },
     {

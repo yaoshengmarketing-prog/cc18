@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "IDPC-001",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-01T15:55:14.055Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/IDPC-001/hero-v1.jpg",
+      "r2_key": "works/2026/10/IDPC-001/hero-v1.jpg",
+      "bytes": 695149,
+      "sha256": "cd3528758e7bb2e3134cb4e57d3bdab7898374b36e2153cf9930886faf99cf13",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "a55a36c7ef3a4327aeb8960bc4c7a54a",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/IDPC-001/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/IDPC-001/scene-vertical-v1.jpg",
+      "bytes": 1361435,
+      "sha256": "fe8757dea17a724662e00cc11026b1e37be4b5360411fc72583f0eab65d134e4",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "c3181ad3faf34a39a2f6938544d90b20",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2951442,
+    "sha256": "c1ed195b8857343f8e82f08a8bad143c6a84632df24670da0cf1007f00c3d8af",
+    "target_r2_key": "works/2026/10/IDPC-001/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/IDPC-001/vertical-v1.mp4"
+  }
+}

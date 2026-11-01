@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "movie_id": "IDPC-001",
+  "generated_at": "2026-11-01T15:54:33.145Z",
+  "source_snapshot_hash": "sha256:36d48e7cc7c9fbc56b8999815c06f1d8c7dfcb7ececb7d539d079bff72298038",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "IDPC-001 的可確認賣點不在已知故事，而在「First」概念下的大原伶菜個人展示：癡女定位明確、成人標籤直給，整體更像第一眼吸引力鮮明的系列型企劃。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以大原伶菜本人辨識度作為第一入口",
+      "系列名 First Impression 強化初見型企劃感",
+      "公開成人題材集中在癡女、親吻、騎乘位等直觀標籤",
+      "高畫質與獨家配信是附加條件，不是核心賣點"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先看演員與系列概念決定要不要點開的人",
+      "偏好癡女定位與直白成人題材標籤的人",
+      "想找第一印象鮮明、展示導向作品的人"
+    ],
+    "not_for": [
+      "想先確認完整劇情、角色關係或場景設定的人",
+      "會把技術規格當成內容保證的人",
+      "偏好高劇情密度或明確情節轉折的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片最明確的選片理由是什麼？",
+    "公開資訊能確認哪些成人題材？",
+    "是否適合期待完整劇情或人物關係推進？",
+    "比較適合哪一類觀眾？"
+  ]
+}

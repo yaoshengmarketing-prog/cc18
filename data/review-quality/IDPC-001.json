@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "IDPC-001",
+  "review_sha256": "d6e263d6a69a50c86240cdb0de9566e493e19fe8615ad54efdcf7c9eb4a0407c",
+  "selected_thesis": "IDPC-001 的可確認賣點不在已知故事，而在「First」概念下的大原伶菜個人展示：癡女定位明確、成人標籤直給，整體更像第一眼吸引力鮮明的系列型企劃。",
+  "title_basis": {
+    "performer": "大原伶菜",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "大原伶菜",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "First",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "First Impression",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "癡女",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "大原伶菜",
+    "presentation_feature": "First",
+    "editorial_judgment": "把可確認資訊收束在「First」這個核心概念上，判斷本作更像以大原伶菜個人辨識度與癡女定位撐起的第一印象型企劃，而不是已知劇情導向作品。",
+    "source_keywords": [
+      "大原伶菜",
+      "First",
+      "First Impression",
+      "癡女"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "大原伶菜、First Impression 系列與「First」概念，是本作最可追溯也最穩定的選片入口。",
+      "basis": "public_source",
+      "signal": "大原伶菜 / First Impression / First"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤可確認本作主打癡女定位，並補充窈窕體型與親吻、騎乘位等成人題材線索。",
+      "basis": "public_source",
+      "signal": "癡女 / 窈窕 / 親吻 / 騎乘位"
+    },
+    {
+      "observation_refs": [],
+      "supports": "HD、720p、獨家配信屬於呈現與上架資訊，可作為觀看門檻參考，但不足以取代內容判斷。",
+      "basis": "public_source",
+      "signal": "高畫質 / 720p / 獨家配信"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資料未提供可驗證的劇情前提、人物關係、場景設定與衝突，因此不能把它寫成高劇情密度作品。",
+      "basis": "public_source",
+      "signal": "premise null / relationship null / setting null / evidence_scope"
+    },
+    {
+      "observation_refs": [],
+      "supports": "片名線索中的「美女也是野獸」「你喜歡色色的姊姊嗎」會把閱讀重心推向反差包裝與直白訴求，而非複雜敘事。",
+      "basis": "public_source",
+      "signal": "美女也是野獸 / 你喜歡色色的姊姊嗎"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何可驗證的完整劇情主線",
+    "未聲稱存在特定人物關係、姊姊身份或角色背景",
+    "未描述任何具體場景、地點、鏡位、剪輯、聲音或表演細節",
+    "未宣稱已觀察到親吻或騎乘位如何呈現，只引用公開標籤",
+    "未推定演員私生活、真實身分、年齡或個人經歷"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}

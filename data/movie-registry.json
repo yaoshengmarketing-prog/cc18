@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-01T15:50:54.192Z",
+  "updated_at": "2026-11-01T15:55:56.138Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -4629,6 +4629,21 @@
       ],
       "release_date": "2026-10-30",
       "source_url": "https://cc18.tv/player.php?uuid=inuJQDVAc1S&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-01"
+    },
+    {
+      "id": "IDPC-001",
+      "actress": [
+        "大原伶菜"
+      ],
+      "release_date": "2026-10-30",
+      "source_url": "https://cc18.tv/player.php?uuid=AcYoIVpyU6B&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
