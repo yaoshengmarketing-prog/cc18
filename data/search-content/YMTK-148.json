@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "movie_id": "YMTK-148",
+  "generated_at": "2026-11-01T23:44:57.034Z",
+  "source_snapshot_hash": "sha256:be3dadd6e59077973aa35a8696260f746a5cb272c359d2ac1fa120158addd75f",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若只根據公開來源判斷，YMTK-148 的選片價值主要來自「獨家」概念下的角色扮演與自拍組合；它更像企劃展示片，而不是已知故事量很高的作品。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "角色扮演",
+      "自拍形式",
+      "獨家配信",
+      "高畫質"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色扮演主題的人",
+      "喜歡自拍形式與較直接企劃包裝的人",
+      "會把獨家限定或配信形式視為加分訊號的人"
+    ],
+    "not_for": [
+      "想先確認完整劇情、人物關係或世界觀再決定的人",
+      "會把片名中的人名或編號直接當成已證實角色設定的人",
+      "特別在意已驗證演出細節、鏡頭設計或敘事節奏的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部作品的公開賣點是什麼？",
+    "它更偏劇情片還是展示型企劃？",
+    "片名中的附加字樣能不能當成故事線索？",
+    "技術與配信標籤在選片時該放多重？",
+    "它比較適合哪一類觀眾？"
+  ]
+}

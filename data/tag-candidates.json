@@ -1834,7 +1834,7 @@
     },
     {
       "label": "寢取・被寢取",
-      "occurrences": 24,
+      "occurrences": 25,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -1859,7 +1859,8 @@
         "PAKO-110",
         "MIKR-130",
         "ADN-814",
-        "PWIFE-1185"
+        "PWIFE-1185",
+        "YMTK-148"
       ],
       "first_seen": "2026-09-14",
       "last_seen": "2026-11-02",

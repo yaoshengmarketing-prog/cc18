@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "YMTK-148",
+  "review_sha256": "eaa1d88b96c9db57024a8bf0bd17d36bb8d0912cba7ec9dd0122243ebf42bcaa",
+  "selected_thesis": "這是一部由「獨家」概念統領、以角色扮演與自拍形式直接包裝的展示型作品，選片關鍵在企劃純度，不在故事量。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "costume",
+        "value": "角色扮演",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "自拍形式",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "角色扮演",
+    "editorial_judgment": "把這部作品視為一個由「獨家」概念領頭、以角色扮演與自拍形式完成包裝的展示型選片：重點不在延伸故事，而在公開標籤已經清楚交代的企劃純度。",
+    "source_keywords": [
+      "獨家",
+      "角色扮演",
+      "自拍形式",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "片名與核心概念都直接出現「獨家」，可視為本作最優先的選片辨識點。",
+      "basis": "public_source",
+      "signal": "獨家"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開描述與服裝／題材元素都指向「角色扮演」，這是最明確的內容主題之一。",
+      "basis": "public_source",
+      "signal": "角色扮演"
+    },
+    {
+      "observation_refs": [],
+      "supports": "安全標籤與 presentation 元素都列出「自拍／自拍形式」，可合理判定形式感是作品賣點之一。",
+      "basis": "public_source",
+      "signal": "自拍形式"
+    },
+    {
+      "observation_refs": [],
+      "supports": "安全標籤與 action 元素皆列出「中出」，可作為題材標示，但不足以延伸為具體情節描述。",
+      "basis": "public_source",
+      "signal": "中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開元素含「720p」「高畫質」「獨家限定」「配信専用」，說明這部作品的定位偏向配信包裝與形式辨識。",
+      "basis": "public_source",
+      "signal": "配信形式"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未推定任何演員姓名、真實身分、年齡或私生活資訊。",
+    "未將「穗乃果」直接認定為演員名、角色名或系列名。",
+    "未宣稱存在特定人物關係、場景、地點、服裝細節或劇情轉折。",
+    "未描述任何未經觀察證實的鏡位、聲音、剪輯、表情、肢體語言或演技表現。",
+    "未把「中出」以外的具體行為流程寫成已發生情節。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}

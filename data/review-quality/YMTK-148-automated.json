@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "YMTK-148",
+  "checked_at": "2026-11-01T23:44:57.125Z",
+  "review_sha256": "e1117af67504f0e8a799ad90c5dc7d1cfac130929de93ee219eb03a79bdaf683",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就現有公開資料來看，這部作品最清楚的辨識點有三個：第一是片名與核心概念都指向「獨家」；第二是描述與標籤反覆出現的「角色扮演」；第三是以「自拍／自拍形式」呈現。再加上公開 action 標示中的「中出」，整體輪廓已經相當明確：它不是靠複雜背景設定吸引人，而是把題材、形式與配信屬性直"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 5,
+    "recommendations": 0
+  }
+}
