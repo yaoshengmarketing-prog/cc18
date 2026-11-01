@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "movie_id": "ORECS-725",
+  "generated_at": "2026-11-01T23:39:09.132Z",
+  "source_snapshot_hash": "sha256:eb5d2cc9089e11eda7e5218c2c9a874648b306d4817ce6fa4acdbf155e059e39",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "ORECS-725 的吸引力不在已知劇情，而在「獨家」包裝下，把素人、美少女設定與角色扮演集中成一個辨識度很高的配信企劃。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "素人企劃導向",
+      "角色扮演包裝明確",
+      "獨家配信屬性強",
+      "偏展示型選片"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先看企劃概念與屬性組合選片的人",
+      "偏好素人企劃與角色扮演包裝的人",
+      "對獨家配信、展示型題材有興趣的人"
+    ],
+    "not_for": [
+      "想先確認完整劇情再決定是否入手的人",
+      "重視已知演員、系列脈絡或角色關係鋪陳的人",
+      "期待公開資料就能提供大量場景細節的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片最明確的公開賣點是什麼？",
+    "為什麼判斷它偏向展示型企劃？",
+    "片名中的命名元素如何影響選片？",
+    "哪些觀眾會比較適合，哪些不適合？"
+  ]
+}

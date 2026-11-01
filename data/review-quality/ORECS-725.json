@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "ORECS-725",
+  "review_sha256": "1382496f2827ad8a9d11e761c8c7fc250e21eff42a4ebaaf11b9278e5daf3478",
+  "selected_thesis": "ORECS-725 的吸引力不在已知劇情，而在「獨家」包裝下，把素人、美少女設定與角色扮演集中成一個辨識度很高的配信企劃。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "theme",
+        "value": "角色扮演",
+        "source_field": "description"
+      },
+      {
+        "type": "identity",
+        "value": "美少女",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "素人企劃",
+    "editorial_judgment": "把本作視為以「獨家」包裝為核心的素人展示型企劃來評估，重點放在角色扮演與命名辨識度，而不是未被公開資料證明的劇情內容。",
+    "source_keywords": [
+      "獨家",
+      "素人企劃",
+      "角色扮演",
+      "美少女"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品的可見賣點主要來自企劃包裝與屬性標籤，而非已公開的完整劇情。",
+      "basis": "public_source",
+      "signal": "公開來源集中在「獨家」「素人企劃」「美少女設定」「角色扮演」等資訊，未提供可延伸的人物關係、場景脈絡或劇情摘要。"
+    },
+    {
+      "observation_refs": [],
+      "supports": "本作較適合被歸納為展示型企劃選片。",
+      "basis": "public_source",
+      "signal": "topic elements 同時列出「角色扮演」「中出」「720p／全高清(FHD)」「獨家限定」「配信専用」，呈現的是明確屬性組合與配信包裝。"
+    },
+    {
+      "observation_refs": [],
+      "supports": "片名文字本身提供了辨識度，但不足以證明具體情節。",
+      "basis": "public_source",
+      "signal": "來源摘錄包含「街中迷你裙觀察」「T醬和A醬」，可作為企劃命名線索，不能直接擴寫成已發生的街頭段落或固定人物關係。"
+    },
+    {
+      "observation_refs": [],
+      "supports": "選片判斷不能建立在演員或系列期待上。",
+      "basis": "public_source",
+      "signal": "公開資料中 actress 與 series 皆未提供可確認資訊。"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未把「街中迷你裙觀察」寫成已確認存在的街頭場景或觀察段落。",
+    "未把「T醬和A醬」擴寫為已確認的人物關係、雙主角設定或互動情節。",
+    "未聲稱已觀察到鏡位、剪輯、聲音、表情、演技或節奏表現。",
+    "未虛構演員姓名、年齡、真實身分或系列連結。",
+    "未把高畫質與配信資訊描述成已驗證的觀看品質保證。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}

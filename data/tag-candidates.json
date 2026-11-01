@@ -928,13 +928,14 @@
     },
     {
       "label": "偷窺",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "NSODN-025",
         "YJNS-001",
         "HRSM-159",
         "AGAV-182",
-        "PWIFE-1185"
+        "PWIFE-1185",
+        "ORECS-725"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-02",

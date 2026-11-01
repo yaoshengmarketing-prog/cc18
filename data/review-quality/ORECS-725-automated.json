@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "id": "ORECS-725",
+  "checked_at": "2026-11-01T23:39:09.218Z",
+  "review_sha256": "2283a577ba9ba75eade6f7567847d1c1e6b4e71909e9d6fe089b241b1c1628b1",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "從公開資料來看，ORECS-725 最清楚的核心不是已知劇情，而是「獨家」這個包裝概念。再往下看，安全可追溯的標籤又把它收束到「素人企劃」「美少女設定」「角色扮演」幾個方向，讓作品的選片邏輯非常直接：它不是靠已公開的人物背景或故事前提取勝，而是靠企劃屬性本身建立吸引力。對習慣先看"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "來源摘錄裡出現了「街中迷你裙觀察」與「T醬和A醬」這類名稱，說明本作並不是只靠通用標籤堆疊，而是試圖用更具辨識度的企劃命名來區隔同類型作品。對選片來說，這種命名的價值在於提升記憶點，也暗示作品有意把注意力放在角色包裝與企劃辨識上。不過，這些文字目前只能當作公開命名線索，還不能直接"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

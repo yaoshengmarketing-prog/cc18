@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "ORECS-725",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-01T23:40:09.358Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/ORECS-725/hero-v1.jpg",
+      "r2_key": "works/2026/10/ORECS-725/hero-v1.jpg",
+      "bytes": 715890,
+      "sha256": "da3e12839cc7d123e02a620a5014ecf38b481a22dfb2456a38334e18127d0377",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "fcd6185f503c40a9bfbbcd54b51bf8c0",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/ORECS-725/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/ORECS-725/scene-vertical-v1.jpg",
+      "bytes": 884287,
+      "sha256": "9dafbf4108fe70c30f5df18ac976d26db85fec92b21d29c5636116dda7418b13",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "986ddf91150c4c8a9c8e6c6b30add20b",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2661389,
+    "sha256": "930b2281a1902391ee49fdcde51ced887d5e56e5c720d6b35eeeed7f4573136e",
+    "target_r2_key": "works/2026/10/ORECS-725/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/ORECS-725/vertical-v1.mp4"
+  }
+}
