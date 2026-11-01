@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "JUNY-160",
+  "review_sha256": "36f638f82a6951405053e8ed3e040bff96def7c054d3156b6b1ef3aac85c7bc7",
+  "selected_thesis": "前游泳教練的一次限定出道，是 JUNY-160 最有力的選片理由；真正吸引人的不是目前無法確認的情節，而是設定本身建立出的反差與企劃辨識度。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "前游泳教練",
+        "source_field": "title"
+      },
+      {
+        "type": "act_or_position",
+        "value": "3p・4p",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "前游泳教練",
+    "presentation_feature": "3p・4p",
+    "editorial_judgment": "以「前游泳教練」與「一次限定的AV出道」形成的身分反差為主軸，判斷這部作品的吸引力主要來自企劃設定與標籤可讀性，而不是目前可被公開資料證明的劇情厚度。",
+    "source_keywords": [
+      "前游泳教練",
+      "3p・4p",
+      "巨乳"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開來源可追溯的核心概念是「前游泳教練」，另有「進行一次限定的AV出道」這一企劃設定，足以構成本作最明確的選片理由。",
+      "basis": "public_source",
+      "signal": "前游泳教練"
+    },
+    {
+      "observation_refs": [],
+      "supports": "在可用標籤中，最具實際口味辨識度的是「3p・4p」，比單純畫質或配信資訊更適合作為主題線索。",
+      "basis": "public_source",
+      "signal": "3p・4p"
+    },
+    {
+      "observation_refs": [],
+      "supports": "「巨乳」屬於補充性的身體標籤，能幫助縮小受眾，但不足以取代作品的核心企劃概念。",
+      "basis": "public_source",
+      "signal": "巨乳"
+    },
+    {
+      "observation_refs": [],
+      "supports": "現有資料未提供演員姓名、系列資訊、明確人物關係與場景簡介，因此較合理的編輯判斷是把它視為設定先行的展示型企劃，而非已知高劇情密度作品。",
+      "basis": "public_source",
+      "signal": "展示型企劃"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "主演姓名、經歷與真實身分",
+    "具體劇情發展與角色關係",
+    "是否出現泳池、教學或特定職場場景",
+    "實際互動節奏、主導權變化與情感轉折",
+    "鏡位、剪輯、聲音、表情、演技與身體語言表現"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}

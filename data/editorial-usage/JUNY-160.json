@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "JUNY-160",
+  "calls": [
+    {
+      "generated_at": "2026-11-01T15:37:49.374Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4164,
+      "cached_input_tokens": 0,
+      "output_tokens": 4240,
+      "total_tokens": 8404,
+      "estimated_cost_usd": 0.11622,
+      "estimated_payg_cash_cost_usd": 0.122031,
+      "direct_openai_reference_usd": 0.07401,
+      "gateway_premium_usd": 0.04221,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4164,
+    "cached_input_tokens": 0,
+    "output_tokens": 4240,
+    "estimated_cost_usd": 0.11622,
+    "estimated_payg_cash_cost_usd": 0.122031,
+    "direct_openai_reference_usd": 0.07401,
+    "gateway_premium_usd": 0.04221
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "JUNY-160",
+  "checked_at": "2026-11-01T15:37:49.708Z",
+  "review_sha256": "008a488cf7ea6937442fd6bb38505babc08213bf4d67f3eb1e9d93cada1239cc",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "目前最能支撐選片判斷的，不是演員資訊，也不是系列名，而是公開來源直接給出的企劃概念：主軸是「前游泳教練」，並且帶有「進行一次限定的AV出道」這種明確設定。這種寫法本身就建立了作品辨識度，因為它把吸引力放在身分轉換與限定企劃的反差感上。對喜歡先看概念、再決定是否入場的觀眾來說，這是"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}
