@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "DRPT-124",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-01T15:33:36.320Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/DRPT-124/hero-v1.jpg",
+      "r2_key": "works/2026/10/DRPT-124/hero-v1.jpg",
+      "bytes": 663676,
+      "sha256": "4e9f72077bbe5db47db309b4631815db815587d8350d81e8b3c37282f728f029",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "c885f978b4614d7bab05405fadeaa8ff",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/DRPT-124/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/DRPT-124/scene-vertical-v1.jpg",
+      "bytes": 914820,
+      "sha256": "80d8123f19aa8325f1882faca1c53c4207d51ba0b36a71e45e3efe3e70c28131",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "d56efcf87f9042ba848e6aafae40ceac",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2704542,
+    "sha256": "8a2771e79d581d178043fffd6f72cd83bb0e65ad8b7b7eb29ee74f57ca59a00a",
+    "target_r2_key": "works/2026/10/DRPT-124/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/DRPT-124/vertical-v1.mp4"
+  }
+}

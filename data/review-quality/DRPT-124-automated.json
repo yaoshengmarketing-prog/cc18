@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "DRPT-124",
+  "checked_at": "2026-11-01T15:32:40.707Z",
+  "review_sha256": "c0db9694c010242524d35066f47d9f1ec58bb372fca8256b0ea04bd63fc1fc61",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "較合理的判斷是展示型企劃。原因不是能否定它有內容，而是現有公開介紹沒有提供明確的關係設定、場景背景或情節衝突；相對地，能被直接辨識的詞反而是演員姓名、巨乳、AV女優片，以及描述中的「潮吹」。這種資訊配置通常讓選片重點落在題材標籤與演員魅力，而不是故事推進。"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 3
+  }
+}

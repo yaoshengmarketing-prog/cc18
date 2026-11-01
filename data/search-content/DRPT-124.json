@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "movie_id": "DRPT-124",
+  "generated_at": "2026-11-01T15:32:40.557Z",
+  "source_snapshot_hash": "sha256:01c9951f2637f902f58fe0852124d53953ba213a10447233c6b7f2e306a64a12",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "DRPT-124 的公開賣點不是完整故事設定，而是以糸井瑠花為中心，搭配「羞恥」與「潮吹」構成主題辨識的展示型企劃。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "若你是因演員名單入坑，這片的吸引力主要來自糸井瑠花本人。",
+      "若你在意題材辨識度，公開資訊裡最有用的線索是「羞恥」「潮吹」「巨乳」這幾個字。",
+      "720p／HD屬規格資訊，可作參考，但不是這片最值得優先判斷的理由。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "以糸井瑠花為主要選片動機的觀眾",
+      "對羞恥感與潮吹主題有興趣的人",
+      "偏好演員展示型企劃的人"
+    ],
+    "not_for": [
+      "想先確認完整劇情線再決定的人",
+      "偏好明確人物關係或場景設定的人",
+      "把畫質規格當成唯一選片理由的人"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "CEMD-889",
+      "relation_type": "same_performer",
+      "reason": "同樣由糸井瑠花出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "糸井瑠花"
+      ],
+      "contrast_signals": [
+        "44",
+        "恥辱、凌辱、戴上跳蛋・繁華街約會！"
+      ]
+    },
+    {
+      "movie_id": "UMD-1019",
+      "relation_type": "same_performer",
+      "reason": "同樣由糸井瑠花出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "糸井瑠花"
+      ],
+      "contrast_signals": [
+        "由衣陽菜",
+        "素股play發生意外"
+      ]
+    },
+    {
+      "movie_id": "NOSKN-104",
+      "relation_type": "same_performer",
+      "reason": "同樣由糸井瑠花出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "糸井瑠花"
+      ],
+      "contrast_signals": [
+        "美少女設定",
+        "角色扮演"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這片的選片核心是什麼？",
+    "它比較像劇情片，還是展示型企劃？",
+    "「羞恥」與「潮吹」兩個主題，對選片有什麼意義？",
+    "適合誰先收進片單，誰可以先觀望？"
+  ]
+}

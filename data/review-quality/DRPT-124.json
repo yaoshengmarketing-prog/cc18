@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "DRPT-124",
+  "review_sha256": "42f3619f86bf73765098884f57c5f4e10ca96ecc523140812aec4e7109bbb498",
+  "selected_thesis": "DRPT-124 的公開賣點不是完整故事設定，而是以糸井瑠花為中心，搭配「羞恥」與「潮吹」構成主題辨識的展示型企劃。",
+  "title_basis": {
+    "performer": "糸井瑠花",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "糸井瑠花",
+        "source_field": "actress"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "theme",
+        "value": "潮吹",
+        "source_field": "description"
+      }
+    ],
+    "primary_theme": "糸井瑠花",
+    "presentation_feature": "巨乳",
+    "editorial_judgment": "以公開資訊判斷，DRPT-124 的賣點更接近演員中心的展示型企劃：糸井瑠花是最明確的核心，而「羞恥」與「潮吹」則補上主題辨識，並未出現足以支撐劇情導向解讀的設定資訊。",
+    "source_keywords": [
+      "糸井瑠花",
+      "巨乳",
+      "AV女優片",
+      "潮吹"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品辨識首先建立在糸井瑠花本人，而不是系列名或故事前提。",
+      "basis": "public_source",
+      "signal": "糸井瑠花"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤將「AV女優片」與「巨乳」放在前景，支持本文把它視為類型與演員展示導向的作品。",
+      "basis": "public_source",
+      "signal": "AV女優片／巨乳"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源已出現「羞恥」與「潮吹」兩個主題詞，足以作為選片時的企劃辨識點。",
+      "basis": "public_source",
+      "signal": "羞恥／潮吹"
+    },
+    {
+      "observation_refs": [],
+      "supports": "目前未見系列、人物關係、場景或具體情節摘要，因此不宜把故事密度與敘事走向寫成既定事實。",
+      "basis": "public_source",
+      "signal": "無系列／無關係／無場景設定"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未宣稱存在特定劇情線、角色關係或場景配置",
+    "未描述任何已觀看到的鏡位、表情、節奏或演出狀態",
+    "未把「羞恥」「潮吹」寫成已驗證的具體橋段",
+    "未推定系列公式、角色成長弧線或主導權變化"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}
