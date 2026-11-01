@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:d9daf66c9d1ecc75959a4aa8989cf73d423ca5225cb83b18a553735b2c80e0fe",
-  "source_generated_at": "2026-11-01T15:44:57.467Z",
+  "source_revision": "sha256:d5c1d5aab74873772b6b3d0e5867ba3725b788fa051c8ad58074cb230c8b0615",
+  "source_generated_at": "2026-11-01T15:51:09.969Z",
   "counts": {
-    "movies": 305,
-    "performers": 283,
+    "movies": 306,
+    "performers": 284,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2828,6 +2828,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:28113",
+      "display_name": "鈴之家鈴",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "鈴之家鈴",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:WAAA-699"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:926",
       "display_name": "夢乃愛華",
       "display_name_zh_tw": null,
@@ -3649,6 +3660,63 @@
         "article_title": "MIKR-130 佐佐木明希 × 人妻・主婦｜佐佐木明希｜人妻主婦設定下的戲劇型展示企劃",
         "display_short_title": null,
         "slug": "mikr-130"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:WAAA-699",
+        "source_cover": "https://cc18.tv/preview/80/b/inuJQDVAc1S-800.jpg?v=1793363815",
+        "title": "WAAA-699 鈴之家鈴｜以「將年紀小到像女兒一樣」為核心的反差企劃",
+        "catalog_code": "WAAA-699",
+        "release_date": "2026-10-30",
+        "performers": [
+          "鈴之家鈴"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "gyaru",
+            "label": "辣妹"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "student",
+            "label": "學生妹"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/waaa-699/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28113"
+      ],
+      "search": {
+        "source_title": "將年紀小到像女兒一樣、超級傲慢的打工辣妹用強力媚藥浸泡調教，使其變成順從的中出肉穴 鈴之家鈴",
+        "article_title": "WAAA-699 鈴之家鈴｜以「將年紀小到像女兒一樣」為核心的反差企劃",
+        "display_short_title": null,
+        "slug": "waaa-699"
       }
     },
     {

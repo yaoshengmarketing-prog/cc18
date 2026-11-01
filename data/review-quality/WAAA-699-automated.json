@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "WAAA-699",
+  "checked_at": "2026-11-01T15:49:30.148Z",
+  "review_sha256": "00d40d7192ed7e968eb46c399ee6ff8fe031699e743dd77d2669ce6fe2ab04f1",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "先看公開資料，本作最明確的辨識點不是系列世界觀，也不是已公開的完整故事摘要，而是標題直接提出的「將年紀小到像女兒一樣」這個企劃概念。這代表它的吸引力首先建立在設定本身的刺激性與辨識度，而非觀眾已能事先掌握的角色弧線。若你的選片習慣是先找一句話就能成立的鮮明主題，這部作品的方向相當"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "以目前能追溯的資料來說，最穩妥的結論是：WAAA-699 的價值主要落在清楚、直接、帶有爭議性的企劃核心，以及鈴之家鈴所承接的反差型包裝。它不是不能有故事，而是公開資訊還不足以把故事說成主體。因此，若以選片角度來看，這是一部『概念先行、展示型強於敘事型』的作品。"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

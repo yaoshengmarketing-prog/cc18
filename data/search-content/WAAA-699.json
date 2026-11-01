@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "movie_id": "WAAA-699",
+  "generated_at": "2026-11-01T15:49:29.992Z",
+  "source_snapshot_hash": "sha256:942aaec9c259a4a307e19afa7e342da86413b9da6ac0fa513f94176497a4f1a1",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "如果是為了明確企劃鈎子與外型反差而選片，WAAA-699 的方向很清楚；但若期待完整敘事、角色關係鋪陳或可驗證的情緒起伏，公開資訊目前不足以支撐那種期待。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "設定先行",
+      "反差包裝明確",
+      "表演者辨識度清楚",
+      "展示型企劃感較強"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會優先看企劃概念是否鮮明的人",
+      "對鈴之家鈴有固定關注的人",
+      "偏好反差型包裝與單點賣點明確作品的人"
+    ],
+    "not_for": [
+      "期待高劇情密度的人",
+      "希望從公開資料就確認完整人物關係的人",
+      "不接受年齡想像型設定包裝的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這片最核心的公開賣點是什麼？",
+    "它為何會被判斷成反差型企劃？",
+    "公開資料能支持多少劇情判斷？",
+    "它比較適合哪一類觀眾？"
+  ]
+}

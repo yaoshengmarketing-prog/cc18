@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "WAAA-699",
+  "review_sha256": "4fe4f7ecedbccfa9eb4afd11ba3e3f41a6ae96a09b1a177700b45df6cb603c90",
+  "selected_thesis": "這是一部以單點企劃辨識度取勝的反差型作品；公開資訊能證明其包裝方向很明確，但不足以把它寫成高敘事密度作品。",
+  "title_basis": {
+    "performer": "鈴之家鈴",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "鈴之家鈴",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "將年紀小到像女兒一樣",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "辣妹風格",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "鈴之家鈴",
+    "presentation_feature": "將年紀小到像女兒一樣",
+    "editorial_judgment": "以公開資料可確認的企劃核心來看，這部作品的辨識度主要來自「將年紀小到像女兒一樣」這個強烈設定，並再疊加辣妹風格與美少女／學生系包裝，形成明確的反差型選片理由；相對地，能被公開資訊證明的劇情與互動細節有限，因此更適合被理解為設定先行的展示型企劃。",
+    "source_keywords": [
+      "鈴之家鈴",
+      "將年紀小到像女兒一樣",
+      "辣妹風格"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "本作最清楚的區別點是以「將年紀小到像女兒一樣」作為企劃核心，而不是已可驗證的複雜情節。",
+      "basis": "public_source",
+      "signal": "core_source_concept"
+    },
+    {
+      "observation_refs": [],
+      "supports": "目前唯一可確定的演出者是鈴之家鈴，因此選片說明應以她的表演者辨識度為基礎，而非延伸未證實的人物關係。",
+      "basis": "public_source",
+      "signal": "performer"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤同時出現美少女設定、學生設定與辣妹風格，合理支持「反差魅力」是本作的主要包裝方向。",
+      "basis": "public_source",
+      "signal": "contrast packaging"
+    },
+    {
+      "observation_refs": [],
+      "supports": "topic elements 提到巨乳與中出等成人標籤，但這些只能證明企劃賣點，不能外推出具體場景流程或戲劇結構。",
+      "basis": "public_source",
+      "signal": "adult topic scope"
+    },
+    {
+      "observation_refs": [],
+      "supports": "沒有系列資訊，也沒有可供驗證的公開劇情摘要，因此不宜把作品寫成高劇情密度或關係轉折型作品。",
+      "basis": "public_source",
+      "signal": "story limitation"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未宣稱存在可驗證的家庭倫理劇情或明確親屬關係設定。",
+    "未描述任何未公開的場景、鏡位、表情、聲音、剪接或演技細節。",
+    "未推定作品具有角色覺醒、主導權轉移或關係反轉等完整敘事。",
+    "未把學生設定延伸為具體校園情節。",
+    "未把中出標籤延伸為可驗證的流程描寫。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}
