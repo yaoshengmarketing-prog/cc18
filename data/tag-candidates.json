@@ -928,15 +928,16 @@
     },
     {
       "label": "偷窺",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "NSODN-025",
         "YJNS-001",
         "HRSM-159",
-        "AGAV-182"
+        "AGAV-182",
+        "PWIFE-1185"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {
@@ -1832,7 +1833,7 @@
     },
     {
       "label": "寢取・被寢取",
-      "occurrences": 23,
+      "occurrences": 24,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -1856,7 +1857,8 @@
         "MXGS-1446",
         "PAKO-110",
         "MIKR-130",
-        "ADN-814"
+        "ADN-814",
+        "PWIFE-1185"
       ],
       "first_seen": "2026-09-14",
       "last_seen": "2026-11-02",

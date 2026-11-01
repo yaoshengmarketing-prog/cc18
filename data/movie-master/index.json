@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-01T20:25:59.268Z",
+  "generated_at": "2026-11-01T20:31:51.299Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 320,
-  "formal_movie_count": 319,
+  "tracked_input_count": 321,
+  "formal_movie_count": 320,
   "demo_count": 1,
-  "published_count": 316,
+  "published_count": 317,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2114,6 +2114,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "3f16fd463dc420cce5f126e2682e4d1e7f13ac630f0991dd58dcaaf500504547"
+    },
+    {
+      "stable_movie_id": "cc18:PWIFE-1185",
+      "catalog_code": "PWIFE-1185",
+      "slug": "pwife-1185",
+      "master_path": "data/movie-master/pwife-1185.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "e9aadfc613316edba7dec92364b4bb6702776494925f07eec26659031e2a24bc"
     },
     {
       "stable_movie_id": "cc18:PYM-577",

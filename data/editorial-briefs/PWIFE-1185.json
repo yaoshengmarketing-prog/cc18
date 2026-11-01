@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "id": "PWIFE-1185",
+  "generated_at": "2026-11-01T20:29:52.018Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "gpt-5.4",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/PWIFE-1185.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "獨家",
+    "premise": "作品以「獨家」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「獨家」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "獨家",
+      "永山遙",
+      "人妻"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "人妻"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "獨家限定",
+      "配信専用"
+    ]
+  },
+  "editorial_angle": "以公開來源已能確認的「獨家」「人妻設定」與「配信專用」為主軸，將本作定位為偏展示型的選片，而不是倚賴已知劇情資訊的作品。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "永山遥",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "獨家",
+      "source_field": "title"
+    },
+    {
+      "type": "character",
+      "value": "人妻設定",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "本作最可追溯的核心辨識點是「獨家」，可作為標題與選片論點的主軸。",
+      "basis": "public_source",
+      "signal": "獨家"
+    },
+    {
+      "observation_refs": [],
+      "supports": "演出者永山遥是公開來源明確提供的主要入口，適合放在選片判斷前段。",
+      "basis": "public_source",
+      "signal": "永山遥"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤與簡介線索都把「人妻」放在前景，因此主要成人題材應以人妻設定理解。",
+      "basis": "public_source",
+      "signal": "人妻設定／人妻"
+    },
+    {
+      "observation_refs": [],
+      "supports": "topic_elements 與 safe signals 同時指向獨家限定、配信專用與高畫質，顯示本作有明顯的配信展示屬性。",
+      "basis": "public_source",
+      "signal": "獨家配信／720p／配信専用"
+    },
+    {
+      "observation_refs": [],
+      "supports": "「中出」屬於已公開的動作標籤，可作為題材補充，但不足以單獨推論更完整的情節。",
+      "basis": "public_source",
+      "signal": "中出"
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "未提供可驗證的劇情前提、人物關係與場景設定，因此本文不延伸撰寫故事內容。",
+    "「企劃設定」「角色變化」「互動節奏」僅作為文章組織方向，不當成已被證明的作品事實。",
+    "本文將「人妻設定」視為公開類型訊號，而非具體婚姻情節的證據。"
+  ],
+  "decision_guide": {
+    "thesis": "這是一部由公開標籤就能明確辨識方向的獨家配信作品：重點在永山遥、人妻題材與展示型企劃感，而不是已知的高密度敘事。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "以「獨家」與「配信專用」理解本作的主要市場定位。",
+      "以永山遥與人妻設定作為第一層選片依據。",
+      "將「中出」視為補充題材標籤，而非劇情保證。"
+    ],
+    "audience_for": [
+      "以永山遥為優先選片條件的觀眾",
+      "偏好人妻類型與中出標籤的觀眾",
+      "會把獨家配信與高畫質視為加分點的觀眾"
+    ],
+    "audience_not_for": [
+      "需要完整故事前提、明確人物關係後才會決定入手的觀眾",
+      "希望從公開資訊就確認具體場景推進或角色轉折的觀眾"
+    ],
+    "questions_answered": [
+      "這部片最值得注意的公開賣點是什麼？",
+      "如果重視劇情設定，這部片目前能期待到哪一步？",
+      "它更適合哪一類型的觀眾？"
+    ]
+  },
+  "title": "PWIFE-1185 永山遥｜獨家人妻設定：以配信企劃感取勝",
+  "seo_title": "PWIFE-1185 永山遥影評｜人妻設定，獨家配信下的展示型選片",
+  "sections": [
+    {
+      "heading": "這部片最明確的選片賣點是什麼？",
+      "body": "若只看目前可追溯的公開資訊，這部作品的辨識度其實很集中：演出者是永山遥，核心概念是「獨家」，而成人題材則清楚落在「人妻設定」。再加上公開標籤同時出現「獨家限定」「配信専用」與 720p，整體更像是一部把類型與平台呈現方式直接推到前景的作品。換句話說，它的吸引力首先不是來自已知劇情，而是來自演出者、人妻題材與獨家配信形式的組合。"
+    },
+    {
+      "heading": "如果你在意劇情感，這部片目前能期待到哪一步？",
+      "body": "目前公開來源沒有提供可驗證的故事前提、人物關係、具體場景或衝突設計，因此最穩妥的理解方式，是把它視為一部以「人妻」這個身份標籤成立選片理由的作品，而不是已知有完整敘事鋪陳的片子。公開資料裡雖然可見「企劃設定」這類整理方向，但那只能幫助我們判斷它偏向哪種企劃閱讀方式，不能當成已被證明的劇情內容。所以如果你的選片重點是明確設定感，這部有足夠線索；但如果你期待的是複雜情節，目前資訊還不支撐那樣的預期。"
+    },
+    {
+      "heading": "它更適合哪一類觀眾？",
+      "body": "最適合的觀眾，會是本來就以永山遥為主要觀看入口，或明確偏好人妻類型的人。公開標籤另外還有「中出」，因此對題材取向很清楚、習慣靠類型標籤快速選片的人，會比較容易判斷這部是否對味。相對地，若你需要先知道角色關係、具體故事動機，或想確認作品是否走強劇情路線，這部目前公開資訊能提供的答案有限。簡單說，它更像是以題材辨識度與獨家配信屬性吸引觀眾，而非靠已知劇情細節成交。"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何未公開的劇情前提或婚姻事件",
+    "未推定具體人物關係、場景地點或時間線",
+    "未聲稱已觀察到鏡位、剪輯、聲音、演技、表情或身體語言",
+    "未推定永山遥的真實私生活、年齡或非公開身份背景"
+  ],
+  "editorial_tag_ids": [
+    "showcase-format"
+  ],
+  "social_title": "PWIFE-1185 永山遥：獨家人妻設定，偏企劃展示",
+  "short_review": "公開資訊把重點集中在永山遥、人妻設定與獨家配信，本作的選片價值更偏向類型清楚、形式明確的展示型企劃；若你找的是已知劇情密度，現階段線索則偏少。",
+  "selected_thesis": "把本作寫成以「獨家」與「人妻設定」為核心的配信展示型選片。",
+  "angle_candidates": [
+    "把本作定位為以「獨家」與「配信專用」成立賣點的展示型企劃",
+    "聚焦永山遥與人妻設定的組合，討論其類型辨識度",
+    "從公開資訊的有限性切入，提醒讀者不要對未證實劇情做過度期待"
+  ]
+}

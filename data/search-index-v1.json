@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:47b1b506a2ce920203f36b0799a900d80272e32f3d5660d62d046af64a395d71",
-  "source_generated_at": "2026-11-01T20:25:59.268Z",
+  "source_revision": "sha256:0a0935a487811c5d9d7953e60a8c71ca56ebc6845d6af62c10124767ebd62048",
+  "source_generated_at": "2026-11-01T20:31:51.299Z",
   "counts": {
-    "movies": 316,
-    "performers": 287,
+    "movies": 317,
+    "performers": 288,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -781,6 +781,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:FCDSS-117"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:47518",
+      "display_name": "永山遥",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "永山遥",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PWIFE-1185"
       ]
     },
     {
@@ -4612,6 +4623,55 @@
         "article_title": "START-657 新川空｜亂交企劃下的展示型選片",
         "display_short_title": null,
         "slug": "start-657"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:PWIFE-1185",
+        "source_cover": "https://cc18.tv/preview/80/b/tBobpsmqjem-800.jpg?v=1793478936",
+        "title": "PWIFE-1185 永山遥｜獨家人妻設定：以配信企劃感取勝",
+        "catalog_code": "PWIFE-1185",
+        "release_date": "2026-10-26",
+        "performers": [
+          "永山遥"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "streaming-only",
+            "label": "配信限定"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/pwife-1185/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:47518"
+      ],
+      "search": {
+        "source_title": "獨家 遙 永山遙",
+        "article_title": "PWIFE-1185 永山遥｜獨家人妻設定：以配信企劃感取勝",
+        "display_short_title": null,
+        "slug": "pwife-1185"
       }
     },
     {

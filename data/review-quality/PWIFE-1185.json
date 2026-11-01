@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "PWIFE-1185",
+  "review_sha256": "88e273e1baf9fb3ec78baee51e8f04c0e0fac91e71c11f8c1dc4fa2a6021743a",
+  "selected_thesis": "把本作寫成以「獨家」與「人妻設定」為核心的配信展示型選片。",
+  "title_basis": {
+    "performer": "永山遥",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "永山遥",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "character",
+        "value": "人妻設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "永山遥",
+    "presentation_feature": "獨家",
+    "editorial_judgment": "以公開來源已能確認的「獨家」「人妻設定」與「配信專用」為主軸，將本作定位為偏展示型的選片，而不是倚賴已知劇情資訊的作品。",
+    "source_keywords": [
+      "永山遥",
+      "獨家",
+      "人妻設定",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "本作最可追溯的核心辨識點是「獨家」，可作為標題與選片論點的主軸。",
+      "basis": "public_source",
+      "signal": "獨家"
+    },
+    {
+      "observation_refs": [],
+      "supports": "演出者永山遥是公開來源明確提供的主要入口，適合放在選片判斷前段。",
+      "basis": "public_source",
+      "signal": "永山遥"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤與簡介線索都把「人妻」放在前景，因此主要成人題材應以人妻設定理解。",
+      "basis": "public_source",
+      "signal": "人妻設定／人妻"
+    },
+    {
+      "observation_refs": [],
+      "supports": "topic_elements 與 safe signals 同時指向獨家限定、配信專用與高畫質，顯示本作有明顯的配信展示屬性。",
+      "basis": "public_source",
+      "signal": "獨家配信／720p／配信専用"
+    },
+    {
+      "observation_refs": [],
+      "supports": "「中出」屬於已公開的動作標籤，可作為題材補充，但不足以單獨推論更完整的情節。",
+      "basis": "public_source",
+      "signal": "中出"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何未公開的劇情前提或婚姻事件",
+    "未推定具體人物關係、場景地點或時間線",
+    "未聲稱已觀察到鏡位、剪輯、聲音、演技、表情或身體語言",
+    "未推定永山遥的真實私生活、年齡或非公開身份背景"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}
