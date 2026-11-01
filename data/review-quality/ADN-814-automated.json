@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "ADN-814",
+  "checked_at": "2026-11-01T19:59:52.809Z",
+  "review_sha256": "d6b133a49d7f733727b4badb9ca76bb05f8c5f7e3721fb1cc8655a43ffa91639",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就公開資訊來看，ADN-814 最清楚的辨識點不是具體情節，而是系列名稱《不倫調査員の人妻が寝取られてしまうまで。》與核心概念「最終也被寢取淪陷」。這種命名方式等於先把作品的企劃方向交代清楚：它主打的不是未知感，而是一個已經預告終點的人妻寢取設定。對會被明確題材勾住的觀眾來說，這"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 1
+  }
+}

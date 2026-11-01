@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "movie_id": "ADN-814",
+  "generated_at": "2026-11-01T19:59:52.666Z",
+  "source_snapshot_hash": "sha256:02947eee1e1bece2439bdbdcdbc6caa4aa6e0e240aff61c5f76934c3941dc504",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "這是一部由系列名稱先行定義觀看期待的人妻寢取企劃，核心吸引力在於『最終也被寢取淪陷』的明確終點與白峰美羽的搭配。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以系列名稱與核心概念判斷作品賣點",
+      "以演員名與身份標籤建立選片入口",
+      "不補寫未公開的場景、互動或情節結果"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先看演員與題材標籤選片的觀眾",
+      "對人妻／主婦與寢取淪陷概念有明確偏好的觀眾",
+      "接受系列公式感、重視設定入口的觀眾"
+    ],
+    "not_for": [
+      "需要已驗證場景細節、角色互動或節奏資訊的觀眾",
+      "偏好完整公開劇情簡介後再決定的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "DSOD-072",
+      "relation_type": "same_performer",
+      "reason": "同樣由白峰美羽出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "白峰美羽"
+      ],
+      "contrast_signals": [
+        "極其幸福的破滅衝動",
+        "AV女優片"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部片最明確的賣點是什麼？",
+    "它更像劇情片還是企劃型作品？",
+    "白峰美羽與公開標籤如何影響選片？",
+    "適合哪些觀眾先加入清單？"
+  ]
+}

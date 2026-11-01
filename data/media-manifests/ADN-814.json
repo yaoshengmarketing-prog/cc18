@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "ADN-814",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-01T20:00:52.042Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/ADN-814/hero-v1.jpg",
+      "r2_key": "works/2026/10/ADN-814/hero-v1.jpg",
+      "bytes": 658476,
+      "sha256": "ec8f931a2e5caea5efe9796255a13bcd294f7bebdd5c22063f541f9d790da9ac",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "af2d505192cd49a180e1a6fc3d838609",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/ADN-814/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/ADN-814/scene-vertical-v1.jpg",
+      "bytes": 748559,
+      "sha256": "da59d625fba1776b902f2b252fcd17e0ed9aaec5b1071ba4a87a91593c2a2ca8",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "1f1fda33963842b4be5ba4d29f7120b6",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2067198,
+    "sha256": "acbecc205fbe91b14cacd06b8e99e6e9a67e5816bd9039548d7df12f909ff7ac",
+    "target_r2_key": "works/2026/10/ADN-814/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/ADN-814/vertical-v1.mp4"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "ADN-814",
+  "review_sha256": "ff5fbd7c96435f7b2b3c3cdc17d0ad507c31922f0580ddf0cb37f4be73a84e93",
+  "selected_thesis": "這是一部以『最終也被寢取淪陷』為核心賣點的人妻題材作品，選片重點在系列公式與題材明確度，而非未公開的細節劇情。",
+  "title_basis": {
+    "performer": "白峰美羽",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "白峰美羽",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "最終也被寢取淪陷",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "人妻・主婦",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "不倫調査員の人妻が寝取られてしまうまで。",
+        "source_field": "series"
+      }
+    ],
+    "primary_theme": "白峰美羽",
+    "presentation_feature": "最終也被寢取淪陷",
+    "editorial_judgment": "從系列名稱與核心概念切入，將本作視為一部以人妻身份與「最終也被寢取淪陷」為主要吸引力的企劃型選片；評價重點放在題材辨識度與系列公式，而不延伸未公開的情節細節。",
+    "source_keywords": [
+      "白峰美羽",
+      "最終也被寢取淪陷",
+      "人妻・主婦",
+      "不倫調査員の人妻が寝取られてしまうまで。"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "系列名稱與核心概念都把焦點放在『直到被寢取』的方向，選片時可優先視為企劃先行的作品。",
+      "basis": "public_source",
+      "signal": "不倫調査員の人妻が寝取られてしまうまで。／最終也被寢取淪陷"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤已提供『人妻・主婦』與『巨乳』兩個明確入口，因此本作的題材辨識度高於人物關係細節。",
+      "basis": "public_source",
+      "signal": "人妻・主婦／巨乳"
+    },
+    {
+      "observation_refs": [],
+      "supports": "演出者已知為白峰美羽，使本作除了題材外，也具備明確的演員選片依據。",
+      "basis": "public_source",
+      "signal": "白峰美羽"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資訊未提供具體人物關係、場景與完整簡介，因此不宜把『不倫調查』延伸成已確認的案件式劇情。",
+      "basis": "public_source",
+      "signal": "未提供可驗證的情節細節"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未補寫任何具體不倫調查案件內容",
+    "未聲稱已確認人物關係、場景或互動過程",
+    "未評價鏡位、剪輯、聲音、節奏或演技表現",
+    "未推定未公開的結局細節與角色背景"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}
