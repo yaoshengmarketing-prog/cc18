@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MIAB-682",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-01T20:13:47.858Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/MIAB-682/hero-v1.jpg",
+      "r2_key": "works/2026/10/MIAB-682/hero-v1.jpg",
+      "bytes": 605189,
+      "sha256": "7c5f8d645c8de22747ead5689b849acbee4a433079b3d832f47106512ba40936",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "55925ab3b213440ea48f8061679e6390",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/MIAB-682/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/MIAB-682/scene-vertical-v1.jpg",
+      "bytes": 1066613,
+      "sha256": "65dfd50a6b992dd2de7475cb7473805bc83b7656f241b99b2a395faf652d4cdb",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "8e46a343a9e844648180b17c05cb73e6",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3232993,
+    "sha256": "cc08db09eff1a3f54d4da42cc3b2f6104a0b1e15ca7cf52ebec112629fe494bc",
+    "target_r2_key": "works/2026/10/MIAB-682/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/MIAB-682/vertical-v1.mp4"
+  }
+}

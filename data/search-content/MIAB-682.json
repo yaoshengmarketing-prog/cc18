@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "movie_id": "MIAB-682",
+  "generated_at": "2026-11-01T20:13:03.436Z",
+  "source_snapshot_hash": "sha256:03e7f630b9da9d4205808d4f8eee1eb1db74e9e881db9baee9a5476712afe386",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "MIAB-682 最值得注意的不是把動作標籤堆高，而是有岡美羽在《捜査官を辞めて妻になったのに…》這個系列框架下，被「人妻・主婦」身分放大的反差企劃感。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以有岡美羽為核心辨識度切入。",
+      "用「人妻・主婦」作為唯一主軸題材，其餘標籤只作補充。",
+      "強調系列名帶出的身分反差與企劃感，不虛構劇情細節。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "以有岡美羽為主要選片理由的觀眾",
+      "偏好人妻題材與角色設定包裝的人",
+      "對系列企劃反差感有興趣的觀眾"
+    ],
+    "not_for": [
+      "想先確認具體劇情密度的人",
+      "重視鏡位、剪輯、聲音或演技解析的人",
+      "只想看已被驗證內容完成度的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MKMP-758",
+      "relation_type": "same_performer",
+      "reason": "同樣由有岡美羽出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "有岡美羽"
+      ],
+      "contrast_signals": [
+        "篠田優",
+        "濱崎真緒"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這片最先該看哪個賣點？",
+    "公開題材能支持哪些期待？",
+    "系列名稱對選片有什麼實際影響？",
+    "它比較適合哪類觀眾先收進名單？"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "MIAB-682",
+  "checked_at": "2026-11-01T20:13:03.599Z",
+  "review_sha256": "75d81008f36be2e418dbf9b4c82837463e3b24bd6eb4d781b604ad4d83d324f0",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "從目前公開資訊來看，最先該看的不是動作標籤，而是有岡美羽與《捜査官を辞めて妻になったのに…》這個系列名稱的組合。演員名稱提供了最直接的辨識度，系列名則把作品放進一個很明確的企劃框架：從「捜査官」到「妻」，身分落差本身就是記憶點。也因此，這部片的選片邏輯更接近「演員魅力＋設定反差」"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 1
+  }
+}
