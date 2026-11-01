@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "id": "IDPC-004",
+  "checked_at": "2026-11-01T15:27:10.422Z",
+  "review_sha256": "e179885063beae7c85dbcc0db24385083e68885b5481ce34adf1175730c574d2",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只從公開資訊判斷，這部作品最直接的賣點就是林芽依本身。片名核心與來源概念都集中在她身上，代表這不是要靠複雜前提才能成立的選片，而是很典型的「先認演員，再看企劃包裝」類型。再往外看，作品被放進「犯●れながら何度もイカされる屈辱レ×プ」這個系列之下，表示它有一個已經相當清楚的系列"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "適合先收的觀眾，會是本來就跟林芽依、學生設定、美少女系包裝有連結的人；只要你選片時本來就習慣先看演員與題材標籤，這部作品的公開訊號其實很完整，也很直接。相對地，如果你希望在點開前先知道明確的人物關係、情節起伏、關係推進，或想找故事密度更高的作品，那這部目前公開面向提供的資訊就不算"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

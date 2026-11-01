@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "IDPC-004",
+  "review_sha256": "2b62be1a0b1bc105bc07f51a3526aa1d1ff5ae3ecf2aac51b0a9ab5a8b7fd90b",
+  "selected_thesis": "這部作品目前最有力的選片理由，不是可驗證的情節厚度，而是林芽依被放進一個辨識度很高的系列框架中，再由美少女／學生設定加強入口，因此更適合以「演員展示＋系列公式」的角度看待。",
+  "title_basis": {
+    "performer": "林芽依",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "林芽依",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "犯●れながら何度もイカされる屈辱レ×プ",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "setting",
+        "value": "學生設定",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "林芽依",
+    "presentation_feature": "犯●れながら何度もイカされる屈辱レ×プ",
+    "editorial_judgment": "以林芽依為核心，觀察這部作品如何把「美少女／學生設定」放進既有系列框架中；選片重點不在複雜劇情，而在演員辨識度與企劃標籤的明確度。",
+    "source_keywords": [
+      "林芽依",
+      "犯●れながら何度もイカされる屈辱レ×プ",
+      "美少女設定",
+      "學生設定"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "選片核心可直接建立在林芽依身上，因為公開資料中最明確、最具辨識度的主軸就是演員名稱本身。",
+      "basis": "public_source",
+      "signal": "林芽依"
+    },
+    {
+      "observation_refs": [],
+      "supports": "系列名稱提供了鮮明的企劃框架，表示本作的可預期性更偏向系列屬性，而非公開劇情簡介驅動。",
+      "basis": "public_source",
+      "signal": "犯●れながら何度もイカされる屈辱レ×プ"
+    },
+    {
+      "observation_refs": [],
+      "supports": "「美少女設定」與「學生設定」構成了最直接的人物包裝與觀看入口，足以影響選片判斷。",
+      "basis": "public_source",
+      "signal": "美少女設定／學生設定"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤另見 AV女優片、學生妹、窈窕、親吻，以及 720p／HD／獨占配信，說明本作的公開面向以企劃辨識與發行規格為主。",
+      "basis": "public_source",
+      "signal": "AV女優片／學生妹／窈窕／親吻／720p／HD／獨占配信"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何未公開的人物關係。",
+    "未補寫具體場景、鏡位、聲音、剪輯或表演細節。",
+    "未把親吻標籤延伸成可驗證的段落安排。",
+    "未將美少女、學生設定推定為完整人物背景。",
+    "未將技術規格解讀成內容品質或演出完成度。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}
