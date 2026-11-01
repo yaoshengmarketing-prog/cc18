@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "id": "WAAA-706",
+  "checked_at": "2026-11-01T19:48:44.310Z",
+  "review_sha256": "b825573606ebf06ca69ee6254e8a5c7b1c26dcbfc08e901c663462a89c05f2f3",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就目前可追溯的公開資料來看，WAAA-706 最清楚的定位不是故事片，而是圍繞倉本蓳展開的專屬企劃。來源摘錄直接寫出「Wanz Factory專屬特別企劃」，再加上作品主概念「原點即頂點」，都讓這部片的選片方向非常明白：它不是要先用複雜設定吸引人，而是先把企劃口號、演出者辨識度與"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "因為這不是附帶標語，而是目前資料中最能區分本作的核心概念。公開來源把「原點即頂點」列為主概念，創作摘要又另外收錄了「強力FUCK最高No.1」「肌肉」等標題語彙，顯示這次企劃並不是往外擴充更多世界觀，而是把賣點往更濃縮、更直給的方向收束。換句話說，這部片的吸引力更像是回到最能代表"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 1
+  }
+}

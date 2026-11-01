@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "WAAA-706",
+  "review_sha256": "e981ceada58b0886b1d19be77a74e8bca15091be2465e88be76812c8c3e134fe",
+  "selected_thesis": "當公開資料把「原點即頂點」放在最核心的位置，WAAA-706 的價值就不在故事翻新，而在於把倉本蓳的既有魅力與過激路線濃縮成一次明確的專屬展示。",
+  "title_basis": {
+    "performer": "倉本蓳",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "倉本蓳",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "原點即頂點",
+        "source_field": "title"
+      },
+      {
+        "type": "act_or_position",
+        "value": "淫亂・過激系",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "倉本蓳",
+    "presentation_feature": "原點即頂點",
+    "editorial_judgment": "把本作視為一部以倉本蓳為中心、由「原點即頂點」統攝的專屬展示型企劃；選片重點不在補足未公開的情節，而在判斷公開資料是否已清楚交代它的主打方向。",
+    "source_keywords": [
+      "倉本蓳",
+      "原點即頂點",
+      "淫亂・過激系"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "本作的選片核心應放在企劃概念，而非未公開的故事內容。",
+      "basis": "public_source",
+      "signal": "原點即頂點"
+    },
+    {
+      "observation_refs": [],
+      "supports": "作品可被理解為偏向展示型、主打辨識度的專屬企劃。",
+      "basis": "public_source",
+      "signal": "【祝☆Wanz Factory專屬特別企劃！"
+    },
+    {
+      "observation_refs": [],
+      "supports": "成人主題的主要入口是直接而過激的身體表現路線。",
+      "basis": "public_source",
+      "signal": "淫亂・過激系／アクメ・オーガズム"
+    },
+    {
+      "observation_refs": [],
+      "supports": "選片辨識度高度集中在倉本蓳本人。",
+      "basis": "public_source",
+      "signal": "倉本蓳"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "具體劇情內容",
+    "人物關係設定",
+    "場景與空間配置",
+    "鏡位、剪輯與聲音表現",
+    "表情、演技與身體語言細節觀察】【高潮次數或過程描述】, "
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}

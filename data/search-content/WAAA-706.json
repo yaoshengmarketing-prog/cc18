@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "movie_id": "WAAA-706",
+  "generated_at": "2026-11-01T19:48:44.155Z",
+  "source_snapshot_hash": "sha256:79f0aa1e50f56bc29dad1d889b2149212bc8dadaec3b0cd138497b2bc2924e53",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "當公開資料把「原點即頂點」放在最核心的位置，WAAA-706 的價值就不在故事翻新，而在於把倉本蓳的既有魅力與過激路線濃縮成一次明確的專屬展示。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "優先把它看成以企劃口號與演出者辨識度驅動的作品。",
+      "若你選片會先看主打概念是否鮮明，這部公開資料的訊號相當集中。",
+      "HD／獨家配信屬輔助資訊，不能取代成人主題本身的判斷。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好以演出者辨識度為第一選片條件的觀眾",
+      "喜歡企劃概念鮮明、主題直接的觀眾",
+      "對「淫亂・過激系」這類強主打路線有興趣的觀眾"
+    ],
+    "not_for": [
+      "想找完整劇情起伏、明確人物關係或場景設定的觀眾",
+      "需要大量已公開敘事資訊才會下片的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "DSOD-031",
+      "relation_type": "same_performer",
+      "reason": "同樣由倉本蓳出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "倉本蓳"
+      ],
+      "contrast_signals": [
+        "如果要道歉",
+        "美少女設定"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部片的公開定位是什麼？",
+    "為什麼「原點即頂點」是最重要的選片線索？",
+    "公開資料透露了哪些成人主題與風格方向？",
+    "這部片比較適合哪一類觀眾？"
+  ]
+}

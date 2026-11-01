@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-01T19:45:09.423Z",
+  "generated_at": "2026-11-01T19:50:28.462Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 313,
-  "formal_movie_count": 312,
+  "tracked_input_count": 314,
+  "formal_movie_count": 313,
   "demo_count": 1,
-  "published_count": 309,
+  "published_count": 310,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2807,6 +2807,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "d7967f694a17885e807f67074e8675acb7b559321152382c40711cf1ac720965"
+    },
+    {
+      "stable_movie_id": "cc18:WAAA-706",
+      "catalog_code": "WAAA-706",
+      "slug": "waaa-706",
+      "master_path": "data/movie-master/waaa-706.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "4fd7543461feca00df53fc99f5d2a2cdd4908a661d296c3258692fa6edb3ae1d"
     },
     {
       "stable_movie_id": "cc18:YAKO-099",
