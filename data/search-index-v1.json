@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:0c4e488d53ba080d4765213716b985218dde6529a4ed3082a662da9de7e1a43b",
-  "source_generated_at": "2026-11-01T16:01:03.143Z",
+  "source_revision": "sha256:82f0b317cb817e10fbd5e5a69e06e440892fabcd521b5797015c414307db838e",
+  "source_generated_at": "2026-11-01T19:45:09.423Z",
   "counts": {
-    "movies": 308,
-    "performers": 285,
+    "movies": 309,
+    "performers": 286,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2477,6 +2477,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:52224",
+      "display_name": "清野咲",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "清野咲",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CAWB-069"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:47793",
       "display_name": "笹倉彩",
       "display_name_zh_tw": null,
@@ -3295,6 +3306,59 @@
         "article_title": "CAWB-060 伊藤舞雪｜OL設定作為入口：單身赴任前提撐起選片期待",
         "display_short_title": null,
         "slug": "cawb-060"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:CAWB-069",
+        "source_cover": "https://cc18.tv/preview/80/b/fGCc6mOPs1y-800.jpg?v=1793407094",
+        "title": "CAWB-069 清野咲｜中出主軸下的展示型企劃判斷",
+        "catalog_code": "CAWB-069",
+        "release_date": "2026-10-30",
+        "performers": [
+          "清野咲"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/cawb-069/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:52224"
+      ],
+      "search": {
+        "source_title": "kawaii*20週年紀念作品 纖細軟體美少女被幹到身體像蝦子一樣反折的極致快感崩潰超絕頂 清野咲",
+        "article_title": "CAWB-069 清野咲｜中出主軸下的展示型企劃判斷",
+        "display_short_title": null,
+        "slug": "cawb-069"
       }
     },
     {

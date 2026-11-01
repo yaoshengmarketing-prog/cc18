@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "CAWB-069",
+  "review_sha256": "b4949bf8f031f20181bed3b886f3d63163f518311181e80d707de0642338eaf9",
+  "selected_thesis": "當公開資訊幾乎只留下清野咲與中出等強刺激標籤時，這部作品更應被理解為演員展示型企劃，而不是以故事驅動的作品。",
+  "title_basis": {
+    "performer": "清野咲",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "清野咲",
+        "source_field": "actress"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "清野咲",
+    "presentation_feature": "中出",
+    "editorial_judgment": "把這部作品放回公開資訊可確認的範圍來看，判斷重點不在故事，而在清野咲本人與中出等強刺激標籤所組成的演員展示型企劃。",
+    "source_keywords": [
+      "清野咲",
+      "中出",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品最穩定的識別點是清野咲本人；目前沒有系列名，也沒有可明確轉述的故事前提可與演員識別並列。",
+      "basis": "public_source",
+      "signal": "清野咲"
+    },
+    {
+      "observation_refs": [],
+      "supports": "成人主題以中出最適合作為主軸，另可追溯到亂交、淫亂・過激系、アクメ・オーガズム與潮吹等強刺激線索。",
+      "basis": "public_source",
+      "signal": "中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資訊未提供人物關係、場景設定與中心衝突，因此不宜把它包裝成劇情密度高或關係轉折型作品。",
+      "basis": "public_source",
+      "signal": "設定未知"
+    },
+    {
+      "observation_refs": [],
+      "supports": "高畫質與獨家配信屬於呈現層面的補充資訊，可增加選片便利性，但不足以取代主題與企劃判斷。",
+      "basis": "public_source",
+      "signal": "高畫質／獨家配信"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "具體劇情內容與事件順序",
+    "人物關係與角色身份設定",
+    "實際場景配置與空間變化",
+    "鏡位、剪輯、聲音與節奏表現",
+    "演員表情、演技或身體語言表現強弱"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}

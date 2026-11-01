@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "CAWB-069",
+  "checked_at": "2026-11-01T19:43:05.576Z",
+  "review_sha256": "f1eec4c616d8f1f8b9f4cab8ed177a972668a3ef9f004106395185f837ba13d0",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 6,
+          "excerpt": "如果只看能追溯的線索，這部片的刺激方向相當直接。可確認的主題包括中出、亂交、淫亂・過激系，另外公開簡介摘錄還出現了潮吹，topic 元素中也有アクメ・オーガズム。這些資訊足以說明它不是走含蓄鋪陳，而是把強刺激關鍵字擺在前面。不過，這些標籤只能幫助判斷題材取向，不能進一步推定各元素"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

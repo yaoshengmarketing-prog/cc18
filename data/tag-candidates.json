@@ -663,7 +663,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 33,
+      "occurrences": 34,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -697,10 +697,11 @@
         "HALT-093",
         "MIDA-851",
         "DRPT-124",
-        "MFCI-001"
+        "MFCI-001",
+        "CAWB-069"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {
