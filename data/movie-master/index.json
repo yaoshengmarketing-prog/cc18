@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-01T20:14:49.350Z",
+  "generated_at": "2026-11-01T20:20:05.957Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 318,
-  "formal_movie_count": 317,
+  "tracked_input_count": 319,
+  "formal_movie_count": 318,
   "demo_count": 1,
-  "published_count": 314,
+  "published_count": 315,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2267,6 +2267,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "9781cd69064f0d7b51ee6a560d1d5ae7ec5891cc035c805abd2e36e6c156a6c9"
+    },
+    {
+      "stable_movie_id": "cc18:SIMH-010",
+      "catalog_code": "SIMH-010",
+      "slug": "simh-010",
+      "master_path": "data/movie-master/simh-010.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "ddc2e98d3d754a41267c1563c4e27d305d60c1b2c3b3324399ea4ceff6330557"
     },
     {
       "stable_movie_id": "cc18:SIRO-5722",

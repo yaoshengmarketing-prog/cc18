@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "SIMH-010",
+  "review_sha256": "a56131922684ffdb2b7cfbe7c0f9ab0223a8a53faf36ae57025be0311c05b00c",
+  "selected_thesis": "這片最值得討論的不是未被證實的故事，而是「獨家自拍」如何成為主軸，並把美少女／癡女人設與外型標籤整理成一個明確的展示型企劃。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "自拍形式",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "美少女",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "自拍形式",
+    "editorial_judgment": "以公開標籤來看，SIMH-010 的吸引力主要來自「獨家」與「自拍」這組配信企劃概念，再由美少女／癡女的人設詞與美尻等外型標示補強辨識度，因此選片重點應放在展示感與包裝方向，而不是未被證實的劇情想像。",
+    "source_keywords": [
+      "獨家",
+      "自拍形式",
+      "美少女"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品的核心定位更接近配信型企劃，而非已知劇情導向作品。",
+      "basis": "public_source",
+      "signal": "core_source_concept 為「獨家」，且 topic_elements.presentation 同時列出「自拍」「全高清 (FHD)」「獨家限定」「配信専用」。"
+    },
+    {
+      "observation_refs": [],
+      "supports": "選片吸引力主要由角色標籤先行建立。",
+      "basis": "public_source",
+      "signal": "safe_title_signals 與 topic_elements.identity 均出現「美少女」「癡女」。"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開賣點也包含外型與玩法元素，但不足以推導具體橋段。",
+      "basis": "public_source",
+      "signal": "safe_title_signals 有「美尻」，topic_elements.action 有「中出」「オモチャ」。"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱存在任何具體劇情主線或角色成長弧線",
+    "未聲稱有可確認的人物關係、場景配置或時間線",
+    "未聲稱已觀察到鏡位、剪輯、聲音、表情、演技或身體語言",
+    "未把「中出」「オモチャ」擴寫成具體橋段、順序或畫面事實",
+    "未發明演員姓名、年齡、真實身份或私生活資訊"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}

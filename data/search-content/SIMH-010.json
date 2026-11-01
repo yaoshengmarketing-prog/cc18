@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "movie_id": "SIMH-010",
+  "generated_at": "2026-11-01T20:18:20.586Z",
+  "source_snapshot_hash": "sha256:2a5c101d8b13c58792ecceb96d98dab23ec0487b54fa58eeb4adf6819f203f3e",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "SIMH-010 的判斷關鍵不在故事，而在獨家自拍這個配信概念如何把美少女／癡女與美尻等標籤整理成一個易於快速決策的展示型企劃。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "獨家配信取向",
+      "自拍形式先行",
+      "以美少女／癡女人設建立辨識度",
+      "外型標示明確"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好配信專用、獨家限定企劃的人",
+      "會因自拍形式而提高興趣的人",
+      "重視美少女設定與外型標籤辨識度的人"
+    ],
+    "not_for": [
+      "期待完整人物關係與明確情節起承轉合的人",
+      "想先確認演出細節、場景設計或敘事密度後再決定的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這片的公開賣點是什麼？",
+    "它偏向劇情片還是展示型企劃？",
+    "哪些來源標籤最影響選片？",
+    "適合哪一類觀眾先收？"
+  ]
+}

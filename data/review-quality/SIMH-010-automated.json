@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "id": "SIMH-010",
+  "checked_at": "2026-11-01T20:18:20.742Z",
+  "review_sha256": "b45e2c0d2e23f58956415bb0fc582c52952b518a8736f3cd8c95cb531d2d2963",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "從公開資料來看，SIMH-010 於 2026-10-28 發行，最清楚的核心詞就是「獨家」。這個概念沒有被單獨放置，而是和「自拍」「獨家限定」「配信専用」「全高清 (FHD)」一起出現，表示它的市場定位首先是配信型企劃包裝：先用可立即理解的形式賣點吸引點閱，再由角色與外型標籤補"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "最有辨識度的組合，是「美少女」與「癡女」同時並列。這代表公開頁面希望先建立一種容易被理解的人設張力：外在印象偏向美少女設定，主題標籤則加上更積極的成人取向。再往下看，另有「美尻」這種外型特徵標示，以及「中出」「オモチャ」等題材元素，說明這部作品不是只靠一個概念詞撐場，而是試圖把人"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 3,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}
