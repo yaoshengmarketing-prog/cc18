@@ -664,7 +664,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 34,
+      "occurrences": 35,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -699,7 +699,8 @@
         "MIDA-851",
         "DRPT-124",
         "MFCI-001",
-        "CAWB-069"
+        "CAWB-069",
+        "MIDA-843"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-02",
@@ -1933,7 +1934,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 28,
+      "occurrences": 29,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -1962,10 +1963,11 @@
         "FSBK-028",
         "AGAV-184",
         "MIDA-776",
-        "JUNY-160"
+        "JUNY-160",
+        "MIDA-843"
       ],
       "first_seen": "2026-09-14",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {
@@ -2152,14 +2154,15 @@
     },
     {
       "label": "讓她生",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "DSOD-060",
         "BONY-207",
-        "CAWB-060"
+        "CAWB-060",
+        "MIDA-843"
       ],
       "first_seen": "2026-09-10",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {

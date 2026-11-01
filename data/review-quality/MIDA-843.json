@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "MIDA-843",
+  "review_sha256": "626a1439f7844b10fde137dd58237ba26c750338ea5a1dd8af49898608e6cad7",
+  "selected_thesis": "來源資料可確認本作以「巨乳田徑女的眠姦合宿」作為主要作品線索。",
+  "title_basis": {
+    "performer": "百田光希",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "百田光希",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "巨乳田徑女的眠姦合宿",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "百田光希",
+    "presentation_feature": "巨乳田徑女的眠姦合宿",
+    "editorial_judgment": "來源資料可確認本作以「巨乳田徑女的眠姦合宿」作為主要作品線索。",
+    "source_keywords": [
+      "百田光希",
+      "巨乳田徑女的眠姦合宿",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "最近成績不振的光稀，被教練告知將被移出培育名單而感到焦慮。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "就在此時，教練向她提議參加特別訓練合宿。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "為了能重返代表選拔名單，教練的提議對光稀來說極具吸引力，簡直是夢寐以求。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：百田光希",
+      "supports": "這項可追溯來源訊號支持文章以「百田光希」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：巨乳田徑女的眠姦合宿",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳田徑女的眠姦合宿」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}
