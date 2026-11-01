@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "DAM-067",
+  "review_sha256": "99cafefda90a487b2824ba34ba0c55f855c4c6e584a44eab0d2e5e08bbd2a93f",
+  "selected_thesis": "當《ダマちゃん。》這個系列概念已經壓過其他資訊時，DAM-067 最適合被理解成一部以素人自拍包裝與灰色企劃姿態吸引觀眾的展示型作品。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "ダマちゃん",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "ダマちゃん。",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "素人",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "自拍形式",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "ダマちゃん",
+    "presentation_feature": "ダマちゃん。",
+    "editorial_judgment": "把 DAM-067 視為一部由《ダマちゃん。》系列名、素人標籤與自拍企劃感共同支撐的作品；選片重點放在公開設定能否形成明確辨識，而不是替尚未證實的內容補足劇情細節。",
+    "source_keywords": [
+      "ダマちゃん",
+      "ダマちゃん。",
+      "素人",
+      "自拍形式"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "系列名《ダマちゃん。》與 core concept「ダマちゃん」高度一致，代表本片最穩定的辨識點是系列企劃本身，而非已知演員或可驗證的情節展開。",
+      "basis": "public_source",
+      "signal": "ダマちゃん。／ダマちゃん"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤同時給出「素人」「自拍形式」「獨家配信」與配信專用資訊，足以支持本片被歸為形式先行、展示型企劃優先的選片判斷。",
+      "basis": "public_source",
+      "signal": "素人／自拍形式／獨家配信／配信専用"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開簡介把作品包裝成與美容執著、婚姻破裂、男性美容院偷拍紀錄與灰色個人拍攝相關的企劃，這能說明題材姿態與宣傳方向，但不足以直接證明實際場面、互動細節或敘事完成度。",
+      "basis": "public_source",
+      "signal": "公開簡介中的紀錄片式包裝與灰色個人拍攝說法"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱已觀察到任何實際場景、鏡位、聲音、剪輯或表演品質。",
+    "未把公開簡介中的偷拍與紀錄片包裝寫成已驗證的具體情節發生。",
+    "未補寫未提供的人物關係、角色姓名、場景流程或內容高潮。",
+    "未發明演員姓名、年齡、身份背景或私生活資訊。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}

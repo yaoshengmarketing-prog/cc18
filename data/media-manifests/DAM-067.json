@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "DAM-067",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-01T20:24:58.537Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/DAM-067/hero-v1.jpg",
+      "r2_key": "works/2026/10/DAM-067/hero-v1.jpg",
+      "bytes": 623965,
+      "sha256": "cbf6b32d69cf46b513fea5cefb51b496692aa711abe59570dd2fcb8fbb979d43",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "edbfd3850cef4e89a3fa6772dd548e6a",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/DAM-067/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/DAM-067/scene-vertical-v1.jpg",
+      "bytes": 1062640,
+      "sha256": "4cb73a34483ba3057bf1a73c96d4979f2245dc53ecbf60af6a2d730edcf542e3",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "59a3fe70b1554f538ab52000523e78ea",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2682655,
+    "sha256": "6f3f7d20643e35e0f6554b4858a8875029e226f4999553c54534a2bbfc6c5497",
+    "target_r2_key": "works/2026/10/DAM-067/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/DAM-067/vertical-v1.mp4"
+  }
+}

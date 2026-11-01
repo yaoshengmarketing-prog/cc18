@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "movie_id": "DAM-067",
+  "generated_at": "2026-11-01T20:23:44.280Z",
+  "source_snapshot_hash": "sha256:433ba7f4caca1149c02ac7ff516801dcf63a1a74e934fc13b84b028ab6963084",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "當公開來源幾乎都在強化《ダマちゃん。》的系列名與素人自拍企劃感時，DAM-067 的主要吸引力來自形式辨識與題材包裝，而不是已被證明的戲劇推進。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "素人企劃",
+      "自拍形式",
+      "獨家配信",
+      "高畫質配信向包裝"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先看系列名與企劃辨識度的讀者",
+      "偏好素人自拍包裝與私密感的人",
+      "能接受以公開設定先做選片判斷的觀眾"
+    ],
+    "not_for": [
+      "需要已知演員資訊再決定的人",
+      "想先確認完整劇情與人物關係的人",
+      "會把宣傳文案直接視為實拍保證的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這片最明確的選片理由是什麼？",
+    "公開簡介透露了哪些企劃方向？",
+    "這片比較適合哪些讀者先列入清單？"
+  ]
+}

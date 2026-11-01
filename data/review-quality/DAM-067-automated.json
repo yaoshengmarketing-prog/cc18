@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "DAM-067",
+  "checked_at": "2026-11-01T20:23:44.434Z",
+  "review_sha256": "730ebb4bc85c6b304302e17dd7fa2133fe3708c698837f6e12cab49da4ee4a53",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最直接的理由，是它的系列辨識度很明確。公開資料把作品放在《ダマちゃん。》系列之下，核心概念也直接指向「ダマちゃん」，再加上「素人」「自拍形式」「獨家配信」這幾個關鍵標籤，整體已經清楚告訴讀者：這不是主打已知演員陣容或複雜人物網絡的作品，而是更依賴企劃形式與觀看距離感來成立。若你選"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 3,
+    "evidence_items": 3,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
