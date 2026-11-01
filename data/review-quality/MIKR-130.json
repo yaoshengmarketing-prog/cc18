@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "MIKR-130",
+  "review_sha256": "5b817a64b203152284e471c6e0d42fa25c3f7644d585c57da750efadb0790659",
+  "selected_thesis": "以佐佐木明希為核心，結合人妻主婦身份與戲劇形式的展示型企劃，是 MIKR-130 最穩健的選片判讀。",
+  "title_basis": {
+    "performer": "佐佐木明希",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "佐佐木明希",
+        "source_field": "actress"
+      },
+      {
+        "type": "identity",
+        "value": "人妻・主婦",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "戲劇、連續劇",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "佐佐木明希",
+    "presentation_feature": "人妻・主婦",
+    "editorial_judgment": "以佐佐木明希為核心，判斷這是一部用「人妻・主婦」身份包裝、再加上戲劇形式呈現的展示型企劃；重點在於演員辨識度與主題標籤的結合，而不是可從公開資料確認的複雜情節。",
+    "source_keywords": [
+      "佐佐木明希",
+      "人妻・主婦",
+      "戲劇、連續劇"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開資料將作品辨識核心集中在佐佐木明希，本片可優先視為演員主導的選片。",
+      "basis": "public_source",
+      "signal": "佐佐木明希"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源標籤明示「人妻・主婦」，足以作為主要成人題材與角色包裝判斷。",
+      "basis": "public_source",
+      "signal": "人妻・主婦"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源標籤包含「戲劇、連續劇」，可支持本片帶有戲劇化呈現，但不足以證明具體劇情密度。",
+      "basis": "public_source",
+      "signal": "戲劇、連續劇"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源標籤包含「アクメ・オーガズム」，可作為題材方向參考，但不延伸推定具體段落安排。",
+      "basis": "public_source",
+      "signal": "アクメ・オーガズム"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何具體劇情事件、場景順序或人物姓名",
+    "未推定婚姻內容、外遇關係、家庭成員或對手角色設定",
+    "未聲稱已觀察到鏡位、剪接、配樂、聲音設計或演技細節",
+    "未推定高潮次數、段落配置、節奏快慢或表情肢體表現",
+    "未把「戲劇、連續劇」直接寫成高劇情密度事實"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}

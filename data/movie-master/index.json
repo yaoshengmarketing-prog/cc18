@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-01T15:18:59.125Z",
+  "generated_at": "2026-11-01T15:24:01.240Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 304,
-  "formal_movie_count": 303,
+  "tracked_input_count": 305,
+  "formal_movie_count": 304,
   "demo_count": 1,
-  "published_count": 300,
+  "published_count": 301,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1394,6 +1394,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "b92566c62ccb3593a2206eab06c2b3b74c8135711df56bd66bc340dbb6d51807"
+    },
+    {
+      "stable_movie_id": "cc18:MIKR-130",
+      "catalog_code": "MIKR-130",
+      "slug": "mikr-130",
+      "master_path": "data/movie-master/mikr-130.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "6511ac110d915ee75b5914dc8694f37474fbd92ba9cc3182219bb98f2123dd0c"
     },
     {
       "stable_movie_id": "cc18:MILK-306",

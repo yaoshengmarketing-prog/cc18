@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MIKR-130",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-01T15:23:04.299Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/MIKR-130/hero-v1.jpg",
+      "r2_key": "works/2026/10/MIKR-130/hero-v1.jpg",
+      "bytes": 578429,
+      "sha256": "e2be3b646e1bce21f810ea04363e526860ca1d22dafa49a58b66fe9915482d34",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "fcaaf1288be54fd3b6c6ab0b7bd05c4f",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/MIKR-130/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/MIKR-130/scene-vertical-v1.jpg",
+      "bytes": 1422897,
+      "sha256": "7651f5530e1f68622828b0b5bbda4a77dec000f935c5e44c8f7f16cce39566ee",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "81b4c2ffc4e8431ca4e23523b702700f",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3027754,
+    "sha256": "bb45c18573757e7191ce91fa598265df84063076a6e898ff100118d86e7ea29b",
+    "target_r2_key": "works/2026/10/MIKR-130/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/MIKR-130/vertical-v1.mp4"
+  }
+}

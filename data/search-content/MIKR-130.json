@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "movie_id": "MIKR-130",
+  "generated_at": "2026-11-01T15:22:08.078Z",
+  "source_snapshot_hash": "sha256:e3aff53b42d958698afac47f79c29de0927264e05895c06cbac77f41ea5718e0",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "MIKR-130 的可追溯賣點不在複雜故事，而在佐佐木明希本人，加上人妻主婦身份與戲劇化形式所組成的展示型企劃。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以佐佐木明希為首要辨識點",
+      "主要成人題材是人妻・主婦身份包裝",
+      "帶有戲劇化外框，但更接近展示型企劃判讀"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "本來就會追佐佐木明希作品的觀眾",
+      "偏好人妻主婦身份包裝的觀眾",
+      "接受以戲劇外框包住單體主打企劃的片單補完型觀眾"
+    ],
+    "not_for": [
+      "想看已可確認的完整人物關係與明確情節推進者",
+      "需要依據具體場面、剪接或表演細節再決定是否入坑者",
+      "偏好高概念設定明確公開化的劇情片觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這片最值得依據哪個公開訊號選入片單？",
+    "人妻主婦標籤在這部作品裡代表什麼？",
+    "戲劇包裝會不會等於高劇情密度？",
+    "哪些觀眾會比較適合先看這部？"
+  ]
+}
