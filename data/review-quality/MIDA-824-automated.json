@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "MIDA-824",
+  "checked_at": "2026-11-02T16:09:14.314Z",
+  "review_sha256": "4e7e9f421f2e8c8eb11d3309c85351fe8227460fb6c4dbd30d4ee0c20e05a67d",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "broad_formulaic_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 3,
+      "paragraph_count": 8,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前能追溯的公開資料，MIDA-824 最明確的吸引點就是石原希望本身。公開來源的 core source concept 與 source concepts 都直接落在她的名字，演員欄位也只給出石原希望，沒有額外的人物設定、關係線或故事前提可供分散焦點。換句話說，這不是"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "公開標籤給出的方向相當直接：身份類型有「AV女優片」「癡女」，動作與強度相關標籤則有「中出」「淫亂・過激系」。這些資訊足以幫觀眾快速理解本作的成人主題輪廓，尤其是它並不是走含糊曖昧的包裝，而是用相對明確的類型字眼建立期待。同時，公開資料也列出「高畫質」「獨家配信」等呈現資訊，但這"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "以現有公開資料來看，這部更接近展示型企劃的選片邏輯。原因不是因為已經確認它沒有劇情，而是因為目前能追溯到的資訊裡，沒有系列名、沒有公開的人物關係、沒有場景設定，也沒有可引用的故事 故事前提。相對地，資料最集中的部分是石原希望本人，以及幾個成人主題標籤。這會讓作品在選片時更像是『看"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 1
+  }
+}

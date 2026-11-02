@@ -1454,16 +1454,17 @@
     },
     {
       "label": "多汗",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "DSOD-067",
         "IPZZ-916",
         "MIDA-786",
         "MIKR-123",
-        "DSOD-074"
+        "DSOD-074",
+        "MIDA-824"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-22",
+      "last_seen": "2026-11-03",
       "status": "quarantined"
     },
     {

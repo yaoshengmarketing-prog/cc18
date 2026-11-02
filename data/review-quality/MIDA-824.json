@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "MIDA-824",
+  "review_sha256": "6b23b2d5adf2a5ad5cb77568b10d53a00c952e89694f55a0ccdca3b70cf9a72f",
+  "selected_thesis": "MIDA-824 的公開資訊把焦點明確放在石原希望本人，再由癡女與中出等標籤補足口味辨識；如果你是以演員與主題強度選片，這部的資訊已經足夠清楚，但若你期待完整故事鉤子，現階段公開資料並不支持那種期待。",
+  "title_basis": {
+    "performer": "石原希望",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "石原希望",
+        "source_field": "actress"
+      },
+      {
+        "type": "identity",
+        "value": "癡女",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "石原希望",
+    "presentation_feature": "癡女",
+    "editorial_judgment": "從公開可追溯資訊來看，MIDA-824 的辨識核心不是故事梗概，而是石原希望本人，以及「癡女」「中出」「淫亂・過激系」這類主題標籤的直接指向；因此這篇稿件的選片重點，會放在演員導向與企劃辨識度，而不是未被公開資料證明的劇情推演。",
+    "source_keywords": [
+      "石原希望",
+      "癡女",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品目前可明確追溯的核心概念只有石原希望，表示選片入口首先建立在演員辨識度上。",
+      "basis": "public_source",
+      "signal": "石原希望"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤直接給出「癡女」與「AV女優片」，足以判斷本作的主題定位偏向成人類型標籤先行。",
+      "basis": "public_source",
+      "signal": "癡女"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤列出「中出」與「淫亂・過激系」，可作為成人主題強度的選片依據。",
+      "basis": "public_source",
+      "signal": "中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "目前沒有系列名、人物關係、場景設定或劇情前提的公開資訊，因此較適合視為演員展示型企劃，而非已知故事導向作品。",
+      "basis": "public_source",
+      "signal": "展示型企劃判斷"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何未公開的劇情內容或情節轉折",
+    "未聲稱已觀察到場景、鏡位、剪輯、聲音或表演細節",
+    "未推定角色關係、職業設定、服裝或具體場面",
+    "未虛構系列世界觀、作品賣點文案或演員私生活資訊"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}

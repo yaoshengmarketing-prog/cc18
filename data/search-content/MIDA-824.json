@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "movie_id": "MIDA-824",
+  "generated_at": "2026-11-02T16:09:14.155Z",
+  "source_snapshot_hash": "sha256:80b653ec75f0cdc5811a693677c993aed5950905991568b167270b3c772b8eff",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "MIDA-824 的公開資訊把焦點明確放在石原希望本人，再由癡女與中出等標籤補足口味辨識；如果你是以演員與主題強度選片，這部的資訊已經足夠清楚，但若你期待完整故事鉤子，現階段公開資料並不支持那種期待。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以石原希望作為首要選片理由",
+      "以「癡女」「中出」等公開主題標籤判斷口味方向",
+      "將本作視為演員辨識度高於故事前提的企劃型作品"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "以石原希望為優先追看片單的觀眾",
+      "會依「癡女」「中出」等主題標籤快速選片的觀眾",
+      "接受企劃重點先落在演員存在感上的觀眾"
+    ],
+    "not_for": [
+      "想先確認完整劇情前提再決定是否觀看的人",
+      "偏好明確人物關係與場景設定的觀眾",
+      "只找高故事密度作品的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MIDA-785",
+      "relation_type": "same_performer",
+      "reason": "同樣由石原希望出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "石原希望"
+      ],
+      "contrast_signals": [
+        "美白胴體狂暴高潮超快感",
+        "超快感ポルチオGスポット開発潮吹きアクメ"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部片最明確的選片理由是什麼？",
+    "公開資料透露了哪些主題方向？",
+    "它比較接近劇情導向還是展示型企劃？",
+    "哪些觀眾會比較適合，哪些可能不適合？"
+  ]
+}
