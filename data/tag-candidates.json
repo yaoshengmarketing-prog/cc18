@@ -1170,7 +1170,7 @@
     },
     {
       "label": "自慰",
-      "occurrences": 10,
+      "occurrences": 11,
       "source_ids": [
         "MILK-306",
         "DOKS-690",
@@ -1181,10 +1181,11 @@
         "PYM-577",
         "IENF-470",
         "EKDV-828",
-        "NACT-185"
+        "NACT-185",
+        "START-658"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {
@@ -1951,12 +1952,13 @@
     },
     {
       "label": "オナサポ",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "EBWH-366",
         "DSOD-093",
         "MIDA-844",
-        "MIDA-829"
+        "MIDA-829",
+        "START-658"
       ],
       "first_seen": "2026-09-14",
       "last_seen": "2026-11-02",
@@ -2564,6 +2566,16 @@
       "occurrences": 1,
       "source_ids": [
         "MIAB-682"
+      ],
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02",
+      "status": "quarantined"
+    },
+    {
+      "label": "罵倒",
+      "occurrences": 1,
+      "source_ids": [
+        "START-658"
       ],
       "first_seen": "2026-11-02",
       "last_seen": "2026-11-02",

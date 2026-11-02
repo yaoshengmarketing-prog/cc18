@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "START-658",
+  "checked_at": "2026-11-02T06:21:53.860Z",
+  "review_sha256": "39ec7729ad8d074aa7c4ab414c9b8b8cac65aa6e95771e4b2193f4144a956341",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最能立刻說服人的，不是已被證實的劇情發展，而是題名本身的企劃辨識度。公開資訊把核心概念直接壓在「女講師真菜對放棄做愛」上，再加上題名摘錄裡的「冷落」，讓這部作品從一開始就帶有角色身分與慾望落差的張力。對選片來說，這種一句話就能成立的設定，通常比模糊的大綱更有吸引力。"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "適合會被一句企劃概念打中的觀眾，也適合本來就追紗倉真菜、或偏好主題清楚的人。相對地，如果你需要先知道完整人物關係、場景安排、節奏推進，甚至想確認畫面與表演細節再決定，這部片目前公開資訊可能還不夠。它的賣點不是資訊量，而是題名與標籤已經給出的反差方向。"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

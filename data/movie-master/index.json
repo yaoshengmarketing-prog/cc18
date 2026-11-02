@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-02T06:18:07.432Z",
+  "generated_at": "2026-11-02T06:23:35.612Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 333,
-  "formal_movie_count": 332,
+  "tracked_input_count": 334,
+  "formal_movie_count": 333,
   "demo_count": 1,
-  "published_count": 329,
+  "published_count": 330,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2798,6 +2798,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "3801b4b88404edd8a501298c2f1ab7af75a3d829255192d65c29e977abc4b53a"
+    },
+    {
+      "stable_movie_id": "cc18:START-658",
+      "catalog_code": "START-658",
+      "slug": "start-658",
+      "master_path": "data/movie-master/start-658.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "5ef4c0c60a4a34c3354802addba6f93a329e58f62f21c49372f4e5f0abafaeb7"
     },
     {
       "stable_movie_id": "cc18:SUJI-318",

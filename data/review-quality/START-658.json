@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "START-658",
+  "review_sha256": "3707eeb1c65b33001dff122558c3190ef77e66c1a36237b2626581ec3919b31e",
+  "selected_thesis": "這不是靠已知劇情厚度取勝的作品，而是靠「女講師真菜對放棄做愛」的角色反差，加上口交主題的明確對位，完成選片吸引力。",
+  "title_basis": {
+    "performer": "紗倉真菜",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "紗倉真菜",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "女講師真菜對放棄做愛",
+        "source_field": "title"
+      },
+      {
+        "type": "act_or_position",
+        "value": "口交",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "紗倉真菜",
+    "presentation_feature": "女講師真菜對放棄做愛",
+    "editorial_judgment": "以題名概念為主的選片：把「女講師」角色反差與「放棄做愛」設定，連到可追溯的口交主題，判斷這是一部靠企劃辨識度成立的紗倉真菜作品。",
+    "source_keywords": [
+      "紗倉真菜",
+      "女講師真菜對放棄做愛",
+      "口交"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "本作最清楚的差異點來自題名中的「女講師真菜對放棄做愛」，足以作為選片時的核心辨識。",
+      "basis": "public_source",
+      "signal": "女講師真菜對放棄做愛"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤可追溯到「口交」，因此可將其視為標題與選片說明中的主要成人主題。",
+      "basis": "public_source",
+      "signal": "口交"
+    },
+    {
+      "observation_refs": [],
+      "supports": "演出者已知為紗倉真菜，這讓作品具備明確的演員導向入口。",
+      "basis": "public_source",
+      "signal": "紗倉真菜"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤含「AV女優片」「癡女」，可支持作品包裝偏向直接、展示型企劃的判斷，但不足以延伸為具體劇情。",
+      "basis": "public_source",
+      "signal": "AV女優片／癡女"
+    },
+    {
+      "observation_refs": [],
+      "supports": "題名摘錄另有「冷落」一詞，可作為設定中的情緒線索，支持反差與企劃張力的閱讀。",
+      "basis": "public_source",
+      "signal": "冷落"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何具體場景，如教室、辦公室或私密空間",
+    "未宣稱存在已證實的對手角色、學生身分或固定人物關係",
+    "未將「冷落」擴寫成完整情節或事件經過",
+    "未描述任何鏡位、剪輯、聲音、表情、演技或肢體互動細節",
+    "未宣稱實際發生的性愛流程或段落配置"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:71c617ad88f07a10279506c347f41cb1bcbb42ce6b0659a25d9001e0869f1662",
-  "source_generated_at": "2026-11-02T06:18:07.432Z",
+  "source_revision": "sha256:450204fe8cc6440b0e51f955d84bddd88cd819e5d597687e3792e926c7f28d07",
+  "source_generated_at": "2026-11-02T06:23:35.612Z",
   "counts": {
-    "movies": 329,
-    "performers": 292,
+    "movies": 330,
+    "performers": 293,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2362,6 +2362,17 @@
       "related_movie_ids": [
         "cc18:FNS-244",
         "cc18:FNS-254"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:13",
+      "display_name": "紗倉真菜",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "紗倉真菜",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:START-658"
       ]
     },
     {
@@ -4866,6 +4877,51 @@
         "article_title": "START-657 新川空｜亂交企劃下的展示型選片",
         "display_short_title": null,
         "slug": "start-657"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:START-658",
+        "source_cover": "https://cc18.tv/preview/80/b/shOlgq4fqdA-800.jpg?v=1793219802",
+        "title": "START-658 紗倉真菜｜女講師真菜對放棄做愛：口交主題靠反差成立",
+        "catalog_code": "START-658",
+        "release_date": "2026-10-27",
+        "performers": [
+          "紗倉真菜"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/start-658/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:13"
+      ],
+      "search": {
+        "source_title": "女講師真菜對放棄做愛、只會自慰的男人們進行蔑視、冷落、展示的射精忍耐講義 紗倉真菜",
+        "article_title": "START-658 紗倉真菜｜女講師真菜對放棄做愛：口交主題靠反差成立",
+        "display_short_title": null,
+        "slug": "start-658"
       }
     },
     {
