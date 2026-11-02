@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "MIDA-850",
+  "review_sha256": "4274529a1e12a5112892810bdc9013100e8486808282545dcd30ae13d8127d18",
+  "selected_thesis": "這是一部由「完全沒有劇本」統領選片邏輯的展示型系列作；五條戀與亂交標籤提供入口，但真正區隔它的，是企劃概念本身。",
+  "title_basis": {
+    "performer": "五條戀",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "五條戀",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "完全沒有劇本",
+        "source_field": "title"
+      },
+      {
+        "type": "act_or_position",
+        "value": "亂交",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "※台本一切無し！一ヶ月禁欲した○○を焦らして寸止めを繰り返し",
+        "source_field": "series"
+      }
+    ],
+    "primary_theme": "五條戀",
+    "presentation_feature": "完全沒有劇本",
+    "editorial_judgment": "把這部作品定位為企劃先行的展示型選片，重點不是故事鋪陳，而是「完全沒有劇本」如何與系列公式、演員辨識度與成人題材標籤一起形成購片理由。",
+    "source_keywords": [
+      "五條戀",
+      "完全沒有劇本",
+      "亂交",
+      "※台本一切無し！一ヶ月禁欲した○○を焦らして寸止めを繰り返し"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品最可追溯、也最具辨識度的核心賣點，是來源直接給出的「完全沒有劇本」。這讓選片重心自然落在企劃感與臨場包裝，而不是既定劇情。",
+      "basis": "public_source",
+      "signal": "完全沒有劇本"
+    },
+    {
+      "observation_refs": [],
+      "supports": "系列名稱直接揭示以長時間壓抑與反覆挑逗為前提的固定企劃公式，代表這類作品的吸引力來自設定設計，而非需要大量背景交代的人物關係。",
+      "basis": "public_source",
+      "signal": "※台本一切無し！一ヶ月禁欲した○○を焦らして寸止めを繰り返し"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤同時提供了五條戀、巨乳、AV女優片與亂交等明確入口，顯示本片的市場辨識更偏向演員條件與成人題材類型，而不是世界觀或情節複雜度。",
+      "basis": "public_source",
+      "signal": "五條戀／巨乳／AV女優片／亂交"
+    },
+    {
+      "observation_refs": [],
+      "supports": "目前公開資訊沒有補足人物關係、場景與具體劇情前提，因此不宜把它寫成關係轉折或情節密度很高的作品。",
+      "basis": "public_source",
+      "signal": "未提供人物關係與設定細節"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱看見任何具體場景、鏡位、剪輯或聲音設計",
+    "未聲稱五條戀在片中的實際表情、演技或互動表現",
+    "未補寫任何人物關係、角色設定或故事前提",
+    "未把系列宣傳語直接寫成已驗證的觀看結果",
+    "未推定演員私生活、真實身分或年齡"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}

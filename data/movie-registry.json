@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T23:35:28.178Z",
+  "updated_at": "2026-11-02T23:41:06.455Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -5154,6 +5154,21 @@
       ],
       "release_date": "2026-10-30",
       "source_url": "https://cc18.tv/player.php?uuid=Ai7yEX00_3y&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-02"
+    },
+    {
+      "id": "MIDA-850",
+      "actress": [
+        "五條戀"
+      ],
+      "release_date": "2026-10-30",
+      "source_url": "https://cc18.tv/player.php?uuid=t86Bt9Y0j1y&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

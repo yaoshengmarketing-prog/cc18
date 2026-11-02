@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:77a067f6012d9f214d075eff9bffbee6d74d31a79f45ef15c5945d1f14882e33",
-  "source_generated_at": "2026-11-02T23:35:47.669Z",
+  "source_revision": "sha256:fe0f71a329a30dcf171149ba95d24ad4fd14e14c6652e1c8918776c2ac518a33",
+  "source_generated_at": "2026-11-02T23:41:26.119Z",
   "counts": {
-    "movies": 342,
-    "performers": 300,
+    "movies": 343,
+    "performers": 301,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -463,6 +463,17 @@
       "related_movie_ids": [
         "cc18:DSOD-080",
         "cc18:WAAA-701"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28815",
+      "display_name": "五條戀",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "五條戀",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MIDA-850"
       ]
     },
     {
@@ -4147,6 +4158,63 @@
         "article_title": "MIDA-844 井上もも｜想和你一起舒服地高潮",
         "display_short_title": null,
         "slug": "mida-844"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MIDA-850",
+        "source_cover": "https://cc18.tv/preview/80/b/t86Bt9Y0j1y-800.jpg?v=1793363814",
+        "title": "MIDA-850 五條戀｜亂交企劃：以完全沒有劇本撐起賣點的展示型選片",
+        "catalog_code": "MIDA-850",
+        "release_date": "2026-10-30",
+        "performers": [
+          "五條戀"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mida-850/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28815"
+      ],
+      "search": {
+        "source_title": "※完全沒有劇本！讓禁慾一個月的五條戀不斷被挑逗、反覆忍耐射精，在感度被提升到極限後的野獸大亂交",
+        "article_title": "MIDA-850 五條戀｜亂交企劃：以完全沒有劇本撐起賣點的展示型選片",
+        "display_short_title": null,
+        "slug": "mida-850"
       }
     },
     {

@@ -1526,7 +1526,7 @@
     },
     {
       "label": "ローション・オイル",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "NACT-182",
         "BBTU-119",
@@ -1535,10 +1535,11 @@
         "SDAB-359",
         "ABF-385",
         "MVSD-706",
-        "PPPE-455"
+        "PPPE-455",
+        "MIDA-850"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "status": "quarantined"
     },
     {

@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "MIDA-850",
+  "checked_at": "2026-11-02T23:39:40.259Z",
+  "review_sha256": "ec13a3100d8129894c1a5f78128f3fef094e599eac61958f7b93c921800ba315",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 5,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前公開資訊，最突出的不是故事，而是企劃本身。片名直接把「完全沒有劇本」放在最前面，這種寫法很明顯不是在強調角色背景或情節轉折，而是在強調現場感與不可預設的互動包裝。對選片者來說，這代表作品的第一購買理由不是『會發生什麼故事』，而是『這個企劃會把氣氛推到什麼程度』。再加上"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "目前能成立的判斷，主要來自演員姓名與一組很明確的標籤：五條戀、AV女優片、巨乳。這些資訊不足以支持對實際演出細節下定論，但足以說明作品是以演員辨識度與身材類型作為主要入口之一。對本來就會先看出演者、再看題材的觀眾來說，這種資訊組合很好懂，也很有效率：你知道這不是靠複雜設定吸引人，"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "它最適合的，是先看企劃概念與成人題材強度的人。若你對「完全沒有劇本」這類現場感包裝有興趣，又本來就會因五條戀、巨乳或亂交標籤而停下來看，MIDA-850 的選片理由很完整。相反地，如果你的優先順序是劇情、角色設定或關係層次，那公開資訊能提供的支撐就偏少。簡單說，這不是要用故事說服"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}
