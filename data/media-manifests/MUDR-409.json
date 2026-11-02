@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MUDR-409",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-02T00:10:32.262Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/MUDR-409/hero-v1.jpg",
+      "r2_key": "works/2026/10/MUDR-409/hero-v1.jpg",
+      "bytes": 678090,
+      "sha256": "d4eeffab7e1f31864c3013c7ceb61e753c0df051ed521311742373452be69c65",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "c6395366aebd4cdfab0aeb029931aa64",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/MUDR-409/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/MUDR-409/scene-vertical-v1.jpg",
+      "bytes": 1086889,
+      "sha256": "4f010c6b211bf7ca4fed4a381c370fec00c5586aa51c040ca144f73ce077b60d",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "208fd2535eb0448398e61499f6092051",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2939459,
+    "sha256": "73532745e9ebb543c7db13a47e363f1581a81deac66a291a4b9569a99fa696f0",
+    "target_r2_key": "works/2026/10/MUDR-409/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/MUDR-409/vertical-v1.mp4"
+  }
+}

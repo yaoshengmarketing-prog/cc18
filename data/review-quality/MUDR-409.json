@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "MUDR-409",
+  "review_sha256": "ebcce1e6576399d7d27801b32530f7f8001188a13b1a480293c27aa698a878dd",
+  "selected_thesis": "這不是靠已知複雜劇情取勝的作品，而是以「要好女孩子4人的故事」為核心，把美少女、巨乳與亂交等標籤整合成一個四人企劃感明確的選片。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "要好女孩子4人的故事",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "美少女",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "亂交",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "要好女孩子4人的故事",
+    "presentation_feature": "美少女",
+    "editorial_judgment": "以片名直接揭示的「要好女孩子4人的故事」為主軸，將本作定位成四人組合企劃先行、角色配置感重於已知劇情細節的選片。",
+    "source_keywords": [
+      "要好女孩子4人的故事",
+      "美少女",
+      "巨乳",
+      "亂交"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "片名直接給出「要好女孩子4人的故事」，可作為本作最核心的企劃辨識點，說明選片時應先從四人組合與整體設定理解作品。",
+      "basis": "public_source",
+      "signal": "要好女孩子4人的故事"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤包含「美少女」，可確認作品在角色形象上的主打方向之一是青春感與外型設定。",
+      "basis": "public_source",
+      "signal": "美少女"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤包含「巨乳」，可確認這是作品在身體條件上的明確賣點之一。",
+      "basis": "public_source",
+      "signal": "巨乳"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤包含「亂交」，可確認成人主題偏向群體互動類型；但公開資料不足以進一步判定具體關係、進程或場面安排。",
+      "basis": "public_source",
+      "signal": "亂交"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資訊另列「高畫質」「720p」「獨家配信」，可作為平台呈現規格與發行方式的補充，但不足以取代企劃本身成為主評論焦點。",
+      "basis": "public_source",
+      "signal": "高畫質／720p／獨家配信"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "四位角色之間的具體關係與情感發展",
+    "任何未公開的場景、地點與時間背景",
+    "任何已發生的情節順序、高潮設計或互動節奏細節",
+    "演員姓名、真實身分、年齡與私生活資訊",
+    "鏡位、剪輯、聲音、配樂、表情、肢體語言與演技評價"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}

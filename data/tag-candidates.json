@@ -455,7 +455,7 @@
     },
     {
       "label": "制服",
-      "occurrences": 16,
+      "occurrences": 17,
       "source_ids": [
         "SNOS-409",
         "SNOS-369",
@@ -472,7 +472,8 @@
         "SNOS-403",
         "MIDA-840",
         "IDPC-004",
-        "TEND-040"
+        "TEND-040",
+        "MUDR-409"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-11-02",
@@ -750,17 +751,18 @@
     },
     {
       "label": "女同性戀",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "BBAN-609",
         "BBAN-601",
         "OFTR-015",
         "AWAW-029",
         "AGAV-184",
-        "MIDA-776"
+        "MIDA-776",
+        "MUDR-409"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {

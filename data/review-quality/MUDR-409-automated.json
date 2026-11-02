@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "MUDR-409",
+  "checked_at": "2026-11-02T00:09:33.818Z",
+  "review_sha256": "c17b851b5c20b9b856f0fdcf0a0a696bdd14754583ac5d4401819be78c93d98b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最值得先看的不是單一演員資訊，而是片名直接給出的「要好女孩子4人的故事」。在目前沒有演員名單、系列名稱與更多公開劇情補充的情況下，這句話就是本作最清楚的選片入口。它讓作品的辨識點落在「四人」與「故事」的組合概念上，代表這不是只靠單一標籤撐起注意力的作品，而是以多角色並置的企劃感來"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "「亂交」是目前少數能明確指出成人主題方向的公開標籤，因此它對選片是有用的：至少可以知道本作不是單純把重點放在單一配對，而是朝向群體互動類型靠近。對喜歡多人配置、群體刺激與企劃型集合感的觀眾來說，這是一個有效訊號。但公開資訊只到這裡為止；它不能自動延伸成具體的人物關係、橋段鋪排、互"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 5,
+    "recommendations": 0
+  }
+}
