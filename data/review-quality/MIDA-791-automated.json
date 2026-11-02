@@ -1,0 +1,60 @@
+{
+  "schema_version": 2,
+  "id": "MIDA-791",
+  "checked_at": "2026-11-02T06:49:25.995Z",
+  "review_sha256": "984f7862218e9ca3e3d72304cd03f7a1267e58c70c38af11095edef7f0313e54",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "從目前可追溯的公開資訊判斷，本作更接近展示型企劃，而不是以敘事推進為主的劇情片。原因很簡單：已知資訊集中在出道身分、形象定位與成人題材標籤，卻沒有提供人物關係、場景背景、系列脈絡或劇情衝突。這種資訊分布通常代表作品的觀看入口不是「故事會怎麼發展」，而是「這位新人被如何介紹、如何被"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "公開標籤讓本作的輪廓相當直接。首先，「美少女」「AV女優片」把形象與身分定位擺在前面；其次，「巨乳」補足了外型訴求；再來，「顏射」「3p・4p」則說明這不是只靠出道名義包裝的輕描淡寫首作，而是會用更明確的成人題材標籤來強化企劃辨識度。相較之下，「高畫質」「獨家配信」這些資訊比較像"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

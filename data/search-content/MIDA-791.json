@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "movie_id": "MIDA-791",
+  "generated_at": "2026-11-02T06:49:25.829Z",
+  "source_snapshot_hash": "sha256:d5eab5c633a6a018cc3241f185c635492f73505ca9a32a01553545d49579a6b8",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "如果你的選片重點是新人首作的定位與第一印象，本作的吸引力相當集中；但若你期待可驗證的故事線、關係推進或具體場景設計，現有公開資訊並沒有提供那種保證。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "出道企劃導向",
+      "形象建立優先",
+      "成人標籤直接",
+      "高畫質與獨家配信屬次要包裝訊號"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會優先追新人出道作的人",
+      "喜歡美少女定位明確、包裝清楚的企劃片觀眾",
+      "想用公開成人標籤快速判斷題材方向的人"
+    ],
+    "not_for": [
+      "想找明確劇情鋪陳或人物關係轉折的人",
+      "會把技術規格視為唯一看片理由的人",
+      "偏好系列世界觀或角色背景完整設定的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片最值得先看的核心賣點是什麼？",
+    "它比較偏劇情型還是展示型企劃？",
+    "公開標籤如何影響選片判斷？",
+    "較適合哪一類觀眾？"
+  ]
+}

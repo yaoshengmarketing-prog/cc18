@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "MIDA-791",
+  "review_sha256": "d015faa85d88407a7bee53243949bf878a691743bcc9db616d2877a99e0ff340",
+  "selected_thesis": "從公開資訊來看，MIDA-791 的價值不在複雜劇情，而在於用「AV出道」與「美少女」兩個核心訊號，快速建立奏たまき的首作印象。",
+  "title_basis": {
+    "performer": "奏たまき",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "奏たまき",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "AV出道",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "美少女",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "奏たまき",
+    "presentation_feature": "AV出道",
+    "editorial_judgment": "以「AV出道」作為選片核心，聚焦公開資訊如何把本作定位成一部靠美少女形象建立第一印象、並以成人題材標籤強化企劃辨識度的展示型首作。",
+    "source_keywords": [
+      "奏たまき",
+      "AV出道",
+      "美少女"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品最明確、最具區別性的核心不是系列延伸或特定關係設定，而是「AV出道」本身。",
+      "basis": "public_source",
+      "signal": "AV出道"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤同時給出「美少女」與「AV女優片」，表示本作的主體賣點首先建立在新人形象與出道定位。",
+      "basis": "public_source",
+      "signal": "美少女／AV女優片"
+    },
+    {
+      "observation_refs": [],
+      "supports": "「巨乳」以及「顏射」「3p・4p」等成人標籤讓作品方向更偏向明確題材展示，而不是關係敘事或場景世界觀。",
+      "basis": "public_source",
+      "signal": "巨乳／顏射／3p・4p"
+    },
+    {
+      "observation_refs": [],
+      "supports": "「高畫質」「獨家配信」屬於發行與呈現層面的補充訊號，可以加強包裝感，但不足以取代出道概念成為選片中心。",
+      "basis": "public_source",
+      "signal": "高畫質／獨家配信"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未公開的人物關係、背景設定與場景流程",
+    "任何未被公開資訊證實的情節轉折或角色成長",
+    "未經證實的表演細節、鏡位、剪輯、聲音與觀看效果",
+    "不存在的系列連動、角色名稱或私生活資訊"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}

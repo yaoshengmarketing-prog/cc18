@@ -839,7 +839,7 @@
     },
     {
       "label": "出道作",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "IPZZ-986",
         "IPZZ-988",
@@ -847,10 +847,11 @@
         "HSM-090",
         "FEM-040",
         "JUNY-160",
-        "IDPC-001"
+        "IDPC-001",
+        "MIDA-791"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {
@@ -1970,7 +1971,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 30,
+      "occurrences": 31,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -2001,7 +2002,8 @@
         "MIDA-776",
         "JUNY-160",
         "MIDA-843",
-        "MVSD-708"
+        "MVSD-708",
+        "MIDA-791"
       ],
       "first_seen": "2026-09-14",
       "last_seen": "2026-11-02",
