@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T16:16:42.887Z",
+  "updated_at": "2026-11-02T16:22:45.544Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -5078,6 +5078,21 @@
       ],
       "release_date": "2026-10-16",
       "source_url": "https://cc18.tv/player.php?uuid=8vBSc10mkdb&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-02"
+    },
+    {
+      "id": "MIKR-129",
+      "actress": [
+        "白川美玲"
+      ],
+      "release_date": "2026-10-16",
+      "source_url": "https://cc18.tv/player.php?uuid=cm5wusdAR3J&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

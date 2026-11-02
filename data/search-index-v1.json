@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:45177f5b0acb74e7481a9c8814424665737a322594dddf76e8506e6d64ea56b0",
-  "source_generated_at": "2026-11-02T16:17:01.729Z",
+  "source_revision": "sha256:2f76e5775c699c34c260193161ab607ebaba07e23ff5b7b2513666b46893d237",
+  "source_generated_at": "2026-11-02T16:23:04.324Z",
   "counts": {
-    "movies": 337,
+    "movies": 338,
     "performers": 297,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -870,7 +870,8 @@
       "source_name": "白川美玲",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:MIKR-123"
+        "cc18:MIKR-123",
+        "cc18:MIKR-129"
       ]
     },
     {
@@ -5673,6 +5674,51 @@
         "article_title": "MIKR-121 白岩冬萌｜危險日12小時內重複內射：系列公式感很明確的展示型企劃",
         "display_short_title": null,
         "slug": "mikr-121"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MIKR-129",
+        "source_cover": "https://cc18.tv/preview/80/b/cm5wusdAR3J-800.jpg?v=1792399048",
+        "title": "MIKR-129 白川美玲｜癡女露營約會，把「一直想做的事」推到最前面",
+        "catalog_code": "MIKR-129",
+        "release_date": "2026-10-16",
+        "performers": [
+          "白川美玲"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mikr-129/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54543"
+      ],
+      "search": {
+        "source_title": "白川美玲一直想做的事！和M男君單獨兩人一整天,隨時隨地盡情痴女,令人悶絕的誘惑露營約會",
+        "article_title": "MIKR-129 白川美玲｜癡女露營約會，把「一直想做的事」推到最前面",
+        "display_short_title": null,
+        "slug": "mikr-129"
       }
     },
     {

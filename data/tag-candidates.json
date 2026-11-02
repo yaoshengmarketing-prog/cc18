@@ -427,7 +427,7 @@
     },
     {
       "label": "紀錄片",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "SNOS-371",
         "SNOS-358",
@@ -435,10 +435,11 @@
         "ACZD-250",
         "NSODN-023",
         "START-625",
-        "DSOD-074"
+        "DSOD-074",
+        "MIKR-129"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-22",
+      "last_seen": "2026-11-03",
       "status": "quarantined"
     },
     {
@@ -716,7 +717,7 @@
     },
     {
       "label": "姐姐系",
-      "occurrences": 19,
+      "occurrences": 20,
       "source_ids": [
         "SNOS-364",
         "SNOS-372",
@@ -736,7 +737,8 @@
         "SNOS-397",
         "CJOD-548",
         "DAM-067",
-        "FPRE-246"
+        "FPRE-246",
+        "MIKR-129"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-03",
@@ -2094,13 +2096,14 @@
     },
     {
       "label": "デート",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "HMN-918",
-        "JERA-050"
+        "JERA-050",
+        "MIKR-129"
       ],
       "first_seen": "2026-09-16",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-11-03",
       "status": "quarantined"
     },
     {

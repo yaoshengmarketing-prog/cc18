@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "MIKR-129",
+  "review_sha256": "33ae58e125b8d036213a2c98eed87e92fc360580265a6e37ce003edf5696fcf0",
+  "selected_thesis": "本作最有力的選片理由，是把白川美玲個人想完成的企劃，和癡女露營約會這種高辨識度框架綁在一起。",
+  "title_basis": {
+    "performer": "白川美玲",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "白川美玲",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "白川美玲一直想做的事",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "癡女",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "紀錄片形式",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "白川美玲",
+    "presentation_feature": "白川美玲一直想做的事",
+    "editorial_judgment": "從「白川美玲一直想做的事」這個公開核心概念切入，判斷本作的吸引力是否來自女優主題企劃、癡女身分與露營約會設定的組合，而非複雜劇情發展。",
+    "source_keywords": [
+      "白川美玲",
+      "白川美玲一直想做的事",
+      "癡女",
+      "紀錄片形式"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "標題直接給出「白川美玲一直想做的事」，可作為全篇最重要的選片辨識點，代表本作不是泛用主題拼盤，而是以她個人想完成的內容作為企劃核心。",
+      "basis": "public_source",
+      "signal": "白川美玲一直想做的事"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開簡介寫到「從出道時就想要做的事情」，進一步強化這是一部願望實現型、女優中心型的作品，而不是靠外部世界觀撐起的系列劇情。",
+      "basis": "public_source",
+      "signal": "從出道時就想要做的事情"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開簡介明示「和M男一起度過痴女滿天飛行的露營約會」，因此可合理把本作理解成以癡女身分、M男互動框架與露營約會場景設定組成的單一主題企劃。",
+      "basis": "public_source",
+      "signal": "M男／痴女／露營約會"
+    },
+    {
+      "observation_refs": [],
+      "supports": "安全訊號含有「紀錄片形式」，可用來判斷作品在包裝上傾向展示與企劃呈現，但不足以證明實際影像質感或敘事手法。",
+      "basis": "public_source",
+      "signal": "紀錄片形式"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開簡介稱這是白川美玲的「第三彈」，說明它延續的是人物企劃線，而目前沒有可追溯系列名稱，因此選片重點仍應回到女優與題材本身。",
+      "basis": "public_source",
+      "signal": "第三彈"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未宣稱已觀看到任何具體場景、鏡位、剪輯、聲音或表演細節",
+    "未把「紀錄片形式」寫成已驗證的實際影像風格",
+    "未虛構系列名稱、更多角色、關係轉折或支線劇情",
+    "未宣稱白川美玲的私生活、真實年齡或作品外身分",
+    "未把高畫質、720p、4k等呈現詞寫成內容品質保證"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "id": "MIKR-129",
+  "checked_at": "2026-11-02T16:21:19.339Z",
+  "review_sha256": "57e7d855b5c09a780314d2efcbbd13a2d2c2dd958b9a2e39478f8d6c9714ee99",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "body_lacks_source_adult_vocabulary",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最明確的答案不是技術規格，而是標題本身的核心概念：「白川美玲一直想做的事」。公開簡介又補上一句「從出道時就想要做的事情」，讓這部作品的辨識度很高。這代表它的主軸並非單純套用熱門標籤，而是把白川美玲個人的企劃願望拉到最前面。若你挑片時會在意作品有沒有一個夠清楚、夠集中、而且能立刻說"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "公開來源已經把三個關鍵詞放在同一條線上：癡女身分、M男對手，以及露營約會設定。這種組合很直接地界定了作品氣質：一方面有明確的主導感與偏好方向，另一方面又不是純抽象標籤，而是被放進「約會」這種比較有情境感的框架裡。對觀眾來說，這會讓選片判斷更簡單：你若本來就喜歡女方主題鮮明、互動框"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 1
+  }
+}

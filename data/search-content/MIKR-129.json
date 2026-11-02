@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "movie_id": "MIKR-129",
+  "generated_at": "2026-11-02T16:21:19.169Z",
+  "source_snapshot_hash": "sha256:15a011789e1684ea2bdc6eba8286e0327a1e1976333931c9dc26b25f3523e3ae",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "如果你看重的是白川美玲把「一直想做的事」做成明確企劃，並接受癡女＋M男＋露營約會這種單題材集中展示，本作的選片理由很清楚；若你期待複雜劇情，它未必是第一順位。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "紀錄片形式包裝",
+      "女優主題企劃",
+      "露營約會設定",
+      "獨家配信／高畫質訊號屬次要資訊"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想看以女優個人企劃為核心的人",
+      "對癡女／M男互動框架有明確偏好的人",
+      "喜歡把約會感設定放進成人作品主題的人"
+    ],
+    "not_for": [
+      "優先尋找多線劇情或明確關係轉折的人",
+      "需要實際演出細節、鏡位或節奏資訊才會下決定的人",
+      "對露營約會或癡女框架本身沒有興趣的人"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MIKR-123",
+      "relation_type": "same_performer",
+      "reason": "同樣由白川美玲出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "白川美玲"
+      ],
+      "contrast_signals": [
+        "白川汁",
+        "AV女優片"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這片最值得先看的公開賣點是什麼？",
+    "它比較像劇情片還是展示型企劃？",
+    "癡女與露營約會的組合會把期待導向哪裡？",
+    "哪些觀眾會更適合優先選這片？"
+  ]
+}
