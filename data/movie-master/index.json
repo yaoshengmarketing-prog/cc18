@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-02T00:16:43.082Z",
+  "generated_at": "2026-11-02T00:21:11.491Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 328,
-  "formal_movie_count": 327,
+  "tracked_input_count": 329,
+  "formal_movie_count": 328,
   "demo_count": 1,
-  "published_count": 324,
+  "published_count": 325,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1673,6 +1673,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "b3bb4972fa5daf497d0f15ae8d4878ef33a26ed3b10c9479ec701e176638a087"
+    },
+    {
+      "stable_movie_id": "cc18:MUKD-590",
+      "catalog_code": "MUKD-590",
+      "slug": "mukd-590",
+      "master_path": "data/movie-master/mukd-590.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "7534e35c4d94ec3e3c0b0f13af06b2b0caf49c232c5d2977a432be1be4010182"
     },
     {
       "stable_movie_id": "cc18:MURIKURI-015",

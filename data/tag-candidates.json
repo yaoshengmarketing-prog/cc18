@@ -455,7 +455,7 @@
     },
     {
       "label": "制服",
-      "occurrences": 17,
+      "occurrences": 18,
       "source_ids": [
         "SNOS-409",
         "SNOS-369",
@@ -473,7 +473,8 @@
         "MIDA-840",
         "IDPC-004",
         "TEND-040",
-        "MUDR-409"
+        "MUDR-409",
+        "MUKD-590"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-11-02",
@@ -1212,12 +1213,13 @@
     },
     {
       "label": "水手服",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "FNS-243"
+        "FNS-243",
+        "MUKD-590"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {
@@ -1273,7 +1275,7 @@
     },
     {
       "label": "其他癖好",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "DOKS-689",
         "DOKS-690",
@@ -1281,10 +1283,11 @@
         "MUKD-585",
         "DSJH-020",
         "CLOT-044",
-        "AGAV-182"
+        "AGAV-182",
+        "MUKD-590"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {
