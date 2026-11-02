@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MVSD-708",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-02T00:15:58.315Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/MVSD-708/hero-v1.jpg",
+      "r2_key": "works/2026/10/MVSD-708/hero-v1.jpg",
+      "bytes": 560050,
+      "sha256": "11459e0c458f929b18bfa4bb5323a0b51b64b43f739e856fac3b5c23c546dfc8",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "a76a2f5c5a2a49909fcc13a006cdbc33",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/MVSD-708/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/MVSD-708/scene-vertical-v1.jpg",
+      "bytes": 1492265,
+      "sha256": "4504ac88e2ecc9aecc6fa1da49333812508a7da29e92cabe5e457fa1fe78d9d3",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "6d8496841a4341f1bda5ef84bc0ea9c5",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3081777,
+    "sha256": "573d6386354cb59cf327b09612a1d83cc8bd5da51905f8c121650fa57d0484cb",
+    "target_r2_key": "works/2026/10/MVSD-708/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/MVSD-708/vertical-v1.mp4"
+  }
+}

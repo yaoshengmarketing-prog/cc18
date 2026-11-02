@@ -1041,16 +1041,17 @@
     },
     {
       "label": "SM",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "BBAN-601",
         "ACZD-250",
         "SNOS-342",
         "MISM-463",
-        "HMN-911"
+        "HMN-911",
+        "MVSD-708"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-22",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {
@@ -1462,7 +1463,7 @@
     },
     {
       "label": "強迫口交",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "IPZZ-978",
         "MUDR-397",
@@ -1471,10 +1472,11 @@
         "SNOS-399",
         "HUBLK-079",
         "MISM-456",
-        "HUBLK-081"
+        "HUBLK-081",
+        "MVSD-708"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {
@@ -1953,7 +1955,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 29,
+      "occurrences": 30,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -1983,7 +1985,8 @@
         "AGAV-184",
         "MIDA-776",
         "JUNY-160",
-        "MIDA-843"
+        "MIDA-843",
+        "MVSD-708"
       ],
       "first_seen": "2026-09-14",
       "last_seen": "2026-11-02",

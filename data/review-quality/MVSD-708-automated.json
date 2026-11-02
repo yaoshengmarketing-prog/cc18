@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "MVSD-708",
+  "checked_at": "2026-11-02T00:15:14.180Z",
+  "review_sha256": "900af8c9133fc40cd4ca3a84814e28c8f0288a76dbee909527e2807ed3d09446",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "broad_formulaic_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 3,
+      "paragraph_count": 8,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就公開簡介來看，最清楚的核心不是單一刺激標籤，而是一條很完整的衝突鏈：長期對下屬進行職場霸凌的社長老公，某天留下債務直接跑路，原本被欺壓的下屬們，於是把累積怒火轉向社長夫人。這個設定讓作品一開始就帶著明確的報復性情境，也把「人妻・主婦」這個身份放進更有壓力的戲劇位置。以選片角度來"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "從片名核心概念與演員欄位來看，這次仍是以深雪詩織／深雪しおり作為企劃中心。公開線索沒有提供更多人物背景，但已足夠看出，她承接的不是中性的身份，而是『社長夫人』與『人妻・主婦』這種帶有社會位置與責任外溢感的角色入口。這會直接影響選片判斷：如果觀眾對她在高壓設定中的承接感、以及角色被"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "適合三種人。第一，是會先看設定再看標籤的人：這部片的公開簡介給了足夠鮮明的因果，能讓人快速判斷自己吃不吃這種『怒火轉向夫人』的企劃。第二，是偏好人妻主婦題材的人，因為身份本身不是裝飾，而是衝突成立的關鍵。第三，是能接受多人與過激作為加強元素的觀眾，safe signals 已經把"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

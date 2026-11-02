@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "MVSD-708",
+  "review_sha256": "0a71dc11edd48b5838a80a11ac0dcd24bc0d887a669730ad6194f7854d1ee9e3",
+  "selected_thesis": "MVSD-708 最值得注意的地方，在於它用深雪詩織／深雪しおり去承接一個丈夫失責後果外溢的人妻報復前提；多人與過激只是包裝，真正讓作品有辨識度的，是這條公開可追溯的衝突鏈。",
+  "title_basis": {
+    "performer": "深雪しおり",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "深雪しおり",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "深雪詩織",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "人妻・主婦",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "3p・4p",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "深雪しおり",
+    "presentation_feature": "深雪詩織",
+    "editorial_judgment": "把這部片視為以深雪詩織／深雪しおり為核心的高衝突人妻企劃：公開簡介真正突出的不是單一刺激標籤，而是「社長老公跑路後，怒火轉向社長夫人」這條明確的報復前提。",
+    "source_keywords": [
+      "深雪しおり",
+      "深雪詩織",
+      "人妻・主婦",
+      "3p・4p"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開簡介已交代完整因果：社長老公長期職場霸凌下屬，之後留下債務跑路，下屬們再把怒火轉向社長夫人。這使本作在選片判斷上可被視為先有衝突前提、再談刺激包裝的作品。",
+      "basis": "public_source",
+      "signal": "劇情設定"
+    },
+    {
+      "observation_refs": [],
+      "supports": "safe signals 明示「人妻・主婦」，可作為本作最穩定的主題身份，也是標題與選片切入點中最適合被放在前面的成人主題。",
+      "basis": "public_source",
+      "signal": "人妻・主婦"
+    },
+    {
+      "observation_refs": [],
+      "supports": "safe signals 另有「3p・4p」與「淫亂・過激系」，說明企劃包裝偏向多人與強刺激訴求；但這些標籤只能支持企劃傾向，不能延伸成具體場面事實。",
+      "basis": "public_source",
+      "signal": "3p・4p／淫亂・過激系"
+    },
+    {
+      "observation_refs": [],
+      "supports": "core source concept 與片名線索都指向「深雪詩織」，足以作為本篇標題與主論點的錨點，避免被通用標籤稀釋。",
+      "basis": "public_source",
+      "signal": "深雪詩織"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱已確認實際場面數量、順序或參與人數配置",
+    "未聲稱丈夫、下屬或社長夫人是否都有明確上場篇幅",
+    "未聲稱作品如何處理暴力、脅迫、反轉或結局",
+    "未聲稱已觀察到鏡位、剪輯、配樂、聲音設計或表演細節",
+    "未推定深雪しおり的私生活、真實身分或年齡"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}
