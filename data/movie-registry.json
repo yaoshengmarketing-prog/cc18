@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T00:25:52.773Z",
+  "updated_at": "2026-11-02T06:06:34.450Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -4915,6 +4915,21 @@
       ],
       "release_date": "2026-10-16",
       "source_url": "https://cc18.tv/player.php?uuid=11D214unN64&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-02"
+    },
+    {
+      "id": "DLDSS-565",
+      "actress": [
+        "角奈保"
+      ],
+      "release_date": "2026-11-01",
+      "source_url": "https://cc18.tv/player.php?uuid=2ZC6zUeE_83&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

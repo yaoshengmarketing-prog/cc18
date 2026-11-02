@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "DLDSS-565",
+  "review_sha256": "07b13f8811844d6c4203d0635ebeec72bc7103f16ce9723d5f741d5a993e385f",
+  "selected_thesis": "《DLDSS-565》最值得注意的不是單一屬性，而是公開簡介如何把「明知是男湯」放進夫妻旅行失衡後的溫泉情境，讓它成為一部設定辨識度高於一般標籤片的企劃作。",
+  "title_basis": {
+    "performer": "角奈保",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "角奈保",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "明知是男湯",
+        "source_field": "title"
+      },
+      {
+        "type": "setting",
+        "value": "溫泉場景",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "人妻・主婦",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "角奈保",
+    "presentation_feature": "明知是男湯",
+    "editorial_judgment": "以公開簡介可追溯的設定來看，這片的選片重點不在單一標籤，而在「夫妻溫泉旅行失衡後，妻子獨自走入帶有男湯錯位意味的溫泉場域」這個企劃概念。",
+    "source_keywords": [
+      "角奈保",
+      "明知是男湯",
+      "溫泉場景",
+      "人妻・主婦"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開簡介先寫「久違的夫妻二人世界溫泉旅行」，再接著寫丈夫在車內接到電話後，旅行變成「最糟糕的噩夢」，可見作品入口是先建立夫妻旅行，再用突發變化把氣氛扭轉。",
+      "basis": "public_source",
+      "signal": "劇情設定"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源概念直接給出「明知是男湯」，而公開摘錄又明示奈保獨自前往溫泉、該時段似乎為混浴，並有中年男子走進來，說明溫泉空間的錯位與不安感是主要辨識點。",
+      "basis": "public_source",
+      "signal": "核心企劃"
+    },
+    {
+      "observation_refs": [],
+      "supports": "安全標籤含「人妻・主婦」「巨乳」「3p・4p」「高畫質」，表示本片除了企劃設定，也同時以人物屬性與成人題材標籤吸引受眾。",
+      "basis": "public_source",
+      "signal": "來源標籤結構"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開摘錄最後再寫「奈保再次前往溫泉」，代表簡介至少建立了重返同一場域的推進感，因此本片不只是單點展示，還帶有明確的情境延續。",
+      "basis": "public_source",
+      "signal": "敘事推進"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱已確認實際畫面中男湯、混浴或溫泉場景的具體拍法",
+    "未聲稱已觀察到角奈保的表情、演技、身體語言或情緒層次",
+    "未把「3p・4p」標籤寫成已驗證的段落比例或實際發生順序",
+    "未補寫丈夫電話的內容與後續原因",
+    "未替公開簡介之外的人物關係、場景細節或結局做延伸設定"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}

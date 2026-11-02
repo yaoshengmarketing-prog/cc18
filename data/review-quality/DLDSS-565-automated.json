@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "DLDSS-565",
+  "checked_at": "2026-11-02T06:04:34.145Z",
+  "review_sha256": "ad54105ea25e65ec1d46019880337c6697a1ab4b289b1485a03b4aaeb5f6be7b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看公開資料，這部最該先看的不是單一成人標籤，而是「明知是男湯」這個核心概念。公開簡介先交代這是一趟久違的夫妻溫泉旅行，接著用丈夫在車內接到電話、旅行瞬間變成噩夢來製造落差，再把奈保推向獨自前往溫泉的情境。這種寫法很明顯是企劃先行：先用旅行與夫妻關係建立日常感，再把角色放進不"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 1
+  }
+}

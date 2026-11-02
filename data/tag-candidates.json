@@ -950,7 +950,7 @@
     },
     {
       "label": "熟女",
-      "occurrences": 18,
+      "occurrences": 19,
       "source_ids": [
         "JUR-862",
         "JUR-850",
@@ -969,10 +969,11 @@
         "HOKS-235",
         "KSBJ-445",
         "JUR-866",
-        "JUR-865"
+        "JUR-865",
+        "DLDSS-565"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-21",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {
@@ -1709,17 +1710,18 @@
     },
     {
       "label": "溫泉",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "OREMO-606",
         "OFTR-016",
         "SQTE-717",
         "BANK-248",
         "DANDYA-050",
-        "HUNTC-659"
+        "HUNTC-659",
+        "DLDSS-565"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {

@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:193282ad6eb007b3273107b62b01f671f644652a58cbcdb5b0d47221ad99accf",
-  "source_generated_at": "2026-11-02T00:26:04.014Z",
+  "source_revision": "sha256:c6db9d7f78e4de250b5c8dc1152bc658dde496f57e77c13838954f8fa085d0ec",
+  "source_generated_at": "2026-11-02T06:06:52.341Z",
   "counts": {
-    "movies": 326,
+    "movies": 327,
     "performers": 292,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -1341,7 +1341,8 @@
       "source_name": "角奈保",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:DLDSS-545"
+        "cc18:DLDSS-545",
+        "cc18:DLDSS-565"
       ]
     },
     {
@@ -3326,6 +3327,55 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:DLDSS-565",
+        "source_cover": "https://cc18.tv/preview/80/b/2ZC6zUeE_83-800.jpg?v=1793115124",
+        "title": "DLDSS-565 角奈保｜明知是男湯：以溫泉錯位設定撐起記憶點的企劃作",
+        "catalog_code": "DLDSS-565",
+        "release_date": "2026-11-01",
+        "performers": [
+          "角奈保"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dldss-565/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:47210"
+      ],
+      "search": {
+        "source_title": "「明知是男湯…。」接下來我會被男人們抱到暈頭轉向囉ー。 角奈保",
+        "article_title": "DLDSS-565 角奈保｜明知是男湯：以溫泉錯位設定撐起記憶點的企劃作",
+        "display_short_title": null,
+        "slug": "dldss-565"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:ADN-814",
