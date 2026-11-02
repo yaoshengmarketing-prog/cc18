@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "ATID-707",
+  "review_sha256": "966d841d2692503018f22094723728f726e7fcb876f92758d118f8644cde3fa2",
+  "selected_thesis": "來源資料可確認本作以「不斷被弄到高潮的女上司」作為主要作品線索。",
+  "title_basis": {
+    "performer": "桜みお",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "桜みお",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "不斷被弄到高潮的女上司",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "クリトリスを「吸うやつ」で下半身ガクガクになるまで",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "桜みお",
+    "presentation_feature": "不斷被弄到高潮的女上司",
+    "editorial_judgment": "來源資料可確認本作以「不斷被弄到高潮的女上司」作為主要作品線索。",
+    "source_keywords": [
+      "桜みお",
+      "不斷被弄到高潮的女上司",
+      "クリトリスを「吸うやつ」で下半身ガクガクになるまで",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：桜みお",
+      "supports": "這項可追溯來源訊號支持文章以「桜みお」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：クリトリスを「吸うやつ」で下半身ガクガクになるまで",
+      "supports": "這項可追溯來源訊號支持文章以「クリトリスを「吸うやつ」で下半身ガクガクになるまで」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：不斷被弄到高潮的女上司",
+      "supports": "這項可追溯來源訊號支持文章以「不斷被弄到高潮的女上司」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：OL",
+      "supports": "這項可追溯來源訊號支持文章以「OL」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}

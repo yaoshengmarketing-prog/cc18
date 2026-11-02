@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:fe0f71a329a30dcf171149ba95d24ad4fd14e14c6652e1c8918776c2ac518a33",
-  "source_generated_at": "2026-11-02T23:41:26.119Z",
+  "source_revision": "sha256:2ea2def4be97fb8d6aa59eb2931a188fba2325666a4ad360c5603dbabb6e4733",
+  "source_generated_at": "2026-11-02T23:46:51.220Z",
   "counts": {
-    "movies": 343,
-    "performers": 301,
+    "movies": 344,
+    "performers": 302,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2389,6 +2389,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:53311",
+      "display_name": "桜みお",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "桜みお",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:ATID-707"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:44598",
       "display_name": "桜ゆの",
       "display_name_zh_tw": null,
@@ -3525,6 +3536,47 @@
         "article_title": "ADN-814 白峰美羽｜人妻題材的「最終也被寢取淪陷」企劃：系列公式先行",
         "display_short_title": null,
         "slug": "adn-814"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:ATID-707",
+        "source_cover": "https://cc18.tv/preview/80/b/qY5OrdJGc9B-800.jpg?v=1793406998",
+        "title": "ATID-707 桜みお｜不斷被弄到高潮的女上司",
+        "catalog_code": "ATID-707",
+        "release_date": "2026-10-30",
+        "performers": [
+          "桜みお"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "office-lady",
+            "label": "OL"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/atid-707/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53311"
+      ],
+      "search": {
+        "source_title": "被無能部下用「吸吮器」刺激陰蒂直到下半身發抖為止，不斷被弄到高潮的女上司 櫻美櫻",
+        "article_title": "ATID-707 桜みお｜不斷被弄到高潮的女上司",
+        "display_short_title": null,
+        "slug": "atid-707"
       }
     },
     {

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-02T23:41:26.119Z",
+  "generated_at": "2026-11-02T23:46:51.220Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 347,
-  "formal_movie_count": 346,
+  "tracked_input_count": 348,
+  "formal_movie_count": 347,
   "demo_count": 1,
-  "published_count": 343,
+  "published_count": 344,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -125,6 +125,15 @@
       "is_demo": false,
       "is_published": false,
       "content_hash": "11d4b72de8bd4fe3bec5e06ae97fb229828a723b348f53898eedacb96240411a"
+    },
+    {
+      "stable_movie_id": "cc18:ATID-707",
+      "catalog_code": "ATID-707",
+      "slug": "atid-707",
+      "master_path": "data/movie-master/atid-707.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "beffb2140f5441aecdefba7205128003924a88705a07bc34b50a89638ec964f0"
     },
     {
       "stable_movie_id": "cc18:ATID-710",
