@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "NPJS-285",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-02T06:17:04.896Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/NPJS-285/hero-v1.jpg",
+      "r2_key": "works/2026/10/NPJS-285/hero-v1.jpg",
+      "bytes": 498820,
+      "sha256": "7868b536db15a2e7491c8840852046c2fe62301eb49793c21105200a7a0cf1c1",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "7f873adc117e45e99150d8841e0f6b65",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/NPJS-285/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/NPJS-285/scene-vertical-v1.jpg",
+      "bytes": 963837,
+      "sha256": "bc8ed9088e0f0a4c10973b9f4c124f4912a726c312bb1a723aa448c1b60ae448",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "c6cfab44831042079141739d1fb06813",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2981511,
+    "sha256": "d96a61dcb87c3d060e27385800e45c7245ccb4610d94f9605ce86fdd3773cb35",
+    "target_r2_key": "works/2026/10/NPJS-285/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/NPJS-285/vertical-v1.mp4"
+  }
+}

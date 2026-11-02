@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "id": "NPJS-285",
+  "checked_at": "2026-11-02T06:16:18.265Z",
+  "review_sha256": "55363ef2bef7baeb256cf6fb2a16a96f6a2f2fcd3305a5b9bef29087f4be947b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "source_core_concept_not_developed",
+    "insufficient_sections",
+    "insufficient_evidence",
+    "insufficient_presentation_signals"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最直接的賣點就是來源本身已經說透的「打工處方便的後輩炮友」。這個概念一次交代了互動場域、角色位置與成人關係的方向：打工處帶來近距離接觸，後輩提供上下位階的想像，炮友則把作品的親密模式定得很明白。對選片者來說，這種題材不是靠猜，而是靠是否剛好命中你的偏好。"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_presentation_signals",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

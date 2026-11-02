@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "NPJS-285",
+  "calls": [
+    {
+      "generated_at": "2026-11-02T06:16:17.921Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4354,
+      "cached_input_tokens": 0,
+      "output_tokens": 4970,
+      "total_tokens": 9324,
+      "estimated_cost_usd": 0.133595,
+      "estimated_payg_cash_cost_usd": 0.140275,
+      "direct_openai_reference_usd": 0.085435,
+      "gateway_premium_usd": 0.04816,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4354,
+    "cached_input_tokens": 0,
+    "output_tokens": 4970,
+    "estimated_cost_usd": 0.133595,
+    "estimated_payg_cash_cost_usd": 0.140275,
+    "direct_openai_reference_usd": 0.085435,
+    "gateway_premium_usd": 0.04816
+  }
+}

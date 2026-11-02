@@ -606,7 +606,7 @@
     },
     {
       "label": "m女",
-      "occurrences": 11,
+      "occurrences": 12,
       "source_ids": [
         "MVG-171",
         "IPZZ-978",
@@ -618,10 +618,11 @@
         "SNOS-377",
         "MISM-463",
         "BLOR-309",
-        "NACT-185"
+        "NACT-185",
+        "NPJS-285"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {
@@ -1034,12 +1035,13 @@
     },
     {
       "label": "情侶",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "BBAN-601"
+        "BBAN-601",
+        "NPJS-285"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {

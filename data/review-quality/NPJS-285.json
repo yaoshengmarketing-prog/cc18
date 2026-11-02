@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "NPJS-285",
+  "review_sha256": "38fed79585b4af72fef9bd3ca9cd43c22a69d2d065de57b0abb40ea7dfc1a2e2",
+  "selected_thesis": "如果你要找的是設定一句就能成立、角色標籤清楚、節奏訴求直接的作品，NPJS-285 的吸引力會比它的未知劇情更早發生。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "打工處方便的後輩炮友",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "女大學生",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "口交",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "打工處方便的後輩炮友",
+    "presentation_feature": "女大學生",
+    "editorial_judgment": "把本作定位成一部由來源概念直接帶動選片的作品：看點集中在「打工處方便的後輩炮友」這個一眼可懂的題材，並以快速啟動的企劃語氣強化展示型吸引力，而不是先訴求高劇情密度。",
+    "source_keywords": [
+      "打工處方便的後輩炮友",
+      "女大學生",
+      "巨乳",
+      "口交"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "核心選片概念可直接錨定在「打工處方便的後輩炮友」，因為它同時出現在 core_source_concept 與安全標記中，足以作為標題與主論點中心。",
+      "basis": "public_source",
+      "signal": "打工處方便的後輩炮友"
+    },
+    {
+      "observation_refs": [],
+      "supports": "系列名稱完整保留同一組概念，顯示本作的命名方式偏向公式清楚、題材先行，適合用「系列公式感」來理解。",
+      "basis": "public_source",
+      "signal": "バイト先の都合の良い後輩セフレ即尺即ハメ バイトテロ"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤列出「女大學生」與「巨乳」，說明本作除了題材概念外，也依賴身份與體型標示作為快速選片入口。",
+      "basis": "public_source",
+      "signal": "女大學生／巨乳"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤包含「口交」，而來源摘錄又有「即尺即ハメ」「秒含秒幹」這類快速啟動語彙，可支持「企劃節奏訴求偏快」的編輯判斷，但不足以證成具體場面配置。",
+      "basis": "public_source",
+      "signal": "口交／即尺即ハメ"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未確認的具體場景與發生順序",
+    "未確認的人物關係發展、衝突與結局",
+    "演員姓名、年齡、真實身分與私生活資訊",
+    "任何來自實際觀看的鏡位、剪輯、聲音、表情或演技判斷"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}
