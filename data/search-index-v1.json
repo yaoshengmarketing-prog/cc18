@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:f709eaffd6e6a4f84726669011782bc1649c233de6c8cf0b9e1192f955a9362f",
-  "source_generated_at": "2026-11-02T00:21:11.491Z",
+  "source_revision": "sha256:193282ad6eb007b3273107b62b01f671f644652a58cbcdb5b0d47221ad99accf",
+  "source_generated_at": "2026-11-02T00:26:04.014Z",
   "counts": {
-    "movies": 325,
-    "performers": 291,
+    "movies": 326,
+    "performers": 292,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1264,6 +1264,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:29513",
+      "display_name": "役野滿里奈",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "役野滿里奈",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PPPE-455"
       ]
     },
     {
@@ -5223,6 +5234,55 @@
         "article_title": "MVSD-708 深雪しおり｜深雪詩織的人妻主婦企劃：報復前提比多人噱頭更醒目",
         "display_short_title": null,
         "slug": "mvsd-708"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:PPPE-455",
+        "source_cover": "https://cc18.tv/preview/80/b/11D214unN64-800.jpg?v=1792399049",
+        "title": "PPPE-455 役野滿里奈｜全裸巨乳家政婦",
+        "catalog_code": "PPPE-455",
+        "release_date": "2026-10-16",
+        "performers": [
+          "役野滿里奈"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/pppe-455/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:29513"
+      ],
+      "search": {
+        "source_title": "全裸巨乳家政婦 役野満里奈",
+        "article_title": "PPPE-455 役野滿里奈｜全裸巨乳家政婦",
+        "display_short_title": null,
+        "slug": "pppe-455"
       }
     },
     {
