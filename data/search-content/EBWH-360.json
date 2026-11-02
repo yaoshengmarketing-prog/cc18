@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "movie_id": "EBWH-360",
+  "generated_at": "2026-11-02T16:35:44.032Z",
+  "source_snapshot_hash": "sha256:8da23f408e246189c6db43ca4f296eb0708b27801a094f8471c1230406cc18b5",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "當公開資訊幾乎都集中在「宇野小春／宇野こはる」、美少女、巨乳與基礎成人標籤時，EBWH-360 最合理的定位就是以演員與身份辨識為核心的展示型作品，而不是以完整劇情取勝的片子。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "演員辨識度優先",
+      "美少女／巨乳標籤明確",
+      "展示型企劃取向",
+      "高畫質與獨家配信屬輔助資訊"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "主要跟著宇野こはる選片的人",
+      "偏好美少女標籤的觀眾",
+      "會把巨乳與成人動作標籤當成基本篩選條件的人",
+      "在意高畫質與獨家配信便利性的觀眾"
+    ],
+    "not_for": [
+      "想先確認明確劇情主線的人",
+      "偏好人物關係轉折或世界觀設定的人",
+      "需要具體場景與演出細節才會下判斷的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部作品最明確的賣點是什麼？",
+    "公開標籤透露了哪些觀看期待？",
+    "它比較像劇情片還是展示型企劃？",
+    "技術規格對選片的重要性有多高？",
+    "這部作品適合哪些觀眾，不適合哪些觀眾？"
+  ]
+}

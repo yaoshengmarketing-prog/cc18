@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "EBWH-360",
+  "review_sha256": "cd1eb041ad49a333a9cb4c2e59b696f2a38308c7eec34af0a23accb43122891b",
+  "selected_thesis": "當公開資訊幾乎都集中在「宇野小春／宇野こはる」、美少女、巨乳與基礎成人標籤時，EBWH-360 最合理的定位就是以演員與身份辨識為核心的展示型作品，而不是以完整劇情取勝的片子。",
+  "title_basis": {
+    "performer": "宇野こはる",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "宇野こはる",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "宇野小春",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "美少女",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "宇野こはる",
+    "presentation_feature": "宇野小春",
+    "editorial_judgment": "把 EBWH-360 放回公開資料能證明的範圍來看，這部作品最明確的賣點不是劇情，而是以「宇野小春／宇野こはる」為核心的美少女展示型企劃。",
+    "source_keywords": [
+      "宇野こはる",
+      "宇野小春",
+      "美少女",
+      "巨乳"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開來源把作品辨識重心放在演員與核心名稱，足以支撐「以人物名義為主的展示型選片」這一判斷。",
+      "basis": "public_source",
+      "signal": "宇野こはる／宇野小春"
+    },
+    {
+      "observation_refs": [],
+      "supports": "安全標籤包含「美少女」「巨乳」，顯示作品的主要辨識方式偏向外型與身份標記，而非故事情節。",
+      "basis": "public_source",
+      "signal": "美少女、巨乳"
+    },
+    {
+      "observation_refs": [],
+      "supports": "topic_elements 出現「口交」「亂交」，可以作為成人內容範圍的公開提示，但不足以推論具體段落安排與比重。",
+      "basis": "public_source",
+      "signal": "口交、亂交"
+    },
+    {
+      "observation_refs": [],
+      "supports": "presentation 標示有 720p、HD、4k、獨家配信與高畫質，適合當成附加吸引點，但不構成比演員核心更強的選片理由。",
+      "basis": "public_source",
+      "signal": "高畫質、獨家配信"
+    },
+    {
+      "observation_refs": [],
+      "supports": "creative_seed_brief 中 premise、relationship、role_dynamic、central_tension、setting 皆為未知，說明目前沒有可追溯資料能支持高劇情密度的閱讀。",
+      "basis": "public_source",
+      "signal": "劇情資訊不足"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何具體劇情主線",
+    "未推定人物關係與角色身份",
+    "未聲稱已觀察到特定場景、鏡位、剪輯或聲音設計",
+    "未判定演技、表情、身體語言或互動化學反應",
+    "未把高畫質或獨家配信寫成內容品質保證"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}

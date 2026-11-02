@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-02T16:30:06.284Z",
+  "generated_at": "2026-11-02T16:37:27.707Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 343,
-  "formal_movie_count": 342,
+  "tracked_input_count": 344,
+  "formal_movie_count": 343,
   "demo_count": 1,
-  "published_count": 339,
+  "published_count": 340,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -647,6 +647,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "e32e1a6ad94f7f71f79c62ecf8c6d2c05dbf64c7bcbb70f7631279285b9f36d2"
+    },
+    {
+      "stable_movie_id": "cc18:EBWH-360",
+      "catalog_code": "EBWH-360",
+      "slug": "ebwh-360",
+      "master_path": "data/movie-master/ebwh-360.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "f773021aa97de617f0f4a3b4473b16d2e62b51dbb02c818eb5fc64ea29f8299d"
     },
     {
       "stable_movie_id": "cc18:EBWH-366",

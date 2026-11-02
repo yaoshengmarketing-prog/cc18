@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "EBWH-360",
+  "checked_at": "2026-11-02T16:35:44.197Z",
+  "review_sha256": "9d3db7c5d859d39bd3dd8ea5374336e9f98188b6f44c9e5659f4230a6c5144b9",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "public source 提供的 來源題材資料 裡，成人內容方向可見「口交」與「亂交」，身份面則有「AV女優片」「美少女」，身材面則有「巨乳」。這些資訊足以幫助選片者建立基礎期待：作品不是走模糊定位，而是把成人類型標籤直接放在檯面上。不過，這些標籤只能證明作品的公開分類與主打方"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "從目前資料判斷，我會把它歸在展示型企劃的閱讀方式。理由不是因為作品一定沒有故事，而是因為現在沒有任何可追溯資訊能支撐『故事是主要賣點』：系列未知、公開簡介未提供、人物關係未知，企劃構想資料 也明白留下 故事前提、人物關係、角色互動、主要衝突、場景設定 為空。這代表我們不能把角色變"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 5,
+    "recommendations": 0
+  }
+}
