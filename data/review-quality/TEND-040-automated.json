@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "TEND-040",
+  "checked_at": "2026-11-01T23:58:52.285Z",
+  "review_sha256": "7afac2c4f147edb8ab1d0861957aceaa6224a8bc0f5be85122dc96acc630ab04",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最明確的理由就是高城渚本人，以及公開來源直接給出的「高城渚完整版」概念。當作品名稱核心不是故事梗概，而是把辨識點集中在單一出演者身上時，選片邏輯自然會先落在「是否想看高城渚」而不是「這次演了什麼情節」。對本來就會跟著演員選片的觀眾來說，這是最直接也最清楚的入口。"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "依目前可追溯資料，更適合把它歸為展示型企劃來理解。原因不是已經確認內容如何，而是公開資訊幾乎都圍繞在「高城渚完整版」「美少女」「窈窕」「中出」與「高畫質」這些標籤上；相反地，人物關係、故事衝突、場景背景都沒有可供核對的介紹。當來源資訊把重心放在出演者形象與主題整理，而不是敘事設定"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

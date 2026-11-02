@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "movie_id": "TEND-040",
+  "generated_at": "2026-11-01T23:58:52.190Z",
+  "source_snapshot_hash": "sha256:ac0e6a4eac37997c2eb941ca0532d44fe3076f9a718b5a570f4341677ed5eabe",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "這部作品的可追溯重心是「高城渚完整版」本身；在缺乏劇情與人物關係資訊時，最穩妥的判斷是把它看成以高城渚與其公開標籤為核心的展示型企劃。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以高城渚個人辨識度作為第一賣點",
+      "公開標籤集中在美少女、窈窕、中出與高畫質",
+      "較適合視為展示型企劃，而非先講故事的作品"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "主要跟著高城渚選片的觀眾",
+      "偏好以美少女形象與身材標籤作為第一篩選條件的觀眾",
+      "能接受以企劃整理與人物展示為主、而非先賣故事的觀眾"
+    ],
+    "not_for": [
+      "想先確認完整劇情梗概再決定是否入手的觀眾",
+      "特別在意人物關係、場景推進或敘事轉折的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這片最明確的選片理由是什麼？",
+    "它比較偏向劇情片還是展示型企劃？",
+    "公開標籤會如何影響期待管理？",
+    "哪些觀眾較適合、哪些觀眾不適合？"
+  ]
+}

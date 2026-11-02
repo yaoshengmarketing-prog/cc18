@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "TEND-040",
+  "review_sha256": "c0212f18ed1f2529589be3516acf349aead25fa0d8aa5fcd668697d72bd44dd1",
+  "selected_thesis": "這部作品最適合被理解為一個以高城渚為中心的展示型企劃：公開來源強調「高城渚完整版」與形象標籤，而非故事資訊，因此選片重點應放在出演者與企劃定位，而不是假定其敘事內容。",
+  "title_basis": {
+    "performer": "高城渚",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "高城渚",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "高城渚完整版",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "美少女",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "高城渚",
+    "presentation_feature": "高城渚完整版",
+    "editorial_judgment": "以「高城渚完整版」為核心概念，判斷本作更適合從出演者辨識度與展示型企劃切入，而不是從未提供的劇情設定切入。",
+    "source_keywords": [
+      "高城渚",
+      "高城渚完整版",
+      "美少女",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開來源的核心概念與來源摘錄都直接指向「高城渚完整版」，足以支持本作以出演者集中呈現為主要辨識點。",
+      "basis": "public_source",
+      "signal": "高城渚完整版"
+    },
+    {
+      "observation_refs": [],
+      "supports": "safe title signals 與 source_concepts 都出現「美少女」，顯示公開包裝明確依賴人物形象標籤，而非故事摘要。",
+      "basis": "public_source",
+      "signal": "美少女"
+    },
+    {
+      "observation_refs": [],
+      "supports": "topic elements 提供「窈窕」與「中出」，可作為選片時的來源標籤依據，但不足以延伸成具體場景或情節描述。",
+      "basis": "public_source",
+      "signal": "窈窕／中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資料列有 720p、HD 與高畫質，說明畫質是輔助賣點，但並未取代核心概念本身。",
+      "basis": "public_source",
+      "signal": "720p／HD／高畫質"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "任何未提供的劇情線、人物關係與場景設定",
+    "任何鏡位、剪輯、聲音、節奏或演技表現的觀看結論",
+    "任何關於角色變化、主導權轉移或情緒轉折的具體內容",
+    "任何未被公開來源證實的系列定位或作品世界觀"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z"
+}

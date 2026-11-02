@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-01T23:54:59.911Z",
+  "updated_at": "2026-11-02T00:00:09.387Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -4829,6 +4829,21 @@
       ],
       "release_date": "2026-10-23",
       "source_url": "https://cc18.tv/player.php?uuid=20p7cyc9z86&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-01"
+    },
+    {
+      "id": "TEND-040",
+      "actress": [
+        "高城渚"
+      ],
+      "release_date": "2026-10-20",
+      "source_url": "https://cc18.tv/player.php?uuid=dt0AuEWxL18&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

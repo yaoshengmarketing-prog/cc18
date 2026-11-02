@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:5e5a60804832ed028d74b25806bb32ba5c3f4746f5ab79d43ebd53315624055e",
-  "source_generated_at": "2026-11-01T23:55:10.566Z",
+  "source_revision": "sha256:244fb359e29abc24c241725edbcc71aceeb0acb08c4d80da76d29d5176698952",
+  "source_generated_at": "2026-11-02T00:00:20.708Z",
   "counts": {
-    "movies": 320,
-    "performers": 288,
+    "movies": 321,
+    "performers": 289,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2349,6 +2349,17 @@
       "related_movie_ids": [
         "cc18:FNS-244",
         "cc18:FNS-254"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:41240",
+      "display_name": "高城渚",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "高城渚",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:TEND-040"
       ]
     },
     {
@@ -4973,6 +4984,51 @@
         "article_title": "ROYD-361 九井珠奈緒｜被豐滿巨乳的繼姊破處的我",
         "display_short_title": null,
         "slug": "royd-361"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:TEND-040",
+        "source_cover": "https://cc18.tv/preview/80/b/dt0AuEWxL18-800.jpg?v=1793115117",
+        "title": "TEND-040 高城渚｜高城渚完整版美少女企劃：展示型取向明確",
+        "catalog_code": "TEND-040",
+        "release_date": "2026-10-20",
+        "performers": [
+          "高城渚"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/tend-040/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:41240"
+      ],
+      "search": {
+        "source_title": "高城渚完整版",
+        "article_title": "TEND-040 高城渚｜高城渚完整版美少女企劃：展示型取向明確",
+        "display_short_title": null,
+        "slug": "tend-040"
       }
     },
     {

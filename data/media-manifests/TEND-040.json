@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "TEND-040",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-01T23:59:36.265Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/TEND-040/hero-v1.jpg",
+      "r2_key": "works/2026/10/TEND-040/hero-v1.jpg",
+      "bytes": 525725,
+      "sha256": "098ef5bba1450d9005531bb63b49e89fb4a7b5f7dc7e934555624b9acaf7ea05",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "e704dcdbbb3941689676b16100b4e9bf",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/TEND-040/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/TEND-040/scene-vertical-v1.jpg",
+      "bytes": 907742,
+      "sha256": "b262829ce1b1e396ddb20aeffc92e334ffc9f382bbb19f0e9e1e49a29759bc82",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "def5a8f0b2ea4661bb04298bdf69e060",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2279615,
+    "sha256": "8498e856a8de47404c2d3c627abf910e0966927c8744f8767b7ba7726d7b06bc",
+    "target_r2_key": "works/2026/10/TEND-040/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/TEND-040/vertical-v1.mp4"
+  }
+}

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-01T23:55:10.566Z",
+  "generated_at": "2026-11-02T00:00:20.708Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 324,
-  "formal_movie_count": 323,
+  "tracked_input_count": 325,
+  "formal_movie_count": 324,
   "demo_count": 1,
-  "published_count": 320,
+  "published_count": 321,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2780,6 +2780,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "ef4b8fb0ce7562b209e3eac2be41b59ddf5299bc17ea832d3c17e0dd4f30b6e8"
+    },
+    {
+      "stable_movie_id": "cc18:TEND-040",
+      "catalog_code": "TEND-040",
+      "slug": "tend-040",
+      "master_path": "data/movie-master/tend-040.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "3c5e2a62c31d8c8c75c7d964841b3f0ba479d1739d8b3c24e48428f1d74a06b1"
     },
     {
       "stable_movie_id": "cc18:TENN-052",
