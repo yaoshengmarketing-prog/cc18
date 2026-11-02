@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "MUKD-589",
+  "checked_at": "2026-11-02T16:28:25.268Z",
+  "review_sha256": "9937222da316bb5097d5bc107c640cdfec7c27ee0da1c15666d9a53242fd1b05",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就公開資料來看，MUKD-589 最明確的核心不是已被詳細證實的劇情，而是「w喉奥肉便器」這個企劃名本身。系列欄位與 core source concept 都直接指向同一個名稱，代表選片時應優先把它理解為一部概念辨識度很高的企劃作品。再加上來源摘錄中另有「W喉腔深處肉便器」與「"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "來源標籤把取向說得很清楚：identity 有「美少女」，body 有「巨乳」，action 有「中出」與「淫亂・過激系」，呈現形式 則補上「720p」「独占配信」「HD」。這些資料的作用不是證明具體橋段，而是幫你快速判斷作品落點。換句話說，它的宣傳組合不是走日常感或慢熱敘事，而"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 1
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T16:22:45.544Z",
+  "updated_at": "2026-11-02T16:29:47.385Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -5093,6 +5093,22 @@
       ],
       "release_date": "2026-10-16",
       "source_url": "https://cc18.tv/player.php?uuid=cm5wusdAR3J&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-02"
+    },
+    {
+      "id": "MUKD-589",
+      "actress": [
+        "斉藤帆夏",
+        "桃瀨日葵"
+      ],
+      "release_date": "2026-10-16",
+      "source_url": "https://cc18.tv/player.php?uuid=grPslQQph1z&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

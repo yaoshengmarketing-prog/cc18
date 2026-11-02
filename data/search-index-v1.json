@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:2f76e5775c699c34c260193161ab607ebaba07e23ff5b7b2513666b46893d237",
-  "source_generated_at": "2026-11-02T16:23:04.324Z",
+  "source_revision": "sha256:96f0e5e07b175fd4c5ca01c336127226bcebe79c9cafd7790be0ff2ba2d9caa9",
+  "source_generated_at": "2026-11-02T16:30:06.284Z",
   "counts": {
-    "movies": 338,
-    "performers": 297,
+    "movies": 339,
+    "performers": 298,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1464,6 +1464,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:28779",
+      "display_name": "斉藤帆夏",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "斉藤帆夏",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MUKD-589"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:16075",
       "display_name": "明里紬",
       "display_name_zh_tw": null,
@@ -2306,7 +2317,8 @@
       "source_name": "桃瀨日葵",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:BBAN-601"
+        "cc18:BBAN-601",
+        "cc18:MUKD-589"
       ]
     },
     {
@@ -5760,6 +5772,57 @@
         "article_title": "MUDR-409｜要好女孩子4人的故事：美少女四人企劃感是關鍵",
         "display_short_title": null,
         "slug": "mudr-409"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MUKD-589",
+        "source_cover": "https://cc18.tv/preview/80/b/grPslQQph1z-800.jpg?v=1792399038",
+        "title": "MUKD-589 斉藤帆夏、桃瀨日葵｜w喉奥肉便器：企劃名先行的雙演員選片",
+        "catalog_code": "MUKD-589",
+        "release_date": "2026-10-16",
+        "performers": [
+          "斉藤帆夏",
+          "桃瀨日葵"
+        ],
+        "canonical_topics": [
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mukd-589/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28779",
+        "cc18.tv:actor:43599"
+      ],
+      "search": {
+        "source_title": "W喉腔深处肉便器 侵吞捐款的慈善诈骗少女 搅得稀烂彻底砸碎劣根性的极恶深喉矫正方案",
+        "article_title": "MUKD-589 斉藤帆夏、桃瀨日葵｜w喉奥肉便器：企劃名先行的雙演員選片",
+        "display_short_title": null,
+        "slug": "mukd-589"
       }
     },
     {

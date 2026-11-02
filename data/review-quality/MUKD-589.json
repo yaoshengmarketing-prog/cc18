@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "MUKD-589",
+  "review_sha256": "86d1ae6cf10c69f5bc9b4295d0c8b628881877b550cbcdbb133d0c1f94f1a2c9",
+  "selected_thesis": "MUKD-589 的可選性主要來自「w喉奥肉便器」這個強辨識系列概念，配合雙演員名單與鮮明來源標籤，形成一部賣點集中、企劃感先行的展示型作品。",
+  "title_basis": {
+    "performer": "斉藤帆夏、桃瀨日葵",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "斉藤帆夏",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "w喉奥肉便器",
+        "source_field": "series"
+      },
+      {
+        "type": "performer",
+        "value": "桃瀨日葵",
+        "source_field": "actress"
+      },
+      {
+        "type": "identity",
+        "value": "美少女",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "斉藤帆夏",
+    "presentation_feature": "w喉奥肉便器",
+    "editorial_judgment": "以公開資料可確認的企劃名、雙演員名單與來源標籤為主，判斷這部作品更像是設定先行的系列展示型選片，而不是依賴已驗證劇情細節的故事片。",
+    "source_keywords": [
+      "斉藤帆夏",
+      "w喉奥肉便器",
+      "桃瀨日葵",
+      "美少女"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開資料同時列出兩位演員斉藤帆夏、桃瀨日葵，且系列名與核心概念都指向「w喉奥肉便器」，可支持本作以雙人企劃與系列概念作為主要選片入口。",
+      "basis": "public_source",
+      "signal": "w喉奥肉便器"
+    },
+    {
+      "observation_refs": [],
+      "supports": "topic_elements 提供「美少女」「巨乳」「中出」「淫亂・過激系」等來源標籤，說明公開宣傳重點明確偏向強企劃、強刺激的類型辨識。",
+      "basis": "public_source",
+      "signal": "美少女"
+    },
+    {
+      "observation_refs": [],
+      "supports": "creative_seed_brief 的來源摘錄包含「侵吞捐款的慈善诈骗少女」，可作為角色設定的公開線索，但不足以延伸出完整劇情。",
+      "basis": "public_source",
+      "signal": "侵吞捐款的慈善詐騙少女"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標示含「720p／HD／独占配信」，這些資訊能補充發行與呈現面向，但不足以取代企劃概念本身成為選片核心。",
+      "basis": "public_source",
+      "signal": "高畫質獨家配信"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何未經證實的場景、鏡位、聲音、剪輯或表演細節。",
+    "未把「侵吞捐款的慈善詐騙少女」擴寫成完整劇情、關係或結局。",
+    "未推定兩位演員在片中的具體角色分工、主導權轉移或互動模式。",
+    "未以 HD、独占配信 等發行資訊取代作品主題判斷。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}

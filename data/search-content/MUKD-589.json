@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "movie_id": "MUKD-589",
+  "generated_at": "2026-11-02T16:28:25.113Z",
+  "source_snapshot_hash": "sha256:3e3fcf192b6ec6895e128e924bd4eaaabacd2d801567b46cf2e3d5ee84aab1ac",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若你的選片邏輯是先看企劃辨識度，再看演員組合與來源標籤，MUKD-589 的吸引力很集中：它以「w喉奥肉便器」為核心，再疊加雙演員、美少女、巨乳與過激取向，屬於賣點非常直接的系列展示型作品。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "雙演員名單明確",
+      "系列企劃名先行",
+      "美少女與巨乳等來源標籤清楚",
+      "高畫質與獨家配信屬補充資訊"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先被系列名與設定勾住的人",
+      "偏好雙演員編成的人",
+      "對美少女、巨乳、過激取向標籤敏感的選片者"
+    ],
+    "not_for": [
+      "期待完整已知劇情鋪陳的人",
+      "想先確認具體場景或演出細節的人",
+      "不偏好強企劃命名與過激標籤的人"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "BBAN-601",
+      "relation_type": "same_performer",
+      "reason": "同樣由桃瀨日葵出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "桃瀨日葵"
+      ],
+      "contrast_signals": [
+        "家中隨處肉穴全露",
+        "巴光莉"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品最明確的公開賣點是什麼",
+    "兩位演員名單如何影響選片判斷",
+    "來源標籤透露了哪些類型取向",
+    "哪些觀眾會比較適合這種企劃"
+  ]
+}
