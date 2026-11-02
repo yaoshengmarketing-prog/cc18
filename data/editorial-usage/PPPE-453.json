@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "PPPE-453",
+  "calls": [
+    {
+      "generated_at": "2026-11-02T16:41:37.959Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4376,
+      "cached_input_tokens": 0,
+      "output_tokens": 5770,
+      "total_tokens": 10146,
+      "estimated_cost_usd": 0.151705,
+      "estimated_payg_cash_cost_usd": 0.15929,
+      "direct_openai_reference_usd": 0.09749,
+      "gateway_premium_usd": 0.054215,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4376,
+    "cached_input_tokens": 0,
+    "output_tokens": 5770,
+    "estimated_cost_usd": 0.151705,
+    "estimated_payg_cash_cost_usd": 0.15929,
+    "direct_openai_reference_usd": 0.09749,
+    "gateway_premium_usd": 0.054215
+  }
+}

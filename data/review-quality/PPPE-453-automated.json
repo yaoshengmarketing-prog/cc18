@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "PPPE-453",
+  "checked_at": "2026-11-02T16:41:38.295Z",
+  "review_sha256": "84dae789a640cd15094d9bb1577bece77e56f91ca2789f447e74b3c3cf8b0853",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "核心很單純：公開資訊把焦點首先放在桃園怜奈本人。無論是可追溯的核心概念，還是可用的標題訊號，最穩定的辨識點都是演員姓名；再加上作品隸屬「スペンス乳腺開発クリニック」系列，代表它的入門方式不是先找故事前提，而是先確認你是否就是為了桃園怜奈，以及是否接受這個系列包裝來選片。"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "就目前公開資料，我會把它歸在展示型企劃一側。原因不是否定作品內容，而是來源沒有提供可追溯的故事前提、人物關係、角色動態或明確場景；相對地，公開標籤則集中在「巨乳」「中出」「淫亂・過激系」「アクメ・オーガズム」這類題材與強度描述，因此判斷上自然更接近以主題展示建立期待的作品。"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "系列名「スペンス乳腺開発クリニック」本身就是一個很強的企劃入口。即使目前沒有更多可引用的劇情摘錄，系列存在已足以提示：這不是只能靠單篇敘事陌生感取勝的作品，而是帶有公式感的包裝。對熟悉系列選片的人來說，這反而是優點，因為你可以先用系列辨識度來確認題材口味是否吻合。"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 5,
+    "recommendations": 2
+  }
+}

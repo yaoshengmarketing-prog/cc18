@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "movie_id": "PPPE-453",
+  "generated_at": "2026-11-02T16:41:38.139Z",
+  "source_snapshot_hash": "sha256:b12e01ff00b8b44ae4d11266b88d98527a72867de14075589d38b155e508bcf9",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "當可追溯資訊集中在演員、系列名與主題標籤時，PPPE-453 最合理的閱讀方式，是把它視為桃園怜奈置於《スペンス乳腺開発クリニック》公式中的展示型企劃。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會用演員名與系列名快速選片的觀眾",
+      "想看桃園怜奈作為企劃核心被突出呈現的觀眾",
+      "接受以主題標籤判斷作品方向的觀眾"
+    ],
+    "not_for": [
+      "期待完整人物關係與明確劇情衝突的觀眾",
+      "不偏好巨乳或中出題材標籤的觀眾",
+      "想先確認具體場景與敘事細節再決定是否觀看的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "PPPE-442",
+      "relation_type": "same_series",
+      "reason": "同屬「スペンス乳腺開発クリニック」系列，可用來比較相同公式在不同作品中的角色設定與推進差異。",
+      "shared_signals": [
+        "スペンス乳腺開発クリニック"
+      ],
+      "contrast_signals": [
+        "杏津杏",
+        "巨乳"
+      ]
+    },
+    {
+      "movie_id": "DSOD-078",
+      "relation_type": "same_performer",
+      "reason": "同樣由桃園怜奈出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "桃園怜奈"
+      ],
+      "contrast_signals": [
+        "【ハイレグ無様特化】おほ声肉便器",
+        "角色扮演"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部片的選片核心是什麼？",
+    "它偏劇情片還是展示型企劃？",
+    "系列資訊會怎麼影響你的預期？",
+    "公開標籤裡最值得參考的是哪一組？",
+    "適合誰，不適合誰？"
+  ]
+}

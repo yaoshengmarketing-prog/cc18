@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "PPPE-453",
+  "review_sha256": "00e3721c6d21a170ab0da5a9d4e66eb5c670dd26d47d0878d490521cd43f867f",
+  "selected_thesis": "當可追溯資訊集中在演員、系列名與主題標籤時，PPPE-453 最合理的閱讀方式，是把它視為桃園怜奈置於《スペンス乳腺開発クリニック》公式中的展示型企劃。",
+  "title_basis": {
+    "performer": "桃園怜奈",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "桃園怜奈",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "スペンス乳腺開発クリニック",
+        "source_field": "series"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "桃園怜奈",
+    "presentation_feature": "スペンス乳腺開発クリニック",
+    "editorial_judgment": "把桃園怜奈放回系列企劃與公開標籤來看，PPPE-453 更適合被判斷為以演員辨識度與題材方向主導的展示型作品，而不是目前可從公開資料確認的劇情片。",
+    "source_keywords": [
+      "桃園怜奈",
+      "スペンス乳腺開発クリニック",
+      "巨乳"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品的核心辨識點首先是桃園怜奈本人，選片時可優先從演員焦點切入。",
+      "basis": "public_source",
+      "signal": "桃園怜奈"
+    },
+    {
+      "observation_refs": [],
+      "supports": "系列名已足以提示這是一部可從企劃公式理解的作品，而非只能用單篇劇情閱讀。",
+      "basis": "public_source",
+      "signal": "スペンス乳腺開発クリニック"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤集中在巨乳、中出、淫亂・過激系、アクメ・オーガズム，顯示它的主要吸引力更偏題材展示與刺激度方向。",
+      "basis": "public_source",
+      "signal": "巨乳／中出／淫亂・過激系／アクメ・オーガズム"
+    },
+    {
+      "observation_refs": [],
+      "supports": "高畫質與獨家配信屬於附加的觀看條件，可作為便利性與版本資訊參考，但不構成劇情判斷依據。",
+      "basis": "public_source",
+      "signal": "高畫質／獨家配信／720p／HD"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未主張存在可確認的具體劇情前提",
+    "未主張出現可驗證的診所場景或醫療情節",
+    "未主張任何已知人物關係或角色名稱",
+    "未主張角色有明確覺醒、主導權轉移或關係轉折",
+    "未主張已觀察到鏡位、剪輯、聲音、演技、表情或身體語言"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}
