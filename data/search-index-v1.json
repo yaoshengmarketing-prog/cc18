@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:977081dd46068705a4abbcdb1c449750e5ede6cebc1052acb606b4c9a8516e57",
-  "source_generated_at": "2026-11-02T06:37:17.609Z",
+  "source_revision": "sha256:68d6a43cabe1d32e444a87c99105845e5f4df6ded79d941f69adab3adc36bbcb",
+  "source_generated_at": "2026-11-02T06:43:36.129Z",
   "counts": {
-    "movies": 332,
-    "performers": 294,
+    "movies": 333,
+    "performers": 295,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2546,6 +2546,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-372"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:29358",
+      "display_name": "清宮仁愛",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "清宮仁愛",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:EBWH-373"
       ]
     },
     {
@@ -5275,6 +5286,55 @@
         "article_title": "TEND-040 高城渚｜高城渚完整版美少女企劃：展示型取向明確",
         "display_short_title": null,
         "slug": "tend-040"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:EBWH-373",
+        "source_cover": "https://cc18.tv/preview/80/b/bEBzTOrYM3C-800.jpg?v=1792399042",
+        "title": "EBWH-373 清宮仁愛｜酒店小姐角色扮演：人設辨識度高於劇情承諾",
+        "catalog_code": "EBWH-373",
+        "release_date": "2026-10-16",
+        "performers": [
+          "清宮仁愛"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cosplay",
+            "label": "角色扮演"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "gyaru",
+            "label": "辣妹"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ebwh-373/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:29358"
+      ],
+      "search": {
+        "source_title": "和超人氣酒店小姐,抓住她的把柄,用下流屈辱的張開雙腿姿勢讓她高潮不斷ww 清宮仁愛",
+        "article_title": "EBWH-373 清宮仁愛｜酒店小姐角色扮演：人設辨識度高於劇情承諾",
+        "display_short_title": null,
+        "slug": "ebwh-373"
       }
     },
     {

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T06:36:59.294Z",
+  "updated_at": "2026-11-02T06:43:17.623Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -5003,6 +5003,21 @@
       ],
       "release_date": "2026-10-16",
       "source_url": "https://cc18.tv/player.php?uuid=pGH1BPTpqaC&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-02"
+    },
+    {
+      "id": "EBWH-373",
+      "actress": [
+        "清宮仁愛"
+      ],
+      "release_date": "2026-10-16",
+      "source_url": "https://cc18.tv/player.php?uuid=bEBzTOrYM3C&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

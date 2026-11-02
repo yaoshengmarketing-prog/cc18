@@ -584,7 +584,7 @@
     },
     {
       "label": "羞恥",
-      "occurrences": 14,
+      "occurrences": 15,
       "source_ids": [
         "MVG-171",
         "DLDSS-530",
@@ -599,10 +599,11 @@
         "NHDTC-253",
         "C-2989",
         "SNOS-405",
-        "DRPT-124"
+        "DRPT-124",
+        "EBWH-373"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {
@@ -887,14 +888,15 @@
     },
     {
       "label": "酒店小姐",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "SNOS-358",
         "SNOS-375",
-        "NACT-186"
+        "NACT-186",
+        "EBWH-373"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {
@@ -1326,7 +1328,7 @@
     },
     {
       "label": "羞辱",
-      "occurrences": 10,
+      "occurrences": 11,
       "source_ids": [
         "DOKS-689",
         "START-601",
@@ -1337,10 +1339,11 @@
         "DSJH-020",
         "HUBLK-081",
         "NACT-185",
-        "SNOS-405"
+        "SNOS-405",
+        "EBWH-373"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-24",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {
@@ -2577,6 +2580,16 @@
       "occurrences": 1,
       "source_ids": [
         "START-658"
+      ],
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02",
+      "status": "quarantined"
+    },
+    {
+      "label": "恥辱",
+      "occurrences": 1,
+      "source_ids": [
+        "EBWH-373"
       ],
       "first_seen": "2026-11-02",
       "last_seen": "2026-11-02",

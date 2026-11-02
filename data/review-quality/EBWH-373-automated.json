@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "EBWH-373",
+  "checked_at": "2026-11-02T06:41:36.555Z",
+  "review_sha256": "c27611ac98cad0c2d0a153dfa7fd930b152eb4cc30b2d9a6053e1b320e4034c7",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 6,
+          "excerpt": "因為公開欄位不只列出演員名，還把清宮仁愛本身當成核心辨識概念。這使得整支作品的選片判斷，自然會回到她與題材的匹配度：辣妹風格、角色扮演、酒店小姐這幾個元素能不能讓你對她的形象產生興趣。如果你本來就會追她的作品，這支片的吸引點會很明確；如果你不是演員導向，而是更在意完整故事，那目前"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "EBWH-373",
+  "review_sha256": "f5dd48a9df4d7fe4eb5d7134a73daa38530b54b884250fe1192744ea51162189",
+  "selected_thesis": "若以公開資訊判斷，EBWH-373 的價值在於清宮仁愛承接酒店小姐角色扮演，並用辣妹風格與刺激性題材關鍵詞拉出辨識度；它更像一支人設與企劃導向的選片。",
+  "title_basis": {
+    "performer": "清宮仁愛",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "清宮仁愛",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "角色扮演",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "辣妹",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "清宮仁愛",
+    "presentation_feature": "角色扮演",
+    "editorial_judgment": "把這支作品當成以清宮仁愛為核心的角色展示企劃來看：公開資訊真正有辨識度的是「酒店小姐」角色扮演、辣妹風格與帶有刺激性的題材關鍵詞，而不是已知完整劇情。",
+    "source_keywords": [
+      "清宮仁愛",
+      "角色扮演",
+      "辣妹"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品的選片核心首先建立在清宮仁愛本人，因為公開欄位同時以演員名與核心概念指向她。",
+      "basis": "public_source",
+      "signal": "清宮仁愛"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤包含角色扮演與辣妹，顯示本作的主要吸引力偏向人設與扮相辨識度。",
+      "basis": "public_source",
+      "signal": "角色扮演／辣妹"
+    },
+    {
+      "observation_refs": [],
+      "supports": "題名線索出現酒店小姐，讓角色扮演的方向更具體，屬於可直接影響選片的職業設定。",
+      "basis": "public_source",
+      "signal": "酒店小姐"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開簡介摘錄含有羞辱，代表題材預期可朝刺激性設定理解，但不足以推定具體橋段或強度。",
+      "basis": "public_source",
+      "signal": "羞辱"
+    },
+    {
+      "observation_refs": [],
+      "supports": "獨家配信與高畫質屬呈現與配信資訊，可作為附加條件，但不應取代題材本身的判斷。",
+      "basis": "public_source",
+      "signal": "獨家配信／高畫質"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何具體場景、鏡位、剪輯、聲音或表演細節",
+    "未推定羞辱題材的實際呈現方式、強度或持續時間",
+    "未補寫未知的人物關係、劇情發展或結局",
+    "未發明清宮仁愛的私生活、真實身分資訊或年齡",
+    "未把高畫質與獨家配信解讀為作品品質保證"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "movie_id": "EBWH-373",
+  "generated_at": "2026-11-02T06:41:36.390Z",
+  "source_snapshot_hash": "sha256:d60962e9d4b6f4b32527cfe405e1c7b2d68cf516d95a88556f7b17ad82e37efd",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若以公開資訊判斷，EBWH-373 的價值在於清宮仁愛承接酒店小姐角色扮演，並用辣妹風格與刺激性題材關鍵詞拉出辨識度；它更像一支人設與企劃導向的選片。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "演員導向的角色展示企劃",
+      "酒店小姐職業扮演",
+      "辣妹風格作為主要外顯賣點",
+      "刺激性關鍵詞明確但劇情細節未知"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "本來就會追清宮仁愛的人",
+      "喜歡酒店小姐角色扮演題材的人",
+      "偏好辣妹風格與明確企劃鉤子的人"
+    ],
+    "not_for": [
+      "期待已知完整劇情輪廓的人",
+      "想先確認人物關係與情感鋪陳的人",
+      "會把高畫質標示視為唯一選片依據的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這支作品最直接的選片點是什麼？",
+    "酒店小姐與羞辱這兩個關鍵詞，會把期待帶向哪裡？",
+    "清宮仁愛在這個企劃裡的重要性是什麼？",
+    "哪些觀眾會更適合這支片？"
+  ]
+}
