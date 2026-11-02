@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:0a095782ac9b5d048af782b0e32ff28dd4728a957d73c3bcfa5696876c2c7f1d",
-  "source_generated_at": "2026-11-02T16:11:11.645Z",
+  "source_revision": "sha256:45177f5b0acb74e7481a9c8814424665737a322594dddf76e8506e6d64ea56b0",
+  "source_generated_at": "2026-11-02T16:17:01.729Z",
   "counts": {
-    "movies": 336,
-    "performers": 296,
+    "movies": 337,
+    "performers": 297,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -3296,6 +3296,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:29363",
+      "display_name": "himari",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "himari",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MIDA-819"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:26351",
       "display_name": "minamo",
       "display_name_zh_tw": null,
@@ -5454,6 +5465,55 @@
         "article_title": "MIDA-791 奏たまき｜AV出道：美少女定位鮮明的展示型首作",
         "display_short_title": null,
         "slug": "mida-791"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MIDA-819",
+        "source_cover": "https://cc18.tv/preview/80/b/8vBSc10mkdb-800.jpg?v=1792399046",
+        "title": "MIDA-819 himari｜凄いパイズリ、凄い挟射：系列公式鮮明的展示型選片",
+        "catalog_code": "MIDA-819",
+        "release_date": "2026-10-16",
+        "performers": [
+          "himari"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mida-819/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:29363"
+      ],
+      "search": {
+        "source_title": "超棒的乳交,超棒的挾射 Himari",
+        "article_title": "MIDA-819 himari｜凄いパイズリ、凄い挟射：系列公式鮮明的展示型選片",
+        "display_short_title": null,
+        "slug": "mida-819"
       }
     },
     {

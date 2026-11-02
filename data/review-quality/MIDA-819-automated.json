@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "MIDA-819",
+  "checked_at": "2026-11-02T16:15:01.936Z",
+  "review_sha256": "bc0e02b71709bf498d043cc41c4b19a8b95b2b7a962161720ec73307e6291729",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "從公開資料來看，MIDA-819 最清楚的賣點不是故事梗概，而是作品本身直接把焦點放在「凄いパイズリ、凄い挟射」這個核心概念上。系列名與 core source concept 完全一致，代表它的辨識方式非常直接：觀眾一看到片名與系列，就能理解這支作品主打的是主題本身，而不是複雜"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "公開來源已知演員是 himari，而標籤則集中在「AV女優片」「癡女」「巨乳」這幾個辨識度很高的方向。這種組合對選片的實際幫助很大，因為它不是用模糊的宣傳詞吸引人，而是直接用演員名與類型標記告訴觀眾：本作較適合從成人主題的明確性去理解。尤其當「癡女」與「巨乳」同時出現時，觀眾大致"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

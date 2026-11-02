@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "MIDA-819",
+  "review_sha256": "090f6d2e1247afeb7147711de96027ffeb8736cfcc3be90e104e90d03300648c",
+  "selected_thesis": "這不是一部靠公開劇情吊胃口的作品，而是一部把「凄いパイズリ、凄い挟射」直接做成核心商品語言的系列展示作；對已知偏好者來說，清楚本身就是價值。",
+  "title_basis": {
+    "performer": "himari",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "himari",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "凄いパイズリ、凄い挟射",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "癡女",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "himari",
+    "presentation_feature": "凄いパイズリ、凄い挟射",
+    "editorial_judgment": "以系列名與公開標籤為核心，將本作定位成主題明確、公式清楚的展示型選片，重點不在延伸未知劇情，而在說明它為何能快速吸引已知偏好的觀眾。",
+    "source_keywords": [
+      "himari",
+      "凄いパイズリ、凄い挟射",
+      "癡女",
+      "巨乳"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開資料已明示演員為 himari，可作為標題與選片辨識的核心資訊。",
+      "basis": "public_source",
+      "signal": "himari"
+    },
+    {
+      "observation_refs": [],
+      "supports": "系列名與核心概念同為「凄いパイズリ、凄い挟射」，顯示作品最可追溯的賣點就是這個主題本身。",
+      "basis": "public_source",
+      "signal": "凄いパイズリ、凄い挟射"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤包含「癡女」，說明本作在行銷辨識上偏向主動、直白的成人角色定位。",
+      "basis": "public_source",
+      "signal": "癡女"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤包含「巨乳」，代表身體條件是本作選片時可直接參考的來源資訊之一。",
+      "basis": "public_source",
+      "signal": "巨乳"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開呈現資訊含高畫質與獨家配信，能作為附加吸引力，但不取代主題本身的核心賣點。",
+      "basis": "public_source",
+      "signal": "高畫質／獨家配信"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何具體劇情發展",
+    "未設定任何人物關係或角色身分細節",
+    "未聲稱看見場景、鏡位、剪輯、聲音或表演表情",
+    "未推定演員私生活、真實身分或年齡",
+    "未把高畫質或獨家配信寫成內容品質保證"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}
