@@ -1,0 +1,60 @@
+{
+  "schema_version": 2,
+  "id": "MIKR-121",
+  "checked_at": "2026-11-02T06:35:18.893Z",
+  "review_sha256": "f32857d180fbe33dab248a4def4a0c14dd0c8b9f984351bec9efeeccd392cf69",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看公開資料，這部片最強的辨識度就是「危險日12小時內重複內射」。這不是附帶標籤，而是足以決定整體選片方向的核心概念。再往下看，系列名本身又把「追擊」「孕ませ」「亂交」這類刺激性很強的字眼放在前景，所以它給人的第一印象很明確：這是一部由企劃設定主導、題材命中率高於故事懸念的作"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "公開資料能確認本作由白岩冬萌出演，並且同時帶有 AV 女優片、巨乳等明確識別。這代表它的受眾不只會從企劃本身切入，也會從出演者與類型偏好切入。換句話說，如果你本來就會依演出者或身形標籤挑片，這部片的入口相當直接；它不是靠模糊包裝吸引點閱，而是把可辨識的偏好訊號先攤開。"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

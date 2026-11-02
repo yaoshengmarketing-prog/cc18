@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "movie_id": "MIKR-121",
+  "generated_at": "2026-11-02T06:35:18.732Z",
+  "source_snapshot_hash": "sha256:5c855dd63680339700538aae2005e4c27712983e30291f41a0d6db6348db6ccf",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "MIKR-121 的吸引力主要建立在「危險日12小時內重複內射」這個核心命題，加上系列名與中出、亂交等公開標籤所形成的公式感；如果你是為了明確題材而選片，這部的方向很清楚，但若你優先尋找完整劇情，現有公開資訊不足以支撐那種期待。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "企劃概念先行",
+      "系列辨識度高",
+      "主題標籤直白",
+      "高畫質與獨家配信屬輔助訊號"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會依企劃概念直接選片的人",
+      "對白岩冬萌有固定關注的人",
+      "偏好中出、亂交這類強主題標籤的人",
+      "能接受系列公式感重於故事細節的人"
+    ],
+    "not_for": [
+      "想先確認完整故事線、人物關係或場景鋪陳的人",
+      "很在意公開資訊是否已經提供明確劇情起承轉合的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這片最明確的賣點是什麼",
+    "白岩冬萌的出演對選片有什麼意義",
+    "這片偏劇情還是偏展示型企劃",
+    "哪些觀眾比較容易對上這部片"
+  ]
+}
