@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "MUKD-595",
+  "calls": [
+    {
+      "generated_at": "2026-11-02T06:27:57.011Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4305,
+      "cached_input_tokens": 0,
+      "output_tokens": 3607,
+      "total_tokens": 7912,
+      "estimated_cost_usd": 0.102682,
+      "estimated_payg_cash_cost_usd": 0.107817,
+      "direct_openai_reference_usd": 0.064867,
+      "gateway_premium_usd": 0.037815,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4305,
+    "cached_input_tokens": 0,
+    "output_tokens": 3607,
+    "estimated_cost_usd": 0.102682,
+    "estimated_payg_cash_cost_usd": 0.107817,
+    "direct_openai_reference_usd": 0.064867,
+    "gateway_premium_usd": 0.037815
+  }
+}

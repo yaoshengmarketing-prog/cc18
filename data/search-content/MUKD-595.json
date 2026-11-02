@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "movie_id": "MUKD-595",
+  "generated_at": "2026-11-02T06:27:57.224Z",
+  "source_snapshot_hash": "sha256:56da5628d2ef9c76ce0d8fc55c0a32f5ce3095a2ab8eff70114adc64d89942d9",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "MUKD-595 的公開資訊把重心放在清宮ななは承接的「清宮七葉」概念，以及美少女、學生設定這類人物形象標籤；若你要的是角色包裝鮮明的展示型作品，這片方向清楚，但若期待完整敘事或關係推進，現有資訊並不支持那樣的預期。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "演員辨識度明確",
+      "以美少女、學生設定作為主要包裝",
+      "技術標示有高畫質與獨家配信，但屬次要加分"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "本來就追清宮ななは的觀眾",
+      "偏好美少女、學生設定包裝的觀眾",
+      "選片時更看重人物形象與企劃辨識度的人"
+    ],
+    "not_for": [
+      "想先確認劇情主線再決定是否入手的人",
+      "偏好系列延續感或明確人物關係的人",
+      "需要大量公開敘事資訊作為選片依據的人"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "FNEW-024",
+      "relation_type": "same_performer",
+      "reason": "同樣由清宮ななは出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "清宮ななは"
+      ],
+      "contrast_signals": [
+        "雌小鬼",
+        "學生設定"
+      ]
+    },
+    {
+      "movie_id": "T-3800071",
+      "relation_type": "same_performer",
+      "reason": "同樣由清宮ななは出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "清宮ななは"
+      ],
+      "contrast_signals": [
+        "青葉春",
+        "詩織"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這片最明確的選片賣點是什麼",
+    "公開資訊比較支持把它看成劇情片還是展示型企劃",
+    "哪些觀眾會對這種設定更有感",
+    "哪些期待不宜先放進來"
+  ]
+}

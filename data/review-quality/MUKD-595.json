@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "MUKD-595",
+  "review_sha256": "a7685718eb16a481ff25c7c19d691d55255f740893cbdadf34e666745d52daa5",
+  "selected_thesis": "MUKD-595 最值得把握的不是未公開的故事，而是清宮ななは承接「清宮七葉」概念後形成的美少女學生設定包裝；這是一部更看人物形象是否對味的展示型選片。",
+  "title_basis": {
+    "performer": "清宮ななは",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "清宮ななは",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "清宮七葉",
+        "source_field": "title"
+      },
+      {
+        "type": "setting",
+        "value": "學生設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "美少女",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "清宮ななは",
+    "presentation_feature": "清宮七葉",
+    "editorial_judgment": "把本作視為以「清宮七葉」為核心命名、由清宮ななは承接的美少女學生設定作品來看，選片重點不在複雜劇情，而在你是否偏好人物形象先行的展示型企劃。",
+    "source_keywords": [
+      "清宮ななは",
+      "清宮七葉",
+      "學生設定",
+      "美少女"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開資料可確認演出者為清宮ななは，選片時可直接從演員偏好切入。",
+      "basis": "public_source",
+      "signal": "清宮ななは"
+    },
+    {
+      "observation_refs": [],
+      "supports": "「清宮七葉」是最能區分本作的核心命名概念，應作為標題與評論主軸。",
+      "basis": "public_source",
+      "signal": "清宮七葉"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開安全訊號明示本作採美少女、學生設定的形象包裝，這比未提供的劇情資訊更具辨識度。",
+      "basis": "public_source",
+      "signal": "美少女／學生設定"
+    },
+    {
+      "observation_refs": [],
+      "supports": "topic elements 另標示窈窕與中出要素，顯示賣點偏向類型標籤與企劃訴求。",
+      "basis": "public_source",
+      "signal": "窈窕／中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "系列欄位為空，且未見可追溯的劇情簡介，因此不宜把本作判讀為依賴系列世界觀或高劇情密度的作品。",
+      "basis": "public_source",
+      "signal": "series=null；premise未提供"
+    },
+    {
+      "observation_refs": [],
+      "supports": "720p、HD、獨家配信屬公開呈現資訊，可作為附加判斷，但不足以取代人物與設定本身成為核心賣點。",
+      "basis": "public_source",
+      "signal": "720p／HD／獨家配信"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未確認的劇情主線與事件順序",
+    "未確認的人物關係與角色名稱定義",
+    "未確認的場景配置、鏡位、聲音與剪輯表現",
+    "未確認的演出細節、表情、身體語言與互動強弱",
+    "未確認的系列連動或世界觀延續"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}

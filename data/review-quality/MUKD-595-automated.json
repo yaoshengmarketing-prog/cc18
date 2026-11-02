@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "MUKD-595",
+  "checked_at": "2026-11-02T06:27:57.386Z",
+  "review_sha256": "7ee2ba1d6ccb69ad8be0d8d024a53e8d5c1de0dd0e71bdd1960a1daa8daeb735",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就公開資料來看，本作最清楚的賣點不是故事摘要，而是「清宮七葉」這個核心命名概念，加上清宮ななは本人，以及美少女、學生設定的形象組合。這種資訊排列代表作品辨識度主要來自人物感與企劃包裝：觀眾若本來就對清宮ななは有興趣，或偏好美少女路線，進場門檻會很低；相反地，如果你需要先看到明確劇"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "「清宮七葉」讓本作不只是一般的演員掛名片，而像是以一個命名核心去集中作品印象；再加上學生設定與美少女標籤，整體方向會更靠近角色形象的投射與企劃辨識度。這對選片很重要，因為它會直接決定你看的不是資訊量，而是設定感：如果你偏好作品先把人物輪廓立起來，這樣的命名與標籤組合很有效；如果你"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 6,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 2
+  }
+}

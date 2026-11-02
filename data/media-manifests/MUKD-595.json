@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MUKD-595",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-02T06:28:58.205Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/MUKD-595/hero-v1.jpg",
+      "r2_key": "works/2026/10/MUKD-595/hero-v1.jpg",
+      "bytes": 652039,
+      "sha256": "6466271532100e861bde9bd89f7868666427b426c8d0df7f8a399d9bcd53d23f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "47cb9245c54547d3a7b918c0cc97e75d",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/MUKD-595/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/MUKD-595/scene-vertical-v1.jpg",
+      "bytes": 1204112,
+      "sha256": "3b667ea441c09a9665d947d905f12f17a860c8cb243aa75ec20e94bcc9ac211a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "46a9a12f9e0c4bba825195a92206a352",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2454904,
+    "sha256": "47fcae50a2d3afb7b5537c116bd07c966ffbca3dc0eed2cc7d68767a51e43952",
+    "target_r2_key": "works/2026/10/MUKD-595/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/MUKD-595/vertical-v1.mp4"
+  }
+}
