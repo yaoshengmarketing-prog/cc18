@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "movie_id": "WAAA-701",
+  "generated_at": "2026-11-02T06:11:01.481Z",
+  "source_snapshot_hash": "sha256:471c846977984eb95e9bdee6dbdf5703bf92a9572e2d40d687c266f762a43b99",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "WAAA-701 的選片價值，主要建立在五日市芽依＋中出的直球組合上；公開來源沒有提供足夠的故事設定，因此更適合視為題材與演員雙主軸的展示型作品。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以中出作為最核心的選片理由",
+      "由五日市芽依的演員辨識度帶動閱讀入口",
+      "騎乘位與巨乳是可追溯的次級賣點",
+      "高畫質與獨家配信可作為包裝資訊，但不取代主題本身"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "以演員與主題標籤直接選片的觀眾",
+      "優先尋找中出主軸作品的觀眾",
+      "會在意騎乘位與巨乳等明確來源訊號的觀眾"
+    ],
+    "not_for": [
+      "想找明確劇情設定或人物關係鋪陳的觀眾",
+      "偏好系列世界觀或高情節密度的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "DSOD-080",
+      "relation_type": "same_performer",
+      "reason": "同樣由五日市芽依出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "五日市芽依"
+      ],
+      "contrast_signals": [
+        "偷拍是嗎",
+        "辣妹風格"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這片最核心的選片主軸是什麼？",
+    "五日市芽依在這片的吸引力如何被使用？",
+    "這片偏劇情向還是偏展示向？",
+    "哪些觀眾會比較適合這部作品？"
+  ]
+}

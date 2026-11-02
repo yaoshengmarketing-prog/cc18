@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "WAAA-701",
+  "review_sha256": "ebcd24470551c8c8fbbf5632ee4f34f583b9c54cd4f948a62a6888a35258c731",
+  "selected_thesis": "WAAA-701 的選片價值，主要建立在五日市芽依與中出這組直球訊號上；在缺乏劇情設定資訊的前提下，最合理的閱讀方式是把它視為展示型企劃。",
+  "title_basis": {
+    "performer": "五日市芽依",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "五日市芽依",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "中出",
+        "source_field": "description"
+      },
+      {
+        "type": "act_or_position",
+        "value": "騎乘位",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "五日市芽依",
+    "presentation_feature": "中出",
+    "editorial_judgment": "以公開可追溯資訊來看，WAAA-701 的辨識核心很明確：由五日市芽依擔綱，主題重心落在「中出」，並以「騎乘位」與「巨乳」作為次級吸引點。由於目前沒有可延伸的劇情前提、人物關係或場景設定，選片判斷更適合放在展示型企劃，而不是敘事導向作品。",
+    "source_keywords": [
+      "五日市芽依",
+      "中出",
+      "騎乘位"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開來源已明示演出者為五日市芽依，因此作品可直接以演員辨識度作為選片入口。",
+      "basis": "public_source",
+      "signal": "五日市芽依"
+    },
+    {
+      "observation_refs": [],
+      "supports": "core_source_concept 與來源摘錄都指向「中出」，這是本作最應優先放進標題與論點的主題核心。",
+      "basis": "public_source",
+      "signal": "中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源摘錄另列出「騎乘位」，可作為次要但具體的動作辨識訊號。",
+      "basis": "public_source",
+      "signal": "騎乘位"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤包含「AV女優片」與「巨乳」，顯示本作的包裝重點偏向演員屬性與題材直給。",
+      "basis": "public_source",
+      "signal": "AV女優片／巨乳"
+    },
+    {
+      "observation_refs": [],
+      "supports": "目前沒有公開的 premise、relationship、setting 或 series 資訊可支撐劇情向解讀，因此較適合歸納為展示型企劃。",
+      "basis": "creative_reconstruction",
+      "signal": "展示型企劃"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未加入任何未公開的劇情內容或人物關係",
+    "未描述任何具體場景、鏡位、剪輯、聲音或表演細節",
+    "未推定演員私生活、真實身分或年齡",
+    "未把高畫質或獨家配信包裝資訊誇大成作品內容",
+    "未將編輯判讀的「展示型企劃」寫成官方事實"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}

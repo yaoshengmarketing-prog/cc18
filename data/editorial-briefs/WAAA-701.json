@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "id": "WAAA-701",
+  "generated_at": "2026-11-02T06:11:01.311Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "gpt-5.4",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/WAAA-701.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "中出",
+    "premise": "作品以「中出」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「中出」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "中出",
+      "巨乳",
+      "騎乘位"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "騎乘位"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "editorial_angle": "以公開可追溯資訊來看，WAAA-701 的辨識核心很明確：由五日市芽依擔綱，主題重心落在「中出」，並以「騎乘位」與「巨乳」作為次級吸引點。由於目前沒有可延伸的劇情前提、人物關係或場景設定，選片判斷更適合放在展示型企劃，而不是敘事導向作品。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "五日市芽依",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "中出",
+      "source_field": "description"
+    },
+    {
+      "type": "act_or_position",
+      "value": "騎乘位",
+      "source_field": "safe_signals"
+    }
+  ],
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開來源已明示演出者為五日市芽依，因此作品可直接以演員辨識度作為選片入口。",
+      "basis": "public_source",
+      "signal": "五日市芽依"
+    },
+    {
+      "observation_refs": [],
+      "supports": "core_source_concept 與來源摘錄都指向「中出」，這是本作最應優先放進標題與論點的主題核心。",
+      "basis": "public_source",
+      "signal": "中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源摘錄另列出「騎乘位」，可作為次要但具體的動作辨識訊號。",
+      "basis": "public_source",
+      "signal": "騎乘位"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤包含「AV女優片」與「巨乳」，顯示本作的包裝重點偏向演員屬性與題材直給。",
+      "basis": "public_source",
+      "signal": "AV女優片／巨乳"
+    },
+    {
+      "observation_refs": [],
+      "supports": "目前沒有公開的 premise、relationship、setting 或 series 資訊可支撐劇情向解讀，因此較適合歸納為展示型企劃。",
+      "basis": "creative_reconstruction",
+      "signal": "展示型企劃"
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "本稿未使用任何觀看後觀察，所有作品事實只來自公開來源。",
+    "「展示型企劃」屬編輯判讀，不是官方系列或作品標籤。",
+    "因缺乏可追溯的劇情前提、人物關係與場景資訊，正文不延伸敘事內容。"
+  ],
+  "decision_guide": {
+    "thesis": "WAAA-701 的選片價值，主要建立在五日市芽依＋中出的直球組合上；公開來源沒有提供足夠的故事設定，因此更適合視為題材與演員雙主軸的展示型作品。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以中出作為最核心的選片理由",
+      "由五日市芽依的演員辨識度帶動閱讀入口",
+      "騎乘位與巨乳是可追溯的次級賣點",
+      "高畫質與獨家配信可作為包裝資訊，但不取代主題本身"
+    ],
+    "audience_for": [
+      "以演員與主題標籤直接選片的觀眾",
+      "優先尋找中出主軸作品的觀眾",
+      "會在意騎乘位與巨乳等明確來源訊號的觀眾"
+    ],
+    "audience_not_for": [
+      "想找明確劇情設定或人物關係鋪陳的觀眾",
+      "偏好系列世界觀或高情節密度的觀眾"
+    ],
+    "questions_answered": [
+      "這片最核心的選片主軸是什麼？",
+      "五日市芽依在這片的吸引力如何被使用？",
+      "這片偏劇情向還是偏展示向？",
+      "哪些觀眾會比較適合這部作品？"
+    ]
+  },
+  "title": "WAAA-701 五日市芽依｜中出主軸的展示型企劃",
+  "seo_title": "WAAA-701 五日市芽依影評｜中出主軸，偏展示型企劃",
+  "sections": [
+    {
+      "heading": "這片最核心的選片主軸是什麼？",
+      "body": "如果只看目前可追溯的公開資訊，WAAA-701 最明確的核心就是「中出」。這不只出現在作品的核心來源概念，也出現在來源摘錄裡，因此它不是附帶標籤，而是最適合放在選片第一順位的主題。對想直接鎖定題材的人來說，這部片的判斷方式很單純：先認主題，再看演員是否合口味。"
+    },
+    {
+      "heading": "五日市芽依在這片的吸引力如何被使用？",
+      "body": "演出者已知為五日市芽依，這讓本作具備很清楚的個人入口。再加上公開標籤同時帶有「AV女優片」與「巨乳」訊號，整體包裝方向比較像是把演員辨識度與身材標籤一併前推。換句話說，這不是需要先讀設定才能決定要不要看的作品，而是更適合本來就會追演員、或會依明確成人主題快速選片的觀眾。"
+    },
+    {
+      "heading": "這片偏劇情向還是偏展示向？",
+      "body": "以現有資料來看，本作更接近展示向。原因不是因為能證明它沒有劇情，而是公開來源目前沒有提供 故事前提、人物關係、場景設定或系列脈絡，能被穩定抓住的反而是「中出」與「騎乘位」這類直接的題材訊號。因此在編輯判讀上，這部片的可讀性主要來自主題清楚、賣點集中，而不是故事鋪陳。"
+    },
+    {
+      "heading": "哪些觀眾會比較適合這部作品？",
+      "body": "如果你的選片習慣是先看主題，再看演員，WAAA-701 會很直觀。它的主要吸引力在於五日市芽依搭配中出主軸，並以騎乘位作為次要識別點；「高畫質」與「獨家配信」則比較像觀看形式上的附加資訊。相對地，如果你期待的是完整劇情前提、關係轉折或明確場景企劃，現有公開資料並沒有提供足夠支撐，這部片就未必會是優先選項。"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未加入任何未公開的劇情內容或人物關係",
+    "未描述任何具體場景、鏡位、剪輯、聲音或表演細節",
+    "未推定演員私生活、真實身分或年齡",
+    "未把高畫質或獨家配信包裝資訊誇大成作品內容",
+    "未將編輯判讀的「展示型企劃」寫成官方事實"
+  ],
+  "editorial_tag_ids": [
+    "showcase-format"
+  ],
+  "social_title": "WAAA-701 五日市芽依：中出主軸的直球選片",
+  "short_review": "主打很清楚的一部：五日市芽依加上中出核心，騎乘位作為次要辨識點，整體更像題材導向的展示型企劃，而不是靠劇情成立的作品。",
+  "selected_thesis": "WAAA-701 的選片價值，主要建立在五日市芽依與中出這組直球訊號上；在缺乏劇情設定資訊的前提下，最合理的閱讀方式是把它視為展示型企劃。",
+  "angle_candidates": [
+    "五日市芽依作為主入口的中出直球作",
+    "以中出為核心、騎乘位補強的題材型選片",
+    "缺少故事前提時，如何把這部片讀成展示型企劃"
+  ]
+}

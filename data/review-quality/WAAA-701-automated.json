@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "WAAA-701",
+  "checked_at": "2026-11-02T06:11:01.638Z",
+  "review_sha256": "11c4f3a406507f746b5adb8e3892cc414ab8c7d08df53e1f76374344e90ab67f",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "broad_formulaic_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 3,
+      "paragraph_count": 8,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資訊，WAAA-701 最明確的核心就是「中出」。這不只出現在作品的核心來源概念，也出現在來源摘錄裡，因此它不是附帶標籤，而是最適合放在選片第一順位的主題。對想直接鎖定題材的人來說，這部片的判斷方式很單純：先認主題，再看演員是否合口味。"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "演出者已知為五日市芽依，這讓本作具備很清楚的個人入口。再加上公開標籤同時帶有「AV女優片」與「巨乳」訊號，整體包裝方向比較像是把演員辨識度與身材標籤一併前推。換句話說，這不是需要先讀設定才能決定要不要看的作品，而是更適合本來就會追演員、或會依明確成人主題快速選片的觀眾。"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "以現有資料來看，本作更接近展示向。原因不是因為能證明它沒有劇情，而是公開來源目前沒有提供 故事前提、人物關係、場景設定或系列脈絡，能被穩定抓住的反而是「中出」與「騎乘位」這類直接的題材訊號。因此在編輯判讀上，這部片的可讀性主要來自主題清楚、賣點集中，而不是故事鋪陳。"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 1
+  }
+}

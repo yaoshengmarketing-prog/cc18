@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "WAAA-701",
+  "calls": [
+    {
+      "generated_at": "2026-11-02T06:11:01.308Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4290,
+      "cached_input_tokens": 0,
+      "output_tokens": 3560,
+      "total_tokens": 7850,
+      "estimated_cost_usd": 0.10155,
+      "estimated_payg_cash_cost_usd": 0.106628,
+      "direct_openai_reference_usd": 0.064125,
+      "gateway_premium_usd": 0.037425,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4290,
+    "cached_input_tokens": 0,
+    "output_tokens": 3560,
+    "estimated_cost_usd": 0.10155,
+    "estimated_payg_cash_cost_usd": 0.106628,
+    "direct_openai_reference_usd": 0.064125,
+    "gateway_premium_usd": 0.037425
+  }
+}
