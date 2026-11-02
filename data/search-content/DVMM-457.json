@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "movie_id": "DVMM-457",
+  "generated_at": "2026-11-02T23:56:39.704Z",
+  "source_snapshot_hash": "sha256:3827f820991fc2cef09400bc3847b39d8b6f0f9fc180dc48ce30ae9443b224f1",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "DVMM-457 的可追溯資訊集中在「釋愛麗絲」與「辣妹」兩條主線，並以口交、顏射等公開行為標籤補足成人內容辨識；因缺乏可驗證的劇情與關係資訊，較合理的編輯定位是展示型企劃，而非故事導向作品。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "片名核心先看「釋愛麗絲」，判斷為人物／企劃主導的作品辨識。",
+      "身份標籤以「辣妹」最清楚，成人主題則由「口交」「顏射」補足。",
+      "「高畫質」「獨家配信」可作輔助賣點，但不作文章主論點。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想找釈アリス相關作品的讀者",
+      "偏好辣妹身份標示明確作品的讀者",
+      "選片時重視公開成人主題標籤與發行規格的讀者"
+    ],
+    "not_for": [
+      "期待完整角色關係、明確情節起承轉合的讀者",
+      "想從公開資料中確認具體場景與互動細節的讀者"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MVSH-006",
+      "relation_type": "same_performer",
+      "reason": "同樣由釈アリス出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "釈アリス"
+      ],
+      "contrast_signals": [
+        "搬到對面房間的大姊姊",
+        "中出"
+      ]
+    },
+    {
+      "movie_id": "CJOD-548",
+      "relation_type": "same_performer",
+      "reason": "同樣由釈アリス出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "釈アリス"
+      ],
+      "contrast_signals": [
+        "回春アジアンメンズエステ",
+        "癡女"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部片的選片主軸是人物概念、身份標籤，還是劇情？",
+    "公開資料能確認哪些成人主題？",
+    "在缺少劇情簡介時，應如何調整期待？",
+    "這部作品較適合哪一類觀眾？"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "DVMM-457",
+  "review_sha256": "d8a4973a9a61e3ad6482c7c7b29ce908dc620ccfc5b9ed155c6b05ca8bc9e449",
+  "selected_thesis": "DVMM-457 最可靠的賣點不是故事，而是「釋愛麗絲」這個核心概念結合辣妹身份標示；在公開資料有限的前提下，把它定位為展示型企劃，比把它誤讀成劇情片更準確。",
+  "title_basis": {
+    "performer": "釈アリス",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "釈アリス",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "釋愛麗絲",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "辣妹",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "口交",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "釈アリス",
+    "presentation_feature": "釋愛麗絲",
+    "editorial_judgment": "以公開片名核心與標籤為準，將本作判讀為一部由「釋愛麗絲」概念領銜、以辣妹身份標示與成人行為標籤補強辨識度的展示型選片，而非可預設有完整劇情推進的作品。",
+    "source_keywords": [
+      "釈アリス",
+      "釋愛麗絲",
+      "辣妹",
+      "口交"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開來源的核心概念與來源摘錄都指向「釋愛麗絲」，表示選片時應先把重心放在這個人物／企劃名義，而不是外加不存在的劇情設定。",
+      "basis": "public_source",
+      "signal": "theme: 釋愛麗絲"
+    },
+    {
+      "observation_refs": [],
+      "supports": "safe_title_signals 與 topic_elements 同時出現「辣妹」，可視為本作最穩定的身份辨識線索之一。",
+      "basis": "public_source",
+      "signal": "identity: 辣妹"
+    },
+    {
+      "observation_refs": [],
+      "supports": "topic_elements 的 action 列出「口交」「顏射」，safe_title_signals 也包含「口交」，可支持本作的成人內容主題是以明確行為標籤來傳達。",
+      "basis": "public_source",
+      "signal": "act_or_position: 口交／顏射"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤含「高畫質」「獨家配信」以及 topic_elements 的 720p、HD、4k，說明發行端把呈現規格列為可見賣點，但這些技術詞不足以取代主題本身。",
+      "basis": "public_source",
+      "signal": "presentation: 高畫質／獨家配信"
+    },
+    {
+      "observation_refs": [],
+      "supports": "public_source 未提供人物關係、場景、前提或衝突，creative_seed_brief 也將 premise、relationship、setting 保持空白，因此不宜把作品描述成高劇情密度。",
+      "basis": "public_source",
+      "signal": "story scope: 未知"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何具體劇情、事件順序或角色衝突。",
+    "未聲稱存在特定場景、地點、服裝、鏡位、聲音或剪輯風格。",
+    "未判定釈アリス的表演狀態、表情、化學反應或主導權變化。",
+    "未將『辣妹』延伸為來源未提供的性格設定。",
+    "未把『高畫質』『獨家配信』寫成內容品質保證。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}

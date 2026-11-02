@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "id": "DVMM-457",
+  "generated_at": "2026-11-02T23:56:39.513Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "gpt-5.4",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/DVMM-457.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "釋愛麗絲",
+    "premise": "作品以「釋愛麗絲」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「釋愛麗絲」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "釋愛麗絲",
+      "口交",
+      "顏射",
+      "辣妹"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "辣妹"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "口交",
+      "顏射"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "editorial_angle": "以公開片名核心與標籤為準，將本作判讀為一部由「釋愛麗絲」概念領銜、以辣妹身份標示與成人行為標籤補強辨識度的展示型選片，而非可預設有完整劇情推進的作品。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "釈アリス",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "釋愛麗絲",
+      "source_field": "title"
+    },
+    {
+      "type": "identity",
+      "value": "辣妹",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "act_or_position",
+      "value": "口交",
+      "source_field": "safe_signals"
+    }
+  ],
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開來源的核心概念與來源摘錄都指向「釋愛麗絲」，表示選片時應先把重心放在這個人物／企劃名義，而不是外加不存在的劇情設定。",
+      "basis": "public_source",
+      "signal": "theme: 釋愛麗絲"
+    },
+    {
+      "observation_refs": [],
+      "supports": "safe_title_signals 與 topic_elements 同時出現「辣妹」，可視為本作最穩定的身份辨識線索之一。",
+      "basis": "public_source",
+      "signal": "identity: 辣妹"
+    },
+    {
+      "observation_refs": [],
+      "supports": "topic_elements 的 action 列出「口交」「顏射」，safe_title_signals 也包含「口交」，可支持本作的成人內容主題是以明確行為標籤來傳達。",
+      "basis": "public_source",
+      "signal": "act_or_position: 口交／顏射"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤含「高畫質」「獨家配信」以及 topic_elements 的 720p、HD、4k，說明發行端把呈現規格列為可見賣點，但這些技術詞不足以取代主題本身。",
+      "basis": "public_source",
+      "signal": "presentation: 高畫質／獨家配信"
+    },
+    {
+      "observation_refs": [],
+      "supports": "public_source 未提供人物關係、場景、前提或衝突，creative_seed_brief 也將 premise、relationship、setting 保持空白，因此不宜把作品描述成高劇情密度。",
+      "basis": "public_source",
+      "signal": "story scope: 未知"
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "未補寫任何未公開的人物關係、場景或事件起伏。",
+    "未將『辣妹』延伸成具體服裝、性格或互動方式。",
+    "未把『口交』『顏射』寫成已觀察到的段落配置、節奏或表演細節。"
+  ],
+  "decision_guide": {
+    "thesis": "DVMM-457 的可追溯資訊集中在「釋愛麗絲」與「辣妹」兩條主線，並以口交、顏射等公開行為標籤補足成人內容辨識；因缺乏可驗證的劇情與關係資訊，較合理的編輯定位是展示型企劃，而非故事導向作品。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "片名核心先看「釋愛麗絲」，判斷為人物／企劃主導的作品辨識。",
+      "身份標籤以「辣妹」最清楚，成人主題則由「口交」「顏射」補足。",
+      "「高畫質」「獨家配信」可作輔助賣點，但不作文章主論點。"
+    ],
+    "audience_for": [
+      "想找釈アリス相關作品的讀者",
+      "偏好辣妹身份標示明確作品的讀者",
+      "選片時重視公開成人主題標籤與發行規格的讀者"
+    ],
+    "audience_not_for": [
+      "期待完整角色關係、明確情節起承轉合的讀者",
+      "想從公開資料中確認具體場景與互動細節的讀者"
+    ],
+    "questions_answered": [
+      "這部片的選片主軸是人物概念、身份標籤，還是劇情？",
+      "公開資料能確認哪些成人主題？",
+      "在缺少劇情簡介時，應如何調整期待？",
+      "這部作品較適合哪一類觀眾？"
+    ]
+  },
+  "title": "DVMM-457 釈アリス｜釋愛麗絲企劃：辣妹定位鮮明的展示型選片",
+  "seo_title": "DVMM-457 釈アリス影評｜辣妹定位下的釋愛麗絲，偏展示型企劃",
+  "sections": [
+    {
+      "heading": "這部片的選片主軸是什麼？",
+      "body": "從公開來源看，最應先抓住的是「釋愛麗絲」這個核心概念。片名來源、主要來源線索，以及 企劃構想資料 的 來源名稱線索 都把焦點放在這個名稱上，因此本作的辨識核心更接近人物／企劃名義，而不是一段已被公開說明的故事前提。對選片來說，這代表讀者若是因為釈アリス而點進來，這部作品的對位相對直接。"
+    },
+    {
+      "heading": "公開標籤透露了哪些內容方向？",
+      "body": "可追溯的主題標籤裡，「辣妹」是最明確的身份線索，並且在 作品名稱線索 與 來源題材資料 中重複出現，重要性高於單純的技術規格。成人內容方面，公開欄位可確認的動作標籤是「口交」與「顏射」，其中「口交」同時存在於 作品名稱線索，辨識度最高。也因此，這部作品在標籤層面的賣點，不是複雜設定，而是人物名義加上身份與行為主題的直接組合。"
+    },
+    {
+      "heading": "能不能把它當成劇情片來期待？",
+      "body": "目前不適合。公開資料沒有提供 synopsis，也沒有確認的人物關係、場景、衝突或角色變化路徑；企劃構想資料 雖列出「企劃設定」「角色變化」「互動節奏」作為文章組織主題，但同時也清楚說明這些主題本身不等於已被證明的劇情。因此，較穩妥的判斷是：本作更像以人物概念與成人主題標籤來成立的展示型企劃，而不是能預先認定有高故事密度的作品。"
+    },
+    {
+      "heading": "高畫質與獨家配信值不值得當成主因？",
+      "body": "公開來源確實把「高畫質」「獨家配信」列為可見訊號，來源題材資料 也有 720p、HD、4k 等規格詞，表示發行端希望把呈現品質納入賣點。不過若回到選片判斷，這些資訊仍屬輔助層，不能蓋過「釋愛麗絲」與「辣妹」這兩個更直接的主題辨識。換句話說，技術規格能幫助讀者理解包裝方向，但不應被誤當成作品主軸。"
+    },
+    {
+      "heading": "這部片比較適合哪一類讀者？",
+      "body": "如果你的選片邏輯是先看演出者，再看身份標籤與公開行為主題，那 DVMM-457 的資訊相對清楚：釈アリス、釋愛麗絲、辣妹、口交／顏射，構成了可直接理解的作品輪廓。相反地，若你在意具體劇情設定、角色關係變化或場景層次，這次公開資料不足，期待值就不宜往故事向拉得太高。"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何具體劇情、事件順序或角色衝突。",
+    "未聲稱存在特定場景、地點、服裝、鏡位、聲音或剪輯風格。",
+    "未判定釈アリス的表演狀態、表情、化學反應或主導權變化。",
+    "未將『辣妹』延伸為來源未提供的性格設定。",
+    "未把『高畫質』『獨家配信』寫成內容品質保證。"
+  ],
+  "editorial_tag_ids": [
+    "showcase-format"
+  ],
+  "social_title": "DVMM-457 釈アリス：以釋愛麗絲為主軸的辣妹展示作",
+  "short_review": "公開資訊非常集中：釈アリス與「釋愛麗絲」是核心，辣妹身份與口交／顏射標籤負責補強成人主題。由於缺少可驗證的劇情與關係資訊，本作更適合被當成展示型企劃來看。",
+  "selected_thesis": "DVMM-457 最可靠的賣點不是故事，而是「釋愛麗絲」這個核心概念結合辣妹身份標示；在公開資料有限的前提下，把它定位為展示型企劃，比把它誤讀成劇情片更準確。",
+  "angle_candidates": [
+    "以『釋愛麗絲』為核心的人物企劃型作品",
+    "辣妹身份與口交標籤構成的直接選片路線",
+    "高畫質與獨家配信作為輔助賣點、而非主題核心"
+  ]
+}

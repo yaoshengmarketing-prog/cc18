@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "id": "DVMM-457",
+  "checked_at": "2026-11-02T23:56:39.857Z",
+  "review_sha256": "63d3d309f09cb96e0eb761187bbd31fff90885ee7c6a6cf163830cd44563d6ef",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "可追溯的主題標籤裡，「辣妹」是最明確的身份線索，並且在 作品名稱線索 與 來源題材資料 中重複出現，重要性高於單純的技術規格。成人內容方面，公開欄位可確認的動作標籤是「口交」與「顏射」，其中「口交」同時存在於 作品名稱線索，辨識度最高。也因此，這部作品在標籤層面的賣點，不是複雜設"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 2
+  }
+}
