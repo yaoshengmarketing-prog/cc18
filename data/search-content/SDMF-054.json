@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "movie_id": "SDMF-054",
+  "generated_at": "2026-11-02T23:51:08.773Z",
+  "source_snapshot_hash": "sha256:6e73241873a5ea246b870177bd47fd2b57dd5355b6de3c855bab4fbc32ebf40b",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "SDMF-054 的可判斷價值主要來自「桃色かぞく」系列概念、南あいり參演與戲劇連續劇形式，因此較適合把它視為系列向、演員向的選片，而非先以具體劇情內容下判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "系列企劃取向",
+      "戲劇、連續劇標示",
+      "高畫質／HD／720p"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "對「桃色かぞく」系列名有興趣的人",
+      "會以南あいり作為主要選片依據的人",
+      "偏好帶有戲劇／連續劇包裝形式作品的人"
+    ],
+    "not_for": [
+      "想先確認具體人物關係與情節轉折的人",
+      "主要只靠已知場景、鏡位或演出細節做選片的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片應該先看什麼線索來選？",
+    "系列名對判斷的重要性有多高？",
+    "南あいり在選片上扮演什麼角色？",
+    "哪些期待是公開資訊支持的，哪些不是？"
+  ]
+}

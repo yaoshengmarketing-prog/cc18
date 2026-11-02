@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:2ea2def4be97fb8d6aa59eb2931a188fba2325666a4ad360c5603dbabb6e4733",
-  "source_generated_at": "2026-11-02T23:46:51.220Z",
+  "source_revision": "sha256:2757c2b570305717bd32ecf45f54c9156b36dbb267b0e15b6b7924245ad97c35",
+  "source_generated_at": "2026-11-02T23:52:54.599Z",
   "counts": {
-    "movies": 344,
-    "performers": 302,
+    "movies": 345,
+    "performers": 303,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1769,6 +1769,17 @@
         "cc18:DOKS-689",
         "cc18:MDBK-429",
         "cc18:MUDR-406"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54360",
+      "display_name": "南あいり",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "南あいり",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SDMF-054"
       ]
     },
     {
@@ -5023,6 +5034,43 @@
         "article_title": "PAKO-110 迪斯科搭訕04｜素人企劃的安全話術與失控反差",
         "display_short_title": null,
         "slug": "pako-110"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SDMF-054",
+        "source_cover": "https://cc18.tv/preview/80/b/x3bqykUU_5t-800.jpg?v=1793450295",
+        "title": "SDMF-054 南あいり｜桃色かぞくAV女優片：系列企劃先行的選片",
+        "catalog_code": "SDMF-054",
+        "release_date": "2026-10-27",
+        "performers": [
+          "南あいり"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/sdmf-054/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54360"
+      ],
+      "search": {
+        "source_title": "不知不覺間已長滿的妹妹陰毛，在幫她剃毛時就一直吸著流出的愛液 桃色家族 南愛莉",
+        "article_title": "SDMF-054 南あいり｜桃色かぞくAV女優片：系列企劃先行的選片",
+        "display_short_title": null,
+        "slug": "sdmf-054"
       }
     },
     {

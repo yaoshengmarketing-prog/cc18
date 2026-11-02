@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "SDMF-054",
+  "calls": [
+    {
+      "generated_at": "2026-11-02T23:51:08.595Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4372,
+      "cached_input_tokens": 0,
+      "output_tokens": 3904,
+      "total_tokens": 8276,
+      "estimated_cost_usd": 0.1097,
+      "estimated_payg_cash_cost_usd": 0.115185,
+      "direct_openai_reference_usd": 0.06949,
+      "gateway_premium_usd": 0.04021,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4372,
+    "cached_input_tokens": 0,
+    "output_tokens": 3904,
+    "estimated_cost_usd": 0.1097,
+    "estimated_payg_cash_cost_usd": 0.115185,
+    "direct_openai_reference_usd": 0.06949,
+    "gateway_premium_usd": 0.04021
+  }
+}

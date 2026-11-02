@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "SDMF-054",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-02T23:51:51.933Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/SDMF-054/hero-v1.jpg",
+      "r2_key": "works/2026/10/SDMF-054/hero-v1.jpg",
+      "bytes": 520818,
+      "sha256": "9918b308050d3a525d0c33d18bcf96388096fb8725e8368cfc94df0852b72e38",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "298fab4317464bcbb8aca42b10cccd8e",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/SDMF-054/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/SDMF-054/scene-vertical-v1.jpg",
+      "bytes": 920548,
+      "sha256": "d0b53b51c50e32b81ef8c9c381e5d526fbfc028b0cb262f1377bdc22c73d7112",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "62f3d923ae2542329c1982c4320fffd9",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2257525,
+    "sha256": "80873bccc40230222186ced30069fd49a2789edd26c2c6c4db4a946e495377f5",
+    "target_r2_key": "works/2026/10/SDMF-054/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/SDMF-054/vertical-v1.mp4"
+  }
+}

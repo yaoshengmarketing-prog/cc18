@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "SDMF-054",
+  "review_sha256": "d2e1f0d29d955ed086a11affdbbec9d2a56e10859c497adef16c389d250a10a4",
+  "selected_thesis": "SDMF-054 的可判斷價值主要來自「桃色かぞく」系列概念、南あいり參演與戲劇連續劇形式，因此較適合把它視為系列向、演員向的選片，而非先以具體劇情內容下判斷。",
+  "title_basis": {
+    "performer": "南あいり",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "南あいり",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "桃色かぞく",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "戲劇、連續劇",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "南あいり",
+    "presentation_feature": "桃色かぞく",
+    "editorial_judgment": "以可追溯的公開資訊來看，SDMF-054 的判讀重心不在已知劇情，而在「桃色かぞく」這個系列概念、南あいり的參演，以及作品被標示為戲劇／連續劇形式。這使它更適合用系列興趣與演員偏好來做選片，而不是先期待某段已被證實的家庭關係或戲劇衝突。",
+    "source_keywords": [
+      "南あいり",
+      "桃色かぞく",
+      "AV女優片",
+      "戲劇、連續劇"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開來源已明示系列為「桃色かぞく」，因此系列企劃本身就是本作最穩定的辨識點。",
+      "basis": "public_source",
+      "signal": "桃色かぞく"
+    },
+    {
+      "observation_refs": [],
+      "supports": "演員欄位明示南あいり，代表本作至少可由演員偏好作為第一層選片入口。",
+      "basis": "public_source",
+      "signal": "南あいり"
+    },
+    {
+      "observation_refs": [],
+      "supports": "作品被標示為「戲劇、連續劇」，可合理判斷其公開包裝傾向企劃敘事形式，而非只靠單一技術規格作為賣點。",
+      "basis": "public_source",
+      "signal": "戲劇、連續劇"
+    },
+    {
+      "observation_refs": [],
+      "supports": "720p、HD、高畫質屬於觀看規格補充資訊，但不足以取代系列概念與演員組合作為核心判斷。",
+      "basis": "public_source",
+      "signal": "720p／HD／高畫質"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "具體人物關係",
+    "任何未公開的家庭角色設定",
+    "場景內容與地點配置",
+    "鏡位、剪輯、聲音與表演細節",
+    "角色變化是否實際發生且如何發生的描述','互動節奏的實際快慢','故事密度高低的確定判斷"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}

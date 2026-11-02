@@ -1,0 +1,60 @@
+{
+  "schema_version": 2,
+  "id": "SDMF-054",
+  "checked_at": "2026-11-02T23:51:08.931Z",
+  "review_sha256": "a7da5823e086b6d9b6ea66095ca1cda87b800f526d807ef7094e655c69a5c198",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "body_lacks_source_adult_vocabulary",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最值得先看的不是未公開的劇情，而是已公開且可追溯的組合：片號 SDMF-054、演員南あいり、系列名「桃色かぞく」。其中「桃色かぞく」同時出現在系列欄位與來源概念裡，辨識度最高，也最能說明本作的選片方向。對觀眾來說，這代表它的第一層吸引力來自系列企劃本身，而不是某段已被證實的故事"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "在缺少公開劇情簡介的情況下，南あいり就是另一個明確而實用的入口。若觀眾本來就會以演員作為主要篩選條件，這部片至少具備清楚的演員辨識；若觀眾不是追演員，而是追設定，那麼她的參演則會和「桃色かぞく」系列概念一起構成選片理由。換句話說，本作的可判斷資訊比較集中在「誰演」與「屬於哪個系列"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}
