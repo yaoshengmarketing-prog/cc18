@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:75828d52804d80f3d7d7a9a9e9f8821af481de3b69a1ecd9b5352e26ffa6edf0",
-  "source_generated_at": "2026-11-02T16:43:22.043Z",
+  "source_revision": "sha256:77a067f6012d9f214d075eff9bffbee6d74d31a79f45ef15c5945d1f14882e33",
+  "source_generated_at": "2026-11-02T23:35:47.669Z",
   "counts": {
-    "movies": 341,
-    "performers": 299,
+    "movies": 342,
+    "performers": 300,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -285,6 +285,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:OAE-315"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:72",
+      "display_name": "大槻響",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "大槻響",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:WAAA-705"
       ]
     },
     {
@@ -4389,6 +4400,51 @@
         "article_title": "WAAA-701 五日市芽依｜中出主軸的展示型企劃",
         "display_short_title": null,
         "slug": "waaa-701"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:WAAA-705",
+        "source_cover": "https://cc18.tv/preview/80/b/Ai7yEX00_3y-800.jpg?v=1793392605",
+        "title": "WAAA-705 大槻響｜中出企劃：角色反差比情節更有記憶點",
+        "catalog_code": "WAAA-705",
+        "release_date": "2026-10-30",
+        "performers": [
+          "大槻響"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/waaa-705/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:72"
+      ],
+      "search": {
+        "source_title": "保險套破了,竟然變成無套性交！以超加速的抽插動作反覆內射！ 大槻響",
+        "article_title": "WAAA-705 大槻響｜中出企劃：角色反差比情節更有記憶點",
+        "display_short_title": null,
+        "slug": "waaa-705"
       }
     },
     {

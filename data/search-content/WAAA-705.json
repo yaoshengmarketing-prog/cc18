@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "movie_id": "WAAA-705",
+  "generated_at": "2026-11-02T23:33:58.952Z",
+  "source_snapshot_hash": "sha256:ec82745c7e2be5ad1952734da4cd87f802001dfc5db90c377d7b03f90f22abf1",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "WAAA-705 的吸引力首先來自大槻響，其次是公開介紹補出的女教師與處男反差；整體更像以明確企劃和系列公式驅動的作品，而不是目前可確認資訊很多的厚劇情片。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "演員辨識度鮮明",
+      "角色反差明確",
+      "系列主題直接",
+      "公開資訊偏設定導向"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "以大槻響為主要選片依據的觀眾",
+      "喜歡女教師與處男這類角色反差的人",
+      "接受系列公式型主題包裝的觀眾"
+    ],
+    "not_for": [
+      "想先確認複雜劇情再入手的人",
+      "特別重視已知場面設計或敘事層次的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "第一個選片理由是什麼",
+    "這部的公開賣點偏角色還是偏情節",
+    "劇情期待值應該放在哪裡",
+    "適合哪一類觀眾先看"
+  ]
+}

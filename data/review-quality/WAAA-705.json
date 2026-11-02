@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "WAAA-705",
+  "review_sha256": "7cf050b61a9671ba0ffe1ce26a46b7f45650eaa5b7ec3eefe0faebb570477dd9",
+  "selected_thesis": "WAAA-705 的吸引力首先來自大槻響，其次是公開介紹中的女教師與處男反差；整體判斷更偏向系列公式清楚的設定型作品。",
+  "title_basis": {
+    "performer": "大槻響",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "大槻響",
+        "source_field": "actress"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "コンドームが破れてまさかの生ハメ！超加速するピストンで何度も",
+        "source_field": "series"
+      }
+    ],
+    "primary_theme": "大槻響",
+    "presentation_feature": "中出",
+    "editorial_judgment": "以大槻響的辨識度為核心，從公開介紹中的「女教師×處男」反差與系列名稱標出的中出主題，判斷本作更屬於設定先行、公式清楚的選片。",
+    "source_keywords": [
+      "大槻響",
+      "中出",
+      "コンドームが破れてまさかの生ハメ！超加速するピストンで何度も"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開資料明確列出演員為大槻響，且 core source concept 同樣指向她本人，足以支持本文把演員辨識度放在第一選片理由。",
+      "basis": "public_source",
+      "signal": "大槻響作為作品核心"
+    },
+    {
+      "observation_refs": [],
+      "supports": "系列名稱直接標出意外破套後升高刺激的企劃方向，topic elements 與 safe signals 也都列有「中出」與「アクメ・オーガズム」，可支持本文將其視為公式鮮明的主題型作品。",
+      "basis": "public_source",
+      "signal": "中出主題與系列公式"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開介紹摘錄寫有「魅惑女教師特別篇！」，來源概念另列出「女教師」「處男」，可支持本文把角色反差視為重要賣點。",
+      "basis": "public_source",
+      "signal": "女教師×處男的角色設定"
+    },
+    {
+      "observation_refs": [],
+      "supports": "目前沒有可供驗證的影片觀察，因此本文僅將公開文字理解為企劃與設定訊號，不延伸為具體場景或表演判斷。",
+      "basis": "public_source",
+      "signal": "選片判斷以公開設定為主"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱已確認任何具體場景、鏡位、剪輯、聲音或表演細節。",
+    "未把「女教師」「處男」延伸成已發生的完整人物關係或情節過程。",
+    "未將系列名稱中的刺激字樣寫成逐一驗證過的畫面事實。",
+    "未補寫未提供的角色姓名、年齡、私生活或真實身分。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}

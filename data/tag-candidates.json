@@ -444,14 +444,15 @@
     },
     {
       "label": "處男",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "SNOS-371",
         "DVMM-442",
-        "HUNTC-638"
+        "HUNTC-638",
+        "WAAA-705"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-11-03",
       "status": "quarantined"
     },
     {
@@ -999,12 +1000,13 @@
     },
     {
       "label": "早洩",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "RKI-750"
+        "RKI-750",
+        "WAAA-705"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-11-03",
       "status": "quarantined"
     },
     {
@@ -2357,14 +2359,15 @@
     },
     {
       "label": "女教師",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "DSOD-093",
         "SNOS-398",
-        "JUR-865"
+        "JUR-865",
+        "WAAA-705"
       ],
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-21",
+      "last_seen": "2026-11-03",
       "status": "quarantined"
     },
     {

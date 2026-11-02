@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T16:43:02.838Z",
+  "updated_at": "2026-11-02T23:35:28.178Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -5139,6 +5139,21 @@
       ],
       "release_date": "2026-10-16",
       "source_url": "https://cc18.tv/player.php?uuid=ubR5Utu_92z&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-02"
+    },
+    {
+      "id": "WAAA-705",
+      "actress": [
+        "大槻響"
+      ],
+      "release_date": "2026-10-30",
+      "source_url": "https://cc18.tv/player.php?uuid=Ai7yEX00_3y&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

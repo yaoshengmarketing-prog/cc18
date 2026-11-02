@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "WAAA-705",
+  "checked_at": "2026-11-02T23:33:59.106Z",
+  "review_sha256": "d40c5d6c678b5ea84a0791ba227532ab2ea2e053701c2bc80c77497571e96757",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最穩的入口仍然是大槻響。公開資料把她放在作品最前面，連核心概念也直接指向她本人，代表這部片的第一層吸引力很清楚，就是由演員辨識度來帶動選片。另一個同樣明確的訊號，是系列名稱直接把高刺激主題寫在前面，搭配公開標示的「中出」與「アクメ・オーガズム」，讓這部作品從一開始就不是走隱晦路線"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}
