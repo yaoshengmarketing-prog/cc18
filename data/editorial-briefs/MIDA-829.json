@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "id": "MIDA-829",
+  "generated_at": "2026-11-02T00:04:17.919Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "gpt-5.4",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/MIDA-829.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "直擊腦門主觀ASMR",
+    "premise": "作品以「直擊腦門主觀ASMR」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「直擊腦門主觀ASMR」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "直擊腦門主觀ASMR",
+      "UNPAI",
+      "打手槍",
+      "淫語"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "淫語",
+      "アクメ・オーガズム"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "editorial_angle": "把這部作品放在「概念先行的系列型企劃」來看：公開資訊最強的辨識點不是劇情，而是 UNPAI、系列名，以及「直擊腦門主觀ASMR」結合「淫語」的選片入口。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "UNPAI",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "直擊腦門主觀ASMR",
+      "source_field": "title"
+    },
+    {
+      "type": "series",
+      "value": "イクイク見せつけオナニーサポート！",
+      "source_field": "series"
+    },
+    {
+      "type": "act_or_position",
+      "value": "淫語",
+      "source_field": "safe_signals"
+    }
+  ],
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "標題與論點必須由核心概念主導，因為公開來源已直接給出最鮮明的企劃辨識詞。",
+      "basis": "public_source",
+      "signal": "直擊腦門主觀ASMR"
+    },
+    {
+      "observation_refs": [],
+      "supports": "系列名稱本身就指出作品更接近固定企劃的展示型路線，可作為選片時的重要預期管理。",
+      "basis": "public_source",
+      "signal": "イクイク見せつけオナニーサポート！"
+    },
+    {
+      "observation_refs": [],
+      "supports": "成人主題的主要切入點可追溯到公開標籤，適合放在標題與選片判斷核心。",
+      "basis": "public_source",
+      "signal": "淫語"
+    },
+    {
+      "observation_refs": [],
+      "supports": "演員資訊明確，因此觀眾若以出演者為第一優先，這部片有清楚的進入理由。",
+      "basis": "public_source",
+      "signal": "UNPAI"
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "公開資料未提供明確人物關係、場景、服裝或故事衝突，因此文章不把作品寫成劇情片。",
+    "「角色變化」「互動節奏」只作為整理評論的提問方向，不延伸為已發生的情節。",
+    "「主觀ASMR」僅作為企劃概念與選片賣點使用，不推定實際音效設計、收音方式或聲音表現。"
+  ],
+  "decision_guide": {
+    "thesis": "MIDA-829 的吸引力主要來自 UNPAI 與「直擊腦門主觀ASMR」這個直接概念，再由「淫語」補強成人主題辨識；若你要的是設定明快的系列展示型作品，這部片的入口相當清楚。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "企劃概念先行",
+      "系列辨識度高",
+      "演員與主題入口清楚"
+    ],
+    "audience_for": [
+      "以 UNPAI 為主要選片依據的人",
+      "偏好概念清楚、主題直接的系列企劃觀眾",
+      "想找以主觀ASMR與淫語作為入口的人"
+    ],
+    "audience_not_for": [
+      "想找完整人物關係與情節轉折的人",
+      "會依場景、服裝或世界觀細節挑片的人",
+      "期待從公開資訊就確認大量劇情內容的人"
+    ],
+    "questions_answered": [
+      "這部片最明確的公開賣點是什麼？",
+      "它更像劇情片還是展示型企劃？",
+      "系列資訊如何影響選片判斷？",
+      "哪些觀眾會最容易買單？"
+    ]
+  },
+  "title": "MIDA-829 UNPAI｜直擊腦門主觀ASMR的淫語企劃：系列展示感很明確",
+  "seo_title": "MIDA-829 UNPAI影評｜淫語主打的直擊腦門主觀ASMR，系列展示型企劃取向明確",
+  "sections": [
+    {
+      "heading": "這部片最清楚的賣點是什麼？",
+      "body": "從公開資訊來看，這部片最鮮明的不是故事背景，而是企劃本身。來源直接給出「直擊腦門主觀ASMR」這個核心概念，並且搭配 UNPAI 的出演資訊，讓選片入口非常直接；再加上公開標籤中的「淫語」，整體定位更明顯地指向感官刺激與主題展示，而不是靠人物設定慢慢堆疊。對想快速判斷作品方向的觀眾來說，這種一眼就能理解重點的片型有很高的可選性。"
+    },
+    {
+      "heading": "為什麼我會把它看成展示型企劃，而不是劇情取向？",
+      "body": "關鍵在於系列名「イクイク見せつけオナニーサポート！」本身就帶有固定企劃的氣味。再對照公開來源中的主題詞，包括「打手槍」、「淫語」與「アクメ・オーガズム」，可以看出這部片的主要吸引力集中在主題呈現與刺激設計，而不是先交代關係、場景或事件。公開資料也沒有提供可延伸的情節骨架，因此較穩妥的選片判斷，是把它視為一部由系列公式與主題詞帶動的展示型作品。"
+    },
+    {
+      "heading": "系列資訊對選片判斷有什麼幫助？",
+      "body": "如果你本來就會追系列作品，這部片的優勢在於定位相對一致。系列名稱已經把企劃方向說得很白，核心概念又以「直擊腦門主觀ASMR」做出差異化，代表它不是單靠高畫質或獨家配信這類附加條件吸引人，而是有一個能被明確辨識的主軸。這也讓選片時比較容易建立預期：你買的是概念清楚、主題集中的系列內容，而不是需要額外閱讀大量劇情介紹才能理解的作品。"
+    },
+    {
+      "heading": "哪些觀眾最適合，哪些觀眾可能不對味？",
+      "body": "如果你的選片方式偏向演員優先，或是喜歡一看到主題就知道自己會不會有興趣，MIDA-829 的公開資訊其實很友善：UNPAI、系列名、主觀ASMR、淫語，入口都很清楚。相對地，如果你更在意人物關係、場景設定、服裝屬性，或希望先從公開介紹讀到完整劇情輪廓，這部片目前能提供的線索就有限。也因此，我會把它推薦給想要『概念直接、企劃明快』的觀眾，而不是想找高故事密度的人。"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱已觀察到任何實際場景、鏡位、剪輯、音效或收音表現。",
+    "未描述任何未提供的人物關係、角色身分、年齡、私生活或劇情衝突。",
+    "未把「ASMR」寫成已驗證的聲音品質、耳語演出或具體聽覺效果。",
+    "未宣稱存在特定服裝、地點、表情、肢體互動或高潮演出細節。",
+    "未把公開宣傳詞延伸為已經證實的觀看結果。"
+  ],
+  "editorial_tag_ids": [
+    "series-formula",
+    "showcase-format"
+  ],
+  "social_title": "MIDA-829 UNPAI：直擊腦門主觀ASMR，主打淫語的系列企劃",
+  "short_review": "這部片的選片理由很單純也很清楚：UNPAI 搭配「直擊腦門主觀ASMR」概念，再由「淫語」補強主題辨識。若你偏好系列化、展示型、入口直接的企劃作品，它的公開賣點相當完整。",
+  "selected_thesis": "MIDA-829 不是靠複雜設定取勝，而是以 UNPAI、系列公式與「直擊腦門主觀ASMR＋淫語」這組公開訊號，建立一部展示型企劃片的清楚吸引力。",
+  "angle_candidates": [
+    "以「直擊腦門主觀ASMR」為核心，討論它如何成為比劇情更重要的選片入口",
+    "從系列名切入，分析這部作品為何更適合被理解成展示型企劃",
+    "以 UNPAI 為觀眾入口，評估公開資訊是否足以支撐一次明快的選片決策"
+  ]
+}

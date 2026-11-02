@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "MIDA-829",
+  "review_sha256": "8fc9097fe64c13d7f13a1ae4dc236a8df897fddae0b289e89f8a924ee93fe368",
+  "selected_thesis": "MIDA-829 不是靠複雜設定取勝，而是以 UNPAI、系列公式與「直擊腦門主觀ASMR＋淫語」這組公開訊號，建立一部展示型企劃片的清楚吸引力。",
+  "title_basis": {
+    "performer": "UNPAI",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "UNPAI",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "直擊腦門主觀ASMR",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "イクイク見せつけオナニーサポート！",
+        "source_field": "series"
+      },
+      {
+        "type": "act_or_position",
+        "value": "淫語",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "UNPAI",
+    "presentation_feature": "直擊腦門主觀ASMR",
+    "editorial_judgment": "把這部作品放在「概念先行的系列型企劃」來看：公開資訊最強的辨識點不是劇情，而是 UNPAI、系列名，以及「直擊腦門主觀ASMR」結合「淫語」的選片入口。",
+    "source_keywords": [
+      "UNPAI",
+      "直擊腦門主觀ASMR",
+      "イクイク見せつけオナニーサポート！",
+      "淫語"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "標題與論點必須由核心概念主導，因為公開來源已直接給出最鮮明的企劃辨識詞。",
+      "basis": "public_source",
+      "signal": "直擊腦門主觀ASMR"
+    },
+    {
+      "observation_refs": [],
+      "supports": "系列名稱本身就指出作品更接近固定企劃的展示型路線，可作為選片時的重要預期管理。",
+      "basis": "public_source",
+      "signal": "イクイク見せつけオナニーサポート！"
+    },
+    {
+      "observation_refs": [],
+      "supports": "成人主題的主要切入點可追溯到公開標籤，適合放在標題與選片判斷核心。",
+      "basis": "public_source",
+      "signal": "淫語"
+    },
+    {
+      "observation_refs": [],
+      "supports": "演員資訊明確，因此觀眾若以出演者為第一優先，這部片有清楚的進入理由。",
+      "basis": "public_source",
+      "signal": "UNPAI"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱已觀察到任何實際場景、鏡位、剪輯、音效或收音表現。",
+    "未描述任何未提供的人物關係、角色身分、年齡、私生活或劇情衝突。",
+    "未把「ASMR」寫成已驗證的聲音品質、耳語演出或具體聽覺效果。",
+    "未宣稱存在特定服裝、地點、表情、肢體互動或高潮演出細節。",
+    "未把公開宣傳詞延伸為已經證實的觀看結果。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}

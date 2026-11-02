@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "id": "MIDA-829",
+  "checked_at": "2026-11-02T00:04:18.102Z",
+  "review_sha256": "958ef743b687d7a922b2f8f1b8b77e8aa29fe8b0908132b3221a4a7366948a83",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "從公開資訊來看，這部片最鮮明的不是故事背景，而是企劃本身。來源直接給出「直擊腦門主觀ASMR」這個核心概念，並且搭配 UNPAI 的出演資訊，讓選片入口非常直接；再加上公開標籤中的「淫語」，整體定位更明顯地指向感官刺激與主題展示，而不是靠人物設定慢慢堆疊。對想快速判斷作品方向的觀"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "如果你本來就會追系列作品，這部片的優勢在於定位相對一致。系列名稱已經把企劃方向說得很白，核心概念又以「直擊腦門主觀ASMR」做出差異化，代表它不是單靠高畫質或獨家配信這類附加條件吸引人，而是有一個能被明確辨識的主軸。這也讓選片時比較容易建立預期：你買的是概念清楚、主題集中的系列內"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

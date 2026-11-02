@@ -1115,7 +1115,7 @@
     },
     {
       "label": "打手槍",
-      "occurrences": 12,
+      "occurrences": 13,
       "source_ids": [
         "SNOS-447",
         "GOJI-110",
@@ -1128,10 +1128,11 @@
         "SKMJ-788",
         "SNOS-397",
         "NACT-186",
-        "MIDA-844"
+        "MIDA-844",
+        "MIDA-829"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {
@@ -1248,7 +1249,7 @@
     },
     {
       "label": "第一人稱視點",
-      "occurrences": 11,
+      "occurrences": 12,
       "source_ids": [
         "IESP-765",
         "IPZZ-943",
@@ -1260,10 +1261,11 @@
         "SCMF-004",
         "IENF-470",
         "HMN-894",
-        "MIDA-844"
+        "MIDA-844",
+        "MIDA-829"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {
@@ -1936,14 +1938,15 @@
     },
     {
       "label": "オナサポ",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "EBWH-366",
         "DSOD-093",
-        "MIDA-844"
+        "MIDA-844",
+        "MIDA-829"
       ],
       "first_seen": "2026-09-14",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "status": "quarantined"
     },
     {

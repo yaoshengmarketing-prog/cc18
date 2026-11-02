@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "MIDA-829",
+  "calls": [
+    {
+      "generated_at": "2026-11-02T00:04:17.916Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4326,
+      "cached_input_tokens": 0,
+      "output_tokens": 4316,
+      "total_tokens": 8642,
+      "estimated_cost_usd": 0.11874,
+      "estimated_payg_cash_cost_usd": 0.124677,
+      "direct_openai_reference_usd": 0.075555,
+      "gateway_premium_usd": 0.043185,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4326,
+    "cached_input_tokens": 0,
+    "output_tokens": 4316,
+    "estimated_cost_usd": 0.11874,
+    "estimated_payg_cash_cost_usd": 0.124677,
+    "direct_openai_reference_usd": 0.075555,
+    "gateway_premium_usd": 0.043185
+  }
+}

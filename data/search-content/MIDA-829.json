@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "movie_id": "MIDA-829",
+  "generated_at": "2026-11-02T00:04:18.004Z",
+  "source_snapshot_hash": "sha256:3043559ad11ba38db213c4d5ae204f9e2e15680af1934769b001acd7b768c5c6",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "MIDA-829 的吸引力主要來自 UNPAI 與「直擊腦門主觀ASMR」這個直接概念，再由「淫語」補強成人主題辨識；若你要的是設定明快的系列展示型作品，這部片的入口相當清楚。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "企劃概念先行",
+      "系列辨識度高",
+      "演員與主題入口清楚"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "以 UNPAI 為主要選片依據的人",
+      "偏好概念清楚、主題直接的系列企劃觀眾",
+      "想找以主觀ASMR與淫語作為入口的人"
+    ],
+    "not_for": [
+      "想找完整人物關係與情節轉折的人",
+      "會依場景、服裝或世界觀細節挑片的人",
+      "期待從公開資訊就確認大量劇情內容的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片最明確的公開賣點是什麼？",
+    "它更像劇情片還是展示型企劃？",
+    "系列資訊如何影響選片判斷？",
+    "哪些觀眾會最容易買單？"
+  ]
+}

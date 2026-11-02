@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:244fb359e29abc24c241725edbcc71aceeb0acb08c4d80da76d29d5176698952",
-  "source_generated_at": "2026-11-02T00:00:20.708Z",
+  "source_revision": "sha256:35623547b63a97d33b23a5dade769bd438db014fe4540f43783f5c93278b80c2",
+  "source_generated_at": "2026-11-02T00:05:48.820Z",
   "counts": {
-    "movies": 321,
-    "performers": 289,
+    "movies": 322,
+    "performers": 290,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -3248,6 +3248,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:27219",
+      "display_name": "UNPAI",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "UNPAI",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MIDA-829"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:54664",
       "display_name": "かたよせ萩花",
       "display_name_zh_tw": null,
@@ -5029,6 +5040,51 @@
         "article_title": "TEND-040 高城渚｜高城渚完整版美少女企劃：展示型取向明確",
         "display_short_title": null,
         "slug": "tend-040"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MIDA-829",
+        "source_cover": "https://cc18.tv/preview/80/b/AmxHbkjcY5w-800.jpg?v=1792399048",
+        "title": "MIDA-829 UNPAI｜直擊腦門主觀ASMR的淫語企劃：系列展示感很明確",
+        "catalog_code": "MIDA-829",
+        "release_date": "2026-10-16",
+        "performers": [
+          "UNPAI"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "dirty-talk",
+            "label": "言語挑逗"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mida-829/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27219"
+      ],
+      "search": {
+        "source_title": "「用超羞恥的痴態表情打手槍吧」耳邊響起的激烈喘息與絕頂嬌喘聲包圍下大昇天！高潮連連盡情展現的自慰支持！直擊腦門主觀ASMR UNPAI",
+        "article_title": "MIDA-829 UNPAI｜直擊腦門主觀ASMR的淫語企劃：系列展示感很明確",
+        "display_short_title": null,
+        "slug": "mida-829"
       }
     },
     {
