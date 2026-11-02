@@ -1,0 +1,64 @@
+{
+  "schema_version": 2,
+  "id": "FPRE-246",
+  "checked_at": "2026-11-02T16:03:14.093Z",
+  "review_sha256": "28074ae9b7bee46d3c16711bc6df1f48aa3339e21b7641dca755f59d1d1f1f44",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "broad_formulaic_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 4,
+      "paragraph_count": 10,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最清楚、也最有辨識度的公開訊號就是「完全主觀」。在目前可追溯資料裡，這個概念同時出現在題名線索與企劃摘要，代表它不是附帶標籤，而是選片時應該優先理解的核心。若你本來就偏好主觀感強、企劃意圖鮮明的作品，FPRE-246 的入口很直接；相反地，如果你通常先看人物設定、關係鋪陳或故事前"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "因為目前已知的穩定資訊不多，演出者名稱就格外重要。FPRE-246 已知由菊乃蘭出演，這讓作品除了企劃概念之外，還有明確的演員指向。再加上公開標籤裡有「巨乳」，這部片對於原本就以演員與身體類型作為篩選條件的觀眾來說，判斷門檻相對低：你不是在一堆模糊設定裡猜它要賣什麼，而是能直接看"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "就公開標籤來看，這片的成人內容方向相當清楚：有「中出」與「口交」，其中若要挑一個最適合放進標題與選片摘要的主題，「中出」辨識度最高，也最能和「完全主觀」一起構成這部作品的主打面貌。這不表示其他元素不重要，而是從選片角度來說，這些訊號已經足夠讓觀眾知道它不是靠複雜設定吸引人，而是靠"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "以目前公開資料判斷，較穩妥的定位是展示型企劃。原因不是已經證明它沒有故事，而是現有資訊並未提供可追溯的劇情前提、人物關係、場景設定或系列脈絡；相對地，「完全主觀」、演員名、身體標籤與行為標籤卻都很明確。這種資訊分布本身就會影響選片結論：你更應該把它看成一部企劃概念先行、賣點集中、"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

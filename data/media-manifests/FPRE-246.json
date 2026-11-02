@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "FPRE-246",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-02T16:03:53.938Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/FPRE-246/hero-v1.jpg",
+      "r2_key": "works/2026/10/FPRE-246/hero-v1.jpg",
+      "bytes": 636650,
+      "sha256": "c5fa327031f8fa3096227e2fdb1508f82e0fdf25e46afbc33b431d415860f746",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "0e0c8fed4cbc42e29525bb072a6928b0",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/FPRE-246/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/FPRE-246/scene-vertical-v1.jpg",
+      "bytes": 1030308,
+      "sha256": "1a11ce47b34828ba833d9fdf81c02cc13cdbacebe5e966b9e5fb53587da5a8d3",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "012d7893806c48078bbcfad3e3de06e5",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3148705,
+    "sha256": "59ed81b01da0ae182361aae57ba83143da580721d891c37ed204515e23ddfcb0",
+    "target_r2_key": "works/2026/10/FPRE-246/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/FPRE-246/vertical-v1.mp4"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "FPRE-246",
+  "review_sha256": "602c64d4d35effafb604c3d2ae78594c137b4a4de1580aa462a77bae81f1b986",
+  "selected_thesis": "這是一部以「完全主觀」作為核心招牌、由菊乃蘭與中出等標籤共同完成定位的展示型企劃作品。",
+  "title_basis": {
+    "performer": "菊乃蘭",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "菊乃蘭",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "完全主觀",
+        "source_field": "title"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "菊乃蘭",
+    "presentation_feature": "完全主觀",
+    "editorial_judgment": "以「完全主觀」作為本片最關鍵的公開辨識點，將作品定位為企劃展示型選片，並用菊乃蘭與中出等可追溯標籤補強判斷，而不延伸未公開的劇情內容。",
+    "source_keywords": [
+      "菊乃蘭",
+      "完全主觀",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開題名與創意摘要都反覆指出「完全主觀」，足以作為本片最優先的選片概念。",
+      "basis": "public_source",
+      "signal": "完全主觀"
+    },
+    {
+      "observation_refs": [],
+      "supports": "已知演出者為菊乃蘭，這讓作品具備明確的演員指向，適合以演員偏好作為選片入口。",
+      "basis": "public_source",
+      "signal": "菊乃蘭"
+    },
+    {
+      "observation_refs": [],
+      "supports": "安全標籤與 topic_elements 同時出現「中出」「口交」，可確認本片的成人內容訊號偏直接明確。",
+      "basis": "public_source",
+      "signal": "中出／口交"
+    },
+    {
+      "observation_refs": [],
+      "supports": "目前沒有可追溯的系列、人物關係、場景或劇情前提公開資訊，因此較穩妥的判讀是把它視為企劃概念先行的作品，而非以故事資訊取勝。",
+      "basis": "public_source",
+      "signal": "展示型企劃取向"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未寫入任何未公開的劇情前提或人物關係",
+    "未聲稱看見具體場景、鏡位、剪輯、聲音或表演細節",
+    "未推定「完全主觀」在成片中的實際呈現方式",
+    "未推定中出、口交、巨乳在全片中的段落比例"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-01T16:00:00.000Z"
+}

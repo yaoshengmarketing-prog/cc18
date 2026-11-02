@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-02T06:51:42.522Z",
+  "generated_at": "2026-11-02T16:04:59.581Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 338,
-  "formal_movie_count": 337,
+  "tracked_input_count": 339,
+  "formal_movie_count": 338,
   "demo_count": 1,
-  "published_count": 334,
+  "published_count": 335,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -809,6 +809,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "8e48ceeb9ae1ddaba849197053a7c784e3c519595acb9539b4104590da0c857e"
+    },
+    {
+      "stable_movie_id": "cc18:FPRE-246",
+      "catalog_code": "FPRE-246",
+      "slug": "fpre-246",
+      "master_path": "data/movie-master/fpre-246.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "93bf5973ae9e963bbe0fbe7287bf78b4e8994982d09a80e58fc851b7db6f3121"
     },
     {
       "stable_movie_id": "cc18:FSBK-028",
