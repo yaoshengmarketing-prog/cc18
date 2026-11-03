@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "MFCL-035",
+  "checked_at": "2026-11-03T21:46:49.384Z",
+  "review_sha256": "7ea1d7049843430004d7fb3edc6ceef894df04aae84ae79bad389650e4b8d196",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "先看公開來源，MFCL-035 最清楚的區隔不是演員名單，也不是劇情摘要，而是「獨家」這個核心概念。再加上「獨家配信」「配信専用」與「自拍／自拍形式」等資訊，這部片的吸引力明顯建立在企劃形式本身：它要賣的是一種更直接、較少包裝距離的觀看入口。對選片來說，這種訊號集中其實是優點，因"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

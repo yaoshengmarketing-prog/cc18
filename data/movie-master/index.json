@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-03T21:41:33.359Z",
+  "generated_at": "2026-11-03T21:48:19.047Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 368,
-  "formal_movie_count": 367,
+  "tracked_input_count": 369,
+  "formal_movie_count": 368,
   "demo_count": 1,
-  "published_count": 364,
+  "published_count": 365,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1457,6 +1457,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "14c873882b33859ecb138585059b1d073a5910e3ab7ff9ddfa2b328d07368cd9"
+    },
+    {
+      "stable_movie_id": "cc18:MFCL-035",
+      "catalog_code": "MFCL-035",
+      "slug": "mfcl-035",
+      "master_path": "data/movie-master/mfcl-035.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "b92cdabc1c9f39f373c36f24c7a006c77e237409441f98c40bc90ee78daf196c"
     },
     {
       "stable_movie_id": "cc18:MFYD-220",

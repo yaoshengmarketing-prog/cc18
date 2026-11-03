@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "movie_id": "MFCL-035",
+  "generated_at": "2026-11-03T21:46:49.279Z",
+  "source_snapshot_hash": "sha256:ff5f714262db8523ecfc3748df0d8689660e11919c7be1286e6568df9ebd0f9e",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "MFCL-035 的可取之處，在於公開訊號非常集中：它把「獨家」與「自拍」放在最前面，再以情侶框架、親吻與中出等口味標示補足方向，因此更適合作為展示型、近距離取向的選片，而不是期待高劇情密度的作品。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "自拍形式",
+      "獨家配信",
+      "高畫質標示"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好自拍形式與直接近距離感的觀眾",
+      "會用親吻、中出、窈窕等公開訊號快速篩選口味的觀眾",
+      "對獨家配信企劃有興趣、接受低劇情密度的觀眾"
+    ],
+    "not_for": [
+      "想看完整角色設定或明確劇情推進的觀眾",
+      "只接受已知演員資訊後才會決定的觀眾",
+      "希望從評論中確認具體場景、鏡位或演技表現的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片最值得先看的來源賣點是什麼？",
+    "它比較適合用哪一種期待進場？",
+    "公開資料能支撐哪些口味判斷？",
+    "哪些觀眾適合、哪些觀眾不適合？"
+  ]
+}

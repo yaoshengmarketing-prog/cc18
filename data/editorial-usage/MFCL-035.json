@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "MFCL-035",
+  "calls": [
+    {
+      "generated_at": "2026-11-03T21:46:49.171Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4483,
+      "cached_input_tokens": 0,
+      "output_tokens": 4746,
+      "total_tokens": 9229,
+      "estimated_cost_usd": 0.1292,
+      "estimated_payg_cash_cost_usd": 0.13566,
+      "direct_openai_reference_usd": 0.082397,
+      "gateway_premium_usd": 0.046803,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4483,
+    "cached_input_tokens": 0,
+    "output_tokens": 4746,
+    "estimated_cost_usd": 0.1292,
+    "estimated_payg_cash_cost_usd": 0.13566,
+    "direct_openai_reference_usd": 0.082397,
+    "gateway_premium_usd": 0.046803
+  }
+}

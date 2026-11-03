@@ -938,15 +938,16 @@
     },
     {
       "label": "修長",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "SNOS-401",
         "REBD-1065",
         "REBD-1063",
-        "SNOS-403"
+        "SNOS-403",
+        "MFCL-035"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-24",
+      "last_seen": "2026-11-04",
       "status": "quarantined"
     },
     {
@@ -1064,13 +1065,14 @@
     },
     {
       "label": "情侶",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "BBAN-601",
-        "NPJS-285"
+        "NPJS-285",
+        "MFCL-035"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-04",
       "status": "quarantined"
     },
     {

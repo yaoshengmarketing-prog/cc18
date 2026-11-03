@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "MFCL-035",
+  "review_sha256": "6846f462a17ec6b1a6f7f8fffa8dc1358d963bac2ba6216a21b4c788a5f3f80c",
+  "selected_thesis": "MFCL-035 的可取之處，在於公開訊號非常集中：它把「獨家」與「自拍」放在最前面，再以情侶框架、親吻與中出等口味標示補足方向，因此更適合作為展示型、近距離取向的選片，而不是期待高劇情密度的作品。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "自拍形式",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "親吻",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "自拍形式",
+    "editorial_judgment": "把這部作品視為以「獨家」與「自拍形式」做區隔的展示型企劃來評估，重點不是補寫未公開劇情，而是檢查公開訊號是否足以形成清楚、低落差的選片期待。",
+    "source_keywords": [
+      "獨家",
+      "自拍形式",
+      "親吻"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開來源把「獨家」列為核心概念，並同時給出「獨家配信」「配信専用」等呈現資訊，因此本作最可追溯的賣點首先是企劃定位，而不是角色背景或複雜情節。",
+      "basis": "public_source",
+      "signal": "獨家"
+    },
+    {
+      "observation_refs": [],
+      "supports": "「自拍」「自拍形式」與高畫質標示被反覆列出，足以支持本作以近距離、直接呈現為主要選片方向；這是格式判斷，不是對實際畫面效果的觀看結論。",
+      "basis": "public_source",
+      "signal": "自拍形式"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源摘錄另出現「情侶」，因此可合理視為雙人親密關係框架已被公開提示，選片時可預期重點偏向關係親近感，而非陌生人或多線角色設定。",
+      "basis": "public_source",
+      "signal": "情侶"
+    },
+    {
+      "observation_refs": [],
+      "supports": "「親吻」「中出」與「窈窕」提供了口味與外型層面的明確篩選條件，能幫助觀眾快速判斷是否符合偏好，但不足以延伸成具體橋段描述。",
+      "basis": "public_source",
+      "signal": "親吻／中出／窈窕"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未宣稱存在特定劇情轉折、角色成長或關係變化",
+    "未宣稱已觀察到任何具體場景、鏡位、剪輯、聲音或演技表現",
+    "未補寫演員姓名、真實身分、年齡或私生活資訊",
+    "未將高畫質、720p、FHD 直接寫成實際觀看品質結論",
+    "未把「情侶」延伸成已驗證的同居、婚姻或特定背景設定"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-02T16:00:00.000Z"
+}
