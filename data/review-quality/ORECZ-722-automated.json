@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "ORECZ-722",
+  "checked_at": "2026-11-03T21:03:04.210Z",
+  "review_sha256": "fcf95e5468c207c4f7153eccd19d1fd8b325a4c296aa2203e2403c3ccfccefca",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections",
+    "missing_creative_reconstruction_audit"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就公開資訊來看，ORECZ-722 最明確的賣點不是系列世界觀，也不是已知演員陣容，而是「獨家」這個核心概念，搭配「素人企劃」「女大學生」「中出」幾個非常直接的題材訊號。這種組合代表它的吸引力主要來自企劃辨識度：觀眾一眼就能知道作品想主打什麼，選片門檻低，題材入口也很清楚。"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

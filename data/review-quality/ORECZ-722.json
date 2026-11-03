@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "ORECZ-722",
+  "review_sha256": "6aaff90739b6d685a0c60b02340a4db8149bffa0f97627839a7094718685a9c3",
+  "selected_thesis": "這是一部以「獨家」企劃感為核心、由「女大學生」與「素人」身份訊號帶動選片意願的展示型作品。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "女大學生",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "女大學生",
+    "editorial_judgment": "以「獨家」為核心，判斷這部作品是否屬於概念先行、靠身份標籤與企劃辨識度取勝的素人配信片。",
+    "source_keywords": [
+      "獨家",
+      "女大學生",
+      "素人企劃",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品的核心辨識點來自「獨家」標示，適合作為標題與評論主軸。",
+      "basis": "public_source",
+      "signal": "獨家"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤明示「素人企劃」與「企劃片」，可支持將本作視為概念導向的企劃型作品。",
+      "basis": "public_source",
+      "signal": "素人企劃"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資訊提供「女大學生」身份訊號，足以作為選片時的主要題材入口。",
+      "basis": "public_source",
+      "signal": "女大學生"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤含「中出」，可確認成人題材的直接訴求。",
+      "basis": "public_source",
+      "signal": "中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資訊另列 720p、全高清、獨家限定、配信専用，說明其配信與畫質定位清楚。",
+      "basis": "public_source",
+      "signal": "高畫質／獨家配信"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "具體劇情前提與情節轉折",
+    "人物關係與角色發展",
+    "實際場景、鏡位、聲音與剪輯風格",
+    "演出者姓名、背景與真實身分",
+    "任何基於觀看後才可確認的表演評價"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-02T16:00:00.000Z"
+}

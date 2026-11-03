@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "id": "ORECZ-722",
+  "generated_at": "2026-11-03T21:03:03.939Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "gpt-5.4",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/ORECZ-722.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "獨家",
+    "premise": "作品以「獨家」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「獨家」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "獨家",
+      "娜美",
+      "女大學生"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "素人",
+      "女大學生"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "企劃片",
+      "720p",
+      "全高清 (FHD)",
+      "獨家限定",
+      "配信専用"
+    ]
+  },
+  "editorial_angle": "以「獨家」為核心，判斷這部作品是否屬於概念先行、靠身份標籤與企劃辨識度取勝的素人配信片。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "獨家",
+      "source_field": "title"
+    },
+    {
+      "type": "identity",
+      "value": "女大學生",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "素人企劃",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "act_or_position",
+      "value": "中出",
+      "source_field": "safe_signals"
+    }
+  ],
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品的核心辨識點來自「獨家」標示，適合作為標題與評論主軸。",
+      "basis": "public_source",
+      "signal": "獨家"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤明示「素人企劃」與「企劃片」，可支持將本作視為概念導向的企劃型作品。",
+      "basis": "public_source",
+      "signal": "素人企劃"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資訊提供「女大學生」身份訊號，足以作為選片時的主要題材入口。",
+      "basis": "public_source",
+      "signal": "女大學生"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤含「中出」，可確認成人題材的直接訴求。",
+      "basis": "public_source",
+      "signal": "中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資訊另列 720p、全高清、獨家限定、配信専用，說明其配信與畫質定位清楚。",
+      "basis": "public_source",
+      "signal": "高畫質／獨家配信"
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "decision_guide": {
+    "thesis": "這是一部以「獨家」企劃感為核心、由「女大學生」與「素人」身份訊號帶動選片意願的展示型作品。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "素人企劃",
+      "獨家配信",
+      "高畫質"
+    ],
+    "audience_for": [
+      "偏好身份題材明確的觀眾",
+      "會先看企劃概念與標籤組合來選片的人",
+      "接受配信企劃片以設定辨識度為主的人"
+    ],
+    "audience_not_for": [
+      "想先確認完整劇情設定再決定的人",
+      "重視已知演員資訊或明星辨識度的人",
+      "期待明確人物關係與場景鋪陳的人"
+    ],
+    "questions_answered": [
+      "這部片的主賣點是什麼？",
+      "它比較適合看題材還是看故事？",
+      "哪些觀眾會更容易買單這種企劃？"
+    ]
+  },
+  "title": "ORECZ-722｜獨家女大學生企劃：看點集中在設定辨識度",
+  "seo_title": "ORECZ-722 影評｜女大學生，獨家企劃感鮮明的素人作品",
+  "sections": [
+    {
+      "heading": "這部片的核心賣點是什麼？",
+      "body": "就公開資訊來看，ORECZ-722 最明確的賣點不是系列世界觀，也不是已知演員陣容，而是「獨家」這個核心概念，搭配「素人企劃」「女大學生」「中出」幾個非常直接的題材訊號。這種組合代表它的吸引力主要來自企劃辨識度：觀眾一眼就能知道作品想主打什麼，選片門檻低，題材入口也很清楚。"
+    },
+    {
+      "heading": "它比較適合期待故事，還是期待設定？",
+      "body": "目前可確認的公開資訊沒有進一步交代具體前提、人物關係、場景背景或敘事走向，因此更合理的看法，是把它當成設定先行的作品來評估，而不是先預設它會提供完整劇情起伏。已知資訊裡最有力的仍是身份與企劃框架本身：以「女大學生」作為身份入口，以「素人」補強新鮮感，再由「中出」明確定位成人題材。對重視概念清晰的人來說，這樣的組合已經足夠形成觀看動機。"
+    },
+    {
+      "heading": "高畫質與獨家配信，對選片有多重要？",
+      "body": "公開標示中的 720p、全高清（FHD）、獨家限定與配信専用，比較像是補強這部作品的配信屬性與觀看條件，而不是取代題材本身成為第一賣點。換句話說，畫質與配信條件能提高整體完成度印象，但真正決定是否適合你，還是你對「獨家女大學生素人企劃」這條主軸有沒有興趣。"
+    },
+    {
+      "heading": "這部適合哪一類觀眾？",
+      "body": "如果你選片時本來就偏好身份題材明確、概念直球、訴求單純的企劃片，ORECZ-722 的公開訊號相當集中，會是一部容易快速判斷喜好的作品。相反地，如果你通常更在意具體故事鋪陳、角色互動層次，或希望先掌握演出者資訊再做決定，這部現階段能提供的公開依據就比較有限，優勢不在敘事，而在題材標示的清楚與企劃感。"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "具體劇情前提與情節轉折",
+    "人物關係與角色發展",
+    "實際場景、鏡位、聲音與剪輯風格",
+    "演出者姓名、背景與真實身分",
+    "任何基於觀看後才可確認的表演評價"
+  ],
+  "editorial_tag_ids": [
+    "showcase-format"
+  ],
+  "social_title": "ORECZ-722｜獨家女大學生企劃，先看設定吸引力",
+  "short_review": "公開資訊把重點集中在「獨家」與「女大學生」兩個訊號上，整體更像概念先行的素人企劃片。若你選片時重視題材辨識度，這部的吸引力會比故事期待更明確。",
+  "selected_thesis": "這是一部以「獨家」企劃感為核心、由「女大學生」與「素人」身份訊號帶動選片意願的展示型作品。",
+  "angle_candidates": [
+    "以「獨家」為主軸，判斷作品是否靠企劃辨識度取勝",
+    "從「女大學生＋素人」的身份組合切入，評估它的選片直覺",
+    "把作品放回配信企劃片脈絡，區分題材吸引力與故事期待"
+  ]
+}

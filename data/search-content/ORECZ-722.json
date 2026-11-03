@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "movie_id": "ORECZ-722",
+  "generated_at": "2026-11-03T21:03:04.103Z",
+  "source_snapshot_hash": "sha256:ec011f60d3ce7e68a7568ec3023895d6b1e7801ef9417cc763449893098bd71b",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "這是一部以「獨家」企劃感為核心、由「女大學生」與「素人」身份訊號帶動選片意願的展示型作品。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "素人企劃",
+      "獨家配信",
+      "高畫質"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好身份題材明確的觀眾",
+      "會先看企劃概念與標籤組合來選片的人",
+      "接受配信企劃片以設定辨識度為主的人"
+    ],
+    "not_for": [
+      "想先確認完整劇情設定再決定的人",
+      "重視已知演員資訊或明星辨識度的人",
+      "期待明確人物關係與場景鋪陳的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片的主賣點是什麼？",
+    "它比較適合看題材還是看故事？",
+    "哪些觀眾會更容易買單這種企劃？"
+  ]
+}
