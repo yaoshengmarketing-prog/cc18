@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "ABF-393",
+  "review_sha256": "b4257f9afde0da730f87cdbc60970eef58a39d440d7c6cd8aef919ce3b28afd2",
+  "selected_thesis": "來源資料可確認本作以「究極のぬるぬるオーガズム」作為主要作品線索。",
+  "title_basis": {
+    "performer": "河合明日菜",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "河合明日菜",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "究極のぬるぬるオーガズム",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "河合明日菜",
+    "presentation_feature": "究極のぬるぬるオーガズム",
+    "editorial_judgment": "來源資料可確認本作以「究極のぬるぬるオーガズム」作為主要作品線索。",
+    "source_keywords": [
+      "河合明日菜",
+      "究極のぬるぬるオーガズム",
+      "素人企劃",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：河合明日菜",
+      "supports": "這項可追溯來源訊號支持文章以「河合明日菜」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：究極のぬるぬるオーガズム",
+      "supports": "這項可追溯來源訊號支持文章以「究極のぬるぬるオーガズム」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：素人企劃",
+      "supports": "這項可追溯來源訊號支持文章以「素人企劃」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：究極のぬるぬるオーガズム",
+      "supports": "這項可追溯來源訊號支持文章以「究極のぬるぬるオーガズム」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：素人",
+      "supports": "這項可追溯來源訊號支持文章以「素人」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-02T16:00:00.000Z"
+}

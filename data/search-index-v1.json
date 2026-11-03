@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:7b7ba8f0e08cfccdf65bef8a91850f2ad1ec4168e6b19489483351d2dadea77e",
-  "source_generated_at": "2026-11-03T21:35:43.157Z",
+  "source_revision": "sha256:9fb875d87cf34f2b1e8da5d28e521f9808c7bf4928d7d3a4cde689dc1d5d10a0",
+  "source_generated_at": "2026-11-03T21:41:33.359Z",
   "counts": {
-    "movies": 363,
+    "movies": 364,
     "performers": 311,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -1633,7 +1633,8 @@
       "source_name": "河合明日菜",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:ABF-385"
+        "cc18:ABF-385",
+        "cc18:ABF-393"
       ]
     },
     {
@@ -7169,6 +7170,51 @@
         "article_title": "STVF-115｜獨家素人企劃的系列展示：自宅個人攝影會與角色扮演的選片重點",
         "display_short_title": null,
         "slug": "stvf-115"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:ABF-393",
+        "source_cover": "https://cc18.tv/preview/80/b/o1ROJA1Uxec-800.jpg?v=1792399043",
+        "title": "ABF-393 河合明日菜｜究極のぬるぬるオーガズム",
+        "catalog_code": "ABF-393",
+        "release_date": "2026-10-15",
+        "performers": [
+          "河合明日菜"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "amateur",
+            "label": "素人"
+          },
+          {
+            "id": "fhd",
+            "label": "全高清 FHD"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/abf-393/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:22099"
+      ],
+      "search": {
+        "source_title": "究極的濕滑高潮 河合明日菜",
+        "article_title": "ABF-393 河合明日菜｜究極のぬるぬるオーガズム",
+        "display_short_title": null,
+        "slug": "abf-393"
       }
     },
     {
