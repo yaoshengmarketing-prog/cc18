@@ -1099,7 +1099,7 @@
     },
     {
       "label": "超過4小時",
-      "occurrences": 10,
+      "occurrences": 11,
       "source_ids": [
         "HHF-111",
         "FCDSS-117",
@@ -1110,10 +1110,11 @@
         "PYM-577",
         "HHF-113",
         "RT-042",
-        "TEND-040"
+        "TEND-040",
+        "WA-597"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-04",
       "status": "quarantined"
     },
     {
@@ -2028,7 +2029,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 34,
+      "occurrences": 35,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -2063,10 +2064,11 @@
         "MIDA-791",
         "MXGS-1451",
         "MXGS-1449",
-        "PPPE-451"
+        "PPPE-451",
+        "WA-597"
       ],
       "first_seen": "2026-09-14",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-04",
       "status": "quarantined"
     },
     {

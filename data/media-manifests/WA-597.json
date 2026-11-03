@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "WA-597",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-03T21:34:56.693Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/WA-597/hero-v1.jpg",
+      "r2_key": "works/2026/10/WA-597/hero-v1.jpg",
+      "bytes": 703028,
+      "sha256": "922829c92536f662fd30c30a75ac13dbec90ba6d8d232d8e98fd32bf38c1aece",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "bf3726778e46428689e4ad4e4c63ec4d",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/WA-597/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/WA-597/scene-vertical-v1.jpg",
+      "bytes": 1175967,
+      "sha256": "a6670ff09d8f5ed7ea472d2bcb3e4dfd615146569d4cb164501547c76d7a0164",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "3475356478fe4cd992e21cc1ca0cc150",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2689042,
+    "sha256": "7963eb8aadf8ba52ba2283f8d440680dbae2f660471c940e617c3450a6c3b508",
+    "target_r2_key": "works/2026/10/WA-597/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/WA-597/vertical-v1.mp4"
+  }
+}

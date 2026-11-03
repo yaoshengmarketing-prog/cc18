@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "WA-597",
+  "review_sha256": "efcab425702aec8d213176d4af6bcaeb8f50fa926771f73e226497e9531b9a81",
+  "selected_thesis": "這是一部以「名媛人妻真正中出」為絕對中心的企劃型作品；公開資訊已足夠支持它在人妻身份、處男挑戰與直接刺激上的賣點，但不足以支持更細的劇情或表演判斷。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "名媛人妻真正中出",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "人妻・主婦",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "名媛人妻真正中出",
+    "presentation_feature": "人妻・主婦",
+    "editorial_judgment": "以公開可追溯的題材訊號來看，WA-597 的吸引力不在已知劇情厚度，而在「名媛人妻真正中出」這個高度直接的企劃核心，並再疊加處男挑戰、破處與連續大量中出等刺激設定，形成明顯的展示型選片方向。",
+    "source_keywords": [
+      "名媛人妻真正中出",
+      "人妻・主婦",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品最鮮明的辨識點是「名媛人妻真正中出」，足以作為標題與評論主軸。",
+      "basis": "public_source",
+      "signal": "名媛人妻真正中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開來源同時給出「與處男們挑戰早洩改善遊戲」「破處」「真正無套修幹」「連續大量中出的激色展開」等概念，顯示本作主要依靠企劃刺激與題材堆疊來吸引觀眾。",
+      "basis": "public_source",
+      "signal": "企劃刺激先行"
+    },
+    {
+      "observation_refs": [],
+      "supports": "「人妻・主婦」的身份標籤，與「處男們」這組來源概念並置，形成可辨識的身份反差。",
+      "basis": "public_source",
+      "signal": "人妻・主婦 × 處男"
+    },
+    {
+      "observation_refs": [],
+      "supports": "安全標籤另有「淫語」「3p・4p」，說明本作在互動形式上偏向直接、外放、多人化的刺激方向。",
+      "basis": "public_source",
+      "signal": "多人互動與煽情表達"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何未經公開來源證實的具體場景、鏡位、聲音、剪接或表演細節。",
+    "未假定演員姓名、年齡、真實身份或私生活背景。",
+    "未把來源中的刺激詞延伸為已驗證的完整劇情、情緒轉折或角色成長。",
+    "未宣稱存在特定場景配置、服裝設定或空間調度。",
+    "未將技術標籤如高畫質、720p誇大為作品主要藝術價值。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-02T16:00:00.000Z"
+}
