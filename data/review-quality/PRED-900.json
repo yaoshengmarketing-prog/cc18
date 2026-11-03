@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "PRED-900",
+  "review_sha256": "53599a5475174840d8cd6ad923ae6339e26b5ea03d63d639d0428c77a629532c",
+  "selected_thesis": "這部作品的核心價值在於題名企劃的高辨識度；已婚妻子設定只負責提供最低限度的角色入口，真正決定片單順位的仍是你對「替身懷孕肉便器」這個概念與幸村泉希組合是否買單。",
+  "title_basis": {
+    "performer": "幸村泉希",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "幸村泉希",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "替身懷孕肉便器",
+        "source_field": "title"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "幸村泉希",
+    "presentation_feature": "替身懷孕肉便器",
+    "editorial_judgment": "把本片視為一支由題名企劃直接主導的選片題：先看你是否接受「替身懷孕肉便器」這個高辨識設定，再看幸村泉希與公開簡介中的已婚妻子身分，是否足以成為你的角色入口。",
+    "source_keywords": [
+      "幸村泉希",
+      "替身懷孕肉便器",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品最強的辨識點來自題名中的「替身懷孕肉便器」，因此選片重心應放在企劃接受度，而不是假設更完整的劇情內容。",
+      "basis": "public_source",
+      "signal": "替身懷孕肉便器"
+    },
+    {
+      "observation_refs": [],
+      "supports": "演員資訊已知為幸村泉希，對熟悉她的觀眾來說，這是比系列歸屬更直接的進場理由。",
+      "basis": "public_source",
+      "signal": "幸村泉希"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開簡介摘錄出現「結婚三年的妻子泉希」，足以支持本片帶有已婚妻子的人物框架，但不足以延伸更多婚姻情節。",
+      "basis": "public_source",
+      "signal": "結婚三年的妻子泉希。"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤列出「中出」「口交」「淫亂・過激系」，可作為內容強度與取向的基本參考。",
+      "basis": "public_source",
+      "signal": "中出／口交／淫亂・過激系"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資訊同時標示高畫質與獨家配信，這些有助辨識發行面向，但不應取代企劃本身成為主標題重點。",
+      "basis": "public_source",
+      "signal": "高畫質／獨家配信"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何已發生的具體場景、鏡位、聲音、剪輯或表演細節",
+    "未推定「替身」的對象、原因與具體情節安排",
+    "未把「懷孕」延伸為已驗證的劇情結果或完整敘事線",
+    "未假設婚姻關係中的背德衝突、第三者角色或情感轉折",
+    "未發明系列資訊、角色姓名以外的人物設定或演員私生活資料"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-02T16:00:00.000Z"
+}

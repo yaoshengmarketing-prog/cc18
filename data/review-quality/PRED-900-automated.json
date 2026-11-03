@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "id": "PRED-900",
+  "checked_at": "2026-11-03T15:16:05.295Z",
+  "review_sha256": "4d07e0879a80f45eb75fe26eb667a7bb23f3ee93c91b56c95023a57857173fa5",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看公開資訊，本片最明確的賣點不是系列，也不是技術規格，而是題名直接拋出的「替身懷孕肉便器」企劃。這種一開口就把取向講白的作品，選片時通常不需要繞太多路：你若對這個核心概念有興趣，再加上幸村泉希是已知演員，片單價值就已經成立；反過來說，若你對這類強設定標題本身無感，單靠高畫質"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 3
+  }
+}

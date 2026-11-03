@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "movie_id": "PRED-900",
+  "generated_at": "2026-11-03T15:16:05.166Z",
+  "source_snapshot_hash": "sha256:9d42bf334b23396f52739daefeb8a5fcbdfabe21aeef9633020ac8f6b0ba4241",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "這是一部由單句企劃直接定調的作品，已婚妻子身分提供了最低限度的角色入口，而真正決定要不要看的人，通常會先看你是否吃這個設定與幸村泉希本人的組合。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "企劃先行",
+      "角色入口明確但有限",
+      "演員辨識度高於系列辨識",
+      "以公開標籤判斷取向"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先被一句話企劃打中的觀眾",
+      "以演員作為主要選片依據的觀眾",
+      "偏好明確成人取向標籤而非複雜世界觀的觀眾"
+    ],
+    "not_for": [
+      "期待完整情節介紹的人",
+      "想先確認具體場面編排再決定的人",
+      "對這類強設定企劃本身沒有興趣的人"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SNOS-358",
+      "relation_type": "same_performer",
+      "reason": "同樣由幸村泉希出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "幸村泉希"
+      ],
+      "contrast_signals": [
+        "久和原聖羅",
+        "三田真鈴"
+      ]
+    },
+    {
+      "movie_id": "NSODN-023",
+      "relation_type": "same_performer",
+      "reason": "同樣由幸村泉希出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "幸村泉希"
+      ],
+      "contrast_signals": [
+        "久和原聖羅",
+        "日向由奈"
+      ]
+    },
+    {
+      "movie_id": "DSJH-020",
+      "relation_type": "same_performer",
+      "reason": "同樣由幸村泉希出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "幸村泉希"
+      ],
+      "contrast_signals": [
+        "椿莉香",
+        "美之嶋惠理"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這片最值得先看的賣點是什麼？",
+    "公開資訊有沒有提供足夠的角色或故事入口？",
+    "它比較適合哪一類觀眾列入片單？"
+  ]
+}
