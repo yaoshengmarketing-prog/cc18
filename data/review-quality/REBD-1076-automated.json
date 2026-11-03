@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "REBD-1076",
+  "checked_at": "2026-11-03T15:32:18.545Z",
+  "review_sha256": "e17ef1c20e0b8068335a5a9df9dafb0d285e405c76f8cfd9a4fe75463de3a56f",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "body_lacks_source_adult_vocabulary",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看公開資訊，這片最明確的賣點不是新增多少情節，而是《Haruka3》在系列脈絡中的轉向。介紹文案先回顧前兩部曾以南國外拍、並和寫真集同步進行的雙重拍攝打出熱度，再特別指出這次「完全改變情境」，改到東京都內攝影棚完成拍攝。對選片來說，這代表它主打的不是延續戶外移動感，而是把注"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "差異最大的是空間與企劃邏輯。前兩部被公開簡介包裝成南國外拍加寫真同步的雙重路線；這一部則被定義為在都內棚拍、並且僅專注於形象呈現。這種寫法很直接地告訴觀眾：第三作不是把熱賣公式原樣複製，而是改用更單點、更凝縮的方式經營莉莉遙香(稻場流花)的存在感。因此，若你看重的是系列內部如何做"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

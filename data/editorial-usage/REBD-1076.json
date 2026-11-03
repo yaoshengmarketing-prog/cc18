@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "REBD-1076",
+  "calls": [
+    {
+      "generated_at": "2026-11-03T15:32:18.282Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4709,
+      "cached_input_tokens": 0,
+      "output_tokens": 4639,
+      "total_tokens": 9348,
+      "estimated_cost_usd": 0.127922,
+      "estimated_payg_cash_cost_usd": 0.134319,
+      "direct_openai_reference_usd": 0.081357,
+      "gateway_premium_usd": 0.046565,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4709,
+    "cached_input_tokens": 0,
+    "output_tokens": 4639,
+    "estimated_cost_usd": 0.127922,
+    "estimated_payg_cash_cost_usd": 0.134319,
+    "direct_openai_reference_usd": 0.081357,
+    "gateway_premium_usd": 0.046565
+  }
+}

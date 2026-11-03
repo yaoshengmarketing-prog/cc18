@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "movie_id": "REBD-1076",
+  "generated_at": "2026-11-03T15:32:18.410Z",
+  "source_snapshot_hash": "sha256:a0d152f7967e5695ef1e8030e23927768113887dd29727315519af89cbc94812",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "《Haruka3》的選片價值，不在於把前兩部的南國外拍再做一次，而在於它把系列重心收回到都內棚拍與人物訪談，形成一部更純粹的展示型印象寫真。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "東京都內攝影棚拍攝",
+      "形象集中呈現",
+      "附帶入浴訪談的人物補充"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想看系列第三作如何改變企劃方向的人",
+      "偏好展示型印象寫真的觀眾",
+      "對演出者訪談與人物補充內容有興趣的人"
+    ],
+    "not_for": [
+      "期待明確劇情設計或高故事密度的人",
+      "偏好外景旅行感與多場景變化的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這次與前兩部最大的差異是什麼？",
+    "本作的主要賣點偏向形象展示還是劇情推進？",
+    "公開資訊透露了哪些人物補充內容？",
+    "這片比較適合哪一類觀眾？"
+  ]
+}

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-03T15:26:49.546Z",
+  "generated_at": "2026-11-03T15:34:02.570Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 360,
-  "formal_movie_count": 359,
+  "tracked_input_count": 361,
+  "formal_movie_count": 360,
   "demo_count": 1,
-  "published_count": 356,
+  "published_count": 357,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2429,6 +2429,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "6a1d8845502858794ed83cb2b3b86c4bfa05c5baba6cdd174b2bf75fadf7a608"
+    },
+    {
+      "stable_movie_id": "cc18:REBD-1076",
+      "catalog_code": "REBD-1076",
+      "slug": "rebd-1076",
+      "master_path": "data/movie-master/rebd-1076.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "0af08ef3eb04ccf364dccf1e9129b140856e343767bd320992ff6eb3f7e09f9b"
     },
     {
       "stable_movie_id": "cc18:RKI-750",

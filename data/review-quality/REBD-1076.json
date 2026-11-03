@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "REBD-1076",
+  "review_sha256": "3871b1d840089abd6c23bf105ca799afc46c3a9f40e6bfc691f1150beab41d3e",
+  "selected_thesis": "《Haruka3》是一部靠企劃轉向成立的系列作：公開資料把它從前兩部的南國外拍熱度中抽離，改以都內棚拍與訪談內容建立辨識度，因此它最適合被當成展示型印象寫真來判斷。",
+  "title_basis": {
+    "performer": "莉莉遙香(稻場流花)",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "莉莉遙香(稻場流花)",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "Haruka3",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "Haruka（莉々はるか）",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "印象寫真",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "莉莉遙香(稻場流花)",
+    "presentation_feature": "Haruka3",
+    "editorial_judgment": "把《Haruka3》放回系列脈絡來看：這不是單純延續前兩部外拍熱度的複製作，而是公開簡介明確標示的一次情境轉向。從南國雙重外拍切到東京都內攝影棚，企劃重心更像集中式的形象展示，再加上入浴訪談補足人物資訊，選片判斷應優先看你是否偏好這種展示型印象寫真。",
+    "source_keywords": [
+      "莉莉遙香(稻場流花)",
+      "Haruka3",
+      "Haruka（莉々はるか）",
+      "印象寫真"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開簡介直接拿前兩部在南國、與寫真集同步進行的雙重外拍作對照，並強調這次「完全改變情境」，顯示本作的主要辨識點是系列內部的企劃轉向。",
+      "basis": "public_source",
+      "signal": "series-formula"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源文字寫明本次在東京都內攝影棚拍攝，且「僅專注於形象呈現」，這使本作更適合被歸為展示型、形象導向的作品，而非以外景變化或劇情推進為主要賣點。",
+      "basis": "public_source",
+      "signal": "showcase-format"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開介紹提到由「青」導演執導的全裸入浴訪談，並點出她會分享拍攝感想，表示作品除了形象展示，也把人物自述當成宣傳重點之一。",
+      "basis": "public_source",
+      "signal": "人物資訊補充"
+    },
+    {
+      "observation_refs": [],
+      "supports": "介紹文案進一步列出心愛的服裝、拍攝時的意外插曲、剪髮原因等話題，代表本作的可看點之一在於較私密的訪談內容，而不是單靠場景量取勝。",
+      "basis": "public_source",
+      "signal": "訪談導向"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱已觀察到任何實際鏡位、運鏡、剪接、配樂或收音效果",
+    "未把公開簡介中的訪談描述當成已驗證的演技、表情或身體語言表現",
+    "未虛構未提供的劇情、場景流程、人物關係或互動細節",
+    "未推定演員私生活、真實身分細節或年齡資訊",
+    "未將宣傳文案中的熱賣語氣擴寫成不可追溯的市場成績分析"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-02T16:00:00.000Z"
+}

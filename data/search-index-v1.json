@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:225946b4ada0ac9f3b0b3ffd4c5a263b27bb676b90fe050be394eaba4bd14e7e",
-  "source_generated_at": "2026-11-03T15:26:49.546Z",
+  "source_revision": "sha256:c45d83cbe8be530a2c0f3b5aee69f576f373d233a1f52ddd9b6608113639d5f4",
+  "source_generated_at": "2026-11-03T15:34:02.570Z",
   "counts": {
-    "movies": 356,
-    "performers": 307,
+    "movies": 357,
+    "performers": 308,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2698,6 +2698,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DSOD-038"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:47557",
+      "display_name": "莉莉遙香(稻場流花)",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "莉莉遙香(稻場流花)",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:REBD-1076"
       ]
     },
     {
@@ -6965,6 +6976,47 @@
         "article_title": "STVF-115｜獨家素人企劃的系列展示：自宅個人攝影會與角色扮演的選片重點",
         "display_short_title": null,
         "slug": "stvf-115"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:REBD-1076",
+        "source_cover": "https://cc18.tv/preview/80/b/8ZrDUABeg8_-800.jpg?v=1792044764",
+        "title": "REBD-1076 莉莉遙香(稻場流花)｜Haruka3 印象寫真：都內棚拍的展示型轉向",
+        "catalog_code": "REBD-1076",
+        "release_date": "2026-10-15",
+        "performers": [
+          "莉莉遙香(稻場流花)"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "image-video",
+            "label": "印象寫真"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/rebd-1076/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:47557"
+      ],
+      "search": {
+        "source_title": "Haruka3 Ri Ri Ri Rhythmic Life・莉莉遙香",
+        "article_title": "REBD-1076 莉莉遙香(稻場流花)｜Haruka3 印象寫真：都內棚拍的展示型轉向",
+        "display_short_title": null,
+        "slug": "rebd-1076"
       }
     },
     {

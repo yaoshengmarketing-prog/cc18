@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03T15:26:32.191Z",
+  "updated_at": "2026-11-03T15:33:44.974Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -5360,6 +5360,21 @@
       ],
       "release_date": "2026-10-16",
       "source_url": "https://cc18.tv/player.php?uuid=kkKaA6LyW2I&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-03"
+    },
+    {
+      "id": "REBD-1076",
+      "actress": [
+        "莉莉遙香(稻場流花)"
+      ],
+      "release_date": "2026-10-15",
+      "source_url": "https://cc18.tv/player.php?uuid=8ZrDUABeg8_&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
