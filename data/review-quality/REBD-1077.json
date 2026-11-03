@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "REBD-1077",
+  "review_sha256": "f4b4ee1c95d980819241d3002a06013d9077f53d28074aff64bd99d7bdc42f43",
+  "selected_thesis": "《Mia》的價值不在複雜設定，而在秋山美杏作為新人被正式介紹、被建立形象的那個起點。",
+  "title_basis": {
+    "performer": "秋山美杏",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "秋山美杏",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "Mia",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "印象寫真",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "Mia（秋山美杏）",
+        "source_field": "series"
+      }
+    ],
+    "primary_theme": "秋山美杏",
+    "presentation_feature": "Mia",
+    "editorial_judgment": "以《Mia》這個核心概念為起點，結合公開簡介中「首次在REbecca登場」「第一次挑戰正式的裸體拍攝」與「全裸入浴訪談」等資訊，將本作定位成以新人初登場印象、人物親和感與展示型企劃為主的作品，而不是靠完整劇情推進取勝的片型。",
+    "source_keywords": [
+      "秋山美杏",
+      "Mia",
+      "印象寫真",
+      "Mia（秋山美杏）"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "《Mia》與系列名一致，顯示作品重心直接落在秋山美杏本人的人物展示，而非複雜外部設定。",
+      "basis": "public_source",
+      "signal": "Mia／Mia（秋山美杏）"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開簡介明確提到她今年春天才剛出道，且這次是首次在REbecca登場，讓本作具備鮮明的新人登場介紹性質。",
+      "basis": "public_source",
+      "signal": "新人初登場"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開簡介寫明這是她第一次挑戰正式的裸體拍攝，這使作品的主要吸引力更接近『初次公開跨步』而非情節型刺激。",
+      "basis": "public_source",
+      "signal": "首次正式裸體拍攝"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開介紹特別點出Aono導演執導的全裸入浴訪談，以及她在訪談中帶著笑容回答問題，代表企劃面上包含人物訪談與氣質呈現。",
+      "basis": "public_source",
+      "signal": "入浴訪談／親和印象"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源摘錄中的『窗邊的純潔・秋山美杏』更像是命名意象，強化清新、青澀、純真這類宣傳方向。",
+      "basis": "public_source",
+      "signal": "窗邊的純潔"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何未經提供的具體場景配置",
+    "未聲稱已觀察到鏡位、剪輯、配樂、收音或演技細節",
+    "未發明角色關係、劇情主線、衝突或結局",
+    "未推定訪談以外的互動內容或身體表現",
+    "未補寫未提供的原文片名、人物背景或私生活資訊"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-02T16:00:00.000Z"
+}

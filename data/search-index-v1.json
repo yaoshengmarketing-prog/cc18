@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:c45d83cbe8be530a2c0f3b5aee69f576f373d233a1f52ddd9b6608113639d5f4",
-  "source_generated_at": "2026-11-03T15:34:02.570Z",
+  "source_revision": "sha256:1c7a92ad043aa4bf042f739f84a1c7160923e2c9833c52dc04ccf75ca47ea102",
+  "source_generated_at": "2026-11-03T15:49:46.438Z",
   "counts": {
-    "movies": 357,
-    "performers": 308,
+    "movies": 358,
+    "performers": 309,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2025,6 +2025,17 @@
       ],
       "related_movie_ids": [
         "cc18:SDAB-358"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54120",
+      "display_name": "秋山美杏",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "秋山美杏",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:REBD-1077"
       ]
     },
     {
@@ -7017,6 +7028,43 @@
         "article_title": "REBD-1076 莉莉遙香(稻場流花)｜Haruka3 印象寫真：都內棚拍的展示型轉向",
         "display_short_title": null,
         "slug": "rebd-1076"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:REBD-1077",
+        "source_cover": "https://cc18.tv/preview/80/b/8bHstsPa7f4-800.jpg?v=1792044764",
+        "title": "REBD-1077 秋山美杏｜Mia印象寫真：以首次正式裸體拍攝突顯新人展示感",
+        "catalog_code": "REBD-1077",
+        "release_date": "2026-10-15",
+        "performers": [
+          "秋山美杏"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "image-video",
+            "label": "印象寫真"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/rebd-1077/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54120"
+      ],
+      "search": {
+        "source_title": "Mia 窗邊的純潔・秋山美杏",
+        "article_title": "REBD-1077 秋山美杏｜Mia印象寫真：以首次正式裸體拍攝突顯新人展示感",
+        "display_short_title": null,
+        "slug": "rebd-1077"
       }
     },
     {

@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "REBD-1077",
+  "checked_at": "2026-11-03T15:47:52.774Z",
+  "review_sha256": "662ae91f21936a2903761ff647557ee5e672a3175e4e5feed28fa3648097b214",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "body_lacks_source_adult_vocabulary",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "公開簡介直接指出她來自奈良縣、今年春天才剛出道，且這次是首次在REbecca登場；同時也寫明，這是她第一次挑戰正式的裸體拍攝。這兩個資訊疊在一起，讓本作的觀看預期很清楚：它的核心賣點不是角色設定的反轉，而是出道初期的第一次、第一次被完整介紹、第一次以更正式的尺度亮相。若你在意作品"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "可追溯的來源概念除了《Mia》，還有「窗邊的純潔・秋山美杏」這組命名。就編輯判讀來說，這類用詞更接近宣傳上的氣質框架：一方面強調青澀、乾淨、清新的第一印象，另一方面又把視線集中在她本人身上。這種命名方式有助於建立作品的閱讀方向：它不是要端出厚重設定，而是要讓觀眾先記住這位新人被塑"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

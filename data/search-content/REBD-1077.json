@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "movie_id": "REBD-1077",
+  "generated_at": "2026-11-03T15:47:52.641Z",
+  "source_snapshot_hash": "sha256:34ccc5d525c104e24daa15afa8223849e5de6f79a90c4012e2f78698af977ead",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "如果選片重點是看新人在出道早期如何被包裝與介紹，REBD-1077 的價值在於《Mia》這個人物展示概念，以及『首次正式裸體拍攝』所帶出的新鮮感與親近感。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "以秋山美杏本人為核心的展示型作品",
+      "公開簡介明示包含入浴訪談企劃",
+      "印象寫真取向明顯，重點偏向新人亮相與人物氣質"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想看秋山美杏出道初期公開形象的觀眾",
+      "偏好印象寫真與人物訪談感作品的觀眾",
+      "對新人首次正式裸體拍攝這種企劃節點有興趣的觀眾"
+    ],
+    "not_for": [
+      "期待完整劇情線、明確角色關係或戲劇轉折的觀眾",
+      "想依鏡位、演技或場面強度做選片判斷的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部作品的公開定位是什麼？",
+    "新人設定如何影響選片價值？",
+    "《Mia》與命名意象傳達了什麼氣質？",
+    "它比較適合哪一類觀眾？"
+  ]
+}
