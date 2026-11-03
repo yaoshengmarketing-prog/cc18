@@ -955,17 +955,18 @@
     },
     {
       "label": "偷窺",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "NSODN-025",
         "YJNS-001",
         "HRSM-159",
         "AGAV-182",
         "PWIFE-1185",
-        "ORECS-725"
+        "ORECS-725",
+        "STVF-115"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "status": "quarantined"
     },
     {
@@ -2646,6 +2647,26 @@
       ],
       "first_seen": "2026-11-02",
       "last_seen": "2026-11-02",
+      "status": "quarantined"
+    },
+    {
+      "label": "模特兒",
+      "occurrences": 1,
+      "source_ids": [
+        "STVF-115"
+      ],
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "status": "quarantined"
+    },
+    {
+      "label": "パンチラモノ",
+      "occurrences": 1,
+      "source_ids": [
+        "STVF-115"
+      ],
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
       "status": "quarantined"
     }
   ]

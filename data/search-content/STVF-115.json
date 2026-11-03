@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "movie_id": "STVF-115",
+  "generated_at": "2026-11-03T07:32:29.009Z",
+  "source_snapshot_hash": "sha256:7980f6ff8105348441765bb936289d695a3e9d13558e24a50682b675ec9be79e",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "STVF-115 最值得注意的不是複雜故事，而是『獨家』框架下，把素人、自宅個人攝影會與角色扮演組合成辨識度明確的系列展示魅力。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "素人企劃",
+      "角色扮演",
+      "獨家配信",
+      "高畫質"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好素人企劃與系列感的人",
+      "會因角色扮演包裝而產生興趣的人",
+      "喜歡先看人物簡介與氣質差異來選片的人"
+    ],
+    "not_for": [
+      "期待完整劇情鋪陳的人",
+      "想先確認具體場面編排再決定的人",
+      "只偏好單一明確人物主線的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片的核心賣點是什麼？",
+    "公開介紹中的人物亮點是什麼？",
+    "角色扮演訊號對選片代表什麼？",
+    "這部片比較適合哪些觀眾？"
+  ]
+}

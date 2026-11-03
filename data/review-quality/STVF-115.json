@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "STVF-115",
+  "review_sha256": "0382b26c494695a9cec00c232eaefebdaaea9472219ab651dd9217092e126020",
+  "selected_thesis": "STVF-115 最值得注意的不是複雜故事，而是『獨家』框架下，把素人、自宅個人攝影會與角色扮演組合成辨識度明確的系列展示魅力。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "素人パンチラin自宅で個人撮影会",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "theme",
+        "value": "角色扮演",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "素人パンチラin自宅で個人撮影会",
+    "editorial_judgment": "把這部作品當成以系列框架、人物標籤與角色扮演包裝來成立的展示型素人企劃評估，而不是用高劇情密度作品的標準衡量。",
+    "source_keywords": [
+      "獨家",
+      "素人パンチラin自宅で個人撮影会",
+      "素人企劃",
+      "角色扮演"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "系列名與來源片名都把作品放進『素人』『自宅個人攝影會』『獨家』的辨識框架，適合視為系列展示型企劃來判斷。",
+      "basis": "public_source",
+      "signal": "素人パンチラin自宅で個人撮影会／獨家／素人"
+    },
+    {
+      "observation_refs": [],
+      "supports": "安全訊號與 topic elements 同時出現『角色扮演』『素人企劃』『獨家配信』『高畫質』，顯示本作的主要吸引力來自企劃組合與平台包裝。",
+      "basis": "public_source",
+      "signal": "角色扮演／素人企劃／獨家配信／高畫質"
+    },
+    {
+      "observation_refs": [],
+      "supports": "介紹文字分別以『24歲餐飲店員工的いおりちゃん，開朗又口齒伶俐』與『26歲護士的りえちゃん，清純氛圍中兼具色氣感』建立人物區隔，支撐選片時對反差魅力的期待。",
+      "basis": "public_source",
+      "signal": "いおりちゃん／りえちゃん／人物氣質差異"
+    },
+    {
+      "observation_refs": [],
+      "supports": "現有公開資訊沒有提供明確劇情前提、人物關係或情節推進，因此較難把它判為故事主導型作品。",
+      "basis": "public_source",
+      "signal": "premise unknown／relationship unknown"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未寫成事實的完整劇情前提",
+    "未寫成事實的人物關係與是否同場互動",
+    "未寫成事實的具體角色扮演內容",
+    "未寫成事實的場景流程、鏡位、剪輯、聲音與表演細節",
+    "未寫成事實的觀看效果、節奏快慢與演出強度"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-02T16:00:00.000Z"
+}

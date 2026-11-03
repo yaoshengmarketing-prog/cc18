@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03T07:26:13.272Z",
+  "updated_at": "2026-11-03T07:33:56.189Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -5317,6 +5317,19 @@
       ],
       "release_date": "2026-10-16",
       "source_url": "https://cc18.tv/player.php?uuid=RnhVywil15&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-03"
+    },
+    {
+      "id": "STVF-115",
+      "actress": [],
+      "release_date": "2026-10-16",
+      "source_url": "https://cc18.tv/player.php?uuid=ABIEHEUujdl&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
