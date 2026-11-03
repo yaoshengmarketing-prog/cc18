@@ -1476,14 +1476,15 @@
     },
     {
       "label": "多汗",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "DSOD-067",
         "IPZZ-916",
         "MIDA-786",
         "MIKR-123",
         "DSOD-074",
-        "MIDA-824"
+        "MIDA-824",
+        "MFYD-220"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-03",
@@ -2456,13 +2457,14 @@
     },
     {
       "label": "肌肉",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "DSOD-114",
-        "WAAA-706"
+        "WAAA-706",
+        "MFYD-220"
       ],
       "first_seen": "2026-09-22",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "status": "quarantined"
     },
     {

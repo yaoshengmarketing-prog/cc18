@@ -1,0 +1,60 @@
+{
+  "schema_version": 2,
+  "id": "MFYD-220",
+  "checked_at": "2026-11-03T07:18:57.992Z",
+  "review_sha256": "6131a6ff7747a110f3088d2278922f3aebac9e0193bd2cf9de7dab7a8e376751",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最直接的理由就是黒咲華本人。公開資料把演出者列為黒咲華，作品的核心概念也同樣落在她的名字上，代表這部片的辨識度首先不是來自已知劇情，而是來自演出者本身的吸引力。對已經熟悉黒咲華、或本來就會優先按演出者選片的觀眾來說，這種作品通常判斷成本很低：只要你吃她的存在感，這片就具備基本進場"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "就公開標籤來看，題材方向非常集中。身份面有「人妻・主婦」，身體面有「美尻」，行為面則有「中出」，這些都是比人物背景、關係鋪陳更前置的訊號。換句話說，這部片目前已知的吸引力並不是複雜設定，而是用幾個辨識度很高的成人主題，快速告訴觀眾它想打哪一種口味。若你的選片方式本來就偏向先看身份"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

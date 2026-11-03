@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MFYD-220",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-03T07:19:41.090Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/MFYD-220/hero-v1.jpg",
+      "r2_key": "works/2026/10/MFYD-220/hero-v1.jpg",
+      "bytes": 642019,
+      "sha256": "827d75a7c10bfdf5276caa72075a3650b92c39daf7f6cc72fe22d6f192e9ac3d",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "6353f7cfb60b4c01b91c38fcff46128d",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/MFYD-220/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/MFYD-220/scene-vertical-v1.jpg",
+      "bytes": 1037666,
+      "sha256": "3eee87f7d628cbd54564fc4400aa028dbf47f32d5d12f0aa022c28e7c2ecf576",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "d22cbf8eb96d4fd39cc818ad909bda64",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3017495,
+    "sha256": "2f63a5f62ac9cc3ee180de37183169a9a674dde487130a71cd1b9a1ff1f0f352",
+    "target_r2_key": "works/2026/10/MFYD-220/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/MFYD-220/vertical-v1.mp4"
+  }
+}

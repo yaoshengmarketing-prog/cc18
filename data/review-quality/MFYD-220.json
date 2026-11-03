@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "MFYD-220",
+  "review_sha256": "c03b7ea6ce81b4565bd9a5aeb2ad6fac41a95f066194b0be8df17fd642bb3510",
+  "selected_thesis": "MFYD-220 的已知賣點不是完整劇情，而是把黒咲華本人與人妻・主婦、美尻等標籤直接前置，形成演出者存在感很強的展示型企劃。",
+  "title_basis": {
+    "performer": "黒咲華",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "黒咲華",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "黑咲華",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "人妻・主婦",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "美尻",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "黒咲華",
+    "presentation_feature": "黑咲華",
+    "editorial_judgment": "把公開資訊有限的作品整理成可操作的選片說明：不補寫劇情，而是聚焦黒咲華、人妻・主婦等已知標籤，判斷其更偏向演出者主打的展示型企劃。",
+    "source_keywords": [
+      "黒咲華",
+      "黑咲華",
+      "人妻・主婦",
+      "美尻"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開資料列出演出者為黒咲華，且 core_source_concept 同樣指向黑咲華，顯示作品辨識度首先建立在演出者本身。",
+      "basis": "public_source",
+      "signal": "performer"
+    },
+    {
+      "observation_refs": [],
+      "supports": "safe_title_signals 與 topic_elements 同時出現「人妻・主婦」「美尻」「中出」，可確認公開主打集中在身份與身體／行為標籤。",
+      "basis": "public_source",
+      "signal": "identity/body/action"
+    },
+    {
+      "observation_refs": [],
+      "supports": "creative_seed_brief 的 source_concepts 摘出「肌肉」，可作為企劃辨識上的補充線索，讓作品更偏向身體印象鮮明的包裝。",
+      "basis": "public_source",
+      "signal": "theme"
+    },
+    {
+      "observation_refs": [],
+      "supports": "目前沒有公開的系列資訊、人物關係、場景設定或情節前提，因此無法把它寫成關係推進或劇情密度明確的作品。",
+      "basis": "public_source",
+      "signal": "showcase-format"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何具體劇情、場景、人物關係或衝突走向。",
+    "未聲稱「肌肉」對應到特定角色設定、互動方式或畫面內容。",
+    "未描述鏡位、聲音、剪輯、表情、演技或實際觀看感受。",
+    "未推定系列公式、角色成長線或關係轉折已存在。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-02T16:00:00.000Z"
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "MFYD-220",
+  "calls": [
+    {
+      "generated_at": "2026-11-03T07:18:57.645Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4415,
+      "cached_input_tokens": 0,
+      "output_tokens": 4795,
+      "total_tokens": 9210,
+      "estimated_cost_usd": 0.129963,
+      "estimated_payg_cash_cost_usd": 0.136461,
+      "direct_openai_reference_usd": 0.082962,
+      "gateway_premium_usd": 0.047,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4415,
+    "cached_input_tokens": 0,
+    "output_tokens": 4795,
+    "estimated_cost_usd": 0.129963,
+    "estimated_payg_cash_cost_usd": 0.136461,
+    "direct_openai_reference_usd": 0.082962,
+    "gateway_premium_usd": 0.047
+  }
+}
