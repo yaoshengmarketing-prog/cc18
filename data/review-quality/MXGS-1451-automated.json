@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "id": "MXGS-1451",
+  "checked_at": "2026-11-03T00:09:12.920Z",
+  "review_sha256": "f08371c55fbbfba7aa0deb1ec45c5c2ae9bc1d231136e260c4c6ee565646e3bf",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資料，MXGS-1451 最有辨識度的不是系列名，也不是一段完整劇情簡介，而是標題中的「哈囉」。這個詞本身提供了一個明確記憶點，再由公開描述中的「角色扮演」把企劃方向補齊。換句話說，本作最合理的選片方法，不是先期待一條複雜故事線，而是把它理解成一個以概念開"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 1
+  }
+}

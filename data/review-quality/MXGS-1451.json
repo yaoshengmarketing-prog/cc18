@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "MXGS-1451",
+  "review_sha256": "c8ae62129886d3726dcb251e18bf99a353bd0562fde9d59e27f65dfd9ad73d56",
+  "selected_thesis": "以「哈囉」為辨識點、由衣陽菜承接角色扮演主題的展示型企劃。",
+  "title_basis": {
+    "performer": "由衣陽菜",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "由衣陽菜",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "哈囉",
+        "source_field": "title"
+      },
+      {
+        "type": "theme",
+        "value": "角色扮演",
+        "source_field": "description"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "由衣陽菜",
+    "presentation_feature": "哈囉",
+    "editorial_judgment": "把「哈囉」視為作品最有辨識度的企劃提示，不外推未公開劇情；改以由衣陽菜、角色扮演與公開標籤的組合，判斷這是一部偏展示型、選片邏輯清楚的作品。",
+    "source_keywords": [
+      "由衣陽菜",
+      "哈囉",
+      "角色扮演",
+      "巨乳"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "將「哈囉」放進標題與主論點，因它是目前最明確、最能區隔本作的來源概念。",
+      "basis": "public_source",
+      "signal": "哈囉"
+    },
+    {
+      "observation_refs": [],
+      "supports": "把角色扮演設定當成主要成人主題，因公開資料已直接提供此一標籤。",
+      "basis": "public_source",
+      "signal": "角色扮演"
+    },
+    {
+      "observation_refs": [],
+      "supports": "由衣陽菜可作為主要選片入口，因公開資料已明確列出演出者。",
+      "basis": "public_source",
+      "signal": "由衣陽菜"
+    },
+    {
+      "observation_refs": [],
+      "supports": "窈窕、巨乳與高畫質更像補強展示吸引力的來源訊號，而非劇情線索。",
+      "basis": "public_source",
+      "signal": "窈窕／巨乳／高畫質"
+    },
+    {
+      "observation_refs": [],
+      "supports": "在未見系列、人物關係、場景或前提介紹的情況下，公開標籤反而集中在角色扮演與多項成人元素，因此較適合定位為展示型企劃。",
+      "basis": "public_source",
+      "signal": "角色扮演＋中出／親吻／3p・4p／アクメ・オーガズム"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何具體劇情事件或場景流程",
+    "未推定角色扮演中的職業、身份或服裝細節",
+    "未聲稱已觀察到鏡位、剪輯、聲音、演技、表情或身體語言",
+    "未補寫人物關係、系列設定或未公開前提"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-02T16:00:00.000Z"
+}
