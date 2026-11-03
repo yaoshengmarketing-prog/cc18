@@ -1162,7 +1162,7 @@
     },
     {
       "label": "玩具",
-      "occurrences": 18,
+      "occurrences": 19,
       "source_ids": [
         "MILK-306",
         "DOKS-689",
@@ -1181,7 +1181,8 @@
         "NACT-185",
         "FSBK-028",
         "ATID-707",
-        "MXGS-1451"
+        "MXGS-1451",
+        "MXGS-1449"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-03",
@@ -1535,7 +1536,7 @@
     },
     {
       "label": "ローション・オイル",
-      "occurrences": 9,
+      "occurrences": 10,
       "source_ids": [
         "NACT-182",
         "BBTU-119",
@@ -1545,7 +1546,8 @@
         "ABF-385",
         "MVSD-706",
         "PPPE-455",
-        "MIDA-850"
+        "MIDA-850",
+        "MXGS-1449"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-03",
@@ -2003,7 +2005,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 32,
+      "occurrences": 33,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -2036,7 +2038,8 @@
         "MIDA-843",
         "MVSD-708",
         "MIDA-791",
-        "MXGS-1451"
+        "MXGS-1451",
+        "MXGS-1449"
       ],
       "first_seen": "2026-09-14",
       "last_seen": "2026-11-03",
@@ -2098,11 +2101,12 @@
     },
     {
       "label": "多種職業",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "SKMJ-786",
         "MXGS-1446",
-        "MXGS-1451"
+        "MXGS-1451",
+        "MXGS-1449"
       ],
       "first_seen": "2026-09-16",
       "last_seen": "2026-11-03",

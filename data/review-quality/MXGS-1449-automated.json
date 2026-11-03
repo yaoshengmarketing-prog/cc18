@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "id": "MXGS-1449",
+  "checked_at": "2026-11-03T00:16:34.891Z",
+  "review_sha256": "9c92d22d95958af8de39652025f0414ef58a3b3b3ad208f8fbb6ae664e41d033",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "source_core_concept_not_developed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 6,
+          "excerpt": "就目前能確認的資料來看，我會把它歸到展示型企劃。原因不是它一定沒有故事，而是公開介紹裡沒有提供系列、關係、場景或核心衝突，能被穩定確認的幾乎都是人物名與標籤組合。若你挑片時最在意敘事密度，這部現階段給出的訊號偏弱；若你重視人物魅力與題材包裝，反而更容易對上需求。"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 1
+  }
+}

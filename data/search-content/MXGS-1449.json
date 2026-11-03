@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "movie_id": "MXGS-1449",
+  "generated_at": "2026-11-03T00:16:34.659Z",
+  "source_snapshot_hash": "sha256:55bfd5da5ca92baddc9577dd4408c92e5054e03d33b63f4d435e640eb6bdab05",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "MXGS-1449 的可追溯賣點主要來自綾瀨琴音／綾瀬ことね與 OL 身份的企劃包裝；就現有資料來看，它更像人物展示型作品，而不是以明確劇情取勝的片型。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "人物／演員展示導向",
+      "身份標籤清楚，OL 是最明確的入口",
+      "外型與成人要素標籤完整，但缺少劇情提要"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "綾瀬ことね的既有支持者",
+      "偏好 OL 身份企劃的觀眾",
+      "習慣依人物標籤與成人關鍵字快速選片的人"
+    ],
+    "not_for": [
+      "期待完整劇情摘要後再決定的人",
+      "重視人物關係與場景設計的人",
+      "想先確認敘事起伏與角色轉折的人"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "NACT-186",
+      "relation_type": "same_performer",
+      "reason": "同樣由綾瀬ことね出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "綾瀬ことね"
+      ],
+      "contrast_signals": [
+        "出張精油按摩",
+        "玉が空っぽになるまで精液を搾りとる！出張オイルマッサージ"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部片最明確的吸引力是誰",
+    "公開標籤透露了哪種企劃方向",
+    "這部更適合當劇情片還是展示型企劃來看",
+    "哪些觀眾最可能買單，哪些人可以先觀望"
+  ]
+}

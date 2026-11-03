@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "MXGS-1449",
+  "review_sha256": "95649da608875dedad6561bb73d8b9514689c550a47dea38c2044b6e4030e14b",
+  "selected_thesis": "MXGS-1449 的可追溯賣點主要來自綾瀨琴音／綾瀬ことね與 OL 身份的企劃包裝；就現有資料來看，它更像人物展示型作品，而不是以明確劇情取勝的片型。",
+  "title_basis": {
+    "performer": "綾瀬ことね",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "綾瀬ことね",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "綾瀨琴音",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "OL",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "綾瀬ことね",
+    "presentation_feature": "綾瀨琴音",
+    "editorial_judgment": "把 MXGS-1449 視為以綾瀨琴音／綾瀬ことね為核心的人物展示型企劃，從 OL 身份與公開成人標籤判斷選片價值，不把不足的劇情資訊延伸成故事。",
+    "source_keywords": [
+      "綾瀬ことね",
+      "綾瀨琴音",
+      "OL"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開資訊能明確確認的核心辨識點是綾瀬ことね，以及題名概念中的「綾瀨琴音」；未見系列名或可核對的劇情摘要，因此選片重心自然落在人物本身。",
+      "basis": "public_source",
+      "signal": "performer-centered"
+    },
+    {
+      "observation_refs": [],
+      "supports": "身份標籤同時出現「AV女優片」與「OL」，顯示企劃吸引力之一在於身份並置帶來的反差感，而非已知故事線。",
+      "basis": "public_source",
+      "signal": "contrast-charm"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤集中在 OL、窈窕、巨乳、中出等人物與成人要素，另有親吻、3p・4p、アクメ・オーガズム等關鍵字；這種資訊結構更像是展示型企劃的賣點排列。",
+      "basis": "public_source",
+      "signal": "showcase-format"
+    },
+    {
+      "observation_refs": [],
+      "supports": "目前沒有可追溯的前提、人物關係、場景設定或中心衝突，連系列資訊也未提供，因此很難把它判成劇情密度高的作品。",
+      "basis": "public_source",
+      "signal": "low-story-density"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述具體情節與角色關係",
+    "未聲稱存在特定場景、鏡位、聲音或剪輯風格",
+    "未把親吻、3p・4p、アクメ・オーガズム寫成可驗證的段落安排",
+    "未推定綾瀬ことね的真實年齡、私生活或作品外身份",
+    "未宣稱角色有明確轉變、主導權轉移或結局發展"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-02T16:00:00.000Z"
+}
