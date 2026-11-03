@@ -1,0 +1,64 @@
+{
+  "schema_version": 2,
+  "id": "SY-228",
+  "checked_at": "2026-11-03T07:03:52.601Z",
+  "review_sha256": "067da136c9838bf7b1f66c244b9beb5b641e98e6905cf288d1fb57779d0bc31c",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "broad_formulaic_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 4,
+      "paragraph_count": 10,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前公開資訊來判斷，這部片最明確的入口不是已知劇情，而是系列本身。「素人四畳半生中出し」同時出現在系列與核心概念欄位，代表它不是附帶標籤，而是作品辨識的主軸。對選片者來說，這種資料結構很清楚：先問自己是否吃這個企劃名稱與題材方向，再決定要不要往下看。"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "可確認的重點集中在身份標籤與命名線索。safe signals 提供了「素人」「AV女優片」「人妻・主婦」，creative brief 則留下「四疊半的太太」「沙希小姐」「夏芽咲」等可追溯詞彙。這些資訊足以構成一種偏人妻主婦想像的企劃包裝，也讓人物不是完全匿名的功能性標籤，而是"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "從現有資料看，我會把它放在展示型企劃片那一側。原因不是它一定沒有故事，而是目前可驗證的資訊都更集中在系列名稱、身份屬性與人物稱呼，而不是情節大綱、關係轉折或設定衝突。再加上 topic elements 只明示了「中出」與「720p／HD」這類題材與規格訊號，沒有提供更細的關係、"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "即使不補寫任何未公開場景，「四疊半」本身就已經是一個夠鮮明的企劃語感。它把作品的想像空間從抽象的素人題材，壓縮到更具限制感、更容易形成親密距離聯想的命名框架；再與「太太」「人妻・主婦」這些詞並置，整體風格就很容易被辨認。這種吸引力不是來自複雜設定，而是來自題名與身份標籤共同建立的"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

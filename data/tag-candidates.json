@@ -611,7 +611,7 @@
     },
     {
       "label": "m女",
-      "occurrences": 13,
+      "occurrences": 14,
       "source_ids": [
         "MVG-171",
         "IPZZ-978",
@@ -625,7 +625,8 @@
         "BLOR-309",
         "NACT-185",
         "NPJS-285",
-        "PS-134"
+        "PS-134",
+        "SY-228"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-11-03",
@@ -779,7 +780,7 @@
     },
     {
       "label": "不倫",
-      "occurrences": 13,
+      "occurrences": 14,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -793,10 +794,11 @@
         "MXGS-1446",
         "MKMP-756",
         "PAKO-110",
-        "ADN-814"
+        "ADN-814",
+        "SY-228"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-03",
       "status": "quarantined"
     },
     {

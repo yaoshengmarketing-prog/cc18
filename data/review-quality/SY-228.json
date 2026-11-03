@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "SY-228",
+  "review_sha256": "e4d94cba4bc1e7de0289d6bd0d7510358249232fb84ebaf7fbe38927454a1fc3",
+  "selected_thesis": "這不是一部適合靠想像補滿劇情再推薦的作品；它真正穩固的賣點，是「素人四畳半生中出し」這個系列概念，搭配人妻・主婦身份標籤與夏芽咲名字所構成的直接企劃吸引力。",
+  "title_basis": {
+    "performer": "夏芽咲",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "夏芽咲",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "素人四畳半生中出し",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "人妻・主婦",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "夏芽咲",
+    "presentation_feature": "素人四畳半生中出し",
+    "editorial_judgment": "以公開可追溯資訊來看，這部作品最值得把握的不是未被證實的情節起伏，而是「素人四畳半生中出し」這個系列企劃本身，如何結合人妻・主婦的人物標籤與明確命名，形成選片上的辨識度。",
+    "source_keywords": [
+      "夏芽咲",
+      "素人四畳半生中出し",
+      "人妻・主婦",
+      "素人企劃"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "系列名稱與 core_source_concept 同為「素人四畳半生中出し」，足以支持本文將作品判斷重心放在系列企劃辨識，而不是延伸未公開的劇情內容。",
+      "basis": "public_source",
+      "signal": "素人四畳半生中出し"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤同時給出「素人」「AV女優片」「人妻・主婦」，可支持對人物定位採取身份標籤式閱讀，但不足以推定更細的人際關係或背景故事。",
+      "basis": "public_source",
+      "signal": "素人／AV女優片／人妻・主婦"
+    },
+    {
+      "observation_refs": [],
+      "supports": "creative_seed_brief 的 source_concepts 出現「四疊半的太太」「沙希小姐」「夏芽咲」，可作為人物命名與企劃形象線索，支持本文討論其命名如何服務選片想像。",
+      "basis": "public_source",
+      "signal": "四疊半的太太／沙希小姐"
+    },
+    {
+      "observation_refs": [],
+      "supports": "topic_elements 僅明示 action 為「中出」、presentation 為「720p」「HD」，而關係、服裝、場景皆未提供，因此本文不將具體互動或空間細節寫成事實。",
+      "basis": "public_source",
+      "signal": "中出／720p／HD"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未寫成已發生的具體房間場景、家具配置或動線",
+    "未推定沙希小姐與其他人物的確定關係",
+    "未聲稱存在已觀察到的表情、演技、鏡位、聲音或剪輯節奏",
+    "未把「角色變化」「互動節奏」當成已驗證的劇情事實",
+    "未虛構年齡、職業背景、婚姻細節或私生活設定"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-02T16:00:00.000Z"
+}

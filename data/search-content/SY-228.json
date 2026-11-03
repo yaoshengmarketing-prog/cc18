@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "movie_id": "SY-228",
+  "generated_at": "2026-11-03T07:03:52.440Z",
+  "source_snapshot_hash": "sha256:74abaca9cb501e6c5bc11be9b5c968ebdccf3fadb4fbbef85edf0003d9a83b7a",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若你是因為「素人四畳半生中出し」這個企劃名稱、人妻主婦身份標籤與夏芽咲而進場，這部片的可預期吸引力是成立的；若你想找公開資訊就能證明劇情很厚或關係鋪陳很多的作品，現有資料並不支持那樣的期待。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "系列企劃導向",
+      "身份標籤明確",
+      "以公開命名建立想像",
+      "高畫質屬附加資訊而非核心賣點"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會以系列企劃名稱作為主要選片依據的人",
+      "對人妻・主婦身份標籤有明確偏好的人",
+      "認演員並關注夏芽咲新作的人",
+      "接受展示型企劃片、重視題材辨識度的人"
+    ],
+    "not_for": [
+      "想先確認完整劇情梗概再決定的人",
+      "特別在意具體場景、互動細節或敘事轉折是否豐富的人",
+      "不偏好系列公式感選片的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這片應該先看企劃還是看劇情？",
+    "公開資訊能確認哪些人物定位？",
+    "這部片的主賣點偏向哪一種選片需求？",
+    "哪些觀眾會比較容易對上這部片？"
+  ]
+}

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-03T06:58:48.098Z",
+  "generated_at": "2026-11-03T07:05:41.802Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 353,
-  "formal_movie_count": 352,
+  "tracked_input_count": 354,
+  "formal_movie_count": 353,
   "demo_count": 1,
-  "published_count": 349,
+  "published_count": 350,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -3005,6 +3005,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "86127aa77191625a3f951bcdbe667b87a6a69efc023391832eeb4458750d7915"
+    },
+    {
+      "stable_movie_id": "cc18:SY-228",
+      "catalog_code": "SY-228",
+      "slug": "sy-228",
+      "master_path": "data/movie-master/sy-228.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "d4ced6f8fd47fb10585810670ae8ba4df83df0ef2a5166dd04e48cdb6de8771c"
     },
     {
       "stable_movie_id": "cc18:T-3800071",

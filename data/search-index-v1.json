@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:e3d46d5086446587d341602ce62383f6b6c044298cfffa3b2f1b561ca4d9a499",
-  "source_generated_at": "2026-11-03T06:58:48.098Z",
+  "source_revision": "sha256:733a5267c1df33a571abf903ee53157b657b54b1d9132d85fbf427b06d7f22b8",
+  "source_generated_at": "2026-11-03T07:05:41.802Z",
   "counts": {
-    "movies": 349,
-    "performers": 304,
+    "movies": 350,
+    "performers": 305,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2288,6 +2288,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:34983",
+      "display_name": "夏芽咲",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "夏芽咲",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SY-228"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:54491",
       "display_name": "宮上唯依花",
       "display_name_zh_tw": null,
@@ -4480,6 +4491,51 @@
         "article_title": "PS-134 幾野まち｜新b級素人初撮り：以角色標記撐起記憶點的展示型企劃",
         "display_short_title": null,
         "slug": "ps-134"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SY-228",
+        "source_cover": "https://cc18.tv/preview/80/b/17TOXVuH6w-800.jpg?v=1793601469",
+        "title": "SY-228 夏芽咲｜素人四畳半生中出し：以人妻主婦企劃辨識取勝",
+        "catalog_code": "SY-228",
+        "release_date": "2026-10-30",
+        "performers": [
+          "夏芽咲"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "amateur",
+            "label": "素人"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/sy-228/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:34983"
+      ],
+      "search": {
+        "source_title": "前略 四疊半的太太 沙希小姐 27歲●素人四疊半生內射系列 夏芽咲",
+        "article_title": "SY-228 夏芽咲｜素人四畳半生中出し：以人妻主婦企劃辨識取勝",
+        "display_short_title": null,
+        "slug": "sy-228"
       }
     },
     {
