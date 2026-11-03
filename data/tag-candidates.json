@@ -1464,7 +1464,7 @@
     },
     {
       "label": "白虎",
-      "occurrences": 10,
+      "occurrences": 11,
       "source_ids": [
         "MAAN-1192",
         "UMD-1019",
@@ -1475,7 +1475,8 @@
         "ABF-386",
         "EKDV-828",
         "NACT-188",
-        "SDMF-054"
+        "SDMF-054",
+        "ABF-394"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-03",
@@ -1901,7 +1902,7 @@
     },
     {
       "label": "寢取・被寢取",
-      "occurrences": 31,
+      "occurrences": 32,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -1933,7 +1934,8 @@
         "SDMF-054",
         "DVMM-453",
         "PRED-900",
-        "PPPE-449"
+        "PPPE-449",
+        "ABF-394"
       ],
       "first_seen": "2026-09-14",
       "last_seen": "2026-11-03",

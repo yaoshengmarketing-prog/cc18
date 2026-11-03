@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "ABF-394",
+  "review_sha256": "1d8982cdbdf51ab4bfca50eac0c4e7dae0d8b05c0770556dbd459581ad40548a",
+  "selected_thesis": "ABF-394 的選片價值不在已公開的完整情節，而在系列概念、演員名與標籤組合所形成的清楚入口；它更像企劃辨識度高的展示型作品。",
+  "title_basis": {
+    "performer": "三佳詩",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "三佳詩",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "理不尽インモラルNTR",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "素人",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "三佳詩",
+    "presentation_feature": "理不尽インモラルNTR",
+    "editorial_judgment": "以系列概念與公開標籤為主軸，判斷這部作品更接近由企劃名稱帶動選片的展示型作品，而不是先用完整劇情摘要說服觀眾的故事片。",
+    "source_keywords": [
+      "三佳詩",
+      "理不尽インモラルNTR",
+      "素人",
+      "巨乳"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開來源已明示演員為三佳詩，這讓作品至少具備以演員名作為第一層選片入口的條件。",
+      "basis": "public_source",
+      "signal": "performer: 三佳詩"
+    },
+    {
+      "observation_refs": [],
+      "supports": "系列欄位與核心概念都指向「理不尽インモラルNTR」，來源摘錄也出現「不講理不道德NTR」，可視為本作最主要的辨識軸。",
+      "basis": "public_source",
+      "signal": "series/theme: 理不尽インモラルNTR"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤同時給出「素人」與「AV女優片」，顯示作品在身份包裝上有明確企劃性，但不足以證明具體人物背景。",
+      "basis": "public_source",
+      "signal": "identity: 素人 / AV女優片"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤列出「巨乳」與「顏射」，說明作品也提供身體特徵與行為層級的快速篩選訊號。",
+      "basis": "public_source",
+      "signal": "body/action: 巨乳 / 顏射"
+    },
+    {
+      "observation_refs": [],
+      "supports": "safe signals 與 topic elements 都出現高畫質、720p、全高清（FHD）等呈現資訊，但這些更像補充條件，不能取代核心企劃概念。",
+      "basis": "public_source",
+      "signal": "presentation: 高畫質 / 720p / FHD"
+    },
+    {
+      "observation_refs": [],
+      "supports": "創作整理資訊把「企劃設定、角色變化、互動節奏」列為文章組織方向，同時明示未確認的人物關係、場景與前提保持未知，因此較適合採企劃導向的選片判讀。",
+      "basis": "public_source",
+      "signal": "editorial framing: 企劃導向判讀"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未提供的故事前提",
+    "未提供的人物關係與NTR具體配置",
+    "未提供的場景與時空設定",
+    "任何已觀看後才能確認的情節推進",
+    "任何鏡位、聲音、剪輯、表情、演技或互動細節判斷"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-02T16:00:00.000Z"
+}

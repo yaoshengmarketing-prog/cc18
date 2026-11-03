@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "ABF-394",
+  "checked_at": "2026-11-03T15:54:49.530Z",
+  "review_sha256": "bb1273d65d2f5178c58d148153f3ed143073b911bcaadf0c3f5aac1600d4c1b9",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最明確的入口不是一段已公開的故事摘要，而是系列名「理不尽インモラルNTR」本身。公開資料把它同時放在系列與核心概念位置，來源摘錄也直接出現「不講理不道德NTR」這種強辨識詞，因此選片時最先成立的判斷，會是你是否對這個系列概念有興趣。再往下才是演員三佳詩，以及素人、AV女優片、巨乳"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 6,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 1
+  }
+}

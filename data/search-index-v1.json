@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:1c7a92ad043aa4bf042f739f84a1c7160923e2c9833c52dc04ccf75ca47ea102",
-  "source_generated_at": "2026-11-03T15:49:46.438Z",
+  "source_revision": "sha256:343c35720f8d168e907a2d42409052b72458aa2ceb29c64aacef13b8b273bc00",
+  "source_generated_at": "2026-11-03T15:56:36.573Z",
   "counts": {
-    "movies": 358,
+    "movies": 359,
     "performers": 309,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -216,7 +216,8 @@
       "source_name": "三佳詩",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:ABF-386"
+        "cc18:ABF-386",
+        "cc18:ABF-394"
       ]
     },
     {
@@ -6987,6 +6988,55 @@
         "article_title": "STVF-115｜獨家素人企劃的系列展示：自宅個人攝影會與角色扮演的選片重點",
         "display_short_title": null,
         "slug": "stvf-115"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:ABF-394",
+        "source_cover": "https://cc18.tv/preview/80/b/71UZvr9KK5l-800.jpg?v=1792399044",
+        "title": "ABF-394 三佳詩｜理不尽インモラルNTR：系列概念鮮明的展示型企劃",
+        "catalog_code": "ABF-394",
+        "release_date": "2026-10-15",
+        "performers": [
+          "三佳詩"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "amateur",
+            "label": "素人"
+          },
+          {
+            "id": "facial",
+            "label": "顏射題材"
+          },
+          {
+            "id": "fhd",
+            "label": "全高清 FHD"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/abf-394/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53168"
+      ],
+      "search": {
+        "source_title": "不講理不道德NTR 三佳詩",
+        "article_title": "ABF-394 三佳詩｜理不尽インモラルNTR：系列概念鮮明的展示型企劃",
+        "display_short_title": null,
+        "slug": "abf-394"
       }
     },
     {

@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "id": "ABF-394",
+  "generated_at": "2026-11-03T15:54:49.282Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "gpt-5.4",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/ABF-394.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "理不尽インモラルNTR",
+    "premise": "作品以「理不尽インモラルNTR」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「理不尽インモラルNTR」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "理不尽インモラルNTR",
+      "不講理不道德NTR",
+      "三佳詩"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "素人",
+      "AV女優片"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "顏射"
+    ],
+    "presentation": [
+      "720p",
+      "全高清 (FHD)"
+    ]
+  },
+  "editorial_angle": "以系列概念與公開標籤為主軸，判斷這部作品更接近由企劃名稱帶動選片的展示型作品，而不是先用完整劇情摘要說服觀眾的故事片。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "三佳詩",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "理不尽インモラルNTR",
+      "source_field": "series"
+    },
+    {
+      "type": "identity",
+      "value": "素人",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "body_type",
+      "value": "巨乳",
+      "source_field": "safe_signals"
+    }
+  ],
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開來源已明示演員為三佳詩，這讓作品至少具備以演員名作為第一層選片入口的條件。",
+      "basis": "public_source",
+      "signal": "performer: 三佳詩"
+    },
+    {
+      "observation_refs": [],
+      "supports": "系列欄位與核心概念都指向「理不尽インモラルNTR」，來源摘錄也出現「不講理不道德NTR」，可視為本作最主要的辨識軸。",
+      "basis": "public_source",
+      "signal": "series/theme: 理不尽インモラルNTR"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤同時給出「素人」與「AV女優片」，顯示作品在身份包裝上有明確企劃性，但不足以證明具體人物背景。",
+      "basis": "public_source",
+      "signal": "identity: 素人 / AV女優片"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤列出「巨乳」與「顏射」，說明作品也提供身體特徵與行為層級的快速篩選訊號。",
+      "basis": "public_source",
+      "signal": "body/action: 巨乳 / 顏射"
+    },
+    {
+      "observation_refs": [],
+      "supports": "safe signals 與 topic elements 都出現高畫質、720p、全高清（FHD）等呈現資訊，但這些更像補充條件，不能取代核心企劃概念。",
+      "basis": "public_source",
+      "signal": "presentation: 高畫質 / 720p / FHD"
+    },
+    {
+      "observation_refs": [],
+      "supports": "創作整理資訊把「企劃設定、角色變化、互動節奏」列為文章組織方向，同時明示未確認的人物關係、場景與前提保持未知，因此較適合採企劃導向的選片判讀。",
+      "basis": "public_source",
+      "signal": "editorial framing: 企劃導向判讀"
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "「角色變化」與「互動節奏」僅能作為評論組織角度，不能當成已公開證實的情節。",
+    "公開資料未提供前提、人物關係、場景與核心衝突，因此不推定本作的具體NTR配置。",
+    "對於系列概念的中文描述，以公開來源摘錄的「不講理不道德NTR」作為理解輔助，不延伸為未證實劇情。"
+  ],
+  "decision_guide": {
+    "thesis": "ABF-394 的可見賣點主要集中在「理不尽インモラルNTR」這個系列概念與三佳詩的掛名，再由素人／AV女優片、巨乳、顏射等標籤補上快速篩選入口；若你偏好先看企劃辨識度，這部方向很清楚，但若你需要完整人物關係與故事前提，公開資訊仍明顯不足。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "系列名與核心概念高度一致",
+      "演員名明確",
+      "公開標籤偏向身份、體型與行為入口",
+      "技術規格存在但不是首要賣點"
+    ],
+    "audience_for": [
+      "會先看系列概念與演員名來選片的人",
+      "習慣用身份、體型與行為標籤快速篩片的人"
+    ],
+    "audience_not_for": [
+      "期待公開頁先交代完整NTR人物關係的人",
+      "重視明確故事前提與場景設定後才決定觀看的人"
+    ],
+    "questions_answered": [
+      "這部片最明確的選片入口是什麼？",
+      "它偏劇情導向還是企劃導向？",
+      "公開標籤能幫你判斷哪些事？",
+      "哪些期待目前沒有公開資料支撐？"
+    ]
+  },
+  "title": "ABF-394 三佳詩｜理不尽インモラルNTR：系列概念鮮明的展示型企劃",
+  "seo_title": "ABF-394 三佳詩影評｜理不尽インモラルNTR，系列公式感明確的展示型企劃",
+  "sections": [
+    {
+      "heading": "這部片最值得先看的選片訊號是什麼？",
+      "body": "最明確的入口不是一段已公開的故事摘要，而是系列名「理不尽インモラルNTR」本身。公開資料把它同時放在系列與核心概念位置，來源摘錄也直接出現「不講理不道德NTR」這種強辨識詞，因此選片時最先成立的判斷，會是你是否對這個系列概念有興趣。再往下才是演員三佳詩，以及素人、AV女優片、巨乳、顏射等標籤所提供的補充篩選。"
+    },
+    {
+      "heading": "它比較像劇情片，還是系列企劃片？",
+      "body": "就現有公開資訊來看，更接近系列企劃片。原因很簡單：前提、人物關係、角色動態、核心衝突與場景都沒有公開交代，但系列概念與標籤卻非常集中。這種資訊分布代表作品目前對外最強的說服力，來自企劃名稱與類型期待，而不是細緻的故事架構。若你平常會先看系列調性再決定是否點入，這部的入口相當直接。"
+    },
+    {
+      "heading": "公開標籤會把觀眾的預期帶往哪裡？",
+      "body": "身份標籤上同時出現「素人」與「AV女優片」，表示它在包裝上提供了明確的類型識別；體型標籤「巨乳」與行為標籤「顏射」則進一步補足偏好篩選。另一方面，720p、全高清（FHD）與高畫質等訊號屬於呈現層面的附加條件，可以增加點擊意願，但不足以單獨構成這部片的核心賣點。換句話說，這是一部標籤可讀性高、但故事資訊不多的作品。"
+    },
+    {
+      "heading": "如果你在意故事完整度，這部目前要先注意什麼？",
+      "body": "要先接受一件事：公開資訊尚不足以幫你確認具體人物配置，也無法判斷NTR會怎麼展開。現階段能確定的，是它把「理不尽インモラルNTR」當成核心辨識，並以三佳詩與若干類型標籤作為選片依據；不能確定的，則是角色關係、情境脈絡與情節密度。所以它更適合把系列概念看得很重的觀眾，不一定適合所有需要完整劇情前情提要的人。"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未提供的故事前提",
+    "未提供的人物關係與NTR具體配置",
+    "未提供的場景與時空設定",
+    "任何已觀看後才能確認的情節推進",
+    "任何鏡位、聲音、剪輯、表情、演技或互動細節判斷"
+  ],
+  "editorial_tag_ids": [
+    "series-formula",
+    "showcase-format"
+  ],
+  "social_title": "ABF-394 三佳詩：理不尽インモラルNTR 的企劃辨識度很直接",
+  "short_review": "ABF-394 就公開面來看，是一部由「理不尽インモラルNTR」系列概念帶動選片的作品。三佳詩提供演員入口，素人／AV女優片、巨乳、顏射等標籤則讓偏好篩選更快完成；但若你想先確認人物關係與故事架構，現有資訊仍偏少。",
+  "selected_thesis": "ABF-394 的選片價值不在已公開的完整情節，而在系列概念、演員名與標籤組合所形成的清楚入口；它更像企劃辨識度高的展示型作品。",
+  "angle_candidates": [
+    "從「理不尽インモラルNTR」的系列辨識度切入，討論企劃名稱如何主導選片",
+    "從素人／AV女優片、巨乳、顏射等標籤密度切入，分析快速篩片價值",
+    "從公開資訊不足的角度切入，說明它為何不適合期待完整故事前提的觀眾"
+  ]
+}
