@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "movie_id": "CAWB-032",
+  "generated_at": "2026-11-03T21:17:38.059Z",
+  "source_snapshot_hash": "sha256:b0cf152457d8f26bfd0ebae2ef7fb0f198442ebb1f04ff40a3ce5ef441bfb746",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "CAWB-032 的可追溯優勢在於白花にあ與「白花仁愛」這個來源概念，加上中出等直接題材標籤；在缺乏已驗證劇情資訊的前提下，最合理的選片定位是概念展示型，而非故事驅動型。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "演員導向明確",
+      "核心概念先行",
+      "題材標籤清楚",
+      "技術規格僅作輔助參考"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "本來就追白花にあ的觀眾",
+      "會依中出等明確題材標籤選片的觀眾",
+      "對來源標題中的白花仁愛／女僕概念有興趣的觀眾"
+    ],
+    "not_for": [
+      "想先確認完整劇情架構的人",
+      "重視已驗證人物關係與場景設定的人",
+      "期待影像調度、表演細節或節奏分析的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這片最核心的賣點是什麼？",
+    "它比較偏劇情片還是展示型企劃？",
+    "來源標題中的「白花仁愛」與「女僕」如何影響選片？",
+    "哪些觀眾會比較適合這部作品？",
+    "HD／獨家配信這類標記在選片時占多大比重？"
+  ]
+}

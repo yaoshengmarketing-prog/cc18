@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "id": "CAWB-032",
+  "checked_at": "2026-11-03T21:17:38.173Z",
+  "review_sha256": "8fdd718ed2637df7561e4a00d549692ae71de596ed7dbd73bc99baf3f0aa8a4f",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資訊，CAWB-032 最明確的入口有兩個：一是演員白花にあ，二是來源概念「白花仁愛」。前者提供了穩定的演員辨識度，後者則不是一般通用標籤，而是更像這部作品的命名核心。對選片來說，這代表它的吸引力並不只靠常見類型詞堆疊，而是由一個被來源特別提出的概念來集中"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "就現有資料判斷，這部更接近展示型企劃。原因不是它一定沒有情節，而是公開可確認的資訊幾乎都集中在身份與題材標籤：像是 AV女優片、巨乳，以及中出、顏射、噴精等動作訴求；相對地，人物關係、場景、具體故事前提都沒有被提供。這種資訊分布通常會讓選片重心落在「這次主打什麼概念與標籤」，而不"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "在本作裡，「白花仁愛」是最值得優先保留的核心概念，因為它直接來自來源標題，也是整體辨識度最高的線索。另一方面，企劃構想資料 另摘出「女僕」同樣來自 title，這讓作品多了一層角色包裝方向。對觀眾而言，這不等於已經證明正片有多少角色劇情或制服演出細節，但足以說明本作不是單純只靠 "
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 5,
+    "recommendations": 0
+  }
+}

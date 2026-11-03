@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "CAWB-032",
+  "review_sha256": "e615614638c6cffa517376dfc99bdf597993b4800522839f8c779f71cef590bd",
+  "selected_thesis": "CAWB-032 的可追溯優勢在於白花にあ與「白花仁愛」這個來源概念，加上中出等直接題材標籤；在缺乏已驗證劇情資訊的前提下，最合理的選片定位是概念展示型，而非故事驅動型。",
+  "title_basis": {
+    "performer": "白花にあ",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "白花にあ",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "白花仁愛",
+        "source_field": "title"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "白花にあ",
+    "presentation_feature": "白花仁愛",
+    "editorial_judgment": "以公開可追溯的資訊來看，CAWB-032 的辨識核心不是已知劇情，而是白花にあ、來源標題中的「白花仁愛」概念，以及中出等明確題材標籤；因此更適合從角色包裝與企劃展示感來判斷選片價值。",
+    "source_keywords": [
+      "白花にあ",
+      "白花仁愛",
+      "中出",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "「白花仁愛」是目前最能區分本作的來源概念，應作為標題與評論主軸，而不是被通用熱門標籤取代。",
+      "basis": "public_source",
+      "signal": "白花仁愛"
+    },
+    {
+      "observation_refs": [],
+      "supports": "已知演員為白花にあ，這使作品具備明確的演員導向入口，適合以演員辨識度作為選片起點。",
+      "basis": "public_source",
+      "signal": "白花にあ"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤含「中出」「顏射」與 topic_elements 的「噴精」，顯示成人題材訴求直接，足以構成主要選片題材。",
+      "basis": "public_source",
+      "signal": "中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "creative_seed_brief 的 source_concepts 另摘出「女僕」且標示來自 title，可作為角色包裝概念使用，但不足以延伸成已驗證的具體場景描述。",
+      "basis": "public_source",
+      "signal": "女僕"
+    },
+    {
+      "observation_refs": [],
+      "supports": "relationship、setting、premise 等欄位皆未提供具體內容，因此比起劇情密度高的作品，這部更合理地被視為概念與標籤先行的展示型企劃。",
+      "basis": "public_source",
+      "signal": "展示型企劃"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未宣稱存在已驗證的完整劇情線或情感關係。",
+    "未宣稱女僕元素在正片中的具體服裝、場景或出場比例。",
+    "未宣稱中出、顏射、噴精的實際順序、篇幅或呈現方式。",
+    "未宣稱任何鏡位、聲音、剪輯、表情、演技或身體語言表現。",
+    "未宣稱作品有特定場景地點、對話設計或角色主導權變化。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-02T16:00:00.000Z"
+}

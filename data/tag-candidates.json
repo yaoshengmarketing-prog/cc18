@@ -1378,13 +1378,14 @@
     },
     {
       "label": "女僕",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "DOKS-690",
-        "MXGS-1451"
+        "MXGS-1451",
+        "CAWB-032"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-04",
       "status": "quarantined"
     },
     {
