@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "DVMM-453",
+  "calls": [
+    {
+      "generated_at": "2026-11-03T07:11:05.355Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4402,
+      "cached_input_tokens": 0,
+      "output_tokens": 5495,
+      "total_tokens": 9897,
+      "estimated_cost_usd": 0.145648,
+      "estimated_payg_cash_cost_usd": 0.15293,
+      "direct_openai_reference_usd": 0.09343,
+      "gateway_premium_usd": 0.052218,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4402,
+    "cached_input_tokens": 0,
+    "output_tokens": 5495,
+    "estimated_cost_usd": 0.145648,
+    "estimated_payg_cash_cost_usd": 0.15293,
+    "direct_openai_reference_usd": 0.09343,
+    "gateway_premium_usd": 0.052218
+  }
+}

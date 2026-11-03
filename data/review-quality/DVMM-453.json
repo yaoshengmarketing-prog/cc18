@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "DVMM-453",
+  "review_sha256": "888020bb4f72633b4ccdcfc8556a5c736853d139ab58abcd4e7448e5f2976915",
+  "selected_thesis": "把 DVMM-453 當成系列企劃片來看，比把它期待成角色劇更準；它的吸引力主要來自一般男女監控AV概念與學生設定的組合。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "一般男女監控AV",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "マジックミラーの向こうには○○",
+        "source_field": "series"
+      },
+      {
+        "type": "setting",
+        "value": "學生設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "素人",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "一般男女監控AV",
+    "presentation_feature": "マジックミラーの向こうには○○",
+    "editorial_judgment": "把這部作品放回系列企劃的脈絡來看，比把它期待成以角色鋪陳取勝的作品更準確；公開資訊最有力的賣點，是《マジックミラーの向こうには○○》系列辨識度、一般男女監控AV概念，以及學生設定帶出的入口明確性。",
+    "source_keywords": [
+      "一般男女監控AV",
+      "マジックミラーの向こうには○○",
+      "學生設定",
+      "素人"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品最穩定的識別來自系列名稱。",
+      "basis": "public_source",
+      "signal": "マジックミラーの向こうには○○"
+    },
+    {
+      "observation_refs": [],
+      "supports": "核心企劃概念可直接追溯為「一般男女監控AV」，足以作為標題與論點主軸。",
+      "basis": "public_source",
+      "signal": "一般男女監控AV"
+    },
+    {
+      "observation_refs": [],
+      "supports": "學生設定、素人、學生妹都是公開可見的安全訊號，能支持『入口明確、標籤先行』的選片判斷。",
+      "basis": "public_source",
+      "signal": "學生設定／素人"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資料未提供具名演員，對外辨識自然更偏向系列與企劃本身，而非明星或角色關係。",
+      "basis": "public_source",
+      "signal": "企劃優先於演員辨識"
+    },
+    {
+      "observation_refs": [],
+      "supports": "高畫質、720p、獨家配信屬於補充型呈現資訊，能加強可見度，但不足以取代核心企劃概念。",
+      "basis": "public_source",
+      "signal": "高畫質／獨家配信"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何具體場景流程或空間安排",
+    "未聲稱已確認人物關係、主導權變化或角色轉折",
+    "未評斷實際表演、表情、肢體語言或演技層次",
+    "未描述鏡位、剪輯、聲音設計或節奏體感",
+    "未把動作標籤寫成已驗證的畫面內容"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-02T16:00:00.000Z"
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "DVMM-453",
+  "checked_at": "2026-11-03T07:11:05.694Z",
+  "review_sha256": "701746b2cb6c85356171ff18e012290b96b14ef2693edb837d978c8d1a76902c",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最明確的賣點不是具名演員，而是《マジックミラーの向こうには○○》這個系列框架，搭配「一般男女監控AV」作為核心企劃概念。再往下看，公開標籤又補上素人、學生妹與學生設定，讓觀眾很快知道這片的入口在哪裡。換句話說，這是一部靠企劃辨識度先抓住目光的作品。"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 5,
+    "recommendations": 1
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "movie_id": "DVMM-453",
+  "generated_at": "2026-11-03T07:11:05.534Z",
+  "source_snapshot_hash": "sha256:e00dae626601a19ade5161af5998edbbc6a8f07b7f96aad47a51d16083fdfce4",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若你是先看企劃概念再決定要不要收片的觀眾，DVMM-453 的吸引力很直接；但若你期待的是已知演員或明確劇情，公開資訊目前支撐不了那種期待。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "系列企劃導向",
+      "素人企劃入口清楚",
+      "學生設定辨識度明確",
+      "高畫質與獨家配信屬附加條件"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會主動追《マジックミラーの向こうには○○》系列的人",
+      "偏好企劃型素人作品的人",
+      "對學生設定有明確興趣的人"
+    ],
+    "not_for": [
+      "優先找具名演員的人",
+      "期待完整人物背景與關係推進的人",
+      "想先確認具體場景內容再決定的人"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "DVMM-442",
+      "relation_type": "same_series",
+      "reason": "同屬「マジックミラーの向こうには○○」系列，可用來比較相同公式在不同作品中的角色設定與推進差異。",
+      "shared_signals": [
+        "マジックミラーの向こうには○○"
+      ],
+      "contrast_signals": [
+        "一般男女監控AV",
+        "素人"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這片最值得先看的賣點是什麼？",
+    "它更偏劇情片還是展示型企劃？",
+    "學生設定在選片時的重要性有多高？",
+    "高畫質與獨家配信是否足以成為主因？",
+    "這片更適合哪一類觀眾？"
+  ]
+}
