@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "PS-134",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-03T06:57:42.643Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/PS-134/hero-v1.jpg",
+      "r2_key": "works/2026/10/PS-134/hero-v1.jpg",
+      "bytes": 633258,
+      "sha256": "620ce3d87c4a862631f709128c00b3ac57b6049c1a63d83007181d81426bb30b",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "b17ed53ea1784c30b0e566a019e25a66",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/PS-134/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/PS-134/scene-vertical-v1.jpg",
+      "bytes": 739321,
+      "sha256": "a9c3140ec2dfecea0ec283d1f2809ae73954294bdd4a5c68bc7f8dd7651e7ca9",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "4dc1a1afbba74650b9d4622dc3eec435",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 1931953,
+    "sha256": "e36f861d8c6f317b13a21131fd774a0e1453aab747c4ad7c6bd337451cbed80a",
+    "target_r2_key": "works/2026/10/PS-134/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/PS-134/vertical-v1.mp4"
+  }
+}

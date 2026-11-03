@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "PS-134",
+  "calls": [
+    {
+      "generated_at": "2026-11-03T06:56:42.423Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4450,
+      "cached_input_tokens": 0,
+      "output_tokens": 6368,
+      "total_tokens": 10818,
+      "estimated_cost_usd": 0.16553,
+      "estimated_payg_cash_cost_usd": 0.173807,
+      "direct_openai_reference_usd": 0.106645,
+      "gateway_premium_usd": 0.058885,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4450,
+    "cached_input_tokens": 0,
+    "output_tokens": 6368,
+    "estimated_cost_usd": 0.16553,
+    "estimated_payg_cash_cost_usd": 0.173807,
+    "direct_openai_reference_usd": 0.106645,
+    "gateway_premium_usd": 0.058885
+  }
+}

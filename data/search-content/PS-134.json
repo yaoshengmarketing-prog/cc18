@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "movie_id": "PS-134",
+  "generated_at": "2026-11-03T06:56:42.601Z",
+  "source_snapshot_hash": "sha256:301d9a82b6274507fb812b033fc59d77f88dba95ba4989f7bf97bbf9f507b15e",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "PS-134 的核心不是已知劇情厚度，而是「新b級素人初撮り」這個企劃名如何結合幾野まち、角色稱呼與外型標籤，做出一部記憶點明確的展示型系列選片。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "系列企劃感明確",
+      "角色命名感比故事摘要更突出",
+      "以身份與外型標籤快速建立入口"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會優先看系列概念選片的人",
+      "想看幾野まち在企劃型作品中如何被包裝的人",
+      "偏好以角色稱呼、身份標籤與外型標籤快速判讀作品的人"
+    ],
+    "not_for": [
+      "想先確認完整人物關係與劇情轉折的人",
+      "需要已知場景、演出細節或敘事密度再決定的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片最直接的選片理由是什麼？",
+    "公開片名線索能支持多少角色感判讀？",
+    "它比較偏劇情導向還是展示型企劃？",
+    "哪些觀眾會比較容易買單？"
+  ]
+}

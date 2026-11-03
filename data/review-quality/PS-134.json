@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "PS-134",
+  "review_sha256": "4817be7532fcb890bb06505f0c9b28a491cc205cd9f1b883756ac22aff261c54",
+  "selected_thesis": "PS-134 的核心不是已知劇情厚度，而是「新b級素人初撮り」這個企劃名如何結合幾野まち、角色稱呼與外型標籤，做出一部記憶點明確的展示型系列選片。",
+  "title_basis": {
+    "performer": "幾野まち",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "幾野まち",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "新b級素人初撮り",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "美尻",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "幾野まち",
+    "presentation_feature": "新b級素人初撮り",
+    "editorial_judgment": "把這部作品放回「新b級素人初撮り」的企劃框架來看，會比把它當成已有完整劇情輪廓的作品更準確；它目前最可追溯的吸引力，來自系列識別、出演者名稱，以及片名裡刻意留下的角色標記。",
+    "source_keywords": [
+      "幾野まち",
+      "新b級素人初撮り",
+      "素人企劃",
+      "美尻"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開資料同時以系列與核心概念標示「新b級素人初撮り」，可支持本片應優先被理解為系列型、企劃型選片，而非先靠已知劇情摘要成立。",
+      "basis": "public_source",
+      "signal": "series-formula"
+    },
+    {
+      "observation_refs": [],
+      "supports": "safe_title_signals 與 topic_elements 出現「素人企劃／素人」「美尻」與 720p、HD 等資訊，顯示公開包裝重點集中在身份、外型特徵與規格提示。",
+      "basis": "public_source",
+      "signal": "showcase-format"
+    },
+    {
+      "observation_refs": [],
+      "supports": "source_concepts 含有「爸爸,對不起」「靜香小姐」「25歲」等片名字詞，足以支持『作品用角色稱呼與一句話口吻建立記憶點』的判斷，但不足以推定完整人物關係或情節。",
+      "basis": "public_source",
+      "signal": "story"
+    },
+    {
+      "observation_refs": [],
+      "supports": "目前唯一明確可確認的出演者資訊是「幾野まち」，因此對表演者有興趣，本身就是這部作品可成立的選片理由之一。",
+      "basis": "public_source",
+      "signal": "performer"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "將「爸爸,對不起」解讀為已證實的特定家庭關係或禁忌情節",
+    "將「25歲」寫成出演者真實年齡或已驗證角色設定",
+    "聲稱已知具體場景、鏡位、剪輯、聲音、表情或演技表現",
+    "把 720p、HD 或「高畫質」直接寫成實際觀看後的畫質評價",
+    "把「中出」延伸成已確認的具體過程或畫面描述"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-02T16:00:00.000Z"
+}

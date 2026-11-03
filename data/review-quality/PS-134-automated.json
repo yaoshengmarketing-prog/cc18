@@ -1,0 +1,60 @@
+{
+  "schema_version": 2,
+  "id": "PS-134",
+  "checked_at": "2026-11-03T06:56:42.764Z",
+  "review_sha256": "eaa5bf0d6a3f18fb28cab29f3bbb736fd90fb66557582930429d212d7c101d61",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "雖然目前沒有更完整的公開劇情摘要，但片名線索裡已經出現「爸爸,對不起」「靜香小姐」「25歲」這類字詞。這些資訊至少說明，作品不是只靠編號與系列名販售，而是額外放進了人物稱呼、年齡標記與一句帶口吻的短句，替作品補出一層角色記憶點。就選片判斷來說，這會讓它比單純的制式企劃更容易被記住"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "從目前可追溯的公開資訊來看，這部片更適合被歸到展示型企劃。原因不是它一定沒有故事，而是現階段能確認的重點幾乎都落在系列名稱、角色命名、身份標籤與外型提示上，尚不足以把它判成一部以關係轉折或高劇情密度見長的作品。若你喜歡的是系列公式感、企劃識別度，或希望從角色稱呼這種簡短線索找到記"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}
