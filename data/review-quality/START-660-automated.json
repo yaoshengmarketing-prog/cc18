@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "id": "START-660",
+  "checked_at": "2026-11-04T23:00:10.302Z",
+  "review_sha256": "7720a3c69eeba56736f85aeb9c1fca9fe1b9f1e0d847bb988012412b2401b1f9",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看公開資訊，START-660 最清楚的核心就是「施虐淫語」。這不是附帶標籤，而是整部作品最能區隔題材方向的來源概念。再加上演員名單已明示為青空光，選片時的第一判斷自然會落在「演員辨識度」與「淫語主題」的組合，而不是先期待複雜劇情。"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "以目前能追溯的資料來看，較適合把 START-660 歸到展示型企劃來理解。原因不是它一定沒有劇情，而是公開資訊並未提供完整前提、人物關係、系列脈絡或明確衝突線；反而是「AV女優片」「癡女」「淫語」「アクメ・オーガズム」這類題材標籤最集中。也因此，這片的吸引力更像是主題集中、角色"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

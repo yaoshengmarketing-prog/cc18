@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "movie_id": "START-660",
+  "generated_at": "2026-11-04T23:00:10.133Z",
+  "source_snapshot_hash": "sha256:9df3d37c3c763d8ca32f3f2580af73f48367d13171ace95a683dcac44aa723a6",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "START-660 的選片價值主要來自青空光承接「施虐淫語」主題，並以空服員設定建立形象反差；在缺少明確劇情前提的情況下，應優先把它看成主題與角色包裝都很清楚的展示型企劃。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "主題先行",
+      "演員辨識度高",
+      "角色設定有反差感",
+      "技術規格有高畫質訊號但不是首要賣點"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想看青空光新作的人",
+      "偏好淫語主題的人",
+      "喜歡職業角色包裝與形象反差的人",
+      "接受主題展示型企劃的人"
+    ],
+    "not_for": [
+      "期待完整人物關係鋪陳的人",
+      "想先確認明確劇情轉折再決定的人",
+      "偏好系列世界觀或高故事密度的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這片最先吸引人的公開賣點是什麼？",
+    "空服員設定在選片上有什麼作用？",
+    "它更像劇情片還是主題展示片？",
+    "適合哪些觀眾先收進片單？"
+  ]
+}

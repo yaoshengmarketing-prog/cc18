@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:42e4d92cfc175de3ca9df2b054d0957de1f4087031cc11441a8e986854c5c8e0",
-  "source_generated_at": "2026-11-04T22:56:16.965Z",
+  "source_revision": "sha256:67ec2feaef5f2039c1006bcfe5f48b5f3882bfb7e7ece148f23e7e0b5f5339c6",
+  "source_generated_at": "2026-11-04T23:02:12.738Z",
   "counts": {
-    "movies": 390,
-    "performers": 317,
+    "movies": 391,
+    "performers": 318,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1811,6 +1811,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-358"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:24314",
+      "display_name": "青空光",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "青空光",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:START-660"
       ]
     },
     {
@@ -8653,6 +8664,55 @@
         "article_title": "START-649 神木麗｜泡泡浴女郎偵探：概念先行的戲劇企劃",
         "display_short_title": null,
         "slug": "start-649"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:START-660",
+        "source_cover": "https://cc18.tv/preview/80/b/IInaRBpL21-800.jpg?v=1791923911",
+        "title": "START-660 青空光｜施虐淫語：空服員設定撐起的展示型企劃",
+        "catalog_code": "START-660",
+        "release_date": "2026-10-13",
+        "performers": [
+          "青空光"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "dirty-talk",
+            "label": "言語挑逗"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/start-660/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:24314"
+      ],
+      "search": {
+        "source_title": "施虐淫語 被美人空乘引誘到床上,直到激烈高潮為止被言語責罵 青空光",
+        "article_title": "START-660 青空光｜施虐淫語：空服員設定撐起的展示型企劃",
+        "display_short_title": null,
+        "slug": "start-660"
       }
     },
     {
