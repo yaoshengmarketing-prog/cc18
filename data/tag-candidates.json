@@ -1398,7 +1398,7 @@
     },
     {
       "label": "羞辱",
-      "occurrences": 11,
+      "occurrences": 12,
       "source_ids": [
         "DOKS-689",
         "START-601",
@@ -1410,10 +1410,11 @@
         "HUBLK-081",
         "NACT-185",
         "SNOS-405",
-        "EBWH-373"
+        "EBWH-373",
+        "SORA-654"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-05",
       "status": "quarantined"
     },
     {

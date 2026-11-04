@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "SORA-654",
+  "checked_at": "2026-11-04T17:46:08.046Z",
+  "review_sha256": "d86cae721b4e52b99e66729398ce7cb490ce1b83eb14f614b5cb626da62749bc",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "從公開資訊來看，這部片最直接的入口不是故事摘要，而是系列與核心概念都明白指向「クズ勃起」。當系列名本身就成為主要識別時，選片邏輯通常會先回到企劃是否對味，再看由誰來承接這個概念。本作的演員標示為一色沙羅，安全標籤另有「巨乳」，因此它的吸引力更像是「系列概念＋演員辨識度＋身體主題」"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "這部作品的 series 與核心概念完全一致，代表「クズ勃起」不是旁支標籤，而是最核心的企劃名稱。另一方面，公開資料沒有補出人物關係、場景、服裝或前提設定，這也讓系列框架的重要性進一步提高。對觀眾來說，這種作品的判斷重點通常不是『這次會發生什麼故事』，而是『這個系列概念由哪位演員"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 2
+  }
+}

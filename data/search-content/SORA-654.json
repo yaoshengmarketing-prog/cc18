@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "movie_id": "SORA-654",
+  "generated_at": "2026-11-04T17:46:07.884Z",
+  "source_snapshot_hash": "sha256:e716bdb7452f8d8f312fae2e177e0f2157c000cba04a44b3099404719721cd8d",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "這部作品目前最有力的選片理由，不是已知劇情，而是「クズ勃起」這個系列概念搭配一色沙羅與巨乳標籤所形成的企劃辨識度。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "系列概念辨識度高",
+      "演員與身材標籤清楚",
+      "公開資料偏主題展示而非劇情摘要",
+      "畫質與配信資訊可作次要加分"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先追系列企劃名稱的觀眾",
+      "對一色沙羅有明確興趣的觀眾",
+      "偏好主題直接、標籤清楚作品的觀眾",
+      "把巨乳作為第一篩選條件之一的觀眾"
+    ],
+    "not_for": [
+      "選片時高度依賴完整故事前提的人",
+      "想先確認人物關係或場景設計的人",
+      "期待公開資料已揭示明確敘事轉折的人"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "DDK-241",
+      "relation_type": "same_performer",
+      "reason": "同樣由一色沙羅出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "一色沙羅"
+      ],
+      "contrast_signals": [
+        "剛毛肉便器",
+        "AV女優片"
+      ]
+    },
+    {
+      "movie_id": "DSJH-020",
+      "relation_type": "same_performer",
+      "reason": "同樣由一色沙羅出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "一色沙羅"
+      ],
+      "contrast_signals": [
+        "椿莉香",
+        "美之嶋惠理"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這片最明確的賣點是什麼？",
+    "系列名對選片有多大影響？",
+    "一色沙羅與公開標籤如何塑造期待？",
+    "這片適合哪些觀眾先看？"
+  ]
+}

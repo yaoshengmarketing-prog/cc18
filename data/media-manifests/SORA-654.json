@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "SORA-654",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-04T17:47:06.188Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/SORA-654/hero-v1.jpg",
+      "r2_key": "works/2026/10/SORA-654/hero-v1.jpg",
+      "bytes": 771463,
+      "sha256": "a905a66bb2e815e6a358cf5c4762babe9d5a0d49c3e99fc38f9e7c094710507e",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "4ee53d0ed6dc4247a0a3bd1f52881d01",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/SORA-654/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/SORA-654/scene-vertical-v1.jpg",
+      "bytes": 1179315,
+      "sha256": "8ebdfb9fc8c983323cfb1babf78d04a9466e657de9eb928eeba569f946c5c37d",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "15bc4c945110451aa8681a320cb48dba",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2513124,
+    "sha256": "659969f740924d8f2b43449b9b95cff0fc4150363ee64259c8f5040244010861",
+    "target_r2_key": "works/2026/10/SORA-654/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/SORA-654/vertical-v1.mp4"
+  }
+}

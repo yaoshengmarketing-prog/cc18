@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "SORA-654",
+  "review_sha256": "5d370e0a485aa1be47426eb70e29999773e32ab40a876ff022defa09d15af1fd",
+  "selected_thesis": "這部作品目前最成立的觀看理由，是系列概念與演員標籤的組合強度，而不是已知劇情內容。",
+  "title_basis": {
+    "performer": "一色沙羅",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "一色沙羅",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "クズ勃起",
+        "source_field": "series"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "一色沙羅",
+    "presentation_feature": "クズ勃起",
+    "editorial_judgment": "以系列名稱「クズ勃起」作為核心入口，評估一色沙羅與「巨乳」等公開標籤如何把本作定位成概念先行的展示型選片。",
+    "source_keywords": [
+      "一色沙羅",
+      "クズ勃起",
+      "巨乳"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "將「クズ勃起」視為本作最核心的選片依據。",
+      "basis": "public_source",
+      "signal": "core_source_concept 與 series 同為「クズ勃起」"
+    },
+    {
+      "observation_refs": [],
+      "supports": "把一色沙羅放在選片說明的第一層，因為演員資訊是公開資料中最明確的人物線索。",
+      "basis": "public_source",
+      "signal": "actress 為「一色沙羅」"
+    },
+    {
+      "observation_refs": [],
+      "supports": "將作品判讀為偏展示型企劃，而非以人物關係或情節摘要取勝。",
+      "basis": "public_source",
+      "signal": "topic_elements 主要集中在 identity、body、action、presentation；relationship、setting、clothing 皆未提供"
+    },
+    {
+      "observation_refs": [],
+      "supports": "以「巨乳」作為主要成人主題，因其為可追溯且明確的公開標籤。",
+      "basis": "public_source",
+      "signal": "safe_title_signals 與 topic_elements.body 皆出現「巨乳」"
+    },
+    {
+      "observation_refs": [],
+      "supports": "把高畫質與獨家配信視為次要加分，而非內容主軸。",
+      "basis": "public_source",
+      "signal": "safe_title_signals 與 topic_elements.presentation 出現「高畫質／HD／720p／4k／獨家配信」"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何具體已發生的場景、流程或段落安排",
+    "未推定人物關係、角色身份設定或故事前提",
+    "未聲稱已觀察到鏡位、剪輯、聲音、表情、演技或身體語言",
+    "未把「噴精」標籤寫成已驗證的實際呈現方式",
+    "未補寫未公開的場景地點、服裝或互動細節"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}
