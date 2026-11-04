@@ -784,7 +784,7 @@
     },
     {
       "label": "不倫",
-      "occurrences": 14,
+      "occurrences": 15,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -799,10 +799,11 @@
         "MKMP-756",
         "PAKO-110",
         "ADN-814",
-        "SY-228"
+        "SY-228",
+        "MIDA-853"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-04",
       "status": "quarantined"
     },
     {
@@ -1552,12 +1553,13 @@
     },
     {
       "label": "男の潮吹き",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "SNOS-374"
+        "SNOS-374",
+        "MIDA-853"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-11-04",
       "status": "quarantined"
     },
     {

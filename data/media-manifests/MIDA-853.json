@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MIDA-853",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-04T01:49:25.690Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/MIDA-853/hero-v1.jpg",
+      "r2_key": "works/2026/10/MIDA-853/hero-v1.jpg",
+      "bytes": 665501,
+      "sha256": "5ba0ff02c34be7551476a7f6195b24d3977a5db0caa537982285bf80fcb75b04",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "90cc05f4cf8b4afe8e0b39a79685108b",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/MIDA-853/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/MIDA-853/scene-vertical-v1.jpg",
+      "bytes": 1112461,
+      "sha256": "74869894d685b7daa8072334d3e5dfa550996f8a4d17f0a04f8f046379cc90e1",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "fbf89776ba45497aa6fb3e8d82722d1f",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3214295,
+    "sha256": "56026873b913c5ea80b8bd2abd5130ae4525be36780be3e62a42fd0a402374b9",
+    "target_r2_key": "works/2026/10/MIDA-853/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/MIDA-853/vertical-v1.mp4"
+  }
+}

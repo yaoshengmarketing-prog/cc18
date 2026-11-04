@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "MIDA-853",
+  "checked_at": "2026-11-04T01:48:43.566Z",
+  "review_sha256": "365b82542f07c9acd2418a4cba87ea49258240b87ace687c24d9308a218990c1",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "已知演出者是神宮寺奈緒，而來源文字強調的不是單一元素，而是笑容、性格、身體、色情度與相性的整體組合。這讓本作的包裝方式很明確：不是只賣一個標籤，而是把她放進「能否讓人墮落」的角色概念裡來看。如果你本來就會把演出者與企劃契合度當成首要條件，這部的方向算是相當直白。"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 6,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 5,
+    "recommendations": 0
+  }
+}

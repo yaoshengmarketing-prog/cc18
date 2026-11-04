@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "movie_id": "MIDA-853",
+  "generated_at": "2026-11-04T01:48:43.395Z",
+  "source_snapshot_hash": "sha256:76e82a46affb202c2dad79e613354b08f659ec6f428d17da6a18c9cf0024cdaf",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "MIDA-853 的公開資訊把重點集中在「讓我墮落的超級色情情婦」這個企劃核心，再由神宮寺奈緒與多個角色魅力關鍵詞去撐起吸引力；它更像概念鮮明的展示型選片，而不是目前已知資訊很完整的劇情導向作品。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "企劃先行",
+      "角色魅力展示",
+      "身份標籤清楚",
+      "平台配信屬性明確"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先看神宮寺奈緒再決定是否點開的觀眾",
+      "容易被「讓我墮落的超級色情情婦」這類強企劃概念吸引的觀眾",
+      "希望透過身份標籤與明確動作關鍵詞快速判斷題材方向的觀眾"
+    ],
+    "not_for": [
+      "需要先確認完整劇情與人物關係再決定的觀眾",
+      "高度依賴具體場景或敘事細節來選片的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片最明確的選片鉤子是什麼？",
+    "神宮寺奈緒在這部的吸引力如何被定位？",
+    "題材面上可以先確認哪些方向？",
+    "配信與畫質資訊值不值得列入考量？",
+    "這片比較適合哪一類觀眾？"
+  ]
+}

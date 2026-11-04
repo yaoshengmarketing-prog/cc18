@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "MIDA-853",
+  "review_sha256": "5534ec39fd035c22875f076989bb5f46d630ec6c26a714bf0c1940187e3096ed",
+  "selected_thesis": "MIDA-853 最值得注意的不是已知故事量，而是它把神宮寺奈緒放進「讓我墮落的超級色情情婦」這個明確企劃裡，再用笑容、性格、身體、色情度、相性等關鍵詞去放大角色吸引力；因此它的選片價值，主要來自概念與演出者的契合。",
+  "title_basis": {
+    "performer": "神宮寺奈緒",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "神宮寺奈緒",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "讓我墮落的超級色情情婦",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "神宮寺奈緒",
+    "presentation_feature": "讓我墮落的超級色情情婦",
+    "editorial_judgment": "把這部定位為一支由角色概念驅動的展示型企劃：真正左右選片的，不是已知劇情細節，而是神宮寺奈緒是否能撐起「讓我墮落的超級色情情婦」這個核心命題。",
+    "source_keywords": [
+      "神宮寺奈緒",
+      "讓我墮落的超級色情情婦",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品最可追溯、也最具辨識度的核心賣點，是標題概念「讓我墮落的超級色情情婦」。",
+      "basis": "public_source",
+      "signal": "讓我墮落的超級色情情婦"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源摘錄另外點出「笑容、性格、身體、色情度、相性」，說明公開包裝重心偏向角色魅力的綜合展示。",
+      "basis": "public_source",
+      "signal": "笑容／性格／身體／色情度／相性"
+    },
+    {
+      "observation_refs": [],
+      "supports": "已知演出者為神宮寺奈緒，因此選片判斷可明確建立在演出者吸引力與企劃概念的組合上。",
+      "basis": "public_source",
+      "signal": "神宮寺奈緒"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤可確認作品帶有「AV女優片」身份訊號，能幫助觀眾快速判斷題材入口。",
+      "basis": "public_source",
+      "signal": "AV女優片"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤另列出「親吻」「騎乘位」「中出」，足以作為題材方向的基本辨識，但不足以延伸為具體情節。",
+      "basis": "public_source",
+      "signal": "親吻／騎乘位／中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "呈現資訊含「高畫質」「獨家配信」與 HD/720p，屬於附加觀看條件，而非取代核心企劃的主賣點。",
+      "basis": "public_source",
+      "signal": "高畫質／獨家配信／HD"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未把任何具體墮落過程或情節轉折寫成事實",
+    "未發明人物關係、身份背景或場景地點",
+    "未聲稱看見鏡位、剪輯、聲音、表情、演技或身體語言",
+    "未補寫系列歸屬或未公開的企劃細節"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

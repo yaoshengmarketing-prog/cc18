@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04T01:43:52.928Z",
+  "updated_at": "2026-11-04T01:50:08.713Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -5532,6 +5532,21 @@
       ],
       "release_date": "2026-10-30",
       "source_url": "https://cc18.tv/player.php?uuid=lRTfLVkKk3B&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-04"
+    },
+    {
+      "id": "MIDA-853",
+      "actress": [
+        "神宮寺奈緒"
+      ],
+      "release_date": "2026-10-30",
+      "source_url": "https://cc18.tv/player.php?uuid=qeqOyzWfL5V&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
