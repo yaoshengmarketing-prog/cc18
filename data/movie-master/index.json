@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-04T23:22:38.717Z",
+  "generated_at": "2026-11-04T23:28:14.596Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 398,
-  "formal_movie_count": 397,
+  "tracked_input_count": 399,
+  "formal_movie_count": 398,
   "demo_count": 1,
-  "published_count": 394,
+  "published_count": 395,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -188,6 +188,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "c10a9cae01deba323ff3c061c6ab3d979abcf93144e8b6fa9af2addea90c4437"
+    },
+    {
+      "stable_movie_id": "cc18:AWAW-031",
+      "catalog_code": "AWAW-031",
+      "slug": "awaw-031",
+      "master_path": "data/movie-master/awaw-031.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "45feed0ea092f23554b4a3806707e442ed79a9d46c86ca5c3fba109d4eb5adfb"
     },
     {
       "stable_movie_id": "cc18:BAGR-093",

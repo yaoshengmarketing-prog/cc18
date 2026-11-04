@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "AWAW-031",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-04T23:27:08.404Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/AWAW-031/hero-v1.jpg",
+      "r2_key": "works/2026/10/AWAW-031/hero-v1.jpg",
+      "bytes": 662750,
+      "sha256": "2fb6daeaa9f28d4b3770e67398c3c154fea78f300b3cb3bb7b793a3beb7e2827",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "8ddc01d2bc794774b0b3004456fabcec",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/AWAW-031/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/AWAW-031/scene-vertical-v1.jpg",
+      "bytes": 1008229,
+      "sha256": "f08636814f931f5b718bc3de17e2f5afa1033f0e1db673d0445f74c4098e0c3b",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "029b22353ec649ad85125fabf6b54b53",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2793788,
+    "sha256": "560b099e6530971fcd702287e85f9306c6b978ce230b8a4bc1d53207096ff8d7",
+    "target_r2_key": "works/2026/10/AWAW-031/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/AWAW-031/vertical-v1.mp4"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "AWAW-031",
+  "review_sha256": "98e98bae3921300d6d8aabcd28ef99910373feafe5ebddc1a2439f8ea6a1b3d2",
+  "selected_thesis": "AWAW-031 的核心吸引力不是可驗證的故事厚度，而是學生設定結合多人玩法所形成的系列企劃辨識度。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "AWAW-031",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "家出中の神待ち美少女を悪い大人たちが朝までハメまくり！",
+        "source_field": "series"
+      },
+      {
+        "type": "setting",
+        "value": "學生設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "3p・4p",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "AWAW-031",
+    "presentation_feature": "家出中の神待ち美少女を悪い大人たちが朝までハメまくり！",
+    "editorial_judgment": "從公開標籤與系列命名切入，判斷 AWAW-031 的選片價值更偏向學生設定搭配多人玩法的系列企劃辨識，而不是人物或情節導向。",
+    "source_keywords": [
+      "AWAW-031",
+      "家出中の神待ち美少女を悪い大人たちが朝までハメまくり！",
+      "學生設定",
+      "3p・4p"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "系列名稱本身直接提供強烈企劃語彙，包含「家出中」「神待ち美少女」「悪い大人たち」「朝まで」等元素，足以支撐本作先以情境設定吸引選片。",
+      "basis": "public_source",
+      "signal": "家出中の神待ち美少女を悪い大人たちが朝までハメまくり！"
+    },
+    {
+      "observation_refs": [],
+      "supports": "safe_title_signals 與 topic_elements 同時出現「學生設定／學生妹」，可判斷公開定位明確朝學生角色扮演類型靠攏。",
+      "basis": "public_source",
+      "signal": "學生設定／學生妹"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤列出「3p・4p」與「アクメ・オーガズム」，顯示賣點更偏多人與強刺激主題，而非細節劇情介紹。",
+      "basis": "public_source",
+      "signal": "3p・4p／アクメ・オーガズム"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資料未提供演員名、完整人物關係或補充故事簡介，因此不適合把評論重心放在表演辨識或情節推進。",
+      "basis": "public_source",
+      "signal": "actress 空白／premise 未提供"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何已發生的具體場景、鏡位、聲音或剪輯節奏",
+    "未推定演員姓名、真實身分、年齡或私生活",
+    "未補寫公開資料中不存在的人物關係與情節轉折",
+    "未將系列名稱中的宣傳語寫成已驗證的觀看事實"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "movie_id": "AWAW-031",
+  "generated_at": "2026-11-04T23:26:12.087Z",
+  "source_snapshot_hash": "sha256:e332b779dcc37fc2130d5c939fd412c8600fba08d6423a58be9f16ecd646e01f",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "AWAW-031 從公開資訊看，核心吸引力在於學生設定結合 3p・4p 的系列企劃感；如果你的選片方式偏向題材命中，它的辨識度足夠，但不宜先期待濃厚劇情與人物層次。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "系列企劃辨識度高",
+      "學生設定是主要入口",
+      "多人玩法標籤清楚",
+      "高畫質資訊屬補充，不是核心賣點"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好學生設定題材的人",
+      "會依多人玩法標籤快速選片的人",
+      "熟悉系列公式、重視企劃辨識度的人"
+    ],
+    "not_for": [
+      "想先確認完整劇情走向的人",
+      "主要依特定演員魅力選片的人",
+      "期待明確人物關係鋪陳的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "第一眼該看什麼賣點？",
+    "它比較像劇情片還是展示型企劃？",
+    "哪種觀眾最容易選中它？",
+    "不該期待什麼？",
+    "高畫質標籤值不值得當主因？"
+  ]
+}

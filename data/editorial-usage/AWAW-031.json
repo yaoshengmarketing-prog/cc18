@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "AWAW-031",
+  "calls": [
+    {
+      "generated_at": "2026-11-04T23:26:11.895Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4665,
+      "cached_input_tokens": 0,
+      "output_tokens": 5443,
+      "total_tokens": 10108,
+      "estimated_cost_usd": 0.145792,
+      "estimated_payg_cash_cost_usd": 0.153082,
+      "direct_openai_reference_usd": 0.093308,
+      "gateway_premium_usd": 0.052485,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4665,
+    "cached_input_tokens": 0,
+    "output_tokens": 5443,
+    "estimated_cost_usd": 0.145792,
+    "estimated_payg_cash_cost_usd": 0.153082,
+    "direct_openai_reference_usd": 0.093308,
+    "gateway_premium_usd": 0.052485
+  }
+}
