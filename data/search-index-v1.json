@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:b9f1ec3d01d3af2d8123bbd0af15abc63f1abddc71f7ff86819fe25df8173040",
-  "source_generated_at": "2026-11-04T23:16:15.785Z",
+  "source_revision": "sha256:6a6083728db52a27925a0227d66b45d730c74bbc07f6e4b52c6aa629ef4c83e7",
+  "source_generated_at": "2026-11-04T23:22:38.717Z",
   "counts": {
-    "movies": 393,
+    "movies": 394,
     "performers": 318,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -8796,6 +8796,67 @@
         "article_title": "FNEW-025 谷村凪咲｜雌小鬼中出企劃，系列辨識度先行",
         "display_short_title": null,
         "slug": "fnew-025"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:RT-039",
+        "source_cover": "https://cc18.tv/preview/80/b/gfyiXmrZUdj-800.jpg?v=1791880549",
+        "title": "RT-039｜獨家素人企劃：自拍形式撐起展示型賣點",
+        "catalog_code": "RT-039",
+        "release_date": "2026-10-12",
+        "performers": [],
+        "canonical_topics": [
+          {
+            "id": "amateur",
+            "label": "素人"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "facial",
+            "label": "顏射題材"
+          },
+          {
+            "id": "fhd",
+            "label": "全高清 FHD"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "production",
+            "label": "企劃作品"
+          },
+          {
+            "id": "self-shot",
+            "label": "自拍視角"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "streaming-only",
+            "label": "配信限定"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/rt-039/"
+      },
+      "performer_ids": [],
+      "search": {
+        "source_title": "獨家 嚴選經典集錦 vol.1",
+        "article_title": "RT-039｜獨家素人企劃：自拍形式撐起展示型賣點",
+        "display_short_title": null,
+        "slug": "rt-039"
       }
     },
     {

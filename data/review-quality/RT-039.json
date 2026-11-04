@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "RT-039",
+  "review_sha256": "d1024d82ce656a6385f7520049c53c7b410003452e6d1fb7968afe9037302ade",
+  "selected_thesis": "RT-039 最清楚的選片理由不是故事，而是「獨家」包裝下的素人自拍企劃；它用身份、外型與形式建立吸引力，對重視展示感的觀眾更有說服力。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "素人",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "自拍形式",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "theme",
+        "value": "企劃片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "素人",
+    "editorial_judgment": "把 RT-039 視為一部以「獨家」為主軸、靠素人與自拍形式建立辨識度的展示型企劃，而不是以已知劇情或人物關係取勝的作品。",
+    "source_keywords": [
+      "獨家",
+      "素人",
+      "自拍形式",
+      "企劃片"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開資訊將「獨家」放在最前面的辨識位置，且同時出現獨家限定、配信專用等線索，足以支撐本作先以發行定位吸引選片。",
+      "basis": "public_source",
+      "signal": "獨家配信定位"
+    },
+    {
+      "observation_refs": [],
+      "supports": "安全標籤與主題元素同時指向素人、美少女，說明作品的人物賣點主要建築在身份與形象設定，而非已知角色關係。",
+      "basis": "public_source",
+      "signal": "素人／美少女身份"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開簡介與標籤都提到自拍形式，並帶有企劃片屬性，顯示這部片更接近形式鮮明的展示型內容。",
+      "basis": "public_source",
+      "signal": "自拍企劃形式"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源摘錄中出現「嚴選經典集錦」「vol.1」與「第5位」等語句，可合理判讀為帶有集錦或分段展示感的企劃編排。",
+      "basis": "public_source",
+      "signal": "集錦／分段式框架"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開介紹提到細腰苗條美女まり、過激服裝，主題元素另標出窈窕，這些都讓外型辨識成為本作的重要選片依據。",
+      "basis": "public_source",
+      "signal": "身形與形象訴求"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何未公開的場景流程或段落順序",
+    "未宣稱已確認角色關係、故事轉折或結局",
+    "未評論鏡位、剪輯、聲音、表情、演技或身體語言",
+    "未補造演員本名、年齡、私生活或系列歸屬"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

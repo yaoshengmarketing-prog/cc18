@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "id": "RT-039",
+  "checked_at": "2026-11-04T23:20:21.578Z",
+  "review_sha256": "5bf654edda2863f9466fd427413d33b7d66e772d674c6d7fbf6a32514bccd720",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "從公開介紹來看，RT-039 最明確的核心不是故事設定，而是「獨家」這個發行定位，再加上素人企劃與自拍形式的組合。這種資訊排列很直接：它先告訴你作品要靠什麼被記住，而不是先用人物關係或情節懸念拉人入場。"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}
