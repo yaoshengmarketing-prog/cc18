@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "movie_id": "ATID-690",
+  "generated_at": "2026-11-04T17:58:20.558Z",
+  "source_snapshot_hash": "sha256:24c17c114e003f08090d87d3fa4ecb72b029c8f32c7930e009e7c11efcc03399",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "ATID-690 的可看點在於「為了那個人」所帶出的條件式困局；公開線索已足夠把它判為人妻框架下、劇情密度偏高的戲劇型選片。",
+    "story_density": "high",
+    "pace": "unknown",
+    "presentation": [
+      "優先從公開標題與身份標籤判讀企劃方向",
+      "以戲劇設定作為選片核心，外型標籤退居次要",
+      "不把高畫質與獨家配信當成主要內容判斷"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會優先看設定鉤子的劇情向觀眾",
+      "對人妻・主婦身份框架有興趣的觀眾",
+      "本來就會追妃光莉作品的觀眾"
+    ],
+    "not_for": [
+      "只想看純展示型賣肉企劃的觀眾",
+      "需要明確場景資訊、互動細節或系列公式再決定的觀眾",
+      "只以技術規格作為主要選片依據的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片最值得先看哪個賣點？",
+    "公開資訊顯示它偏劇情還是偏展示？",
+    "妃光莉在這部作品中的選片價值是什麼？",
+    "它較適合哪些觀眾？"
+  ]
+}

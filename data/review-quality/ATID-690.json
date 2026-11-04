@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "ATID-690",
+  "review_sha256": "2aa3a9c18c962cd419af37944a8aaf912d6ff22922006e4fda0d4e5a659c8557",
+  "selected_thesis": "ATID-690 的辨識度來自「為了那個人」所串起的條件式困局；在公開資訊範圍內，它最適合被理解為妃光莉主演、人妻框架下的高劇情密度戲劇企劃。",
+  "title_basis": {
+    "performer": "妃光莉",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "妃光莉",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "為了那個人",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "人妻・主婦",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "戲劇、連續劇",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "妃光莉",
+    "presentation_feature": "為了那個人",
+    "editorial_judgment": "把本片定位為以「為了那個人」為核心動機、由公開標題線索堆出戲劇張力的人妻題材，而不是只靠身材標籤成立的展示型作品。",
+    "source_keywords": [
+      "妃光莉",
+      "為了那個人",
+      "人妻・主婦",
+      "戲劇、連續劇"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "標題與核心概念都把辨識重心放在「為了那個人」，適合將選片主軸放在動機與抉擇，而非單一外型標籤。",
+      "basis": "public_source",
+      "signal": "為了那個人"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開來源另列出「我願意被抱」「痴漢冤罪」「妻子被提出的和解條件」等標題線索，顯示本片賣點偏向條件式衝突與事件驅動。",
+      "basis": "public_source",
+      "signal": "條件式戲劇設定"
+    },
+    {
+      "observation_refs": [],
+      "supports": "已知主演為妃光莉，能成為觀眾判斷是否入手的第一個穩定依據。",
+      "basis": "public_source",
+      "signal": "妃光莉"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源標示「人妻・主婦」與「戲劇、連續劇」，可合理支持本片被歸為成熟身份框架下的戲劇型企劃。",
+      "basis": "public_source",
+      "signal": "人妻戲劇框架"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未宣稱已確認痴漢冤罪的具體事件經過",
+    "未宣稱已確認提出和解條件的人物身分與關係",
+    "未宣稱已確認妻子做出何種實際選擇或是否犧牲",
+    "未描述任何已發生的場景、鏡位、剪輯、聲音或表演細節",
+    "未把巨乳、高畫質或獨家配信寫成凌駕核心概念的主論點"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

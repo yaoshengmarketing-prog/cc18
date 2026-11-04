@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "ATID-690",
+  "checked_at": "2026-11-04T17:58:20.727Z",
+  "review_sha256": "6dd42de148adb711f575a5ddfc9908fa70e3d412cecf314a82a6c5a00cb8da22",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看公開資料，ATID-690 最應該被記住的不是一般性的身材標籤，而是「為了那個人」這個核心概念。它直接把作品重心拉向動機與抉擇，也讓這部片比單純以人妻或巨乳分類切入的作品，多了一層明確的戲劇理由。對想找有設定鉤子的觀眾來說，這就是最有效的入手點。"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "來源還列出「我願意被抱」「痴漢冤罪」「妻子被提出的和解條件」等片名線索。即使不能把它們擴寫成完整劇情，這些詞組本身已經足以說明，本片不是只靠單一情境成立，而是帶有事件、代價與選擇的條件式結構。再加上來源標示「戲劇、連續劇」，這部作品更像是以企劃設定推動觀看興趣的類型。"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:9cd031b807890058ab2c5e57f43a53118a66c6d82a6d03daf266b7bd7eaf482b",
-  "source_generated_at": "2026-11-04T17:54:18.222Z",
+  "source_revision": "sha256:545c37120c5d94b47680371fb3bf86a8d7fd3762ae7dcdbff8cdd0fa7dde5ba3",
+  "source_generated_at": "2026-11-04T18:00:11.861Z",
   "counts": {
-    "movies": 385,
+    "movies": 386,
     "performers": 316,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -1106,12 +1106,13 @@
     },
     {
       "stable_actor_id": "cc18.tv:actor:24148",
-      "display_name": "妃ひかり",
+      "display_name": "妃光莉",
       "display_name_zh_tw": null,
       "name_ja": null,
-      "source_name": "妃ひかり",
+      "source_name": "妃光莉",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:ATID-690",
         "cc18:BONY-207"
       ]
     },
@@ -4265,6 +4266,55 @@
         "article_title": "ADN-814 白峰美羽｜人妻題材的「最終也被寢取淪陷」企劃：系列公式先行",
         "display_short_title": null,
         "slug": "adn-814"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:ATID-690",
+        "source_cover": "https://cc18.tv/preview/80/b/boYlqUY5s86-800.jpg?v=1793407000",
+        "title": "ATID-690 妃光莉｜人妻為了那個人：條件式困局撐起的戲劇選片",
+        "catalog_code": "ATID-690",
+        "release_date": "2026-10-30",
+        "performers": [
+          "妃光莉"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/atid-690/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:24148"
+      ],
+      "search": {
+        "source_title": "為了那個人，我願意被抱。痴漢冤罪，妻子被提出的和解條件 妃光莉",
+        "article_title": "ATID-690 妃光莉｜人妻為了那個人：條件式困局撐起的戲劇選片",
+        "display_short_title": null,
+        "slug": "atid-690"
       }
     },
     {
