@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "movie_id": "ORECZ-724",
+  "generated_at": "2026-11-04T17:18:50.998Z",
+  "source_snapshot_hash": "sha256:184d5808da47262c8294e24b3d13ccda0670486955f5e983e7eea4bb6ce3e68d",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "以公開資訊來看，ORECZ-724 的吸引力不在複雜故事，而在「獨家」包裝下，把人妻身份與素人企劃結合成一部辨識度明確的配信作品。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "獨家",
+      "人妻設定",
+      "素人企劃",
+      "獨家配信／配信専用','高畫質／FHD"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先看身份題材與企劃設定的人",
+      "偏好人妻設定與素人感並存的人",
+      "在意獨家配信與高畫質包裝的人"
+    ],
+    "not_for": [
+      "想看完整劇情轉折或明確人物衝突的人",
+      "主要依賴知名女優辨識度選片的人",
+      "期待公開簡介已明示大量場景內容的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片最明確的公開賣點是什麼？",
+    "公開資訊能確認多少人物背景？",
+    "它更像劇情片還是展示型企劃？",
+    "適合哪種選片需求？"
+  ]
+}

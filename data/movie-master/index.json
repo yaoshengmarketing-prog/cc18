@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-04T09:59:36.870Z",
+  "generated_at": "2026-11-04T17:21:01.908Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 383,
-  "formal_movie_count": 382,
+  "tracked_input_count": 384,
+  "formal_movie_count": 383,
   "demo_count": 1,
-  "published_count": 379,
+  "published_count": 380,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2330,6 +2330,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "7ead7c0b937c41cebec47a232f593c808c82defa2ba27d94a11b9b791ed7f142"
+    },
+    {
+      "stable_movie_id": "cc18:ORECZ-724",
+      "catalog_code": "ORECZ-724",
+      "slug": "orecz-724",
+      "master_path": "data/movie-master/orecz-724.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "51c111d4c178e46f7608a6eeafe064df49b8ee89d1713e9ecc35091a180a9b60"
     },
     {
       "stable_movie_id": "cc18:OREMO-606",

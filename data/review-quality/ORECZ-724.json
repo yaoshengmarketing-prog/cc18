@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "ORECZ-724",
+  "review_sha256": "9ca61d733827d5ac1f2fbb16db8e7ae614f2ccce2fc5782df91334a021e73a79",
+  "selected_thesis": "ORECZ-724 的關鍵不是複雜敘事，而是以「獨家」為軸，把人妻設定放進素人企劃與配信包裝中，形成一部賣點集中、期待清楚的展示型作品。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "character",
+        "value": "人妻設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "人妻設定",
+    "editorial_judgment": "把這部作品定位成以「獨家」與「人妻設定」吸引點擊的展示型素人企劃，重點放在公開可確認的身份題材、配信包裝與選片期待管理。",
+    "source_keywords": [
+      "獨家",
+      "人妻設定",
+      "素人企劃",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品最可辨識的核心概念應由「獨家」領銜，因為這是來源標題直接可追溯的關鍵詞。",
+      "basis": "public_source",
+      "signal": "獨家"
+    },
+    {
+      "observation_refs": [],
+      "supports": "主要題材可落在「人妻設定」，公開來源同時給出「人妻」與「結婚第5年」兩個婚姻階段線索。",
+      "basis": "public_source",
+      "signal": "人妻設定／人妻／結婚第5年"
+    },
+    {
+      "observation_refs": [],
+      "supports": "選片期待應偏向企劃展示而非系列敘事，因為公開標籤集中在「素人企劃」「企劃片」「獨家限定」「配信専用」。",
+      "basis": "public_source",
+      "signal": "素人企劃／企劃片／獨家限定／配信専用"
+    },
+    {
+      "observation_refs": [],
+      "supports": "技術規格可作為輔助賣點，但不應凌駕核心題材；來源僅確認有「高畫質」「全高清（FHD）」「720p」等配信資訊。",
+      "basis": "public_source",
+      "signal": "高畫質／全高清（FHD）／720p"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開成人標籤另含「中出」，可視為題材提示；但來源沒有提供其如何被情節化的說明。",
+      "basis": "public_source",
+      "signal": "中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源摘錄中的「一香」可作為作品識別名的一部分，但不足以延伸成已知演員履歷或明星敘事。",
+      "basis": "public_source",
+      "signal": "一香"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未寫成已發生的具體劇情、場景流程或段落安排",
+    "未聲稱看見鏡位、運鏡、剪輯、表情、演技或聲音表現",
+    "未推定「一香」的真實身份、履歷、年齡或私生活",
+    "未補寫未公開的人物關係衝突、婚姻危機或情感反轉",
+    "未把「角色變化」「互動節奏」當成已被證實的故事內容"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

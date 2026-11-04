@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "ORECZ-724",
+  "checked_at": "2026-11-04T17:18:51.205Z",
+  "review_sha256": "b2bb90a76dc8fec7b7cb604723a6a86e8413f6ef491149fe132508bd395ae1e3",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "先看公開資訊，這部片最鮮明的不是系列脈絡，也不是已知演員名單，而是「獨家」這個核心概念。再往下接，來源標籤把「素人企劃」「人妻設定」「獨家配信」與高畫質資訊放在同一組訊號裡，整體指向很明確：它是一部靠題材辨識度與平台包裝來建立吸引力的企劃作。若你的選片習慣是先看設定，再看是否為配"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "目前能穩定確認的角色線索其實不多，但「人妻」與「結婚第5年」已經足以勾勒出一個婚姻階段：不是剛進入關係的青澀設定，而是帶有婚後日常感的成熟身份。這種資訊對選片很有用，因為它決定了作品最先打出的氣質是婚姻身份，而不是校園、職場或特定角色扮演。不過，公開資料沒有再交代更細的人際關係、"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "就公開標籤來說，題材方向並不模糊。除了人妻與素人兩個核心身份外，來源還給出「中出」這個成人向提示，代表它在主題上不是純日常包裝，而是有清楚的性內容導向。不過，這類標籤只說明題材方向，並不等於作品已經公開了具體橋段安排。因此選片時可以把它理解為口味標示，而不是情節保證。"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 6,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}
