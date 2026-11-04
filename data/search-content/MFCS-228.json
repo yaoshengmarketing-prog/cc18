@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "movie_id": "MFCS-228",
+  "generated_at": "2026-11-04T22:54:26.705Z",
+  "source_snapshot_hash": "sha256:c2250d95cb6e840cd36071fabb0c4398f8a69041811542d10b306c3e0a8c18a9",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "MFCS-228 的可選理由，在於「獨家」與「自拍形式」結合出的展示型吸引力；若你要的是明確標籤與快速切入主題的配信作品，它比劇情導向作品更有對位性。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "優先看企劃辨識度，而非人物背景深度。",
+      "公開資料把自拍與獨家配信放在前景，展示感明顯。",
+      "成人訴求以美少女、窈窕與中出等直球標籤建立期待。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會優先找獨家配信企劃的人",
+      "偏好自拍形式帶來近距離展示感的人",
+      "對美少女、窈窕與中出等明確標籤有需求的人"
+    ],
+    "not_for": [
+      "期待完整人物背景與情節鋪陳的人",
+      "想從公開資料確認鏡位、表演細節或場景完成度的人",
+      "偏好系列世界觀或明確角色關係設計的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "它的第一賣點是什麼？",
+    "公開簡介透露了多少設定？",
+    "它偏劇情片還是展示型企劃？",
+    "哪些觀眾較容易買單？"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "MFCS-228",
+  "review_sha256": "5d9a3f4a4b3ab41365b8b865b5732e0a065e819bad99220b91878f561cd51ba7",
+  "selected_thesis": "MFCS-228 的可選理由，不在於目前已知資訊裡有多完整的故事，而在於「獨家」與「自拍形式」把作品包裝成一部標籤清楚、進題快速的展示型配信企劃。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "自拍形式",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "美少女",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "自拍形式",
+    "editorial_judgment": "把這部作品放回公開資訊來看，最有辨識度的不是複雜劇情，而是「獨家」核心概念，加上自拍形式、美少女設定與中出訴求所組成的直球型配信企劃。",
+    "source_keywords": [
+      "獨家",
+      "自拍形式",
+      "美少女",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "核心賣點先由「獨家」成立，適合把本作判讀為以稀缺感與配信定位吸引點擊的企劃。",
+      "basis": "public_source",
+      "signal": "獨家"
+    },
+    {
+      "observation_refs": [],
+      "supports": "安全訊號與 topic_elements 同時指出自拍、配信專用、720p、全高清與高畫質，顯示公開宣傳把呈現形式放在很前面。",
+      "basis": "public_source",
+      "signal": "自拍形式／配信展示感"
+    },
+    {
+      "observation_refs": [],
+      "supports": "安全訊號列出美少女、窈窕與中出，說明作品在人物標籤與成人訴求上走的是一眼可辨識的直球路線。",
+      "basis": "public_source",
+      "signal": "美少女／窈窕／中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開簡介提到因為還想看她的做愛場面而約去旅館，進房後馬上開始 play，能支持『導入簡短、快速切入成人互動』的選片判斷。",
+      "basis": "public_source",
+      "signal": "簡單導入後快速進題"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將公開簡介擴寫為已驗證的完整劇情",
+    "未聲稱看見任何實際鏡位、剪輯、收音或場景調度",
+    "未描述演員表情、肢體、演技或互動化學反應",
+    "未補充未知的角色關係、人物背景、真實身份或年齡",
+    "未把高畫質與自拍形式推論成具體畫面效果或觀看結果"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

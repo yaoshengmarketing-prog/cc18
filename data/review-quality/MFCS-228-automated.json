@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "MFCS-228",
+  "checked_at": "2026-11-04T22:54:26.874Z",
+  "review_sha256": "d483c9ad4d86f6e790130e825a4c6051b6b86d7ee92d4ad44db8a48033a3a547",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看公開資訊，MFCS-228 最先成立的辨識點就是「獨家」。這個核心概念不只出現在來源標題線索，也和「獨家限定」「配信専用」等呈現資訊互相呼應，讓本作更像一部以平台配信屬性與稀缺感來包裝的企劃。再往下看，安全訊號同時給出「自拍形式」「高畫質」「美少女設定」，表示它的吸引力不"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

@@ -1479,7 +1479,7 @@
     },
     {
       "label": "吞精",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "PIYO-238",
         "HAWA-385",
@@ -1487,10 +1487,11 @@
         "PIYO-240",
         "HAWA-386",
         "JERA-050",
-        "DANDYA-045"
+        "DANDYA-045",
+        "MFCS-228"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "status": "quarantined"
     },
     {
