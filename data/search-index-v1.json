@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:7d4b9c04574ef9f8a271f6dfab885fb5a88b81978c5080800874e8be05a5910b",
-  "source_generated_at": "2026-11-04T18:06:47.369Z",
+  "source_revision": "sha256:14ceca341cfe2e9ae7630ee77805784d400dc427bd35a8c66d63d903c4601033",
+  "source_generated_at": "2026-11-04T22:44:33.659Z",
   "counts": {
-    "movies": 387,
-    "performers": 316,
+    "movies": 388,
+    "performers": 317,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2486,6 +2486,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:JIMMY-009"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54481",
+      "display_name": "桜羽潤",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "桜羽潤",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FSFST-007"
       ]
     },
     {
@@ -8441,6 +8452,35 @@
         "article_title": "ORECS-711｜獨家人妻設定：以素人企劃為主的展示型選片",
         "display_short_title": null,
         "slug": "orecs-711"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:FSFST-007",
+        "source_cover": "https://cc18.tv/preview/80/b/dEJIcAf3scr-800.jpg?v=1791960921",
+        "title": "FSFST-007 桜羽潤 × 高畫質｜桜羽潤｜出道前珍貴影像公開：作為新人前導企劃是否值得看",
+        "catalog_code": "FSFST-007",
+        "release_date": "2026-10-13",
+        "performers": [
+          "桜羽潤"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/fsfst-007/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54481"
+      ],
+      "search": {
+        "source_title": "AV出道前的秘藏情色自拍影像 離島長大的色情天然素材女大生 櫻羽潤（20）",
+        "article_title": "FSFST-007 桜羽潤 × 高畫質｜桜羽潤｜出道前珍貴影像公開：作為新人前導企劃是否值得看",
+        "display_short_title": null,
+        "slug": "fsfst-007"
       }
     },
     {

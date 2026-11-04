@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "FSFST-007",
+  "calls": [
+    {
+      "generated_at": "2026-11-04T22:42:45.134Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4424,
+      "cached_input_tokens": 0,
+      "output_tokens": 4062,
+      "total_tokens": 8486,
+      "estimated_cost_usd": 0.113515,
+      "estimated_payg_cash_cost_usd": 0.119191,
+      "direct_openai_reference_usd": 0.07199,
+      "gateway_premium_usd": 0.041525,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4424,
+    "cached_input_tokens": 0,
+    "output_tokens": 4062,
+    "estimated_cost_usd": 0.113515,
+    "estimated_payg_cash_cost_usd": 0.119191,
+    "direct_openai_reference_usd": 0.07199,
+    "gateway_premium_usd": 0.041525
+  }
+}

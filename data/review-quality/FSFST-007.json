@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "FSFST-007",
+  "review_sha256": "77dc9421f295e2a6be8b1667468429df7906444041559d1e3aa9046a4a76dd47",
+  "selected_thesis": "把 FSFST-007 當成桜羽潤的出道前展示企劃來看，會比把它期待成已知劇情片更準確。",
+  "title_basis": {
+    "performer": "桜羽潤",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "桜羽潤",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "720p",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "桜羽潤",
+    "presentation_feature": "高畫質",
+    "editorial_judgment": "把作品定位為「桜羽潤出道前珍貴影像公開」的展示型企劃，重點放在新人前導認識價值，而不是延伸成未被公開資料證實的劇情或表演判斷。",
+    "source_keywords": [
+      "桜羽潤",
+      "高畫質",
+      "720p"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開簡介直接指出這是「FALENO Star新人美少女・櫻羽潤的出道前珍貴影像公開」，可合理判斷本作的主要賣點是新人素材展示與出道前定位。",
+      "basis": "public_source",
+      "signal": "出道前珍貴影像公開"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源以「FALENO Star新人美少女」介紹桜羽潤，讓本作更像是一個讓觀眾先認識新人形象的入口，而非已知劇情導向作品。",
+      "basis": "public_source",
+      "signal": "新人美少女"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開文案另有「出道前就超色情令人感動」這類宣傳句，能反映宣傳方向偏重感官吸引力，但不足以推定具體場面內容、節奏或表演細節。",
+      "basis": "public_source",
+      "signal": "宣傳語強調色情吸引力"
+    },
+    {
+      "observation_refs": [],
+      "supports": "安全訊號中出現「高畫質」「720p」，可作為技術呈現上的補充辨識，但不足以取代作品本身的企劃核心。",
+      "basis": "public_source",
+      "signal": "720p／高畫質"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何未公開的劇情內容或場面順序",
+    "未推定鏡位、剪輯、聲音設計或節奏表現",
+    "未對桜羽潤的演技、表情、身體語言作出觀察性判斷",
+    "未補寫角色關係、場景設定、服裝細節或特殊玩法",
+    "未把宣傳語延伸為已驗證的觀看結論"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

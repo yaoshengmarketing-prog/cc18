@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-04T18:06:47.369Z",
+  "generated_at": "2026-11-04T22:44:33.659Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 391,
-  "formal_movie_count": 390,
+  "tracked_input_count": 392,
+  "formal_movie_count": 391,
   "demo_count": 1,
-  "published_count": 387,
+  "published_count": 388,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -980,6 +980,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "79389b62255f76455d10eefe7577e3b5cdc9b738b1bddd8cb8fdeeb7843217c4"
+    },
+    {
+      "stable_movie_id": "cc18:FSFST-007",
+      "catalog_code": "FSFST-007",
+      "slug": "fsfst-007",
+      "master_path": "data/movie-master/fsfst-007.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "29effd3988cbbba44fb82ce4bde088a4b77ca1454d1c91d31a9675a04f31c97f"
     },
     {
       "stable_movie_id": "cc18:FWAY-103",

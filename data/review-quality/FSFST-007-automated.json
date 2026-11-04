@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "FSFST-007",
+  "checked_at": "2026-11-04T22:42:45.493Z",
+  "review_sha256": "3da792082939f747c33451c4391b4fd107d82180c15c062f0d5d4d8128b4d71a",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections",
+    "insufficient_evidence",
+    "missing_source_specific_title_concept"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就公開簡介來看，FSFST-007 的主軸非常明確：它不是先用劇情設定抓人，而是直接把焦點放在「FALENO Star新人美少女・桜羽潤」以及「出道前珍貴影像公開」這個企劃概念。這種定位通常最適合用來當成認識新人的前導入口，觀眾的選片理由也會更集中在「我想先看看這位新人」而不是「"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "missing_source_specific_title_concept",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "movie_id": "FSFST-007",
+  "generated_at": "2026-11-04T22:42:45.326Z",
+  "source_snapshot_hash": "sha256:a64c59669c5751b1d4116fd9295a560d332a297020ef9d159292d89726c2508f",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "FSFST-007 最值得關注的不是已知劇情，而是「桜羽潤出道前珍貴影像公開」這個展示型企劃本身；若你是想先確認新人起點，這樣的素材就有明確價值。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "展示型企劃",
+      "新人前導入口",
+      "以出道前影像作為主要辨識點"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想先認識桜羽潤的人",
+      "對出道前素材或新人前導企劃有興趣的人",
+      "偏好先從作品定位與企劃概念來挑片的人"
+    ],
+    "not_for": [
+      "期待公開資料已明確交代完整劇情設定的人",
+      "想依特定角色關係、場景玩法或敘事轉折挑片的人",
+      "把解析重點放在已驗證表演細節的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片的核心賣點是什麼？",
+    "它適合哪一類觀眾先看？",
+    "選片時不該預設哪些內容？",
+    "720p／高畫質在這部片裡的重要性有多高？"
+  ]
+}

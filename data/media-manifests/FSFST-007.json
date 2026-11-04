@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "FSFST-007",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-04T22:43:26.501Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/FSFST-007/hero-v1.jpg",
+      "r2_key": "works/2026/10/FSFST-007/hero-v1.jpg",
+      "bytes": 571196,
+      "sha256": "919414121cff03d4707c845ac02b15e9de17854f333ecd5eed19c7059a896c50",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "a69030ebd19f47dca1624d75733ba810",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 角色成長, 互動節奏, 關係轉折. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/FSFST-007/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/FSFST-007/scene-vertical-v1.jpg",
+      "bytes": 747260,
+      "sha256": "bf7b8261697978d47aed3c3bfb95772a4be4a96e3cdbb1c44bdc0498bb9f9ce6",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "4161d339ac204a1cbdf89515b4933192",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 角色成長, 互動節奏, 關係轉折. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2165916,
+    "sha256": "3138551eb9801929ac7dab1b0b84412269245352b7797a4ea41dbe0c45856120",
+    "target_r2_key": "works/2026/10/FSFST-007/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/FSFST-007/vertical-v1.mp4"
+  }
+}
