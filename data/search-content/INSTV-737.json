@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "movie_id": "INSTV-737",
+  "generated_at": "2026-11-04T09:36:45.180Z",
+  "source_snapshot_hash": "sha256:81a99fae239398e0c621bf29a2cd2564d3f361632b651f09ecb8f17e2c026b03",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "INSTV-737 的吸引力，主要來自「獨家」企劃、自拍呈現與旅館日常感三者疊合出的近距離設定，而不是目前已知的劇情複雜度。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "以獨家限定作為最先被看見的企劃入口",
+      "自拍形式是本作的重要觀看想像",
+      "720p／高畫質／全高清屬輔助辨識，不取代內容主題",
+      "親吻與中出是最直接的內容提示"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "喜歡設定直給型作品的人",
+      "偏好自拍形式與獨家配信包裝的人",
+      "對旅館空間、日常親密感、親吻與中出標籤有興趣的人"
+    ],
+    "not_for": [
+      "期待已能確認完整劇情弧線的人",
+      "想看可被具體描述的鏡位、剪輯或表演細節的人",
+      "偏好多角色世界觀或明確事件轉折的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這片最明確的賣點是什麼？",
+    "公開設定把作品帶向哪種幻想？",
+    "旅館與日常措辭如何影響選片？",
+    "這片更適合哪些觀眾？"
+  ]
+}

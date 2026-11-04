@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "INSTV-737",
+  "review_sha256": "7cdedd9a741b01cdd248bcbfad8137480fc35990977f8022590bb7fbbed130f2",
+  "selected_thesis": "INSTV-737 的吸引力，主要來自「獨家」企劃、自拍呈現與旅館日常感三者疊合出的近距離設定，而不是目前已知的劇情複雜度。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "自拍形式",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "親吻",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "自拍形式",
+    "editorial_judgment": "從「獨家」這個核心概念出發，結合自拍形式、親吻與中出等公開標籤，再回到來源文字裡的旅館日常感，判斷本作更像是以近距離企劃包裝與關係幻想取勝，而非靠已知的複雜情節展開。",
+    "source_keywords": [
+      "獨家",
+      "自拍形式",
+      "中出",
+      "親吻"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "來源核心概念直接給出「獨家」，安全訊號也有「獨家配信」，可確認本作的第一層辨識就是獨家企劃包裝。",
+      "basis": "public_source",
+      "signal": "獨家"
+    },
+    {
+      "observation_refs": [],
+      "supports": "安全訊號與主題元素同時出現「自拍形式／自拍」、「720p」、「高畫質」、「全高清 (FHD)」，表示呈現方式是公開宣傳的重要部分。",
+      "basis": "public_source",
+      "signal": "自拍與畫質包裝"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤明確列出「中出」與「親吻」，可作為選片時的主要行為提示。",
+      "basis": "public_source",
+      "signal": "中出與親吻"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源摘錄「今天也在便宜的旅館裡悠閒地做愛。」把作品氣質指向固定往來、旅館空間與較日常化的親密設定。",
+      "basis": "public_source",
+      "signal": "旅館日常感"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源概念包含「身體相性最佳」「我的炮友媽媽」「里真25歲」「母乳」，顯示本作的吸引點集中在關係稱呼與身體題材的高辨識設定。",
+      "basis": "public_source",
+      "signal": "設定型命名"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未延伸「我的炮友媽媽」的具體人物關係與情節成立方式",
+    "未把「母乳」寫成已確認的大量場面或主要段落配置",
+    "未聲稱存在任何已觀察到的鏡位、自拍角度、聲音表現、剪輯節奏或演技細節",
+    "未推定演員真實姓名、真實年齡或私生活背景",
+    "未把旅館文字摘錄擴寫為完整場景流程"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

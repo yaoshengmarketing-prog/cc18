@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "INSTV-737",
+  "checked_at": "2026-11-04T09:36:45.290Z",
+  "review_sha256": "4e6cca1834cbf388fad7044e548b419adc518dc20ff1aed0543b6018b1640d9a",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "broad_formulaic_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 3,
+      "paragraph_count": 8,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "先看公開資訊，INSTV-737 的賣點其實很集中。核心概念就是「獨家」，再往外延伸到「自拍形式」「獨家配信」「高畫質／720p／全高清」這些呈現標籤，最後用「中出」與「親吻」把內容期待收得很直接。這種組合代表它在選片上不是走複雜世界觀，而是先用稀有感與貼身感吸引，再用明確行為標"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "從來源概念來看，本作的命名方式非常偏設定型。像是「身體相性最佳」把焦點放在肉體契合感，「我的炮友媽媽」則用強烈的關係稱呼建立幻想入口，「里真25歲」與「母乳」則繼續補上角色辨識與身體題材。這些詞放在一起，讓人很容易理解它的主打不是龐大敘事，而是幾個辨識度很高的刺激點同時出現。不過"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "公開摘錄裡的「今天也在便宜的旅館裡悠閒地做愛。」其實是判斷作品氣質的關鍵。這句話最有力的地方，不在於它透露了多少事件，而在於它把相處方式描述成一種反覆、熟門熟路、帶點鬆弛感的親密往來。也就是說，作品的吸引力很可能不是一次性的爆點，而是把關係放進便宜旅館這種私密又通俗的空間裡，做出"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

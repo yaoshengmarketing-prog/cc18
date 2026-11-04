@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "INSTV-737",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-04T09:37:29.813Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/INSTV-737/hero-v1.jpg",
+      "r2_key": "works/2026/10/INSTV-737/hero-v1.jpg",
+      "bytes": 608789,
+      "sha256": "a7b6305568f6847311c06f207c0bae5a8b6310c16a42fc1a223f64ad940dc4aa",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "ce1b9194dc364e0a8a0e7e73812a5d56",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/INSTV-737/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/INSTV-737/scene-vertical-v1.jpg",
+      "bytes": 1284607,
+      "sha256": "3e87b590f3ed008b93483fa146d86604d9f4eb107ca9fa3d242d95c6ddddb416",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "3d7a0eaa548a4128b35f3527d84faef7",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2495673,
+    "sha256": "9cb4bed82386165633678ed5024db3afbe8cf476f64028a8a573668d6603b8c1",
+    "target_r2_key": "works/2026/10/INSTV-737/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/INSTV-737/vertical-v1.mp4"
+  }
+}

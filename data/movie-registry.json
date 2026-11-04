@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04T09:32:53.370Z",
+  "updated_at": "2026-11-04T09:38:02.319Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -5648,6 +5648,19 @@
       "actress": [],
       "release_date": "2026-10-14",
       "source_url": "https://cc18.tv/player.php?uuid=vCp8jQnY7dT&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-04"
+    },
+    {
+      "id": "INSTV-737",
+      "actress": [],
+      "release_date": "2026-10-14",
+      "source_url": "https://cc18.tv/player.php?uuid=rS2U9kb2C8j&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

@@ -538,7 +538,7 @@
     },
     {
       "label": "美乳",
-      "occurrences": 33,
+      "occurrences": 34,
       "source_ids": [
         "SNOS-369",
         "SNOS-447",
@@ -572,7 +572,8 @@
         "MUKD-595",
         "REBD-1077",
         "FJIN-169",
-        "DOKS-692"
+        "DOKS-692",
+        "INSTV-737"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-11-04",
@@ -2727,6 +2728,16 @@
       ],
       "first_seen": "2026-11-03",
       "last_seen": "2026-11-03",
+      "status": "quarantined"
+    },
+    {
+      "label": "母乳",
+      "occurrences": 1,
+      "source_ids": [
+        "INSTV-737"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
       "status": "quarantined"
     }
   ]
