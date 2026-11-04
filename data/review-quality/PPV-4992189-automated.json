@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "PPV-4992189",
+  "checked_at": "2026-11-04T23:08:22.648Z",
+  "review_sha256": "2c0b1c0e9376616e5dcdec6369c95e31f9a50cd288cbbb8ef0082366e33f6656",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只根據公開資料判斷，這部作品最清楚的主軸是「獨家」。這個標示不只出現在核心概念，也出現在來源摘錄裡，代表它不是附帶關鍵字，而是整體包裝最優先的辨識點。再加上來源同時出現 FC2、素人企劃、自拍形式與素人身份，選片方向就很明確：它比較像是以直接感、紀錄感與企劃感來吸引觀眾，而不是"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

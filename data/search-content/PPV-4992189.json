@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "movie_id": "PPV-4992189",
+  "generated_at": "2026-11-04T23:08:22.483Z",
+  "source_snapshot_hash": "sha256:62de3b6cc78ad4ebae3f40808fafbe315360c92bc78971b48f8ffba7a2932ddd",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "這部作品的選片邏輯很明確：若你是衝著「獨家」包裝、NTR 題材與素人自拍感而來，它的方向很集中；但若你期待可被證實的完整劇情、演員辨識度或更具體的演出細節，公開資料並不足以支撐那些判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "素人企劃",
+      "自拍形式",
+      "FC2 式來源標記",
+      "720p／高畫質標示"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會以 NTR 題材作為第一選片條件的人",
+      "偏好素人企劃與自拍形式的人",
+      "會直接依口交、中出等內容標籤選片的人"
+    ],
+    "not_for": [
+      "想先確認已知演員資訊的人",
+      "期待完整劇情摘要或場景細節的人",
+      "把製作規模與敘事完成度放在首位的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這片最先該看哪個賣點？",
+    "NTR 題材是否明確？",
+    "公開資訊能支持哪些成人內容判斷？",
+    "這片較適合哪一類觀眾？"
+  ]
+}

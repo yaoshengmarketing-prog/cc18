@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "PPV-4992189",
+  "review_sha256": "85c507f0e98fb86a1ccef2d364eac5aedfbe0cebb3df8322d060f55829da0b27",
+  "selected_thesis": "這部作品的選片邏輯很明確：若你是衝著「獨家」包裝、NTR 題材與素人自拍感而來，它的方向很集中；但若你期待可被證實的完整劇情、演員辨識度或更具體的演出細節，公開資料並不足以支撐那些判斷。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "自拍形式",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "素人",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "素人企劃",
+    "editorial_judgment": "以公開可追溯資訊判斷，本作的選片重點不在已知演員或完整劇情，而在「獨家」標示、NTR 題材線索，以及 FC2 式素人自拍企劃所形成的直接型刺激。",
+    "source_keywords": [
+      "獨家",
+      "素人企劃",
+      "自拍形式",
+      "素人"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "「獨家」同時出現在核心概念與來源摘錄中，足以作為標題與評論主軸。",
+      "basis": "public_source",
+      "signal": "獨家"
+    },
+    {
+      "observation_refs": [],
+      "supports": "安全訊號與 topic_elements 都指向素人企劃、自拍形式，顯示本作更偏向展示型與紀錄感包裝。",
+      "basis": "public_source",
+      "signal": "素人企劃／自拍"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源摘錄明列「天真的公司職員被NTR」與「NTR」，說明本作的主要刺激點帶有關係介入與被奪走題材。",
+      "basis": "public_source",
+      "signal": "NTR"
+    },
+    {
+      "observation_refs": [],
+      "supports": "topic_elements 與安全訊號列有「口交」「中出」，可作為內容偏好的直接選片依據。",
+      "basis": "public_source",
+      "signal": "口交／中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資訊另有 720p 與高畫質標示，但這類技術資訊不足以取代題材判斷，只能視為輔助選片條件。",
+      "basis": "public_source",
+      "signal": "720p／高畫質"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未推定公司職員的性別、年齡、公司環境或職務細節",
+    "未聲稱存在特定辦公室場景、第三者角色配置或情節順序",
+    "未評論鏡位、收音、剪輯、表情、演技或實際互動節奏",
+    "未把 720p／高畫質解讀為已驗證的拍攝品質表現",
+    "未發明演員姓名、私生活資訊或真實身份"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}
