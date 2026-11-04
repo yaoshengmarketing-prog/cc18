@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "MNGS-079",
+  "review_sha256": "651b61ffdb4b77d74fd3d614d6be9fbe1bc9e23ce04feee865ce5e28384c0e67",
+  "selected_thesis": "這部的可看點主要不是目前可見的劇情量，而是彩月七緒搭配「攝影現場代役」所形成的設定張力；NTR與中出更像題材導向標籤。",
+  "title_basis": {
+    "performer": "彩月七緒",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "彩月七緒",
+        "source_field": "actress"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "メモリアルヌードモデルの代役になったボクのビンビンに膨らんで",
+        "source_field": "series"
+      }
+    ],
+    "primary_theme": "彩月七緒",
+    "presentation_feature": "AV女優片",
+    "editorial_judgment": "以彩月七緒作為核心吸引力，將公開可見的攝影現場代役設定、NTR／中出題材線索與身份標籤拆開來看，判斷這是一部更適合用「企劃張力」而不是「已知劇情細節」來選片的作品。",
+    "source_keywords": [
+      "彩月七緒",
+      "AV女優片",
+      "メモリアルヌードモデルの代役になったボクのビンビンに膨らんで"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "彩月七緒是本作最清楚、也最穩定的選片核心，演員欄與相關來源概念都直接指向她。",
+      "basis": "public_source",
+      "signal": "彩月七緒"
+    },
+    {
+      "observation_refs": [],
+      "supports": "系列名稱直接帶出「紀念裸體模特兒代役」這個企劃入口，足以構成作品辨識點，即使目前沒有更多可驗證的情節細節。",
+      "basis": "public_source",
+      "signal": "メモリアルヌードモデルの代役..."
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開介紹提到主角來到一位知名攝影師的拍攝現場，並且這位攝影師與『妻子一直承蒙照顧』的設定有關，至少建立了拍攝現場與既有人際壓力的情境框架。",
+      "basis": "public_source",
+      "signal": "知名攝影師的拍攝現場"
+    },
+    {
+      "observation_refs": [],
+      "supports": "可追溯的題材標籤包含 AV 女優片、癡女、巨乳，以及描述中的中出、NTR；這些可以用來理解市場定位，但不足以延伸成具體橋段或互動順序。",
+      "basis": "public_source",
+      "signal": "AV女優片／癡女／巨乳／中出／NTR"
+    },
+    {
+      "observation_refs": [],
+      "supports": "720p、HD、獨家配信屬於配信層面的資訊，能補充觀看規格，但不是這部作品最主要的區隔點。",
+      "basis": "public_source",
+      "signal": "720p／HD／獨家配信"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱已知代役過程如何實際展開",
+    "未聲稱已知妻子、主角與攝影師之間的具體關係變化",
+    "未聲稱已知任何場景調度、鏡位、聲音或剪輯風格",
+    "未聲稱已知彩月七緒的實際表演狀態、表情或肢體表現",
+    "未把 NTR、中出等來源標籤擴寫成已驗證的完整橋段"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}
