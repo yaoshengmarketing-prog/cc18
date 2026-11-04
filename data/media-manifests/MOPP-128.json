@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MOPP-128",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-04T17:34:34.920Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/MOPP-128/hero-v1.jpg",
+      "r2_key": "works/2026/10/MOPP-128/hero-v1.jpg",
+      "bytes": 1344802,
+      "sha256": "ed75a921c1d12151ec8e1ed0309a84e466fdeccd31d0503ccae4bb14e9ad9162",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "c9e71b598eaa4d47bdc0ea9f0cb2c283",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/MOPP-128/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/MOPP-128/scene-vertical-v1.jpg",
+      "bytes": 1789318,
+      "sha256": "edb01bd71e67331d92a7f971f85aef8896c3c505f2c4f92f0130e8c496e673db",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "f87c7d2c01ae4699a68601effeecaaac",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 4211201,
+    "sha256": "aec0c118b443700ceea838c517ba1f23b3fa5aa311f52952092c32ecba601a43",
+    "target_r2_key": "works/2026/10/MOPP-128/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/MOPP-128/vertical-v1.mp4"
+  }
+}

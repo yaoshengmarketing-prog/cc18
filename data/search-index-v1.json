@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:9a7b8a867a600eb6361ab57d08b2740cc32b6596da7ae0f4a81175b6cc0c4b9f",
-  "source_generated_at": "2026-11-04T17:29:31.031Z",
+  "source_revision": "sha256:4a39305fd894613279dd78afb0ae3f56c0814a9362b257bd1e8811778a5f7d3f",
+  "source_generated_at": "2026-11-04T17:35:43.875Z",
   "counts": {
-    "movies": 381,
-    "performers": 313,
+    "movies": 382,
+    "performers": 314,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2386,6 +2386,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:48828",
+      "display_name": "宮野桜",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "宮野桜",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MOPP-128"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:53643",
       "display_name": "恋川こもも",
       "display_name_zh_tw": null,
@@ -3990,6 +4001,51 @@
         "article_title": "FJIN-173 北野未奈｜裸體模特兒",
         "display_short_title": null,
         "slug": "fjin-173"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MOPP-128",
+        "source_cover": "https://cc18.tv/preview/80/b/hj1bFDlD7Y-800.jpg?v=1793601465",
+        "title": "MOPP-128 宮野桜｜癡女企劃下的宮野櫻展示型選片",
+        "catalog_code": "MOPP-128",
+        "release_date": "2026-10-31",
+        "performers": [
+          "宮野桜"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mopp-128/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:48828"
+      ],
+      "search": {
+        "source_title": "M男被玩弄到無法脫身的肛門快感專門風俗 宮野櫻",
+        "article_title": "MOPP-128 宮野桜｜癡女企劃下的宮野櫻展示型選片",
+        "display_short_title": null,
+        "slug": "mopp-128"
       }
     },
     {

@@ -1,0 +1,66 @@
+{
+  "schema_version": 2,
+  "id": "MOPP-128",
+  "checked_at": "2026-11-04T17:33:37.138Z",
+  "review_sha256": "f186f04aff9b3ce1741faed1163b8ed0ad40e8bf16a732130a8e7fb658ab945c",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "broad_formulaic_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 3,
+      "paragraph_count": 8,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只根據目前可追溯的公開資料來看，MOPP-128 最明確的切入點不是故事，而是「宮野桜」本身。作品的演出者欄位直接標示宮野桜，creative brief 也把「宮野櫻」列為核心來源概念，代表這部片的辨識重心首先落在演出者。對已經會按演員選片的讀者來說，這種資訊密度其實已足夠"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "目前公開標籤可追溯的內容包括「癡女」與「口交」。這兩個資訊能幫助讀者快速確認題材方向：它不是完全沒有主題辨識的空白條目，而是至少有明確的角色傾向與行為入口。不過，這些標籤的功能也僅止於此。它們可以告訴你本作大致靠哪種成人題材吸引觀眾，卻不能進一步證明具體場景安排、互動強弱、情緒鋪"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "在缺乏可核對的劇情介紹、人物關係說明與影像觀察時，MOPP-128 最合理的選法，是把它視為一部「演出者＋系列企劃」導向的作品。換句話說，這不是那種能先用故事摘要說服你的片，而是更適合已經對宮野桜有興趣，或對 M 男向的系列設定本來就有偏好的讀者。公開來源另有 720p、HD、獨"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

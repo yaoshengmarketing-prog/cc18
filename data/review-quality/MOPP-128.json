@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "MOPP-128",
+  "review_sha256": "f050ad030814b4f612f8930f791a8547a14e2914e035f2c11140ea23bd71a61a",
+  "selected_thesis": "如果你的選片標準是先看演出者與系列企劃，那麼 MOPP-128 的價值在於宮野桜作為核心辨識，搭配明確的 M 男專門風俗系列設定；它更像一部由人設與公式驅動的展示型作品，而不是目前能用故事細節說服觀眾的高資訊量選項。",
+  "title_basis": {
+    "performer": "宮野桜",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "宮野桜",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "宮野櫻",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "m男がハメられて抜け出せないアナル快楽専門風俗",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "癡女",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "宮野桜",
+    "presentation_feature": "宮野櫻",
+    "editorial_judgment": "以公開來源可確認的企劃名稱、系列定位與標籤為主，將本作定位為一部以宮野桜為核心辨識、偏向系列公式與展示型閱讀的選片，而非可憑劇情細節判斷的故事片。",
+    "source_keywords": [
+      "宮野桜",
+      "宮野櫻",
+      "m男がハメられて抜け出せないアナル快楽専門風俗",
+      "癡女"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品可確認的核心辨識來自演出者宮野桜，且 creative brief 與 source_concepts 皆再次指向「宮野櫻」作為選片主軸。",
+      "basis": "public_source",
+      "signal": "performer / theme: 宮野桜、宮野櫻"
+    },
+    {
+      "observation_refs": [],
+      "supports": "系列名直接提供企劃方向：以 M 男為對象的專門風俗設定，說明本作首先是系列概念先行，而不是已知劇情型作品。",
+      "basis": "public_source",
+      "signal": "series: m男がハメられて抜け出せないアナル快楽専門風俗"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤可追溯的成人主題包括「癡女」與「口交」；這些只能作為題材入口，不足以延伸成具體場景描述。",
+      "basis": "public_source",
+      "signal": "identity / act_or_position: 癡女、口交"
+    },
+    {
+      "observation_refs": [],
+      "supports": "topic_elements 與 safe_title_signals 另提供「HD／720p／獨家配信」等呈現資訊，但這些屬於發行與畫質訊號，不構成作品內容判斷主體。",
+      "basis": "public_source",
+      "signal": "presentation: 720p、独占配信、HD"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱存在任何具體場景、段落流程或鏡位安排",
+    "未聲稱已觀察到表情、肢體語言、演技強弱或情緒轉折",
+    "未聲稱有可驗證的人物關係、職業設定或情節反轉",
+    "未把系列名稱延伸成已被證實的完整故事",
+    "未把畫質、獨家配信等發行資訊誇大為內容優勢"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

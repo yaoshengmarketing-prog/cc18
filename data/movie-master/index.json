@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-04T17:29:31.031Z",
+  "generated_at": "2026-11-04T17:35:43.875Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 385,
-  "formal_movie_count": 384,
+  "tracked_input_count": 386,
+  "formal_movie_count": 385,
   "demo_count": 1,
-  "published_count": 381,
+  "published_count": 382,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1889,6 +1889,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "f3cfe8b023a8d762b852674fe1921bca087ca530af885d534977fce119306887"
+    },
+    {
+      "stable_movie_id": "cc18:MOPP-128",
+      "catalog_code": "MOPP-128",
+      "slug": "mopp-128",
+      "master_path": "data/movie-master/mopp-128.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "6f5fb117f9018dc2d6c55ade5d66cd47680be90177e1b39faceb7e109395350c"
     },
     {
       "stable_movie_id": "cc18:MRSS-192",
