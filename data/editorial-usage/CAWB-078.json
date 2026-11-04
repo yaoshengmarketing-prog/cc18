@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "CAWB-078",
+  "calls": [
+    {
+      "generated_at": "2026-11-04T17:52:14.682Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4639,
+      "cached_input_tokens": 0,
+      "output_tokens": 4928,
+      "total_tokens": 9567,
+      "estimated_cost_usd": 0.134075,
+      "estimated_payg_cash_cost_usd": 0.140779,
+      "direct_openai_reference_usd": 0.085517,
+      "gateway_premium_usd": 0.048558,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4639,
+    "cached_input_tokens": 0,
+    "output_tokens": 4928,
+    "estimated_cost_usd": 0.134075,
+    "estimated_payg_cash_cost_usd": 0.140779,
+    "direct_openai_reference_usd": 0.085517,
+    "gateway_premium_usd": 0.048558
+  }
+}

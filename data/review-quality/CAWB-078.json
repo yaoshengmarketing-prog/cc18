@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "CAWB-078",
+  "review_sha256": "d34e901b777ee4fa1976f9464141396393a5d7392d75ca53707ef7a0e0b503eb",
+  "selected_thesis": "CAWB-078 的核心吸引力在《kawaii*新人デビュ→》所代表的新人亮相感；若你是為了認識今井なつめ的出道形象而來，它有明確方向，但若你期待公開資料就能交代完整劇情與關係，這部片目前沒有給出足夠資訊。",
+  "title_basis": {
+    "performer": "今井なつめ",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "今井なつめ",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "kawaii*新人デビュ",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "kawaii*新人デビュ→",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "今井なつめ",
+    "presentation_feature": "kawaii*新人デビュ",
+    "editorial_judgment": "從《kawaii*新人デビュ→》的系列定位與公開標籤切入，將本作判斷為以新人亮相、形象建立為先的展示型出道作，而非以明確劇情資訊取勝的作品。",
+    "source_keywords": [
+      "今井なつめ",
+      "kawaii*新人デビュ",
+      "kawaii*新人デビュ→",
+      "美少女設定"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "系列名與核心概念都直接指向「新人デビュ」，可將本作的選片重點放在新人登場與出道企劃辨識度。",
+      "basis": "public_source",
+      "signal": "kawaii*新人デビュ"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開來源同時出現「特級新人」與「20週年」等宣傳字樣，顯示作品包裝重心偏向新人主打與企劃節點。",
+      "basis": "public_source",
+      "signal": "展示型企劃"
+    },
+    {
+      "observation_refs": [],
+      "supports": "可追溯標籤集中於「美少女」「AV女優片」與「窈窕」，因此人物印象主要來自形象標記，而非故事關係或情境設定。",
+      "basis": "public_source",
+      "signal": "美少女形象"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資料提供「高畫質」「獨家配信」以及 720p、HD、4k 等呈現資訊，但這些更像平台與規格補充，不能取代企劃本身的判斷。",
+      "basis": "public_source",
+      "signal": "高畫質／獨家配信"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "具體情節內容",
+    "人物關係與故事前提",
+    "場景配置與轉場方式",
+    "鏡位、聲音、剪輯與表演細節",
+    "互動主導權變化與角色弧線結果真實年齡或私生活資訊"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "id": "CAWB-078",
+  "generated_at": "2026-11-04T17:52:14.686Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "gpt-5.4",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/CAWB-078.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "kawaii*新人デビュ",
+    "premise": "作品以「kawaii*新人デビュ」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「kawaii*新人デビュ」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "kawaii*新人デビュ",
+      "特典版】kawaii",
+      "20週年",
+      "特級新人",
+      "今井夏目",
+      "20歲"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "美少女"
+    ],
+    "body": [
+      "窈窕"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "editorial_angle": "從《kawaii*新人デビュ→》的系列定位與公開標籤切入，將本作判斷為以新人亮相、形象建立為先的展示型出道作，而非以明確劇情資訊取勝的作品。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "今井なつめ",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "kawaii*新人デビュ",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "series",
+      "value": "kawaii*新人デビュ→",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "美少女設定",
+      "source_field": "safe_signals"
+    }
+  ],
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "系列名與核心概念都直接指向「新人デビュ」，可將本作的選片重點放在新人登場與出道企劃辨識度。",
+      "basis": "public_source",
+      "signal": "kawaii*新人デビュ"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開來源同時出現「特級新人」與「20週年」等宣傳字樣，顯示作品包裝重心偏向新人主打與企劃節點。",
+      "basis": "public_source",
+      "signal": "展示型企劃"
+    },
+    {
+      "observation_refs": [],
+      "supports": "可追溯標籤集中於「美少女」「AV女優片」與「窈窕」，因此人物印象主要來自形象標記，而非故事關係或情境設定。",
+      "basis": "public_source",
+      "signal": "美少女形象"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資料提供「高畫質」「獨家配信」以及 720p、HD、4k 等呈現資訊，但這些更像平台與規格補充，不能取代企劃本身的判斷。",
+      "basis": "public_source",
+      "signal": "高畫質／獨家配信"
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "decision_guide": {
+    "thesis": "CAWB-078 的核心吸引力在《kawaii*新人デビュ→》所代表的新人亮相感；若你是為了認識今井なつめ的出道形象而來，它有明確方向，但若你期待公開資料就能交代完整劇情與關係，這部片目前沒有給出足夠資訊。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "系列型新人出道企劃",
+      "美少女形象包裝明確",
+      "高畫質與獨家配信屬輔助加分"
+    ],
+    "audience_for": [
+      "想先看今井なつめ新人亮相的觀眾",
+      "偏好《kawaii*新人デビュ→》系列公式感的人",
+      "會以形象標籤與企劃定位作為選片依據的人"
+    ],
+    "audience_not_for": [
+      "優先尋找完整故事前提的觀眾",
+      "需要明確人物關係與場景設定才能決定的觀眾",
+      "想從公開資訊確認具體情節轉折的人"
+    ],
+    "questions_answered": [
+      "這部片最明確的公開賣點是什麼？",
+      "公開標籤建立了哪些人物印象？",
+      "畫質與配信資訊在選片時應放多前面？",
+      "它更適合哪一類觀眾？"
+    ]
+  },
+  "title": "CAWB-078 今井なつめ｜kawaii*新人デビュ美少女設定：偏展示型的新人亮相",
+  "seo_title": "CAWB-078 今井なつめ影評｜kawaii*新人デビュ美少女設定，偏展示型的新人亮相",
+  "sections": [
+    {
+      "heading": "這部片的核心賣點是什麼？",
+      "body": "就公開資訊來看，CAWB-078 最清楚的定位不是複雜劇情，而是掛在《kawaii*新人デビュ→》系列下的新人亮相。系列名與核心概念都直接指向「新人デビュ」，再加上來源摘錄裡可見「特級新人」「20週年」等宣傳字樣，讓這部作品的選片重點更接近一次強調新面孔登場的企劃包裝。換句話說，若你挑片時會先看出道作的第一印象、系列是否擅長做新人展示，這部片的公開定位其實很明確。"
+    },
+    {
+      "heading": "公開標籤提供了哪些人物印象？",
+      "body": "目前可追溯的標籤集中在「美少女」「AV女優片」與身形上的「窈窕」，因此本作的觀影期待，應先放在形象建立與新人包裝，而不是外部關係、職業設定或特定情境。也因為公開資料沒有補出更細的人物背景，今井なつめ在這裡更像是以一個被清楚定義的新人形象出場：主打美少女感，以及相對纖細的視覺輪廓。對想先確認演員整體氣質是否合自己口味的人，這類資訊比故事前提更有參考價值。"
+    },
+    {
+      "heading": "畫質與配信資訊值得當成主因嗎？",
+      "body": "公開資料同時給出「高畫質」「獨家配信」，以及 720p、HD、4k 等呈現資訊，這表示平台層面的收錄規格並不缺席。不過以選片排序來說，這些更像輔助條件，而不是壓過企劃核心的主賣點；真正把作品區隔開的，仍然是《kawaii*新人デビュ→》的出道框架與新人主打。若你在意基本清晰度與平台可得性，這些訊號是加分；若你期待的是明確情節或角色關係，公開資料目前無法提供同等程度的保證。"
+    },
+    {
+      "heading": "這部片更適合哪一類觀眾？",
+      "body": "如果你的選片習慣偏向「先看新人、再看後續發展」，CAWB-078 會是相對直觀的入門點。它適合對品牌化出道企劃、可愛系美少女包裝，以及新面孔第一波曝光有興趣的觀眾。相反地，若你主要追求高劇情密度、明確人物關係轉折，或特定場景設定驅動的作品，這一部的公開資訊暫時沒有把那些元素說清楚，選片依據就不該放在那裡。"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "具體情節內容",
+    "人物關係與故事前提",
+    "場景配置與轉場方式",
+    "鏡位、聲音、剪輯與表演細節",
+    "互動主導權變化與角色弧線結果真實年齡或私生活資訊"
+  ],
+  "editorial_tag_ids": [
+    "series-formula",
+    "showcase-format"
+  ],
+  "social_title": "CAWB-078 今井なつめ的 kawaii*新人亮相，先看出道展示感",
+  "short_review": "以《kawaii*新人デビュ→》的出道企劃為核心，CAWB-078 的選片價值主要來自今井なつめ的新人形象與美少女包裝；公開資料對故事與關係著墨有限，因此更適合把它當成一部展示型亮相作來看。",
+  "selected_thesis": "CAWB-078 的核心吸引力在《kawaii*新人デビュ→》所代表的新人亮相感；若你是為了認識今井なつめ的出道形象而來，它有明確方向，但若你期待公開資料就能交代完整劇情與關係，這部片目前沒有給出足夠資訊。",
+  "angle_candidates": [
+    "把本作定位為《kawaii*新人デビュ→》公式下的新人展示作",
+    "從美少女與窈窕標籤切入，討論今井なつめ的公開形象包裝",
+    "區分企劃核心與畫質／配信等次要加分，避免誤把規格當賣點"
+  ]
+}

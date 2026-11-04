@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "movie_id": "CAWB-078",
+  "generated_at": "2026-11-04T17:52:14.858Z",
+  "source_snapshot_hash": "sha256:3579acddb4823b0a6c5c1d307b1689008a50d57ce9d676beb25a38fbf98f058a",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "CAWB-078 的核心吸引力在《kawaii*新人デビュ→》所代表的新人亮相感；若你是為了認識今井なつめ的出道形象而來，它有明確方向，但若你期待公開資料就能交代完整劇情與關係，這部片目前沒有給出足夠資訊。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "系列型新人出道企劃",
+      "美少女形象包裝明確",
+      "高畫質與獨家配信屬輔助加分"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想先看今井なつめ新人亮相的觀眾",
+      "偏好《kawaii*新人デビュ→》系列公式感的人",
+      "會以形象標籤與企劃定位作為選片依據的人"
+    ],
+    "not_for": [
+      "優先尋找完整故事前提的觀眾",
+      "需要明確人物關係與場景設定才能決定的觀眾",
+      "想從公開資訊確認具體情節轉折的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片最明確的公開賣點是什麼？",
+    "公開標籤建立了哪些人物印象？",
+    "畫質與配信資訊在選片時應放多前面？",
+    "它更適合哪一類觀眾？"
+  ]
+}

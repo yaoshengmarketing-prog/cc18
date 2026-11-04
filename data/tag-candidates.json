@@ -459,7 +459,7 @@
     },
     {
       "label": "制服",
-      "occurrences": 18,
+      "occurrences": 19,
       "source_ids": [
         "SNOS-409",
         "SNOS-369",
@@ -478,10 +478,11 @@
         "IDPC-004",
         "TEND-040",
         "MUDR-409",
-        "MUKD-590"
+        "MUKD-590",
+        "CAWB-078"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-05",
       "status": "quarantined"
     },
     {
@@ -882,7 +883,7 @@
     },
     {
       "label": "出道作",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "IPZZ-986",
         "IPZZ-988",
@@ -891,10 +892,11 @@
         "FEM-040",
         "JUNY-160",
         "IDPC-001",
-        "MIDA-791"
+        "MIDA-791",
+        "CAWB-078"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-05",
       "status": "quarantined"
     },
     {
