@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03T21:48:05.789Z",
+  "updated_at": "2026-11-04T01:25:40.285Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -5496,6 +5496,19 @@
       "video_status": "rendered",
       "template": "story",
       "published_at": "2026-11-03"
+    },
+    {
+      "id": "DANDYA-045",
+      "actress": [],
+      "release_date": "2026-11-01",
+      "source_url": "https://cc18.tv/player.php?uuid=hKN6PEw3h6F&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-04"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-03T21:48:19.047Z",
+  "generated_at": "2026-11-04T01:26:02.739Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 369,
-  "formal_movie_count": 368,
+  "tracked_input_count": 370,
+  "formal_movie_count": 369,
   "demo_count": 1,
-  "published_count": 365,
+  "published_count": 366,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -350,6 +350,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "1bc49f53ce5657741676420435bd4db9ccbcf4fccd8529d571b26cb8b3c777f7"
+    },
+    {
+      "stable_movie_id": "cc18:DANDYA-045",
+      "catalog_code": "DANDYA-045",
+      "slug": "dandya-045",
+      "master_path": "data/movie-master/dandya-045.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "5feea4f51f9581513a136820b3af316127f23256b28076f2390d62e37e6ea51e"
     },
     {
       "stable_movie_id": "cc18:DANDYA-050",

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "DANDYA-045",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-04T01:24:53.915Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/DANDYA-045/hero-v1.jpg",
+      "r2_key": "works/2026/11/DANDYA-045/hero-v1.jpg",
+      "bytes": 953970,
+      "sha256": "df11849a9e1ea779bb15355f3b4b6ba97d9291ef9c3ae293c00bcfd1890ff8ef",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "3ebb2363113b4c45970d5f9feb322d3b",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 溫泉, 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictio"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/DANDYA-045/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/DANDYA-045/scene-vertical-v1.jpg",
+      "bytes": 874734,
+      "sha256": "43b1ec66786789dcfc236242615218c670751c0585aeba4248a9c2529acecae6",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "36b4c2803ae34743b5c9daa531ee5666",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 溫泉, 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictio"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2727136,
+    "sha256": "b5b530163c1c3555e333f284e27b6270f2169c54e7220f4dc244dc2044a972d1",
+    "target_r2_key": "works/2026/11/DANDYA-045/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/DANDYA-045/vertical-v1.mp4"
+  }
+}
