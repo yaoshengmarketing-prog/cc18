@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04T09:16:42.214Z",
+  "updated_at": "2026-11-04T09:21:48.566Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -5605,6 +5605,21 @@
       ],
       "release_date": "2026-10-31",
       "source_url": "https://cc18.tv/player.php?uuid=hQsq4JTOrdC&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-04"
+    },
+    {
+      "id": "FJIN-173",
+      "actress": [
+        "北野未奈"
+      ],
+      "release_date": "2026-10-31",
+      "source_url": "https://cc18.tv/player.php?uuid=mqjnmM6eD6o&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

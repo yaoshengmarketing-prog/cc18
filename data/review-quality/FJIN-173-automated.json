@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "id": "FJIN-173",
+  "checked_at": "2026-11-04T09:19:59.856Z",
+  "review_sha256": "56c8c455ba9c0e87bdd110e6ba13050b9bf7c48845b9ac6ab30ecd68c13bf7ac",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "body_lacks_source_adult_vocabulary",
+    "source_core_concept_not_developed",
+    "sitewide_reused_sentences",
+    "insufficient_sections",
+    "missing_creative_reconstruction_audit"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "sitewide_reused_sentences",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "SITEWIDE_ORIGINALITY_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 1,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "FJIN-173",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-04T09:21:13.961Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/FJIN-173/hero-v1.jpg",
+      "r2_key": "works/2026/10/FJIN-173/hero-v1.jpg",
+      "bytes": 580250,
+      "sha256": "a21228e78a4d21a64125db4fa3aaa854a5dc666f0f7c47b27d930ee53105d9c9",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "5a3362f2743f4b6da4c9aba2faff6d15",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/FJIN-173/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/FJIN-173/scene-vertical-v1.jpg",
+      "bytes": 1204919,
+      "sha256": "62c9534c3183944598cde19c1d03a5ec4ffbf30b5c8032febc6ab0b14dd32008",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "a05065f16d9a4af18f277d2985a54fdf",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3284108,
+    "sha256": "db4a6801087809b44a0b50cab4423a04f4e05ec250d88995678e52c9fb48c191",
+    "target_r2_key": "works/2026/10/FJIN-173/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/FJIN-173/vertical-v1.mp4"
+  }
+}
