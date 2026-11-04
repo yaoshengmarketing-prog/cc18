@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "DOKS-692",
+  "review_sha256": "09ab6a0661e24dbef2e33f529444b50d2e89b6287933589e8978e0206e4377a6",
+  "selected_thesis": "來源資料可確認本作以「結果讓她漏尿高潮了這件事」作為主要作品線索。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "結果讓她漏尿高潮了這件事",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "美尻",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "結果讓她漏尿高潮了這件事",
+    "presentation_feature": "高畫質",
+    "editorial_judgment": "來源資料可確認本作以「結果讓她漏尿高潮了這件事」作為主要作品線索。",
+    "source_keywords": [
+      "結果讓她漏尿高潮了這件事",
+      "高畫質",
+      "巨乳",
+      "美尻"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：結果讓她漏尿高潮了這件事",
+      "supports": "這項可追溯來源訊號支持文章以「結果讓她漏尿高潮了這件事」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：美尻",
+      "supports": "這項可追溯來源訊號支持文章以「美尻」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：HD",
+      "supports": "這項可追溯來源訊號支持文章以「HD」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：4k",
+      "supports": "這項可追溯來源訊號支持文章以「4k」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}
