@@ -912,15 +912,16 @@
     },
     {
       "label": "酒店小姐",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "SNOS-358",
         "SNOS-375",
         "NACT-186",
-        "EBWH-373"
+        "EBWH-373",
+        "SORA-657"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-04",
       "status": "quarantined"
     },
     {
@@ -1337,12 +1338,13 @@
     },
     {
       "label": "藥物、迷姦",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "DOKS-689"
+        "DOKS-689",
+        "SORA-657"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-11-04",
       "status": "quarantined"
     },
     {
@@ -1828,15 +1830,16 @@
     },
     {
       "label": "鬼畜系",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "DDK-241",
         "YJNS-001",
         "HRSM-159",
-        "HUBLK-079"
+        "HUBLK-079",
+        "SORA-657"
       ],
       "first_seen": "2026-09-15",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-11-04",
       "status": "quarantined"
     },
     {

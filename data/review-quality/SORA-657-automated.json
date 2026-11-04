@@ -1,0 +1,60 @@
+{
+  "schema_version": 2,
+  "id": "SORA-657",
+  "checked_at": "2026-11-04T01:30:12.934Z",
+  "review_sha256": "1f954ddac57721c3abcd3839ef9898dce9789a6c76ffe391aeeebc0b555b9a3d",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看公開資料，這部片最清楚的賣點不是複雜劇情，而是「強●クスリ漬け」這個系列概念本身。系列名與 core concept 完全一致，代表企劃辨識度高、主題先行，觀眾一眼就能知道作品打算把注意力放在哪裡。對選片來說，這種作品通常不是靠多線敘事吸引人，而是靠單一企劃命題、角色標籤"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "本片的可追溯人物線索，主要來自兩組資訊：其一，來源概念將對象寫成「前酒店陪酒女」與「酒店小姐」；其二，公開介紹寫到「在夜晚的繁華街與曾經砸了大錢供養的前酒店小姐重逢」。這讓作品至少建立出一個很明確的前史框架：雙方不是毫無交集的陌生人，而是帶著過往金錢往來與身分落差重新碰面。再加上"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 3
+  }
+}

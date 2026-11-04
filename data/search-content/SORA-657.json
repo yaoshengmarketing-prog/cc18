@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "movie_id": "SORA-657",
+  "generated_at": "2026-11-04T01:30:12.770Z",
+  "source_snapshot_hash": "sha256:840829f18b82278cfc3849c7e0642988c63b3405cf1e3f2dcda2d1371cac0e0f",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "本片的選片重點在於「強●クスリ漬け」這個系列概念，如何與前酒店小姐的重逢與過去金錢糾葛結合，形成一部設定先行、演員辨識度高的企劃型作品。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "企劃型作品",
+      "系列概念鮮明",
+      "演員辨識度明確",
+      "標籤導向包裝"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先看企劃鉤子與人物標籤選片的觀眾",
+      "對九井珠奈緒出演作品有追看需求的人",
+      "偏好系列概念鮮明、設定一眼可懂的作品的觀眾"
+    ],
+    "not_for": [
+      "需要大量已驗證劇情細節才決定入手的觀眾",
+      "期待完整人物弧線或細膩關係推進的人",
+      "會特別在意鏡位、剪輯、聲音等觀看層面資訊的人"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "RLMP-013",
+      "relation_type": "same_performer",
+      "reason": "同樣由九井珠奈緒出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "九井珠奈緒"
+      ],
+      "contrast_signals": [
+        "推川悠里",
+        "完成"
+      ]
+    },
+    {
+      "movie_id": "BBTU-119",
+      "relation_type": "same_performer",
+      "reason": "同樣由九井珠奈緒出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "九井珠奈緒"
+      ],
+      "contrast_signals": [
+        "ぱいシャ",
+        "ぱいシャ！"
+      ]
+    },
+    {
+      "movie_id": "ROYD-361",
+      "relation_type": "same_performer",
+      "reason": "同樣由九井珠奈緒出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "九井珠奈緒"
+      ],
+      "contrast_signals": [
+        "被豐滿巨乳的繼姊破處的我",
+        "追いかけまわして超絶高速ピストン（ROYAL）"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這片最值得先看的是什麼設定",
+    "公開簡介提供了哪些人物張力",
+    "九井珠奈緒在這部作品中的選片價值是什麼",
+    "這片比較適合哪一類觀眾"
+  ]
+}

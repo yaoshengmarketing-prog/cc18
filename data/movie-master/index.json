@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-04T01:26:02.739Z",
+  "generated_at": "2026-11-04T01:32:18.281Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 370,
-  "formal_movie_count": 369,
+  "tracked_input_count": 371,
+  "formal_movie_count": 370,
   "demo_count": 1,
-  "published_count": 366,
+  "published_count": 367,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2978,6 +2978,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "acd05dfaf51b9776e10d02c94d2d34c409892005fd253d3c759b2b3dcd18e62a"
+    },
+    {
+      "stable_movie_id": "cc18:SORA-657",
+      "catalog_code": "SORA-657",
+      "slug": "sora-657",
+      "master_path": "data/movie-master/sora-657.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "be8016492900a0d544af9d1441058eb5e9e47549fd464e57c7c71256fc79fc5a"
     },
     {
       "stable_movie_id": "cc18:SPSF-55",

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "SORA-657",
+  "review_sha256": "95f1452c3e99b4237e9ba6f55e6ba1fe11399938638bf0814210dbc968da2cc0",
+  "selected_thesis": "這是一部由「強●クスリ漬け」系列概念領頭、再以前酒店小姐重逢與過往金錢關係補足人物張力的企劃型作品，選片重點在設定與演員辨識度，不在已公開的劇情細節。",
+  "title_basis": {
+    "performer": "九井珠奈緒",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "九井珠奈緒",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "強●クスリ漬け",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "九井珠奈緒",
+    "presentation_feature": "強●クスリ漬け",
+    "editorial_judgment": "以公開可追溯的企劃與人物線索為主，將本片定位成「強●クスリ漬け」系列框架下、靠前酒店小姐重逢設定製造張力的企劃型作品，而不是預設它已有完整展開的情節片。",
+    "source_keywords": [
+      "九井珠奈緒",
+      "強●クスリ漬け",
+      "AV女優片",
+      "巨乳"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品最明確的辨識點來自系列名與核心概念本身，公開來源直接以「強●クスリ漬け」作為企劃主軸。",
+      "basis": "public_source",
+      "signal": "系列核心與企劃先行"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開線索把人物起點寫成「前酒店陪酒女／酒店小姐」，並補上「在夜晚的繁華街與曾經砸了大錢供養的前酒店小姐重逢」這層過去關係，足以支撐選片時對人物張力的判讀。",
+      "basis": "public_source",
+      "signal": "重逢與金錢關係帶出的設定張力"
+    },
+    {
+      "observation_refs": [],
+      "supports": "已知出演者為九井珠奈緒，這使作品具備明確的單一演員辨識度。",
+      "basis": "public_source",
+      "signal": "演員辨識度"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤另有AV女優片、巨乳、HD／720p、獨家配信等資訊，說明這部片在包裝上偏向明確標籤型的企劃呈現。",
+      "basis": "public_source",
+      "signal": "標籤型包裝與展示導向"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何實際場景中的綁架、拘束或藥物呈現方式",
+    "未聲稱已觀察到角色心理轉折、表情、演技或身體語言",
+    "未推定作品有報復、調教、和解或其他完整劇情弧線",
+    "未描述鏡位、剪輯、配樂、收音或節奏表現",
+    "未補寫未公開的人物關係、場景數量或結局走向"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}
