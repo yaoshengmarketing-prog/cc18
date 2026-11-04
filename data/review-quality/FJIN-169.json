@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "FJIN-169",
+  "review_sha256": "c45773bb54e5eac140286126a34e5636762345aa30d837d363b90f246f01c374",
+  "selected_thesis": "FJIN-169 的選片價值，主要不在已公開的故事細節，而在善場麻美(茉城麻美)與「洗腦啟發Mind」這個系列概念的結合；它更適合把系列辨識度當成第一判斷標準的觀眾。",
+  "title_basis": {
+    "performer": "善場麻美(茉城麻美)",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "善場麻美(茉城麻美)",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "洗腦啟發Mind",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "洗脳啓発まいんどふぁっかー",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "善場麻美(茉城麻美)",
+    "presentation_feature": "洗腦啟發Mind",
+    "editorial_judgment": "以系列名稱、片名核心概念與演員資訊為主軸，判斷本作是否屬於企劃辨識度高、適合看系列設定入手的戲劇型作品。",
+    "source_keywords": [
+      "善場麻美(茉城麻美)",
+      "洗腦啟發Mind",
+      "洗脳啓発まいんどふぁっかー",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "本作最可追溯的差異點來自片名核心概念「洗腦啟發Mind」，適合作為選片時判斷企劃方向的第一訊號。",
+      "basis": "public_source",
+      "signal": "洗腦啟發Mind"
+    },
+    {
+      "observation_refs": [],
+      "supports": "系列名「洗脳啓発まいんどふぁっかー」讓作品帶有明確的系列辨識度，能支撐『先看系列概念再決定是否入手』的選片邏輯。",
+      "basis": "public_source",
+      "signal": "洗脳啓発まいんどふぁっかー"
+    },
+    {
+      "observation_refs": [],
+      "supports": "已知出演者為善場麻美(茉城麻美)，在缺少更完整公開劇情時，演員本身就是穩定的選片依據。",
+      "basis": "public_source",
+      "signal": "善場麻美(茉城麻美)"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤含「戲劇、連續劇」與「AV女優片」，可合理定位為以設定包裝為重的成人戲劇型作品，而非單靠技術規格區分。",
+      "basis": "public_source",
+      "signal": "戲劇、連續劇／AV女優片"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資料未提供可追溯的前提摘要、人物關係與場景設定，因此不宜把具體情節、轉折或互動形式寫成既定事實。",
+      "basis": "public_source",
+      "signal": "公開資訊量有限"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未宣稱具體劇情前提或事件順序",
+    "未宣稱人物關係、角色身份與衝突內容",
+    "未宣稱任何已出現的場景、鏡位、剪輯、聲音或表演細節",
+    "未把『角色變化』寫成已被公開證實的情節",
+    "未把技術規格如高畫質、720p當成作品核心內容證據"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

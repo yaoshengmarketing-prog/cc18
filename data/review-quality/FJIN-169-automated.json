@@ -1,0 +1,46 @@
+{
+  "schema_version": 2,
+  "id": "FJIN-169",
+  "checked_at": "2026-11-04T09:14:49.811Z",
+  "review_sha256": "7ffcc9340a940cb7b11bd37d20aeae0bbf87853d83e6cb5b71cfb4f7096aad6b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed",
+    "body_lacks_source_adult_vocabulary",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 6,
+          "excerpt": "系列作最大的優勢，是能在公開資訊不多時，仍提供一個相對清楚的方向。「洗脳啓発まいんどふぁっかー」這個名稱本身就帶有強烈的企劃色彩，也讓「洗腦啟發Mind」成為作品最核心的辨識語。這種片通常不是靠單一場景資訊吸引人，而是靠整個命名策略先建立觀看想像。因此，喜歡系列公式感、願意跟著主"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 1
+  }
+}

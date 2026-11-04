@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "movie_id": "FJIN-169",
+  "generated_at": "2026-11-04T09:14:49.690Z",
+  "source_snapshot_hash": "sha256:fefb1b259217e0207908729ed2e286a024d47e44fec2ba69892735b10fb76608",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "FJIN-169 目前最值得參考的不是已公開劇情量，而是善場麻美(茉城麻美)與「洗腦啟發Mind」這個系列概念的結合；它更像一部以企劃辨識度吸引觀眾的戲劇型作品。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "系列企劃導向",
+      "戲劇型包裝",
+      "以演員與核心概念雙主軸判斷"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先看系列主題與企劃名稱的人",
+      "原本就關注善場麻美(茉城麻美)作品的人",
+      "喜歡戲劇型包裝與概念先行作品的人"
+    ],
+    "not_for": [
+      "一定要先知道完整人物關係與故事脈絡才會選片的人",
+      "偏好先確認具體場景、衝突與發展再決定入手的人"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SQTE-717",
+      "relation_type": "same_performer",
+      "reason": "同樣由善場麻美(茉城麻美)出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "善場麻美(茉城麻美)"
+      ],
+      "contrast_signals": [
+        "假日與女友",
+        "假日與女友。"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品最明確的賣點是什麼？",
+    "善場麻美(茉城麻美)對選片有何影響？",
+    "系列名會如何左右觀看期待？",
+    "哪些資訊仍不足以支持更具體的劇情判斷？"
+  ]
+}
