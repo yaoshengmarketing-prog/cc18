@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "movie_id": "FNEW-025",
+  "generated_at": "2026-11-04T23:14:14.860Z",
+  "source_snapshot_hash": "sha256:115b24c5ffbb380c9f27c3928456d43acd200d566a4f2ec909ace4502bceb2ff",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "FNEW-025 目前最穩妥的看法，是一部以「雌小鬼」核心概念與谷村凪咲組合來吸引目光的系列型展示企劃；它的吸引力在概念辨識，而不是已被證實的高密度劇情。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "企劃概念先行",
+      "系列辨識度主導",
+      "成人主題標籤清楚"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "本來就會追「雌小鬼」概念的觀眾",
+      "選片時重視演員與題材標籤搭配的人",
+      "偏好口味明確、企劃辨識度高作品的人"
+    ],
+    "not_for": [
+      "需要先確認完整劇情架構的人",
+      "重視已公開人物關係與場景資訊的人",
+      "會把未證實片名線索直接視為完整故事的人"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "FNEW-024",
+      "relation_type": "same_series",
+      "reason": "同屬「雌小鬼」系列，可用來比較相同公式在不同作品中的角色設定與推進差異。",
+      "shared_signals": [
+        "雌小鬼"
+      ],
+      "contrast_signals": [
+        "清宮ななは",
+        "學生設定"
+      ]
+    },
+    {
+      "movie_id": "MAAN-1192",
+      "relation_type": "same_performer",
+      "reason": "同樣由谷村凪咲出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "谷村凪咲"
+      ],
+      "contrast_signals": [
+        "橘いおり",
+        "プールナンパ"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這片最先能確認的賣點是什麼",
+    "公開資料能確認哪些口味線索",
+    "哪些期待目前不宜先下定論",
+    "這片更適合哪一類觀眾"
+  ]
+}

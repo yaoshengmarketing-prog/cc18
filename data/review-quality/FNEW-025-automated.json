@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "FNEW-025",
+  "checked_at": "2026-11-04T23:14:15.030Z",
+  "review_sha256": "cf4b307058f08aa35c0b4789f0952a96e882d2750bd90cefcc61442ebe2cd345",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就公開資料來看，FNEW-025 最明確的辨識點不是劇情，而是「雌小鬼」這個企劃概念本身。系列欄位直接標示為「雌小鬼」，creative brief 也把它列為核心來源概念，代表這部作品的選片關鍵，首先落在角色口味是否對胃口。再加上主演是谷村凪咲，這片最容易成立的吸引力，就是演員"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 2
+  }
+}

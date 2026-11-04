@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "FNEW-025",
+  "review_sha256": "5e37aee2009d6817f5c87f3edbd4a77159124a5b0b7bfc690b567b711cc7100a",
+  "selected_thesis": "FNEW-025 的選片價值主要來自谷村凪咲與「雌小鬼」概念的結合；在缺少更完整公開劇情資訊的情況下，最合理的定位是系列辨識度鮮明的展示型企劃。",
+  "title_basis": {
+    "performer": "谷村凪咲",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "谷村凪咲",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "雌小鬼",
+        "source_field": "series"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "谷村凪咲",
+    "presentation_feature": "雌小鬼",
+    "editorial_judgment": "以公開可追溯資料為限，將本片定位為由「雌小鬼」核心概念帶動的系列型企劃，重點放在谷村凪咲與題材標籤的組合是否對觀眾胃口，而不預設未公開的劇情細節。",
+    "source_keywords": [
+      "谷村凪咲",
+      "雌小鬼",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "系列欄位與核心概念都指向「雌小鬼」，因此選片判斷應優先放在企劃口味與角色標籤，而不是推測複雜故事。",
+      "basis": "public_source",
+      "signal": "雌小鬼"
+    },
+    {
+      "observation_refs": [],
+      "supports": "演員已知為谷村凪咲，代表本片的第一層吸引力可直接建立在演員與系列概念的搭配上。",
+      "basis": "public_source",
+      "signal": "谷村凪咲"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤可確認成人主題包含「中出」與「口交」，這讓作品的口味輪廓比劇情輪廓更清楚。",
+      "basis": "public_source",
+      "signal": "中出／口交"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源片名線索另出現「尿布就職生」，可作為題材辨識度的一部分，但不足以證明具體情節與人物關係。",
+      "basis": "public_source",
+      "signal": "尿布就職生"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何未提供的劇情流程",
+    "未聲稱已觀察到場景、鏡位、剪輯、聲音或表演細節",
+    "未替「尿布就職生」補出具體角色關係或情境用途",
+    "未推定演員私生活、真實身分或年齡",
+    "未把系列概念直接當成已驗證的互動內容"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

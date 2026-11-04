@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "FNEW-025",
+  "calls": [
+    {
+      "generated_at": "2026-11-04T23:14:14.667Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4636,
+      "cached_input_tokens": 0,
+      "output_tokens": 4961,
+      "total_tokens": 9597,
+      "estimated_cost_usd": 0.134802,
+      "estimated_payg_cash_cost_usd": 0.141543,
+      "direct_openai_reference_usd": 0.086005,
+      "gateway_premium_usd": 0.048797,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4636,
+    "cached_input_tokens": 0,
+    "output_tokens": 4961,
+    "estimated_cost_usd": 0.134802,
+    "estimated_payg_cash_cost_usd": 0.141543,
+    "direct_openai_reference_usd": 0.086005,
+    "gateway_premium_usd": 0.048797
+  }
+}

@@ -1358,7 +1358,7 @@
     },
     {
       "label": "其他癖好",
-      "occurrences": 9,
+      "occurrences": 10,
       "source_ids": [
         "DOKS-689",
         "DOKS-690",
@@ -1368,10 +1368,11 @@
         "CLOT-044",
         "AGAV-182",
         "MUKD-590",
-        "DOKS-692"
+        "DOKS-692",
+        "FNEW-025"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "status": "quarantined"
     },
     {
@@ -1788,13 +1789,14 @@
     },
     {
       "label": "ビジネススーツ",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "CLOT-043",
-        "CLOT-044"
+        "CLOT-044",
+        "FNEW-025"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-09-22",
+      "last_seen": "2026-11-05",
       "status": "quarantined"
     },
     {
@@ -1890,7 +1892,7 @@
     },
     {
       "label": "放尿・お漏らし",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "DDK-241",
         "MVSD-700",
@@ -1898,10 +1900,11 @@
         "FSBK-028",
         "WAAA-706",
         "FJIN-169",
-        "DOKS-692"
+        "DOKS-692",
+        "FNEW-025"
       ],
       "first_seen": "2026-09-15",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "status": "quarantined"
     },
     {
