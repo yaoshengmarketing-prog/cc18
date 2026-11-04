@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-04T17:35:43.875Z",
+  "generated_at": "2026-11-04T17:41:25.125Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 386,
-  "formal_movie_count": 385,
+  "tracked_input_count": 387,
+  "formal_movie_count": 386,
   "demo_count": 1,
-  "published_count": 382,
+  "published_count": 383,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -827,6 +827,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "8a0f985b0fc7f56124d0e0e77940e05ec9960ed6a911b9d1a32ad29f0897afda"
+    },
+    {
+      "stable_movie_id": "cc18:FJIN-170",
+      "catalog_code": "FJIN-170",
+      "slug": "fjin-170",
+      "master_path": "data/movie-master/fjin-170.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "eed946bda496d6b6837f9454f2b510722ebb32c9180e944c05a921cd69988189"
     },
     {
       "stable_movie_id": "cc18:FJIN-171",
