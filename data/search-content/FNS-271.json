@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "movie_id": "FNS-271",
+  "generated_at": "2026-11-04T02:01:28.079Z",
+  "source_snapshot_hash": "sha256:c787917f4d08ed7332fe76509524351c2777011c8264d12b6f0236b612316122",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "如果你會被『好像在按摩店被弄奇怪了』這種一句話就能成立的曖昧企劃吸引，又本來就看吉高寧寧，本作的選片理由很直接；反過來說，若你需要完整劇情與明確人物設定，公開資料目前不足以支撐那種期待。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "前提先行",
+      "演員導向",
+      "技術規格為次要訊號",
+      "資訊有限，適合保守選片"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "本來就追吉高寧寧的觀眾",
+      "喜歡一句話企劃就能決定是否點開的觀眾",
+      "能接受作品把懸念留在前提本身的人"
+    ],
+    "not_for": [
+      "想先確認完整故事架構再決定的人",
+      "偏好明確人物關係或系列世界觀的人",
+      "需要從公開資訊先判斷節奏、場面與演出細節的人"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "FCDSS-117",
+      "relation_type": "same_performer",
+      "reason": "同樣由吉高寧寧出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "吉高寧寧"
+      ],
+      "contrast_signals": [
+        "天使萌",
+        "美乃雀"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部片最直接的賣點是什麼？",
+    "它比較偏企劃展示還是已知劇情型作品？",
+    "公開資訊足以支持哪些期待？",
+    "哪些觀眾適合優先考慮？"
+  ]
+}

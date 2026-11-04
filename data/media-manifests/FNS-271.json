@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "FNS-271",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-04T02:02:10.133Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/FNS-271/hero-v1.jpg",
+      "r2_key": "works/2026/10/FNS-271/hero-v1.jpg",
+      "bytes": 798638,
+      "sha256": "0776e3750e0c867a81115443d6a04e16331082a5cf0dc5035175734d0167448b",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "f411d654f98b4d08864f5fbb6e3c3639",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/FNS-271/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/FNS-271/scene-vertical-v1.jpg",
+      "bytes": 920574,
+      "sha256": "0b123c10da11bce6c994a4808ab2e424fff64f7ae1cde0b9fade08aff96291b7",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "223fcfd7d338456ea03d1a850a6f8b74",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2518352,
+    "sha256": "b580cc43d99b377922268d6fad84445929783ee9560dacc700e8736fb179c74f",
+    "target_r2_key": "works/2026/10/FNS-271/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/FNS-271/vertical-v1.mp4"
+  }
+}

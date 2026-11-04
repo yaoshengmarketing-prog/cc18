@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "FNS-271",
+  "checked_at": "2026-11-04T02:01:28.248Z",
+  "review_sha256": "425c3f0a0a4414eb3d2fc7168add00b9eb80fa539326c66f08bea4cb7077f484",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只看目前公開資訊，本作最強的切入點就是片名直接拋出的概念：『好像在按摩店被弄奇怪了』。這不是需要大量背景才能理解的設定，而是一眼就能成立的企劃句。對選片者來說，它的優勢在於判斷很快——你若本來就會被這種帶有異樣感、曖昧感的前提吸引，這部片很容易進入候選清單；若你對這類一句話企劃"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "以現有資料判斷，這部作品更適合被理解成『由前提帶動興趣』的企劃展示型選片，而不是已知資訊完整的高劇情密度作品。原因不在於它一定沒有故事，而是公開面向目前沒有提供可追溯的人物關係、明確背景、系列脈絡或具體情節簡介。能被穩定抓住的，仍然是片名核心概念本身。因此，選片時比較合理的期待，"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 3,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 1
+  }
+}

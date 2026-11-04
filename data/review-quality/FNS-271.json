@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "FNS-271",
+  "review_sha256": "4ad380ea97475afbfe4a9bcce216ba899c414a829ed2afa4a0070b5549858d09",
+  "selected_thesis": "這是一部應該用『前提是否對味』來判斷的作品：吉高寧寧加上『好像在按摩店被弄奇怪了』的核心概念，已足以成立選片理由，但現階段不宜把未公開的劇情內容想得過滿。",
+  "title_basis": {
+    "performer": "吉高寧寧",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "吉高寧寧",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "好像在按摩店被弄奇怪了",
+        "source_field": "title"
+      }
+    ],
+    "primary_theme": "吉高寧寧",
+    "presentation_feature": "好像在按摩店被弄奇怪了",
+    "editorial_judgment": "把這部作品放回最可靠的公開訊號來看：核心吸引力不是已知的複雜劇情，而是片名本身提出的曖昧企劃感，加上吉高寧寧的演員吸引力，形成一部適合用『前提是否對味』來決定的選片。",
+    "source_keywords": [
+      "吉高寧寧",
+      "好像在按摩店被弄奇怪了"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開片名與來源摘錄都集中在同一句核心概念，表示本作最明確的辨識點就是『好像在按摩店被弄奇怪了』這個企劃前提。",
+      "basis": "public_source",
+      "signal": "好像在按摩店被弄奇怪了"
+    },
+    {
+      "observation_refs": [],
+      "supports": "已知出演者為吉高寧寧，因此本作的第一層選片門檻可以直接建立在演員偏好上。",
+      "basis": "public_source",
+      "signal": "吉高寧寧"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開訊號另有高畫質與720p，但它們更像補充規格，不足以取代核心前提成為主要選片理由。",
+      "basis": "public_source",
+      "signal": "高畫質／720p"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未確認按摩店內的具體流程、橋段與場景安排",
+    "未確認角色身分、職業、關係或權力結構",
+    "未確認作品是否以劇情轉折為主，或是否屬於高故事密度",
+    "未確認鏡位、剪輯、聲音、節奏與表演細節",
+    "未確認任何片中台詞、情緒變化或觀看後效果"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

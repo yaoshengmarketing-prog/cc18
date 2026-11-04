@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:78483929b48487533e26da6d5a10f12cda3df13ff086f1b33a2657ebc3073420",
-  "source_generated_at": "2026-11-04T01:56:59.269Z",
+  "source_revision": "sha256:3f8a3f183bcde8cca8b87f5cb0504430ac90b4567cef43eb046e663a9ed9de24",
+  "source_generated_at": "2026-11-04T02:03:16.276Z",
   "counts": {
-    "movies": 370,
+    "movies": 371,
     "performers": 312,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -1086,7 +1086,8 @@
       "source_name": "吉高寧寧",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:FCDSS-117"
+        "cc18:FCDSS-117",
+        "cc18:FNS-271"
       ]
     },
     {
@@ -7646,6 +7647,35 @@
         "article_title": "WA-597｜名媛人妻真正中出：企劃感先行的人妻題材選片",
         "display_short_title": null,
         "slug": "wa-597"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:FNS-271",
+        "source_cover": "https://cc18.tv/preview/80/b/mTxBI8xN_7B-800.jpg?v=1792044764",
+        "title": "FNS-271 吉高寧寧｜好像在按摩店被弄奇怪了：以前提曖昧感取勝的企劃片",
+        "catalog_code": "FNS-271",
+        "release_date": "2026-10-14",
+        "performers": [
+          "吉高寧寧"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/fns-271/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:18894"
+      ],
+      "search": {
+        "source_title": "好像在按摩店被弄奇怪了，24小時腰部一直抽搐的姊姊 吉高寧寧",
+        "article_title": "FNS-271 吉高寧寧｜好像在按摩店被弄奇怪了：以前提曖昧感取勝的企劃片",
+        "display_short_title": null,
+        "slug": "fns-271"
       }
     },
     {
