@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "movie_id": "ORECS-711",
+  "generated_at": "2026-11-04T02:07:29.585Z",
+  "source_snapshot_hash": "sha256:d7ec5cbd46a1c1e879d05481aadca6ff700a80394321301eeb877a054cc33b00",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "如果你是看標題與標籤挑片的觀眾，ORECS-711 的價值在於「獨家」框架下的素人人妻企劃；公開資訊給出的重點是身份設定與題材直給，而不是已被證明的完整劇情。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以企劃標籤與身份設定作為主要判斷依據",
+      "把配信限定與高畫質視為加分項，而非主題本身",
+      "避免把未公開的人物關係與場景寫成故事事實"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先看身份設定與企劃概念的人",
+      "偏好素人企劃與人妻框架的人",
+      "在意獨家配信與高畫質呈現的人"
+    ],
+    "not_for": [
+      "想先確認完整劇情走向再決定的人",
+      "偏好明確人物關係與情節鋪陳的人",
+      "只看演員知名度選片的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片的主打賣點是什麼？",
+    "公開資訊能不能支持強劇情期待？",
+    "為什麼它更像展示型企劃？",
+    "適合哪些觀眾先放進片單？"
+  ]
+}

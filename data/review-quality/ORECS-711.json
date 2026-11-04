@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "ORECS-711",
+  "review_sha256": "822804918ac526f1c95ec89d40daaab7f8428fded40e5df63d4335ed7fe92aba",
+  "selected_thesis": "如果你是看標題與標籤挑片的觀眾，ORECS-711 的價值在於「獨家」框架下的素人人妻企劃；公開資訊給出的重點是身份設定與題材直給，而不是已被證明的完整劇情。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "character",
+        "value": "人妻設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "人妻設定",
+    "editorial_judgment": "以「獨家」作為主軸，從公開可追溯的身份設定、企劃標籤與配信形式，判斷本作更接近展示型素人企劃，而不是以完整劇情取勝的作品。",
+    "source_keywords": [
+      "獨家",
+      "人妻設定",
+      "素人企劃"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品的核心辨識點應由「獨家」出發，而不是被一般熱門標籤取代。",
+      "basis": "public_source",
+      "signal": "獨家"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤直接指向素人企劃，適合用展示型企劃的角度判斷選片價值。",
+      "basis": "public_source",
+      "signal": "素人企劃"
+    },
+    {
+      "observation_refs": [],
+      "supports": "人妻設定是最明確的人物框架，也是本作可辨識的成人題材重點之一。",
+      "basis": "public_source",
+      "signal": "人妻設定"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資訊列出中出，表示題材取向直接，不需要額外虛構劇情來補強賣點。",
+      "basis": "public_source",
+      "signal": "中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "720p、全高清、獨家限定、配信專用等資訊更像呈現形式與流通方式的補充，而非故事內容本身。",
+      "basis": "public_source",
+      "signal": "全高清 (FHD)／獨家限定／配信専用"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未寫成具體人物關係或角色背景",
+    "未聲稱已觀察到任何場景、鏡位、剪輯、聲音或表演細節",
+    "未推定演員姓名、年齡、真實身分或私生活",
+    "未把「懷孕護理」延伸成已確認的事件內容",
+    "未把「海小姐和小野小姐」寫成已證實的雙主角結構或關係轉折"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

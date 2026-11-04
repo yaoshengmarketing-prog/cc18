@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "ORECS-711",
+  "checked_at": "2026-11-04T02:07:29.749Z",
+  "review_sha256": "892a3020111ad13083d485ef37d27e451fdfc3f227a5103b0f427f1548c5ee50",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就公開資訊來看，本作最需要先抓住的是「獨家」這個核心概念。它不只是標題線索，也和「獨家限定」「配信專用」這類公開標示互相呼應，讓作品的第一層定位很清楚：這不是靠系列累積或已知演員名單來帶動辨識度，而是靠企劃包裝與配信形式來建立吸引力。再往下看，公開標籤中的「素人」「人妻」「中出」"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

@@ -1566,7 +1566,7 @@
     },
     {
       "label": "ローション・オイル",
-      "occurrences": 11,
+      "occurrences": 12,
       "source_ids": [
         "NACT-182",
         "BBTU-119",
@@ -1578,7 +1578,8 @@
         "PPPE-455",
         "MIDA-850",
         "MXGS-1449",
-        "ABF-393"
+        "ABF-393",
+        "ORECS-711"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-04",
@@ -2487,13 +2488,14 @@
     },
     {
       "label": "エステ・マッサージ",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "ABF-385",
-        "DAM-067"
+        "DAM-067",
+        "ORECS-711"
       ],
       "first_seen": "2026-09-21",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-04",
       "status": "quarantined"
     },
     {
