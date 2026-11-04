@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "SDMM-242",
+  "checked_at": "2026-11-04T09:50:13.864Z",
+  "review_sha256": "b748763b8e108fd4a21067d3812aaeabada47cd1b0af96da678ba56d4d80228a",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最明確的答案，是它屬於「マジックミラー号」系列，並且公開簡介直接點出這次邀請的是「在辦公區找到的時尚西裝OL四人組」。在演員姓名未公開、個別人物資訊也不足的前提下，最穩定的選片依據不是明星辨識，而是系列本身的企劃號召力，加上 OL、時尚西裝、四人組這幾個能被追溯的包裝元素。對已經"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "能支持的期待，是你會看到一部以魔鏡號為核心概念、並以 OL 群體作為主題入口的作品；而且「四人組」這個設定，也讓人可以合理預期它不是單點人物導向，而是更偏群體編排的企劃。不能支持的部分，則包括每位參與者的個性差異、是否存在明確主次線、互動節奏如何分配，或整體故事是否有明顯轉折。公"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "SDMM-242",
+  "review_sha256": "243de5a8bf0ce27bbb9e74038465938080460a8ba99318aa2edc1ac90d709162",
+  "selected_thesis": "SDMM-242 的已知吸引力，來自魔鏡號系列框架結合時尚西裝 OL 四人組的展示型企劃，而不是可被確認的角色故事或單一演員魅力。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "series",
+        "value": "マジックミラー号",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "OL",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "素人",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "マジックミラー号",
+    "presentation_feature": "素人企劃",
+    "editorial_judgment": "以公開可追溯資訊來看，SDMM-242 的選片重心不在單一演員，而在「マジックミラー号」這個系列辨識度，搭配辦公區、時尚西裝、OL四人組所構成的群體展示型企劃感。",
+    "source_keywords": [
+      "マジックミラー号",
+      "素人企劃",
+      "OL",
+      "素人"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "作品的核心辨識度首先來自系列名，而非已知演員資訊。",
+      "basis": "public_source",
+      "signal": "マジックミラー号"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開線索明確指出本作涉及 OL 身分，是最直接可用的主題入口。",
+      "basis": "public_source",
+      "signal": "OL"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開簡介提到「在辦公區找到的時尚西裝OL四人組」，支撐本片偏向群體企劃展示的判斷。",
+      "basis": "public_source",
+      "signal": "四人組"
+    },
+    {
+      "observation_refs": [],
+      "supports": "由於未提供可驗證的個別人物設定與情節摘要，選片時更適合從系列公式與企劃包裝來理解。",
+      "basis": "public_source",
+      "signal": "企劃展示感"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱已觀察到四位OL的個別外貌、性格、表情或演出表現。",
+    "未聲稱存在特定辦公室場景、街訪流程、車內互動或任何具體場面。",
+    "未聲稱作品具有明確劇情轉折、主導權變化或關係發展。",
+    "未發明演員姓名、年齡、職業細節或真實背景。",
+    "未將 720p、HD、4k 等技術標示包裝成內容主題。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

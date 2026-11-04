@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-04T09:38:16.035Z",
+  "generated_at": "2026-11-04T09:51:44.343Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 381,
-  "formal_movie_count": 380,
+  "tracked_input_count": 382,
+  "formal_movie_count": 381,
   "demo_count": 1,
-  "published_count": 377,
+  "published_count": 378,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2744,6 +2744,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "9781cd69064f0d7b51ee6a560d1d5ae7ec5891cc035c805abd2e36e6c156a6c9"
+    },
+    {
+      "stable_movie_id": "cc18:SDMM-242",
+      "catalog_code": "SDMM-242",
+      "slug": "sdmm-242",
+      "master_path": "data/movie-master/sdmm-242.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "c37b521987af44b13a5d8fc0d251ad35a3ec3579dc38d96c3030cf57e2cc1d40"
     },
     {
       "stable_movie_id": "cc18:SIMH-010",

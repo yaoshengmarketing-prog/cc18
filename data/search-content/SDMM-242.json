@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "movie_id": "SDMM-242",
+  "generated_at": "2026-11-04T09:50:13.740Z",
+  "source_snapshot_hash": "sha256:ad16cc048413cc846a728eba2634d0cf764855b8494460c55b8781eb9027c01f",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "SDMM-242 的已知吸引力，來自魔鏡號系列框架結合時尚西裝 OL 四人組的展示型企劃，而不是可被確認的角色故事或單一演員魅力。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "系列辨識度明確",
+      "群體企劃取向鮮明",
+      "主打身份與外型包裝而非已知明星"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "本來就會追魔鏡號系列企劃的觀眾",
+      "偏好素人企劃與 OL 身分包裝的觀眾",
+      "對多人展示型設定有興趣的觀眾"
+    ],
+    "not_for": [
+      "想先確認明確劇情線再決定是否入手的觀眾",
+      "只追特定已知女優或明確角色設定的觀眾",
+      "期待公開資訊已能證明高故事密度的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這片最明確的可追溯賣點是什麼？",
+    "為什麼它更適合用系列企劃片來理解？",
+    "公開資訊能支持哪些期待、又不能支持哪些期待？",
+    "這片比較適合哪一類觀眾？"
+  ]
+}

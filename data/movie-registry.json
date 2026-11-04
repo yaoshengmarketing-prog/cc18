@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04T09:38:02.319Z",
+  "updated_at": "2026-11-04T09:51:30.142Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -5661,6 +5661,19 @@
       "actress": [],
       "release_date": "2026-10-14",
       "source_url": "https://cc18.tv/player.php?uuid=rS2U9kb2C8j&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-04"
+    },
+    {
+      "id": "SDMM-242",
+      "actress": [],
+      "release_date": "2026-10-13",
+      "source_url": "https://cc18.tv/player.php?uuid=iuxzk83ArdJ&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
