@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "SDAM-183",
+  "checked_at": "2026-11-04T22:48:23.222Z",
+  "review_sha256": "beec56edfb9666d03f9d15e97a19f788b2b8eafa6040efda6bbd7662b0320c75",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed",
+    "insufficient_sections",
+    "insufficient_evidence",
+    "non_specific_evidence"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資訊，SDAM-183 最清楚的兩個訊號就是「窈窕」與「淫亂・過激系」。前者把重點放在外型輪廓，後者則直接標示刺激方向，因此這部作品的選片邏輯很明確：不是先賣角色設定，也不是先賣故事背景，而是先用身形印象與強刺激標籤抓住目標觀眾。對想快速判斷口味的人來說，"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "non_specific_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

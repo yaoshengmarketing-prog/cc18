@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "movie_id": "SDAM-183",
+  "generated_at": "2026-11-04T22:48:23.054Z",
+  "source_snapshot_hash": "sha256:5e1d0554e37faf488a42f1eadfd6be15a0abe8a7dcb9d2ff3a7448249656fbb7",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "SDAM-183 目前最可靠的選片依據，是「窈窕」與「淫亂・過激系」兩個直接來源訊號；整體更像以刺激展示為核心、由高畫質規格輔助辨識的作品。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "把它當成以外型與刺激感為先的直球選片來看。",
+      "高畫質可視為加分條件，但不應取代「淫亂・過激系」這個主訴求。",
+      "若你選片時重視可明確辨識的身形標籤，這片的「窈窕」訊號很直接。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好外型標籤明確、刺激方向直接的選片者",
+      "看到「窈窕」就會優先納入清單的觀眾",
+      "把高畫質視為加分條件、但仍以成人主題作為第一判斷的人"
+    ],
+    "not_for": [
+      "想先確認完整劇情設定、角色關係或場景主題的人",
+      "會把演員資訊或系列脈絡視為主要購買依據的人",
+      "希望從公開資料就判斷演出細節、鏡位風格或節奏的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這片目前最明確的主打是什麼？",
+    "高畫質在這片的判讀位置是主題還是輔助？",
+    "在缺少劇情與人物資訊時，應該怎麼判斷適不適合自己？"
+  ]
+}

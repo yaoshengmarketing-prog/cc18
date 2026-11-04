@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "SDAM-183",
+  "review_sha256": "babe8da368e0591b34339927a81de1abd7685b97af4388c6007bc5b7b1ac6b30",
+  "selected_thesis": "SDAM-183 目前最可靠的選片依據，是「窈窕」與「淫亂・過激系」兩個直接來源訊號；整體更像以刺激展示為核心、由高畫質規格輔助辨識的作品。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "body_type",
+        "value": "窈窕",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "淫亂・過激系",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "窈窕",
+    "presentation_feature": "淫亂・過激系",
+    "editorial_judgment": "以公開可見的來源標籤為核心，將本作定位為主打窈窕身形與淫亂・過激系刺激感的展示型選片，並把高畫質視為輔助辨識而非真正題眼。",
+    "source_keywords": [
+      "窈窕",
+      "淫亂・過激系",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "可作為主標籤的成人訴求",
+      "basis": "public_source",
+      "signal": "公開來源提供「淫亂・過激系」，足以成為選片時的主要刺激方向。"
+    },
+    {
+      "observation_refs": [],
+      "supports": "可作為外型辨識重點",
+      "basis": "public_source",
+      "signal": "topic_elements.body 與 safe_title_signals 都指向「窈窕」，顯示身形訴求是本作少數明確可追溯的賣點。"
+    },
+    {
+      "observation_refs": [],
+      "supports": "畫質屬展示條件而非故事前提",
+      "basis": "public_source",
+      "signal": "來源同時列出「高畫質」「720p」「HD」「4k」，這些都屬呈現規格訊號，能補強觀看期待，但不足以單獨代表作品主題。"
+    },
+    {
+      "observation_refs": [],
+      "supports": "適合採取展示型企劃的編輯角度",
+      "basis": "public_source",
+      "signal": "目前未提供演員、系列、人物關係、場景設定或公開簡介，因此較合理的選片判斷是回到身形、刺激度與呈現規格三類已知訊號。"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "演員姓名、背景與個人特質",
+    "具體劇情主線與角色關係",
+    "場景內容、服裝細節與實際行為展開",
+    "鏡位、剪輯、配樂、聲音或表演層次",
+    "系列定位與是否存在固定公式感"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

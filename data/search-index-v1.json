@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:14ceca341cfe2e9ae7630ee77805784d400dc427bd35a8c66d63d903c4601033",
-  "source_generated_at": "2026-11-04T22:44:33.659Z",
+  "source_revision": "sha256:119105466ac49fe1be50693e3085cc29a1e3102c1f905ac7e5b3405156c4d000",
+  "source_generated_at": "2026-11-04T22:50:08.621Z",
   "counts": {
-    "movies": 388,
+    "movies": 389,
     "performers": 317,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -8481,6 +8481,43 @@
         "article_title": "FSFST-007 桜羽潤 × 高畫質｜桜羽潤｜出道前珍貴影像公開：作為新人前導企劃是否值得看",
         "display_short_title": null,
         "slug": "fsfst-007"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SDAM-183",
+        "source_cover": "https://cc18.tv/preview/80/b/s8n03K04W1C-800.jpg?v=1791923913",
+        "title": "SDAM-183｜窈窕×淫亂・過激系：高畫質展示取向的直球選片",
+        "catalog_code": "SDAM-183",
+        "release_date": "2026-10-13",
+        "performers": [],
+        "canonical_topics": [
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/sdam-183/"
+      },
+      "performer_ids": [],
+      "search": {
+        "source_title": "眼神死掉的狼尾頭女孩——我的聽話M屬性寵物",
+        "article_title": "SDAM-183｜窈窕×淫亂・過激系：高畫質展示取向的直球選片",
+        "display_short_title": null,
+        "slug": "sdam-183"
       }
     },
     {
