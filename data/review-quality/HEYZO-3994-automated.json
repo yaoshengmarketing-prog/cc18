@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "HEYZO-3994",
+  "checked_at": "2026-11-04T18:04:59.093Z",
+  "review_sha256": "157e2ccd888b636486c50bf9218a7700b82cdd706da530a3acef38227ecc67df",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "現階段並不適合把它判定為劇情密度高的作品。原因不是題材沒有故事空間，而是公開來源並未提供更進一步的人物關係、衝突、轉折或情節摘要。換句話說，我們可以確認它以『在公園邂逅』作為出發點，卻還不能把後續互動、角色變化或關係發展當成已知事實。因此，較穩妥的選片理解，是把它視為一部由設定先"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 3,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "stable_movie_id": "cc18:HEYZO-3994",
+  "slug": "heyzo-3994",
+  "is_demo": false,
+  "source": {
+    "catalog_code": "HEYZO-3994",
+    "source_title": "在公園邂逅的美少女 – 公園女Ｌ",
+    "release_date": "2026-10-29",
+    "source_url": "https://cc18.tv/player.php?uuid=8MKMMpxa92S&cat=19",
+    "source_site_movie_id": "8MKMMpxa92S",
+    "public_description": "在公園邂逅的美少女 – 公園女Ｌ",
+    "source_cover": "https://cc18.tv/preview/80/b/8MKMMpxa92S-800.jpg?v=1793407000",
+    "raw_performer_names": [],
+    "performer_relations": [],
+    "series_relations": [],
+    "tag_relations": [
+      {
+        "source_type": "tag",
+        "source_id": "1",
+        "stable_source_id": "cc18.tv:tag:1",
+        "source_name": "無碼片",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=1",
+        "observed_at": "2026-11-04T17:15:45.542Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "479",
+        "stable_source_id": "cc18.tv:tag:479",
+        "source_name": "720p",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=479",
+        "observed_at": "2026-11-04T17:15:45.542Z"
+      }
+    ],
+    "fac_relations": [],
+    "raw_studio_name": null,
+    "raw_series_names": [],
+    "source_tags": [
+      "無碼片",
+      "720p"
+    ],
+    "source_record_ref": "data/source-records/HEYZO-3994.json",
+    "source_snapshot_ref": null,
+    "source_fetched_at": "2026-11-04T17:15:45.542Z",
+    "source_verified_at": null,
+    "source_parser_version": null
+  },
+  "display": {
+    "performers": []
+  },
+  "titles": {
+    "article_title": "HEYZO-3994 在公園邂逅的美少女 × 高畫質｜在公園邂逅的美少女：以偶遇題材為主的直觀選片",
+    "translated_title_zh_tw": null,
+    "display_short_title": null,
+    "seo_title": "HEYZO-3994 影評｜在公園邂逅的美少女，以偶遇企劃感作為主要看點"
+  },
+  "derived": {
+    "quality_codes": [
+      "HD_720P"
+    ],
+    "duration_seconds": null,
+    "canonical_topic_tag_ids": [
+      "hd"
+    ]
+  },
+  "editorial": {
+    "one_line_summary": "公開資料非常精簡，但也因此更凸顯本作的單點賣點：『在公園邂逅的美少女』。若你偏好一眼就懂的偶遇企劃，這部片具備初步吸引力；若你需要已知演員或更完整劇情資訊，現階段則不算資訊充分。",
+    "article_ref": "content/reviews/HEYZO-3994.md",
+    "article_evidence_level": "PUBLIC_METADATA",
+    "article_evidence_scope": "SOURCE_TITLE_DESCRIPTION_TAGS"
+  },
+  "media": {
+    "remotion_promo_ref": "data/media-manifests/HEYZO-3994.json#/video"
+  },
+  "evidence": {
+    "records": []
+  },
+  "publishing": {
+    "is_published": true,
+    "published_at": "2026-11-04",
+    "canonical_url": "https://jav.com.tw/works/heyzo-3994/",
+    "indexability": "INDEX",
+    "content_hash": "e87eed0ca45dee3c448518857060763e63fc22fcbb821788380f80705fd90c79"
+  },
+  "legacy": {
+    "legacy_published_at": null,
+    "legacy_published_at_semantics": null
+  }
+}

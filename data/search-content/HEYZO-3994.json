@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "movie_id": "HEYZO-3994",
+  "generated_at": "2026-11-04T18:04:58.934Z",
+  "source_snapshot_hash": "sha256:35d5960919be88c161da94cda1d12ac450dd68de044ec96a922423181ff370a3",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若你會被「在公園邂逅的美少女」這種一眼就懂的偶遇題材吸引，HEYZO-3994 的公開資訊已足以成立基本興趣；但若你更在意已知演員、完整劇情或明確角色關係，現階段資料並不充足。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開資訊可確認有高畫質與720p版本訊號",
+      "技術資訊屬輔助條件，主選片理由仍是題材概念"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先被單一句題材概念吸引的選片者",
+      "偏好偶遇式、日常場域入口的企劃型作品的人",
+      "只需要基本畫質資訊與核心設定就能做初步判斷的人"
+    ],
+    "not_for": [
+      "期待先確認演員陣容再決定是否觀看的人",
+      "偏好完整劇情摘要、明確角色關係與衝突設計的人",
+      "想從公開資料判斷表演、場景調度或節奏完成度的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部作品目前最值得參考的賣點是什麼？",
+    "公開資訊是否支持把它看成劇情型作品？",
+    "它比較適合哪一類選片需求？",
+    "技術呈現資訊在這次選片中有多重要？"
+  ]
+}

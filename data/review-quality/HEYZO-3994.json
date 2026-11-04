@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "HEYZO-3994",
+  "review_sha256": "418b9141c76262bd60ec44b6d4b5a2cd69f5a3ccc3077b8cd2c0f0f1a8af2594",
+  "selected_thesis": "若你會被「在公園邂逅的美少女」這種一眼就懂的偶遇題材吸引，HEYZO-3994 的公開資訊已足以成立基本興趣；但若你更在意已知演員、完整劇情或明確角色關係，現階段資料並不充足。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "在公園邂逅的美少女",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "720p",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "在公園邂逅的美少女",
+    "presentation_feature": "高畫質",
+    "editorial_judgment": "把本作視為一部以「偶遇題材」為首要辨識點的選片，重點不放在未知的演員或未公開的劇情細節，而是評估公開資訊中唯一明確的企劃概念，是否足以成立觀看動機。",
+    "source_keywords": [
+      "在公園邂逅的美少女",
+      "高畫質",
+      "720p"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "本作目前最清楚、也最有辨識度的來源線索，就是「在公園邂逅的美少女」這個核心概念；因此選片判斷應優先圍繞偶遇式企劃與其帶來的題材想像。",
+      "basis": "public_source",
+      "signal": "在公園邂逅的美少女"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資料未提供演員姓名、系列歸屬、人物關係或更完整的劇情摘要，代表評論不能把重心建立在角色背景或情節轉折上。",
+      "basis": "public_source",
+      "signal": "演員未知、系列未知、劇情資訊有限"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源同時提供「高畫質」與「720p」等技術呈現資訊，這能作為觀看條件的補充，但不足以取代題材本身成為主賣點。",
+      "basis": "public_source",
+      "signal": "高畫質／720p"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "演員姓名、真實身分與年齡資訊",
+    "具體劇情進展與結局",
+    "人物關係與情感走向",
+    "公園內的實際場景細節與互動畫面",
+    "鏡位、剪輯、聲音、表演細節與節奏完成度評價"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

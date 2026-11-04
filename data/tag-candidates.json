@@ -2454,13 +2454,14 @@
     },
     {
       "label": "無碼片",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "HEYZO-3964",
-        "HEYZO-3939"
+        "HEYZO-3939",
+        "HEYZO-3994"
       ],
       "first_seen": "2026-09-19",
-      "last_seen": "2026-09-22",
+      "last_seen": "2026-11-05",
       "status": "quarantined"
     },
     {
