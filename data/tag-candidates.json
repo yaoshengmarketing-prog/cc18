@@ -687,7 +687,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 39,
+      "occurrences": 40,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -727,10 +727,11 @@
         "PPPE-453",
         "ATID-707",
         "FJIN-171",
-        "DOKS-692"
+        "DOKS-692",
+        "BIJN-290"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "status": "quarantined"
     },
     {
@@ -1203,7 +1204,7 @@
     },
     {
       "label": "玩具",
-      "occurrences": 19,
+      "occurrences": 20,
       "source_ids": [
         "MILK-306",
         "DOKS-689",
@@ -1223,10 +1224,11 @@
         "FSBK-028",
         "ATID-707",
         "MXGS-1451",
-        "MXGS-1449"
+        "MXGS-1449",
+        "BIJN-290"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-05",
       "status": "quarantined"
     },
     {
@@ -1833,13 +1835,14 @@
     },
     {
       "label": "エマニエル",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "MRSS-192",
-        "KSBJ-445"
+        "KSBJ-445",
+        "BIJN-290"
       ],
       "first_seen": "2026-09-15",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-11-05",
       "status": "quarantined"
     },
     {

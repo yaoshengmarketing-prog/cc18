@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-04T17:21:01.908Z",
+  "generated_at": "2026-11-04T17:29:31.031Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 384,
-  "formal_movie_count": 383,
+  "tracked_input_count": 385,
+  "formal_movie_count": 384,
   "demo_count": 1,
-  "published_count": 380,
+  "published_count": 381,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -224,6 +224,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "2b56fa3050cd6e9e848ab0926a6fdb9db85ce4aad381e00f50b4ae3c662f51ae"
+    },
+    {
+      "stable_movie_id": "cc18:BIJN-290",
+      "catalog_code": "BIJN-290",
+      "slug": "bijn-290",
+      "master_path": "data/movie-master/bijn-290.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "d1d9c167f5ba63026708767c8c0478d6cc7428c0fdd2256448cf03f28b266134"
     },
     {
       "stable_movie_id": "cc18:BLOR-309",

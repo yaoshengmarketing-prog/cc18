@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "BIJN-290",
+  "checked_at": "2026-11-04T17:27:43.865Z",
+  "review_sha256": "5e92a8188bfa22be95f40259d6973834a42798dc5406bb6619fe7bbf2dd1a986",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "第一個關鍵不是故事背景，而是「THE」這個核心概念本身。系列名《THE ドキュメント 本能丸出しでする絶頂SEX》已經把作品方向說得很直白：重點在本能外露、刺激直接、企劃標誌鮮明。再加上公開題名概念裡出現「紀錄片」「淫亂MAX狂亂綻放」這類字眼，BIJN-290 給人的第一印象就"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 3
+  }
+}

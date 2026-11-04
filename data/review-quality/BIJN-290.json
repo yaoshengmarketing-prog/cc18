@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "BIJN-290",
+  "review_sha256": "df5882787fa8d2daefaa43a6d12c84aeb9f4b64afe33e4429e0cf6248a06a85d",
+  "selected_thesis": "BIJN-290 最值得把握的不是故事，而是 THE 企劃感如何把人妻題材包裝成一部主題明確、刺激語氣強、適合快速判斷口味的展示型作品。",
+  "title_basis": {
+    "performer": "那賀崎雪音",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "那賀崎雪音",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "THE",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "人妻・主婦",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "THE ドキュメント 本能丸出しでする絶頂SEX",
+        "source_field": "series"
+      }
+    ],
+    "primary_theme": "那賀崎雪音",
+    "presentation_feature": "THE",
+    "editorial_judgment": "把焦點放在「THE」這個核心企劃概念，評估 BIJN-290 是否適合當成以人妻身分包裝、用高刺激宣傳語快速定調的展示型作品來選片。",
+    "source_keywords": [
+      "那賀崎雪音",
+      "THE",
+      "人妻・主婦",
+      "THE ドキュメント 本能丸出しでする絶頂SEX"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "系列名直接標出《THE ドキュメント 本能丸出しでする絶頂SEX》，而公開題名概念又包含「THE」與「紀錄片」，可見企劃感與主題先行，是本作最明確的入口。",
+      "basis": "public_source",
+      "signal": "THE／系列企劃感"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開題名概念另有「淫亂MAX狂亂綻放」與「潮吹」等高刺激字眼，說明宣傳重心偏向強烈欲望與感官強度，而非先建立複雜故事前提。",
+      "basis": "public_source",
+      "signal": "高刺激宣傳語氣"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開簡介寫到「一進入攝影棚，就被初次見面的男人們奪走雙唇，瞬間發情！」，這讓作品的起手式顯得直接，選片時可預期它優先強調立即進入狀態的刺激設定。",
+      "basis": "public_source",
+      "signal": "快速啟動的欲望設定"
+    },
+    {
+      "observation_refs": [],
+      "supports": "另一句公開簡介「因為要拍攝…我今天一直忍著沒自己弄！」，把壓抑後的釋放期待放到前面，進一步強化本作偏展示、偏刺激累積的閱讀方向。",
+      "basis": "public_source",
+      "signal": "壓抑與釋放的前置"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤給出「AV女優片」「人妻・主婦」與「亂交」，讓演員、身份包裝與主要成人題材都很清楚，適合用來快速判斷受眾。",
+      "basis": "public_source",
+      "signal": "人妻身份與多人題材"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將公開簡介延伸為已驗證的實際場景順序或完整劇情。",
+    "未聲稱作品採取特定鏡位、收音、剪輯或紀錄片拍法。",
+    "未把題名中的「潮吹」寫成已確認出現的具體畫面與比例。",
+    "未主張存在明確的主導權轉移、關係轉折或完整角色成長弧線。",
+    "未推定任何未公開的男角身份、私生活背景或現場互動細節。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}
