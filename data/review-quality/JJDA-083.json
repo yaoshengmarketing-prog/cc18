@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "JJDA-083",
+  "review_sha256": "e232887b56e2be42122e3d7d0cd88d50a8faf1eb40b949d5b2efb983b220794c",
+  "selected_thesis": "《JJDA-083》不是靠已知劇情細節取勝，而是靠「故鄉的大嫂」這個核心概念，結合波多野結衣與人妻題材標籤，先建立鮮明的選片理由。",
+  "title_basis": {
+    "performer": "波多野結衣",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "波多野結衣",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "故鄉的大嫂",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "人妻・主婦",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "波多野結衣",
+    "presentation_feature": "故鄉的大嫂",
+    "editorial_judgment": "把《JJDA-083》定位成一部由片名概念先行的人妻企劃：目前最可追溯的可看點不是已知劇情量，而是「故鄉的大嫂」這個角色稱呼與波多野結衣、人妻・主婦標籤共同形成的選片辨識度。",
+    "source_keywords": [
+      "波多野結衣",
+      "故鄉的大嫂",
+      "人妻・主婦",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "片名與核心概念都指向「故鄉的大嫂」，因此本文把選片重點放在企劃設定的辨識度，而不是延伸出未公開的具體劇情。",
+      "basis": "public_source",
+      "signal": "故鄉的大嫂"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開演出者資訊只有波多野結衣，足以成為讀者判斷是否先收入口袋名單的主要入口。",
+      "basis": "public_source",
+      "signal": "波多野結衣"
+    },
+    {
+      "observation_refs": [],
+      "supports": "安全標籤與主題元素都列出「人妻・主婦」，可確認作品包裝方向明確朝已婚女性身分題材靠攏。",
+      "basis": "public_source",
+      "signal": "人妻・主婦"
+    },
+    {
+      "observation_refs": [],
+      "supports": "「巨乳」與「中出」出現在公開標籤中，可作為題材強調方向，但不能被寫成已驗證的具體橋段。",
+      "basis": "public_source",
+      "signal": "巨乳／中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "「720p」「HD」「独占配信」屬於呈現與配信資訊，可補充作品定位，但不足以凌駕企劃核心。",
+      "basis": "public_source",
+      "signal": "HD／獨家配信"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未寫出任何返鄉重逢、家族聚會或鄉間生活等具體場景",
+    "未宣稱片中存在已驗證的親屬互動、婚姻背景或關係轉折",
+    "未描述任何鏡位、剪輯、聲音、表情、演技或身體語言",
+    "未把「巨乳」「中出」等公開標籤延伸成段落順序、演出強度或具體內容",
+    "未發明系列資訊、角色姓名、原創日文標題或其他未提供資料"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

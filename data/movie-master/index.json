@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-04T01:32:18.281Z",
+  "generated_at": "2026-11-04T01:44:15.277Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 371,
-  "formal_movie_count": 370,
+  "tracked_input_count": 372,
+  "formal_movie_count": 371,
   "demo_count": 1,
-  "published_count": 367,
+  "published_count": 368,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1340,6 +1340,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "85d33cbb5c1c69883d875ce805c26638bbceebe791421f066296d2d36e59d733"
+    },
+    {
+      "stable_movie_id": "cc18:JJDA-083",
+      "catalog_code": "JJDA-083",
+      "slug": "jjda-083",
+      "master_path": "data/movie-master/jjda-083.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "4ce3b967f15b7af99fdbf9aa13dbedf48d84e02321d9fa3f9616134924ee2c13"
     },
     {
       "stable_movie_id": "cc18:JUNY-160",
