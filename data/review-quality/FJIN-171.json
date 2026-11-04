@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "FJIN-171",
+  "review_sha256": "ca70883cd08ce4821328249bec7be93c6965531a84b32fdbff956ecd9bba218c",
+  "selected_thesis": "FJIN-171 的核心不是複雜劇情，而是以天馬唯承接一個職場適應失敗、轉入清潔代行打工的人物前史，再回到系列明示的中出公式；它的記憶點因此來自人物失速感與直球企劃之間的反差。",
+  "title_basis": {
+    "performer": "天馬唯",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "天馬唯",
+        "source_field": "actress"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "ヤリ返し精子ブリブリ抜かずの中出し",
+        "source_field": "series"
+      }
+    ],
+    "primary_theme": "天馬唯",
+    "presentation_feature": "中出",
+    "editorial_judgment": "以天馬唯作為核心，從公開介紹裡那條「無法適應公司生活、反覆跳槽、現於清潔代行服務公司打工」的人物前史切入，說明這部作品的選片價值不只在系列明示的中出訴求，也在於日常失速感與強公式企劃之間的反差。",
+    "source_keywords": [
+      "天馬唯",
+      "中出",
+      "ヤリ返し精子ブリブリ抜かずの中出し"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開資訊已明示演員為天馬唯，足以作為本片最穩定的選片核心。",
+      "basis": "public_source",
+      "signal": "天馬唯"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開介紹提供了「無法適應公司生活、反覆跳槽、現在在清潔代行服務公司打工」的人物前史，讓本片不只是抽象主題標籤，而有一個可辨識的角色入口。",
+      "basis": "public_source",
+      "signal": "職場失速／清潔代行設定"
+    },
+    {
+      "observation_refs": [],
+      "supports": "系列名與安全標籤都指向中出，代表成人主題訴求相當直接，對選片者而言辨識成本低。",
+      "basis": "public_source",
+      "signal": "中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源摘錄另帶出「潮吹」這類強烈訴求詞，但僅能視為片名與企劃方向的公開資訊，不能外推為已確認的具體段落。",
+      "basis": "public_source",
+      "signal": "潮吹"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將「潮吹」寫成已確認發生的具體段落或結果",
+    "未推定清潔代行工作的實際場景、客戶類型或事件流程",
+    "未補寫任何未公開的人物關係、職場衝突或報復動機",
+    "未描述鏡位、剪輯、聲音、表情、演技或身體語言",
+    "未以高畫質、720p、獨家配信等規格替代作品主題判斷"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

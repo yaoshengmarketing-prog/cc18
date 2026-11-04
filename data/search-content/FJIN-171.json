@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "movie_id": "FJIN-171",
+  "generated_at": "2026-11-04T09:26:15.574Z",
+  "source_snapshot_hash": "sha256:160ab06f37579ec5c6cf291672e67c9badf7d1b80b276b82beb775c8dc8cb977",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "FJIN-171 的核心不是複雜劇情，而是以天馬唯承接一個職場適應失敗、轉入清潔代行打工的人物前史，再回到系列明示的中出公式；它的記憶點因此來自人物失速感與直球企劃之間的反差。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "演員先行",
+      "系列企劃先行",
+      "人物前史帶出反差感"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先看天馬唯企劃方向的觀眾",
+      "偏好成人主題標示清楚、辨識快速的人",
+      "喜歡作品有一點角色前史來支撐企劃入口的人"
+    ],
+    "not_for": [
+      "期待完整人物關係與明確劇情轉折的人",
+      "想從公開資訊就確認具體場面編排的人",
+      "只看技術規格、不在意企劃設定的人"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MKMP-758",
+      "relation_type": "same_performer",
+      "reason": "同樣由天馬唯出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "天馬唯"
+      ],
+      "contrast_signals": [
+        "篠田優",
+        "濱崎真緒"
+      ]
+    },
+    {
+      "movie_id": "MDBK-429",
+      "relation_type": "same_performer",
+      "reason": "同樣由天馬唯出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "天馬唯"
+      ],
+      "contrast_signals": [
+        "おしゃぶりペット",
+        "角色扮演"
+      ]
+    },
+    {
+      "movie_id": "DVMM-445",
+      "relation_type": "same_performer",
+      "reason": "同樣由天馬唯出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "天馬唯"
+      ],
+      "contrast_signals": [
+        "所以我內射到她滿足為止",
+        "色白デカ尻の家事代行おばさんに即ハメ！"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品最先吸引人的選片點是什麼？",
+    "公開介紹給了哪些人物設定線索？",
+    "系列名稱如何影響期待管理？",
+    "這片比較適合哪一類觀眾先收？"
+  ]
+}

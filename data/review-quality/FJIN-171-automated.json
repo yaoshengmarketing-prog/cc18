@@ -1,0 +1,66 @@
+{
+  "schema_version": 2,
+  "id": "FJIN-171",
+  "checked_at": "2026-11-04T09:26:15.684Z",
+  "review_sha256": "f6c7a504feec6a1825bfb0b7a8b3286a1091268850d612d17287dee1b8e1dd86",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "broad_formulaic_voice",
+    "body_lacks_source_adult_vocabulary",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 3,
+      "paragraph_count": 8,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看公開資訊，FJIN-171 最清楚的切入點有兩個：一是天馬唯，二是被系列名與標籤明示出來的中出主題。前者提供了穩定的演員辨識，後者則讓作品的成人訴求非常直接，幾乎不需要再猜。本片因此不是那種要靠大量背景設定才能進入的作品，而是先用演員與主題把門打開，再看公開介紹是否補出更"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "系列名「ヤリ返し精子ブリブリ抜かずの中出し」本身就很有公式感，公開標籤也再次把中出放在前面。這代表本片的主軸期待其實很明白：它不是以含蓄鋪陳為優先，而是把系列既有訴求直接端出來。另一方面，來源摘錄還帶出「潮吹」這類關鍵詞，顯示企劃在宣傳語氣上走的是強烈、直球的方向。不過就選片判斷"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "如果你看天馬唯時，除了主題本身，也會在意作品有沒有一個足夠好記的角色入口，那 FJIN-171 會比純標籤型企劃更容易留下印象。它目前最有意思的地方，不是公開資料裡那些高畫質、獨家配信、720p之類的呈現規格，而是「清潔代行打工」這條日常勞動設定，如何與系列明白的中出公式形成反差"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 3
+  }
+}
