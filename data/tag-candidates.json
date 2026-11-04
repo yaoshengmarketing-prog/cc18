@@ -929,14 +929,15 @@
     },
     {
       "label": "酒店小姐",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "SNOS-358",
         "SNOS-375",
         "NACT-186",
         "EBWH-373",
         "SORA-657",
-        "FJIN-169"
+        "FJIN-169",
+        "START-649"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-04",
@@ -2738,6 +2739,26 @@
       "occurrences": 1,
       "source_ids": [
         "INSTV-737"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "quarantined"
+    },
+    {
+      "label": "浴室",
+      "occurrences": 1,
+      "source_ids": [
+        "START-649"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "quarantined"
+    },
+    {
+      "label": "ヘルス・ソープ",
+      "occurrences": 1,
+      "source_ids": [
+        "START-649"
       ],
       "first_seen": "2026-11-04",
       "last_seen": "2026-11-04",

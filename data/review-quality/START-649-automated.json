@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "START-649",
+  "checked_at": "2026-11-04T09:58:04.812Z",
+  "review_sha256": "cc4d8a55913b71f91675c55bbf67306739aea90f063e6cd833c0a0fc540ea856",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就目前公開資料來看，START-649 最明確的賣點不是一般化的成人標籤，而是題名直接拋出的「泡泡浴女郎偵探」概念。這種命名本身就有強烈企劃感，能讓人一眼知道作品主打的是角色設定與情境包裝。再加上來源線索中還出現「風祭時姬的推理筆記」這個名稱，本作給人的第一印象更像是先用角色名與"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "公開來源已確認主演為神木麗，這讓本作的選片邏輯變得很直接：如果你本來就會追她的作品，那麼這次最有參考價值的不是泛用標籤，而是她被放進「泡泡浴女郎偵探」這種明顯有角色包裝的企劃裡。也因為目前缺少更多可驗證的情節資訊，神木麗本人的出演就成了主要決策點之一。簡單說，這部片更像是看她如何"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

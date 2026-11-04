@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "START-649",
+  "review_sha256": "67fc659daf6db67e0d78e610950e009c03f798354e20769ab246b057d29be3d6",
+  "selected_thesis": "START-649 最值得注意的不是通用成人標籤，而是「泡泡浴女郎偵探」這個可立即辨識的企劃核心；神木麗的出演則讓它成為一部以角色包裝與概念吸引力取勝的戲劇型選片。",
+  "title_basis": {
+    "performer": "神木麗",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "神木麗",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "泡泡浴女郎偵探",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "戲劇、連續劇",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "神木麗",
+    "presentation_feature": "泡泡浴女郎偵探",
+    "editorial_judgment": "以公開來源可確認的企劃名與角色命名為主軸，將本作定位成「概念先行、角色包裝鮮明」的戲劇型選片，而不是預設它已具備完整可驗證的推理情節。",
+    "source_keywords": [
+      "神木麗",
+      "泡泡浴女郎偵探",
+      "戲劇、連續劇",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "本作最強的辨識點來自公開題名中的「泡泡浴女郎偵探」，而 creative brief 另保留「風祭時姬的推理筆記」與「主演／神木麗」等線索，足以支持它被視為以角色名號與企劃概念帶動興趣的作品。",
+      "basis": "public_source",
+      "signal": "泡泡浴女郎偵探"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標記含有「戲劇、連續劇」，可合理作為選片時判斷其包裝方向偏向戲劇企劃的依據；但在沒有進一步簡介時，仍不宜把它直接寫成高密度劇情已被證實。",
+      "basis": "public_source",
+      "signal": "戲劇、連續劇"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開元素另列「巨乳」，說明本作同時帶有常見成人標籤；不過相較之下，真正區分它與一般作品的仍是「泡泡浴女郎偵探」這個核心概念。",
+      "basis": "public_source",
+      "signal": "巨乳"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開來源可確認主演為神木麗，因此選片說明可以把重心放在她作為企劃入口的吸引力，但不能延伸為已驗證的表演細節。",
+      "basis": "public_source",
+      "signal": "神木麗"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源同時出現 HD、720p 等呈現標記，表示有技術規格資訊可供參考；不過這些標記不足以取代企劃設定本身，較適合作為次要參考。",
+      "basis": "public_source",
+      "signal": "HD／720p"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未宣稱存在具體案件內容、犯人或破案過程",
+    "未宣稱出現任何特定泡泡浴場景、鏡位、聲音或剪輯安排",
+    "未宣稱神木麗的演技、表情或互動節奏已被實際觀察",
+    "未宣稱有明確配角、人物關係或連續劇式多段結構",
+    "未將畫質標記寫成已驗證的觀看品質結論"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-03T16:00:00.000Z"
+}

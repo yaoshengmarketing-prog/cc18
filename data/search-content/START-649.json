@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "movie_id": "START-649",
+  "generated_at": "2026-11-04T09:58:04.706Z",
+  "source_snapshot_hash": "sha256:31f3580b12ace9a15e7d997264800ce6d2989dce4578e102233f2d56784ea1dd",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "如果你是因鮮明設定來選片，START-649 的吸引力很明確：它不是只靠通用成人標籤，而是以「泡泡浴女郎偵探」這個概念與神木麗主演來建立記憶點。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "戲劇、連續劇",
+      "概念先行",
+      "角色名號型企劃",
+      "HD／720p 為次要資訊"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會被明確企劃名稱吸引的觀眾",
+      "本來就關注神木麗新作方向的觀眾",
+      "偏好戲劇包裝或角色設定先行作品的觀眾"
+    ],
+    "not_for": [
+      "期待已被公開證實的完整推理案件內容的觀眾",
+      "只想靠畫質標記決定是否觀看的觀眾",
+      "想先確認具體人物關係與場景配置再選片的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片最值得先看的賣點是什麼？",
+    "它比較像劇情型作品還是展示型企劃？",
+    "神木麗在這部作品中的選片價值在哪裡？",
+    "哪些觀眾會比較適合這一部？"
+  ]
+}
