@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "id": "START-632",
+  "generated_at": "2026-11-05T19:42:50.528Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/START-632.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "渚戀生",
+    "premise": "作品以「渚戀生」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「渚戀生」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "渚戀生",
+      "中出"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "HD",
+      "4k"
+    ]
+  },
+  "angle_candidates": [
+    "以假紀錄片包裝惡作劇，讓「她何時發現安排」成為選片問題。",
+    "會議室、美容院與健身房輪流承接同一個失禁主題，重點在情境如何變換。",
+    "宣傳先交代最後會揭曉設計，讀者的期待因而落在揭曉之前的安排。"
+  ],
+  "selected_thesis": "本作的特點是用假紀錄片串起三種工作情境，並把最後揭曉惡作劇寫進宣傳；選片價值在這套安排，而非單一題材標籤。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "渚戀生",
+      "source_field": "actress"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "identity",
+      "value": "AV女優片",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "渚戀生的假紀錄片失禁惡作劇",
+  "display_short_title": "假紀錄片惡作劇",
+  "title": "先告訴你有局：這場假採訪怎麼安排懸念？",
+  "seo_title": "START-632｜渚戀生的假紀錄片失禁惡作劇",
+  "social_title": "渚戀生這次的宣傳，為何先說破惡作劇？",
+  "short_review": "來源把假採訪、三處工作情境與最後揭曉連成一個企劃。值得注意的是：宣傳已說破「有局」，仍試圖讓人好奇這個局如何展開。實際反應與拍攝效果，不能由簡介確認。",
+  "editorial_angle": "比較宣傳文字中「先讓讀者知道是設計」與「讓片中人物最後才知道」的資訊安排，說明它如何替失禁題材增加選片理由；不把宣傳情節當成已驗證的現場紀錄。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "CC18 作品快照與 SOD 的 2026 年 9 月 29 日作品介紹，都稱企劃以「密著紀錄片」作為假採訪的包裝。",
+      "supports": "假紀錄片是本作宣傳的核心設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "兩份介紹依序列出密室會議室、美容院密著拍攝及健身房訓練，並稱最後才揭曉整體安排。",
+      "supports": "宣傳用多個工作情境串起同一主題，且預告了揭曉時點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "SOD 官方作品介紹：https://news.sod.co.jp/adultvideo/whats-new/142983/；CC18 來源作品頁：https://cc18.tv/player.php?uuid=kJRMGNBvr9I&cat=19",
+      "supports": "本文對企劃的描述可追溯至公開宣傳資料；懸念如何成立是編輯判斷。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "「讀者先知道有局、片中人物最後才知道」是根據宣傳敘述提出的資訊安排比較。",
+    "工作情境的排列只依來源簡介描述，不代表已核實成片段落順序或實際反應。"
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱真實下藥、真實不知情或紀錄片式拍攝經過查證。",
+    "未描述已觀看的畫面、聲音、台詞、剪輯節奏或渚戀生的實際反應。",
+    "沒有以同演員或同系列作品作比較，因提供的 stable ID 關聯作品清單為空。"
+  ],
+  "decision_guide": {
+    "thesis": "若你想看一個先向觀眾說破惡作劇、再用不同工作情境推向揭曉的企劃，這部的宣傳設定有明確辨識度；實際呈現仍須看成片。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "假紀錄片設定",
+      "多個工作情境",
+      "預告最後揭曉"
+    ],
+    "audience_for": [
+      "對惡作劇企劃如何安排資訊與情境有興趣的讀者",
+      "想找以失禁主題貫穿多個場景的讀者"
+    ],
+    "audience_not_for": [
+      "需要先確認真實反應或拍攝過程的讀者",
+      "對下藥與不知情設定感到不適的讀者"
+    ],
+    "questions_answered": [
+      "本作宣傳最具辨識度的安排是什麼？",
+      "會議室、美容院與健身房在簡介中如何相連？",
+      "哪些描述只是來源宣傳，尚非成片觀察？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "明知是局，還會好奇什麼？",
+      "body": "《START-632》的來源簡介一開始就說，渚戀生接受的是偽裝成密著紀錄片的假採訪，也預告她到最後才知道一切經過設計。讀者因此沒有「究竟是不是惡作劇」的懸念；宣傳留下的問題是，這場安排如何從採訪走到揭曉。這是文案的敘事方式，不能據此認定成片中的反應有多真實。"
+    },
+    {
+      "heading": "三個地點，承接同一個主題",
+      "body": "來源接著列出密室會議室、美容院與健身房，讓失禁主題反覆進入不同工作情境。比起單看題材標籤，這份簡介更具體的選片理由，是它試圖用場景變換維持同一個企劃。至於每段如何銜接、篇幅如何分配，公開文字沒有足夠資料可判斷。"
+    },
+    {
+      "heading": "選片判斷與資料範圍",
+      "body": "如果你在意的是惡作劇企劃的資訊安排，這部值得留意：宣傳先讓讀者知道有局，再以最後揭曉作為終點。如果你要確認渚戀生的實際反應、拍攝方式或節奏，簡介無法代替觀看。本文依據 [CC18 作品頁](https://cc18.tv/player.php?uuid=kJRMGNBvr9I&cat=19)與 [SOD 的作品介紹](https://news.sod.co.jp/adultvideo/whats-new/142983/)；選片判斷是對宣傳文字的編輯解讀。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "7e65d604d7e70ddf599b0363a13cbf626e797bac1be081bdbac08401172f9b97",
+    "response_sha256": "7561e3dc0c1dc0dcd12b3c87653aec0c42e7d0187b947cf557426613a3d00300",
+    "research_input_sha256": "1dc60ceaa72ea100e97c32032e34c7707f657bc1e9f8c615467628a951c975fb",
+    "related_source_ids": []
+  }
+}

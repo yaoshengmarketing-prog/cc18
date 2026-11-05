@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:794a7c01877de3a07aa282468978a81ed550b485dde58cebc3f13c405829f336",
-  "source_generated_at": "2026-11-05T16:45:34.199Z",
+  "source_revision": "sha256:081185bc023bb17fe6133225d88a4b6de770531bc58ca0902ac063873fb1908d",
+  "source_generated_at": "2026-11-05T19:49:03.143Z",
   "counts": {
-    "movies": 417,
-    "performers": 327,
+    "movies": 418,
+    "performers": 328,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2898,6 +2898,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:CAWB-069"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28742",
+      "display_name": "渚戀生",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "渚戀生",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:START-632"
       ]
     },
     {
@@ -9880,6 +9891,47 @@
         "article_title": "八蜜凛首次形象影片：從人物出發的靜岡旅館之旅",
         "display_short_title": "八蜜凛《搖曳之夢》",
         "slug": "marr-014"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:START-632",
+        "source_cover": "https://cc18.tv/preview/80/b/kJRMGNBvr9I-800.jpg?v=1790714602",
+        "title": "假紀錄片惡作劇",
+        "catalog_code": "START-632",
+        "release_date": "2026-09-29",
+        "performers": [
+          "渚戀生"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/start-632/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28742"
+      ],
+      "search": {
+        "source_title": "【大量失禁】在工作期間無法去廁所的密室空間被下利尿劑的漏尿惡作劇！尿意達到極限時被中出性交而失禁高潮 渚戀生",
+        "article_title": "先告訴你有局：這場假採訪怎麼安排懸念？",
+        "display_short_title": "假紀錄片惡作劇",
+        "slug": "start-632"
       }
     },
     {

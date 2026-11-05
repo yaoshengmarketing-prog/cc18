@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "movie_id": "START-632",
+  "generated_at": "2026-11-05T19:43:03.405Z",
+  "source_snapshot_hash": "sha256:7e65d604d7e70ddf599b0363a13cbf626e797bac1be081bdbac08401172f9b97",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若你想看一個先向觀眾說破惡作劇、再用不同工作情境推向揭曉的企劃，這部的宣傳設定有明確辨識度；實際呈現仍須看成片。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "假紀錄片設定",
+      "多個工作情境",
+      "預告最後揭曉"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "對惡作劇企劃如何安排資訊與情境有興趣的讀者",
+      "想找以失禁主題貫穿多個場景的讀者"
+    ],
+    "not_for": [
+      "需要先確認真實反應或拍攝過程的讀者",
+      "對下藥與不知情設定感到不適的讀者"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "本作宣傳最具辨識度的安排是什麼？",
+    "會議室、美容院與健身房在簡介中如何相連？",
+    "哪些描述只是來源宣傳，尚非成片觀察？"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "START-632",
+  "review_sha256": "0b0fbcc3751af0fb3521676a7ee538468b1365457a001948379d545dd9bc95ee",
+  "selected_thesis": "本作的特點是用假紀錄片串起三種工作情境，並把最後揭曉惡作劇寫進宣傳；選片價值在這套安排，而非單一題材標籤。",
+  "title_basis": {
+    "performer": "渚戀生",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "渚戀生",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "渚戀生",
+    "presentation_feature": "高畫質",
+    "editorial_judgment": "比較宣傳文字中「先讓讀者知道是設計」與「讓片中人物最後才知道」的資訊安排，說明它如何替失禁題材增加選片理由；不把宣傳情節當成已驗證的現場紀錄。",
+    "source_keywords": [
+      "渚戀生",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "CC18 作品快照與 SOD 的 2026 年 9 月 29 日作品介紹，都稱企劃以「密著紀錄片」作為假採訪的包裝。",
+      "supports": "假紀錄片是本作宣傳的核心設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "兩份介紹依序列出密室會議室、美容院密著拍攝及健身房訓練，並稱最後才揭曉整體安排。",
+      "supports": "宣傳用多個工作情境串起同一主題，且預告了揭曉時點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "SOD 官方作品介紹：https://news.sod.co.jp/adultvideo/whats-new/142983/；CC18 來源作品頁：https://cc18.tv/player.php?uuid=kJRMGNBvr9I&cat=19",
+      "supports": "本文對企劃的描述可追溯至公開宣傳資料；懸念如何成立是編輯判斷。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱真實下藥、真實不知情或紀錄片式拍攝經過查證。",
+    "未描述已觀看的畫面、聲音、台詞、剪輯節奏或渚戀生的實際反應。",
+    "沒有以同演員或同系列作品作比較，因提供的 stable ID 關聯作品清單為空。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-05T16:00:00.000Z"
+}
