@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "movie_id": "ROYD-353",
+  "generated_at": "2026-11-05T15:44:41.578Z",
+  "source_snapshot_hash": "sha256:699d6e776abe5879e036bab9a6ad42a53efffffbb5759c411eabd8b2c115b26f",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "來源以哥兒們般的同窗關係起筆，讓一次意外發現改變兩人往後的相處；適合對熟人關係轉折有興趣的讀者，成片的敘事效果仍未知。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "同大學女同學的熟人設定",
+      "從日常相處寫到後續關係變化"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想看熟悉的同窗關係如何在宣傳故事中轉向親密的人",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "需要先確認實際表演、畫面安排或敘事節奏的人",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "來源用什麼關係作為故事起點？",
+    "這部作品的宣傳轉折落在哪裡？",
+    "哪些選片判斷仍須觀看成片才能回答？"
+  ]
+}

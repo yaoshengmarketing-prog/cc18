@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "ROYD-353",
+  "review_sha256": "bed8e90c156f92336e444f373173bc195bdffd3a03f55fda5155c5428d62532c",
+  "selected_thesis": "這部作品的宣傳特色是把一次意外發現寫成關係的轉折：原本相處隨意的同窗，在那一夜之後開始以不同方式往來。這是簡介提出的故事期待，尚不能當作成片表現的評價。",
+  "title_basis": {
+    "performer": "七海那美",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "七海那美",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "穿著超出想像的成熟內衣",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "ボーイッシュで男友達みたいな女子は想像以上の大人下着とむっち",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "七海那美",
+    "presentation_feature": "穿著超出想像的成熟內衣",
+    "editorial_judgment": "比較簡介的開頭與結尾：開頭強調兩人像哥兒們般相處，結尾則強調那一夜之後持續改變的關係。編輯判斷落在這段前後差異，不把宣傳敘述寫成已觀看的畫面。",
+    "source_keywords": [
+      "七海那美",
+      "穿著超出想像的成熟內衣",
+      "ボーイッシュで男友達みたいな女子は想像以上の大人下着とむっち",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "CC18 來源簡介設定七海那美飾演與敘事者同大學、平時像男性友人般相處的女同學。https://cc18.tv/player.php?uuid=sbliiXmWx9Z&cat=19",
+      "supports": "支持「原本是熟悉且相處隨意的同窗」這個故事起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同一簡介描述敘事者偶然看見女同學的內衣與身體，隨後兩人的親密關係改變。",
+      "supports": "支持宣傳以意外發現作為關係轉折；不證明成片如何拍攝這一刻。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介在一夜之後仍繼續描述兩人的往來，並由敘事者形容女同學變得「越來越有女人味」。",
+      "supports": "支持編輯比較故事前後的相處方式；「有女人味」僅是來源敘事者的形容。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未宣稱看過成片中的表情、鏡位、聲音或台詞。",
+    "未將來源所列日文系列名稱當作已核實的作品原題。",
+    "未以未經 stable ID 核對的其他作品比較七海那美的演出。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-04T16:00:00.000Z"
+}

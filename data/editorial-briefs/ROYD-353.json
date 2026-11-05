@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "id": "ROYD-353",
+  "generated_at": "2026-11-05T15:44:29.517Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/ROYD-353.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "穿著超出想像的成熟內衣",
+    "premise": "作品以「穿著超出想像的成熟內衣」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「穿著超出想像的成熟內衣」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "穿著超出想像的成熟內衣",
+      "擁有肉感爆乳的完美身材",
+      "七海那美"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "女大學生"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "口交"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "angle_candidates": [
+    "來源簡介從日常玩伴寫到一夜之後的持續親密，選片重點是熟人關係如何被重新定義。",
+    "「像男性友人」與成熟內衣的落差，是來源用來啟動故事的宣傳設定。",
+    "簡介最後以女同學「越來越有女人味」描述變化，值得辨認這是敘事者的看法，並非演員本人的經歷。"
+  ],
+  "selected_thesis": "這部作品的宣傳特色是把一次意外發現寫成關係的轉折：原本相處隨意的同窗，在那一夜之後開始以不同方式往來。這是簡介提出的故事期待，尚不能當作成片表現的評價。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "七海那美",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "穿著超出想像的成熟內衣",
+      "source_field": "title"
+    },
+    {
+      "type": "series",
+      "value": "ボーイッシュで男友達みたいな女子は想像以上の大人下着とむっち",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "七海那美與像哥兒們的女同學",
+  "display_short_title": "哥兒們女同學的關係變調",
+  "title": "那一夜之後，熟人的相處方式怎麼變？",
+  "seo_title": "ROYD-353｜七海那美與像哥兒們的女同學：關係變調的選片角度",
+  "social_title": "七海那美這次的故事，從熟人關係變調開始",
+  "short_review": "來源簡介先建立毫不拘束的同窗關係，再用一次意外發現推動兩人往後的相處變化。若你想找有明確關係轉折的企劃，這是可辨認的選片理由；實際演出與節奏仍待看成片。",
+  "editorial_angle": "比較簡介的開頭與結尾：開頭強調兩人像哥兒們般相處，結尾則強調那一夜之後持續改變的關係。編輯判斷落在這段前後差異，不把宣傳敘述寫成已觀看的畫面。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "CC18 來源簡介設定七海那美飾演與敘事者同大學、平時像男性友人般相處的女同學。https://cc18.tv/player.php?uuid=sbliiXmWx9Z&cat=19",
+      "supports": "支持「原本是熟悉且相處隨意的同窗」這個故事起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同一簡介描述敘事者偶然看見女同學的內衣與身體，隨後兩人的親密關係改變。",
+      "supports": "支持宣傳以意外發現作為關係轉折；不證明成片如何拍攝這一刻。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介在一夜之後仍繼續描述兩人的往來，並由敘事者形容女同學變得「越來越有女人味」。",
+      "supports": "支持編輯比較故事前後的相處方式；「有女人味」僅是來源敘事者的形容。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "「相處規則改變」是對來源簡介前後段落的編輯歸納，不是新增情節。",
+    "文中的關係與女同學身分均屬作品宣傳設定，不延伸為七海那美的真實經歷。"
+  ],
+  "unsupported_claims_excluded": [
+    "未宣稱看過成片中的表情、鏡位、聲音或台詞。",
+    "未將來源所列日文系列名稱當作已核實的作品原題。",
+    "未以未經 stable ID 核對的其他作品比較七海那美的演出。"
+  ],
+  "decision_guide": {
+    "thesis": "來源以哥兒們般的同窗關係起筆，讓一次意外發現改變兩人往後的相處；適合對熟人關係轉折有興趣的讀者，成片的敘事效果仍未知。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "同大學女同學的熟人設定",
+      "從日常相處寫到後續關係變化"
+    ],
+    "audience_for": [
+      "想看熟悉的同窗關係如何在宣傳故事中轉向親密的人",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "需要先確認實際表演、畫面安排或敘事節奏的人",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "來源用什麼關係作為故事起點？",
+      "這部作品的宣傳轉折落在哪裡？",
+      "哪些選片判斷仍須觀看成片才能回答？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "從不用客氣的同窗開始",
+      "body": "[ROYD-353 的來源簡介](https://cc18.tv/player.php?uuid=sbliiXmWx9Z&cat=19)先把七海那美飾演的女同學寫成一位像男性友人般、相處時不用客氣的熟人。這個起點讓後來的意外發現有了分量：敘事者驚訝的，不只是她平時未展現的一面，也包括自己原先看待兩人關係的方式。"
+    },
+    {
+      "heading": "轉折之後，文案還往前走了一步",
+      "body": "來源沒有在那一夜收尾，而是接著說兩人的往來持續改變。我的選片判斷因此落在簡介的前後差異：一段原本自在的同窗關係，被宣傳寫成需要重新認識的親密關係。文案所說的「越來越有女人味」是敘事者的形容，不能拿來描述演員本人。"
+    },
+    {
+      "heading": "選片時能確定什麼",
+      "body": "如果你對熟人關係變調的故事設定有興趣，這份簡介給了明確理由。至於轉折拍得是否自然、後續關係有多少篇幅，以及實際演出和節奏如何，來源文字都不足以回答。這篇判斷依據公開簡介，沒有使用影片抽樣；提供的 stable ID 關聯作品清單也沒有可比較的作品。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "699d6e776abe5879e036bab9a6ad42a53efffffbb5759c411eabd8b2c115b26f",
+    "response_sha256": "03db35d005c729e7f72ac82e74134a642d0496fe1010e61d0a1c89fca1e71d0e",
+    "research_input_sha256": "a6cedf4812cd79b191ed4a6a6654abc38f62e290a49922f7ce54931b2d1f86b1",
+    "related_source_ids": []
+  }
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:6b4bff65081333c74c5dcae5d6b6ccfb879a796ac6410104df98e8b7ca35b756",
-  "source_generated_at": "2026-11-05T14:47:45.762Z",
+  "source_revision": "sha256:5ad7bbbd99ee0983eb98927aad56494f995d1e1a00049698f08de607ee3845fc",
+  "source_generated_at": "2026-11-05T15:49:43.315Z",
   "counts": {
-    "movies": 415,
-    "performers": 325,
+    "movies": 416,
+    "performers": 326,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -80,6 +80,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:CPZ69-015"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:30106",
+      "display_name": "七海那美",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "七海那美",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:ROYD-353"
       ]
     },
     {
@@ -9857,6 +9868,59 @@
         "article_title": "八蜜凛首次形象影片：從人物出發的靜岡旅館之旅",
         "display_short_title": "八蜜凛《搖曳之夢》",
         "slug": "marr-014"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:ROYD-353",
+        "source_cover": "https://cc18.tv/preview/80/b/sbliiXmWx9Z-800.jpg?v=1790709582",
+        "title": "哥兒們女同學的關係變調",
+        "catalog_code": "ROYD-353",
+        "release_date": "2026-09-25",
+        "performers": [
+          "七海那美"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "college-student",
+            "label": "女大學生"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/royd-353/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:30106"
+      ],
+      "search": {
+        "source_title": "像男孩子一樣像男性友人的女孩，穿著超出想像的成熟內衣，擁有肉感爆乳的完美身材 七海那美",
+        "article_title": "那一夜之後，熟人的相處方式怎麼變？",
+        "display_short_title": "哥兒們女同學的關係變調",
+        "slug": "royd-353"
       }
     },
     {
