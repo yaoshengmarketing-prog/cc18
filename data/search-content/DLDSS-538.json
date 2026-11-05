@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "movie_id": "DLDSS-538",
+  "generated_at": "2026-11-05T11:43:28.343Z",
+  "source_snapshot_hash": "sha256:d6936680e733416629f81d724b598619bf55cb3b0f814665919d5fbd3dbc5863",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "來源讓別莊同時保存角色與丈夫僅有的美好回憶，以及她與丈夫部下相遇的記憶；現在的等候使密會帶上重返舊地的關係張力。適合想看帶有沉重前提的角色設定者，成片如何處理仍未知。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以別莊串連兩段關係的宣傳設定",
+      "喪偶與家暴構成角色背景",
+      "同演員作品的公開簡介對照"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "對舊地重逢與複雜關係設定有興趣的讀者",
+      "會根據公開故事前提選片的讀者"
+    ],
+    "not_for": [
+      "想避開家暴與喪偶題材的讀者",
+      "需要先確認實際畫面、表演或節奏才決定是否觀看的讀者"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "DLDSS-552",
+      "relation_type": "same_performer",
+      "reason": "同樣由小澤菜穗出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "小澤菜穗"
+      ],
+      "contrast_signals": [
+        "小沢菜穂",
+        "こんなおばさんでもナマでしてくれますか？"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品的別莊設定有何特別？",
+    "角色為何在別莊等候羽田？",
+    "它與同演員的 DLDSS-552 在見面設定上有何差異？"
+  ]
+}

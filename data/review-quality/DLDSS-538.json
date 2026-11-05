@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "DLDSS-538",
+  "review_sha256": "99b42f1e549b79df5ccfd27d520789120a4a886dfa3b7826e353f2ccda9b36eb",
+  "selected_thesis": "本作最鮮明的設定是讓別莊同時連著婚姻中僅存的美好回憶，以及與丈夫部下的相遇。來源寫她如今獨自在那裡等候，使「密會」帶有回到舊地面對兩段關係的意味；這是對宣傳文字的解讀，並非成片觀察。",
+  "title_basis": {
+    "performer": "小澤菜穗",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "小澤菜穗",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "未亡人",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "小澤菜穗",
+    "presentation_feature": "未亡人",
+    "editorial_judgment": "以別莊的雙重意義切入：它保存新婚回憶，也見證角色與丈夫部下的相遇。對照同一演員的 DLDSS-552，可看出本作的見面動機由舊地與婚姻記憶建立，而非社群媒體帶來的認可。兩者差異只根據公開簡介判斷。",
+    "source_keywords": [
+      "小澤菜穗",
+      "未亡人",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "DLDSS-538 來源簡介稱，角色遭受丈夫家暴，與丈夫僅有的美好回憶是新婚時造訪的別莊。來源：https://cc18.tv/player.php?uuid=2cdY76arEfq&cat=19",
+      "supports": "別莊不是泛用場景；來源賦予它一段與婚姻相連、同時帶有矛盾的回憶。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同一份簡介稱，角色在別莊遇見丈夫的部下羽田，並在丈夫離世後獨自在此等候他。",
+      "supports": "同一地點連起過去的婚姻、另一段相遇與現在的等候，是本作的主要選片角度。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "經 cc18.tv:actor:6771 核對的 DLDSS-552 簡介，寫角色從社群媒體獲得認可，之後與年輕人在飯店見面。來源：https://cc18.tv/player.php?uuid=4hvhUOyCIcN&cat=19",
+      "supports": "同演員作品的公開設定可作對照：兩作都寫到赴約，本作特別以舊地與婚姻記憶交代赴約背景。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不推定小澤菜穗的真實婚姻或個人經歷與角色設定相同。",
+    "不聲稱已看到別莊畫面、表演細節、聲音、台詞或結局。",
+    "不把羽田所謂的「救贖」寫成已獲成片證實的關係結果。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-04T16:00:00.000Z"
+}

@@ -1027,7 +1027,7 @@
     },
     {
       "label": "熟女",
-      "occurrences": 19,
+      "occurrences": 20,
       "source_ids": [
         "JUR-862",
         "JUR-850",
@@ -1047,10 +1047,11 @@
         "KSBJ-445",
         "JUR-866",
         "JUR-865",
-        "DLDSS-565"
+        "DLDSS-565",
+        "DLDSS-538"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-05",
       "status": "quarantined"
     },
     {
@@ -2907,6 +2908,16 @@
       "occurrences": 1,
       "source_ids": [
         "DFE-118"
+      ],
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "status": "quarantined"
+    },
+    {
+      "label": "寡婦",
+      "occurrences": 1,
+      "source_ids": [
+        "DLDSS-538"
       ],
       "first_seen": "2026-11-05",
       "last_seen": "2026-11-05",

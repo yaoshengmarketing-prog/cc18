@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "id": "DLDSS-538",
+  "generated_at": "2026-11-05T11:43:17.686Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/DLDSS-538.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "未亡人",
+    "premise": "作品以「未亡人」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「未亡人」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "未亡人",
+      "禁忌的“密會",
+      "追憶的中出別莊",
+      "小澤菜穗",
+      "中出",
+      "寡婦"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "人妻・主婦"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "HD",
+      "4k"
+    ]
+  },
+  "angle_candidates": [
+    "同一座別莊既是婚姻中僅存的美好回憶，也是遇見丈夫部下的地方；她再次回到此處等待，讓場景承擔兩段關係的拉扯。",
+    "來源以家暴與喪偶交代角色處境，再把「救贖」放在丈夫部下身上；選片重點是這種沉重前提如何被用來建立密會設定。",
+    "同演員的 DLDSS-552 從社群媒體上的認可走向飯店見面，本作則從舊日回憶走向別莊重逢；兩份簡介給出了不同的見面理由。"
+  ],
+  "selected_thesis": "本作最鮮明的設定是讓別莊同時連著婚姻中僅存的美好回憶，以及與丈夫部下的相遇。來源寫她如今獨自在那裡等候，使「密會」帶有回到舊地面對兩段關係的意味；這是對宣傳文字的解讀，並非成片觀察。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "小澤菜穗",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "未亡人",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "identity",
+      "value": "AV女優片",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "小澤菜穗的未亡人密會：重返回憶中的別莊",
+  "display_short_title": "重返別莊的未亡人",
+  "title": "同一座別莊，為何牽住兩段相反的回憶？",
+  "seo_title": "DLDSS-538｜小澤菜穗重返別莊的未亡人密會",
+  "social_title": "她在別莊等候的人，不是留下回憶的丈夫",
+  "short_review": "來源把別莊寫成角色與丈夫僅存的美好回憶，也是她遇見丈夫部下之處。她再次在此等候，讓這部作品的選片理由落在同一地點承載的關係拉扯。家暴、喪偶與「救贖」都是宣傳設定；實際敘事與呈現仍待觀看確認。",
+  "editorial_angle": "以別莊的雙重意義切入：它保存新婚回憶，也見證角色與丈夫部下的相遇。對照同一演員的 DLDSS-552，可看出本作的見面動機由舊地與婚姻記憶建立，而非社群媒體帶來的認可。兩者差異只根據公開簡介判斷。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "DLDSS-538 來源簡介稱，角色遭受丈夫家暴，與丈夫僅有的美好回憶是新婚時造訪的別莊。來源：https://cc18.tv/player.php?uuid=2cdY76arEfq&cat=19",
+      "supports": "別莊不是泛用場景；來源賦予它一段與婚姻相連、同時帶有矛盾的回憶。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同一份簡介稱，角色在別莊遇見丈夫的部下羽田，並在丈夫離世後獨自在此等候他。",
+      "supports": "同一地點連起過去的婚姻、另一段相遇與現在的等候，是本作的主要選片角度。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "經 cc18.tv:actor:6771 核對的 DLDSS-552 簡介，寫角色從社群媒體獲得認可，之後與年輕人在飯店見面。來源：https://cc18.tv/player.php?uuid=4hvhUOyCIcN&cat=19",
+      "supports": "同演員作品的公開設定可作對照：兩作都寫到赴約，本作特別以舊地與婚姻記憶交代赴約背景。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "「別莊承載兩段關係的拉扯」是根據來源簡介作出的編輯比較，不代表已觀看成片。",
+    "DLDSS-552 僅作同 stable 演員 ID 的宣傳設定對照；兩作角色與情節不視為相連。"
+  ],
+  "unsupported_claims_excluded": [
+    "不推定小澤菜穗的真實婚姻或個人經歷與角色設定相同。",
+    "不聲稱已看到別莊畫面、表演細節、聲音、台詞或結局。",
+    "不把羽田所謂的「救贖」寫成已獲成片證實的關係結果。"
+  ],
+  "decision_guide": {
+    "thesis": "來源讓別莊同時保存角色與丈夫僅有的美好回憶，以及她與丈夫部下相遇的記憶；現在的等候使密會帶上重返舊地的關係張力。適合想看帶有沉重前提的角色設定者，成片如何處理仍未知。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以別莊串連兩段關係的宣傳設定",
+      "喪偶與家暴構成角色背景",
+      "同演員作品的公開簡介對照"
+    ],
+    "audience_for": [
+      "對舊地重逢與複雜關係設定有興趣的讀者",
+      "會根據公開故事前提選片的讀者"
+    ],
+    "audience_not_for": [
+      "想避開家暴與喪偶題材的讀者",
+      "需要先確認實際畫面、表演或節奏才決定是否觀看的讀者"
+    ],
+    "questions_answered": [
+      "這部作品的別莊設定有何特別？",
+      "角色為何在別莊等候羽田？",
+      "它與同演員的 DLDSS-552 在見面設定上有何差異？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "別莊為何不只是密會地點？",
+      "body": "DLDSS-538 的來源簡介先寫丈夫離世與婚姻中的家暴，再說角色與丈夫僅有的美好回憶，是新婚時到過的別莊。她也在這裡遇見丈夫的部下羽田，如今又獨自在此等他。把三個時間點放在同一地點，讓這次等候有了具體的過去可回望。這是簡介安排的關係張力，還不能據此判斷影片如何呈現。"
+    },
+    {
+      "heading": "與同演員另一部作品相比",
+      "body": "同樣由小澤菜穗出演的 DLDSS-552，也在公開簡介中寫到與人見面，但它從社群媒體上的認可開始，最後把見面地點設在飯店。DLDSS-538 的理由則繫於別莊：那裡同時留著婚姻回憶與遇見羽田的記憶。兩份文案都給了赴約一個前因，本作更值得留意的是舊地如何被用來牽動現在的選擇。"
+    },
+    {
+      "heading": "我的選片判斷",
+      "body": "若你在意角色設定與場景之間的關係，這部的別莊比單看「密會」二字更有辨識度。若你想避開家暴、喪偶題材，來源已清楚交代這些前提；若你需要知道實際敘事分量或節奏，公開簡介還不足以回答。以上判斷依據是 [DLDSS-538 來源作品頁](https://cc18.tv/player.php?uuid=2cdY76arEfq&cat=19) 與 [DLDSS-552 來源作品頁](https://cc18.tv/player.php?uuid=4hvhUOyCIcN&cat=19) 的文字，沒有影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "d6936680e733416629f81d724b598619bf55cb3b0f814665919d5fbd3dbc5863",
+    "response_sha256": "9d574f5d811fa7e07158544e72db5ee04fbc55a40e3fcbcb9ab9b7035f92dfea",
+    "research_input_sha256": "e4649e9949a43bb94e756c9f5936f3c1aff4584ef9d37a2b9d021ef594948194",
+    "related_source_ids": [
+      "DLDSS-552"
+    ]
+  }
+}
