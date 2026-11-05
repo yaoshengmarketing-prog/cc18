@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "movie_id": "MMPB-144",
+  "generated_at": "2026-11-02T15:56:02.339Z",
+  "source_snapshot_hash": "sha256:9f32c4a1f16d619552bab7c813f3ff3503ee84fb15ea36045e47ca2c7724c7fc",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若你是先看題材與出演陣容再決定作品的人，MMPB-144 的吸引力相當直接；但若你期待完整劇情與明確人物關係，現有公開資訊不足以支持那種觀看預期。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "美少女主題",
+      "角色扮演",
+      "多演員陣容",
+      "親吻與中出等公開標籤操作面向明確之企劃作品"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會依演員名單選片的觀眾",
+      "偏好美少女主題與角色扮演組合的人",
+      "把作品視為企劃展示來觀看的觀眾"
+    ],
+    "not_for": [
+      "優先尋找完整故事線與明確人物關係的觀眾",
+      "期待單一主演深度鋪陳的觀眾",
+      "想先確認具體場景與表演細節再決定的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MKMP-758",
+      "relation_type": "same_performer",
+      "reason": "同樣由美園和花、一條美緒、松本一香、沙月恵奈、天馬唯、流川莉央、逢澤美優出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "美園和花",
+        "一條美緒",
+        "松本一香",
+        "沙月恵奈"
+      ],
+      "contrast_signals": [
+        "篠田優",
+        "濱崎真緒"
+      ]
+    },
+    {
+      "movie_id": "MDBK-429",
+      "relation_type": "same_performer",
+      "reason": "同樣由天馬唯、桜ゆの出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "天馬唯",
+        "桜ゆの"
+      ],
+      "contrast_signals": [
+        "おしゃぶりペット",
+        "角色扮演"
+      ]
+    },
+    {
+      "movie_id": "FCDSS-117",
+      "relation_type": "same_performer",
+      "reason": "同樣由沙月恵奈出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "沙月恵奈"
+      ],
+      "contrast_signals": [
+        "天使萌",
+        "吉高寧寧"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這片最明確的賣點是什麼？",
+    "多位演員名單如何影響選片判斷？",
+    "本作比較像劇情片還是展示型企劃？",
+    "哪些觀眾適合，哪些期待可能落空？"
+  ]
+}

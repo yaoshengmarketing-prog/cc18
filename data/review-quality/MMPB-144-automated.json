@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "id": "MMPB-144",
+  "checked_at": "2026-11-05T12:22:41.311Z",
+  "review_sha256": "e533450cd0f74a1948b3cbc9df8a8ca2908b6dd3341f06ce0d3043d7e130d7d4",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "title_lacks_primary_source_adult_topic",
+    "insufficient_sections",
+    "insufficient_evidence",
+    "missing_source_specific_title_concept"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "公開資訊裡最清楚、也最能直接影響選片的，是「美少女」這個核心概念。本作同時列出「角色扮演」「親吻」「中出」等題材標籤，因此它的入口非常明確：不是先用故事摘要吸引人，而是先用主題與操作面向界定作品方向。對習慣先看題材標籤的觀眾來說，這種資訊已經足以判斷是否對味。"
+        }
+      ]
+    },
+    {
+      "code": "title_lacks_primary_source_adult_topic",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "missing_source_specific_title_concept",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 3,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 3
+  }
+}
