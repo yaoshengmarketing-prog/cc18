@@ -194,6 +194,9 @@ function normalizedSections(raw, review) {
 function normalizedDecisionGuide(rawGuide, raw, brief, sourceSignals, angleCandidates) {
   const guide = rawGuide && typeof rawGuide === 'object' ? rawGuide : {};
   const nested = brief.decision_guide && typeof brief.decision_guide === 'object' ? brief.decision_guide : {};
+  const presentation = Array.isArray(guide.presentation) ? guide.presentation
+    : typeof guide.presentation === 'string' && guide.presentation.trim() ? [guide.presentation]
+      : sourceSignals.map(({value}) => value);
   const arrayOr = (...values) => values.find((value) => Array.isArray(value) && value.length) ?? [];
   const comparisons = Array.isArray(guide.compare_by_need) ? guide.compare_by_need : [];
   let questions = comparisons.map((item) => typeof item === 'string'
@@ -223,7 +226,7 @@ function normalizedDecisionGuide(rawGuide, raw, brief, sourceSignals, angleCandi
     thesis: clip(thesis, 260),
     story_density: guide.story_density ?? 'unknown',
     pace: guide.pace ?? 'unknown',
-    presentation: (guide.presentation ?? sourceSignals.map(({value}) => value)).map((value) => clip(value, 40)).filter(Boolean).slice(0, 4),
+    presentation: presentation.map((value) => clip(value, 40)).filter(Boolean).slice(0, 4),
     audience_for: audienceFor.map((value) => clip(value, 120)).filter(Boolean).slice(0, 4),
     audience_not_for: audienceNotFor.map((value) => clip(value, 120)).filter(Boolean).slice(0, 4),
     questions_answered: arrayOr(guide.questions_answered, questions).map((value) => clip(value, 120)).filter(Boolean).slice(0, 6),

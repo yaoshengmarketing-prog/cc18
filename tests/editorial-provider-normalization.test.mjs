@@ -36,6 +36,14 @@ test('an empty response cannot qualify as source commentary through derived evid
     safeVideoAnalysis, sourceOnly: true}).downgraded, true);
 });
 
+test('normalizes a single presentation sentence from a Codex decision guide', () => {
+  const normalized = normalizeEditorialResult({decision_guide: {presentation: '來源強調人物與場景設定'}}, {
+    movieId: 'TEST-022', safePublicSource: {safe_title_signals: [{type: 'theme', value: '人物企劃'}]},
+    safeVideoAnalysis: {observations: []},
+  });
+  assert.deepEqual(normalized.decision_guide.presentation, ['來源強調人物與場景設定']);
+});
+
 test('extracts the first complete JSON object and ignores gateway trailing prose', () => {
   assert.deepEqual(parseFirstJsonObject('```json\n{"ok":true}\n``` trailing'), {ok: true});
 });
