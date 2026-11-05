@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "movie_id": "NVH-090",
+  "generated_at": "2026-11-05T04:01:20.569Z",
+  "source_snapshot_hash": "sha256:053bd3d358b260b971a5b2c685f1ee6d30e496d30df40398c72b9f1e3782cdde",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "這是一部由「女子校×變性人」設定主導、四位演出者名單輔助判斷的系列企劃型作品，適合先看題材是否對味，再決定是否入手。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "題材標示明確",
+      "系列命名先行",
+      "演員名單可作入口",
+      "高畫質與獨家配信屬輔助訊號"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先看題材設定是否命中的觀眾",
+      "對菊池春、愛那あい、常夏もか、詩奈キキ名單有興趣的人",
+      "偏好系列概念鮮明作品的人"
+    ],
+    "not_for": [
+      "想先確認完整劇情梗概再決定的人",
+      "期待公開資料已交代明確人物關係與情節轉折的人",
+      "只把技術規格當成主要選片理由的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片最明確的賣點是什麼？",
+    "演員陣容在選片時有多重要？",
+    "該把期待放在劇情還是題材設定？",
+    "哪些觀眾較可能買單？"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "NVH-090",
+  "review_sha256": "24d16706d1e364c9e9b889eb58304bbf9c07b32769e7ddbb9eaf6bcaa18c75a3",
+  "selected_thesis": "這是一部由「女子校×變性人」設定主導、四位演出者名單輔助判斷的系列企劃型作品，適合先看題材是否對味，再決定是否入手。",
+  "title_basis": {
+    "performer": "菊池春、愛那あい、常夏もか、詩奈キキ",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "菊池春",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "愛那あい",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "女子校の性的レズ虐めにあったドマゾニューハーフ",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "變性人",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "菊池春",
+    "presentation_feature": "愛那あい",
+    "editorial_judgment": "把這部作品放回公開可見的選片線索來看，最有辨識度的不是未知的細節情節，而是系列名稱直接拋出的女子校與變性人題材，再由四位演出者名單與配信規格補強入口。",
+    "source_keywords": [
+      "菊池春",
+      "愛那あい",
+      "女子校の性的レズ虐めにあったドマゾニューハーフ",
+      "變性人"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "將本作定位為以題材設定先行的系列作品。",
+      "basis": "public_source",
+      "signal": "系列名「女子校の性的レズ虐めにあったドマゾニューハーフ」直接提供女子校與變性人兩個高辨識度入口。"
+    },
+    {
+      "observation_refs": [],
+      "supports": "演員名單是實際可用的第二層選片依據。",
+      "basis": "public_source",
+      "signal": "公開演出者為菊池春、愛那あい、常夏もか、詩奈キキ，共四位。"
+    },
+    {
+      "observation_refs": [],
+      "supports": "技術與發行資訊可作輔助，但不足以取代題材本身。",
+      "basis": "public_source",
+      "signal": "safe_title_signals與topic_elements列出高畫質、獨家配信、720p／HD等呈現訊號。"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未主張存在可驗證的完整劇情梗概或角色成長線。",
+    "未主張已知具體人物關係、場景配置、鏡位、剪輯、聲音或表演細節。",
+    "未將高畫質與獨家配信誇大為作品核心內容。",
+    "未替未公開的演出者背景、年齡或真實身份補寫資料。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-04T16:00:00.000Z"
+}

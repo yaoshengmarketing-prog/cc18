@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "NVH-090",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-05T04:02:36.778Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/NVH-090/hero-v1.jpg",
+      "r2_key": "works/2026/10/NVH-090/hero-v1.jpg",
+      "bytes": 1161181,
+      "sha256": "87478fad8848a789ae52629e1d042d03a85378240451ccc8d321adf26bf24ffb",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "2ec24aeb241144ba9f90849528a7629c",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 角色成長, 互動節奏, 關係轉折. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/NVH-090/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/NVH-090/scene-vertical-v1.jpg",
+      "bytes": 925504,
+      "sha256": "2f6e81a0e18a594c467ca85e22953dbbbc75822239b937313d304d8a7764c321",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "7efa7c8b05934aae90dd7a093115dec2",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 角色成長, 互動節奏, 關係轉折. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2594670,
+    "sha256": "6127b6770e7f393a389c37eccc9276cc8f33ea30240babcb9ab9e07c13b43038",
+    "target_r2_key": "works/2026/10/NVH-090/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/NVH-090/vertical-v1.mp4"
+  }
+}

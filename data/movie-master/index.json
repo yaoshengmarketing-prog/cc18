@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-05T03:56:40.816Z",
+  "generated_at": "2026-11-05T04:03:46.490Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 403,
-  "formal_movie_count": 402,
+  "tracked_input_count": 404,
+  "formal_movie_count": 403,
   "demo_count": 1,
-  "published_count": 399,
+  "published_count": 400,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2375,6 +2375,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "7c70e6aadcfebfdc1783051c723a4a51cd8f2dd9d7dac016c6d08354194649c8"
+    },
+    {
+      "stable_movie_id": "cc18:NVH-090",
+      "catalog_code": "NVH-090",
+      "slug": "nvh-090",
+      "master_path": "data/movie-master/nvh-090.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "9827dbb9936583ee672e02c4ffaf25ed8d588bae3e941ab6a4c19d622d17c8f6"
     },
     {
       "stable_movie_id": "cc18:OAE-315",

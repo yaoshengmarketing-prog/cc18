@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:eb7a0cd1f071dfc077b9b0a5780f13b6f73ba97d596f097dffba4aa1d9d600bf",
-  "source_generated_at": "2026-11-05T03:56:40.816Z",
+  "source_revision": "sha256:4e03a840aaeeb9777a2666c5db8b924af1accad1973d11c612077f497a71aae8",
+  "source_generated_at": "2026-11-05T04:03:46.490Z",
   "counts": {
-    "movies": 399,
-    "performers": 319,
+    "movies": 400,
+    "performers": 323,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2681,6 +2681,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:53440",
+      "display_name": "常夏もか",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "常夏もか",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:NVH-090"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:29110",
       "display_name": "彩月七緒",
       "display_name_zh_tw": null,
@@ -3090,6 +3101,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:28895",
+      "display_name": "菊池春",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "菊池春",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:NVH-090"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:54224",
       "display_name": "園梨音",
       "display_name_zh_tw": null,
@@ -3120,6 +3142,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:IPZZ-943"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53265",
+      "display_name": "愛那あい",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "愛那あい",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:NVH-090"
       ]
     },
     {
@@ -3220,6 +3253,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:UMD-1019"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53657",
+      "display_name": "詩奈キキ",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "詩奈キキ",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:NVH-090"
       ]
     },
     {
@@ -4298,6 +4342,49 @@
         "article_title": "MOPP-128 宮野桜｜癡女企劃下的宮野櫻展示型選片",
         "display_short_title": null,
         "slug": "mopp-128"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:NVH-090",
+        "source_cover": "https://cc18.tv/preview/80/b/xxse8lFSC9o-800.jpg?v=1793824671",
+        "title": "NVH-090 菊池春、愛那あい、常夏もか、詩奈キキ｜等人｜女子校×變性人設定：系列概念先行的選片",
+        "catalog_code": "NVH-090",
+        "release_date": "2026-10-31",
+        "performers": [
+          "菊池春",
+          "愛那あい",
+          "常夏もか",
+          "詩奈キキ"
+        ],
+        "canonical_topics": [
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "transgender",
+            "label": "變性人"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/nvh-090/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28895",
+        "cc18.tv:actor:53265",
+        "cc18.tv:actor:53440",
+        "cc18.tv:actor:53657"
+      ],
+      "search": {
+        "source_title": "在女子學校遭受性愛蕾絲虐待的抖M偽娘 常夏萌花/愛那藍/詩奈Kiki/菊池春",
+        "article_title": "NVH-090 菊池春、愛那あい、常夏もか、詩奈キキ｜等人｜女子校×變性人設定：系列概念先行的選片",
+        "display_short_title": null,
+        "slug": "nvh-090"
       }
     },
     {
