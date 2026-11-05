@@ -143,6 +143,11 @@ try {
   git(['fetch', '--quiet', 'origin', 'main']);
   const config = JSON.parse(git(['show', 'origin/main:config/pipeline.json']));
   if (config.production?.editorial_executor !== 'local_codex') throw new Error('Local Codex Editorial cutover is not enabled on origin/main');
+  const login = spawnSync('codex.exe', ['login', 'status'], {cwd: root, encoding: 'utf8', windowsHide: true});
+  if (login.error || login.status !== 0) {
+    throw Object.assign(new Error('Codex CLI login is unavailable before the Editorial claim'),
+      {code: 'LOCAL_CODEX_LOGIN_REQUIRED'});
+  }
   const registry = JSON.parse(git(['show', 'origin/main:data/movie-registry.json']));
   const candidate = await candidateJobs(store, registry, new Date());
   if (!candidate) {
