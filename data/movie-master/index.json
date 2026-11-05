@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-05T20:57:06.490Z",
+  "generated_at": "2026-11-05T21:25:05.194Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 424,
-  "formal_movie_count": 423,
+  "tracked_input_count": 425,
+  "formal_movie_count": 424,
   "demo_count": 1,
-  "published_count": 420,
+  "published_count": 421,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -764,6 +764,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "85e0272ed6e985e1f04cf66434560a9639759d5da354c3e64238ecc930ad4360"
+    },
+    {
+      "stable_movie_id": "cc18:DVAJ-756",
+      "catalog_code": "DVAJ-756",
+      "slug": "dvaj-756",
+      "master_path": "data/movie-master/dvaj-756.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "b210c260af85af13381bfec32f2eb4f9dcdc8fff08a859401d038f7de67c2467"
     },
     {
       "stable_movie_id": "cc18:DVMM-442",

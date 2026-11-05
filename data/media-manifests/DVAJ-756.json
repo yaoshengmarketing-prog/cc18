@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "DVAJ-756",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-05T21:24:38.091Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/DVAJ-756/hero-v1.jpg",
+      "r2_key": "works/2026/09/DVAJ-756/hero-v1.jpg",
+      "bytes": 696068,
+      "sha256": "b2dac13c4e8e9dde0c23766c35679de0cba279e282102773e96c30a83cf0a45f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/DVAJ-756/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/DVAJ-756/scene-vertical-v1.jpg",
+      "bytes": 1270616,
+      "sha256": "ec7768f0feadfdd1e42ad87f70f4c3a677ba648c0e2951e4ce556f781a19dfa8",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2446057,
+    "sha256": "6a8b682cb06a28a5e050cd148f19b950186e95cf456f0b79f78ed7c16a18c225",
+    "target_r2_key": "works/2026/09/DVAJ-756/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/DVAJ-756/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

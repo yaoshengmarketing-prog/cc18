@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "DVAJ-756",
+  "checked_at": "2026-11-05T21:24:36.252Z",
+  "review_sha256": "956cab98b74fd4ff2fca2098e94dc748a637cb58c8b444beeb96f0ef3e55e411",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只根據目前可追溯的公開資訊來看，這部作品最明確的核心不是複雜劇情，而是題名直接提出的概念：「抱起來最舒服」。這種命名方式本身就很像企劃導向作品的主軸，重點放在觀眾如何理解女優的身體印象與互動想像，而不是先建立完整人物關係或情節背景。已知演出者為桜ゆの，來源訊號同時給出巨乳、中出"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "第一個訊號當然是桜ゆの，因為演出者本身就是最直接的辨識依據。第二個是「抱起來最舒服」這個主概念，它比一般單純羅列動作標籤更有主題整合力。第三個則是來源中反覆可見的動作與呈現資訊，包括中出、口交、騎乘位，以及高畫質、獨家配信等平台層面的補充條件。這些訊號的作用不是證明具體橋段，而是"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
