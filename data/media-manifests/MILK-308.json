@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "MILK-308",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-05T12:44:01.235Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/MILK-308/hero-v1.jpg",
+      "r2_key": "works/2026/09/MILK-308/hero-v1.jpg",
+      "bytes": 820772,
+      "sha256": "8c3e903789e925dc5759bfc4a2e31876126eaed5b3c16b4457054a96750fd361",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 角色成長, 互動節奏, 關係轉折. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/MILK-308/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/MILK-308/scene-vertical-v1.jpg",
+      "bytes": 837038,
+      "sha256": "fef0ed3f282170892ade8934df4958a388eb8ab1477d92b72e78ad43c693262a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 角色成長, 互動節奏, 關係轉折. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2239297,
+    "sha256": "be34a7c7a02554080ee053f8e7828b41a147c70c4a83c9e517fc578efebc7773",
+    "target_r2_key": "works/2026/09/MILK-308/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/MILK-308/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

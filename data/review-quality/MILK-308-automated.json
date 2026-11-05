@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "MILK-308",
+  "checked_at": "2026-11-05T12:43:58.677Z",
+  "review_sha256": "3bc58b35790853e752d4ae0186e7e17f37824de9d35f44f9a34353802b63e9e3",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若以公開資訊來看，這部作品最明確的賣點不是完整劇情設定，而是「新村晶出道10週年特別影像」這個企劃定位。來源文字直接提到收錄今年迎來出道10週年的新村晶特別影像，並且總長達300分鐘，這使它更像是一部以演員里程碑為核心的展示型作品。對熟悉新村晶、或特別想找帶有紀念性質作品的觀眾來"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "這部片的身份標籤相當集中，特別是「人妻・主婦」與「癡女」兩個方向，會先塑造出成熟、主動的成人形象；動作標籤則明確指向「中出」。另一方面，呈現方式上的「自拍」與「HD／720p／高畫質」則補充了觀看形式上的預期：重點可能不在複雜場面設計，而在較直接、靠近表演者存在感的呈現方式。這些"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 9,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

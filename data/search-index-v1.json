@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:b57b4cf83ab51ceecc0a100f98b5eba154e3ab88be3b442bcc7a474144c22a93",
-  "source_generated_at": "2026-11-05T12:31:59.249Z",
+  "source_revision": "sha256:ccaabcc2ac3c4f4ef2dc3460a82f657fa805c55edbe737dcd2196974d67beab5",
+  "source_generated_at": "2026-11-05T12:44:15.972Z",
   "counts": {
-    "movies": 410,
+    "movies": 411,
     "performers": 324,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -3225,7 +3225,8 @@
       "source_name": "新村朱里",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:AVSA-455"
+        "cc18:AVSA-455",
+        "cc18:MILK-308"
       ]
     },
     {
@@ -13157,6 +13158,55 @@
         "article_title": "HEYZO-3964 肛門初體驗 × 高畫質｜肛門初體驗：以企劃設定為主的展示型選片",
         "display_short_title": null,
         "slug": "heyzo-3964"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MILK-308",
+        "source_cover": "https://cc18.tv/preview/80/b/w9Y4D4MDF1w-800.jpg?v=1789763929",
+        "title": "MILK-308 新村晶｜自拍形式的10週年展示型企劃",
+        "catalog_code": "MILK-308",
+        "release_date": "2026-09-17",
+        "performers": [
+          "新村晶"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "self-shot",
+            "label": "自拍視角"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/milk-308/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:13845"
+      ],
+      "search": {
+        "source_title": "新村晶出道10週年紀念5小時精選～MILK特別總集篇～",
+        "article_title": "MILK-308 新村晶｜自拍形式的10週年展示型企劃",
+        "display_short_title": null,
+        "slug": "milk-308"
       }
     },
     {
