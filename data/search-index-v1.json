@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:6fb510becc6106464304e4b38b54a57e235e695319e97a204ab14c735ef24c69",
-  "source_generated_at": "2026-11-05T12:22:57.760Z",
+  "source_revision": "sha256:ddcb56be0f81ef15c7ddb4b67d0599b3c90bc3e2977a01cc812b8595d20e8e62",
+  "source_generated_at": "2026-11-05T12:25:56.415Z",
   "counts": {
-    "movies": 407,
+    "movies": 408,
     "performers": 324,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -547,6 +547,7 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:EKDV-826",
+        "cc18:GVH-891",
         "cc18:ROYD-362"
       ]
     },
@@ -4454,6 +4455,59 @@
         "article_title": "FNS-272 柏木雫 × 高畫質｜柏木雫｜以本人為核心的展示型企劃",
         "display_short_title": null,
         "slug": "fns-272"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:GVH-891",
+        "source_cover": "https://cc18.tv/preview/80/b/3ejv0LfRX6X-800.jpg?v=1793651882",
+        "title": "GVH-891 天川空｜變成超級變態雌性",
+        "catalog_code": "GVH-891",
+        "release_date": "2026-10-31",
+        "performers": [
+          "天川空"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "dirty-talk",
+            "label": "言語挑逗"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/gvh-891/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:24396"
+      ],
+      "search": {
+        "source_title": "嘲笑會因為阿嘿顏而興奮的變態男的淫語痴女，在被大雞巴插入的瞬間立刻露出阿嘿顏，變成超級變態雌性！ 天川空",
+        "article_title": "GVH-891 天川空｜變成超級變態雌性",
+        "display_short_title": null,
+        "slug": "gvh-891"
       }
     },
     {

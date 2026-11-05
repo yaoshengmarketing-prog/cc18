@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "GVH-891",
+  "review_sha256": "7010125d02462bf9e541d9298ae94f2f8c50fe093c0b0a7dd591b852a4fe4291",
+  "selected_thesis": "來源資料可確認本作以「變成超級變態雌性」作為主要作品線索。",
+  "title_basis": {
+    "performer": "天川空",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "天川空",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "變成超級變態雌性",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "アヘ顔で興奮するような変態男を馬鹿にしていた淫語痴女",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "天川空",
+    "presentation_feature": "變成超級變態雌性",
+    "editorial_judgment": "來源資料可確認本作以「變成超級變態雌性」作為主要作品線索。",
+    "source_keywords": [
+      "天川空",
+      "變成超級變態雌性",
+      "アヘ顔で興奮するような変態男を馬鹿にしていた淫語痴女",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：天川空",
+      "supports": "這項可追溯來源訊號支持文章以「天川空」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：アヘ顔で興奮するような変態男を馬鹿にしていた淫語痴女",
+      "supports": "這項可追溯來源訊號支持文章以「アヘ顔で興奮するような変態男を馬鹿にしていた淫語痴女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：變成超級變態雌性",
+      "supports": "這項可追溯來源訊號支持文章以「變成超級變態雌性」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：癡女",
+      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：窈窕",
+      "supports": "這項可追溯來源訊號支持文章以「窈窕」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-02T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

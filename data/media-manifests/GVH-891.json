@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "GVH-891",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-05T12:25:41.319Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/GVH-891/hero-v1.jpg",
+      "r2_key": "works/2026/10/GVH-891/hero-v1.jpg",
+      "bytes": 648789,
+      "sha256": "0d74313943eb767c950fe0034d003cf70838adc83dd776dc8491a03cee24ad61",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/GVH-891/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/GVH-891/scene-vertical-v1.jpg",
+      "bytes": 1159317,
+      "sha256": "82fbd54dfbc2ca05e1eb64708c1a6039f4564fb3144cf1a3115b1de1dd1b5888",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3433101,
+    "sha256": "ca80f1767e385a331ec787b0d0601e80f23afe535ebf93a53138332b377746bd",
+    "target_r2_key": "works/2026/10/GVH-891/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/GVH-891/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
