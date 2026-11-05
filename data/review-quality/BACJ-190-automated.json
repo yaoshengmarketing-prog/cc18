@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "id": "BACJ-190",
+  "checked_at": "2026-11-05T21:28:57.488Z",
+  "review_sha256": "686104abe78c30b7185b2b4fa277fac3b5e8d177cee5cc235fb359fe50bc9bbe",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只根據目前可追溯的公開資料來看，這部作品最明確的賣點不是複雜劇情，而是「新人女王」這個企劃本身。系列名稱與 core source concept 都指向同一個核心：作品重點放在新人登場與包裝方式，讓觀眾先認識白石るな這位演出者。再加上公開標籤裡有「AV女優片」「癡女」「中出」"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

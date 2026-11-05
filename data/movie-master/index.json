@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-05T21:25:05.194Z",
+  "generated_at": "2026-11-05T21:29:26.113Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 425,
-  "formal_movie_count": 424,
+  "tracked_input_count": 426,
+  "formal_movie_count": 425,
   "demo_count": 1,
-  "published_count": 421,
+  "published_count": 422,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -197,6 +197,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "45feed0ea092f23554b4a3806707e442ed79a9d46c86ca5c3fba109d4eb5adfb"
+    },
+    {
+      "stable_movie_id": "cc18:BACJ-190",
+      "catalog_code": "BACJ-190",
+      "slug": "bacj-190",
+      "master_path": "data/movie-master/bacj-190.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "e5694723fe4eb78c21c81fcedffe13c56401a1c9db0b8b3192a0c8b5a973acf2"
     },
     {
       "stable_movie_id": "cc18:BAGR-093",

@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:ccc6302febf3edf49ea8606c835376993c531ab29d035af5dc79d8a49aa138b4",
-  "source_generated_at": "2026-11-05T21:25:05.194Z",
+  "source_revision": "sha256:e3b397c77c25866a217110bd309adfbb72293b52e724eaee5d2a1a3f82316970",
+  "source_generated_at": "2026-11-05T21:29:26.113Z",
   "counts": {
-    "movies": 421,
+    "movies": 422,
     "performers": 329,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -976,6 +976,7 @@
       "source_name": "白石るな",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:BACJ-190",
         "cc18:IPZZ-944"
       ]
     },
@@ -18737,6 +18738,55 @@
         "article_title": "AVSA-455 新村朱里｜耳邊淫語的低喃與深吻之沼：主打反差企劃的展示型選片",
         "display_short_title": null,
         "slug": "avsa-455"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:BACJ-190",
+        "source_cover": "https://cc18.tv/preview/80/b/6tnCW7l_TeO-800.jpg?v=1788813469",
+        "title": "BACJ-190 白石るな｜新人女王企劃下的展示型判斷",
+        "catalog_code": "BACJ-190",
+        "release_date": "2026-09-05",
+        "performers": [
+          "白石るな"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/bacj-190/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54373"
+      ],
+      "search": {
+        "source_title": "新人女王 在M性感開始工作的平凡女孩 白石流菜",
+        "article_title": "BACJ-190 白石るな｜新人女王企劃下的展示型判斷",
+        "display_short_title": null,
+        "slug": "bacj-190"
       }
     },
     {
