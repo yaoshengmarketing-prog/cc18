@@ -106,7 +106,7 @@ const counts = new Map();
 for (const sentence of sentences) counts.set(sentence, (counts.get(sentence) ?? 0) + 1);
 if ([...counts.values()].some((count) => count > 1)) warn('repeated_sentences');
 
-const headings = [...body.matchAll(/^##\s+(.+)$/gm)].map((match) => match[1]);
+const headings = [...body.matchAll(localizedTitleVersion ? /^###\s+(.+)$/gm : /^##\s+(.+)$/gm)].map((match) => match[1]);
 if (headings.length < 6) warn('insufficient_sections');
 if (new Set(headings).size !== headings.length) warn('duplicate_section_headings');
 if ((brief.evidence ?? []).length < 5) warn('insufficient_evidence');
