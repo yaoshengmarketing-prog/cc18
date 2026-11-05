@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-05T12:28:57.009Z",
+  "generated_at": "2026-11-05T12:31:59.249Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 413,
-  "formal_movie_count": 412,
+  "tracked_input_count": 414,
+  "formal_movie_count": 413,
   "demo_count": 1,
-  "published_count": 409,
+  "published_count": 410,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -3032,6 +3032,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "9bd75813abc475d104e735b614c3ce03b641f94935961a61c1415b34ca5ebc9a"
+    },
+    {
+      "stable_movie_id": "cc18:SMOK-048",
+      "catalog_code": "SMOK-048",
+      "slug": "smok-048",
+      "master_path": "data/movie-master/smok-048.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "e420c48b2fc62cbc9fc2198e0c13ecd4ee4961c742c615bc6bc4f7a7e6654ddc"
     },
     {
       "stable_movie_id": "cc18:SNOS-313",

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "SMOK-048",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-05T12:31:44.261Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/SMOK-048/hero-v1.jpg",
+      "r2_key": "works/2026/10/SMOK-048/hero-v1.jpg",
+      "bytes": 929750,
+      "sha256": "188c76c6ae2dbe2e213fd512e22d27a8761208112e0f75b5f978d7637e7b4fa7",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/SMOK-048/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/SMOK-048/scene-vertical-v1.jpg",
+      "bytes": 1141375,
+      "sha256": "457b65f2ea0f57ee62d347b3c99aa7b15167c1318b908f69e32e817d2a9fc82d",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2658742,
+    "sha256": "951e809f171e57f6f1a337a1dbda02e80b2f4eac03623475f7111970d09cbe33",
+    "target_r2_key": "works/2026/10/SMOK-048/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/SMOK-048/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
