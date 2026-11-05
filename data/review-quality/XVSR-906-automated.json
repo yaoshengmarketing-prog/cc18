@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "XVSR-906",
+  "checked_at": "2026-11-05T04:14:56.149Z",
+  "review_sha256": "13b1baf5ce5cd0ca3efecf3452c4e4fa66c470271b6fe69d90a68978ba0182d8",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "目前最清楚、也最有辨識度的賣點，就是小鈴蜜柑與「シコいめがねっ娘」這個系列概念的組合。公開資訊沒有補出完整故事前提，但系列名本身已經把企劃方向說得很直接：它不是靠複雜世界觀吸引人，而是靠角色屬性與題材標籤先建立興趣。若你本來就會因演出者或眼鏡娘企劃而點開，這部的入口非常明確。"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "就現有來源來看，我會把它歸在企劃展示傾向更強的一側。理由不是因為作品一定沒有內容，而是因為目前能追溯的資訊集中在系列名、美少女、巨乳、獨家配信、720p／HD等標籤；相對地，故事前提、人物關係、場景設定、主要衝突 等欄位都沒有被公開確認。這讓選片判斷自然更偏向「你吃不吃這個企劃與"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 1
+  }
+}

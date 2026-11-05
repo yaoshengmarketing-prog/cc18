@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "movie_id": "XVSR-906",
+  "generated_at": "2026-11-05T04:14:55.965Z",
+  "source_snapshot_hash": "sha256:1b4cee959cf35d2ac4f062ddfeb6786e05423f5a9e95bd5a0fe54bb85b6a2600",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若只看公開資料，XVSR-906 的吸引力主要建立在小鈴蜜柑＋眼鏡娘系列企劃的組合，以及美少女、巨乳等標籤化賣點；它更適合把角色屬性與系列概念放在第一順位的觀眾。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "主打辨識點是小鈴蜜柑與「シコいめがねっ娘」系列概念。",
+      "公開標籤包含美少女、巨乳、獨家配信與HD資訊，包裝方向偏明確。",
+      "來源摘錄另有「潮吹」這個成人關鍵字，但沒有足夠資料說明其在作品中的比重。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "本來就會追小鈴蜜柑作品的人",
+      "對眼鏡娘系列企劃有偏好的人",
+      "會依美少女、巨乳等公開標籤做第一輪篩選的人",
+      "接受作品資訊以企劃概念先行的人"
+    ],
+    "not_for": [
+      "想先確認完整劇情架構、人物關係或場景設定的人",
+      "很在意是否有明確故事轉折才決定入手的人",
+      "希望依據已驗證的演出節奏或影像表現選片的人"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "JERA-050",
+      "relation_type": "same_performer",
+      "reason": "同樣由小鈴蜜柑出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "小鈴蜜柑"
+      ],
+      "contrast_signals": [
+        "初次吞精的打工妹",
+        "自拍形式"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這片最值得拿來當選片理由的是什麼？",
+    "公開資訊更像劇情片還是企劃展示片？",
+    "目前能不能期待明確的人物關係與故事推進？",
+    "哪些觀眾會比較對這個組合有興趣？"
+  ]
+}

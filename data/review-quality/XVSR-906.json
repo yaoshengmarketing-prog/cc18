@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "XVSR-906",
+  "review_sha256": "ae03bf629192a4c0f081e7d64ef32d23b464f5e2a25760d155e84b124bdc97b6",
+  "selected_thesis": "若只看公開資料，XVSR-906 的吸引力主要建立在小鈴蜜柑＋眼鏡娘系列企劃的組合，以及美少女、巨乳等標籤化賣點；它更適合把角色屬性與系列概念放在第一順位的觀眾。",
+  "title_basis": {
+    "performer": "小鈴蜜柑",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "小鈴蜜柑",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "シコいめがねっ娘",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "美少女",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "小鈴蜜柑",
+    "presentation_feature": "シコいめがねっ娘",
+    "editorial_judgment": "從公開資訊判斷，這部作品的選片理由主要來自小鈴蜜柑與「シコいめがねっ娘」系列概念本身，而不是已被證實的劇情內容；因此影評重點放在企劃辨識度、標籤組合與適合觀眾。",
+    "source_keywords": [
+      "小鈴蜜柑",
+      "シコいめがねっ娘",
+      "美少女"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開來源已明示演出者為小鈴蜜柑，系列為「シコいめがねっ娘」，這兩點足以構成最主要的作品識別。",
+      "basis": "public_source",
+      "signal": "小鈴蜜柑／シコいめがねっ娘"
+    },
+    {
+      "observation_refs": [],
+      "supports": "safe title signals 與 topic elements 都把美少女、巨乳、獨家配信、720p／HD列為可見標籤，顯示頁面包裝偏向角色屬性與企劃辨識，而不只是敘事設定。",
+      "basis": "public_source",
+      "signal": "美少女／巨乳／独占配信／HD"
+    },
+    {
+      "observation_refs": [],
+      "supports": "creative_seed_brief 中 premise、relationship、role_dynamic、central_tension、setting 皆未確認，因此不能把人物關係、場景或故事推進寫成作品事實。",
+      "basis": "public_source",
+      "signal": "未確認劇情資料"
+    },
+    {
+      "observation_refs": [],
+      "supports": "source_concepts 另有「潮吹」這個公開成人關鍵字，可作為選片時的宣傳線索，但不足以證明其篇幅、表現方式或具體場面。",
+      "basis": "public_source",
+      "signal": "潮吹"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未寫入任何具體場景內容或場景順序",
+    "未假定人物關係、角色職業、背景設定或衝突主線",
+    "未聲稱已觀察到鏡位、剪輯、聲音、表情、演技或肢體互動節奏",
+    "未推定「潮吹」與其他性元素的出現方式、次數或強度",
+    "未補造原始日文完整片名、角色名或額外演員資訊"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-04T16:00:00.000Z"
+}

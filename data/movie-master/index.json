@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-05T04:10:31.971Z",
+  "generated_at": "2026-11-05T04:17:26.189Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 405,
-  "formal_movie_count": 404,
+  "tracked_input_count": 406,
+  "formal_movie_count": 405,
   "demo_count": 1,
-  "published_count": 401,
+  "published_count": 402,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -3626,6 +3626,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "4fd7543461feca00df53fc99f5d2a2cdd4908a661d296c3258692fa6edb3ae1d"
+    },
+    {
+      "stable_movie_id": "cc18:XVSR-906",
+      "catalog_code": "XVSR-906",
+      "slug": "xvsr-906",
+      "master_path": "data/movie-master/xvsr-906.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "0e05e22e5ebcda93f212b3ac5cf4e869bf6a06c008aef920a8dafb06841d6fdf"
     },
     {
       "stable_movie_id": "cc18:YAKO-099",

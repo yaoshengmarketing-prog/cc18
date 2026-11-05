@@ -700,7 +700,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 41,
+      "occurrences": 42,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -742,7 +742,8 @@
         "FJIN-171",
         "DOKS-692",
         "BIJN-290",
-        "FJIN-170"
+        "FJIN-170",
+        "XVSR-906"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-05",
@@ -1276,15 +1277,16 @@
     },
     {
       "label": "めがね",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "FNS-244",
         "GVH-878",
         "MIDA-788",
-        "NHDTC-253"
+        "NHDTC-253",
+        "XVSR-906"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-21",
+      "last_seen": "2026-11-05",
       "status": "quarantined"
     },
     {
@@ -2079,7 +2081,7 @@
     },
     {
       "label": "姊妹",
-      "occurrences": 11,
+      "occurrences": 12,
       "source_ids": [
         "EBWH-366",
         "UMD-1019",
@@ -2091,10 +2093,11 @@
         "ROYD-349",
         "SNOS-344",
         "ROYD-361",
-        "SDMF-054"
+        "SDMF-054",
+        "XVSR-906"
       ],
       "first_seen": "2026-09-14",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-05",
       "status": "quarantined"
     },
     {

@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:c90a881d9e9c1f64ff2236f4b6ec5a141c87a7c02b95661caba113ac9d183327",
-  "source_generated_at": "2026-11-05T04:10:31.971Z",
+  "source_revision": "sha256:b3a5065143eb256026948df8cb3939d12fa0185c2dbe9a4e60c6b14a65ed2557",
+  "source_generated_at": "2026-11-05T04:17:26.189Z",
   "counts": {
-    "movies": 401,
+    "movies": 402,
     "performers": 324,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -409,7 +409,8 @@
       "source_name": "小鈴蜜柑",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:JERA-050"
+        "cc18:JERA-050",
+        "cc18:XVSR-906"
       ]
     },
     {
@@ -4584,6 +4585,51 @@
         "article_title": "USAG-100 羽月乃蒼｜女大學生設定下的展示型企劃",
         "display_short_title": null,
         "slug": "usag-100"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:XVSR-906",
+        "source_cover": "https://cc18.tv/preview/80/b/1zEaQsWC22F-800.jpg?v=1793824674",
+        "title": "XVSR-906 小鈴蜜柑｜シコいめがねっ娘：企劃標籤比劇情更明確的選片",
+        "catalog_code": "XVSR-906",
+        "release_date": "2026-10-31",
+        "performers": [
+          "小鈴蜜柑"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/xvsr-906/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:46292"
+      ],
+      "search": {
+        "source_title": "絕對不能讓父母知道的眼鏡娘義妹，與她盡情享受甜美SEX的日常 小鈴蜜柑",
+        "article_title": "XVSR-906 小鈴蜜柑｜シコいめがねっ娘：企劃標籤比劇情更明確的選片",
+        "display_short_title": null,
+        "slug": "xvsr-906"
       }
     },
     {
