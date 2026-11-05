@@ -1298,16 +1298,17 @@
     },
     {
       "label": "めがね",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "FNS-244",
         "GVH-878",
         "MIDA-788",
         "NHDTC-253",
-        "XVSR-906"
+        "XVSR-906",
+        "HODV-22112"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-05",
+      "last_seen": "2026-11-06",
       "status": "quarantined"
     },
     {

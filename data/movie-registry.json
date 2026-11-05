@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T20:51:22.198Z",
+  "updated_at": "2026-11-05T20:56:39.689Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -6284,6 +6284,21 @@
       "actress": [],
       "release_date": "2026-10-01",
       "source_url": "https://cc18.tv/player.php?uuid=skR6E0OGYd0&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-06"
+    },
+    {
+      "id": "HODV-22112",
+      "actress": [
+        "桜野桃"
+      ],
+      "release_date": "2026-09-25",
+      "source_url": "https://cc18.tv/player.php?uuid=tv9RsI5WU2J&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

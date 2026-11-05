@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "HODV-22112",
+  "review_sha256": "ad319643dcfcb98a7dd071983e7f51d22371832c2da4bdc668a2156355651686",
+  "selected_thesis": "本作的選片角度是「第一印象很快失準」：打工店與眼鏡建立樸素形象，來源簡介隨即用搭訕後的反應翻轉它。這是宣傳文案的安排，尚不能當成實際演出的評價。",
+  "title_basis": {
+    "performer": "桜野桃",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "桜野桃",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "櫻野桃",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "桜野桃",
+    "presentation_feature": "櫻野桃",
+    "editorial_judgment": "打工店交代相遇情境，眼鏡與文靜外表負責建立第一印象；來源標題和簡介的重心，則是讓這個印象迅速失準。編輯判斷落在文案的反差設計，不延伸成對成片畫面或表演的描述。",
+    "source_keywords": [
+      "桜野桃",
+      "櫻野桃",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源作品頁的標題以「打工地的樸素眼鏡女」起頭，接著揭示她有「隱藏」的一面；演員標為桜野桃。[CC18 作品頁](https://cc18.tv/player.php?uuid=tv9RsI5WU2J&cat=19)",
+      "supports": "樸素外表與隱藏特質的對照，是本作標題明確提出的賣點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介從打工店搭訕寫起，緊接著描述她的反應與原先文靜印象不符。[CC18 作品頁](https://cc18.tv/player.php?uuid=tv9RsI5WU2J&cat=19)",
+      "supports": "文案把重點放在第一印象被快速推翻，而非交代完整的職場故事。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "公開商品資料列出番號 HODV-22112、演員桜野桃、片商 h.m.p 與 2026 年 9 月 25 日發售資訊。[駿河屋商品頁](https://www.suruga-ya.jp/product/detail/132410392)",
+      "supports": "可核對本作的基本身分；商品資料沒有提供足以評斷成片節奏的資訊。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未把宣傳中的角色性格寫成桜野桃本人的性格或經歷。",
+    "未宣稱看過畫面、聽過聲音或知道實際台詞。",
+    "未將打工店設定延伸成來源未交代的職場故事。",
+    "沒有經相同 stable 人物或系列 ID 核對的關聯作品，因此不作同演員或同系列比較。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-05T16:00:00.000Z"
+}

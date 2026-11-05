@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "movie_id": "HODV-22112",
+  "generated_at": "2026-11-05T17:46:10.322Z",
+  "source_snapshot_hash": "sha256:d3cab6b3cdaf83e829b3b8bfcff29fd169efbb5f14fb55527360d672a02204e0",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "以樸素眼鏡女作為第一印象，再迅速翻轉，是這部作品公開文案最清楚的選片理由。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以打工店相遇情境和人物反差包裝作品；成片如何呈現仍待觀看。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部作品的公開文案把什麼當成主要吸引力？",
+    "打工店與眼鏡在設定中各起什麼作用？",
+    "哪些觀感仍無法由來源資料確認？"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "HODV-22112",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-05T20:55:57.613Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/HODV-22112/hero-v1.jpg",
+      "r2_key": "works/2026/09/HODV-22112/hero-v1.jpg",
+      "bytes": 1120508,
+      "sha256": "1da58137d7fe7b0ddd78ae6e3230f3f637ba3a08047510709088d98dda1e1f48",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "cd95de8147434ac58b54656b1afef0e3",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/HODV-22112/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/HODV-22112/scene-vertical-v1.jpg",
+      "bytes": 1078695,
+      "sha256": "cbf2711b219de1cb180ec8445b1254cb6f6a5e0db319f0afef1cb056535d589e",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "dedcf7f689b745829ad231896f98d155",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3209263,
+    "sha256": "1dbcd9e0588fe5b1a5fae135d925e7c93e311d966426f351233debb7f9e9998d",
+    "target_r2_key": "works/2026/09/HODV-22112/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/HODV-22112/vertical-v1.mp4"
+  }
+}

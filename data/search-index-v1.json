@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:c58bb265fecf15dd1ff131bb06bacdc8639b19a2fda60d997e1e2a7a8fbfc4f6",
-  "source_generated_at": "2026-11-05T20:51:48.990Z",
+  "source_revision": "sha256:ad99c7a030790786ec35646dcfd2776dd9bf0e421abf05fd36f7cb0a91e67f6a",
+  "source_generated_at": "2026-11-05T20:57:06.490Z",
   "counts": {
-    "movies": 419,
-    "performers": 328,
+    "movies": 420,
+    "performers": 329,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2597,6 +2597,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DLDSS-551"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53411",
+      "display_name": "桜野桃",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "桜野桃",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:HODV-22112"
       ]
     },
     {
@@ -9981,6 +9992,55 @@
         "article_title": "先告訴你有局：這場假採訪怎麼安排懸念？",
         "display_short_title": "假紀錄片惡作劇",
         "slug": "start-632"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:HODV-22112",
+        "source_cover": "https://cc18.tv/preview/80/b/tv9RsI5WU2J-800.jpg?v=1790709581",
+        "title": "打工店的眼鏡女反差",
+        "catalog_code": "HODV-22112",
+        "release_date": "2026-09-25",
+        "performers": [
+          "桜野桃"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/hodv-22112/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53411"
+      ],
+      "search": {
+        "source_title": "打工地的樸素眼鏡女竟是隱藏爆乳的悶騷淫亂女 櫻野桃",
+        "article_title": "打工店與眼鏡，如何替這次的反差鋪路？",
+        "display_short_title": "打工店的眼鏡女反差",
+        "slug": "hodv-22112"
       }
     },
     {

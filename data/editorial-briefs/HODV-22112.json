@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "id": "HODV-22112",
+  "generated_at": "2026-11-05T17:45:52.932Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/HODV-22112.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "櫻野桃",
+    "premise": "作品以「櫻野桃」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「櫻野桃」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "櫻野桃",
+      "巨乳"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "癡女"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "戲劇、連續劇",
+      "720p",
+      "HD"
+    ]
+  },
+  "angle_candidates": [
+    "從打工店的樸素眼鏡形象，讀出宣傳文案刻意安排的反差",
+    "觀察文案如何迅速推翻主角對她的第一印象",
+    "櫻野桃的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作的選片角度是「第一印象很快失準」：打工店與眼鏡建立樸素形象，來源簡介隨即用搭訕後的反應翻轉它。這是宣傳文案的安排，尚不能當成實際演出的評價。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "桜野桃",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "櫻野桃",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "identity",
+      "value": "AV女優片",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "打工店裡的樸素眼鏡女，藏著另一面｜桜野桃",
+  "display_short_title": "打工店的眼鏡女反差",
+  "title": "打工店與眼鏡，如何替這次的反差鋪路？",
+  "seo_title": "HODV-22112｜桜野桃的打工店眼鏡女設定，反差從哪裡開始？",
+  "social_title": "樸素眼鏡女只是第一印象：桜野桃這部作品的宣傳焦點",
+  "short_review": "來源先讓桜野桃飾演的角色以打工店眼鏡女登場，再迅速翻轉她給人的樸素印象。若你喜歡人物設定一開場就有明確反差，這份文案提供了選片理由；實際情節與節奏仍無法據此判斷。",
+  "editorial_angle": "打工店交代相遇情境，眼鏡與文靜外表負責建立第一印象；來源標題和簡介的重心，則是讓這個印象迅速失準。編輯判斷落在文案的反差設計，不延伸成對成片畫面或表演的描述。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源作品頁的標題以「打工地的樸素眼鏡女」起頭，接著揭示她有「隱藏」的一面；演員標為桜野桃。[CC18 作品頁](https://cc18.tv/player.php?uuid=tv9RsI5WU2J&cat=19)",
+      "supports": "樸素外表與隱藏特質的對照，是本作標題明確提出的賣點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介從打工店搭訕寫起，緊接著描述她的反應與原先文靜印象不符。[CC18 作品頁](https://cc18.tv/player.php?uuid=tv9RsI5WU2J&cat=19)",
+      "supports": "文案把重點放在第一印象被快速推翻，而非交代完整的職場故事。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "公開商品資料列出番號 HODV-22112、演員桜野桃、片商 h.m.p 與 2026 年 9 月 25 日發售資訊。[駿河屋商品頁](https://www.suruga-ya.jp/product/detail/132410392)",
+      "supports": "可核對本作的基本身分；商品資料沒有提供足以評斷成片節奏的資訊。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未把宣傳中的角色性格寫成桜野桃本人的性格或經歷。",
+    "未宣稱看過畫面、聽過聲音或知道實際台詞。",
+    "未將打工店設定延伸成來源未交代的職場故事。",
+    "沒有經相同 stable 人物或系列 ID 核對的關聯作品，因此不作同演員或同系列比較。"
+  ],
+  "decision_guide": {
+    "thesis": "以樸素眼鏡女作為第一印象，再迅速翻轉，是這部作品公開文案最清楚的選片理由。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以打工店相遇情境和人物反差包裝作品；成片如何呈現仍待觀看。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "這部作品的公開文案把什麼當成主要吸引力？",
+      "打工店與眼鏡在設定中各起什麼作用？",
+      "哪些觀感仍無法由來源資料確認？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "樸素，是為了讓反差有起點",
+      "body": "來源標題先把桜野桃飾演的角色放在打工店，稱她是樸素的眼鏡女，隨後才揭示她隱藏的一面。打工店讓相遇有了情境；眼鏡與文靜外表則建立第一印象。這份宣傳最鮮明的地方，是要讀者期待那個印象被推翻。"
+    },
+    {
+      "heading": "文案很快翻牌，成片仍是另一個問題",
+      "body": "來源簡介從搭訕直接寫到她的反應，沒有多花篇幅鋪陳打工生活。我會把這部推薦給喜歡鮮明人物反差設定的讀者；若想知道故事如何展開、表演是否撐得起反差，現有文字還不能回答。這裡判斷的是[作品頁](https://cc18.tv/player.php?uuid=tv9RsI5WU2J&cat=19)的宣傳方式，並非已觀看影片後的結論。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "d3cab6b3cdaf83e829b3b8bfcff29fd169efbb5f14fb55527360d672a02204e0",
+    "response_sha256": "b9e1c237146d73eadc0d93b901036f4bd688f8685be22da7ceef511a5fb9dee7",
+    "research_input_sha256": "28e1d41e08ce4471d069c52091a92f40cf1f07e19f79460e069eedd1a3dcc78d",
+    "related_source_ids": []
+  }
+}
