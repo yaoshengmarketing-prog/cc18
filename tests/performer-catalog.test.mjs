@@ -362,21 +362,22 @@ test('a second typed public work changes index policy without a hardcoded perfor
 test('a later source spelling does not replace the existing performer name without approved localization', async () => {
   const inputs = clone(await formalInputs());
   const actorId = 'cc18.tv:actor:25186';
+  const baseline = buildPerformerCatalog(clone(inputs)).performers.find(({stable_performer_id: id}) => id === actorId);
   const oldMaster = inputs.masters.find(({source}) => source.catalog_code === 'DSOD-074');
   const oldCard = inputs.cards.find(({catalog_code: code}) => code === 'DSOD-074');
   const newMaster = clone(oldMaster);
-  newMaster.stable_movie_id = 'cc18:DSOD-117';
-  newMaster.source.catalog_code = 'DSOD-117';
+  newMaster.stable_movie_id = 'cc18:DSOD-99117';
+  newMaster.source.catalog_code = 'DSOD-99117';
   newMaster.source.performer_relations[0].source_name = '姬咲華';
   newMaster.display.performers[0].display_name = '姬咲華';
-  const newCard = {...clone(oldCard), stable_movie_id: newMaster.stable_movie_id, catalog_code: 'DSOD-117'};
+  const newCard = {...clone(oldCard), stable_movie_id: newMaster.stable_movie_id, catalog_code: 'DSOD-99117'};
   inputs.masters.push(newMaster);
   inputs.cards.unshift(newCard);
   const search = inputs.searchIndex.performers.find(({stable_actor_id: id}) => id === actorId);
   search.related_movie_ids.push(newMaster.stable_movie_id);
   const performer = buildPerformerCatalog(inputs).performers.find(({stable_performer_id: id}) => id === actorId);
   assert.equal(performer.primary_display_name, '姫咲華');
-  assert.equal(performer.public_work_count, 2);
+  assert.equal(performer.public_work_count, baseline.public_work_count + 1);
   search.source_name = '未見於任何來源的姓名';
   assert.throws(() => buildPerformerCatalog(inputs), /Search source name is absent from typed performer relations/u);
 });
