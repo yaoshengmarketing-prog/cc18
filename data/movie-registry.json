@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T15:49:25.532Z",
+  "updated_at": "2026-11-05T16:45:11.906Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -6247,6 +6247,22 @@
       "video_status": "rendered",
       "template": "story",
       "published_at": "2026-11-05"
+    },
+    {
+      "id": "MBMH-097",
+      "actress": [
+        "一色沙羅",
+        "東雲つばき"
+      ],
+      "release_date": "2026-09-25",
+      "source_url": "https://cc18.tv/player.php?uuid=5hl7hCU728y&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-06"
     }
   ]
 }

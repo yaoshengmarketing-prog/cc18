@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MBMH-097",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-05T16:44:32.738Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/MBMH-097/hero-v1.jpg",
+      "r2_key": "works/2026/09/MBMH-097/hero-v1.jpg",
+      "bytes": 600375,
+      "sha256": "f4de2bfbb1d75d99ce2845acb06e73a50f8776beb7a8a9bcb4afc02f14338df7",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "85e8fd001dce48579c6a4591b5030d68",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/MBMH-097/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/MBMH-097/scene-vertical-v1.jpg",
+      "bytes": 857668,
+      "sha256": "0cc833144f78c5ec49c4e84380554db354efe4423f77f9b7d3a0ddae1f363007",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "662a8bef17304136a71195438426df11",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2588631,
+    "sha256": "5dc870ebf62c3f0c686c894c6b94a66d8740d0065eaec7959f4f1a939e69c77d",
+    "target_r2_key": "works/2026/09/MBMH-097/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/MBMH-097/vertical-v1.mp4"
+  }
+}

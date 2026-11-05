@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "MBMH-097",
+  "review_sha256": "2114dc9ede170716aca31a89f2c7f23480b727a9f0909bab68f669b22ceaaa1e",
+  "selected_thesis": "MBMH-097 的選片角度是尺寸如何帶動「清純到失控」的宣傳轉折。相較於 SORA-654 的強迫情境、DDK-241 的人物屬性，本作簡介把注意力集中在「巨大」帶來的刺激；這是三份宣傳文字的比較，不能當成成片表現。",
+  "title_basis": {
+    "performer": "一色沙羅、東雲つばき",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "一色沙羅",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "好大",
+        "source_field": "title"
+      },
+      {
+        "type": "performer",
+        "value": "東雲つばき",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "一色沙羅",
+    "presentation_feature": "好大",
+    "editorial_judgment": "比較同樣列有一色沙羅的作品簡介：SORA-654 用一週遭人佔據住處的強迫情境推進故事，DDK-241 強調人物屬性；MBMH-097 則反覆突出尺寸與感官刺激。三者提供不同的選片入口，但來源未說明 MBMH-097 所列兩位演員各自的呈現方式。",
+    "source_keywords": [
+      "一色沙羅",
+      "好大",
+      "東雲つばき",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "MBMH-097 的來源標題同時使用「清純的20代巨乳美女」與「直到墮入」的措辭；簡介反覆描述巨大尺寸帶來的刺激。來源作品頁：https://cc18.tv/player.php?uuid=5hl7hCU728y&cat=19",
+      "supports": "宣傳文字以清純與失控的反差、尺寸造成的轉折吸引讀者。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "MBMH-097 的來源人物資料列出一色沙羅與東雲つばき，沒有交代標題中的單數人物指向誰。來源作品頁：https://cc18.tv/player.php?uuid=5hl7hCU728y&cat=19",
+      "supports": "文章可以討論標題的人物設定，但不宜將它指定給其中一位演員。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "經人物 stable ID 核對的關聯作品中，SORA-654 的簡介以住處遭佔據、持續一週的強迫情境鋪陳；DDK-241 的簡介突出一色沙羅的人物屬性。來源作品頁：https://cc18.tv/player.php?uuid=7XdiP4v0x3T&cat=19；https://cc18.tv/player.php?uuid=juTnWOZdM6D&cat=19",
+      "supports": "與這兩份簡介相比，MBMH-097 更集中以尺寸和感官刺激建立賣點；比較僅限宣傳文字。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "標題中的清純美女必定是一色沙羅或東雲つばき其中一人",
+    "兩位演員在片中的分工、互動或出場時間",
+    "演員的真實年齡、個性或經歷",
+    "已觀看到的畫面、聽到的聲音、台詞與實際表演節奏",
+    "把宣傳所稱的身體感受當成可驗證的觀看結果"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-05T16:00:00.000Z"
+}

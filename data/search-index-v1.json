@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:5ad7bbbd99ee0983eb98927aad56494f995d1e1a00049698f08de607ee3845fc",
-  "source_generated_at": "2026-11-05T15:49:43.315Z",
+  "source_revision": "sha256:794a7c01877de3a07aa282468978a81ed550b485dde58cebc3f13c405829f336",
+  "source_generated_at": "2026-11-05T16:45:34.199Z",
   "counts": {
-    "movies": 416,
-    "performers": 326,
+    "movies": 417,
+    "performers": 327,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -19,6 +19,7 @@
       "related_movie_ids": [
         "cc18:DDK-241",
         "cc18:DSJH-020",
+        "cc18:MBMH-097",
         "cc18:SORA-654"
       ]
     },
@@ -1641,6 +1642,17 @@
       "related_movie_ids": [
         "cc18:HMN-894",
         "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53537",
+      "display_name": "東雲つばき",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "東雲つばき",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MBMH-097"
       ]
     },
     {
@@ -9868,6 +9880,57 @@
         "article_title": "八蜜凛首次形象影片：從人物出發的靜岡旅館之旅",
         "display_short_title": "八蜜凛《搖曳之夢》",
         "slug": "marr-014"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MBMH-097",
+        "source_cover": "https://cc18.tv/preview/80/b/5hl7hCU728y-800.jpg?v=1790709581",
+        "title": "清純與失控之間",
+        "catalog_code": "MBMH-097",
+        "release_date": "2026-09-25",
+        "performers": [
+          "一色沙羅",
+          "東雲つばき"
+        ],
+        "canonical_topics": [
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mbmh-097/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28978",
+        "cc18.tv:actor:53537"
+      ],
+      "search": {
+        "source_title": "好大！實在太大了！！清純的20代巨乳美女直到墮入大雞巴為止…",
+        "article_title": "「太大了」之後，文案怎麼讓清純變成失控？",
+        "display_short_title": "清純與失控之間",
+        "slug": "mbmh-097"
       }
     },
     {
