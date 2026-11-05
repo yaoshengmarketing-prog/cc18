@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "NLD-034",
+  "review_sha256": "7468985d61519192d021cdb8fc64937c589062c681c168019a5a6f83a7011736",
+  "selected_thesis": "來源資料可確認本作以「逆チクビ痴」作為主要作品線索。",
+  "title_basis": {
+    "performer": "月野霞",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "月野霞",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "逆チクビ痴",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "逆チクビ痴●",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "月野霞",
+    "presentation_feature": "逆チクビ痴",
+    "editorial_judgment": "來源資料可確認本作以「逆チクビ痴」作為主要作品線索。",
+    "source_keywords": [
+      "月野霞",
+      "逆チクビ痴",
+      "逆チクビ痴●",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：月野霞",
+      "supports": "這項可追溯來源訊號支持文章以「月野霞」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：逆チクビ痴●",
+      "supports": "這項可追溯來源訊號支持文章以「逆チクビ痴●」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：逆チクビ痴",
+      "supports": "這項可追溯來源訊號支持文章以「逆チクビ痴」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：癡女",
+      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：騎乘位",
+      "supports": "這項可追溯來源訊號支持文章以「騎乘位」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-02T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "NLD-034",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-05T12:28:42.339Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/NLD-034/hero-v1.jpg",
+      "r2_key": "works/2026/10/NLD-034/hero-v1.jpg",
+      "bytes": 635099,
+      "sha256": "dff8a8e33995b77ff3033be95d56bd51908c61d56d4748d5269cd28f68a9cfca",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/NLD-034/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/NLD-034/scene-vertical-v1.jpg",
+      "bytes": 1023318,
+      "sha256": "3d4086af3fb232a2a6ce9293fc6da138e30fe7922b6a6902ee1d0647b5e958dc",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2753289,
+    "sha256": "d87df927d427dc2f2825bf18f72d9a620c253fb88933a21984137601049b6ef3",
+    "target_r2_key": "works/2026/10/NLD-034/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/NLD-034/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
