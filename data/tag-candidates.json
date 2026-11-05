@@ -2262,15 +2262,16 @@
     },
     {
       "label": "搭訕",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "SKMJ-786",
         "SKMJ-788",
         "NINE-127",
         "RT-042",
-        "ORECZ-722"
+        "ORECZ-722",
+        "ORECZ-666"
       ],
-      "first_seen": "2026-09-16",
+      "first_seen": "2026-09-10",
       "last_seen": "2026-11-04",
       "status": "quarantined"
     },

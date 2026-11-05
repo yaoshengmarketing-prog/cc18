@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "ORECZ-666",
+  "checked_at": "2026-11-05T21:22:17.289Z",
+  "review_sha256": "f60bee2aa0e2704ac77866ff854e4726459710c0b72c9c9db9eb475c939627a5",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就目前可追溯的公開資訊來看，這部作品最清楚的核心不是劇情線，而是「獨家」加上「素人企劃」的包裝方向。來源裡同時出現獨家、獨家限定、配信專用，以及素人、美少女、女大學生等身分設定，顯示它的賣點更偏向企劃型展示：以特定人設與平台限定感來建立辨識度。若是以選片角度判斷，這類作品吸引力主"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

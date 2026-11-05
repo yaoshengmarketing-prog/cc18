@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "ORECZ-666",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-05T21:22:20.069Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/ORECZ-666/hero-v1.jpg",
+      "r2_key": "works/2026/09/ORECZ-666/hero-v1.jpg",
+      "bytes": 734688,
+      "sha256": "926ac5c2b7cc45551100b90fbc3d64e5330ad0746561223e994fa5b36717aa33",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/ORECZ-666/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/ORECZ-666/scene-vertical-v1.jpg",
+      "bytes": 971127,
+      "sha256": "8fa064e35d513a58ea37c116b373db313aa3ae3410463e25834c88892c18b636",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2550365,
+    "sha256": "c3975cb8b0fa0d90f87e684ca9595112b645e3e87e044cd6d4b15045b0d3ed15",
+    "target_r2_key": "works/2026/09/ORECZ-666/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/ORECZ-666/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
