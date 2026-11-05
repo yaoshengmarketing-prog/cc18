@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T21:54:17.451Z",
+  "updated_at": "2026-11-05T22:53:54.169Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -6342,6 +6342,21 @@
       "actress": [],
       "release_date": "2026-10-02",
       "source_url": "https://cc18.tv/player.php?uuid=aNvK3A8sEfM&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-06"
+    },
+    {
+      "id": "MNGS-070",
+      "actress": [
+        "彩月七緒"
+      ],
+      "release_date": "2026-10-02",
+      "source_url": "https://cc18.tv/player.php?uuid=eCtAI24Tg3J&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

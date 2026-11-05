@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "MNGS-070",
+  "review_sha256": "baf1e07c08c88604f8fe73ea7c0499237ca615fbf1479e61550abe0c833fbe2f",
+  "selected_thesis": "彩月七緒也演過女友姊姊題材；本作較有辨識度的地方，是來源文案安排兩人在男用按摩店重逢，藉店規與保密約定推動關係，再把故事帶回家中。",
+  "title_basis": {
+    "performer": "彩月七緒",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "彩月七緒",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "卻嘿嘿地無套插入",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "彩月七緒",
+    "presentation_feature": "卻嘿嘿地無套插入",
+    "editorial_judgment": "以 PPPE-449 作為同演員、同為女友姊姊設定的對照，指出本作把意外重逢與店內規定放在關係轉折的前面，讓熟悉題材多了一個可辨識的入口。",
+    "source_keywords": [
+      "彩月七緒",
+      "卻嘿嘿地無套插入"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "MNGS-070 來源簡介：先在女友家認識姊姊，之後在男用按摩店重逢，並提到保密約定及頻繁造訪；來源標題另提到家中的後續。https://cc18.tv/player.php?uuid=eCtAI24Tg3J&cat=19",
+      "supports": "支持文章把「先認識、意外重逢、關係延伸」視為本作宣傳的設定順序。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同一彩月七緒人物 ID 的 PPPE-449，來源簡介以女友姊姊在寢室內的誘惑與怕被女友發現為重心。https://cc18.tv/player.php?uuid=kkKaA6LyW2I&cat=19",
+      "supports": "支持兩作確有相近的人物關係，也支持編輯比較：MNGS-070 的按摩店重逢與店規，是 PPPE-449 簡介沒有採用的切入點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "公開活動頁將 MNGS-070 列為彩月七緒的 MOODYZ 作品，所列日文標題同樣包含男用按摩店重逢、店規與回家後的延伸。https://av-event.jp/event/41256/",
+      "supports": "交叉確認這些設定出現在公開作品宣傳中；不據此推論實際畫面或表演。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將劇中的女友、姊姊關係當成演員真實經歷。",
+    "未聲稱已觀看店內或家中的畫面、聽過台詞，或知道實際表演與剪輯方式。",
+    "未將來源宣傳中的罩杯推定寫成已證實的人物資料。",
+    "未由宣傳文字推定成片的故事密度或節奏。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-05T16:00:00.000Z"
+}

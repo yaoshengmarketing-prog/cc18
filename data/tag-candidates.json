@@ -756,7 +756,7 @@
     },
     {
       "label": "姐姐系",
-      "occurrences": 28,
+      "occurrences": 29,
       "source_ids": [
         "SNOS-364",
         "SNOS-372",
@@ -785,7 +785,8 @@
         "FJIN-170",
         "DFDM-078",
         "NLD-034",
-        "HNHU-221"
+        "HNHU-221",
+        "MNGS-070"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-06",
@@ -1229,7 +1230,7 @@
     },
     {
       "label": "打手槍",
-      "occurrences": 16,
+      "occurrences": 17,
       "source_ids": [
         "SNOS-447",
         "GOJI-110",
@@ -1246,10 +1247,11 @@
         "MIDA-829",
         "MOPP-128",
         "DFDM-078",
-        "NLD-034"
+        "NLD-034",
+        "MNGS-070"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-05",
+      "last_seen": "2026-11-06",
       "status": "quarantined"
     },
     {
