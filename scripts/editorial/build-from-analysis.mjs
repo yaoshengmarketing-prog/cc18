@@ -7,6 +7,7 @@ import {normalizeEditorialResult, parseFirstJsonObject, publicationProjectionFor
 import {writeSearchContent} from './lib/search-content.mjs';
 import {createDeterministicSourceBrief, createLocalSourceBrief} from './lib/local-source-brief.mjs';
 import {ensureAllPerformersInTitle, fillMissingEditorialTitle} from './lib/editorial-fallbacks.mjs';
+import {renderEditorialMarkdownBody} from './lib/markdown-headings.mjs';
 import {appendEditorialUsage} from './lib/usage-ledger.mjs';
 import {auditWriterSource} from './lib/source-context.mjs';
 import {loadBridgeConfig} from '../bridge/lib/config.mjs';
@@ -409,7 +410,7 @@ videoStatus: pending
 featured: false
 ---
 
-${result.sections.map(({heading, body}) => `## ${heading}\n\n${body}`).join('\n\n')}
+${renderEditorialMarkdownBody({titleVersion: codexTitles ? 2 : 1, title: result.title, sections: result.sections})}
 `;
 const reviewPath = resolve(root, `content/reviews/${movieId}.md`);
 await writeFile(reviewPath, markdown);

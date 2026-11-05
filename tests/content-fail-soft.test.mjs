@@ -6,6 +6,21 @@ import {tmpdir} from 'node:os';
 import {dirname, join, resolve} from 'node:path';
 import {spawnSync} from 'node:child_process';
 import {decisionGuideViewModel} from '../src/lib/decision-guide.mjs';
+import {renderEditorialMarkdownBody} from '../scripts/editorial/lib/markdown-headings.mjs';
+
+test('local Codex titleVersion 2 makes the article title the first H2 and keeps sections at H3', () => {
+  const sections = [
+    {heading: '人物與場景', body: '第一段。'},
+    {heading: '選片取捨', body: '第二段。'},
+  ];
+  const article = renderEditorialMarkdownBody({titleVersion: 2, title: '八蜜凛首次形象影片：從人物出發的靜岡旅館之旅', sections});
+  assert.equal(article, '## 八蜜凛首次形象影片：從人物出發的靜岡旅館之旅\n\n### 人物與場景\n\n第一段。\n\n### 選片取捨\n\n第二段。');
+  assert.deepEqual([...article.matchAll(/^#{1,3} (.+)$/gmu)].map((match) => match[0]), [
+    '## 八蜜凛首次形象影片：從人物出發的靜岡旅館之旅', '### 人物與場景', '### 選片取捨',
+  ]);
+  assert.equal(renderEditorialMarkdownBody({titleVersion: 1, title: '舊文章題目', sections}),
+    '## 人物與場景\n\n第一段。\n\n## 選片取捨\n\n第二段。');
+});
 
 const repositoryRoot = resolve(import.meta.dirname, '..');
 const copyPath = async (root, path) => {
