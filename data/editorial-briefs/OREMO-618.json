@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "id": "OREMO-618",
+  "generated_at": "2026-11-05T20:42:52.027Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/OREMO-618.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "獨家",
+    "premise": "作品以「獨家」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「獨家」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "獨家",
+      "H桑",
+      "巨乳"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "素人"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "全高清 (FHD)",
+      "獨家限定",
+      "配信専用"
+    ]
+  },
+  "angle_candidates": [
+    "「看九十九眼」把乳溝寫成宣傳焦點；「大概是 OL」卻沒有把人物身分說定。",
+    "「獨家限定」與「配信専用」是來源標籤，能說明作品如何被分類，不能代替內容介紹。",
+    "「偷窺」標籤可能吸引特定題材讀者，但簡介不足以確認實際拍法。"
+  ],
+  "selected_thesis": "本作最鮮明的選片線索，是簡介對乳溝極盡強調，對 H 小姐的 OL 身分卻只說「大概」。它提供明確的外型賣點，沒有提供足以判斷人物背景或情節的資料。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "獨家",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "素人企劃",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "獨家 H 小姐",
+  "display_short_title": "H 小姐",
+  "title": "看了九十九眼，仍只知道她「大概是 OL」",
+  "seo_title": "OREMO-618｜H 小姐的九十九眼與一句「大概是 OL」",
+  "social_title": "H 小姐的賣點很明確，OL 身分卻留著問號",
+  "short_review": "來源簡介用「看九十九眼」強調 H 小姐的乳溝，對 OL 身分則保留推測語氣。適合被這個單一賣點吸引的讀者；故事與拍法仍無從確認。",
+  "editorial_angle": "比較同一份簡介中兩種不同的確定程度：外型描寫強烈，人物身分含糊。選片判斷只針對宣傳重心，不把標籤或文案當成已看過的畫面。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "CC18 作品簡介以「看九十九眼的乳溝」介紹 H 小姐，並寫道「胸部太大了」。",
+      "supports": "來源把身體特徵放在最突出的宣傳位置；「九十九眼」是文案修辭，不能推定實際鏡位。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同一份簡介寫「大概是OL」，沒有確認 H 小姐的職業；來源資料也沒有演員或系列關聯。",
+      "supports": "可以討論文案留下的身分問號，不能把 OL 當作已證實的人物背景。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源列有「素人」、「巨乳」、「偷窺」、「獨家限定」及「配信専用」等標籤。",
+      "supports": "這些是來源的分類線索；單靠標籤無法確認拍攝方式、情節或獨家發行範圍。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "「九十九眼」只解讀為宣傳文案強調注視的修辭，沒有重建鏡頭或觀看經驗。",
+    "保留「大概是 OL」的不確定語氣，沒有替 H 小姐補寫職業、經歷或角色故事。"
+  ],
+  "unsupported_claims_excluded": [
+    "H 小姐確實從事辦公室工作",
+    "作品採用偷拍或隱藏攝影機拍法",
+    "片中出現特定畫面、聲音、台詞或情節",
+    "「獨家限定」代表可獨立查證的發行排他性"
+  ],
+  "decision_guide": {
+    "thesis": "想看來源如何用鮮明的外型賣點介紹 H 小姐，可以留意本作；若要先確認人物背景、故事或拍法，目前材料不足。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "簡介以乳溝和「看九十九眼」作為主要宣傳焦點",
+      "OL 身分僅以「大概」提出",
+      "「偷窺」等題材資訊來自來源標籤"
+    ],
+    "audience_for": [
+      "會因明確外型賣點而找片的讀者",
+      "能接受人物背景在簡介中保持模糊的讀者"
+    ],
+    "audience_not_for": [
+      "想先確認完整人物設定或故事線的讀者",
+      "需要根據實際鏡位與節奏選片的讀者"
+    ],
+    "questions_answered": [
+      "這份簡介最強調 H 小姐的什麼特徵？",
+      "OL 是已確認的身分嗎？",
+      "「偷窺」標籤能否證明實際拍法？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "九十九眼，集中在一個賣點",
+      "body": "[CC18 作品頁](https://cc18.tv/player.php?uuid=skR6E0OGYd0&cat=19)的來源簡介說，人們會看 H 小姐的乳溝「九十九眼」，接著再次強調她的胸部。這種誇張數字是宣傳修辭，也讓選片入口相當清楚：文案首先要讀者注意她的外型。它沒有因此告訴我們，影片會如何呈現這個賣點。"
+    },
+    {
+      "heading": "人物身分只留下一句推測",
+      "body": "相比之下，簡介對她的介紹是「大概是 OL」。我在意這個「大概」：文案對吸引目光的特徵說得很滿，對人物背景卻沒有下定論。若你想先知道她是誰、故事從哪裡開始，這份介紹幫助有限；若你只是想辨認本作的宣傳重心，它已經說得很明白。來源另列有「偷窺」標籤，但實際拍法仍不能由標籤確認。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "9cf0d17928f85408d16529a79d749a34f6538fcee36832aaab6ac284ffe10afb",
+    "response_sha256": "e16b2c9b2c64e96ff4031d75c8666dfadfbd7cab55db8d2ca281236cc1146249",
+    "research_input_sha256": "6bd0389236b2dff49cb7dd475cb3d3bf377ad96a2241481e209045e6afa9438a",
+    "related_source_ids": []
+  }
+}

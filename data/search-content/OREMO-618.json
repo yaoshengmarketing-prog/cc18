@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "movie_id": "OREMO-618",
+  "generated_at": "2026-11-05T20:43:02.907Z",
+  "source_snapshot_hash": "sha256:9cf0d17928f85408d16529a79d749a34f6538fcee36832aaab6ac284ffe10afb",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看來源如何用鮮明的外型賣點介紹 H 小姐，可以留意本作；若要先確認人物背景、故事或拍法，目前材料不足。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "簡介以乳溝和「看九十九眼」作為主要宣傳焦點",
+      "OL 身分僅以「大概」提出",
+      "「偷窺」等題材資訊來自來源標籤"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會因明確外型賣點而找片的讀者",
+      "能接受人物背景在簡介中保持模糊的讀者"
+    ],
+    "not_for": [
+      "想先確認完整人物設定或故事線的讀者",
+      "需要根據實際鏡位與節奏選片的讀者"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這份簡介最強調 H 小姐的什麼特徵？",
+    "OL 是已確認的身分嗎？",
+    "「偷窺」標籤能否證明實際拍法？"
+  ]
+}

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-05T19:49:03.143Z",
+  "generated_at": "2026-11-05T20:51:48.990Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 422,
-  "formal_movie_count": 421,
+  "tracked_input_count": 423,
+  "formal_movie_count": 422,
   "demo_count": 1,
-  "published_count": 418,
+  "published_count": 419,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2573,6 +2573,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "8a043ef198de3052f8182dc11b66f2aca2864de49fe283fb3d4c02f6500255b8"
+    },
+    {
+      "stable_movie_id": "cc18:OREMO-618",
+      "catalog_code": "OREMO-618",
+      "slug": "oremo-618",
+      "master_path": "data/movie-master/oremo-618.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "b7ac2f61ec527d623dfc36ed3aad82729524c6e553cb1db9f950caecd7f47782"
     },
     {
       "stable_movie_id": "cc18:PAKO-108",

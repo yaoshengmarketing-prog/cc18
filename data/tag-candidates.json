@@ -1020,7 +1020,7 @@
     },
     {
       "label": "偷窺",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "NSODN-025",
         "YJNS-001",
@@ -1029,10 +1029,11 @@
         "PWIFE-1185",
         "ORECS-725",
         "STVF-115",
-        "SDMM-242"
+        "SDMM-242",
+        "OREMO-618"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-06",
       "status": "quarantined"
     },
     {

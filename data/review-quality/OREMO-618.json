@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "OREMO-618",
+  "review_sha256": "28256abf3754fd8491114a2a08d11d49b87d8a0009dabf223db61b0133e7a9f8",
+  "selected_thesis": "本作最鮮明的選片線索，是簡介對乳溝極盡強調，對 H 小姐的 OL 身分卻只說「大概」。它提供明確的外型賣點，沒有提供足以判斷人物背景或情節的資料。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "素人企劃",
+    "editorial_judgment": "比較同一份簡介中兩種不同的確定程度：外型描寫強烈，人物身分含糊。選片判斷只針對宣傳重心，不把標籤或文案當成已看過的畫面。",
+    "source_keywords": [
+      "獨家",
+      "素人企劃",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "CC18 作品簡介以「看九十九眼的乳溝」介紹 H 小姐，並寫道「胸部太大了」。",
+      "supports": "來源把身體特徵放在最突出的宣傳位置；「九十九眼」是文案修辭，不能推定實際鏡位。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同一份簡介寫「大概是OL」，沒有確認 H 小姐的職業；來源資料也沒有演員或系列關聯。",
+      "supports": "可以討論文案留下的身分問號，不能把 OL 當作已證實的人物背景。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源列有「素人」、「巨乳」、「偷窺」、「獨家限定」及「配信専用」等標籤。",
+      "supports": "這些是來源的分類線索；單靠標籤無法確認拍攝方式、情節或獨家發行範圍。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "H 小姐確實從事辦公室工作",
+    "作品採用偷拍或隱藏攝影機拍法",
+    "片中出現特定畫面、聲音、台詞或情節",
+    "「獨家限定」代表可獨立查證的發行排他性"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-05T16:00:00.000Z"
+}
