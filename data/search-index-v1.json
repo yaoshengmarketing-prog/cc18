@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:4e03a840aaeeb9777a2666c5db8b924af1accad1973d11c612077f497a71aae8",
-  "source_generated_at": "2026-11-05T04:03:46.490Z",
+  "source_revision": "sha256:c90a881d9e9c1f64ff2236f4b6ec5a141c87a7c02b95661caba113ac9d183327",
+  "source_generated_at": "2026-11-05T04:10:31.971Z",
   "counts": {
-    "movies": 400,
-    "performers": 323,
+    "movies": 401,
+    "performers": 324,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2000,6 +2000,17 @@
       "related_movie_ids": [
         "cc18:DSOD-006",
         "cc18:DSOD-010"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54337",
+      "display_name": "柏木雫",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "柏木雫",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FNS-272"
       ]
     },
     {
@@ -4297,6 +4308,35 @@
         "article_title": "FJIN-173 北野未奈｜裸體模特兒",
         "display_short_title": null,
         "slug": "fjin-173"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:FNS-272",
+        "source_cover": "https://cc18.tv/preview/80/b/7d2jHbocC7S-800.jpg?v=1793709458",
+        "title": "FNS-272 柏木雫 × 高畫質｜柏木雫｜以本人為核心的展示型企劃",
+        "catalog_code": "FNS-272",
+        "release_date": "2026-10-31",
+        "performers": [
+          "柏木雫"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/fns-272/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54337"
+      ],
+      "search": {
+        "source_title": "女友妹妹無意識的淘氣內褲誘惑 柏木雫",
+        "article_title": "FNS-272 柏木雫 × 高畫質｜柏木雫｜以本人為核心的展示型企劃",
+        "display_short_title": null,
+        "slug": "fns-272"
       }
     },
     {

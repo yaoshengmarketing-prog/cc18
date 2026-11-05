@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "movie_id": "FNS-272",
+  "generated_at": "2026-11-05T04:08:38.180Z",
+  "source_snapshot_hash": "sha256:b737568e75b12fa7289b9fb7c8f670d95f2622a10d04619c3b6e82225535cc8d",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "FNS-272 的公開訊號幾乎全部集中在柏木雫本人，因此它更像一部以演出者辨識度為核心的展示型作品，而不是已知設定完整的劇情片。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "先把選片焦點放在柏木雫本人，而不是未公開的故事想像。",
+      "將 720p／高畫質視為規格資訊，不把它誤當成內容保證。",
+      "因缺乏系列、角色與關係資料，閱讀與選片時應採低預設模式。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "本來就會因柏木雫而點開作品的人",
+      "可接受資訊簡潔、以演出者為主體的選片方式的人",
+      "把畫質規格視為輔助條件而非唯一賣點的人"
+    ],
+    "not_for": [
+      "想先確認完整劇情設定再決定的人",
+      "偏好明確人物關係或場景題材的人",
+      "期待系列世界觀延續的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這片目前最明確的賣點是什麼？",
+    "能不能把它當成劇情型作品來期待？",
+    "720p／高畫質資訊對選片有多重要？",
+    "最適合哪一類觀眾？"
+  ]
+}

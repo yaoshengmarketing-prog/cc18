@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "FNS-272",
+  "review_sha256": "584ba89da906e8ee5ce4147b1b5b8f3276093da7fd13d20001c642375d3c95a5",
+  "selected_thesis": "在缺乏劇情與關係資訊的前提下，FNS-272 最合理的定位是以柏木雫本人為核心的展示型作品，而不是可預設敘事密度的故事片。",
+  "title_basis": {
+    "performer": "柏木雫",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "柏木雫",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "720p",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "柏木雫",
+    "presentation_feature": "高畫質",
+    "editorial_judgment": "把公開資訊極少的作品，回到最可追溯的核心來判讀：這次不是先談劇情，而是先確認它是否屬於以柏木雫本人為主軸的展示型選片。",
+    "source_keywords": [
+      "柏木雫",
+      "高畫質",
+      "720p"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開可確認的主體資訊是番號 FNS-272 與演出者柏木雫，且 core_source_concept 與 source_concepts 也都只回到「柏木雫」本身。",
+      "basis": "public_source",
+      "signal": "柏木雫"
+    },
+    {
+      "observation_refs": [],
+      "supports": "未提供系列名、人物關係、場景設定或情節摘要，代表無法把本作判定為劇情導向、關係導向或系列延伸作品。",
+      "basis": "public_source",
+      "signal": "未提供系列與劇情摘要"
+    },
+    {
+      "observation_refs": [],
+      "supports": "safe_title_signals 與 topic_elements 只明示了「高畫質」「720p」這類呈現資訊，能輔助理解規格，但不足以推導情節或表演風格。",
+      "basis": "public_source",
+      "signal": "高畫質／720p"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未公開的劇情內容與事件順序",
+    "任何人物關係、角色身分或場景設定",
+    "鏡位、剪輯、聲音、配樂與節奏觀察",
+    "表情、演技、肢體語言或互動化學反應",
+    "系列定位、續作關聯或世界觀延伸"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-04T16:00:00.000Z"
+}

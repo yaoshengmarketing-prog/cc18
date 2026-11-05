@@ -1,0 +1,65 @@
+{
+  "schema_version": 2,
+  "id": "FNS-272",
+  "checked_at": "2026-11-05T04:08:38.364Z",
+  "review_sha256": "27eb9819ec8416fcddc3f0c630ddda39dda55dcc4f5c9d64277ba18f33a886f7",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "broad_formulaic_voice",
+    "insufficient_sections",
+    "insufficient_evidence",
+    "missing_source_specific_title_concept"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 3,
+      "paragraph_count": 8,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就公開資訊來看，最清楚、也最穩定的主打就是「柏木雫」本人。作品的核心概念直接落在演出者姓名，creative seed 的 來源名稱線索 也沒有延伸出角色名、職業、關係或事件。當一部作品的可追溯訊號幾乎都集中在單一演出者時，選片判斷自然會從故事內容，回到演出者本人的辨識度與吸引力"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "現階段不建議這樣期待。原因不是它一定沒有故事，而是公開資料沒有提供足夠依據：沒有系列名、沒有公開人物關係、沒有設定場景，也沒有可引用的情節摘要。在這種資訊密度下，任何關於角色變化、互動走向或關係轉折的具體描述，都會超出可證明範圍。較安全也較準確的判斷，是把它先視為一部以演出者為中"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "最適合的觀眾，是願意把選片基準放在柏木雫本人，並接受作品公開資訊保持簡潔的人。若你對系列延續、角色設定、日常場景、職業主題或關係鋪陳有明確偏好，這部片目前沒有提供足夠線索支持那些期待。相反地，如果你的選片習慣本來就偏向「先看演出者，再看其他條件」，那麼 FNS-272 的訊號其實"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "missing_source_specific_title_concept",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 3,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}
