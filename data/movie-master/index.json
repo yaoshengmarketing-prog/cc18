@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-05T03:50:10.936Z",
+  "generated_at": "2026-11-05T03:56:40.816Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 402,
-  "formal_movie_count": 401,
+  "tracked_input_count": 403,
+  "formal_movie_count": 402,
   "demo_count": 1,
-  "published_count": 398,
+  "published_count": 399,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -3545,6 +3545,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "f6ff37a310921ba134579ee415f9cb80a19335fb7fa4a712b108532a4ab16628"
+    },
+    {
+      "stable_movie_id": "cc18:USAG-100",
+      "catalog_code": "USAG-100",
+      "slug": "usag-100",
+      "master_path": "data/movie-master/usag-100.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "1802f3f296dcc3c375fef6fbc2439c0ddfde538dc692c33a251a5cd3b5c27eb0"
     },
     {
       "stable_movie_id": "cc18:WA-593",

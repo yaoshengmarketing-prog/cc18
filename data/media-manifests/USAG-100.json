@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "USAG-100",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-05T03:55:31.836Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/USAG-100/hero-v1.jpg",
+      "r2_key": "works/2026/10/USAG-100/hero-v1.jpg",
+      "bytes": 771897,
+      "sha256": "7768d3a1d7ebf6ac4aa436c2a96c5a5a294c91dd39bf96a6751381ac1801b78f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "acd516f2ec7644368ccbbc304e8654cb",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/USAG-100/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/USAG-100/scene-vertical-v1.jpg",
+      "bytes": 940056,
+      "sha256": "b8820d9a0861da12099bfd6a086a468297bf49de8285d0b20caa0d184728069b",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "ae62d17a885f45008d0545a5df734b4f",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3031509,
+    "sha256": "4b40c447ba67072abec28ba175854dcc2303a60b0915506b25bf7f54008772f8",
+    "target_r2_key": "works/2026/10/USAG-100/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/USAG-100/vertical-v1.mp4"
+  }
+}

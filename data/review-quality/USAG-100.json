@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "USAG-100",
+  "review_sha256": "65b5eb73a5c403adc56fa494643ab419e17062d575ec30af59dc634a049fbe69",
+  "selected_thesis": "如果你的選片習慣是先看羽月乃蒼，再看女大學生這類清楚題材標籤，USAG-100 的吸引力相當直接；但它目前並不是一部以劇情資訊取勝的作品。",
+  "title_basis": {
+    "performer": "羽月乃蒼",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "羽月乃蒼",
+        "source_field": "actress"
+      },
+      {
+        "type": "identity",
+        "value": "女大學生",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "羽月乃蒼",
+    "presentation_feature": "女大學生",
+    "editorial_judgment": "本作的公開資訊幾乎把重心集中在羽月乃蒼本人，並用「女大學生」「巨乳」「噴精」這類辨識度很高的題材標籤快速建立入口。由於缺少可延伸的人物關係、情節前提與場景設定，選片判斷上更適合視為以演出者與主題標示為核心的展示型企劃，而非劇情密度見長的作品。",
+    "source_keywords": [
+      "羽月乃蒼",
+      "女大學生"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開資訊中最穩定、最具辨識度的核心就是演出者羽月乃蒼，因此標題與評價主軸都應以她為中心。",
+      "basis": "public_source",
+      "signal": "羽月乃蒼"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源明確給出「女大學生」標籤，足以成為本作最主要的題材入口。",
+      "basis": "public_source",
+      "signal": "女大學生"
+    },
+    {
+      "observation_refs": [],
+      "supports": "除演出者與題材標籤外，公開資料未提供前提、人物關係或具體場景，較難支撐劇情向解讀，因此以展示型企劃來定位更貼切。",
+      "basis": "public_source",
+      "signal": "展示型企劃"
+    },
+    {
+      "observation_refs": [],
+      "supports": "「女大學生」與「巨乳」「噴精」並列出現，形成直接而明快的題材組合，強化了本作的快速辨識度。",
+      "basis": "public_source",
+      "signal": "反差魅力"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何具體校園、教室、宿舍或其他場景",
+    "未聲稱存在特定人物關係、戀愛線或情節衝突",
+    "未評論鏡位、剪輯、聲音、表演細節或節奏表現",
+    "未將「女大學生」推定為真實身份而非題材標籤",
+    "未把720p、HD、4K等並列資訊解讀為已驗證的實際觀看畫質"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-04T16:00:00.000Z"
+}

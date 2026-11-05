@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "movie_id": "USAG-100",
+  "generated_at": "2026-11-05T03:54:33.415Z",
+  "source_snapshot_hash": "sha256:59a760df4366cc3c1a1a86fb0b965104acdf16db89d6da72dec72862fe169023",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "如果你的選片習慣是先看演出者，再看題材標籤，USAG-100 的吸引力相當直接；但若你期待完整劇情鋪陳，這部目前公開資訊給出的訊號並不在那一側。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "以羽月乃蒼個人辨識度作為第一吸引點",
+      "以女大學生身份標籤作為主要題材入口",
+      "以巨乳與噴精等直觀主題詞補強作品辨識"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想直接看羽月乃蒼個人魅力的觀眾",
+      "偏好女大學生題材入口的觀眾",
+      "對直觀身體與行為標籤有興趣的觀眾"
+    ],
+    "not_for": [
+      "期待完整人物關係鋪陳的觀眾",
+      "偏好明確情節衝突或場景設定的觀眾",
+      "想先確認演技、鏡位或敘事節奏再決定的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "PRIAN-054",
+      "relation_type": "same_performer",
+      "reason": "同樣由羽月乃蒼出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "羽月乃蒼"
+      ],
+      "contrast_signals": [
+        "南國的大自然",
+        "國寶級美乳"
+      ]
+    },
+    {
+      "movie_id": "GVH-878",
+      "relation_type": "same_performer",
+      "reason": "同樣由羽月乃蒼出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "羽月乃蒼"
+      ],
+      "contrast_signals": [
+        "學生設定",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品最明確的賣點是什麼？",
+    "為何判斷它偏展示型企劃而不是劇情先行？",
+    "它比較適合哪一類觀眾？"
+  ]
+}

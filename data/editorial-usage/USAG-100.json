@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "USAG-100",
+  "calls": [
+    {
+      "generated_at": "2026-11-05T03:54:33.212Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 4671,
+      "cached_input_tokens": 0,
+      "output_tokens": 4487,
+      "total_tokens": 9158,
+      "estimated_cost_usd": 0.124313,
+      "estimated_payg_cash_cost_usd": 0.130528,
+      "direct_openai_reference_usd": 0.078982,
+      "gateway_premium_usd": 0.04533,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 4671,
+    "cached_input_tokens": 0,
+    "output_tokens": 4487,
+    "estimated_cost_usd": 0.124313,
+    "estimated_payg_cash_cost_usd": 0.130528,
+    "direct_openai_reference_usd": 0.078982,
+    "gateway_premium_usd": 0.04533
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "USAG-100",
+  "checked_at": "2026-11-05T03:54:33.596Z",
+  "review_sha256": "bee1fdf818b55d2b3f3ff294a4f0d816aa58e6b7bcfacda425f7f29be4ff0005",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最清楚的答案就是羽月乃蒼本人。公開資訊的核心概念直接落在她的名字上，代表這部作品在選片時，首先不是靠複雜設定取勝，而是靠演出者本身的辨識度吸引觀眾。再往下看，來源同時給出「女大學生」這個身份標籤，讓作品的入口非常直接：先由演出者建立興趣，再由題材標示補上想像空間。對已經熟悉羽月乃"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 2
+  }
+}
