@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MARR-014",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-05T09:33:16.125Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/MARR-014/hero-v1.jpg",
+      "r2_key": "works/2026/09/MARR-014/hero-v1.jpg",
+      "bytes": 622307,
+      "sha256": "7c2890531d9bfdb828922f27c7e798b1cf6df0a1082395cf2a6c948bc818c7b6",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "d85b756ed89e4ea1ac5f3969a4dfbac8",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/MARR-014/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/MARR-014/scene-vertical-v1.jpg",
+      "bytes": 862021,
+      "sha256": "02780f47adc7dae1d524f1c84e6130adb0d34715b391de1532175ac651bd52c7",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "343efc1783bc42ffaf2aff584b8d1e4f",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2238624,
+    "sha256": "85b32546ba915cdbf8d01f355bf3200f890f045b8c274a7fd006755096af561c",
+    "target_r2_key": "works/2026/09/MARR-014/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/MARR-014/vertical-v1.mp4"
+  }
+}

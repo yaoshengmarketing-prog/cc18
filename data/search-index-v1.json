@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:8856aac08a510ce97bec753fb0750b567af5262c4fbb869a66ecb0e2fff14aa4",
-  "source_generated_at": "2026-11-05T04:22:55.439Z",
+  "source_revision": "sha256:921c41a2c19ac6133707ecb569d33bee6279dcae18d917088851698aa64f8929",
+  "source_generated_at": "2026-11-05T09:34:11.696Z",
   "counts": {
-    "movies": 403,
+    "movies": 404,
     "performers": 324,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -162,7 +162,8 @@
       "source_name": "八蜜凛",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:FNS-261"
+        "cc18:FNS-261",
+        "cc18:MARR-014"
       ]
     },
     {
@@ -9334,6 +9335,47 @@
         "article_title": "RT-039｜獨家素人企劃：自拍形式撐起展示型賣點",
         "display_short_title": null,
         "slug": "rt-039"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MARR-014",
+        "source_cover": "https://cc18.tv/preview/80/b/6dx78MzrlbU-800.jpg?v=1790714602",
+        "title": "八蜜凛《搖曳之夢》",
+        "catalog_code": "MARR-014",
+        "release_date": "2026-09-29",
+        "performers": [
+          "八蜜凛"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "image-video",
+            "label": "印象寫真"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/marr-014/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27657"
+      ],
+      "search": {
+        "source_title": "搖曳之夢 八蜜凜",
+        "article_title": "八蜜凛首次形象影片：從人物出發的靜岡旅館之旅",
+        "display_short_title": "八蜜凛《搖曳之夢》",
+        "slug": "marr-014"
       }
     },
     {

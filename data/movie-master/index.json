@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-05T04:22:55.439Z",
+  "generated_at": "2026-11-05T09:34:11.696Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 407,
-  "formal_movie_count": 406,
+  "tracked_input_count": 408,
+  "formal_movie_count": 407,
   "demo_count": 1,
-  "published_count": 403,
+  "published_count": 404,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1592,6 +1592,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "8fcb54212342a140252f6460b0fc789a769d3e436c8bcc3b1de99ce23d7f54e6"
+    },
+    {
+      "stable_movie_id": "cc18:MARR-014",
+      "catalog_code": "MARR-014",
+      "slug": "marr-014",
+      "master_path": "data/movie-master/marr-014.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "fb6f3fa402674070c834a9b50b85a292e1c751bf43ffaf13620e3d1a5a0c673c"
     },
     {
       "stable_movie_id": "cc18:MARR-015",

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "movie_id": "MARR-014",
+  "generated_at": "2026-11-05T07:42:10.461Z",
+  "source_snapshot_hash": "sha256:1ce9ad5f8797b7f6ff4e0db8b60bd221cf7d896b58a24ff18b2d39e03db03cc1",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想先認識八蜜凛，可從 MARR-014 的人物介紹切入；若選片動機主要是秘湯旅途感，MARR-015 的文案給出的方向更明確。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源介紹將八蜜凛的首次形象影片置於靜岡鄉間旅館",
+      "「ゆらら夢」是兩作共同的系列名"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想從首次形象影片認識八蜜凛的讀者",
+      "喜歡人物介紹帶有旅館情境的讀者"
+    ],
+    "not_for": [
+      "需要先確認明確故事線才選片的讀者",
+      "希望事先掌握實際畫面與節奏的讀者"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MARR-015",
+      "relation_type": "same_series",
+      "reason": "同屬「ゆらら夢」系列，可用來比較相同公式在不同作品中的角色設定與推進差異。",
+      "shared_signals": [
+        "ゆらら夢"
+      ],
+      "contrast_signals": [
+        "新妻優香",
+        "AV女優片"
+      ]
+    },
+    {
+      "movie_id": "FNS-261",
+      "relation_type": "same_performer",
+      "reason": "同樣由八蜜凛出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "八蜜凛"
+      ],
+      "contrast_signals": [
+        "既然在網路上被炎上了"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "MARR-014 的來源介紹以什麼吸引讀者？",
+    "它與 MARR-015 的選片期待有何不同？",
+    "目前哪些影片表現仍無法由文案確認？"
+  ]
+}

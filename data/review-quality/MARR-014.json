@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "MARR-014",
+  "review_sha256": "3b560038c06c0558fead3f8afaf71b4354c294eaaaaf8b0cb472c2801d444f7a",
+  "selected_thesis": "MARR-014 的選片理由是認識八蜜凛首次形象影片中的人物定位；靜岡鄉間旅館是來源文案給這次介紹安排的情境。相較之下，MARR-015 更先以群馬秘湯喚起旅途期待。",
+  "title_basis": {
+    "performer": "八蜜凛",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "八蜜凛",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "ゆらら夢",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "八蜜凛",
+    "presentation_feature": "ゆらら夢",
+    "editorial_judgment": "以 MARR-014 與 MARR-015 的來源文案比較選片期待：前者以八蜜凛的首次形象影片為核心，後者以群馬秘湯與旅途感吸引讀者；兩者差別限於文案所提供的入口。",
+    "source_keywords": [
+      "八蜜凛",
+      "ゆらら夢",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "MARR-014 的 CC18 來源快照稱本作為八蜜凛的首部形象影片，並將舞台設定在靜岡縣鄉間旅館。",
+      "supports": "人物的首次形象介紹與旅館情境，是本作可據以討論的兩個選片線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "MARR-014 的來源關係將八蜜凛列為人物，將「ゆらら夢」列為系列。",
+      "supports": "使用「八蜜凛」作主要名稱，並將「ゆらら夢」稱作系列名。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "MARR-015 的 CC18 來源快照將群馬秘湯列為舞台設定，並將該作歸入「ゆらら夢」系列。",
+      "supports": "同系列兩部作品的文案可比較不同的選片期待，但不能據此推論 MARR-014 的影片呈現。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "八蜜凛的個人經歷及「首次形象影片」以外的出道說法",
+    "實際拍攝地點、鏡位、畫面、聲音、節奏與演出",
+    "由兩部文案推論「ゆらら夢」系列的一貫拍攝方式",
+    "將「ゆらら夢」視為已驗證的完整日文原題"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-04T16:00:00.000Z"
+}

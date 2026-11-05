@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T04:22:29.540Z",
+  "updated_at": "2026-11-05T09:33:55.345Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -6036,6 +6036,21 @@
       ],
       "release_date": "2026-10-31",
       "source_url": "https://cc18.tv/player.php?uuid=mJvmrJY3O7D&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-05"
+    },
+    {
+      "id": "MARR-014",
+      "actress": [
+        "八蜜凛"
+      ],
+      "release_date": "2026-09-29",
+      "source_url": "https://cc18.tv/player.php?uuid=6dx78MzrlbU&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
