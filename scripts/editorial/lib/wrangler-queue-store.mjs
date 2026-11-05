@@ -37,7 +37,7 @@ export class WranglerQueueStore extends D1RestQueueStore {
     const sql = bindSql(statement.sql, statement.params);
     const cli = resolve(this.root, 'node_modules/wrangler/bin/wrangler.js');
     const args = [cli, 'd1', 'execute', this.database, '--remote', '--json', '--command', sql];
-    const output = await new Promise((resolveRun, rejectRun) => {
+    const runCli = () => new Promise((resolveRun, rejectRun) => {
       const child = this.spawnImpl(process.execPath, args, {
         cwd: this.root, env: process.env, windowsHide: true, stdio: ['ignore', 'pipe', 'pipe'],
       });
@@ -48,8 +48,18 @@ export class WranglerQueueStore extends D1RestQueueStore {
       child.once('error', rejectRun);
       child.once('close', (code) => code === 0
         ? resolveRun(stdout)
-        : rejectRun(new Error(`Wrangler D1 exited with ${code}: ${stderr.slice(-500)}`)));
+        : rejectRun(new Error(`Wrangler D1 exited with ${code}: ${(stderr || stdout).slice(-500)}`)));
     });
+    let output;
+    try {
+      output = await runCli();
+    } catch (error) {
+      // A candidate SELECT is safe to retry after a transient Wrangler/transport exit.
+      // Never replay claims or other writes, whose outcome could be unknown.
+      if (!/^\s*SELECT\b/iu.test(sql)) throw error;
+      await new Promise((resolveDelay) => setTimeout(resolveDelay, 1000));
+      output = await runCli();
+    }
     let results;
     try { results = JSON.parse(output); } catch { throw new Error('Wrangler D1 returned invalid JSON'); }
     if (!Array.isArray(results) || results.some((item) => item.success !== true)) {

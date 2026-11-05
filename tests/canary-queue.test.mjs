@@ -3,11 +3,33 @@ import assert from 'node:assert/strict';
 import {mkdtemp, readFile, rm} from 'node:fs/promises';
 import {join} from 'node:path';
 import {tmpdir} from 'node:os';
+import {EventEmitter} from 'node:events';
 import {D1RestQueueStore, FileQueueStore} from '../scripts/queue/store.mjs';
-import {bindSql} from '../scripts/editorial/lib/wrangler-queue-store.mjs';
+import {bindSql, WranglerQueueStore} from '../scripts/editorial/lib/wrangler-queue-store.mjs';
 import {completeEditorialAfterCheckpoint} from '../scripts/editorial/lib/handoff-order.mjs';
 import {assertSingleWorkRequest, checkpointArtifactPaths} from '../scripts/canary/isolation.mjs';
 import {alreadyPublishedRequestedIds, classifyCanaryStageOutcome, isAdmittedCanaryWork, isNonBlockingMediaOutcome, isNonBlockingVideoOutcome, registryDraftIds} from '../scripts/canary/selection.mjs';
+
+test('Wrangler retries a failed candidate SELECT once but never replays a write', async () => {
+  let calls = 0;
+  const spawnImpl = () => {
+    const child = new EventEmitter();
+    child.stdout = new EventEmitter();
+    child.stderr = new EventEmitter();
+    calls += 1;
+    queueMicrotask(() => {
+      child.stdout.emit('data', calls === 1 ? 'temporary D1 failure' : JSON.stringify([{success: true, results: [{ok: 1}]}]));
+      child.emit('close', calls === 1 ? 1 : 0);
+    });
+    return child;
+  };
+  const store = new WranglerQueueStore({root: process.cwd(), spawnImpl});
+  assert.deepEqual((await store.query({sql: 'SELECT 1 AS ok', params: []}))[0].results, [{ok: 1}]);
+  assert.equal(calls, 2);
+  calls = 0;
+  await assert.rejects(store.query({sql: 'UPDATE pipeline_jobs SET status=\'leased\'', params: []}), /temporary D1 failure/u);
+  assert.equal(calls, 1);
+});
 
 test('preflight admission matches the queued-work selector after the release window expires', () => {
   const job = {stage: 'editorial', discovery_run_id: 'eligible-discovery-run'};
