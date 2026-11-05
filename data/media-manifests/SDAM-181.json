@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "SDAM-181",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-05T13:08:56.108Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/SDAM-181/hero-v1.jpg",
+      "r2_key": "works/2026/09/SDAM-181/hero-v1.jpg",
+      "bytes": 675114,
+      "sha256": "71cc05b96ef0ea4a15179857796b876476dac46c0780f9a1bf5f578daece4a32",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/SDAM-181/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/SDAM-181/scene-vertical-v1.jpg",
+      "bytes": 964506,
+      "sha256": "324c3319f328d1fbfcae7b99dafcbfdf6df0e3113d1689506876924ba8d21de5",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2570910,
+    "sha256": "5a5fbd4f3c079304cd107e39a382fa38475209be2cfeff341f3765eec140851c",
+    "target_r2_key": "works/2026/09/SDAM-181/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/SDAM-181/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

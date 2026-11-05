@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:40c2b731b60912943fca249284d6839986c72dc8efd69ce3854344056598bc95",
-  "source_generated_at": "2026-11-05T12:49:16.245Z",
+  "source_revision": "sha256:4e5fcd63e7169c43794e54b288eae49c505615f5f3d26f46b780c99f2cd05c4e",
+  "source_generated_at": "2026-11-05T13:09:11.122Z",
   "counts": {
-    "movies": 412,
-    "performers": 324,
+    "movies": 413,
+    "performers": 325,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1663,6 +1663,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:IDPC-004"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54620",
+      "display_name": "枢木シエル",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "枢木シエル",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SDAM-181"
       ]
     },
     {
@@ -18141,6 +18152,55 @@
         "article_title": "UMD-1019 由衣陽菜、糸井瑠花、葉月真由｜素股play發生意外：系列公式下的企劃型看點",
         "display_short_title": null,
         "slug": "umd-1019"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SDAM-181",
+        "source_cover": "https://cc18.tv/preview/80/b/senqnp0B55P-800.jpg?v=1788914306",
+        "title": "SDAM-181 枢木シエル｜別只看外表的辣妹企劃片，重點在身分轉換",
+        "catalog_code": "SDAM-181",
+        "release_date": "2026-09-08",
+        "performers": [
+          "枢木シエル"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "amateur",
+            "label": "素人"
+          },
+          {
+            "id": "gyaru",
+            "label": "辣妹"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/sdam-181/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54620"
+      ],
+      "search": {
+        "source_title": "別只看外表。黑辣妹也是認真的。為了推廣辣妹文化，從清純變辣妹，然後進入AV界。棲息地上野 職業黑辣妹 樞木希艾爾AV出道",
+        "article_title": "SDAM-181 枢木シエル｜別只看外表的辣妹企劃片，重點在身分轉換",
+        "display_short_title": null,
+        "slug": "sdam-181"
       }
     },
     {

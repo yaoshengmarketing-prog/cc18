@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "SDAM-181",
+  "checked_at": "2026-11-05T13:08:53.842Z",
+  "review_sha256": "fb5be289f65768bbaddb84f657c484f8b69e77f05917acc6881019b5b43be6bc",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "如果只根據來源判斷，真正的核心賣點不是單純的辣妹外型，而是「別只看外表」這個明確主題。公開線索把「黑辣妹也是認真的」放在相當前面的辨識位置，等於先替作品建立了一種反差閱讀方式：外表上的辣妹風格，對照的是認真、投入，甚至帶有文化推廣意味的企劃姿態。這讓 SDAM-181 的吸引力更"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "最能被支持的期待有三個。第一，是企劃性明確：作品不是只給一個辣妹標籤，而是有一個清楚的主張，要求觀眾不要只用外表判斷。第二，是角色變化感：來源中的「從清純變辣妹」讓本片帶有轉換、覺醒或重新定位的閱讀空間。第三，是展示型題材包裝：公開介紹甚至用近似紀錄片的語氣來說明它在 AV 中學"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "因為這句不只是宣傳語，而是目前最能統整所有來源訊號的核心概念。一方面，它把辣妹、素人、AV女優片、癡女這些身份詞彙串成一種閱讀角度；另一方面，它也替作品提供了最基本的評論方向：這不是單純依賴外觀分類的片，而是試圖把外觀印象與內在姿態做出對照。公開資料甚至把「認真」與「辣妹文化」並"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

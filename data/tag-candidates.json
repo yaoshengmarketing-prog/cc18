@@ -901,7 +901,7 @@
     },
     {
       "label": "出道作",
-      "occurrences": 9,
+      "occurrences": 10,
       "source_ids": [
         "IPZZ-986",
         "IPZZ-988",
@@ -911,7 +911,8 @@
         "JUNY-160",
         "IDPC-001",
         "MIDA-791",
-        "CAWB-078"
+        "CAWB-078",
+        "SDAM-181"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-05",
@@ -2392,10 +2393,11 @@
     },
     {
       "label": "曬黑",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "NHDTC-247",
-        "PETS-072"
+        "PETS-072",
+        "SDAM-181"
       ],
       "first_seen": "2026-09-08",
       "last_seen": "2026-09-22",
