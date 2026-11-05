@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "DFDM-078",
+  "review_sha256": "dfa0f23c7b8e103bdc67f644d1a582719ad43cb23c23d106d2e1ad18d53a4437",
+  "selected_thesis": "來源資料可確認本作以「本田桃」作為主要作品線索。",
+  "title_basis": {
+    "performer": "本田桃",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "本田桃",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "パンツ越し誘惑してくる小悪魔メンエス嬢",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "本田桃",
+    "presentation_feature": "パンツ越し誘惑してくる小悪魔メンエス嬢",
+    "editorial_judgment": "來源資料可確認本作以「本田桃」作為主要作品線索。",
+    "source_keywords": [
+      "本田桃",
+      "パンツ越し誘惑してくる小悪魔メンエス嬢",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：本田桃",
+      "supports": "這項可追溯來源訊號支持文章以「本田桃」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：パンツ越し誘惑してくる小悪魔メンエス嬢",
+      "supports": "這項可追溯來源訊號支持文章以「パンツ越し誘惑してくる小悪魔メンエス嬢」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：本田桃",
+      "supports": "這項可追溯來源訊號支持文章以「本田桃」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：癡女",
+      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "setting：美容院",
+      "supports": "這項可追溯來源訊號支持文章以「美容院」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-04T16:00:00.000Z"
+}
