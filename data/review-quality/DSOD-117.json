@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-117",
+  "review_sha256": "c68b484e48123b45d043a45e8978684d4e9ea5f1dc04611784cab51a66479f23",
+  "selected_thesis": "本作的選片角度是「開店前夕失去選擇權」：來源簡介把瑜伽工作室的營業權、以宣傳為名的強迫拍攝，以及男友從在場到離場串成同一段壓迫設定。",
+  "title_basis": {
+    "performer": "姬咲華",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "姬咲華",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "姬咲華",
+    "editorial_judgment": "從宣傳設定中的營業權威脅切入，分析男友在場及退場如何改變讀者對這段 NTR 故事的預期；並與同一演員的 DSOD-074 比較兩份簡介的重心。",
+    "source_keywords": [
+      "姬咲華"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介寫明，出張瑜伽講師想開自己的工作室，開店前夕贊助公司遭收購，營業權被拿來威脅她。",
+      "supports": "事業目標與營業權威脅是本作宣傳設定的起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作來源標題與簡介都強調男友在場；簡介接著寫男友被趕走，拍攝安排進入下一階段。",
+      "supports": "「在場到退場」是來源文字交代的關係變化，並非影片觀察。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "經相同 stable 人物 ID 核對的 DSOD-074，來源標題及簡介主打酷暑房間、汗水與體液交融的極限紀錄。",
+      "supports": "兩作宣傳重心的比較：DSOD-074 強調身體極限，本作強調事業危機與關係壓力。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未把角色的瑜伽工作室夢想寫成姬咲華的真實經歷。",
+    "未宣稱已看到男友的反應、具體拍攝畫面或聽到任何台詞。",
+    "未將標題所稱的五日間當成已核實的影片時間安排。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-04T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}
