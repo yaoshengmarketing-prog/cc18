@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "DLDSS-537",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-05T13:46:12.360Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/DLDSS-537/hero-v1.jpg",
+      "r2_key": "works/2026/11/DLDSS-537/hero-v1.jpg",
+      "bytes": 547911,
+      "sha256": "8867656fa61b38736f275bec03568d1e78bb44b2b260107a5ddcd086970fa482",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "10867ab93e0448d5b484a7a492f5fd1e",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/DLDSS-537/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/DLDSS-537/scene-vertical-v1.jpg",
+      "bytes": 858810,
+      "sha256": "039b6593bc56cb1ab289f6d631d011893aa3186df19af767c19d39b6e0d4875f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "b0784b12cdd14aa1b7c34f6fc7295daa",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2536336,
+    "sha256": "ada5e00469c3d2759c4f4868557781d1757de40da8b8da842396696b1b87f25a",
+    "target_r2_key": "works/2026/11/DLDSS-537/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/DLDSS-537/vertical-v1.mp4"
+  }
+}

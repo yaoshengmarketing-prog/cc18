@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "id": "DLDSS-537",
+  "generated_at": "2026-11-05T13:41:14.775Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/DLDSS-537.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "岳父大人",
+    "premise": "作品以「岳父大人」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「岳父大人」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "岳父大人",
+      "盡心侍奉嚴格岳父",
+      "汗水淋漓的接吻性愛",
+      "女神純"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "人妻・主婦"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "HD",
+      "4k"
+    ]
+  },
+  "angle_candidates": [
+    "丈夫降職後搬進夫家，原本求助的安排，讓兒媳必須面對公公的認可。",
+    "學做公公喜歡的料理、努力做家務仍得不到接納，使「還能怎麼做」成為宣傳故事的核心問題。",
+    "同為女神ジュン與 DAHLIA 的作品，前作著重介紹演員轉入片商，本作則提出具體的家庭關係與處境。"
+  ],
+  "selected_thesis": "這部作品的選片角度，是經濟不安如何把一家人帶進夫家，再把兒媳的付出變成一場得不到答案的認可考驗。這是來源簡介建立的戲劇期待，尚非對成片的判斷。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "女神ジュン",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "岳父大人",
+      "source_field": "title"
+    }
+  ],
+  "work_title": "女神ジュン：搬進夫家後，兒媳能得到接納嗎？",
+  "display_short_title": "女神ジュン與公公的認可難題",
+  "title": "做盡家務仍不被接納：這段兒媳故事從哪裡開始？",
+  "seo_title": "DLDSS-537｜女神ジュン搬進夫家，兒媳的認可難題",
+  "social_title": "丈夫降職、搬進夫家：女神ジュン這次面對的是誰的認可？",
+  "short_review": "來源簡介先交代丈夫降職與搬家，再寫兒媳學料理、做家務，卻仍無法得到公公認可。這些具體安排讓本作有別於同演員前作的移籍介紹：吸引人的是「付出之後仍被拒絕」的關係張力。實際情節如何推進，仍需看成片才能判斷。",
+  "editorial_angle": "以丈夫降職後寄居夫家為起點，閱讀兒媳的家務付出與公公拒絕接納之間的落差；並與同演員前作的移籍宣傳作有限比較。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "DLDSS-537 來源簡介交代丈夫在公司降職，夫妻因生活不安搬到丈夫的老家。",
+      "supports": "支持把經濟變故與搬家視為家庭關係轉變的起點；這是宣傳設定，並非演員經歷。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "DLDSS-537 來源簡介寫明，獨居的公公不接納兒媳；她學做他喜歡的料理並努力做家務，仍未得到認可。",
+      "supports": "支持以「付出仍遭拒絕」作為本作的核心選片問題。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "DLDSS-531 與本作共享女神ジュン的 stable 人物 ID；該作來源簡介以她轉入 DAHLIA 為宣傳重心。來源頁：https://cc18.tv/player.php?uuid=4bNmMJL9T&cat=19",
+      "supports": "支持比較兩份宣傳文字的重心：前作介紹演員與片商，本作介紹一段具體的家庭處境；不據此推斷兩部成片的表演差異。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "「經濟變故使認可更難迴避」是根據來源設定提出的編輯解讀，並非宣傳文案明說的角色心理。",
+    "文中的兒媳與公公均指作品設定中的角色。"
+  ],
+  "unsupported_claims_excluded": [
+    "不把來源標籤中的「寝取り・寝取られ・ntr」寫成已確認的具體情節。",
+    "不描述未觀看的畫面、聲音、台詞、表演效果或故事結局。",
+    "不把前作宣傳所稱的演員特質當成已核實的人物經歷。"
+  ],
+  "decision_guide": {
+    "thesis": "來源宣傳讓丈夫降職、搬進夫家與兒媳屢求認可形成連續的處境；本作的辨識點是家務付出無法換來接納。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以家庭關係與一句求認可的提問包裝作品。",
+      "與同演員前作相比，宣傳重心由移籍介紹轉向角色處境。"
+    ],
+    "audience_for": [
+      "想依具體人物關係與故事前提選片的讀者。",
+      "對女神ジュン在 DAHLIA 的不同宣傳企劃感興趣的讀者。"
+    ],
+    "audience_not_for": [
+      "需要先確認成片節奏、鏡頭或完整劇情才決定是否觀看的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "本作的故事前提是甚麼？丈夫降職後，夫妻搬進夫家，兒媳面對公公的拒絕。",
+      "它與關聯作品有何可確認的差別？DLDSS-531 的簡介著重移籍，本作的簡介著重家庭處境。",
+      "目前能判斷甚麼？能判斷宣傳提出的選片問題，不能判斷成片如何回答。"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "搬進夫家，讓「被接納」有了壓力",
+      "body": "DLDSS-537 的來源簡介從丈夫在公司降職寫起。夫妻因生活不安搬到他的老家，卻遇上不願接納兒媳的公公。於是，「怎樣才算被這個家接受」不只是一句片名裡的提問，也成了宣傳設定裡難以避開的處境。"
+    },
+    {
+      "heading": "做得更多，為何仍得不到答案？",
+      "body": "簡介具體寫到兒媳學做公公喜歡的料理，也努力處理家務，但公公仍不肯認可她。我的選片興趣正在這個落差：她已照著看似能表示誠意的方式付出，宣傳卻把答案留在拒絕之後。這是對文案安排的閱讀，不能據此認定成片如何呈現她的心情或兩人的關係。"
+    },
+    {
+      "heading": "同一位演員，這次宣傳換了焦點",
+      "body": "經 stable 人物 ID 核對的 DLDSS-531 也由女神ジュン出演，但其來源簡介主要介紹她轉入 DAHLIA。本作則先給出丈夫降職、搬家與公公拒絕接納的連續設定。兩份文案提供了不同的選片入口；至於這段家庭衝突在影片裡是否成立，現有文字材料還無法回答。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "ba2e4e5c3ac340f6c1606543fa0482f7aedb105209191cb0cb901f0617f16f6f",
+    "response_sha256": "3d43c72f51e2861d43fa712e34b768a563f32ecf0f837c9d35c668a8770a200e",
+    "research_input_sha256": "01a0b70956277d2f10fa169633d0296eeafa60daed2dd2f2c74be0effbdc5fe0",
+    "related_source_ids": [
+      "DLDSS-531"
+    ]
+  }
+}

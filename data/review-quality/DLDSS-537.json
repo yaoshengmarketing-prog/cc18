@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "DLDSS-537",
+  "review_sha256": "baaaaa4b3bb424a4b03325a1db9146b4dd451404b236bb71d9ecd667ef167c70",
+  "selected_thesis": "這部作品的選片角度，是經濟不安如何把一家人帶進夫家，再把兒媳的付出變成一場得不到答案的認可考驗。這是來源簡介建立的戲劇期待，尚非對成片的判斷。",
+  "title_basis": {
+    "performer": "女神ジュン",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "女神ジュン",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "岳父大人",
+        "source_field": "title"
+      }
+    ],
+    "primary_theme": "女神ジュン",
+    "presentation_feature": "岳父大人",
+    "editorial_judgment": "以丈夫降職後寄居夫家為起點，閱讀兒媳的家務付出與公公拒絕接納之間的落差；並與同演員前作的移籍宣傳作有限比較。",
+    "source_keywords": [
+      "女神ジュン",
+      "岳父大人"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "DLDSS-537 來源簡介交代丈夫在公司降職，夫妻因生活不安搬到丈夫的老家。",
+      "supports": "支持把經濟變故與搬家視為家庭關係轉變的起點；這是宣傳設定，並非演員經歷。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "DLDSS-537 來源簡介寫明，獨居的公公不接納兒媳；她學做他喜歡的料理並努力做家務，仍未得到認可。",
+      "supports": "支持以「付出仍遭拒絕」作為本作的核心選片問題。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "DLDSS-531 與本作共享女神ジュン的 stable 人物 ID；該作來源簡介以她轉入 DAHLIA 為宣傳重心。來源頁：https://cc18.tv/player.php?uuid=4bNmMJL9T&cat=19",
+      "supports": "支持比較兩份宣傳文字的重心：前作介紹演員與片商，本作介紹一段具體的家庭處境；不據此推斷兩部成片的表演差異。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不把來源標籤中的「寝取り・寝取られ・ntr」寫成已確認的具體情節。",
+    "不描述未觀看的畫面、聲音、台詞、表演效果或故事結局。",
+    "不把前作宣傳所稱的演員特質當成已核實的人物經歷。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-04T16:00:00.000Z"
+}

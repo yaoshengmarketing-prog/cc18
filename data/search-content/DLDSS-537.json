@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "movie_id": "DLDSS-537",
+  "generated_at": "2026-11-05T13:41:28.304Z",
+  "source_snapshot_hash": "sha256:ba2e4e5c3ac340f6c1606543fa0482f7aedb105209191cb0cb901f0617f16f6f",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "來源宣傳讓丈夫降職、搬進夫家與兒媳屢求認可形成連續的處境；本作的辨識點是家務付出無法換來接納。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以家庭關係與一句求認可的提問包裝作品。",
+      "與同演員前作相比，宣傳重心由移籍介紹轉向角色處境。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想依具體人物關係與故事前提選片的讀者。",
+      "對女神ジュン在 DAHLIA 的不同宣傳企劃感興趣的讀者。"
+    ],
+    "not_for": [
+      "需要先確認成片節奏、鏡頭或完整劇情才決定是否觀看的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "DLDSS-531",
+      "relation_type": "same_performer",
+      "reason": "同樣由女神ジュン出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "女神ジュン"
+      ],
+      "contrast_signals": [
+        "DAHLIA電擊移籍",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作的故事前提是甚麼？丈夫降職後，夫妻搬進夫家，兒媳面對公公的拒絕。",
+    "它與關聯作品有何可確認的差別？DLDSS-531 的簡介著重移籍，本作的簡介著重家庭處境。",
+    "目前能判斷甚麼？能判斷宣傳提出的選片問題，不能判斷成片如何回答。"
+  ]
+}
