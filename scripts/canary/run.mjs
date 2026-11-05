@@ -68,6 +68,7 @@ const assertProtectedUntrackedUnchanged = async () => {
 };
 
 const store = queueStoreFromEnvironment({mode: 'd1'});
+const pipeline = JSON.parse(await readFile(resolve(root, 'config/pipeline.json'), 'utf8'));
 const registry = JSON.parse(await readFile(resolve(root, 'data', 'movie-registry.json'), 'utf8'));
 const draftIds = registryDraftIds(registry);
 const existingRegistryRecord = registry.records.find(({id}) => id.toUpperCase() === requestedIds[0]);
@@ -102,6 +103,9 @@ for (const movieId of candidates) {
     const movie = await store.getMovie(movieId);
     const editorialJob = await store.findJob({movieId, stage: 'editorial'});
     if (!isAdmittedCanaryWork({movie, editorialJob})) throw new Error(`${movieId}: not an admitted validated work`);
+    if (pipeline.production?.editorial_executor === 'local_codex' && editorialJob?.status !== 'completed') {
+      throw new Error(`${movieId}: local Codex Editorial handoff is not complete`);
+    }
     let sourcePreflightPassed = false;
     for (const {stage, script, args, required} of stages) {
       if (!sourcePreflightPassed && ['image', 'video', 'publish'].includes(stage)) {

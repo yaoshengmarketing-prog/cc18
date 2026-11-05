@@ -4,6 +4,8 @@ import {mkdtemp, readFile, rm} from 'node:fs/promises';
 import {join} from 'node:path';
 import {tmpdir} from 'node:os';
 import {D1RestQueueStore, FileQueueStore} from '../scripts/queue/store.mjs';
+import {bindSql} from '../scripts/editorial/lib/wrangler-queue-store.mjs';
+import {completeEditorialAfterCheckpoint} from '../scripts/editorial/lib/handoff-order.mjs';
 import {assertSingleWorkRequest, checkpointArtifactPaths} from '../scripts/canary/isolation.mjs';
 import {alreadyPublishedRequestedIds, classifyCanaryStageOutcome, isAdmittedCanaryWork, isNonBlockingMediaOutcome, isNonBlockingVideoOutcome, registryDraftIds} from '../scripts/canary/selection.mjs';
 
@@ -102,11 +104,42 @@ test('repairs expired leases and selects only validated editorial candidates', a
     assert.equal(repaired[0].last_error_code, 'LEASE_EXPIRED');
     const candidates = await store.listCanaryCandidates({limit: 3, now});
     assert.deepEqual(candidates.map(({movie_id}) => movie_id), ['NEW-001', 'OLD-001']);
+    assert.deepEqual(await store.listCanaryCandidates({limit: 3, now, requireCompletedEditorial: true}), []);
+    const newJob = await store.findJob({movieId: 'NEW-001', stage: 'editorial'});
+    const claimedNew = await store.claim({stage: 'editorial', jobId: newJob.id, workerId: 'local-codex', now});
+    await store.enqueueJob({movieId: 'NEW-001', stage: 'publish', now});
+    await store.finishJob({jobId: claimedNew.id, workerId: 'local-codex', outcome: 'completed', now});
+    assert.deepEqual((await store.listCanaryCandidates({limit: 3, now, requireCompletedEditorial: true})).map(({movie_id}) => movie_id), ['NEW-001']);
     const withoutRegistered = await store.listCanaryCandidates({limit: 3, now, excludeMovieIds: ['new-001']});
     assert.deepEqual(withoutRegistered.map(({movie_id}) => movie_id), ['OLD-001']);
   } finally {
     await rm(directory, {recursive: true, force: true});
   }
+});
+
+test('local D1 adapter binds quotes and literal question marks without changing placeholders', () => {
+  assert.equal(bindSql("SELECT '?' AS literal, id FROM movies WHERE id=? AND title=?", ['MARR-014', "O'Brien"]),
+    "SELECT '?' AS literal, id FROM movies WHERE id='MARR-014' AND title='O''Brien'");
+  assert.throws(() => bindSql('SELECT ?', []), /parameter count mismatch/u);
+  assert.throws(() => bindSql('SELECT ?', ['bad\0id']), /NUL/u);
+});
+
+test('Editorial D1 completion waits for a saved and verified GitHub checkpoint', async () => {
+  const order = [];
+  const result = await completeEditorialAfterCheckpoint({
+    save: async () => { order.push('save'); return {saved: true, commit: 'checkpoint-sha'}; },
+    verify: async (checkpoint) => { assert.equal(checkpoint.commit, 'checkpoint-sha'); order.push('restore-and-verify'); },
+    finish: async () => { order.push('finish-d1'); return {status: 'completed'}; },
+  });
+  assert.deepEqual(order, ['save', 'restore-and-verify', 'finish-d1']);
+  assert.equal(result.finished.status, 'completed');
+  order.length = 0;
+  await assert.rejects(() => completeEditorialAfterCheckpoint({
+    save: async () => { order.push('save'); return {saved: true}; },
+    verify: async () => { order.push('restore-and-verify'); throw new Error('hash mismatch'); },
+    finish: async () => { order.push('finish-d1'); },
+  }), /hash mismatch/u);
+  assert.deepEqual(order, ['save', 'restore-and-verify']);
 });
 
 test('D1 canary selection keeps more than 95 exclusions in one bounded query parameter', async () => {

@@ -22,6 +22,8 @@ loadLocalEditorialEnvironment(root);
 const analysisArgument = process.argv.find((argument) => argument.startsWith('--analysis='))?.slice('--analysis='.length);
 const sourceOnly = process.argv.includes('--source-only');
 const repairExisting = process.argv.includes('--repair-existing');
+const codexResponseArgument = process.argv.find((argument) => argument.startsWith('--codex-response='))?.slice('--codex-response='.length);
+if (codexResponseArgument && repairExisting) throw new Error('Codex response and repair-existing are mutually exclusive');
 const feedbackArgument = process.argv.find((argument) => argument.startsWith('--qa-feedback='))?.slice('--qa-feedback='.length);
 const rewriteAttempt = Number(process.argv.find((argument) => argument.startsWith('--rewrite-attempt='))?.slice('--rewrite-attempt='.length) ?? 0);
 const normalizedTag = (value) => value.normalize('NFKC').trim();
@@ -190,9 +192,11 @@ await writeFile(resolve(responseDirectory, `${responseId}-input.json`), JSON.str
   movie_id: movieId, input: prompt, input_audit: sourceInputAudit,
   source_sha256: createHash('sha256').update(sourceRecordText).digest('hex'),
 }, null, 2));
-if (!repairExisting) assertEditorialProviderReady(editorialModel);
+if (!repairExisting && !codexResponseArgument) assertEditorialProviderReady(editorialModel);
 const generation = repairExisting
   ? {text: JSON.stringify(existingBrief), usage: {model: existingBrief.generation_model ?? editorialModel.model}}
+  : codexResponseArgument
+    ? {text: await readFile(resolve(codexResponseArgument), 'utf8'), usage: {model: 'local-codex'}}
   : await requestStructuredEditorial({
     apiKey: editorialApiKey(editorialModel),
     config: editorialModel,
@@ -201,7 +205,15 @@ const generation = repairExisting
     input: prompt,
     contentFilterFallbackText: '{}',
   });
-if (!repairExisting && generation.usage) await appendEditorialUsage({root, movieId, rewriteAttempt, usage: generation.usage});
+const codexTitles = codexResponseArgument ? parseFirstJsonObject(generation.text) : null;
+if (codexTitles) {
+  for (const key of ['work_title', 'display_short_title']) {
+    if (typeof codexTitles[key] !== 'string' || !codexTitles[key].trim() || codexTitles[key].length > 90) {
+      throw new Error(`Local Codex response needs a valid ${key}`);
+    }
+  }
+}
+if (!repairExisting && !codexResponseArgument && generation.usage) await appendEditorialUsage({root, movieId, rewriteAttempt, usage: generation.usage});
 // Retain the paid response before normalization or any publication decision.
 await writeFile(resolve(responseDirectory, `${responseId}.json`), JSON.stringify({
   movie_id: movieId, rewrite_attempt: rewriteAttempt, source_only: sourceOnly,
@@ -270,7 +282,7 @@ const safeSignalsByIdentity = new Map(safePublicSource.safe_title_signals.map((s
 result.title_signals = (Array.isArray(result.title_signals) ? result.title_signals : [])
   .map((signal) => safeSignalsByIdentity.get(`${signal?.type}\u0000${signal?.value}\u0000${signal?.source_field}`))
   .filter(Boolean);
-if (result.title_signals.length < Math.min(2, safePublicSource.safe_title_signals.length)) {
+if (!codexTitles && result.title_signals.length < Math.min(2, safePublicSource.safe_title_signals.length)) {
   result.title_signals = safePublicSource.safe_title_signals.slice(0, 4);
   providerFallbacks.push('title_signals');
 }
@@ -292,9 +304,10 @@ for (const requiredText of ['selected_thesis', 'short_review', 'editorial_angle'
   if (!result[requiredText]?.trim()) throw new Error(`Editorial provider returned no ${requiredText}; fields=${providerFields.join(',')}`);
 }
 console.log(JSON.stringify({event: 'editorial_provider_shape', fields: providerFields, local_fallbacks: providerFallbacks}));
-if (!result.title.includes(movieId)) result.title = `${movieId} ${result.title}`.slice(0, 90);
+if (!codexTitles && !result.title.includes(movieId)) result.title = `${movieId} ${result.title}`.slice(0, 90);
 if (!result.seo_title.includes(movieId)) result.seo_title = `${movieId} 影評｜${result.seo_title}`.slice(0, 100);
-if (!result.social_title.includes(movieId)) result.social_title = `${movieId}｜${result.social_title}`.slice(0, 90);
+if (!codexTitles && !result.social_title.includes(movieId)) result.social_title = `${movieId}｜${result.social_title}`.slice(0, 90);
+if (!codexTitles) {
 result.title = ensureAllPerformersInTitle({
   value: result.title,
   movieId,
@@ -307,7 +320,8 @@ result.seo_title = ensureAllPerformersInTitle({
   performers: source.actress,
   maximumLength: 100,
 });
-if (coreSourceConcept && ![result.title, result.seo_title].some((value) => value.includes(coreSourceConcept))) {
+}
+if (!codexTitles && coreSourceConcept && ![result.title, result.seo_title].some((value) => value.includes(coreSourceConcept))) {
   const performer = (source.actress ?? []).join('、');
   result.seo_title = `${movieId}${performer ? ` ${performer}` : ''}影評｜${coreSourceConcept}：${result.seo_title.replace(movieId, '').trim()}`.slice(0, 100);
   providerFallbacks.push('core_source_concept_in_seo_title');
@@ -326,11 +340,11 @@ if (traceableTitleSignals.length !== result.title_signals.length) {
 result.title_signals = traceableTitleSignals;
 const signalValues = result.title_signals.map(({value}) => value);
 const expectedTitleSignals = Math.min(2, signalValues.length);
-if (expectedTitleSignals && signalValues.filter((value) => result.title.includes(value)).length < expectedTitleSignals) {
+if (!codexTitles && expectedTitleSignals && signalValues.filter((value) => result.title.includes(value)).length < expectedTitleSignals) {
   const generated = result.title.replace(movieId, '').trim().replace(/^[｜|：:—–-]+/, '').trim();
   result.title = `${movieId} ${signalValues.slice(0, expectedTitleSignals).join(' × ')}${generated ? `｜${generated}` : ''}`.slice(0, 90);
 }
-if (signalValues.length && !signalValues.some((value) => result.social_title.includes(value))) {
+if (!codexTitles && signalValues.length && !signalValues.some((value) => result.social_title.includes(value))) {
   const generated = result.social_title.replace(movieId, '').trim().replace(/^[｜|：:—–-]+/, '').trim();
   result.social_title = `${movieId}｜${signalValues[0]}：${generated}`.slice(0, 90);
 }
@@ -367,12 +381,12 @@ const publicationCover = source.cover_source_url ?? '/images/movie-cover-fallbac
 const markdown = `---
 id: ${movieId}
 sourceTitle: ${yamlText(source.title)}
-${source.original_title_ja ? `originalTitleJa: ${yamlText(source.original_title_ja)}\n` : ''}${source.translated_title_zh_tw ? `translatedTitleZhTw: ${yamlText(source.translated_title_zh_tw)}\n` : ''}title: ${yamlText(result.title)}
+${source.original_title_ja ? `originalTitleJa: ${yamlText(source.original_title_ja)}\n` : ''}${source.translated_title_zh_tw ? `translatedTitleZhTw: ${yamlText(source.translated_title_zh_tw)}\n` : ''}${codexTitles ? `workTitle: ${yamlText(codexTitles.work_title)}\ndisplayShortTitle: ${yamlText(codexTitles.display_short_title)}\n` : ''}title: ${yamlText(result.title)}
 seoTitle: ${yamlText(result.seo_title)}
 socialTitle: ${yamlText(result.social_title)}
 titleSignals:
 ${yamlList(signalValues.map(yamlText))}
-titleVersion: 1
+titleVersion: ${codexTitles ? 2 : 1}
 actress:
 ${yamlList(source.actress ?? [])}
 releaseDate: ${source.release_date}

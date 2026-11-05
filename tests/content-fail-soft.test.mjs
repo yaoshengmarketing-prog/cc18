@@ -49,6 +49,7 @@ test('automated draft QA publishes sparse prose with notes instead of requesting
     const formal = await readFile(join(repositoryRoot, 'content/reviews', `${movieId}.md`), 'utf8');
     const markdown = formal
       .replace(/^title: .*$/mu, 'title: "自由格式標題"')
+      .replace(/^titleVersion: .*$/mu, 'titleVersion: 1')
       .replace(/^seoTitle: .*$/mu, 'seoTitle: "自由格式SEO標題"')
       .replace(/^socialTitle: .*$/mu, 'socialTitle: "自由格式社群標題"')
       .replace(/^titleSignals:\r?\n(?:  - .*\r?\n)*/mu, 'titleSignals:\n  - "非來源逐字訊號"\n')
