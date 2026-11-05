@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T13:46:56.208Z",
+  "updated_at": "2026-11-05T14:47:27.509Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -6210,6 +6210,21 @@
       ],
       "release_date": "2026-11-01",
       "source_url": "https://cc18.tv/player.php?uuid=jlWCmykNb2&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-05"
+    },
+    {
+      "id": "DLDSS-562",
+      "actress": [
+        "叶愛"
+      ],
+      "release_date": "2026-11-01",
+      "source_url": "https://cc18.tv/player.php?uuid=fUZD2bpd58&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

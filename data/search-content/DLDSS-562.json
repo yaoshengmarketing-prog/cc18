@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "movie_id": "DLDSS-562",
+  "generated_at": "2026-11-05T14:41:54.328Z",
+  "source_snapshot_hash": "sha256:a6790efe4a95682fd3a0e1d8fd4d965a03f0e3da125d812f1c3b779f257e046a",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若想看叶愛被放進有明確危機與角色位置反轉的企劃，本作的來源簡介比一般題材標籤提供了更具體的選片理由。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "末日病毒的虛構設定",
+      "研究所與疫苗任務",
+      "被捕獲者逐漸取得主導的宣傳反轉"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "喜歡帶著末日設定與角色反轉預期選片的讀者",
+      "想比較叶愛不同作品宣傳企劃的讀者"
+    ],
+    "not_for": [
+      "需要先確認成片敘事密度、節奏或具體表演的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "DLDSS-546",
+      "relation_type": "same_performer",
+      "reason": "同樣由叶愛出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "叶愛"
+      ],
+      "contrast_signals": [
+        "市民泳池遲早會被禁入"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作的宣傳衝突從哪裡開始？",
+    "它與同演員的泳池作品在宣傳重心上有何不同？",
+    "目前哪些成片資訊仍無法確認？"
+  ]
+}

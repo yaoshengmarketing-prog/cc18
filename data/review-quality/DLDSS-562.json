@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "DLDSS-562",
+  "review_sha256": "842521e41f6e4f3805964d153d9a5683b5e646756eae6cd591917fc69cbe82da",
+  "selected_thesis": "本作的選片角度是疫苗計畫的反轉：研究者以為掌握了剛感染的愛，來源簡介卻讓她逐漸成為研究所無法控制的變數。",
+  "title_basis": {
+    "performer": "叶愛",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "叶愛",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "就算世界在此毀滅",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "叶愛",
+    "presentation_feature": "就算世界在此毀滅",
+    "editorial_judgment": "比較來源簡介的衝突安排：同演員的泳池作品以多人爭奪愛為賣點，本作則先讓男人們掌握研究所與疫苗任務，再讓被捕獲的愛成為威脅。這是兩份宣傳文字的差異，不是對影片畫面或表演的觀察。",
+    "source_keywords": [
+      "叶愛",
+      "就算世界在此毀滅",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "DLDSS-562 來源簡介設定「狂性病毒」蔓延、國家崩潰，倖存者藏身求生。來源：https://cc18.tv/player.php?uuid=fUZD2bpd58&cat=19",
+      "supports": "末日危機是本作宣傳設定，不能當作真實疾病描述。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "DLDSS-562 來源簡介寫研究所捕獲剛感染、仍有微弱理性的愛，男人們原打算研究她並開發疫苗，隨後局面失控。",
+      "supports": "「研究計畫反轉」有明確的簡介依據；實際情節安排與節奏仍未知。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "經 stable 人物 ID 核對的 DLDSS-546 同由叶愛演出；其來源簡介以市民泳池及同學之間的爭奪為主要衝突。來源：https://cc18.tv/player.php?uuid=tB01UfBI2dk&cat=19",
+      "supports": "兩作可以比較宣傳重心，但沒有共同系列的依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未把「狂性病毒」描述成真實病毒或醫學現象。",
+    "未推測叶愛的真實經歷、演出表現，或研究所場面的畫面、聲音與台詞。",
+    "未將同演員的兩部作品說成同一系列或相連故事。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-04T16:00:00.000Z"
+}
