@@ -24,7 +24,7 @@ const reviews = defineCollection({
     displayShortTitle: z.string().min(1).optional(),
     seoTitle: z.string().min(1),
     socialTitle: z.string().min(1),
-    titleSignals: z.array(z.string().min(1)).min(2).max(4),
+    titleSignals: z.array(z.string().min(1)).max(4),
     titleVersion: z.number().int().positive(),
     actress: z.array(z.string()).default([]),
     releaseDate: z.coerce.date(),

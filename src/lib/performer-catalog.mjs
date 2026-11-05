@@ -211,15 +211,18 @@ export function buildPerformerCatalog({cards, masters, localization, searchIndex
 
   const performers = [];
   for (const id of relationIds) {
-    const firstRelation = publicMasters
+    const relations = publicMasters
       .flatMap((master) => master.source.performer_relations)
-      .find(({stable_source_id: stableId}) => stableId === id);
+      .filter(({stable_source_id: stableId}) => stableId === id);
+    const search = searchById.get(id);
+    if (!relations.some(({source_name: name}) => name === search.source_name)) {
+      throw new Error(`${id}: Search source name is absent from typed performer relations`);
+    }
     const localized = resolvePerformerDisplayRecord({
       stablePerformerId: id,
-      sourceName: firstRelation?.source_name,
+      sourceName: search.source_name,
       localizations: localizationById,
     });
-    const search = searchById.get(id);
     const primaryDisplayName = localized.primary_display_name;
     if (search.display_name !== primaryDisplayName
       || search.display_name_zh_tw !== localized.display_name_zh_tw
