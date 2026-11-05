@@ -756,7 +756,7 @@
     },
     {
       "label": "姐姐系",
-      "occurrences": 27,
+      "occurrences": 28,
       "source_ids": [
         "SNOS-364",
         "SNOS-372",
@@ -784,10 +784,11 @@
         "DOKS-692",
         "FJIN-170",
         "DFDM-078",
-        "NLD-034"
+        "NLD-034",
+        "HNHU-221"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-05",
+      "last_seen": "2026-11-06",
       "status": "quarantined"
     },
     {
@@ -2269,16 +2270,17 @@
     },
     {
       "label": "搭訕",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "SKMJ-786",
         "SKMJ-788",
         "NINE-127",
         "RT-042",
-        "ORECZ-722"
+        "ORECZ-722",
+        "HNHU-221"
       ],
       "first_seen": "2026-09-16",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-06",
       "status": "quarantined"
     },
     {
@@ -2974,6 +2976,16 @@
       "occurrences": 1,
       "source_ids": [
         "MBMH-097"
+      ],
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "status": "quarantined"
+    },
+    {
+      "label": "フェラモノ",
+      "occurrences": 1,
+      "source_ids": [
+        "HNHU-221"
       ],
       "first_seen": "2026-11-06",
       "last_seen": "2026-11-06",

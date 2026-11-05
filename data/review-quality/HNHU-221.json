@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "HNHU-221",
+  "review_sha256": "a58faa1531cdbe4e0ba2658228a27cb3b2aa6781b28ba8852b0fb879c86f4cbe",
+  "selected_thesis": "本作的選片角度是街訪設定的轉折：來源文案先寫購物歸來、為謝禮金接受訪問，再用工作、興趣與感情狀態的問答，帶出外表與身材的反差。這是宣傳文字安排的期待，成片是否讓轉折成立仍無法據此判斷。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "高畫質",
+    "editorial_judgment": "來源標籤已有「搭訕」與「巨乳」，但本作簡介把兩者接成一條具體路徑：購物歸來的偶遇、接受訪問的理由、房內的個人問答，再到外表反差的揭示。這種先建立日常感再轉向情色賣點的順序，是比單看標籤更明確的選片線索。",
+    "source_keywords": [
+      "獨家",
+      "高畫質",
+      "獨家配信",
+      "巨乳"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "CC18 作品來源簡介以購物歸來的短髮女子、突擊街訪及謝禮金作為開場設定。",
+      "supports": "街訪從日常偶遇開始，是本作宣傳鋪排的起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同一來源簡介接著寫房內訪談，提到美容相關工作、做甜點的興趣與感情狀態，之後才突出「隱藏巨乳」。",
+      "supports": "個人問答與外表反差在文案中有先後次序；這些是角色宣傳設定，不能視為演員履歷。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標籤包含「搭訕」與「巨乳」；本次提供的資料沒有相同 stable 人物或系列 ID 的關聯作品。",
+      "supports": "可依本作簡介討論兩項賣點如何相接，但沒有可靠的同人物或同系列作品可供比較。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不把簡介中的職業、興趣、交往史或性經驗寫成演員真實經歷。",
+    "不把宣傳文案對同意與否的用語寫成拍攝現場的事實。",
+    "不宣稱已觀看畫面、聽過聲音，或確認成片的表演、節奏與情節效果。",
+    "不補造演員姓名、系列名稱或不存在的關聯作品。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-05T16:00:00.000Z"
+}

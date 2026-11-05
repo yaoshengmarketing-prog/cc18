@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T21:28:58.991Z",
+  "updated_at": "2026-11-05T21:54:17.451Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -6336,6 +6336,19 @@
       "video_status": "rendered",
       "template": "story",
       "published_at": "2026-09-08"
+    },
+    {
+      "id": "HNHU-221",
+      "actress": [],
+      "release_date": "2026-10-02",
+      "source_url": "https://cc18.tv/player.php?uuid=aNvK3A8sEfM&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-06"
     }
   ]
 }
