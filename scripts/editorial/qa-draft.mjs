@@ -59,10 +59,15 @@ if (/CC18-DEMO|placeholder|示範(?:文章|資料|內容|作品|稿)/i.test(mark
 if ([scalar('title'), scalar('seoTitle'), scalar('socialTitle'), scalar('shortReview')].some(hasReaderFacingProductionMeta)) {
   warn('reader_facing_production_meta', {reason: 'CONTENT_QUALITY_WARNING', locations: [{field: 'frontmatter'}]});
 }
-if (![scalar('title'), scalar('seoTitle'), scalar('socialTitle')].every((value) => value.includes(movieId))) warn('missing_movie_id_in_titles');
+const localizedTitleVersion = Number(scalar('titleVersion')) >= 2;
+if (localizedTitleVersion) {
+  if (!scalar('workTitle') || !scalar('displayShortTitle') || !scalar('seoTitle').includes(movieId)) warn('incomplete_localized_title_roles');
+} else if (![scalar('title'), scalar('seoTitle'), scalar('socialTitle')].every((value) => value.includes(movieId))) {
+  warn('missing_movie_id_in_titles');
+}
 const sourceSignals = list('titleSignals');
 if (sourceSignals.length < 2 || sourceSignals.length > 4) warn('invalid_title_signal_count');
-if (sourceSignals.filter((value) => scalar('title').includes(value)).length < Math.min(2, sourceSignals.length)) warn('title_lacks_source_signals');
+if (!localizedTitleVersion && sourceSignals.filter((value) => scalar('title').includes(value)).length < Math.min(2, sourceSignals.length)) warn('title_lacks_source_signals');
 if (sourceSignals.length && !sourceSignals.some((value) => scalar('socialTitle').includes(value))) warn('social_title_lacks_source_signal');
 const searchableSource = [
   source.title,
@@ -101,7 +106,7 @@ const counts = new Map();
 for (const sentence of sentences) counts.set(sentence, (counts.get(sentence) ?? 0) + 1);
 if ([...counts.values()].some((count) => count > 1)) warn('repeated_sentences');
 
-const headings = [...body.matchAll(/^##\s+(.+)$/gm)].map((match) => match[1]);
+const headings = [...body.matchAll(localizedTitleVersion ? /^###\s+(.+)$/gm : /^##\s+(.+)$/gm)].map((match) => match[1]);
 if (headings.length < 6) warn('insufficient_sections');
 if (new Set(headings).size !== headings.length) warn('duplicate_section_headings');
 if ((brief.evidence ?? []).length < 5) warn('insufficient_evidence');

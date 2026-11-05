@@ -6,6 +6,45 @@ import {tmpdir} from 'node:os';
 import {dirname, join, resolve} from 'node:path';
 import {spawnSync} from 'node:child_process';
 import {decisionGuideViewModel} from '../src/lib/decision-guide.mjs';
+import {renderEditorialMarkdownBody} from '../scripts/editorial/lib/markdown-headings.mjs';
+
+test('local Codex titleVersion 2 makes the article title the first H2 and keeps sections at H3', () => {
+  const sections = [
+    {heading: '人物與場景', body: '第一段。'},
+    {heading: '選片取捨', body: '第二段。'},
+  ];
+  const article = renderEditorialMarkdownBody({titleVersion: 2, title: '八蜜凛首次形象影片：從人物出發的靜岡旅館之旅', sections});
+  assert.equal(article, '## 八蜜凛首次形象影片：從人物出發的靜岡旅館之旅\n\n### 人物與場景\n\n第一段。\n\n### 選片取捨\n\n第二段。');
+  assert.deepEqual([...article.matchAll(/^#{1,3} (.+)$/gmu)].map((match) => match[0]), [
+    '## 八蜜凛首次形象影片：從人物出發的靜岡旅館之旅', '### 人物與場景', '### 選片取捨',
+  ]);
+  assert.equal(renderEditorialMarkdownBody({titleVersion: 1, title: '舊文章題目', sections}),
+    '## 人物與場景\n\n第一段。\n\n## 選片取捨\n\n第二段。');
+});
+
+test('draft QA counts titleVersion 2 H3 sections instead of the article-title H2', async () => {
+  const directory = await mkdtemp(join(tmpdir(), 'cc18-codex-headings-'));
+  const movieId = 'DSOD-006';
+  try {
+    const formal = await readFile(join(repositoryRoot, 'content/reviews', `${movieId}.md`), 'utf8');
+    const markdown = formal
+      .replace(/^titleVersion: .*$/mu, 'titleVersion: 2')
+      .replace(/^title: .*$/mu, 'title: "編輯觀點題目"')
+      .replace(/\r?\n---\r?\n[\s\S]*$/u, '\n---\n\n## 編輯觀點題目\n\n### 企劃入口\n\n第一段。\n\n### 選片判斷\n\n第二段。\n');
+    const reviewPath = join(directory, 'review.md');
+    const reportPath = join(directory, 'report.json');
+    await writeFile(reviewPath, markdown, 'utf8');
+    const result = spawnSync(process.execPath, [
+      join(repositoryRoot, 'scripts/editorial/qa-draft.mjs'), movieId,
+      `--review=${reviewPath}`, `--report=${reportPath}`,
+    ], {cwd: repositoryRoot, encoding: 'utf8'});
+    assert.equal(result.status, 0, result.stderr || result.stdout);
+    const report = JSON.parse(await readFile(reportPath, 'utf8'));
+    assert.equal(report.metrics.sections, 2);
+  } finally {
+    await rm(directory, {recursive: true, force: true});
+  }
+});
 
 const repositoryRoot = resolve(import.meta.dirname, '..');
 const copyPath = async (root, path) => {
@@ -49,6 +88,7 @@ test('automated draft QA publishes sparse prose with notes instead of requesting
     const formal = await readFile(join(repositoryRoot, 'content/reviews', `${movieId}.md`), 'utf8');
     const markdown = formal
       .replace(/^title: .*$/mu, 'title: "自由格式標題"')
+      .replace(/^titleVersion: .*$/mu, 'titleVersion: 1')
       .replace(/^seoTitle: .*$/mu, 'seoTitle: "自由格式SEO標題"')
       .replace(/^socialTitle: .*$/mu, 'socialTitle: "自由格式社群標題"')
       .replace(/^titleSignals:\r?\n(?:  - .*\r?\n)*/mu, 'titleSignals:\n  - "非來源逐字訊號"\n')

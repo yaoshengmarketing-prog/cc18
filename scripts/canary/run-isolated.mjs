@@ -59,6 +59,8 @@ const assertProtected = async () => {
 git(['fetch', '--quiet', 'origin', 'main']);
 const baseCommit = git(['rev-parse', 'origin/main']).stdout.trim();
 const registry = JSON.parse(git(['show', 'origin/main:data/movie-registry.json']).stdout);
+const pipeline = JSON.parse(git(['show', 'origin/main:config/pipeline.json']).stdout);
+const requireCompletedEditorial = pipeline.production?.editorial_executor === 'local_codex';
 const store = queueStoreFromEnvironment({mode: 'd1'});
 const resumablePublishedIds = new Set();
 for (const {id, review_status: status} of registry.records) {
@@ -82,6 +84,7 @@ const candidates = requestedIds.length
   : (await store.listCanaryCandidates({
       limit: 1,
       excludeMovieIds: [...new Set([...excludedPublishedIds, ...excludedIds])],
+      requireCompletedEditorial,
     })).map(({movie_id}) => movie_id);
 const movieId = candidates[0] ?? null;
 if (!movieId) {

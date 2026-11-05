@@ -153,7 +153,7 @@ export class FileQueueStore {
     return repaired;
   }
 
-  async listCanaryCandidates({limit = 3, now = new Date(), excludeMovieIds = []} = {}) {
+  async listCanaryCandidates({limit = 3, now = new Date(), excludeMovieIds = [], requireCompletedEditorial = false} = {}) {
     const state = await this.read();
     const nowIso = now.toISOString();
     const excluded = new Set(excludeMovieIds.map(normalizedId));
@@ -164,6 +164,7 @@ export class FileQueueStore {
         movie: state.movies.find(({id}) => id === editorial.movie_id),
       }))
       .filter(({editorial}) => !excluded.has(editorial.movie_id))
+      .filter(({editorial}) => !requireCompletedEditorial || editorial.status === 'completed')
       .filter(({movie, editorial}) => isAdmittedCanaryWork({movie, editorialJob: editorial}))
       .map(({editorial, publish, movie}) => {
         if (isClaimable(editorial, nowIso)) {
@@ -456,7 +457,7 @@ export class D1RestQueueStore {
     return result.results ?? [];
   }
 
-  async listCanaryCandidates({limit = 3, now = new Date(), excludeMovieIds = []} = {}) {
+  async listCanaryCandidates({limit = 3, now = new Date(), excludeMovieIds = [], requireCompletedEditorial = false} = {}) {
     const bounded = Math.max(1, Math.min(3, Number(limit) || 1));
     const nowIso = now.toISOString();
     const excluded = [...new Set(excludeMovieIds.map(normalizedId))];
@@ -477,6 +478,7 @@ export class D1RestQueueStore {
               AND m.metadata_status='validated'
               AND (m.classification='eligible' OR (m.classification='late_arrival' AND e.discovery_run_id IS NOT NULL))
               ${exclusionClause}
+              ${requireCompletedEditorial ? "AND e.status='completed'" : ''}
               AND (
                 (e.attempt < e.max_attempts
                   AND (e.status IN ('queued','retry') OR (e.status='leased' AND e.lease_expires_at <= ?))
