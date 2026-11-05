@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "movie_id": "SDJS-386",
+  "generated_at": "2026-11-05T03:40:59.307Z",
+  "source_snapshot_hash": "sha256:4fe7fb3fa9968c2eab786ec3ffc0d8818bfd52721c706375cbc721856ef98fb8",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "SDJS-386 的可看點，主要建立在「洗腦耳環」這個明確裝置，配上OL／秘書身份與公司內地位逆轉的宣傳設定；如果你會被設定先行的職場企劃吸引，它的選片價值就成立。",
+    "story_density": "medium",
+    "pace": "unknown",
+    "presentation": [
+      "企劃設定明確",
+      "職場身份框架清楚",
+      "以地位逆轉作為主要刺激點",
+      "戲劇型包裝比技術規格更值得先看"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好設定先行企劃片的人",
+      "喜歡OL／秘書職場角色包裝的人",
+      "會因主導權翻轉題材而產生興趣的人",
+      "守屋よしの的作品追看者"
+    ],
+    "not_for": [
+      "只想找已確認寫實職場描寫的人",
+      "更在意鏡位、演技、剪輯等觀看細節的人",
+      "對洗腦或強制性地位逆轉題材本身沒有興趣的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片最明確的選片鉤子是什麼？",
+    "它比較像哪一類型的成人企劃？",
+    "人物與關係賣點落在哪裡？",
+    "哪些觀眾會比較適合先收？"
+  ]
+}

@@ -973,16 +973,17 @@
     },
     {
       "label": "修長",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "SNOS-401",
         "REBD-1065",
         "REBD-1063",
         "SNOS-403",
-        "MFCL-035"
+        "MFCL-035",
+        "SDJS-386"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "status": "quarantined"
     },
     {
@@ -2853,6 +2854,16 @@
       "occurrences": 1,
       "source_ids": [
         "AWAW-031"
+      ],
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "status": "quarantined"
+    },
+    {
+      "label": "秘書",
+      "occurrences": 1,
+      "source_ids": [
+        "SDJS-386"
       ],
       "first_seen": "2026-11-05",
       "last_seen": "2026-11-05",

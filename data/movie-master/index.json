@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-05T03:36:05.696Z",
+  "generated_at": "2026-11-05T03:43:06.972Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 400,
-  "formal_movie_count": 399,
+  "tracked_input_count": 401,
+  "formal_movie_count": 400,
   "demo_count": 1,
-  "published_count": 396,
+  "published_count": 397,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2852,6 +2852,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "060c70ac92efe51d7b91ee8db8a8bcd0922021bbc623e9e2c7a9f0bc432f1958"
+    },
+    {
+      "stable_movie_id": "cc18:SDJS-386",
+      "catalog_code": "SDJS-386",
+      "slug": "sdjs-386",
+      "master_path": "data/movie-master/sdjs-386.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "0b781e79211b43bf3bc53ff1d7aa3b75930b1c1cd2911d3149334a5f20d352da"
     },
     {
       "stable_movie_id": "cc18:SDMF-054",

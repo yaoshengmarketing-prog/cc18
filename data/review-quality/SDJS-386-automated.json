@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "SDJS-386",
+  "checked_at": "2026-11-05T03:40:59.490Z",
+  "review_sha256": "96683c42e75dc393914f06c958497197a5f99a351af5aee17fe9dae13b1c9fdf",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "最直接的答案就是「洗腦耳環」。這不是泛用型關鍵字，而是作品公開資訊裡最能一眼區分本片的企劃裝置。對選片來說，這類帶有明確觸發道具的設定，通常比單純身份標籤更有判斷力：你若本來就吃這種由外部物件啟動、進而改寫角色狀態的題材，SDJS-386 的入口就很清楚；你若對這類設定無感，光靠"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "人物包裝上，公開資訊至少給了兩個方向：一是「OL」，二是來源摘錄中的「秘書」。這讓作品的人物形象很明確地落在職場角色想像裡，也讓「公司內地位逆轉」更容易成立。換句話說，本片吸引人的地方，不只是有一個洗腦裝置，而是這個裝置被放進公司上下關係之中，讓原本的職位秩序成為刺激來源。公開簡"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}

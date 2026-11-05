@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "SDJS-386",
+  "review_sha256": "bd4ccf40e730898284f6b6635e6f9b8121835f6c06ecc36a6903816a85fbf40b",
+  "selected_thesis": "SDJS-386 最值得注意的不是單一身份標籤，而是「洗腦耳環」如何把OL／秘書的職場位置轉化為地位逆轉企劃；對偏好設定型成人片的觀眾來說，這就是它的核心價值。",
+  "title_basis": {
+    "performer": "守屋よしの",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "守屋よしの",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "洗腦耳環",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "OL",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "戲劇、連續劇",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "守屋よしの",
+    "presentation_feature": "洗腦耳環",
+    "editorial_judgment": "把這部作品當成一支由「洗腦耳環」驅動的職場角色企劃來看：公開資訊最有辨識度的，不是規格，而是OL／秘書包裝下的公司內地位逆轉。",
+    "source_keywords": [
+      "守屋よしの",
+      "洗腦耳環",
+      "OL",
+      "戲劇、連續劇"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "「洗腦耳環」直接來自作品名稱與核心概念，足以作為這支作品最主要的選片辨識點。",
+      "basis": "public_source",
+      "signal": "洗腦耳環"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開標籤給出「OL」，而來源摘錄又出現「秘書」字樣，讓人物包裝明確落在職場身份框架。",
+      "basis": "public_source",
+      "signal": "OL／秘書"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開簡介明寫「公司內絕對的地位竟然發生逆轉」，可支持本作以主導權轉移與關係翻面作為宣傳重心。",
+      "basis": "public_source",
+      "signal": "地位逆轉"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開呈現包含「戲劇、連續劇」訊號，且簡介本身具有起始處境、觸發裝置、結果翻轉的企劃結構，因此可合理視為設定先行的戲劇型成人片。",
+      "basis": "public_source",
+      "signal": "戲劇、連續劇"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何未公開證實的具體場景、鏡位、聲音、剪輯或演出表現",
+    "未推定「秘書・守屋芳乃」在作品中的完整人物背景或與其他角色的確切關係",
+    "未把4K或其他技術規格延伸成主要賣點或實際觀看品質結論",
+    "未補寫公司內部人物配置、事件結果或結局走向"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-04T16:00:00.000Z"
+}
