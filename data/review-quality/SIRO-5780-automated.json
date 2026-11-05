@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "id": "SIRO-5780",
+  "checked_at": "2026-11-05T03:34:10.715Z",
+  "review_sha256": "b00a518739991f1bf3734025f1c0d7d575d521c2efa9224251e1e8f02e79577a",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就公開資訊來看，本作最先成立的不是劇情，而是企劃辨識度。系列名「【初撮り】ネットでAV応募→AV体験撮影」已經把作品放進一個很清楚的框架：重點在初次參與、體驗拍攝、以及系列本身的入口感。再加上題名中的「獨家」，這部片的第一層吸引力比較像『這是一部帶有企劃限定感的初撮り作品』，而不"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 2
+  }
+}

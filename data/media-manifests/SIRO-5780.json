@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "SIRO-5780",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-05T03:34:53.607Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/SIRO-5780/hero-v1.jpg",
+      "r2_key": "works/2026/11/SIRO-5780/hero-v1.jpg",
+      "bytes": 894895,
+      "sha256": "e28acd018d3242989c964ef0104b4e7ca55f289eb07ec078b2baca8b59e7dae5",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "1fcabc358863498bb414b928ad2f53b1",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/SIRO-5780/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/SIRO-5780/scene-vertical-v1.jpg",
+      "bytes": 1278773,
+      "sha256": "88bb343ff5a9a6a659375334c9f9245b456d3fe3becfda716739817537cb6c26",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "7926183343864c898189c4a796f090f3",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3832753,
+    "sha256": "9768931e912d38f68c5d811d76b0da45b1e6ce0e0f9c69906f934c788128eac4",
+    "target_r2_key": "works/2026/11/SIRO-5780/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/SIRO-5780/vertical-v1.mp4"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "movie_id": "SIRO-5780",
+  "generated_at": "2026-11-05T03:34:10.534Z",
+  "source_snapshot_hash": "sha256:e95fc303588ea97bff61fd78f7c7f1b92da8bfa8fee113a691c47b7cd06c978f",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "當公開資訊集中在『獨家』『初撮り』『素人』『巨乳』這幾個訊號時，本作最穩的閱讀方式不是追問情節，而是把它看成由系列公式與標籤驅動的展示型企劃。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "系列辨識明確",
+      "素人企劃",
+      "自拍形式",
+      "獨家配信／配信專用"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會以系列企劃挑片的人",
+      "偏好素人標籤的人",
+      "會注意巨乳身形標籤的人",
+      "在意獨家配信感與自拍呈現的人"
+    ],
+    "not_for": [
+      "需要完整故事線的人",
+      "想先確認具體場景或關係設定的人",
+      "重視已知表演風格與演出細節的人"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SIRO-5722",
+      "relation_type": "same_series",
+      "reason": "同屬「【初撮り】ネットでAV応募→AV体験撮影」系列，可用來比較相同公式在不同作品中的角色設定與推進差異。",
+      "shared_signals": [
+        "【初撮り】ネットでAV応募→AV体験撮影"
+      ],
+      "contrast_signals": [
+        "素人企劃",
+        "害羞女孩"
+      ]
+    },
+    {
+      "movie_id": "SIRO-5749",
+      "relation_type": "same_series",
+      "reason": "同屬「【初撮り】ネットでAV応募→AV体験撮影」系列，可用來比較相同公式在不同作品中的角色設定與推進差異。",
+      "shared_signals": [
+        "【初撮り】ネットでAV応募→AV体験撮影"
+      ],
+      "contrast_signals": [
+        "獨家",
+        "素人"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部片最清楚的賣點是什麼？",
+    "它更像劇情片還是展示型企劃？",
+    "哪些偏好可以從公開資訊直接判斷？",
+    "哪些期待目前沒有足夠依據支持？"
+  ]
+}
