@@ -66,5 +66,7 @@
   "scores": null,
   "rewrite_attempts": 0,
   "approved_for_publish": true,
-  "approved_at": "2026-11-01T16:00:00.000Z"
+  "approved_at": "2026-11-01T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
 }
