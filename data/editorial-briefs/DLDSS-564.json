@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "id": "DLDSS-564",
+  "generated_at": "2026-11-05T12:45:08.052Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/DLDSS-564.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "春日日音",
+    "premise": "作品以「春日日音」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「春日日音」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "春日日音",
+      "春日日音"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p"
+    ]
+  },
+  "angle_candidates": [
+    "幾乎初次見面的鄰居，怎麼會知道妻子身上私密的細節？",
+    "從管委會派對到藏鏡頭，來源簡介如何逐步放大丈夫的疑心？",
+    "同樣由春日々音演出，這次把關係危機從夫家搬到日常鄰里"
+  ],
+  "selected_thesis": "本作的選片角度是「不該知道的細節」：來源簡介先讓三位鄰居以派對賓客身分進入家中，再用他們對妻子的熟悉引出丈夫的疑心。藏鏡頭是宣傳故事的後續安排，不能當成編輯已看過的畫面。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "春日々音",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "春日日音",
+      "source_field": "title"
+    },
+    {
+      "type": "series",
+      "value": "近所のパパさん達が妻のホクロの位置まで知っているー。",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "鄰居竟知道妻子的痣在哪：春日々音",
+  "display_short_title": "鄰居知道妻子的痣在哪",
+  "title": "三位鄰居知道得太多，派對如何變成疑雲？",
+  "seo_title": "DLDSS-564｜春日々音與三位鄰居：從派對開始的疑雲",
+  "social_title": "幾乎初次見面，鄰居怎麼知道妻子的私密細節？",
+  "short_review": "DLDSS-564 的來源簡介用一場管委會派對開局，讓三位鄰居對妻子的熟悉成為丈夫起疑的理由。比起直接揭露答案，「他們怎麼會知道」更是這部宣傳文字的選片鉤子。",
+  "editorial_angle": "聚焦來源簡介如何把鄰里往來寫成疑心的起點；與同演員的 DLDSS-539 比較時，只比較兩部公開設定中的關係與場景，不推論成片表現。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "提供的 DLDSS-564 來源快照寫明：丈夫因擔任社區管委會理事而在家辦派對，三位鄰居爸爸帶酒赴會；他覺得對方過於了解妻子，於是暗中裝設攝影機。",
+      "supports": "派對、異常熟悉與求證行動構成這次宣傳故事的具體線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的 DLDSS-539 來源快照以返鄉七天、溫泉和兩位義弟為設定；關聯資料確認它與本作具有相同的春日々音人物 stable ID。",
+      "supports": "兩作可比較公開文案的入口：前作從夫家與旅途展開，本作從住家附近的鄰里關係展開。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "公開商品資料列出 DLDSS-564 的日文題名為「近所のパパさん達が妻のホクロの位置まで知っているー。」、演出者為春日々音、廠牌為 DAHLIA。",
+      "supports": "核對番號、人物與「鄰居知道妻子痣的位置」這個題名線索。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "鄰居如何得知痣的位置，以及三人各自與妻子的關係",
+    "攝影機拍到的具體畫面與丈夫的實際反應表演",
+    "成片的鏡位、聲音、台詞、節奏與結局",
+    "把系列日文名稱當作已核准的作品原題，或把來源標題中的「春日日音」升格為人物正式譯名"
+  ],
+  "decision_guide": {
+    "thesis": "想看宣傳故事如何從日常聚會引出丈夫疑心的讀者，可以留意本作；目前能判斷的是設定與懸念，不能評斷成片效果。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源簡介採丈夫視角，從管委會派對寫到對鄰居的懷疑",
+      "題名以妻子痣的位置作為鄰居「知道得太多」的具體線索"
+    ],
+    "audience_for": [
+      "喜歡從日常關係中的細節破綻進入故事的讀者",
+      "想比較春日々音不同作品公開設定的讀者"
+    ],
+    "audience_not_for": [
+      "需要先確認實際影像、表演或節奏才決定選片的讀者",
+      "期待來源簡介直接交代鄰居如何得知秘密的讀者"
+    ],
+    "questions_answered": [
+      "本作來源簡介用什麼細節製造疑心？",
+      "它與同演員的 DLDSS-539 在公開設定上有何不同？",
+      "目前哪些判斷仍須看過成片才能回答？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "破綻從一場派對開始",
+      "body": "DLDSS-564 的來源簡介先給了丈夫一個平常的理由：當上社區管委會理事後，在家辦派對與鄰居熟絡。三位鄰居爸爸帶酒來訪，談話卻讓他察覺對方似乎太了解妻子。題名更把疑問縮成一個具體細節：幾乎初次見面的人，怎麼會知道妻子的痣在哪？這是宣傳故事設下的懸念，並非已查明的人物關係。"
+    },
+    {
+      "heading": "同一位演員，疑心換了位置",
+      "body": "具有相同春日々音人物 ID 的 DLDSS-539，公開簡介把關係放在返鄉七天、溫泉與兩位義弟之間；本作則讓三位鄰居走進夫妻住家。兩份文案都以熟人關係承載婚姻危機，但這次最有辨識度的入口是鄰里往來：原本為了拉近距離而辦的派對，反而讓丈夫發現自己不知道的事。這是對來源設定的編輯比較，無法據此比較兩片的實際表演。"
+    },
+    {
+      "heading": "選片判斷與材料範圍",
+      "body": "如果你喜歡從一個不合常理的細節追問人物關係，本作的公開簡介已給出明確入口；如果你要確認藏鏡頭之後如何呈現，文字資料還不能回答。本文依據提供的 [DLDSS-564 來源快照](https://cc18.tv/player.php?uuid=tkrqCXdYIfj&cat=19)、[同演員 DLDSS-539 來源快照](https://cc18.tv/player.php?uuid=V74F8gnYeJ&cat=19)及[公開商品資料](https://www.suruga-ya.jp/product/detail/332121723)，沒有使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "635f1da31d710a90f7fb92f7a0fe153fa0c4a01dd0a6a7eb224dbbde5f404689",
+    "response_sha256": "24332498b796fa3e27905ca516f982cf30c21822d1cf727232e7d23955e68191",
+    "research_input_sha256": "5094637e23f1977ff50a9a6d492cb50f13e0a50a0dd8b382a1449dad5dfe821c",
+    "related_source_ids": [
+      "DLDSS-539"
+    ]
+  }
+}

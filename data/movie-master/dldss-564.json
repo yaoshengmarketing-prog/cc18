@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.1.0",
+  "stable_movie_id": "cc18:DLDSS-564",
+  "slug": "dldss-564",
+  "is_demo": false,
+  "source": {
+    "catalog_code": "DLDSS-564",
+    "source_title": "附近的爸爸們竟然連我老婆的痣位置都知道 ~ 春日日音",
+    "release_date": "2026-11-01",
+    "source_url": "https://cc18.tv/player.php?uuid=tkrqCXdYIfj&cat=19",
+    "source_site_movie_id": "tkrqCXdYIfj",
+    "public_description": "我當上了社區管委會的理事，為了搞好鄰里關係，決定在家裡辦場派對。當天有3位鄰居爸爸帶著酒來了。酒過三巡大家越聊越嗨，但我卻越來越覺得不對勁——這些人怎麼對我老婆的事瞭若指掌？明明幾乎是第一次見面才對啊，為什麼？不安感越來越強烈的我，雖然一直告訴自己不會有事，但還是偷偷在家裡裝了隱藏攝影機……結果拍到的畫面，讓我整個人都崩潰了。",
+    "source_cover": "https://cc18.tv/preview/80/b/tkrqCXdYIfj-800.jpg?v=1793802431",
+    "raw_performer_names": [
+      "春日々音"
+    ],
+    "performer_relations": [
+      {
+        "source_type": "actor",
+        "source_id": "54080",
+        "stable_source_id": "cc18.tv:actor:54080",
+        "source_name": "春日々音",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=54080",
+        "observed_at": "2026-11-05T12:20:19.501Z"
+      }
+    ],
+    "series_relations": [
+      {
+        "source_type": "series",
+        "source_id": "20994",
+        "stable_source_id": "cc18.tv:series:20994",
+        "source_name": "近所のパパさん達が妻のホクロの位置まで知っているー。",
+        "source_url": "https://cc18.tv/search.php?s_type=series&s_tid=20994",
+        "observed_at": "2026-11-05T12:20:19.501Z"
+      }
+    ],
+    "tag_relations": [
+      {
+        "source_type": "tag",
+        "source_id": "479",
+        "stable_source_id": "cc18.tv:tag:479",
+        "source_name": "720p",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=479",
+        "observed_at": "2026-11-05T12:20:19.501Z"
+      }
+    ],
+    "fac_relations": [
+      {
+        "source_type": "fac",
+        "source_id": "2192",
+        "stable_source_id": "cc18.tv:fac:2192",
+        "source_name": "dahlia",
+        "source_url": "https://cc18.tv/search.php?s_type=fac&s_tid=2192",
+        "observed_at": "2026-11-05T12:20:19.501Z"
+      }
+    ],
+    "raw_studio_name": "dahlia",
+    "raw_series_names": [
+      "近所のパパさん達が妻のホクロの位置まで知っているー。"
+    ],
+    "source_tags": [
+      "720p"
+    ],
+    "source_record_ref": "data/source-records/DLDSS-564.json",
+    "source_snapshot_ref": null,
+    "source_fetched_at": "2026-11-05T12:20:19.501Z",
+    "source_verified_at": null,
+    "source_parser_version": null
+  },
+  "display": {
+    "performers": [
+      {
+        "source_actor_id": "cc18.tv:actor:54080",
+        "name_ja": null,
+        "display_name_zh_tw": null,
+        "display_name": "春日々音",
+        "verification_status": "SOURCE_NAME_FALLBACK"
+      }
+    ]
+  },
+  "titles": {
+    "article_title": "三位鄰居知道得太多，派對如何變成疑雲？",
+    "translated_title_zh_tw": null,
+    "display_short_title": "鄰居知道妻子的痣在哪",
+    "seo_title": "DLDSS-564｜春日々音與三位鄰居：從派對開始的疑雲"
+  },
+  "derived": {
+    "quality_codes": [
+      "HD_720P"
+    ],
+    "duration_seconds": null,
+    "canonical_topic_tag_ids": [
+      "hd"
+    ]
+  },
+  "editorial": {
+    "one_line_summary": "DLDSS-564 的來源簡介用一場管委會派對開局，讓三位鄰居對妻子的熟悉成為丈夫起疑的理由。比起直接揭露答案，「他們怎麼會知道」更是這部宣傳文字的選片鉤子。",
+    "article_ref": "content/reviews/DLDSS-564.md",
+    "article_evidence_level": "PUBLIC_METADATA",
+    "article_evidence_scope": "SOURCE_TITLE_DESCRIPTION_TAGS"
+  },
+  "media": {
+    "remotion_promo_ref": "data/media-manifests/DLDSS-564.json#/video"
+  },
+  "evidence": {
+    "records": []
+  },
+  "publishing": {
+    "is_published": true,
+    "published_at": "2026-11-05",
+    "canonical_url": "https://jav.com.tw/works/dldss-564/",
+    "indexability": "INDEX",
+    "content_hash": "5d565319fb60042f3fdb65a1314854edcafe75cbe0885723aacc7d26832f506e"
+  },
+  "legacy": {
+    "legacy_published_at": null,
+    "legacy_published_at_semantics": null
+  }
+}

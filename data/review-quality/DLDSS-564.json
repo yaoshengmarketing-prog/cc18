@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "DLDSS-564",
+  "review_sha256": "e8544014969d25793f02aa851b5370cfa39f26aa524e88df8bbb506ded80c3fd",
+  "selected_thesis": "本作的選片角度是「不該知道的細節」：來源簡介先讓三位鄰居以派對賓客身分進入家中，再用他們對妻子的熟悉引出丈夫的疑心。藏鏡頭是宣傳故事的後續安排，不能當成編輯已看過的畫面。",
+  "title_basis": {
+    "performer": "春日々音",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "春日々音",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "春日日音",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "近所のパパさん達が妻のホクロの位置まで知っているー。",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "春日々音",
+    "presentation_feature": "春日日音",
+    "editorial_judgment": "聚焦來源簡介如何把鄰里往來寫成疑心的起點；與同演員的 DLDSS-539 比較時，只比較兩部公開設定中的關係與場景，不推論成片表現。",
+    "source_keywords": [
+      "春日々音",
+      "春日日音",
+      "近所のパパさん達が妻のホクロの位置まで知っているー。",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "提供的 DLDSS-564 來源快照寫明：丈夫因擔任社區管委會理事而在家辦派對，三位鄰居爸爸帶酒赴會；他覺得對方過於了解妻子，於是暗中裝設攝影機。",
+      "supports": "派對、異常熟悉與求證行動構成這次宣傳故事的具體線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的 DLDSS-539 來源快照以返鄉七天、溫泉和兩位義弟為設定；關聯資料確認它與本作具有相同的春日々音人物 stable ID。",
+      "supports": "兩作可比較公開文案的入口：前作從夫家與旅途展開，本作從住家附近的鄰里關係展開。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "公開商品資料列出 DLDSS-564 的日文題名為「近所のパパさん達が妻のホクロの位置まで知っているー。」、演出者為春日々音、廠牌為 DAHLIA。",
+      "supports": "核對番號、人物與「鄰居知道妻子痣的位置」這個題名線索。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "鄰居如何得知痣的位置，以及三人各自與妻子的關係",
+    "攝影機拍到的具體畫面與丈夫的實際反應表演",
+    "成片的鏡位、聲音、台詞、節奏與結局",
+    "把系列日文名稱當作已核准的作品原題，或把來源標題中的「春日日音」升格為人物正式譯名"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-04T16:00:00.000Z"
+}

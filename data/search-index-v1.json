@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:ccaabcc2ac3c4f4ef2dc3460a82f657fa805c55edbe737dcd2196974d67beab5",
-  "source_generated_at": "2026-11-05T12:44:15.972Z",
+  "source_revision": "sha256:40c2b731b60912943fca249284d6839986c72dc8efd69ce3854344056598bc95",
+  "source_generated_at": "2026-11-05T12:49:16.245Z",
   "counts": {
-    "movies": 411,
+    "movies": 412,
     "performers": 324,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -1976,7 +1976,8 @@
       "source_name": "春日々音",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:DLDSS-539"
+        "cc18:DLDSS-539",
+        "cc18:DLDSS-564"
       ]
     },
     {
@@ -4070,6 +4071,35 @@
         "article_title": "同一座別莊，為何牽住兩段相反的回憶？",
         "display_short_title": "重返別莊的未亡人",
         "slug": "dldss-538"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DLDSS-564",
+        "source_cover": "https://cc18.tv/preview/80/b/tkrqCXdYIfj-800.jpg?v=1793802431",
+        "title": "鄰居知道妻子的痣在哪",
+        "catalog_code": "DLDSS-564",
+        "release_date": "2026-11-01",
+        "performers": [
+          "春日々音"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dldss-564/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54080"
+      ],
+      "search": {
+        "source_title": "附近的爸爸們竟然連我老婆的痣位置都知道 ~ 春日日音",
+        "article_title": "三位鄰居知道得太多，派對如何變成疑雲？",
+        "display_short_title": "鄰居知道妻子的痣在哪",
+        "slug": "dldss-564"
       }
     },
     {

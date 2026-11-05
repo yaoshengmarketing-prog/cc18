@@ -1,0 +1,60 @@
+{
+  "schema_version": 2,
+  "id": "DLDSS-564",
+  "checked_at": "2026-11-05T12:47:00.210Z",
+  "review_sha256": "07afe23754d39db1521173ec0fc78520e4ad025dc43617679a4aa28c43198b4b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "social_title_lacks_source_signal",
+    "missing_decision_value",
+    "title_lacks_source_core_concept",
+    "source_core_concept_not_developed",
+    "insufficient_sections",
+    "insufficient_evidence",
+    "missing_creative_reconstruction_audit"
+  ],
+  "findings": [
+    {
+      "code": "social_title_lacks_source_signal",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "title_lacks_source_core_concept",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 3,
+    "evidence_items": 3,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

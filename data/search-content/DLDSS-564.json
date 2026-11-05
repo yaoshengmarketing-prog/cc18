@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "movie_id": "DLDSS-564",
+  "generated_at": "2026-11-05T12:45:18.871Z",
+  "source_snapshot_hash": "sha256:635f1da31d710a90f7fb92f7a0fe153fa0c4a01dd0a6a7eb224dbbde5f404689",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看宣傳故事如何從日常聚會引出丈夫疑心的讀者，可以留意本作；目前能判斷的是設定與懸念，不能評斷成片效果。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源簡介採丈夫視角，從管委會派對寫到對鄰居的懷疑",
+      "題名以妻子痣的位置作為鄰居「知道得太多」的具體線索"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "喜歡從日常關係中的細節破綻進入故事的讀者",
+      "想比較春日々音不同作品公開設定的讀者"
+    ],
+    "not_for": [
+      "需要先確認實際影像、表演或節奏才決定選片的讀者",
+      "期待來源簡介直接交代鄰居如何得知秘密的讀者"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "DLDSS-539",
+      "relation_type": "same_performer",
+      "reason": "同樣由春日々音出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "春日々音"
+      ],
+      "contrast_signals": [
+        "回鄉探親的7天",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作來源簡介用什麼細節製造疑心？",
+    "它與同演員的 DLDSS-539 在公開設定上有何不同？",
+    "目前哪些判斷仍須看過成片才能回答？"
+  ]
+}
