@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "id": "OREMO-621",
+  "generated_at": "2026-11-05T23:45:59.058Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/OREMO-621.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "獨家",
+    "premise": "作品以「獨家」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「獨家」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "獨家",
+      "S桑",
+      "巨乳"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "素人"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "全高清 (FHD)",
+      "獨家限定",
+      "配信専用"
+    ]
+  },
+  "angle_candidates": [
+    "「前辣妹？」的問號，讓 S桑的形象保留懸念",
+    "「大姐」稱呼與 OL、辣妹標籤如何共同包裝 S桑",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "這部作品最有辨識度的選片線索，是宣傳把 S桑稱作「大姐」，又用「前辣妹？」留下未確認的形象懸念；值得留意的是這種介紹方式，不能把問號讀成她的真實經歷。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "獨家",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "素人企劃",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "S桑：大姐與「前辣妹？」的問號",
+  "display_short_title": "S桑的前辣妹問號",
+  "title": "「前辣妹？」如何讓 S桑的介紹多一層懸念",
+  "seo_title": "OREMO-621｜S桑的「前辣妹？」與大姐形象",
+  "social_title": "S桑是「前辣妹」嗎？宣傳留下的問號更值得注意",
+  "short_review": "來源簡介用「大姐」介紹 S桑，卻在「前辣妹？」後留了問號。這個未說定的形象，比單看題材標籤更能說明本作的宣傳角度；實際經歷與成片呈現仍無從確認。",
+  "editorial_angle": "從「大姐」與「前辣妹？」的並置切入，分析來源如何用稱呼和問號建立人物形象，並保留未經證實的部分。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "提供的 [CC18 作品頁](https://cc18.tv/player.php?uuid=wovRtaEAx4r&cat=19)來源快照，標題為「獨家 S桑」，簡介以「S桑。大姐。前辣妹？」介紹人物，並列出 OL、巨乳、辣妹等宣傳標籤。",
+      "supports": "「大姐」與帶問號的「前辣妹」確實出現在本作宣傳中，可作為分析其人物包裝的依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "[公開作品資料頁](https://seesaawiki.jp/av_name/d/OREMO-621)轉載的日文作品說明也以「元ギャル？」表述這個疑問。",
+      "supports": "問號是來源宣傳的一部分；它提出形象線索，並未證實 S桑過去的經歷。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "不把「前辣妹？」寫成 S桑確有的經歷。",
+    "不依第三方人物對照替 S桑填入演員姓名；提供的來源沒有可核對的 stable 人物 ID。",
+    "不根據「偷窺」等標籤推定實際鏡位、情節或拍攝方式。",
+    "不宣稱已觀看影片、聽到聲音或確認實際表演。"
+  ],
+  "decision_guide": {
+    "thesis": "選片理由在於來源用「大姐」定調，再以「前辣妹？」製造未說定的形象懸念。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "素人名義的人物介紹；OL、辣妹及其他題材詞均屬來源宣傳或分類，成片如何呈現尚未確"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作除了題材標籤，還有什麼可辨識的選片線索？",
+      "「前辣妹？」可以當作人物經歷嗎？",
+      "現有資料能否判斷成片的故事與節奏？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "「大姐」之後，為什麼留一個問號？",
+      "body": "S桑的[來源簡介](https://cc18.tv/player.php?uuid=wovRtaEAx4r&cat=19)很短：先用「大姐」稱呼她，再寫「前辣妹？」。前一句給出鮮明的稱呼，後一句卻沒有把過去說定。這個問號，是本作比一串題材標籤更值得注意的地方。"
+    },
+    {
+      "heading": "把形象線索留在宣傳裡",
+      "body": "OL、辣妹等詞讓讀者知道宣傳想引向哪種人物印象；「前辣妹？」則讓這個印象保持開放。我的選片判斷是：若你對這種帶點猜測的人物介紹感興趣，S桑值得留意。它仍只是文案提出的期待，不能用來確認她的經歷，也不能據此評斷影片的故事、畫面或節奏。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "8d4d677031c9a9b953b524f8e7666fed4491ac072b525bc334ac572cf69603a6",
+    "response_sha256": "302582f3433f4e237e1e72afc6a56c708d4fde3c434e64a0f9630d0b2744c27d",
+    "research_input_sha256": "f3d9d7cb370f61596c7e7d8432eaea665d524723598d2d8ab9bda96f87300bdd",
+    "related_source_ids": []
+  }
+}

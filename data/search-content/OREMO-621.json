@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "movie_id": "OREMO-621",
+  "generated_at": "2026-11-05T23:46:10.834Z",
+  "source_snapshot_hash": "sha256:8d4d677031c9a9b953b524f8e7666fed4491ac072b525bc334ac572cf69603a6",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "選片理由在於來源用「大姐」定調，再以「前辣妹？」製造未說定的形象懸念。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "素人名義的人物介紹；OL、辣妹及其他題材詞均屬來源宣傳或分類，成片如何呈現尚未確"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "本作除了題材標籤，還有什麼可辨識的選片線索？",
+    "「前辣妹？」可以當作人物經歷嗎？",
+    "現有資料能否判斷成片的故事與節奏？"
+  ]
+}

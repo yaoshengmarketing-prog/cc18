@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T22:53:54.169Z",
+  "updated_at": "2026-11-05T23:50:46.229Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -6357,6 +6357,19 @@
       ],
       "release_date": "2026-10-02",
       "source_url": "https://cc18.tv/player.php?uuid=eCtAI24Tg3J&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-06"
+    },
+    {
+      "id": "OREMO-621",
+      "actress": [],
+      "release_date": "2026-10-04",
+      "source_url": "https://cc18.tv/player.php?uuid=wovRtaEAx4r&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
