@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "id": "DFE-118",
+  "checked_at": "2026-11-05T03:48:03.222Z",
+  "review_sha256": "1eaff81186f82a795b5dbed4c9a3ec4cc4cb9fc381b8a6b611404bee31888339",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "從系列名稱與核心概念都直接落在「責め続け中出し漬け」來看，本作最清楚的賣點不是公開劇情，而是企劃主題本身。再加上來源標籤中的「淫亂・過激系」，可以合理判斷它更接近把單一刺激方向推到前景的系列作。若你本來就會跟著系列題材選片，這種作品的吸引力會很直接。"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "以現有公開資料來說，不太適合先把它期待成劇情密度高的作品。原因不是它一定沒有故事，而是目前沒有可追溯的人物關係、場景設定或劇情摘要可供展開。更穩妥的看法，是把它視為系列概念與演員標籤共同成立的展示型企劃：主題很明確，但故事資訊有限。"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 1
+  }
+}

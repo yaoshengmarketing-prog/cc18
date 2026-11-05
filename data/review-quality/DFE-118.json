@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "DFE-118",
+  "review_sha256": "0b00f9956be693ed285ce406ed5a5bdf550b04c843982fffaee575e1f8702fc0",
+  "selected_thesis": "這是一部由「責め続け中出し漬け」系列概念明確領銜的展示型作品；青井藍與「美少女 × 淫亂・過激系」的來源組合，提供了比公開劇情更清楚的選片理由。",
+  "title_basis": {
+    "performer": "青井藍",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "青井藍",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "責め続け中出し漬け",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "美少女",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "淫亂・過激系",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "青井藍",
+    "presentation_feature": "責め続け中出し漬け",
+    "editorial_judgment": "把本作定位為系列概念主導的展示型企劃，重點放在青井藍與「美少女／淫亂・過激系」兩個來源訊號形成的選片吸引力，而不是延伸出未被公開資料支持的劇情解讀。",
+    "source_keywords": [
+      "青井藍",
+      "責め続け中出し漬け",
+      "美少女",
+      "淫亂・過激系"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "系列欄位與核心概念都指向「責め続け中出し漬け」，顯示本作的主要辨識點首先來自系列企劃本身。",
+      "basis": "public_source",
+      "signal": "series:責め続け中出し漬け"
+    },
+    {
+      "observation_refs": [],
+      "supports": "演出者已知為青井藍，能讓選片判斷不只停留在企劃名稱，也能回到演員辨識度。",
+      "basis": "public_source",
+      "signal": "performer:青井藍"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源同時給出「美少女」與「淫亂・過激系」訊號，足以支持『反差魅力』作為選片觀點，但不足以推論具體角色性格或劇情。",
+      "basis": "public_source",
+      "signal": "identity+act_or_position:美少女／淫亂・過激系"
+    },
+    {
+      "observation_refs": [],
+      "supports": "presentation 欄位列出 720p、HD、4k，且 safe signls 有「高畫質」，可作為規格面的加分訊號，但不足以取代企劃核心。",
+      "basis": "public_source",
+      "signal": "presentation:高畫質／HD／4k"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "具體劇情內容與情節轉折",
+    "人物關係與角色設定",
+    "場景安排、鏡位、剪輯與聲音表現",
+    "青井藍在片中的表情、演技或身體語言",
+    "任何未被公開來源列出的服裝、地點或互動流程"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-04T16:00:00.000Z"
+}

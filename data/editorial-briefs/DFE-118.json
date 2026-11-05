@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "id": "DFE-118",
+  "generated_at": "2026-11-05T03:48:02.835Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "gpt-5.4",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/DFE-118.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "責め続け中出し漬け",
+    "premise": "作品以「責め続け中出し漬け」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「責め続け中出し漬け」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "責め続け中出し漬け",
+      "持續三穴玩弄內射浸透",
+      "青井藍",
+      "美少女"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "美少女"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "淫亂・過激系"
+    ],
+    "presentation": [
+      "720p",
+      "HD",
+      "4k"
+    ]
+  },
+  "editorial_angle": "把本作定位為系列概念主導的展示型企劃，重點放在青井藍與「美少女／淫亂・過激系」兩個來源訊號形成的選片吸引力，而不是延伸出未被公開資料支持的劇情解讀。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "青井藍",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "責め続け中出し漬け",
+      "source_field": "series"
+    },
+    {
+      "type": "identity",
+      "value": "美少女",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "act_or_position",
+      "value": "淫亂・過激系",
+      "source_field": "safe_signals"
+    }
+  ],
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "系列欄位與核心概念都指向「責め続け中出し漬け」，顯示本作的主要辨識點首先來自系列企劃本身。",
+      "basis": "public_source",
+      "signal": "series:責め続け中出し漬け"
+    },
+    {
+      "observation_refs": [],
+      "supports": "演出者已知為青井藍，能讓選片判斷不只停留在企劃名稱，也能回到演員辨識度。",
+      "basis": "public_source",
+      "signal": "performer:青井藍"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源同時給出「美少女」與「淫亂・過激系」訊號，足以支持『反差魅力』作為選片觀點，但不足以推論具體角色性格或劇情。",
+      "basis": "public_source",
+      "signal": "identity+act_or_position:美少女／淫亂・過激系"
+    },
+    {
+      "observation_refs": [],
+      "supports": "presentation 欄位列出 720p、HD、4k，且 safe signls 有「高畫質」，可作為規格面的加分訊號，但不足以取代企劃核心。",
+      "basis": "public_source",
+      "signal": "presentation:高畫質／HD／4k"
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "將「美少女」與「淫亂・過激系」並列，僅作為來源標籤之間的反差閱讀，不延伸成已驗證的角色弧線。",
+    "未提供可追溯的劇情摘要、人物關係或場景設定，因此不撰寫情節、互動流程或轉折。",
+    "把本作歸為展示型、系列公式感較強的選片，依據是系列名與核心概念高度集中，不是觀看後結論。"
+  ],
+  "decision_guide": {
+    "thesis": "這是一部由「責め続け中出し漬け」系列概念明確領銜的展示型作品；青井藍與「美少女 × 淫亂・過激系」的來源組合，提供了比公開劇情更清楚的選片理由。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "高畫質訊號可加分，但不是首要判斷依據",
+      "更適合先看系列概念與演員組合，再決定是否入手"
+    ],
+    "audience_for": [
+      "本來就會跟系列企劃選片的人",
+      "看重青井藍與題材對位的人",
+      "偏好主題展示感明確作品的人"
+    ],
+    "audience_not_for": [
+      "期待完整劇情、人物關係與明確設定的人",
+      "想先確認具體場景流程或表演細節再決定的人",
+      "只把技術規格當唯一選片依據的人"
+    ],
+    "questions_answered": [
+      "這片主打的是系列企劃還是劇情設定？",
+      "青井藍在這部作品中的來源吸引力是什麼？",
+      "適不適合期待高劇情密度？",
+      "高畫質訊號值不值得當主要選片理由？"
+    ]
+  },
+  "title": "DFE-118 青井藍｜淫亂・過激系的責め続け中出し漬け：美少女反差比劇情更有辨識度",
+  "seo_title": "DFE-118 青井藍影評｜淫亂・過激系的責め続け中出し漬け，美少女反差與系列展示感是重點",
+  "sections": [
+    {
+      "heading": "這片主打的是什麼？",
+      "body": "從系列名稱與核心概念都直接落在「責め続け中出し漬け」來看，本作最清楚的賣點不是公開劇情，而是企劃主題本身。再加上來源標籤中的「淫亂・過激系」，可以合理判斷它更接近把單一刺激方向推到前景的系列作。若你本來就會跟著系列題材選片，這種作品的吸引力會很直接。"
+    },
+    {
+      "heading": "青井藍的賣點放在哪裡？",
+      "body": "目前可追溯的演出者資訊是青井藍，另有「美少女」這個身份訊號。當「美少女」和「淫亂・過激系」被同時放進公開標籤裡，最容易成立的選片理由就是反差感：一邊是外在定位，一邊是企劃強度。這種組合不必靠複雜劇情，就能讓目標觀眾快速知道作品想打哪一種口味。"
+    },
+    {
+      "heading": "適合把它當劇情片看嗎？",
+      "body": "以現有公開資料來說，不太適合先把它期待成劇情密度高的作品。原因不是它一定沒有故事，而是目前沒有可追溯的人物關係、場景設定或劇情摘要可供展開。更穩妥的看法，是把它視為系列概念與演員標籤共同成立的展示型企劃：主題很明確，但故事資訊有限。"
+    },
+    {
+      "heading": "高畫質值得當主要理由嗎？",
+      "body": "來源裡確實出現 720p、HD、4k 與「高畫質」等規格訊號，代表技術呈現被明白列出。不過若回到真正能區分本作的條件，還是「責め続け中出し漬け」這個核心概念，以及青井藍搭配「美少女／淫亂・過激系」的組合更有決定性。高畫質可以算加分，但不像是最關鍵的入手理由。"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "具體劇情內容與情節轉折",
+    "人物關係與角色設定",
+    "場景安排、鏡位、剪輯與聲音表現",
+    "青井藍在片中的表情、演技或身體語言",
+    "任何未被公開來源列出的服裝、地點或互動流程"
+  ],
+  "editorial_tag_ids": [
+    "contrast-charm",
+    "series-formula",
+    "showcase-format"
+  ],
+  "social_title": "DFE-118 青井藍｜美少女反差對上責め続け中出し漬け",
+  "short_review": "本作最清楚的辨識點來自「責め続け中出し漬け」這個系列企劃，而不是目前未公開展開的故事內容。青井藍加上「美少女 × 淫亂・過激系」的來源組合，讓它更像一部主題展示感鮮明的選片。",
+  "selected_thesis": "這是一部由「責め続け中出し漬け」系列概念明確領銜的展示型作品；青井藍與「美少女 × 淫亂・過激系」的來源組合，提供了比公開劇情更清楚的選片理由。",
+  "angle_candidates": [
+    "把本作寫成系列概念優先的展示型企劃，重點在題材辨識而非故事延伸。",
+    "從青井藍與「美少女／淫亂・過激系」的標籤反差切入，說明它的直觀吸引力。",
+    "以選片實用性為主，強調高畫質只是加分，真正的核心仍是系列企劃與演員對位。"
+  ]
+}

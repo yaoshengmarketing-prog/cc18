@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "movie_id": "DFE-118",
+  "generated_at": "2026-11-05T03:48:03.036Z",
+  "source_snapshot_hash": "sha256:ca4c508b63e3ce837490cf0e64342c387d1e65f6c226fa635c7108aeec29c855",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "這是一部由「責め続け中出し漬け」系列概念明確領銜的展示型作品；青井藍與「美少女 × 淫亂・過激系」的來源組合，提供了比公開劇情更清楚的選片理由。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "高畫質訊號可加分，但不是首要判斷依據",
+      "更適合先看系列概念與演員組合，再決定是否入手"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "本來就會跟系列企劃選片的人",
+      "看重青井藍與題材對位的人",
+      "偏好主題展示感明確作品的人"
+    ],
+    "not_for": [
+      "期待完整劇情、人物關係與明確設定的人",
+      "想先確認具體場景流程或表演細節再決定的人",
+      "只把技術規格當唯一選片依據的人"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MISM-456",
+      "relation_type": "same_performer",
+      "reason": "同樣由青井藍出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "青井藍"
+      ],
+      "contrast_signals": [
+        "華麗深喉嚨",
+        "花衣つばき"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這片主打的是系列企劃還是劇情設定？",
+    "青井藍在這部作品中的來源吸引力是什麼？",
+    "適不適合期待高劇情密度？",
+    "高畫質訊號值不值得當主要選片理由？"
+  ]
+}

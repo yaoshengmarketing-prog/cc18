@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "DFE-118",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-05T03:49:01.886Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/DFE-118/hero-v1.jpg",
+      "r2_key": "works/2026/11/DFE-118/hero-v1.jpg",
+      "bytes": 651011,
+      "sha256": "af6a36f9a93bcabcedc8b24fef3755655c4c52632fe4ae306a2414bcb7ef3aab",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "eb152e646fdf4f42bcdbab01fd7d1960",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/DFE-118/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/DFE-118/scene-vertical-v1.jpg",
+      "bytes": 760960,
+      "sha256": "126b722df651c68395ce1c7822a3c5ac97da1b67af0b3a756114b783b5105e81",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "b3b97515558f4342853748626433283a",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2227002,
+    "sha256": "a13a5ef795a818d0243d1cb7d617c1c62f690ae11aefef22fc0de969c2119ab7",
+    "target_r2_key": "works/2026/11/DFE-118/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/DFE-118/vertical-v1.mp4"
+  }
+}

@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:34b76438804ac90930ce9f9b9cfd0f36493bb83a2f7f4f06d3f99ae17cc97f03",
-  "source_generated_at": "2026-11-05T03:43:06.972Z",
+  "source_revision": "sha256:8fdc07dd98d9359b5cdcbe443d8fcb64d9c6d5d052d4ee96691cf4748760c0a9",
+  "source_generated_at": "2026-11-05T03:50:10.936Z",
   "counts": {
-    "movies": 397,
+    "movies": 398,
     "performers": 319,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -1811,6 +1811,7 @@
       "source_name": "青井藍",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:DFE-118",
         "cc18:MISM-456"
       ]
     },
@@ -3798,6 +3799,51 @@
         "article_title": "SDJS-386 守屋よしの｜洗腦耳環下的OL秘書逆轉設定，企劃感先行的一作",
         "display_short_title": null,
         "slug": "sdjs-386"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DFE-118",
+        "source_cover": "https://cc18.tv/preview/80/b/B8oTX4VOCbR-800.jpg?v=1793824651",
+        "title": "DFE-118 青井藍｜淫亂・過激系的責め続け中出し漬け：美少女反差比劇情更有辨識度",
+        "catalog_code": "DFE-118",
+        "release_date": "2026-11-02",
+        "performers": [
+          "青井藍"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dfe-118/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:29367"
+      ],
+      "search": {
+        "source_title": "持續三穴玩弄內射浸透 青井藍",
+        "article_title": "DFE-118 青井藍｜淫亂・過激系的責め続け中出し漬け：美少女反差比劇情更有辨識度",
+        "display_short_title": null,
+        "slug": "dfe-118"
       }
     },
     {
