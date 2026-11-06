@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-06T09:48:22.864Z",
+  "generated_at": "2026-11-06T10:07:17.276Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 442,
-  "formal_movie_count": 441,
+  "tracked_input_count": 443,
+  "formal_movie_count": 442,
   "demo_count": 1,
-  "published_count": 438,
+  "published_count": 439,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -188,6 +188,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "d7088d33e3445bee58675c7f6a042752bf0b271e7fc6c29b63f913163f552501"
+    },
+    {
+      "stable_movie_id": "cc18:AVSA-456",
+      "catalog_code": "AVSA-456",
+      "slug": "avsa-456",
+      "master_path": "data/movie-master/avsa-456.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "20ad4cf2c89ee43aff9aaaca7d1a44fbb3c39d38139ad1f6ab8b34f7736ddb84"
     },
     {
       "stable_movie_id": "cc18:AWAW-029",

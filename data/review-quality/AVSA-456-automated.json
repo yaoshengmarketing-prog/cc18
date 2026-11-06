@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "AVSA-456",
+  "checked_at": "2026-11-06T10:06:50.660Z",
+  "review_sha256": "61bd088289722adacc7715e84611703dc9d41eb55d53772624d18e60e2b946ab",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "broad_formulaic_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 3,
+      "paragraph_count": 8,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前能確認的公開來源，AVSA-456 最強的吸引點不是枝節設定，而是片名直接成立的企劃主軸：「變態痴女的逆監禁恐慌室」。這個概念本身就有很高辨識度，因為它同時結合了癡女屬性、監禁語彙與明顯偏向封閉企劃空間的想像。對選片來說，這代表它不是那種需要大量前情提要才能理解方向的"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "公開資料能確認演出者是北野未奈，而這點與片名中的「變態痴女」概念放在一起時，形成很直接的選片訊號。也就是說，本作的賣點不是只有題材，而是由特定演出者去承接這個強設定。由於目前沒有更多可驗證的人物關係或情節細節，選片時更應該把重心放在「演員名 + 核心企劃」的組合判斷上。對偏好演員"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "影響選片判斷的關鍵詞，依重要性來看，首先是「變態痴女的逆監禁恐慌室」，其次是來源摘錄中的「監禁」與「M男」，再來才是標籤層級的「癡女」與「巨乳」。其中真正構成作品個性的，是前面幾個與主導權、壓迫感、角色位置有關的詞。它們共同指出這不是走日常親密感或一般戀愛包裝的方向，而是明顯由企"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

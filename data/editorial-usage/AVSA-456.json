@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "AVSA-456",
+  "calls": [
+    {
+      "generated_at": "2026-09-09T04:55:35.939Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2574,
+      "cached_input_tokens": 0,
+      "output_tokens": 1761,
+      "total_tokens": 4335,
+      "estimated_cost_usd": 0.052492,
+      "estimated_payg_cash_cost_usd": 0.055117,
+      "direct_openai_reference_usd": 0.03285,
+      "gateway_premium_usd": 0.019643,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2574,
+    "cached_input_tokens": 0,
+    "output_tokens": 1761,
+    "estimated_cost_usd": 0.052492,
+    "estimated_payg_cash_cost_usd": 0.055117,
+    "direct_openai_reference_usd": 0.03285,
+    "gateway_premium_usd": 0.019643
+  }
+}

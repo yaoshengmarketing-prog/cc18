@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "AVSA-456",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-06T10:06:53.451Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/AVSA-456/hero-v1.jpg",
+      "r2_key": "works/2026/09/AVSA-456/hero-v1.jpg",
+      "bytes": 698795,
+      "sha256": "ea2564cf736c84bea830da5e36ab1372e580949b0eaf72fb7e080d49493b85f3",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/AVSA-456/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/AVSA-456/scene-vertical-v1.jpg",
+      "bytes": 691278,
+      "sha256": "517d28913907ac5c8d84ece1f429e86e761b345f87e84b3b1106c974d98ccb9a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 1940159,
+    "sha256": "95c00e5b5da99fc3fb9b36289cc7ffa9eb384dd5562f9e382f48aca42b2781c4",
+    "target_r2_key": "works/2026/09/AVSA-456/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/AVSA-456/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
