@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "IPZZ-970",
+  "review_sha256": "f2937c9e7889d1aa55dc8733bd922956ed19722e43f31f878d1c5de16bc60e24",
+  "selected_thesis": "本作的選片辨識點是美容護理店的接客界線：顧客利用服務關係施壓，宣傳再將被迫越界寫成背叛男友的轉變。這與花咲澪另一部作品以朋友間的嫉妒推動衝突，提供了不同的情境入口。",
+  "title_basis": {
+    "performer": "花咲澪",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "花咲澪",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "竟被垃圾客強迫跨坐施術",
+        "source_field": "title"
+      }
+    ],
+    "primary_theme": "花咲澪",
+    "presentation_feature": "竟被垃圾客強迫跨坐施術",
+    "editorial_judgment": "聚焦服務關係如何被宣傳文案寫成無法輕易拒絕的處境，並以同一 stable 人物 ID 的 IPZZ-941 對照：前作的衝突源於私人關係中的報復，本作的衝突始於顧客對美容護理師的施壓。文案所稱的愉悅與轉變，只作為宣傳主張討論。",
+    "source_keywords": [
+      "花咲澪",
+      "竟被垃圾客強迫跨坐施術"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "IPZZ-970 的 CC18 來源簡介設定花咲澪飾演的角色與男友同居，並在美容相關店面遭顧客強迫越界；來源標籤包含美容院與 NTR。作品頁：https://cc18.tv/player.php?uuid=u2xVAGB4ybe&cat=19",
+      "supports": "支持以接客界線、顧客施壓及伴侶關係作為本作的宣傳設定；不支持對實際演出或角色意願作觀影結論。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "活動商品頁列出 IPZZ-970 的日文商品標題，使用「エステ店」指稱工作場所。活動頁：https://maharaja-event.com/event/event-8776/",
+      "supports": "支持在編輯標題中使用「美容護理店」，避免把來源的「美容院」寫成明確的美髮沙龍；該活動頁未提供成片觀察。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同一演員 stable ID「cc18.tv:actor:53386」所連結的 IPZZ-941，來源簡介以打工同事、死黨交往及報復作為衝突。作品頁：https://cc18.tv/player.php?uuid=x3YR5D5eLZ&cat=19",
+      "supports": "支持比較兩部作品宣傳設定的衝突起點；兩作沒有經確認的共同系列 ID。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未宣稱花咲澪本人有美容護理工作經歷。",
+    "未將宣傳所寫的愉悅或角色轉變，當成已觀看成片後確認的表演事實。",
+    "未推定鏡位、聲音、節奏或台詞實際呈現方式。",
+    "未把 IPZZ-941 與本作寫成同一系列或相同角色的續篇。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-05T16:00:00.000Z"
+}

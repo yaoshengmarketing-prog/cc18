@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "movie_id": "IPZZ-970",
+  "generated_at": "2026-11-06T06:43:59.804Z",
+  "source_snapshot_hash": "sha256:b62f931f4bde2b4c039e10d182407e3d47b6ed7dd17445e232a6f955f643aeb3",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "這部值得留意的是美容護理店的服務關係如何成為顧客施壓的條件，並被宣傳接到背叛男友的故事上；與 IPZZ-941 的私人報復設定相比，選片理由更集中在工作現場的界線。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "花咲澪演出",
+      "美容護理店設定",
+      "同居男友與顧客的關係衝突"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想依工作場景與顧客越界設定挑選花咲澪作品的讀者",
+      "想比較同一演員在不同關係衝突中如何被宣傳的讀者"
+    ],
+    "not_for": [
+      "需要先確認成片節奏、表演細節或角色意願如何呈現的讀者",
+      "不想接觸強迫與伴侶背叛設定的讀者"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "IPZZ-941",
+      "relation_type": "same_performer",
+      "reason": "同樣由花咲澪出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "花咲澪"
+      ],
+      "contrast_signals": [
+        "黑化後的我趁死黨住院期間",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作與 IPZZ-941 的宣傳設定差在哪裡？前者從顧客與服務關係起步，後者從朋友間的嫉妒與報復起步。",
+    "工作場所該如何理解？活動商品頁使用「エステ店」，以美容護理店稱呼較準確。",
+    "能否從簡介判斷成片表現？目前只能判斷宣傳如何安排衝突。"
+  ]
+}
