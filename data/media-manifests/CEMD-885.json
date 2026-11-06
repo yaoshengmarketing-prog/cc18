@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "CEMD-885",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-06T02:12:18.789Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/CEMD-885/hero-v1.jpg",
+      "r2_key": "works/2026/09/CEMD-885/hero-v1.jpg",
+      "bytes": 646095,
+      "sha256": "790482b8746abcf01ed9a17a6ab45b987c3505fc8069b63c218d0ef61426ec3b",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/CEMD-885/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/CEMD-885/scene-vertical-v1.jpg",
+      "bytes": 1404584,
+      "sha256": "34582649f9e2329e1aa0329f61936e9f6b04c7ef56bd48593ef2538fd2d82467",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3290920,
+    "sha256": "539b9f3056b54a32d881ed8a044beb661e3a88b5a4af81bc35b1a0a28540bbef",
+    "target_r2_key": "works/2026/09/CEMD-885/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/CEMD-885/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
