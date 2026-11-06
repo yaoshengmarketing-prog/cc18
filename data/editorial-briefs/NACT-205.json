@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "id": "NACT-205",
+  "generated_at": "2026-11-06T16:43:45.871Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/NACT-205.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "俺の彼女はAIラブドール",
+    "premise": "作品以「俺の彼女はAIラブドール」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「俺の彼女はAIラブドール」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "俺の彼女はAIラブドール",
+      "我的女友是AI性愛娃娃",
+      "紺野光"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "口交"
+    ],
+    "presentation": [
+      "戲劇、連續劇",
+      "720p",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由紺野光演出，本作與另一部已核對作品各用什麼人物關係推動故事，這會如何影響選片？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=rgigKD9DVfc&cat=19",
+      "supports": "已提供的作品來源快照記載：男子弄壞陪伴多年的娃娃後，遇見會學習人類語言與行動的 AI 娃娃；簡介以她逐漸像真正女友作為故事前提。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=xa813n8zo9K&cat=19",
+      "supports": "已提供的同演員作品來源快照記載：紺野光演出的人妻對丈夫不滿，故事由義父發現她的私密行為與隨後的脅迫展開。"
+    }
+  ],
+  "angle_candidates": [
+    "從失去舊伴侶到學習成為女友：本作如何用替代與親密感設定故事問題",
+    "比較紺野光兩部作品的人物關係：AI 女友的養成設定與家庭內的脅迫設定",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作的可辨識之處是「會學習的 AI 女友」：它把親密關係的形成留作懸念；相較之下，同演員另一部作品以既有家庭關係中的脅迫開場。兩種設定提供了不同的選片理由，但簡介不足以評斷成片表現。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "紺野光",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "俺の彼女はAIラブドール",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "我的女友是 AI 娃娃：紺野光",
+  "display_short_title": "紺野光的 AI 女友",
+  "title": "會學習的女友，能填補失去舊伴侶的空缺嗎？",
+  "seo_title": "NACT-205 紺野光｜AI 女友設定與同演員作品比較",
+  "social_title": "紺野光這次演出會學習的 AI 女友",
+  "short_review": "公開簡介先寫失去陪伴多年的娃娃，再讓會學習的 AI 娃娃出現。本作適合對「親密感如何形成」這個設定有興趣的讀者；成片如何處理懸念，仍無法由簡介確認。",
+  "editorial_angle": "以同演員作品作對照，指出本作將關係建立在失去與重新陪伴之上，另一部則從家庭內的權力失衡展開；比較的是公開設定及其選片意義。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介記載男子弄壞陪伴多年的娃娃，隨後遇見會吸收人類語言與行動的 AI 娃娃。",
+      "supports": "支持以失去、替代與關係逐漸形成作為本作的設定重心。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同演員作品的簡介以對丈夫不滿的人妻及義父的脅迫作為開端。",
+      "supports": "支持兩作的人物關係與故事起點不同，供讀者依題材偏好選片。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "AI 娃娃在結局是否擁有真實情感",
+    "兩部作品的實際表演、畫面、聲音與敘事品質",
+    "紺野光在作品以外的人物經歷"
+  ],
+  "decision_guide": {
+    "thesis": "若想看 AI 伴侶如何從學習走向親密關係，本作的公開設定比同演員另一部家庭脅迫題材更切合；實際呈現尚待觀影確認。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以失去舊伴侶、AI 娃娃出現及關係變化的懸念組織故事。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作公開簡介的故事起點是什麼？",
+      "它與紺野光另一部已核對作品的人物關係有何差異？",
+      "這項差異能提供什麼選片依據？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "從失去陪伴，到遇見會學習的女友",
+      "body": "本作簡介先交代一個失去：男子弄壞陪伴自己多年的娃娃，正陷入失意。接著出現的 AI 娃娃會吸收人類的語言與行動，逐漸變得像女友。這讓選片時值得留意的問題十分具體：新伴侶是填補舊有空缺，還是在相處中建立另一種關係？簡介留下懸念，沒有交代答案。"
+    },
+    {
+      "heading": "同樣由紺野光演出，關係的起點不同",
+      "body": "另一部已核對作品從對丈夫不滿的人妻寫起，並以義父發現她的私密行為、進而脅迫她推動情節。它的張力來自既有家庭關係中的權力失衡；本作則讓一段關係從 AI 娃娃的學習能力開始。若你想找的是帶有 AI 伴侶想像的故事前提，本作的簡介給了更直接的線索；若偏好家庭禁忌與脅迫設定，另一部的方向較明確。這是設定比較，不是成片品質的比較。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據已提供的 [本作來源快照](https://cc18.tv/player.php?uuid=rgigKD9DVfc&cat=19) 與 [同演員作品來源快照](https://cc18.tv/player.php?uuid=xa813n8zo9K&cat=19)。外部作品頁在本次環境中無法開啟；比較僅涉及快照中的人物關係與公開簡介，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "8371fd7b8935f9de45be08bb5f6aaa155f94d8119e4259dee037a6a76decf3b8",
+    "response_sha256": "e2140263677a469e767668fc4a25a849a7117fcaf4f0be759cd3d6192b012d2b",
+    "research_input_sha256": "f3c1ec8f00f6a3af108a107dddaed17984e985df081a7aaeee9b03d2878513bd",
+    "related_source_ids": [
+      "NACT-176"
+    ]
+  }
+}

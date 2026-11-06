@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "NACT-205",
+  "review_sha256": "0875eb9beba8215de7b913dac832863f61c9f97fdd6b15659d603c3edd53f079",
+  "selected_thesis": "本作的可辨識之處是「會學習的 AI 女友」：它把親密關係的形成留作懸念；相較之下，同演員另一部作品以既有家庭關係中的脅迫開場。兩種設定提供了不同的選片理由，但簡介不足以評斷成片表現。",
+  "title_basis": {
+    "performer": "紺野光",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "紺野光",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "俺の彼女はAIラブドール",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "紺野光",
+    "presentation_feature": "俺の彼女はAIラブドール",
+    "editorial_judgment": "以同演員作品作對照，指出本作將關係建立在失去與重新陪伴之上，另一部則從家庭內的權力失衡展開；比較的是公開設定及其選片意義。",
+    "source_keywords": [
+      "紺野光",
+      "俺の彼女はAIラブドール",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介記載男子弄壞陪伴多年的娃娃，隨後遇見會吸收人類語言與行動的 AI 娃娃。",
+      "supports": "支持以失去、替代與關係逐漸形成作為本作的設定重心。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同演員作品的簡介以對丈夫不滿的人妻及義父的脅迫作為開端。",
+      "supports": "支持兩作的人物關係與故事起點不同，供讀者依題材偏好選片。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "AI 娃娃在結局是否擁有真實情感",
+    "兩部作品的實際表演、畫面、聲音與敘事品質",
+    "紺野光在作品以外的人物經歷"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 2,
+  "id": "NACT-205",
+  "checked_at": "2026-11-06T16:52:58.358Z",
+  "review_sha256": "3d21a644498feb4783783c5b249c165c31356d91765c10a7439418c3cb93b7ab",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "reader_facing_production_meta",
+    "reader_facing_production_meta",
+    "title_lacks_source_core_concept",
+    "missing_creative_reconstruction_audit",
+    "insufficient_presentation_signals"
+  ],
+  "findings": [
+    {
+      "code": "reader_facing_production_meta",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "CONTENT_QUALITY_WARNING",
+      "locations": [
+        {
+          "field": "frontmatter"
+        }
+      ]
+    },
+    {
+      "code": "reader_facing_production_meta",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "CONTENT_QUALITY_WARNING",
+      "locations": [
+        {
+          "paragraph": 3,
+          "excerpt": "本作簡介先交代一個失去：男子弄壞陪伴自己多年的娃娃，正陷入失意。接著出現的 AI 娃娃會吸收人類的語言與行動，逐漸變得像女友。這讓選片時值得留意的問題十分具體：新伴侶是填補舊有空缺，還是在相處中建立另一種關係？簡介留下懸念，沒有交代答案。"
+        },
+        {
+          "paragraph": 5,
+          "excerpt": "另一部已核對作品從對丈夫不滿的人妻寫起，並以義父發現她的私密行為、進而脅迫她推動情節。它的張力來自既有家庭關係中的權力失衡；本作則讓一段關係從 AI 娃娃的學習能力開始。若你想找的是帶有 AI 伴侶想像的故事前提，本作的簡介給了更直接的線索；若偏好家庭禁忌與脅迫設定，另一部的方向"
+        }
+      ]
+    },
+    {
+      "code": "title_lacks_source_core_concept",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_presentation_signals",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 3,
+    "evidence_items": 2,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}
