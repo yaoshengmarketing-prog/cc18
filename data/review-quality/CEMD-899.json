@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "CEMD-899",
+  "review_sha256": "cad1800999b2011f4e067fc2ae1bfb57b4c8011aedee9d913caa128cbb1411af",
+  "selected_thesis": "這部作品的選片角度在於來源如何包裝「拍攝中協商」：它以假企劃和紀錄片口吻，把玉城夏帆是否接受提議寫成懸念；這是宣傳設定，不能當作實際拍攝經過的證明。",
+  "title_basis": {
+    "performer": "玉城夏帆",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "玉城夏帆",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "アナルファック・シリーズ",
+        "source_field": "series"
+      }
+    ],
+    "primary_theme": "玉城夏帆",
+    "presentation_feature": "アナルファック・シリーズ",
+    "editorial_judgment": "比較同系列兩份簡介後，本作值得注意的是宣傳如何讓「她原本不再拍攝」與「現場提出提議」構成懸念。只評論這種企劃包裝，不把文案對當事人反應與同意的描述當成已查證事實。",
+    "source_keywords": [
+      "玉城夏帆",
+      "アナルファック・シリーズ"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "提供的 CEMD-899 來源標題寫有「僅此一場」「復活」及「嘗試在拍攝中協商」；簡介自稱紀錄片，並設定以假拍攝企劃邀約玉城夏帆。",
+      "supports": "本作把拍攝中協商放在宣傳核心，並以紀錄片口吻增加懸念。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "經 stable 系列 ID 核對，CEMD-885 與本作同屬 cc18.tv:series:18486；其來源標題及簡介也以拍攝中協商為企劃設定。",
+      "supports": "協商不是本作獨有題材；本作的辨識點在假企劃與「原本不再拍攝」的文案組合。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "兩作的演出者不同；提供的關聯資料標示 shared_series 為 true、shared_performer 為 false。",
+      "supports": "CEMD-885 僅能用作系列宣傳方式的對照，不能用來推論玉城夏帆的個人經歷。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將「原本不再拍攝」或「僅此一場」寫成已獨立證實的個人經歷與未來承諾。",
+    "未將假企劃、現場協商或當事人的同意情況寫成已核實的拍攝事實。",
+    "未根據宣傳簡介判定實際畫面、聲音、表演或影片節奏。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-05T16:00:00.000Z"
+}

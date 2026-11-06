@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "id": "CEMD-899",
+  "generated_at": "2026-11-06T07:43:33.852Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/CEMD-899.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "アナルファック・シリーズ",
+    "premise": "作品以「アナルファック・シリーズ」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「アナルファック・シリーズ」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "アナルファック・シリーズ",
+      "僅此一場的肛門SEX復活",
+      "玉城夏帆",
+      "此為終極",
+      "中出",
+      "巨乳"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "亂交"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "angle_candidates": [
+    "來源把「原本不再拍攝」與「拍攝中協商」連在一起，將協商過程寫成玉城夏帆這部作品的主要懸念。",
+    "同系列的 CEMD-885 也以拍攝中協商為賣點；本作更強調假企劃與紀錄片式宣傳口吻。",
+    "「僅此一場」製造限定感，但現有材料不足以證實這是她最後一次參與同類作品。"
+  ],
+  "selected_thesis": "這部作品的選片角度在於來源如何包裝「拍攝中協商」：它以假企劃和紀錄片口吻，把玉城夏帆是否接受提議寫成懸念；這是宣傳設定，不能當作實際拍攝經過的證明。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "玉城夏帆",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "アナルファック・シリーズ",
+      "source_field": "series"
+    }
+  ],
+  "work_title": "玉城夏帆的拍攝中協商企劃",
+  "display_short_title": "玉城夏帆的協商企劃",
+  "title": "當協商過程成為作品的主要懸念",
+  "seo_title": "CEMD-899 玉城夏帆｜肛交復出企劃，把拍攝中協商寫成懸念",
+  "social_title": "玉城夏帆這次的賣點，為何是拍攝中的提議？",
+  "short_review": "來源以「僅此一場」和拍攝中協商包裝玉城夏帆的肛交復出。同系列作品也使用協商設定；本作較鮮明的是假企劃與紀錄片式口吻。這些都是文案提出的看點，實際拍攝經過無法據此核實。",
+  "editorial_angle": "比較同系列兩份簡介後，本作值得注意的是宣傳如何讓「她原本不再拍攝」與「現場提出提議」構成懸念。只評論這種企劃包裝，不把文案對當事人反應與同意的描述當成已查證事實。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "提供的 CEMD-899 來源標題寫有「僅此一場」「復活」及「嘗試在拍攝中協商」；簡介自稱紀錄片，並設定以假拍攝企劃邀約玉城夏帆。",
+      "supports": "本作把拍攝中協商放在宣傳核心，並以紀錄片口吻增加懸念。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "經 stable 系列 ID 核對，CEMD-885 與本作同屬 cc18.tv:series:18486；其來源標題及簡介也以拍攝中協商為企劃設定。",
+      "supports": "協商不是本作獨有題材；本作的辨識點在假企劃與「原本不再拍攝」的文案組合。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "兩作的演出者不同；提供的關聯資料標示 shared_series 為 true、shared_performer 為 false。",
+      "supports": "CEMD-885 僅能用作系列宣傳方式的對照，不能用來推論玉城夏帆的個人經歷。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "「懸念」與「紀錄片式口吻」是對來源標題、簡介寫法的編輯判斷。",
+    "未觀看影片；沒有重建現場對話、反應或拍攝順序。"
+  ],
+  "unsupported_claims_excluded": [
+    "未將「原本不再拍攝」或「僅此一場」寫成已獨立證實的個人經歷與未來承諾。",
+    "未將假企劃、現場協商或當事人的同意情況寫成已核實的拍攝事實。",
+    "未根據宣傳簡介判定實際畫面、聲音、表演或影片節奏。"
+  ],
+  "decision_guide": {
+    "thesis": "本作以玉城夏帆的拍攝中協商為宣傳主軸，並用假企劃與紀錄片式口吻製造懸念；適合對這種企劃寫法有興趣的讀者，若要確認實際拍攝與同意過程，現有材料無法回答。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以紀錄片口吻介紹企劃",
+      "來源強調拍攝中協商"
+    ],
+    "audience_for": [
+      "想比較同系列作品如何包裝協商設定的讀者",
+      "對玉城夏帆這次的企劃設定有興趣的讀者"
+    ],
+    "audience_not_for": [
+      "需要先確認實際拍攝經過與同意過程的讀者",
+      "想依據簡介判斷畫面或節奏的讀者"
+    ],
+    "questions_answered": [
+      "本作的宣傳重心是什麼？",
+      "與同系列 CEMD-885 的文案有何差別？",
+      "哪些宣傳說法尚不能視為已查證事實？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "協商被放到了故事中央",
+      "body": "CEMD-899 的來源標題先說「僅此一場」，再提出拍攝中協商。簡介則自稱紀錄片，設定以假企劃邀約玉城夏帆。這份文案希望讀者追問的，不只是最後拍了什麼，還有提議如何被提出、她會如何回應。這是宣傳安排的懸念，不能據此認定實際拍攝過程。"
+    },
+    {
+      "heading": "同系列對照，差別在包裝方式",
+      "body": "經系列 ID 核對的 CEMD-885 也以拍攝中協商作為賣點，因此「現場提出提議」並非本作獨有。兩份簡介相較，本作更突出假企劃、原本不再拍攝的設定，以及紀錄片式口吻。這些元素讓玉城夏帆這次的宣傳有自己的辨識度；對照的是文案，並非兩部影片的實際表現。"
+    },
+    {
+      "heading": "選片時，先分清宣傳與事實",
+      "body": "如果你想看同一系列如何替不同演出者設計企劃懸念，本作的介紹提供了明確理由。如果你在意現場協商與同意的實際情況，來源文字不足以回答，也不能把「僅此一場」視為已證實的承諾。材料依據為提供的 [CEMD-899 作品頁](https://cc18.tv/player.php?uuid=a2NmyrzWcdE&cat=19)與同系列 [CEMD-885 作品頁](https://cc18.tv/player.php?uuid=1htEt6U7oc&cat=19)快照；本文未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "65616ec5d0f2de7eb8855d8341ca8e9b62dfcfdf2ef7283b7d77c683838a1b0c",
+    "response_sha256": "fb0d3f6aac486ad5f4dc6a68430982daab3b4904c0d6705567bf506b2b82c120",
+    "research_input_sha256": "3c04578042426555c8d41b657b381195a1c29a701300ea5310219530494009e4",
+    "related_source_ids": [
+      "CEMD-885"
+    ]
+  }
+}

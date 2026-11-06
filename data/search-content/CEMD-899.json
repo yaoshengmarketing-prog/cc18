@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "movie_id": "CEMD-899",
+  "generated_at": "2026-11-06T07:43:40.008Z",
+  "source_snapshot_hash": "sha256:65616ec5d0f2de7eb8855d8341ca8e9b62dfcfdf2ef7283b7d77c683838a1b0c",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "本作以玉城夏帆的拍攝中協商為宣傳主軸，並用假企劃與紀錄片式口吻製造懸念；適合對這種企劃寫法有興趣的讀者，若要確認實際拍攝與同意過程，現有材料無法回答。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以紀錄片口吻介紹企劃",
+      "來源強調拍攝中協商"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想比較同系列作品如何包裝協商設定的讀者",
+      "對玉城夏帆這次的企劃設定有興趣的讀者"
+    ],
+    "not_for": [
+      "需要先確認實際拍攝經過與同意過程的讀者",
+      "想依據簡介判斷畫面或節奏的讀者"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "CEMD-885",
+      "relation_type": "same_series",
+      "reason": "同屬「アナルファック・シリーズ」系列，可用來比較相同公式在不同作品中的角色設定與推進差異。",
+      "shared_signals": [
+        "アナルファック・シリーズ"
+      ],
+      "contrast_signals": [
+        "泉莉音",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作的宣傳重心是什麼？",
+    "與同系列 CEMD-885 的文案有何差別？",
+    "哪些宣傳說法尚不能視為已查證事實？"
+  ]
+}

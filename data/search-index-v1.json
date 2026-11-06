@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:0aa59f9e3608040923714143b2e9f5e6d4f826e248f58010e36723803be16b0a",
-  "source_generated_at": "2026-11-06T07:41:57.520Z",
+  "source_revision": "sha256:c3b44b8b23179700f9d89674e8d890b79fbaaf5e6b0ad46d8758add2880257d2",
+  "source_generated_at": "2026-11-06T07:49:34.117Z",
   "counts": {
-    "movies": 434,
-    "performers": 331,
+    "movies": 435,
+    "performers": 332,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -887,6 +887,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:IPZZ-978"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:27309",
+      "display_name": "玉城夏帆",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "玉城夏帆",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CEMD-899"
       ]
     },
     {
@@ -9892,6 +9903,59 @@
         "article_title": "RT-039｜獨家素人企劃：自拍形式撐起展示型賣點",
         "display_short_title": null,
         "slug": "rt-039"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:CEMD-899",
+        "source_cover": "https://cc18.tv/preview/80/b/a2NmyrzWcdE-800.jpg?v=1791837563",
+        "title": "玉城夏帆的協商企劃",
+        "catalog_code": "CEMD-899",
+        "release_date": "2026-10-10",
+        "performers": [
+          "玉城夏帆"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/cemd-899/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27309"
+      ],
+      "search": {
+        "source_title": "僅此一場的肛門SEX復活！玉城夏帆 ～此為終極！？～嘗試在拍攝中協商肛門SEX～",
+        "article_title": "當協商過程成為作品的主要懸念",
+        "display_short_title": "玉城夏帆的協商企劃",
+        "slug": "cemd-899"
       }
     },
     {
