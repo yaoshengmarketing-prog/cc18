@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "id": "BBAN-604",
+  "checked_at": "2026-11-06T18:11:43.367Z",
+  "review_sha256": "0d835c00ccde466155c648fca876f59f19e61aa9af07b15f7baec70f77ad2952",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若先看公開可追溯的企劃線索，這部作品最明確的吸引力就是「為了不讓陰沉過去曝光」這個核心概念。它不是單純把「辣妹」當外型標籤，而是把角色現在的呈現方式，和一段不想被揭開的過去放在同一個鉤子上。再加上來源文字裡還有「只能任由對方擺佈」這類概念，代表本作的選片價值更偏向設定驅動：觀眾若"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

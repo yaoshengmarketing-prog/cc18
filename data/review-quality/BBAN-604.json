@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "BBAN-604",
+  "review_sha256": "0d835c00ccde466155c648fca876f59f19e61aa9af07b15f7baec70f77ad2952",
+  "selected_thesis": "響蓮的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "響蓮、北岡果林",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "響蓮",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "為了不讓陰沉過去曝光",
+        "source_field": "title"
+      },
+      {
+        "type": "performer",
+        "value": "北岡果林",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "辣妹風格",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "響蓮",
+    "presentation_feature": "為了不讓陰沉過去曝光",
+    "editorial_judgment": "響蓮的企劃呈現與觀看取向",
+    "source_keywords": [
+      "響蓮",
+      "為了不讓陰沉過去曝光",
+      "北岡果林",
+      "辣妹風格"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：響蓮",
+      "supports": "這項可追溯來源訊號支持文章以「響蓮」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：北岡果林",
+      "supports": "這項可追溯來源訊號支持文章以「北岡果林」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：辣妹風格",
+      "supports": "這項可追溯來源訊號支持文章以「辣妹風格」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：為了不讓陰沉過去曝光",
+      "supports": "這項可追溯來源訊號支持文章以「為了不讓陰沉過去曝光」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：癡女",
+      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：辣妹",
+      "supports": "這項可追溯來源訊號支持文章以「辣妹」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-09T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

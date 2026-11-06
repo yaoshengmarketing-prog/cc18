@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "id": "BBAN-604",
+  "generated_at": "2026-09-10T00:23:14.119Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "gpt-5.4",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/BBAN-604.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "為了不讓陰沉過去曝光",
+    "premise": "作品以「為了不讓陰沉過去曝光」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「為了不讓陰沉過去曝光」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "為了不讓陰沉過去曝光",
+      "只能任由對方擺佈",
+      "辣妹"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "癡女",
+      "辣妹"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "sourceTitle": "BBAN-604",
+  "originalTitleJa": null,
+  "translatedTitleZhTw": null,
+  "title": "BBAN-604 響蓮、北岡果林｜為了不讓陰沉過去曝光的辣妹企劃，主打反差設定",
+  "seoTitle": "BBAN-604 響蓮、北岡果林影評｜辣妹設定下的為了不讓陰沉過去曝光，以反差企劃取勝",
+  "socialTitle": "BBAN-604｜響蓮、北岡果林的辣妹反差企劃",
+  "titleSignals": [
+    "響蓮",
+    "北岡果林",
+    "辣妹風格",
+    "為了不讓陰沉過去曝光"
+  ],
+  "coreSourceConcept": "為了不讓陰沉過去曝光",
+  "titleVersion": 1,
+  "editorial_tag_ids": [
+    "story",
+    "contrast-charm",
+    "showcase-format"
+  ],
+  "sections": [
+    {
+      "heading": "這部片最值得先看的選片理由是什麼？",
+      "body": "若先看公開可追溯的企劃線索，這部作品最明確的吸引力就是「為了不讓陰沉過去曝光」這個核心概念。它不是單純把「辣妹」當外型標籤，而是把角色現在的呈現方式，和一段不想被揭開的過去放在同一個鉤子上。再加上來源文字裡還有「只能任由對方擺佈」這類概念，代表本作的選片價值更偏向設定驅動：觀眾若在意的是角色包裝、身分反差與企劃張力，這會比單靠一般標籤更有辨識度。"
+    },
+    {
+      "heading": "公開資訊如何支持它的反差魅力？",
+      "body": "目前可確認的來源元素集中在「辣妹」與「陰沉過去」兩端。前者來自安全標籤與標題線索，後者則直接來自核心概念；兩者並列時，天然就形成一種反差框架：角色表面是偏張揚、外放的辣妹風格，企劃重心卻是她為了隱藏過去而被推入某種被動局面。這種反差不需要額外補寫場景或人物細節，就已足以構成選片判斷。對喜歡角色設定有前後落差、包裝與內情之間存在張力的觀眾來說，這是本作最明顯的賣點。"
+    },
+    {
+      "heading": "雙演出者資訊會怎麼影響選片期待？",
+      "body": "公開名單可確認演出者為響蓮與北岡果林。雖然現有資料不足以證明兩人的明確人物關係、戲份比例或互動走向，但雙人配置本身，已讓這部作品更像是一個以角色碰撞與企劃安排為主的作品，而不是只靠單一人物形象支撐。也因為來源沒有提供完整關係設定，較穩妥的判斷是：如果你選片時重視的是兩位演出者共同支撐一個反差概念，那麼這部片具備可期待性；如果你更在意明確劇情脈絡或關係描述，現階段公開資訊則偏保留。"
+    },
+    {
+      "heading": "它比較像劇情片，還是展示型企劃？",
+      "body": "就目前資料看，更適合把它理解為「以劇情鉤子包裝的展示型企劃」。原因是公開來源清楚給了核心概念與角色標籤，卻沒有進一步提供完整故事背景、場景推進或人物關係細節。這代表它的辨識度主要來自企劃一句話能否成立，也就是「辣妹」與「不願曝光的陰沉過去」是否能形成足夠吸引人的觀看動機。因此在選片上，這類作品通常更適合喜歡先被設定抓住、再進一步看角色變化空間的人。"
+    },
+    {
+      "heading": "哪些觀眾會比較適合這部作品？",
+      "body": "如果你偏好有明確角色包裝的作品，例如辣妹風格、癡女標籤，並且希望題材本身帶有一點身分反差或企劃壓力，那這部片的公開線索是對味的。另一方面，來源同時標示高畫質與獨家配信，雖然這些不是核心內容，但能補強它作為新作頁面上的完成度與辨識度。相對地，若你需要非常明確的故事介紹、關係設定或場景型題材再決定是否入手，這部作品目前公開資訊提供的重點，仍然是在概念本身，而不是細節展開。"
+    }
+  ],
+  "angle_candidates": [
+    "響蓮的企劃呈現與觀看取向",
+    "北岡果林的企劃呈現與觀看取向",
+    "辣妹風格的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "響蓮的企劃呈現與觀看取向",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "響蓮",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "為了不讓陰沉過去曝光",
+      "source_field": "title"
+    },
+    {
+      "type": "performer",
+      "value": "北岡果林",
+      "source_field": "actress"
+    },
+    {
+      "type": "presentation",
+      "value": "辣妹風格",
+      "source_field": "safe_signals"
+    }
+  ],
+  "seo_title": "BBAN-604 響蓮、北岡果林影評｜辣妹設定下的為了不讓陰沉過去曝光，以反差企劃取勝",
+  "social_title": "BBAN-604｜響蓮、北岡果林的辣妹反差企劃",
+  "short_review": "本作以「為了不讓陰沉過去曝光」為主要來源線索；其餘資訊不足處暫不補寫。",
+  "editorial_angle": "響蓮的企劃呈現與觀看取向",
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：響蓮",
+      "supports": "這項可追溯來源訊號支持文章以「響蓮」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：北岡果林",
+      "supports": "這項可追溯來源訊號支持文章以「北岡果林」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：辣妹風格",
+      "supports": "這項可追溯來源訊號支持文章以「辣妹風格」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：為了不讓陰沉過去曝光",
+      "supports": "這項可追溯來源訊號支持文章以「為了不讓陰沉過去曝光」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：癡女",
+      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：辣妹",
+      "supports": "這項可追溯來源訊號支持文章以「辣妹」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "正文只將來源記錄與編輯摘要中可追溯的設定、題材與詞彙組織為選片說明",
+    "未有影片證據時，不將場景、鏡位、聲音、表演或情節寫成已觀察事實"
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "decision_guide": {
+    "thesis": "響蓮的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "響蓮",
+      "北岡果林",
+      "辣妹風格",
+      "高畫質"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "這部作品的主要企劃切角是什麼？響蓮的企劃呈現與觀看取向，這是本作最直接且可供比較的選片判斷。",
+      "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+      "有哪些觀看取捨？只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  }
+}

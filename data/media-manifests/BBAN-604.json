@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "BBAN-604",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-06T18:11:45.179Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/BBAN-604/hero-v1.jpg",
+      "r2_key": "works/2026/09/BBAN-604/hero-v1.jpg",
+      "bytes": 714790,
+      "sha256": "2f74011af424cd07bcd6372a7f18601f4d2b1b8bab5a339719f0b762cea7988b",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/BBAN-604/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/BBAN-604/scene-vertical-v1.jpg",
+      "bytes": 1367036,
+      "sha256": "4266b6961a407731355373138daf63c5f06b293926adb4eb10046f0a831d786d",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3013785,
+    "sha256": "e562dac683360ff8dbb5f278f0852c2f24b16e9cfe18807e2a5b18e09acdfd18",
+    "target_r2_key": "works/2026/09/BBAN-604/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/BBAN-604/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
