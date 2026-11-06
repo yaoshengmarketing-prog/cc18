@@ -1,0 +1,71 @@
+{
+  "schema_version": 2,
+  "id": "NGOD-358",
+  "checked_at": "2026-11-06T18:16:23.767Z",
+  "review_sha256": "c4ca4dcdb7ea2de2a06b09db162faa0c37c5cea6710e132a2598a7b44d700ea8",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "broad_formulaic_voice",
+    "conditional_review_voice_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 4,
+      "paragraph_count": 10,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資訊，這部作品最明確的吸引力在於「與隔壁相性極佳的丈夫」這個企劃核心。它不是單靠單一身分標籤推進，而是把焦點放在住家距離、生活節奏相近的人際配置上。公開介紹已交代，住在同一層樓的是「葉山夫婦」與「星野夫婦」，兩家都結婚五年、育有子女，丈夫是上班族、妻子是兼"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "目前能確認的劇情方向，來自標題與來源摘錄中的人物關係配置。標題線索包含「與隔壁相性極佳的丈夫」與「不倫」，再加上兩對夫妻同樓層、生活條件相近、平常往來密切，整體很明顯是以鄰里關係延伸出的越界題材為主。值得注意的是，這種方向成立的關鍵不在誇張背景，而在『彼此太接近日常』：結婚年數相"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "以目前資料來看，葉山小百合是這部片最直接的辨識標誌之一，並且她的名字已出現在演出者欄位與來源概念中。若從選片角度判斷，她的價值主要在於讓這個企劃有了清楚的觀看入口：當作品本身主打人妻・主婦身分，加上鄰居夫妻之間的互動前提時，演出者本身就會成為觀眾是否願意進場的重要因素。另一方面，"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "這部片比較適合喜歡『從生活關係出發的人妻企劃』的觀眾。原因很簡單：目前可追溯的資料裡，最完整的不是場面細節，而是人物位置與關係架構。兩對夫妻住得近、家庭階段相似、日常交流頻繁，讓整體更接近日常距離感強的設定。若你想找的是單純展示型、快速用明確標籤滿足需求的作品，這部雖然也有人妻・"
+        }
+      ]
+    },
+    {
+      "code": "conditional_review_voice_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 10,
+          "excerpt": "在沒有更多可驗證內容前，較保守的評估方式，是把它視為一部『設定先行、概念鮮明』的人妻題材作品。它的優勢是核心很集中：隔壁、丈夫、相性、不倫，再加上兩戶人家的家庭條件高度對照，足以讓人理解企劃意圖。這種片若成立，通常會仰賴人物關係的推進感與設定帶來的說服力；而目前公開資訊正好也集中"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

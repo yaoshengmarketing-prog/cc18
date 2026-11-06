@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:60658ae47def2b5c5157db24d34980512e6b513badca385b9bce09bf0f571309",
-  "source_generated_at": "2026-11-06T18:12:16.989Z",
+  "source_revision": "sha256:b0c2666f78778af463f827367dd1e3888d4bcf356a8198c61a4add79c2dd8f3d",
+  "source_generated_at": "2026-11-06T18:16:58.676Z",
   "counts": {
-    "movies": 459,
-    "performers": 340,
+    "movies": 460,
+    "performers": 341,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -3429,6 +3429,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PRED-890"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28302",
+      "display_name": "葉山小百合",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "葉山小百合",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:NGOD-358"
       ]
     },
     {
@@ -22303,6 +22314,55 @@
         "article_title": "NGOD-355 那賀崎雪音｜隨你怎麼做都行",
         "display_short_title": null,
         "slug": "ngod-355"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:NGOD-358",
+        "source_cover": "https://cc18.tv/preview/80/b/lwmVXstpV2g-800.jpg?v=1788555975",
+        "title": "NGOD-358 葉山小百合｜與隔壁相性極佳的丈夫：日常往來設定撐起企劃懸念",
+        "catalog_code": "NGOD-358",
+        "release_date": "2026-09-04",
+        "performers": [
+          "葉山小百合"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ngod-358/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28302"
+      ],
+      "search": {
+        "source_title": "與隔壁相性極佳的丈夫… 被發現就立刻離婚的刺激感太爽了停不下來。已婚者之間的深吻劣情W不倫SEX 葉山小百合",
+        "article_title": "NGOD-358 葉山小百合｜與隔壁相性極佳的丈夫：日常往來設定撐起企劃懸念",
+        "display_short_title": null,
+        "slug": "ngod-358"
       }
     },
     {
