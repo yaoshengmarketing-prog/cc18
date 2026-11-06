@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "AVK-018",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-06T09:47:19.752Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/AVK-018/hero-v1.jpg",
+      "r2_key": "works/2026/10/AVK-018/hero-v1.jpg",
+      "bytes": 665590,
+      "sha256": "a25ecb75b165664df2767e2b0d38a67c8e83efa82e5f920fdfbd97966d94ddf9",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "a249a95715874087a1d4493e22973bd2",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/AVK-018/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/AVK-018/scene-vertical-v1.jpg",
+      "bytes": 889901,
+      "sha256": "ba47386b36d92a4bf622d9cdd55a93acd7ae9b53c26bbf148434ed909e6dea84",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "4fdc9d9f831d45b890c708f66e9ea2a1",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2741816,
+    "sha256": "de65c6b3d78a09c9db409772a4775ebf647a34c212210b21feb6e427bf12d455",
+    "target_r2_key": "works/2026/10/AVK-018/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/AVK-018/vertical-v1.mp4"
+  }
+}

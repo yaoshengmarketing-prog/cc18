@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "AVK-018",
+  "review_sha256": "86ded7298e8647bcfe7e3e13a4544bff67c07ca43d188ae7c8080c899ae08aee",
+  "selected_thesis": "片名將慾望寫成男女雙向的主題，簡介卻主要交代已婚女性在丈夫不在家時的主動選擇；選片線索因此更接近婚姻之外的關係設定，而非兩名角色各自的故事。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "高畫質",
+    "editorial_judgment": "比較片名與簡介的敘事重心，指出丈夫缺席、女性主動與男性角色資訊有限，幫助讀者判斷這份設定是否符合選片期待。",
+    "source_keywords": [
+      "獨家",
+      "高畫質",
+      "獨家配信",
+      "巨乳"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源片名為「獨家 性愛中毒的女與男」。",
+      "supports": "片名將女與男並列，並以「性愛中毒」概括主題；這是宣傳用語，不能視為人物的醫學診斷。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介設定丈夫不在家，描述已婚女性主動與另一名男性親密接觸，並將對方與丈夫比較。",
+      "supports": "簡介具體交代女性的處境與行動，以及丈夫的對照作用；沒有同等篇幅交代另一名男性的背景或動機。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不將「性愛中毒」寫成真實診斷。",
+    "不推定另一名男性的身分、動機或與女性的既有關係。",
+    "不評斷成片的畫面、聲音、節奏或品質。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-05T16:00:00.000Z"
+}

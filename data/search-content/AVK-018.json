@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "movie_id": "AVK-018",
+  "generated_at": "2026-11-06T09:45:48.113Z",
+  "source_snapshot_hash": "sha256:5888e81e729fbda18c63cb6f385970521aa11871c7efca6e22ca7a27bee68e12",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "這份簡介最明確的選片線索，是丈夫缺席時女性主動跨出婚姻關係的設定。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "片名以女與男並列，簡介則集中描述女性的處境與行動。",
+      "「獨家限定」是來源標籤，不能據此判斷成片品質。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想先確認作品是否採用丈夫缺席、婚姻之外親密關係設定的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "希望公開資料先交代男女雙方完整背景與動機的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "片名與簡介的重心是否一致？",
+    "公開資料提供了哪些可用於選片的人物關係線索？"
+  ]
+}

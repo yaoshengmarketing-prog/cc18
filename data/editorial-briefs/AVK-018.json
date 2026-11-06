@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "id": "AVK-018",
+  "generated_at": "2026-11-06T09:45:47.388Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/AVK-018.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "獨家",
+    "premise": "作品以「獨家」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「獨家」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "獨家",
+      "性愛中毒的女與男"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "全高清 (FHD)",
+      "獨家限定",
+      "配信専用"
+    ]
+  },
+  "research_question": "片名把「性愛中毒」放在女與男身上，公開簡介是否同樣交代兩人的處境？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=9NGS8UP8meA&cat=19",
+      "supports": "使用題目提供的作品頁來源快照：片名為「獨家 性愛中毒的女與男」；簡介交代丈夫不在家、已婚女性主動尋求親密接觸，並以丈夫作對照。外部頁面無法開啟，未將搜尋結果當作頁面全文。"
+    }
+  ],
+  "angle_candidates": [
+    "對照片名的「女與男」與簡介實際著墨的人物。",
+    "從丈夫缺席的設定，理解這部作品的關係張力。",
+    "分辨「獨家限定」標籤與故事設定各自提供的選片資訊。"
+  ],
+  "selected_thesis": "片名將慾望寫成男女雙向的主題，簡介卻主要交代已婚女性在丈夫不在家時的主動選擇；選片線索因此更接近婚姻之外的關係設定，而非兩名角色各自的故事。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "獨家",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "body_type",
+      "value": "巨乳",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "丈夫不在家時的女與男",
+  "display_short_title": "丈夫不在家的女與男",
+  "title": "片名寫女與男，簡介把焦點放在誰身上？",
+  "seo_title": "AVK-018｜丈夫不在家時的女與男，簡介透露的關係設定",
+  "social_title": "「女與男」的片名，為何只讓她的選擇變得清楚？",
+  "short_review": "公開簡介以丈夫缺席和女性主動尋求親密接觸建立情境；片名雖並列女與男，另一名男性的背景與動機仍未交代。",
+  "editorial_angle": "比較片名與簡介的敘事重心，指出丈夫缺席、女性主動與男性角色資訊有限，幫助讀者判斷這份設定是否符合選片期待。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源片名為「獨家 性愛中毒的女與男」。",
+      "supports": "片名將女與男並列，並以「性愛中毒」概括主題；這是宣傳用語，不能視為人物的醫學診斷。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介設定丈夫不在家，描述已婚女性主動與另一名男性親密接觸，並將對方與丈夫比較。",
+      "supports": "簡介具體交代女性的處境與行動，以及丈夫的對照作用；沒有同等篇幅交代另一名男性的背景或動機。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "「女性的選擇是簡介重心」是對公開文字的編輯判斷，不是對成片鏡頭或表演的觀察。",
+    "片名與簡介的比較僅限題目提供的作品資料；沒有可核對的同演員、同系列或片商作品可供延伸比較。"
+  ],
+  "unsupported_claims_excluded": [
+    "不將「性愛中毒」寫成真實診斷。",
+    "不推定另一名男性的身分、動機或與女性的既有關係。",
+    "不評斷成片的畫面、聲音、節奏或品質。"
+  ],
+  "decision_guide": {
+    "thesis": "這份簡介最明確的選片線索，是丈夫缺席時女性主動跨出婚姻關係的設定。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "片名以女與男並列，簡介則集中描述女性的處境與行動。",
+      "「獨家限定」是來源標籤，不能據此判斷成片品質。"
+    ],
+    "audience_for": [
+      "想先確認作品是否採用丈夫缺席、婚姻之外親密關係設定的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "希望公開資料先交代男女雙方完整背景與動機的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "片名與簡介的重心是否一致？",
+      "公開資料提供了哪些可用於選片的人物關係線索？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "片名寫女與男，簡介把焦點放在誰身上？",
+      "body": "《丈夫不在家時的女與男》的來源片名把「性愛中毒」放在女與男身上，但簡介提供的具體處境集中在女性：丈夫不在家，她主動尋求與另一名男性的親密接觸，文字也以丈夫作為比較對象。片名看似要談兩個人的慾望，簡介真正說清楚的卻是她所處的關係。"
+    },
+    {
+      "heading": "這個差異如何影響選片？",
+      "body": "丈夫在設定中缺席，另一名男性則出現在親密關係裡；兩人被賦予的資訊不同。這讓婚姻之外的選擇成為比「男女各自為何沉迷」更有根據的閱讀角度。若你在找這類關係設定，簡介已提供線索；若你期待男女雙方都有清楚的人物背景，現有資料還無法回答。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據題目提供的 [AVK-018 作品頁來源快照](https://cc18.tv/player.php?uuid=9NGS8UP8meA&cat=19)撰寫，使用片名、公開簡介與標籤。外部作品頁無法開啟，且沒有可核對的關聯作品；文中的選片判斷只比較公開文字，未使用影片內容。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "5888e81e729fbda18c63cb6f385970521aa11871c7efca6e22ca7a27bee68e12",
+    "response_sha256": "b753a45ababd92b3bb2508d9d348d2e4f74f41c4853a6c947dc69f31542203a0",
+    "research_input_sha256": "4c7a0aceabe7887eea98604e3eee1e1ef5edbd48c5d59b708a8bc57d88bed83d",
+    "related_source_ids": []
+  }
+}
