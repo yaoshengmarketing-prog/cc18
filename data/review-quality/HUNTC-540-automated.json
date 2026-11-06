@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "HUNTC-540",
+  "checked_at": "2026-11-06T17:50:49.431Z",
+  "review_sha256": "a5806ad6d60c97f5089325de1c9ca50103cd0850b92887a8923b1f5cc6301fe4",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果是以企劃辨識度來挑片，HUNTC-540 最明確的入口就是系列名「イキ潮スプラッシュ」。這個核心概念本身已經把作品重心指向強烈、外放的身體反應展示，而來源線索中的「潮吹噴發」、「雙腿發抖痙攣噴水」、「羞恥絕頂」、「中出」也都在同一方向上加強這種企劃取向。換句話說，這不是目前資"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "主打賣點主要集中在兩層。第一層是系列概念「イキ潮スプラッシュ」所帶出的噴發式、強刺激導向印象；第二層則是公開標示的行為元素，包括中出、口交、騎乘位，以及整體被歸入「淫亂・過激系」的調性。這些資訊組合起來，讓作品的市場定位很明確：不是靠未知角色塑造來建立吸引力，而是以高辨識度主題與"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "最實際的判斷方式，是把它當成『系列概念是否命中偏好』的測試片。HUNTC-540 現階段最可依據的不是角色與劇情，而是企劃核心與標籤密度：系列名已經定調，來源概念也反覆集中在潮吹、羞恥絕頂與中出等強刺激關鍵詞上，因此它的可看性主要取決於你是否吃這套公式。若你喜歡以單一核心概念強力"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

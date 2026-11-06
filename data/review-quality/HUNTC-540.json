@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "HUNTC-540",
+  "review_sha256": "a5806ad6d60c97f5089325de1c9ca50103cd0850b92887a8923b1f5cc6301fe4",
+  "selected_thesis": "イキ潮スプラッシュ的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "series",
+        "value": "イキ潮スプラッシュ",
+        "source_field": "series"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "口交",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "イキ潮スプラッシュ",
+    "presentation_feature": "中出",
+    "editorial_judgment": "イキ潮スプラッシュ的企劃呈現與觀看取向",
+    "source_keywords": [
+      "イキ潮スプラッシュ",
+      "中出",
+      "口交"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "series：イキ潮スプラッシュ",
+      "supports": "這項可追溯來源訊號支持文章以「イキ潮スプラッシュ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：イキ潮スプラッシュ",
+      "supports": "這項可追溯來源訊號支持文章以「イキ潮スプラッシュ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：口交",
+      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：騎乘位",
+      "supports": "這項可追溯來源訊號支持文章以「騎乘位」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：淫亂・過激系",
+      "supports": "這項可追溯來源訊號支持文章以「淫亂・過激系」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-07T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}
