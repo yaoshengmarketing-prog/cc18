@@ -15,6 +15,8 @@ import {
 const root = resolve(import.meta.dirname, '../..');
 const selectedId = process.argv.find((arg) => arg.startsWith('--id='))?.slice(5).toUpperCase() ?? null;
 if (selectedId && !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/u.test(selectedId)) throw new Error('Invalid movie ID');
+const researchNotesPath = process.argv.find((arg) => arg.startsWith('--research-notes='))?.slice('--research-notes='.length) ?? null;
+if (researchNotesPath && !selectedId) throw new Error('Research notes require an exact movie ID');
 const approvedResponse = process.argv.find((arg) => arg.startsWith('--approved-response='))?.slice('--approved-response='.length) ?? null;
 const approvedResponseHash = process.argv.find((arg) => arg.startsWith('--approved-response-sha256='))?.slice('--approved-response-sha256='.length) ?? null;
 const approvedSourceHash = process.argv.find((arg) => arg.startsWith('--approved-source-sha256='))?.slice('--approved-source-sha256='.length) ?? null;
@@ -88,12 +90,13 @@ const relatedResearch = async ({workspaceRoot, source, registry}) => {
   }
   return related;
 };
-const runCodex = async ({workspaceRoot, source, examples, related, responsePath}) => {
+const runCodex = async ({workspaceRoot, source, examples, related, researchNotes, responsePath}) => {
   const prompt = `你是 JAV 影格繁中編輯。本次只輸出一個 JSON 物件，供既有 Editorial 正規化與 QA 使用。
-請根據下方當前作品來源快照、已核准文章範例、實際具有相同 stable 人物或系列 ID 的關聯作品，以及可查證的公開資料，找出本作特有的選片角度。可查找官方資料，但不得捏造來源、人物經歷或已觀看的畫面、聲音與台詞。若外部資料不足，只用提供的具體材料，清楚區分來源宣傳與你的編輯比較。範例只供學習判斷方式，不得照抄句子，也不得把無關範例當成本作背景。
-JSON 欄位：angle_candidates、selected_thesis、title_signals（可空）、work_title（作品 H1，自然繁中，不重複番號）、display_short_title（卡片短題，不重複番號）、title（文章觀點 H2，不重複番號）、seo_title（包含番號）、social_title、short_review、editorial_angle、editorial_tag_ids（可空）、evidence（每項 basis=public_source、signal、supports、observation_refs=[]）、creative_reconstruction_notes（可空）、unsupported_claims_excluded、decision_guide（thesis、story_density=unknown、pace=unknown、presentation、audience_for、audience_not_for、questions_answered）、sections（heading、body）。所有公開文字都用自然繁中，不寫內部欄位名稱；正文不要出現 stable ID、Source Record、Movie Master、Search Content、D1 或 QA 等工程名稱，人物關係可寫成「同樣由某人演出」。title_signals 不確定就留空。日文系列名不可冒充作品原題。文章可短，但要有來源支持的具體判斷。
+寫作前先提出一個能由資料回答的背景問題，再用本作、同演員、同系列或片商的可核對材料回答它。優先查找官方作品、人物、系列或訪談頁；若執行環境無法開啟外部頁面，只使用下方已核對的研究資料與來源快照，不得把搜尋片段冒充已讀全文。比較必須指出具體設定差異及其選片意義，不由宣傳文案推論成片品質。材料不足就寫精簡文章，材料範圍集中在文末，不要每節重複未觀影提醒。不得捏造來源、人物經歷或已觀看的畫面、聲音與台詞。範例只供學習判斷方式，不得照抄句子，也不得把無關範例當成本作背景。
+JSON 欄位：research_question、research_sources（實際使用的來源 URL 與支持要點；可空）、angle_candidates、selected_thesis、title_signals（可空）、work_title（作品 H1，自然繁中，不重複番號）、display_short_title（卡片短題，不重複番號）、title（文章觀點 H2，不重複番號）、seo_title（包含番號）、social_title、short_review、editorial_angle、editorial_tag_ids（可空）、evidence（每項 basis=public_source、signal、supports、observation_refs=[]）、creative_reconstruction_notes（可空）、unsupported_claims_excluded、decision_guide（thesis、story_density=unknown、pace=unknown、presentation、audience_for、audience_not_for、questions_answered）、sections（heading、body）。所有公開文字都用自然繁中，不寫內部欄位名稱；正文不要出現 stable ID、Source Record、Movie Master、Search Content、D1 或 QA 等工程名稱，人物關係可寫成「同樣由某人演出」。title_signals 不確定就留空。日文系列名不可冒充作品原題。文章可短，但要有來源支持的具體判斷。
 當前作品來源 JSON：\n${JSON.stringify(source)}
 經人物與系列關係核對的關聯作品：\n${JSON.stringify(related)}
+已核對的額外研究材料（若無則為 null）：\n${JSON.stringify(researchNotes)}
 三篇已核准文章範例（僅作寫作方法參考）：\n${examples}`;
   const code = await new Promise((resolveRun, rejectRun) => {
     const child = spawn('codex.exe', ['exec', '--ephemeral', '-s', 'read-only', '-C', workspaceRoot,
@@ -148,6 +151,11 @@ try {
     throw Object.assign(new Error('Codex CLI login is unavailable before the Editorial claim'),
       {code: 'LOCAL_CODEX_LOGIN_REQUIRED'});
   }
+  const researchNotes = researchNotesPath ? JSON.parse(await readFile(resolve(researchNotesPath), 'utf8')) : null;
+  if (researchNotes && (researchNotes.movie_id !== selectedId || !researchNotes.question || !Array.isArray(researchNotes.sources)
+    || researchNotes.sources.some((item) => !/^https:\/\//u.test(item.url ?? '') || !item.supports))) {
+    throw new Error('Research notes must identify the selected work and cite supported HTTPS sources');
+  }
   const registry = JSON.parse(git(['show', 'origin/main:data/movie-registry.json']));
   const candidate = await candidateJobs(store, registry, new Date());
   if (!candidate) {
@@ -186,7 +194,7 @@ try {
     }
     const raw = approvedResponse
       ? await readFile(responsePath, 'utf8')
-      : await runCodex({workspaceRoot: isolated.workspaceRoot, source, examples, related, responsePath});
+      : await runCodex({workspaceRoot: isolated.workspaceRoot, source, examples, related, researchNotes, responsePath});
     if (approvedResponse && sha(raw) !== approvedResponseHash) throw new Error(`${movieId}: approved response hash changed`);
     JSON.parse(raw); // malformed output never reaches D1 completion
     if (leaseError) throw leaseError;
@@ -196,8 +204,10 @@ try {
     brief.local_codex_handoff = {
       source_sha256: sha(await readFile(resolve(isolated.workspaceRoot, `data/source-records/${movieId}.json`))),
       response_sha256: sha(raw),
-      research_input_sha256: sha(JSON.stringify({source, related, examples})),
+      research_input_sha256: sha(JSON.stringify({source, related, examples, researchNotes})),
       related_source_ids: related.map(({id}) => id),
+      ...(researchNotes ? {research_question: researchNotes.question,
+        research_sources: researchNotes.sources, research_notes_sha256: sha(JSON.stringify(researchNotes))} : {}),
     };
     await writeFile(briefPath, `${JSON.stringify(brief, null, 2)}\n`);
     await runNode(isolated.workspaceRoot, 'scripts/editorial/qa-draft.mjs', [movieId]);
