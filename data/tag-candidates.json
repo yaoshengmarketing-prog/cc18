@@ -403,12 +403,13 @@
     },
     {
       "label": "電動按摩棒",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "CMJU-008",
         "TGBS-003",
         "SNOS-387",
-        "ATID-710"
+        "ATID-710",
+        "MADM-223"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-11-02",
@@ -488,7 +489,7 @@
     },
     {
       "label": "大屌",
-      "occurrences": 9,
+      "occurrences": 10,
       "source_ids": [
         "SNOS-409",
         "HJMO-739",
@@ -498,7 +499,8 @@
         "MIDA-851",
         "DVMM-457",
         "SMOK-048",
-        "MBMH-097"
+        "MBMH-097",
+        "MADM-223"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-11-06",
@@ -707,7 +709,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 43,
+      "occurrences": 44,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -751,7 +753,8 @@
         "BIJN-290",
         "FJIN-170",
         "XVSR-906",
-        "START-632"
+        "START-632",
+        "MADM-223"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-06",
@@ -826,7 +829,7 @@
     },
     {
       "label": "不倫",
-      "occurrences": 17,
+      "occurrences": 18,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -844,7 +847,8 @@
         "SY-228",
         "MIDA-853",
         "MNGS-079",
-        "FJIN-173"
+        "FJIN-173",
+        "MADM-223"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-04",
@@ -2304,13 +2308,14 @@
     },
     {
       "label": "デート",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "HMN-918",
         "JERA-050",
-        "MIKR-129"
+        "MIKR-129",
+        "MADM-223"
       ],
-      "first_seen": "2026-09-16",
+      "first_seen": "2026-09-09",
       "last_seen": "2026-11-03",
       "status": "quarantined"
     },
@@ -3019,6 +3024,16 @@
       ],
       "first_seen": "2026-11-06",
       "last_seen": "2026-11-06",
+      "status": "quarantined"
+    },
+    {
+      "label": "ホテル",
+      "occurrences": 1,
+      "source_ids": [
+        "MADM-223"
+      ],
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
       "status": "quarantined"
     }
   ]

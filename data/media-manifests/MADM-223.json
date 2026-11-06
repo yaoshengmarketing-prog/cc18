@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "MADM-223",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-06T02:20:06.562Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/MADM-223/hero-v1.jpg",
+      "r2_key": "works/2026/09/MADM-223/hero-v1.jpg",
+      "bytes": 962150,
+      "sha256": "d640f2ec8c2dc34cf28be32f11b754232f7aecc7908527b8420b96688d046f13",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/MADM-223/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/MADM-223/scene-vertical-v1.jpg",
+      "bytes": 662511,
+      "sha256": "9e66a535e3adf1fe13aff94d7f8a892643ea9ff6c1935d9ee878a02a99d8bdfa",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2041597,
+    "sha256": "bef08b959ad2cd48c55f05789931418b2addd68ce51c7c646e613d4d787bd07a",
+    "target_r2_key": "works/2026/09/MADM-223/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/MADM-223/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

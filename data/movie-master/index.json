@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-06T02:16:25.669Z",
+  "generated_at": "2026-11-06T02:20:29.463Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 434,
-  "formal_movie_count": 433,
+  "tracked_input_count": 435,
+  "formal_movie_count": 434,
   "demo_count": 1,
-  "published_count": 430,
+  "published_count": 431,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1691,6 +1691,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "88fd890ce0433aa0bc1640488fad5040cc570007089646cb1b3237e8db672810"
+    },
+    {
+      "stable_movie_id": "cc18:MADM-223",
+      "catalog_code": "MADM-223",
+      "slug": "madm-223",
+      "master_path": "data/movie-master/madm-223.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "c25281a43eacc80c0ce9de856209c72e5fe4f7660593e244845ef4251b142b3d"
     },
     {
       "stable_movie_id": "cc18:MANX-034",
