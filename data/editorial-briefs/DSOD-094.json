@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-094",
+  "generated_at": "2026-11-06T11:47:49.431Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/DSOD-094.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "小屁孩集體姦淫",
+    "premise": "作品以「小屁孩集體姦淫」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「小屁孩集體姦淫」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "小屁孩集體姦淫",
+      "五日市芽依",
+      "中出"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "窈窕"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "淫亂・過激系"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由五日市芽依演出，本作與旅館女將題材的作品，在角色處境與宣傳視角上有何差別？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=178RmV1V460&cat=19",
+      "supports": "本作來源標題與簡介將五日市芽依設定為教師，並以學生掌握其弱點、聲稱報復作為衝突起點；來源標籤包括女教師與校園物語。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=ekK5dkRL54N&cat=19",
+      "supports": "同樣由五日市芽依演出的旅館題材作品，來源簡介設定她繼承旅館，並主動應對投訴客人。"
+    }
+  ],
+  "angle_candidates": [
+    "比較兩作中五日市芽依所飾角色的主導位置",
+    "檢視本作如何用校園身分與把柄建立衝突",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "兩作都讓五日市芽依身處有明確身分的場域，但旅館作品把她寫成主動應對客人的女將，本作則把教師置於被學生握住把柄的處境。選片差別在於是否願意接觸這種帶有脅迫感的校園設定，而非演出品質已有高下。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "五日市芽依",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "小屁孩集體姦淫",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "五日市芽依的女教師與校園衝突",
+  "display_short_title": "被握住把柄的女教師",
+  "title": "從女將到教師：五日市芽依的角色位置如何改變？",
+  "seo_title": "DSOD-094｜五日市芽依的女教師設定與旅館題材比較",
+  "social_title": "五日市芽依這次站在衝突的哪一邊？",
+  "short_review": "本作公開設定以教師被學生掌握弱點為起點。對照五日市芽依另一部主動應對客人的旅館作品，這次更值得先衡量的是自己能否接受帶有脅迫感的校園情境。",
+  "editorial_angle": "以同演員作品比較角色主導位置，說明校園衝突設定的選片意義。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源標題與簡介設定教師被學生掌握弱點，學生自稱要報復。",
+      "supports": "支持將本作的公開衝突起點概括為教師處於被動、受制的位置；不證明成片如何呈現。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作標籤包含「女教師」與「校園物語」。",
+      "supports": "支持以教師身分和校園場域作為選片辨識點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同演員旅館作品的來源簡介設定五日市芽依飾演繼承旅館的女將，主動應對投訴客人。",
+      "supports": "支持比較兩份簡介中的角色處境與主導位置。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "學生角色的實際年齡",
+    "成片中的具體畫面、聲音、台詞與節奏",
+    "宣傳設定是否在成片中成立，以及兩作的演出品質高下"
+  ],
+  "decision_guide": {
+    "thesis": "本作與同演員的旅館題材作品，最清楚的差異是角色主導位置：女將主動應對客人，教師則被寫成受學生把柄牽制。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "女教師與校園場域",
+      "以把柄和報復說法建立的衝突",
+      "來源文案採學生一方的視角"
+    ],
+    "audience_for": [
+      "想依角色處境比較五日市芽依不同企劃的成年讀者",
+      "能接受帶有脅迫感之校園設定的成年讀者"
+    ],
+    "audience_not_for": [
+      "不想接觸教師與學生權力失衡設定的讀者",
+      "需要先確認實際敘事與拍攝方式才選片的讀者"
+    ],
+    "questions_answered": [
+      "本作和同演員的旅館作品有何設定差異？",
+      "這項差異如何影響選片？",
+      "現有材料能否判斷成片品質？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "同樣有明確身分，角色卻站在不同位置",
+      "body": "五日市芽依在本作被設定為教師。來源標題與簡介把「學生掌握弱點」放在衝突起點，並由學生一方說出報復的理由。對照同樣由她演出的旅館題材作品，差別很具體：那部的女將繼承旅館，面對投訴客人時被寫成主動應對的一方；本作的教師則被寫成受把柄牽制的一方。這是兩份公開簡介對角色位置的安排，不能據此替任何一部判定演出好壞。"
+    },
+    {
+      "heading": "選片時，先看自己是否接受這個衝突起點",
+      "body": "若你是沿著五日市芽依的作品找片，兩部提供的入口不同：旅館作品從女將如何處理客人展開，本作則先要求讀者接受教師與學生之間帶有脅迫感的設定。「女教師」與「校園物語」標籤說明了場域，真正左右選擇的是把柄與報復說法帶來的關係張力。公開資料足以辨認這項取向，尚不足以回答故事如何推進、節奏如何，或成片是否處理好這個前提。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據 <a href=\"https://cc18.tv/player.php?uuid=178RmV1V460&amp;cat=19\">本作來源作品頁</a>及<a href=\"https://cc18.tv/player.php?uuid=ekK5dkRL54N&amp;cat=19\">同演員旅館題材作品頁</a>已核對的標題、簡介與關係資料撰寫。角色位置與選片意義是對兩份公開設定的編輯比較，沒有影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "5561607099affbd3550e078740327192b3b5081e71f35a70bff8887457d4a88f",
+    "response_sha256": "ca33a145bfc236160b043ba8b655636676ffb365ff039f23d2b67b649f68e375",
+    "research_input_sha256": "453ea2db4aab2b71392e5c0c4e843da38c964285d061e1e87126a1c3b7a31412",
+    "related_source_ids": [
+      "WAAA-701",
+      "DSOD-080"
+    ]
+  }
+}

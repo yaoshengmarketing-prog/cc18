@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "movie_id": "DSOD-094",
+  "generated_at": "2026-11-06T11:47:49.889Z",
+  "source_snapshot_hash": "sha256:5561607099affbd3550e078740327192b3b5081e71f35a70bff8887457d4a88f",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "本作與同演員的旅館題材作品，最清楚的差異是角色主導位置：女將主動應對客人，教師則被寫成受學生把柄牽制。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "女教師與校園場域",
+      "以把柄和報復說法建立的衝突",
+      "來源文案採學生一方的視角"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想依角色處境比較五日市芽依不同企劃的成年讀者",
+      "能接受帶有脅迫感之校園設定的成年讀者"
+    ],
+    "not_for": [
+      "不想接觸教師與學生權力失衡設定的讀者",
+      "需要先確認實際敘事與拍攝方式才選片的讀者"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "DSOD-080",
+      "relation_type": "same_performer",
+      "reason": "同樣由五日市芽依出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "五日市芽依"
+      ],
+      "contrast_signals": [
+        "偷拍是嗎",
+        "辣妹風格"
+      ]
+    },
+    {
+      "movie_id": "WAAA-701",
+      "relation_type": "same_performer",
+      "reason": "同樣由五日市芽依出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "五日市芽依"
+      ],
+      "contrast_signals": [
+        "中出",
+        "騎乘位"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作和同演員的旅館作品有何設定差異？",
+    "這項差異如何影響選片？",
+    "現有材料能否判斷成片品質？"
+  ]
+}
