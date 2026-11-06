@@ -1218,15 +1218,16 @@
     },
     {
       "label": "超乳",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "FWAY-106",
         "SNOS-396",
         "NINE-127",
-        "MIDA-819"
+        "MIDA-819",
+        "SNOS-366"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-06",
       "status": "quarantined"
     },
     {
@@ -1600,13 +1601,14 @@
     },
     {
       "label": "ヨガ",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "DSOD-067",
-        "DSOD-117"
+        "DSOD-117",
+        "SNOS-366"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-05",
+      "last_seen": "2026-11-06",
       "status": "quarantined"
     },
     {

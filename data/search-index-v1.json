@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:6cbc95639cb09b019599ec8e9447242c49f72e9a2c12114fde6383d94cf05b99",
-  "source_generated_at": "2026-11-05T23:51:03.087Z",
+  "source_revision": "sha256:e4266f6933e9f260e2735f514792eda99fb3f20ababdddfecfa85146e83154a4",
+  "source_generated_at": "2026-11-06T00:48:32.064Z",
   "counts": {
-    "movies": 425,
+    "movies": 426,
     "performers": 329,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -2876,6 +2876,7 @@
       "source_name": "清原美優",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:SNOS-366",
         "cc18:SNOS-372"
       ]
     },
@@ -9864,6 +9865,55 @@
         "article_title": "RT-039｜獨家素人企劃：自拍形式撐起展示型賣點",
         "display_short_title": null,
         "slug": "rt-039"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-366",
+        "source_cover": "https://cc18.tv/preview/80/b/rs29ifxp43t-800.jpg?v=1791837571",
+        "title": "婚禮前的瑜伽課",
+        "catalog_code": "SNOS-366",
+        "release_date": "2026-10-09",
+        "performers": [
+          "清原美優"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beauty-salon",
+            "label": "美容院"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-366/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28382"
+      ],
+      "search": {
+        "source_title": "每次做瑜伽姿勢 爆乳就外溢 露點連發 豐滿女子！理性崩潰的男性教練，終於把雞巴插進去了！ 小日向美優",
+        "article_title": "從矯正駝背到越界指導：這堂瑜伽課的轉折",
+        "display_short_title": "婚禮前的瑜伽課",
+        "slug": "snos-366"
       }
     },
     {

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-366",
+  "review_sha256": "c072de41755297b75f3b83c26d1998b062edfbea419c2e66eb17843160f7c8c9",
+  "selected_thesis": "本作的選片角度，是婚禮前矯正駝背的日常理由，如何在宣傳設定中轉成教練越過指導界線的情節；這比單看身材標籤更能區分本作。",
+  "title_basis": {
+    "performer": "清原美優",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "清原美優",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "每次做瑜伽姿勢",
+        "source_field": "title"
+      }
+    ],
+    "primary_theme": "清原美優",
+    "presentation_feature": "每次做瑜伽姿勢",
+    "editorial_judgment": "以婚禮前的姿態矯正作為選片入口，分析瑜伽教練的專業指導如何在來源宣傳中變成越界理由，並與同人物 ID 作品 SNOS-372 的義姊照顧設定比較。比較對象是兩份文案，並非兩部成片的表演。",
+    "source_keywords": [
+      "清原美優",
+      "每次做瑜伽姿勢"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "SNOS-366 的來源簡介寫明為下個月婚禮矯正駝背，因而開始上瑜伽課。",
+      "supports": "婚禮前的具體目標，是本作宣傳情節的起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "SNOS-366 的來源標題與簡介強調瑜伽姿勢、尺寸過小的運動服，以及教練以身體接觸進行指導後的轉折。",
+      "supports": "本作以瑜伽課的指導關係組織宣傳賣點；這只支持對文案的分析。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "stable 人物 ID 相同的 SNOS-372，來源簡介以義姊照顧的角色設定為主；兩作沒有共同系列 ID。",
+      "supports": "兩份宣傳文案提供不同的角色關係切角，可作同一人物關聯作品的比較。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "SNOS-366 的演員欄及 stable 人物 ID 對應「清原美優」，來源標題與簡介則使用「小日向美優」。",
+      "supports": "標題採用可由演員欄核對的名稱；現有材料不足以解釋兩種名稱的關係。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將來源標題與演員欄的名稱差異解釋為已查證的改名或別名。",
+    "未宣稱已觀看畫面、聽見台詞，或知道鏡位、節奏與情節密度。",
+    "未把來源標籤「美容院」寫成瑜伽課以外的場景，也未從「HD」「4k」推定實際觀看畫質。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-05T16:00:00.000Z"
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-366",
+  "generated_at": "2026-11-06T00:42:09.081Z",
+  "source_snapshot_hash": "sha256:7eb3dd7d5700b5328756f56464d8a767e2b42371b923ce7dca449da1d7d66eb5",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若想找有明確情節起因的瑜伽題材，本作的婚禮前矯正駝背與教練越界設定，是來源資料能支持的選片理由。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源宣傳以婚禮前的瑜伽課建立場景，再把身體指導寫成關係轉折。",
+      "實際畫面、聲音與敘事節奏尚無可用觀察。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想從具體情節設定挑選瑜伽題材的讀者",
+      "關注指導關係如何被寫成越界情節的讀者"
+    ],
+    "not_for": [
+      "需要先確認成片鏡位、表演或節奏的讀者",
+      "只想根據已核實的日文原題選片的讀者"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SNOS-372",
+      "relation_type": "same_performer",
+      "reason": "同樣由清原美優出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "清原美優"
+      ],
+      "contrast_signals": [
+        "母性滿滿的溫柔大姊姊",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作的宣傳情節從什麼理由開始？",
+    "它與同人物 ID 的 SNOS-372 在文案設定上有何不同？",
+    "哪些判斷仍須觀看成片才能回答？"
+  ]
+}
