@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:bb14dfc3a89142944c07f2af4586e9289759fcb4e1d4468242ce46ad5a3446eb",
-  "source_generated_at": "2026-11-06T11:53:37.326Z",
+  "source_revision": "sha256:ea0cdfffc960e2b65fa59e646b619bc5bb608779565fc37f0c1a6f223fa4d49e",
+  "source_generated_at": "2026-11-06T12:47:53.099Z",
   "counts": {
-    "movies": 445,
+    "movies": 446,
     "performers": 334,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -1412,7 +1412,8 @@
       "source_name": "初美なのか",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:SNOS-393"
+        "cc18:SNOS-393",
+        "cc18:SNOS-434"
       ]
     },
     {
@@ -7838,6 +7839,59 @@
         "article_title": "ROYD-361 九井珠奈緒｜被豐滿巨乳的繼姊破處的我",
         "display_short_title": null,
         "slug": "royd-361"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-434",
+        "source_cover": "https://cc18.tv/preview/80/b/jb2CqJJSsfw-800.jpg?v=1793115113",
+        "title": "理科女的祕密實驗",
+        "catalog_code": "SNOS-434",
+        "release_date": "2026-10-23",
+        "performers": [
+          "初美なのか"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-434/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:51709"
+      ],
+      "search": {
+        "source_title": "被理科女開發性癖 初美菜乃花",
+        "article_title": "從時間停止到祕密實驗，角色主導權換了方向",
+        "display_short_title": "理科女的祕密實驗",
+        "slug": "snos-434"
       }
     },
     {

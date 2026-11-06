@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-434",
+  "generated_at": "2026-11-06T12:41:51.095Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SNOS-434.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "被理科女開發性癖",
+    "premise": "作品以「被理科女開發性癖」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「被理科女開發性癖」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "被理科女開發性癖",
+      "初美菜乃花",
+      "口交"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "癡女"
+    ],
+    "body": [
+      "窈窕"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "口交"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由初美なのか演出，SNOS-434 與 SNOS-393 的角色，分別由誰主導故事設定？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=jb2CqJJSsfw&cat=19",
+      "supports": "已核對的作品資料與簡介：初美なのか演出理科女角色；她在講義後邀請對方進入空教室，以「實驗」為名展開兩人獨處的關係。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=agGUzKVf8&cat=19",
+      "supports": "已核對的關聯作品簡介：同樣由初美なのか演出，故事設定為職場上司取得時間停止能力，對她飾演的員工施加性騷擾。"
+    }
+  ],
+  "angle_candidates": [
+    "比較兩作的角色主導權：理科女提出實驗，另一作則由上司利用時間停止能力控制局面。",
+    "觀察「實驗」如何替本作建立人物關係與後續情節的理由。",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作的選片線索是理科女主動提出並主導「祕密實驗」；與同演員作品 SNOS-393 的職場性騷擾及時間停止設定相比，兩部簡介安排了方向相反的角色主導權。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "初美なのか",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "被理科女開發性癖",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "初美なのか的祕密實驗",
+  "display_short_title": "理科女的祕密實驗",
+  "title": "從時間停止到祕密實驗，角色主導權換了方向",
+  "seo_title": "SNOS-434｜初美なのか的理科女祕密實驗，與 SNOS-393 有何不同？",
+  "social_title": "初美なのか這次主導「實驗」：兩部作品的設定差在哪裡？",
+  "short_review": "本作簡介讓初美なのか飾演的理科女主動邀請對方，並以「實驗」推進兩人的關係。若你在意角色由誰主導，這與她在 SNOS-393 飾演遭上司性騷擾的員工，是清楚不同的選片入口。",
+  "editorial_angle": "以同演員兩部作品的公開簡介比較角色主導權，說明「理科女的實驗」與「上司的時間停止能力」如何帶出不同的人物關係。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介寫明理科女在講義後邀請對方進入空教室，並以繼續實驗為由展開兩人獨處的關係。",
+      "supports": "本作由她提出接近對方的理由，且以實驗作為人物關係的核心設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "SNOS-393 的簡介設定上司取得時間停止能力，初美なのか飾演的員工受其性騷擾。",
+      "supports": "同演員的兩部作品，在公開設定中把主導局面的位置交給不同角色。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "初美なのか本人的學歷、研究經歷或性格",
+    "兩部作品的實際鏡位、表演、節奏與成片品質",
+    "本作角色互動在簡介之外的具體發展",
+    "把來源標題中的「初美菜乃花」當作已核准的主要繁中顯示名"
+  ],
+  "decision_guide": {
+    "thesis": "想看初美なのか飾演主動推進關係的角色，可留意本作的理科女設定；若在比較 SNOS-393，最明確的差別是誰掌握故事中的主導權。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "生命科學科、講義後的空教室與祕密實驗構成本作的公開設定",
+      "同演員的 SNOS-393 以職場性騷擾和時間停止能力建立衝突"
+    ],
+    "audience_for": [
+      "在意角色主導權如何改變人物關係的讀者",
+      "想從同演員作品中挑選不同情境設定的讀者"
+    ],
+    "audience_not_for": [
+      "想避開以祕密實驗包裝親密互動設定的讀者",
+      "需要先確認實際敘事密度與節奏的讀者"
+    ],
+    "questions_answered": [
+      "本作以什麼設定推進人物關係？",
+      "它和同樣由初美なのか演出的 SNOS-393 有何具體差異？",
+      "這項差異如何幫助選片？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "「繼續實驗」是誰提出的？",
+      "body": "本作簡介先介紹初美なのか飾演的理科女，再讓她在講義後叫住對方，邀請他進入空教室。從這個起點到後續兩人獨處的「祕密實驗」，主動提出理由的人都是她。因此，「實驗」不只是題材裝飾，也交代了這段關係由誰推進。"
+    },
+    {
+      "heading": "和時間停止設定相比",
+      "body": "同樣由初美なのか演出的 SNOS-393，公開簡介把她放在受上司性騷擾的員工位置；掌握時間停止能力、控制局面的是上司。本作則讓她飾演的角色提出實驗並主導互動。若你是按演員找片，這項差異比兩部作品各自列出的題材標籤更能說明你將遇到哪一種人物關係。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "以上依據本作與 SNOS-393 兩份 CC18 作品頁的已核對資料快照。角色主導權及其選片意義是對公開簡介的編輯比較；沒有影片抽樣，不能據此判斷實際表演、敘事密度或節奏。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "265942a0e05a757f08262532003950793ac67fe24bc19c7a41e7a9efaaf707f5",
+    "response_sha256": "b555e7c40051b63ddc3682a7dfa8f71350268c77345d654c95c5ef5949d22804",
+    "research_input_sha256": "836ce087873161c3601a36f717ac295192b41ea65d9baf3de469c39046e50319",
+    "related_source_ids": [
+      "SNOS-393"
+    ]
+  }
+}

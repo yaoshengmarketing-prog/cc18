@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-434",
+  "generated_at": "2026-11-06T12:41:51.557Z",
+  "source_snapshot_hash": "sha256:265942a0e05a757f08262532003950793ac67fe24bc19c7a41e7a9efaaf707f5",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看初美なのか飾演主動推進關係的角色，可留意本作的理科女設定；若在比較 SNOS-393，最明確的差別是誰掌握故事中的主導權。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "生命科學科、講義後的空教室與祕密實驗構成本作的公開設定",
+      "同演員的 SNOS-393 以職場性騷擾和時間停止能力建立衝突"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "在意角色主導權如何改變人物關係的讀者",
+      "想從同演員作品中挑選不同情境設定的讀者"
+    ],
+    "not_for": [
+      "想避開以祕密實驗包裝親密互動設定的讀者",
+      "需要先確認實際敘事密度與節奏的讀者"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SNOS-393",
+      "relation_type": "same_performer",
+      "reason": "同樣由初美なのか出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "初美なのか"
+      ],
+      "contrast_signals": [
+        "討厭到死",
+        "美少女設定"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作以什麼設定推進人物關係？",
+    "它和同樣由初美なのか演出的 SNOS-393 有何具體差異？",
+    "這項差異如何幫助選片？"
+  ]
+}
