@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "id": "YST-360",
+  "generated_at": "2026-11-06T14:46:12.427Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/YST-360.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "安堂はるの",
+    "premise": "作品以「安堂はるの」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「安堂はるの」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "安堂はるの",
+      "安堂はるの"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "淫亂・過激系"
+    ],
+    "presentation": [
+      "720p",
+      "HD"
+    ]
+  },
+  "research_question": "本作除了行為標籤，還用什麼設定讓讀者判斷是否合口味？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=AmLLTUZon2r&cat=19",
+      "supports": "題名與來源快照的簡介都以繼父和春乃的虛構關係為核心；來源另標有「強迫口交」等標籤。本文依據已提供的來源快照，未將搜尋結果視為作品頁全文。"
+    }
+  ],
+  "angle_candidates": [
+    "以繼父與春乃的虛構關係，說明本作的禁忌設定",
+    "檢視題名中的自我評價如何替宣傳情境定調",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作的選片線索是帶有強迫意味的繼親禁忌設定，以及題名賦予春乃的矛盾自我評價；公開材料不足以判斷成片如何呈現。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "安堂春乃",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "安堂はるの",
+      "source_field": "title"
+    },
+    {
+      "type": "series",
+      "value": "義理の父に口マ●コとして扱われてるのにマン汁を滴らせる私は変",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "安堂春乃與繼父的禁忌設定",
+  "display_short_title": "安堂春乃的繼父題材",
+  "title": "題名把矛盾寫進了繼父題材",
+  "seo_title": "YST-360｜安堂春乃的繼父題材與題名線索",
+  "social_title": "安堂春乃這部作品，為何先讓角色評價自己？",
+  "short_review": "YST-360 的題名與簡介把重點放在繼父和春乃的虛構關係，題名還讓角色以「變態」評價自己的反應。這能幫助讀者辨認題材，無法據此評斷表演或成片節奏。",
+  "editorial_angle": "從虛構人物關係與題名措辭切入，說明本作的選片意義，並界定公開資料能支持的判斷。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源題名與簡介都明示春乃和繼父的虛構關係。",
+      "supports": "繼親禁忌是本作明確的題材線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "題名以第一人稱將角色的身體反應和「變態」的自我評價並置。",
+      "supports": "宣傳文字用角色對自身的矛盾評價建立情境。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標有「強迫口交」，簡介也以繼父持續對待春乃的方式描述兩人關係。",
+      "supports": "讀者可預先辨認本作含有強迫意味的題材。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未推定角色與演員有真實親屬關係。",
+    "未將「讓她生」標籤解讀為劇情中確實懷孕。",
+    "未描述未經觀影核對的鏡頭、聲音、台詞、表演或節奏。"
+  ],
+  "decision_guide": {
+    "thesis": "選片時可先看自己是否接受帶有強迫意味的繼親禁忌設定，以及題名的第一人稱自我評價。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開題名與簡介以虛構人物關係和角色反應定調。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作公開資料明示了什麼人物關係？",
+      "題名如何替角色的處境定調？",
+      "現有材料尚不能判斷哪些成片特徵？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "題名先給出角色的自我評價",
+      "body": "YST-360 的題名沒有只列出行為，而是讓春乃以第一人稱評價自己的反應。來源簡介則交代她與繼父的虛構關係。兩者合起來，讓本作的選片線索落在繼親禁忌，以及角色對自身處境的矛盾看法。"
+    },
+    {
+      "heading": "這個設定適合誰先留意？",
+      "body": "來源另標有「強迫口交」，因此這不是只憑演員名字就能選的作品。若你會先按人物關係和題材界線篩選，這些公開資訊已足以幫你作初步決定；故事篇幅、表演方式與節奏仍不能從文案判定。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據已提供的 CC18 作品來源快照，包括題名、簡介、演員關係與標籤。未取得可核對的同演員或同系列關聯作品材料，也未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "26fbc0a3f3c5fa764e0bd2655c924b4f659d75461e9f71224bb8c30744a7b8b0",
+    "response_sha256": "77442d0074e9925c2e54588eacea250a58918a504dd2751dd5226aa3112fe4de",
+    "research_input_sha256": "9727ff080a9fc865e91cd4f0b8f5e652609f923578aad07a81cff9c339c85ff9",
+    "related_source_ids": []
+  }
+}

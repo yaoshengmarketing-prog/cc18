@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:30b06083cda12be2dbacd2fb36d6f095e11c4fc93b1f9fc6f71a395f2daa78d7",
-  "source_generated_at": "2026-11-06T13:50:55.271Z",
+  "source_revision": "sha256:4ddf351589c2bb17fcdc454a713273a5f37dde369d77fcdf48353a05bb87e6ca",
+  "source_generated_at": "2026-11-06T14:53:01.693Z",
   "counts": {
-    "movies": 447,
-    "performers": 335,
+    "movies": 448,
+    "performers": 336,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1194,6 +1194,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SDJS-386"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28474",
+      "display_name": "安堂春乃",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "安堂春乃",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:YST-360"
       ]
     },
     {
@@ -5274,6 +5285,47 @@
         "article_title": "XVSR-906 小鈴蜜柑｜シコいめがねっ娘：企劃標籤比劇情更明確的選片",
         "display_short_title": null,
         "slug": "xvsr-906"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:YST-360",
+        "source_cover": "https://cc18.tv/preview/80/b/AmLLTUZon2r-800.jpg?v=1793478987",
+        "title": "安堂春乃的繼父題材",
+        "catalog_code": "YST-360",
+        "release_date": "2026-10-31",
+        "performers": [
+          "安堂春乃"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/yst-360/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28474"
+      ],
+      "search": {
+        "source_title": "明明被繼父當作口●來對待,我卻還滴著淫水,我是個變態。 安堂はるの",
+        "article_title": "題名把矛盾寫進了繼父題材",
+        "display_short_title": "安堂春乃的繼父題材",
+        "slug": "yst-360"
       }
     },
     {

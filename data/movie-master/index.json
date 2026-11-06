@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-06T13:50:55.271Z",
+  "generated_at": "2026-11-06T14:53:01.693Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 451,
-  "formal_movie_count": 450,
+  "tracked_input_count": 452,
+  "formal_movie_count": 451,
   "demo_count": 1,
-  "published_count": 447,
+  "published_count": 448,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -4067,6 +4067,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "625cf928a00b0b0dad056b805ee4be36b5b745845843c5b0fc6f69b12ab4fdfc"
+    },
+    {
+      "stable_movie_id": "cc18:YST-360",
+      "catalog_code": "YST-360",
+      "slug": "yst-360",
+      "master_path": "data/movie-master/yst-360.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "fccbd6f0460d4ae374a19f0f0d2b423641cb1172121285e22f3a0df414abf781"
     }
   ]
 }

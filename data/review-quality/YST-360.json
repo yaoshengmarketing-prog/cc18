@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "YST-360",
+  "review_sha256": "63111a73f0dc1ee0b8aa1fb8304fe53b47690c87ac151abc467bd53836920f91",
+  "selected_thesis": "本作的選片線索是帶有強迫意味的繼親禁忌設定，以及題名賦予春乃的矛盾自我評價；公開材料不足以判斷成片如何呈現。",
+  "title_basis": {
+    "performer": "安堂春乃",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "安堂春乃",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "安堂はるの",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "義理の父に口マ●コとして扱われてるのにマン汁を滴らせる私は変",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "安堂春乃",
+    "presentation_feature": "安堂はるの",
+    "editorial_judgment": "從虛構人物關係與題名措辭切入，說明本作的選片意義，並界定公開資料能支持的判斷。",
+    "source_keywords": [
+      "安堂春乃",
+      "安堂はるの",
+      "義理の父に口マ●コとして扱われてるのにマン汁を滴らせる私は変",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源題名與簡介都明示春乃和繼父的虛構關係。",
+      "supports": "繼親禁忌是本作明確的題材線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "題名以第一人稱將角色的身體反應和「變態」的自我評價並置。",
+      "supports": "宣傳文字用角色對自身的矛盾評價建立情境。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標有「強迫口交」，簡介也以繼父持續對待春乃的方式描述兩人關係。",
+      "supports": "讀者可預先辨認本作含有強迫意味的題材。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未推定角色與演員有真實親屬關係。",
+    "未將「讓她生」標籤解讀為劇情中確實懷孕。",
+    "未描述未經觀影核對的鏡頭、聲音、台詞、表演或節奏。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-05T16:00:00.000Z"
+}

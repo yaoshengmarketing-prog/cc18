@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "movie_id": "YST-360",
+  "generated_at": "2026-11-06T14:46:13.040Z",
+  "source_snapshot_hash": "sha256:26fbc0a3f3c5fa764e0bd2655c924b4f659d75461e9f71224bb8c30744a7b8b0",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "選片時可先看自己是否接受帶有強迫意味的繼親禁忌設定，以及題名的第一人稱自我評價。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開題名與簡介以虛構人物關係和角色反應定調。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "本作公開資料明示了什麼人物關係？",
+    "題名如何替角色的處境定調？",
+    "現有材料尚不能判斷哪些成片特徵？"
+  ]
+}
