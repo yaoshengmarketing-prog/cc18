@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "SVVRT-087",
+  "calls": [
+    {
+      "generated_at": "2026-09-08T10:10:19.762Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2512,
+      "cached_input_tokens": 0,
+      "output_tokens": 986,
+      "total_tokens": 3498,
+      "estimated_cost_usd": 0.034745,
+      "estimated_payg_cash_cost_usd": 0.036482,
+      "direct_openai_reference_usd": 0.02107,
+      "gateway_premium_usd": 0.013675,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2512,
+    "cached_input_tokens": 0,
+    "output_tokens": 986,
+    "estimated_cost_usd": 0.034745,
+    "estimated_payg_cash_cost_usd": 0.036482,
+    "direct_openai_reference_usd": 0.02107,
+    "gateway_premium_usd": 0.013675
+  }
+}

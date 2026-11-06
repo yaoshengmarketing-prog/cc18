@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "SVVRT-087",
+  "checked_at": "2026-11-06T17:55:21.300Z",
+  "review_sha256": "e7c0424bedb2f32d3bd89b4d87105676d680406c516db223bc11c34be5b3788f",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只從目前可追溯的公開資訊來看，SVVRT-087 最明確的辨識點就是「素人綜藝」這個核心概念。這代表它的吸引力首先不在已知演員名單、系列延續或明確劇情，而是在企劃本身帶出的觀看方向。對選片者來說，這類作品通常不是用角色背景去建立期待，而是看你是否偏好帶有企劃感、展示感的素人題"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "本作的 topic elements 目前可確認的重點非常集中：身份是「素人」，動作面則標示了「中出」，呈現形式則落在「企劃片」與高畫質規格。這樣的資訊組合，會讓人把它視為一部以素人題材加上明確成人主題包裝的企劃型作品。換句話說，選片判斷的關鍵不是複雜人物關係，而是你是否對素人類"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

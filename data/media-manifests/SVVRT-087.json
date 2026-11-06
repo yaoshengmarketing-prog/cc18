@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "SVVRT-087",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-06T17:55:23.506Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/SVVRT-087/hero-v1.jpg",
+      "r2_key": "works/2026/09/SVVRT-087/hero-v1.jpg",
+      "bytes": 831522,
+      "sha256": "3c77716fbf3fc8fad23d7444407cde766bc85ea6d66369bbbfdfa3cdc0f00065",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/SVVRT-087/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/SVVRT-087/scene-vertical-v1.jpg",
+      "bytes": 1074202,
+      "sha256": "cbb2ae2de7e1e7c7139706a31d95056dfbefbce2276d238e08032e403ad5a87a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3196026,
+    "sha256": "3976a5ace02feefd90b9b74d1443c9c1106ccc9937e13af8e76f5b74b51e0bbf",
+    "target_r2_key": "works/2026/09/SVVRT-087/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/SVVRT-087/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

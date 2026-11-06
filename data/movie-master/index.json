@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-06T17:51:22.958Z",
+  "generated_at": "2026-11-06T17:55:55.399Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 458,
-  "formal_movie_count": 457,
+  "tracked_input_count": 459,
+  "formal_movie_count": 458,
   "demo_count": 1,
-  "published_count": 454,
+  "published_count": 455,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -3887,6 +3887,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "3240f73571406fd4545545305e6baeb5a8394b8371e3e5c3fee3772a1f699c2a"
+    },
+    {
+      "stable_movie_id": "cc18:SVVRT-087",
+      "catalog_code": "SVVRT-087",
+      "slug": "svvrt-087",
+      "master_path": "data/movie-master/svvrt-087.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "a594b3aa39a714d9485c34d4206cbabb01701697d94a8968697af143da7a7dee"
     },
     {
       "stable_movie_id": "cc18:SW-1065",
