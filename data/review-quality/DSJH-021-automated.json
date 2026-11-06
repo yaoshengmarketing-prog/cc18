@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "DSJH-021",
+  "checked_at": "2026-11-06T23:20:01.910Z",
+  "review_sha256": "a1f306be2f5bbc4ed3faa1ca04b5df94bbcf38eb40695a4d76c6a1e50269fa00",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "source_core_concept_not_developed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只看目前可追溯的公開資訊，DSJH-021 最清楚的辨識點就是片名與來源概念直接指向的「屈辱的蔑視眼神褲襪足交」。這不是需要再從劇情推論的附帶元素，而是作品最核心的企劃標示。也因為核心概念已經非常集中，選片時的判斷會優先看觀眾是否就是為了這種帶有明確視線壓迫感與足交主題的內容而"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "公開線索中可確認的身份標籤是「OL」。這個設定讓作品的主題輪廓更具體：它不是完全抽象的足交合集，而是把成人職場身份作為企劃包裝的一部分。不過，現階段並沒有可驗證的劇情簡介、人物關係或場景說明，因此較合理的理解是，OL在這裡主要是作為角色識別與想像入口，而不是足以證明有完整職場故事"
+        }
+      ]
+    },
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

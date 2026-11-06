@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "DSJH-021",
+  "review_sha256": "a1f306be2f5bbc4ed3faa1ca04b5df94bbcf38eb40695a4d76c6a1e50269fa00",
+  "selected_thesis": "椿莉香的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "椿莉香、有加里野乃香、一色沙羅、藍瀬ミナ、さくまつな",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "椿莉香",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "屈辱的蔑視眼神褲襪足交",
+        "source_field": "title"
+      },
+      {
+        "type": "identity",
+        "value": "OL",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "椿莉香",
+    "presentation_feature": "屈辱的蔑視眼神褲襪足交",
+    "editorial_judgment": "椿莉香的企劃呈現與觀看取向",
+    "source_keywords": [
+      "椿莉香",
+      "屈辱的蔑視眼神褲襪足交",
+      "OL"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：椿莉香",
+      "supports": "這項可追溯來源訊號支持文章以「椿莉香」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：有加里野乃香",
+      "supports": "這項可追溯來源訊號支持文章以「有加里野乃香」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：一色沙羅",
+      "supports": "這項可追溯來源訊號支持文章以「一色沙羅」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：藍瀬ミナ",
+      "supports": "這項可追溯來源訊號支持文章以「藍瀬ミナ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：さくまつな",
+      "supports": "這項可追溯來源訊號支持文章以「さくまつな」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：屈辱的蔑視眼神褲襪足交",
+      "supports": "這項可追溯來源訊號支持文章以「屈辱的蔑視眼神褲襪足交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：OL",
+      "supports": "這項可追溯來源訊號支持文章以「OL」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-07T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}
