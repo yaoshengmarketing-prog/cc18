@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-411",
+  "generated_at": "2026-11-06T05:44:08.431Z",
+  "source_snapshot_hash": "sha256:6254b8d42c8fc0d12d317501f82e6a3de7112d656e0ddfdad610198efa0b269e",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看楓富愛被放進明確限時情境的讀者，可留意本作以末班車倒數組織宣傳設定；若主要想看多種造型變換，同演員的 SNOS-401 有更直接的來源描述。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "末班車前的限時相會",
+      "下班後的不倫設定",
+      "簡介反覆標示剩餘時間"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好有明確時間限制與關係設定的楓富愛作品的讀者",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "需要先確認成片節奏、鏡位或具體表演的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SNOS-401",
+      "relation_type": "same_performer",
+      "reason": "同樣由楓富愛出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "楓富愛"
+      ],
+      "contrast_signals": [
+        "美少女設定",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作比一般不倫標籤多了什麼具體設定？",
+    "它與同演員的 SNOS-401 在宣傳重心上有何不同？",
+    "能否根據標題斷定成片完全沒有前戲？"
+  ]
+}

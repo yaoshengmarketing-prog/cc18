@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:040f274128e58653a9afe6b2b645068fa0d617f79130d5841780c76068c8f3bf",
-  "source_generated_at": "2026-11-06T06:53:23.879Z",
+  "source_revision": "sha256:0aa59f9e3608040923714143b2e9f5e6d4f826e248f58010e36723803be16b0a",
+  "source_generated_at": "2026-11-06T07:41:57.520Z",
   "counts": {
-    "movies": 433,
+    "movies": 434,
     "performers": 331,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -3338,7 +3338,8 @@
       "source_name": "楓富愛",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:SNOS-401"
+        "cc18:SNOS-401",
+        "cc18:SNOS-411"
       ]
     },
     {
@@ -10091,6 +10092,47 @@
         "article_title": "從矯正駝背到越界指導：這堂瑜伽課的轉折",
         "display_short_title": "婚禮前的瑜伽課",
         "slug": "snos-366"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-411",
+        "source_cover": "https://cc18.tv/preview/80/b/7DokGF5tJ66-800.jpg?v=1791837571",
+        "title": "末班車前的兩小時",
+        "catalog_code": "SNOS-411",
+        "release_date": "2026-10-09",
+        "performers": [
+          "楓富愛"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-411/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:26610"
+      ],
+      "search": {
+        "source_title": "「讓我幹到末班車為止！」與9頭身完美身材情婦在午夜0點前無前戲即插連射不倫 楓富愛",
+        "article_title": "末班車倒數，如何改變楓富愛這次的企劃？",
+        "display_short_title": "末班車前的兩小時",
+        "slug": "snos-411"
       }
     },
     {

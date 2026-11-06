@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-411",
+  "review_sha256": "89bce1f11598af443898181fb9dd656327c88457b6992e13238e8370ce401a9c",
+  "selected_thesis": "本作值得留意的角度是末班車倒數：來源簡介用兩小時、一小時與三十分鐘，讓下班後的情婦設定有了時間壓力；相較同演員的 SNOS-401 以五種穿搭情境吸引讀者，這次的選片理由更集中在限時相會。",
+  "title_basis": {
+    "performer": "楓富愛",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "楓富愛",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "讓我幹到末班車為止",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "楓富愛",
+    "presentation_feature": "讓我幹到末班車為止",
+    "editorial_judgment": "比較兩份具有相同 stable 人物 ID 的作品簡介：SNOS-401 以五種穿搭情境展示楓富愛，SNOS-411 則以末班車前的時間限制組織不倫設定。倒數帶來的急迫感是對宣傳文字的編輯解讀，不是觀看後的節奏評價。",
+    "source_keywords": [
+      "楓富愛",
+      "讓我幹到末班車為止",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "SNOS-411 的來源標題提出「末班車為止」與午夜前的限時相會；簡介依序寫到下班後約兩小時、剩一個多小時、剩三十分鐘。",
+      "supports": "末班車倒數是本作宣傳設定的具體結構，而非泛稱的不倫題材。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "SNOS-401 與本作同屬 stable 人物 ID cc18.tv:actor:26610；其來源簡介列出五種穿搭與角色情境。",
+      "supports": "兩作的編輯比較建立在同一位演員的關聯作品上：前者以情境變換為賣點，本作以限時相會為賣點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "SNOS-411 的來源標題寫「無前戲」，來源簡介另寫兩人互相愛撫。",
+      "supports": "標題中的急迫措辭不宜直接轉寫為對成片過程的斷言。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未聲稱看過本作或 SNOS-401 的畫面、聲音與台詞。",
+    "未將簡介中的第一人稱敘述當作演員真實經歷。",
+    "未以「無前戲」斷言成片完全沒有愛撫，也未推定實際剪輯節奏。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-05T16:00:00.000Z"
+}
