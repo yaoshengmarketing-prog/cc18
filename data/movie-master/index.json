@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-06T17:41:26.657Z",
+  "generated_at": "2026-11-06T17:47:19.224Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 456,
-  "formal_movie_count": 455,
+  "tracked_input_count": 457,
+  "formal_movie_count": 456,
   "demo_count": 1,
-  "published_count": 452,
+  "published_count": 453,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2393,6 +2393,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "ec7cf97c01a92c0595dbfad5d424401e36da01ff0542e2cec4d56fa0cda8b9dc"
+    },
+    {
+      "stable_movie_id": "cc18:MVG-174",
+      "catalog_code": "MVG-174",
+      "slug": "mvg-174",
+      "master_path": "data/movie-master/mvg-174.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "4403af5d5405baff0492f74602d9764b3bdaf2b2c24331b56480f07e9926d42b"
     },
     {
       "stable_movie_id": "cc18:MVSD-700",

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "MVG-174",
+  "review_sha256": "d7d6c05f8ae17c869ae0d8706db7d01e65d07267cb48e03a1b37d1197ec974fc",
+  "selected_thesis": "本作的設定轉折來自祕密曝光後遭人施壓；同演員的另一作則以虛構藥物帶來的外貌變化，讓人物轉為主動。兩種起點提供不同的選片理由。",
+  "title_basis": {
+    "performer": "宮西光",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "宮西光",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "宮西光",
+    "presentation_feature": "高畫質",
+    "editorial_judgment": "對照同樣由宮西光演出的 ROYD-349：該作以虛構藥物造成的外貌變化啟動人物的主動選擇；本作則讓祕密曝光成為受人施壓的起點。比較的是公開設定與選片線索，不是成片品質。",
+    "source_keywords": [
+      "宮西光",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介寫明教師的祕密被學生用手機拍下，對方以影像施壓。",
+      "supports": "祕密曝光是人物處境轉折的起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作來源標籤包含野外、緊縛與 SM。",
+      "supports": "公開資料將野外及受制情境列為選片線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "關聯作品 ROYD-349 的簡介以虛構瘦身藥造成的外貌變化，帶出角色態度的轉變；人物關係資料確認兩作同由宮西光演出。",
+      "supports": "兩作以不同事件啟動人物轉折，可供比較設定取向。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不把簡介列出的情節當成已核對的實際畫面或表演。",
+    "不由題材標籤推論節奏、敘事密度或成片品質。",
+    "不把角色設定寫成宮西光的真實經歷。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}

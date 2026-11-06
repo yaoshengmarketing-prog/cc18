@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "id": "MVG-174",
+  "checked_at": "2026-11-06T17:45:04.826Z",
+  "review_sha256": "afc0cb70b5960407ae4aa9bd2db5b818427aa7203575b6bdba966cbdd17460bd",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_creative_reconstruction_audit",
+    "missing_source_specific_title_concept"
+  ],
+  "findings": [
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "missing_source_specific_title_concept",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 3,
+    "evidence_items": 3,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:ecdf279298f8aa2c600b2eedc2925e7dc2c032f3747d561c3e5a52ea3b2dc418",
-  "source_generated_at": "2026-11-06T17:41:26.657Z",
+  "source_revision": "sha256:aed38ba7e899b1e934947b6d32013ea80619053a8da6248cf00cf6b4b33946e8",
+  "source_generated_at": "2026-11-06T17:47:19.224Z",
   "counts": {
-    "movies": 452,
+    "movies": 453,
     "performers": 338,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -2534,12 +2534,13 @@
     },
     {
       "stable_actor_id": "cc18.tv:actor:27054",
-      "display_name": "宮西ひかる",
+      "display_name": "宮西光",
       "display_name_zh_tw": null,
       "name_ja": null,
-      "source_name": "宮西ひかる",
+      "source_name": "宮西光",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:MVG-174",
         "cc18:ROYD-349"
       ]
     },
@@ -12010,6 +12011,43 @@
         "article_title": "MKON-149 波多野結衣｜AV女優 ○○とは：以展示型企劃為主的系列判斷",
         "display_short_title": null,
         "slug": "mkon-149"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MVG-174",
+        "source_cover": "https://cc18.tv/preview/80/b/ljprSTJy1V-800.jpg?v=1789972673",
+        "title": "教師祕密遭揭露",
+        "catalog_code": "MVG-174",
+        "release_date": "2026-09-19",
+        "performers": [
+          "宮西光"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mvg-174/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27054"
+      ],
+      "search": {
+        "source_title": "被女學生發現露出癖而遭威脅淪為奴隸的女教師 野外緊縛被當作恥辱與輪姦的祭品… 宮西光",
+        "article_title": "祕密被拍下後，誰掌握教師的處境？",
+        "display_short_title": "教師祕密遭揭露",
+        "slug": "mvg-174"
       }
     },
     {

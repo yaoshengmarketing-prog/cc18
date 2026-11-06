@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "movie_id": "MVG-174",
+  "generated_at": "2026-11-06T17:42:31.523Z",
+  "source_snapshot_hash": "sha256:c1c7a204c5a446aed49d9c6fd67bf3fa71c07ea5914da1a5ae680fe3b43a4e09",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看祕密曝光後受人施壓的教師角色設定，可留意本作；若偏好由奇想事件帶出人物主動改變，同演員的 ROYD-349 有更明確的對照。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "教師祕密遭揭露的設定",
+      "野外與緊縛題材標籤"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想依角色處境與脅迫設定選片的讀者",
+      "想比較宮西光不同角色設定的讀者"
+    ],
+    "not_for": [
+      "需要先確認實際敘事節奏與呈現方式的讀者",
+      "不想接觸脅迫題材的讀者"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "本作以什麼事件啟動人物處境的轉折？",
+    "它與同演員關聯作品的設定差異何在？",
+    "這項差異能提供什麼選片線索？"
+  ]
+}

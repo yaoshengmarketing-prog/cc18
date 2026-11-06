@@ -641,7 +641,7 @@
     },
     {
       "label": "m女",
-      "occurrences": 17,
+      "occurrences": 18,
       "source_ids": [
         "MVG-171",
         "IPZZ-978",
@@ -659,10 +659,11 @@
         "SY-228",
         "SDAM-183",
         "START-660",
-        "DFE-118"
+        "DFE-118",
+        "MVG-174"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-11-05",
+      "last_seen": "2026-11-07",
       "status": "quarantined"
     },
     {
@@ -1181,7 +1182,7 @@
     },
     {
       "label": "SM",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "BBAN-601",
         "ACZD-250",
@@ -1189,10 +1190,11 @@
         "MISM-463",
         "HMN-911",
         "MVSD-708",
-        "CMN-265"
+        "CMN-265",
+        "MVG-174"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-07",
       "status": "quarantined"
     },
     {
@@ -1363,17 +1365,18 @@
     },
     {
       "label": "野外",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "DLDSS-539",
         "CEMD-889",
         "BANK-248",
         "MUDR-397",
         "MVSH-006",
-        "START-656"
+        "START-656",
+        "MVG-174"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-10-31",
+      "last_seen": "2026-11-07",
       "status": "quarantined"
     },
     {
@@ -2269,15 +2272,16 @@
     },
     {
       "label": "緊縛",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "MUDR-406",
         "ACZD-250",
         "MVSD-700",
-        "CMN-265"
+        "CMN-265",
+        "MVG-174"
       ],
       "first_seen": "2026-09-11",
-      "last_seen": "2026-09-19",
+      "last_seen": "2026-11-07",
       "status": "quarantined"
     },
     {

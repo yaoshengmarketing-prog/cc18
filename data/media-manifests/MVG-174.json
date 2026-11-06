@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MVG-174",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-06T17:46:00.707Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/MVG-174/hero-v1.jpg",
+      "r2_key": "works/2026/09/MVG-174/hero-v1.jpg",
+      "bytes": 578923,
+      "sha256": "bd40db41073e0e6c95973e0c3598080ad87b5f75bf4fad289879b91e1fe21240",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "8253da975e3941a4869962c29d1e0051",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/MVG-174/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/MVG-174/scene-vertical-v1.jpg",
+      "bytes": 1012533,
+      "sha256": "3eb4a73c30be1d52f1029318c76c4d82be5b261e27fc7ea4753a4cb034b2da0e",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "2078b496d2ea4159be5ac08e544e9be5",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3208214,
+    "sha256": "9f7b8b981660a243fb681b2f12d214f6925bf9e86911f61f468eadae283b1584",
+    "target_r2_key": "works/2026/09/MVG-174/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/MVG-174/vertical-v1.mp4"
+  }
+}
