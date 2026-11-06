@@ -91,9 +91,9 @@ const relatedResearch = async ({workspaceRoot, source, registry}) => {
 const runCodex = async ({workspaceRoot, source, examples, related, responsePath}) => {
   const prompt = `你是 JAV 影格繁中編輯。本次只輸出一個 JSON 物件，供既有 Editorial 正規化與 QA 使用。
 請根據下方當前作品來源快照、已核准文章範例、實際具有相同 stable 人物或系列 ID 的關聯作品，以及可查證的公開資料，找出本作特有的選片角度。可查找官方資料，但不得捏造來源、人物經歷或已觀看的畫面、聲音與台詞。若外部資料不足，只用提供的具體材料，清楚區分來源宣傳與你的編輯比較。範例只供學習判斷方式，不得照抄句子，也不得把無關範例當成本作背景。
-JSON 欄位：angle_candidates、selected_thesis、title_signals（可空）、work_title（作品 H1，自然繁中，不重複番號）、display_short_title（卡片短題，不重複番號）、title（文章觀點 H2，不重複番號）、seo_title（包含番號）、social_title、short_review、editorial_angle、editorial_tag_ids（可空）、evidence（每項 basis=public_source、signal、supports、observation_refs=[]）、creative_reconstruction_notes（可空）、unsupported_claims_excluded、decision_guide（thesis、story_density=unknown、pace=unknown、presentation、audience_for、audience_not_for、questions_answered）、sections（heading、body）。所有公開文字都用自然繁中，不寫內部欄位名稱。title_signals 不確定就留空。日文系列名不可冒充作品原題。文章可短，但要有來源支持的具體判斷。
+JSON 欄位：angle_candidates、selected_thesis、title_signals（可空）、work_title（作品 H1，自然繁中，不重複番號）、display_short_title（卡片短題，不重複番號）、title（文章觀點 H2，不重複番號）、seo_title（包含番號）、social_title、short_review、editorial_angle、editorial_tag_ids（可空）、evidence（每項 basis=public_source、signal、supports、observation_refs=[]）、creative_reconstruction_notes（可空）、unsupported_claims_excluded、decision_guide（thesis、story_density=unknown、pace=unknown、presentation、audience_for、audience_not_for、questions_answered）、sections（heading、body）。所有公開文字都用自然繁中，不寫內部欄位名稱；正文不要出現 stable ID、Source Record、Movie Master、Search Content、D1 或 QA 等工程名稱，人物關係可寫成「同樣由某人演出」。title_signals 不確定就留空。日文系列名不可冒充作品原題。文章可短，但要有來源支持的具體判斷。
 當前作品來源 JSON：\n${JSON.stringify(source)}
-經 stable ID 核對的關聯作品：\n${JSON.stringify(related)}
+經人物與系列關係核對的關聯作品：\n${JSON.stringify(related)}
 三篇已核准文章範例（僅作寫作方法參考）：\n${examples}`;
   const code = await new Promise((resolveRun, rejectRun) => {
     const child = spawn('codex.exe', ['exec', '--ephemeral', '-s', 'read-only', '-C', workspaceRoot,

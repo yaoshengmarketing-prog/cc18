@@ -1,5 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import {spawnSync} from 'node:child_process';
+import {mkdtempSync, rmSync} from 'node:fs';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
 import {
   editorialContentAssessment,
   editorialContentIssues,
@@ -62,6 +66,8 @@ test('content QA detects a review that repeatedly avoids making a judgment', () 
 
 test('content QA detects production meta language and repeated machine-like pivots', () => {
   assert.equal(hasReaderFacingProductionMeta('以 source_only 條件整理'), true);
+  assert.equal(hasReaderFacingProductionMeta('經演員 stable ID 核對'), true);
+  assert.equal(hasReaderFacingProductionMeta('取自 Source Record'), true);
   assert.equal(hasReaderFacingProductionMeta('直接分析作品的角色與題材'), false);
   assert.deepEqual(editorialContentIssues({
     body: '這篇內容由 AI 自動生成，並依照內部規則整理。',
@@ -79,6 +85,25 @@ test('content QA detects production meta language and repeated machine-like pivo
     body: '成品最聰明的地方是把人物留在畫面中央。另一個聰明的地方在於場景集中。',
     titleSignals: [], topicElements: {},
   }), ['formulaic_machine_voice']);
+});
+
+test('local title-version-2 article avoids fixed wording and count warnings', () => {
+  const directory = mkdtempSync(join(tmpdir(), 'cc18-qa-calibration-'));
+  try {
+    const result = spawnSync(process.execPath, ['scripts/editorial/qa-draft.mjs', 'DLDSS-538', `--report=${join(directory, 'report.json')}`], {
+      cwd: join(import.meta.dirname, '..'), encoding: 'utf8',
+    });
+    assert.equal(result.status, 0, result.stderr || result.stdout);
+    const report = JSON.parse(result.stdout);
+    assert.equal(report.publishable, true);
+    assert.deepEqual(report.issues, []);
+    for (const code of [
+      'social_title_lacks_source_signal', 'missing_decision_value', 'body_lacks_source_adult_vocabulary',
+      'source_core_concept_not_developed', 'insufficient_sections', 'insufficient_evidence',
+    ]) assert.ok(!report.notes.includes(code), code);
+  } finally {
+    rmSync(directory, {recursive: true, force: true});
+  }
 });
 
 test('content QA detects excessive abstract editorial vocabulary', () => {

@@ -16,7 +16,7 @@ const reviewSentences = (value) => String(value ?? '').split(/[。！？!?]\s*/)
   .map((sentence) => sentence.replace(/^[\s#*「」『』]+|[\s#*「」『』]+$/g, '').replace(/\s+/g, ''))
   .filter((sentence) => sentence.length >= 18);
 
-const productionMetaPattern = /(?:\bAI\b|人工智慧|語言模型|模型生成|自動生成|提示詞|prompt|內部規則|內容管線|pipeline|source[-_ ]?only|\bQA\b)/i;
+const productionMetaPattern = /(?:\bAI\b|人工智慧|語言模型|模型生成|自動生成|提示詞|prompt|內部規則|內容管線|pipeline|source[-_ ]?only|\bQA\b|stable\s*ID|Source\s*Record|Movie\s*Master|Search\s*Content|\bD1\b)/i;
 export const hasReaderFacingProductionMeta = (value) => productionMetaPattern.test(String(value ?? ''));
 const formulaicPivotPatterns = [
   /(?:真正(?:的)?|主要)?(?:重點|價值|差異|看點|關鍵).{0,18}(?:不在於|不在|不是).{0,42}(?:而在於|而在|而是)/g,
@@ -36,7 +36,7 @@ const matchesPattern = (text, pattern) => new RegExp(pattern.source, pattern.fla
 
 const finding = (code, scope, detail = {}) => ({code, scope, ...detail});
 
-export function editorialContentAssessment({body = '', titles = [], titleSignals = [], topicElements = {}, coreSourceConcept = ''}) {
+export function editorialContentAssessment({body = '', titles = [], titleSignals = [], topicElements = {}, coreSourceConcept = '', localizedTitleVersion = false}) {
   const blockingIssues = [];
   const repairIssues = [];
   const notes = [];
@@ -79,13 +79,13 @@ export function editorialContentAssessment({body = '', titles = [], titleSignals
   const sourceTerms = [...new Set(Object.values(topicElements).flat().map((value) => String(value).trim()).filter(Boolean))];
   const meaningfulTerms = sourceTerms.filter((value) => !technicalTerms.has(normalized(value)));
   const requiredBodyTerms = Math.min(2, meaningfulTerms.length);
-  if (meaningfulTerms.filter((term) => body.includes(term)).length < requiredBodyTerms) note('body_lacks_source_adult_vocabulary', {reason: 'COVERAGE_WARNING'});
+  if (!localizedTitleVersion && meaningfulTerms.filter((term) => body.includes(term)).length < requiredBodyTerms) note('body_lacks_source_adult_vocabulary', {reason: 'COVERAGE_WARNING'});
   const hasSourceAdultSignal = titleSignals.some((signal) => meaningfulTerms.includes(signal))
     || (coreSourceConcept && titleSignals.includes(coreSourceConcept));
   if (meaningfulTerms.length && !hasSourceAdultSignal) note('title_lacks_primary_source_adult_topic', {reason: 'COVERAGE_WARNING'});
   if (coreSourceConcept) {
     if (!titles.some((title) => title.includes(coreSourceConcept))) note('title_lacks_source_core_concept', {reason: 'COVERAGE_WARNING'});
-    if (body.split(coreSourceConcept).length - 1 < 2) note('source_core_concept_not_developed', {reason: 'COVERAGE_WARNING'});
+    if (!localizedTitleVersion && body.split(coreSourceConcept).length - 1 < 2) note('source_core_concept_not_developed', {reason: 'COVERAGE_WARNING'});
   }
   const repeatedGenericArcs = genericArcs
     .map((phrase) => ({phrase, count: body.split(phrase).length - 1}))

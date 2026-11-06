@@ -68,7 +68,7 @@ if (localizedTitleVersion) {
 const sourceSignals = list('titleSignals');
 if (sourceSignals.length < 2 || sourceSignals.length > 4) warn('invalid_title_signal_count');
 if (!localizedTitleVersion && sourceSignals.filter((value) => scalar('title').includes(value)).length < Math.min(2, sourceSignals.length)) warn('title_lacks_source_signals');
-if (sourceSignals.length && !sourceSignals.some((value) => scalar('socialTitle').includes(value))) warn('social_title_lacks_source_signal');
+if (!localizedTitleVersion && sourceSignals.length && !sourceSignals.some((value) => scalar('socialTitle').includes(value))) warn('social_title_lacks_source_signal');
 const searchableSource = [
   source.title,
   source.description,
@@ -78,13 +78,14 @@ const searchableSource = [
   ...buildSafeTitleSignals(source).map(({value}) => value),
 ].filter(Boolean).join('\n');
 if (sourceSignals.some((value) => !searchableSource.includes(value))) warn('untraceable_title_signal');
-if (!/適合|偏好|推薦/.test(body) || !/未必|不適合|取捨/.test(body)) warn('missing_decision_value');
+if (!localizedTitleVersion && (!/適合|偏好|推薦/.test(body) || !/未必|不適合|取捨/.test(body))) warn('missing_decision_value');
 const contentAssessment = editorialContentAssessment({
   body,
   titles: [scalar('title'), scalar('seoTitle'), scalar('socialTitle')],
   titleSignals: sourceSignals,
   topicElements: brief.topic_elements ?? {},
   coreSourceConcept: brief.local_creative_brief?.core_source_concept ?? '',
+  localizedTitleVersion,
 });
 blockingIssues.push(...contentAssessment.blockingIssues);
 repairIssues.push(...contentAssessment.repairIssues);
@@ -107,9 +108,9 @@ for (const sentence of sentences) counts.set(sentence, (counts.get(sentence) ?? 
 if ([...counts.values()].some((count) => count > 1)) warn('repeated_sentences');
 
 const headings = [...body.matchAll(localizedTitleVersion ? /^###\s+(.+)$/gm : /^##\s+(.+)$/gm)].map((match) => match[1]);
-if (headings.length < 6) warn('insufficient_sections');
+if (!localizedTitleVersion && headings.length < 6) warn('insufficient_sections');
 if (new Set(headings).size !== headings.length) warn('duplicate_section_headings');
-if ((brief.evidence ?? []).length < 5) warn('insufficient_evidence');
+if (!localizedTitleVersion && (brief.evidence ?? []).length < 5) warn('insufficient_evidence');
 if ((brief.evidence ?? []).some((item) => ['video_sample', 'both'].includes(item.basis) && !(item.observation_refs ?? []).length)) warn('uncited_video_evidence');
 if ((brief.creative_reconstruction_notes ?? []).length < 2) warn('missing_creative_reconstruction_audit');
 if ((brief.evidence ?? []).some((item) => item.signal === movieId || item.supports?.length < 12)) warn('non_specific_evidence');

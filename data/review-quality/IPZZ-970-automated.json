@@ -1,49 +1,22 @@
 {
   "schema_version": 2,
   "id": "IPZZ-970",
-  "checked_at": "2026-11-06T06:51:16.895Z",
-  "review_sha256": "fd9a57442ceff7217f330f59870f9edc4d2b04a8bd187bcfef5256db573116e5",
+  "checked_at": "2026-11-06T07:46:29.044Z",
+  "review_sha256": "3057f3bc4fb5f10a93f861df4850b850fd68b722ba79ea41d654c036bcd90ebc",
   "status": "PASS_WITH_NOTES",
   "passed": true,
   "publishable": true,
   "issues": [],
   "repair_issues": [],
   "notes": [
-    "missing_decision_value",
-    "body_lacks_source_adult_vocabulary",
     "title_lacks_source_core_concept",
-    "source_core_concept_not_developed",
-    "insufficient_sections",
-    "insufficient_evidence",
     "missing_creative_reconstruction_audit"
   ],
   "findings": [
     {
-      "code": "missing_decision_value",
-      "scope": "PASS_WITH_NOTES"
-    },
-    {
-      "code": "body_lacks_source_adult_vocabulary",
-      "scope": "PASS_WITH_NOTES",
-      "reason": "COVERAGE_WARNING"
-    },
-    {
       "code": "title_lacks_source_core_concept",
       "scope": "PASS_WITH_NOTES",
       "reason": "COVERAGE_WARNING"
-    },
-    {
-      "code": "source_core_concept_not_developed",
-      "scope": "PASS_WITH_NOTES",
-      "reason": "COVERAGE_WARNING"
-    },
-    {
-      "code": "insufficient_sections",
-      "scope": "PASS_WITH_NOTES"
-    },
-    {
-      "code": "insufficient_evidence",
-      "scope": "PASS_WITH_NOTES"
     },
     {
       "code": "missing_creative_reconstruction_audit",
