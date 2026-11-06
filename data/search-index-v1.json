@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:17b73da6a13d3c0ff8b657e946c18e8994b50ba2e0065a7b989e2d354fc4537e",
-  "source_generated_at": "2026-11-06T18:04:16.411Z",
+  "source_revision": "sha256:c60e05078945e93833d53812a74067cd82e3bc33f621cb366393db7ab21ab4d9",
+  "source_generated_at": "2026-11-06T18:08:39.391Z",
   "counts": {
-    "movies": 457,
-    "performers": 339,
+    "movies": 458,
+    "performers": 340,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -933,6 +933,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PRED-898"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:29889",
+      "display_name": "田野憂",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "田野憂",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-336"
       ]
     },
     {
@@ -22639,6 +22650,59 @@
         "article_title": "SNOS-313 瀨戶環奈｜極上自慰支援下的展示型企劃判斷",
         "display_short_title": null,
         "slug": "snos-313"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-336",
+        "source_cover": "https://cc18.tv/preview/80/b/urU4DcmHB3E-800.jpg?v=1788611913",
+        "title": "SNOS-336 田野憂｜AV女優片企劃下的女僕主題展示作",
+        "catalog_code": "SNOS-336",
+        "release_date": "2026-09-04",
+        "performers": [
+          "田野憂"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-336/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:29889"
+      ],
+      "search": {
+        "source_title": "從異世界召喚而來的融化L罩杯女僕 田野憂",
+        "article_title": "SNOS-336 田野憂｜AV女優片企劃下的女僕主題展示作",
+        "display_short_title": null,
+        "slug": "snos-336"
       }
     },
     {
