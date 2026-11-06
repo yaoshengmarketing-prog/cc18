@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "DVAJ-757",
+  "calls": [
+    {
+      "generated_at": "2026-09-08T09:51:30.364Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2579,
+      "cached_input_tokens": 0,
+      "output_tokens": 1182,
+      "total_tokens": 3761,
+      "estimated_cost_usd": 0.03949,
+      "estimated_payg_cash_cost_usd": 0.041465,
+      "direct_openai_reference_usd": 0.024178,
+      "gateway_premium_usd": 0.015312,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2579,
+    "cached_input_tokens": 0,
+    "output_tokens": 1182,
+    "estimated_cost_usd": 0.03949,
+    "estimated_payg_cash_cost_usd": 0.041465,
+    "direct_openai_reference_usd": 0.024178,
+    "gateway_premium_usd": 0.015312
+  }
+}

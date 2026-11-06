@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "DVAJ-757",
+  "checked_at": "2026-11-06T02:08:01.432Z",
+  "review_sha256": "bc09a0058243893179ca8b4d2c962639459661460fe8e394e988ba8a9730c18a",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只從目前可追溯的公開資訊來看，本作最明確的賣點不是複雜背景，而是標題直接拋出的企劃核心：「讓我完全將她視為異性」。這個概念本身就帶有明顯的角色觀看角度轉換，也讓作品的吸引力首先建立在設定是否成立。再加上來源文字還出現「慾望壓抑不住」這類描述，整體判斷上更接近一部以企劃命題帶動"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "從可用線索來看，宍戸里帆的名字被直接放在來源概念中，搭配美少女、巨乳這些公開標示，說明本作在選角判斷上，明顯是以人物外在印象與企劃命題之間的連動為優先。也就是說，這部片不是只靠單一成人標籤吸引目光，而是把「她被視為異性」這個轉換感作為核心賣點。這樣的設定很容易讓選片焦點落在角色形"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}
