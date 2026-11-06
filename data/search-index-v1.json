@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:657d6f527b8f29d7f8470c4784aaaf902d3abd3b650aba465dae2a7a16a7a948",
-  "source_generated_at": "2026-11-06T10:07:17.276Z",
+  "source_revision": "sha256:251faaa8158026128c06dcf1489861c0b0ade348993b3c962bb4b20201e03b56",
+  "source_generated_at": "2026-11-06T10:11:11.370Z",
   "counts": {
-    "movies": 439,
+    "movies": 440,
     "performers": 332,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -2227,6 +2227,7 @@
       "source_name": "美乃雀",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:DLDSS-534",
         "cc18:DLDSS-541",
         "cc18:FCDSS-117"
       ]
@@ -19643,6 +19644,35 @@
         "article_title": "CLOT-043 橫山夏希｜魅惑の黒パンスト女上司",
         "display_short_title": null,
         "slug": "clot-043"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DLDSS-534",
+        "source_cover": "https://cc18.tv/preview/80/b/yTeg7p2pU3n-800.jpg?v=1788842255",
+        "title": "DLDSS-534 美乃雀｜人妻秘書設定下的寂寞轉折想像",
+        "catalog_code": "DLDSS-534",
+        "release_date": "2026-09-05",
+        "performers": [
+          "美乃雀"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dldss-534/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:24460"
+      ],
+      "search": {
+        "source_title": "人妻秘書 桌下的秘密舔陰情事—。 美乃雀",
+        "article_title": "DLDSS-534 美乃雀｜人妻秘書設定下的寂寞轉折想像",
+        "display_short_title": null,
+        "slug": "dldss-534"
       }
     },
     {

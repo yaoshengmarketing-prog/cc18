@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "DLDSS-534",
+  "checked_at": "2026-11-06T10:10:45.291Z",
+  "review_sha256": "8299f994b651440e4a727c8f0f3487316839e4be9cde4bc27ab315a15cde2995",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "就來源可見資訊來看，這部片的判斷重心會落在「角色如何從寂寞狀態被推動」上。簡介已經給出三個清楚條件：長期工作、能力出色、但在職場與家庭都未被善待。這種安排讓角色不是空白符號，而是帶著壓抑與失衡感進入企劃。也因為如此，本作較容易被歸入以人物狀態為前提的作品，而不是完全脫離背景的展示"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "反差主要來自「優秀」與「寂寞」的同時存在。公開介紹形容雀在公司工作8年且表現優秀，這通常會讓人預期角色在職場上具有穩定性與成熟度；但同一段文字又補充她遭上司嫉妒、在家庭中被丈夫冷落，等於把外在能幹與內在失落放在一起。再加上核心概念是「人妻秘書」，本身就兼具公領域與私領域身份，容易"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 2
+  }
+}

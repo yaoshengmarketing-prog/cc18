@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "DLDSS-534",
+  "review_sha256": "8299f994b651440e4a727c8f0f3487316839e4be9cde4bc27ab315a15cde2995",
+  "selected_thesis": "美乃雀的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "美乃雀",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "美乃雀",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "人妻秘書",
+        "source_field": "title"
+      },
+      {
+        "type": "theme",
+        "value": "桌下的秘密舔陰情事",
+        "source_field": "title"
+      }
+    ],
+    "primary_theme": "美乃雀",
+    "presentation_feature": "人妻秘書",
+    "editorial_judgment": "美乃雀的企劃呈現與觀看取向",
+    "source_keywords": [
+      "美乃雀",
+      "人妻秘書",
+      "桌下的秘密舔陰情事"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "在公司工作了8年，優秀的雀雖然在工作中被上司嫉妒，在家庭中也遭到丈夫冷落並被說出許多難聽的話，過著寂寞的日子。",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：美乃雀",
+      "supports": "這項可追溯來源訊號支持文章以「美乃雀」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：人妻秘書",
+      "supports": "這項可追溯來源訊號支持文章以「人妻秘書」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：桌下的秘密舔陰情事",
+      "supports": "這項可追溯來源訊號支持文章以「桌下的秘密舔陰情事」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：美乃雀",
+      "supports": "這項可追溯來源訊號支持文章以「美乃雀」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：互動節奏",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-08T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}
