@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:3fa820276d377f8688645dc29b391bf057f576cb17ba75a0ad854c497c041fbe",
-  "source_generated_at": "2026-11-06T18:44:34.184Z",
+  "source_revision": "sha256:b7fa1dc6502d72ca64aab22039515d4055b054f3fee7300b14798632b6998fbc",
+  "source_generated_at": "2026-11-06T19:47:56.691Z",
   "counts": {
-    "movies": 462,
-    "performers": 341,
+    "movies": 463,
+    "performers": 342,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -435,6 +435,7 @@
       "source_name": "小鈴蜜柑",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:FTKD-045",
         "cc18:JERA-050",
         "cc18:XVSR-906"
       ]
@@ -1577,6 +1578,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SDMM-239"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28207",
+      "display_name": "足立める",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "足立める",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FTKD-045"
       ]
     },
     {
@@ -3114,6 +3126,7 @@
       "source_name": "鹿野あも",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:FTKD-045",
         "cc18:SDMM-239"
       ]
     },
@@ -11033,6 +11046,39 @@
         "article_title": "先告訴你有局：這場假採訪怎麼安排懸念？",
         "display_short_title": "假紀錄片惡作劇",
         "slug": "start-632"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:FTKD-045",
+        "source_cover": "https://cc18.tv/preview/80/b/kTIlnNSOW8J-800.jpg?v=1790709566",
+        "title": "霸凌反擊群像",
+        "catalog_code": "FTKD-045",
+        "release_date": "2026-09-27",
+        "performers": [
+          "足立める",
+          "鹿野あも",
+          "小鈴蜜柑"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ftkd-045/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28207",
+        "cc18.tv:actor:29904",
+        "cc18.tv:actor:46292"
+      ],
+      "search": {
+        "source_title": "復仇誘淫學園 「被討厭的人給予性快感」被洗腦成最大屈辱的欺凌少女們 小鈴蜜柑/足立芽瑠/鹿野愛望",
+        "article_title": "同樣由小鈴蜜柑演出，這次的主動性從哪裡開始？",
+        "display_short_title": "霸凌反擊群像",
+        "slug": "ftkd-045"
       }
     },
     {

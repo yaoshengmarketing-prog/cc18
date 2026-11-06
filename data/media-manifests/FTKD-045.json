@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "FTKD-045",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-06T19:47:03.325Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/FTKD-045/hero-v1.jpg",
+      "r2_key": "works/2026/09/FTKD-045/hero-v1.jpg",
+      "bytes": 854300,
+      "sha256": "83e89cc9aa9b98f2334b9831cada93b26bee8441674455802ceab8d5ec3f5d1a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "a89745bbe0de481da32c961a47a0a907",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/FTKD-045/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/FTKD-045/scene-vertical-v1.jpg",
+      "bytes": 1032693,
+      "sha256": "09531e84927d5830df3f8de4e8bbaad11c0ec01b249cf89cd789ac5f7ab093b4",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "d9daf401dbb547158f60fb20316e0d36",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3025763,
+    "sha256": "550f3c7956c780aecd2574863e72ba0dfc56bbe0a996ade189f803102d6810c4",
+    "target_r2_key": "works/2026/09/FTKD-045/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/FTKD-045/vertical-v1.mp4"
+  }
+}

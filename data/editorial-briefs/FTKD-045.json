@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "id": "FTKD-045",
+  "generated_at": "2026-11-06T19:42:15.431Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/FTKD-045.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "復仇誘淫學園",
+    "premise": "作品以「復仇誘淫學園」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「復仇誘淫學園」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "復仇誘淫學園",
+      "復仇誘淫學園"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p"
+    ]
+  },
+  "research_question": "同樣由小鈴蜜柑演出，本作與 JERA-050 的公開設定如何安排角色的主動性？這個差異能幫讀者怎麼選片？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=kTIlnNSOW8J&cat=19",
+      "supports": "已核對的本作來源資料列出小鈴蜜柑、足立める、鹿野あも，並以遭霸凌者施展黑魔法、讓霸凌者陷入報復處境作為故事設定。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=aGpdPtq8c6S&cat=19",
+      "supports": "已核對的 JERA-050 來源資料顯示小鈴蜜柑同樣演出；簡介以便當店後輩主動邀約、探索親密關係為開端。"
+    }
+  ],
+  "angle_candidates": [
+    "比較兩作公開設定中的主動性：本作從霸凌與報復展開，JERA-050 從角色主動邀約展開。",
+    "觀察本作如何用三人群像與黑魔法設定建立選片線索。",
+    "小鈴蜜柑的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作的選片線索是校園霸凌引出的報復與權力翻轉；與小鈴蜜柑演出的 JERA-050 相比，兩作公開簡介提供的是不同的故事入口，不能據此判斷成片表現。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "足立める",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "復仇誘淫學園",
+      "source_field": "title"
+    },
+    {
+      "type": "performer",
+      "value": "鹿野あも",
+      "source_field": "actress"
+    },
+    {
+      "type": "performer",
+      "value": "小鈴蜜柑",
+      "source_field": "actress"
+    }
+  ],
+  "work_title": "復仇誘淫學園：霸凌與反擊的群像設定",
+  "display_short_title": "霸凌反擊群像",
+  "title": "同樣由小鈴蜜柑演出，這次的主動性從哪裡開始？",
+  "seo_title": "FTKD-045｜復仇誘淫學園的霸凌反擊設定",
+  "social_title": "從主動邀約到霸凌反擊：小鈴蜜柑兩作的設定差異",
+  "short_review": "FTKD-045 以遭霸凌者施展黑魔法、反轉霸凌關係作為公開設定，並列出小鈴蜜柑、足立める與鹿野あも。想找報復題材與多人角色關係的讀者，可以從這個設定入手；實際敘事與節奏仍無從判定。",
+  "editorial_angle": "以同演員作品對照角色主動性的來源，說明本作的霸凌反擊設定如何形成選片理由。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介以遭霸凌者習得黑魔法、對霸凌者展開報復為起點。",
+      "supports": "文章對霸凌、報復及權力翻轉的設定判讀。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作列出小鈴蜜柑、足立める與鹿野あも；JERA-050 也由小鈴蜜柑演出，其簡介由便當店後輩主動邀約展開。",
+      "supports": "兩作可按同演員關係比較，且公開設定中的主動性有具體差異。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "不指定三位演員各自飾演遭霸凌者或霸凌者；來源資料未提供可靠的角色對應。",
+    "不推論黑魔法設定在成片中的呈現方式、表演效果或敘事節奏。"
+  ],
+  "decision_guide": {
+    "thesis": "本作適合從霸凌反擊的群像設定選片；同演員作品 JERA-050 則以角色主動邀約為故事入口。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介提出校園霸凌、黑魔法報復與三人演出的企劃設定。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作公開設定的故事起點是什麼？",
+      "它與小鈴蜜柑另一部作品的設定有何差異？",
+      "這項差異對選片有什麼幫助？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "報復從霸凌關係開始",
+      "body": "《復仇誘淫學園》的來源簡介先交代遭霸凌者習得黑魔法，再把霸凌者推入報復處境。小鈴蜜柑、足立める與鹿野あも列在演出名單中，但資料沒有可靠地指出各自的角色。對選片而言，明確線索是霸凌關係如何被反轉的企劃設定。"
+    },
+    {
+      "heading": "同演員作品，故事入口不同",
+      "body": "同樣由小鈴蜜柑演出的 JERA-050，公開簡介從便當店後輩主動邀約開始，重心落在她對親密關係的好奇。本作則先建立傷害與報復的因果關係。想看角色主動探索關係，可以留意前者；想看多人角色之間的對立設定，本作的簡介給出更直接的理由。這是兩份公開設定的差異，不代表成片品質高低。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用已核對的 [FTKD-045 來源作品資料](https://cc18.tv/player.php?uuid=kTIlnNSOW8J&cat=19)與 [JERA-050 來源作品資料](https://cc18.tv/player.php?uuid=aGpdPtq8c6S&cat=19)。比較依據為演員關係及公開簡介；官方頁面未能開啟，亦未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "71f4054e90549c4e937fc69929bbe565c8ebbffabf466786ad0cee8bbff48b08",
+    "response_sha256": "1f6ec0aa61a9ec957cd1961b2dce0470ea3e073563d92ba7be461556e05ba958",
+    "research_input_sha256": "a2c5b5105c0d50b6d5aa19a22c6b7ebf7516d84c14a11fe837de83e513476767",
+    "related_source_ids": [
+      "XVSR-906",
+      "SDMM-239",
+      "JERA-050"
+    ]
+  }
+}

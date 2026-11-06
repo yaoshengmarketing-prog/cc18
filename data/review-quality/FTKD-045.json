@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "FTKD-045",
+  "review_sha256": "3b1467b8a08821fee892d2c96334add39bf3335622a4b8b00b787950de7ecc91",
+  "selected_thesis": "本作的選片線索是校園霸凌引出的報復與權力翻轉；與小鈴蜜柑演出的 JERA-050 相比，兩作公開簡介提供的是不同的故事入口，不能據此判斷成片表現。",
+  "title_basis": {
+    "performer": "足立める、鹿野あも、小鈴蜜柑",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "足立める",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "復仇誘淫學園",
+        "source_field": "title"
+      },
+      {
+        "type": "performer",
+        "value": "鹿野あも",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "小鈴蜜柑",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "足立める",
+    "presentation_feature": "復仇誘淫學園",
+    "editorial_judgment": "以同演員作品對照角色主動性的來源，說明本作的霸凌反擊設定如何形成選片理由。",
+    "source_keywords": [
+      "足立める",
+      "復仇誘淫學園",
+      "鹿野あも",
+      "小鈴蜜柑"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介以遭霸凌者習得黑魔法、對霸凌者展開報復為起點。",
+      "supports": "文章對霸凌、報復及權力翻轉的設定判讀。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作列出小鈴蜜柑、足立める與鹿野あも；JERA-050 也由小鈴蜜柑演出，其簡介由便當店後輩主動邀約展開。",
+      "supports": "兩作可按同演員關係比較，且公開設定中的主動性有具體差異。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不指定三位演員各自飾演遭霸凌者或霸凌者；來源資料未提供可靠的角色對應。",
+    "不推論黑魔法設定在成片中的呈現方式、表演效果或敘事節奏。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}
