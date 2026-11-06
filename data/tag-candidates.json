@@ -2995,6 +2995,16 @@
       "first_seen": "2026-11-06",
       "last_seen": "2026-11-06",
       "status": "quarantined"
+    },
+    {
+      "label": "時間停止",
+      "occurrences": 1,
+      "source_ids": [
+        "HUNTC-592"
+      ],
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "status": "quarantined"
     }
   ]
 }

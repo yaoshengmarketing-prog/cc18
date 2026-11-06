@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "movie_id": "HUNTC-592",
+  "generated_at": "2026-11-06T01:42:36.670Z",
+  "source_snapshot_hash": "sha256:a8b14d577ad52577869b6543266d6d9ec47f843649a18d1b8fc660d88e03a6c7",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若你對美容院表象如何藏住時間停止陷阱感興趣，這份簡介提供了明確的選片理由。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源宣傳以免費體驗、裝置偽裝與事後困惑串起設定；成片呈現方式未知。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想看時間停止設定如何融入美容院題材的讀者",
+      "會被「事後才察覺異樣」這種宣傳懸念吸引的讀者"
+    ],
+    "not_for": [
+      "想先確認實際敘事密度或節奏的讀者",
+      "不想接觸非自願情境設定的讀者"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "本作的美容院設定有何選片意義？",
+    "來源簡介把懸念放在哪個環節？",
+    "目前有哪些成片資訊仍無法確認？"
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "id": "HUNTC-592",
+  "generated_at": "2026-11-06T01:42:30.237Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/HUNTC-592.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "時間停止噴濺美容",
+    "premise": "作品以「時間停止噴濺美容」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「時間停止噴濺美容」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "時間停止噴濺美容",
+      "讓妳反弓鎖定",
+      "決堤潮吹永無止盡",
+      "美容院",
+      "時間停止"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [
+      "美容院"
+    ],
+    "action": [
+      "中出",
+      "口交",
+      "淫亂・過激系"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "angle_candidates": [
+    "免費體驗如何把顧客帶進偽裝成美容院的陷阱",
+    "美容器材與時間停止裝置的偽裝，如何支撐這部作品的設定",
+    "時間恢復後的困惑，如何替宣傳故事留下懸念"
+  ],
+  "selected_thesis": "本作的選片角度是「免費美容體驗」逐步變成時間停止陷阱，並以顧客恢復意識後的困惑收束。這是來源簡介提出的故事設計，尚不能據此判斷成片如何呈現。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "時間停止噴濺美容",
+      "source_field": "title"
+    },
+    {
+      "type": "series",
+      "value": "時間停止スプラッシュエステ",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "免費美容體驗裡的時間停止陷阱",
+  "display_short_title": "免費體驗的時間陷阱",
+  "title": "時間恢復後才察覺：美容院陷阱的懸念在哪裡？",
+  "seo_title": "HUNTC-592｜免費美容體驗裡的時間停止陷阱",
+  "social_title": "免費體驗藏著時間停止裝置：HUNTC-592 的美容院設定",
+  "short_review": "來源簡介用免費體驗引人入店，再揭露美容器材的偽裝，最後把困惑留給恢復意識的顧客。值得注意的是這條宣傳故事線；實際畫面與節奏仍無從判斷。",
+  "editorial_angle": "從「免費體驗」到「恢復意識後的困惑」，分析來源簡介如何用美容院服務的表象包住時間停止設定。這是對宣傳文字的編輯判斷，沒有影片抽樣，也沒有同 stable 系列 ID 的作品可供比較。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "提供的 CC18 作品頁快照寫明，顧客受新開幕美容院的首次免費體驗吸引而前往。",
+      "supports": "免費體驗是宣傳故事的起點，也讓美容院設定有了具體用途。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同一份來源簡介稱，店家把時間停止裝置偽裝成美容器材。",
+      "supports": "本作的陷阱建立在服務表象與裝置真相之間的落差。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介以顧客恢復意識後察覺異樣、感到困惑作結。",
+      "supports": "宣傳文字把懸念放在時間恢復後的認知落差。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "沒有把宣傳情節寫成已核實的畫面、聲音或台詞。",
+    "沒有推測演員身分、人物經歷或實際表演。",
+    "沒有將同系列其他作品當作比較依據；提供的 stable ID 關聯作品清單為空。"
+  ],
+  "decision_guide": {
+    "thesis": "若你對美容院表象如何藏住時間停止陷阱感興趣，這份簡介提供了明確的選片理由。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源宣傳以免費體驗、裝置偽裝與事後困惑串起設定；成片呈現方式未知。"
+    ],
+    "audience_for": [
+      "想看時間停止設定如何融入美容院題材的讀者",
+      "會被「事後才察覺異樣」這種宣傳懸念吸引的讀者"
+    ],
+    "audience_not_for": [
+      "想先確認實際敘事密度或節奏的讀者",
+      "不想接觸非自願情境設定的讀者"
+    ],
+    "questions_answered": [
+      "本作的美容院設定有何選片意義？",
+      "來源簡介把懸念放在哪個環節？",
+      "目前有哪些成片資訊仍無法確認？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "免費體驗，為陷阱提供入口",
+      "body": "來源簡介先讓一名顧客因新店的首次免費體驗走進美容院，再揭露店家將時間停止裝置偽裝成美容器材。美容院因此不只是場景名稱：它讓顧客進門，也讓裝置有了可被誤認的外觀。這是宣傳設定所建立的因果關係。"
+    },
+    {
+      "heading": "懸念落在時間恢復之後",
+      "body": "簡介最後寫到顧客恢復意識後察覺異樣，卻不明白發生了什麼。我的選片判斷是，這個事後的認知落差，比單獨一個「時間停止」標籤更能說明本作想如何吸引讀者。不過，宣傳文字只能提出這道懸念；成片是否讓它成立，仍需看實際影像。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "a8b14d577ad52577869b6543266d6d9ec47f843649a18d1b8fc660d88e03a6c7",
+    "response_sha256": "5316b11c8caa0f6244648c91f5cca425c7d558fdbb59a5a45d935e665b1efe1b",
+    "research_input_sha256": "686c7b11eca6d0274bb610de95fc5779640bc0cd37794e420e4a4d061da41795",
+    "related_source_ids": []
+  }
+}
