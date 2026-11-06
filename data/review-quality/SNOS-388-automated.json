@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "SNOS-388",
+  "checked_at": "2026-11-06T17:40:53.448Z",
+  "review_sha256": "87ed8c121d5e2c7c099450c642b7ac25ec54a31a186591f82004ff8e22d6740f",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若從目前可追溯的公開資料來看，SNOS-388 最明確的賣點不是複雜劇情，而是以「櫻乃莉乃」本人作為核心概念，搭配「美少女」「AV女優片」與「窈窕」等來源標記，形成一部主打人物展示的作品。這種組合讓選片判斷相對直接：如果觀眾本來就會因演出者本身、外型定位與整體包裝感而做決定，那麼"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

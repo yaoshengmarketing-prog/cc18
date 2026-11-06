@@ -461,7 +461,7 @@
     },
     {
       "label": "制服",
-      "occurrences": 20,
+      "occurrences": 21,
       "source_ids": [
         "SNOS-409",
         "SNOS-369",
@@ -482,7 +482,8 @@
         "MUDR-409",
         "MUKD-590",
         "CAWB-078",
-        "NVH-090"
+        "NVH-090",
+        "SNOS-388"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-11-05",
