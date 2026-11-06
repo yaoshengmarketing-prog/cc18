@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "HODV-22120",
+  "generated_at": "2026-11-06T18:38:05.872Z",
+  "source_snapshot_hash": "sha256:00cd59ee98663475238105e3b05d35f5b4d7a2863ffac517574569cc255a05ea",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "以兼職搭訕開場串起六人形象，是比單一OL角色更可靠的選片線索。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源描述為六名女性的多人收錄企劃，以相同搭訕理由連接不同形象。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "片名中的OL是否足以概括整部？來源簡介不足以支持這種讀法。",
+    "這部可核對的選片特色是什麼？同一搭訕開場與六名不同形象的收錄設定。"
+  ]
+}

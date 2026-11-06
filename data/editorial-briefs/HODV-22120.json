@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "id": "HODV-22120",
+  "generated_at": "2026-11-06T18:38:05.345Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/HODV-22120.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "素人ナンパちんしゃぶ",
+    "premise": "作品以「素人ナンパちんしゃぶ」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「素人ナンパちんしゃぶ」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "素人ナンパちんしゃぶ",
+      "6名收錄",
+      "中出",
+      "巨乳",
+      "OL",
+      "搭訕"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "OL"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "騎乘位"
+    ],
+    "presentation": [
+      "720p",
+      "HD"
+    ]
+  },
+  "research_question": "片名突出「OL」，這部作品的選片重點是單一職場角色，還是六名不同形象的受訪者？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=SalMdWX4e7&cat=19",
+      "supports": "使用題目提供的作品資料快照：片名標示六名收錄，簡介以高報酬兼職作為搭訕開場，並列出模特兒風、主播風、豐滿與大小姐風等形象。外部頁面本次無法開啟。"
+    }
+  ],
+  "angle_candidates": [
+    "片名的OL印象，與簡介中的六人群像有何差別",
+    "「高報酬兼職」如何串起不同人物形象",
+    "素人ナンパちんしゃぶ的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "「OL」是片名最醒目的入口，但來源簡介呈現的是以同一搭訕開場串起六種人物形象的合集；選片時應把重點放在多人設定，而非期待單一職場角色的故事。",
+  "title_signals": [
+    {
+      "type": "series",
+      "value": "素人ナンパちんしゃぶ",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "identity",
+      "value": "OL",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "高報酬兼職搭訕的六人合集",
+  "display_short_title": "兼職搭訕六人合集",
+  "title": "片名寫OL，簡介為何把焦點放在六個人？",
+  "seo_title": "HODV-22120｜片名寫OL，簡介呈現六人搭訕合集",
+  "social_title": "從OL到六人群像：這部搭訕企劃該怎麼選？",
+  "short_review": "片名以OL吸引注意，簡介卻列出六名不同形象的女性。若想看多人設定的搭訕合集，這比職場題材更接近來源所呈現的方向。",
+  "editorial_angle": "釐清片名的單一角色印象與簡介的六人合集設定，幫助讀者判斷選片期待。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源片名標示OL與六名收錄",
+      "supports": "片名同時使用職場角色作為入口，並表明這是多人收錄作品。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介列出多種人物形象，並以高報酬兼職作為共同開場",
+      "supports": "簡介的組織方式更接近同一企劃下的六人合集，不能據此認定每位參與者都有OL身分。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "六名參與者的真實職業與經歷",
+    "各段落的實際長度、順序與節奏",
+    "成片的表演、畫面與品質"
+  ],
+  "decision_guide": {
+    "thesis": "以兼職搭訕開場串起六人形象，是比單一OL角色更可靠的選片線索。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源描述為六名女性的多人收錄企劃，以相同搭訕理由連接不同形象。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "片名中的OL是否足以概括整部？來源簡介不足以支持這種讀法。",
+      "這部可核對的選片特色是什麼？同一搭訕開場與六名不同形象的收錄設定。"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "OL是入口，六人才是企劃輪廓",
+      "body": "片名把OL放在顯眼位置，也標明收錄六名女性。來源簡介進一步列出模特兒風、主播風與大小姐風等不同形象，並以「高報酬兼職」作為共同的搭訕開場。因此，OL適合視為吸引讀者的角色線索，不能當作六名參與者共同的身分設定。"
+    },
+    {
+      "heading": "這個差別如何影響選片？",
+      "body": "若你想看的是同一企劃如何呈現不同人物形象，六人合集的設定值得留意；若你期待一名OL貫穿全片、發展完整職場故事，現有簡介沒有提供這種依據。這是對公開設定的判斷，並非對成片表現的評價。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據題目提供的CC18作品資料快照，包括片名、系列關係、標籤與公開簡介。來源作品頁本次無法開啟；未使用影片抽樣，也沒有可核對的同系列作品可供比較。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "00cd59ee98663475238105e3b05d35f5b4d7a2863ffac517574569cc255a05ea",
+    "response_sha256": "9e65a319e39438752bf31717d9951f5b10d6ec8a71b11f4b76e54178510a86ec",
+    "research_input_sha256": "078e1e96ab8c6284be17391056e9bb5f4b2288c35124675e3afb6669d374b362",
+    "related_source_ids": []
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "HODV-22120",
+  "review_sha256": "2caeca8ba4c325c4d79c6bc004a37f748ff992687d21e8f566544dddef15a775",
+  "selected_thesis": "「OL」是片名最醒目的入口，但來源簡介呈現的是以同一搭訕開場串起六種人物形象的合集；選片時應把重點放在多人設定，而非期待單一職場角色的故事。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "series",
+        "value": "素人ナンパちんしゃぶ",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "OL",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "素人ナンパちんしゃぶ",
+    "presentation_feature": "高畫質",
+    "editorial_judgment": "釐清片名的單一角色印象與簡介的六人合集設定，幫助讀者判斷選片期待。",
+    "source_keywords": [
+      "素人ナンパちんしゃぶ",
+      "高畫質",
+      "OL"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源片名標示OL與六名收錄",
+      "supports": "片名同時使用職場角色作為入口，並表明這是多人收錄作品。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介列出多種人物形象，並以高報酬兼職作為共同開場",
+      "supports": "簡介的組織方式更接近同一企劃下的六人合集，不能據此認定每位參與者都有OL身分。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "六名參與者的真實職業與經歷",
+    "各段落的實際長度、順序與節奏",
+    "成片的表演、畫面與品質"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}
