@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-416",
+  "generated_at": "2026-11-06T13:45:28.570Z",
+  "source_snapshot_hash": "sha256:cf69ea667ead416e812b2ab1b9b3e49b6bc0a9e5f46bb525efc2861bfe3523d1",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看渚愛理演出帶有既定身分界線與限時獨處設定的作品，可留意本作；偏好從平輩相處與情感困擾切入，前作的公開設定更貼近需求。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "片商以家庭教師身分、父母離家與三天相處為主要宣傳設定。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "本作公開設定的關係起點是什麼？",
+    "它與渚愛理前作的設定差在哪裡？",
+    "這些差異能提供什麼選片線索？"
+  ]
+}

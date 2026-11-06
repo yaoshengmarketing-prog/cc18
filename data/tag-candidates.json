@@ -445,17 +445,18 @@
     },
     {
       "label": "處男",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "SNOS-371",
         "DVMM-442",
         "HUNTC-638",
         "WAAA-705",
         "FJIN-171",
-        "ORECZ-724"
+        "ORECZ-724",
+        "SNOS-416"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-11-05",
+      "last_seen": "2026-11-06",
       "status": "quarantined"
     },
     {
@@ -2413,12 +2414,13 @@
     },
     {
       "label": "家教",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "IPZZ-944"
+        "IPZZ-944",
+        "SNOS-416"
       ],
       "first_seen": "2026-09-11",
-      "last_seen": "2026-09-11",
+      "last_seen": "2026-11-06",
       "status": "quarantined"
     },
     {

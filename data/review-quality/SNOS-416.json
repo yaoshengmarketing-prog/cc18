@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-416",
+  "review_sha256": "1452ac93fe5d5eb2bc876e4b2143f7b36ed6ce5f29e9cbf5fabcbe03522d66a2",
+  "selected_thesis": "本作的宣傳重心是家庭教師與學生的身分界線，以及父母離家三天的獨處條件；相較之下，前作從打工同事的感情困擾展開。兩者提供不同的選片入口，不能據此判斷成片表現。",
+  "title_basis": {
+    "performer": "渚愛理",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "渚愛理",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "與成熟可愛",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "渚愛理",
+    "presentation_feature": "與成熟可愛",
+    "editorial_judgment": "用同演員前作對照本作的關係起點，幫讀者分辨兩部作品各自訴求的情境。",
+    "source_keywords": [
+      "渚愛理",
+      "與成熟可愛",
+      "美少女設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "片商簡介設定父母離家三天，家庭教師與學生單獨相處。",
+      "supports": "本作以既有身分關係和有限的相處時間作為故事入口。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "前作片商簡介設定兩人是打工同事，並以感情困擾和安慰帶出後續關係。",
+      "supports": "兩部作品的關係起點不同，可作具體選片比較。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "片商人物頁將兩部作品列於渚愛理名下。",
+      "supports": "同演員比較有可核對的人物關係。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不將角色的年齡差當成演員真實經歷。",
+    "不推論影片實際畫面、台詞、節奏或表演品質。",
+    "不將宣傳中的三天設定寫成已核實的逐日劇情。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-05T16:00:00.000Z"
+}

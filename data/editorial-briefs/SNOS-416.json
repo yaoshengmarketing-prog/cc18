@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-416",
+  "generated_at": "2026-11-06T13:45:28.084Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SNOS-416.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "與成熟可愛",
+    "premise": "作品以「與成熟可愛」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「與成熟可愛」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "與成熟可愛",
+      "大我三歲的家庭教師大姊姊",
+      "在父母不在家的屋子裡",
+      "一直",
+      "死命地",
+      "瘋狂做愛"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "美少女"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "口交",
+      "アクメ・オーガズム"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由渚愛理演出，這部家庭教師題材與前作的關係設定有何不同，會如何影響選片？",
+  "research_sources": [
+    {
+      "url": "https://s1s1s1.com/works/detail/SNOS416",
+      "supports": "片商作品頁確認家庭教師、父母離家三天與兩人獨處的宣傳設定。"
+    },
+    {
+      "url": "https://s1s1s1.com/works/detail/SNOS402",
+      "supports": "片商作品頁確認前作以打工同事、感情困擾與安慰為關係設定。"
+    },
+    {
+      "url": "https://s1s1s1.com/actress/detail/840696",
+      "supports": "片商人物頁將兩部作品列於同一演員名下。"
+    }
+  ],
+  "angle_candidates": [
+    "比較家庭教師與打工同事兩種關係設定的選片意義",
+    "分析父母離家三天如何為本作設定有限的相處時間",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作的宣傳重心是家庭教師與學生的身分界線，以及父母離家三天的獨處條件；相較之下，前作從打工同事的感情困擾展開。兩者提供不同的選片入口，不能據此判斷成片表現。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "渚愛理",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "與成熟可愛",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "美少女設定",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "渚愛理與年長家庭教師的三天獨處",
+  "display_short_title": "家庭教師與三天獨處",
+  "title": "從打工同事到家庭教師，關係設定換了重心",
+  "seo_title": "SNOS-416｜渚愛理的家庭教師題材與前作有何不同？",
+  "social_title": "渚愛理這次的關係設定，為何多了一道界線？",
+  "short_review": "片商簡介以家庭教師身分、父母離家與三天獨處建立本作的吸引力。比起渚愛理前作的打工同事設定，這次更強調原有關係如何被改變；實際敘事與節奏仍無法由文案確認。",
+  "editorial_angle": "用同演員前作對照本作的關係起點，幫讀者分辨兩部作品各自訴求的情境。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "片商簡介設定父母離家三天，家庭教師與學生單獨相處。",
+      "supports": "本作以既有身分關係和有限的相處時間作為故事入口。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "前作片商簡介設定兩人是打工同事，並以感情困擾和安慰帶出後續關係。",
+      "supports": "兩部作品的關係起點不同，可作具體選片比較。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "片商人物頁將兩部作品列於渚愛理名下。",
+      "supports": "同演員比較有可核對的人物關係。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "不將角色的年齡差當成演員真實經歷。",
+    "不推論影片實際畫面、台詞、節奏或表演品質。",
+    "不將宣傳中的三天設定寫成已核實的逐日劇情。"
+  ],
+  "decision_guide": {
+    "thesis": "想看渚愛理演出帶有既定身分界線與限時獨處設定的作品，可留意本作；偏好從平輩相處與情感困擾切入，前作的公開設定更貼近需求。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "片商以家庭教師身分、父母離家與三天相處為主要宣傳設定。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作公開設定的關係起點是什麼？",
+      "它與渚愛理前作的設定差在哪裡？",
+      "這些差異能提供什麼選片線索？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "三天獨處，讓原有身分成為故事起點",
+      "body": "本作的片商簡介先交代家庭教師與學生的關係，再設定父母離家三天。讀者在認識兩人如何相處之前，就已知道這段關係原本有清楚的身分界線；三天的期限則讓獨處成為宣傳重點。這比單純標示「家教」更能說明作品想吸引哪類讀者。"
+    },
+    {
+      "heading": "與前作相比，關係從不同地方開始",
+      "body": "同樣由渚愛理演出的前作，把兩人設為打工同事，簡介從一方的感情困擾與另一方的安慰展開。本作則先給出家庭教師與學生的既定關係，再加入父母離家的條件。若你選片時在意角色如何跨越原有身分，本作的設定較明確；若你偏好平輩之間因談心而靠近，前作的起點更符合這種期待。這是兩份公開簡介的差別，還不是對成片效果的評價。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據 S1 的<a href=\"https://s1s1s1.com/works/detail/SNOS416\">本作作品頁</a>、<a href=\"https://s1s1s1.com/works/detail/SNOS402\">前作作品頁</a>與<a href=\"https://s1s1s1.com/actress/detail/840696\">人物頁</a>。關係設定的比較與選片意義是根據公開文案所作的編輯判斷；未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "cf69ea667ead416e812b2ab1b9b3e49b6bc0a9e5f46bb525efc2861bfe3523d1",
+    "response_sha256": "2d09ccced779732b6acb9c0b0ac965a663c7023697aff0e886dd72b3bf3a7b45",
+    "research_input_sha256": "a3654f0ef8cd183ecd2115c563e6349a2ffb74e78bc8700d0a47552359099d71",
+    "related_source_ids": []
+  }
+}
