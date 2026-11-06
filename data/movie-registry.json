@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T10:16:55.215Z",
+  "updated_at": "2026-11-06T10:20:51.663Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -6613,6 +6613,21 @@
       "video_status": "rendered",
       "template": "story",
       "published_at": "2026-09-10"
+    },
+    {
+      "id": "MKMP-751",
+      "actress": [
+        "尾崎惠梨香"
+      ],
+      "release_date": "2026-09-05",
+      "source_url": "https://cc18.tv/player.php?uuid=xwCM8dwkb74&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-11"
     }
   ]
 }

@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "MKMP-751",
+  "checked_at": "2026-11-06T10:20:49.431Z",
+  "review_sha256": "6e167ea5b0edf47f2e36c9e2b3663809b5467ccebe7395764a21b82d65787275",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "最值得參考的賣點不是場景資訊，而是企劃命名本身已經把重心說得很直接：本作以「極致痴女神作法」作為主軸。由於目前沒有可用的劇情簡介、人物關係或場景設定可進一步展開，這個核心概念就成了判斷作品氣質的主要依據。從公開標籤來看，來源同時給出「AV女優片」「癡女」「窈窕」與「中出」等元素，"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
