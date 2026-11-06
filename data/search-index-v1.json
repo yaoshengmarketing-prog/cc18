@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:3009140d5f7cb7dd202688d242bf461e13738b4f8b665eaa8f6230cda3208920",
-  "source_generated_at": "2026-11-06T10:25:02.479Z",
+  "source_revision": "sha256:2d3b7b3e5977e2fd368d1b7c4957da9e10462783f6095ec62c62b6a57d0fd8fe",
+  "source_generated_at": "2026-11-06T10:47:41.100Z",
   "counts": {
-    "movies": 443,
-    "performers": 333,
+    "movies": 444,
+    "performers": 334,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -154,6 +154,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MIDA-846"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:208",
+      "display_name": "八掛うみ",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "八掛うみ",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:ABF-395"
       ]
     },
     {
@@ -7777,6 +7788,55 @@
         "article_title": "ROYD-361 九井珠奈緒｜被豐滿巨乳的繼姊破處的我",
         "display_short_title": null,
         "slug": "royd-361"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:ABF-395",
+        "source_cover": "https://cc18.tv/preview/80/b/1SUZmakq4y-800.jpg?v=1793115117",
+        "title": "八掛うみ的好奇與慾望",
+        "catalog_code": "ABF-395",
+        "release_date": "2026-10-22",
+        "performers": [
+          "八掛うみ"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "amateur",
+            "label": "素人"
+          },
+          {
+            "id": "fhd",
+            "label": "全高清 FHD"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "sex-toy",
+            "label": "情趣玩具"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/abf-395/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:208"
+      ],
+      "search": {
+        "source_title": "巨根帶來的飛天絕頂高潮 八掛海",
+        "article_title": "從好奇開始，是這部企劃多給的一條線索",
+        "display_short_title": "八掛うみ的好奇與慾望",
+        "slug": "abf-395"
       }
     },
     {

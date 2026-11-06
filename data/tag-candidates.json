@@ -1598,7 +1598,7 @@
     },
     {
       "label": "白虎",
-      "occurrences": 13,
+      "occurrences": 14,
       "source_ids": [
         "MAAN-1192",
         "UMD-1019",
@@ -1612,7 +1612,8 @@
         "SDMF-054",
         "ABF-394",
         "MBMH-097",
-        "MADV-643"
+        "MADV-643",
+        "ABF-395"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-06",

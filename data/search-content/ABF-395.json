@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "ABF-395",
+  "generated_at": "2026-11-06T10:41:41.422Z",
+  "source_snapshot_hash": "sha256:120a5a6361166e681a81ef3a2f559c733bc00d503e237e6c116a5f6092400086",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想按題材與宣傳設定選片的讀者，可以留意本作如何把好奇轉向慾望寫進企劃；成片效果仍無材料可判定。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "宣傳重心從系列名稱的刺激題材，延伸到八掛うみ的態度變化。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "本作除了系列名稱，還提供什麼選片線索？",
+    "這份公開資料能支持哪些判斷？"
+  ]
+}
