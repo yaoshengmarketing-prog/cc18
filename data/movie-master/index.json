@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-06T22:53:56.021Z",
+  "generated_at": "2026-11-06T23:16:19.689Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 470,
-  "formal_movie_count": 469,
+  "tracked_input_count": 471,
+  "formal_movie_count": 470,
   "demo_count": 1,
-  "published_count": 466,
+  "published_count": 467,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -683,6 +683,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "e4af825191de13c83062b74d858b76534f56f2342473021bcf42b358e1c91f8c"
+    },
+    {
+      "stable_movie_id": "cc18:DOKS-688",
+      "catalog_code": "DOKS-688",
+      "slug": "doks-688",
+      "master_path": "data/movie-master/doks-688.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "f3ec7b2afdd527c582f6a0637055042501a5bb30ae7aab4f3377c489a9173a4e"
     },
     {
       "stable_movie_id": "cc18:DOKS-689",

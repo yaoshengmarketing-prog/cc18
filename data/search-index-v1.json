@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:2af03663bb420966fc3958f702b129083d16c3a328d98d4dcaf6e0d5868138a5",
-  "source_generated_at": "2026-11-06T22:53:56.021Z",
+  "source_revision": "sha256:8401ba329e7d89eb8bb537c65c41183afa2bce6f7c54912340de7a6bf6d36f89",
+  "source_generated_at": "2026-11-06T23:16:19.689Z",
   "counts": {
-    "movies": 466,
-    "performers": 344,
+    "movies": 467,
+    "performers": 346,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -18,6 +18,7 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DDK-241",
+        "cc18:DOKS-688",
         "cc18:DSJH-020",
         "cc18:MBMH-097",
         "cc18:SORA-654"
@@ -1273,6 +1274,7 @@
       "source_name": "有加里野乃香",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:DOKS-688",
         "cc18:PYM-577"
       ]
     },
@@ -3439,6 +3441,7 @@
       "source_name": "椿莉香",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:DOKS-688",
         "cc18:DSJH-020",
         "cc18:MKMP-758"
       ]
@@ -3733,6 +3736,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:29105",
+      "display_name": "藍瀬ミナ",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "藍瀬ミナ",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DOKS-688"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:53622",
       "display_name": "雛形みくる",
       "display_name_zh_tw": null,
@@ -3936,6 +3950,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:NACT-184"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54171",
+      "display_name": "さくまつな",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "さくまつな",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DOKS-688"
       ]
     },
     {
@@ -24612,6 +24637,67 @@
         "article_title": "DLDSS-531 女神ジュン｜DAHLIA電擊移籍",
         "display_short_title": null,
         "slug": "dldss-531"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DOKS-688",
+        "source_cover": "https://cc18.tv/preview/80/b/hzXuyonaj32-800.jpg?v=1788345559",
+        "title": "DOKS-688 椿莉香、有加里野乃香、一色沙羅、藍瀬ミナ、さくまつな｜等人｜神テクフェラチオ：以系列企劃為主的展示型選片",
+        "catalog_code": "DOKS-688",
+        "release_date": "2026-09-01",
+        "performers": [
+          "椿莉香",
+          "有加里野乃香",
+          "一色沙羅",
+          "藍瀬ミナ",
+          "さくまつな"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "dirty-talk",
+            "label": "言語挑逗"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/doks-688/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:25176",
+        "cc18.tv:actor:27536",
+        "cc18.tv:actor:28978",
+        "cc18.tv:actor:29105",
+        "cc18.tv:actor:54171"
+      ],
+      "search": {
+        "source_title": "以最方便你打手槍的最高視角，細膩展現的神級口交技巧2",
+        "article_title": "DOKS-688 椿莉香、有加里野乃香、一色沙羅、藍瀬ミナ、さくまつな｜等人｜神テクフェラチオ：以系列企劃為主的展示型選片",
+        "display_short_title": null,
+        "slug": "doks-688"
       }
     },
     {
