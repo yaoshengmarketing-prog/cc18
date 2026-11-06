@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "BAGR-092",
+  "checked_at": "2026-11-06T10:16:53.459Z",
+  "review_sha256": "727d271302a12855893bded0e9d8b592bf27b179ce166241fa28d320c5b2ae9d",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只看目前可追溯的公開資訊，這部作品最明確的賣點就是「激昂展示NTR」這個核心企劃概念。它不是以已知的人物關係、具體場景或完整劇情介紹來吸引觀眾，而是直接把題材重心放在 NTR 與展示感的結合上。對選片來說，這代表作品的辨識度主要來自企劃方向本身，而不是複雜敘事，因此適合本來就會"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "以現有資料判斷，這部片明顯更接近企劃展示型，而不是劇情密度高的敘事導向作品。原因很簡單：公開資訊沒有提供可延伸分析的人物關係、場景設定或明確劇情前提，反而反覆集中在「激昂展示NTR」這個概念本身。這種資料結構通常意味著作品的選片判斷應放在題材是否對味，而不是期待完整故事推進。若你"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

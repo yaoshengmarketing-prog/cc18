@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "BAGR-092",
+  "calls": [
+    {
+      "generated_at": "2026-09-10T00:20:21.087Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2537,
+      "cached_input_tokens": 0,
+      "output_tokens": 1089,
+      "total_tokens": 3626,
+      "estimated_cost_usd": 0.037187,
+      "estimated_payg_cash_cost_usd": 0.039047,
+      "direct_openai_reference_usd": 0.022677,
+      "gateway_premium_usd": 0.01451,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2537,
+    "cached_input_tokens": 0,
+    "output_tokens": 1089,
+    "estimated_cost_usd": 0.037187,
+    "estimated_payg_cash_cost_usd": 0.039047,
+    "direct_openai_reference_usd": 0.022677,
+    "gateway_premium_usd": 0.01451
+  }
+}

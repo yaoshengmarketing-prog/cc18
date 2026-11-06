@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:251faaa8158026128c06dcf1489861c0b0ade348993b3c962bb4b20201e03b56",
-  "source_generated_at": "2026-11-06T10:11:11.370Z",
+  "source_revision": "sha256:80cde74812b800b30322fa1dd3d1b25b791997c3cb3d3cf2efc1fe620023b361",
+  "source_generated_at": "2026-11-06T10:17:19.388Z",
   "counts": {
-    "movies": 440,
+    "movies": 441,
     "performers": 332,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -1305,6 +1305,7 @@
       "source_name": "糸井瑠花",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:BAGR-092",
         "cc18:CEMD-889",
         "cc18:DRPT-124",
         "cc18:MMPB-144",
@@ -19444,6 +19445,55 @@
         "article_title": "BACJ-190 白石るな｜新人女王企劃下的展示型判斷",
         "display_short_title": null,
         "slug": "bacj-190"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:BAGR-092",
+        "source_cover": "https://cc18.tv/preview/80/b/9J4zPjEBr2a-800.jpg?v=1788777515",
+        "title": "BAGR-092 糸井瑠花｜激昂展示NTR：以展示型企劃為主的選片",
+        "catalog_code": "BAGR-092",
+        "release_date": "2026-09-05",
+        "performers": [
+          "糸井瑠花"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/bagr-092/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:41229"
+      ],
+      "search": {
+        "source_title": "激昂展示NTR 被男友拋棄邊緣的巨乳女友，懷著如黑百合般深沉的復仇心試探男友的愛 糸井瑠花",
+        "article_title": "BAGR-092 糸井瑠花｜激昂展示NTR：以展示型企劃為主的選片",
+        "display_short_title": null,
+        "slug": "bagr-092"
       }
     },
     {
