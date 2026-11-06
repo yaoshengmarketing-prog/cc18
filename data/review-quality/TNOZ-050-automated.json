@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "TNOZ-050",
+  "checked_at": "2026-11-06T10:14:20.638Z",
+  "review_sha256": "aa068e7127c8dfd71f696f49fbfc6cf403eebe6ca6ebd0c4f93b9af8c9cfa997",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果你是先看企劃概念再決定要不要入手，TNOZ-050 最明確的選片核心就是「亂交」。這不是後設解讀，而是直接來自公開來源中的核心概念與主題元素。同時，片名所屬系列「43歳ヘンタイブラックカメコ×素人レイヤー（全日本カメコ協同組合/妄想族）」又把注意力拉向攝影者視角、素人 cos"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "公開資訊裡，「角色扮演」同時出現在安全標記與 topic elements 的服裝類別，還連動到「美少女設定」與「美少女」這類身份訊號。這讓作品的吸引力不只是來自亂交題材本身，也來自外層的角色化包裝。換句話說，這部片比較適合會在意造型概念、身份設定與企劃扮演感的觀眾；若你偏好更生"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "系列名本身就帶有很強的公式感：一邊是「43歳ヘンタイブラックカメコ」，另一邊是「素人レイヤー」，這種組合會讓人直接聯想到以特定身份配置來成立企劃的觀看入口。即使公開資料沒有進一步交代人物背景，這個系列命名方式已經足以影響選片判斷：它主打的是概念辨識度，而不是角色個體資訊。對熟悉系"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
