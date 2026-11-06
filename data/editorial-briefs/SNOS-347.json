@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-347",
+  "generated_at": "2026-11-06T04:47:11.671Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SNOS-347.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "凌晨4",
+    "premise": "作品以「凌晨4」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「凌晨4」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "凌晨4",
+      "忍不住對她大肆痴漢後",
+      "鈴木希"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "窈窕",
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "3p・4p",
+      "アクメ・オーガズム"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "angle_candidates": [
+    "凌晨 4:40 這個精確時間，替「首班電車」的設定加上每日重複的通勤感。",
+    "氣象主播在鏡頭前是熟悉的「早晨之臉」，宣傳故事卻把她放進無人察覺的車廂，形成公開形象與私人處境的落差。",
+    "文案從第一次遭遇寫到隔天再遇，最後寫成每天等待；值得留意的是宣傳如何用重複改寫角色的期待。"
+  ],
+  "selected_thesis": "這部作品最鮮明的選片理由，是把氣象主播公開的早晨形象，接到凌晨 4:40 的首班電車與反覆通勤上；角色從遭遇到等待的轉變，是來源文案提出的故事，不能當成已核實的成片表現。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "鈴木希",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "凌晨4",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "鈴木希與凌晨首班電車上的氣象主播",
+  "display_short_title": "凌晨首班電車上的氣象主播",
+  "title": "從報天氣到趕首班車：這個早晨為何令人記住？",
+  "seo_title": "SNOS-347｜鈴木希的凌晨首班電車與氣象主播設定",
+  "social_title": "她是早晨的熟面孔，卻得搭上凌晨 4:40 的首班車",
+  "short_review": "鈴木希這部作品的宣傳，將氣象主播、凌晨 4:40 與首班電車扣成一條每日通勤路線。看點在公開形象與無人車廂之間的落差，以及文案如何把一次遭遇寫成反覆等待；實際節奏與演出仍無法從簡介確認。",
+  "editorial_angle": "以「早晨之臉」和凌晨通勤的時間落差切入，分析來源簡介如何藉同一班車的重複出現，推進虛構角色的期待轉變。這是對宣傳敘事的判讀，並非影片觀看心得。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題以「凌晨4:40發車」及「首班電車」開場，並標示鈴木希。",
+      "supports": "精確時間、通勤場景與演出者，是本作可直接辨識的選片線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介設定角色為每日向大眾報天氣的氣象主播，清晨搭首班車前往職場。",
+      "supports": "「早晨之臉」與凌晨通勤的對照，來自作品的虛構角色設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介先寫車廂內的首次遭遇，再寫男子隔天出現，最後寫角色每天在首班車上等待。",
+      "supports": "從一次事件到反覆通勤的轉變，是來源文案明確安排的敘事順序。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的來源關聯資料列出鈴木希的 stable 人物 ID，但經該 ID 核對的關聯作品為空，系列資料也為空。",
+      "supports": "目前沒有足夠的同人物或同系列作品材料可作作品間比較。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "不把氣象主播設定寫成鈴木希的真實職業或經歷。",
+    "不把凌晨 4:40 寫成可查證的實際鐵路班次或拍攝時間。",
+    "不宣稱已看過車廂畫面、演出細節、聲音、台詞或成片節奏。",
+    "不以來源標籤推定具體場面，也不虛構同人物或同系列作品的比較。"
+  ],
+  "decision_guide": {
+    "thesis": "若想找以清晨通勤和氣象主播公開形象構成故事落差的作品，這部的來源設定很明確；角色轉變與實際呈現仍須看成片才能判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "氣象主播的虛構角色設定",
+      "凌晨 4:40 的首班電車",
+      "以反覆通勤推進的來源宣傳故事"
+    ],
+    "audience_for": [
+      "對固定通勤場景如何承載角色轉變感興趣的讀者",
+      "想從具體時間與職業設定挑片的讀者"
+    ],
+    "audience_not_for": [
+      "需要先確認實際鏡位、表演或節奏的讀者",
+      "不想接觸以非自願接觸作為故事起點的讀者"
+    ],
+    "questions_answered": [
+      "本作的主要設定是什麼？氣象主播在凌晨搭首班車上班。",
+      "凌晨 4:40 有什麼作用？它讓宣傳中的遭遇連到每日通勤。",
+      "角色轉變能否視為成片評價？目前只能確認來源文案如此描述。"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "凌晨 4:40，把故事放進每天必經的路線",
+      "body": "來源標題特別寫出凌晨 4:40，簡介則交代氣象主播搭首班電車去工作。這個時間的作用，不只是標出清晨：它讓車廂成為角色每天可能重返的地方。對選片而言，固定路線比籠統的「電車題材」更能說明這份宣傳想如何展開故事。"
+    },
+    {
+      "heading": "「早晨之臉」與無人車廂的落差",
+      "body": "簡介稱她是每天對大眾露面的氣象主播，接著把遭遇放在無人察覺的車廂裡。我認為這是本作最有辨識度的安排：一端是面向眾人的工作形象，一端是獨自上班的路程。氣象主播是鈴木希在作品中的虛構角色，不能據此推論她的真實經歷。"
+    },
+    {
+      "heading": "從再度相遇到每天等待",
+      "body": "來源文案依序寫第一次遭遇、隔天再遇，最後寫成角色每天等待。它把非自願接觸作為起點，再宣傳為慾望轉變的故事。這個順序足以說明企劃的方向，卻不能證明成片如何處理角色感受或轉折。若你在意這種設定如何被呈現，宣傳文字提出了值得查證的問題；目前材料還不能替影片作答。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "680833a708840399fdee2285edc4346d985201f8c2823a25a901561b45c8814c",
+    "response_sha256": "767b71f7ab91ebebbc05a447b81f74e6e9479f47b1795cf4962282e036149cd1",
+    "research_input_sha256": "ce98a864556bdb874f761f0aa6d93fc10fb068e5b7acdcd90018d8ba1e5448e0",
+    "related_source_ids": []
+  }
+}

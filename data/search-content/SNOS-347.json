@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-347",
+  "generated_at": "2026-11-06T04:47:22.946Z",
+  "source_snapshot_hash": "sha256:680833a708840399fdee2285edc4346d985201f8c2823a25a901561b45c8814c",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若想找以清晨通勤和氣象主播公開形象構成故事落差的作品，這部的來源設定很明確；角色轉變與實際呈現仍須看成片才能判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "氣象主播的虛構角色設定",
+      "凌晨 4:40 的首班電車",
+      "以反覆通勤推進的來源宣傳故事"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "對固定通勤場景如何承載角色轉變感興趣的讀者",
+      "想從具體時間與職業設定挑片的讀者"
+    ],
+    "not_for": [
+      "需要先確認實際鏡位、表演或節奏的讀者",
+      "不想接觸以非自願接觸作為故事起點的讀者"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "本作的主要設定是什麼？氣象主播在凌晨搭首班車上班。",
+    "凌晨 4:40 有什麼作用？它讓宣傳中的遭遇連到每日通勤。",
+    "角色轉變能否視為成片評價？目前只能確認來源文案如此描述。"
+  ]
+}

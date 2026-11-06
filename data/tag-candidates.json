@@ -508,14 +508,15 @@
     },
     {
       "label": "惡作劇",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "SNOS-345",
         "MUDR-397",
-        "SNOS-393"
+        "SNOS-393",
+        "SNOS-347"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-19",
+      "last_seen": "2026-11-06",
       "status": "quarantined"
     },
     {
@@ -2179,7 +2180,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 37,
+      "occurrences": 38,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -2217,10 +2218,11 @@
         "PPPE-451",
         "WA-597",
         "AWAW-031",
-        "CEMD-885"
+        "CEMD-885",
+        "SNOS-347"
       ],
       "first_seen": "2026-09-09",
-      "last_seen": "2026-11-05",
+      "last_seen": "2026-11-06",
       "status": "quarantined"
     },
     {

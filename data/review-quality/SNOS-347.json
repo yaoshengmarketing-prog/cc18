@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-347",
+  "review_sha256": "66dd0bcb4c2b2bcb6a3c98e60061a00ce02c0b25a4a59e1c595aab1402db72c0",
+  "selected_thesis": "這部作品最鮮明的選片理由，是把氣象主播公開的早晨形象，接到凌晨 4:40 的首班電車與反覆通勤上；角色從遭遇到等待的轉變，是來源文案提出的故事，不能當成已核實的成片表現。",
+  "title_basis": {
+    "performer": "鈴木希",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "鈴木希",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "凌晨4",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "鈴木希",
+    "presentation_feature": "凌晨4",
+    "editorial_judgment": "以「早晨之臉」和凌晨通勤的時間落差切入，分析來源簡介如何藉同一班車的重複出現，推進虛構角色的期待轉變。這是對宣傳敘事的判讀，並非影片觀看心得。",
+    "source_keywords": [
+      "鈴木希",
+      "凌晨4",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題以「凌晨4:40發車」及「首班電車」開場，並標示鈴木希。",
+      "supports": "精確時間、通勤場景與演出者，是本作可直接辨識的選片線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介設定角色為每日向大眾報天氣的氣象主播，清晨搭首班車前往職場。",
+      "supports": "「早晨之臉」與凌晨通勤的對照，來自作品的虛構角色設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介先寫車廂內的首次遭遇，再寫男子隔天出現，最後寫角色每天在首班車上等待。",
+      "supports": "從一次事件到反覆通勤的轉變，是來源文案明確安排的敘事順序。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的來源關聯資料列出鈴木希的 stable 人物 ID，但經該 ID 核對的關聯作品為空，系列資料也為空。",
+      "supports": "目前沒有足夠的同人物或同系列作品材料可作作品間比較。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不把氣象主播設定寫成鈴木希的真實職業或經歷。",
+    "不把凌晨 4:40 寫成可查證的實際鐵路班次或拍攝時間。",
+    "不宣稱已看過車廂畫面、演出細節、聲音、台詞或成片節奏。",
+    "不以來源標籤推定具體場面，也不虛構同人物或同系列作品的比較。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-05T16:00:00.000Z"
+}

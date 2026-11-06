@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:e8d1bbea4c901b126db8b8f18a7cdada8024e0eecc97dc198b06992682176a90",
-  "source_generated_at": "2026-11-06T02:20:29.463Z",
+  "source_revision": "sha256:d6bde301997348ec1ef2fa7c05b360e44b58f0635efdc3e5b7d66218650eb9d5",
+  "source_generated_at": "2026-11-06T04:53:14.578Z",
   "counts": {
-    "movies": 431,
-    "performers": 330,
+    "movies": 432,
+    "performers": 331,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -3382,6 +3382,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:WAAA-699"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53736",
+      "display_name": "鈴木希",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "鈴木希",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-347"
       ]
     },
     {
@@ -9924,6 +9935,63 @@
         "article_title": "時間恢復後才察覺：美容院陷阱的懸念在哪裡？",
         "display_short_title": "免費體驗的時間陷阱",
         "slug": "huntc-592"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-347",
+        "source_cover": "https://cc18.tv/preview/80/b/rvc763rsUeg-800.jpg?v=1791837579",
+        "title": "凌晨首班電車上的氣象主播",
+        "catalog_code": "SNOS-347",
+        "release_date": "2026-10-09",
+        "performers": [
+          "鈴木希"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-347/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53736"
+      ],
+      "search": {
+        "source_title": "【凌晨4:40發車】在首班電車上與新人氣象主播邂逅！忍不住對她大肆痴漢後…沒想到她竟然覺醒了想被痴漢的性癖。 鈴木希",
+        "article_title": "從報天氣到趕首班車：這個早晨為何令人記住？",
+        "display_short_title": "凌晨首班電車上的氣象主播",
+        "slug": "snos-347"
       }
     },
     {
