@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T17:59:46.694Z",
+  "updated_at": "2026-11-06T18:03:44.734Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -6825,6 +6825,21 @@
       ],
       "release_date": "2026-09-04",
       "source_url": "https://cc18.tv/player.php?uuid=e1ndXOLfL6T&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-08"
+    },
+    {
+      "id": "IPZZ-911",
+      "actress": [
+        "篠崎沙帆"
+      ],
+      "release_date": "2026-09-04",
+      "source_url": "https://cc18.tv/player.php?uuid=6tJ422Xycv&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

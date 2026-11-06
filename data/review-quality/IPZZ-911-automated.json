@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "IPZZ-911",
+  "checked_at": "2026-11-06T18:03:42.653Z",
+  "review_sha256": "0355caa46cae1fb5903cb1c277459f9b642a035aca0d8c94a47f41cb4e91397b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果要用一句話概括，IPZZ-911 的首要吸引力來自「溫柔療癒的溫婉OL」這個核心企劃。公開來源能確認的重點不在複雜劇情，而在角色形象本身：以 OL 身分與溫柔、療癒、溫婉這組氣質關鍵詞，建立出相對明確的觀看期待。對選片來說，這種核心概念很重要，因為它比單純羅列動作標籤更能界定"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "從現有來源來看，篠崎沙帆在本片的賣點，主要不是被描述成高度反轉或強烈衝突型角色，而是與「溫柔療癒的溫婉OL」這個設定緊密綁定。這種選片邏輯通常會把重心放在角色氣質與企劃一致性：也就是演出者名稱與角色印象是否能形成清楚辨識度。由於沒有更多可驗證的劇情資訊，較合理的判斷是，本片的吸引"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

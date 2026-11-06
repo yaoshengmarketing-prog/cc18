@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "IPZZ-911",
+  "review_sha256": "0355caa46cae1fb5903cb1c277459f9b642a035aca0d8c94a47f41cb4e91397b",
+  "selected_thesis": "篠崎沙帆的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "篠崎沙帆",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "篠崎沙帆",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "溫柔療癒的溫婉OL",
+        "source_field": "title"
+      },
+      {
+        "type": "act_or_position",
+        "value": "口交",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "篠崎沙帆",
+    "presentation_feature": "溫柔療癒的溫婉OL",
+    "editorial_judgment": "篠崎沙帆的企劃呈現與觀看取向",
+    "source_keywords": [
+      "篠崎沙帆",
+      "溫柔療癒的溫婉OL",
+      "口交"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：篠崎沙帆",
+      "supports": "這項可追溯來源訊號支持文章以「篠崎沙帆」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：溫柔療癒的溫婉OL",
+      "supports": "這項可追溯來源訊號支持文章以「溫柔療癒的溫婉OL」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：口交",
+      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：顏射",
+      "supports": "這項可追溯來源訊號支持文章以「顏射」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：アクメ・オーガズム",
+      "supports": "這項可追溯來源訊號支持文章以「アクメ・オーガズム」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-07T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}
