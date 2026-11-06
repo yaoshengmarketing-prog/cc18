@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "IPZZ-924",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-06T17:37:13.229Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/IPZZ-924/hero-v1.jpg",
+      "r2_key": "works/2026/09/IPZZ-924/hero-v1.jpg",
+      "bytes": 619109,
+      "sha256": "274ff94ab673d5f2fcfeff6573f7e72baebf97082db7f2ee5690abae7fe38a18",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/IPZZ-924/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/IPZZ-924/scene-vertical-v1.jpg",
+      "bytes": 784002,
+      "sha256": "8e2942ab1927fbd66fa75052336021b9d830665b9844142787c6358e23a959b6",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2090593,
+    "sha256": "36450ad7da2670dbc899243fedc9c0b69cfca126aa0d5f5da7f7bbe29fd2a3a6",
+    "target_r2_key": "works/2026/09/IPZZ-924/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/IPZZ-924/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

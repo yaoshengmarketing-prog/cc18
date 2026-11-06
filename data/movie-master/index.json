@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-06T16:54:55.146Z",
+  "generated_at": "2026-11-06T17:37:44.677Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 454,
-  "formal_movie_count": 453,
+  "tracked_input_count": 455,
+  "formal_movie_count": 454,
   "demo_count": 1,
-  "published_count": 450,
+  "published_count": 451,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1610,6 +1610,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "fa8bacd03f75c983e2aba3e5fc92b3f01c8aaf8b05f9d025fb486d8d11c4d0bd"
+    },
+    {
+      "stable_movie_id": "cc18:IPZZ-924",
+      "catalog_code": "IPZZ-924",
+      "slug": "ipzz-924",
+      "master_path": "data/movie-master/ipzz-924.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "24f57f9e9c8c8216c821ac932fc7a87f89060fcdf3d5b03dee580b1af8715985"
     },
     {
       "stable_movie_id": "cc18:IPZZ-941",

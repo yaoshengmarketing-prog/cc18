@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "IPZZ-924",
+  "checked_at": "2026-11-06T17:37:02.204Z",
+  "review_sha256": "35094d5f3ec1b170814fc3117a25ef4d85b26aeef5665804825fcf7ee0a9eed9",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 8,
+          "excerpt": "從 core source concept 與來源摘錄判斷，本作的主題調性偏向羞恥系、變化系與展示型企劃的交集。它不是單靠「中出」或「噴精」這類動作標籤成立，而是由「變得不分場合失禁」這個核心前提去包住整體想像，讓角色如何面對失控、如何被設定推向更極端狀態，成為選片的主要吸引點。"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
