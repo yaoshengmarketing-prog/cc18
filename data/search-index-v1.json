@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:a96c7ff805d8bbc61ce453c8d8660f1d1bd4f04851956eaa159613ea94c45278",
-  "source_generated_at": "2026-11-06T17:55:55.399Z",
+  "source_revision": "sha256:2972185995816d783320249fe726ba9099cbad92e358f1ee7cfeabd46125daef",
+  "source_generated_at": "2026-11-06T18:00:18.078Z",
   "counts": {
-    "movies": 455,
+    "movies": 456,
     "performers": 338,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -955,7 +955,8 @@
       "source_name": "由良佳奈",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:NACT-188"
+        "cc18:NACT-188",
+        "cc18:THPA-16"
       ]
     },
     {
@@ -23168,6 +23169,39 @@
         "article_title": "SVVRT-087｜素人綜藝企劃：以設定感取勝的素人企劃片",
         "display_short_title": null,
         "slug": "svvrt-087"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:THPA-16",
+        "source_cover": "https://cc18.tv/preview/80/b/e1ndXOLfL6T-800.jpg?v=1788770329",
+        "title": "THPA-16 由良佳奈 × スーパーヒロイン危機一髪｜由良佳奈｜超級女英雄危機一髮：看企劃設定與系列公式感",
+        "catalog_code": "THPA-16",
+        "release_date": "2026-09-04",
+        "performers": [
+          "由良佳奈"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/thpa-16/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27387"
+      ],
+      "search": {
+        "source_title": "超級女英雄危機一髮！！Vol.116 美少女戰士水手美人魚 擬態怪人梅達摩斯的陷阱 由良佳奈",
+        "article_title": "THPA-16 由良佳奈 × スーパーヒロイン危機一髪｜由良佳奈｜超級女英雄危機一髮：看企劃設定與系列公式感",
+        "display_short_title": null,
+        "slug": "thpa-16"
       }
     },
     {

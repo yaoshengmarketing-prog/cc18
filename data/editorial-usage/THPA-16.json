@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "THPA-16",
+  "calls": [
+    {
+      "generated_at": "2026-09-08T18:53:30.993Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2596,
+      "cached_input_tokens": 0,
+      "output_tokens": 1257,
+      "total_tokens": 3853,
+      "estimated_cost_usd": 0.041263,
+      "estimated_payg_cash_cost_usd": 0.043326,
+      "direct_openai_reference_usd": 0.025345,
+      "gateway_premium_usd": 0.015918,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2596,
+    "cached_input_tokens": 0,
+    "output_tokens": 1257,
+    "estimated_cost_usd": 0.041263,
+    "estimated_payg_cash_cost_usd": 0.043326,
+    "direct_openai_reference_usd": 0.025345,
+    "gateway_premium_usd": 0.015918
+  }
+}

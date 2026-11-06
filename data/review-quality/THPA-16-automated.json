@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "THPA-16",
+  "checked_at": "2026-11-06T17:59:44.784Z",
+  "review_sha256": "a09d2004e129bea05f6bdc60c671112cfe005a35df30a380ee4f6a65a9ec6e83",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "body_lacks_source_adult_vocabulary",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就來源可確認的資訊來看，這部作品最明確的賣點不是日常題材或關係描寫，而是直接建立在「スーパーヒロイン危機一髪」這個核心企劃概念上。系列名稱同樣是「スーパーヒロイン危機一髪！！」，表示本作的吸引力高度依附於超級女英雄遭遇危機的類型設定，屬於先用企劃框架吸引觀眾，再由單集角色與變體補"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "已知演出者為由良佳奈，因此本作除了系列本身，也有明確的單一演出者辨識度。由於目前沒有更多可驗證的表演細節或角色詮釋資訊，選片判斷不能延伸到演技層次或角色完成度；但至少可以確認，這不是完全依賴無名設定的企劃片，而是有可被追蹤的演出者作為入口。對熟悉由良佳奈作品的讀者來說，這會讓本片"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

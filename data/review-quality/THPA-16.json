@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "THPA-16",
+  "review_sha256": "a09d2004e129bea05f6bdc60c671112cfe005a35df30a380ee4f6a65a9ec6e83",
+  "selected_thesis": "由良佳奈的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "由良佳奈",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "由良佳奈",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "スーパーヒロイン危機一髪",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "スーパーヒロイン危機一髪！！",
+        "source_field": "series"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "由良佳奈",
+    "presentation_feature": "スーパーヒロイン危機一髪",
+    "editorial_judgment": "由良佳奈的企劃呈現與觀看取向",
+    "source_keywords": [
+      "由良佳奈",
+      "スーパーヒロイン危機一髪",
+      "スーパーヒロイン危機一髪！！",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：由良佳奈",
+      "supports": "這項可追溯來源訊號支持文章以「由良佳奈」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：スーパーヒロイン危機一髪！！",
+      "supports": "這項可追溯來源訊號支持文章以「スーパーヒロイン危機一髪！！」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：スーパーヒロイン危機一髪",
+      "supports": "這項可追溯來源訊號支持文章以「スーパーヒロイン危機一髪」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：超級女英雄危機一髮",
+      "supports": "這項可追溯來源訊號支持文章以「超級女英雄危機一髮」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：Vol.116",
+      "supports": "這項可追溯來源訊號支持文章以「Vol.116」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：角色變化",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-07T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

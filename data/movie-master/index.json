@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-06T17:55:55.399Z",
+  "generated_at": "2026-11-06T18:00:18.078Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 459,
-  "formal_movie_count": 458,
+  "tracked_input_count": 460,
+  "formal_movie_count": 459,
   "demo_count": 1,
-  "published_count": 455,
+  "published_count": 456,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -3959,6 +3959,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "66965b392e39f86129450dd7902d1484ddfa874382773f53c01f436966170a08"
+    },
+    {
+      "stable_movie_id": "cc18:THPA-16",
+      "catalog_code": "THPA-16",
+      "slug": "thpa-16",
+      "master_path": "data/movie-master/thpa-16.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "cb2ed267fbed4be14b1857e36bfa417cbe86b4f8560981ca0caab5dec6a58bc0"
     },
     {
       "stable_movie_id": "cc18:TIKB-226",

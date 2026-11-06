@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "THPA-16",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-06T17:59:46.689Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/THPA-16/hero-v1.jpg",
+      "r2_key": "works/2026/09/THPA-16/hero-v1.jpg",
+      "bytes": 1586108,
+      "sha256": "496d42a9fcaa698dff3aa463c343c553337e6d40c291d4af01abffd8ce353393",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/THPA-16/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/THPA-16/scene-vertical-v1.jpg",
+      "bytes": 1108970,
+      "sha256": "14873ad96ecf43174f54acb6bb14bbbeba8e83f6c1dd80ddc755851a63fd37da",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3722560,
+    "sha256": "9a43948374a81cf11664aa3c0b6913a3f4f147f62a46056997f150735665bdc3",
+    "target_r2_key": "works/2026/09/THPA-16/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/THPA-16/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
