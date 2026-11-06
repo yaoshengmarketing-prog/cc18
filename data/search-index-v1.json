@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:ea8e66f6e476b35d353f5c6ea2b6530dc632ed262f71f825ba41b162ec7451be",
-  "source_generated_at": "2026-11-06T08:53:23.902Z",
+  "source_revision": "sha256:4da2894d932288310f1ed07577f28a8157be784ac8e046a260ebcccb9377af8b",
+  "source_generated_at": "2026-11-06T09:23:58.058Z",
   "counts": {
-    "movies": 436,
+    "movies": 437,
     "performers": 332,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -2705,7 +2705,8 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:FNS-244",
-        "cc18:FNS-254"
+        "cc18:FNS-254",
+        "cc18:FNS-265"
       ]
     },
     {
@@ -3827,6 +3828,35 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:FNS-265",
+        "source_cover": "https://cc18.tv/preview/80/b/ofCwIISMsr-800.jpg?v=1793802747",
+        "title": "出軌仍難分開的同居生活",
+        "catalog_code": "FNS-265",
+        "release_date": "2026-11-05",
+        "performers": [
+          "神喜ミア"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/fns-265/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53377"
+      ],
+      "search": {
+        "source_title": "「太色了根本分不開！」與會出軌的絕倫辣妹，真實同居性生活。 神喜美亞",
+        "article_title": "從第一次過夜到難以分開，關係起點換了重心",
+        "display_short_title": "出軌仍難分開的同居生活",
+        "slug": "fns-265"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:SIRO-5780",

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "FNS-265",
+  "review_sha256": "afe38e051ebb0df47f77e3b8bf9525fe86d74484015b0b96844ef6505e95106b",
+  "selected_thesis": "同一位演員的兩部作品，分別以關係剛開始與已同居卻難分開為起點；本作更適合想看既有親密關係如何被矛盾牽動的讀者。",
+  "title_basis": {
+    "performer": "神喜ミア",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "神喜ミア",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "太色了根本分不開",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "720p",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "神喜ミア",
+    "presentation_feature": "太色了根本分不開",
+    "editorial_judgment": "以同演員作品的關係起點作對照，解釋本作宣傳設定的選片意義。",
+    "source_keywords": [
+      "神喜ミア",
+      "太色了根本分不開",
+      "高畫質",
+      "720p"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "同演員作品以第一次到對方家過夜為起點",
+      "supports": "對照作品把期待放在新關係的首次親密。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作官方簡介以出軌、難以分開及同居生活為設定",
+      "supports": "本作的關係起點是已經共同生活，衝突來自仍難分開的矛盾。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介標示「完全主觀 POV」",
+      "supports": "宣傳另提供貼近當事人視角的企劃方向，但不足以判斷實際鏡位。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "實際影片的鏡位、節奏、表演與完整情節",
+    "演員的真實感情經歷",
+    "由宣傳文字推論成片品質"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-05T16:00:00.000Z"
+}

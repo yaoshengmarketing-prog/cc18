@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T08:52:54.563Z",
+  "updated_at": "2026-11-06T09:23:39.765Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -6533,6 +6533,21 @@
       ],
       "release_date": "2026-10-10",
       "source_url": "https://cc18.tv/player.php?uuid=pZFUr2lBz5b&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-06"
+    },
+    {
+      "id": "FNS-265",
+      "actress": [
+        "神喜ミア"
+      ],
+      "release_date": "2026-11-05",
+      "source_url": "https://cc18.tv/player.php?uuid=ofCwIISMsr&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

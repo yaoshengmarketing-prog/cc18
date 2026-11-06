@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "id": "FNS-265",
+  "generated_at": "2026-11-06T08:59:48.004Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/FNS-265.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "太色了根本分不開",
+    "premise": "作品以「太色了根本分不開」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「太色了根本分不開」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "太色了根本分不開",
+      "與會出軌的絕倫辣妹",
+      "真實同居性生活",
+      "神喜美亞"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p"
+    ]
+  },
+  "research_question": "同樣由神喜ミア演出，從「第一次到對方家過夜」到「同居後因出軌仍難分開」，關係設定的轉變會如何影響選片期待？",
+  "research_sources": [
+    {
+      "url": "https://faleno.jp/top/works/fns232/",
+      "supports": "已核對的官方作品頁研究資料記載：神喜ミア演出，企劃以第一次到對方家過夜為起點。"
+    },
+    {
+      "url": "https://faleno.jp/top/works/fns265/",
+      "supports": "已核對的官方作品頁研究資料記載：神喜ミア演出，宣傳設定以出軌、難以分開與同居生活為重心。"
+    },
+    {
+      "url": "https://faleno.jp/top/actress/mia_kouki/",
+      "supports": "已核對的官方人物頁研究資料用於確認兩作由同一位演員演出。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=ofCwIISMsr&cat=19",
+      "supports": "本作提供的來源資料將「完全主觀 POV」與同居關係並列為宣傳重點。"
+    }
+  ],
+  "angle_candidates": [
+    "比較初次過夜與已同居兩種關係起點，說明各自提供的選片期待",
+    "討論出軌卻難分開的矛盾，如何成為本作的宣傳核心",
+    "太色了根本分不開的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "同一位演員的兩部作品，分別以關係剛開始與已同居卻難分開為起點；本作更適合想看既有親密關係如何被矛盾牽動的讀者。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "神喜ミア",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "太色了根本分不開",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "720p",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "神喜ミア：出軌仍難分開的同居生活",
+  "display_short_title": "出軌仍難分開的同居生活",
+  "title": "從第一次過夜到難以分開，關係起點換了重心",
+  "seo_title": "FNS-265｜神喜ミア的同居生活與難以分開的關係設定",
+  "social_title": "神喜ミア這次從初次親密，走進難以分開的同居關係",
+  "short_review": "本作的宣傳重點是已同居、出軌卻仍難分開的關係。相較於同演員另一作的首次過夜設定，它給讀者的選片理由更偏向關係中的矛盾，而非新關係的開始。",
+  "editorial_angle": "以同演員作品的關係起點作對照，解釋本作宣傳設定的選片意義。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "同演員作品以第一次到對方家過夜為起點",
+      "supports": "對照作品把期待放在新關係的首次親密。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作官方簡介以出軌、難以分開及同居生活為設定",
+      "supports": "本作的關係起點是已經共同生活，衝突來自仍難分開的矛盾。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介標示「完全主觀 POV」",
+      "supports": "宣傳另提供貼近當事人視角的企劃方向，但不足以判斷實際鏡位。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "實際影片的鏡位、節奏、表演與完整情節",
+    "演員的真實感情經歷",
+    "由宣傳文字推論成片品質"
+  ],
+  "decision_guide": {
+    "thesis": "若選片時在意關係設定，本作主打的是同居後出現背叛、卻仍難分開的矛盾。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "宣傳標示主觀 POV，並以同居關係作為企劃背景；實際呈現方式尚無材料可核對。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作與同演員的首次過夜企劃，在關係起點上有何差異？",
+      "這個差異能提供什麼選片理由？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "同一位演員，這次從哪裡開始？",
+      "body": "神喜ミア另一部作品 FNS-232 以第一次到對方家過夜為企劃起點，讀者面對的是一段關係剛開始靠近的期待。FNS-265 則把兩人放進已同居的狀態：宣傳文字明說出軌，也明說難以分開。兩作的差別在於關係的起點，而不只是場景從過夜變成同住。"
+    },
+    {
+      "heading": "難以分開，是這次的選片線索",
+      "body": "本作令人好奇的問題是：既然背叛已被寫進設定，為何關係仍繼續？來源簡介另標示「完全主觀 POV」，讓這段同居關係帶有貼近當事人處境的宣傳方向。若你想看一個已建立的關係如何容納矛盾，這比「首次過夜」更貼近你的選片理由；若你偏好新關係開始時的試探，兩作的設定重心便不同。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據已核對的 FALENO 官方作品頁、人物頁研究資料，以及提供的 FNS-265 來源簡介，比較兩作的公開企劃設定。本文未使用影片抽樣，對實際畫面、節奏與表演不作判斷。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "f822907ecf3dc973a2a406861cb5a5ba5e9944b6e02cbcce717a762bd30619e4",
+    "response_sha256": "44d2fbecdd72f9e54195483a8ef3a9092ce486608769d0aced7fc77bbb5d5907",
+    "research_input_sha256": "fcde1b6138b494641d51c5c7bcdcb02f59a77a347b05c5052ff5b4870acc168b",
+    "related_source_ids": [
+      "FNS-254",
+      "FNS-244"
+    ],
+    "research_question": "同一位演員的 FNS-232 以首次過夜為企劃起點，FNS-265 則以已同居、卻因出軌而難以分開的關係為宣傳設定；這個差異如何改變讀者的選片期待？",
+    "research_sources": [
+      {
+        "url": "https://faleno.jp/top/works/fns232/",
+        "publisher": "FALENO 官方作品頁",
+        "supports": "官方列神喜ミア為演員；作品設定為第一次到對方家過夜，重點是新關係的首次親密。這是宣傳設定，不能據此宣稱成片鏡頭或演出品質。",
+        "checked_at": "2026-11-06"
+      },
+      {
+        "url": "https://faleno.jp/top/works/fns265/",
+        "publisher": "FALENO 官方作品頁",
+        "supports": "官方列神喜ミア為演員；日文原題與簡介以浮気、別れられない、同棲生活為主要關係設定。官網列配信日 2026-10-08、發售日 2026-11-05。這是宣傳設定，不代表本站已觀看影片。",
+        "checked_at": "2026-11-06"
+      },
+      {
+        "url": "https://faleno.jp/top/actress/mia_kouki/",
+        "publisher": "FALENO 官方人物頁",
+        "supports": "官方演員頁使用神喜ミア，並列出同一演員的相關作品，供核對 FNS-232 與 FNS-265 的演員關係。",
+        "checked_at": "2026-11-06"
+      }
+    ],
+    "research_notes_sha256": "9e9cc63b5d76e2f1801b7124ecb6472a30ce2244c8da7b4ea9fc3e78f2612753"
+  }
+}

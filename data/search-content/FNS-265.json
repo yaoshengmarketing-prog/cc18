@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "movie_id": "FNS-265",
+  "generated_at": "2026-11-06T08:59:49.701Z",
+  "source_snapshot_hash": "sha256:f822907ecf3dc973a2a406861cb5a5ba5e9944b6e02cbcce717a762bd30619e4",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若選片時在意關係設定，本作主打的是同居後出現背叛、卻仍難分開的矛盾。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "宣傳標示主觀 POV，並以同居關係作為企劃背景；實際呈現方式尚無材料可核對。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "FNS-244",
+      "relation_type": "same_performer",
+      "reason": "同樣由神喜ミア出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "神喜ミア"
+      ],
+      "contrast_signals": [
+        "樸素OL後輩的屁股太大了",
+        "高畫質"
+      ]
+    },
+    {
+      "movie_id": "FNS-254",
+      "relation_type": "same_performer",
+      "reason": "同樣由神喜ミア出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "神喜ミア"
+      ],
+      "contrast_signals": [
+        "因此盡情修幹的性長記錄"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作與同演員的首次過夜企劃，在關係起點上有何差異？",
+    "這個差異能提供什麼選片理由？"
+  ]
+}
