@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "id": "PDVIJ-002",
+  "checked_at": "2026-11-06T21:45:50.695Z",
+  "review_sha256": "449a7636f677847ee59b62e1c5bd8fde0dfb905b820789c42a495a4c8636ff9b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_creative_reconstruction_audit",
+    "insufficient_search_intents"
+  ],
+  "findings": [
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_search_intents",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 3,
+    "evidence_items": 3,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 2,
+    "recommendations": 0
+  }
+}

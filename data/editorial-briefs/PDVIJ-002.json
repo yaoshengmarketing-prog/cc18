@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "id": "PDVIJ-002",
+  "generated_at": "2026-11-06T21:42:25.952Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/PDVIJ-002.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "愛川由美",
+    "premise": "作品以「愛川由美」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「愛川由美」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "愛川由美",
+      "愛川由美"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "人妻・主婦"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "HD"
+    ]
+  },
+  "research_question": "本作的公開資料除了標示「NTR」，還交代了什麼具體關係與起點？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=qqUvqmlFaw&cat=19",
+      "supports": "使用題目提供的作品資料快照：演出者為愛川由美；標籤包含「NTR」與「人妻・主婦」；簡介將關係設定為岳母與女婿，並以女婿撞見岳母的私密行為作為起點。外部頁面未能開啟，未將搜尋結果當作頁面全文。"
+    }
+  ],
+  "angle_candidates": [
+    "從岳母與女婿的家庭身分，讀出本作比「NTR」標籤更具體的禁忌設定。",
+    "討論簡介如何用被撞見的私密時刻，建立女婿接近岳母的起點。",
+    "區分作品標籤與公開簡介各自能提供的選片資訊。"
+  ],
+  "selected_thesis": "本作的選片線索不只在「NTR」標籤，而在岳母與女婿的家庭關係，以及女婿利用私密發現接近她的設定；這能說明題材方向，不能證明成片的敘事效果。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "愛川由美",
+      "source_field": "actress"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "identity",
+      "value": "AV女優片",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "愛川由美：岳母與女婿的越界關係",
+  "display_short_title": "岳母與女婿的越界",
+  "title": "被撞見的私密時刻，如何成為越界起點？",
+  "seo_title": "PDVIJ-002 愛川由美｜岳母與女婿的越界設定",
+  "social_title": "愛川由美這部作品，把禁忌放進岳母與女婿的關係",
+  "short_review": "公開簡介把「NTR」具體化為岳母與女婿的越界關係，並交代女婿從撞見私密行為開始逼近。這是明確的題材線索；故事密度與實際呈現仍無從判斷。",
+  "editorial_angle": "以家庭身分和關係起點解讀公開設定，說明它比籠統題材標籤多提供了什麼選片資訊。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品資料列出演出者為愛川由美，片商為グラフィティジャパン。",
+      "supports": "確認本文討論的作品與演出者，不延伸推測人物經歷。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標籤包含「NTR」與「人妻・主婦」。",
+      "supports": "說明作品的公開題材分類，但標籤本身未交代人物如何相識或互動。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介設定女婿撞見岳母的私密行為，隨後逼近她，並將兩人的關係寫成持續越界。",
+      "supports": "指出本作具體的家庭身分與關係起點；這些是宣傳設定，並非觀影紀錄。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未推測愛川由美的真實家庭關係或個人經歷。",
+    "未宣稱已看見任何畫面、聽見台詞，或判定表演與剪輯效果。",
+    "未以宣傳簡介判定成片品質，也未虛構同演員或同片商作品作比較。"
+  ],
+  "decision_guide": {
+    "thesis": "本作適合想找岳母與女婿越界設定的讀者；公開資料交代了關係起點，但不足以判斷故事密度與成片節奏。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "岳母與女婿的家庭身分",
+      "由私密發現引出的越界設定"
+    ],
+    "audience_for": [
+      "想依具體人物關係挑選禁忌題材的讀者",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "需要先確認實際敘事節奏或表演方式的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "本作公開設定中的越界雙方是誰？",
+      "它比「NTR」標籤多交代了什麼？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "標籤之外，關係說得更具體",
+      "body": "「NTR」能指出題材方向，卻不足以說明這部作品的特定情境。公開簡介把越界雙方明確放在岳母與女婿之間：同一個家庭裡，親屬稱謂原本界定了距離，也讓跨越這段距離成為本作的核心設定。對依人物關係選片的讀者，這比單看標籤更有用。"
+    },
+    {
+      "heading": "被撞見，成為關係的起點",
+      "body": "簡介沒有把兩人的接近寫成偶遇，而是從女婿撞見岳母的私密行為開始，再寫他藉此逼近。這個起點使關係帶有施壓意味，也讓選片焦點落在家庭身分與權力不對等上。公開文字能確認企劃如何介紹這段關係，還不能回答成片如何處理它。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據題目提供的 [CC18 作品資料快照](https://cc18.tv/player.php?uuid=qqUvqmlFaw&cat=19)，使用其中的演出者、標籤與公開簡介。外部作品頁未能開啟；本文未使用影片抽樣，也沒有可核對的同演員、同系列或片商作品可供比較。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "d4695874c1568a2739dbad3b89cc9dc3d4b4adda34c35138dc095f60d894e389",
+    "response_sha256": "c88c262d8f56aa760127544c29321ee5812bdcf5f5eb62302f07e6cdda1962b7",
+    "research_input_sha256": "373697668c285f3f88608e1bccdc21868875c1a8e670dbeaf94991423b8b81f0",
+    "related_source_ids": []
+  }
+}

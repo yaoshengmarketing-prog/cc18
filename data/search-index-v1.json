@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:935d36bc59a386152976de7b67b41819fa886985d2f56a30b00f6d64ee38144b",
-  "source_generated_at": "2026-11-06T20:48:31.103Z",
+  "source_revision": "sha256:ea350d85a587e4189e4afc9fa3023289a17aa7e28b9561ea7672a3b605cca573",
+  "source_generated_at": "2026-11-06T21:47:52.055Z",
   "counts": {
-    "movies": 464,
-    "performers": 343,
+    "movies": 465,
+    "performers": 344,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -3340,6 +3340,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:EMBM-055"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54274",
+      "display_name": "愛川由美",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "愛川由美",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:PDVIJ-002"
       ]
     },
     {
@@ -11119,6 +11130,51 @@
         "article_title": "同樣由小鈴蜜柑演出，這次的主動性從哪裡開始？",
         "display_short_title": "霸凌反擊群像",
         "slug": "ftkd-045"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:PDVIJ-002",
+        "source_cover": "https://cc18.tv/preview/80/b/qqUvqmlFaw-800.jpg?v=1790709569",
+        "title": "岳母與女婿的越界",
+        "catalog_code": "PDVIJ-002",
+        "release_date": "2026-09-27",
+        "performers": [
+          "愛川由美"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/pdvij-002/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54274"
+      ],
+      "search": {
+        "source_title": "淪為女兒大雞巴老公強悍性愛俘虜的母親… 愛川由美",
+        "article_title": "被撞見的私密時刻，如何成為越界起點？",
+        "display_short_title": "岳母與女婿的越界",
+        "slug": "pdvij-002"
       }
     },
     {

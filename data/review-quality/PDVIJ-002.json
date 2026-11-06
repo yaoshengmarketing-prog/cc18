@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "PDVIJ-002",
+  "review_sha256": "689ed117cb62531d6279f8306f9f561eada670403e226b810986dea1f8c668f5",
+  "selected_thesis": "本作的選片線索不只在「NTR」標籤，而在岳母與女婿的家庭關係，以及女婿利用私密發現接近她的設定；這能說明題材方向，不能證明成片的敘事效果。",
+  "title_basis": {
+    "performer": "愛川由美",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "愛川由美",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "愛川由美",
+    "presentation_feature": "高畫質",
+    "editorial_judgment": "以家庭身分和關係起點解讀公開設定，說明它比籠統題材標籤多提供了什麼選片資訊。",
+    "source_keywords": [
+      "愛川由美",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品資料列出演出者為愛川由美，片商為グラフィティジャパン。",
+      "supports": "確認本文討論的作品與演出者，不延伸推測人物經歷。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標籤包含「NTR」與「人妻・主婦」。",
+      "supports": "說明作品的公開題材分類，但標籤本身未交代人物如何相識或互動。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介設定女婿撞見岳母的私密行為，隨後逼近她，並將兩人的關係寫成持續越界。",
+      "supports": "指出本作具體的家庭身分與關係起點；這些是宣傳設定，並非觀影紀錄。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未推測愛川由美的真實家庭關係或個人經歷。",
+    "未宣稱已看見任何畫面、聽見台詞，或判定表演與剪輯效果。",
+    "未以宣傳簡介判定成片品質，也未虛構同演員或同片商作品作比較。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}

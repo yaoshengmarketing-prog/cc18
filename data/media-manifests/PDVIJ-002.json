@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "PDVIJ-002",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-06T21:46:46.005Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/PDVIJ-002/hero-v1.jpg",
+      "r2_key": "works/2026/09/PDVIJ-002/hero-v1.jpg",
+      "bytes": 573501,
+      "sha256": "dce6ba7e82ed929f5247f3f45d512464ecb52502da0c622b6f9e47d96ac9142b",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "18299b7e996346d08db3b35d0c967ec6",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/PDVIJ-002/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/PDVIJ-002/scene-vertical-v1.jpg",
+      "bytes": 933345,
+      "sha256": "b6a8c59f5b15eb1ab49546be7f61f4f88196b3eeb596f3dd800126071e98ebfa",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "ee709fa46f334d4494e5ec80635bd8af",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2498605,
+    "sha256": "0a4a6b78b8d71039ae038829dfd3d6cc5a9314bf077161c9cd9d7e89390d8a94",
+    "target_r2_key": "works/2026/09/PDVIJ-002/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/PDVIJ-002/vertical-v1.mp4"
+  }
+}

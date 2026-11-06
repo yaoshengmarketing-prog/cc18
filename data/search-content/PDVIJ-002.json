@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "movie_id": "PDVIJ-002",
+  "generated_at": "2026-11-06T21:42:26.432Z",
+  "source_snapshot_hash": "sha256:d4695874c1568a2739dbad3b89cc9dc3d4b4adda34c35138dc095f60d894e389",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "本作適合想找岳母與女婿越界設定的讀者；公開資料交代了關係起點，但不足以判斷故事密度與成片節奏。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "岳母與女婿的家庭身分",
+      "由私密發現引出的越界設定"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想依具體人物關係挑選禁忌題材的讀者",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "需要先確認實際敘事節奏或表演方式的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "本作公開設定中的越界雙方是誰？",
+    "它比「NTR」標籤多交代了什麼？"
+  ]
+}
