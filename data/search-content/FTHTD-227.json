@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "FTHTD-227",
+  "generated_at": "2026-11-06T20:42:22.075Z",
+  "source_snapshot_hash": "sha256:5522cf02f0f489151c3041b2c7cda15602e314bbbd410243f223ca90f8b921f5",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看有明確關係轉折的女上司設定，可留意本作從出差同房、私下傾訴到獲得肯定的安排。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以女上司的身分反差及關係反轉介紹作品。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "關係反轉由什麼設定帶出？",
+    "女上司的職場身分與私下處境有何差異？"
+  ]
+}

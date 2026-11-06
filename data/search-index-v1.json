@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:b7fa1dc6502d72ca64aab22039515d4055b054f3fee7300b14798632b6998fbc",
-  "source_generated_at": "2026-11-06T19:47:56.691Z",
+  "source_revision": "sha256:935d36bc59a386152976de7b67b41819fa886985d2f56a30b00f6d64ee38144b",
+  "source_generated_at": "2026-11-06T20:48:31.103Z",
   "counts": {
-    "movies": 463,
-    "performers": 342,
+    "movies": 464,
+    "performers": 343,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -291,6 +291,17 @@
       "related_movie_ids": [
         "cc18:MXGS-1445",
         "cc18:SQTE-719"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:25396",
+      "display_name": "夕季千歲",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "夕季千歲",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FTHTD-227"
       ]
     },
     {
@@ -11046,6 +11057,35 @@
         "article_title": "先告訴你有局：這場假採訪怎麼安排懸念？",
         "display_short_title": "假紀錄片惡作劇",
         "slug": "start-632"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:FTHTD-227",
+        "source_cover": "https://cc18.tv/preview/80/b/3ZM5yjuww1p-800.jpg?v=1790709566",
+        "title": "女上司的同房傾訴",
+        "catalog_code": "FTHTD-227",
+        "release_date": "2026-09-27",
+        "performers": [
+          "夕季千歲"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/fthtd-227/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:25396"
+      ],
+      "search": {
+        "source_title": "與有「喔吼聲」情結的女上司出差竟然要同房。全盤肯定後，平時強勢的上司與我立場逆轉，整晚陷入混亂的濁點喘息SEX 夕季千歲",
+        "article_title": "一句肯定，為何能翻轉女上司的強勢？",
+        "display_short_title": "女上司的同房傾訴",
+        "slug": "fthtd-227"
       }
     },
     {

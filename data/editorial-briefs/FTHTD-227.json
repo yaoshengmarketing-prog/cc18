@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "id": "FTHTD-227",
+  "generated_at": "2026-11-06T20:42:21.609Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/FTHTD-227.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "全盤肯定後",
+    "premise": "作品以「全盤肯定後」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「全盤肯定後」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "全盤肯定後",
+      "夕季千歲"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p"
+    ]
+  },
+  "research_question": "這部作品的出差同房設定，如何讓女上司的職場身分與私下困擾產生反差？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=3ZM5yjuww1p&cat=19",
+      "supports": "已核對的作品資料記載：夕季千歲演出女上司；出差同房後，她談起因「喔吼聲」而難以向人傾訴的困擾，簡介接著以對方的肯定帶出上下關係反轉。"
+    }
+  ],
+  "angle_candidates": [
+    "一句肯定如何成為上下關係反轉的轉折",
+    "出差同房如何讓女上司說出私下的困擾",
+    "全盤肯定後的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "這部作品的選片線索在於女上司的身分反差：公開簡介先建立她平時強勢的一面，再用同房後的傾訴與一句肯定推動關係反轉。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "夕季千歲",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "全盤肯定後",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "720p",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "與女上司出差同房後，關係因一句肯定翻轉",
+  "display_short_title": "女上司的同房傾訴",
+  "title": "一句肯定，為何能翻轉女上司的強勢？",
+  "seo_title": "FTHTD-227｜夕季千歲演出女上司，出差同房後的關係反轉",
+  "social_title": "出差同房後，女上司終於說出難以啟齒的困擾",
+  "short_review": "夕季千歲演出的女上司，因私下的聲音困擾而在出差同房時向同事傾訴。公開簡介把關係反轉繫於對方的一句肯定；若你想找有明確情境轉折的上司題材，這是本作最具體的選片理由。",
+  "editorial_angle": "從職場強勢到私下傾訴，分析公開簡介如何用一句肯定串起人物關係的轉折。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品簡介設定兩人在出差時同房，女上司因自己的「喔吼聲」與未婚夫的關係陷入困境，卻無法向人傾訴。",
+      "supports": "同房提供了她說出私下困擾的情境，也使職場身分與個人處境形成具體反差。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "作品簡介寫到同事肯定她在意的聲音，並以此帶出上下關係反轉。",
+      "supports": "宣傳設定將轉折放在傾聽與肯定之後，而非只靠女上司這個身分作為賣點。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "夕季千歲的真實經歷或個人偏好",
+    "成片中的實際聲音、台詞、畫面、表演效果與節奏",
+    "未經核對的同演員、同系列或片商作品比較"
+  ],
+  "decision_guide": {
+    "thesis": "想看有明確關係轉折的女上司設定，可留意本作從出差同房、私下傾訴到獲得肯定的安排。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以女上司的身分反差及關係反轉介紹作品。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "關係反轉由什麼設定帶出？",
+      "女上司的職場身分與私下處境有何差異？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "強勢身分之外，還有說不出口的困擾",
+      "body": "公開簡介先讓夕季千歲演出的女上司與同事出差同房，再交代她因自己的「喔吼聲」而面臨感情困境，卻無法向人傾訴。值得注意的不是同房本身，而是這個安排讓她平時強勢的身分，碰上需要向別人坦承的私下處境。"
+    },
+    {
+      "heading": "轉折落在一句肯定",
+      "body": "簡介把上下關係的變化放在傾訴之後：同事接受她在意的聲音，兩人的相處位置隨之翻轉。對選片而言，這比單看「女上司」標籤更具體；本作提出的是一個由困擾、傾聽到肯定串起來的情境。至於成片如何呈現這段變化，公開文字無法回答。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據已核對的 <a href=\"https://cc18.tv/player.php?uuid=3ZM5yjuww1p&amp;cat=19\">FTHTD-227 作品資料</a>撰寫。關係反轉與人物困擾來自公開簡介；選片意義是對該設定的編輯判斷，沒有影片抽樣，也沒有可核對的關聯作品可供比較。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "5522cf02f0f489151c3041b2c7cda15602e314bbbd410243f223ca90f8b921f5",
+    "response_sha256": "b13f47e5aa0a511d9b37169ad7a9f7387fde2baa56801580713338228545c92c",
+    "research_input_sha256": "19ed9e9e5a06992da57c46db1bbae94e1dd986e0d169a7d0731faf0ec1e2717a",
+    "related_source_ids": []
+  }
+}

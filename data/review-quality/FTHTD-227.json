@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "FTHTD-227",
+  "review_sha256": "a6da735dc5ffc13920d8b76e236c3862cbb095602926e1c98a7398c6980e21ae",
+  "selected_thesis": "這部作品的選片線索在於女上司的身分反差：公開簡介先建立她平時強勢的一面，再用同房後的傾訴與一句肯定推動關係反轉。",
+  "title_basis": {
+    "performer": "夕季千歲",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "夕季千歲",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "全盤肯定後",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "720p",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "夕季千歲",
+    "presentation_feature": "全盤肯定後",
+    "editorial_judgment": "從職場強勢到私下傾訴，分析公開簡介如何用一句肯定串起人物關係的轉折。",
+    "source_keywords": [
+      "夕季千歲",
+      "全盤肯定後",
+      "高畫質",
+      "720p"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品簡介設定兩人在出差時同房，女上司因自己的「喔吼聲」與未婚夫的關係陷入困境，卻無法向人傾訴。",
+      "supports": "同房提供了她說出私下困擾的情境，也使職場身分與個人處境形成具體反差。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "作品簡介寫到同事肯定她在意的聲音，並以此帶出上下關係反轉。",
+      "supports": "宣傳設定將轉折放在傾聽與肯定之後，而非只靠女上司這個身分作為賣點。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "夕季千歲的真實經歷或個人偏好",
+    "成片中的實際聲音、台詞、畫面、表演效果與節奏",
+    "未經核對的同演員、同系列或片商作品比較"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}
