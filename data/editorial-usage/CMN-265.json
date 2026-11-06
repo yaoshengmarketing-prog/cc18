@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "CMN-265",
+  "calls": [
+    {
+      "generated_at": "2026-09-11T10:33:32.161Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2576,
+      "cached_input_tokens": 0,
+      "output_tokens": 1184,
+      "total_tokens": 3760,
+      "estimated_cost_usd": 0.03952,
+      "estimated_payg_cash_cost_usd": 0.041496,
+      "direct_openai_reference_usd": 0.0242,
+      "gateway_premium_usd": 0.01532,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2576,
+    "cached_input_tokens": 0,
+    "output_tokens": 1184,
+    "estimated_cost_usd": 0.03952,
+    "estimated_payg_cash_cost_usd": 0.041496,
+    "direct_openai_reference_usd": 0.0242,
+    "gateway_premium_usd": 0.01532
+  }
+}

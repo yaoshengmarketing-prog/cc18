@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "CMN-265",
+  "checked_at": "2026-11-06T10:24:36.493Z",
+  "review_sha256": "5285de01d2d0ac2aac7a9d5079ff0082f1d7a7835089b4331a1cc0f49225b7b2",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "body_lacks_source_adult_vocabulary",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "這次選片的核心辨識點很明確，就是系列與概念本身都指向「絶望の女潜入捜査官」。在可追溯資料有限的情況下，這種由系列名直接建立的企劃感，反而成為判斷重點：它不是單靠單一演員或技術規格撐起賣點，而是以一個已經成形的角色框架與處境想像，先把作品的調性定下來。再加上來源摘錄裡另有「絕望的女"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "從現有來源綜合來看，這部較適合歸在「劇情設定先行的展示型企劃」之間，但重心仍偏企劃設定。理由是：一方面，系列名與核心概念都高度一致，代表作品不是隨機拼貼標籤，而是有明確主題包裝；另一方面，目前可追溯的內容主要集中在標題與概念詞，例如潛入搜查官、絕望、拷問等，這些都是強設定語彙，卻"
+        }
+      ]
+    },
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-06T10:21:15.883Z",
+  "generated_at": "2026-11-06T10:25:02.479Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 446,
-  "formal_movie_count": 445,
+  "tracked_input_count": 447,
+  "formal_movie_count": 446,
   "demo_count": 1,
-  "published_count": 442,
+  "published_count": 443,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -422,6 +422,15 @@
       "is_demo": false,
       "is_published": false,
       "content_hash": "7d501e9dfc6f998dbcf74a10a69b326f9a9b8854c5d782c74aded66792bf0bc9"
+    },
+    {
+      "stable_movie_id": "cc18:CMN-265",
+      "catalog_code": "CMN-265",
+      "slug": "cmn-265",
+      "master_path": "data/movie-master/cmn-265.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "c17d0496b9e05fdce48977c6e26cb6964c7fd4e9646526336b2d1b6b5619fd2b"
     },
     {
       "stable_movie_id": "cc18:CPZ69-015",

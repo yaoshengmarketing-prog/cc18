@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:42dcbe0b343b71b8f7358af340d547850af68c7e2fb38376fabdfba935d74271",
-  "source_generated_at": "2026-11-06T10:21:15.883Z",
+  "source_revision": "sha256:3009140d5f7cb7dd202688d242bf461e13738b4f8b665eaa8f6230cda3208920",
+  "source_generated_at": "2026-11-06T10:25:02.479Z",
   "counts": {
-    "movies": 442,
-    "performers": 332,
+    "movies": 443,
+    "performers": 333,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1856,6 +1856,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-342"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:6713",
+      "display_name": "阿當真子",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "阿當真子",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CMN-265"
       ]
     },
     {
@@ -19695,6 +19706,43 @@
         "article_title": "CLOT-043 橫山夏希｜魅惑の黒パンスト女上司",
         "display_short_title": null,
         "slug": "clot-043"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:CMN-265",
+        "source_cover": "https://cc18.tv/preview/80/b/6PRzCYaKb9o-800.jpg?v=1788770323",
+        "title": "CMN-265 阿當真子｜絶望の女潜入捜査官",
+        "catalog_code": "CMN-265",
+        "release_date": "2026-09-05",
+        "performers": [
+          "阿當真子"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/cmn-265/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:6713"
+      ],
+      "search": {
+        "source_title": "絕望的女潛入搜查官 牝獸創傷拷虐 合沢萌",
+        "article_title": "CMN-265 阿當真子｜絶望の女潜入捜査官",
+        "display_short_title": null,
+        "slug": "cmn-265"
       }
     },
     {
