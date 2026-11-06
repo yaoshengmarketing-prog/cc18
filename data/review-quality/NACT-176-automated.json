@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "NACT-176",
+  "checked_at": "2026-11-06T02:16:01.109Z",
+  "review_sha256": "4a2fd1a75d4944f2add2567fa0cc09c91a80721354c31e54e31b07a3a349bd5b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 4,
+      "locations": [
+        {
+          "paragraph": 4,
+          "excerpt": "因為公開來源中最穩固、也最具辨識度的核心概念就是「紺野光」。creative brief 的 core source concept 與 source concepts 都直接指向她，代表這不是附帶資訊，而是作品辨識的中心。當系列、人物關係、設定前提都沒有額外資訊可補時，選片判斷"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "算是相當明確。topic elements 已列出「中出」、「口交」、「騎乘位」等動作面向，其中又以 title policy 的排序原則來看，「中出」最適合作為主要成人主題，因為它比畫質規格更能代表作品的內容定位。這也讓本片在標題與選片說明上可以有清楚主軸：不是單靠高畫質或 7"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "NACT-176 在現有公開資料下，最合理的定位是：以紺野光為核心、以中出為主要主題訊號，並由口交、騎乘位等元素補強吸引力的展示型作品。它的優勢在於訊號集中、辨識快速，適合本來就會追演出者，或偏好主題直接明白的讀者；但若期待完整故事設定、人物關係或明確世界觀，現階段資料並沒有提供"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

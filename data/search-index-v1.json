@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:60ceb333547ffe8e8b1c8158d8679b7ce852357f5e7cf47f2f3acc65df23c560",
-  "source_generated_at": "2026-11-06T02:12:41.347Z",
+  "source_revision": "sha256:12907a9e7835440da48d63ad2db24503f29a28ce213e164501d6fc654cacdadb",
+  "source_generated_at": "2026-11-06T02:16:25.669Z",
   "counts": {
-    "movies": 429,
-    "performers": 329,
+    "movies": 430,
+    "performers": 330,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -2937,6 +2937,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DSOD-038"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:1698",
+      "display_name": "紺野光",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "紺野光",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:NACT-176"
       ]
     },
     {
@@ -19673,6 +19684,55 @@
         "article_title": "MVG-172 鳥羽いく｜以鳥羽郁與羞恥概念為核心的展示型企劃判讀",
         "display_short_title": null,
         "slug": "mvg-172"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:NACT-176",
+        "source_cover": "https://cc18.tv/preview/80/b/xa813n8zo9K-800.jpg?v=1788770328",
+        "title": "NACT-176 紺野光｜以中出企劃為主軸的展示型作品",
+        "catalog_code": "NACT-176",
+        "release_date": "2026-09-05",
+        "performers": [
+          "紺野光"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/nact-176/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:1698"
+      ],
+      "search": {
+        "source_title": "以為是顫顫巍巍的老人,沒想到下半身卻硬梆梆 ～義父的性愛照顧讓欲求不滿的人妻墮落成淫蕩牝犬的禁斷兩回合～ 紺野光",
+        "article_title": "NACT-176 紺野光｜以中出企劃為主軸的展示型作品",
+        "display_short_title": null,
+        "slug": "nact-176"
       }
     },
     {
