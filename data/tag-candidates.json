@@ -1376,7 +1376,7 @@
     },
     {
       "label": "野外",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "DLDSS-539",
         "CEMD-889",
@@ -1384,7 +1384,8 @@
         "MUDR-397",
         "MVSH-006",
         "START-656",
-        "MVG-174"
+        "MVG-174",
+        "NHDTC-234"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-07",
@@ -2493,16 +2494,17 @@
     },
     {
       "label": "讓她生",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "DSOD-060",
         "BONY-207",
         "CAWB-060",
         "MIDA-843",
         "FJIN-171",
-        "YST-360"
+        "YST-360",
+        "NHDTC-234"
       ],
-      "first_seen": "2026-09-10",
+      "first_seen": "2026-09-08",
       "last_seen": "2026-11-06",
       "status": "quarantined"
     },

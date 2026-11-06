@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "NHDTC-234",
+  "checked_at": "2026-11-06T18:20:56.635Z",
+  "review_sha256": "96b8438fbe78e384325ad3736bdd6d979bd92facee02c22f96f146a47004a2c1",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "broad_formulaic_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 3,
+      "paragraph_count": 8,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看目前可追溯的公開資料，NHDTC-234 最明確的辨識點就是題名中的「深夜2點的便利商店露出」。這不是單純的場景標籤，而是一個很完整的企劃入口：時間點指向深夜、地點指向便利商店，主軸則落在露出式的刺激設定。對選片來說，這代表本作的吸引力首先來自概念本身，而不是已知演員或複"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "從公開線索看，本作還附帶「癡女」「巨乳」「中出」等訊號。這些元素讓選片方向更清楚：它不是主打細膩關係鋪陳的作品，而是把角色屬性、身體印象與成人題材的直接性放在前排。尤其「癡女」這個身份訊號，會讓作品在想像上更偏向主動、進攻性較強的角色魅力；「巨乳」則是非常明確的身體偏好標籤；「中"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "除了核心概念外，來源摘錄中還出現「盡情親吻」與「愛液噴潮」兩個片名線索。這些詞並不足以證明完整情節，但足以說明本作在企劃設定上，不只依賴「深夜2點的便利商店露出」這個外部刺激，也同步把感官強度與成人表現感包進賣點之中。換句話說，這類作品的選片價值往往不在故事複雜度，而在於是否能把"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
