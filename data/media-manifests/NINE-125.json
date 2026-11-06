@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "NINE-125",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-06T22:52:36.428Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/NINE-125/hero-v1.jpg",
+      "r2_key": "works/2026/09/NINE-125/hero-v1.jpg",
+      "bytes": 772792,
+      "sha256": "4ce12135617b1f5526ff4684cd65db8ae1d876b97dc4d315da8009be66920741",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "791bbd9979384ecd9be526e1a34d59c2",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/NINE-125/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/NINE-125/scene-vertical-v1.jpg",
+      "bytes": 1265841,
+      "sha256": "24c1f62e21dab0db9e700366beeeff8dfd01d430caf5efa99e9cadf55939c2df",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "5fd5555d776940439d76775d14de7751",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3694686,
+    "sha256": "a3bf5239c2c0f79326dc172e5cbb6455add24ae1a99b9979dc762d8178c8e3fe",
+    "target_r2_key": "works/2026/09/NINE-125/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/NINE-125/vertical-v1.mp4"
+  }
+}

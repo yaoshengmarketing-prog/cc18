@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-06T21:47:52.055Z",
+  "generated_at": "2026-11-06T22:53:56.021Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 469,
-  "formal_movie_count": 468,
+  "tracked_input_count": 470,
+  "formal_movie_count": 469,
   "demo_count": 1,
-  "published_count": 465,
+  "published_count": 466,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2708,6 +2708,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "72f9be668a0e6821bed12aa59f5f083cda527fff47a66d679983d295da80528c"
+    },
+    {
+      "stable_movie_id": "cc18:NINE-125",
+      "catalog_code": "NINE-125",
+      "slug": "nine-125",
+      "master_path": "data/movie-master/nine-125.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "d4de45072a908d9539f6670ead73c6c5a75e619f2fd737c5f260598bc095183c"
     },
     {
       "stable_movie_id": "cc18:NINE-127",

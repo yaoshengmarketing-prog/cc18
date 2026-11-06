@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "id": "NINE-125",
+  "generated_at": "2026-11-06T22:47:51.069Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/NINE-125.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "MOMONA",
+    "premise": "作品以「MOMONA」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「MOMONA」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "MOMONA",
+      "OL"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "癡女",
+      "OL"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "HD"
+    ]
+  },
+  "research_question": "這部作品的「OL」指向辦公室故事，還是風俗店的角色設定？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=sAogcvRNU86&cat=19",
+      "supports": "使用題供的作品頁來源快照：標題寫明「OL專門店」與風俗孃設定；簡介同時強調親切、純情的形象與主動的痴女形象。外部頁面未能開啟，未將搜尋結果視為頁面全文。"
+    }
+  ],
+  "angle_candidates": [
+    "「OL專門店」是風俗店設定，不能直接當成辦公室劇情",
+    "標題強調刺激程度，簡介則用親切與主動的形象反差吸引讀者",
+    "標題中的次數是宣傳主張，無法據此判斷成片節奏"
+  ],
+  "selected_thesis": "這部的選片線索是 OL 專門店風俗孃的角色設定，以及簡介提出的親切與主動之間的形象反差；想找辦公室故事的讀者，不能只憑 OL 標籤判斷。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "MOMONA",
+      "source_field": "title"
+    },
+    {
+      "type": "series",
+      "value": "日本で一番ドスケベな超a5ランク最高肉！",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "identity",
+      "value": "癡女",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "OL 專門店的溫柔攻勢",
+  "display_short_title": "OL 專門店的溫柔攻勢",
+  "title": "OL 標籤背後，是什麼樣的角色設定？",
+  "seo_title": "NINE-125｜OL 專門店風俗孃的親切與主動形象",
+  "social_title": "看到 OL 標籤，先看清這部的專門店設定",
+  "short_review": "來源標題把角色放在 OL 專門店，簡介則以親切、純情與主動的形象反差介紹她。這提供了明確的選片方向，但不足以判斷故事或實際節奏。",
+  "editorial_angle": "釐清 OL 專門店的設定，並分析標題的刺激訴求與簡介的人物形象如何指向不同的選片期待。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題寫明「OL專門店」及風俗孃設定",
+      "supports": "OL 在此首先是專門店的角色包裝，不能直接推定為辦公室故事。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "公開簡介同時使用親切、純情及痴女形象介紹角色",
+      "supports": "人物形象的反差是比單一 OL 標籤更具體的選片線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標題以「13次」作為宣傳數字",
+      "supports": "數字呈現標題的刺激訴求，不能用來證實成片內容或節奏。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未把 OL 設定寫成真實職業或辦公室劇情。",
+    "未把標題中的次數寫成已核實的成片結果。",
+    "未推測畫面、聲音、台詞、故事密度或剪輯節奏。"
+  ],
+  "decision_guide": {
+    "thesis": "若想找 OL 專門店風俗孃設定，以及親切形象與主動姿態並置的人物企劃，這部的公開介紹提供了明確方向；若期待辦公室故事或已知的成片節奏，現有材料無法支持。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源標題強調 OL 專門店角色與刺激數字。",
+      "公開簡介將親切、純情與主動形象放在一起介紹。"
+    ],
+    "audience_for": [
+      "想找 OL 專門店角色設定的讀者",
+      "對親切與主動的形象反差感興趣的讀者"
+    ],
+    "audience_not_for": [
+      "只想找辦公室故事的讀者",
+      "需要先確認實際情節與節奏的讀者"
+    ],
+    "questions_answered": [
+      "OL 標籤在這部作品的公開介紹中指向什麼設定？",
+      "除了刺激數字，簡介還提供什麼選片線索？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "OL 標籤，先看它放在哪裡",
+      "body": "這部的來源標題寫的是「OL 專門店」的風俗孃，而非一段已交代清楚的辦公室故事。對用 OL 標籤找片的人來說，這個差別很實際：標籤提示角色風格，標題才進一步指出她被放進什麼設定。"
+    },
+    {
+      "heading": "比刺激數字更具體的人物線索",
+      "body": "標題用次數拉高刺激期待，公開簡介卻花更多篇幅描述角色親切、純情，同時具有主動的一面。若這種形象反差吸引你，它比標題數字更能說明本作如何介紹人物；但文案沒有提供足夠材料，讓人預先判斷這種反差在成片中如何呈現。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據<a href=\"https://cc18.tv/player.php?uuid=sAogcvRNU86&amp;cat=19\">NINE-125 作品頁</a>的題供來源快照，包括標題、標籤與公開簡介。外部作品頁未能開啟，也沒有可核對的關聯作品或影片抽樣；文中的選片判斷僅針對這些公開設定。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "4cdb17a83d89a3781b7a34faf12f7a34fc0ced04f7588e071edadd618fb1af26",
+    "response_sha256": "9b6314528142fbf423dc1df8e8d568bf5b2c71ecdc028a5e6e8cf4231d8b201e",
+    "research_input_sha256": "0ab3e633230d300edee50689dd5d56c0fee6f8881893a930a48e0bf88ebffc57",
+    "related_source_ids": []
+  }
+}

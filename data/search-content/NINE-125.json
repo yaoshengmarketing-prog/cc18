@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "movie_id": "NINE-125",
+  "generated_at": "2026-11-06T22:47:51.535Z",
+  "source_snapshot_hash": "sha256:4cdb17a83d89a3781b7a34faf12f7a34fc0ced04f7588e071edadd618fb1af26",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若想找 OL 專門店風俗孃設定，以及親切形象與主動姿態並置的人物企劃，這部的公開介紹提供了明確方向；若期待辦公室故事或已知的成片節奏，現有材料無法支持。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源標題強調 OL 專門店角色與刺激數字。",
+      "公開簡介將親切、純情與主動形象放在一起介紹。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想找 OL 專門店角色設定的讀者",
+      "對親切與主動的形象反差感興趣的讀者"
+    ],
+    "not_for": [
+      "只想找辦公室故事的讀者",
+      "需要先確認實際情節與節奏的讀者"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "OL 標籤在這部作品的公開介紹中指向什麼設定？",
+    "除了刺激數字，簡介還提供什麼選片線索？"
+  ]
+}

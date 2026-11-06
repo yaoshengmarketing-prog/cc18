@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "NINE-125",
+  "review_sha256": "7f5e969526ecd15f9d631aa25b50a4900a931b4a8b404666fe93dd311eaf8d05",
+  "selected_thesis": "這部的選片線索是 OL 專門店風俗孃的角色設定，以及簡介提出的親切與主動之間的形象反差；想找辦公室故事的讀者，不能只憑 OL 標籤判斷。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "MOMONA",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "日本で一番ドスケベな超a5ランク最高肉！",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "癡女",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "MOMONA",
+    "presentation_feature": "日本で一番ドスケベな超a5ランク最高肉！",
+    "editorial_judgment": "釐清 OL 專門店的設定，並分析標題的刺激訴求與簡介的人物形象如何指向不同的選片期待。",
+    "source_keywords": [
+      "MOMONA",
+      "日本で一番ドスケベな超a5ランク最高肉！",
+      "高畫質",
+      "癡女"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題寫明「OL專門店」及風俗孃設定",
+      "supports": "OL 在此首先是專門店的角色包裝，不能直接推定為辦公室故事。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "公開簡介同時使用親切、純情及痴女形象介紹角色",
+      "supports": "人物形象的反差是比單一 OL 標籤更具體的選片線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標題以「13次」作為宣傳數字",
+      "supports": "數字呈現標題的刺激訴求，不能用來證實成片內容或節奏。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未把 OL 設定寫成真實職業或辦公室劇情。",
+    "未把標題中的次數寫成已核實的成片結果。",
+    "未推測畫面、聲音、台詞、故事密度或剪輯節奏。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}

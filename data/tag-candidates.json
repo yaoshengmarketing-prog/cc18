@@ -1271,16 +1271,17 @@
     },
     {
       "label": "超乳",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "FWAY-106",
         "SNOS-396",
         "NINE-127",
         "MIDA-819",
-        "SNOS-366"
+        "SNOS-366",
+        "NINE-125"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-06",
+      "last_seen": "2026-11-07",
       "status": "quarantined"
     },
     {
@@ -2089,16 +2090,17 @@
     },
     {
       "label": "肉感",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "MIFD-735",
         "UMAN-013",
         "HOKS-235",
         "BLOR-309",
-        "NINE-127"
+        "NINE-127",
+        "NINE-125"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-10-31",
+      "last_seen": "2026-11-07",
       "status": "quarantined"
     },
     {
