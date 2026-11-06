@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "id": "NHDTC-269",
+  "generated_at": "2026-11-06T15:48:12.314Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/NHDTC-269.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "我幫她買下來",
+    "premise": "作品以「我幫她買下來」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「我幫她買下來」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "我幫她買下來",
+      "巨乳"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "HD"
+    ]
+  },
+  "research_question": "高價卡片受損在這部作品的公開簡介中，只是開場事故，還是讓後續關係持續的條件？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=CzqmnVvxS2o&cat=19",
+      "supports": "使用題目提供的作品來源快照：後輩打工妹弄傷高價卡片、面臨賠償；敘事者買下卡片後提出交換條件，簡介接著寫到工作中與住處的持續要求。外部頁面未能開啟，未將搜尋片段視為已讀頁面。"
+    }
+  ],
+  "angle_candidates": [
+    "高價卡片的賠償壓力，如何成為持續交換的起點",
+    "從卡店到住處：公開簡介如何擴大關係的場景",
+    "巨乳的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "這部作品的選片線索是「代買受損卡片」所建立的壓力關係：公開簡介先交代卡店事故，再把交換延伸到工作中與住處。它主打持續受制的設定，而非單次偶遇。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "我幫她買下來",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "body_type",
+      "value": "巨乳",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "act_or_position",
+      "value": "中出",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "卡店高價卡片與打工妹的交換條件",
+  "display_short_title": "卡店賠償後的交換",
+  "title": "買下受損卡片，為何讓交換持續下去？",
+  "seo_title": "NHDTC-269｜卡店賠償如何成為持續交換的起點",
+  "social_title": "一張受損卡片，串起卡店與住處的交換設定",
+  "short_review": "公開簡介用高價卡片受損與賠償壓力建立關係，再將交換延伸至工作中和住處。適合想找有明確職場起因、且關係會持續的設定的讀者；實際呈現仍無法由文案判斷。",
+  "editorial_angle": "聚焦賠償壓力如何推動關係，而非以身材或行為標籤代替作品設定。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "後輩打工妹弄傷商品中的高價卡片，店長要求賠償。",
+      "supports": "卡店事故與金錢壓力是公開簡介交代的起因。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "敘事者買下卡片後提出交換條件；簡介稱這種關係成為常態，並提及工作中與住處。",
+      "supports": "公開設定從一次代買，延伸為跨越兩種場景的持續關係。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未採用未經作品人物關係核對的演員姓名。",
+    "未推論實際畫面、表演、節奏或成片品質。"
+  ],
+  "decision_guide": {
+    "thesis": "選片關鍵在卡店賠償引出的持續交換，以及設定從工作場所延伸到住處。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以職場事故建立壓力，再描述持續關係與場景轉換。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "高價卡片在設定中有什麼作用？",
+      "公開簡介把後續關係安排在哪些場景？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "賠償事故是這段關係的起點",
+      "body": "公開簡介先寫卡店後輩弄傷高價卡片、面臨店長要求賠償，再讓敘事者買下卡片並提出交換條件。卡片因此不只是職場布景；賠償壓力讓後面的要求有了具體起因。這也是本作比「卡店打工妹」這個身分標籤更明確的選片線索。"
+    },
+    {
+      "heading": "從卡店延伸到住處",
+      "body": "簡介接著把關係寫成常態，場景從工作中延伸到住處。兩處的設定差異在於：卡店保留了事故與工作關係的背景，住處則表明要求已越過最初的工作場所。若你想看的是一次事故如何被文案寫成持續受制的關係，這個安排值得留意；若你在找單次偶遇設定，這份簡介指向的方向不同。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據題目提供的 <a href=\"https://cc18.tv/player.php?uuid=CzqmnVvxS2o&amp;cat=19\">NHDTC-269 作品來源快照</a>中的標題、標籤與公開簡介。外部作品頁未能開啟，也沒有同演員或同系列的已核對材料；上述選片判斷只比較簡介中的設定，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "95578ba444174d90ec2df38aa37ada6f5e09580c2026f71e94db6d6925f0cd4b",
+    "response_sha256": "c9f208aa650fe36082da3078cdbbfc5a4a8123bff727fb123e45899d47137421",
+    "research_input_sha256": "6a22a67050d22395fbba29f7323fb1bfd27005fe207ac8d1ba689ed0aff83d31",
+    "related_source_ids": []
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "NHDTC-269",
+  "generated_at": "2026-11-06T15:48:12.753Z",
+  "source_snapshot_hash": "sha256:95578ba444174d90ec2df38aa37ada6f5e09580c2026f71e94db6d6925f0cd4b",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "選片關鍵在卡店賠償引出的持續交換，以及設定從工作場所延伸到住處。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以職場事故建立壓力，再描述持續關係與場景轉換。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "高價卡片在設定中有什麼作用？",
+    "公開簡介把後續關係安排在哪些場景？"
+  ]
+}

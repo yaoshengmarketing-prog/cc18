@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "NHDTC-269",
+  "review_sha256": "08a56d5ef49a3cf7ec5a7e4623964c6f46b4604347b61d2feaf61534cc4bf816",
+  "selected_thesis": "這部作品的選片線索是「代買受損卡片」所建立的壓力關係：公開簡介先交代卡店事故，再把交換延伸到工作中與住處。它主打持續受制的設定，而非單次偶遇。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "我幫她買下來",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "我幫她買下來",
+    "presentation_feature": "高畫質",
+    "editorial_judgment": "聚焦賠償壓力如何推動關係，而非以身材或行為標籤代替作品設定。",
+    "source_keywords": [
+      "我幫她買下來",
+      "高畫質",
+      "巨乳",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "後輩打工妹弄傷商品中的高價卡片，店長要求賠償。",
+      "supports": "卡店事故與金錢壓力是公開簡介交代的起因。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "敘事者買下卡片後提出交換條件；簡介稱這種關係成為常態，並提及工作中與住處。",
+      "supports": "公開設定從一次代買，延伸為跨越兩種場景的持續關係。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未採用未經作品人物關係核對的演員姓名。",
+    "未推論實際畫面、表演、節奏或成片品質。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-05T16:00:00.000Z"
+}
