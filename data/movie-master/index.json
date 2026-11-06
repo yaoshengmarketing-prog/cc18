@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-06T08:46:19.795Z",
+  "generated_at": "2026-11-06T08:53:23.902Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 439,
-  "formal_movie_count": 438,
+  "tracked_input_count": 440,
+  "formal_movie_count": 439,
   "demo_count": 1,
-  "published_count": 435,
+  "published_count": 436,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1718,6 +1718,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "c25281a43eacc80c0ce9de856209c72e5fe4f7660593e244845ef4251b142b3d"
+    },
+    {
+      "stable_movie_id": "cc18:MADV-643",
+      "catalog_code": "MADV-643",
+      "slug": "madv-643",
+      "master_path": "data/movie-master/madv-643.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "218f92389d1036650f195ec9f346f2d0b0f2205e88367603c9ec2c0b4a4aa106"
     },
     {
       "stable_movie_id": "cc18:MANX-034",

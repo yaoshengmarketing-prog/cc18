@@ -1,0 +1,28 @@
+{
+  "schema_version": 2,
+  "id": "MADV-643",
+  "checked_at": "2026-11-06T08:51:10.241Z",
+  "review_sha256": "12f56f8ee467877349c09f3a6dc6756e5c7b51f09fb44c653a104c4fdf54bf1b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_creative_reconstruction_audit"
+  ],
+  "findings": [
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 3,
+    "evidence_items": 3,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 2
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "MADV-643",
+  "review_sha256": "913708742adb18f3006715b5023ed09a22a72942b0e4054569fdfb899da0805d",
+  "selected_thesis": "MADV-643 的特有角度是把家訪與違反校規的體操服連在一起，讓「規則被打破」成為宣傳主軸。相較於兩部同演員作品的簡介，這次來源把持野蓬飾演的角色寫成主動推動事件的人；這是文案比較，並非成片觀察。",
+  "title_basis": {
+    "performer": "持野蓬",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "持野蓬",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "生徒に校則違反体操着で迫られ…",
+        "source_field": "series"
+      },
+      {
+        "type": "setting",
+        "value": "學生設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "持野蓬",
+    "presentation_feature": "生徒に校則違反体操着で迫られ…",
+    "editorial_judgment": "以家訪和校規的連接方式閱讀本作宣傳，並與持野蓬另外兩部、經相同人物 ID 核對的作品比較角色在簡介中的位置。比較只涉及公開文字，不延伸為演員特質或成片表現。",
+    "source_keywords": [
+      "持野蓬",
+      "生徒に校則違反体操着で迫られ…",
+      "學生設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "MADV-643 的 CC18 作品簡介先設定教師前往蓬家中家訪，接著以違反校規的體操服推進宣傳敘述。來源：https://cc18.tv/player.php?uuid=pZFUr2lBz5b&cat=19",
+      "supports": "家訪、校規與服裝是本作來源文案明確串起的企劃線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同一人物 stable ID 關聯的 MVSD-706 簡介，以鄰居闖入年輕人妻美容師的生活作為事件起點。來源：https://cc18.tv/player.php?uuid=vRoqgwbaV7X&cat=19",
+      "supports": "與 MADV-643 相比，兩份簡介安排的事件推動者不同；這只是宣傳文字的比較。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同一人物 stable ID 關聯的 GVH-879 簡介，先由兒子把蓬帶到父親家中，再敘述父親的行動。來源：https://cc18.tv/player.php?uuid=Bq3r3BhBU2_&cat=19",
+      "supports": "三部作品都為持野蓬安排角色關係，但 MADV-643 的簡介更明確把她飾演的角色寫成主動推動事件的人。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "角色或演員的實際年齡",
+    "已觀看的畫面、聲音、台詞及表演效果",
+    "體操服在成片中的出現時長與拍攝方式",
+    "由宣傳設定推斷演員本人的性格或經歷"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-05T16:00:00.000Z"
+}

@@ -713,7 +713,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 44,
+      "occurrences": 45,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -758,7 +758,8 @@
         "FJIN-170",
         "XVSR-906",
         "START-632",
-        "MADM-223"
+        "MADM-223",
+        "MADV-643"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-06",
@@ -1311,7 +1312,7 @@
     },
     {
       "label": "自慰",
-      "occurrences": 12,
+      "occurrences": 13,
       "source_ids": [
         "MILK-306",
         "DOKS-690",
@@ -1324,10 +1325,11 @@
         "EKDV-828",
         "NACT-185",
         "START-658",
-        "NACT-176"
+        "NACT-176",
+        "MADV-643"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-06",
       "status": "quarantined"
     },
     {
@@ -1540,15 +1542,16 @@
     },
     {
       "label": "學生服",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "GOJI-111",
         "CPZ69-015",
         "MKON-148",
-        "NEO-954"
+        "NEO-954",
+        "MADV-643"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-22",
+      "last_seen": "2026-11-06",
       "status": "quarantined"
     },
     {
@@ -1588,7 +1591,7 @@
     },
     {
       "label": "白虎",
-      "occurrences": 12,
+      "occurrences": 13,
       "source_ids": [
         "MAAN-1192",
         "UMD-1019",
@@ -1601,7 +1604,8 @@
         "NACT-188",
         "SDMF-054",
         "ABF-394",
-        "MBMH-097"
+        "MBMH-097",
+        "MADV-643"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-06",
@@ -1747,16 +1751,17 @@
     },
     {
       "label": "顏面騎乘",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "EKDV-826",
         "CLOT-043",
         "UMD-1017",
         "DFDM-078",
-        "NLD-034"
+        "NLD-034",
+        "MADV-643"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-11-05",
+      "last_seen": "2026-11-06",
       "status": "quarantined"
     },
     {
@@ -2546,12 +2551,13 @@
     },
     {
       "label": "體操服・運動短褲",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "MURIKURI-015"
+        "MURIKURI-015",
+        "MADV-643"
       ],
       "first_seen": "2026-09-18",
-      "last_seen": "2026-09-18",
+      "last_seen": "2026-11-06",
       "status": "quarantined"
     },
     {

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "movie_id": "MADV-643",
+  "generated_at": "2026-11-06T08:46:29.605Z",
+  "source_snapshot_hash": "sha256:c53ddb9ceecd2ea091f39873cac73be56efd863db2e789ed8caeafe26478b0a8",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想辨識 MADV-643 的企劃定位，可以看來源如何把家訪、校規與角色主動性串成一條線；成片是否充分呈現，現有材料無法判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以家訪開場，將違反校規的體操服作為後續設定重點",
+      "與兩部同演員作品的差異，來自公開簡介對事件推動者的安排"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想了解持野蓬不同作品如何被宣傳文案定位的讀者",
+      "會先從角色關係與設定判斷作品方向的讀者"
+    ],
+    "not_for": [
+      "需要先確認成片敘事、節奏或實際表現的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "GVH-879",
+      "relation_type": "same_performer",
+      "reason": "同樣由持野蓬出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "持野蓬"
+      ],
+      "contrast_signals": [
+        "禁断介護",
+        "美少女設定"
+      ]
+    },
+    {
+      "movie_id": "MVSD-706",
+      "relation_type": "same_performer",
+      "reason": "同樣由持野蓬出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "持野蓬"
+      ],
+      "contrast_signals": [
+        "人妻自宅沙龍",
+        "人妻・主婦"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "MADV-643 的來源簡介用什麼設定建立辨識度？",
+    "它與兩部同演員關聯作品的宣傳切入點有何不同？",
+    "哪些判斷仍不能僅憑公開文字作出？"
+  ]
+}

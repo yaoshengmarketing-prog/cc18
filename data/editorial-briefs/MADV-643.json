@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "id": "MADV-643",
+  "generated_at": "2026-11-06T08:46:28.696Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/MADV-643.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "持野蓬",
+    "premise": "作品以「持野蓬」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「持野蓬」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "持野蓬",
+      "中出",
+      "白虎",
+      "顏射",
+      "自慰"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "學生妹"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "顏射",
+      "摳穴"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "angle_candidates": [
+    "家訪與「違反校規的體操服」如何成為這次宣傳的辨識線索",
+    "比較持野蓬三部作品的簡介：事件由誰推動",
+    "檢視來源如何用角色設定建立期待，以及哪些問題仍須看過成片才能回答"
+  ],
+  "selected_thesis": "MADV-643 的特有角度是把家訪與違反校規的體操服連在一起，讓「規則被打破」成為宣傳主軸。相較於兩部同演員作品的簡介，這次來源把持野蓬飾演的角色寫成主動推動事件的人；這是文案比較，並非成片觀察。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "持野蓬",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "生徒に校則違反体操着で迫られ…",
+      "source_field": "series"
+    },
+    {
+      "type": "setting",
+      "value": "學生設定",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "持野蓬的家訪與違規體操服",
+  "display_short_title": "家訪與違規體操服",
+  "title": "一件違規體操服，如何接上家訪設定？",
+  "seo_title": "MADV-643｜持野蓬的家訪與違規體操服設定",
+  "social_title": "持野蓬這次的宣傳，為何從家訪談到校規？",
+  "short_review": "MADV-643 的來源簡介以家訪開場，再用違反校規的體操服凸顯角色主動打破規則。這個連接方式，比單看題材標籤更能說明本作的企劃定位；實際敘事與呈現仍無法從文案確認。",
+  "editorial_angle": "以家訪和校規的連接方式閱讀本作宣傳，並與持野蓬另外兩部、經相同人物 ID 核對的作品比較角色在簡介中的位置。比較只涉及公開文字，不延伸為演員特質或成片表現。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "MADV-643 的 CC18 作品簡介先設定教師前往蓬家中家訪，接著以違反校規的體操服推進宣傳敘述。來源：https://cc18.tv/player.php?uuid=pZFUr2lBz5b&cat=19",
+      "supports": "家訪、校規與服裝是本作來源文案明確串起的企劃線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同一人物 stable ID 關聯的 MVSD-706 簡介，以鄰居闖入年輕人妻美容師的生活作為事件起點。來源：https://cc18.tv/player.php?uuid=vRoqgwbaV7X&cat=19",
+      "supports": "與 MADV-643 相比，兩份簡介安排的事件推動者不同；這只是宣傳文字的比較。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同一人物 stable ID 關聯的 GVH-879 簡介，先由兒子把蓬帶到父親家中，再敘述父親的行動。來源：https://cc18.tv/player.php?uuid=Bq3r3BhBU2_&cat=19",
+      "supports": "三部作品都為持野蓬安排角色關係，但 MADV-643 的簡介更明確把她飾演的角色寫成主動推動事件的人。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "角色或演員的實際年齡",
+    "已觀看的畫面、聲音、台詞及表演效果",
+    "體操服在成片中的出現時長與拍攝方式",
+    "由宣傳設定推斷演員本人的性格或經歷"
+  ],
+  "decision_guide": {
+    "thesis": "想辨識 MADV-643 的企劃定位，可以看來源如何把家訪、校規與角色主動性串成一條線；成片是否充分呈現，現有材料無法判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以家訪開場，將違反校規的體操服作為後續設定重點",
+      "與兩部同演員作品的差異，來自公開簡介對事件推動者的安排"
+    ],
+    "audience_for": [
+      "想了解持野蓬不同作品如何被宣傳文案定位的讀者",
+      "會先從角色關係與設定判斷作品方向的讀者"
+    ],
+    "audience_not_for": [
+      "需要先確認成片敘事、節奏或實際表現的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "MADV-643 的來源簡介用什麼設定建立辨識度？",
+      "它與兩部同演員關聯作品的宣傳切入點有何不同？",
+      "哪些判斷仍不能僅憑公開文字作出？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "家訪之後，校規成了關鍵字",
+      "body": "MADV-643 的來源簡介先交代教師到蓬家中家訪，再把違反校規的體操服放到敘述中心。我的選片判斷落在這兩個設定的連接：家訪帶出師生關係，「違規」則替後續發展標出界線。這是宣傳文字建立的期待，不能當作成片已經呈現出的效果。"
+    },
+    {
+      "heading": "同一演員，事件由誰推動？",
+      "body": "經相同人物 ID 核對的 MVSD-706，以鄰居介入美容師家庭作為簡介起點；GVH-879 則先由兒子帶人到父親家中，再寫父親的行動。MADV-643 的簡介不同，它把蓬飾演的角色寫成主動推動事件的人。這個差異有助於區分三份宣傳文案，不能用來概括持野蓬的演出風格。"
+    },
+    {
+      "heading": "選片判斷的範圍",
+      "body": "若你關心作品如何運用家訪、校規與角色關係建立題材，MADV-643 的公開介紹提供了清楚線索。若你需要確認故事是否完整、節奏如何，或設定在畫面中如何處理，現有材料還不能回答。本文依據為 MADV-643、MVSD-706 與 GVH-879 的 CC18 作品簡介，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "c53ddb9ceecd2ea091f39873cac73be56efd863db2e789ed8caeafe26478b0a8",
+    "response_sha256": "c881899a4f6b5eb23c06a71914323dc7a5607f0ccbb3c74aea4d8c34b592f6c4",
+    "research_input_sha256": "b461e5af8c7458da02a5e98d5f7fe5295bc1d7f4f66da183737cc51427a59e6c",
+    "related_source_ids": [
+      "MVSD-706",
+      "GVH-879"
+    ]
+  }
+}

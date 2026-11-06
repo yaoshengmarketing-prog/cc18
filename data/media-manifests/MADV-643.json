@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MADV-643",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-06T08:52:08.492Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/MADV-643/hero-v1.jpg",
+      "r2_key": "works/2026/10/MADV-643/hero-v1.jpg",
+      "bytes": 583390,
+      "sha256": "62e7f41918c34e35d23fbaf056890aff0134a91b7ebc193c913519d36833db87",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "44ccb232898b4cd7b8ef43b47b078a8b",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/MADV-643/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/MADV-643/scene-vertical-v1.jpg",
+      "bytes": 887038,
+      "sha256": "52c22bd4f4526ac511ad41f5029567b13dfa9ddbaf4626ed8e4a019a4c96fd6b",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "25764159a0f54110878467ebb11cd86c",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2459099,
+    "sha256": "a52c3796ef629effb00830d17dcd7c5da077e2ef35010ec9aaa01311bc87aca1",
+    "target_r2_key": "works/2026/10/MADV-643/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/MADV-643/vertical-v1.mp4"
+  }
+}
