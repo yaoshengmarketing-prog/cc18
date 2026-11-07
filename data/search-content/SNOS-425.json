@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-425",
+  "generated_at": "2026-11-07T03:44:43.090Z",
+  "source_snapshot_hash": "sha256:3c75f8a29a1a0c0a0844644b4f1d22e18e50d9d6f6033436cc89f43ae02be01f",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看女主播在外拍住宿中面對上司越界的角色衝突，可留意 SNOS-425；想看以游泳背景包裝園梨音形象的企劃，SNOS-364 的設定更直接。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源簡介主打女主播的清純形象、上司騷擾與外拍同房造成的處境變化。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SNOS-364",
+      "relation_type": "same_performer",
+      "reason": "同樣由園梨音出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "園梨音"
+      ],
+      "contrast_signals": [
+        "游泳19年",
+        "エロス覚醒 はじめての大・痙・攣スペシャル"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部與同演員的 SNOS-364，反差設定有何不同？",
+    "本作公開資料能提供什麼選片依據？"
+  ]
+}

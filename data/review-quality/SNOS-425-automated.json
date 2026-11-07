@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "SNOS-425",
+  "checked_at": "2026-11-07T03:48:15.355Z",
+  "review_sha256": "5eac76c156a80d7f74c78f1f3b4244decde2f3a62abd46cd19f803a4b82bf653",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "title_lacks_source_core_concept",
+    "missing_creative_reconstruction_audit",
+    "insufficient_presentation_signals",
+    "insufficient_search_intents"
+  ],
+  "findings": [
+    {
+      "code": "title_lacks_source_core_concept",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_presentation_signals",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_search_intents",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 2,
+    "evidence_items": 2,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 2,
+    "recommendations": 1
+  }
+}

@@ -884,7 +884,7 @@
     },
     {
       "label": "寝取り・寝取られ・ntr",
-      "occurrences": 55,
+      "occurrences": 56,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -940,7 +940,8 @@
         "SNOS-411",
         "BAGR-092",
         "NGOD-358",
-        "PDVIJ-002"
+        "PDVIJ-002",
+        "SNOS-425"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-07",
@@ -2123,7 +2124,7 @@
     },
     {
       "label": "寢取・被寢取",
-      "occurrences": 42,
+      "occurrences": 43,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -2166,7 +2167,8 @@
         "IPZZ-970",
         "SNOS-411",
         "BAGR-092",
-        "PDVIJ-002"
+        "PDVIJ-002",
+        "SNOS-425"
       ],
       "first_seen": "2026-09-10",
       "last_seen": "2026-11-07",
@@ -2174,7 +2176,7 @@
     },
     {
       "label": "NTR",
-      "occurrences": 40,
+      "occurrences": 41,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -2215,7 +2217,8 @@
         "IPZZ-970",
         "SNOS-411",
         "BAGR-092",
-        "PDVIJ-002"
+        "PDVIJ-002",
+        "SNOS-425"
       ],
       "first_seen": "2026-09-10",
       "last_seen": "2026-11-07",
@@ -3160,6 +3163,16 @@
       ],
       "first_seen": "2026-09-11",
       "last_seen": "2026-09-11",
+      "status": "quarantined"
+    },
+    {
+      "label": "女主播",
+      "occurrences": 1,
+      "source_ids": [
+        "SNOS-425"
+      ],
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
       "status": "quarantined"
     }
   ]

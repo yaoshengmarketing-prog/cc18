@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-425",
+  "generated_at": "2026-11-07T03:44:42.586Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SNOS-425.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "瞄準主打清純的女主播",
+    "premise": "作品以「瞄準主打清純的女主播」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「瞄準主打清純的女主播」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "瞄準主打清純的女主播",
+      "園梨音",
+      "女主播"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "窈窕"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "親吻",
+      "アクメ・オーガズム"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由園梨音演出，SNOS-425 與 SNOS-364 各用什麼設定建立反差？這個差異如何影響選片？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=xS6b255Mja8&cat=19",
+      "supports": "已核對的 SNOS-425 來源快照記載女主播角色、外拍住宿、與上司同房及職場性騷擾的宣傳設定。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=t5Z5mYJCeaO&cat=19",
+      "supports": "已核對的 SNOS-364 來源快照以游泳經歷和害羞形象介紹園梨音，並以形象轉變作為宣傳重心。"
+    }
+  ],
+  "angle_candidates": [
+    "外拍住宿如何把女主播的職場處境推向密閉空間",
+    "同樣由園梨音演出，游泳背景與女主播角色如何帶出不同的反差",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "SNOS-425 的選片重點是女主播在上司安排的外拍住宿中失去迴避空間；相較之下，SNOS-364 的宣傳重心是園梨音的游泳背景與害羞形象。兩作都訴求反差，但反差來自不同設定。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "園梨音",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "瞄準主打清純的女主播",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "園梨音的女主播外拍企劃",
+  "display_short_title": "女主播外拍的相房危機",
+  "title": "園梨音這次的反差，落在外拍時無處迴避的職場關係",
+  "seo_title": "SNOS-425｜園梨音的女主播外拍設定，與游泳企劃有何不同",
+  "social_title": "從泳池到外拍飯店：園梨音兩種不同的反差設定",
+  "short_review": "SNOS-425 以女主播的清純公眾形象、上司騷擾與外拍同房構成衝突。想找職場權力關係題材，可先看這個設定；若是因 SNOS-364 的游泳背景企劃而來，兩作的選片理由並不相同。",
+  "editorial_angle": "比較同演員兩作的宣傳設定，說明本作把反差放在虛構角色的職場處境，而非演員的游泳背景。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "SNOS-425 的來源簡介設定園梨音演出清純派女主播，並寫到她因工作參與住宿外拍、與經常騷擾她的上司同房。",
+      "supports": "本作的主要衝突來自公眾形象、職場權力與住宿安排。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "SNOS-364 的來源簡介以游泳經歷、害羞形象及其轉變介紹園梨音。",
+      "supports": "同演員前作的宣傳反差，建立在人物背景與形象描述上，可與本作的女主播角色設定比較。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未把 SNOS-425 的女主播身分當成園梨音的真實經歷。",
+    "未從寢取標籤推定角色有伴侶或具體感情關係。",
+    "未依宣傳簡介評斷成片的表演、畫面或節奏。"
+  ],
+  "decision_guide": {
+    "thesis": "想看女主播在外拍住宿中面對上司越界的角色衝突，可留意 SNOS-425；想看以游泳背景包裝園梨音形象的企劃，SNOS-364 的設定更直接。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源簡介主打女主播的清純形象、上司騷擾與外拍同房造成的處境變化。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "這部與同演員的 SNOS-364，反差設定有何不同？",
+      "本作公開資料能提供什麼選片依據？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "反差從人物背景，移到了職場處境",
+      "body": "同樣由園梨音演出，SNOS-364 的來源簡介先談游泳經歷與害羞形象，再以形象轉變吸引讀者。SNOS-425 則給她一個虛構的女主播角色：她以清純形象面對觀眾，私下卻得應付上司越界；到了需要住宿的外拍工作，來源簡介又安排兩人同房。這次值得辨認的反差，不在園梨音的個人背景，而在角色的公眾形象與難以迴避的工作處境。"
+    },
+    {
+      "heading": "選片時，先看你在意哪一種設定",
+      "body": "若你想看外拍飯店如何加重女主播與上司之間的權力衝突，SNOS-425 的公開設定給了明確方向。若你記得的是 SNOS-364 以游泳背景介紹園梨音，這次則是另一種角色企劃。這些差異足以區分選片理由，仍無法據此判斷成片如何呈現。資料依據為 <a href=\"https://cc18.tv/player.php?uuid=xS6b255Mja8&amp;cat=19\">SNOS-425 作品頁</a>與<a href=\"https://cc18.tv/player.php?uuid=t5Z5mYJCeaO&amp;cat=19\">SNOS-364 作品頁</a>的已核對來源快照；外部頁面此次未能開啟，也沒有影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "3c75f8a29a1a0c0a0844644b4f1d22e18e50d9d6f6033436cc89f43ae02be01f",
+    "response_sha256": "79662e0a670a890a7aefb87992b9fd90f7995c07fe1b170618805ca8aafeb334",
+    "research_input_sha256": "f0a8a80df3e3eb3dc0ea0cb7341ac9a529272fe188e8c61570e779b9216b7372",
+    "related_source_ids": [
+      "SNOS-364"
+    ]
+  }
+}
