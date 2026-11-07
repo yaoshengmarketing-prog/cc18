@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "IPZZ-983",
+  "review_sha256": "e28761f3f02406fa6683c00ca8a6e573593cb84dcc91532e7c6a0b9b823eaf94",
+  "selected_thesis": "本作宣傳設定的關鍵，是豪客把消費當成對方必須接受親密關係的理由；簡介中的欺騙指控屬於角色的單方說法，不能直接當成故事事實。",
+  "title_basis": {
+    "performer": "瀬緒凛",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "瀬緒凛",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "我砸了這麼多錢",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "瀬緒凛",
+    "presentation_feature": "我砸了這麼多錢",
+    "editorial_judgment": "以非露骨的宣傳文本分析，檢視金錢如何成為角色合理化控制的藉口，以及單方敘述留下哪些空白。",
+    "source_keywords": [
+      "瀬緒凛",
+      "我砸了這麼多錢",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "官方片名把豪客的花費與交往要求遭拒並置。",
+      "supports": "金錢交換的期待是衝突起點，不能只憑職業標籤理解設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "官方簡介主要由豪客的辱罵、指控與追逼威脅構成。",
+      "supports": "文案提供的是威脅者的單方說法，未提供足以核實其指控的另一方敘述。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源人物關係與官方出演欄皆使用瀬緒凛。",
+      "supports": "人物主要名稱沿用可核對的來源原名，不將中文來源標題的別名升為主要名稱。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不把豪客所稱的欺騙、承諾或金額認定為已獲證實的故事事實。",
+    "不把酒廊小姐的虛構職業當成演員的真實經歷。",
+    "不推定角色因收受金錢而同意親密關係。",
+    "不評定演技、鏡頭、聲音、剪接、敘事密度或節奏。",
+    "沒有核對完成的關聯作品，不建立同演員或同系列的比較。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}

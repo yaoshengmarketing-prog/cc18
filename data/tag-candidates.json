@@ -650,7 +650,7 @@
     },
     {
       "label": "m女",
-      "occurrences": 18,
+      "occurrences": 19,
       "source_ids": [
         "MVG-171",
         "IPZZ-978",
@@ -669,7 +669,8 @@
         "SDAM-183",
         "START-660",
         "DFE-118",
-        "MVG-174"
+        "MVG-174",
+        "IPZZ-983"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-11-07",
@@ -1019,7 +1020,7 @@
     },
     {
       "label": "酒店小姐",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "SNOS-358",
         "SNOS-375",
@@ -1027,10 +1028,11 @@
         "EBWH-373",
         "SORA-657",
         "FJIN-169",
-        "START-649"
+        "START-649",
+        "IPZZ-983"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-07",
       "status": "quarantined"
     },
     {
@@ -1529,7 +1531,7 @@
     },
     {
       "label": "羞辱",
-      "occurrences": 17,
+      "occurrences": 18,
       "source_ids": [
         "DOKS-689",
         "START-601",
@@ -1547,7 +1549,8 @@
         "IPZZ-924",
         "DSJH-021",
         "SAME-230",
-        "SAME-244"
+        "SAME-244",
+        "IPZZ-983"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-07",

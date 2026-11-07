@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "movie_id": "IPZZ-983",
+  "generated_at": "2026-11-07T10:44:34.321Z",
+  "source_snapshot_hash": "sha256:0ccf03657304dee34936e89d4c563893f560dfed93c6fb123ee582107b667643",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "判讀本作時，應把豪客的消費期待與對方的同意分開，並辨認簡介採用的單方控訴視角。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以酒廊小姐與豪客為角色設定，公開文案集中於金錢指控、控制與性暴力威脅。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "希望理解本作題材與宣傳敘述方式的讀者。",
+      "關注虛構作品如何呈現金錢關係與權力失衡的讀者。"
+    ],
+    "not_for": [
+      "希望避開性暴力、羞辱與追逼題材的讀者。",
+      "需要根據實際影像評估表演或節奏的讀者。"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "金錢在公開設定中扮演什麼角色？",
+    "為何不能把豪客的指控直接當成故事事實？",
+    "現有材料足以支持哪些題材判斷？"
+  ]
+}

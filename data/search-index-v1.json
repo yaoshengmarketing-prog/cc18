@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:c55468ab77e15ae51af830e00c8e7e60d4ed41b133177ade5f7fcc61d7d2e0ec",
-  "source_generated_at": "2026-11-07T09:55:46.575Z",
+  "source_revision": "sha256:ac81f5a3da593db9a7148720cbaaa60a6b936994a6e0980ea98d4ee43ae992c1",
+  "source_generated_at": "2026-11-07T10:48:49.482Z",
   "counts": {
-    "movies": 479,
-    "performers": 354,
+    "movies": 480,
+    "performers": 355,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -3865,6 +3865,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-313"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:30385",
+      "display_name": "瀬緒凛",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "瀬緒凛",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:IPZZ-983"
       ]
     },
     {
@@ -11220,6 +11231,51 @@
         "article_title": "一場購物後的街訪，為什麼要先聊她的日常？",
         "display_short_title": "購物歸來的街訪反差",
         "slug": "hnhu-221"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:IPZZ-983",
+        "source_cover": "https://cc18.tv/preview/80/b/AGOkv9pG1fv-800.jpg?v=1791017036",
+        "title": "酒廊小姐與豪客的控制要求",
+        "catalog_code": "IPZZ-983",
+        "release_date": "2026-10-02",
+        "performers": [
+          "瀬緒凛"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ipzz-983/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:30385"
+      ],
+      "search": {
+        "source_title": "「我砸了這麼多錢，你不但不跟我交往，連做愛都不讓我做嗎！」被憤而暴走的豪客強行無套強姦，直到早晨都被不斷內射的酒廊小姐 瀨緒凜",
+        "article_title": "豪客的指控，如何把花費變成控制的理由？",
+        "display_short_title": "酒廊小姐與豪客的控制要求",
+        "slug": "ipzz-983"
       }
     },
     {

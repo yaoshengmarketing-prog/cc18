@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "id": "IPZZ-983",
+  "generated_at": "2026-11-07T10:44:33.827Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/IPZZ-983.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "我砸了這麼多錢",
+    "premise": "作品以「我砸了這麼多錢」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「我砸了這麼多錢」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "我砸了這麼多錢",
+      "你不但不跟我交往",
+      "連做愛都不讓我做嗎",
+      "瀨緒凜"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "淫亂・過激系"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "本作的公開簡介如何把豪客的金錢付出，轉化為他對酒廊小姐提出控制要求的理由？",
+  "research_sources": [
+    {
+      "url": "https://ideapocket.com/works/detail/IPZZ983",
+      "supports": [
+        "官方作品頁確認由瀬緒凛演出，角色設定涉及酒廊小姐與豪客。",
+        "片名將金錢付出、交往要求遭拒與性暴力連結；簡介則以豪客的辱罵及追逼威脅呈現衝突。",
+        "官方頁面的系列欄未列名稱，不據此建立系列比較。"
+      ]
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=AGOkv9pG1fv&cat=19",
+      "supports": [
+        "使用本次提供的已核對來源快照，確認人物關係、片商與中文簡介；未將該網址視為本次成功讀取的頁面。"
+      ]
+    }
+  ],
+  "angle_candidates": [
+    "[object Object]",
+    "[object Object]",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作宣傳設定的關鍵，是豪客把消費當成對方必須接受親密關係的理由；簡介中的欺騙指控屬於角色的單方說法，不能直接當成故事事實。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "瀬緒凛",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "我砸了這麼多錢",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "瀬緒凛飾演酒廊小姐：豪客的控制與威脅",
+  "display_short_title": "酒廊小姐與豪客的控制要求",
+  "title": "豪客的指控，如何把花費變成控制的理由？",
+  "seo_title": "IPZZ-983｜瀬緒凛酒廊小姐設定解析：金錢、拒絕與控制",
+  "social_title": "從豪客的單方控訴，讀懂酒廊小姐的處境",
+  "short_review": "公開簡介把金錢、拒絕與威脅串成衝突。閱讀時最需要分清的是：豪客聲稱自己受騙，不等於作品已證實他的指控。",
+  "editorial_angle": "以非露骨的宣傳文本分析，檢視金錢如何成為角色合理化控制的藉口，以及單方敘述留下哪些空白。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "官方片名把豪客的花費與交往要求遭拒並置。",
+      "supports": "金錢交換的期待是衝突起點，不能只憑職業標籤理解設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "官方簡介主要由豪客的辱罵、指控與追逼威脅構成。",
+      "supports": "文案提供的是威脅者的單方說法，未提供足以核實其指控的另一方敘述。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源人物關係與官方出演欄皆使用瀬緒凛。",
+      "supports": "人物主要名稱沿用可核對的來源原名，不將中文來源標題的別名升為主要名稱。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "不把豪客所稱的欺騙、承諾或金額認定為已獲證實的故事事實。",
+    "不把酒廊小姐的虛構職業當成演員的真實經歷。",
+    "不推定角色因收受金錢而同意親密關係。",
+    "不評定演技、鏡頭、聲音、剪接、敘事密度或節奏。",
+    "沒有核對完成的關聯作品，不建立同演員或同系列的比較。"
+  ],
+  "decision_guide": {
+    "thesis": "判讀本作時，應把豪客的消費期待與對方的同意分開，並辨認簡介採用的單方控訴視角。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以酒廊小姐與豪客為角色設定，公開文案集中於金錢指控、控制與性暴力威脅。"
+    ],
+    "audience_for": [
+      "希望理解本作題材與宣傳敘述方式的讀者。",
+      "關注虛構作品如何呈現金錢關係與權力失衡的讀者。"
+    ],
+    "audience_not_for": [
+      "希望避開性暴力、羞辱與追逼題材的讀者。",
+      "需要根據實際影像評估表演或節奏的讀者。"
+    ],
+    "questions_answered": [
+      "金錢在公開設定中扮演什麼角色？",
+      "為何不能把豪客的指控直接當成故事事實？",
+      "現有材料足以支持哪些題材判斷？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "花費如何成為控制的理由？",
+      "body": "本作的公開設定，為何要先交代豪客花了錢？片名把花費與交往要求遭拒連在一起，簡介再讓豪客以此辱罵、威脅對方。金錢因此成為理解角色的線索：他將自己的付出解讀成可以要求親密關係的資格。這個設定呈現的是他的支配邏輯，不能據此認定對方負有接受要求的義務。"
+    },
+    {
+      "heading": "簡介裡的指控，仍是單方說法",
+      "body": "文案幾乎把發言位置都交給豪客。他指控對方欺騙、收錢後拒絕自己，但簡介沒有提供另一方對關係的說明，也沒有獨立交代承諾是否存在。這個差別會影響讀法：若把辱罵當成可靠旁白，就會把威脅者為自己辯護的話，誤讀成作品已確認的前因。"
+    },
+    {
+      "heading": "題材判斷落在關係設定",
+      "body": "對讀者而言，比職業標籤更有辨識力的是「付出金錢後，將拒絕視為冒犯」的關係設定。它足以說明本作涉及控制與性暴力，也讓希望避開這類題材的人有明確依據。至於人物是否獲得其他發言空間、衝突如何展開，現有文字尚不能回答。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用已讀取的 [IDEA POCKET 官方作品頁](https://ideapocket.com/works/detail/IPZZ983)，以及本次提供的 [CC18 作品頁來源快照](https://cc18.tv/player.php?uuid=AGOkv9pG1fv&cat=19)。分析限於片名、公開簡介與出演資料，未使用影片抽樣；沒有足夠的關聯作品材料可供比較。酒廊小姐與豪客均為作品角色設定，文中的控制與敘述視角分析屬編輯判讀。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "0ccf03657304dee34936e89d4c563893f560dfed93c6fb123ee582107b667643",
+    "response_sha256": "2e4a1090c469e02d85e73e5f74e28902a7b69b685488f26c46c83fff443e8f41",
+    "research_input_sha256": "2899d9c285ea28ddea53877e2738b8ab74b6aade5c5af3836f9bcbaeee8dfecd",
+    "related_source_ids": []
+  }
+}
