@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:deb03c56d15552ec42f49fb5a099f06d2d62b54d349d0044462cc909737eaf52",
-  "source_generated_at": "2026-11-07T16:47:32.023Z",
+  "source_revision": "sha256:b0f29257de8fc869a32c08055c88a2050d4fbe8fc88a9ac7702aa7b118797aee",
+  "source_generated_at": "2026-11-07T17:51:27.496Z",
   "counts": {
-    "movies": 485,
-    "performers": 356,
+    "movies": 486,
+    "performers": 357,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1099,6 +1099,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PIYO-240"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:26761",
+      "display_name": "石川澪",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "石川澪",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MIDA-837"
       ]
     },
     {
@@ -11479,6 +11490,43 @@
         "article_title": "豪客的指控，如何把花費變成控制的理由？",
         "display_short_title": "酒廊小姐與豪客的控制要求",
         "slug": "ipzz-983"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MIDA-837",
+        "source_cover": "https://cc18.tv/preview/80/b/kAbJtuqz785-800.jpg?v=1790973866",
+        "title": "石川澪的全肯定女友",
+        "catalog_code": "MIDA-837",
+        "release_date": "2026-10-02",
+        "performers": [
+          "石川澪"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mida-837/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:26761"
+      ],
+      "search": {
+        "source_title": "「什麼我都願意為你做…因為我最喜歡你了」願意滿足我所有變態性癖願望，讓我徹底飲盡體液（汗水、唾液、尿液）的全肯定女友 石川澪",
+        "article_title": "「全肯定女友」如何替第一人稱視角設定關係？",
+        "display_short_title": "石川澪的全肯定女友",
+        "slug": "mida-837"
       }
     },
     {

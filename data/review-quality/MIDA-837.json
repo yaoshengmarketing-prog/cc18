@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "MIDA-837",
+  "review_sha256": "c9d3e15dec1de708cd9bec2cb8eaf2e951c087be9687d59264daf83faa76a848",
+  "selected_thesis": "本作可辨識的企劃重點，是把接納伴侶的女友角色與第一人稱視角綁在一起；選片時應同時考慮角色互動模式與題材接受度。",
+  "title_basis": {
+    "performer": "石川澪",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "石川澪",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "什麼我都願意為你做",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "石川澪",
+    "presentation_feature": "什麼我都願意為你做",
+    "editorial_judgment": "從公開簡介中的角色關係與視角安排，分析本作提供的選片線索。",
+    "source_keywords": [
+      "石川澪",
+      "什麼我都願意為你做",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題及簡介反覆強調女友願意接納伴侶的偏好。",
+      "supports": "「全肯定」是角色互動的宣傳設定，不能延伸為石川澪本人的性格或私人態度。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介宣稱全片採用主觀視角，並列有第一人稱視點標籤。",
+      "supports": "企劃將觀眾安排在伴侶的位置；實際鏡位執行與沉浸效果仍無從確認。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源同時列出戀人設定與特定癖好題材。",
+      "supports": "女友角色的親近感與題材接受度需要分別考慮，不能只憑戀人包裝判斷是否適合。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將片名中的第一人稱語句當成已核實的片中台詞。",
+    "未推論石川澪的私人偏好、戀愛觀或真實性格。",
+    "未評斷表演自然度、鏡位品質、聲音、剪輯節奏與故事完整度。",
+    "未因拍攝器材宣傳而宣稱實際播放版本具有特定畫質。",
+    "未虛構同演員或同系列作品作為比較材料。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-07T16:00:00.000Z"
+}

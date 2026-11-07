@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "MIDA-837",
+  "generated_at": "2026-11-07T17:44:55.473Z",
+  "source_snapshot_hash": "sha256:d477437c9acb1438141cca98519864c08486bf8460e93b6c60a904e9d74f7e86",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "女友角色與第一人稱視角共同構成本作的企劃辨識度，題材接受度則是選片的另一項必要條件。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源宣稱採全片主觀視角，搭配接納伴侶偏好的女友角色。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "對石川澪的戀人角色企劃有興趣，且接受來源所列題材的成年讀者。",
+      "會依第一人稱視角與角色關係挑選作品的成年讀者。"
+    ],
+    "not_for": [
+      "對來源所列特定癖好題材感到排斥的讀者。",
+      "需要先確認完整劇情或實際剪輯節奏才決定選片的讀者。"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "[object Object]",
+    "[object Object]"
+  ]
+}
