@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "id": "IENF-459",
+  "generated_at": "2026-11-07T00:44:06.132Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/IENF-459.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "我的歐派是哥哥的4",
+    "premise": "作品以「我的歐派是哥哥的4」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「我的歐派是哥哥的4」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "我的歐派是哥哥的4",
+      "我因為她毫無防備的打扮"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "騎乘位"
+    ],
+    "presentation": [
+      "720p",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "系列名稱只交代兄妹題材；本作的公開簡介提供了什麼更具體的故事起點？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=5mXUS6jZy7L&cat=19",
+      "supports": "使用題目所附作品資料快照：標題與簡介記載妹妹對身形變化的煩惱，以及兄妹打鬧時的意外碰觸。外部作品頁未能開啟。"
+    },
+    {
+      "url": "https://cc18.tv/search.php?s_type=series&s_tid=14964",
+      "supports": "使用題目所附系列關係快照，核對本作所屬系列名稱；系列頁未能開啟，沒有據此推論其他集的內容。"
+    }
+  ],
+  "angle_candidates": [
+    "從妹妹的身形煩惱與打鬧意外，辨認這一集的設定起點",
+    "討論系列名稱如何概括兄妹題材，以及本作簡介補上的具體情境",
+    "我的歐派是哥哥的4的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作簡介把妹妹的身形煩惱與兄妹打鬧時的意外碰觸連成開端，讓讀者能依設定起點選片；現有材料不足以判斷後續敘事與成片表現。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "我的歐派是哥哥的4",
+      "source_field": "title"
+    },
+    {
+      "type": "series",
+      "value": "私のオッパイはお兄ちゃんのもの",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "body_type",
+      "value": "巨乳",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "我的歐派是哥哥的 4：妹妹的煩惱與打鬧意外",
+  "display_short_title": "妹妹的煩惱與打鬧意外",
+  "title": "這一集如何交代兄妹關係越界的起點？",
+  "seo_title": "IENF-459｜妹妹的煩惱與打鬧意外，如何成為故事起點？",
+  "social_title": "一場打鬧，讓這集的兄妹設定有了具體開端",
+  "short_review": "系列名稱點出兄妹題材；本作簡介進一步交代妹妹的身形煩惱與打鬧時的意外碰觸。這是可供選片的設定差異，還不能用來預估成片節奏。",
+  "editorial_angle": "以系列名稱和本作簡介的資訊差異，說明這一集具體交代了什麼開端，以及這項資訊對選片的幫助。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "題目所附系列關係快照記載系列名稱為「私のオッパイはお兄ちゃんのもの」。",
+      "supports": "系列名稱提供兄妹題材的概括線索，不能單憑名稱推定其他集的情節。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "題目所附本作標題與簡介記載妹妹對身形變化感到煩惱，兄妹打鬧時發生意外碰觸。",
+      "supports": "本作的公開介紹提供了比系列名稱更具體的事件起點。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "沒有推定角色年齡、演員身分或人物經歷。",
+    "沒有把簡介寫成已觀看的畫面、聲音、台詞或成片品質判斷。",
+    "沒有推定系列其他集採用相同或不同的故事安排。"
+  ],
+  "decision_guide": {
+    "thesis": "可依妹妹的煩惱與打鬧意外這個明確開端，判斷自己是否想看本作的兄妹題材設定。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以人物煩惱和一次意外事件交代關係轉折的起點。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作簡介比系列名稱多交代了什麼？",
+      "這項設定差異能幫助讀者做出什麼選片判斷？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "系列名稱之外，本作多交代了一個起點",
+      "body": "「私のオッパイはお兄ちゃんのもの」這個系列名稱，讓讀者先知道作品圍繞兄妹題材。本作的公開簡介則把起點說得更具體：妹妹正為身形變化煩惱，兄妹打鬧時的意外碰觸，成了關係轉折的契機。這是系列名稱與本集介紹在資訊上的差別，不能據此推論其他集怎麼拍。"
+    },
+    {
+      "heading": "這個差異如何幫助選片？",
+      "body": "如果你選片時在意故事從哪件事開始，本作至少給出「人物煩惱接上打鬧意外」的線索。若你更在意後續情節、演員或影像節奏，現有資料還無法回答。以上判斷依據題目提供的作品與系列關係快照；外部頁面未能開啟，也沒有影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "242e0bacfd9728c9af367c6491e927b0c75fa11691edeaa8bde33d38f18ccf93",
+    "response_sha256": "95cf1a644b31ca49a7547a802562dd4fc7c7c2622468b7de6303ac26131eef67",
+    "research_input_sha256": "29d634d628e04b26a80b85dd6c8770b19b09d7db22d190854812b9657dcd0c67",
+    "related_source_ids": []
+  }
+}

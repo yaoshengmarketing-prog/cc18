@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "IENF-459",
+  "generated_at": "2026-11-07T00:44:06.687Z",
+  "source_snapshot_hash": "sha256:242e0bacfd9728c9af367c6491e927b0c75fa11691edeaa8bde33d38f18ccf93",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "可依妹妹的煩惱與打鬧意外這個明確開端，判斷自己是否想看本作的兄妹題材設定。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以人物煩惱和一次意外事件交代關係轉折的起點。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "本作簡介比系列名稱多交代了什麼？",
+    "這項設定差異能幫助讀者做出什麼選片判斷？"
+  ]
+}

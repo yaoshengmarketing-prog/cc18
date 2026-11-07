@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "IENF-459",
+  "review_sha256": "82cf45c8eab50798599f614e5c1e04ed6053f50d7f7655621167c3fc51b6f317",
+  "selected_thesis": "本作簡介把妹妹的身形煩惱與兄妹打鬧時的意外碰觸連成開端，讓讀者能依設定起點選片；現有材料不足以判斷後續敘事與成片表現。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "我的歐派是哥哥的4",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "私のオッパイはお兄ちゃんのもの",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "我的歐派是哥哥的4",
+    "presentation_feature": "私のオッパイはお兄ちゃんのもの",
+    "editorial_judgment": "以系列名稱和本作簡介的資訊差異，說明這一集具體交代了什麼開端，以及這項資訊對選片的幫助。",
+    "source_keywords": [
+      "我的歐派是哥哥的4",
+      "私のオッパイはお兄ちゃんのもの",
+      "高畫質",
+      "巨乳"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "題目所附系列關係快照記載系列名稱為「私のオッパイはお兄ちゃんのもの」。",
+      "supports": "系列名稱提供兄妹題材的概括線索，不能單憑名稱推定其他集的情節。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "題目所附本作標題與簡介記載妹妹對身形變化感到煩惱，兄妹打鬧時發生意外碰觸。",
+      "supports": "本作的公開介紹提供了比系列名稱更具體的事件起點。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "沒有推定角色年齡、演員身分或人物經歷。",
+    "沒有把簡介寫成已觀看的畫面、聲音、台詞或成片品質判斷。",
+    "沒有推定系列其他集採用相同或不同的故事安排。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}
