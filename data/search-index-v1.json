@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:5f0dc1ed88cc6870c4987c51601cb06dbce07bb754b5fe3e1264a494e8d30315",
-  "source_generated_at": "2026-11-07T05:51:22.778Z",
+  "source_revision": "sha256:e68c7e790136d0313a62bc278b20dbdff869b00ad2deeefce3e602dcad772180",
+  "source_generated_at": "2026-11-07T06:55:48.617Z",
   "counts": {
-    "movies": 475,
+    "movies": 476,
     "performers": 352,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -1709,6 +1709,7 @@
         "cc18:NSODN-023",
         "cc18:PRED-899",
         "cc18:PRED-900",
+        "cc18:SAME-230",
         "cc18:SNOS-358"
       ]
     },
@@ -11196,6 +11197,51 @@
         "article_title": "同是女友姊姊，這次為何從按摩店重逢開始？",
         "display_short_title": "按摩店重逢女友姊姊",
         "slug": "mngs-070"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SAME-230",
+        "source_cover": "https://cc18.tv/preview/80/b/l_4dCJv1UcA-800.jpg?v=1790923587",
+        "title": "幸村泉希與被迫藏匿的逃犯",
+        "catalog_code": "SAME-230",
+        "release_date": "2026-10-02",
+        "performers": [
+          "幸村泉希"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/same-230/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:50752"
+      ],
+      "search": {
+        "source_title": "侵入者 幸村泉希",
+        "article_title": "被迫藏匿逃犯，紗季的困境從求救無門開始",
+        "display_short_title": "幸村泉希與被迫藏匿的逃犯",
+        "slug": "same-230"
       }
     },
     {

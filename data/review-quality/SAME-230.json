@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "SAME-230",
+  "review_sha256": "954ef3c25073952f77e5c386ef88c2cbe6e3bc3868e80f340a2d6c23efa7d0bc",
+  "selected_thesis": "本作簡介把重點放在紗季被迫藏匿逃犯、無法向丈夫求救的處境；同系列另一部則寫共同生活後產生同情。兩者提供不同的故事入口，足以作為選片依據，但無法據此評定成片表現。",
+  "title_basis": {
+    "performer": "幸村泉希",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "幸村泉希",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "侵入者",
+        "source_field": "series"
+      }
+    ],
+    "primary_theme": "幸村泉希",
+    "presentation_feature": "侵入者",
+    "editorial_judgment": "以兩部《侵入者》的官方簡介比較角色處境：本作強調被迫藏匿與求救受阻，同系列另一部強調共同生活後產生同情。",
+    "source_keywords": [
+      "幸村泉希",
+      "侵入者"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作官方簡介寫明紗季被迫暫時藏匿逃犯，且無法向丈夫求救。",
+      "supports": "支持以求救受阻作為本作的故事入口。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "鳳みゆ出演的同系列作品簡介寫到，紗織與闖入的逃犯共同生活後逐漸產生同情。",
+      "supports": "支持兩部作品在角色關係設定上的具體比較。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "ATTACKERS 官方系列頁同時列出幸村泉希與鳳みゆ出演的《侵入者》。",
+      "supports": "支持將兩部作品作為同系列比較。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未把宣傳簡介中的角色反應寫成同意或自願。",
+    "未推論實際鏡頭、聲音、表演與敘事節奏。",
+    "官方簡介對逃犯姓氏的寫法不一致，因此未以姓氏補寫人物身份。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}

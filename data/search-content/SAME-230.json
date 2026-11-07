@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "movie_id": "SAME-230",
+  "generated_at": "2026-11-07T06:49:21.033Z",
+  "source_snapshot_hash": "sha256:7e22a5d94289b6fa4254686cce57eed262e6fe900676b2380c926d71777690e4",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "本作以妻子被迫藏匿逃犯、無法向丈夫求救的設定建立受脅迫的處境；適合想先從這項故事設定選片的讀者，成片節奏與表演仍無法由簡介判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以紗季被迫藏匿逃犯作為故事起點",
+      "簡介強調無法向丈夫求救"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想看幸村泉希出演妻子角色的讀者",
+      "偏好以求救受阻與受脅迫處境開場的故事設定的讀者"
+    ],
+    "not_for": [
+      "較想看同系列以共同生活和同情推進角色關係設定的讀者",
+      "需要先確認實際節奏或表演方式才選片的讀者"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SNOS-358",
+      "relation_type": "same_performer",
+      "reason": "同樣由幸村泉希出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "幸村泉希"
+      ],
+      "contrast_signals": [
+        "久和原聖羅",
+        "三田真鈴"
+      ]
+    },
+    {
+      "movie_id": "NSODN-023",
+      "relation_type": "same_performer",
+      "reason": "同樣由幸村泉希出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "幸村泉希"
+      ],
+      "contrast_signals": [
+        "久和原聖羅",
+        "日向由奈"
+      ]
+    },
+    {
+      "movie_id": "DSJH-020",
+      "relation_type": "same_performer",
+      "reason": "同樣由幸村泉希出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "幸村泉希"
+      ],
+      "contrast_signals": [
+        "椿莉香",
+        "美之嶋惠理"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作簡介如何設定紗季與逃犯的關係？",
+    "它與鳳みゆ出演的同系列作品有何設定差異？",
+    "這項差異能提供什麼選片依據？"
+  ]
+}
