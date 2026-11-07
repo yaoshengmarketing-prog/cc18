@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "id": "IPZZ-968",
+  "generated_at": "2026-11-07T05:45:30.094Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/IPZZ-968.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "熱愛無套與騎乘位的辣妹",
+    "premise": "作品以「熱愛無套與騎乘位的辣妹」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「熱愛無套與騎乘位的辣妹」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "熱愛無套與騎乘位的辣妹",
+      "西宮夢",
+      "騎乘位",
+      "辣妹"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "癡女",
+      "辣妹"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "騎乘位"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "本作的鄰居設定，如何從一次噪音抱怨變成反覆登門的關係？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=awHWydlm2C&cat=19",
+      "supports": "提供的作品頁來源快照記載：西宮夢演出的鄰居起初因噪音登門抱怨，之後對男主角產生興趣，並多次找理由上門。外部頁面未能開啟，依據僅限這份快照。"
+    }
+  ],
+  "angle_candidates": [
+    "從噪音抱怨到反覆登門，讀這段鄰居關係的轉折",
+    "以隔壁住戶為設定，觀察文案如何安排她再次上門的理由",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作簡介最具體的安排，是讓鄰居從帶著怒氣登門，轉為找理由反覆來訪；選片重點因此落在持續接觸的關係設定，而非開場那次衝突。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "西宮夢",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "熱愛無套與騎乘位的辣妹",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "辣妹風格",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "西宮夢與賴在隔壁的辣妹",
+  "display_short_title": "賴在隔壁的辣妹",
+  "title": "從噪音抱怨到反覆登門，鄰居關係怎麼轉向？",
+  "seo_title": "IPZZ-968｜西宮夢的鄰居辣妹為何反覆登門？",
+  "social_title": "她原本是來抱怨噪音的：西宮夢的鄰居設定",
+  "short_review": "西宮夢演出的鄰居先因噪音登門，後來又屢次找理由來訪。公開簡介交代了關係轉向與重複相處的設定，適合想從人物互動切入選片的讀者。",
+  "editorial_angle": "比較同一份簡介的開場與後續設定：前者是帶著怒氣的鄰居衝突，後者是她主動回訪。這個轉變提供了比題材標籤更具體的選片線索。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品簡介以鄰居抱怨噪音作為開場。",
+      "supports": "故事起點是兩名鄰居的一次衝突。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "作品簡介接著寫她對男主角產生興趣，並多次找理由上門。",
+      "supports": "後續設定強調她反覆登門，讓兩人的接觸不止於開場事件。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "實際畫面、聲音、台詞與表演效果",
+    "故事節奏及情節密度",
+    "由宣傳設定推斷成片品質"
+  ],
+  "decision_guide": {
+    "thesis": "噪音抱怨只是開端；反覆登門才是簡介持續使用的鄰居關係設定。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以鄰居衝突引出關係轉向，再以多次來訪延續設定。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "兩人為何開始接觸？",
+      "簡介如何交代她再次登門？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "一次抱怨，怎麼變成反覆來訪？",
+      "body": "簡介先讓西宮夢演出的隔壁住戶因噪音登門抱怨，兩人的接觸帶著火氣。接著，她對男主角產生興趣，開始多次找理由上門。前後的具體差別在於：開場有一件明確的糾紛，後續則由她主動維持接觸。"
+    },
+    {
+      "heading": "這個轉向提供了什麼選片線索？",
+      "body": "若你在意的是人物關係能否延續，反覆登門的設定比開場的噪音衝突更值得留意。簡介已說明兩人為何相識、又為何會再次碰面；至於每次來訪如何呈現、節奏是否有變化，現有材料無法回答。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據提供的 [CC18 作品頁來源快照](https://cc18.tv/player.php?uuid=awHWydlm2C&cat=19)。外部頁面未能開啟，也沒有影片抽樣；關係轉向及其選片意義是根據快照簡介所作的編輯判斷。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "eb6f4f514860a9cb075bf3e532d8a267757202f1d7684e6d0fc3fe99228b5ea8",
+    "response_sha256": "595f0470a493c60a20c63a2d46eaac65b36a1ae7c5bcd1b60136f4bcac2b53ea",
+    "research_input_sha256": "9df3446740b992dd6d1fa18a10c139b9048836f123cfdece70f1d9eaf199b999",
+    "related_source_ids": []
+  }
+}

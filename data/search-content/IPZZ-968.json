@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "IPZZ-968",
+  "generated_at": "2026-11-07T05:45:30.763Z",
+  "source_snapshot_hash": "sha256:eb6f4f514860a9cb075bf3e532d8a267757202f1d7684e6d0fc3fe99228b5ea8",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "噪音抱怨只是開端；反覆登門才是簡介持續使用的鄰居關係設定。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以鄰居衝突引出關係轉向，再以多次來訪延續設定。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "兩人為何開始接觸？",
+    "簡介如何交代她再次登門？"
+  ]
+}

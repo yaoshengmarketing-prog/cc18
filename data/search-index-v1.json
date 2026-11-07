@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:f8846154d72764484abbeedcb19d47317ac0bf99125db426cab818d9c0b20ab0",
-  "source_generated_at": "2026-11-07T04:52:53.844Z",
+  "source_revision": "sha256:5f0dc1ed88cc6870c4987c51601cb06dbce07bb754b5fe3e1264a494e8d30315",
+  "source_generated_at": "2026-11-07T05:51:22.778Z",
   "counts": {
-    "movies": 474,
-    "performers": 351,
+    "movies": 475,
+    "performers": 352,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1420,6 +1420,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PYM-577"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:13288",
+      "display_name": "西宮夢",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "西宮夢",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:IPZZ-968"
       ]
     },
     {
@@ -4062,6 +4073,59 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:IPZZ-968",
+        "source_cover": "https://cc18.tv/preview/80/b/awHWydlm2C-800.jpg?v=1793997482",
+        "title": "賴在隔壁的辣妹",
+        "catalog_code": "IPZZ-968",
+        "release_date": "2026-11-06",
+        "performers": [
+          "西宮夢"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "gyaru",
+            "label": "辣妹"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ipzz-968/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:13288"
+      ],
+      "search": {
+        "source_title": "熱愛無套與騎乘位的辣妹，為了陰角絕倫大雞巴今天也賴在隔壁家不走 西宮夢",
+        "article_title": "從噪音抱怨到反覆登門，鄰居關係怎麼轉向？",
+        "display_short_title": "賴在隔壁的辣妹",
+        "slug": "ipzz-968"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:SNOS-425",

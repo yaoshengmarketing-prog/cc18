@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "IPZZ-968",
+  "review_sha256": "2ba50fb5b9101d2b1b49c2be2f56ce841f31651fd519e3034f09a892ab3488a7",
+  "selected_thesis": "本作簡介最具體的安排，是讓鄰居從帶著怒氣登門，轉為找理由反覆來訪；選片重點因此落在持續接觸的關係設定，而非開場那次衝突。",
+  "title_basis": {
+    "performer": "西宮夢",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "西宮夢",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "熱愛無套與騎乘位的辣妹",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "辣妹風格",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "西宮夢",
+    "presentation_feature": "熱愛無套與騎乘位的辣妹",
+    "editorial_judgment": "比較同一份簡介的開場與後續設定：前者是帶著怒氣的鄰居衝突，後者是她主動回訪。這個轉變提供了比題材標籤更具體的選片線索。",
+    "source_keywords": [
+      "西宮夢",
+      "熱愛無套與騎乘位的辣妹",
+      "辣妹風格",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品簡介以鄰居抱怨噪音作為開場。",
+      "supports": "故事起點是兩名鄰居的一次衝突。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "作品簡介接著寫她對男主角產生興趣，並多次找理由上門。",
+      "supports": "後續設定強調她反覆登門，讓兩人的接觸不止於開場事件。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "實際畫面、聲音、台詞與表演效果",
+    "故事節奏及情節密度",
+    "由宣傳設定推斷成片品質"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}
