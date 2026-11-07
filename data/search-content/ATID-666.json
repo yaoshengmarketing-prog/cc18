@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "movie_id": "ATID-666",
+  "generated_at": "2026-11-07T13:45:32.711Z",
+  "source_snapshot_hash": "sha256:c1d4faad5e5fbe57ee114b24a2407b0fff90a82b1bcea756112c4a209d1dbde1",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "以丈夫前女友的身分連結婚姻與舊情，是本作最清楚的選片依據。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介採取先交代幸福新婚生活、再引入前女友登門的故事介紹方式。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好婚姻、前任與現任關係互相牽連的虛構故事設定者。",
+      "希望從共同演員的作品中，依衝突來源挑選不同題材者。"
+    ],
+    "not_for": [
+      "想避開婚姻背叛題材者。",
+      "需要先確認敘事節奏、角色動機與結局才決定是否觀看者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MIMK-291",
+      "relation_type": "same_performer",
+      "reason": "同樣由北岡果林出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "北岡果林"
+      ],
+      "contrast_signals": [
+        "系列累計突破10萬部",
+        "AV女優片"
+      ]
+    },
+    {
+      "movie_id": "BBAN-604",
+      "relation_type": "same_performer",
+      "reason": "同樣由北岡果林出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "北岡果林"
+      ],
+      "contrast_signals": [
+        "響蓮",
+        "為了不讓陰沉過去曝光"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "[object Object]",
+    "[object Object]"
+  ]
+}

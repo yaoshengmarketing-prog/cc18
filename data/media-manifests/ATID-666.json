@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "ATID-666",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-07T13:51:05.079Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/ATID-666/hero-v1.jpg",
+      "r2_key": "works/2026/10/ATID-666/hero-v1.jpg",
+      "bytes": 729610,
+      "sha256": "ad1ac8a5378a38a3ccc953c23743c5e4af548e44311ef47ed3d004f2c9bbb6dd",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "e3bd46b6f8294fe4999bc787e7ba0a87",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/ATID-666/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/ATID-666/scene-vertical-v1.jpg",
+      "bytes": 741436,
+      "sha256": "3b820c905ac2ae3bad6a90d06eee9a5dd1875dd79ef694532bc53575aee32072",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "c9463c86829648c9897d3bcb5c0f87bb",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2014115,
+    "sha256": "e99d35f658e6dcf4d380bb8c919e542ff919d0b08877a81929d216e983fda1a4",
+    "target_r2_key": "works/2026/10/ATID-666/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/ATID-666/vertical-v1.mp4"
+  }
+}

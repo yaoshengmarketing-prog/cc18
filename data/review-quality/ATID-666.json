@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "ATID-666",
+  "review_sha256": "2bb72939f80e7c1bedca365b864da9813a512f20e6f9e9e9baaac33624a28492",
+  "selected_thesis": "本作最具辨識度的設定，是介入新婚生活的女性同時也是丈夫的前女友；這層既有關係，讓它提供了婚姻與舊情交錯的選片理由。",
+  "title_basis": {
+    "performer": "廣瀨里緒菜、北岡果林",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "廣瀨里緒菜",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "あなた、許して",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "performer",
+        "value": "北岡果林",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "あなた、許して…。",
+        "source_field": "series"
+      }
+    ],
+    "primary_theme": "廣瀨里緒菜",
+    "presentation_feature": "あなた、許して",
+    "editorial_judgment": "比較兩份公開簡介如何安排關係中的壓力來源，從具體人物設定提供選片判斷。",
+    "source_keywords": [
+      "廣瀨里緒菜",
+      "あなた、許して",
+      "北岡果林",
+      "あなた、許して…。"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介先交代果林因與同事真琴戀愛而辭職，兩人過著幸福的新婚生活。",
+      "supports": "故事介紹先建立已成形的婚姻日常，讓後續來訪成為生活中的變數。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "突然到訪的織奈被明確介紹為真琴的前女友。",
+      "supports": "來訪者與丈夫已有情感歷史，是本作區別於陌生人介入設定的具體線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "BBAN-604 的簡介寫蓮嘗試辣妹風格，卻害怕好友果林知道自己過去的樣貌，並因此受對方施壓。",
+      "supports": "對照作品的壓力來自祕密與好友關係，可與本作的婚姻及前任關係作設定比較。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未確認廣瀨里緒菜與北岡果林各自對應的角色，不自行配對。",
+    "不推測織奈到訪的動機、真琴是否知情或故事結局。",
+    "不把角色遭受的壓力解讀為自願，也不將虛構角色關係套用到演員本人。",
+    "不從簡介推論表演、攝影、剪接、聲音或成片品質。",
+    "不將日文系列名稱當作已確認的作品原題。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}

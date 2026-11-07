@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:d864dae5a0b91892efd11d4e62e7d798bbf5c5511aeb06761239ccab1661872f",
-  "source_generated_at": "2026-11-07T12:49:14.100Z",
+  "source_revision": "sha256:84477818d40c9b17054f60382781b555bb1b247883cedbc1b1b27ad2515d017d",
+  "source_generated_at": "2026-11-07T13:52:26.423Z",
   "counts": {
-    "movies": 482,
-    "performers": 355,
+    "movies": 483,
+    "performers": 356,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -821,6 +821,7 @@
       "source_name": "北岡果林",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:ATID-666",
         "cc18:BBAN-604",
         "cc18:MIMK-291"
       ]
@@ -3677,6 +3678,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:24714",
+      "display_name": "廣瀨里緒菜",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "廣瀨里緒菜",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:ATID-666"
       ]
     },
     {
@@ -11139,6 +11151,45 @@
         "article_title": "「前辣妹？」如何讓 S桑的介紹多一層懸念",
         "display_short_title": "S桑的前辣妹問號",
         "slug": "oremo-621"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:ATID-666",
+        "source_cover": "https://cc18.tv/preview/80/b/2gpdyZMIbe_-800.jpg?v=1791060197",
+        "title": "丈夫的前女友登門",
+        "catalog_code": "ATID-666",
+        "release_date": "2026-10-02",
+        "performers": [
+          "廣瀨里緒菜",
+          "北岡果林"
+        ],
+        "canonical_topics": [
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/atid-666/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:24714",
+        "cc18.tv:actor:29341"
+      ],
+      "search": {
+        "source_title": "我,被你前女友抱了。老公,原諒我…。",
+        "article_title": "丈夫的前女友，為何讓這段新婚關係多了一層牽連？",
+        "display_short_title": "丈夫的前女友登門",
+        "slug": "atid-666"
       }
     },
     {

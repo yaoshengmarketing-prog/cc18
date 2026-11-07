@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "id": "ATID-666",
+  "generated_at": "2026-11-07T13:45:31.361Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/ATID-666.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "あなた、許して",
+    "premise": "作品以「あなた、許して」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「あなた、許して」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "あなた、許して",
+      "我,被你前女友抱了",
+      "老公,原諒我"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "戲劇、連續劇",
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣以女性之間的關係為題材，本作與同演員參演的 BBAN-604，如何用不同的人物關係建立衝突？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=2gpdyZMIbe_&cat=19",
+      "supports": [
+        "使用本次提供的已核對來源快照；外部頁面未能開啟。",
+        "簡介交代果林與同事真琴結婚，真琴的前女友織奈突然到訪。",
+        "演員資料列有廣瀨里緒菜、北岡果林。"
+      ]
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=sJlm_yaFe37&cat=19",
+      "supports": [
+        "使用本次提供的已核對關聯作品快照。",
+        "BBAN-604 的簡介以蓮改變外在形象、害怕好友果林發現過去為衝突起點。",
+        "關聯資料確認兩作有共同演員，但不屬同系列。"
+      ]
+    }
+  ],
+  "angle_candidates": [
+    "丈夫的前女友登門，讓婚姻與舊情透過同一個人物交會。",
+    "與 BBAN-604 比較：一部以婚姻關係受干擾為起點，一部以好友掌握祕密形成壓力。",
+    "從果林辭職結婚的背景，觀察簡介如何先建立安穩生活，再引入外來變數。"
+  ],
+  "selected_thesis": "本作最具辨識度的設定，是介入新婚生活的女性同時也是丈夫的前女友；這層既有關係，讓它提供了婚姻與舊情交錯的選片理由。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "廣瀨里緒菜",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "あなた、許して",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "performer",
+      "value": "北岡果林",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "あなた、許して…。",
+      "source_field": "series"
+    }
+  ],
+  "work_title": "我被你的前女友擁抱了，老公，原諒我……",
+  "display_short_title": "丈夫的前女友登門",
+  "title": "丈夫的前女友，為何讓這段新婚關係多了一層牽連？",
+  "seo_title": "ATID-666｜廣瀨里緒菜、北岡果林：丈夫前女友介入的新婚關係",
+  "social_title": "當丈夫的前女友走進新婚生活",
+  "short_review": "簡介最值得留意的是來訪者的身分：她與丈夫有過一段關係，如今又走進妻子的生活。對照 BBAN-604 以好友掌握祕密形成壓力，本作的選片線索更偏向婚姻與舊情交錯的關係設定。",
+  "editorial_angle": "比較兩份公開簡介如何安排關係中的壓力來源，從具體人物設定提供選片判斷。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介先交代果林因與同事真琴戀愛而辭職，兩人過著幸福的新婚生活。",
+      "supports": "故事介紹先建立已成形的婚姻日常，讓後續來訪成為生活中的變數。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "突然到訪的織奈被明確介紹為真琴的前女友。",
+      "supports": "來訪者與丈夫已有情感歷史，是本作區別於陌生人介入設定的具體線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "BBAN-604 的簡介寫蓮嘗試辣妹風格，卻害怕好友果林知道自己過去的樣貌，並因此受對方施壓。",
+      "supports": "對照作品的壓力來自祕密與好友關係，可與本作的婚姻及前任關係作設定比較。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未確認廣瀨里緒菜與北岡果林各自對應的角色，不自行配對。",
+    "不推測織奈到訪的動機、真琴是否知情或故事結局。",
+    "不把角色遭受的壓力解讀為自願，也不將虛構角色關係套用到演員本人。",
+    "不從簡介推論表演、攝影、剪接、聲音或成片品質。",
+    "不將日文系列名稱當作已確認的作品原題。"
+  ],
+  "decision_guide": {
+    "thesis": "以丈夫前女友的身分連結婚姻與舊情，是本作最清楚的選片依據。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介採取先交代幸福新婚生活、再引入前女友登門的故事介紹方式。"
+    ],
+    "audience_for": [
+      "偏好婚姻、前任與現任關係互相牽連的虛構故事設定者。",
+      "希望從共同演員的作品中，依衝突來源挑選不同題材者。"
+    ],
+    "audience_not_for": [
+      "想避開婚姻背叛題材者。",
+      "需要先確認敘事節奏、角色動機與結局才決定是否觀看者。"
+    ],
+    "questions_answered": [
+      "[object Object]",
+      "[object Object]"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "來訪者的身分，讓新婚生活接上丈夫的過去",
+      "body": "本作與同演員參演的 BBAN-604，如何用不同的人物關係建立衝突？先看本作：果林因與同事真琴戀愛而辭職，兩人已進入幸福的新婚生活，織奈才突然登門。簡介特別交代她是真琴的前女友，讓這次相遇連上丈夫的情感過去。\n\n這個身分值得留意。果林面對的來訪者，與她目前的婚姻有一條明確連線。對喜歡前任與現任關係互相牽動的讀者而言，這比籠統的背叛標籤更能說明本作的吸引點。"
+    },
+    {
+      "heading": "與好友掌握祕密的設定相比，壓力來源不同",
+      "body": "BBAN-604 的簡介把重心放在蓮努力改變形象，卻害怕好友果林發現她的過去；好友利用這份恐懼施壓，衝突建立在祕密與人際控制上。本作則先設定一段婚姻，再讓丈夫的前女友走進家中。\n\n兩者提供了不同的選片方向：對隱藏身分、好友越界的設定有興趣，可以留意 BBAN-604；偏好婚姻與既有情感歷史交錯的故事前提，本作的介紹更切題。這個差別足以區分題材興趣，還不足以比較兩部作品的完成度。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用本次提供的 [ATID-666 作品資料快照](https://cc18.tv/player.php?uuid=2gpdyZMIbe_&cat=19)與 [BBAN-604 關聯作品快照](https://cc18.tv/player.php?uuid=sJlm_yaFe37&cat=19)。外部作品頁未能開啟，未取得可供採用的官方全文，也未使用搜尋摘要補寫背景。兩作有共同演員，但不屬同系列；本文比較公開簡介中的人物關係與衝突起點，未使用影片抽樣。角色對應、後續動機、結局及實際影像表現均不在材料範圍內。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "c1d4faad5e5fbe57ee114b24a2407b0fff90a82b1bcea756112c4a209d1dbde1",
+    "response_sha256": "7a3a33007bb47aef8bdfe48c056148c135c438ab6db8c5a9e5b43855e3b8af4a",
+    "research_input_sha256": "0041389f2caaf6fa072aab0aef7794e25fdf51522a81d042a8717993cae06236",
+    "related_source_ids": [
+      "BBAN-604",
+      "MIMK-291"
+    ]
+  }
+}
