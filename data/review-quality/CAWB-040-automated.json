@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "id": "CAWB-040",
+  "checked_at": "2026-11-07T12:47:38.854Z",
+  "review_sha256": "8ee56141237be00d88487efd380fb93755d427ad1b05cef01a163cd03ba86a82",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "title_lacks_source_core_concept",
+    "missing_creative_reconstruction_audit",
+    "insufficient_presentation_signals"
+  ],
+  "findings": [
+    {
+      "code": "title_lacks_source_core_concept",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_presentation_signals",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 3,
+    "evidence_items": 3,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 3
+  }
+}

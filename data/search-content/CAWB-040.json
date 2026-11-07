@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "movie_id": "CAWB-040",
+  "generated_at": "2026-11-07T12:43:23.569Z",
+  "source_snapshot_hash": "sha256:c0719662cc4cef3f156253a48cf2f03c473d8572633ca2eb8b1297e1a34081bc",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "辨識本作設定時，應注意文案如何先貶抑住戶，再將管理者的憤怒接到暴力情節。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以帶有強烈責難語氣的簡介，交代租屋衝突及性暴力設定。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "希望從角色關係與宣傳敘事理解作品設定的讀者。",
+      "需要辨認性暴力及受害者責難內容，以判斷是否避開的讀者。"
+    ],
+    "not_for": [
+      "希望避開性暴力、羞辱或懲罰式敘事的讀者。",
+      "需要實際影像證據才能判斷表演與製作表現的讀者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "NSODN-025",
+      "relation_type": "same_performer",
+      "reason": "同樣由彩月七緒出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "彩月七緒"
+      ],
+      "contrast_signals": [
+        "我所不認識的表情",
+        "自拍形式"
+      ]
+    },
+    {
+      "movie_id": "DSOD-060",
+      "relation_type": "same_performer",
+      "reason": "同樣由彩月七緒出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "彩月七緒"
+      ],
+      "contrast_signals": [
+        "寝取られ種付けプレス"
+      ]
+    },
+    {
+      "movie_id": "PPPE-449",
+      "relation_type": "same_performer",
+      "reason": "同樣由彩月七緒出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "彩月七緒"
+      ],
+      "contrast_signals": [
+        "女友巨乳OO內射OK誘惑",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作以哪些租屋問題鋪陳衝突？",
+    "房東在宣傳敘事中處於什麼位置？",
+    "與 DSOD-060 相比，施暴者與受害者的關係有何不同？",
+    "這些差異如何協助辨認題材與避開不合偏好的設定？"
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "id": "CAWB-040",
+  "generated_at": "2026-11-07T12:43:23.073Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/CAWB-040.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "穿著隨便",
+    "premise": "作品以「穿著隨便」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「穿著隨便」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "穿著隨便",
+      "還不工作",
+      "既然是個爆乳尼特族女孩",
+      "就算強姦她",
+      "弄髒她",
+      "把她搞得亂七八糟"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "美少女"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "3p・4p",
+      "淫亂・過激系"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "本作如何把租屋糾紛轉化為暴力的藉口？與同樣由彩月七緒演出的 DSOD-060 相比，兩份簡介如何安排施暴者與受害者的關係？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=tRXjslASCe4&cat=19",
+      "supports": "使用使用者提供的來源快照：簡介依序交代失戀後生活失序、公共走廊堆放垃圾、鄰居投訴、欠租及房東登門，隨後轉入性暴力設定。外部頁面未能開啟。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=tCZj6MhUBcq&cat=19",
+      "supports": "使用使用者提供的關聯作品快照：DSOD-060 設定為同居情侶受到男友前輩侵入生活，並涉及下藥與強迫；已核對為同演員作品，非同系列。"
+    }
+  ],
+  "angle_candidates": [
+    "租屋管理衝突如何被宣傳文字轉成懲罰角色的理由",
+    "房東與男友前輩：兩種日常關係中的權力侵入",
+    "人物的生活缺失，如何影響文案引導讀者理解暴力"
+  ],
+  "selected_thesis": "本作簡介的辨識點，是先列出住戶的生活與租屋問題，再把房東施暴接在其後；與 DSOD-060 的外來者侵入情侶生活相比，本作更明顯以對受害角色的貶抑鋪陳暴力。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "彩月七緒",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "穿著隨便",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "美少女設定",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "彩月七緒：租屋糾紛下的暴力處境",
+  "display_short_title": "彩月七緒的租屋衝突設定",
+  "title": "從住戶失序到房東施暴，文案如何鋪出懲罰邏輯",
+  "seo_title": "CAWB-040 彩月七緒：租屋衝突與暴力敘事的宣傳分析",
+  "social_title": "租屋糾紛如何被寫成施暴藉口？彩月七緒兩作設定比較",
+  "short_review": "公開簡介先累積垃圾、投訴與欠租問題，再讓房東的憤怒帶出暴力。這個排列使受害角色先受到道德評判，是本作宣傳最值得辨認的敘事選擇。",
+  "editorial_angle": "以非露骨的宣傳文本分析，比較租屋管理關係與熟人侵入情侶生活的設定，辨認文案如何分配責任與引導讀者立場。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介先交代住戶的垃圾、投訴與欠租問題，再描述房東登門及施暴。",
+      "supports": "生活失序與管理衝突被安排為暴力情節的前置理由；這是對文案結構的判讀。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作來源標題以貶抑角色的語句，宣稱對她施暴沒有問題。",
+      "supports": "懲罰與合理化暴力的語氣直接存在於宣傳文字，不能當成文章自身的價值判斷。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "DSOD-060 的簡介從情侶同居生活出發，安排男友前輩趁其不在時侵入住處，涉及下藥與強迫。",
+      "supports": "比較作以外來者破壞既有關係為起點，本作則由住戶與房東的管理衝突推進，兩者的角色位置不同。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將來源的貶抑措辭當成對角色或現實人物的客觀評價。",
+    "未推論彩月七緒的真實生活、性格或人物經歷。",
+    "未將兩作認定為同系列或同片商作品。",
+    "未依標籤推定具體場面、人數安排或段落順序。",
+    "未宣稱已觀看影片，亦未評定表演、攝影、聲音、節奏或成片品質。",
+    "未把編輯整理的作品顯示題名當成日文原題。"
+  ],
+  "decision_guide": {
+    "thesis": "辨識本作設定時，應注意文案如何先貶抑住戶，再將管理者的憤怒接到暴力情節。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以帶有強烈責難語氣的簡介，交代租屋衝突及性暴力設定。"
+    ],
+    "audience_for": [
+      "希望從角色關係與宣傳敘事理解作品設定的讀者。",
+      "需要辨認性暴力及受害者責難內容，以判斷是否避開的讀者。"
+    ],
+    "audience_not_for": [
+      "希望避開性暴力、羞辱或懲罰式敘事的讀者。",
+      "需要實際影像證據才能判斷表演與製作表現的讀者。"
+    ],
+    "questions_answered": [
+      "本作以哪些租屋問題鋪陳衝突？",
+      "房東在宣傳敘事中處於什麼位置？",
+      "與 DSOD-060 相比，施暴者與受害者的關係有何不同？",
+      "這些差異如何協助辨認題材與避開不合偏好的設定？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "租屋糾紛如何被轉成暴力藉口？",
+      "body": "本作簡介先說彩月七緒飾演的住戶在失戀後生活失序，再逐項列出公共走廊垃圾、鄰居投訴與欠租。房東因此登門，衝突隨後轉入性暴力。值得注意的是排列方式：文案花篇幅讓讀者先對住戶產生負面評價，再呈現房東的憤怒。來源標題甚至直接替施暴開脫，因此「懲罰這個角色」是宣傳明確建立的框架。住戶違反生活規範，並不能構成性暴力的正當理由。"
+    },
+    {
+      "heading": "與同演員作品相比，權力從哪裡進入生活？",
+      "body": "同樣由彩月七緒演出的 DSOD-060，簡介從情侶幸福同居寫起，讓男友的前輩趁其不在時侵入住處，並安排下藥與強迫。兩作雖都涉及私人生活遭到侵犯，起點卻不同：DSOD-060 把威脅放在介入情侶生活的熟人身上；本作則讓本有租屋管理關係的房東成為施暴者，並先列出住戶的過失。對選片而言，這能協助分辨外來者破壞關係與管理衝突轉為懲罰的不同設定；尤其在意受害者責難語氣的讀者，已有明確的避開依據。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用使用者提供的 [CAWB-040 作品頁快照](https://cc18.tv/player.php?uuid=tRXjslASCe4&cat=19)與 [DSOD-060 關聯作品快照](https://cc18.tv/player.php?uuid=tCZj6MhUBcq&cat=19)。官方作品頁搜尋未取得可用材料，本作外部來源頁亦未能開啟；未將搜尋片段當成全文。比較限於兩份公開簡介及已核對的同演員關係，未使用影片抽樣。文案如何分配責任是編輯判讀，無法據此判定成片是否認同、反省或改寫這套敘事。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "c0719662cc4cef3f156253a48cf2f03c473d8572633ca2eb8b1297e1a34081bc",
+    "response_sha256": "4a79c2d97825575171c43dbbddb087a2a6014ecc2b543509df3b6d58e2b9f38b",
+    "research_input_sha256": "31d7356af3327d59650e7323390b3a508f3481cfd858109da867adea8afcab95",
+    "related_source_ids": [
+      "SODAH-012",
+      "MNGS-070",
+      "MNGS-079",
+      "PPPE-449",
+      "DSOD-060",
+      "NSODN-025"
+    ]
+  }
+}
