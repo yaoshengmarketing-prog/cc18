@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "id": "CAWB-044",
+  "generated_at": "2026-11-07T09:49:05.806Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/CAWB-044.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "清野咲",
+    "premise": "作品以「清野咲」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「清野咲」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "清野咲",
+      "中出"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "美少女"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "淫亂・過激系"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由清野咲演出，CAWB-044 與 CAWB-069 如何把芭蕾與柔軟度放進不同的企劃設定？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=b8tnmzd8eb0&cat=19",
+      "supports": [
+        "依據使用者提供的已核對來源快照：主角因家境限制而自學芭蕾，故事由向鄰居反映垃圾與惡臭問題展開，涉及性暴力。",
+        "芭蕾夢想屬於作品角色設定，不能據此認定演員的真實經歷。"
+      ]
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=fGCc6mOPs1y&cat=19",
+      "supports": [
+        "依據使用者提供的已核對關聯作品資料：同樣由清野咲演出，宣傳以柔軟度及片商二十週年紀念企劃為重點。",
+        "兩作已核對的關聯是同演員，並非同系列。"
+      ]
+    }
+  ],
+  "angle_candidates": [
+    "比較芭蕾在兩份簡介中分別作為角色背景與身體特徵的用途。",
+    "分析鄰里糾紛如何替本作建立具體的故事起點。",
+    "區分作品角色的芭蕾夢想與演員個人履歷。"
+  ],
+  "selected_thesis": "本作辨識度較高的設定，是把芭蕾放進角色的生活願望，再以鄰里糾紛引出暴力處境；相較之下，同演員的 CAWB-069 更集中於柔軟度與紀念企劃的項目安排。這項差異有助於區分企劃方向，不能用來評定成片品質。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "清野咲",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "隣人のゴミ部屋で異臭中年おやじに抜かずの連撃中出し",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "美少女設定",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "清野咲：芭蕾夢想與鄰居垃圾屋事件",
+  "display_short_title": "清野咲的芭蕾角色設定",
+  "title": "芭蕾夢想如何成為角色背景：清野咲兩作的企劃差異",
+  "seo_title": "CAWB-044 清野咲｜芭蕾角色背景與同演員作品比較",
+  "social_title": "同樣提到芭蕾，清野咲兩作的設定重心有何不同？",
+  "short_review": "本作簡介交代了自學芭蕾的願望，也給出鄰里糾紛這個事件起點。與同演員的紀念企劃相比，差異在於角色處境更具體；這能說明題材方向，尚不足以證明故事鋪陳完整。",
+  "editorial_angle": "以非露骨的宣傳文本分析，比較角色背景與企劃安排，提供題材辨識依據。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介交代家境限制、自學芭蕾，以及向鄰居反映環境問題的情節。",
+      "supports": "芭蕾在本作具有角色願望與生活背景的功能，事件也有明確起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "關聯作品資料確認 CAWB-069 同樣由清野咲演出，但不屬於相同系列。",
+      "supports": "比較範圍成立於同演員作品，不能延伸為系列演變。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "CAWB-069 的來源介紹突出柔軟度、二十週年紀念定位及多項企劃安排。",
+      "supports": "兩份簡介的重心分別偏向角色處境與企劃項目，形成可核對的設定差異。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "清野咲本人出身貧困、曾自學芭蕾或具有專業舞者資歷。",
+    "本作含有完整舞蹈段落，或以特定鏡位呈現舞蹈。",
+    "宣傳中的次數、時長與結果已獲影像驗證。",
+    "兩作屬於同系列，或存在敘事上的前後承接。",
+    "僅憑簡介判定演技、剪輯、節奏或成片品質。"
+  ],
+  "decision_guide": {
+    "thesis": "辨識本作應先看芭蕾願望與鄰里事件如何構成角色處境，而非僅以柔軟度標籤概括。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以角色背景及涉及性暴力的鄰里事件介紹作品。"
+    ],
+    "audience_for": [
+      "想比較清野咲不同作品角色設定的讀者。",
+      "希望先了解故事起點與題材界線的讀者。"
+    ],
+    "audience_not_for": [
+      "希望避開性暴力題材的讀者。",
+      "期待以作品介紹確認專業芭蕾演出或演員舞蹈履歷的讀者。"
+    ],
+    "questions_answered": [
+      "芭蕾在本作簡介中扮演什麼角色？",
+      "本作與同演員紀念企劃的設定差異在哪裡？",
+      "這些差異能提供哪些題材判斷，又有哪些問題仍無法回答？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "芭蕾先替角色建立願望",
+      "body": "同樣由清野咲演出，芭蕾在兩份作品介紹中有不同用途。本作簡介先交代角色因家境限制而自學芭蕾，再由她向鄰居反映垃圾與惡臭問題，引出後續暴力事件。芭蕾因此參與了人物背景的建立：角色有自己的願望，也面臨具體的生活限制。"
+    },
+    {
+      "heading": "與同演員作品相比，重心落在不同地方",
+      "body": "CAWB-069 的介紹則突出柔軟度，並以片商二十週年紀念定位串起多項企劃安排。兩者的具體差異，是本作提供自學動機與鄰里衝突，另一作著重身體特徵與項目組合。對選片而言，這能區分角色事件導向與企劃展示導向；前者寫出故事起點，仍不代表成片一定投入更多篇幅經營人物。"
+    },
+    {
+      "heading": "題材判斷先於表現評價",
+      "body": "本作簡介明確涉及性暴力，這是判斷是否符合個人觀看界線的重要資訊。若關注的是清野咲如何被安排成不同角色，本作的生活背景值得拿來比較；若期待舞蹈演出、完整人物成長或特定敘事節奏，現有文字尚無法回答。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用使用者提供的 [CAWB-044 來源作品頁快照](https://cc18.tv/player.php?uuid=b8tnmzd8eb0&cat=19)，以及 [CAWB-069 關聯作品資料](https://cc18.tv/player.php?uuid=fGCc6mOPs1y&cat=19)。本次查找未取得可用的官方作品或人物全文，兩個來源作品頁亦無法透過檢索工具開啟，因此比較限於所附已核對文字，未採用搜尋摘要補充事實，也未使用影片抽樣。文中企劃重心與選片意義屬編輯判斷；角色背景不作為演員真實經歷，編輯題名也不視為已核實的日文原題。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "f752a3e2ad0bd2f21f73462a37b162763e272e15998431728b324d286d0115f3",
+    "response_sha256": "fe4f42faa8d55e16d453c9dd586622b0aa49c2728e10ad1d68892c533be178a1",
+    "research_input_sha256": "9340fb237397b62f53ae7229ab7298e0db536513c5a210c3444e395b7bf827b8",
+    "related_source_ids": [
+      "CAWB-069"
+    ]
+  }
+}

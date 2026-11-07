@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "CAWB-044",
+  "review_sha256": "8dc42636190293830edbeb6e19b262fcc28c6308ea292c272c8aff496dd6a624",
+  "selected_thesis": "本作辨識度較高的設定，是把芭蕾放進角色的生活願望，再以鄰里糾紛引出暴力處境；相較之下，同演員的 CAWB-069 更集中於柔軟度與紀念企劃的項目安排。這項差異有助於區分企劃方向，不能用來評定成片品質。",
+  "title_basis": {
+    "performer": "清野咲",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "清野咲",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "隣人のゴミ部屋で異臭中年おやじに抜かずの連撃中出し",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "清野咲",
+    "presentation_feature": "隣人のゴミ部屋で異臭中年おやじに抜かずの連撃中出し",
+    "editorial_judgment": "以非露骨的宣傳文本分析，比較角色背景與企劃安排，提供題材辨識依據。",
+    "source_keywords": [
+      "清野咲",
+      "隣人のゴミ部屋で異臭中年おやじに抜かずの連撃中出し",
+      "美少女設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介交代家境限制、自學芭蕾，以及向鄰居反映環境問題的情節。",
+      "supports": "芭蕾在本作具有角色願望與生活背景的功能，事件也有明確起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "關聯作品資料確認 CAWB-069 同樣由清野咲演出，但不屬於相同系列。",
+      "supports": "比較範圍成立於同演員作品，不能延伸為系列演變。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "CAWB-069 的來源介紹突出柔軟度、二十週年紀念定位及多項企劃安排。",
+      "supports": "兩份簡介的重心分別偏向角色處境與企劃項目，形成可核對的設定差異。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "清野咲本人出身貧困、曾自學芭蕾或具有專業舞者資歷。",
+    "本作含有完整舞蹈段落，或以特定鏡位呈現舞蹈。",
+    "宣傳中的次數、時長與結果已獲影像驗證。",
+    "兩作屬於同系列，或存在敘事上的前後承接。",
+    "僅憑簡介判定演技、剪輯、節奏或成片品質。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}

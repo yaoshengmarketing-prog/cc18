@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "movie_id": "CAWB-044",
+  "generated_at": "2026-11-07T09:49:07.089Z",
+  "source_snapshot_hash": "sha256:f752a3e2ad0bd2f21f73462a37b162763e272e15998431728b324d286d0115f3",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "辨識本作應先看芭蕾願望與鄰里事件如何構成角色處境，而非僅以柔軟度標籤概括。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以角色背景及涉及性暴力的鄰里事件介紹作品。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想比較清野咲不同作品角色設定的讀者。",
+      "希望先了解故事起點與題材界線的讀者。"
+    ],
+    "not_for": [
+      "希望避開性暴力題材的讀者。",
+      "期待以作品介紹確認專業芭蕾演出或演員舞蹈履歷的讀者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "CAWB-069",
+      "relation_type": "same_performer",
+      "reason": "同樣由清野咲出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "清野咲"
+      ],
+      "contrast_signals": [
+        "中出",
+        "獨家配信"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "芭蕾在本作簡介中扮演什麼角色？",
+    "本作與同演員紀念企劃的設定差異在哪裡？",
+    "這些差異能提供哪些題材判斷，又有哪些問題仍無法回答？"
+  ]
+}
