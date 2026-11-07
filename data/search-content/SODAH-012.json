@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "movie_id": "SODAH-012",
+  "generated_at": "2026-11-07T04:46:12.435Z",
+  "source_snapshot_hash": "sha256:ae567ccfe8f3f83ff1adccfa5ade535c4c3adc169e3a6baf9bc0ebd13466f448",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看共同興趣促成同學親近，可留意本作；偏好保密關係帶來的緊張感，則可參考同演員的 MNGS-070。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開設定採同學關係與音樂祭返程情境",
+      "來源標示主觀視角與 ASMR"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "喜歡由共同興趣帶出戀愛關係的讀者",
+      "想找彩月七緒演出同學角色設定的讀者"
+    ],
+    "not_for": [
+      "選片時更想看祕密關係與背德張力的讀者",
+      "需要先確認實際聲音呈現或敘事節奏的讀者"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "NSODN-025",
+      "relation_type": "same_performer",
+      "reason": "同樣由彩月七緒出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "彩月七緒"
+      ],
+      "contrast_signals": [
+        "我所不認識的表情",
+        "自拍形式"
+      ]
+    },
+    {
+      "movie_id": "DSOD-060",
+      "relation_type": "same_performer",
+      "reason": "同樣由彩月七緒出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "彩月七緒"
+      ],
+      "contrast_signals": [
+        "寝取られ種付けプレス"
+      ]
+    },
+    {
+      "movie_id": "PPPE-449",
+      "relation_type": "same_performer",
+      "reason": "同樣由彩月七緒出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "彩月七緒"
+      ],
+      "contrast_signals": [
+        "女友巨乳OO內射OK誘惑",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "兩人為何會獨處？",
+    "本作與同演員的 MNGS-070 在關係設定上有何差異？",
+    "這個差異能提供什麼選片線索？"
+  ]
+}

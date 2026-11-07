@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "id": "SODAH-012",
+  "generated_at": "2026-11-07T04:46:11.815Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SODAH-012.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "ASMRラブストーリー",
+    "premise": "作品以「ASMRラブストーリー」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「ASMRラブストーリー」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "ASMRラブストーリー",
+      "彩月七緒",
+      "巨乳"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "口交",
+      "騎乘位"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由彩月七緒演出，本作與另一部作品各用什麼事件讓兩人獨處？這個差異如何影響選片？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=ytNZEnO9sD&cat=19",
+      "supports": "題供已核對的作品資料記載：同班同學因喜歡相同音樂而同行，從音樂祭返程時錯過末班車，進入情人旅館；企劃標示主觀視角與 ASMR。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=eCtAI24Tg3J&cat=19",
+      "supports": "題供已核對的同演員作品資料記載：男主角在男用按摩店與女友的姊姊重逢，關係以對女友保密為前提。"
+    }
+  ],
+  "angle_candidates": [
+    "錯過末班車如何把同學關係推向獨處",
+    "比較彩月七緒兩部作品的相處前提：共同興趣與保密關係",
+    "主觀視角與 ASMR 如何服務這段音樂祭返程設定"
+  ],
+  "selected_thesis": "本作的選片入口是共同音樂興趣與錯過末班車形成的同學獨處；相較於同演員作品以祕密關係製造張力，這部的公開設定更著重兩人關係的靠近。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "彩月七緒",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "ASMRラブストーリー",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "彩月七緒與同班同學的音樂祭返程",
+  "display_short_title": "音樂祭後的末班車",
+  "title": "錯過末班車，讓同學關係有了轉折",
+  "seo_title": "SODAH-012｜彩月七緒的音樂祭返程與同學戀愛設定",
+  "social_title": "音樂祭散場後，彩月七緒與同學錯過了末班車",
+  "short_review": "彩月七緒這部作品把共同音樂興趣、錯過末班車與情人旅館串成一條關係線。想找同學間逐漸靠近的設定，可從這部看起；主觀視角與 ASMR 的實際效果仍需看成片。",
+  "editorial_angle": "以兩人為何獨處作比較，說明本作的戀愛設定與同演員祕密關係題材的選片差異。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介寫明兩人因喜歡相同音樂而同行，音樂祭後錯過末班車。",
+      "supports": "共同興趣與返程意外構成本作的相處前提。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作來源標示主觀視角與 ASMR。",
+      "supports": "可將近距離的敘事方式列為選片時值得留意的企劃方向。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "MNGS-070 的簡介以按摩店重逢女友姊姊、對女友保密為前提。",
+      "supports": "同演員作品提供了具體對照：其關係張力來自保密，本作則從同學與共同興趣展開。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將宣傳中的 ASMR 與主觀視角推論為已確認的聲音品質或沉浸效果。",
+    "未將簡介描述當作已觀看的畫面、表演或台詞。",
+    "未推定兩部作品的實際節奏或故事密度。"
+  ],
+  "decision_guide": {
+    "thesis": "想看共同興趣促成同學親近，可留意本作；偏好保密關係帶來的緊張感，則可參考同演員的 MNGS-070。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開設定採同學關係與音樂祭返程情境",
+      "來源標示主觀視角與 ASMR"
+    ],
+    "audience_for": [
+      "喜歡由共同興趣帶出戀愛關係的讀者",
+      "想找彩月七緒演出同學角色設定的讀者"
+    ],
+    "audience_not_for": [
+      "選片時更想看祕密關係與背德張力的讀者",
+      "需要先確認實際聲音呈現或敘事節奏的讀者"
+    ],
+    "questions_answered": [
+      "兩人為何會獨處？",
+      "本作與同演員的 MNGS-070 在關係設定上有何差異？",
+      "這個差異能提供什麼選片線索？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "一班末班車，改變了相處距離",
+      "body": "彩月七緒這部作品的公開簡介，先讓兩位同班同學因喜歡相同音樂而一起去野外音樂祭，再安排他們聊到錯過末班車，進入情人旅館。值得留意的是這個順序：獨處有了共同興趣與返程意外作鋪墊，選片時便能辨認出它偏向同學關係逐漸靠近的戀愛設定。來源也標示主觀視角與 ASMR，但這只能說明企劃方向，不能據此判斷成片的聲音效果。"
+    },
+    {
+      "heading": "同樣由彩月七緒演出，獨處的理由不同",
+      "body": "對照 MNGS-070，差別更清楚：那部的簡介從男用按摩店重逢女友的姊姊開始，並以對女友保密建立關係張力；本作則讓同學透過共同音樂興趣走到錯過末班車的一晚。若你想看祕密關係如何推動設定，前者的入口更直接；若你想看原本熟識的兩人如何被一次同行拉近，本作更貼近這個期待。這是對兩份公開簡介的比較，並非對成片表現的評分。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據題供已核對的 [SODAH-012 作品資料](https://cc18.tv/player.php?uuid=ytNZEnO9sD&cat=19)與 [MNGS-070 作品資料](https://cc18.tv/player.php?uuid=eCtAI24Tg3J&cat=19)撰寫。兩個外部頁面在本次環境中無法開啟；上述判斷限於提供的來源快照，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "ae567ccfe8f3f83ff1adccfa5ade535c4c3adc169e3a6baf9bc0ebd13466f448",
+    "response_sha256": "0a493a3152697bf870b490332924aeb503941d36af4cc09827899f0e9f8b3b9d",
+    "research_input_sha256": "aaf9e34d223cf27c34e37e699a9888b7027ffcdee5e93443cb1149217d2e53fe",
+    "related_source_ids": [
+      "MNGS-070",
+      "MNGS-079",
+      "PPPE-449",
+      "DSOD-060",
+      "NSODN-025"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T03:49:51.516Z",
+  "updated_at": "2026-11-07T04:52:21.120Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -7087,6 +7087,21 @@
       ],
       "release_date": "2026-11-06",
       "source_url": "https://cc18.tv/player.php?uuid=xS6b255Mja8&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-07"
+    },
+    {
+      "id": "SODAH-012",
+      "actress": [
+        "彩月七緒"
+      ],
+      "release_date": "2026-11-06",
+      "source_url": "https://cc18.tv/player.php?uuid=ytNZEnO9sD&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "SODAH-012",
+  "review_sha256": "f64881a9e4eff9ce3999ba78c8975ca9899f341fa1fef14ca5e6cbf37d0968a4",
+  "selected_thesis": "本作的選片入口是共同音樂興趣與錯過末班車形成的同學獨處；相較於同演員作品以祕密關係製造張力，這部的公開設定更著重兩人關係的靠近。",
+  "title_basis": {
+    "performer": "彩月七緒",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "彩月七緒",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "ASMRラブストーリー",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "彩月七緒",
+    "presentation_feature": "ASMRラブストーリー",
+    "editorial_judgment": "以兩人為何獨處作比較，說明本作的戀愛設定與同演員祕密關係題材的選片差異。",
+    "source_keywords": [
+      "彩月七緒",
+      "ASMRラブストーリー",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介寫明兩人因喜歡相同音樂而同行，音樂祭後錯過末班車。",
+      "supports": "共同興趣與返程意外構成本作的相處前提。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作來源標示主觀視角與 ASMR。",
+      "supports": "可將近距離的敘事方式列為選片時值得留意的企劃方向。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "MNGS-070 的簡介以按摩店重逢女友姊姊、對女友保密為前提。",
+      "supports": "同演員作品提供了具體對照：其關係張力來自保密，本作則從同學與共同興趣展開。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將宣傳中的 ASMR 與主觀視角推論為已確認的聲音品質或沉浸效果。",
+    "未將簡介描述當作已觀看的畫面、表演或台詞。",
+    "未推定兩部作品的實際節奏或故事密度。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}

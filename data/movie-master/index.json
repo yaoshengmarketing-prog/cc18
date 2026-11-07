@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-07T03:50:19.039Z",
+  "generated_at": "2026-11-07T04:52:53.844Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 477,
-  "formal_movie_count": 476,
+  "tracked_input_count": 478,
+  "formal_movie_count": 477,
   "demo_count": 1,
-  "published_count": 473,
+  "published_count": 474,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -3851,6 +3851,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "acd05dfaf51b9776e10d02c94d2d34c409892005fd253d3c759b2b3dcd18e62a"
+    },
+    {
+      "stable_movie_id": "cc18:SODAH-012",
+      "catalog_code": "SODAH-012",
+      "slug": "sodah-012",
+      "master_path": "data/movie-master/sodah-012.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "18fb25eebff609312a152603576228799d4e291f1bfd905db1e724d26ccf9249"
     },
     {
       "stable_movie_id": "cc18:SORA-654",
