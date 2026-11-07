@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "movie_id": "WAAA-694",
+  "generated_at": "2026-11-07T14:42:44.279Z",
+  "source_snapshot_hash": "sha256:60f73beed76b5d57fbb2341a55da48240e9dc1127f1801d525c5f1b0f8015b7d",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "選片時可先區分自己關注的是雙人角色互動，還是明確標示的近攝與收音形式。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "雙人搭檔企劃；來源分類包含第一人稱視點，簡介以競爭及合作組織人物互動。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "關注五日市芽依與花守夏步共同演出安排的讀者。",
+      "希望先從人物關係辨識企劃差異的讀者。"
+    ],
+    "not_for": [
+      "需要先確認完整故事結構或實際節奏的讀者。",
+      "將人頭錄音與超近攝規格視為必要條件的讀者；目前材料未替本作確認這些規格。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "DLDSS-545",
+      "relation_type": "same_performer",
+      "reason": "同樣由花守夏步出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "花守夏步"
+      ],
+      "contrast_signals": [
+        "人妻女教師",
+        "角奈保"
+      ]
+    },
+    {
+      "movie_id": "SQTE-716",
+      "relation_type": "same_performer",
+      "reason": "同樣由花守夏步出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "花守夏步"
+      ],
+      "contrast_signals": [
+        "放課後はお泊りSEX",
+        "美少女設定"
+      ]
+    },
+    {
+      "movie_id": "MKON-148",
+      "relation_type": "same_performer",
+      "reason": "同樣由花守夏步出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "花守夏步"
+      ],
+      "contrast_signals": [
+        "皆瀨明里",
+        "陰沉的我"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "雙人搭檔在本作簡介中具有什麼作用？",
+    "與同演員的近攝收音企劃相比，宣傳重心有何不同？",
+    "這些差異能提供哪些選片線索？"
+  ]
+}

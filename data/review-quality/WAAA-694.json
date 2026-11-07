@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "WAAA-694",
+  "review_sha256": "1dfc832f65edb01767cace6e2548a37912ac3c3cc79cc96a5c9294288dc17f90",
+  "selected_thesis": "本作的辨識度來自五日市芽依與花守夏步之間競爭兼合作的搭檔設定；相較於 WAAA-701 對人頭錄音與近攝的明確訴求，它提供的是以人物關係為起點的選片線索。",
+  "title_basis": {
+    "performer": "五日市芽依、花守夏步",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "五日市芽依",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "蛋蛋汁被榨乾的那個夏天",
+        "source_field": "title"
+      },
+      {
+        "type": "performer",
+        "value": "花守夏步",
+        "source_field": "actress"
+      },
+      {
+        "type": "setting",
+        "value": "學生設定",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "五日市芽依",
+    "presentation_feature": "蛋蛋汁被榨乾的那個夏天",
+    "editorial_judgment": "比較公開簡介如何組織人物關係與拍攝訴求，據此說明選片差異。",
+    "source_keywords": [
+      "五日市芽依",
+      "蛋蛋汁被榨乾的那個夏天",
+      "花守夏步",
+      "學生設定"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源列出五日市芽依與花守夏步，簡介描述兩人輪流競爭，也共同推進互動。",
+      "supports": "雙人搭檔的競爭與合作是有文字依據的企劃設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作來源標有第一人稱視點。",
+      "supports": "可將第一人稱視點列為來源提供的呈現分類，但不能據此判斷全片鏡位安排。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "WAAA-701 的來源介紹明列人頭錄音、超近距離拍攝，並以五日市芽依為介紹中心。",
+      "supports": "兩份簡介的具體差別，在於雙人關係與單人視聽呈現各自佔據宣傳重心。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將兩部作品稱為同系列或前後續作。",
+    "未推定兩位演員在現實中的交情。",
+    "未將簡介中的競爭設定延伸為表演默契或成片品質評價。",
+    "未把關聯作品的人頭錄音與近攝規格套用到本作。",
+    "未補寫場景順序、對白、剪接節奏或聲音效果。",
+    "未將編輯整理的中文標題宣稱為官方原題。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "WAAA-694",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-07T14:47:29.657Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/WAAA-694/hero-v1.jpg",
+      "r2_key": "works/2026/10/WAAA-694/hero-v1.jpg",
+      "bytes": 969650,
+      "sha256": "6c062569a5f9b3d75b9817db8c006bbba8f043eb9ef645eba311c08be2379ef1",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "8b5a9fe067724226b66192de5e29e583",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/WAAA-694/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/WAAA-694/scene-vertical-v1.jpg",
+      "bytes": 939241,
+      "sha256": "89fe318373683f868ea3e74c9f8b212bdb7b3d93b4643c03a7fb126191858913",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "6a25f4de40f54c5586fa5312d6e2396a",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3217051,
+    "sha256": "fa9f3d93b1c77a00fabc62b1d990a850d30ae50bc11a561b94502130d9730a81",
+    "target_r2_key": "works/2026/10/WAAA-694/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/WAAA-694/vertical-v1.mp4"
+  }
+}

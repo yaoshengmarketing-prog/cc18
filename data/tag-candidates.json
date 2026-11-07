@@ -1459,7 +1459,7 @@
     },
     {
       "label": "第一人稱視點",
-      "occurrences": 16,
+      "occurrences": 17,
       "source_ids": [
         "IESP-765",
         "IPZZ-943",
@@ -1476,10 +1476,11 @@
         "FPRE-246",
         "MIDA-846",
         "BAGR-092",
-        "MKMP-751"
+        "MKMP-751",
+        "WAAA-694"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-07",
       "status": "quarantined"
     },
     {
@@ -2294,7 +2295,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 39,
+      "occurrences": 40,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -2334,7 +2335,8 @@
         "AWAW-031",
         "CEMD-885",
         "SNOS-347",
-        "CAWB-040"
+        "CAWB-040",
+        "WAAA-694"
       ],
       "first_seen": "2026-09-09",
       "last_seen": "2026-11-07",

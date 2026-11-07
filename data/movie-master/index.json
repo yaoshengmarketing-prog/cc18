@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-07T13:52:26.423Z",
+  "generated_at": "2026-11-07T14:48:49.586Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 487,
-  "formal_movie_count": 486,
+  "tracked_input_count": 488,
+  "formal_movie_count": 487,
   "demo_count": 1,
-  "published_count": 483,
+  "published_count": 484,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -4301,6 +4301,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "73de990d453014fcaab26c95066838d12d59be44e377467b1c4d640b0c84f1b5"
+    },
+    {
+      "stable_movie_id": "cc18:WAAA-694",
+      "catalog_code": "WAAA-694",
+      "slug": "waaa-694",
+      "master_path": "data/movie-master/waaa-694.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "1f147d9368eb5a8eba313b894f50528f1ba6b6226e0a4827066ed8db4e511bdd"
     },
     {
       "stable_movie_id": "cc18:WAAA-696",
