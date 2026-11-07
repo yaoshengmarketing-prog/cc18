@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "SAME-244",
+  "checked_at": "2026-11-07T07:50:47.588Z",
+  "review_sha256": "6b3ef5bbf22a8a59d6688c0d0caf7f79ebf913370bafb915f3545b8c60da3ce6",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed",
+    "missing_creative_reconstruction_audit",
+    "insufficient_presentation_signals"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 3,
+          "excerpt": "父親受傷與麗華接掌家業，如何替後續脅迫建立前因？來源簡介給出的答案很具體：父親因暴力受傷而退出房地產公司的經營，麗華因此承擔忙碌的接班生活。公司交接不是獨立的職場背景，而是家庭受害後產生的責任轉移。當出獄者再度登門索款，威脅便與先前的家庭遭遇接在一起。"
+        }
+      ]
+    },
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_presentation_signals",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 3,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "id": "SAME-244",
+  "generated_at": "2026-11-07T07:47:01.553Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SAME-244.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "足立友梨",
+    "premise": "作品以「足立友梨」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「足立友梨」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "足立友梨",
+      "足立友梨"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "戲劇、連續劇",
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "父親受傷與麗華接掌家業的設定，如何讓本作的脅迫情節具有明確的前因？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=nDjZ7hK9a1v&cat=19",
+      "supports": [
+        "使用本次提供的作品頁資料快照，未將搜尋片段當作全文。",
+        "簡介交代父親因暴力受傷、退出房地產公司，由麗華接手經營。",
+        "簡介接續描述出獄者索款、遭拒後施暴，並以錄影威脅麗華。",
+        "人物關係資料列出演員足立友梨，片商為 ATTACKERS。"
+      ]
+    }
+  ],
+  "angle_candidates": [
+    "[object Object]",
+    "[object Object]",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作簡介以接掌家業串起兩代人的受害處境，再以錄影威脅延續控制；理解這條因果鏈，比單靠題材標籤更能辨認故事設定。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "足立友梨",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "私を犯した大嫌いな男の、あの腰使いが忘れられなくて…",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "足立友梨：接掌家業後的暴力與脅迫",
+  "display_short_title": "足立友梨・家業與脅迫",
+  "title": "父親退下之後，威脅如何轉向女兒？",
+  "seo_title": "SAME-244 足立友梨｜從接掌家業理解暴力與脅迫的設定",
+  "social_title": "接下公司，也面對延續的威脅：足立友梨本作的故事前因",
+  "short_review": "公開簡介先寫父親受傷退下、麗華接掌公司，再交代索款與錄影威脅。這使暴力具有家庭層面的前因，也讓錄影成為持續控制的工具。材料足以辨認設定，尚不足以評價敘事完成度。",
+  "editorial_angle": "從家庭責任與脅迫手段分析公開簡介，聚焦暴力如何延續，不將受害處境解讀為情感認同。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "父親因遭受暴力而受傷，退出經營的房地產公司，麗華接手家業。",
+      "supports": "接班設定具有明確起因，角色的工作責任與家庭遭遇相連。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介把出獄者登門索款、麗華拒絕與後續暴力接續書寫。",
+      "supports": "金錢要求與拒絕構成情節轉折，不能改寫成雙方自願的關係發展。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "施暴者以拍攝的影片威脅麗華。",
+      "supports": "錄影在簡介中的明確功能是脅迫，可據此討論控制的延續。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未確認的日文作品原題，以及把日文系列名當作作品原題的寫法。",
+    "足立友梨的個人經歷、表演特色或未經核對的其他作品。",
+    "麗華愛上施暴者、主動依戀對方或將暴力視為自願關係的推論。",
+    "公司遭奪取、錄影外流、復仇或和解等未提供的後續情節。",
+    "具體鏡頭、聲音、台詞、剪接節奏與表演品質。",
+    "缺乏關聯作品材料支持的跨片比較。"
+  ],
+  "decision_guide": {
+    "thesis": "可確認的辨識重點是家業接班、索款與錄影威脅形成的因果關係；成片如何處理角色與暴力，仍無足夠材料判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源歸類為戲劇題材，簡介以家庭受害、經營責任與持續脅迫建立故事。"
+    ],
+    "audience_for": [
+      "希望從公開資料理解角色處境與故事前因的讀者。",
+      "關注虛構作品如何描述脅迫與控制的讀者。"
+    ],
+    "audience_not_for": [
+      "希望避開性暴力與影像威脅題材的讀者。",
+      "需要依據實際影像評價表演、節奏或敘事完成度的讀者。"
+    ],
+    "questions_answered": [
+      "[object Object]",
+      "[object Object]",
+      "[object Object]"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "接班之前，家庭已經受到暴力影響",
+      "body": "父親受傷與麗華接掌家業，如何替後續脅迫建立前因？來源簡介給出的答案很具體：父親因暴力受傷而退出房地產公司的經營，麗華因此承擔忙碌的接班生活。公司交接不是獨立的職場背景，而是家庭受害後產生的責任轉移。當出獄者再度登門索款，威脅便與先前的家庭遭遇接在一起。"
+    },
+    {
+      "heading": "錄影讓威脅有了延續的手段",
+      "body": "簡介接著寫麗華拒絕金錢要求，對方施暴，再以錄影威脅她。這裡可以確認的是控制手段的變化：金錢要求遭拒後，對方以暴力與影像施加壓力。這些資訊足以辨認故事的強制處境，卻不能據此推論麗華的情感轉變，更不能把受脅迫解讀為同意。"
+    },
+    {
+      "heading": "辨認設定，也保留判斷的界線",
+      "body": "本作可供辨認的具體設定，是父親退下、女兒接班，以及威脅繼續侵入她的生活。對選片而言，這些資訊能幫助讀者確認是否接受性暴力與影像脅迫題材；故事是否充分發展家庭與經營責任，則仍待更多材料。本次沒有同演員或同系列的關聯作品簡介，因此不延伸比較。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據本次提供的 [CC18 作品頁資料快照](https://cc18.tv/player.php?uuid=nDjZ7hK9a1v&cat=19)，使用其中的公開簡介、演員關係與片商資料。未取得可引用的官方作品全文，也未使用影片抽樣。因果關係與選片意義屬於對簡介的編輯分析；不據此評定成片品質。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "75ef33d1b304594b7dddc11671a32fa0c166b88ab446a07ee0b2fc9b3981ccdd",
+    "response_sha256": "431d273c065f97b7534ee83fe8cb0b89efbc2b5e8e28fd816832d7ac1c9adca1",
+    "research_input_sha256": "314edf9cbc805c275db69127c3f6a2d250b18cf5726433385c24fb35ec7b0579",
+    "related_source_ids": []
+  }
+}

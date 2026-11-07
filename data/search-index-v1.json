@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:e68c7e790136d0313a62bc278b20dbdff869b00ad2deeefce3e602dcad772180",
-  "source_generated_at": "2026-11-07T06:55:48.617Z",
+  "source_revision": "sha256:1349d9115d7304bb06de3dabdf995ede57d877d3d04656126cb208845e955e7e",
+  "source_generated_at": "2026-11-07T07:52:21.831Z",
   "counts": {
-    "movies": 476,
-    "performers": 352,
+    "movies": 477,
+    "performers": 353,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1626,6 +1626,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SDMM-239"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:29278",
+      "display_name": "足立友梨",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "足立友梨",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SAME-244"
       ]
     },
     {
@@ -11242,6 +11253,51 @@
         "article_title": "被迫藏匿逃犯，紗季的困境從求救無門開始",
         "display_short_title": "幸村泉希與被迫藏匿的逃犯",
         "slug": "same-230"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SAME-244",
+        "source_cover": "https://cc18.tv/preview/80/b/nDjZ7hK9a1v-800.jpg?v=1790973871",
+        "title": "足立友梨・家業與脅迫",
+        "catalog_code": "SAME-244",
+        "release_date": "2026-10-02",
+        "performers": [
+          "足立友梨"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/same-244/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:29278"
+      ],
+      "search": {
+        "source_title": "我忘不了那個強暴我的討厭男人的腰部擺動… 足立友梨",
+        "article_title": "父親退下之後，威脅如何轉向女兒？",
+        "display_short_title": "足立友梨・家業與脅迫",
+        "slug": "same-244"
       }
     },
     {

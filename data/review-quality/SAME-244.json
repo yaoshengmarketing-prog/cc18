@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "SAME-244",
+  "review_sha256": "b35309f0bcf297d2893269a639a3f47fa21b0f92e858d5d056ae03d080363fb1",
+  "selected_thesis": "本作簡介以接掌家業串起兩代人的受害處境，再以錄影威脅延續控制；理解這條因果鏈，比單靠題材標籤更能辨認故事設定。",
+  "title_basis": {
+    "performer": "足立友梨",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "足立友梨",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "私を犯した大嫌いな男の、あの腰使いが忘れられなくて…",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "足立友梨",
+    "presentation_feature": "私を犯した大嫌いな男の、あの腰使いが忘れられなくて…",
+    "editorial_judgment": "從家庭責任與脅迫手段分析公開簡介，聚焦暴力如何延續，不將受害處境解讀為情感認同。",
+    "source_keywords": [
+      "足立友梨",
+      "私を犯した大嫌いな男の、あの腰使いが忘れられなくて…",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "父親因遭受暴力而受傷，退出經營的房地產公司，麗華接手家業。",
+      "supports": "接班設定具有明確起因，角色的工作責任與家庭遭遇相連。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介把出獄者登門索款、麗華拒絕與後續暴力接續書寫。",
+      "supports": "金錢要求與拒絕構成情節轉折，不能改寫成雙方自願的關係發展。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "施暴者以拍攝的影片威脅麗華。",
+      "supports": "錄影在簡介中的明確功能是脅迫，可據此討論控制的延續。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未確認的日文作品原題，以及把日文系列名當作作品原題的寫法。",
+    "足立友梨的個人經歷、表演特色或未經核對的其他作品。",
+    "麗華愛上施暴者、主動依戀對方或將暴力視為自願關係的推論。",
+    "公司遭奪取、錄影外流、復仇或和解等未提供的後續情節。",
+    "具體鏡頭、聲音、台詞、剪接節奏與表演品質。",
+    "缺乏關聯作品材料支持的跨片比較。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}

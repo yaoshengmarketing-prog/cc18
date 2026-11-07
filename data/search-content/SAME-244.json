@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "movie_id": "SAME-244",
+  "generated_at": "2026-11-07T07:47:02.933Z",
+  "source_snapshot_hash": "sha256:75ef33d1b304594b7dddc11671a32fa0c166b88ab446a07ee0b2fc9b3981ccdd",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "可確認的辨識重點是家業接班、索款與錄影威脅形成的因果關係；成片如何處理角色與暴力，仍無足夠材料判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源歸類為戲劇題材，簡介以家庭受害、經營責任與持續脅迫建立故事。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "希望從公開資料理解角色處境與故事前因的讀者。",
+      "關注虛構作品如何描述脅迫與控制的讀者。"
+    ],
+    "not_for": [
+      "希望避開性暴力與影像威脅題材的讀者。",
+      "需要依據實際影像評價表演、節奏或敘事完成度的讀者。"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "[object Object]",
+    "[object Object]",
+    "[object Object]"
+  ]
+}

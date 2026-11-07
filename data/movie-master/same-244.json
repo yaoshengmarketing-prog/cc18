@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.1.0",
+  "stable_movie_id": "cc18:SAME-244",
+  "slug": "same-244",
+  "is_demo": false,
+  "source": {
+    "catalog_code": "SAME-244",
+    "source_title": "我忘不了那個強暴我的討厭男人的腰部擺動… 足立友梨",
+    "release_date": "2026-10-02",
+    "source_url": "https://cc18.tv/player.php?uuid=nDjZ7hK9a1v&cat=19",
+    "source_site_movie_id": "nDjZ7hK9a1v",
+    "public_description": "父親因遭受暴行而受傷，不得不從經營的房地產公司退休。 接手家業的麗華因此過著忙碌而混亂的日常生活。 …就在此時，出獄的犯人找上麗華要求金錢。 面對麗華的拒絕，他強行對她進行強暴，並用拍攝的影片來威脅她…。",
+    "source_cover": "https://cc18.tv/preview/80/b/nDjZ7hK9a1v-800.jpg?v=1790973871",
+    "raw_performer_names": [
+      "足立友梨"
+    ],
+    "performer_relations": [
+      {
+        "source_type": "actor",
+        "source_id": "29278",
+        "stable_source_id": "cc18.tv:actor:29278",
+        "source_name": "足立友梨",
+        "source_url": "https://cc18.tv/search.php?s_type=actor&s_tid=29278",
+        "observed_at": "2026-10-03T23:04:32.930Z"
+      }
+    ],
+    "series_relations": [
+      {
+        "source_type": "series",
+        "source_id": "18250",
+        "stable_source_id": "cc18.tv:series:18250",
+        "source_name": "私を犯した大嫌いな男の、あの腰使いが忘れられなくて…",
+        "source_url": "https://cc18.tv/search.php?s_type=series&s_tid=18250",
+        "observed_at": "2026-10-03T23:04:32.930Z"
+      }
+    ],
+    "tag_relations": [
+      {
+        "source_type": "tag",
+        "source_id": "4",
+        "stable_source_id": "cc18.tv:tag:4",
+        "source_name": "中出",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=4",
+        "observed_at": "2026-10-03T23:04:32.930Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "11",
+        "stable_source_id": "cc18.tv:tag:11",
+        "source_name": "AV女優片",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=11",
+        "observed_at": "2026-10-03T23:04:32.930Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "126",
+        "stable_source_id": "cc18.tv:tag:126",
+        "source_name": "戲劇、連續劇",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=126",
+        "observed_at": "2026-10-03T23:04:32.930Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "274",
+        "stable_source_id": "cc18.tv:tag:274",
+        "source_name": "羞辱",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=274",
+        "observed_at": "2026-10-03T23:04:32.930Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "479",
+        "stable_source_id": "cc18.tv:tag:479",
+        "source_name": "720p",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=479",
+        "observed_at": "2026-10-03T23:04:32.930Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "501",
+        "stable_source_id": "cc18.tv:tag:501",
+        "source_name": "独占配信",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=501",
+        "observed_at": "2026-10-03T23:04:32.930Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "509",
+        "stable_source_id": "cc18.tv:tag:509",
+        "source_name": "HD",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=509",
+        "observed_at": "2026-10-03T23:04:32.930Z"
+      }
+    ],
+    "fac_relations": [
+      {
+        "source_type": "fac",
+        "source_id": "106",
+        "stable_source_id": "cc18.tv:fac:106",
+        "source_name": "ATTACKERS",
+        "source_url": "https://cc18.tv/search.php?s_type=fac&s_tid=106",
+        "observed_at": "2026-10-03T23:04:32.930Z"
+      }
+    ],
+    "raw_studio_name": "ATTACKERS",
+    "raw_series_names": [
+      "私を犯した大嫌いな男の、あの腰使いが忘れられなくて…"
+    ],
+    "source_tags": [
+      "中出",
+      "AV女優片",
+      "戲劇、連續劇",
+      "羞辱",
+      "720p",
+      "独占配信",
+      "HD"
+    ],
+    "source_record_ref": "data/source-records/SAME-244.json",
+    "source_snapshot_ref": null,
+    "source_fetched_at": "2026-10-03T23:04:32.930Z",
+    "source_verified_at": null,
+    "source_parser_version": null
+  },
+  "display": {
+    "performers": [
+      {
+        "source_actor_id": "cc18.tv:actor:29278",
+        "name_ja": null,
+        "display_name_zh_tw": null,
+        "display_name": "足立友梨",
+        "verification_status": "SOURCE_NAME_FALLBACK"
+      }
+    ]
+  },
+  "titles": {
+    "article_title": "父親退下之後，威脅如何轉向女兒？",
+    "translated_title_zh_tw": null,
+    "display_short_title": "足立友梨・家業與脅迫",
+    "seo_title": "SAME-244 足立友梨｜從接掌家業理解暴力與脅迫的設定"
+  },
+  "derived": {
+    "quality_codes": [
+      "HD_720P"
+    ],
+    "duration_seconds": null,
+    "canonical_topic_tag_ids": [
+      "adult-performer",
+      "creampie",
+      "drama-series",
+      "exclusive-release",
+      "hd"
+    ]
+  },
+  "editorial": {
+    "one_line_summary": "公開簡介先寫父親受傷退下、麗華接掌公司，再交代索款與錄影威脅。這使暴力具有家庭層面的前因，也讓錄影成為持續控制的工具。材料足以辨認設定，尚不足以評價敘事完成度。",
+    "article_ref": "content/reviews/SAME-244.md",
+    "article_evidence_level": "PUBLIC_METADATA",
+    "article_evidence_scope": "SOURCE_TITLE_DESCRIPTION_TAGS"
+  },
+  "media": {
+    "remotion_promo_ref": "data/media-manifests/SAME-244.json#/video"
+  },
+  "evidence": {
+    "records": []
+  },
+  "publishing": {
+    "is_published": true,
+    "published_at": "2026-11-07",
+    "canonical_url": "https://jav.com.tw/works/same-244/",
+    "indexability": "INDEX",
+    "content_hash": "983f5969582b7e1925d59af238eed67cf9008dc16efd81d157379c3ca7495d0f"
+  },
+  "legacy": {
+    "legacy_published_at": null,
+    "legacy_published_at_semantics": null
+  }
+}

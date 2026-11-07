@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-07T06:55:48.617Z",
+  "generated_at": "2026-11-07T07:52:21.831Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 480,
-  "formal_movie_count": 479,
+  "tracked_input_count": 481,
+  "formal_movie_count": 480,
   "demo_count": 1,
-  "published_count": 476,
+  "published_count": 477,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -3356,6 +3356,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "d22ab895b12c9ec3321d591911a4613aa4219c97c785284032f2e66534bcd763"
+    },
+    {
+      "stable_movie_id": "cc18:SAME-244",
+      "catalog_code": "SAME-244",
+      "slug": "same-244",
+      "master_path": "data/movie-master/same-244.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "983f5969582b7e1925d59af238eed67cf9008dc16efd81d157379c3ca7495d0f"
     },
     {
       "stable_movie_id": "cc18:SCMF-004",

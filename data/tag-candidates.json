@@ -1526,7 +1526,7 @@
     },
     {
       "label": "羞辱",
-      "occurrences": 16,
+      "occurrences": 17,
       "source_ids": [
         "DOKS-689",
         "START-601",
@@ -1543,7 +1543,8 @@
         "ATID-690",
         "IPZZ-924",
         "DSJH-021",
-        "SAME-230"
+        "SAME-230",
+        "SAME-244"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-07",
