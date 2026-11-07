@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:b0f29257de8fc869a32c08055c88a2050d4fbe8fc88a9ac7702aa7b118797aee",
-  "source_generated_at": "2026-11-07T17:51:27.496Z",
+  "source_revision": "sha256:6dee52b4a885bb3fb11761e96eb58b2fef31805888f77d3260b5fa918fd80288",
+  "source_generated_at": "2026-11-07T18:49:25.990Z",
   "counts": {
-    "movies": 486,
+    "movies": 487,
     "performers": 357,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -2436,7 +2436,8 @@
       "related_movie_ids": [
         "cc18:MKMP-758",
         "cc18:MMPB-144",
-        "cc18:MNGS-077"
+        "cc18:MNGS-077",
+        "cc18:YUJ-074"
       ]
     },
     {
@@ -11754,6 +11755,59 @@
         "article_title": "女教師標籤之外，簡介揭示了什麼權力關係？",
         "display_short_title": "JULIA 女教師題材與內容提示",
         "slug": "waaa-696"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:YUJ-074",
+        "source_cover": "https://cc18.tv/preview/80/b/hh5inLbHa5X-800.jpg?v=1790923588",
+        "title": "美園和花的探病情境",
+        "catalog_code": "YUJ-074",
+        "release_date": "2026-10-02",
+        "performers": [
+          "美園和花"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/yuj-074/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:22084"
+      ],
+      "search": {
+        "source_title": "假裝看病照顧發燒臥床的我，卻瘋狂幫我射精還吞精的女友。 美園和花",
+        "article_title": "從借傘到探病，兩次照顧如何串起人物關係",
+        "display_short_title": "美園和花的探病情境",
+        "slug": "yuj-074"
       }
     },
     {

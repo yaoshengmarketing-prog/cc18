@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "movie_id": "YUJ-074",
+  "generated_at": "2026-11-07T18:42:09.085Z",
+  "source_snapshot_hash": "sha256:0ddca4b743fc18ef860bba091902d115b89e6196922e06ebeeb12634f19e4954",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "辨別兩作設定時，可先看人物為何採取行動：本作承接戀人之間的照顧，對照作品則以店內競爭為前提。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源介紹以約會後的感冒與探病建立戀人情境；實際影像呈現尚無材料可判斷。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "希望比較同一演員不同角色設定的讀者。",
+      "想先理解人物關係與故事起點的讀者。"
+    ],
+    "not_for": [
+      "需要依據實際觀影確認表演、攝影或剪輯表現的讀者。",
+      "需要完整劇情與結局資訊的讀者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MNGS-077",
+      "relation_type": "same_performer",
+      "reason": "同樣由美園和花出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "美園和花"
+      ],
+      "contrast_signals": [
+        "散發異味的臭大叔",
+        "AV女優片"
+      ]
+    },
+    {
+      "movie_id": "MKMP-758",
+      "relation_type": "same_performer",
+      "reason": "同樣由美園和花出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "美園和花"
+      ],
+      "contrast_signals": [
+        "篠田優",
+        "濱崎真緒"
+      ]
+    },
+    {
+      "movie_id": "MMPB-144",
+      "relation_type": "same_performer",
+      "reason": "同樣由美園和花出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "美園和花"
+      ],
+      "contrast_signals": [
+        "一條美緒",
+        "松本一香"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "[object Object]",
+    "[object Object]"
+  ]
+}

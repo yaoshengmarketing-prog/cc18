@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "YUJ-074",
+  "review_sha256": "d50ad084960aae33389cfded2e2412882c7095aa9307f83291d5ed817ebf4ea5",
+  "selected_thesis": "YUJ-074 的簡介以借傘和探病建立戀人互相照顧的因果；與 MMPB-144 的指名競爭相比，兩作值得區分的是角色行動的理由與關係背景。",
+  "title_basis": {
+    "performer": "美園和花",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "美園和花",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "假裝看病照顧發燒臥床的我",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "美園和花",
+    "presentation_feature": "假裝看病照顧發燒臥床的我",
+    "editorial_judgment": "比較公開簡介中的人物關係、行動動機與情節起點，說明同一演員的不同作品如何建立不同的故事前提。",
+    "source_keywords": [
+      "美園和花",
+      "假裝看病照顧發燒臥床的我",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介依序交代約會遇雨、男友借傘、感冒臥床與女友照顧。",
+      "supports": "探病承接前一段借傘事件，兩次照顧構成可辨識的情節因果。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "MMPB-144 的簡介明列顧客指名、概念服裝與爭取店內第一名。",
+      "supports": "對照作品以服務場合和排名競爭建立動機，與本作的戀人關係不同。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的關聯資料確認兩作共享演員，未共享系列。",
+      "supports": "比較成立於同樣由美園和花演出，不能據此視為系列延續。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將照顧情境推論為成片必然溫柔、療癒或具有特定情感效果。",
+    "未推斷美園和花的真實個性、私人經歷或表演偏好。",
+    "未補寫鏡位、配樂、台詞、場景細節或結局。",
+    "未由宣傳設定判定表演品質、故事密度或剪輯節奏。",
+    "未將編輯擬定的繁中標題視為日文原題或官方譯名。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-07T16:00:00.000Z"
+}

@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "id": "YUJ-074",
+  "generated_at": "2026-11-07T18:42:07.927Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/YUJ-074.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "假裝看病照顧發燒臥床的我",
+    "premise": "作品以「假裝看病照顧發燒臥床的我」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「假裝看病照顧發燒臥床的我」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "假裝看病照顧發燒臥床的我",
+      "美園和花",
+      "吞精"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "口交"
+    ],
+    "presentation": [
+      "戲劇、連續劇",
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由美園和花演出，YUJ-074 與 MMPB-144 的人物關係及情節起點有何差異？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=hh5inLbHa5X&cat=19",
+      "supports": [
+        "提供的作品資料將美園和花列為演員。",
+        "簡介以約會遇雨、男友借傘後感冒，以及女友前來照顧串起情節。"
+      ],
+      "material_scope": "使用者提供的來源快照，未另行開啟網頁全文。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=2VVVjWfXU6F&cat=19",
+      "supports": [
+        "提供的關聯資料確認同樣由美園和花演出，並非同系列作品。",
+        "簡介以概念咖啡廳的角色服裝、顧客指名及店內排名競爭建立設定。"
+      ],
+      "material_scope": "使用者提供的來源快照，未另行開啟網頁全文。"
+    }
+  ],
+  "angle_candidates": [
+    "[object Object]",
+    "[object Object]",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "YUJ-074 的簡介以借傘和探病建立戀人互相照顧的因果；與 MMPB-144 的指名競爭相比，兩作值得區分的是角色行動的理由與關係背景。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "美園和花",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "假裝看病照顧發燒臥床的我",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "美園和花：照顧發燒男友的女友",
+  "display_short_title": "美園和花的探病情境",
+  "title": "從借傘到探病，兩次照顧如何串起人物關係",
+  "seo_title": "YUJ-074 美園和花｜借傘與探病的人物關係解析",
+  "social_title": "借傘之後的探病：美園和花兩作的設定比較",
+  "short_review": "簡介先寫男友借出雨傘，接著交代他感冒臥床、女友前來照顧。這組前後相連的行動，讓探病有了既有戀情與互相照顧的背景；對照同樣由美園和花演出的 MMPB-144，差異落在私人關係與店內競爭兩種動機。",
+  "editorial_angle": "比較公開簡介中的人物關係、行動動機與情節起點，說明同一演員的不同作品如何建立不同的故事前提。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介依序交代約會遇雨、男友借傘、感冒臥床與女友照顧。",
+      "supports": "探病承接前一段借傘事件，兩次照顧構成可辨識的情節因果。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "MMPB-144 的簡介明列顧客指名、概念服裝與爭取店內第一名。",
+      "supports": "對照作品以服務場合和排名競爭建立動機，與本作的戀人關係不同。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的關聯資料確認兩作共享演員，未共享系列。",
+      "supports": "比較成立於同樣由美園和花演出，不能據此視為系列延續。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將照顧情境推論為成片必然溫柔、療癒或具有特定情感效果。",
+    "未推斷美園和花的真實個性、私人經歷或表演偏好。",
+    "未補寫鏡位、配樂、台詞、場景細節或結局。",
+    "未由宣傳設定判定表演品質、故事密度或剪輯節奏。",
+    "未將編輯擬定的繁中標題視為日文原題或官方譯名。"
+  ],
+  "decision_guide": {
+    "thesis": "辨別兩作設定時，可先看人物為何採取行動：本作承接戀人之間的照顧，對照作品則以店內競爭為前提。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源介紹以約會後的感冒與探病建立戀人情境；實際影像呈現尚無材料可判斷。"
+    ],
+    "audience_for": [
+      "希望比較同一演員不同角色設定的讀者。",
+      "想先理解人物關係與故事起點的讀者。"
+    ],
+    "audience_not_for": [
+      "需要依據實際觀影確認表演、攝影或剪輯表現的讀者。",
+      "需要完整劇情與結局資訊的讀者。"
+    ],
+    "questions_answered": [
+      "[object Object]",
+      "[object Object]"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "借傘讓探病有了前因",
+      "body": "背景問題是：同樣由美園和花演出，本作與 MMPB-144 如何用不同的人物關係推動情節？本作簡介給出的答案，始於一次借傘。約會回程遇雨，男友把傘借給女友，自己淋雨後感冒；接著由女友前來照顧。兩段行動前後呼應，讓探病承接了一件具體發生過的事，也交代雙方原本就是戀人。"
+    },
+    {
+      "heading": "同一演員，角色行動的理由不同",
+      "body": "MMPB-144 的簡介則把人物放進概念咖啡廳，以不同服裝、顧客指名及爭取店內第一名建立設定。兩者的差別相當具體：本作從私人關係中的照顧出發，對照作品則將行動連到服務場合與競爭目標。對希望依故事前提選片的讀者，戀人日常與職場角色扮演是可以先分辨的方向；這項差異本身不足以評定哪部的敘事或表演較好。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用所提供的 YUJ-074 與 MMPB-144 作品來源快照，以及已核對的共同演員關係。兩作並非已確認的同系列作品。未另行讀取官方作品、人物或訪談全文，也未使用搜尋片段或影片抽樣；以上判斷限於簡介中的情節因果與角色設定。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "0ddca4b743fc18ef860bba091902d115b89e6196922e06ebeeb12634f19e4954",
+    "response_sha256": "aa15b481d3a5f4c7459fb54e3bdbd294126646215309ff9fa7e1349640a7a30f",
+    "research_input_sha256": "05ad9e1cf6156d2841a65f49ed19d30d01a2249801070a026dc9f3bbc6d3bcb1",
+    "related_source_ids": [
+      "MMPB-144",
+      "MKMP-758",
+      "MNGS-077"
+    ]
+  }
+}
