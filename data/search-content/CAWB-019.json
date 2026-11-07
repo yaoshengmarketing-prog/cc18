@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "movie_id": "CAWB-019",
+  "generated_at": "2026-11-07T11:48:07.565Z",
+  "source_snapshot_hash": "sha256:ca605645c9cdd3cc734735cdadee51f29c3e04b2682eb7de6bcb9d76a82bc44a",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "辨識本作時，應先看見粉絲關係如何被加害者扭曲，以及角色選擇空間遭到剝奪的設定。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介採加害者第一人稱，反覆呈現其對監視、占有與拒絕的自我合理化；影片實際呈現"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想比較同一演員不同角色設定的讀者。",
+      "關注作品如何書寫粉絲越界與強制控制的讀者。"
+    ],
+    "not_for": [
+      "希望避開跟蹤、監禁與性暴力題材的讀者。",
+      "需要先確認敘事節奏或影像表現才能決定的讀者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "CAWB-060",
+      "relation_type": "same_performer",
+      "reason": "同樣由伊藤舞雪出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "伊藤舞雪"
+      ],
+      "contrast_signals": [
+        "OL",
+        "中出"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "[object Object]",
+    "[object Object]"
+  ]
+}

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-07T10:48:49.482Z",
+  "generated_at": "2026-11-07T11:54:24.634Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 484,
-  "formal_movie_count": 483,
+  "tracked_input_count": 485,
+  "formal_movie_count": 484,
   "demo_count": 1,
-  "published_count": 480,
+  "published_count": 481,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -341,6 +341,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "92bd8838649b487d53ceb57298374ae8197156ce703587ecce40fd0374badaa4"
+    },
+    {
+      "stable_movie_id": "cc18:CAWB-019",
+      "catalog_code": "CAWB-019",
+      "slug": "cawb-019",
+      "master_path": "data/movie-master/cawb-019.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "591062a26c3701b771c0ac02d9bb7be9ec8057b1c279865b67fa691377bab47e"
     },
     {
       "stable_movie_id": "cc18:CAWB-032",

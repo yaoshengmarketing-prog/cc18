@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "CAWB-019",
+  "review_sha256": "5fbadcd54ede1ab78f99483dcacdbca8e6fdd28570ec374bbd57cb8285b56beb",
+  "selected_thesis": "本作簡介最具辨識度的設定，是讓加害者把公開互動誤認為私人承諾，再以保護之名合理化控制；與 CAWB-060 比較，兩作的重要分野在於關係如何開始，以及女方是否有選擇空間。",
+  "title_basis": {
+    "performer": "伊藤舞雪",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "伊藤舞雪",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "恐怖的跟蹤性犯罪強姦",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "伊藤舞雪",
+    "presentation_feature": "恐怖的跟蹤性犯罪強姦",
+    "editorial_judgment": "透過兩部作品簡介比較人物的主動權，分析粉絲互動被扭曲為占有理由的敘事方式。",
+    "source_keywords": [
+      "伊藤舞雪",
+      "恐怖的跟蹤性犯罪強姦",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介中的加害者利用社群公開資訊尋找人物位置，並自稱原本想保護她。",
+      "supports": "社群資訊是跟蹤設定的一環；保護是加害者替自身行為提出的辯解。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "加害者表示周邊收藏仍不足以滿足自己，繼而要求人物長期留在身邊。",
+      "supports": "簡介把收藏物品與占有人物串成一條欲望線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介將女方的拒絕重新解釋為同意，又把態度轉變懷疑成逃離計畫。",
+      "supports": "加害者的說法排除了女方自主表達意願的空間。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "CAWB-060 的簡介由女方敘述職場關係，並交代她主動提出建立關係。",
+      "supports": "兩作在敘述立場與關係起點上存在具體差異，不能僅因同樣涉及物化便視為相同設定。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將虛構跟蹤情節描述成伊藤舞雪的真實遭遇。",
+    "未將公開分享生活描述為受害者應承擔責任的理由。",
+    "未把加害者對拒絕的曲解當成角色同意。",
+    "未推論實際鏡頭、聲音、表演、剪接、節奏或成片品質。",
+    "未將兩作認定為同系列。",
+    "未採用搜尋片段中的人物經歷、片長或其他未核對資訊。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}

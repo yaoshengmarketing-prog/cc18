@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:ac81f5a3da593db9a7148720cbaaa60a6b936994a6e0980ea98d4ee43ae992c1",
-  "source_generated_at": "2026-11-07T10:48:49.482Z",
+  "source_revision": "sha256:3148158a9889cdcb2f40126a4957353e0c9122ea6f022ef01ec0b047af3e8697",
+  "source_generated_at": "2026-11-07T11:54:24.634Z",
   "counts": {
-    "movies": 480,
+    "movies": 481,
     "performers": 355,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -1151,6 +1151,7 @@
       "source_name": "伊藤舞雪",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:CAWB-019",
         "cc18:CAWB-060"
       ]
     },
@@ -11137,6 +11138,47 @@
         "article_title": "「前辣妹？」如何讓 S桑的介紹多一層懸念",
         "display_short_title": "S桑的前辣妹問號",
         "slug": "oremo-621"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:CAWB-019",
+        "source_cover": "https://cc18.tv/preview/80/b/3bSXRlF2nfN-800.jpg?v=1791031449",
+        "title": "伊藤舞雪：粉絲越界的跟蹤故事",
+        "catalog_code": "CAWB-019",
+        "release_date": "2026-10-02",
+        "performers": [
+          "伊藤舞雪"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/cawb-019/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:22133"
+      ],
+      "search": {
+        "source_title": "被惡質粉絲盯上的SNS網紅美女 恐怖的跟蹤性犯罪強姦 伊藤舞雪",
+        "article_title": "把關注當成占有：粉絲關係如何在簡介裡失去界線",
+        "display_short_title": "伊藤舞雪：粉絲越界的跟蹤故事",
+        "slug": "cawb-019"
       }
     },
     {

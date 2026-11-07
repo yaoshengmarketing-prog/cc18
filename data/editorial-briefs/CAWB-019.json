@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "id": "CAWB-019",
+  "generated_at": "2026-11-07T11:48:06.788Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/CAWB-019.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "恐怖的跟蹤性犯罪強姦",
+    "premise": "作品以「恐怖的跟蹤性犯罪強姦」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「恐怖的跟蹤性犯罪強姦」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "恐怖的跟蹤性犯罪強姦",
+      "伊藤舞雪"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "戲劇、連續劇",
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由伊藤舞雪演出，這部作品與 CAWB-060 如何用不同的人物關係，建立女性被物化的故事設定？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=3bSXRlF2nfN&cat=19",
+      "supports": [
+        "依據本次提供的作品頁快照：故事涉及社群資訊、跟蹤、監禁與性暴力。",
+        "簡介以加害者的第一人稱陳述為主，將監視解釋成保護，並把收藏周邊延伸為占有人物本身的欲望。"
+      ]
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=6K_hGMW5f7c&cat=19",
+      "supports": [
+        "依據本次提供的關聯作品快照：CAWB-060 同樣由伊藤舞雪演出。",
+        "比較作以職場前後輩關係起步，女方主動提出建立關係，後續牽涉婚姻與懷孕問題。"
+      ]
+    }
+  ],
+  "angle_candidates": [
+    "從收藏周邊到占有人物：加害者如何抹去粉絲關係的界線。",
+    "同樣涉及物化，陌生粉絲的強制控制與職場人物主動建立關係有何差異。",
+    "第一人稱簡介如何暴露加害者自我合理化的矛盾。"
+  ],
+  "selected_thesis": "本作簡介最具辨識度的設定，是讓加害者把公開互動誤認為私人承諾，再以保護之名合理化控制；與 CAWB-060 比較，兩作的重要分野在於關係如何開始，以及女方是否有選擇空間。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "伊藤舞雪",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "恐怖的跟蹤性犯罪強姦",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "遭惡質粉絲跟蹤與監禁的社群網紅：伊藤舞雪",
+  "display_short_title": "伊藤舞雪：粉絲越界的跟蹤故事",
+  "title": "把關注當成占有：粉絲關係如何在簡介裡失去界線",
+  "seo_title": "CAWB-019 伊藤舞雪｜從粉絲關注到強制控制的故事設定",
+  "social_title": "當粉絲把公開互動當成私人承諾",
+  "short_review": "簡介讓加害者以保護為名解釋監視，再把收藏周邊的欲望推向占有人物。對照同樣由伊藤舞雪演出的職場題材，關鍵差異在關係起點與選擇空間，足以協助讀者辨識本作涉及的強制控制設定。",
+  "editorial_angle": "透過兩部作品簡介比較人物的主動權，分析粉絲互動被扭曲為占有理由的敘事方式。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介中的加害者利用社群公開資訊尋找人物位置，並自稱原本想保護她。",
+      "supports": "社群資訊是跟蹤設定的一環；保護是加害者替自身行為提出的辯解。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "加害者表示周邊收藏仍不足以滿足自己，繼而要求人物長期留在身邊。",
+      "supports": "簡介把收藏物品與占有人物串成一條欲望線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介將女方的拒絕重新解釋為同意，又把態度轉變懷疑成逃離計畫。",
+      "supports": "加害者的說法排除了女方自主表達意願的空間。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "CAWB-060 的簡介由女方敘述職場關係，並交代她主動提出建立關係。",
+      "supports": "兩作在敘述立場與關係起點上存在具體差異，不能僅因同樣涉及物化便視為相同設定。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將虛構跟蹤情節描述成伊藤舞雪的真實遭遇。",
+    "未將公開分享生活描述為受害者應承擔責任的理由。",
+    "未把加害者對拒絕的曲解當成角色同意。",
+    "未推論實際鏡頭、聲音、表演、剪接、節奏或成片品質。",
+    "未將兩作認定為同系列。",
+    "未採用搜尋片段中的人物經歷、片長或其他未核對資訊。"
+  ],
+  "decision_guide": {
+    "thesis": "辨識本作時，應先看見粉絲關係如何被加害者扭曲，以及角色選擇空間遭到剝奪的設定。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介採加害者第一人稱，反覆呈現其對監視、占有與拒絕的自我合理化；影片實際呈現"
+    ],
+    "audience_for": [
+      "想比較同一演員不同角色設定的讀者。",
+      "關注作品如何書寫粉絲越界與強制控制的讀者。"
+    ],
+    "audience_not_for": [
+      "希望避開跟蹤、監禁與性暴力題材的讀者。",
+      "需要先確認敘事節奏或影像表現才能決定的讀者。"
+    ],
+    "questions_answered": [
+      "[object Object]",
+      "[object Object]"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "保護的說法，如何變成控制的理由",
+      "body": "本作簡介值得追問的是：一名粉絲如何把關注解釋成占有的權利？文字先讓加害者自稱在遠處保護伊藤舞雪，接著又讓他懷疑，自己是否才是威脅的來源。但這個疑問沒有阻止他越界；他轉而認定，收藏再多周邊也不夠，必須把人物本人留在身邊。\n\n這段設定的矛盾很具體：他要求對方延續公開場合的親切互動，卻不承認她可以拒絕私人接近。當拒絕與態度轉變都能被他重新解釋，女方就失去了表達意願的空間。這也讓社群背景具有敘事作用：公開可見，被加害者錯當成了私人可得。"
+    },
+    {
+      "heading": "同樣涉及物化，關係起點卻不同",
+      "body": "同樣由伊藤舞雪演出的 CAWB-060，把人物放進職場前後輩關係。依其簡介，女方因自身需求主動提出建立關係，後續才出現婚姻與懷孕帶來的問題。本作則從陌生粉絲的監視與強制控制開始，兩人的關係由加害者單方面宣告。\n\n兩份文字都涉及把女性當成滿足自身需求的工具，但角色的起點不同：比較作交代女方的動機與提議，本作則集中呈現她的意願如何遭到否定。這項差異有直接的選片意義。想辨識職場關係衝突與跟蹤暴力題材的讀者，應先看關係如何成立，不能只憑演員相同或籠統標籤判斷。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用本次提供的 [CAWB-019 作品頁快照](https://cc18.tv/player.php?uuid=3bSXRlF2nfN&cat=19)與[同樣由伊藤舞雪演出的 CAWB-060 作品頁快照](https://cc18.tv/player.php?uuid=6K_hGMW5f7c&cat=19)。外部查找未取得可核讀的官方作品全文，直接開啟本作來源頁亦未成功，因此未採用搜尋片段補充背景。上述比較限於兩份簡介的人物關係、敘述立場與故事起點，未使用影片抽樣；無法據此評定成片品質、故事密度或節奏。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "ca605645c9cdd3cc734735cdadee51f29c3e04b2682eb7de6bcb9d76a82bc44a",
+    "response_sha256": "d08e43cc93735674a24fad58cd8d80911711aeaff86fb465031758d39a64e832",
+    "research_input_sha256": "1dccd4708f26018f0b577b5224056650dcce1bf5f749e301c808b5afbecd11d3",
+    "related_source_ids": [
+      "CAWB-060"
+    ]
+  }
+}

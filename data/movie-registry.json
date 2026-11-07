@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T10:48:21.272Z",
+  "updated_at": "2026-11-07T11:53:55.497Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -7192,6 +7192,21 @@
       ],
       "release_date": "2026-10-02",
       "source_url": "https://cc18.tv/player.php?uuid=AGOkv9pG1fv&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-07"
+    },
+    {
+      "id": "CAWB-019",
+      "actress": [
+        "伊藤舞雪"
+      ],
+      "release_date": "2026-10-02",
+      "source_url": "https://cc18.tv/player.php?uuid=3bSXRlF2nfN&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

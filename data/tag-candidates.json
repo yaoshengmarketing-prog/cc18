@@ -1531,7 +1531,7 @@
     },
     {
       "label": "羞辱",
-      "occurrences": 18,
+      "occurrences": 19,
       "source_ids": [
         "DOKS-689",
         "START-601",
@@ -1550,7 +1550,8 @@
         "DSJH-021",
         "SAME-230",
         "SAME-244",
-        "IPZZ-983"
+        "IPZZ-983",
+        "CAWB-019"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-07",
@@ -2359,13 +2360,14 @@
     },
     {
       "label": "監禁",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "MNGS-077",
-        "AVSA-456"
+        "AVSA-456",
+        "CAWB-019"
       ],
       "first_seen": "2026-09-09",
-      "last_seen": "2026-09-16",
+      "last_seen": "2026-11-07",
       "status": "quarantined"
     },
     {
@@ -2540,7 +2542,7 @@
     },
     {
       "label": "讓她生",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "DSOD-060",
         "BONY-207",
@@ -2548,10 +2550,11 @@
         "MIDA-843",
         "FJIN-171",
         "YST-360",
-        "NHDTC-234"
+        "NHDTC-234",
+        "CAWB-019"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-11-06",
+      "last_seen": "2026-11-07",
       "status": "quarantined"
     },
     {
