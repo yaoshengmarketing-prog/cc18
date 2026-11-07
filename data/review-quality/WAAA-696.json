@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "WAAA-696",
+  "review_sha256": "865dea8e0a94fa79456238c40c9ad4b683f36127f415f8b26c6a2d55a2d54d67",
+  "selected_thesis": "本作公開介紹的辨識重點是教師角色遭受控制與集體施暴的設定；只看職業標籤，會漏掉影響內容接受程度的關鍵資訊。",
+  "title_basis": {
+    "performer": "JULIA",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "JULIA",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "JULIA",
+    "presentation_feature": "高畫質",
+    "editorial_judgment": "以非露骨的宣傳文本分析，釐清職業設定、權力關係與內容提示。",
+    "source_keywords": [
+      "JULIA",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品資料列出演員 JULIA，並標示女教師題材。",
+      "supports": "人物名稱使用 JULIA；教師為作品角色設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的簡介描述課堂騷擾、遠端控制與集體施暴。",
+      "supports": "宣傳設定包含脅迫與性暴力，不能只用職業題材概括。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未推定學生角色的年齡。",
+    "未將虛構角色遭遇當成演員真實經歷。",
+    "未補寫日文原題或系列名稱。",
+    "未描述實際鏡頭、聲音、台詞或表演效果。",
+    "未以宣傳強度推論成片品質。",
+    "未加入缺乏材料支持的同演員、同系列或片商作品比較。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}

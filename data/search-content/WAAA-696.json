@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "WAAA-696",
+  "generated_at": "2026-11-07T08:39:12.914Z",
+  "source_snapshot_hash": "sha256:a631b6fe49bf811376500860d3857b5d9b9242daf1c4774e5dac2d68acd1479b",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "先確認是否接受脅迫與性暴力題材，再理解本作的教師角色設定。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "依提供的宣傳文字，作品以課堂環境中的權力逆轉與受脅迫處境為設定核心。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "需要辨識作品題材與內容界線的成年讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "希望避開非自願、羞辱或集體性暴力情節的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "教師身分在簡介中如何被轉為受控制的角色？",
+    "為何女教師標籤不足以涵蓋本作的內容提示？"
+  ]
+}

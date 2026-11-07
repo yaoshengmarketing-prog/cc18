@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "id": "WAAA-696",
+  "generated_at": "2026-11-07T08:39:11.934Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/WAAA-696.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "JULIA",
+    "premise": "作品以「JULIA」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「JULIA」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "JULIA",
+      "女教師",
+      "羞恥",
+      "玩具"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "本作的公開簡介如何呈現教師角色的權力逆轉，而「女教師」標籤為何不足以說明其內容？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=5uxOAnMxTdX&cat=19",
+      "supports": [
+        "使用者提供的作品頁資料快照列出演員 JULIA、片商 WANZ 與女教師題材。",
+        "簡介以課堂中的騷擾、遠端控制及集體施暴構成角色受脅迫的設定。"
+      ]
+    }
+  ],
+  "angle_candidates": [
+    "從教師身分與受脅迫處境，分析簡介中的權力逆轉。",
+    "說明女教師題材標籤與非自願情節提示各自提供的資訊。",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作公開介紹的辨識重點是教師角色遭受控制與集體施暴的設定；只看職業標籤，會漏掉影響內容接受程度的關鍵資訊。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "JULIA",
+      "source_field": "actress"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "JULIA 演出的女教師受脅迫題材",
+  "display_short_title": "JULIA 女教師題材與內容提示",
+  "title": "女教師標籤之外，簡介揭示了什麼權力關係？",
+  "seo_title": "WAAA-696｜JULIA 女教師題材：權力關係與內容提示",
+  "social_title": "從公開簡介辨識 JULIA 本作的脅迫設定",
+  "short_review": "公開簡介把教師置於受控制與受辱的位置，並明示性暴力情節。這足以辨識題材及內容界線，尚不足以判斷敘事、表演或製作品質。",
+  "editorial_angle": "以非露骨的宣傳文本分析，釐清職業設定、權力關係與內容提示。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品資料列出演員 JULIA，並標示女教師題材。",
+      "supports": "人物名稱使用 JULIA；教師為作品角色設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的簡介描述課堂騷擾、遠端控制與集體施暴。",
+      "supports": "宣傳設定包含脅迫與性暴力，不能只用職業題材概括。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未推定學生角色的年齡。",
+    "未將虛構角色遭遇當成演員真實經歷。",
+    "未補寫日文原題或系列名稱。",
+    "未描述實際鏡頭、聲音、台詞或表演效果。",
+    "未以宣傳強度推論成片品質。",
+    "未加入缺乏材料支持的同演員、同系列或片商作品比較。"
+  ],
+  "decision_guide": {
+    "thesis": "先確認是否接受脅迫與性暴力題材，再理解本作的教師角色設定。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "依提供的宣傳文字，作品以課堂環境中的權力逆轉與受脅迫處境為設定核心。"
+    ],
+    "audience_for": [
+      "需要辨識作品題材與內容界線的成年讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "希望避開非自願、羞辱或集體性暴力情節的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "教師身分在簡介中如何被轉為受控制的角色？",
+      "為何女教師標籤不足以涵蓋本作的內容提示？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "教師身分如何成為權力逆轉的起點？",
+      "body": "背景問題是：本作的公開簡介如何呈現教師角色的權力逆轉？提供的文字先交代教師身分，再將課堂寫成她遭受騷擾與控制的環境。教師原本具有的制度權威，與簡介安排的受脅迫處境形成落差；這是能從文字確認的設定結構。"
+    },
+    {
+      "heading": "職業標籤沒有交代的內容界線",
+      "body": "「女教師」交代人物職業，卻沒有說明人物之間是否自願互動。本作簡介另有明確的施暴與羞辱描述，因此內容提示需要涵蓋非自願情節。對讀者而言，這項資訊直接影響是否避開作品；至於情節如何鋪陳、角色是否有完整發展，現有材料無法回答。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文僅使用本次提供的 CC18 作品頁資料快照，包括演員、片商、題材標籤與公開簡介；未另行開啟外部頁面，也未使用影片抽樣。沒有可核對的關聯作品或額外研究材料，因此不作跨作品比較。以上判斷限於宣傳文字中的角色安排與內容提示。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "a631b6fe49bf811376500860d3857b5d9b9242daf1c4774e5dac2d68acd1479b",
+    "response_sha256": "a50a374fa4ac62f76e927c3aa293aab00c3046efb13f53eb99b6c165d8303615",
+    "research_input_sha256": "aa26f945e57dd932db798507f1f1d6a6ed3a0db785ba00f82e0adc86ec4d09b8",
+    "related_source_ids": []
+  }
+}

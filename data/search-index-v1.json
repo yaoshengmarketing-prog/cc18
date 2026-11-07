@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:1349d9115d7304bb06de3dabdf995ede57d877d3d04656126cb208845e955e7e",
-  "source_generated_at": "2026-11-07T07:52:21.831Z",
+  "source_revision": "sha256:40be676ef691bce156dec13ac214317f621008c8a9d503d33d504a647eaec5bb",
+  "source_generated_at": "2026-11-07T08:45:22.832Z",
   "counts": {
-    "movies": 477,
-    "performers": 353,
+    "movies": 478,
+    "performers": 354,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -3991,6 +3991,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MIDA-819"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:387",
+      "display_name": "JULIA",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "JULIA",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:WAAA-696"
       ]
     },
     {
@@ -11298,6 +11309,43 @@
         "article_title": "父親退下之後，威脅如何轉向女兒？",
         "display_short_title": "足立友梨・家業與脅迫",
         "slug": "same-244"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:WAAA-696",
+        "source_cover": "https://cc18.tv/preview/80/b/5uxOAnMxTdX-800.jpg?v=1790973869",
+        "title": "JULIA 女教師題材與內容提示",
+        "catalog_code": "WAAA-696",
+        "release_date": "2026-10-02",
+        "performers": [
+          "JULIA"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/waaa-696/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:387"
+      ],
+      "search": {
+        "source_title": "「老師的小穴還真是雜魚啊」巨乳女教師遙控跳蛋調教性騷擾 遠端邊緣控射挑逗到忍耐不住膝蓋發軟失禁絕頂！對高潮後的女性器追擊內射輪姦 JULIA",
+        "article_title": "女教師標籤之外，簡介揭示了什麼權力關係？",
+        "display_short_title": "JULIA 女教師題材與內容提示",
+        "slug": "waaa-696"
       }
     },
     {
