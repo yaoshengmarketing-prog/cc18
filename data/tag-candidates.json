@@ -553,7 +553,7 @@
     },
     {
       "label": "美乳",
-      "occurrences": 46,
+      "occurrences": 47,
       "source_ids": [
         "SNOS-369",
         "SNOS-447",
@@ -600,7 +600,8 @@
         "NACT-205",
         "BBAN-604",
         "HODV-22120",
-        "DOKS-688"
+        "DOKS-688",
+        "ABF-389"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-11-07",
@@ -1714,12 +1715,13 @@
     },
     {
       "label": "女醫師",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "SNOS-374"
+        "SNOS-374",
+        "ABF-389"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-11-07",
       "status": "quarantined"
     },
     {

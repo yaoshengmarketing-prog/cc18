@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "ABF-389",
+  "review_sha256": "a22427c08b54e7eb02bb695e957ae62161d325778453cbcf834a7039ee620a57",
+  "selected_thesis": "四段簡介的選片線索在角色關係：前兩段留在診所，第三段走向社長的職場身分，最後一段回到助手並提出立場反轉。",
+  "title_basis": {
+    "performer": "鈴村愛里",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "鈴村愛里",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "鈴村愛理",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "罵倒女医のダメ男をわからせる診察室",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "鈴村愛里",
+    "presentation_feature": "鈴村愛理",
+    "editorial_judgment": "以四段公開設定的對象與場域差異，說明本作的角色關係如何從醫師面對患者，移到出診時的社長，再回到診所助手。",
+    "source_keywords": [
+      "鈴村愛里",
+      "鈴村愛理",
+      "罵倒女医のダメ男をわからせる診察室",
+      "素人企劃"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "第一份病歷是定期就診的患者，第二份轉向診所助手。",
+      "supports": "前兩段雖同在診所設定中，醫師面對的人已從患者換成共事的助手。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "第三份病歷安排醫師出診，對象是在公司裡居於高位的社長。",
+      "supports": "這段把設定帶離診察室，也加入對方在職場與私下身分的落差。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "第四份病歷再次寫到醫師與助手，並明稱兩人的立場反轉。",
+      "supports": "最後一段的宣傳重點落在既有人物關係的變化，而非加入另一位患者。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將四段簡介寫成已確認的成片順序或情節完整度。",
+    "未推論立場反轉的具體過程，也未描述未核對的畫面、聲音或台詞。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}

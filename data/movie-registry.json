@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T00:02:52.983Z",
+  "updated_at": "2026-11-07T01:47:53.732Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -7025,6 +7025,21 @@
       ],
       "release_date": "2026-09-28",
       "source_url": "https://cc18.tv/player.php?uuid=qMxLwzyzseQ&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-07"
+    },
+    {
+      "id": "ABF-389",
+      "actress": [
+        "鈴村愛里"
+      ],
+      "release_date": "2026-10-01",
+      "source_url": "https://cc18.tv/player.php?uuid=kvD9rLrGZfR&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

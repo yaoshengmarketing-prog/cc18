@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "movie_id": "ABF-389",
+  "generated_at": "2026-11-07T01:42:47.199Z",
+  "source_snapshot_hash": "sha256:607d47df7400da0d59dfd9aa389d28a402477bf3599fc1781e40a5a89cc44330",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "這部作品的公開設定以四個不同對象與關係串起女醫師角色；想看角色立場變化的讀者，可留意最後回到助手的安排。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "四份病歷的分段設定",
+      "女醫師與不同對象的關係變化",
+      "出診與診所場域切換"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想依角色關係與診療設定選片的讀者",
+      "對醫師與助手立場反轉有興趣的讀者"
+    ],
+    "not_for": [
+      "需要先確認實際敘事密度或節奏的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "四份病歷的對象有何差異？",
+    "哪一段離開診察室設定？",
+    "最後一段為何回到助手？"
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "id": "ABF-389",
+  "generated_at": "2026-11-07T01:42:46.718Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/ABF-389.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "鈴村愛理",
+    "premise": "作品以「鈴村愛理」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「鈴村愛理」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "鈴村愛理",
+      "鈴村愛理"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "素人",
+      "AV女優片",
+      "癡女"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "顏射",
+      "オモチャ"
+    ],
+    "presentation": [
+      "720p",
+      "全高清 (FHD)"
+    ]
+  },
+  "research_question": "這部作品的四份「病歷」只是更換對象，還是讓診察室裡的角色關係逐步改變？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=kvD9rLrGZfR&cat=19",
+      "supports": "已核對的作品資料快照列出四段設定：定期就診的患者、診所助手、接受出診的社長，以及與助手立場反轉的最後一段。"
+    }
+  ],
+  "angle_candidates": [
+    "四份病歷如何從診療對象的變化，轉向醫師與助手的關係",
+    "診察室與出診場景的設定差異",
+    "鈴村愛里飾演的女醫師如何成為四段設定的共同核心"
+  ],
+  "selected_thesis": "四段簡介的選片線索在角色關係：前兩段留在診所，第三段走向社長的職場身分，最後一段回到助手並提出立場反轉。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "鈴村愛里",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "鈴村愛理",
+      "source_field": "title"
+    },
+    {
+      "type": "series",
+      "value": "罵倒女医のダメ男をわからせる診察室",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "素人企劃",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "鈴村愛里的毒舌診察室",
+  "display_short_title": "毒舌女醫的四份病歷",
+  "title": "四份病歷，如何走到醫師與助手的立場反轉？",
+  "seo_title": "ABF-389｜鈴村愛里的毒舌診察室：四份病歷的角色變化",
+  "social_title": "從患者、社長到助手：毒舌診察室的四份病歷",
+  "short_review": "來源簡介用四份病歷安排不同對象，最後回到醫師與助手的立場反轉。若你在意角色關係如何變化，這比單看「女醫師」標籤更有選片價值；實際呈現仍無法由簡介判定。",
+  "editorial_angle": "以四段公開設定的對象與場域差異，說明本作的角色關係如何從醫師面對患者，移到出診時的社長，再回到診所助手。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "第一份病歷是定期就診的患者，第二份轉向診所助手。",
+      "supports": "前兩段雖同在診所設定中，醫師面對的人已從患者換成共事的助手。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "第三份病歷安排醫師出診，對象是在公司裡居於高位的社長。",
+      "supports": "這段把設定帶離診察室，也加入對方在職場與私下身分的落差。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "第四份病歷再次寫到醫師與助手，並明稱兩人的立場反轉。",
+      "supports": "最後一段的宣傳重點落在既有人物關係的變化，而非加入另一位患者。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將四段簡介寫成已確認的成片順序或情節完整度。",
+    "未推論立場反轉的具體過程，也未描述未核對的畫面、聲音或台詞。"
+  ],
+  "decision_guide": {
+    "thesis": "這部作品的公開設定以四個不同對象與關係串起女醫師角色；想看角色立場變化的讀者，可留意最後回到助手的安排。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "四份病歷的分段設定",
+      "女醫師與不同對象的關係變化",
+      "出診與診所場域切換"
+    ],
+    "audience_for": [
+      "想依角色關係與診療設定選片的讀者",
+      "對醫師與助手立場反轉有興趣的讀者"
+    ],
+    "audience_not_for": [
+      "需要先確認實際敘事密度或節奏的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "四份病歷的對象有何差異？",
+      "哪一段離開診察室設定？",
+      "最後一段為何回到助手？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "四份病歷，對象一路在變",
+      "body": "這部作品的公開簡介先寫定期就診的患者，接著把對象換成診所助手；第三段則安排鈴村愛里飾演的醫師出診，面對一位在公司居於高位的社長。三段的差別不只是換人：助手與醫師有共事關係，社長則帶著職場身分進入診療設定。若你靠角色關係選片，這些差異比籠統的「女醫師」標籤更能說明企劃方向。"
+    },
+    {
+      "heading": "最後為何又回到助手？",
+      "body": "第四段沒有再加入新對象，而是回到醫師與助手，並以「立場反轉」收束簡介。這讓助手從第二段的一次診療對象，變成最後一段仍值得追問的人物關係。不過，文案沒有足夠資訊說明反轉如何展開，也不能據此評斷成片表現。選片時可以期待的是這個關係變化的設定，而非預先確定它的效果。\n\n資料來源與材料範圍：本文依據 [CC18 作品資料快照](https://cc18.tv/player.php?uuid=kvD9rLrGZfR&cat=19) 所列公開簡介與人物關係撰寫；四段設定的選片意義是編輯判斷，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "607d47df7400da0d59dfd9aa389d28a402477bf3599fc1781e40a5a89cc44330",
+    "response_sha256": "188ebb348461bf6199f36849b9d676293a55e383d72817f3c82c72fbafb05f14",
+    "research_input_sha256": "8e3a4013ae3457d04a0e747f15db2ca27070049512dc014d86e60537c606babd",
+    "related_source_ids": []
+  }
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:2e3a0b4eaf2e49e640c0228e63f14072dfa8a669146dfa6cc825eda1ceadaa97",
-  "source_generated_at": "2026-11-07T00:03:12.191Z",
+  "source_revision": "sha256:c3e72cc01cd883ab56412cdd71d12e4ac82b0ea69c004b58d3ebbfe834e453ae",
+  "source_generated_at": "2026-11-07T01:48:26.596Z",
   "counts": {
-    "movies": 469,
-    "performers": 347,
+    "movies": 470,
+    "performers": 348,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -3525,6 +3525,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-347"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:892",
+      "display_name": "鈴村愛里",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "鈴村愛里",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:ABF-389"
       ]
     },
     {
@@ -10978,6 +10989,59 @@
         "article_title": "同是女友姊姊，這次為何從按摩店重逢開始？",
         "display_short_title": "按摩店重逢女友姊姊",
         "slug": "mngs-070"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:ABF-389",
+        "source_cover": "https://cc18.tv/preview/80/b/kvD9rLrGZfR-800.jpg?v=1790887496",
+        "title": "毒舌女醫的四份病歷",
+        "catalog_code": "ABF-389",
+        "release_date": "2026-10-01",
+        "performers": [
+          "鈴村愛里"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "amateur",
+            "label": "素人"
+          },
+          {
+            "id": "facial",
+            "label": "顏射題材"
+          },
+          {
+            "id": "fhd",
+            "label": "全高清 FHD"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "sex-toy",
+            "label": "情趣玩具"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/abf-389/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:892"
+      ],
+      "search": {
+        "source_title": "罵倒女醫讓廢柴男認清現實的診察室 鈴村愛理",
+        "article_title": "四份病歷，如何走到醫師與助手的立場反轉？",
+        "display_short_title": "毒舌女醫的四份病歷",
+        "slug": "abf-389"
       }
     },
     {
