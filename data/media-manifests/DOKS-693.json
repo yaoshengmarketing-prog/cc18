@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "DOKS-693",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-07T02:57:03.878Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/DOKS-693/hero-v1.jpg",
+      "r2_key": "works/2026/10/DOKS-693/hero-v1.jpg",
+      "bytes": 679119,
+      "sha256": "24ad368252b90397e9af3e7ea52f05913062aa0bbc277490ae0de33d371fae82",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "6d42e7fa605d4a00a722eb44b67b1f70",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/DOKS-693/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/DOKS-693/scene-vertical-v1.jpg",
+      "bytes": 1153227,
+      "sha256": "9b5c3404101fce09d4feb160bb08a5678c63f24939ea7ed979cab3b21440de76",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "9071058d7a8843b399f5cff43c06badf",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3464749,
+    "sha256": "9c019c1bd78cf754b580c960836ed30706f4723a5d0c1007636aa4491c6df4ff",
+    "target_r2_key": "works/2026/10/DOKS-693/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/DOKS-693/vertical-v1.mp4"
+  }
+}

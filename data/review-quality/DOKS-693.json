@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "DOKS-693",
+  "review_sha256": "01adbc3526b42f6f4e5d657a50743d8537672acd90723694b7da013f7e4c5fb8",
+  "selected_thesis": "本作把後輩與上司放進酒局後的個室，以可能被發現的風險帶出緊張感；相較於《假日與女友》的情侶旅行，選片理由更偏向職場關係與隱密場所的設定。",
+  "title_basis": {
+    "performer": "山口由愛、善場麻美(茉城麻美)、松山みなみ、七美まみ、青坂あおい",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "山口由愛",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "口交",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "performer",
+        "value": "善場麻美(茉城麻美)",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "松山みなみ",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "山口由愛",
+    "presentation_feature": "口交",
+    "editorial_judgment": "以善場麻美參與的《假日與女友》作對照，說明本作的職場酒局與隱密場所設定，如何區別於情侶溫泉約會。",
+    "source_keywords": [
+      "山口由愛",
+      "口交",
+      "善場麻美(茉城麻美)",
+      "松山みなみ"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源快照列出後輩 OL、上司、酒後轉變與個室居酒屋，簡介強調可能被別人聽見。",
+      "supports": "本作的公開設定以職場關係和被發現的風險建立情境。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "關聯作品《假日與女友》的來源快照描述情侶前往旅館與溫泉約會；人物關係資料確認善場麻美也參與本作。",
+      "supports": "兩作可比較親密關係與場所設定，但無法據此判定善場麻美在本作飾演哪一位後輩。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "善場麻美在本作飾演特定一位後輩",
+    "個室內實際拍攝到的畫面、聲音或表演效果",
+    "兩部作品的成片品質與節奏"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z"
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "movie_id": "DOKS-693",
+  "generated_at": "2026-11-07T02:48:06.015Z",
+  "source_snapshot_hash": "sha256:64a35dd2d54551e057ab53385f344b3bf140492e09d43a36544db4b2d9e9508a",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看職場酒局與怕被發現的場所設定，可留意本作；想看明確的情侶旅行關係，關聯作品《假日與女友》的公開設定更貼近。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開介紹以多名後輩 OL、上司及個室居酒屋構成情境。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SNOS-358",
+      "relation_type": "same_performer",
+      "reason": "同樣由青坂あおい出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "青坂あおい"
+      ],
+      "contrast_signals": [
+        "久和原聖羅",
+        "三田真鈴"
+      ]
+    },
+    {
+      "movie_id": "SQTE-717",
+      "relation_type": "same_performer",
+      "reason": "同樣由善場麻美(茉城麻美)出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "善場麻美(茉城麻美)"
+      ],
+      "contrast_signals": [
+        "假日與女友",
+        "假日與女友。"
+      ]
+    },
+    {
+      "movie_id": "FJIN-169",
+      "relation_type": "same_performer",
+      "reason": "同樣由善場麻美(茉城麻美)出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "善場麻美(茉城麻美)"
+      ],
+      "contrast_signals": [
+        "洗腦啟發Mind",
+        "洗脳啓発まいんどふぁっかー"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作與善場麻美參與的《假日與女友》在人物關係和場所設定上有何不同？",
+    "哪些選片期待能由公開簡介支持？"
+  ]
+}

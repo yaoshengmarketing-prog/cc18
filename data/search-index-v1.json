@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:c3e72cc01cd883ab56412cdd71d12e4ac82b0ea69c004b58d3ebbfe834e453ae",
-  "source_generated_at": "2026-11-07T01:48:26.596Z",
+  "source_revision": "sha256:591644ca67c699a2de2a1471017deab9364002a3b0250b49a10782d9c7d2ec69",
+  "source_generated_at": "2026-11-07T02:58:14.359Z",
   "counts": {
-    "movies": 470,
-    "performers": 348,
+    "movies": 471,
+    "performers": 351,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -72,6 +72,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:47464",
+      "display_name": "七美まみ",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "七美まみ",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DOKS-693"
       ]
     },
     {
@@ -474,6 +485,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:URKK-124"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:34524",
+      "display_name": "山口由愛",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "山口由愛",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DOKS-693"
       ]
     },
     {
@@ -1736,6 +1758,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:37244",
+      "display_name": "松山みなみ",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "松山みなみ",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DOKS-693"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:29822",
       "display_name": "松井日奈子",
       "display_name_zh_tw": null,
@@ -1964,6 +1997,7 @@
       "source_name": "青坂あおい",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:DOKS-693",
         "cc18:SNOS-358"
       ]
     },
@@ -3186,6 +3220,7 @@
       "source_name": "善場麻美(茉城麻美)",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:DOKS-693",
         "cc18:FJIN-169",
         "cc18:SQTE-717"
       ]
@@ -11042,6 +11077,79 @@
         "article_title": "四份病歷，如何走到醫師與助手的立場反轉？",
         "display_short_title": "毒舌女醫的四份病歷",
         "slug": "abf-389"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DOKS-693",
+        "source_cover": "https://cc18.tv/preview/80/b/xoJBJKKY9L-800.jpg?v=1790887496",
+        "title": "個室居酒屋的後輩 OL",
+        "catalog_code": "DOKS-693",
+        "release_date": "2026-10-01",
+        "performers": [
+          "山口由愛",
+          "善場麻美(茉城麻美)",
+          "松山みなみ",
+          "七美まみ",
+          "青坂あおい"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "coworker",
+            "label": "同事／部下"
+          },
+          {
+            "id": "dirty-talk",
+            "label": "言語挑逗"
+          },
+          {
+            "id": "drinking-party",
+            "label": "聚餐／聯誼"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "office-lady",
+            "label": "OL"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/doks-693/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:34524",
+        "cc18.tv:actor:34578",
+        "cc18.tv:actor:37244",
+        "cc18.tv:actor:47464",
+        "cc18.tv:actor:53486"
+      ],
+      "search": {
+        "source_title": "最喜歡的可愛後輩OL醉後突然豹變！？在被發現就糟了的個室居酒屋裡暴走真空口交",
+        "article_title": "同樣有善場麻美，酒局與溫泉約會差在哪裡？",
+        "display_short_title": "個室居酒屋的後輩 OL",
+        "slug": "doks-693"
       }
     },
     {

@@ -1862,7 +1862,7 @@
     },
     {
       "label": "絲襪",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "CLOT-043",
         "PTS-555",
@@ -1871,10 +1871,11 @@
         "FLAV-428",
         "HALT-093",
         "ADN-814",
-        "ATID-707"
+        "ATID-707",
+        "DOKS-693"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-07",
       "status": "quarantined"
     },
     {
@@ -1918,7 +1919,7 @@
     },
     {
       "label": "タイツ",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "CLOT-043",
         "PTS-555",
@@ -1927,10 +1928,11 @@
         "FLAV-428",
         "HALT-093",
         "ADN-814",
-        "ATID-707"
+        "ATID-707",
+        "DOKS-693"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-07",
       "status": "quarantined"
     },
     {
@@ -1947,7 +1949,7 @@
     },
     {
       "label": "パンスト・タイツ",
-      "occurrences": 9,
+      "occurrences": 10,
       "source_ids": [
         "CLOT-043",
         "PTS-555",
@@ -1957,10 +1959,11 @@
         "HALT-093",
         "ADN-814",
         "ATID-707",
-        "DSJH-021"
+        "DSJH-021",
+        "DOKS-693"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-07",
       "status": "quarantined"
     },
     {
