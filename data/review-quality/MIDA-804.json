@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "MIDA-804",
+  "review_sha256": "96d32807a82b884c0735c067a8028467e513665baa532ffc97f592a1fe943080",
+  "selected_thesis": "本作較具辨識度的設定，是女同事在私人場合揭露另一種身分後，將主導權帶回職場；與同演員的合宿題材相比，角色在權力關係中的位置，是更具體的選片依據。",
+  "title_basis": {
+    "performer": "百田光希",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "百田光希",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "讓抖M被強行射精",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "百田光希",
+    "presentation_feature": "讓抖M被強行射精",
+    "editorial_judgment": "從職業身分與主導權的配置比較兩份公開簡介，說明雙重身分設定的選片意義。",
+    "source_keywords": [
+      "百田光希",
+      "讓抖M被強行射精",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介將平日樸素的女社員與店內的支配者設定為同一角色。",
+      "supports": "雙重身分與熟人相認構成本作的情境反差。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作標題與簡介均指出，店內建立的關係持續到公司。",
+      "supports": "公司日常與私人場合相互牽連，是本作可由文字確認的設定重點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "MIDA-843 的簡介以成績不振、選拔壓力及教練提出的特訓合宿作為陷阱的前提。",
+      "supports": "兩作對百田光希角色的權力配置不同：本作由她主導，對照作則由教練利用選手的處境掌控局面。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未補寫日文原題或系列名稱。",
+    "未將兩作視為同系列、續作或共同故事。",
+    "未由角色設定推論演員的真實個性、職業經驗或人物經歷。",
+    "未宣稱鏡頭、聲音、台詞、表演品質或實際節奏。",
+    "未將來源宣傳中的身體描述視為已獨立核實的人物資料。",
+    "未把支配題材直接解讀為所有情節均有明確合意。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-07T16:00:00.000Z"
+}

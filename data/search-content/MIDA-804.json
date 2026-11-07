@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "movie_id": "MIDA-804",
+  "generated_at": "2026-11-07T19:42:49.813Z",
+  "source_snapshot_hash": "sha256:55ce338c5160bb36d548855fb3b0a511e8c1d2f514df695205dd527411f190fd",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "以雙重身分及角色主導權作為選片依據：本作將女同事的另一面帶回公司，與同演員在合宿題材中受制於教練的角色位置形成對照。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開文字以樸素眼鏡女同事的身分反差，以及店內關係延伸至公司的設定為重心。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "在意熟人相認與雙重身分設定的讀者。",
+      "想比較百田光希不同角色位置的讀者。"
+    ],
+    "not_for": [
+      "需要先確認完整敘事密度與影像節奏的讀者。",
+      "希望僅憑簡介確認情節合意界線的讀者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MIDA-843",
+      "relation_type": "same_performer",
+      "reason": "同樣由百田光希出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "百田光希"
+      ],
+      "contrast_signals": [
+        "巨乳田徑女的眠姦合宿",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "[object Object]",
+    "[object Object]"
+  ]
+}

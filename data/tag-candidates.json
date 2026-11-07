@@ -2109,17 +2109,18 @@
     },
     {
       "label": "騎乗位中出し",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "PRED-890",
         "AMBI-214",
         "HMN-894",
         "NACT-188",
         "NACT-176",
-        "IENF-459"
+        "IENF-459",
+        "MIDA-804"
       ],
       "first_seen": "2026-09-09",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "status": "quarantined"
     },
     {
@@ -3220,6 +3221,16 @@
       ],
       "first_seen": "2026-11-07",
       "last_seen": "2026-11-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "痴女OL",
+      "occurrences": 1,
+      "source_ids": [
+        "MIDA-804"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
       "status": "quarantined"
     }
   ]
