@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "movie_id": "ADN-813",
+  "generated_at": "2026-11-07T16:42:52.862Z",
+  "source_snapshot_hash": "sha256:02859a85f653276943637293208adaadcd238189c24384545e9e1fdef44cbaca",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "依關係設定選片時，本作的辨識點是由自卑帶來的鄰里親近感，以及隨後浮現的期待落差。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開設定採男性第一人稱視角，從鄰居相識寫到女方逐漸主導往來。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好鄰里日常背景，關注人物如何拉近距離的讀者。",
+      "想比較同演員在不同人物關係中如何被設定的讀者。"
+    ],
+    "not_for": [
+      "希望先確認雙向戀愛承諾或明確結局的讀者。",
+      "需要依實際節奏、表演或影像風格決定選片的讀者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MKMP-758",
+      "relation_type": "same_performer",
+      "reason": "同樣由木下日葵（花澤日葵）出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "木下日葵（花澤日葵）"
+      ],
+      "contrast_signals": [
+        "篠田優",
+        "濱崎真緒"
+      ]
+    },
+    {
+      "movie_id": "ROYD-350",
+      "relation_type": "same_performer",
+      "reason": "同樣由木下日葵（花澤日葵）出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "木下日葵（花澤日葵）"
+      ],
+      "contrast_signals": [
+        "両リーグ性覇",
+        "中出"
+      ]
+    },
+    {
+      "movie_id": "ATID-710",
+      "relation_type": "same_performer",
+      "reason": "同樣由木下日葵（花澤日葵）出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "木下日葵（花澤日葵）"
+      ],
+      "contrast_signals": [
+        "沒想到內褲竟然透出來了",
+        "部下・同僚"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作如何用自卑感建立人物之間的親近感？",
+    "它與 ATID-710 的職場關係設定有何具體差異？",
+    "這些差異能提供什麼選片依據？"
+  ]
+}

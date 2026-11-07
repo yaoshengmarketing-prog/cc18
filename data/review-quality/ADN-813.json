@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "ADN-813",
+  "review_sha256": "4f901314aca0ade5124497173febad26b591427c20d60a65e96be06613a9ee51",
+  "selected_thesis": "ADN-813 的選片辨識點，在於它讓男方從彼此都有自卑感的認知中靠近鄰居，再把關係主導權交向女方；相較 ATID-710 的職場變裝與上司約定，本作更適合從鄰里關係中的期待落差切入。",
+  "title_basis": {
+    "performer": "木下日葵（花澤日葵）",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "木下日葵（花澤日葵）",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "這就是我們的日常故事",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "木下日葵（花澤日葵）",
+    "presentation_feature": "這就是我們的日常故事",
+    "editorial_judgment": "比較兩作如何運用不自信的角色設定，辨別鄰里往來與職場上下屬關係提供的不同故事入口。",
+    "source_keywords": [
+      "木下日葵（花澤日葵）",
+      "這就是我們的日常故事",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "ADN-813 官方簡介交代男方缺乏自信，並因鄰居似乎也有自卑感而感到親近。",
+      "supports": "彼此都有弱點的認知，是本作建立親近感的具體起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "ADN-813 官方簡介並置男方相處時的自在感，以及女方逐漸按自身需要主導往來的描述。",
+      "supports": "兩人對關係的期待是否一致，是有文字依據的閱讀問題；簡介尚未提供答案。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "ATID-710 官方簡介以工作失誤造成的不自信、改變形象，以及與上司立下約定串起故事。",
+      "supports": "同演員的兩作分別以鄰里親近感與職場關係轉折推動設定，提供不同選片理由。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將角色的自卑感或關係模式當成演員本人的經歷。",
+    "未推定女方自卑的具體原因，也未替兩人的關係補上戀愛承諾或結局。",
+    "未由簡介評定表演、鏡頭、聲音、剪輯、故事密度或節奏。",
+    "未將同演員作品描述為同系列，也未將片商品牌名稱當成作品原題。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-07T16:00:00.000Z"
+}

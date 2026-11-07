@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-07T14:48:49.586Z",
+  "generated_at": "2026-11-07T16:47:32.023Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 488,
-  "formal_movie_count": 487,
+  "tracked_input_count": 489,
+  "formal_movie_count": 488,
   "demo_count": 1,
-  "published_count": 484,
+  "published_count": 485,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -98,6 +98,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "d58a99c527bcd87b4e308c666224a8df8fcc33f1b18a323a275f18a3a96872a6"
+    },
+    {
+      "stable_movie_id": "cc18:ADN-813",
+      "catalog_code": "ADN-813",
+      "slug": "adn-813",
+      "master_path": "data/movie-master/adn-813.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "4502e6e9dd24f8bd2cfc351b00387d79b40dabcdffb2a48375dbf029b0d85f27"
     },
     {
       "stable_movie_id": "cc18:ADN-814",
