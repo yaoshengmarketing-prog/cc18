@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "id": "MGOLD-064",
+  "generated_at": "2026-11-06T23:42:38.974Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/MGOLD-064.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "垃圾房間受虐懇求高潮",
+    "premise": "作品以「垃圾房間受虐懇求高潮」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「垃圾房間受虐懇求高潮」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "垃圾房間受虐懇求高潮",
+      "澪奈明日見"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p"
+    ]
+  },
+  "research_question": "這部作品的選片線索，是垃圾屋場景，還是女大學生投訴鄰居後的處境轉變？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=qMxLwzyzseQ&cat=19",
+      "supports": "依已提供的作品頁來源快照，簡介寫明女大學生明日香因垃圾屋鄰居而登門投訴，隨後遭囚禁；文案也以「幸福結局」形容這段轉折。外部頁面未能開啟，未將搜尋片段當作頁面全文。"
+    }
+  ],
+  "angle_candidates": [
+    "投訴鄰居如何成為受困故事的起點",
+    "垃圾屋場景與「幸福結局」說法之間的落差",
+    "垃圾房間受虐懇求高潮的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "這部的具體賣點是日常鄰里投訴迅速轉為垃圾屋內的囚禁情境；文案所稱的「幸福結局」不能代替讀者判斷角色處境。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "澪奈あすみ",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "垃圾房間受虐懇求高潮",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "720p",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "澪奈あすみ與垃圾屋鄰居的投訴風波",
+  "display_short_title": "垃圾屋鄰居的投訴風波",
+  "title": "一聲門鈴，怎麼把鄰里糾紛變成受困故事？",
+  "seo_title": "MGOLD-064｜澪奈あすみ與垃圾屋鄰居的投訴風波",
+  "social_title": "她原本只是去投訴鄰居：澪奈あすみ這部作品的設定轉折",
+  "short_review": "簡介從女大學生登門投訴垃圾屋鄰居寫起，隨即轉入囚禁與反覆高潮的情境。適合想找封閉空間、受困設定的讀者；文案所稱的「幸福結局」仍只是宣傳說法。",
+  "editorial_angle": "以登門投訴前後的處境差異，說明本作的選片線索，並指出宣傳文案對結局的定調。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "簡介交代明日香是女大學生，因公寓裡的垃圾屋鄰居而登門投訴。",
+      "supports": "故事以具體的鄰里衝突開場，而非直接從封閉空間開始。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介寫明明日香按下門鈴後遭鄰居囚禁，並反覆以高潮與哀求描述她的處境。",
+      "supports": "登門投訴與受困之間的急轉，是這份介紹最明確的設定差異。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介把這段經歷稱作通往「幸福結局」的開端。",
+      "supports": "「幸福結局」是文案的定調，不能據此認定成片如何處理角色意願或結局。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未把來源標題中的翻譯別名當成演員核准繁中名稱。",
+    "未推定片中畫面、表演、節奏或實際結局。",
+    "未將文案的「幸福結局」解讀為角色真實感受。"
+  ],
+  "decision_guide": {
+    "thesis": "選片時可先看自己是否接受從日常投訴轉入囚禁與反覆高潮的設定，而不要只憑「幸福結局」四字預期故事走向。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以垃圾屋、鄰居與登門投訴建立情境，再把重心移至封閉空間中的受困處境。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "故事從什麼衝突開始？",
+      "投訴前後的設定有何差異？",
+      "「幸福結局」能否當作成片判斷？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "投訴原本是為了解決生活麻煩",
+      "body": "來源簡介先寫女大學生明日香受公寓裡的垃圾屋鄰居困擾，終於去按門鈴投訴。這個起點很具體：她是主動上門處理鄰里問題的人，垃圾屋也不只是背景，而是讓兩人相遇的原因。"
+    },
+    {
+      "heading": "門鈴之後，選片理由變了",
+      "body": "簡介接著把明日香寫成遭鄰居囚禁，重心轉向她在屋內反覆高潮的處境。投訴前，她要鄰居改變生活環境；投訴後，她自己失去離開的自由。若你在找有日常衝突作開場的受困題材，這個轉折比籠統的刺激形容更能幫助選片。文案雖稱它是通往「幸福結局」的開端，卻不足以說明成片如何處理這段關係。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據已提供的 [MGOLD-064 作品頁來源快照](https://cc18.tv/player.php?uuid=qMxLwzyzseQ&cat=19)；外部頁面未能開啟。設定轉折與選片意義是對簡介的編輯判斷，沒有影片抽樣，也沒有可核對的同演員或同系列作品可供比較。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "bdd0cb1bdf80bb9ce2a5070d5d9eb50fa755e1e199bc527fce302c2476870914",
+    "response_sha256": "9be14953bfc70aa76699f948ffdb8f1de356668917e5596938a3a4882879d7ca",
+    "research_input_sha256": "573f572abe8d1f7c34a718a403f7c5faadb9c0f59b765ac7d40860b4ab27380d",
+    "related_source_ids": []
+  }
+}

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-06T23:20:38.357Z",
+  "generated_at": "2026-11-07T00:03:12.191Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 472,
-  "formal_movie_count": 471,
+  "tracked_input_count": 473,
+  "formal_movie_count": 472,
   "demo_count": 1,
-  "published_count": 468,
+  "published_count": 469,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1979,6 +1979,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "286abe18d97c26d22c6c04e655dae098f3830c9b338f0b8e52deb34cfd8f08cb"
+    },
+    {
+      "stable_movie_id": "cc18:MGOLD-064",
+      "catalog_code": "MGOLD-064",
+      "slug": "mgold-064",
+      "master_path": "data/movie-master/mgold-064.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "abd23463d3cb1b2b0120c8e64e3dbd91a7abdf551e72ad1bf6f367efd786bbdf"
     },
     {
       "stable_movie_id": "cc18:MIAB-677",

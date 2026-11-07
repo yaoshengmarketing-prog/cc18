@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:e552599a9e86723fb0ad7f62fbb8fa25bd67c5b0358314d79e8780d3057a2b0e",
-  "source_generated_at": "2026-11-06T23:20:38.357Z",
+  "source_revision": "sha256:2e3a0b4eaf2e49e640c0228e63f14072dfa8a669146dfa6cc825eda1ceadaa97",
+  "source_generated_at": "2026-11-07T00:03:12.191Z",
   "counts": {
-    "movies": 468,
-    "performers": 346,
+    "movies": 469,
+    "performers": 347,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -3669,6 +3669,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:CLOT-043"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:50236",
+      "display_name": "澪奈あすみ",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "澪奈あすみ",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:MGOLD-064"
       ]
     },
     {
@@ -11098,6 +11109,35 @@
         "article_title": "先告訴你有局：這場假採訪怎麼安排懸念？",
         "display_short_title": "假紀錄片惡作劇",
         "slug": "start-632"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:MGOLD-064",
+        "source_cover": "https://cc18.tv/preview/80/b/qMxLwzyzseQ-800.jpg?v=1790714601",
+        "title": "垃圾屋鄰居的投訴風波",
+        "catalog_code": "MGOLD-064",
+        "release_date": "2026-09-28",
+        "performers": [
+          "澪奈あすみ"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/mgold-064/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:50236"
+      ],
+      "search": {
+        "source_title": "垃圾房間受虐懇求高潮 被附近麻煩大叔持續弄到骯髒高潮的女大學生 澪奈明日見",
+        "article_title": "一聲門鈴，怎麼把鄰里糾紛變成受困故事？",
+        "display_short_title": "垃圾屋鄰居的投訴風波",
+        "slug": "mgold-064"
       }
     },
     {

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "MGOLD-064",
+  "review_sha256": "c653f8a91541846efec355c923db7d3dc1482c3aec48810e132b05237f7ef7b0",
+  "selected_thesis": "這部的具體賣點是日常鄰里投訴迅速轉為垃圾屋內的囚禁情境；文案所稱的「幸福結局」不能代替讀者判斷角色處境。",
+  "title_basis": {
+    "performer": "澪奈あすみ",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "澪奈あすみ",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "垃圾房間受虐懇求高潮",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "720p",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "澪奈あすみ",
+    "presentation_feature": "垃圾房間受虐懇求高潮",
+    "editorial_judgment": "以登門投訴前後的處境差異，說明本作的選片線索，並指出宣傳文案對結局的定調。",
+    "source_keywords": [
+      "澪奈あすみ",
+      "垃圾房間受虐懇求高潮",
+      "高畫質",
+      "720p"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "簡介交代明日香是女大學生，因公寓裡的垃圾屋鄰居而登門投訴。",
+      "supports": "故事以具體的鄰里衝突開場，而非直接從封閉空間開始。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介寫明明日香按下門鈴後遭鄰居囚禁，並反覆以高潮與哀求描述她的處境。",
+      "supports": "登門投訴與受困之間的急轉，是這份介紹最明確的設定差異。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介把這段經歷稱作通往「幸福結局」的開端。",
+      "supports": "「幸福結局」是文案的定調，不能據此認定成片如何處理角色意願或結局。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未把來源標題中的翻譯別名當成演員核准繁中名稱。",
+    "未推定片中畫面、表演、節奏或實際結局。",
+    "未將文案的「幸福結局」解讀為角色真實感受。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-06T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}
