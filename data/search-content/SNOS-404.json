@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-404",
+  "generated_at": "2026-11-08T10:43:05.944Z",
+  "source_snapshot_hash": "sha256:b618b4da70019f2c7efe34a186799c9d856e369903e8560b06b7a630d21a3075",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "選片關鍵是失落發生的位置：本作在交往之後，關聯作品則從未告白的暗戀開始。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開介紹以男主角的處境描述戀愛關係，突出前任比較與不被肯定的落差。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "重視戀愛關係設定差異，想比較安達夕莉不同角色安排的讀者。",
+      "對交往後的自信動搖與人物權力關係有興趣的讀者。"
+    ],
+    "not_for": [
+      "期待以相互肯定為核心的戀愛設定者。",
+      "需要先確認完整劇情、實際節奏或影像形式才決定者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SNOS-339",
+      "relation_type": "same_performer",
+      "reason": "同樣由安達夕莉出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "安達夕莉"
+      ],
+      "contrast_signals": [
+        "憂鬱的我",
+        "自拍形式"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "[object Object]",
+    "[object Object]"
+  ]
+}

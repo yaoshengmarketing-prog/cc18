@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-404",
+  "generated_at": "2026-11-08T10:43:04.997Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SNOS-404.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "但是",
+    "premise": "作品以「但是」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「但是」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "但是",
+      "被輕視",
+      "被痴女玩弄",
+      "悔恨自慰狂噴出醜陋的射精",
+      "安達夕莉",
+      "M男"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "癡女"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "顏射",
+      "淫亂・過激系",
+      "アクメ・オーガズム"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由安達夕莉演出，SNOS-404 與 SNOS-339 如何透過不同的戀愛關係，建立男主角的失落感？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=tIVTBAqrA1I&cat=19",
+      "supports": [
+        "提供的作品標題以交往成立後遭到前任比較為設定。",
+        "提供的簡介將第三者介入及關係中的貶抑列為企劃重點。"
+      ],
+      "access_note": "使用使用者提供的已核對來源快照；本次未能開啟外部作品頁。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=4AIIG686p4e&cat=19",
+      "supports": [
+        "同樣由安達夕莉演出，未確認為同系列。",
+        "提供的簡介交代合租、暗戀對象與死黨交往，以及男主角受託替兩人拍攝的設定。"
+      ],
+      "access_note": "使用使用者提供的已核對來源快照；本次未能開啟外部作品頁。"
+    }
+  ],
+  "angle_candidates": [
+    "[object Object]",
+    "[object Object]",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "SNOS-404 的設定辨識度在於：男主角已經開始交往，仍因前任比較而感到失落。對照 SNOS-339 的暗戀與死黨關係，選片差異在於想看未能進入戀情的局外人處境，還是交往後仍不被肯定的關係落差。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "安達夕莉",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "但是",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "終於與心儀女友交往，卻被拿來和前任比較的我｜安達夕莉",
+  "display_short_title": "安達夕莉：交往後的前任比較",
+  "title": "成為男友之後，失落感從哪裡來？",
+  "seo_title": "SNOS-404 安達夕莉｜交往後的前任比較，與 SNOS-339 的暗戀處境對照",
+  "social_title": "安達夕莉兩作對照：暗戀落空與交往後的不安",
+  "short_review": "本作讓男主角如願開始交往，再以與前任比較的設定動搖他的自信。與 SNOS-339 的合租暗戀相比，兩作分別處理戀情之外的失落，以及戀情之內的不安；這比相近的題材分類更能幫助選片。",
+  "editorial_angle": "以兩作公開簡介中的人物關係比較失落感的來源，判斷設定適合哪些讀者，不評斷成片表現。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源標題先交代交往成立，再提出與前任比較及遭到輕視。",
+      "supports": "衝突建立在戀愛關係已經成立之後，男友身分仍未帶來肯定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "SNOS-339 的來源簡介交代男主角尚未告白，心儀對象便與死黨交往，之後受託替兩人拍攝。",
+      "supports": "關聯作品以暗戀落空、友情牽連與旁觀任務建立男主角的處境。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的人物關係確認兩作同樣由安達夕莉演出，未確認共享系列。",
+      "supports": "兩作可作為同演員的設定對照，不宜描述為系列延續或角色續篇。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將兩作視為同系列、續集或同一角色的故事。",
+    "未推定原始日文片名或改編原作名稱。",
+    "未將宣傳中的人氣、銷售與創作者評價當作已核實事實。",
+    "未推定實際鏡位、剪接節奏、聲音、台詞、表演品質或結局。",
+    "未由虛構角色設定推論安達夕莉的真實經歷或個性。"
+  ],
+  "decision_guide": {
+    "thesis": "選片關鍵是失落發生的位置：本作在交往之後，關聯作品則從未告白的暗戀開始。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開介紹以男主角的處境描述戀愛關係，突出前任比較與不被肯定的落差。"
+    ],
+    "audience_for": [
+      "重視戀愛關係設定差異，想比較安達夕莉不同角色安排的讀者。",
+      "對交往後的自信動搖與人物權力關係有興趣的讀者。"
+    ],
+    "audience_not_for": [
+      "期待以相互肯定為核心的戀愛設定者。",
+      "需要先確認完整劇情、實際節奏或影像形式才決定者。"
+    ],
+    "questions_answered": [
+      "[object Object]",
+      "[object Object]"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "交往成立，反而成了衝突的起點",
+      "body": "同樣由安達夕莉演出，這兩作如何讓男主角感到自己不被選擇？本作來源標題先讓他如願與心儀對象交往，接著安排與前任比較的情境。戀情已經開始，男主角卻仍無法確定自己是否受到肯定。「成為男友」與「感到被重視」之間的距離，是這份設定最清楚的切入點。"
+    },
+    {
+      "heading": "與合租暗戀相比，失落的位置改變了",
+      "body": "SNOS-339 的簡介給出另一種安排：男主角與死黨合租，對搬來的安達產生好感，卻因顧慮三人的相處而沒有告白；等她與死黨交往後，他又被拜託替兩人拍攝。這裡的失落連著尚未表達的感情，也連著難以拒絕的朋友請求。本作則已跨過交往門檻，把問題推進關係內部：即使身分改變，比較仍可能讓人覺得自己排在別人之後。"
+    },
+    {
+      "heading": "依人物關係選，比依相近標籤更有用",
+      "body": "若你在意合租生活、友情與未說出口的感情如何糾纏，SNOS-339 提供的情境較具體。若你關注的是交往後仍被比較、無法獲得認同的落差，SNOS-404 的介紹更直接對應這個方向。兩作的選片理由因此可以分開；設定上的差異，並不能替任何一作的敘事完成度評分。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據使用者提供的 [SNOS-404 作品頁快照](https://cc18.tv/player.php?uuid=tIVTBAqrA1I&cat=19)與 [SNOS-339 作品頁快照](https://cc18.tv/player.php?uuid=4AIIG686p4e&cat=19)，使用其中的標題、公開簡介及已核對的共同演出關係。本次未取得可讀取的官方作品材料，兩個外部作品頁亦未能開啟；未將搜尋片段作為作品證據。人物關係比較與選片意義屬編輯判斷，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "b618b4da70019f2c7efe34a186799c9d856e369903e8560b06b7a630d21a3075",
+    "response_sha256": "59353f3e76a71e45887abcc98f7308e2bc1aca1587bc6a2a1cee5d78fce0949f",
+    "research_input_sha256": "e5510c33f6bb09c1cdc86ee1e27aef5c0d9eef7ce9c9c38bff6d45d63ca92c21",
+    "related_source_ids": [
+      "SNOS-339"
+    ]
+  }
+}

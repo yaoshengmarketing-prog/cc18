@@ -1921,7 +1921,7 @@
     },
     {
       "label": "M男",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "CLOT-043",
         "ACHJ-089",
@@ -1930,10 +1930,11 @@
         "DFDM-078",
         "NLD-034",
         "BACJ-190",
-        "AVSA-456"
+        "AVSA-456",
+        "SNOS-404"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-11-05",
+      "last_seen": "2026-11-08",
       "status": "quarantined"
     },
     {

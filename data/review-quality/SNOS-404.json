@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-404",
+  "review_sha256": "ab2fdd5815bd432c1869dc7420f15176511db80743a53584e2f8797f3d951b58",
+  "selected_thesis": "SNOS-404 的設定辨識度在於：男主角已經開始交往，仍因前任比較而感到失落。對照 SNOS-339 的暗戀與死黨關係，選片差異在於想看未能進入戀情的局外人處境，還是交往後仍不被肯定的關係落差。",
+  "title_basis": {
+    "performer": "安達夕莉",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "安達夕莉",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "但是",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "安達夕莉",
+    "presentation_feature": "但是",
+    "editorial_judgment": "以兩作公開簡介中的人物關係比較失落感的來源，判斷設定適合哪些讀者，不評斷成片表現。",
+    "source_keywords": [
+      "安達夕莉",
+      "但是",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源標題先交代交往成立，再提出與前任比較及遭到輕視。",
+      "supports": "衝突建立在戀愛關係已經成立之後，男友身分仍未帶來肯定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "SNOS-339 的來源簡介交代男主角尚未告白，心儀對象便與死黨交往，之後受託替兩人拍攝。",
+      "supports": "關聯作品以暗戀落空、友情牽連與旁觀任務建立男主角的處境。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的人物關係確認兩作同樣由安達夕莉演出，未確認共享系列。",
+      "supports": "兩作可作為同演員的設定對照，不宜描述為系列延續或角色續篇。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將兩作視為同系列、續集或同一角色的故事。",
+    "未推定原始日文片名或改編原作名稱。",
+    "未將宣傳中的人氣、銷售與創作者評價當作已核實事實。",
+    "未推定實際鏡位、剪接節奏、聲音、台詞、表演品質或結局。",
+    "未由虛構角色設定推論安達夕莉的真實經歷或個性。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-07T16:00:00.000Z"
+}
