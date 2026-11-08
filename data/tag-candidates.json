@@ -613,14 +613,15 @@
     },
     {
       "label": "傲嬌",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "SNOS-369",
         "MMPV-005",
-        "FJIN-170"
+        "FJIN-170",
+        "DSOD-119"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-11-05",
+      "last_seen": "2026-11-08",
       "status": "quarantined"
     },
     {
@@ -835,21 +836,22 @@
     },
     {
       "label": "蕾絲親吻",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "BBAN-609",
         "BBAN-601",
         "MIDA-776",
         "BBAN-604",
-        "ATID-666"
+        "ATID-666",
+        "DSOD-119"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "status": "quarantined"
     },
     {
       "label": "女同性戀",
-      "occurrences": 10,
+      "occurrences": 11,
       "source_ids": [
         "BBAN-609",
         "BBAN-601",
@@ -860,10 +862,11 @@
         "MUDR-409",
         "NVH-090",
         "BBAN-604",
-        "ATID-666"
+        "ATID-666",
+        "DSOD-119"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "status": "quarantined"
     },
     {

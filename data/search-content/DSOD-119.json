@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "movie_id": "DSOD-119",
+  "generated_at": "2026-11-08T15:47:27.809Z",
+  "source_snapshot_hash": "sha256:2f275670caf0a9a988b83d461fef07b6293330a6608c69d497ef7ef077d628a5",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若選片時在意一段關係如何開始、又如何面對期限，本作的一年約定比籠統的戀愛標籤更有辨識度。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以失戀、美容院相遇、限期交往及期滿抉擇串起雙人戀愛設定。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好失戀後重新建立親密關係題材的讀者。",
+      "對交往約定、期限與關係去向有興趣的讀者。",
+      "想依角色設定挑選新村晶作品的讀者。"
+    ],
+    "not_for": [
+      "需要先確認實際敘事節奏或故事篇幅的讀者。",
+      "主要想找婚姻內外身分落差與秘密關係設定的讀者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MILK-308",
+      "relation_type": "same_performer",
+      "reason": "同樣由新村晶出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "新村晶"
+      ],
+      "contrast_signals": [
+        "自拍形式",
+        "人妻・主婦"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "[object Object]",
+    "[object Object]"
+  ]
+}

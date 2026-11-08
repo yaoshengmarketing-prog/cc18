@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-119",
+  "review_sha256": "cd8d12906778eebb80b7a03f86e0d4f9548876f868c3eb4f867b083692b0a262",
+  "selected_thesis": "本作最具辨識度的設定，是把失戀後的親近放進一年期限：相遇回答了關係如何開始，期滿則提出兩人是否繼續的問題。對照 AVSA-455 的婚姻外秘密關係，兩作提供了不同的選片入口。",
+  "title_basis": {
+    "performer": "新村晶、竹內有紀",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "新村晶",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "one",
+        "source_field": "title"
+      },
+      {
+        "type": "performer",
+        "value": "竹內有紀",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "新村晶",
+    "presentation_feature": "one",
+    "editorial_judgment": "以交往期限為核心，結合同演員作品的角色設定比較，說明不同關係懸念各自適合哪種選片期待。",
+    "source_keywords": [
+      "新村晶",
+      "one",
+      "竹內有紀",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介交代有紀遭交往七年的男友背叛，之後在美容院遇見晶。",
+      "supports": "失戀是角色相遇前的處境，美容院則是新關係的起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作簡介明確交代一年限定的戀人約定，並追問一年過後的結局。",
+      "supports": "交往期限是來源直接提出的關係懸念，可作為文章主軸。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "AVSA-455 的簡介設定為已婚女性透過交友軟體尋找婚姻之外的對象；兩作均由新村晶演出。",
+      "supports": "兩作可比較限期交往與婚姻外秘密關係的設定差異，但不能據此比較表演或成片品質。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將角色的失戀或交往經驗寫成演員的真實經歷。",
+    "未推定兩部作品屬於同一系列或具有劇情延續關係。",
+    "未補寫期滿後的具體結局、台詞或角色內心。",
+    "未從簡介推斷演技、鏡頭、配樂、敘事密度或節奏。",
+    "未把搜尋摘要當作已閱讀的官方全文，也未據此補定日文原題。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-07T16:00:00.000Z"
+}
