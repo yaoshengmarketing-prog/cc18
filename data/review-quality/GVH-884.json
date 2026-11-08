@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "GVH-884",
+  "review_sha256": "7b4d60961715d35a9ab842ff6f5a16342acb761fb6d2dabcb0e60d65cc2ca16e",
+  "selected_thesis": "來源以青春期學生建立角色設定，涉及未成年暗示；可作非露骨的資料分析，不能據此撰寫色情推廣或情色選片推薦。",
+  "title_basis": {
+    "performer": "小梅惠奈",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "小梅惠奈",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "游泳部強化合宿中",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "小梅惠奈",
+    "presentation_feature": "游泳部強化合宿中",
+    "editorial_judgment": "僅分析人物關係與資料所能支持的範圍，不延伸情色描寫或推薦。",
+    "source_keywords": [
+      "小梅惠奈",
+      "游泳部強化合宿中",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "提供的簡介將人物分為顧問與接受指導的學生部員。",
+      "supports": "師生關係是明確的故事設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的簡介以青春期描述部員，未列明角色年齡。",
+      "supports": "設定涉及未成年暗示，不能自行改寫為全員成年。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "所有故事角色均已成年",
+    "演員年齡足以證明角色年齡",
+    "實際鏡位、聲音、台詞、表演品質與剪輯節奏",
+    "未提供材料的同演員、同系列或片商作品比較"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-07T16:00:00.000Z"
+}

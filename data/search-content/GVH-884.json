@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "movie_id": "GVH-884",
+  "generated_at": "2026-11-08T02:46:24.657Z",
+  "source_snapshot_hash": "sha256:0de4131382cdb192e53114fb41d97e5b6b1f29712301474edf4c4ac410c7312e",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "現有資料適合用於非露骨的角色設定分析，無法支持情色推薦。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "游泳部合宿背景，人物關係為顧問與學生部員。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "需要核對公開簡介與人物設定的讀者",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "需要成片表現評價或跨作品比較的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "[object Object]"
+  ]
+}
