@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "ROYD-368",
+  "review_sha256": "abe1020967f9484cba773c7c3d2d4e877fe5ffd2191d786997c1e08d67955f19",
+  "selected_thesis": "ROYD-368 的設定重點，是讓被職場排除的中年職員成為新人女職員主動尋找的人；相較於 ROYD-357 以嫉妒與誤導推動關係，本作更適合依「失意時被選擇」的情感前提來選片。",
+  "title_basis": {
+    "performer": "音無鈴",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "音無鈴",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "抜け出してきちゃいました",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "音無鈴",
+    "presentation_feature": "抜け出してきちゃいました",
+    "editorial_judgment": "以公司聚餐的參與與缺席切入，分析人物如何從群體中的邊緣位置轉為私人關係的中心，再用同演員作品的嫉妒與誤導設定比較選片差異。",
+    "source_keywords": [
+      "音無鈴",
+      "抜け出してきちゃいました",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介交代男主角被年下上司加派工作，且未獲邀參加公司聚餐。",
+      "supports": "他的失意同時涉及工作負擔與群體排除，因此女職員的到來具有超出一般同事相遇的設定意義。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "新人女職員離開聚餐後出現在加班現場，簡介明述兩人彼此吸引。",
+      "supports": "將本作的情感前提理解為失意時被主動靠近，有公開簡介可據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "ROYD-357 的簡介交代青梅竹馬已有男友，男主角因嫉妒而誤導她；題附資料確認兩作由同一位演員演出，但不同系列。",
+      "supports": "兩作可以比較人物關係的推進方式：本作強調彼此吸引，另一作則以既有交情、第三者與資訊不對等製造衝突。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將新人女職員寫成男主角的直屬部下，也未補寫兩人過往交情。",
+    "未將離開聚餐解釋為反抗上司或替男主角報復。",
+    "未把來源標題中的純愛宣傳視為關係健康或成片感人程度的證明。",
+    "未推定實際鏡位、聲音、台詞、敘事節奏或演出品質。",
+    "未以同演員關係推定兩作屬於同系列。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z"
+}

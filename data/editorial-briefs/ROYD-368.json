@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "id": "ROYD-368",
+  "generated_at": "2026-11-08T17:44:01.819Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/ROYD-368.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "抜け出してきちゃいました",
+    "premise": "作品以「抜け出してきちゃいました」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「抜け出してきちゃいました」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "抜け出してきちゃいました",
+      "翹掉公司聚餐",
+      "故意誘惑我的後輩女職員",
+      "我是認真的",
+      "理智線斷掉的大叔我",
+      "音無鈴"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "OL"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [
+      "部下・同僚"
+    ],
+    "setting": [],
+    "action": [
+      "中出",
+      "口交"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由音無鈴演出，ROYD-368 與 ROYD-357 如何用不同的人物處境，建立兩人靠近彼此的理由？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=3TlhFiZinex&cat=19",
+      "supports": [
+        "使用題附已核對的作品資料快照；本次未能開啟來源頁全文。",
+        "男主角被較年輕的上司加派工作，未獲邀參加公司聚餐而獨自加班。",
+        "新人女職員離開聚餐後出現，簡介將兩人的關係描述為彼此吸引。"
+      ]
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=dpjon6H30c5&cat=19",
+      "supports": [
+        "使用題附已核對的關聯作品資料快照；本次未能開啟來源頁全文。",
+        "同樣由音無鈴演出，但並非同系列作品。",
+        "故事以返鄉、青梅竹馬交了第一任男友，以及男主角的嫉妒與誤導建立關係衝突。"
+      ]
+    }
+  ],
+  "angle_candidates": [
+    "[object Object]",
+    "[object Object]",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "ROYD-368 的設定重點，是讓被職場排除的中年職員成為新人女職員主動尋找的人；相較於 ROYD-357 以嫉妒與誤導推動關係，本作更適合依「失意時被選擇」的情感前提來選片。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "音無鈴",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "抜け出してきちゃいました",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "音無鈴：翹掉公司聚餐，走近獨自加班的前輩",
+  "display_short_title": "音無鈴：聚餐之外的靠近",
+  "title": "她離開聚餐，讓被冷落的前輩成為被選擇的人",
+  "seo_title": "ROYD-368 音無鈴｜從獨自加班到被主動尋找的職場設定",
+  "social_title": "音無鈴離開公司聚餐：一次主動靠近，如何改變職場故事的起點？",
+  "short_review": "新人女職員離開聚餐，出現在獨自加班的中年前輩面前，讓職場失意與私人關注形成對照。與同樣由音無鈴演出的青梅竹馬題材相比，本作簡介把關係動力放在彼此吸引，選片關鍵是你是否在意「被冷落之後，有人主動選擇自己」的設定。",
+  "editorial_angle": "以公司聚餐的參與與缺席切入，分析人物如何從群體中的邊緣位置轉為私人關係的中心，再用同演員作品的嫉妒與誤導設定比較選片差異。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介交代男主角被年下上司加派工作，且未獲邀參加公司聚餐。",
+      "supports": "他的失意同時涉及工作負擔與群體排除，因此女職員的到來具有超出一般同事相遇的設定意義。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "新人女職員離開聚餐後出現在加班現場，簡介明述兩人彼此吸引。",
+      "supports": "將本作的情感前提理解為失意時被主動靠近，有公開簡介可據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "ROYD-357 的簡介交代青梅竹馬已有男友，男主角因嫉妒而誤導她；題附資料確認兩作由同一位演員演出，但不同系列。",
+      "supports": "兩作可以比較人物關係的推進方式：本作強調彼此吸引，另一作則以既有交情、第三者與資訊不對等製造衝突。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將新人女職員寫成男主角的直屬部下，也未補寫兩人過往交情。",
+    "未將離開聚餐解釋為反抗上司或替男主角報復。",
+    "未把來源標題中的純愛宣傳視為關係健康或成片感人程度的證明。",
+    "未推定實際鏡位、聲音、台詞、敘事節奏或演出品質。",
+    "未以同演員關係推定兩作屬於同系列。"
+  ],
+  "decision_guide": {
+    "thesis": "依人物靠近的理由選片：本作提供職場受挫後被主動關注的設定，對照作品則以青梅竹馬之間的嫉妒與誤導建立衝突。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以公司聚餐、獨自加班及新人女職員的到來建立職場關係。"
+    ],
+    "audience_for": [
+      "偏好職場失意與私人關注形成對照的讀者。",
+      "想比較音無鈴在不同人物關係設定中如何被介紹的讀者。"
+    ],
+    "audience_not_for": [
+      "這次選片主要想找青梅竹馬、第三者與嫉妒衝突的讀者。",
+      "需要先確認故事篇幅或影像節奏才能決定的讀者。"
+    ],
+    "questions_answered": [
+      "公司聚餐為何是本作設定的重要環節？",
+      "本作與同演員的 ROYD-357，在人物靠近的理由上有何差異？",
+      "這些差異如何幫助選片？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "聚餐的缺席，先交代了他的處境",
+      "body": "ROYD-368 如何讓兩人的靠近有一個可辨認的起點？來源簡介先寫中年男職員被較年輕的上司加派工作，再交代他沒有獲邀參加公司聚餐，只能獨自加班。工作負擔與人際冷落疊在一起，構成他出場時的處境。\n\n新人女職員從聚餐離開、出現在他面前，因而有了明確的對照：其他人聚在一起時，他被留在外面；她的到來，則讓他成為有人主動尋找的對象。我認為這是本作最具辨識度的設定，也比單看辦公室或同事標籤更能說明選片理由。"
+    },
+    {
+      "heading": "與青梅竹馬題材相比，關係的阻力來自不同地方",
+      "body": "同樣由音無鈴演出的 ROYD-357，把人物放在另一種關係裡：男主角返鄉後得知青梅竹馬交了第一任男友，簡介接著以他的嫉妒與誤導推動衝突。既有交情、另一位伴侶，以及兩人掌握資訊的不對等，是那部作品的設定支點。\n\nROYD-368 則先用職場處境拉開人物，再以女職員的主動到來與彼此吸引讓兩人靠近。選片意義也因此不同：若你在意熟人關係如何因嫉妒而變質，ROYD-357 的前提較貼近需求；若你偏好失意時獲得私人關注的職場設定，本作的介紹更有針對性。這個比較說明的是故事入口，不能替兩作的完成度排名。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用題附已核對的 [ROYD-368 作品頁資料快照](https://cc18.tv/player.php?uuid=3TlhFiZinex&cat=19)與 [ROYD-357 作品頁資料快照](https://cc18.tv/player.php?uuid=dpjon6H30c5&cat=19)，包括作品簡介及同演員關係。外部查找未取得可用的官方全文，來源作品頁本次亦未能開啟，因此沒有將搜尋片段納入論據。人物處境的比較與選片意義為編輯判斷；未使用影片抽樣，無法據此確認故事密度、節奏或實際演出。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "68f23cd08903ff5e833fd3949b98c4d79471b252de8f9348571501052c605eb8",
+    "response_sha256": "25d07f62a1521d9fdb8fbc412808852c23e0ceb5c79180c21603a79f0f2aa5f1",
+    "research_input_sha256": "70e831b503557666d3e1e4438e9801ba14f327cbdaac596f5623f73266f126c4",
+    "related_source_ids": [
+      "DSOD-093",
+      "ROYD-357"
+    ]
+  }
+}

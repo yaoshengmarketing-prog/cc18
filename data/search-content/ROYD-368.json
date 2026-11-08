@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "movie_id": "ROYD-368",
+  "generated_at": "2026-11-08T17:44:02.334Z",
+  "source_snapshot_hash": "sha256:68f23cd08903ff5e833fd3949b98c4d79471b252de8f9348571501052c605eb8",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "依人物靠近的理由選片：本作提供職場受挫後被主動關注的設定，對照作品則以青梅竹馬之間的嫉妒與誤導建立衝突。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以公司聚餐、獨自加班及新人女職員的到來建立職場關係。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好職場失意與私人關注形成對照的讀者。",
+      "想比較音無鈴在不同人物關係設定中如何被介紹的讀者。"
+    ],
+    "not_for": [
+      "這次選片主要想找青梅竹馬、第三者與嫉妒衝突的讀者。",
+      "需要先確認故事篇幅或影像節奏才能決定的讀者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "ROYD-357",
+      "relation_type": "same_performer",
+      "reason": "同樣由音無鈴出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "音無鈴"
+      ],
+      "contrast_signals": [
+        "人生初の彼氏ができた",
+        "AV女優片"
+      ]
+    },
+    {
+      "movie_id": "DSOD-093",
+      "relation_type": "same_performer",
+      "reason": "同樣由音無鈴出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "音無鈴"
+      ],
+      "contrast_signals": [
+        "認真肉棒指導"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "公司聚餐為何是本作設定的重要環節？",
+    "本作與同演員的 ROYD-357，在人物靠近的理由上有何差異？",
+    "這些差異如何幫助選片？"
+  ]
+}
