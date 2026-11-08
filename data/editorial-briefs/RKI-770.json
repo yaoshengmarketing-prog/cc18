@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "id": "RKI-770",
+  "generated_at": "2026-11-08T13:44:48.503Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/RKI-770.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "この恋に気づいて",
+    "premise": "作品以「この恋に気づいて」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「この恋に気づいて」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "この恋に気づいて",
+      "さつき芽衣",
+      "中出",
+      "巨乳"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "OL"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由沙月芽衣演出，RKI-770 與 JUR-866 如何透過不同的人物關係，建立截然不同的選片期待？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=2DxgQNy9D6G&cat=19",
+      "supports": [
+        "使用本次提供的已核對作品資料；外部頁面未能開啟。",
+        "標題以專一的後輩女友與甜蜜交往日常為設定。",
+        "簡介稱沙月芽衣飾演辻中美穗，並以系列實寫改編及幸福收尾作為宣傳重點。"
+      ]
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=2ISHxqlMSfv&cat=19",
+      "supports": [
+        "使用本次提供的已核對關聯作品資料；外部頁面未能開啟。",
+        "同樣由沙月芽衣演出，但不屬於同系列。",
+        "簡介設定為丈夫出差期間，妻子遭同住義父偷拍與侵害，關係核心涉及家庭權力與脅迫。"
+      ]
+    }
+  ],
+  "angle_candidates": [
+    "從後輩戀人與受威脅的妻子，比較同一演員兩作的人物關係。",
+    "來源如何以系列改編與幸福收尾，替後輩女友設定增加辨識度。",
+    "溫泉場景的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "RKI-770 的選片辨識點，在於來源將後輩女友、持續交往與幸福收尾連在一起；對照同樣由沙月芽衣演出的 JUR-866，可見兩作分別訴諸戀愛親近感與家庭脅迫衝突，不能只憑演員名字視為相近題材。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "沙月芽衣",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "この恋に気づいて",
+      "source_field": "series"
+    },
+    {
+      "type": "setting",
+      "value": "溫泉場景",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "察覺這份戀情：與專一後輩女友的甜蜜日常",
+  "display_short_title": "沙月芽衣的後輩女友戀曲",
+  "title": "後輩女友與幸福收尾，讓這次選片先看關係設定",
+  "seo_title": "RKI-770 沙月芽衣｜後輩女友與幸福收尾的改編設定",
+  "social_title": "同樣是沙月芽衣，這次的選片線索是後輩戀情",
+  "short_review": "來源把後輩女友的專一、交往日常與系列幸福收尾放在一起，讓本作有了明確的戀愛取向。與同演員 JUR-866 的家庭脅迫設定相比，兩作的人物關係差異，比演員相同更值得作為選片依據。",
+  "editorial_angle": "比較兩份公開簡介中的人物身分、關係安全感與衝突來源，說明同演員作品仍須依題材分流；另將改編範圍的宣傳承諾與可確認的影像表現分開。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源標題將人物定位為專一的後輩女友，並強調甜蜜交往日常。",
+      "supports": "本作宣傳以戀人關係及持續相處作為主要吸引力。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作簡介提及 GOT 出版的單行本、同人誌的幸福結局，並稱將全系列重新實寫化。",
+      "supports": "系列改編與幸福收尾是來源明示的企劃賣點，但不足以證明實際改編完整度。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "JUR-866 的已核對人物關係確認同樣由沙月芽衣演出；簡介以丈夫出差、義父同住、偷拍與侵害展開。",
+      "supports": "比較作的衝突來自家庭中的脅迫，與本作標題建立的甜蜜戀人期待有具體差異。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將日文系列名稱當作已核實的作品日文原題。",
+    "未補寫原作者姓名、原作章節次序或改編刪增。",
+    "未宣稱成片完整涵蓋原作，或確認實際結局。",
+    "未由宣傳設定推論表演品質、鏡頭、台詞、聲音、故事密度或節奏。",
+    "未將虛構角色設定解讀為演員的真實性格與經歷。",
+    "未僅憑溫泉標籤補寫旅行情節或拍攝地點。"
+  ],
+  "decision_guide": {
+    "thesis": "優先依人物關係選片：本作來源主打後輩戀人的甜蜜日常，與同演員作品中的家庭脅迫題材有明確區別。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源定位為系列實寫改編，由沙月芽衣飾演後輩女友辻中美穗，並以幸福收尾吸引讀者。"
+    ],
+    "audience_for": [
+      "偏好戀人關係與甜蜜交往設定的讀者。",
+      "想依沙月芽衣的不同角色題材選片的讀者。",
+      "關注原作改編企劃，願意進一步核對改編內容的讀者。"
+    ],
+    "audience_not_for": [
+      "主要尋找家庭權力衝突或脅迫情節的讀者。",
+      "需要先確認原作還原程度與成片節奏才選片的讀者。"
+    ],
+    "questions_answered": [
+      "[object Object]",
+      "[object Object]"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "同一位演員，兩種人物關係",
+      "body": "同樣由沙月芽衣演出，RKI-770 與 JUR-866 如何建立不同的選片期待？兩份簡介給出的答案，首先是角色與身邊人的關係。本作標題將她定位為專一的後輩女友，重點放在交往後的甜蜜日常；JUR-866 則讓她處於妻子的身分，丈夫出差、義父同住，再由偷拍與侵害構成威脅。前者以親近的戀人關係吸引讀者，後者以家庭關係遭破壞製造衝突。若你是循著演員名字找作品，這個差異足以先決定題材是否合意。"
+    },
+    {
+      "heading": "幸福收尾，替改編企劃定下方向",
+      "body": "本作簡介還提出另一條線索：沙月芽衣飾演辻中美穗，企劃宣稱將相關系列重新實寫化，並特別提到原作的幸福結局。這讓宣傳的焦點延伸到一段戀情如何獲得圓滿收束。對偏好戀愛設定的讀者而言，這是比單一角色標籤更具體的選片理由；對熟悉原作的人而言，則提供了後續核對改編範圍的方向。是否完整保留原作發展，仍不能由「全系列」的宣傳措辭直接判定。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依本次提供的 [RKI-770 作品資料快照](https://cc18.tv/player.php?uuid=2DxgQNy9D6G&cat=19)與[JUR-866 關聯作品資料快照](https://cc18.tv/player.php?uuid=2ISHxqlMSfv&cat=19)撰寫。外部作品頁未能開啟，未取得可使用的官方作品或原作全文材料，也未採用搜尋片段補充論述。兩作同演員、不同系列；人物關係差異依標題與簡介比較，選片意義為編輯判斷。未使用影片抽樣，故不評定成片節奏、表演或改編完成度。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "667d014efdd6a63b811fb7e6fa1b8b070b1fc9baf515ece6f849c114bcceffd8",
+    "response_sha256": "272972360f966fb61ac5d5ba71e55201fbab41385f7f6c7f3c643b51a68afa40",
+    "research_input_sha256": "843f3834e9fa5d5859e96339ac9c886fee0b6ec4319612fcb7de6110df6eefa0",
+    "related_source_ids": [
+      "JUR-866"
+    ]
+  }
+}

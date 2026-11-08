@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-08T12:48:42.851Z",
+  "generated_at": "2026-11-08T13:50:26.543Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 500,
-  "formal_movie_count": 499,
+  "tracked_input_count": 501,
+  "formal_movie_count": 500,
   "demo_count": 1,
-  "published_count": 496,
+  "published_count": 497,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -3392,6 +3392,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "1183dfdf646b39c15fff63c84e5e1ce87da617b96ba0fd98444afcd356bf6345"
+    },
+    {
+      "stable_movie_id": "cc18:RKI-770",
+      "catalog_code": "RKI-770",
+      "slug": "rki-770",
+      "master_path": "data/movie-master/rki-770.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "5d571cc3a7ac67a9e3689823f19eb79a5a2f31df7f93e1468da1bd257a42be84"
     },
     {
       "stable_movie_id": "cc18:RLMP-013",

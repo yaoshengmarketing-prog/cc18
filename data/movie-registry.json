@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-08T12:48:21.356Z",
+  "updated_at": "2026-11-08T13:49:56.735Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -7428,6 +7428,21 @@
       ],
       "release_date": "2026-10-09",
       "source_url": "https://cc18.tv/player.php?uuid=BMQzUJIBYf5&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-08"
+    },
+    {
+      "id": "RKI-770",
+      "actress": [
+        "沙月芽衣"
+      ],
+      "release_date": "2026-10-09",
+      "source_url": "https://cc18.tv/player.php?uuid=2DxgQNy9D6G&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

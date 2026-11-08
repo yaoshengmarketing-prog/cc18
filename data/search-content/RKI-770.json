@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "movie_id": "RKI-770",
+  "generated_at": "2026-11-08T13:44:49.265Z",
+  "source_snapshot_hash": "sha256:667d014efdd6a63b811fb7e6fa1b8b070b1fc9baf515ece6f849c114bcceffd8",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "優先依人物關係選片：本作來源主打後輩戀人的甜蜜日常，與同演員作品中的家庭脅迫題材有明確區別。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源定位為系列實寫改編，由沙月芽衣飾演後輩女友辻中美穗，並以幸福收尾吸引讀者。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好戀人關係與甜蜜交往設定的讀者。",
+      "想依沙月芽衣的不同角色題材選片的讀者。",
+      "關注原作改編企劃，願意進一步核對改編內容的讀者。"
+    ],
+    "not_for": [
+      "主要尋找家庭權力衝突或脅迫情節的讀者。",
+      "需要先確認原作還原程度與成片節奏才選片的讀者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "JUR-866",
+      "relation_type": "same_performer",
+      "reason": "同樣由沙月芽衣出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "沙月芽衣"
+      ],
+      "contrast_signals": [
+        "丈夫出差的5天間",
+        "人妻・主婦"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "[object Object]",
+    "[object Object]"
+  ]
+}

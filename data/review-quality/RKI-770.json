@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "RKI-770",
+  "review_sha256": "50f618c8b9cf95f1bd422243a044f75b3a949f8dc95f0f557384bb4336977b72",
+  "selected_thesis": "RKI-770 的選片辨識點，在於來源將後輩女友、持續交往與幸福收尾連在一起；對照同樣由沙月芽衣演出的 JUR-866，可見兩作分別訴諸戀愛親近感與家庭脅迫衝突，不能只憑演員名字視為相近題材。",
+  "title_basis": {
+    "performer": "沙月芽衣",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "沙月芽衣",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "この恋に気づいて",
+        "source_field": "series"
+      },
+      {
+        "type": "setting",
+        "value": "溫泉場景",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "沙月芽衣",
+    "presentation_feature": "この恋に気づいて",
+    "editorial_judgment": "比較兩份公開簡介中的人物身分、關係安全感與衝突來源，說明同演員作品仍須依題材分流；另將改編範圍的宣傳承諾與可確認的影像表現分開。",
+    "source_keywords": [
+      "沙月芽衣",
+      "この恋に気づいて",
+      "溫泉場景",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源標題將人物定位為專一的後輩女友，並強調甜蜜交往日常。",
+      "supports": "本作宣傳以戀人關係及持續相處作為主要吸引力。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作簡介提及 GOT 出版的單行本、同人誌的幸福結局，並稱將全系列重新實寫化。",
+      "supports": "系列改編與幸福收尾是來源明示的企劃賣點，但不足以證明實際改編完整度。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "JUR-866 的已核對人物關係確認同樣由沙月芽衣演出；簡介以丈夫出差、義父同住、偷拍與侵害展開。",
+      "supports": "比較作的衝突來自家庭中的脅迫，與本作標題建立的甜蜜戀人期待有具體差異。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將日文系列名稱當作已核實的作品日文原題。",
+    "未補寫原作者姓名、原作章節次序或改編刪增。",
+    "未宣稱成片完整涵蓋原作，或確認實際結局。",
+    "未由宣傳設定推論表演品質、鏡頭、台詞、聲音、故事密度或節奏。",
+    "未將虛構角色設定解讀為演員的真實性格與經歷。",
+    "未僅憑溫泉標籤補寫旅行情節或拍攝地點。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-07T16:00:00.000Z"
+}
