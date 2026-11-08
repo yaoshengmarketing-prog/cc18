@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "id": "IPZZ-985",
+  "generated_at": "2026-11-08T14:38:47.317Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/IPZZ-985.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "美琴千緒",
+    "premise": "作品以「美琴千緒」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「美琴千緒」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "美琴千緒",
+      "淫語"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "癡女"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "淫語"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "本作為什麼同時強調關西出差時的熟客關係與東京同居？這個轉換如何改變人物關係？",
+  "research_sources": [
+    {
+      "url": "https://ideapocket.com/works/detail/IPZZ985",
+      "supports": [
+        "官方作品頁列出演員美琴千緒。",
+        "簡介由關西出差期間的熟客關係，轉入女方登門並住進東京住處的設定。",
+        "簡介加入房租、工作與家事，並交代女方不做家事、弄亂房間，男方仍希望她留下。"
+      ]
+    }
+  ],
+  "angle_candidates": [
+    "[object Object]",
+    "[object Object]",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作的設定重心是熟客關係跨進私人生活：男方從安排見面的人，變成接受對方改變居家秩序的人；家事失衡則讓這個轉換更明確。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "美琴千緒",
+      "source_field": "actress"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "美琴千緒：關西熟識的她，搬進東京的家",
+  "display_short_title": "美琴千緒的東京同居生活",
+  "title": "從熟客到室友，誰來決定家的規矩？",
+  "seo_title": "IPZZ-985 美琴千緒｜從關西熟客到東京同居的關係轉換",
+  "social_title": "她搬進東京的家，熟客關係也跟著改變",
+  "short_review": "官方簡介把關西的熟客關係帶進東京住處，再用房租與家事描寫相處的不對等。值得分析的是男方如何從安排見面，轉為希望對方繼續留下。",
+  "editorial_angle": "以本作簡介中同居前後的空間、主動權與生活責任作對照，分析設定如何建立人物關係。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "官方簡介交代男方在關西出差期間經常光顧女方工作的場所，之後由女方聯繫並登門。",
+      "supports": "兩人的相識有既存背景；由誰主動接近對方，在故事起點已發生轉換。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "女方住進男方家中，簡介將房租、工作與家事納入相處情境。",
+      "supports": "設定將原先有特定場所的關係，延伸到私人生活與日常安排。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介末段寫到女方弄亂房間、不做家事，男方仍希望她留下。",
+      "supports": "男方的挽留與生活負擔並置，可支持對角色依戀及相處失衡的分析。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將角色的工作、性格或語言設定視為美琴千緒的真實經歷。",
+    "未判斷實際表演、口音自然度、攝影、剪輯或成片品質。",
+    "未推定兩人最後成為戀人，或故事具有特定結局。",
+    "未將片商標籤名稱視為本作系列。",
+    "未以搜尋摘要建立其他作品的比較。"
+  ],
+  "decision_guide": {
+    "thesis": "以熟客關係進入私人住處為核心，透過家事失衡呈現同居後的主動權變化。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "官方簡介以男性角色的第一人稱交代相識背景與同居處境。"
+    ],
+    "audience_for": [
+      "關注成人作品如何安排人物權力關係的成年讀者。",
+      "希望辨別本作同居設定具體差異的成年讀者。"
+    ],
+    "audience_not_for": [
+      "需要先確認完整故事發展與結局的讀者。",
+      "需要實際影像評析才能作判斷的讀者。"
+    ],
+    "questions_answered": [
+      "[object Object]",
+      "[object Object]"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "從關西到東京，改變的是相處的條件",
+      "body": "為什麼要先交代關西出差，再讓美琴千緒飾演的角色搬進東京住處？官方簡介提供的答案，是讓兩人的關係跨過場所界線。原先由男方在出差時前往店裡，後來改由女方主動聯繫、登門並留下。見面從行程中的一項安排，變成家裡持續存在的相處。這個前後差異，使同居設定有了明確的人物關係基礎。"
+    },
+    {
+      "heading": "不做家事，為何仍被挽留？",
+      "body": "文案還特別留下生活上的不便：她弄亂房間，也不做家事，男方卻仍希望她住下來。房租與家務因此成為角色關係的具體條件。我的解讀是，男方對她的依戀，被寫成願意接受居家秩序改變的選擇。這也讓本作的設定辨識點落在不對等的共同生活，而非只靠突然來訪製造開場。"
+    },
+    {
+      "heading": "這個差異能幫助判斷什麼？",
+      "body": "若選片時在意人物關係，可以把重點放在熟客如何變成室友，以及共同生活如何重新分配主動權。與簡介前段尚有場所界線的往來相比，同居後連工作與家務都被納入相處，兩者的差別相當具體。不過，文案提供的是關係設定，還不足以判定故事是否細緻處理這些矛盾。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用已讀取的 [IDEA POCKET 官方作品頁](https://ideapocket.com/works/detail/IPZZ985)，範圍為演員資料與公開簡介。比較限於本作簡介內同居前後的設定；關於主動權與依戀的說明為編輯解讀。未使用影片抽樣，也未據此評價實際表演、節奏或故事密度。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "ff7b29e3fa966adcb139ddb81ed5b34d3a22f40f120a0bf24fd87edc20310d14",
+    "response_sha256": "3f6d2817b7007230c8086727505722be8c8803215044bdbe791ed3df6c74b6e8",
+    "research_input_sha256": "4af8a7e18761fb89e73ac6909edefae3b37715213b06df0a8e35f8f141fdbce1",
+    "related_source_ids": []
+  }
+}

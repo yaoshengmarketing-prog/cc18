@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "IPZZ-985",
+  "generated_at": "2026-11-08T14:38:47.819Z",
+  "source_snapshot_hash": "sha256:ff7b29e3fa966adcb139ddb81ed5b34d3a22f40f120a0bf24fd87edc20310d14",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "以熟客關係進入私人住處為核心，透過家事失衡呈現同居後的主動權變化。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "官方簡介以男性角色的第一人稱交代相識背景與同居處境。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "關注成人作品如何安排人物權力關係的成年讀者。",
+      "希望辨別本作同居設定具體差異的成年讀者。"
+    ],
+    "not_for": [
+      "需要先確認完整故事發展與結局的讀者。",
+      "需要實際影像評析才能作判斷的讀者。"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "[object Object]",
+    "[object Object]"
+  ]
+}

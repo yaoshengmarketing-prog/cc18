@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "IPZZ-985",
+  "review_sha256": "7e685cdac03d58faa63a01e0636de56e381deb91103a009f6f4dfaac5059d9ab",
+  "selected_thesis": "本作的設定重心是熟客關係跨進私人生活：男方從安排見面的人，變成接受對方改變居家秩序的人；家事失衡則讓這個轉換更明確。",
+  "title_basis": {
+    "performer": "美琴千緒",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "美琴千緒",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "美琴千緒",
+    "presentation_feature": "高畫質",
+    "editorial_judgment": "以本作簡介中同居前後的空間、主動權與生活責任作對照，分析設定如何建立人物關係。",
+    "source_keywords": [
+      "美琴千緒",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "官方簡介交代男方在關西出差期間經常光顧女方工作的場所，之後由女方聯繫並登門。",
+      "supports": "兩人的相識有既存背景；由誰主動接近對方，在故事起點已發生轉換。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "女方住進男方家中，簡介將房租、工作與家事納入相處情境。",
+      "supports": "設定將原先有特定場所的關係，延伸到私人生活與日常安排。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介末段寫到女方弄亂房間、不做家事，男方仍希望她留下。",
+      "supports": "男方的挽留與生活負擔並置，可支持對角色依戀及相處失衡的分析。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將角色的工作、性格或語言設定視為美琴千緒的真實經歷。",
+    "未判斷實際表演、口音自然度、攝影、剪輯或成片品質。",
+    "未推定兩人最後成為戀人，或故事具有特定結局。",
+    "未將片商標籤名稱視為本作系列。",
+    "未以搜尋摘要建立其他作品的比較。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-07T16:00:00.000Z"
+}
