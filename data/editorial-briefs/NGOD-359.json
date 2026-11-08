@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "id": "NGOD-359",
+  "generated_at": "2026-11-08T11:47:57.431Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/NGOD-359.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "秘書妻播種",
+    "premise": "作品以「秘書妻播種」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「秘書妻播種」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "秘書妻播種",
+      "壓倒性的敗北感",
+      "我的妻子在上班期間",
+      "響蓮",
+      "秘書"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由響蓮演出，NGOD-359 與 BBAN-604 如何用不同的人物關係建立秘密與壓力？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=rQXYiWX499A&cat=19",
+      "supports": [
+        "使用使用者提供的已核對來源快照。",
+        "響蓮飾演已婚的社長專屬秘書；簡介從一名暗戀她、卻不知內情的普通社員切入。",
+        "來源標題採丈夫口吻，與簡介中的社員切入點不同。"
+      ]
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=sJlm_yaFe37&cat=19",
+      "supports": [
+        "使用使用者提供的已核對來源快照。",
+        "同樣由響蓮演出，角色試圖維持辣妹形象，並因害怕過去曝光而受好友牽制。",
+        "壓力來自同儕關係與形象秘密，與本作的職場上下級關係不同。"
+      ]
+    }
+  ],
+  "angle_candidates": [
+    "丈夫口吻的標題與暗戀社員切入的簡介，如何建立不同的旁觀位置。",
+    "比較職場階級與同儕秘密：兩作如何安排響蓮角色受到的牽制。",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "NGOD-359 的設定特色，是把已婚身分、職場階級與社員的不知情疊在一起；對照 BBAN-604 以過去曝光牽制角色，更能看清兩作分別依靠哪種人物關係製造衝突。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "響蓮",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "秘書妻播種",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "響蓮飾演人妻秘書：社長與暗戀社員之間的秘密",
+  "display_short_title": "響蓮的人妻秘書與職場秘密",
+  "title": "丈夫之外，為何還有一名不知情的暗戀社員？",
+  "seo_title": "NGOD-359 響蓮人妻秘書：職場秘密與人物關係解析",
+  "social_title": "響蓮的秘書角色，為何從暗戀她的社員談起？",
+  "short_review": "來源標題以丈夫口吻強調失落，簡介卻先介紹暗戀秘書的普通社員。這個差異讓本作的人物設定多了一個不知情的旁觀位置；與 BBAN-604 相比，衝突也從同儕間的形象秘密，移到婚姻與職場階級交疊的關係。",
+  "editorial_angle": "從標題與簡介的切入點差異出發，比較同一演員兩作中的秘密、權力來源與角色處境。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源標題使用丈夫口吻，簡介則由暗戀響小姐的普通社員切入。",
+      "supports": "標題與簡介提供不同的關係位置；不能直接把普通社員認定為丈夫。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作簡介將角色設定為已婚的社長專屬秘書，並明示社員不知道她與社長之間的情況。",
+      "supports": "已婚身分、上下級關係與資訊落差，是可由材料確認的設定要素。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "BBAN-604 的角色因害怕原本的性格與過去曝光，而受到好友牽制。",
+      "supports": "兩作可比較壓力來源：本作以職場階級為背景，對照作以同儕關係與形象秘密為核心。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將普通社員認定為秘書的丈夫。",
+    "未推定丈夫是否出場、社員是否發現秘密或故事如何收尾。",
+    "未將兩作視為同系列或同一角色的延續。",
+    "未由宣傳文字推論表演品質、鏡頭安排、聲音、節奏或故事完整度。",
+    "未將虛構角色的婚姻與性格設定當成演員經歷。",
+    "未採用搜尋摘要補寫官方原題或其他背景。"
+  ],
+  "decision_guide": {
+    "thesis": "本作可辨識的設定重點，在於婚姻身分與職場階級之外，另安排一名不知情的暗戀社員。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以人妻秘書、社長與暗戀社員的關係介紹作品；實際敘事視角尚無法確認。"
+    ],
+    "audience_for": [
+      "關注職場階級、婚姻秘密與資訊落差等虛構題材的讀者。",
+      "想比較響蓮在不同作品中角色處境的讀者。"
+    ],
+    "audience_not_for": [
+      "希望避開權力不對等或婚姻背叛題材的讀者。",
+      "需要先確認完整故事、實際節奏與表演表現才做選擇的讀者。"
+    ],
+    "questions_answered": [
+      "[object Object]",
+      "[object Object]"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "標題裡的丈夫，與簡介裡的社員",
+      "body": "同樣由響蓮演出，NGOD-359 與 BBAN-604 如何用人物關係建立秘密與壓力？先看本作一個具體差異：標題以丈夫口吻談妻子，簡介卻從一名暗戀響小姐的普通社員寫起。社員知道她是才色兼備的社長專屬秘書，卻不知道她與社長之間的情況。這讓宣傳設定同時保留了婚姻關係與職場旁觀者的位置；材料沒有說社員就是丈夫，也沒有交代這兩個位置在成片中如何銜接。"
+    },
+    {
+      "heading": "與同樣由響蓮演出的作品相比",
+      "body": "BBAN-604 把秘密放在角色自身：她改變外在形象，卻害怕原本的性格與過去被好友知道，因此受到牽制。NGOD-359 則先確立秘書與社長的上下級關係，再以已婚身分和社員的不知情增加關係層次。兩作都涉及秘密，但秘密的作用不同：前者成為同儕施壓的籌碼，後者讓職場中的人物掌握不同資訊。這是兩份簡介能支持的具體區別。"
+    },
+    {
+      "heading": "這個差異如何幫助選片",
+      "body": "若你關注婚姻身分如何與職場權力交疊，本作的設定較切合這個方向；若你在意角色如何維持新形象、又被熟悉過去的人牽制，BBAN-604 的衝突則更集中於同儕關係。本作尤其值得辨認的是那名暗戀社員：他的存在讓簡介多出一層認知落差，但是否發展成重要支線，材料尚未回答。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用使用者提供、已核對的 [NGOD-359 作品頁快照](https://cc18.tv/player.php?uuid=rQXYiWX499A&cat=19)與 [BBAN-604 作品頁快照](https://cc18.tv/player.php?uuid=sJlm_yaFe37&cat=19)。本次未能開啟嘗試存取的官方平台作品頁與本作來源頁，未將搜尋摘要視為已讀全文。比較限於來源標題、公開簡介與已核對的共同演出關係；選片意義為編輯判斷，未使用影片抽樣，亦不據此評定成片品質。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "840c4ab2dfa676d4547f027ce28f64427533a092fb70c21030ac98d44227acaf",
+    "response_sha256": "956e8603f1149338848ee0b79825f480ff33ccfa61237a465b435c4fbff9f979",
+    "research_input_sha256": "4d31af6ab4283c1a49d26cf9404501535fab4e2d3732cf3d6bfd8bc532abd338",
+    "related_source_ids": [
+      "BBAN-604",
+      "EKDV-828"
+    ]
+  }
+}
