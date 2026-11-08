@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "ORECS-704",
+  "review_sha256": "3ab291858334c4ae303963856daa1fa902fcbe483a2483330303783f93d021cd",
+  "selected_thesis": "本作可辨識的選片線索，是排球與田徑兩種人物設定的並置：簡介分別強調控制感與動態感，讓運動題材有了較具體的區別，但不足以據此判定實際影像風格。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "素人企劃",
+    "editorial_judgment": "以本作簡介內的兩位人物互相比較，說明運動項目如何區分宣傳形象及其選片意義。",
+    "source_keywords": [
+      "獨家",
+      "素人企劃",
+      "美少女設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題與簡介分別列出20歲排球隊人物及21歲田徑隊人物。",
+      "supports": "可將本作介紹為具有兩種運動背景設定的雙人企劃。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "排球隊人物的簡介使用清純、運動系與身體控制相關描述。",
+      "supports": "對這一方的人物包裝，可歸納為清純形象與控制感。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "田徑隊人物的簡介強調樸素氣質，並以跑步、手臂及腰部擺動描述動態。",
+      "supports": "相較排球隊人物，這一方的宣傳更著重動作聯想；差異可供偏好運動人物設定的讀者參考。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將來源標題中的中文人名視為已核准的主要顯示名。",
+    "未將現役運動員、隊籍或年齡設定寫成經獨立查證的人物經歷。",
+    "未由運動背景推論實際表演能力、體能或成片品質。",
+    "未推定兩位人物同場互動、出場順序或篇幅分配。",
+    "未補寫片商、系列、其他演出作品或日文原題。",
+    "未採用搜尋片段作為已讀全文的證據。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-07T16:00:00.000Z"
+}

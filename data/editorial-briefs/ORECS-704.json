@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "id": "ORECS-704",
+  "generated_at": "2026-11-08T04:42:17.459Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/ORECS-704.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "獨家",
+    "premise": "作品以「獨家」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「獨家」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "獨家",
+      "現役運動員",
+      "21歲"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "素人",
+      "美少女",
+      "女大學生"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "全高清 (FHD)",
+      "獨家限定",
+      "配信専用"
+    ]
+  },
+  "research_question": "同樣以現役運動員為宣傳設定，本作如何區分排球隊與田徑隊兩位人物，這個差異能提供什麼選片線索？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=gemXAtBr2v&cat=19",
+      "supports": [
+        "使用題目提供的作品頁來源快照；外部頁面未能成功開啟。",
+        "來源以20歲排球隊人物與21歲田徑隊人物組成雙人企劃。",
+        "簡介對排球隊人物強調清純形象與身體控制，對田徑隊人物強調樸素氣質與跑步相關的動態描述。"
+      ]
+    }
+  ],
+  "angle_candidates": [
+    "比較同一企劃內兩種運動背景如何形成不同的人物介紹。",
+    "分析運動項目如何成為宣傳文案描述人物的語彙。",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作可辨識的選片線索，是排球與田徑兩種人物設定的並置：簡介分別強調控制感與動態感，讓運動題材有了較具體的區別，但不足以據此判定實際影像風格。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "獨家",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "素人企劃",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "美少女設定",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "現役運動員雙人企劃：20歲排球隊與21歲田徑隊",
+  "display_short_title": "排球隊與田徑隊的雙人企劃",
+  "title": "排球與田徑，如何替雙人企劃分出兩種人物印象",
+  "seo_title": "ORECS-704｜排球隊與田徑隊，雙人運動題材的設定差異",
+  "social_title": "同是運動題材，排球隊與田徑隊各自帶來什麼選片線索？",
+  "short_review": "來源將兩位人物放在不同的運動背景下介紹：排球隊一方偏重清純與身體控制，田徑隊一方偏重樸素氣質與動態描述。值得留意的是這組人物設定的差異，而非把運動背景直接當成表演品質的保證。",
+  "editorial_angle": "以本作簡介內的兩位人物互相比較，說明運動項目如何區分宣傳形象及其選片意義。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題與簡介分別列出20歲排球隊人物及21歲田徑隊人物。",
+      "supports": "可將本作介紹為具有兩種運動背景設定的雙人企劃。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "排球隊人物的簡介使用清純、運動系與身體控制相關描述。",
+      "supports": "對這一方的人物包裝，可歸納為清純形象與控制感。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "田徑隊人物的簡介強調樸素氣質，並以跑步、手臂及腰部擺動描述動態。",
+      "supports": "相較排球隊人物，這一方的宣傳更著重動作聯想；差異可供偏好運動人物設定的讀者參考。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將來源標題中的中文人名視為已核准的主要顯示名。",
+    "未將現役運動員、隊籍或年齡設定寫成經獨立查證的人物經歷。",
+    "未由運動背景推論實際表演能力、體能或成片品質。",
+    "未推定兩位人物同場互動、出場順序或篇幅分配。",
+    "未補寫片商、系列、其他演出作品或日文原題。",
+    "未採用搜尋片段作為已讀全文的證據。"
+  ],
+  "decision_guide": {
+    "thesis": "若以運動人物設定選片，本作的線索在於排球隊與田徑隊的形象差異；現有材料尚不能回答這種差異在影像中如何落實。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以兩位人物分段介紹，分別運用排球與跑步相關語彙塑造印象。"
+    ],
+    "audience_for": [
+      "偏好運動背景人物設定，並對雙人企劃中的形象差異有興趣的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "需要先確認完整故事、實際運動場景或兩人互動方式的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "[object Object]",
+      "[object Object]"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "同樣是運動員設定，兩份介紹的重心不同",
+      "body": "本作如何讓排球隊與田徑隊的兩位人物有所區別？來源簡介給出的答案，主要在描述重心。20歲排球隊人物被放在清純、運動系的形象下，文案尤其強調身體控制；21歲田徑隊人物則以樸素氣質開場，再用跑步與肢體擺動建立動態聯想。兩者共用運動題材，卻各有不同的人物介紹方式。"
+    },
+    {
+      "heading": "選片理由在人物包裝的差異",
+      "body": "這組對照的意義，是讓「運動題材」多了一層可供選擇的細節。偏好清純形象與控制感描述的讀者，可能更在意排球隊一方；對跑步背景與動態形象有興趣的讀者，則可能先注意田徑隊一方。這是從簡介讀出的興趣方向。文案沒有交代運動場景如何安排，也沒有說明兩人是否互動，因此還不能把它理解為兩種運動的影像對決。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據題目提供的[CC18 作品頁來源快照](https://cc18.tv/player.php?uuid=gemXAtBr2v&cat=19)，使用作品標題與公開簡介。外部作品頁未能成功開啟，亦未取得可核對的官方人物、系列或訪談材料。運動背景與年齡均按宣傳設定處理；人物形象差異及選片意義為編輯判讀，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "c2b5413b76b2df9309dd8534f417a320e00933d77271126b74f8b9a105cbbee6",
+    "response_sha256": "67be6184ef59f05a4d8bf5bf77e99d2815befb5d0473a07aa0017ee5f3ba5407",
+    "research_input_sha256": "83dc08cb1bd74f3207ef5c08f7f21b3ea1a1ebb0b04d3f36701bc136956ec46d",
+    "related_source_ids": []
+  }
+}

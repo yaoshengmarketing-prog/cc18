@@ -3234,6 +3234,16 @@
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
       "status": "quarantined"
+    },
+    {
+      "label": "體育",
+      "occurrences": 1,
+      "source_ids": [
+        "ORECS-704"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "status": "quarantined"
     }
   ]
 }

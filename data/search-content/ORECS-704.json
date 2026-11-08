@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "ORECS-704",
+  "generated_at": "2026-11-08T04:42:17.972Z",
+  "source_snapshot_hash": "sha256:c2b5413b76b2df9309dd8534f417a320e00933d77271126b74f8b9a105cbbee6",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若以運動人物設定選片，本作的線索在於排球隊與田徑隊的形象差異；現有材料尚不能回答這種差異在影像中如何落實。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以兩位人物分段介紹，分別運用排球與跑步相關語彙塑造印象。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好運動背景人物設定，並對雙人企劃中的形象差異有興趣的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "需要先確認完整故事、實際運動場景或兩人互動方式的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "[object Object]",
+    "[object Object]"
+  ]
+}
