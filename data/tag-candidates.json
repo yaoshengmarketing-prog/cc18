@@ -2425,7 +2425,7 @@
     },
     {
       "label": "搭訕",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "SKMJ-786",
         "SKMJ-788",
@@ -2434,10 +2434,11 @@
         "ORECZ-722",
         "HNHU-221",
         "SVVRT-087",
-        "HODV-22120"
+        "HODV-22120",
+        "ORECZ-691"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "status": "quarantined"
     },
     {

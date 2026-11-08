@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "ORECZ-691",
+  "review_sha256": "fcdc99e8dfe9bfea774e3ef7a11e3f74aede83c3e209c6eed82b28e01f3470f5",
+  "selected_thesis": "本作較具辨識度的線索是「文學系二年級」的人物介紹；它讓女大學生題材有了較具體的背景，但尚不足以支持校園故事或人物性格的判斷。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "theme",
+        "value": "企劃片",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "素人企劃",
+    "editorial_judgment": "從本作簡介與分類的資訊差異切入，辨認具體人物設定的選片價值。",
+    "source_keywords": [
+      "獨家",
+      "素人企劃",
+      "企劃片",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源簡介列出文學系、二年級。",
+      "supports": "人物介紹比女大學生分類更具體；這是宣傳設定，不能據此確認演出者的真實學歷。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源同時使用女大學生、素人、搭訕與企劃片分類。",
+      "supports": "可將作品理解為以女大學生形象包裝的搭訕企劃，不能直接當作真實偶遇紀錄。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介以高個子、白皙、清純等詞介紹人物。",
+      "supports": "宣傳重心包含外形與氣質形象；這些形容詞不能證明表演自然度或成片品質。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將標題或簡介中的稱呼認定為已核准演員姓名。",
+    "未採用搜尋片段中的演員身分與片商歸屬。",
+    "未把文學系二年級設定當作演出者真實學歷。",
+    "未推論校園場景、文學話題、人物性格或完整故事線。",
+    "未將素人與搭訕分類視為真實身分或拍攝過程的證明。",
+    "未判斷畫面、聲音、台詞、節奏、表演或成片品質。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-07T16:00:00.000Z"
+}

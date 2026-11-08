@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "id": "ORECZ-691",
+  "generated_at": "2026-11-08T02:43:06.823Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/ORECZ-691.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "獨家",
+    "premise": "作品以「獨家」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「獨家」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "獨家",
+      "獨家"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "素人",
+      "女大學生"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "企劃片",
+      "720p",
+      "全高清 (FHD)",
+      "獨家限定",
+      "配信専用"
+    ]
+  },
+  "research_question": "本作的簡介如何把「女大學生」這個寬泛標籤，縮小成可辨識的人物設定？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=3xdqT7FQJc&cat=19",
+      "supports": [
+        "使用使用者提供的已核對來源快照，未成功開啟即時頁面。",
+        "簡介列出文學系、二年級，並以高個子、白皙、清純等詞描繪人物形象。",
+        "來源將作品分類為素人、女大學生、搭訕與企劃片。"
+      ]
+    }
+  ],
+  "angle_candidates": [
+    "文學系與年級資訊如何替女大學生題材增加辨識度。",
+    "清純形象與搭訕分類如何共同建立選片期待。",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作較具辨識度的線索是「文學系二年級」的人物介紹；它讓女大學生題材有了較具體的背景，但尚不足以支持校園故事或人物性格的判斷。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "獨家",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "素人企劃",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "theme",
+      "value": "企劃片",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "文學系二年級的女大學生企劃",
+  "display_short_title": "文學系二年級",
+  "title": "「文學系二年級」，替女大學生標籤多加了什麼？",
+  "seo_title": "ORECZ-691｜文學系二年級設定與女大學生企劃的選片線索",
+  "social_title": "從女大學生到文學系二年級：人物介紹多走了一步",
+  "short_review": "文學系與二年級，是這份簡介比外貌形容詞更容易留下記憶的細節。它適合吸引重視人物背景設定的讀者，但資料沒有交代科系如何參與情節，選片期待宜停在人物包裝。",
+  "editorial_angle": "從本作簡介與分類的資訊差異切入，辨認具體人物設定的選片價值。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源簡介列出文學系、二年級。",
+      "supports": "人物介紹比女大學生分類更具體；這是宣傳設定，不能據此確認演出者的真實學歷。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源同時使用女大學生、素人、搭訕與企劃片分類。",
+      "supports": "可將作品理解為以女大學生形象包裝的搭訕企劃，不能直接當作真實偶遇紀錄。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介以高個子、白皙、清純等詞介紹人物。",
+      "supports": "宣傳重心包含外形與氣質形象；這些形容詞不能證明表演自然度或成片品質。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將標題或簡介中的稱呼認定為已核准演員姓名。",
+    "未採用搜尋片段中的演員身分與片商歸屬。",
+    "未把文學系二年級設定當作演出者真實學歷。",
+    "未推論校園場景、文學話題、人物性格或完整故事線。",
+    "未將素人與搭訕分類視為真實身分或拍攝過程的證明。",
+    "未判斷畫面、聲音、台詞、節奏、表演或成片品質。"
+  ],
+  "decision_guide": {
+    "thesis": "以文學系二年級的人物設定作為選片線索，辨識度來自簡介提供的背景細節。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以科系、年級及外形氣質介紹人物，並搭配女大學生與搭訕企劃分類。"
+    ],
+    "audience_for": [
+      "會依人物背景設定篩選女大學生題材的讀者。",
+      "對清純形象與搭訕企劃組合感興趣的讀者。"
+    ],
+    "audience_not_for": [
+      "需要先確認完整故事、校園場景或科系相關情節的讀者。",
+      "需要以已核對演員身分選片的讀者。"
+    ],
+    "questions_answered": [
+      "[object Object]",
+      "[object Object]"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "科系與年級，讓分類有了人物輪廓",
+      "body": "本作的簡介如何把「女大學生」縮小成可辨識的人物設定？答案在文學系與二年級這兩項資訊。女大學生只交代寬泛身分，科系與年級則讓介紹多了一點背景。相較於可愛、美人、清純等形容詞，這些細節更適合作為記住本作的線索。"
+    },
+    {
+      "heading": "可以依設定選片，還不能依設定補故事",
+      "body": "來源同時列出搭訕與企劃片分類，因此較有根據的選片方向，是對女大學生人物包裝感興趣。文學系設定可以增加好奇，卻沒有交代文學話題、校園生活或課業是否進入情節。若你在意人物介紹的具體程度，這份簡介有可辨識之處；若你期待科系帶動故事，現有材料還無法回答。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用使用者提供、於 2026 年 10 月 15 日擷取的 [CC18 作品頁快照](https://cc18.tv/player.php?uuid=3xdqT7FQJc&cat=19)，範圍為作品標題、公開簡介與分類。即時來源頁未能開啟，亦未取得可用的官方作品、人物或系列全文；搜尋片段未作為正文依據。本文未使用影片抽樣，也沒有已核對的關聯作品可供跨片比較，判斷限於本作人物設定的選片意義。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "697854f676c7ee328d4d6309bd23cb1f8c0fa1a40df4e6240d6d960eda9ef925",
+    "response_sha256": "4569fb091fe46ac9862ec766eb048b0b4374ca2219c768b6a85d895d5780759f",
+    "research_input_sha256": "267390ab611d4713dacc3b7a21ca00b46b2069369ebef47f00c9513b8fd6bbc0",
+    "related_source_ids": []
+  }
+}
