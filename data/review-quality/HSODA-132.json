@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "HSODA-132",
+  "review_sha256": "a0f922a79c0f8a30e3a87ae69550739bae33b1e410bbcc41da3a811c8775d926",
+  "selected_thesis": "與 ROYD-353 從熟人關係中發現吸引力的設定相比，本作將既有情侶放進婚前美容情境，再用鏡面兩側的資訊落差製造關係危機；選片差別在於想看關係如何轉變，還是既有信任如何受到威脅。",
+  "title_basis": {
+    "performer": "瀧結菜、七海那美",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "瀧結菜",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "魔鏡NTR美容院",
+        "source_field": "title"
+      },
+      {
+        "type": "performer",
+        "value": "七海那美",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "マジックミラーntrエステ",
+        "source_field": "series"
+      }
+    ],
+    "primary_theme": "瀧結菜",
+    "presentation_feature": "魔鏡NTR美容院",
+    "editorial_judgment": "比較兩作公開簡介中的關係起點與資訊分配，以非露骨的敘事設定分析建立選片判斷。",
+    "source_keywords": [
+      "瀧結菜",
+      "魔鏡NTR美容院",
+      "七海那美",
+      "マジックミラーntrエステ"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介交代情侶為婚前美容一同到訪。",
+      "supports": "共同目的與既有伴侶關係，是本作關係危機的起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "男友能看見鏡面另一側的女友，女友不知道自己被觀看。",
+      "supports": "鏡面設定建立角色之間的資訊落差。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介寫入遭下藥及女友再次帶男友到訪的情節。",
+      "supports": "企劃包含欺瞞與非自願處境，並把懸念延伸到再次到訪。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "已核對關聯資料確認 ROYD-353 同樣由七海那美演出；其簡介從熟悉的大學同學關係展開。",
+      "supports": "可以比較同一位演員參與作品中的關係設定，不能據此指定她在本作的角色。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將瀧結菜或七海那美指定為女友或美容師，材料沒有明確對應。",
+    "未推測演員的真實感情、個性、經歷或拍攝感受。",
+    "未宣稱已觀看鏡位、剪接、表情、聲音或台詞。",
+    "未由簡介長度或系列集數推論故事密度、節奏及成片品質。",
+    "未將日文系列名稱當作本作原題。",
+    "未以分類標籤推定具體橋段，也未採用搜尋結果中的字幕網站作為研究證據。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z"
+}

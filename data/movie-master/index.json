@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-08T22:48:10.532Z",
+  "generated_at": "2026-11-08T23:45:34.209Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 510,
-  "formal_movie_count": 509,
+  "tracked_input_count": 511,
+  "formal_movie_count": 510,
   "demo_count": 1,
-  "published_count": 506,
+  "published_count": 507,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1601,6 +1601,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "c27cf891d607ebbc2cc935bb7986a1bd7f99d9db66c197f27e0662c555c00a2f"
+    },
+    {
+      "stable_movie_id": "cc18:HSODA-132",
+      "catalog_code": "HSODA-132",
+      "slug": "hsoda-132",
+      "master_path": "data/movie-master/hsoda-132.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "57a2d134b4f776034bbf8a985aa314a281d3c822eb24b29672dc5a5818266e02"
     },
     {
       "stable_movie_id": "cc18:HUBLK-079",

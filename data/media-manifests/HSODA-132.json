@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "HSODA-132",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-08T23:44:10.129Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/HSODA-132/hero-v1.jpg",
+      "r2_key": "works/2026/10/HSODA-132/hero-v1.jpg",
+      "bytes": 801966,
+      "sha256": "cbbbb1f5c695bb490205a4db4bdf334f293b9a32d13b479f6e3c11fc94a556c9",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "f691489dcd2c42ccb7f126b2061ac998",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 魔鏡NTR美容院, 美容院, 企劃設定, 角色變化. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original f"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/HSODA-132/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/HSODA-132/scene-vertical-v1.jpg",
+      "bytes": 751822,
+      "sha256": "a10c0338529fdea9528c4b64ccb9e4b98fcbb0bf9ba3f19ccc84504e8fd65318",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "5b7fca271c3a4c0495c4c2af9cdc6803",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 魔鏡NTR美容院, 美容院, 企劃設定, 角色變化. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original f"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2307206,
+    "sha256": "bebdb4d20cf4a5d1d1330d0da3541f2190e13bd9e91d496c7467f1d770d1acc1",
+    "target_r2_key": "works/2026/10/HSODA-132/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/HSODA-132/vertical-v1.mp4"
+  }
+}

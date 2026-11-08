@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "movie_id": "HSODA-132",
+  "generated_at": "2026-11-08T23:39:11.817Z",
+  "source_snapshot_hash": "sha256:96f8fb298905182710070ef0c1c7bdd4d3d4d556d9d93f2fd5b22fd9b902c7a4",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "選片時可區分兩種興趣：本作以既有情侶的資訊落差與信任危機為企劃重心，ROYD-353 則以熟悉同學之間的關係轉變為重心。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介採婚前美容、鏡面隔間與再次到訪的情境安排。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "關注伴侶之間資訊不對等與信任危機設定的讀者。",
+      "想比較七海那美參與作品之關係起點的讀者。"
+    ],
+    "not_for": [
+      "偏好雙方知情、自願發展關係設定的讀者。",
+      "需要先確認演員角色分配、實際節奏或影像表現的讀者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "ROYD-353",
+      "relation_type": "same_performer",
+      "reason": "同樣由七海那美出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "七海那美"
+      ],
+      "contrast_signals": [
+        "穿著超出想像的成熟內衣",
+        "ボーイッシュで男友達みたいな女子は想像以上の大人下着とむっち"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "[object Object]",
+    "[object Object]",
+    "[object Object]"
+  ]
+}

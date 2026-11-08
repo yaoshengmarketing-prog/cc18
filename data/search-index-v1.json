@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:99d930d9778c222c92de676070414db5c4d6fabae14005dc4714706fcc16c227",
-  "source_generated_at": "2026-11-08T22:48:10.532Z",
+  "source_revision": "sha256:e75fbbe6c56779e1c6eb9c84ec04293ad66cde356dd59e102cf192d5e53187a1",
+  "source_generated_at": "2026-11-08T23:45:34.209Z",
   "counts": {
-    "movies": 506,
-    "performers": 361,
+    "movies": 507,
+    "performers": 362,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -104,6 +104,7 @@
       "source_name": "七海那美",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:HSODA-132",
         "cc18:ROYD-353"
       ]
     },
@@ -3937,6 +3938,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DSJH-020"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:27901",
+      "display_name": "瀧結菜",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "瀧結菜",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:HSODA-132"
       ]
     },
     {
@@ -11027,6 +11039,53 @@
         "article_title": "開始交往就有期限，這段戀愛的懸念落在哪裡？",
         "display_short_title": "一年限定的戀人約定",
         "slug": "dsod-119"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:HSODA-132",
+        "source_cover": "https://cc18.tv/preview/80/b/g3tNzcjjA7D-800.jpg?v=1791837570",
+        "title": "魔鏡婚前美容院",
+        "catalog_code": "HSODA-132",
+        "release_date": "2026-10-09",
+        "performers": [
+          "瀧結菜",
+          "七海那美"
+        ],
+        "canonical_topics": [
+          {
+            "id": "beauty-salon",
+            "label": "美容院"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/hsoda-132/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27901",
+        "cc18.tv:actor:30106"
+      ],
+      "search": {
+        "source_title": "魔鏡NTR美容院 在隔壁美乳纖細的女友被睡走時，我卻無法抵抗巨乳大姊姊的絕頂技巧，竟然無套中出做愛了。（HSODA-132）",
+        "article_title": "婚前一起變美，鏡面卻讓兩人知道不同的事",
+        "display_short_title": "魔鏡婚前美容院",
+        "slug": "hsoda-132"
       }
     },
     {
