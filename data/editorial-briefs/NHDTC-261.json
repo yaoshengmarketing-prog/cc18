@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "id": "NHDTC-261",
+  "generated_at": "2026-11-08T07:42:17.460Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/NHDTC-261.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "アナル解禁",
+    "premise": "作品以「アナル解禁」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「アナル解禁」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "アナル解禁",
+      "極恥肛門解禁",
+      "腸汁流淌肛門絕頂",
+      "野外浣腸",
+      "雙洞SEX",
+      "請看我的全部"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "HD"
+    ]
+  },
+  "research_question": "本作簡介使用「紀錄片」定位，是否足以把宣傳中的「首次挑戰」視為皐月ゆら的真實經歷？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=Nbpzs7B43M&cat=19",
+      "supports": [
+        "使用者提供的作品資料將演出者列為皐月ゆら、片商列為 Natural High。",
+        "提供的簡介以「首次挑戰」與「紀錄片」組織宣傳。",
+        "本次未能開啟外部作品頁，實際使用的是使用者提供的已核對資料。"
+      ]
+    }
+  ],
+  "angle_candidates": [
+    "「紀錄片」一詞如何建立人物經歷的真實感。",
+    "來源人物姓名與標題翻譯別名應如何區分。",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作可核對的是宣傳採用「首次挑戰」的紀錄式定位；這種定位本身不能證實演出者的私人經歷，也不能替成片品質背書。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "皐月ゆら",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "アナル解禁",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "皐月ゆら的首次挑戰企劃",
+  "display_short_title": "皐月ゆら挑戰企劃",
+  "title": "「紀錄片」定位能證明多少人物經歷？",
+  "seo_title": "NHDTC-261｜皐月ゆら的挑戰企劃與紀錄式宣傳",
+  "social_title": "皐月ゆら這次的宣傳，為何強調「第一次」？",
+  "short_review": "簡介把人物的首次挑戰放在中心，讓作品具有一條容易辨識的宣傳主軸。能確認的是這套包裝方式；演出者的私人經歷與成片表現，仍需要不同材料支持。",
+  "editorial_angle": "以非露骨的媒體分析，區分宣傳定位、人物事實與成片評價。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "提供的公開簡介反覆強調首次挑戰，並以紀錄片稱呼作品。",
+      "supports": "可將首次挑戰辨識為本作的宣傳核心，但不能據此證實私人經歷。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源人物關係使用皐月ゆら；標題及簡介另有中文別名。",
+      "supports": "本文沿用來源人物關係中的姓名，不將標題別名直接視為核准顯示名。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "將宣傳中的首次挑戰說法認定為演出者真實的私人經歷。",
+    "將紀錄片定位當成拍攝過程未經安排的證明。",
+    "推定演出者的感受、心理變化、台詞或現場反應。",
+    "由簡介推論表演品質、敘事密度、剪輯節奏或鏡頭效果。",
+    "在缺乏關聯作品材料時，宣稱本作與同演員或同系列作品存在具體差異。",
+    "把日文系列名當成本作日文原題。"
+  ],
+  "decision_guide": {
+    "thesis": "先把「首次挑戰」理解為宣傳主軸，再分別查證人物經歷與成片呈現。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介採用以人物挑戰為中心的紀錄式宣傳；實際影像形式尚無材料可判斷。"
+    ],
+    "audience_for": [
+      "關注成人媒體如何使用真實感與人物形象進行宣傳的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "需要完整劇情、拍攝手法或表演評價才能作決定的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "[object Object]",
+      "[object Object]"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "宣傳把人物的「第一次」放在中心",
+      "body": "本作簡介以首次挑戰串起企劃，並用「紀錄片」為它定調。這讓讀者先注意人物將面對什麼，再理解作品的題材。就公開文字而言，人物挑戰是最清楚的宣傳主軸。"
+    },
+    {
+      "heading": "真實感是一種定位，仍需要查證",
+      "body": "開頭的問題可以直接回答：不能只憑這份簡介，就把「第一次」寫成皐月ゆら已獲證實的人生經歷。「紀錄片」在此是來源使用的作品定位，沒有附帶足以核實私人經驗的訪談或其他材料。閱讀這類宣傳時，應將作品如何介紹自己，與人物事實分開理解。"
+    },
+    {
+      "heading": "現有資訊能支持的判斷",
+      "body": "這份介紹足以讓人辨識本作採用人物挑戰的包裝，但不足以回答故事是否完整、節奏如何，或紀錄式定位如何落實於影像。若這些是選片的必要條件，現有資料還不能形成可靠結論。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用使用者提供的 CC18 作品頁資料快照：https://cc18.tv/player.php?uuid=Nbpzs7B43M&cat=19 。本次外部頁面未能開啟，沒有讀取官方作品、人物或訪談全文，也沒有影片抽樣。未提供經核對的關聯作品，因此不作跨作品比較。作品標題為編輯整理，並非日文原題的核定翻譯。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "0be5885f973ee7871cc0728dcc158bbf2d731b780ac9ea24dca45cbd303dc576",
+    "response_sha256": "cd85b210c02c33bd13f68201fd168854d89e0e742d6769397fd829149d00597f",
+    "research_input_sha256": "809954b7465adc8719d4b779074fc9a6c251c9fed5484bcc49edc1e5d136adeb",
+    "related_source_ids": []
+  }
+}

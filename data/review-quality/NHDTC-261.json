@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "NHDTC-261",
+  "review_sha256": "edad03e06b6c8e6973521e3aa1b8e93c5931f84bb177f5782bc2a97d04c544ed",
+  "selected_thesis": "本作可核對的是宣傳採用「首次挑戰」的紀錄式定位；這種定位本身不能證實演出者的私人經歷，也不能替成片品質背書。",
+  "title_basis": {
+    "performer": "皐月ゆら",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "皐月ゆら",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "アナル解禁",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "皐月ゆら",
+    "presentation_feature": "アナル解禁",
+    "editorial_judgment": "以非露骨的媒體分析，區分宣傳定位、人物事實與成片評價。",
+    "source_keywords": [
+      "皐月ゆら",
+      "アナル解禁",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "提供的公開簡介反覆強調首次挑戰，並以紀錄片稱呼作品。",
+      "supports": "可將首次挑戰辨識為本作的宣傳核心，但不能據此證實私人經歷。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源人物關係使用皐月ゆら；標題及簡介另有中文別名。",
+      "supports": "本文沿用來源人物關係中的姓名，不將標題別名直接視為核准顯示名。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "將宣傳中的首次挑戰說法認定為演出者真實的私人經歷。",
+    "將紀錄片定位當成拍攝過程未經安排的證明。",
+    "推定演出者的感受、心理變化、台詞或現場反應。",
+    "由簡介推論表演品質、敘事密度、剪輯節奏或鏡頭效果。",
+    "在缺乏關聯作品材料時，宣稱本作與同演員或同系列作品存在具體差異。",
+    "把日文系列名當成本作日文原題。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-07T16:00:00.000Z"
+}
