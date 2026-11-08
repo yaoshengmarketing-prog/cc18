@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "movie_id": "NGOD-361",
+  "generated_at": "2026-11-08T18:45:27.048Z",
+  "source_snapshot_hash": "sha256:f8764de500cc2fe60073c36ba16795b0c6b9ad7964ce15e0e334ed6d465c2928",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "以職務關係與事件發起者選片：本作是夜班櫃檯人員受到患者接近，對照作品則是女主管主動挽留部下。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "醫院夜班背景，主角是已婚櫃檯人員；簡介從門診接待轉入夜間文書工作，再安排住院患者"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好醫院背景，並在意角色實際職務設定的讀者。",
+      "想比較波多野結衣在不同作品中擔任何種角色、由誰發起事件的讀者。"
+    ],
+    "not_for": [
+      "希望先確認護理或診療情節的讀者。",
+      "需要完整婚姻衝突、故事結局或節奏資訊才能選片的讀者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "NNOD-002",
+      "relation_type": "same_performer",
+      "reason": "同樣由波多野結衣出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "波多野結衣"
+      ],
+      "contrast_signals": [
+        "別說要辭職了",
+        "高畫質"
+      ]
+    },
+    {
+      "movie_id": "MKON-149",
+      "relation_type": "same_performer",
+      "reason": "同樣由波多野結衣出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "波多野結衣"
+      ],
+      "contrast_signals": [
+        "AV女優 ○○とは",
+        "AV女優 ○○とは？"
+      ]
+    },
+    {
+      "movie_id": "JJDA-083",
+      "relation_type": "same_performer",
+      "reason": "同樣由波多野結衣出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "波多野結衣"
+      ],
+      "contrast_signals": [
+        "故鄉的大嫂",
+        "人妻・主婦"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "[object Object]",
+    "[object Object]",
+    "[object Object]"
+  ]
+}

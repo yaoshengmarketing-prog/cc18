@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "id": "NGOD-361",
+  "generated_at": "2026-11-08T18:45:26.528Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/NGOD-361.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "深夜病房的櫃檯人妻",
+    "premise": "作品以「深夜病房的櫃檯人妻」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「深夜病房的櫃檯人妻」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "深夜病房的櫃檯人妻",
+      "波多野結衣"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "3p・4p"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由波多野結衣演出，醫院櫃檯與部門主管兩種職務，如何改變故事中誰先接近誰的安排？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=BW8B8FoZ2fe&cat=19",
+      "supports": [
+        "使用本次提供的已核對作品資料；外部作品頁未能成功開啟。",
+        "結衣是綜合醫院的已婚櫃檯人員，夜班處理文書工作時，由幾名住院患者主動接近。",
+        "來源人物關係確認演出者為波多野結衣。"
+      ]
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=B_hMB4i0u5p&cat=19",
+      "supports": [
+        "使用本次提供的已核對關聯作品簡介；外部作品頁未能成功開啟。",
+        "同樣由波多野結衣演出的 NNOD-002，以部下提出辭呈、女主管主動挽留為故事起點。",
+        "提供的關聯資料未將兩作列為同系列。"
+      ]
+    }
+  ],
+  "angle_candidates": [
+    "[object Object]",
+    "[object Object]",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作可辨識的設定，是讓負責接待的櫃檯人員在夜班期間受到患者接近；對照女主管主動挽留部下的 NNOD-002，選片差異在職務關係與事件發起者，而非僅有工作場所不同。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "波多野結衣",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "深夜病房的櫃檯人妻",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "深夜醫院的櫃檯人妻：波多野結衣",
+  "display_short_title": "波多野結衣的醫院夜班",
+  "title": "櫃檯與主管之間，改變的是誰先接近誰",
+  "seo_title": "NGOD-361 波多野結衣｜從醫院櫃檯看角色主動性的差異",
+  "social_title": "波多野結衣的兩種職場角色：醫院櫃檯與女主管",
+  "short_review": "本作先交代結衣接待門診患者的工作日常，再由住院患者在夜班期間接近她。同樣由波多野結衣演出的 NNOD-002，則讓女主管主動挽留提出辭呈的部下。兩作可供選片的差異，是角色所處的職務關係，以及事件由誰發起。",
+  "editorial_angle": "以兩份公開簡介中的職務、接近方向與事件起點，區分同一演員的角色設定。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介明確交代結衣負責醫院櫃檯業務，夜班時正在處理文書。",
+      "supports": "人物定位是行政接待人員，不能因醫院場景而改寫成護理師，也不能推定有診療情節。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作由幾名住院患者主動接近結衣；NNOD-002 則由女主管將提出辭呈的部下帶往會議室角落。",
+      "supports": "兩作在事件發起者與職務關係上有具體差異，可作為偏好角色設定的選片依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的關聯資料確認兩作同樣由波多野結衣演出，未確認共同系列。",
+      "supports": "比較以同演員作品為範圍，不將兩作描述成系列續篇或角色延續。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將醫院櫃檯人員改寫成護理師。",
+    "未由已婚身分及來源分類推導伴侶登場、目擊或婚姻結局。",
+    "未推定角色同意與否的完整發展。",
+    "未宣稱兩作屬於同系列或共享角色。",
+    "未評斷演技、鏡頭、聲音、敘事節奏或成片品質。",
+    "未把搜尋摘要當作已讀官方全文，也未補造日文原題。"
+  ],
+  "decision_guide": {
+    "thesis": "以職務關係與事件發起者選片：本作是夜班櫃檯人員受到患者接近，對照作品則是女主管主動挽留部下。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "醫院夜班背景，主角是已婚櫃檯人員；簡介從門診接待轉入夜間文書工作，再安排住院患者"
+    ],
+    "audience_for": [
+      "偏好醫院背景，並在意角色實際職務設定的讀者。",
+      "想比較波多野結衣在不同作品中擔任何種角色、由誰發起事件的讀者。"
+    ],
+    "audience_not_for": [
+      "希望先確認護理或診療情節的讀者。",
+      "需要完整婚姻衝突、故事結局或節奏資訊才能選片的讀者。"
+    ],
+    "questions_answered": [
+      "[object Object]",
+      "[object Object]",
+      "[object Object]"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "同一位演員，職務如何改變故事起點？",
+      "body": "同樣由波多野結衣演出，醫院櫃檯與部門主管兩種職務，如何改變誰先接近誰的安排？本作簡介先寫結衣接待門診患者，再把事件放在她值夜班處理文書的時候：幾名住院患者主動上前搭話。櫃檯職務因此提供了明確的人物關係——她原本就在工作中接待患者，事件從這個日常接觸延伸。這也讓「櫃檯」成為值得保留的設定，不能只因場景在醫院，就把角色統稱為護理師。"
+    },
+    {
+      "heading": "對照女主管，接近的方向反過來",
+      "body": "NNOD-002 的起點則是部下因工作疲憊而提出辭呈，波多野結衣飾演的部長主動出面挽留，並將部下帶往會議室角落。兩作都有工作場所，人物之間的關係卻不同：醫院篇是患者接近櫃檯人員，主管篇是上司主動介入部下的離職決定。若你在意的是角色如何被捲入事件，本作提供夜班工作受到打斷的設定；若偏好女主管主導局面，對照作品的簡介更直接指向這種安排。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據本次提供的 [NGOD-361 作品頁資料快照](https://cc18.tv/player.php?uuid=BW8B8FoZ2fe&cat=19)與[同樣由波多野結衣演出的 NNOD-002 簡介快照](https://cc18.tv/player.php?uuid=B_hMB4i0u5p&cat=19)。外部作品頁未能成功開啟，亦未取得可核對的官方全文；搜尋摘要未用作正文依據。職務與事件起點來自所附簡介，選片意義為編輯比較；未使用影片抽樣，無法據此判定節奏、故事密度與表演效果。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "f8764de500cc2fe60073c36ba16795b0c6b9ad7964ce15e0e334ed6d465c2928",
+    "response_sha256": "668931e20b3cd000314bfeb03127de6d0f366786c464c3a4ed64e8def922259c",
+    "research_input_sha256": "952707e5da8f9a0fa8afe9e55176ba2e3a7f056f0e08d9716f0d455fa4cb5dac",
+    "related_source_ids": [
+      "JJDA-083",
+      "MKON-149",
+      "NNOD-002"
+    ]
+  }
+}

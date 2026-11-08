@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "NGOD-361",
+  "review_sha256": "bc8b91c65c214db2f8ba9be779b8969c9e24428e64f69aaf812870f1d1a9a48e",
+  "selected_thesis": "本作可辨識的設定，是讓負責接待的櫃檯人員在夜班期間受到患者接近；對照女主管主動挽留部下的 NNOD-002，選片差異在職務關係與事件發起者，而非僅有工作場所不同。",
+  "title_basis": {
+    "performer": "波多野結衣",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "波多野結衣",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "深夜病房的櫃檯人妻",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "波多野結衣",
+    "presentation_feature": "深夜病房的櫃檯人妻",
+    "editorial_judgment": "以兩份公開簡介中的職務、接近方向與事件起點，區分同一演員的角色設定。",
+    "source_keywords": [
+      "波多野結衣",
+      "深夜病房的櫃檯人妻",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介明確交代結衣負責醫院櫃檯業務，夜班時正在處理文書。",
+      "supports": "人物定位是行政接待人員，不能因醫院場景而改寫成護理師，也不能推定有診療情節。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作由幾名住院患者主動接近結衣；NNOD-002 則由女主管將提出辭呈的部下帶往會議室角落。",
+      "supports": "兩作在事件發起者與職務關係上有具體差異，可作為偏好角色設定的選片依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的關聯資料確認兩作同樣由波多野結衣演出，未確認共同系列。",
+      "supports": "比較以同演員作品為範圍，不將兩作描述成系列續篇或角色延續。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將醫院櫃檯人員改寫成護理師。",
+    "未由已婚身分及來源分類推導伴侶登場、目擊或婚姻結局。",
+    "未推定角色同意與否的完整發展。",
+    "未宣稱兩作屬於同系列或共享角色。",
+    "未評斷演技、鏡頭、聲音、敘事節奏或成片品質。",
+    "未把搜尋摘要當作已讀官方全文，也未補造日文原題。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z"
+}
