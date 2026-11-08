@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:acf3fcfe0f333da505a10392ba71ea7a7731086e7ed6c565c315e7654b81b44c",
-  "source_generated_at": "2026-11-08T21:53:40.455Z",
+  "source_revision": "sha256:99d930d9778c222c92de676070414db5c4d6fabae14005dc4714706fcc16c227",
+  "source_generated_at": "2026-11-08T22:48:10.532Z",
   "counts": {
-    "movies": 505,
+    "movies": 506,
     "performers": 361,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -2750,6 +2750,7 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DSOD-078",
+        "cc18:DSOD-109",
         "cc18:PPPE-453"
       ]
     },
@@ -10930,6 +10931,59 @@
         "article_title": "一件違規體操服，如何接上家訪設定？",
         "display_short_title": "家訪與違規體操服",
         "slug": "madv-643"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DSOD-109",
+        "source_cover": "https://cc18.tv/preview/80/b/dQAXgbKNf96-800.jpg?v=1791837577",
+        "title": "桃園怜奈・家長參觀日",
+        "catalog_code": "DSOD-109",
+        "release_date": "2026-10-09",
+        "performers": [
+          "桃園怜奈"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dsod-109/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:5009"
+      ],
+      "search": {
+        "source_title": "人妻辣妹的教學參觀日誘惑。「你媽也太色了吧？」 桃園怜奈",
+        "article_title": "同一位演員，兩種角色主動權",
+        "display_short_title": "桃園怜奈・家長參觀日",
+        "slug": "dsod-109"
       }
     },
     {

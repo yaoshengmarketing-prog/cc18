@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-08T21:53:02.206Z",
+  "updated_at": "2026-11-08T22:47:31.583Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -7560,6 +7560,21 @@
       ],
       "release_date": "2026-10-09",
       "source_url": "https://cc18.tv/player.php?uuid=lrYgEBKkzbr&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-09"
+    },
+    {
+      "id": "DSOD-109",
+      "actress": [
+        "桃園怜奈"
+      ],
+      "release_date": "2026-10-09",
+      "source_url": "https://cc18.tv/player.php?uuid=dQAXgbKNf96&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

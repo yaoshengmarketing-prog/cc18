@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-109",
+  "review_sha256": "1fde7001733d8c74fa3e7370cebdf544741dca71ced68bb7a7cd5ac27dbc5a4a",
+  "selected_thesis": "兩作的具體差異在於人物行動的起因：本作由怜奈主動推進關係，DSOD-078 則由他人的報復計畫介入她的人格與行為。這能區分題材期待，不能據此判斷表演或敘事品質。",
+  "title_basis": {
+    "performer": "桃園怜奈",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "桃園怜奈",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "人妻辣妹的教學參觀日誘惑",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "人妻ギャルの授業参観日の誘惑。「お前の母ちゃん、エロすぎじゃ",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "桃園怜奈",
+    "presentation_feature": "人妻辣妹的教學參觀日誘惑",
+    "editorial_judgment": "以非露骨的宣傳文本比較，辨識角色行動與故事機關的差異。",
+    "source_keywords": [
+      "桃園怜奈",
+      "人妻辣妹的教學參觀日誘惑",
+      "人妻ギャルの授業参観日の誘惑。「お前の母ちゃん、エロすぎじゃ",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介將怜奈寫為主動接近他人的角色。",
+      "supports": "本作的故事提案以角色自身的行動推進關係。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "DSOD-078 的來源簡介描述職場報復，以及能改變人格的虛構遊戲。",
+      "supports": "對照作品以外部控制機關改變角色處境，與本作的行動起點不同。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的關聯資料確認兩作皆由桃園怜奈演出，並非同系列。",
+      "supports": "比較建立在同演員的不同角色設定，不能解讀為系列演變。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將來源中的角色性格當成演員的真實個性或經歷。",
+    "未推定校園角色的年齡，也未擴寫親屬間的性情節。",
+    "未將宣傳設定當成已觀看的畫面、聲音或台詞。",
+    "未評定成片節奏、故事密度、表演品質或攝影風格。",
+    "未將來源系列名稱當成作品日文原題。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z"
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "movie_id": "DSOD-109",
+  "generated_at": "2026-11-08T22:42:07.970Z",
+  "source_snapshot_hash": "sha256:06be35c34826755c37e6c04c8d0dc2a3c6a1b1435139b525c8d5e72baf5860b9",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "比較角色主動權，比只依演員姓名更能辨識這兩份故事設定的差異。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源設定以家長參觀日與夜間校園串接人物關係；實際影像呈現尚無材料可判定。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想比較桃園怜奈不同虛構角色設定的讀者。",
+      "希望先辨識人物如何推動故事的讀者。"
+    ],
+    "not_for": [
+      "需要依實際節奏、鏡位或表演評價作決定的讀者。",
+      "希望避開親屬性題材的讀者；本作來源簡介包含此設定。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "DSOD-078",
+      "relation_type": "same_performer",
+      "reason": "同樣由桃園怜奈出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "桃園怜奈"
+      ],
+      "contrast_signals": [
+        "【ハイレグ無様特化】おほ声肉便器",
+        "角色扮演"
+      ]
+    },
+    {
+      "movie_id": "PPPE-453",
+      "relation_type": "same_performer",
+      "reason": "同樣由桃園怜奈出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "桃園怜奈"
+      ],
+      "contrast_signals": [
+        "スペンス乳腺開発クリニック",
+        "巨乳"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作與 DSOD-078 的角色行動起點有何差異？",
+    "同演員的關聯能支持哪些比較，又不能證明哪些成片表現？"
+  ]
+}
