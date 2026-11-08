@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "CNSTV-044",
+  "review_sha256": "8a4ce131aadff85e0fe9973a5c7626864a67c1fcbc1ea03ed009d4e33de26c06",
+  "selected_thesis": "本作可辨識的敘事設定，是讓出差丈夫透過電話持續介入鄰居關係；標題強調忽略鈴聲，簡介卻把接聽來電寫成後段事件，選片時應保留這個差異。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "もう俺の専用ザーメン便器確定www",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "character",
+        "value": "人妻設定",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "もう俺の専用ザーメン便器確定www",
+    "editorial_judgment": "以電話在簡介中的兩次出現為主軸，分析人物關係，並對照來源標題與簡介的設定差異。",
+    "source_keywords": [
+      "獨家",
+      "もう俺の専用ザーメン便器確定www",
+      "素人企劃",
+      "人妻設定"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "丈夫勇作出差期間，鄰居今井來訪。",
+      "supports": "丈夫暫時離家，是簡介安排鄰居接近女主角的背景。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介前段與數日後的段落，都安排女主角與丈夫通話。",
+      "supports": "電話是反覆出現的人物關係線索，丈夫並未隨出差設定退出故事。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標題寫不理會電話鈴聲，簡介後段則寫接起丈夫來電。",
+      "supports": "標題與簡介的宣傳重點不同，不能據此斷言成片只有其中一種安排。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介寫女主角拒絕邀約後，仍被今井強行邀請。",
+      "supports": "人物關係包含施壓設定，不宜概括為雙方自然發展的戀情。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未確認的演員姓名、片商與日文作品原題。",
+    "把日文系列名稱當成本作原題。",
+    "把角色姓名當成演員姓名。",
+    "把來源的素人標籤當成演出者真實經歷。",
+    "沒有材料支持的同演員或同系列作品比較。",
+    "實際鏡頭、聲音、台詞、表演品質與剪接節奏。",
+    "以後段情節否定前段拒絕與施壓的設定。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-07T16:00:00.000Z"
+}

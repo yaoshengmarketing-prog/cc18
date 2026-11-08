@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "CNSTV-044",
+  "generated_at": "2026-11-08T03:42:36.891Z",
+  "source_snapshot_hash": "sha256:ab8140b4ffddf9c527bedd418c9f1d5dd7f9ac9eb15f2a4d04f370f4bf048d24",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "以婚姻關係如何透過來電介入鄰居往來，作為辨認本作設定的依據。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以丈夫出差、鄰居來訪及數日後再次來訪串起事件，電話在不同段落反覆出現。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "希望先理解婚姻、鄰居與通話如何構成人物關係的讀者。",
+      "在意標題與簡介是否呈現相同設定的讀者。"
+    ],
+    "not_for": [
+      "希望先取得演員身分、實際表演或影像風格評價的讀者。",
+      "希望避開包含拒絕後仍受施壓情節的讀者。"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "[object Object]",
+    "[object Object]"
+  ]
+}
