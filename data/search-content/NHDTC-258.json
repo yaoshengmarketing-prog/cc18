@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "movie_id": "NHDTC-258",
+  "generated_at": "2026-11-08T09:42:18.342Z",
+  "source_snapshot_hash": "sha256:ce706187dc8536f0018dac6d0da508232540cadd6c51663e157661de6d38a67d",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "現有材料適合辨識脅迫設定與宣傳框架，尚不足以評估成片表現。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以店內職權與偷拍把柄串連兩階段脅迫；本文僅作非露骨的文本分析。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "希望研究影像濫用與權力不對等如何被宣傳文字呈現的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "需要依據實際影像判斷敘事、表演或製作品質的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "店長與工讀生分別依靠什麼施壓？",
+    "角色離店後，控制如何延續？",
+    "現有材料能支持哪些判斷？"
+  ]
+}

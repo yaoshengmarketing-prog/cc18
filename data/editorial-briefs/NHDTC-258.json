@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "id": "NHDTC-258",
+  "generated_at": "2026-11-08T09:42:17.817Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/NHDTC-258.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "被花俏店長要求用口交道歉",
+    "premise": "作品以「被花俏店長要求用口交道歉」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「被花俏店長要求用口交道歉」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "被花俏店長要求用口交道歉",
+      "正準備回家時",
+      "慘遭撿漏內射的偷竊少女",
+      "中出"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "學生妹"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "HD"
+    ]
+  },
+  "research_question": "本作簡介如何透過店長與工讀生的角色差異，安排脅迫接續發生？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=hcgfvxflLfi&cat=19",
+      "supports": [
+        "使用本次提供的作品頁資料快照，未另行開啟全文。",
+        "簡介先安排店長利用偷竊事件施壓，再安排工讀生以偷拍內容要挾，支持對兩階段控制手段的分析。"
+      ]
+    }
+  ],
+  "angle_candidates": [
+    "店內職權與偷拍把柄：兩種控制手段如何接續。",
+    "來源將受害處境包裝為道歉與反省，如何影響責任歸屬的理解。",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "簡介的具體結構是控制手段的轉移：店長利用處理偷竊事件的權力，工讀生則利用偷拍所得的把柄。這能支持脅迫機制的文本分析，無法證明成片的敘事品質。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "被花俏店長要求用口交道歉",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "series",
+      "value": "覗いていたゲス中年バイトに迫られおこぼれ中出しされた万引き少",
+      "source_field": "series"
+    },
+    {
+      "type": "setting",
+      "value": "學生設定",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "偷竊事件後的接連脅迫",
+  "display_short_title": "離店之後的要挾",
+  "title": "從店內職權到偷拍把柄：脅迫如何延續",
+  "seo_title": "NHDTC-258｜從店內職權到偷拍把柄的脅迫結構",
+  "social_title": "離開店內，為何仍未脫離控制？",
+  "short_review": "來源簡介安排了兩種接續的控制手段：先以店內職權施壓，再以偷拍內容要挾。值得辨識的是脅迫如何換手，以及宣傳文字如何將侵害與受害者的過錯連結。",
+  "editorial_angle": "以非露骨的文本分析，檢視權力差異、影像濫用與責任歸屬。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "簡介先描述店長利用偷竊事件及告知家人的壓力控制角色。",
+      "supports": "第一階段的施壓依附於店內職權與資訊揭露的威脅。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "工讀生偷拍後，在角色離開時以把柄要挾。",
+      "supports": "第二階段透過偷拍內容延續控制，與店長的職權形成具體差異。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介將反省措辭與遭受侵害的處境並置。",
+      "supports": "宣傳文字的責任框架值得檢視；偷竊行為不能構成侵害的正當理由。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未確認的演員姓名、經歷與真實年齡。",
+    "由高中生角色設定推定演員身分。",
+    "將日文系列名稱當成已確認的作品原題。",
+    "未讀全文的搜尋結果所涉及的人物與作品關係。",
+    "未經觀看片段支持的鏡位、聲音、台詞、表演、節奏及品質評價。",
+    "缺乏可核對材料的跨作品比較。"
+  ],
+  "decision_guide": {
+    "thesis": "現有材料適合辨識脅迫設定與宣傳框架，尚不足以評估成片表現。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以店內職權與偷拍把柄串連兩階段脅迫；本文僅作非露骨的文本分析。"
+    ],
+    "audience_for": [
+      "希望研究影像濫用與權力不對等如何被宣傳文字呈現的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "需要依據實際影像判斷敘事、表演或製作品質的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "店長與工讀生分別依靠什麼施壓？",
+      "角色離店後，控制如何延續？",
+      "現有材料能支持哪些判斷？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "兩個角色，兩種控制依據",
+      "body": "本作簡介先讓店長利用偷竊事件施壓，再讓偷拍的工讀生取得把柄。兩者的差異很具體：店長掌握處理事件的位置，工讀生掌握可被濫用的影像。角色離開店內後，原先的職權壓力便由另一種威脅接續。這是簡介可辨識的情節安排，不能據此推定成片具有多少轉折或敘事深度。"
+    },
+    {
+      "heading": "宣傳措辭如何安排責任",
+      "body": "來源把受害處境與道歉、反省連結，容易使侵害被讀成犯錯之後的延伸處罰。分析這份文案時，必須保留兩件事的區別：偷竊是故事的起因，施壓者仍須為脅迫與偷拍負責。對讀者而言，這份材料最有用的是辨識作品涉及的侵害設定；它不足以提供表演或製作品質的選片依據。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用本次提供的 CC18 作品頁資料快照：https://cc18.tv/player.php?uuid=hcgfvxflLfi&cat=19 。分析限於公開標題與簡介，未使用影片抽樣。未取得可供比較的官方作品全文或關聯作品資料，因此不作跨作品比較，也不將搜尋結果當成已讀全文。上述標題為編輯顯示題，並非已確認的日文原題。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "ce706187dc8536f0018dac6d0da508232540cadd6c51663e157661de6d38a67d",
+    "response_sha256": "8ab814dc42ce4be2a76053986a444ab6cdb3f17370720caf53464d319a90d1c0",
+    "research_input_sha256": "6eb685a2bb59dc5f1dd228c97f3cd78d346b108f80d029a535ee58e6f7d16c24",
+    "related_source_ids": []
+  }
+}

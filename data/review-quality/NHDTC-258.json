@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "NHDTC-258",
+  "review_sha256": "b179006bf1758978e6f63fcebe87d2e979dfdf0cdc079d897ca49df5d3342d04",
+  "selected_thesis": "簡介的具體結構是控制手段的轉移：店長利用處理偷竊事件的權力，工讀生則利用偷拍所得的把柄。這能支持脅迫機制的文本分析，無法證明成片的敘事品質。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "被花俏店長要求用口交道歉",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "覗いていたゲス中年バイトに迫られおこぼれ中出しされた万引き少",
+        "source_field": "series"
+      },
+      {
+        "type": "setting",
+        "value": "學生設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "被花俏店長要求用口交道歉",
+    "presentation_feature": "覗いていたゲス中年バイトに迫られおこぼれ中出しされた万引き少",
+    "editorial_judgment": "以非露骨的文本分析，檢視權力差異、影像濫用與責任歸屬。",
+    "source_keywords": [
+      "被花俏店長要求用口交道歉",
+      "覗いていたゲス中年バイトに迫られおこぼれ中出しされた万引き少",
+      "學生設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "簡介先描述店長利用偷竊事件及告知家人的壓力控制角色。",
+      "supports": "第一階段的施壓依附於店內職權與資訊揭露的威脅。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "工讀生偷拍後，在角色離開時以把柄要挾。",
+      "supports": "第二階段透過偷拍內容延續控制，與店長的職權形成具體差異。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介將反省措辭與遭受侵害的處境並置。",
+      "supports": "宣傳文字的責任框架值得檢視；偷竊行為不能構成侵害的正當理由。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未確認的演員姓名、經歷與真實年齡。",
+    "由高中生角色設定推定演員身分。",
+    "將日文系列名稱當成已確認的作品原題。",
+    "未讀全文的搜尋結果所涉及的人物與作品關係。",
+    "未經觀看片段支持的鏡位、聲音、台詞、表演、節奏及品質評價。",
+    "缺乏可核對材料的跨作品比較。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-07T16:00:00.000Z"
+}
