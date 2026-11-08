@@ -1056,14 +1056,15 @@
     },
     {
       "label": "數位薄碼",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "ROYD-348",
         "ROYD-357",
         "ROYD-350",
         "ROYD-362",
         "ROYD-349",
-        "ROYD-368"
+        "ROYD-368",
+        "ROYD-363"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-09",
@@ -3056,12 +3057,13 @@
     },
     {
       "label": "ヘルス・ソープ",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "START-649"
+        "START-649",
+        "ROYD-363"
       ],
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-09",
       "status": "quarantined"
     },
     {

@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "id": "ROYD-363",
+  "generated_at": "2026-11-08T21:46:37.682Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/ROYD-363.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "デリヘルを呼ぶと",
+    "premise": "作品以「デリヘルを呼ぶと」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「デリヘルを呼ぶと」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "デリヘルを呼ぶと",
+      "內射的關係",
+      "百永紗里奈",
+      "辣妹"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "辣妹"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由百永さりな演出，ROYD-363 與 ROYD-348 如何用不同的職場角色設定，建立男主角被肯定的理由？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=lrYgEBKkzbr&cat=19",
+      "supports": [
+        "使用本次提供的作品資料快照：男主角在公司經常挨罵，覺得自己不被需要。",
+        "會計女職員與金髮外送服務女子是同一角色；男主角在持續指名後才發現她的身分。"
+      ]
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=wvjuItjIf5d&cat=19",
+      "supports": [
+        "使用本次提供的關聯作品快照：同樣由百永さりな演出，角色設定為給予部下肯定與稱讚的辣妹上司。",
+        "來源簡介明示主觀視角，並將提升部下自信列為企劃重點。"
+      ]
+    }
+  ],
+  "angle_candidates": [
+    "從上司的直接稱讚，到會計同事的隱藏關注：兩作如何安排職場中的肯定。",
+    "觀眾先知道、男主角後發現：標題揭露雙重身分後，選片期待落在哪裡。",
+    "不起眼的會計與金髮辣妹：同一角色的兩種社交形象如何構成企劃差異。"
+  ],
+  "selected_thesis": "ROYD-363 把職場肯定放進身分辨認的過程：男主角以為自己遇見陌生人，對方卻早已存在於他的工作日常。相較 ROYD-348 由上司直接給予稱讚，本作更適合因同事的隱藏身分與日常關係改變而產生興趣的讀者。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "百永さりな",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "デリヘルを呼ぶと",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "series",
+      "value": "デリヘルを呼ぶと…",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "辣妹風格",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "外送來的金髮辣妹，竟是公司裡的會計同事｜百永さりな",
+  "display_short_title": "金髮辣妹竟是會計同事",
+  "title": "從被上司稱讚，到發現同事早已注意自己",
+  "seo_title": "ROYD-363 百永さりな：會計同事的雙重身分，與辣妹上司設定有何不同",
+  "social_title": "她為何知道他的處境？從會計同事的隱藏身分看選片差異",
+  "short_review": "本作的辨識點在於陌生來客與熟悉同事其實是同一人。對照同樣由百永さりな演出的 ROYD-348，肯定的來源從上司明說的稱讚，轉為逐步發現同事早已注意自己；兩者提供了不同的角色關係入口。",
+  "editorial_angle": "比較兩份公開簡介如何安排職場角色、資訊落差與被肯定的理由，據此區分選片期待。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "ROYD-363 的提供快照先交代男主角在公司受責備、覺得不被需要，再寫會計女職員對他的注視。",
+      "supports": "職場挫折是理解這段關係的背景；對方的關注與男主角的自我感受形成對照。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "ROYD-363 的來源標題與簡介均揭露，金髮外送服務女子就是公司裡的會計女職員。",
+      "supports": "宣傳已先告知身分答案，選片興趣可以放在男主角如何發現，以及原有同事關係如何改變。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "ROYD-348 的提供快照將角色設定為辣妹上司，並明寫稱讚部下、提升自信。",
+      "supports": "兩作的具體差異是直接給予肯定的上司，與起初未被認出的會計同事；可據此區分角色偏好。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將來源標題中的「百永紗里奈」升為主要人物名稱。",
+    "未宣稱本作採用主觀視角，或具有與 ROYD-348 相同的拍攝方式。",
+    "未推定角色變換造型的具體手法、身分揭露的場景或台詞。",
+    "未判定演技、剪接、聲音、故事密度與節奏優劣。",
+    "未將兩作說成同系列，也未延伸為演員或片商一貫的創作路線。"
+  ],
+  "decision_guide": {
+    "thesis": "以同事的隱藏身分與職場日常的重新理解作為選片理由。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開設定以會計女職員與金髮辣妹的形象差異，串起男主角原本分開看待的職場與私人生活"
+    ],
+    "audience_for": [
+      "偏好雙重身分、熟人重新被認識等角色設定的讀者。",
+      "想比較百永さりな不同職場角色企劃的讀者。"
+    ],
+    "audience_not_for": [
+      "希望角色從一開始便以主管身分直接給予稱讚與支持的讀者。",
+      "需要先確認實際敘事節奏或拍攝方式才能決定的讀者。"
+    ],
+    "questions_answered": [
+      "本作的雙重身分設定如何連結男主角的職場處境？",
+      "本作與 ROYD-348 的職場肯定設定有何具體差異？",
+      "這項差異對選片有什麼意義？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "為什麼要讓來客也是同事？",
+      "body": "同樣由百永さりな演出，ROYD-363 與 ROYD-348 如何讓職場失意的男主角獲得肯定？兩份簡介給了不同答案。本作先寫男主角在公司經常挨罵，覺得自己不被需要，接著安排一名知道他處境的金髮來客。當來客與會計同事的身分重合，原本被他忽略的工作日常便有了另一種解讀：他以為無人關心自己，其實已有同事注意到他。這是從設定可以讀出的情境轉折。"
+    },
+    {
+      "heading": "與辣妹上司相比，肯定從哪裡來？",
+      "body": "ROYD-348 的角色是辣妹上司，簡介直接列出稱讚部下、提升自信等安排。主管本來就站在評價工作表現的位置，因此她的肯定來得明確。ROYD-363 則把會計同事放在起初未被認出的位置，透過男主角持續指名、之後發現身分，改變他對兩人關係的理解。偏好直接受到支持的角色互動，可以留意前者；對熟悉的人如何以另一種身分走近主角感興趣，本作的設定更有辨識度。"
+    },
+    {
+      "heading": "身分答案已揭露，仍可期待什麼？",
+      "body": "本作標題已說明金髮來客就是會計同事，因此選片時不必把猜出她是誰當成主要樂趣。更具體的期待，是男主角何時把兩種形象連起來，以及得知身分後如何重新看待同事。這讓本作與直接以職場階級建立互動的 ROYD-348 分開：一部先交代上司如何對待部下，一部利用未被認出的同事身分，替日常關係增加轉折。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據本次提供的 [ROYD-363 作品資料快照](https://cc18.tv/player.php?uuid=lrYgEBKkzbr&cat=19) 與 [ROYD-348 關聯作品快照](https://cc18.tv/player.php?uuid=wvjuItjIf5d&cat=19)。外部檢索未取得可核對的官方作品全文，作品頁亦未能成功開啟，因此未以搜尋片段補充背景。角色與設定取自快照；兩種肯定方式及其選片意義為編輯比較。未使用影片抽樣，無法據此判定成片的表演、節奏或敘事完成度。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "ceef2579164343ab234da05cf4c83dbdde77b3b01fc593e1db300b6268df7510",
+    "response_sha256": "c650713279b73c1282ddcc745026ef52b63c007d86b3c43641a8e93d9b376015",
+    "research_input_sha256": "b8203145a292bcdd68f0b078a6bb6c09c85366a1cfd181fab496c6209d20b591",
+    "related_source_ids": [
+      "DSOD-081",
+      "ROYD-348"
+    ]
+  }
+}

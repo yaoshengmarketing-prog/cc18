@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "movie_id": "ROYD-363",
+  "generated_at": "2026-11-08T21:46:38.505Z",
+  "source_snapshot_hash": "sha256:ceef2579164343ab234da05cf4c83dbdde77b3b01fc593e1db300b6268df7510",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "以同事的隱藏身分與職場日常的重新理解作為選片理由。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開設定以會計女職員與金髮辣妹的形象差異，串起男主角原本分開看待的職場與私人生活"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好雙重身分、熟人重新被認識等角色設定的讀者。",
+      "想比較百永さりな不同職場角色企劃的讀者。"
+    ],
+    "not_for": [
+      "希望角色從一開始便以主管身分直接給予稱讚與支持的讀者。",
+      "需要先確認實際敘事節奏或拍攝方式才能決定的讀者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "ROYD-348",
+      "relation_type": "same_performer",
+      "reason": "同樣由百永さりな出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "百永さりな"
+      ],
+      "contrast_signals": [
+        "イチャラブご奉仕",
+        "高畫質"
+      ]
+    },
+    {
+      "movie_id": "DSOD-081",
+      "relation_type": "same_performer",
+      "reason": "同樣由百永さりな出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "百永さりな"
+      ],
+      "contrast_signals": [
+        "妻子回娘家期間"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作的雙重身分設定如何連結男主角的職場處境？",
+    "本作與 ROYD-348 的職場肯定設定有何具體差異？",
+    "這項差異對選片有什麼意義？"
+  ]
+}
