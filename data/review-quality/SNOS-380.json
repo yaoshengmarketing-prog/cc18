@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-380",
+  "review_sha256": "b5226e211e4aeb4a432a71a52fbb3a3f459821e08cdc140866d85433d29a3c32",
+  "selected_thesis": "本作的辨識重點在於上司利用職務安排製造同房處境；相較同演員作品的家庭隱瞞設定，它把衝突放在職場權力與越界行為上，適合依人物關係篩選題材。",
+  "title_basis": {
+    "performer": "雛形みくる",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "雛形みくる",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "出差地被強迫同房住宿",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "雛形みくる",
+    "presentation_feature": "出差地被強迫同房住宿",
+    "editorial_judgment": "比較同演員作品如何運用住宿情境，區分職場權力與家庭隱瞞兩種設定，並辨認來源文案的加害者視角。",
+    "source_keywords": [
+      "雛形みくる",
+      "出差地被強迫同房住宿",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介交代上司主動提出出差、指定後輩同行，並計畫同房住宿。",
+      "supports": "住宿處境來自上司的主動安排，職務上的支配位置是理解企劃的重要線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作簡介由上司以第一人稱敘述，將後輩不擅拒絕視為可利用的條件。",
+      "supports": "文案採取加害者視角；角色沉默不能被改寫為雙方同意。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "SNOS-363 的簡介設定為女兒的朋友到家中留宿，並提及對妻子的罪惡感與隱瞞。",
+      "supports": "比較作的衝突依附家庭及熟人關係，與本作的上下屬關係有具體差異。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將來源標題中的「雛形美久琉」升為主要人物名稱。",
+    "未宣稱兩作屬於同一系列或具有劇情延續關係。",
+    "未把宣傳中的身體反應或所謂覺醒視為角色同意的證據。",
+    "未推論演員真實個性、職業經歷或私人關係。",
+    "未評斷鏡頭、聲音、台詞、剪輯節奏、表演品質或故事完整度。",
+    "未將搜尋結果片段或官方網站入口視為已讀的作品全文。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z"
+}

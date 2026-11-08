@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-380",
+  "generated_at": "2026-11-08T16:43:08.094Z",
+  "source_snapshot_hash": "sha256:3b76d7d5065c0f202ebfc7832e03c8b5d94b509bff4f78a6afe12adb66af6c74",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "依人物關係選片時，本作可辨識的前提是上司安排出差同房，以及由此形成的職場權力衝突。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源文案採上司第一人稱，明確包含職場騷擾與非自願情境。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "希望比較雛形みくる不同角色設定的成年讀者。",
+      "以職場關係與衝突前提作為題材篩選依據的成年讀者。"
+    ],
+    "not_for": [
+      "偏好雙方自願、平等互動設定的讀者。",
+      "需要先確認影像風格、節奏或敘事完成度的讀者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "FWAY-103",
+      "relation_type": "same_performer",
+      "reason": "同樣由雛形みくる出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "雛形みくる"
+      ],
+      "contrast_signals": [
+        "White",
+        "高畫質"
+      ]
+    },
+    {
+      "movie_id": "SNOS-363",
+      "relation_type": "same_performer",
+      "reason": "同樣由雛形みくる出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "雛形みくる"
+      ],
+      "contrast_signals": [
+        "身高卻有170cm",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作的出差同房是偶然事件，還是角色主動安排？",
+    "同演員的家庭留宿設定，與本作有何具體差異？",
+    "現有材料能支持哪些選片判斷？"
+  ]
+}
