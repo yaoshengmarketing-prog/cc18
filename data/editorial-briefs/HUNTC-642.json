@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "id": "HUNTC-642",
+  "generated_at": "2026-11-08T20:38:44.507Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/HUNTC-642.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "趁著悠哉的老爺爺老師上課",
+    "premise": "作品以「趁著悠哉的老爺爺老師上課」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「趁著悠哉的老爺爺老師上課」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "趁著悠哉的老爺爺老師上課",
+      "想幹就幹"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "學生妹"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "口交",
+      "騎乘位",
+      "3p・4p"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "現有作品資料能否支持對課堂設定的分析，以及同系列作品之間的比較？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=WsuuH5LGal&cat=19",
+      "supports": [
+        "使用者提供的作品頁快照將故事置於上課期間，並以教師未察覺學生行動作為情境前提。",
+        "快照列有片商與系列歸屬，但沒有演員姓名、角色年齡或可供比較的關聯作品。"
+      ],
+      "access_note": "僅使用本次提供的來源快照，未開啟外部作品頁。"
+    }
+  ],
+  "angle_candidates": [
+    "課堂規範與角色違規行動如何構成宣傳設定",
+    "單一作品簡介能支持哪些判斷，又缺少哪些比較依據",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "現有資料足以辨認課堂規範與違規競賽的設定關係，但不足以評價成片敘事、表演或系列特色。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "趁著悠哉的老爺爺老師上課",
+      "source_field": "title"
+    },
+    {
+      "type": "series",
+      "value": "超エッチな小悪魔ヤリマン女子たち",
+      "source_field": "series"
+    },
+    {
+      "type": "setting",
+      "value": "學生設定",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "課堂膽量賽",
+  "display_short_title": "課堂設定與資料界線",
+  "title": "課堂規範如何成為故事前提？",
+  "seo_title": "HUNTC-642：課堂設定與公開資料分析",
+  "social_title": "從課堂設定看作品簡介能回答什麼",
+  "short_review": "作品簡介以課堂秩序與角色違規行動的衝突建立情境。現有材料能說明企劃前提，無法證明成片如何安排懸念，也不能支持同系列比較。",
+  "editorial_angle": "提供不含露骨描寫的來源分析。由於資料涉及學生性情境且未交代角色年齡，無法據此撰寫色情宣傳或情色選片推薦。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "簡介將事件安排在教師授課期間，並以教師未察覺作為角色行動的前提。",
+      "supports": "課堂秩序與違規行動的衝突，是來源明確提出的情境結構。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的作品資料沒有演員姓名與角色年齡，也沒有已核對的關聯作品。",
+      "supports": "不能補寫人物背景、確認角色成年，或宣稱本作相較同演員、同系列作品有何轉變。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "演員身分、經歷與角色年齡",
+    "教師感官狀況與高齡之間具有普遍因果關係",
+    "實際鏡位、聲音、台詞及表演反應",
+    "成片節奏、故事密度與完成度",
+    "同系列或片商其他作品的設定差異",
+    "將日文系列名稱認定為作品日文原題"
+  ],
+  "decision_guide": {
+    "thesis": "現有資料適合用來理解宣傳設定，尚不足以形成成片評價或跨作品比較。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以課堂中的規範衝突與競賽框架介紹作品；影像呈現方式無從確認。"
+    ],
+    "audience_for": [
+      "希望釐清作品簡介所述設定與證據範圍的讀者",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "需要演員資料、角色年齡、實際影像分析或同系列比較的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "來源將故事放在什麼情境？",
+      "現有資料能否支持同系列比較？",
+      "哪些成片判斷仍缺少依據？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "課堂規範提供了什麼故事條件？",
+      "body": "公開簡介把上課期間設定為事件發生的時間，並讓教師未察覺成為角色持續違規的前提。因此，課堂在文案中具有具體作用：它提供必須遵守的規範，也讓角色行動帶有可能被發現的後果。這能說明企劃如何建立衝突，尚不能證明成片如何處理懸念。"
+    },
+    {
+      "heading": "為什麼目前不能比較系列差異？",
+      "body": "資料雖然列出系列歸屬，卻沒有另一部已核對作品的簡介。僅憑系列名稱，無法判定課堂設定是系列慣例，或是本作特有的安排；片商名稱也不能代替具體作品證據。現階段可成立的判斷，集中在本作簡介所交代的情境結構。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文僅依本次提供的 CC18 作品頁快照分析，未另行開啟外部頁面，亦未使用影片抽樣。材料沒有演員姓名、角色年齡及可比較的關聯作品，因此不延伸人物背景、情色推薦或成片品質判斷。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "33499372083978cb2f759175d3ca0148193427405adff450df420fdbb5fea58c",
+    "response_sha256": "c202d39dc5705425626b14549830cb7d37ef6ed2f59bdf18b5537e64b5dd234f",
+    "research_input_sha256": "751e404c39bd01b4ba906d9d224dfbac4bccf819f6626f911759fe63c76935d3",
+    "related_source_ids": []
+  }
+}

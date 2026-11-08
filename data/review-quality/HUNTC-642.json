@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "HUNTC-642",
+  "review_sha256": "5a4da4d2f6c33b469cd7023e74824b394b18d3f2acc7b1379a61de2a99151526",
+  "selected_thesis": "現有資料足以辨認課堂規範與違規競賽的設定關係，但不足以評價成片敘事、表演或系列特色。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "趁著悠哉的老爺爺老師上課",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "超エッチな小悪魔ヤリマン女子たち",
+        "source_field": "series"
+      },
+      {
+        "type": "setting",
+        "value": "學生設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "趁著悠哉的老爺爺老師上課",
+    "presentation_feature": "超エッチな小悪魔ヤリマン女子たち",
+    "editorial_judgment": "提供不含露骨描寫的來源分析。由於資料涉及學生性情境且未交代角色年齡，無法據此撰寫色情宣傳或情色選片推薦。",
+    "source_keywords": [
+      "趁著悠哉的老爺爺老師上課",
+      "超エッチな小悪魔ヤリマン女子たち",
+      "學生設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "簡介將事件安排在教師授課期間，並以教師未察覺作為角色行動的前提。",
+      "supports": "課堂秩序與違規行動的衝突，是來源明確提出的情境結構。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的作品資料沒有演員姓名與角色年齡，也沒有已核對的關聯作品。",
+      "supports": "不能補寫人物背景、確認角色成年，或宣稱本作相較同演員、同系列作品有何轉變。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "演員身分、經歷與角色年齡",
+    "教師感官狀況與高齡之間具有普遍因果關係",
+    "實際鏡位、聲音、台詞及表演反應",
+    "成片節奏、故事密度與完成度",
+    "同系列或片商其他作品的設定差異",
+    "將日文系列名稱認定為作品日文原題"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z"
+}

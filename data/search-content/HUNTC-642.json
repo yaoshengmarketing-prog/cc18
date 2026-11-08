@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "movie_id": "HUNTC-642",
+  "generated_at": "2026-11-08T20:38:45.014Z",
+  "source_snapshot_hash": "sha256:33499372083978cb2f759175d3ca0148193427405adff450df420fdbb5fea58c",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "現有資料適合用來理解宣傳設定，尚不足以形成成片評價或跨作品比較。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以課堂中的規範衝突與競賽框架介紹作品；影像呈現方式無從確認。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "希望釐清作品簡介所述設定與證據範圍的讀者",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "需要演員資料、角色年齡、實際影像分析或同系列比較的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "來源將故事放在什麼情境？",
+    "現有資料能否支持同系列比較？",
+    "哪些成片判斷仍缺少依據？"
+  ]
+}
