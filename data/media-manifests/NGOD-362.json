@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "NGOD-362",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-08T12:47:47.794Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/NGOD-362/hero-v1.jpg",
+      "r2_key": "works/2026/10/NGOD-362/hero-v1.jpg",
+      "bytes": 640630,
+      "sha256": "7e85eea5f67e785a9ceac85aa533586f4159265ab5870edc5122c32e058c9c9b",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "37dd9efb5ed44d2e81d1fa1ad4349d2a",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/NGOD-362/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/NGOD-362/scene-vertical-v1.jpg",
+      "bytes": 1210148,
+      "sha256": "ac271601fb0fb90562b551fcf507097366fe0fb82fbf4d388b2eebed9d201b23",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "242ba328bee240668b8dff0a8e2ed2db",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3334292,
+    "sha256": "9e4ddd0803681d63e0964e7ef9d5e79bfb08083292be02d3dd8dc7eee87b0e0a",
+    "target_r2_key": "works/2026/10/NGOD-362/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/NGOD-362/vertical-v1.mp4"
+  }
+}

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-08T11:54:04.780Z",
+  "generated_at": "2026-11-08T12:48:42.851Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 499,
-  "formal_movie_count": 498,
+  "tracked_input_count": 500,
+  "formal_movie_count": 499,
   "demo_count": 1,
-  "published_count": 495,
+  "published_count": 496,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2798,6 +2798,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "0a29c91b1794b320726507ae6f5fd03ba417f5429909ffa52c135751e30b2a63"
+    },
+    {
+      "stable_movie_id": "cc18:NGOD-362",
+      "catalog_code": "NGOD-362",
+      "slug": "ngod-362",
+      "master_path": "data/movie-master/ngod-362.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "e59e61ddac67b585150a2ff8d4b75e382bca7ce113d08cf7b00b74526e156f87"
     },
     {
       "stable_movie_id": "cc18:NHDTC-234",

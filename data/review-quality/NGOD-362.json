@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "NGOD-362",
+  "review_sha256": "346545111808fe0a76a2bbe6602e8d6ba1ba3a6a5ae1d0dd3af90be42ea49497",
+  "selected_thesis": "本作值得辨識的設定，是把低價置產、夫妻期待落差與社區排外連在一起；相較於運動服主題精選，它提供的是具體的家庭與居住衝突入口。",
+  "title_basis": {
+    "performer": "凰華鈴",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "凰華鈴",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "泡沫時代的負面遺產",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "凰華鈴",
+    "presentation_feature": "泡沫時代的負面遺產",
+    "editorial_judgment": "從購屋期待與入住處境的落差，分析住宅設定如何組織人物衝突，再以同演員參與的主題精選說明選片需求的差別。",
+    "source_keywords": [
+      "凰華鈴",
+      "泡沫時代的負面遺產",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "簡介將泡沫時期房產的昔日高價與如今低價並置，丈夫即使需要遠距離通勤仍感到滿意。",
+      "supports": "低價置產是丈夫接受生活代價的明確理由，也是故事衝突的起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "妻子流露不滿，管理委員會則被描述為囉嗦、排外，像在監視新來者。",
+      "supports": "夫妻對入住的期待不同，社區人際關係也被寫成壓力來源。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同樣有凰華鈴演出的 FCDSS-117，以運動服裝為主題，介紹八名演出者、十五場內容及四小時篇幅。",
+      "supports": "兩份簡介提供不同的選片入口：本作交代家庭與住宅衝突，對照作品強調服裝主題及精選規模。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將片名預告的事件當成已觀看或已核實的成片情節。",
+    "未推論凰華鈴的真實婚姻、購屋經驗或人物經歷。",
+    "未指定凰華鈴在對照精選中穿著哪一種服裝，也未推算其個人出場時間。",
+    "未由簡介推論表演品質、鏡頭設計、聲音、台詞、剪接節奏或故事完整度。",
+    "未把泡沫房產的故事設定延伸為日本房市現況的事實判斷。",
+    "未由番號推定系列歸屬，也未將搜尋片段當成已讀全文。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-07T16:00:00.000Z"
+}

@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "id": "NGOD-362",
+  "generated_at": "2026-11-08T12:43:02.992Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/NGOD-362.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "泡沫時代的負面遺產",
+    "premise": "作品以「泡沫時代的負面遺產」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「泡沫時代的負面遺產」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "泡沫時代的負面遺產",
+      "凰華りん"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "3p・4p"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "本作的低價度假區公寓設定，如何建立夫妻衝突？與同樣由凰華鈴演出的運動服主題精選相比，選片理由有何不同？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=BMQzUJIBYf5&cat=19",
+      "supports": [
+        "使用題供已核對快照：夫妻因低價購入泡沫時期開發的度假區房產。",
+        "簡介並置丈夫對購屋的滿意、遠距離通勤與妻子的不滿。",
+        "管理委員會被描述為排外，並持續關注新住戶。"
+      ]
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=f8_6QxBrQfs&cat=19",
+      "supports": [
+        "使用題供已核對快照及人物關係：這部精選同樣有凰華鈴演出。",
+        "簡介以運動服裝分類，標示收錄八名演出者、十五場內容及四小時篇幅。",
+        "材料未指出凰華鈴對應的服裝或收錄段落。"
+      ]
+    }
+  ],
+  "angle_candidates": [
+    "低價購屋的喜悅，如何與妻子的不滿形成落差。",
+    "管理委員會的排外設定，如何把住宅變成人際壓力的來源。",
+    "同樣有凰華鈴演出，住宅情境與服裝主題精選提供哪些不同的選片線索。"
+  ],
+  "selected_thesis": "本作值得辨識的設定，是把低價置產、夫妻期待落差與社區排外連在一起；相較於運動服主題精選，它提供的是具體的家庭與居住衝突入口。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "凰華鈴",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "泡沫時代的負面遺產",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "泡沫時代留下的低價公寓：凰華鈴的婚姻危機",
+  "display_short_title": "凰華鈴與度假區公寓危機",
+  "title": "房價便宜之後，夫妻要面對怎樣的鄰里？",
+  "seo_title": "NGOD-362 凰華鈴｜低價度假區公寓裡的夫妻落差與鄰里壓力",
+  "social_title": "買下便宜度假公寓，為何成了夫妻衝突的起點？",
+  "short_review": "簡介先讓丈夫為低價房產欣喜，再交代妻子的不滿與管理委員會的排外態度。這組設定讓婚姻危機有了居住環境上的起因，也讓本作與運動服主題精選形成明確的選片差異。",
+  "editorial_angle": "從購屋期待與入住處境的落差，分析住宅設定如何組織人物衝突，再以同演員參與的主題精選說明選片需求的差別。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "簡介將泡沫時期房產的昔日高價與如今低價並置，丈夫即使需要遠距離通勤仍感到滿意。",
+      "supports": "低價置產是丈夫接受生活代價的明確理由，也是故事衝突的起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "妻子流露不滿，管理委員會則被描述為囉嗦、排外，像在監視新來者。",
+      "supports": "夫妻對入住的期待不同，社區人際關係也被寫成壓力來源。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同樣有凰華鈴演出的 FCDSS-117，以運動服裝為主題，介紹八名演出者、十五場內容及四小時篇幅。",
+      "supports": "兩份簡介提供不同的選片入口：本作交代家庭與住宅衝突，對照作品強調服裝主題及精選規模。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將片名預告的事件當成已觀看或已核實的成片情節。",
+    "未推論凰華鈴的真實婚姻、購屋經驗或人物經歷。",
+    "未指定凰華鈴在對照精選中穿著哪一種服裝，也未推算其個人出場時間。",
+    "未由簡介推論表演品質、鏡頭設計、聲音、台詞、剪接節奏或故事完整度。",
+    "未把泡沫房產的故事設定延伸為日本房市現況的事實判斷。",
+    "未由番號推定系列歸屬，也未將搜尋片段當成已讀全文。"
+  ],
+  "decision_guide": {
+    "thesis": "選片重點在低價購屋引出的夫妻期待落差，以及排外社區帶來的人際壓力。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以丈夫對購屋的滿意起筆，再引入妻子的不滿與管理委員會的排外態度。"
+    ],
+    "audience_for": [
+      "偏好從家庭關係與居住情境理解作品設定的讀者。",
+      "因凰華鈴而找片，想區分情境作品與服裝主題精選的讀者。"
+    ],
+    "audience_not_for": [
+      "這次主要想找運動服主題精選的讀者。",
+      "需要先確認成片節奏或表演細節才決定的讀者；現有材料不足以回答。"
+    ],
+    "questions_answered": [
+      "低價公寓如何成為夫妻衝突的起點？",
+      "管理委員會在公開設定中扮演什麼角色？",
+      "與同演員參與的運動服主題精選相比，選片理由有何不同？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "便宜的房子，夫妻卻有不同期待",
+      "body": "低價度假區公寓如何建立本作的衝突？簡介給出的答案很具體：丈夫看見昔日昂貴房產如今可以便宜入住，連遠距離通勤都願意接受；妻子卻已流露不滿。同一筆購屋決定，在兩人眼中有不同分量。這讓房子成為夫妻期待落差的起點，也比單列婚姻危機更容易理解人物處境。"
+    },
+    {
+      "heading": "入住之後，鄰里也成了壓力",
+      "body": "管理委員會被寫成囉嗦、排外，並像在監視新住戶。這個安排把衝突從夫妻之間擴大到社區：買下房子，也意味著進入一套既有人際關係。值得留意的是，丈夫的滿意集中在價格，簡介接著交代的麻煩卻來自共同生活與鄰里往來。這是本作設定最清楚的落差。"
+    },
+    {
+      "heading": "同樣有凰華鈴演出，選片入口仍然不同",
+      "body": "FCDSS-117 的介紹以運動服裝為分類線索，並用八名演出者、十五場內容及四小時篇幅交代精選規模；本作則先交代購屋、通勤、夫妻反應與管理委員會。若你在意角色為何陷入衝突，本作提供的背景較切合這項需求；若這次想依服裝主題挑選，對照精選的介紹更直接。差異在公開企劃的組織方式，不能據此替兩作的成片品質排序。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用題供已核對的 [NGOD-362 作品頁快照](https://cc18.tv/player.php?uuid=BMQzUJIBYf5&cat=19)、[FCDSS-117 作品頁快照](https://cc18.tv/player.php?uuid=f8_6QxBrQfs&cat=19)及兩作的人物關係資料。外部查找未取得可核對的官方全文，兩個作品頁亦未能透過本次網頁工具開啟，因此沒有採用搜尋片段補寫背景。比較限於公開簡介與收錄資訊，選片意義為編輯判斷，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "b542e5c98863ed9890fbc0f95ae006e181e198aed4499fc4cfdffd4540279049",
+    "response_sha256": "7fc4722246821833b88ecf8a03723a134b9ffcfb96f50f97770c5831d229bf70",
+    "research_input_sha256": "d200f5dd0ceec17b1b3c148b197f828130185ed8037fb592088656d158bde030",
+    "related_source_ids": [
+      "FCDSS-117"
+    ]
+  }
+}

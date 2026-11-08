@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "movie_id": "NGOD-362",
+  "generated_at": "2026-11-08T12:43:03.739Z",
+  "source_snapshot_hash": "sha256:b542e5c98863ed9890fbc0f95ae006e181e198aed4499fc4cfdffd4540279049",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "選片重點在低價購屋引出的夫妻期待落差，以及排外社區帶來的人際壓力。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以丈夫對購屋的滿意起筆，再引入妻子的不滿與管理委員會的排外態度。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好從家庭關係與居住情境理解作品設定的讀者。",
+      "因凰華鈴而找片，想區分情境作品與服裝主題精選的讀者。"
+    ],
+    "not_for": [
+      "這次主要想找運動服主題精選的讀者。",
+      "需要先確認成片節奏或表演細節才決定的讀者；現有材料不足以回答。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "FCDSS-117",
+      "relation_type": "same_performer",
+      "reason": "同樣由凰華鈴出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "凰華鈴"
+      ],
+      "contrast_signals": [
+        "天使萌",
+        "吉高寧寧"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "低價公寓如何成為夫妻衝突的起點？",
+    "管理委員會在公開設定中扮演什麼角色？",
+    "與同演員參與的運動服主題精選相比，選片理由有何不同？"
+  ]
+}
