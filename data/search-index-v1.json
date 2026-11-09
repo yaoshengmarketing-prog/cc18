@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:d0bc2be88f75eb6005a59f42f147b1d201ca2e4eac98ff8e238d756ff34a82ae",
-  "source_generated_at": "2026-11-09T04:00:15.694Z",
+  "source_revision": "sha256:5a068f129b382e1a920704ef5003146e7ab37994b485828106bed7667302c690",
+  "source_generated_at": "2026-11-09T04:04:52.679Z",
   "counts": {
-    "movies": 523,
-    "performers": 367,
+    "movies": 524,
+    "performers": 379,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -284,6 +284,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:26958",
+      "display_name": "上坂めい",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "上坂めい",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CEAD-763"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:28777",
       "display_name": "久和原聖羅",
       "display_name_zh_tw": null,
@@ -393,6 +404,7 @@
       "source_name": "小坂日葵",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:CEAD-763",
         "cc18:EMBM-055"
       ]
     },
@@ -1117,6 +1129,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:27268",
+      "display_name": "白河花清",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "白河花清",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CEAD-763"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:54027",
       "display_name": "白花にあ",
       "display_name_zh_tw": null,
@@ -1321,6 +1344,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:2730",
+      "display_name": "安野由美",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "安野由美",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CEAD-763"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:27703",
       "display_name": "安達夕莉",
       "display_name_zh_tw": null,
@@ -1461,6 +1495,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:24848",
+      "display_name": "竹内夏希",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "竹内夏希",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CEAD-763"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:41229",
       "display_name": "糸井瑠花",
       "display_name_zh_tw": null,
@@ -1534,6 +1579,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:EMBM-055"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:26134",
+      "display_name": "辻櫻",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "辻櫻",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CEAD-763"
       ]
     },
     {
@@ -1720,6 +1776,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SDMM-239"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:26058",
+      "display_name": "赤城穂波",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "赤城穂波",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CEAD-763"
       ]
     },
     {
@@ -2418,6 +2485,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:29289",
+      "display_name": "祈山愛",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "祈山愛",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CEAD-763"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:54120",
       "display_name": "秋山美杏",
       "display_name_zh_tw": null,
@@ -2829,6 +2907,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:AGAV-184"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28280",
+      "display_name": "桐香優里",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "桐香優里",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CEAD-763"
       ]
     },
     {
@@ -3668,6 +3757,7 @@
       "source_name": "葉山小百合",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:CEAD-763",
         "cc18:NGOD-358"
       ]
     },
@@ -3680,6 +3770,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:UMD-1019"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:22444",
+      "display_name": "葵百合香",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "葵百合香",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CEAD-763"
       ]
     },
     {
@@ -3824,6 +3925,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:ATID-666"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:50362",
+      "display_name": "廣瀨美結",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "廣瀨美結",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CEAD-763"
       ]
     },
     {
@@ -4048,6 +4160,28 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:PYM-577"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:26657",
+      "display_name": "藤井麗羅",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "藤井麗羅",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CEAD-763"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:26077",
+      "display_name": "藤田梢",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "藤田梢",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CEAD-763"
       ]
     },
     {
@@ -28479,6 +28613,77 @@
         "article_title": "APNS-419 糸井瑠花｜露出慾望附身的女生：學生設定如何把系列企劃拍出遞進感",
         "display_short_title": null,
         "slug": "apns-419"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:CEAD-763",
+        "source_cover": "https://cc18.tv/preview/80/b/qyETEiLLT7x-800.jpg?v=1787603960",
+        "title": "CEAD-763 安野由美、葵百合香、竹内夏希、赤城穂波、藤田梢、辻櫻、藤井麗羅、上坂めい、白河花清、桐香優里、葉山小百合、小坂日葵、祈山愛、廣瀨美結｜vol.2",
+        "catalog_code": "CEAD-763",
+        "release_date": "2026-08-22",
+        "performers": [
+          "安野由美",
+          "葵百合香",
+          "竹内夏希",
+          "赤城穂波",
+          "藤田梢",
+          "辻櫻",
+          "藤井麗羅",
+          "上坂めい",
+          "白河花清",
+          "桐香優里",
+          "葉山小百合",
+          "小坂日葵",
+          "祈山愛",
+          "廣瀨美結"
+        ],
+        "canonical_topics": [
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/cead-763/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:2730",
+        "cc18.tv:actor:22444",
+        "cc18.tv:actor:24848",
+        "cc18.tv:actor:26058",
+        "cc18.tv:actor:26077",
+        "cc18.tv:actor:26134",
+        "cc18.tv:actor:26657",
+        "cc18.tv:actor:26958",
+        "cc18.tv:actor:27268",
+        "cc18.tv:actor:28280",
+        "cc18.tv:actor:28302",
+        "cc18.tv:actor:29262",
+        "cc18.tv:actor:29289",
+        "cc18.tv:actor:50362"
+      ],
+      "search": {
+        "source_title": "沉溺在唾液與接吻中的蕾絲自慰，用誘惑與挑逗來俘獲你的7組14位女性 vol.2",
+        "article_title": "CEAD-763 安野由美、葵百合香、竹内夏希、赤城穂波、藤田梢、辻櫻、藤井麗羅、上坂めい、白河花清、桐香優里、葉山小百合、小坂日葵、祈山愛、廣瀨美結｜vol.2",
+        "display_short_title": null,
+        "slug": "cead-763"
       }
     },
     {

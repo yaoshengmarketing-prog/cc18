@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "CEAD-763",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-09T04:04:28.428Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/CEAD-763/hero-v1.jpg",
+      "r2_key": "works/2026/08/CEAD-763/hero-v1.jpg",
+      "bytes": 607349,
+      "sha256": "e0510f5d465a88cbdd4d8a3f9bfe14d2095ca900bd05fa1bf0323d2baa35d2fa",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/CEAD-763/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/08/CEAD-763/scene-vertical-v1.jpg",
+      "bytes": 1409385,
+      "sha256": "ad2d3e8d13af5d55720cdfb5a09f4bce8b7a253c64a1bdef72d0510af34797e3",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2809307,
+    "sha256": "5ac2fab6735a54556cc623e60cf6003e6af7ef147d096bdb9567783211a8eb3e",
+    "target_r2_key": "works/2026/08/CEAD-763/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/CEAD-763/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

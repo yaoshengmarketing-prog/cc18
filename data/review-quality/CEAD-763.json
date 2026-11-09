@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "CEAD-763",
+  "review_sha256": "a175e3df2ec31f5f231e2a2ef3dae160cc0e3cfb68f141972b3a6ef54ea9234a",
+  "selected_thesis": "來源資料可確認本作以「vol.2」作為主要作品線索。",
+  "title_basis": {
+    "performer": "安野由美、葵百合香、竹内夏希、赤城穂波、藤田梢、辻櫻、藤井麗羅、上坂めい、白河花清、桐香優里、葉山小百合、小坂日葵、祈山愛、廣瀨美結",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "安野由美",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "葵百合香",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "竹内夏希",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "赤城穂波",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "安野由美",
+    "presentation_feature": "葵百合香",
+    "editorial_judgment": "來源資料可確認本作以「vol.2」作為主要作品線索。",
+    "source_keywords": [
+      "安野由美",
+      "葵百合香",
+      "竹内夏希",
+      "赤城穂波"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：安野由美",
+      "supports": "這項可追溯來源訊號支持文章以「安野由美」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：葵百合香",
+      "supports": "這項可追溯來源訊號支持文章以「葵百合香」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：竹内夏希",
+      "supports": "這項可追溯來源訊號支持文章以「竹内夏希」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：赤城穂波",
+      "supports": "這項可追溯來源訊號支持文章以「赤城穂波」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：藤田梢",
+      "supports": "這項可追溯來源訊號支持文章以「藤田梢」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：辻櫻",
+      "supports": "這項可追溯來源訊號支持文章以「辻櫻」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：藤井麗羅",
+      "supports": "這項可追溯來源訊號支持文章以「藤井麗羅」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：上坂めい",
+      "supports": "這項可追溯來源訊號支持文章以「上坂めい」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}
