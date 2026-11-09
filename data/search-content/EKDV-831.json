@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "movie_id": "EKDV-831",
+  "generated_at": "2026-11-09T04:42:40.426Z",
+  "source_snapshot_hash": "sha256:7843598f9bcfda6d0dbd732496ac75d935addeac249761b903744748dbf9389d",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看天川空主動搭訕陌生人的設定，可以先看本作的介紹。偏好已有戀人關係的生活情境，則可比較 EKDV-826。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "拍攝取消帶出主動搭訕",
+      "簡介列出外送員與體操服等設定"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想找天川空主動搭訕題材的讀者",
+      "想依角色與服裝設定比較同系列作品的讀者"
+    ],
+    "not_for": [
+      "這次想找以既有戀人關係與同居日常為主的讀者",
+      "需要先確認實際節奏或敘事份量的讀者"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "EKDV-828",
+      "relation_type": "same_series",
+      "reason": "同屬「このメス女…只今発情真っ盛り！？」系列，可用來比較相同公式在不同作品中的角色設定與推進差異。",
+      "shared_signals": [
+        "このメス女…只今発情真っ盛り！？"
+      ],
+      "contrast_signals": [
+        "響蓮",
+        "4K】這個騷貨"
+      ]
+    },
+    {
+      "movie_id": "GVH-891",
+      "relation_type": "same_performer",
+      "reason": "同樣由天川空出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "天川空"
+      ],
+      "contrast_signals": [
+        "變成超級變態雌性",
+        "アヘ顔で興奮するような変態男を馬鹿にしていた淫語痴女"
+      ]
+    },
+    {
+      "movie_id": "DSOD-097",
+      "relation_type": "same_performer",
+      "reason": "同樣由天川空出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "天川空"
+      ],
+      "contrast_signals": [
+        "とろマン見せつけ性交",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "拍攝取消後主動搭訕，是這兩部同系列作品共用的開場嗎？",
+    "本作與 EKDV-828 的後續角色和服裝設定有何差異？",
+    "同樣由天川空演出的 EKDV-826，從什麼關係出發？"
+  ]
+}

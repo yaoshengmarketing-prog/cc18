@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "EKDV-831",
+  "review_sha256": "ff62f81dab1f3d77cbf0765662348b85a69de0299643ffed95a615ed6c2de405",
+  "selected_thesis": "拍攝取消後主動搭訕，是本作與 EKDV-828 共用的開場。追同系列可以從後續登場角色與服裝挑選，追天川空則可以先在陌生人偶遇與戀人同居兩種情境之間取捨。",
+  "title_basis": {
+    "performer": "天川空",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "天川空",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "4K】這個雌女",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "このメス女…只今発情真っ盛り！？",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "天川空",
+    "presentation_feature": "4K】這個雌女",
+    "editorial_judgment": "以同系列的共同開場確認企劃如何帶出搭訕，再用同一位演員的同居作對照，讓讀者依角色關係與場景設定選片。",
+    "source_keywords": [
+      "天川空",
+      "4K】這個雌女",
+      "このメス女…只今発情真っ盛り！？",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "EKDV-831 與同系列 EKDV-828 的簡介都以拍攝搭檔缺席帶出主動搭訕路人。",
+      "supports": "拍攝取消後轉向搭訕，是這兩部同系列作品共用的企劃開場。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "EKDV-831 的簡介提到外送員與體操服，EKDV-828 的簡介則提到拍攝助理與競泳泳裝。",
+      "supports": "兩部同系列作品可以依簡介列出的後續角色與服裝設定區分。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同樣由天川空演出的 EKDV-826，以同居戀人為前提，簡介列出早晨、廚房與浴室等日常場景。",
+      "supports": "想看天川空的讀者，可以依偏好的關係設定，在街頭偶遇與戀人同居之間選擇。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "成片的剪輯節奏、敘事密度與表演品質",
+    "未經核實的鏡位、聲音、台詞或拍攝經過",
+    "把宣傳中的角色行為當成演員本人的經歷"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z"
+}
