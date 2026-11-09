@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:5cd74e619a9fffda0d3ca94358691b8fb817a3249f005441fd32e87129df44ca",
-  "source_generated_at": "2026-11-09T08:44:45.153Z",
+  "source_revision": "sha256:2e094d284b3ccf291c90ca73329230e54e3fdd32e6d0cffc99b26a8dc94e6d94",
+  "source_generated_at": "2026-11-09T09:54:09.325Z",
   "counts": {
-    "movies": 535,
-    "performers": 386,
+    "movies": 536,
+    "performers": 387,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -1755,6 +1755,17 @@
       "related_movie_ids": [
         "cc18:DLDSS-545",
         "cc18:DLDSS-565"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:48021",
+      "display_name": "谷田かりな",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "谷田かりな",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:TEND-039"
       ]
     },
     {
@@ -8943,6 +8954,43 @@
         "article_title": "片名寫女與男，簡介把焦點放在誰身上？",
         "display_short_title": "丈夫不在家的女與男",
         "slug": "avk-018"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:TEND-039",
+        "source_cover": "https://cc18.tv/preview/80/b/z8UqwVYc3cp-800.jpg?v=1793115137",
+        "title": "再婚後的繼父與繼女",
+        "catalog_code": "TEND-039",
+        "release_date": "2026-10-20",
+        "performers": [
+          "谷田かりな"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/tend-039/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:48021"
+      ],
+      "search": {
+        "source_title": "被再婚對象帶來的繼女那幼小嬌小的身體所誘惑，我徹底被她迷得神魂顛倒了… 谷田佳里奈",
+        "article_title": "再婚家庭的平靜，由誰打破？",
+        "display_short_title": "再婚後的繼父與繼女",
+        "slug": "tend-039"
       }
     },
     {

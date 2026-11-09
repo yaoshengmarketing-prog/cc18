@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "TEND-039",
+  "review_sha256": "29300676eebd56319c4f5c0247808d7d080720d25149fb50a2dabe010c89018f",
+  "selected_thesis": "本作簡介從繼父眼中的平靜生活開場，卻把打破平衡的行動交給谷田かりな飾演的繼女。她談到的 Hunter 多人企劃則把她放在群體之中。同樣由她演出，兩份資料給了讀者不同的選片線索。",
+  "title_basis": {
+    "performer": "谷田かりな",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "谷田かりな",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "我徹底被她迷得神魂顛倒了",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "谷田かりな",
+    "presentation_feature": "我徹底被她迷得神魂顛倒了",
+    "editorial_judgment": "以同一位演員在兩份公開文字中的角色位置，區分再婚家庭設定與多人企劃的選片線索。",
+    "source_keywords": [
+      "谷田かりな",
+      "我徹底被她迷得神魂顛倒了",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品簡介先交代繼父對再婚生活的感受，接著把打破平靜的行動放在繼女身上。",
+      "supports": "開場視角與推動情節的角色分屬兩人。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "谷田かりな在官方部落格把另一部 Hunter 作品描述為多人企劃，並另行交代自己何時較常出現。",
+      "supports": "同演員的對照可落在家庭關係中的角色位置與多人企劃中的群體配置。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "角色年齡",
+    "日文原題與系列歸屬",
+    "演員的實際出場比重",
+    "成片的節奏、表演、鏡位、聲音與台詞"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z"
+}

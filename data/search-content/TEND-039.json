@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "TEND-039",
+  "generated_at": "2026-11-09T09:47:40.402Z",
+  "source_snapshot_hash": "sha256:d00ead2742ef8c4654c9e70918998ac2cf752ebce148c7df133b343a8be60e60",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想先弄清楚谷田かりな在故事裡扮演誰、由誰推動變化，這份簡介提供了明確線索。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介先鋪陳再婚家庭的日常，再將敘述焦點轉向繼女的行動。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先依虛構角色關係與故事前提篩選作品的讀者",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "偏好多人群像企劃的讀者",
+      "避開繼親題材的讀者"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "再婚家庭的平靜在簡介裡由誰打破？",
+    "同樣由谷田かりな演出，本作與她談到的 Hunter 多人企劃各自提供什麼選片線索？"
+  ]
+}

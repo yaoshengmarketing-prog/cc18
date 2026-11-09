@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "id": "TEND-039",
+  "generated_at": "2026-11-09T09:47:39.846Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/TEND-039.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "我徹底被她迷得神魂顛倒了",
+    "premise": "作品以「我徹底被她迷得神魂顛倒了」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「我徹底被她迷得神魂顛倒了」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "我徹底被她迷得神魂顛倒了",
+      "谷田佳里奈"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由谷田かりな演出，這次的作品簡介和她在官方部落格談到的 Hunter 作品，分別讓讀者先注意什麼？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=z8UqwVYc3cp&cat=19",
+      "supports": "CC18 作品頁快照記載本作由谷田かりな演出，簡介以再婚後的家庭為背景，從繼父原以為平靜的生活寫到繼女主動打破平衡。"
+    },
+    {
+      "url": "https://tanitakarina.blog.jp/archives/12509264.html",
+      "supports": "谷田かりな在官方部落格談到一部 Hunter 多人企劃，並特別提醒讀者，她在群體中何時才開始較常出現。"
+    }
+  ],
+  "angle_candidates": [
+    "比較再婚家庭中的角色焦點與多人企劃中的群體配置。",
+    "從繼父眼中的平靜開場，讀出簡介如何把情節主動權交給繼女。",
+    "我徹底被她迷得神魂顛倒了的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作簡介從繼父眼中的平靜生活開場，卻把打破平衡的行動交給谷田かりな飾演的繼女。她談到的 Hunter 多人企劃則把她放在群體之中。同樣由她演出，兩份資料給了讀者不同的選片線索。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "谷田かりな",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "我徹底被她迷得神魂顛倒了",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "identity",
+      "value": "AV女優片",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "再婚後，繼父為繼女著迷",
+  "display_short_title": "再婚後的繼父與繼女",
+  "title": "再婚家庭的平靜，由誰打破？",
+  "seo_title": "TEND-039 谷田かりな作品介紹｜再婚家庭的角色焦點",
+  "social_title": "從繼父的視角開場，為何簡介把焦點交給繼女？",
+  "short_review": "簡介先交代繼父對再婚生活的期待，再把打破平靜的行動交給谷田かりな飾演的繼女。和她在官方部落格談到的 Hunter 多人企劃相比，這次更容易從簡介辨認她在故事裡扮演的角色。",
+  "editorial_angle": "以同一位演員在兩份公開文字中的角色位置，區分再婚家庭設定與多人企劃的選片線索。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品簡介先交代繼父對再婚生活的感受，接著把打破平靜的行動放在繼女身上。",
+      "supports": "開場視角與推動情節的角色分屬兩人。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "谷田かりな在官方部落格把另一部 Hunter 作品描述為多人企劃，並另行交代自己何時較常出現。",
+      "supports": "同演員的對照可落在家庭關係中的角色位置與多人企劃中的群體配置。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "角色年齡",
+    "日文原題與系列歸屬",
+    "演員的實際出場比重",
+    "成片的節奏、表演、鏡位、聲音與台詞"
+  ],
+  "decision_guide": {
+    "thesis": "想先弄清楚谷田かりな在故事裡扮演誰、由誰推動變化，這份簡介提供了明確線索。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介先鋪陳再婚家庭的日常，再將敘述焦點轉向繼女的行動。"
+    ],
+    "audience_for": [
+      "會先依虛構角色關係與故事前提篩選作品的讀者",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "偏好多人群像企劃的讀者",
+      "避開繼親題材的讀者"
+    ],
+    "questions_answered": [
+      "再婚家庭的平靜在簡介裡由誰打破？",
+      "同樣由谷田かりな演出，本作與她談到的 Hunter 多人企劃各自提供什麼選片線索？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "繼父先登場，繼女推動變化",
+      "body": "簡介先讓讀者從繼父的角度看這個家。他原以為再婚後的生活會平靜，接下來讓局面改變的卻是谷田かりな飾演的繼女。這個安排讓再婚背景有了作用，也讓讀者在選片前就知道，她在故事裡是推動變化的人。[CC18 作品頁](https://cc18.tv/player.php?uuid=z8UqwVYc3cp&cat=19)"
+    },
+    {
+      "heading": "同一位演員，兩種角色配置",
+      "body": "谷田かりな在官方部落格談到一部 Hunter 多人企劃時，還特地交代自己從哪一段開始比較常出現。若你是循著演員找片，本作簡介能先回答她和另一個主要角色是什麼關係，Hunter 那篇自述則提供她在群體中何時較常出現的線索。[谷田かりな官方部落格](https://tanitakarina.blog.jp/archives/12509264.html)"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用 CC18 作品頁快照與谷田かりな的官方部落格文章。對照範圍限於公開文字交代的角色配置。本作的出場比重、敘事密度與節奏仍待確認。[CC18 作品頁](https://cc18.tv/player.php?uuid=z8UqwVYc3cp&cat=19) [谷田かりな官方部落格](https://tanitakarina.blog.jp/archives/12509264.html)"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "d00ead2742ef8c4654c9e70918998ac2cf752ebce148c7df133b343a8be60e60",
+    "response_sha256": "a3f7145f23b5c93c70006f5aa85ee42e4aecd4fc65580e0d72bf78c781b93b8e",
+    "research_input_sha256": "3994d42195699b0a08ef097c60c0c4c3d612bd310a2ae2f0518548487a91ad64",
+    "related_source_ids": []
+  }
+}
