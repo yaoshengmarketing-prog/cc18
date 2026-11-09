@@ -2024,7 +2024,7 @@
     },
     {
       "label": "溫泉",
-      "occurrences": 9,
+      "occurrences": 10,
       "source_ids": [
         "OREMO-606",
         "OFTR-016",
@@ -2034,9 +2034,10 @@
         "HUNTC-659",
         "DLDSS-565",
         "DANDYA-045",
-        "RKI-770"
+        "RKI-770",
+        "START-621"
       ],
-      "first_seen": "2026-09-08",
+      "first_seen": "2026-09-07",
       "last_seen": "2026-11-08",
       "status": "quarantined"
     },
@@ -2074,12 +2075,13 @@
     },
     {
       "label": "和服、浴衣",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "OFTR-016",
-        "PRWF-016"
+        "PRWF-016",
+        "START-621"
       ],
-      "first_seen": "2026-09-14",
+      "first_seen": "2026-09-07",
       "last_seen": "2026-09-15",
       "status": "quarantined"
     },

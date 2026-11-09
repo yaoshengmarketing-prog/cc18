@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-09T03:13:27.580Z",
+  "generated_at": "2026-11-09T03:17:46.225Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 518,
-  "formal_movie_count": 517,
+  "tracked_input_count": 519,
+  "formal_movie_count": 518,
   "demo_count": 1,
-  "published_count": 514,
+  "published_count": 515,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -4274,6 +4274,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "9fa8a5183ded49ac4c46bdf5c5a6f5d10e7dacafd0625db047dd6355a561fe2c"
+    },
+    {
+      "stable_movie_id": "cc18:START-621",
+      "catalog_code": "START-621",
+      "slug": "start-621",
+      "master_path": "data/movie-master/start-621.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "63e16c8aa18b23d09c9caf56189860c82da3becc03e5a5104ae5421d7e014579"
     },
     {
       "stable_movie_id": "cc18:START-625",

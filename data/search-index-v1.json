@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:c5d427d39c04df14b7fa43e90d75cdc256103930996bcfea05e0d63c61f5e401",
-  "source_generated_at": "2026-11-09T03:13:27.580Z",
+  "source_revision": "sha256:6ec1da55c101f4da4f042db8a91be075c61d2945b0c8328fef08b9d0e4dac8be",
+  "source_generated_at": "2026-11-09T03:17:46.225Z",
   "counts": {
-    "movies": 514,
+    "movies": 515,
     "performers": 366,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -3557,6 +3557,7 @@
       "source_name": "新川空",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:START-621",
         "cc18:START-657"
       ]
     },
@@ -28008,6 +28009,51 @@
         "article_title": "SDNM-560 有澤まゆか｜有澤真由香",
         "display_short_title": null,
         "slug": "sdnm-560"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:START-621",
+        "source_cover": "https://cc18.tv/preview/80/b/BccYkreK28O-800.jpg?v=1787740803",
+        "title": "START-621 新川空｜いいなり温泉旅行",
+        "catalog_code": "START-621",
+        "release_date": "2026-08-25",
+        "performers": [
+          "新川空"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/start-621/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:50104"
+      ],
+      "search": {
+        "source_title": "從順溫泉旅行 新川空",
+        "article_title": "START-621 新川空｜いいなり温泉旅行",
+        "display_short_title": null,
+        "slug": "start-621"
       }
     },
     {

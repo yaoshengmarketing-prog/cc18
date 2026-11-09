@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "START-621",
+  "review_sha256": "11fdc0571ce61a86c1e2493621e51035879ceec48bc4e11a17cb2c85f1816331",
+  "selected_thesis": "來源資料可確認本作以「いいなり温泉旅行」作為主要作品線索。",
+  "title_basis": {
+    "performer": "新川空",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "新川空",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "いいなり温泉旅行",
+        "source_field": "series"
+      },
+      {
+        "type": "setting",
+        "value": "溫泉場景",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "新川空",
+    "presentation_feature": "いいなり温泉旅行",
+    "editorial_judgment": "來源資料可確認本作以「いいなり温泉旅行」作為主要作品線索。",
+    "source_keywords": [
+      "新川空",
+      "いいなり温泉旅行",
+      "溫泉場景",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：新川空",
+      "supports": "這項可追溯來源訊號支持文章以「新川空」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：いいなり温泉旅行",
+      "supports": "這項可追溯來源訊號支持文章以「いいなり温泉旅行」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "setting：溫泉場景",
+      "supports": "這項可追溯來源訊號支持文章以「溫泉場景」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：いいなり温泉旅行",
+      "supports": "這項可追溯來源訊號支持文章以「いいなり温泉旅行」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：3p・4p",
+      "supports": "這項可追溯來源訊號支持文章以「3p・4p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

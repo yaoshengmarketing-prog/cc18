@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "START-621",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-09T03:17:07.923Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/START-621/hero-v1.jpg",
+      "r2_key": "works/2026/08/START-621/hero-v1.jpg",
+      "bytes": 768877,
+      "sha256": "52e17cc4539952c5c4461205c6331275b4fc6bc36e38cfb93774a9d3643ad895",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 從順溫泉旅行, 溫泉, 企劃設定, 角色變化. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Origina",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/START-621/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/08/START-621/scene-vertical-v1.jpg",
+      "bytes": 923790,
+      "sha256": "050dbda58f265f00c94d2f56fa869c13ef972b7bc01313f5dd05d20546e8dd8e",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 從順溫泉旅行, 溫泉, 企劃設定, 角色變化. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Origina",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2647666,
+    "sha256": "06a852719256a726c713fb4601186b8bb1c6f1b8035eae925306926fb3a981d1",
+    "target_r2_key": "works/2026/08/START-621/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/START-621/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
