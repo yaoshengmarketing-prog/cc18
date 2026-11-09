@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "SDMM-238",
+  "review_sha256": "15e13a6593fa360ede6701f009ddbece1cc38337b1c689ced2ec27a5ccc01cf1",
+  "selected_thesis": "來源資料可確認本作以「マジックミラー号」作為主要作品線索。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "series",
+        "value": "マジックミラー号",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "マジックミラー号",
+    "presentation_feature": "素人企劃",
+    "editorial_judgment": "來源資料可確認本作以「マジックミラー号」作為主要作品線索。",
+    "source_keywords": [
+      "マジックミラー号",
+      "素人企劃",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "series：マジックミラー号",
+      "supports": "這項可追溯來源訊號支持文章以「マジックミラー号」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：素人企劃",
+      "supports": "這項可追溯來源訊號支持文章以「素人企劃」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：マジックミラー号",
+      "supports": "這項可追溯來源訊號支持文章以「マジックミラー号」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：素人",
+      "supports": "這項可追溯來源訊號支持文章以「素人」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻・主婦",
+      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：口交",
+      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}
