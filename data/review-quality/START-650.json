@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "START-650",
+  "review_sha256": "8ea138921364ab20c57cf5cc0492aebc406030d274f45f569ede274ec62f5598",
+  "selected_thesis": "START-650 的可追溯吸引力，來自天神羽衣的愛嬌女僕包裝與「顏射吞精W解禁」主題形成的鮮明反差；公開資訊不足以支撐劇情導向解讀，因此更適合視為一部由演員形象承接企劃賣點的展示型作品。",
+  "title_basis": {
+    "performer": "天神羽衣",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "天神羽衣",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "顏射吞精W解禁",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "顏射",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "天神羽衣",
+    "presentation_feature": "顏射吞精W解禁",
+    "editorial_judgment": "把這部作品放回公開資訊來看，最清楚的不是劇情，而是「顏射吞精W解禁」這個企劃核心，如何搭配天神羽衣與「充滿愛嬌的女僕羽衣醬」的角色包裝形成反差吸引力；因此選片重點應放在演員形象與題材賣點的結合，而非期待複雜敘事。",
+    "source_keywords": [
+      "天神羽衣",
+      "顏射吞精W解禁",
+      "AV女優片",
+      "顏射"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "公開來源直接以「顏射吞精W解禁」作為核心概念，且安全訊號也重複標示同一主題，足以判定本作的主要賣點首先是企劃題材本身。",
+      "basis": "public_source",
+      "signal": "核心企劃主題明確"
+    },
+    {
+      "observation_refs": [],
+      "supports": "創作摘錄中出現「充滿愛嬌的女僕羽衣醬」與「天神羽衣」，代表作品公開包裝把演員名與女僕式角色稱呼綁在一起，這會直接影響選片時對角色氣質的預期。",
+      "basis": "public_source",
+      "signal": "女僕愛嬌包裝可追溯"
+    },
+    {
+      "observation_refs": [],
+      "supports": "topic_elements 幾乎沒有提供人物關係、場景或敘事設定，反而集中在「顏射」「噴精」與畫質標記，顯示這部作品在公開面向上更像展示型企劃，而不是以故事資訊取勝。",
+      "basis": "public_source",
+      "signal": "展示型定位強於故事資訊"
+    },
+    {
+      "observation_refs": [],
+      "supports": "安全訊號與 topic_elements 都有高畫質、720p、HD、4k 等呈現標示，但這些屬於輔助辨識，並未取代「顏射吞精W解禁」作為主要選片理由。",
+      "basis": "public_source",
+      "signal": "技術標示為次要賣點"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未公開的完整劇情內容",
+    "未公開的人物關係與情感轉折",
+    "未公開的具體場景、服裝與流程安排",
+    "鏡位、剪輯、聲音與節奏表現",
+    "演技、表情或身體語言的實際觀察評價"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

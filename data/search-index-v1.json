@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:a61785508b2652c392a8e59a8e7e361b73020c04b4782a80d2412279806a3dad",
-  "source_generated_at": "2026-11-09T02:57:05.718Z",
+  "source_revision": "sha256:52cc40eb6a31bdd4d719eef4904ffa5f28c55701c3b69558b8644bb9517e86fc",
+  "source_generated_at": "2026-11-09T03:00:51.549Z",
   "counts": {
-    "movies": 511,
-    "performers": 364,
+    "movies": 512,
+    "performers": 365,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -670,6 +670,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:IESP-765"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:47780",
+      "display_name": "天神羽衣",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "天神羽衣",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:START-650"
       ]
     },
     {
@@ -10716,6 +10727,51 @@
         "article_title": "START-649 神木麗｜泡泡浴女郎偵探：概念先行的戲劇企劃",
         "display_short_title": null,
         "slug": "start-649"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:START-650",
+        "source_cover": "https://cc18.tv/preview/80/b/avvVOhjg2bw-800.jpg?v=1791923912",
+        "title": "START-650 天神羽衣｜顏射吞精W解禁：女僕愛嬌感主導的展示型企劃",
+        "catalog_code": "START-650",
+        "release_date": "2026-10-13",
+        "performers": [
+          "天神羽衣"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "facial",
+            "label": "顏射題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/start-650/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:47780"
+      ],
+      "search": {
+        "source_title": "顏射吞精W解禁！充滿愛嬌的女僕羽衣醬，無論精液多臭多難喝，都會保持笑容用臉和嘴巴全部接住。奉仕13發 天神羽衣",
+        "article_title": "START-650 天神羽衣｜顏射吞精W解禁：女僕愛嬌感主導的展示型企劃",
+        "display_short_title": null,
+        "slug": "start-650"
       }
     },
     {

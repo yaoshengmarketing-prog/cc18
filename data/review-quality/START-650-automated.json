@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "id": "START-650",
+  "checked_at": "2026-11-09T03:00:11.730Z",
+  "review_sha256": "4e53bc02bef8881b78b37205e2e1dfaaacfcb04194a2e99af59fdf166adb5dfc",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "如果只看可追溯的公開資料，START-650 的主軸非常集中：核心概念就是「顏射吞精W解禁」。這不是旁支標籤，而是直接被提出的企劃辨識點；再加上安全訊號裡也重複出現相關主題與行為標記，代表選片時最先該看的，就是它如何把單一成人主題推到最前面。換句話說，這部片的入口不是故事懸念，而"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "公開摘錄中的一句「充滿愛嬌的女僕羽衣醬」，幾乎已經說明了這部片對天神羽衣的包裝方向：不是單靠名字出場，而是把她放進一個帶有親近感、撒嬌感的角色稱呼裡。這個訊號與「顏射吞精W解禁」放在一起時，最能形成選片上的反差魅力：一邊是愛嬌與女僕感，一邊是直接而明確的企劃主題。若你本來就會因演"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}
