@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09T03:08:48.908Z",
+  "updated_at": "2026-11-09T03:12:49.533Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -7683,6 +7683,21 @@
       ],
       "release_date": "2026-08-27",
       "source_url": "https://cc18.tv/player.php?uuid=pvqxx0eUo3T&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-06"
+    },
+    {
+      "id": "SDNM-560",
+      "actress": [
+        "有澤まゆか"
+      ],
+      "release_date": "2026-08-25",
+      "source_url": "https://cc18.tv/player.php?uuid=8pTmpBYIcft&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:1aff54dcaec404449456115acd31da0f9e417690245d60945fb1d728f95549ae",
-  "source_generated_at": "2026-11-09T03:09:27.052Z",
+  "source_revision": "sha256:c5d427d39c04df14b7fa43e90d75cdc256103930996bcfea05e0d63c61f5e401",
+  "source_generated_at": "2026-11-09T03:13:27.580Z",
   "counts": {
-    "movies": 513,
-    "performers": 365,
+    "movies": 514,
+    "performers": 366,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -1376,6 +1376,17 @@
       "related_movie_ids": [
         "cc18:MIAB-682",
         "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54310",
+      "display_name": "有澤まゆか",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "有澤まゆか",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SDNM-560"
       ]
     },
     {
@@ -27944,6 +27955,59 @@
         "article_title": "SDAB-358 要結愛｜18歲弓道少女的一日口交特訓",
         "display_short_title": "要結愛的一日口交特訓",
         "slug": "sdab-358"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SDNM-560",
+        "source_cover": "https://cc18.tv/preview/80/b/8pTmpBYIcft-800.jpg?v=1787740851",
+        "title": "SDNM-560 有澤まゆか｜有澤真由香",
+        "catalog_code": "SDNM-560",
+        "release_date": "2026-08-25",
+        "performers": [
+          "有澤まゆか"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/sdnm-560/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54310"
+      ],
+      "search": {
+        "source_title": "有澤真由香 36歲 最終章 想要盡情展現一直以來讓我很自卑的大聲嬌喘，感受人生最高潮 在小森林裡的民宿大聲尖叫中出高潮",
+        "article_title": "SDNM-560 有澤まゆか｜有澤真由香",
+        "display_short_title": null,
+        "slug": "sdnm-560"
       }
     },
     {

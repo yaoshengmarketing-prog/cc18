@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-09T03:09:27.052Z",
+  "generated_at": "2026-11-09T03:13:27.580Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 517,
-  "formal_movie_count": 516,
+  "tracked_input_count": 518,
+  "formal_movie_count": 517,
   "demo_count": 1,
-  "published_count": 513,
+  "published_count": 514,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -3716,6 +3716,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "c37b521987af44b13a5d8fc0d251ad35a3ec3579dc38d96c3030cf57e2cc1d40"
+    },
+    {
+      "stable_movie_id": "cc18:SDNM-560",
+      "catalog_code": "SDNM-560",
+      "slug": "sdnm-560",
+      "master_path": "data/movie-master/sdnm-560.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "7c7a0663b62b06ee85b8d5ccda1481e96a654f9b5b702ceec094110da71915e1"
     },
     {
       "stable_movie_id": "cc18:SIMH-010",

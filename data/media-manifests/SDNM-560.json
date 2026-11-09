@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "SDNM-560",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-09T03:12:49.529Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/SDNM-560/hero-v1.jpg",
+      "r2_key": "works/2026/08/SDNM-560/hero-v1.jpg",
+      "bytes": 801986,
+      "sha256": "a99573809220a19acf3fdc7b4595e640e56db7a12a76d107403fac5c29ab9f34",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/SDNM-560/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/08/SDNM-560/scene-vertical-v1.jpg",
+      "bytes": 695161,
+      "sha256": "445cf7278a0a63ce1367fa307afeffc60acbcf4a78a909f9eaef84eebe59080d",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2189340,
+    "sha256": "e4b55a81a87e822d3aa52ef7998957122d9a0fe176f91009f9290571168ada87",
+    "target_r2_key": "works/2026/08/SDNM-560/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/SDNM-560/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
