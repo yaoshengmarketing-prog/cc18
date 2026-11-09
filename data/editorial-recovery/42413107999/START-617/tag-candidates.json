@@ -1,0 +1,25 @@
+{
+  "movie_id": "START-617",
+  "candidates": [
+    {
+      "label": "ローション・オイル",
+      "occurrences": 1,
+      "source_ids": [
+        "START-617"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-11-09",
+      "status": "quarantined"
+    },
+    {
+      "label": "ヘルス・ソープ",
+      "occurrences": 1,
+      "source_ids": [
+        "START-617"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-09",
+      "status": "quarantined"
+    }
+  ]
+}

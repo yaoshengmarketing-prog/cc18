@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "source_run_id": 42413107999,
+  "records": [
+    {
+      "movie_id": "APNS-419",
+      "source_sha256": "887ba70fbd2f8cf7e83d152e6366a309b8fbb87a86d10008990e5c2cc79b8bc2",
+      "search_sha256": "d2a9bd1aea179e1fe69e364055d1634def25976811559c5802edc44149b92a8e",
+      "review_sha256": "2502985d9b6eaf2d2a8fd6c69a5258e6831bd1673e883475b1a6b05e0b2179d9",
+      "previous_source_snapshot_hash": "sha256:5da714f85a1e2d6acb44c360a9d31578bb7045852933f6703e26dd9a2149f9dd"
+    },
+    {
+      "movie_id": "CEAD-763",
+      "source_sha256": "8d79dc06309a027ade8d5f13d1ade3d55620d49974cae47de8d285a218e976cc",
+      "search_sha256": "a389adc374fd138513d62ca37d183de49301d9382cb5fce6637c975fd65c74e8",
+      "review_sha256": "a175e3df2ec31f5f231e2a2ef3dae160cc0e3cfb68f141972b3a6ef54ea9234a",
+      "previous_source_snapshot_hash": "sha256:7f89f95bc6b90e524ad4bf9ca2e64c91df4774420a9587783a597f1402e6c67c"
+    },
+    {
+      "movie_id": "CEMD-880",
+      "source_sha256": "518f20259a5b4f0fab17fa78a578fe70355c73a85a98bd741deddff695925228",
+      "search_sha256": "1528e98f96fd419c73335ad35ab7026863c2373e670b2130efbf0caf9523afda",
+      "review_sha256": "1eff00ff44eb82c0f155f1e5fd39eede61e8ad5d84a576372317fe85c2a885a3",
+      "previous_source_snapshot_hash": "sha256:b47cdc7f81fa63514ce5f3d124d3df27bab8c02c7cce750033e307b12a2496b1"
+    },
+    {
+      "movie_id": "DSOD-054",
+      "source_sha256": "7e387abbe78decdffb1c8704d53549e01ff4a22eeb39f4e324f2e7fcedb046df",
+      "search_sha256": "80d05695820154e2fe544e0fbdc890fb0c0f8cb4a474f6b784073974171c9af1",
+      "review_sha256": "b6c7ffe2c4357e936bd419f5ebaa454d7067f8da183e078b36985a44f5ca5d5a",
+      "previous_source_snapshot_hash": "sha256:5c58660181160ff9d7418ed726cec2d568cd71c9904ad80c931a3c1cbefdc610"
+    },
+    {
+      "movie_id": "DSOD-061",
+      "source_sha256": "680e38531128c10ff3a7fca131d2761f3457199fdd28805705b116f8a60a5c55",
+      "search_sha256": "e5d3dce82595320e55200fa3863901bafb44e6e2288bc0a87ff217942747ff27",
+      "review_sha256": "1a05007bfc4af734ff4a5e2b6d88bcfe5f2977fe648fa8499c1966f2055a4558",
+      "previous_source_snapshot_hash": "sha256:d78e90da956660d35419a4ea9f2adda49ea00e5e2a9f419d1c023a5b31c9f9d6"
+    },
+    {
+      "movie_id": "DSOD-069",
+      "source_sha256": "e6ba71ff1dff7e931d8bfa1a6a71ace61d8d9dc14ef7e1091be22f5999e5bf0a",
+      "search_sha256": "8b886e6aadbfb156bc959b2a4b3cfda465d09d0eda42fec27edf33112bfa97ad",
+      "review_sha256": "a89ba047c2fbe6947b331c73e6d05f6cce59f0458da39d62801f703f37677ce7",
+      "previous_source_snapshot_hash": "sha256:a2d4c9e55ed08b5ecf4d8c81fa078155e14322861fbab78c15bd0a84fc7c3d47"
+    },
+    {
+      "movie_id": "FTKD-041",
+      "source_sha256": "4933c84f5789ddfe9a77f94fc89c9d983edff60e770837104c5b9b787f9288b1",
+      "search_sha256": "f1686446063a31ab80e74594659db0eeea2634e0b77535202b5aa597ab0bed74",
+      "review_sha256": "1ff94d3d28640744f2b12943a7e0e1e56ddd3c7f9ca991323e641e931089c3ed",
+      "previous_source_snapshot_hash": "sha256:18bd08a26848aa194fe4b997e9ffbcfd2b3366c148ab9681c39373748908fdd1"
+    },
+    {
+      "movie_id": "HEYZO-3917",
+      "source_sha256": "7f386da3f7c7ee1b3757ba2b2ec5ea8c26a0dce8891bc3183d896dca540aec8a",
+      "search_sha256": "0c8ea433cdb6514faf682fb3fcac17d65b5fde9e7eca9099eb77c850596e286e",
+      "review_sha256": "2a9095790909a9da180ffa20d6ad12a2b00bb9dca603211b3fa7cf969e79e2f9",
+      "previous_source_snapshot_hash": "sha256:336ac2686af5992e8713eb0f6aeab3d5888aa2a1a7dc1ad3b608c2464740fd62"
+    },
+    {
+      "movie_id": "KNMB-131",
+      "source_sha256": "58982605e1440a6aa1fb9452ec4ee7cf0d405ebbb8947d1b406adb8899da3170",
+      "search_sha256": "0f59945f7a5948ff56a28016636a20febbb10b2259f18c07075552b6327065cc",
+      "review_sha256": "2782bcc01666554130427c34d825a63541b5a650f6f630abf76554f341e63870",
+      "previous_source_snapshot_hash": "sha256:4446cba57c2c2a1fd68fbae8b85afdff4e4531a3824914820acfe6d86e4340be"
+    },
+    {
+      "movie_id": "PRIAN-055",
+      "source_sha256": "ff9c9560ea0aa56434bb82f38c683a4e7ab2da0a2dce4d18ff7c1936595d5819",
+      "search_sha256": "2b0239a5040ba4bee65cd6785ed2fba2e4c5ad1e5df333ef8e7a4f4b5c86d431",
+      "review_sha256": "6c4e0af17d88cca5f2d911739fd66e5dca8ec6d5e66530b2f0b87f74fd5b0c05",
+      "previous_source_snapshot_hash": "sha256:5953a7d5d945813f2e7d935d37266429c76e0ca1931893fab292102e483fc6b8"
+    },
+    {
+      "movie_id": "PRIAN-058",
+      "source_sha256": "2237b897e5a8235b4c5af3601c1c34a533d629c6605eebfdc6b0c7a279b47b4a",
+      "search_sha256": "6c981a20b0407dc0e5e75f88719232d31e223391f04ee5c7f37085be2ccbbb1d",
+      "review_sha256": "3cc4e4a19b2784ed5c14cf938b761c9bc0a6983b6dd6b08b4e4224c37fbc15da",
+      "previous_source_snapshot_hash": "sha256:dc149d24f97df93c545249b0e2ed18c74ff025927d46ae016d4f6635a3fb855b"
+    },
+    {
+      "movie_id": "RGAV-005",
+      "source_sha256": "2f216bf925e341eb2d0b85d3558013674ec75bcf85ab2eb4f61feb4112d0d4b4",
+      "search_sha256": "f858acc89d2705dde2fddbe4ebaeec3048886a80be04541af46efaa04e4348aa",
+      "review_sha256": "5b524511909f0b4da53df46bbd015e1c56081d7bbc14819ebaf978297a3eb2d2",
+      "previous_source_snapshot_hash": "sha256:77a9b3ca42d020e4b0866f9b236bb83a0694a17ad5d0a6446adfe7105bc3250f"
+    },
+    {
+      "movie_id": "ROE-541",
+      "source_sha256": "57d4cb8a15f98a95899eea60bf8ef9aa626be2b01c2f03ca959dea2c0fe3b81c",
+      "search_sha256": "d8b3acabd699889a95802d5514cf9a3b40f46f86c1e85650310e6fc81c2657cd",
+      "review_sha256": "2863b15117a3947d8fd39b926d1cf1987a45e4b0510ea1c1a517ce5a33196d0f",
+      "previous_source_snapshot_hash": "sha256:97475d21171e4ed1574bef6fe6878773d311f749e1800c2e5809a412481872f9"
+    },
+    {
+      "movie_id": "SDAM-179",
+      "source_sha256": "371e794ab45cb21727fa664777b1f4a00ee753cf27d41c9d707aedc122c976d7",
+      "search_sha256": "c4d33200d680197ed2fbfb7d0965a52b087c0a5664af02301e13ccfbebc8c739",
+      "review_sha256": "2a748ae769112d0cb2b9015919324ab440f733415d2e3bde0e4afa116b826c68",
+      "previous_source_snapshot_hash": "sha256:ec2e4b045ddbaed77da8b2cc67c43406aff947daf0f027f0c2debcb07c932d54"
+    },
+    {
+      "movie_id": "SDMM-238",
+      "source_sha256": "eb30e4b3afe78584def6f0b6220b57f170a164a7bbcb8feb57ae970265cd2213",
+      "search_sha256": "58680d17c2aab2cabec569888070dd4578f35fec1bb16af8f3939801e955d4ce",
+      "review_sha256": "15e13a6593fa360ede6701f009ddbece1cc38337b1c689ced2ec27a5ccc01cf1",
+      "previous_source_snapshot_hash": "sha256:d52637f10cb6fc425b4152c243e3c863a38ba0d00f04eecff4050617e1684d72"
+    },
+    {
+      "movie_id": "SDNM-560",
+      "source_sha256": "ec8730174a70f88cd84f09427aa250afa5e20d7e7002616b7d5f81674394ef92",
+      "search_sha256": "860d75f7c43ab9c343b61e6035d40d7d0d5b95f01c39e2cbcc922b2c4d5d6057",
+      "review_sha256": "2a849f4f75ecc7610be06f00535e3b68481741c4a6e5566dd9509261d73a3344",
+      "previous_source_snapshot_hash": "sha256:7770c28186177040e305bdc542dd5b8c7803fa7c4ca5c4d0a6c945ba67ab1a2b"
+    },
+    {
+      "movie_id": "SNOS-290",
+      "source_sha256": "6a499d3d8cad00324fd773beabbf5547af690dbdf22b29a736db2c89d4acdb24",
+      "search_sha256": "410753faf28501f220b37722609f2d3811f621cddc31dc040a4b5895e7fb1f9c",
+      "review_sha256": "6554ec0fdf147cde517d60a3cc1cb1bbbda0f83455182ba0c7558d69eff068c4",
+      "previous_source_snapshot_hash": "sha256:46f3ac20cf8379a1b0a9fe46b6de6b64d141cb00fa3a215d12e72163569586ee"
+    },
+    {
+      "movie_id": "SNOS-333",
+      "source_sha256": "063539851ee1770ce18237f6c5be47bec68ddbba14bed85401f22e6fede0870a",
+      "search_sha256": "a06dad29a5ed12b877832e811601801ea5b6cfc3d56e7622fb321b01b4b18829",
+      "review_sha256": "47b9859d1a55cf0ef4fa09960c045475ce41d138e1128b25f69e2ecf0992f971",
+      "previous_source_snapshot_hash": "sha256:7ed05578cef60323a5990c75afd025783af19fc72a7ae8c75f7d5a4e5fe99a40"
+    },
+    {
+      "movie_id": "START-621",
+      "source_sha256": "ce133d4f2981f40c5826ef8eb8657dc078bdaecfa3b4aedf7e94569efa77a17b",
+      "search_sha256": "c3010c9b290fb3aadfa9b1d08c90f0463e08c5313a867947a94b9ab18a869287",
+      "review_sha256": "11fdc0571ce61a86c1e2493621e51035879ceec48bc4e11a17cb2c85f1816331",
+      "previous_source_snapshot_hash": "sha256:074ad365c430fd27fd810ba17a95e972347d8dfe81f8a020212dc9f12840ea0c"
+    },
+    {
+      "movie_id": "TLDC-064",
+      "source_sha256": "67daba27a7d20fe45efd19eabc099558974d36b269d843e3415db5de89934902",
+      "search_sha256": "e2418d492efa2b3c9a5a1650e767a78b0f5cbf407d57c90629f22f58068c8467",
+      "review_sha256": "4269d84def20b51e2a398517cc0eaeca73a2022f22e75374023d09f4fc62a64d",
+      "previous_source_snapshot_hash": "sha256:65eba87b8e7d3281361e4bee50a7c3ff2a5fac7bf5a92da9e0a99a4566d8ce23"
+    },
+    {
+      "movie_id": "TPNS-037",
+      "source_sha256": "cdf8c3e52a5cb470cd7fb08f5fc51355c64d876e724b42fb42e414cbf72d3176",
+      "search_sha256": "767979b2fa3b74ff3e712c85dc39c69481df57c5bf65f3a001231e0fb72aa674",
+      "review_sha256": "59b180f4feaf9e943204eaec380fc8e3a0663921df2d45b40b7ab0a91bcac2af",
+      "previous_source_snapshot_hash": "sha256:2052e268d423921ae6385e6682d2bdffbc623c5f13b651b6e3de84054e053fb2"
+    }
+  ]
+}

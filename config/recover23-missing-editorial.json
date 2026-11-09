@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "source_run_id": 42413107999,
+  "origin_run_id": 41805284692,
+  "origin_artifact_id": 13312462409,
+  "origin_artifact_sha256": "db04fb9818979f4600d9dca4bc735d0a2c5c6744e857f8588c16f0bc15373938",
+  "origin_code_sha": "620c1b5c57aa20ad24452138c140359557c1df5e",
+  "rebuild_code_sha": "1126f8e4292386958c95a7114633b5d83e714204",
+  "created_at": "2026-11-09T02:37:30.914Z",
+  "records": [
+    {
+      "movie_id": "START-617",
+      "source_sha256": "ee2ea47777329b5eebece6deae7d9e7b7dea8c842aadc86968669176fd334523",
+      "original_response_sha256": "3da5061885172278e8cefbd7c9eb5906281254823ab8f8bc0c164aed6a01fde7",
+      "files": {
+        "source": "ee2ea47777329b5eebece6deae7d9e7b7dea8c842aadc86968669176fd334523",
+        "brief": "6c8ebaa714c8151950a3f28a7730c488225b1549efc2f97f3d71b826bb6db30c",
+        "review": "328031c4d13c7e392ebab756a27efd2475fc2225193e88866a36b508b8f908ad",
+        "quality": "915d2290ae1105a8cd283eab68e3fcf2d308131b297aaa0c720fa23217b86330",
+        "search": "675131bc62bc6e356b6946e72c598c230b950b91f4258a8dac9e9e8515dba504",
+        "registry": "640d387d12eb9c8d4c433d67c064ace89a2f6b5bf5645f53b15cb75df0475428",
+        "tags": "d33c0970f537c726ba1affaf07124da30a4f3685dda81c9c7f2ff374ceb680e0",
+        "response": "3da5061885172278e8cefbd7c9eb5906281254823ab8f8bc0c164aed6a01fde7"
+      }
+    },
+    {
+      "movie_id": "START-650",
+      "source_sha256": "4d0aa70b9192324706b6f891452fc81d9a74aea831b47bb8b92a489adb99460b",
+      "original_response_sha256": "9f6c03fb10e6193b7a7a66605ef1d940e24b9ce3d5d097a64f7df40d8912a708",
+      "files": {
+        "source": "4d0aa70b9192324706b6f891452fc81d9a74aea831b47bb8b92a489adb99460b",
+        "brief": "3a438f607060c53fe65faa10ea55f597d3a04c6079b726c0dd81bbe65469c964",
+        "review": "4e53bc02bef8881b78b37205e2e1dfaaacfcb04194a2e99af59fdf166adb5dfc",
+        "quality": "252326ce1d7865632c2bdb2e65fbe4e2ab540504a0af96088cdc32b62f4d5a29",
+        "search": "e6389d7f680a4afb32912a69b977e8780aed861e1f9260ce0aba9bf534263d62",
+        "registry": "2e797408a44aed009b378ad49114ec0e9edd6e4735f9182e6364254c930e7356",
+        "tags": "855a76ee4ddfc4b2b9d1cdd1f6ee57388c0a09322f450b3634e718670027dd15",
+        "response": "9f6c03fb10e6193b7a7a66605ef1d940e24b9ce3d5d097a64f7df40d8912a708"
+      }
+    }
+  ]
+}
