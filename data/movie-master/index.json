@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-09T03:34:29.065Z",
+  "generated_at": "2026-11-09T03:38:22.831Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 523,
-  "formal_movie_count": 522,
+  "tracked_input_count": 524,
+  "formal_movie_count": 523,
   "demo_count": 1,
-  "published_count": 519,
+  "published_count": 520,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -1331,6 +1331,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "3442e9558da59030d2d693409d10a853b45483917ea3a109bab98cec3da1ae89"
+    },
+    {
+      "stable_movie_id": "cc18:FTKD-041",
+      "catalog_code": "FTKD-041",
+      "slug": "ftkd-041",
+      "master_path": "data/movie-master/ftkd-041.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "ce30230cb5fe9d7a228b6dbc3ca8a6f9c16396ff0752f193079001a1acf98f14"
     },
     {
       "stable_movie_id": "cc18:FTKD-045",

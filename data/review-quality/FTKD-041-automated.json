@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "id": "FTKD-041",
+  "checked_at": "2026-11-09T03:37:42.169Z",
+  "review_sha256": "1ff94d3d28640744f2b12943a7e0e1e56ddd3c7f9ca991323e641e931089c3ed",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "sitewide_reused_sentences",
+    "insufficient_sections",
+    "insufficient_evidence",
+    "missing_creative_reconstruction_audit"
+  ],
+  "findings": [
+    {
+      "code": "sitewide_reused_sentences",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "SITEWIDE_ORIGINALITY_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 1,
+    "evidence_items": 4,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

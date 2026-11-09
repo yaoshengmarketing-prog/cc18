@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "FTKD-041",
+  "review_sha256": "1ff94d3d28640744f2b12943a7e0e1e56ddd3c7f9ca991323e641e931089c3ed",
+  "selected_thesis": "來源資料可確認本作以「真人化】我,還喜歡著你喔」作為主要作品線索。",
+  "title_basis": {
+    "performer": "糸井瑠花",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "糸井瑠花",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "真人化】我,還喜歡著你喔",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "720p",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "糸井瑠花",
+    "presentation_feature": "真人化】我,還喜歡著你喔",
+    "editorial_judgment": "來源資料可確認本作以「真人化】我,還喜歡著你喔」作為主要作品線索。",
+    "source_keywords": [
+      "糸井瑠花",
+      "真人化】我,還喜歡著你喔",
+      "高畫質",
+      "720p"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：糸井瑠花",
+      "supports": "這項可追溯來源訊號支持文章以「糸井瑠花」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：真人化】我,還喜歡著你喔",
+      "supports": "這項可追溯來源訊號支持文章以「真人化】我,還喜歡著你喔」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

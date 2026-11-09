@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:f63065db35a8a087f0ae528b54850b5455032ffdc161663275c1a09871cdc051",
-  "source_generated_at": "2026-11-09T03:34:29.065Z",
+  "source_revision": "sha256:a7328bd4de5ad5cf6ad7dda589c515faa633a85f4813c3a66740da002dd6348b",
+  "source_generated_at": "2026-11-09T03:38:22.831Z",
   "counts": {
-    "movies": 519,
+    "movies": 520,
     "performers": 367,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -1471,6 +1471,7 @@
         "cc18:BAGR-092",
         "cc18:CEMD-889",
         "cc18:DRPT-124",
+        "cc18:FTKD-041",
         "cc18:MMPB-144",
         "cc18:NOSKN-104",
         "cc18:UMD-1019"
@@ -28231,6 +28232,35 @@
         "article_title": "START-621 新川空｜いいなり温泉旅行",
         "display_short_title": null,
         "slug": "start-621"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:FTKD-041",
+        "source_cover": "https://cc18.tv/preview/80/b/kJYkOsviMbw-800.jpg?v=1787776722",
+        "title": "FTKD-041 糸井瑠花｜真人化】我,還喜歡著你喔",
+        "catalog_code": "FTKD-041",
+        "release_date": "2026-08-24",
+        "performers": [
+          "糸井瑠花"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ftkd-041/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:41229"
+      ],
+      "search": {
+        "source_title": "【真人化】我,還喜歡著你喔。～曾經甩掉的同級生變成清新爆乳寫真偶像,誘惑已有女友的我,逆NTR偷情性交～",
+        "article_title": "FTKD-041 糸井瑠花｜真人化】我,還喜歡著你喔",
+        "display_short_title": null,
+        "slug": "ftkd-041"
       }
     },
     {
