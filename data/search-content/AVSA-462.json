@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "movie_id": "AVSA-462",
+  "generated_at": "2026-11-09T03:42:27.702Z",
+  "source_snapshot_hash": "sha256:484804cf08b7e46a5bb55909a4729a5244b40dc5349a8342293cb0419fac4835",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想按襪款選片，AVSA-462 明確主打高筒襪。想先看人物處境，JJDA-083 的簡介交代了青年返鄉與大嫂迎接的開場。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以高筒襪為共同主題，預告四種情境。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想看波多野結衣演出，且偏好高筒襪題材的讀者。",
+      "想從公開簡介辨認服裝企劃重點的讀者。"
+    ],
+    "not_for": [
+      "把褲襪當作首要選片條件的讀者。",
+      "需要先知道角色關係如何發展，才決定是否選片的讀者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "NNOD-002",
+      "relation_type": "same_performer",
+      "reason": "同樣由波多野結衣出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "波多野結衣"
+      ],
+      "contrast_signals": [
+        "別說要辭職了",
+        "高畫質"
+      ]
+    },
+    {
+      "movie_id": "MKON-149",
+      "relation_type": "same_performer",
+      "reason": "同樣由波多野結衣出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "波多野結衣"
+      ],
+      "contrast_signals": [
+        "AV女優 ○○とは",
+        "AV女優 ○○とは？"
+      ]
+    },
+    {
+      "movie_id": "JJDA-083",
+      "relation_type": "same_performer",
+      "reason": "同樣由波多野結衣出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "波多野結衣"
+      ],
+      "contrast_signals": [
+        "故鄉的大嫂",
+        "人妻・主婦"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "簡介主打哪一種襪款？",
+    "簡介預告幾種情境？",
+    "同樣由波多野結衣演出的 JJDA-083 提供了什麼不同的選片線索？"
+  ]
+}

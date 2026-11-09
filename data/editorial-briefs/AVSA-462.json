@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "id": "AVSA-462",
+  "generated_at": "2026-11-09T03:42:26.448Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/AVSA-462.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "発情ハイソックス",
+    "premise": "作品以「発情ハイソックス」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「発情ハイソックス」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "発情ハイソックス",
+      "理智動搖的發情高筒襪",
+      "波多野結衣",
+      "肉感"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由波多野結衣演出，AVSA-462 的四種高筒襪情境與 JJDA-083 的返鄉故事，各自給了讀者什麼選片線索？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=1aSOjX3XY4u&cat=19",
+      "supports": "CC18 作品資料快照列出波多野結衣為演出者。公開簡介區分高筒襪與褲襪，並以四種情境介紹高筒襪主題。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=lRTfLVkKk3B&cat=19",
+      "supports": "CC18 關聯作品資料確認同樣由波多野結衣演出。公開簡介以青年演員夢碎返鄉、大嫂迎接，以及青年因城裡的傳聞而感到愧疚為開場。"
+    }
+  ],
+  "angle_candidates": [
+    "從高筒襪與褲襪的區別，理解本作把服裝主題定得多具體。",
+    "比較高筒襪的四種情境與返鄉青年面對大嫂的故事開場，分辨兩作各自的選片理由。",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "AVSA-462 用四種情境突出同一款服裝，JJDA-083 則從返鄉青年的處境和大嫂的迎接建立人物關係。兩份簡介分別提供服裝偏好與故事前提兩種選片依據。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "波多野結衣",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "発情ハイソックス",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "波多野結衣的高筒襪企劃",
+  "display_short_title": "高筒襪四種情境",
+  "title": "同樣由波多野結衣演出，高筒襪與返鄉故事各怎麼選？",
+  "seo_title": "AVSA-462 波多野結衣的高筒襪企劃｜四種情境與同演員作品比較",
+  "social_title": "從高筒襪到返鄉故事，波多野結衣兩部作品的選片線索",
+  "short_review": "AVSA-462 的簡介把高筒襪和褲襪分開，並用四種情境介紹同一款服裝。若你是為了特定襪款找片，這份簡介給的線索很明確。若你想先知道角色為何相遇、彼此有什麼心結，同樣由波多野結衣演出的 JJDA-083 交代了返鄉與大嫂迎接的故事開場。",
+  "editorial_angle": "從兩份作品簡介的具體設定出發，區分以服裝偏好選片與以人物關係選片。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "AVSA-462 的簡介特別區分高筒襪與褲襪，並列出四種情境。",
+      "supports": "本作的宣傳主題聚焦於特定襪款，情境變化是簡介明示的賣點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "JJDA-083 同樣由波多野結衣演出，簡介從青年夢碎返鄉、受到大嫂迎接寫起。",
+      "supports": "JJDA-083 提供具體的人物關係與開場處境，可與 AVSA-462 的服裝主題形成選片對照。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "四種情境的具體內容、順序與片長分配。",
+    "兩作的實際敘事密度、節奏、鏡位、聲音、台詞與表演品質。",
+    "日文作品原題及演員個人偏好。"
+  ],
+  "decision_guide": {
+    "thesis": "想按襪款選片，AVSA-462 明確主打高筒襪。想先看人物處境，JJDA-083 的簡介交代了青年返鄉與大嫂迎接的開場。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以高筒襪為共同主題，預告四種情境。"
+    ],
+    "audience_for": [
+      "想看波多野結衣演出，且偏好高筒襪題材的讀者。",
+      "想從公開簡介辨認服裝企劃重點的讀者。"
+    ],
+    "audience_not_for": [
+      "把褲襪當作首要選片條件的讀者。",
+      "需要先知道角色關係如何發展，才決定是否選片的讀者。"
+    ],
+    "questions_answered": [
+      "簡介主打哪一種襪款？",
+      "簡介預告幾種情境？",
+      "同樣由波多野結衣演出的 JJDA-083 提供了什麼不同的選片線索？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "四種情境，共用一個服裝主題",
+      "body": "AVSA-462 的簡介特別把高筒襪和褲襪分開，再用四種情境介紹這個主題。這個區別對選片很實際。若你對襪款有明確偏好，光看「美腿」標籤還得再猜一步，這份簡介已經把主打的款式交代清楚。"
+    },
+    {
+      "heading": "從襪款挑片，或從人物處境挑片",
+      "body": "同樣由波多野結衣演出的 JJDA-083，從一名青年放棄演員夢、回到老家寫起。大嫂熱情迎接他，還提起村裡的人以為他已在城裡成名，讓他對自己的處境更感愧疚。這段開場讓讀者知道兩人相見時各自掌握什麼資訊。若你選片時先看角色之間有什麼心結，JJDA-083 的簡介給了具體起點。若你找的是高筒襪主題，AVSA-462 一開始就交代了款式和情境數。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據題附的 [AVSA-462 作品資料快照](https://cc18.tv/player.php?uuid=1aSOjX3XY4u&cat=19) 與 [JJDA-083 關聯作品資料快照](https://cc18.tv/player.php?uuid=lRTfLVkKk3B&cat=19)。本次查找未取得可核對的官方頁面全文。比較限於兩份簡介及演出者關係，未抽樣影片。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "484804cf08b7e46a5bb55909a4729a5244b40dc5349a8342293cb0419fac4835",
+    "response_sha256": "ad7599f7085e8bcc5b9e6edfd09ff82fe99e26c6c11f7d8866637a3761d6aec0",
+    "research_input_sha256": "96813b4f958342ccbae10e32467e9a1f6a3b311e0702488d1c0ca0c4c078e0ff",
+    "related_source_ids": [
+      "NGOD-361",
+      "JJDA-083",
+      "MKON-149",
+      "NNOD-002"
+    ]
+  }
+}

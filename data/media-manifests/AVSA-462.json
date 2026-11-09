@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "AVSA-462",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-09T03:49:05.836Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/AVSA-462/hero-v1.jpg",
+      "r2_key": "works/2026/10/AVSA-462/hero-v1.jpg",
+      "bytes": 738419,
+      "sha256": "26d1f725ed3cd9938f2c49422e2d8d123c4856a34ce4bf44027b5fcc5956590a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "9de5657ec82b4694b21e8af5dc056117",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/AVSA-462/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/AVSA-462/scene-vertical-v1.jpg",
+      "bytes": 1472643,
+      "sha256": "e0dbcf8450c2c195ab8cb9a62b35702d19a29a679a54fbc62a9e765443c2289f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "7cc91a6e7b7a445697f5ca59dbbca71c",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3029583,
+    "sha256": "8b0c899de83c0d39124d4f581a10e8354b3b4caf65941cd02d90469350fc87de",
+    "target_r2_key": "works/2026/10/AVSA-462/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/AVSA-462/vertical-v1.mp4"
+  }
+}
