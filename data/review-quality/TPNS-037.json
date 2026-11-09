@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "TPNS-037",
-  "review_sha256": "d360bb5e26ede735e295af35e3d32cee3f15aa57b82f6cef90c625c587398549",
+  "review_sha256": "59b180f4feaf9e943204eaec380fc8e3a0663921df2d45b40b7ab0a91bcac2af",
   "selected_thesis": "本作最值得看的不是單一刺激點，而是「變性人」這個企劃核心如何透過辣妹風格與角色扮演被層層展示：前段先建立觀看者對外型與互動方式的認知，後段再把節奏、主導感與群體參與推高，讓作品從單純展示轉成有階段感的進場過程。",
   "title_basis": {
     "performer": null,
@@ -98,5 +98,8 @@
   ],
   "scores": null,
   "rewrite_attempts": 0,
-  "approved_for_publish": false
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
 }

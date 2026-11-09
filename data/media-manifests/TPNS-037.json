@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "TPNS-037",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-09T03:59:50.980Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/TPNS-037/hero-v1.jpg",
+      "r2_key": "works/2026/08/TPNS-037/hero-v1.jpg",
+      "bytes": 1131059,
+      "sha256": "2a97f95ddde880dd278ba59cd3379062fce9abea1f9067824df45357d9d05c2a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 角色扮演, 辣妹, 變性人. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fiction",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/TPNS-037/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/08/TPNS-037/scene-vertical-v1.jpg",
+      "bytes": 1250438,
+      "sha256": "8ee858504453b56fab089f23d6a7f07a363f90e758fa146b9956431bd25bbf75",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 角色扮演, 辣妹, 變性人. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fiction",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3405280,
+    "sha256": "10cb9ac86c692dca5b47303ac781ad1aadfea8185b80538264b6d398cb384f24",
+    "target_r2_key": "works/2026/08/TPNS-037/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/TPNS-037/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

@@ -12,12 +12,14 @@ titleVersion: 1
 actress:
   []
 releaseDate: 2026-08-22
-publishedAt: 2026-08-28
+publishedAt: 2026-09-06
 studio: "全日本カメコ協同組合/妄想族"
 series: ""
 sourceUrl: https://cc18.tv/player.php?uuid=mqRp2Icya&cat=19
 sourceSite: cc18.tv
 coverUrl: https://cc18.tv/preview/80/b/mqRp2Icya-800.jpg?v=1787560839
+heroUrl: /media/works/2026/08/TPNS-037/hero-v1.jpg
+videoUrl: /media/works/2026/08/TPNS-037/vertical-v1.mp4
 shortReview: "TPNS-037 這類作品最怕的，就是把所有注意力都放在表面刺激，結果真正該成立的企劃核心反而模糊掉。但本作相對清楚的一點，是它沒有把「變性人」當成背景標籤，而是把這個身分設定直接放在觀看結構正中央，再用角色扮演與辣妹風格替它搭建入口。你不是單純在看一個造型誇張的展示，而是在看一個企劃如何利用外觀、互動與節奏，把題材本身一步步推到前景。"
 editorialAngle: "以變性人作為不可替代的企劃核心，分析本作如何藉由角色扮演與辣妹風格建立第一眼吸引力，再透過互動節奏的升溫，把展示型作品做出層次。"
 sourceTags:
@@ -44,8 +46,9 @@ editorialTagIds:
   - contrast-charm
   - character-awakening
   - agency-shift
-status: draft
-videoStatus: pending
+status: published
+imageStatus: rendered
+videoStatus: rendered
 featured: false
 ---
 
