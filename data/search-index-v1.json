@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:04bd28f645e231df450389805b3de26fbd6dc4e10208e565a873b69e69953f68",
-  "source_generated_at": "2026-11-09T03:22:08.984Z",
+  "source_revision": "sha256:887fe3e286c711418346b5453ad5222b93b82e190adf84746c4978b95a98ba38",
+  "source_generated_at": "2026-11-09T03:26:19.177Z",
   "counts": {
-    "movies": 516,
+    "movies": 517,
     "performers": 366,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -780,7 +780,8 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MKMP-758",
-        "cc18:NLD-034"
+        "cc18:NLD-034",
+        "cc18:PRIAN-058"
       ]
     },
     {
@@ -27905,6 +27906,47 @@
         "article_title": "PRIAN-054 羽月乃蒼｜南國自然中的I罩杯全裸寫真",
         "display_short_title": "羽月乃蒼的南國I罩杯寫真",
         "slug": "prian-054"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:PRIAN-058",
+        "source_cover": "https://cc18.tv/preview/80/b/iJnzRdOof3b-800.jpg?v=1787776717",
+        "title": "PRIAN-058 月野かすみ｜月野霞/夏霞",
+        "catalog_code": "PRIAN-058",
+        "release_date": "2026-08-25",
+        "performers": [
+          "月野かすみ"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "image-video",
+            "label": "印象寫真"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/prian-058/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:25568"
+      ],
+      "search": {
+        "source_title": "月野霞/夏霞",
+        "article_title": "PRIAN-058 月野かすみ｜月野霞/夏霞",
+        "display_short_title": null,
+        "slug": "prian-058"
       }
     },
     {

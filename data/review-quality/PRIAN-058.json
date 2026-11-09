@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "PRIAN-058",
+  "review_sha256": "3cc4e4a19b2784ed5c14cf938b761c9bc0a6983b6dd6b08b4e4224c37fbc15da",
+  "selected_thesis": "來源資料可確認本作以「月野霞/夏霞」作為主要作品線索。",
+  "title_basis": {
+    "performer": "月野かすみ",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "月野かすみ",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "月野霞/夏霞",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "月野かすみ",
+    "presentation_feature": "月野霞/夏霞",
+    "editorial_judgment": "來源資料可確認本作以「月野霞/夏霞」作為主要作品線索。",
+    "source_keywords": [
+      "月野かすみ",
+      "月野霞/夏霞",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：月野かすみ",
+      "supports": "這項可追溯來源訊號支持文章以「月野かすみ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：月野霞/夏霞",
+      "supports": "這項可追溯來源訊號支持文章以「月野霞/夏霞」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：印象寫真",
+      "supports": "這項可追溯來源訊號支持文章以「印象寫真」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：HD",
+      "supports": "這項可追溯來源訊號支持文章以「HD」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

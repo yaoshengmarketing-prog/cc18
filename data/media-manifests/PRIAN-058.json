@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "PRIAN-058",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-09T03:25:40.380Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/PRIAN-058/hero-v1.jpg",
+      "r2_key": "works/2026/08/PRIAN-058/hero-v1.jpg",
+      "bytes": 757036,
+      "sha256": "911701a8dafc3d0af87fa04ab9a064e58f2dcfd370e35ac759f918c48f2b8888",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/PRIAN-058/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/08/PRIAN-058/scene-vertical-v1.jpg",
+      "bytes": 923157,
+      "sha256": "c9c0dbbad625bbfaee12394178703fa4a3d00d954e7d372bcb0b2616b77d45d1",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2898547,
+    "sha256": "5298b52be46486f74e74394ab35560bfb6e4b51ac3bce3bd50e456f65dbf8650",
+    "target_r2_key": "works/2026/08/PRIAN-058/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/PRIAN-058/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
