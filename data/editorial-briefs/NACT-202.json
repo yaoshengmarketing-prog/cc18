@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "id": "NACT-202",
+  "generated_at": "2026-11-09T11:40:38.590Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/NACT-202.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "其實",
+    "premise": "作品以「其實」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「其實」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "其實",
+      "朝妃りお",
+      "自慰"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "戲劇、連續劇",
+      "720p",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由朝日莉緒演出，NACT-202 的假結婚和 MXGS-1446 的出差同房，各用什麼設定讓角色難以維持界線？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=EhI6WylYqdE&cat=19",
+      "supports": "已核對的作品資料記載，兩人為了讓父母安心而假結婚，私下約定不碰觸。簡介把丈夫無視妻子援引約定的拒絕，寫成關係的轉折。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=B172fWPMdu&cat=19",
+      "supports": "已核對的作品資料確認兩部由同一位演員演出。這部的簡介以出差為背景，上司拿工作失誤當籌碼，要求部屬聽從。"
+    }
+  ],
+  "angle_candidates": [
+    "對照假結婚的私人約定與出差時的職場權力，說明兩部同演員作品的選片差異。",
+    "從父母面前扮演夫妻、私下約定保持距離的落差，解讀簡介如何安排關係轉折。",
+    "其實的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "兩部同演員作品的差別在於壓力從哪裡來。NACT-202 先讓兩人訂下假結婚的規則，再寫丈夫打破約定。MXGS-1446 則讓上司拿工作失誤施壓，把原有的職場權力帶進出差同房的處境。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "朝日莉緒",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "其實",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "identity",
+      "value": "AV女優片",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "假結婚的冷淡妻子",
+  "display_short_title": "假結婚的冷妻",
+  "title": "假結婚的約定，怎麼成了關係的轉折？",
+  "seo_title": "NACT-202 假結婚的冷淡妻子｜朝日莉緒同演員作品比較",
+  "social_title": "從假結婚到出差同房，朝日莉緒兩部作品的壓力從哪裡來？",
+  "short_review": "本作的假結婚有一條明確的私下約定，兩人要在父母面前扮演夫妻，平時則保持距離。簡介把丈夫無視拒絕寫成轉折。對照同樣由朝日莉緒演出的出差題材，一部圍繞夫妻約定被打破，另一部直接從上司的職權施壓切入。",
+  "editorial_angle": "從角色原本受哪一套規則約束切入，比較假婚姻與職場施壓帶來的不同選片理由。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介交代假結婚是為了讓父母安心，妻子在拒絕時援引不得碰觸的約定。",
+      "supports": "本作先把對外扮演夫妻與私下保持距離分開，再以丈夫打破約定推動轉折。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同樣由朝日莉緒演出的 MXGS-1446，簡介寫到上司以擱置工作失誤為條件，要求部屬在出差時聽從。",
+      "supports": "對照作品的壓力直接來自上下屬的權力差，可以和本作的私人約定作具體比較。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "成片的節奏、情節比重、表演與鏡頭呈現。",
+    "角色渴望親密即可視為對當下行為的同意。",
+    "正式日文原題、共同系列與演員生涯推論。"
+  ],
+  "decision_guide": {
+    "thesis": "看重假夫妻在家人面前與私下的相處落差，可以先看本作的設定。偏好由工作把柄和上下屬權力推動的衝突，MXGS-1446 更貼近這個選片方向。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介先交代假夫妻的相處規則，再以妻子拒絕後丈夫仍越過約定作為轉折。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "假結婚的約定在本作簡介裡如何引出關係轉折？",
+      "同演員的出差題材如何用職場權力建立另一種壓力？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "在父母面前是夫妻，私下有另一套規則",
+      "body": "兩人為了讓父母安心而假結婚。朝日莉緒飾演的妻子答應在父母面前扮演好妻子，私下則按約定保持距離。簡介一方面說她渴望親密，一方面也寫她援引約定、拒絕丈夫碰觸。這兩件事可以同時成立。文案安排的關係轉折，發生在丈夫無視她的拒絕、打破兩人原先訂下的規則時。"
+    },
+    {
+      "heading": "同樣由朝日莉緒演出，出差同房的壓力來自上司",
+      "body": "MXGS-1446 的簡介把工作失誤變成上司手上的籌碼。他以不追究失誤為條件，要求部屬在出差時聽從。本作先讓兩人對外扮演夫妻，再讓私下的約定被打破。若你對假夫妻在家人面前和獨處時的落差有興趣，本作的設定更切題。若你想看的是上司如何利用職權施壓，出差同房這部的衝突更直接。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據兩部作品已核對的公開簡介與演員資料快照，比較的是文案交代的角色設定。未抽樣觀看影片，成片的節奏、情節比重與表演無法由這些材料判斷。[NACT-202 作品頁](https://cc18.tv/player.php?uuid=EhI6WylYqdE&cat=19)、[MXGS-1446 作品頁](https://cc18.tv/player.php?uuid=B172fWPMdu&cat=19)。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "4a1ee2252783efdc6ae63bf3dd9d1886b9f2f51f65caa4fe59e1eacb20996142",
+    "response_sha256": "4f0d735df8ee5e42f796be52b322d62513ded1549d0a18877a9c42dba61962b6",
+    "research_input_sha256": "293d49f653b70081a5b0eaa1d1e96150b9dabf3983e1ca300b0f8411c409f818",
+    "related_source_ids": [
+      "MXGS-1446"
+    ]
+  }
+}

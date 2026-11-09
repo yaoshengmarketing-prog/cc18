@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "movie_id": "NACT-202",
+  "generated_at": "2026-11-09T11:40:39.159Z",
+  "source_snapshot_hash": "sha256:4a1ee2252783efdc6ae63bf3dd9d1886b9f2f51f65caa4fe59e1eacb20996142",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "看重假夫妻在家人面前與私下的相處落差，可以先看本作的設定。偏好由工作把柄和上下屬權力推動的衝突，MXGS-1446 更貼近這個選片方向。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介先交代假夫妻的相處規則，再以妻子拒絕後丈夫仍越過約定作為轉折。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MXGS-1446",
+      "relation_type": "same_performer",
+      "reason": "同樣由朝日莉緒出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "朝日莉緒"
+      ],
+      "contrast_signals": [
+        "出張相部屋",
+        "OL"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "假結婚的約定在本作簡介裡如何引出關係轉折？",
+    "同演員的出差題材如何用職場權力建立另一種壓力？"
+  ]
+}

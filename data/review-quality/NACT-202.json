@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "NACT-202",
+  "review_sha256": "62364a9d9a50bdac9a02d8642cd3405f9e185815818f9d5cc92de8c863760774",
+  "selected_thesis": "兩部同演員作品的差別在於壓力從哪裡來。NACT-202 先讓兩人訂下假結婚的規則，再寫丈夫打破約定。MXGS-1446 則讓上司拿工作失誤施壓，把原有的職場權力帶進出差同房的處境。",
+  "title_basis": {
+    "performer": "朝日莉緒",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "朝日莉緒",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "其實",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "朝日莉緒",
+    "presentation_feature": "其實",
+    "editorial_judgment": "從角色原本受哪一套規則約束切入，比較假婚姻與職場施壓帶來的不同選片理由。",
+    "source_keywords": [
+      "朝日莉緒",
+      "其實",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介交代假結婚是為了讓父母安心，妻子在拒絕時援引不得碰觸的約定。",
+      "supports": "本作先把對外扮演夫妻與私下保持距離分開，再以丈夫打破約定推動轉折。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同樣由朝日莉緒演出的 MXGS-1446，簡介寫到上司以擱置工作失誤為條件，要求部屬在出差時聽從。",
+      "supports": "對照作品的壓力直接來自上下屬的權力差，可以和本作的私人約定作具體比較。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "成片的節奏、情節比重、表演與鏡頭呈現。",
+    "角色渴望親密即可視為對當下行為的同意。",
+    "正式日文原題、共同系列與演員生涯推論。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z"
+}

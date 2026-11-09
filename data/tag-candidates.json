@@ -1298,7 +1298,7 @@
     },
     {
       "label": "背後位",
-      "occurrences": 18,
+      "occurrences": 19,
       "source_ids": [
         "HHF-111",
         "HUNTC-626",
@@ -1317,10 +1317,11 @@
         "NACT-176",
         "NACT-205",
         "DSJH-021",
-        "SODAH-012"
+        "SODAH-012",
+        "NACT-202"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-09",
       "status": "quarantined"
     },
     {
@@ -1401,7 +1402,7 @@
     },
     {
       "label": "自慰",
-      "occurrences": 15,
+      "occurrences": 16,
       "source_ids": [
         "MILK-306",
         "DOKS-690",
@@ -1417,7 +1418,8 @@
         "NACT-176",
         "MADV-643",
         "CEAD-763",
-        "EKDV-831"
+        "EKDV-831",
+        "NACT-202"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-09",
