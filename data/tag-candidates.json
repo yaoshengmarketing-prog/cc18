@@ -521,12 +521,13 @@
     },
     {
       "label": "惡作劇",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "SNOS-345",
         "MUDR-397",
         "SNOS-393",
-        "SNOS-347"
+        "SNOS-347",
+        "DSOD-054"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-11-06",
@@ -914,7 +915,7 @@
     },
     {
       "label": "寝取り・寝取られ・ntr",
-      "occurrences": 65,
+      "occurrences": 66,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -980,7 +981,8 @@
         "HSODA-132",
         "SDMM-238",
         "EKDV-830",
-        "DSOD-069"
+        "DSOD-069",
+        "DSOD-054"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-09",

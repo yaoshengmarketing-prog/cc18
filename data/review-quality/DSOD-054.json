@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-054",
+  "review_sha256": "b6c7ffe2c4357e936bd419f5ebaa454d7067f8da183e078b36985a44f5ca5d5a",
+  "selected_thesis": "來源資料可確認本作以「宮西光」作為主要作品線索。",
+  "title_basis": {
+    "performer": "宮西ひかる",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "宮西ひかる",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "宮西光",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "【ハイレグ無様特化】おほ声肉便器",
+        "source_field": "series"
+      },
+      {
+        "type": "theme",
+        "value": "角色扮演",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "宮西ひかる",
+    "presentation_feature": "宮西光",
+    "editorial_judgment": "來源資料可確認本作以「宮西光」作為主要作品線索。",
+    "source_keywords": [
+      "宮西ひかる",
+      "宮西光",
+      "【ハイレグ無様特化】おほ声肉便器",
+      "角色扮演"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：宮西ひかる",
+      "supports": "這項可追溯來源訊號支持文章以「宮西ひかる」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：【ハイレグ無様特化】おほ声肉便器",
+      "supports": "這項可追溯來源訊號支持文章以「【ハイレグ無様特化】おほ声肉便器」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：角色扮演",
+      "supports": "這項可追溯來源訊號支持文章以「角色扮演」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：宮西光",
+      "supports": "這項可追溯來源訊號支持文章以「宮西光」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "costume：角色扮演",
+      "supports": "這項可追溯來源訊號支持文章以「角色扮演」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

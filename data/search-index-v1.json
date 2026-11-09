@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:f1b56bd16262fc87b4c12cf2d01103c12976b7b802b84a54c542864470db56af",
-  "source_generated_at": "2026-11-09T18:02:37.456Z",
+  "source_revision": "sha256:c9f0cd1d335cd8b2a8191192f0d2a9b4a95ae71b7e38d24ca7ce5348657dfb73",
+  "source_generated_at": "2026-11-09T18:08:43.609Z",
   "counts": {
-    "movies": 545,
+    "movies": 546,
     "performers": 390,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
@@ -2892,12 +2892,13 @@
     },
     {
       "stable_actor_id": "cc18.tv:actor:27054",
-      "display_name": "宮西光",
+      "display_name": "宮西ひかる",
       "display_name_zh_tw": null,
       "name_ja": null,
-      "source_name": "宮西光",
+      "source_name": "宮西ひかる",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:DSOD-054",
         "cc18:MVG-174",
         "cc18:ROYD-349"
       ]
@@ -29788,6 +29789,55 @@
         "article_title": "DSOD-006｜一ノ瀬ラム等四位空服員的多人服務企劃",
         "display_short_title": "四位空服員的多人服務企劃",
         "slug": "dsod-006"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DSOD-054",
+        "source_cover": "https://cc18.tv/preview/80/b/1yW4l6Ogad8-800.jpg?v=1787388059",
+        "title": "DSOD-054 宮西ひかる｜宮西光",
+        "catalog_code": "DSOD-054",
+        "release_date": "2026-08-21",
+        "performers": [
+          "宮西ひかる"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "cosplay",
+            "label": "角色扮演"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dsod-054/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27054"
+      ],
+      "search": {
+        "source_title": "【高衩泳裝無樣特化】為了讓打工處最可愛的惡劣賤女人人生終結,我把她矯正成發出阿嘿聲的肉便器。 宮西光",
+        "article_title": "DSOD-054 宮西ひかる｜宮西光",
+        "display_short_title": null,
+        "slug": "dsod-054"
       }
     },
     {

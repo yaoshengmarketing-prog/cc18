@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-09T18:02:37.456Z",
+  "generated_at": "2026-11-09T18:08:43.609Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 547,
-  "formal_movie_count": 546,
+  "tracked_input_count": 548,
+  "formal_movie_count": 547,
   "demo_count": 1,
-  "published_count": 545,
+  "published_count": 546,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -890,6 +890,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "e201fda3244bd45067f01da272918e4878ae47461696fd955ca0b8111c2fa04f"
+    },
+    {
+      "stable_movie_id": "cc18:DSOD-054",
+      "catalog_code": "DSOD-054",
+      "slug": "dsod-054",
+      "master_path": "data/movie-master/dsod-054.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "1c57a67ee0c01c784f5217d6824f247a23497ad02411c89b6fe3ac3874ad2c28"
     },
     {
       "stable_movie_id": "cc18:DSOD-060",
