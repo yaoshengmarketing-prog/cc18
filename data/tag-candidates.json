@@ -380,7 +380,7 @@
     },
     {
       "label": "泳裝",
-      "occurrences": 17,
+      "occurrences": 18,
       "source_ids": [
         "CMJU-008",
         "FWAY-103",
@@ -398,10 +398,11 @@
         "RT-042",
         "SVVRT-087",
         "GVH-884",
-        "SNOS-290"
+        "SNOS-290",
+        "SNOS-420"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "status": "quarantined"
     },
     {
@@ -1088,7 +1089,7 @@
     },
     {
       "label": "修長",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "SNOS-401",
         "REBD-1065",
@@ -1096,10 +1097,11 @@
         "SNOS-403",
         "MFCL-035",
         "SDJS-386",
-        "SNOS-411"
+        "SNOS-411",
+        "SNOS-420"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-06",
+      "last_seen": "2026-11-09",
       "status": "quarantined"
     },
     {

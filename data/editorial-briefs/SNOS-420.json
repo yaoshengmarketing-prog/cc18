@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-420",
+  "generated_at": "2026-11-09T15:43:51.275Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SNOS-420.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "被男友命令穿學校泳裝上學",
+    "premise": "作品以「被男友命令穿學校泳裝上學」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「被男友命令穿學校泳裝上學」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "被男友命令穿學校泳裝上學",
+      "下品少女",
+      "白上咲花",
+      "泳裝"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "美少女",
+      "學生妹"
+    ],
+    "body": [
+      "窈窕"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由白上咲花演出，SNOS-420 和 SNOS-403 都有校園背景，為什麼兩部作品的選片理由不同？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=quVWHx4cT6M&cat=19",
+      "supports": "作品頁快照列出白上咲花，簡介把男友提出的泳裝要求、電車上的騷擾，以及男友在遠處旁觀串在一起。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=Dv7OGKliu5J&cat=19",
+      "supports": "作品頁快照列出同樣由白上咲花演出，標題與簡介都以課堂、校內和同班同學之間的秘密為設定。"
+    }
+  ],
+  "angle_candidates": [
+    "從電車到教室，比較兩作如何安排誰知道角色的秘密。",
+    "從男友的要求切入，說明學校泳裝如何把感情關係帶進通勤場景。",
+    "學生設定的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "SNOS-420 的簡介用男友的要求和旁觀，把感情壓力帶進公開的通勤場景。SNOS-403 的文案則把秘密留在同班同學之間。兩作的區別在於角色承受的壓力從哪裡來，以及誰被安排看見。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "白上咲花",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "被男友命令穿學校泳裝上學",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "美少女設定",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "setting",
+      "value": "學生設定",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "白上咲花：依男友要求穿學校泳裝上學",
+  "display_short_title": "穿學校泳裝上學",
+  "title": "男友為什麼被安排在遠處旁觀？",
+  "seo_title": "SNOS-420 白上咲花｜男友的要求如何牽動電車設定",
+  "social_title": "從電車到教室，白上咲花兩作怎麼安排誰會看見？",
+  "short_review": "簡介先交代男友要求角色穿學校泳裝上學，再讓他在電車騷擾發生時從遠處旁觀。與同樣由白上咲花演出的 SNOS-403 相比，一部把感情壓力帶到公開場合，另一部把秘密留在同班同學之間。",
+  "editorial_angle": "以同演員作品的場景和人物關係做對照，區分電車上的公開暴露與校內的同儕秘密。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "SNOS-420 的簡介交代男友提出穿學校泳裝上學的要求，並在電車騷擾發生時從遠處旁觀。",
+      "supports": "男友的要求與旁觀共同構成這部作品的感情壓力。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "SNOS-403 的標題與簡介都提到課堂、校內與同班同學之間的秘密。",
+      "supports": "兩作可從公開通勤與校內保密的設定差異來比較。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "兩作屬於同一系列或共享故事背景。",
+    "角色的感受足以證明她同意遭受騷擾。",
+    "SNOS-403 中由誰主動發起親密行為。",
+    "實際鏡位、台詞、聲音、表演、故事密度、節奏與成片品質。"
+  ],
+  "decision_guide": {
+    "thesis": "想分辨兩作，可以先看秘密在哪裡被看見。SNOS-420 把男友的要求帶上電車，SNOS-403 把秘密留在校內同儕之間。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介採角色自述，依序交代男友的要求、通勤時遭遇的騷擾與男友的旁觀。"
+    ],
+    "audience_for": [
+      "想比較白上咲花兩部校園背景作品如何安排場景與人物關係的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "希望避開性騷擾或感情施壓情節的讀者。",
+      "需要先確認實際敘事節奏、影像呈現或表演的讀者。"
+    ],
+    "questions_answered": [
+      "學校泳裝為什麼會出現在通勤場景？",
+      "男友的旁觀如何延續他先前提出的要求？",
+      "兩部同演員作品的場景與人物關係有什麼選片上的差別？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "男友的要求一路跟上電車",
+      "body": "學校泳裝在簡介裡有個明確的來由。男友要求角色穿著它去上學，她因為在意對方而難以拒絕。當電車上的陌生人開始騷擾她，簡介又特地交代男友在遠處看著。這個安排把兩段情節接在一起：先提出要求的人，也親眼看見她因這個要求陷入的處境。"
+    },
+    {
+      "heading": "一部把秘密帶上電車，一部留在教室",
+      "body": "同樣由白上咲花演出的 SNOS-403，把課堂、校內活動和同班同學之間的秘密擺在前面。兩部作品雖然都有校園背景，保密的範圍卻不同。若你在意的是同學如何在日常相處中藏住秘密，SNOS-403 的設定比較貼近這個興趣。SNOS-420 則適合從感情施壓與公開場合的騷擾如何交疊來理解。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據已核對的 CC18 作品頁快照與人物關係資料。SNOS-403 的標題與簡介對親密行為的主動方說法不一，因此比較只採兩者一致的課堂、校內與同班同學設定。官方作品頁未能開啟，本文未使用影片抽樣。[SNOS-420 作品頁](https://cc18.tv/player.php?uuid=quVWHx4cT6M&cat=19)、[SNOS-403 作品頁](https://cc18.tv/player.php?uuid=Dv7OGKliu5J&cat=19)"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "c76c5503e90cf27e988d987a59e75861cd8af4317b5378c1171f45fe81eb8ae7",
+    "response_sha256": "e7e9f979ba7f1f8d2ee22515e5c985220db7d4fa01dc230e3d57f93e141c96eb",
+    "research_input_sha256": "d494f9e14d9c772d7a08c342d75831a02fdee0694a70e4d065e3df656bd0185b",
+    "related_source_ids": [
+      "SNOS-403"
+    ]
+  }
+}

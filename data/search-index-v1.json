@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:86e37a36bb5d57b69d6bf34d1c2c81c5ecbaeb440aabae3455dc792ffb172937",
-  "source_generated_at": "2026-11-09T14:53:30.403Z",
+  "source_revision": "sha256:734a50e25b43a21bd85db27458973feeb73de19491a73b277c5e3f56bc80384f",
+  "source_generated_at": "2026-11-09T15:50:29.875Z",
   "counts": {
-    "movies": 540,
+    "movies": 541,
     "performers": 390,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
@@ -1092,7 +1092,8 @@
       "source_name": "白上咲花",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:SNOS-403"
+        "cc18:SNOS-403",
+        "cc18:SNOS-420"
       ]
     },
     {
@@ -8847,6 +8848,59 @@
         "article_title": "從打工同事到家庭教師，關係設定換了重心",
         "display_short_title": "家庭教師與三天獨處",
         "slug": "snos-416"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-420",
+        "source_cover": "https://cc18.tv/preview/80/b/quVWHx4cT6M-800.jpg?v=1793115113",
+        "title": "穿學校泳裝上學",
+        "catalog_code": "SNOS-420",
+        "release_date": "2026-10-23",
+        "performers": [
+          "白上咲花"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "student",
+            "label": "學生妹"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-420/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:29380"
+      ],
+      "search": {
+        "source_title": "被男友命令穿學校泳裝上學… 遭到痴漢,被喜歡的人看見,忍不住有感覺… 下品少女 白上咲花",
+        "article_title": "男友為什麼被安排在遠處旁觀？",
+        "display_short_title": "穿學校泳裝上學",
+        "slug": "snos-420"
       }
     },
     {

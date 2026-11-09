@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-420",
+  "generated_at": "2026-11-09T15:43:51.824Z",
+  "source_snapshot_hash": "sha256:c76c5503e90cf27e988d987a59e75861cd8af4317b5378c1171f45fe81eb8ae7",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想分辨兩作，可以先看秘密在哪裡被看見。SNOS-420 把男友的要求帶上電車，SNOS-403 把秘密留在校內同儕之間。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介採角色自述，依序交代男友的要求、通勤時遭遇的騷擾與男友的旁觀。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想比較白上咲花兩部校園背景作品如何安排場景與人物關係的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "希望避開性騷擾或感情施壓情節的讀者。",
+      "需要先確認實際敘事節奏、影像呈現或表演的讀者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SNOS-403",
+      "relation_type": "same_performer",
+      "reason": "同樣由白上咲花出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "白上咲花"
+      ],
+      "contrast_signals": [
+        "美少女設定",
+        "學生設定"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "學校泳裝為什麼會出現在通勤場景？",
+    "男友的旁觀如何延續他先前提出的要求？",
+    "兩部同演員作品的場景與人物關係有什麼選片上的差別？"
+  ]
+}

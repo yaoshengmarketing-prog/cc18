@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-420",
+  "review_sha256": "d9951d355b41c3f7283232338aa2753e974a21ec13b17dbcc9f3e2712e3902d8",
+  "selected_thesis": "SNOS-420 的簡介用男友的要求和旁觀，把感情壓力帶進公開的通勤場景。SNOS-403 的文案則把秘密留在同班同學之間。兩作的區別在於角色承受的壓力從哪裡來，以及誰被安排看見。",
+  "title_basis": {
+    "performer": "白上咲花",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "白上咲花",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "被男友命令穿學校泳裝上學",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "setting",
+        "value": "學生設定",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "白上咲花",
+    "presentation_feature": "被男友命令穿學校泳裝上學",
+    "editorial_judgment": "以同演員作品的場景和人物關係做對照，區分電車上的公開暴露與校內的同儕秘密。",
+    "source_keywords": [
+      "白上咲花",
+      "被男友命令穿學校泳裝上學",
+      "美少女設定",
+      "學生設定"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "SNOS-420 的簡介交代男友提出穿學校泳裝上學的要求，並在電車騷擾發生時從遠處旁觀。",
+      "supports": "男友的要求與旁觀共同構成這部作品的感情壓力。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "SNOS-403 的標題與簡介都提到課堂、校內與同班同學之間的秘密。",
+      "supports": "兩作可從公開通勤與校內保密的設定差異來比較。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "兩作屬於同一系列或共享故事背景。",
+    "角色的感受足以證明她同意遭受騷擾。",
+    "SNOS-403 中由誰主動發起親密行為。",
+    "實際鏡位、台詞、聲音、表演、故事密度、節奏與成片品質。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z"
+}
