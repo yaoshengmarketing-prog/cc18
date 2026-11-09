@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-09T18:08:43.609Z",
+  "generated_at": "2026-11-09T18:13:59.743Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 548,
-  "formal_movie_count": 547,
+  "tracked_input_count": 549,
+  "formal_movie_count": 548,
   "demo_count": 1,
-  "published_count": 546,
+  "published_count": 547,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -3671,6 +3671,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "2febc2e6fb704a20936bf035715e098c5a05bb2aaabf394bae8a390242b2bbd5"
+    },
+    {
+      "stable_movie_id": "cc18:ROE-541",
+      "catalog_code": "ROE-541",
+      "slug": "roe-541",
+      "master_path": "data/movie-master/roe-541.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "9388d781032ab8a583dfd12a458fddc8af3be52887655a45de5fd9ea6ab110e0"
     },
     {
       "stable_movie_id": "cc18:ROYD-348",

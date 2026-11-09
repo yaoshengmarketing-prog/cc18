@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "ROE-541",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-09T18:13:17.660Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/ROE-541/hero-v1.jpg",
+      "r2_key": "works/2026/08/ROE-541/hero-v1.jpg",
+      "bytes": 683410,
+      "sha256": "3e279d97571f1ee6849e9091cfa127dd855f6ba89e416e297bc484f156e391c3",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/ROE-541/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/08/ROE-541/scene-vertical-v1.jpg",
+      "bytes": 706345,
+      "sha256": "aaac99b770f9d50ac3a595bcf36426763d1c9977cec67791df238f9e6c745298",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2125143,
+    "sha256": "41a97c83caf9717820254554294a91fbec847a0d2777f3edd9bd9778a2458af7",
+    "target_r2_key": "works/2026/08/ROE-541/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/ROE-541/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

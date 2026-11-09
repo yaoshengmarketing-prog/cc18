@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "ROE-541",
+  "review_sha256": "2863b15117a3947d8fd39b926d1cf1987a45e4b0510ea1c1a517ce5a33196d0f",
+  "selected_thesis": "來源資料可確認本作以「下班後那毫無防備」作為主要作品線索。",
+  "title_basis": {
+    "performer": "一色桃子",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "一色桃子",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "下班後那毫無防備",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "出張で泊まりに来た叔母と同居生活 無防備すぎる仕事終わり蒸れ",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "一色桃子",
+    "presentation_feature": "下班後那毫無防備",
+    "editorial_judgment": "來源資料可確認本作以「下班後那毫無防備」作為主要作品線索。",
+    "source_keywords": [
+      "一色桃子",
+      "下班後那毫無防備",
+      "出張で泊まりに来た叔母と同居生活 無防備すぎる仕事終わり蒸れ",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：一色桃子",
+      "supports": "這項可追溯來源訊號支持文章以「一色桃子」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：出張で泊まりに来た叔母と同居生活 無防備すぎる仕事終わり蒸れ",
+      "supports": "這項可追溯來源訊號支持文章以「出張で泊まりに来た叔母と同居生活 無防備すぎる仕事終わり蒸れ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：下班後那毫無防備",
+      "supports": "這項可追溯來源訊號支持文章以「下班後那毫無防備」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻・主婦",
+      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：美尻",
+      "supports": "這項可追溯來源訊號支持文章以「美尻」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

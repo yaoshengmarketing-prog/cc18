@@ -1142,7 +1142,7 @@
     },
     {
       "label": "熟女",
-      "occurrences": 23,
+      "occurrences": 24,
       "source_ids": [
         "JUR-862",
         "JUR-850",
@@ -1166,7 +1166,8 @@
         "DLDSS-538",
         "DLDSS-537",
         "DLDSS-562",
-        "CNSTV-044"
+        "CNSTV-044",
+        "ROE-541"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-08",
@@ -2051,7 +2052,7 @@
     },
     {
       "label": "パンスト・タイツ",
-      "occurrences": 10,
+      "occurrences": 11,
       "source_ids": [
         "CLOT-043",
         "PTS-555",
@@ -2062,9 +2063,10 @@
         "ADN-814",
         "ATID-707",
         "DSJH-021",
-        "DOKS-693"
+        "DOKS-693",
+        "ROE-541"
       ],
-      "first_seen": "2026-09-08",
+      "first_seen": "2026-09-07",
       "last_seen": "2026-11-07",
       "status": "quarantined"
     },
@@ -3402,6 +3404,16 @@
       ],
       "first_seen": "2026-11-09",
       "last_seen": "2026-11-09",
+      "status": "quarantined"
+    },
+    {
+      "label": "叔母さん",
+      "occurrences": 1,
+      "source_ids": [
+        "ROE-541"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
       "status": "quarantined"
     }
   ]

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:c9f0cd1d335cd8b2a8191192f0d2a9b4a95ae71b7e38d24ca7ce5348657dfb73",
-  "source_generated_at": "2026-11-09T18:08:43.609Z",
+  "source_revision": "sha256:5f8267639e8f82099a8c1d717be445992304e40df1ec02d4d7171aa6b0496574",
+  "source_generated_at": "2026-11-09T18:13:59.743Z",
   "counts": {
-    "movies": 546,
-    "performers": 390,
+    "movies": 547,
+    "performers": 391,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -23,6 +23,17 @@
         "cc18:DSJH-021",
         "cc18:MBMH-097",
         "cc18:SORA-654"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:15112",
+      "display_name": "一色桃子",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "一色桃子",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:ROE-541"
       ]
     },
     {
@@ -30022,6 +30033,55 @@
         "article_title": "HUNTC-568｜出差同房、冷氣故障與同年進公司的女同事酒後反差",
         "display_short_title": "出差同房與女同事的酒後反差",
         "slug": "huntc-568"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:ROE-541",
+        "source_cover": "https://cc18.tv/preview/80/b/8_3weGO_39-800.jpg?v=1787344862",
+        "title": "ROE-541 一色桃子｜下班後那毫無防備",
+        "catalog_code": "ROE-541",
+        "release_date": "2026-08-21",
+        "performers": [
+          "一色桃子"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-butt",
+            "label": "美尻"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/roe-541/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:15112"
+      ],
+      "search": {
+        "source_title": "與出差來借住的姑姑同居生活，下班後那毫無防備、悶熱肉感的褲襪姿態讓我的理性徹底崩潰…。 一色桃子",
+        "article_title": "ROE-541 一色桃子｜下班後那毫無防備",
+        "display_short_title": null,
+        "slug": "roe-541"
       }
     },
     {
