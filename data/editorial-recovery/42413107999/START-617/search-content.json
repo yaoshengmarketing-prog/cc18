@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "movie_id": "START-617",
+  "generated_at": "2026-11-09T02:32:18.708Z",
+  "source_snapshot_hash": "sha256:ee2ea47777329b5eebece6deae7d9e7b7dea8c842aadc86968669176fd334523",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "如果你是因為小笠原菜乃而找片，這部最值得看的理由不是複雜設定，而是她被直接放進「射精無限大○カップソープ」這種高辨識度企劃裡；公開線索顯示它主打的是巨乳、貼身侍奉與中出標籤所形成的直球展示感。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "系列企劃導向",
+      "演員展示優先",
+      "以身體條件與核心概念吸引選片"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會以演員與系列概念做選片的人",
+      "偏好巨乳主題的觀眾",
+      "想找企劃明確、賣點直接的系列作觀眾"
+    ],
+    "not_for": [
+      "想先看完整人物關係鋪陳的人",
+      "在意明確劇情前提與轉折的人",
+      "希望先確認具體場景設計後再決定的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片最明確的賣點是什麼？",
+    "小笠原菜乃在這個企劃裡的吸引力如何被放大？",
+    "這部更適合當劇情片看，還是當系列展示作看？",
+    "目前哪些期待可以成立，哪些仍然不能先預設？"
+  ]
+}

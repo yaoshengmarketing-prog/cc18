@@ -3,6 +3,8 @@ import {readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {queueStoreFromEnvironment} from '../queue/store.mjs';
 import {approveAfterAutomatedQa, assertFreshAutomatedQa} from './lib/approval.mjs';
+import {RECOVERY_MOVIE_IDS, recoverReviewedSourceBinding} from './lib/recover23-source-binding.mjs';
+import {isMissingEditorialRecoveryMovie, recoverMissingEditorial} from './lib/recover-missing-editorial.mjs';
 
 const movieId = process.argv[2]?.trim().toUpperCase();
 if (!/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId ?? '')) {
@@ -13,6 +15,25 @@ const root = resolve(import.meta.dirname, '..', '..');
 const store = queueStoreFromEnvironment({mode: 'd1'});
 const job = await store.findJob({movieId, stage: 'editorial'});
 if (job?.status !== 'completed') throw new Error(`${movieId}: editorial D1 job is not completed`);
+
+if (isMissingEditorialRecoveryMovie(movieId)) {
+  let currentSourceText;
+  try {
+    await readFile(resolve(root, 'content/reviews', `${movieId}.md`), 'utf8');
+  } catch (error) {
+    if (error?.code !== 'ENOENT') throw error;
+    const movie = await store.getMovie(movieId);
+    if (typeof movie?.source_json !== 'string') throw new Error(`${movieId}: no D1 source snapshot for reviewed recovery`);
+    currentSourceText = `${JSON.stringify(JSON.parse(movie.source_json), null, 2)}\n`;
+  }
+  const recovery = await recoverMissingEditorial({root, movieId, currentSourceText});
+  if (recovery.restored) console.log(JSON.stringify({event: 'preserved_editorial_restored', ...recovery}));
+}
+if (RECOVERY_MOVIE_IDS.includes(movieId)) {
+  const manifest = JSON.parse(await readFile(resolve(root, 'config/recover23-source-bindings.json'), 'utf8'));
+  const recovery = await recoverReviewedSourceBinding({root, movieId, manifest});
+  if (recovery.changed) console.log(JSON.stringify({event: 'reviewed_source_binding_recovered', ...recovery}));
+}
 
 const run = (script, args) => new Promise((resolveRun, rejectRun) => {
   const child = spawn(process.execPath, [resolve(root, script), ...args], {cwd: root, env: process.env, stdio: 'inherit'});
