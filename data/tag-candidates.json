@@ -2844,14 +2844,15 @@
     },
     {
       "label": "校園物語",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "DSOD-093",
         "DSOD-094",
-        "DSOD-061"
+        "DSOD-061",
+        "HMN-905"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-06",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     },
     {

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "HMN-905",
+  "review_sha256": "3623833eed04ee508de9179937f754349534c433965ed8fc84014b8f01e21583",
+  "selected_thesis": "HMN-905 先交代轉校生從哪裡來，再用她與新環境的習慣落差引出同學的反應。WAAA-706 則以專屬企劃和演出強度招徠讀者。兩份簡介給了追同一位演員的讀者不同的選片線索。",
+  "title_basis": {
+    "performer": "倉本蓳",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "倉本蓳",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "全裸轉校生",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "倉本蓳",
+    "presentation_feature": "全裸轉校生",
+    "editorial_judgment": "從兩份公開簡介的開場切入，比較它們如何介紹同一位演員，再把文案差異轉成可用的選片線索。",
+    "source_keywords": [
+      "倉本蓳",
+      "全裸轉校生",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "HMN-905 的簡介把轉校生的故鄉習慣與新班級同學的反應連在一起。",
+      "supports": "故鄉與校園的習慣落差是文案交代的故事起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "WAAA-706 的簡介先介紹 Wanz Factory 專屬特別企劃，接著集中描述演出強度與身體反應。",
+      "supports": "兩份簡介的宣傳重心有具體差異，可以用來區分讀者對角色設定和演出取向的興趣。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "作品的實際節奏、情節比重、鏡位、聲音、台詞與演出效果。",
+    "虛構村落的真實原型、演員的個人經歷，以及兩作屬於同一系列的說法。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}

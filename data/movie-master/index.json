@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-09T18:13:59.743Z",
+  "generated_at": "2026-11-09T18:48:16.491Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 549,
-  "formal_movie_count": 548,
+  "tracked_input_count": 550,
+  "formal_movie_count": 549,
   "demo_count": 1,
-  "published_count": 547,
+  "published_count": 548,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -1637,6 +1637,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "e996fc890b6d6ca9cd0420e291b49e6e000d559c271b59844b557acbcffb1285"
+    },
+    {
+      "stable_movie_id": "cc18:HMN-905",
+      "catalog_code": "HMN-905",
+      "slug": "hmn-905",
+      "master_path": "data/movie-master/hmn-905.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "ec766f3970cc89af0bd4e78bb4bca8831138bf77b6be85cdfc423d764007e24f"
     },
     {
       "stable_movie_id": "cc18:HMN-911",

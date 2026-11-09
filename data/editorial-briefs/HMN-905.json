@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "id": "HMN-905",
+  "generated_at": "2026-11-09T18:41:50.139Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/HMN-905.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "全裸轉校生",
+    "premise": "作品以「全裸轉校生」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「全裸轉校生」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "全裸轉校生",
+      "來自一個有著不穿衣服風習",
+      "乳房全露",
+      "小穴全露之村莊的轉校女生",
+      "因其無自覺的誘惑而展開",
+      "倉本蓳"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "窈窕"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "口交",
+      "亂交"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由倉本蓳演出，HMN-905 和 WAAA-706 的宣傳各把什麼放在前面？只憑簡介，讀者能用哪個差異選片？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=sebKP93Bcbb&cat=19",
+      "supports": "提供的作品頁快照記載本中出品、倉本蓳演出，並以轉校生把故鄉的生活習慣帶進校園為故事起點。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=mevP3xVKL9F&cat=19",
+      "supports": "提供的作品頁快照以 Wanz Factory 專屬特別企劃介紹本作，宣傳重點集中在演出強度與身體反應。兩作的共同演員關係經提供的資料核對。"
+    }
+  ],
+  "angle_candidates": [
+    "比較兩份同演員作品簡介的開場，區分從角色處境入手與從演出強度入手的選片理由。",
+    "聚焦轉校設定，分析故鄉習慣與校園規範的落差如何帶出同班同學的反應。",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "HMN-905 先交代轉校生從哪裡來，再用她與新環境的習慣落差引出同學的反應。WAAA-706 則以專屬企劃和演出強度招徠讀者。兩份簡介給了追同一位演員的讀者不同的選片線索。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "倉本蓳",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "全裸轉校生",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "全裸轉校生",
+  "display_short_title": "全裸轉校生",
+  "title": "一個轉校設定，如何帶出全班的反應？",
+  "seo_title": "HMN-905《全裸轉校生》｜倉本蓳兩部作品的宣傳比較",
+  "social_title": "同樣由倉本蓳演出，為什麼這次的簡介先講她從哪裡來？",
+  "short_review": "《全裸轉校生》的簡介先交代主角從小習以為常的生活方式，再寫這個習慣到了新班級會引起什麼反應。對照同樣由倉本蓳演出的 WAAA-706，這部給讀者的第一個選片線索是角色處境，另一部則把演出強度擺在前面。",
+  "editorial_angle": "從兩份公開簡介的開場切入，比較它們如何介紹同一位演員，再把文案差異轉成可用的選片線索。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "HMN-905 的簡介把轉校生的故鄉習慣與新班級同學的反應連在一起。",
+      "supports": "故鄉與校園的習慣落差是文案交代的故事起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "WAAA-706 的簡介先介紹 Wanz Factory 專屬特別企劃，接著集中描述演出強度與身體反應。",
+      "supports": "兩份簡介的宣傳重心有具體差異，可以用來區分讀者對角色設定和演出取向的興趣。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "作品的實際節奏、情節比重、鏡位、聲音、台詞與演出效果。",
+    "虛構村落的真實原型、演員的個人經歷，以及兩作屬於同一系列的說法。"
+  ],
+  "decision_guide": {
+    "thesis": "從倉本蓳的作品中選片時，可以先看自己對轉校生適應新環境的設定有興趣，還是更在意文案主打的演出強度。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以轉校生的出身交代角色行為，再把焦點帶到同班同學的反應。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "故鄉的生活習慣在《全裸轉校生》的簡介裡起了什麼作用？",
+      "同樣由倉本蓳演出，兩部作品的簡介各提供了什麼選片線索？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "轉校之前，先交代她從哪裡來",
+      "body": "本中的簡介先交代，倉本蓳飾演的轉校生來自一個習慣不穿衣服的村落。這個背景讓轉校有了具體作用：她把自己習以為常的生活方式帶進新班級，同學卻有截然不同的反應。文案就靠這道落差，把焦點從新來的學生帶到整個班級。"
+    },
+    {
+      "heading": "同一位演員，兩種選片理由",
+      "body": "同樣由倉本蓳演出的 WAAA-706，一開頭就把 Wanz Factory 專屬特別企劃擺在前面，接著用演出強度和身體反應吸引讀者。如果你是沿著演員找片，兩份簡介最容易辨認的差別就在這裡：《全裸轉校生》讓你先想像她到了新班級會引起什麼反應，WAAA-706 則先讓你衡量自己對高強度演出取向的興趣。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用提供的 CC18 作品頁快照與已核對的共同演員資料。比較限於兩份公開簡介的宣傳重點。文章未採用搜尋摘要，也未抽樣觀看影片。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "18dd0d8d9c02d96c7cee08d637031216b8e73534d974bdab733c4bc969c25ad5",
+    "response_sha256": "d1eb5b47f6b5185177d7c81636e8ad4cc7ab203706bed68638eff7a8172ea18f",
+    "research_input_sha256": "f21dae308523d83702a56650a3b4e5bbeb815bd51c917ea50741326f8effe841",
+    "related_source_ids": [
+      "WAAA-706",
+      "DSOD-031"
+    ]
+  }
+}
