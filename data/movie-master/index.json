@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-09T04:23:07.109Z",
+  "generated_at": "2026-11-09T04:27:42.639Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 530,
-  "formal_movie_count": 529,
+  "tracked_input_count": 531,
+  "formal_movie_count": 530,
   "demo_count": 1,
-  "published_count": 528,
+  "published_count": 529,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -1493,6 +1493,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "4e8c368f9504001daad780217d96266bec550ece7eb524265726ce7c0939fb0c"
+    },
+    {
+      "stable_movie_id": "cc18:HEYZO-3917",
+      "catalog_code": "HEYZO-3917",
+      "slug": "heyzo-3917",
+      "master_path": "data/movie-master/heyzo-3917.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "556628eeee5d100e08c4ca98c5c518a122c6e5a5bd4954a552ceb5429f26b30a"
     },
     {
       "stable_movie_id": "cc18:HEYZO-3939",

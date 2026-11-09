@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "HEYZO-3917",
+  "review_sha256": "2a9095790909a9da180ffa20d6ad12a2b00bb9dca603211b3fa7cf969e79e2f9",
+  "selected_thesis": "來源資料可確認本作以「藤井美波」作為主要作品線索。",
+  "title_basis": {
+    "performer": "碧惠美、柊麗奈、藤井みなみ",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "碧惠美",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "藤井美波",
+        "source_field": "title"
+      },
+      {
+        "type": "performer",
+        "value": "柊麗奈",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "藤井みなみ",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "碧惠美",
+    "presentation_feature": "藤井美波",
+    "editorial_judgment": "來源資料可確認本作以「藤井美波」作為主要作品線索。",
+    "source_keywords": [
+      "碧惠美",
+      "藤井美波",
+      "柊麗奈",
+      "藤井みなみ"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：碧惠美",
+      "supports": "這項可追溯來源訊號支持文章以「碧惠美」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：柊麗奈",
+      "supports": "這項可追溯來源訊號支持文章以「柊麗奈」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：藤井みなみ",
+      "supports": "這項可追溯來源訊號支持文章以「藤井みなみ」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：角色扮演",
+      "supports": "這項可追溯來源訊號支持文章以「角色扮演」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：藤井美波",
+      "supports": "這項可追溯來源訊號支持文章以「藤井美波」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "costume：角色扮演",
+      "supports": "這項可追溯來源訊號支持文章以「角色扮演」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

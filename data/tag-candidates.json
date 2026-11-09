@@ -1336,7 +1336,7 @@
     },
     {
       "label": "打手槍",
-      "occurrences": 18,
+      "occurrences": 19,
       "source_ids": [
         "SNOS-447",
         "GOJI-110",
@@ -1355,7 +1355,8 @@
         "DFDM-078",
         "NLD-034",
         "MNGS-070",
-        "DOKS-688"
+        "DOKS-688",
+        "HEYZO-3917"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-06",
@@ -2760,13 +2761,14 @@
     },
     {
       "label": "無碼片",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "HEYZO-3964",
         "HEYZO-3939",
-        "HEYZO-3994"
+        "HEYZO-3994",
+        "HEYZO-3917"
       ],
-      "first_seen": "2026-09-19",
+      "first_seen": "2026-09-07",
       "last_seen": "2026-11-05",
       "status": "quarantined"
     },
@@ -3323,6 +3325,16 @@
       ],
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
+      "status": "quarantined"
+    },
+    {
+      "label": "玄関",
+      "occurrences": 1,
+      "source_ids": [
+        "HEYZO-3917"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
       "status": "quarantined"
     }
   ]

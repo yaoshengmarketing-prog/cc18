@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "HEYZO-3917",
+  "checked_at": "2026-11-09T04:27:15.679Z",
+  "review_sha256": "2a9095790909a9da180ffa20d6ad12a2b00bb9dca603211b3fa7cf969e79e2f9",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "body_lacks_source_adult_vocabulary",
+    "sitewide_reused_sentences",
+    "insufficient_sections",
+    "missing_creative_reconstruction_audit"
+  ],
+  "findings": [
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "sitewide_reused_sentences",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "SITEWIDE_ORIGINALITY_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 1,
+    "evidence_items": 8,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
