@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-415",
+  "generated_at": "2026-11-09T17:47:07.225Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SNOS-415.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "把她當成飛機杯隨意幹爆",
+    "premise": "作品以「把她當成飛機杯隨意幹爆」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「把她當成飛機杯隨意幹爆」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "把她當成飛機杯隨意幹爆",
+      "但隔天卻能若無其事",
+      "毫不在意的可愛女人ww",
+      "及川美櫻",
+      "口交"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "美少女",
+      "OL"
+    ],
+    "body": [
+      "窈窕",
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "口交"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由夏生なつ演出，SNOS-415 的職場後輩與 SNOS-375 的租借女友，在推動情節的方式上有什麼差別？這個差別如何幫助選片？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=dEJShr6qodl&cat=19",
+      "supports": "作品頁快照的人物關係列出夏生なつ。簡介把職場後輩酒後失憶、遭人利用，以及隔天照常上班寫成反覆發生的設定。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=4UVnAnTSfJ&cat=19",
+      "supports": "作品頁快照將故事設定在一天的租借約會，由租借女友主動打破約會規範。兩部作品的演員關係已另行核對。"
+    }
+  ],
+  "angle_candidates": [
+    "從誰掌握局面切入，比較職場後輩遭人利用與租借女友主動打破約會規範的差異。",
+    "從文案設定的時間範圍切入，比較反覆回到職場日常與集中於一天的租借約會。",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "兩部作品雖由夏生なつ演出，角色推動情節的方式卻不同。本作以他人利用後輩酒後失憶的處境反覆推動事件，租借女友一作則由她主動打破約會規範。只憑演員選片，容易忽略這個會影響觀看意願的差別。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "夏生なつ",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "把她當成飛機杯隨意幹爆",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "美少女設定",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "酒後失憶的職場後輩",
+  "display_short_title": "酒後失憶的後輩",
+  "title": "同樣由夏生なつ演出，誰在推動情節？",
+  "seo_title": "SNOS-415 作品介紹｜夏生なつ演出的職場失憶題材",
+  "social_title": "從職場後輩到租借女友，夏生なつ兩作的角色差異",
+  "short_review": "本作的簡介以酒後失憶與隔天照常上班構成循環。和同樣由夏生なつ演出的租借女友題材相比，最值得先確認的是角色在事件中的位置，以及自己是否願意觀看涉及酒後失憶與非自願性行為的題材。",
+  "editorial_angle": "比較同一演員兩部作品的角色主動性，並把酒後失憶遭人利用的設定列為選片時應先辨識的題材。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "SNOS-415 的來源人物關係列出夏生なつ，已核對的關聯資料確認她也演出 SNOS-375。",
+      "supports": "可以用同一演員的兩個角色做比較。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "SNOS-415 的簡介將職場後輩酒後失憶、遭人利用和隔天照常上班寫成循環。",
+      "supports": "本作的題材涉及酒後失憶與非自願性行為，反覆回到職場日常是文案設定的一部分。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "SNOS-375 的簡介將事件集中在一天的租借約會，由租借女友主動打破約會規範。",
+      "supports": "兩份簡介在角色主動性與設定的時間範圍上都有具體差異。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "把來源標題中的人名升為演員主要名稱，或把兩部作品寫成同系列。",
+    "從隔天照常上班推斷角色知情、同意或接受先前發生的事。",
+    "由文案的反覆設定推定成片的段落數、敘事密度、剪輯節奏或表演效果。"
+  ],
+  "decision_guide": {
+    "thesis": "若你從夏生なつ的作品挑片，可以先按角色主動性與題材接受度區分這兩部。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "本作的簡介用酒後失憶與隔天照常上班構成循環。對照作品則把事件放在一天的租借約會裡"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作的文案如何把酒後失憶寫成反覆發生的設定？",
+      "兩作分別由誰推動事件，這會如何影響選片？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "一部反覆回到辦公室，一部集中在一天的約會",
+      "body": "本作的公開簡介把酒後失憶寫成事件得以反覆發生的條件。職場後輩遭人利用，隔天又照常回公司上班。到了同樣由夏生なつ演出的 SNOS-375，簡介把事件放在一天的租借約會裡，由租借女友主動打破原先的約會規範。兩份簡介給角色的主動性不同，連事件如何接續也有差別。"
+    },
+    {
+      "heading": "從演員找片時，先看角色掌握多少主動權",
+      "body": "如果你是從租借女友一作認識夏生なつ，而且在意她演的角色能主動改變局面，本作的設定就有明顯差異。這次推動事件的是利用後輩酒後失憶的人。若你想避開涉及酒後失憶與非自願性行為的題材，光憑這項設定就足以做選擇。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用已核對的 CC18 作品頁快照與人物關係資料。比較限於兩份公開簡介，未使用影片抽樣。[SNOS-415 作品頁](https://cc18.tv/player.php?uuid=dEJShr6qodl&cat=19)、[SNOS-375 作品頁](https://cc18.tv/player.php?uuid=4UVnAnTSfJ&cat=19)"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "5ebd9db3759a20e628664fc2486ce965d873746fc97cd72d1833737c1038bda5",
+    "response_sha256": "3898f784317a59b92712729f82c9f8c9644fa7d278221f525d82945660dd0a85",
+    "research_input_sha256": "cda5f670bb0027fa212b2da3b8a3cac70fc673f5c95f2add98a34a3fa23b51f6",
+    "related_source_ids": [
+      "SNOS-375"
+    ]
+  }
+}

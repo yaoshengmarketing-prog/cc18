@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-415",
+  "generated_at": "2026-11-09T17:47:07.817Z",
+  "source_snapshot_hash": "sha256:5ebd9db3759a20e628664fc2486ce965d873746fc97cd72d1833737c1038bda5",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若你從夏生なつ的作品挑片，可以先按角色主動性與題材接受度區分這兩部。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "本作的簡介用酒後失憶與隔天照常上班構成循環。對照作品則把事件放在一天的租借約會裡"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SNOS-375",
+      "relation_type": "same_performer",
+      "reason": "同樣由夏生なつ出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "夏生なつ"
+      ],
+      "contrast_signals": [
+        "一見面就拉開拉鍊",
+        "癡女"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作的文案如何把酒後失憶寫成反覆發生的設定？",
+    "兩作分別由誰推動事件，這會如何影響選片？"
+  ]
+}
