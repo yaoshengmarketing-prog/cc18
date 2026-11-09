@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-09T04:45:47.003Z",
+  "generated_at": "2026-11-09T05:49:43.942Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 534,
-  "formal_movie_count": 533,
+  "tracked_input_count": 535,
+  "formal_movie_count": 534,
   "demo_count": 1,
-  "published_count": 532,
+  "published_count": 533,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -1475,6 +1475,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "82d8b2cac077b6631a30aea96242d06044c8afd2a1d051a96f8593b2889b1bb9"
+    },
+    {
+      "stable_movie_id": "cc18:GVH-885",
+      "catalog_code": "GVH-885",
+      "slug": "gvh-885",
+      "master_path": "data/movie-master/gvh-885.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "4f39179bb4dee3d3c6eca1144a61156f95c3277311cd0fc24d1c2a825ae2abb9"
     },
     {
       "stable_movie_id": "cc18:GVH-891",

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "GVH-885",
+  "review_sha256": "9d03c5bcaef2f3cb4daa27a2ee62bd7817b1e2c43e394ea29d6d72a1c353fce6",
+  "selected_thesis": "兩作都用多種情境呈現單一主題。GVH-885 把波多野結衣主導的懲罰互動放在中心，AVSA-462 則讓不同情境服務於同一種高筒襪造型。選片時，想看的題材比情境數更能區分兩作。",
+  "title_basis": {
+    "performer": "波多野結衣",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "波多野結衣",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "我要用乳房來懲罰你",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "波多野結衣",
+    "presentation_feature": "我要用乳房來懲罰你",
+    "editorial_judgment": "從兩份簡介比較情境變換的用途，讓讀者依互動設定或服裝造型選片。",
+    "source_keywords": [
+      "波多野結衣",
+      "我要用乳房來懲罰你",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "GVH-885 作品簡介把五種情境放在同一個 M 男懲罰設定下，並明列乳房拍打為核心。",
+      "supports": "可把波多野結衣主導的懲罰互動當作本作的選片依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "AVSA-462 同樣由波多野結衣演出，簡介以四種情境展示高筒襪，並將高筒襪與褲襪區分。",
+      "supports": "可把特定服裝造型當作對照作品的選片依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "Glory Quest 主辦活動的公告所列商品名同時標示波多野結衣、M 男及五種情境。",
+      "supports": "可交叉核對本作的演員與五種懲罰情境的宣傳定位。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "五種情境各自的完整設定、出場順序及篇幅。",
+    "成片的敘事密度、剪輯節奏、鏡位、聲音、台詞及演出評價。",
+    "兩作的系列關係、統一發行日及演員本人的私下偏好。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z"
+}
