@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "NACT-200",
+  "generated_at": "2026-11-09T10:40:14.026Z",
+  "source_snapshot_hash": "sha256:ae30b95f588724737bdcdd123d5bc76f74caf7633e80f1888170836f1eeb5d97",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若你是從女上司或多人題材找片，這部的辨識點是三名部下因職場怨恨設局，情節涉及性暴力。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以營業部的上下級關係交代報復動機，並以密室設局帶出權力翻轉。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想找以職場報復和上下級權力翻轉為核心，且能接受虛構性暴力題材的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "想找合意多人情境，或會避開性暴力與受困設定的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "三名部下為什麼設局？簡介將動機歸於他們對課長長期累積的怨恨。",
+    "四人設定由哪些角色構成？簡介交代的是一名營業部課長與三名部下。"
+  ]
+}

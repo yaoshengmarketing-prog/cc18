@@ -1991,14 +1991,15 @@
     },
     {
       "label": "女上司",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "CLOT-043",
         "NNOD-002",
-        "DSOD-078"
+        "DSOD-078",
+        "NACT-200"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-09-11",
+      "last_seen": "2026-11-09",
       "status": "quarantined"
     },
     {
@@ -2021,14 +2022,15 @@
     },
     {
       "label": "ビジネススーツ",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "CLOT-043",
         "CLOT-044",
-        "FNEW-025"
+        "FNEW-025",
+        "NACT-200"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-11-05",
+      "last_seen": "2026-11-09",
       "status": "quarantined"
     },
     {
@@ -2376,7 +2378,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 44,
+      "occurrences": 45,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -2421,7 +2423,8 @@
         "NGOD-362",
         "NGOD-361",
         "HUNTC-642",
-        "MKMP-763"
+        "MKMP-763",
+        "NACT-200"
       ],
       "first_seen": "2026-09-09",
       "last_seen": "2026-11-09",

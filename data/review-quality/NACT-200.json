@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "NACT-200",
+  "review_sha256": "c91f9edbf321b5e90c43e064bf5e6e84b547d8ec6f389b63691cb78582919aa1",
+  "selected_thesis": "作品簡介把部下長期累積的怨恨寫成設局動機，讓女上司設定有了具體的敘事作用。選片時，最值得先辨認的是職場報復與性暴力題材。",
+  "title_basis": {
+    "performer": "紗紗原百合",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "紗紗原百合",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "流著口水發情",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "紗紗原百合",
+    "presentation_feature": "流著口水發情",
+    "editorial_judgment": "對照發售活動的商品題名與作品簡介，聚焦上下級關係如何交代報復動機，並據此區分讀者對職場權力翻轉與合意多人題材的不同選片需求。",
+    "source_keywords": [
+      "紗紗原百合",
+      "流著口水發情",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品頁簡介將紗紗原百合的角色設定為營業部課長，並交代三名部下因長期累積的怨恨將她誘入密室。",
+      "supports": "簡介把部下設局的動機連到原有的職場關係，密室是權力翻轉的情節起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "發售活動公告列出的商品題名同時標示女課長、部下、下剋上與四人性暴力設定。",
+      "supports": "發售宣傳以職場階序倒轉和非自願情境定位這部作品。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "成片的敘事密度、節奏、表演、鏡頭、聲音與台詞。",
+    "演員的個人經歷、系列歸屬與未經核對的關聯作品。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z"
+}

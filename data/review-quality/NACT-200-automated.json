@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "id": "NACT-200",
+  "checked_at": "2026-11-09T10:44:13.391Z",
+  "review_sha256": "d27e94f3ba85a646f2141e1bbd68785f10f65de6d0e90a18818e91f8b536473b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "title_lacks_source_core_concept",
+    "sitewide_reused_sentences",
+    "missing_creative_reconstruction_audit",
+    "insufficient_presentation_signals",
+    "insufficient_search_intents"
+  ],
+  "findings": [
+    {
+      "code": "title_lacks_source_core_concept",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "sitewide_reused_sentences",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "SITEWIDE_ORIGINALITY_WARNING"
+    },
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_presentation_signals",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_search_intents",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 3,
+    "evidence_items": 2,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 2,
+    "recommendations": 0
+  }
+}

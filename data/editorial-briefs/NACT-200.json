@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "id": "NACT-200",
+  "generated_at": "2026-11-09T10:40:13.293Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/NACT-200.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "流著口水發情",
+    "premise": "作品以「流著口水發情」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「流著口水發情」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "流著口水發情",
+      "背德的下剋上4P強姦",
+      "紗紗原百合",
+      "4P"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "3p・4p"
+    ],
+    "presentation": [
+      "戲劇、連續劇",
+      "720p",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "《女課長的密室下剋上》如何把職場上下級關係變成報復的起點，這對選片有什麼意義？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=dRjR8dXIbfa&cat=19",
+      "supports": "作品頁快照標記女上司與四人設定，簡介交代營業部課長遭三名部下設局，並將部下的報復動機連到長期累積的職場怨恨。"
+    },
+    {
+      "url": "https://maharaja-event.com/event/event-9069/",
+      "supports": "發售活動公告將 NACT-200 列為プラネットプラス的 10 月 20 日新作，商品題名也明列女課長、部下、下剋上與四人性暴力設定。"
+    }
+  ],
+  "angle_candidates": [
+    "從營業部到密室，追看簡介如何把上下級關係轉成報復動機。",
+    "對照發售活動的商品題名與作品簡介，看四人設定如何具體落在一名課長與三名部下的關係上。",
+    "流著口水發情的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "作品簡介把部下長期累積的怨恨寫成設局動機，讓女上司設定有了具體的敘事作用。選片時，最值得先辨認的是職場報復與性暴力題材。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "紗紗原百合",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "流著口水發情",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "identity",
+      "value": "AV女優片",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "女課長的密室下剋上",
+  "display_short_title": "女課長的下剋上",
+  "title": "三名部下為什麼設局？從職場怨恨看女課長的下剋上",
+  "seo_title": "NACT-200 女課長的密室下剋上｜紗紗原百合作品導讀",
+  "social_title": "從營業部到密室，女課長的下剋上如何開始？",
+  "short_review": "紗紗原百合飾演的營業部課長遭三名部下設局。簡介把報復動機追溯到日常管理累積的怨恨，使職場階序成為辨認這部性暴力題材作品的線索。",
+  "editorial_angle": "對照發售活動的商品題名與作品簡介，聚焦上下級關係如何交代報復動機，並據此區分讀者對職場權力翻轉與合意多人題材的不同選片需求。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品頁簡介將紗紗原百合的角色設定為營業部課長，並交代三名部下因長期累積的怨恨將她誘入密室。",
+      "supports": "簡介把部下設局的動機連到原有的職場關係，密室是權力翻轉的情節起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "發售活動公告列出的商品題名同時標示女課長、部下、下剋上與四人性暴力設定。",
+      "supports": "發售宣傳以職場階序倒轉和非自願情境定位這部作品。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "成片的敘事密度、節奏、表演、鏡頭、聲音與台詞。",
+    "演員的個人經歷、系列歸屬與未經核對的關聯作品。"
+  ],
+  "decision_guide": {
+    "thesis": "若你是從女上司或多人題材找片，這部的辨識點是三名部下因職場怨恨設局，情節涉及性暴力。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以營業部的上下級關係交代報復動機，並以密室設局帶出權力翻轉。"
+    ],
+    "audience_for": [
+      "想找以職場報復和上下級權力翻轉為核心，且能接受虛構性暴力題材的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "想找合意多人情境，或會避開性暴力與受困設定的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "三名部下為什麼設局？簡介將動機歸於他們對課長長期累積的怨恨。",
+      "四人設定由哪些角色構成？簡介交代的是一名營業部課長與三名部下。"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "報復的理由從營業部開始",
+      "body": "發售活動公告上的商品題名把女課長、部下和下剋上擺在一起。作品簡介則補上這層關係如何走到設局。紗紗原百合飾演營業部課長，三名部下對她長期累積怨恨，於是把她誘入密室。課長原本在職場上握有管理權，到了密室，局面由設局的部下掌控。這個前後差異，讓「女上司」成了理解報復動機的線索。"
+    },
+    {
+      "heading": "四人設定要連著角色關係看",
+      "body": "四人標籤交代參與人數，簡介則交代這四人原本就是一名課長與三名部下。這層關係是選片的分水嶺。若你想找的是由職場怨恨引發的權力翻轉，簡介已經給出明確的情節起點。若你偏好合意的多人題材，這部的密室設局與性暴力設定就足以篩掉。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據 CC18 作品頁快照的演員資料、標籤與公開簡介，以及 Maharaja 發售活動公告的商品資訊。對權力翻轉的解讀限於公開設定，未使用影片抽樣。[CC18 作品頁](https://cc18.tv/player.php?uuid=dRjR8dXIbfa&cat=19)、[Maharaja 發售活動公告](https://maharaja-event.com/event/event-9069/)"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "ae30b95f588724737bdcdd123d5bc76f74caf7633e80f1888170836f1eeb5d97",
+    "response_sha256": "42bde6fb9bea5205d3a3f95941c2001a619058164b6dfe2e321a29d4e396e760",
+    "research_input_sha256": "fc15f10d1e5d51b59a49a1045d147ec7814784c83041449eaa06019409af1c64",
+    "related_source_ids": []
+  }
+}
