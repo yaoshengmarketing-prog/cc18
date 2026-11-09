@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:d493339c9ccb04a7c96a4f5c4d474347449743734b0ac05d4dea0d0f1d778a08",
-  "source_generated_at": "2026-11-09T02:50:03.000Z",
+  "source_revision": "sha256:a61785508b2652c392a8e59a8e7e361b73020c04b4782a80d2412279806a3dad",
+  "source_generated_at": "2026-11-09T02:57:05.718Z",
   "counts": {
-    "movies": 510,
-    "performers": 363,
+    "movies": 511,
+    "performers": 364,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -439,6 +439,17 @@
       "related_movie_ids": [
         "cc18:GVH-884",
         "cc18:MKMP-763"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:51931",
+      "display_name": "小笠原菜乃",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "小笠原菜乃",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:START-617"
       ]
     },
     {
@@ -10615,6 +10626,51 @@
         "article_title": "SDMM-242 マジックミラー号 × 素人企劃｜魔鏡號OL四人組：系列企劃感比人物故事更鮮明",
         "display_short_title": null,
         "slug": "sdmm-242"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:START-617",
+        "source_cover": "https://cc18.tv/preview/80/b/2UKzUhgA488-800.jpg?v=1791923913",
+        "title": "START-617 小笠原菜乃｜射精無限大○カップソープ：以巨乳條件直推的展示型企劃",
+        "catalog_code": "START-617",
+        "release_date": "2026-10-13",
+        "performers": [
+          "小笠原菜乃"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/start-617/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:51931"
+      ],
+      "search": {
+        "source_title": "射精無限大I罩杯泡泡浴 一定幫你射10發！以貼身侍奉榨取的神乳身體！ 小笠原菜乃",
+        "article_title": "START-617 小笠原菜乃｜射精無限大○カップソープ：以巨乳條件直推的展示型企劃",
+        "display_short_title": null,
+        "slug": "start-617"
       }
     },
     {

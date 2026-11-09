@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "START-617",
+  "review_sha256": "79cd93921bf8d81d84000aad1157c703ceb6978b0427884dfb14cc1e3d53bf0d",
+  "selected_thesis": "如果你是因為小笠原菜乃而找片，這部最值得看的理由不是複雜設定，而是她被直接放進「射精無限大○カップソープ」這種高辨識度企劃裡；公開線索顯示它主打的是巨乳、貼身侍奉與中出標籤所形成的直球展示感。",
+  "title_basis": {
+    "performer": "小笠原菜乃",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "小笠原菜乃",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "射精無限大○カップソープ",
+        "source_field": "series"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "小笠原菜乃",
+    "presentation_feature": "射精無限大○カップソープ",
+    "editorial_judgment": "把這部作品定位為系列企劃下的演員展示作來看：公開線索幾乎都圍繞在「射精無限大○カップソープ」這個核心概念，以及小笠原菜乃與巨乳條件的直接賣點，適合用『企劃是否夠直球、演員條件是否被有效放大』來判斷，而不是先期待完整劇情推進。",
+    "source_keywords": [
+      "小笠原菜乃",
+      "射精無限大○カップソープ",
+      "巨乳",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "選片重點應放在系列企劃本身，因為公開資訊最穩定、最明確的識別就是系列名「射精無限大○カップソープ」。",
+      "basis": "public_source",
+      "signal": "系列名稱直接提供作品的核心企劃概念"
+    },
+    {
+      "observation_refs": [],
+      "supports": "小笠原菜乃是這部片最明確的個人賣點，公開資料已知演員資訊完整，可作為選片主軸之一。",
+      "basis": "public_source",
+      "signal": "演員欄位標示為小笠原菜乃"
+    },
+    {
+      "observation_refs": [],
+      "supports": "作品傾向以身體條件與貼身侍奉概念吸引觀眾，而不是先用人物關係或情節前提建立期待。",
+      "basis": "public_source",
+      "signal": "來源概念含有「以貼身侍奉榨取的神乳身體」"
+    },
+    {
+      "observation_refs": [],
+      "supports": "可追溯的成人主題包含巨乳與中出，足以界定這部片的直球取向，但不足以延伸成具體場面描述。",
+      "basis": "public_source",
+      "signal": "公開標籤包含巨乳、中出"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資料同時給出高畫質／720p等呈現資訊，說明它有基本規格標示，但這些不是比系列概念更重要的選片理由。",
+      "basis": "public_source",
+      "signal": "公開標籤包含高畫質、720p"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何具體場景、流程或場面次數",
+    "未推定人物關係、客人設定或角色背景",
+    "未聲稱存在情節轉折、情緒弧線或主導權變化",
+    "未描述鏡位、剪輯、聲音、表情、演技或身體語言",
+    "未把高畫質／720p延伸成實際畫面品質評價"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

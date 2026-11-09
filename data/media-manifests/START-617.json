@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "START-617",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-09T02:56:28.010Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/START-617/hero-v1.jpg",
+      "r2_key": "works/2026/10/START-617/hero-v1.jpg",
+      "bytes": 734480,
+      "sha256": "0314a93c1e289c5cd8c456f1a43fa4501126e9ea9d4d82f4483c983d9b0d9567",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/START-617/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/START-617/scene-vertical-v1.jpg",
+      "bytes": 1031242,
+      "sha256": "81473ba1bf19c3c212c75ec075c72ee03a08eb31760ed7d0cce5b52009d74f57",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2682268,
+    "sha256": "1b122465901eb34ccfba871f8032eb966c1839ae89eb48c49baade29e7f472c0",
+    "target_r2_key": "works/2026/10/START-617/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/START-617/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

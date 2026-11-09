@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "START-617",
+  "checked_at": "2026-11-09T02:56:25.939Z",
+  "review_sha256": "328031c4d13c7e392ebab756a27efd2475fc2225193e88866a36b508b8f908ad",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "從公開線索來看，這部作品最清楚的不是故事，而是企劃本身。系列名直接就是「射精無限大○カップソープ」，再加上來源概念寫到「以貼身侍奉榨取的神乳身體」，整體賣點非常集中：它不是靠複雜前提吸引人，而是把身體條件、侍奉想像與系列公式放到最前面。對選片者來說，這種作品的判斷重點會是『你買不"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "已知演員是小笠原菜乃，而公開標籤又明確給出「巨乳」。這代表作品在選角與賣點設計上，很可能就是要讓她的身體條件與系列概念彼此對接。換句話說，這不是把演員放進一個需要大量背景鋪陳的故事裡，而是讓演員本人的辨識度，直接服務於「射精無限大○カップソープ」這個企劃核心。若你平常就是跟著演員"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 5,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 4,
+    "recommendations": 0
+  }
+}
