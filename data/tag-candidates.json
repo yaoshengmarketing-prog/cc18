@@ -973,7 +973,7 @@
     },
     {
       "label": "出道作",
-      "occurrences": 10,
+      "occurrences": 11,
       "source_ids": [
         "IPZZ-986",
         "IPZZ-988",
@@ -984,10 +984,11 @@
         "IDPC-001",
         "MIDA-791",
         "CAWB-078",
-        "SDAM-181"
+        "SDAM-181",
+        "SPONE-001"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-05",
+      "last_seen": "2026-11-09",
       "status": "quarantined"
     },
     {

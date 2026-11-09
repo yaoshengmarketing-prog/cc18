@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "SPONE-001",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-09T00:51:47.412Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/SPONE-001/hero-v1.jpg",
+      "r2_key": "works/2026/10/SPONE-001/hero-v1.jpg",
+      "bytes": 511780,
+      "sha256": "222b594cdfc50365de847df1db09d73e22580ca778d734924ebd491445c3df0c",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "432b64a4197c40b5b80f04ce172c4b96",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/SPONE-001/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/SPONE-001/scene-vertical-v1.jpg",
+      "bytes": 809853,
+      "sha256": "a3a1792efa14df0c02b177bc5e292109b94ecef37de4a5f24914f45466442e51",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "ab63b0912c014adf84f64a16e62ceb23",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2385719,
+    "sha256": "f02be633c4182893dcccdb3eda065ae0b49bfefc81887ea464061e10a0daaebd",
+    "target_r2_key": "works/2026/10/SPONE-001/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/SPONE-001/vertical-v1.mp4"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "SPONE-001",
+  "review_sha256": "a4da8d136d7e22778728b66957c574f63b23df23d8f5b0dd3d27077221b18bfd",
+  "selected_thesis": "簡介用從長野來到東京的女大學生設定，將蒼井すず的出道包裝成一段人物初介紹。標題中的特典影像則是版本線索，能用來辨識版本，具體收錄內容仍待確認。",
+  "title_basis": {
+    "performer": "蒼井すず",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "蒼井すず",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "新人NO.1 STYLE",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "蒼井すず",
+    "presentation_feature": "新人NO.1 STYLE",
+    "editorial_judgment": "分開解讀簡介的人物設定與標題的版本標示，讓讀者判斷這部是否符合自己找出道作或找特典版的需求。",
+    "source_keywords": [
+      "蒼井すず",
+      "新人NO.1 STYLE",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品簡介以從長野來到東京的女大學生設定介紹蒼井すず，並稱本作為紀錄片出道作。",
+      "supports": "宣傳把人物背景和初次登場放在介紹的核心。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標題明列特典影像收錄版。",
+      "supports": "可依標題辨識此版本，所附資料未交代特典細目。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "將文案中的求學、遷居或私生活描述當成已查證的個人經歷。",
+    "將文案中的引語、神情或聲音描述當成實際觀影紀錄。",
+    "推定特典影像的主題、片長或與其他版本的具體差異。",
+    "依宣傳用語評斷成片的敘事密度、節奏或表演品質。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z"
+}

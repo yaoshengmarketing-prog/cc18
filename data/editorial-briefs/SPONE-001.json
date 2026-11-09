@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "id": "SPONE-001",
+  "generated_at": "2026-11-09T00:46:52.330Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SPONE-001.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "新人NO.1 STYLE",
+    "premise": "作品以「新人NO.1 STYLE」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「新人NO.1 STYLE」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "新人NO.1 STYLE",
+      "驚人的原石終於脫衣",
+      "蒼井鈴AV出道",
+      "出道作"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "窈窕",
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "アクメ・オーガズム"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "蒼井すず的出道作把「紀錄片」和「特典影像收錄版」分別放在哪裡，這兩個說法各能幫讀者判斷什麼？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=BNwLu4ByF3k&cat=19",
+      "supports": "所附作品頁快照的標題標示特典影像收錄版，簡介以從長野來到東京的女大學生設定介紹演員，並將作品定位為紀錄片式出道作。"
+    }
+  ],
+  "angle_candidates": [
+    "從長野到東京的設定如何為出道作建立人物背景",
+    "紀錄片式出道與特典版標示各自提供哪些選片線索",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "簡介用從長野來到東京的女大學生設定，將蒼井すず的出道包裝成一段人物初介紹。標題中的特典影像則是版本線索，能用來辨識版本，具體收錄內容仍待確認。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "蒼井すず",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "新人NO.1 STYLE",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "蒼井すず出道作（特典影像收錄版）",
+  "display_short_title": "蒼井すず出道特典版",
+  "title": "蒼井すず的出道作，為什麼從長野到東京說起？",
+  "seo_title": "SPONE-001 蒼井すず出道特典版｜人物設定與版本重點",
+  "social_title": "從長野到東京，蒼井すず的出道作如何介紹新人？",
+  "short_review": "簡介用從長野來到東京的女大學生設定，為蒼井すず的出道交代一個起點。若你想從出道作認識她在宣傳中的初登場形象，這是明確的選片線索。片名也標示收錄特典影像，所附簡介未列出內容。",
+  "editorial_angle": "分開解讀簡介的人物設定與標題的版本標示，讓讀者判斷這部是否符合自己找出道作或找特典版的需求。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品簡介以從長野來到東京的女大學生設定介紹蒼井すず，並稱本作為紀錄片出道作。",
+      "supports": "宣傳把人物背景和初次登場放在介紹的核心。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標題明列特典影像收錄版。",
+      "supports": "可依標題辨識此版本，所附資料未交代特典細目。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "將文案中的求學、遷居或私生活描述當成已查證的個人經歷。",
+    "將文案中的引語、神情或聲音描述當成實際觀影紀錄。",
+    "推定特典影像的主題、片長或與其他版本的具體差異。",
+    "依宣傳用語評斷成片的敘事密度、節奏或表演品質。"
+  ],
+  "decision_guide": {
+    "thesis": "想找蒼井すず的出道作，可以從簡介的人物設定入手。若是為特典而選片，目前可辨識版本，仍缺少收錄清單。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "簡介以紀錄片式出道為定位，從人物背景切入。片名另標示特典影像收錄版。"
+    ],
+    "audience_for": [
+      "想從出道作了解蒼井すず初登場形象的讀者。",
+      "想先辨識特典版品項的讀者。"
+    ],
+    "audience_not_for": [
+      "需要先掌握完整故事、實際節奏或特典細目的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "簡介用什麼背景介紹蒼井すず的初登場？",
+      "特典版標示能提供什麼選片資訊？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "從長野到東京，給初登場一個起點",
+      "body": "簡介把蒼井すず介紹成剛從長野來到東京的女大學生，接著以紀錄片式出道為作品定調。長野和東京在這裡交代的是人物登場前的處境，讓「新人」有了更具體的意思。若你想從出道作認識她，這份簡介給你的選片理由是人物的初次亮相。"
+    },
+    {
+      "heading": "特典標示適合用來找版本",
+      "body": "「紀錄片」出現在簡介裡，說明作品如何介紹這次出道。「特典影像收錄版」則寫在片名上，方便搜尋時辨識版本。若你是為某段額外影像而找片，還需要收錄明細才能判斷這版是否符合需求。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據所附的 CC18 作品頁快照，使用標題、人物關係與公開簡介。外部作品頁未能開啟核讀，因此比較限於本作的簡介與版本標示。文中的人物背景屬於宣傳設定，未以訪談或影片抽樣查證。[CC18 作品頁](https://cc18.tv/player.php?uuid=BNwLu4ByF3k&cat=19)"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "57c02e962f791319b92a79818a34cd7f05f28c2c158f08d19e3a65e79b054f11",
+    "response_sha256": "477f66e0fb74214e17b7b2f479d1934d2b97ce1a8554169f75f1ff6ca4470008",
+    "research_input_sha256": "033fe44d353dfc0153ef47814cc20f740193c266f458919dae1c253506dd165f",
+    "related_source_ids": []
+  }
+}

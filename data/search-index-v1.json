@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:e75fbbe6c56779e1c6eb9c84ec04293ad66cde356dd59e102cf192d5e53187a1",
-  "source_generated_at": "2026-11-08T23:45:34.209Z",
+  "source_revision": "sha256:f51709690546be6703ca2adb8d96c91072abcb1b34751c209a2bf6e48485350b",
+  "source_generated_at": "2026-11-09T00:53:12.463Z",
   "counts": {
-    "movies": 507,
-    "performers": 362,
+    "movies": 508,
+    "performers": 363,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -3725,6 +3725,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DLDSS-521"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54755",
+      "display_name": "蒼井すず",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "蒼井すず",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SPONE-001"
       ]
     },
     {
@@ -11829,6 +11840,59 @@
         "article_title": "末班車倒數，如何改變楓富愛這次的企劃？",
         "display_short_title": "末班車前的兩小時",
         "slug": "snos-411"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SPONE-001",
+        "source_cover": "https://cc18.tv/preview/80/b/BNwLu4ByF3k-800.jpg?v=1791837569",
+        "title": "蒼井すず出道特典版",
+        "catalog_code": "SPONE-001",
+        "release_date": "2026-10-09",
+        "performers": [
+          "蒼井すず"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/spone-001/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54755"
+      ],
+      "search": {
+        "source_title": "【特典影像收錄版】新人NO.1STYLE 國寶級清純面孔搭配最強身材，驚人的原石終於脫衣 蒼井鈴AV出道",
+        "article_title": "蒼井すず的出道作，為什麼從長野到東京說起？",
+        "display_short_title": "蒼井すず出道特典版",
+        "slug": "spone-001"
       }
     },
     {
