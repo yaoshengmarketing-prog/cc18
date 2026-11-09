@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:085ddc4265312db84ed12a2e185cd4a65a270adc01bb44ec2e91934d709501ed",
-  "source_generated_at": "2026-11-09T12:46:54.868Z",
+  "source_revision": "sha256:86e37a36bb5d57b69d6bf34d1c2c81c5ecbaeb440aabae3455dc792ffb172937",
+  "source_generated_at": "2026-11-09T14:53:30.403Z",
   "counts": {
-    "movies": 539,
-    "performers": 389,
+    "movies": 540,
+    "performers": 390,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -604,6 +604,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:27892",
+      "display_name": "五芭",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "五芭",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:T-3800073"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:28815",
       "display_name": "五條戀",
       "display_name_zh_tw": null,
@@ -1057,6 +1068,7 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MXGS-1451",
+        "cc18:T-3800073",
         "cc18:UMD-1019"
       ]
     },
@@ -2108,7 +2120,8 @@
       "source_name": "花衣つばき",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:MISM-456"
+        "cc18:MISM-456",
+        "cc18:T-3800073"
       ]
     },
     {
@@ -8977,6 +8990,55 @@
         "article_title": "片名寫女與男，簡介把焦點放在誰身上？",
         "display_short_title": "丈夫不在家的女與男",
         "slug": "avk-018"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:T-3800073",
+        "source_cover": "https://cc18.tv/preview/80/b/r7XuIyFb9Z-800.jpg?v=1793115133",
+        "title": "遭義父性侵的妻子",
+        "catalog_code": "T-3800073",
+        "release_date": "2026-10-21",
+        "performers": [
+          "五芭",
+          "由衣陽菜",
+          "花衣つばき"
+        ],
+        "canonical_topics": [
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/t-3800073/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27892",
+        "cc18.tv:actor:37276",
+        "cc18.tv:actor:49058"
+      ],
+      "search": {
+        "source_title": "被義父強暴而墮落成雌犬的欲求不滿美人妻",
+        "article_title": "從丈夫缺席到熟客上門，同一位演員的兩種選片理由",
+        "display_short_title": "遭義父性侵的妻子",
+        "slug": "t-3800073"
       }
     },
     {

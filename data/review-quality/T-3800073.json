@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "T-3800073",
+  "review_sha256": "6830869aa2e29475d867d538fb7c42ca104afe44e3e0da4ff3221013d219e3bc",
+  "selected_thesis": "本作以丈夫缺席時發生的家庭性侵為核心，MXGS-1451 則以咖啡廳老闆接待熟客、接受委託為企劃入口。兩部作品雖有共同演員，讀者仍可依自己想找的角色關係和能接受的題材做選擇。",
+  "title_basis": {
+    "performer": "五芭、由衣陽菜、花衣つばき",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "五芭",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "由衣陽菜",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "花衣つばき",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "義父に犯●れメス堕ちする欲求不満の美人妻",
+        "source_field": "series"
+      }
+    ],
+    "primary_theme": "五芭",
+    "presentation_feature": "由衣陽菜",
+    "editorial_judgment": "以同演員作品的公開簡介為對照，比較情節如何由家庭成員的缺席或客人的來訪展開。",
+    "source_keywords": [
+      "五芭",
+      "由衣陽菜",
+      "花衣つばき",
+      "義父に犯●れメス堕ちする欲求不満の美人妻"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介先交代夫妻失去親密關係，再寫到義父趁丈夫不在時施暴。",
+      "supports": "丈夫缺席是文案交代的施暴時機，義父與妻子的家庭關係是辨識題材的依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "MXGS-1451 的標題與簡介介紹由衣陽菜飾演的咖啡廳老闆，並提到熟客規則與客人委託。",
+      "supports": "同演員作品以店主與客人的往來引出企劃，且簡介明確交代了由衣陽菜的角色。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "本作三位演員各自飾演的角色與戲份分配。",
+    "成片的鏡頭、聲音、台詞、節奏、敘事密度及表演品質。",
+    "未取得官方頁面佐證的日文原題與人物經歷。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z"
+}

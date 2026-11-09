@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "id": "T-3800073",
+  "generated_at": "2026-11-09T14:46:15.371Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/T-3800073.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": null,
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "口交"
+    ],
+    "presentation": [
+      "720p",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣有由衣陽菜演出，T-3800073 與 MXGS-1451 各用什麼關係引出情節？這個差別如何影響選片？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=r7XuIyFb9Z&cat=19",
+      "supports": "CC18 作品頁快照列出由衣陽菜參演。簡介以夫妻失去親密關係為背景，交代義父趁丈夫不在時對妻子施以性侵。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=k0y0oDBgJ3F&cat=19",
+      "supports": "CC18 作品頁快照將由衣陽菜介紹為角色扮演咖啡廳的老闆，並以熟客規則和客人委託帶出企劃。"
+    }
+  ],
+  "angle_candidates": [
+    "從丈夫缺席與熟客來訪兩種開場條件，比較家庭情境與咖啡廳企劃的選片差異。",
+    "從演員名單與角色介紹的差異，釐清為由衣陽菜找片時，兩份簡介各能回答什麼。",
+    "花衣つばき的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作以丈夫缺席時發生的家庭性侵為核心，MXGS-1451 則以咖啡廳老闆接待熟客、接受委託為企劃入口。兩部作品雖有共同演員，讀者仍可依自己想找的角色關係和能接受的題材做選擇。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "五芭",
+      "source_field": "actress"
+    },
+    {
+      "type": "performer",
+      "value": "由衣陽菜",
+      "source_field": "actress"
+    },
+    {
+      "type": "performer",
+      "value": "花衣つばき",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "義父に犯●れメス堕ちする欲求不満の美人妻",
+      "source_field": "series"
+    }
+  ],
+  "work_title": "婚姻失溫的妻子遭義父性侵",
+  "display_short_title": "遭義父性侵的妻子",
+  "title": "從丈夫缺席到熟客上門，同一位演員的兩種選片理由",
+  "seo_title": "T-3800073 作品導讀｜義父性侵設定與由衣陽菜的咖啡廳企劃對照",
+  "social_title": "同樣有由衣陽菜，家庭情境與角色扮演咖啡廳有何不同？",
+  "short_review": "本作把丈夫缺席寫成義父施暴的時機，讓家庭關係直接左右衝突。MXGS-1451 則把由衣陽菜寫成咖啡廳老闆，從熟客和委託介紹企劃。若是循演員找片，先看兩份簡介把什麼關係擺在前面，就能分清這兩部的選片理由。",
+  "editorial_angle": "以同演員作品的公開簡介為對照，比較情節如何由家庭成員的缺席或客人的來訪展開。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介先交代夫妻失去親密關係，再寫到義父趁丈夫不在時施暴。",
+      "supports": "丈夫缺席是文案交代的施暴時機，義父與妻子的家庭關係是辨識題材的依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "MXGS-1451 的標題與簡介介紹由衣陽菜飾演的咖啡廳老闆，並提到熟客規則與客人委託。",
+      "supports": "同演員作品以店主與客人的往來引出企劃，且簡介明確交代了由衣陽菜的角色。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "本作三位演員各自飾演的角色與戲份分配。",
+    "成片的鏡頭、聲音、台詞、節奏、敘事密度及表演品質。",
+    "未取得官方頁面佐證的日文原題與人物經歷。"
+  ],
+  "decision_guide": {
+    "thesis": "循由衣陽菜找片時，可先按家庭性侵題材與咖啡廳角色扮演企劃區分兩部作品。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "本作簡介聚焦義父趁丈夫缺席時施暴的虛構家庭情境。對照作品則透過咖啡廳老闆、熟客和"
+    ],
+    "audience_for": [
+      "能接受虛構性侵題材，並想先了解家庭關係如何引發衝突的讀者。",
+      "循由衣陽菜找片，想先分辨家庭情境與角色扮演企劃的讀者。"
+    ],
+    "audience_not_for": [
+      "想避開性侵或家庭成員施暴題材的讀者。",
+      "需要先確認由衣陽菜在本作的角色或戲份才會選片的讀者。"
+    ],
+    "questions_answered": [
+      "本作如何利用丈夫缺席引出義父的施暴？",
+      "MXGS-1451 如何透過咖啡廳老闆與客人的關係介紹企劃？",
+      "循由衣陽菜找片時，兩份簡介各能確認哪些角色資訊？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "丈夫不在，家庭關係就成了衝突的一部分",
+      "body": "本作簡介先寫夫妻之間已失去親密關係，再交代義父得知此事，趁丈夫不在時對妻子施以性侵。丈夫的缺席給了義父下手的時機，也讓家庭關係成為理解衝突的線索。對會避開家內性暴力題材的讀者，這個前提比演員名單更能決定是否選看。"
+    },
+    {
+      "heading": "咖啡廳從客人上門開始",
+      "body": "同樣由由衣陽菜演出的 MXGS-1451，把她介紹為角色扮演咖啡廳的老闆，從熟客才知道的規則與客人提出的委託帶出企劃。這份簡介直接給了循演員找片的讀者一個角色入口。本作也列有由衣陽菜，但簡介只以妻子、丈夫和義父交代情節，沒有標出演員對應。若選片的關鍵是想知道由衣陽菜演誰，咖啡廳這部提供的資訊更明確。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據 CC18 的 T-3800073 與 MXGS-1451 作品頁快照，以及已核對的共同演出關係。外部作品頁無法開啟，官方作品資料也未能核實。比較限於兩份公開簡介的虛構設定，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "a656b8e9a8d7b5508a36ba84d6d2d115a7686a56d3f5ebd71295dbae0180234f",
+    "response_sha256": "c3cab54fb90d834dc166efef51b8d26c5a2a59430ae212e27ae499e876478bcf",
+    "research_input_sha256": "b9972cc81232bdb671a23e0f66701cef217291df89118c44abb7b6918e9273b1",
+    "related_source_ids": [
+      "MXGS-1451",
+      "MISM-456",
+      "UMD-1019"
+    ]
+  }
+}

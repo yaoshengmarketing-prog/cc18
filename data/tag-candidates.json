@@ -882,7 +882,7 @@
     },
     {
       "label": "不倫",
-      "occurrences": 20,
+      "occurrences": 21,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -903,10 +903,11 @@
         "FJIN-173",
         "MADM-223",
         "SNOS-411",
-        "NGOD-358"
+        "NGOD-358",
+        "T-3800073"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-06",
+      "last_seen": "2026-11-09",
       "status": "quarantined"
     },
     {

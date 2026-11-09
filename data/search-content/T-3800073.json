@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "movie_id": "T-3800073",
+  "generated_at": "2026-11-09T14:46:15.934Z",
+  "source_snapshot_hash": "sha256:a656b8e9a8d7b5508a36ba84d6d2d115a7686a56d3f5ebd71295dbae0180234f",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "循由衣陽菜找片時，可先按家庭性侵題材與咖啡廳角色扮演企劃區分兩部作品。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "本作簡介聚焦義父趁丈夫缺席時施暴的虛構家庭情境。對照作品則透過咖啡廳老闆、熟客和"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "能接受虛構性侵題材，並想先了解家庭關係如何引發衝突的讀者。",
+      "循由衣陽菜找片，想先分辨家庭情境與角色扮演企劃的讀者。"
+    ],
+    "not_for": [
+      "想避開性侵或家庭成員施暴題材的讀者。",
+      "需要先確認由衣陽菜在本作的角色或戲份才會選片的讀者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "UMD-1019",
+      "relation_type": "same_performer",
+      "reason": "同樣由由衣陽菜出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "由衣陽菜"
+      ],
+      "contrast_signals": [
+        "素股play發生意外",
+        "糸井瑠花"
+      ]
+    },
+    {
+      "movie_id": "MISM-456",
+      "relation_type": "same_performer",
+      "reason": "同樣由花衣つばき出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "花衣つばき"
+      ],
+      "contrast_signals": [
+        "青井藍",
+        "華麗深喉嚨"
+      ]
+    },
+    {
+      "movie_id": "MXGS-1451",
+      "relation_type": "same_performer",
+      "reason": "同樣由由衣陽菜出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "由衣陽菜"
+      ],
+      "contrast_signals": [
+        "哈囉",
+        "角色扮演"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作如何利用丈夫缺席引出義父的施暴？",
+    "MXGS-1451 如何透過咖啡廳老闆與客人的關係介紹企劃？",
+    "循由衣陽菜找片時，兩份簡介各能確認哪些角色資訊？"
+  ]
+}
