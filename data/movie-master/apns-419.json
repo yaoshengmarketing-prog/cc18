@@ -24,6 +24,100 @@
         "observed_at": "2026-09-07T16:42:30.308Z"
       }
     ],
+    "series_relations": [
+      {
+        "source_type": "series",
+        "source_id": "18724",
+        "stable_source_id": "cc18.tv:series:18724",
+        "source_name": "露出願望に憑りつかれた○○",
+        "source_url": "https://cc18.tv/search.php?s_type=series&s_tid=18724",
+        "observed_at": "2026-09-07T16:42:30.308Z"
+      }
+    ],
+    "tag_relations": [
+      {
+        "source_type": "tag",
+        "source_id": "4",
+        "stable_source_id": "cc18.tv:tag:4",
+        "source_name": "中出",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=4",
+        "observed_at": "2026-09-07T16:42:30.308Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "11",
+        "stable_source_id": "cc18.tv:tag:11",
+        "source_name": "AV女優片",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=11",
+        "observed_at": "2026-09-07T16:42:30.308Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "13",
+        "stable_source_id": "cc18.tv:tag:13",
+        "source_name": "顏射",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=13",
+        "observed_at": "2026-09-07T16:42:30.308Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "37",
+        "stable_source_id": "cc18.tv:tag:37",
+        "source_name": "學生妹",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=37",
+        "observed_at": "2026-09-07T16:42:30.308Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "126",
+        "stable_source_id": "cc18.tv:tag:126",
+        "source_name": "戲劇、連續劇",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=126",
+        "observed_at": "2026-09-07T16:42:30.308Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "393",
+        "stable_source_id": "cc18.tv:tag:393",
+        "source_name": "3p・4p",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=393",
+        "observed_at": "2026-09-07T16:42:30.308Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "479",
+        "stable_source_id": "cc18.tv:tag:479",
+        "source_name": "720p",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=479",
+        "observed_at": "2026-09-07T16:42:30.308Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "501",
+        "stable_source_id": "cc18.tv:tag:501",
+        "source_name": "独占配信",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=501",
+        "observed_at": "2026-09-07T16:42:30.308Z"
+      },
+      {
+        "source_type": "tag",
+        "source_id": "509",
+        "stable_source_id": "cc18.tv:tag:509",
+        "source_name": "HD",
+        "source_url": "https://cc18.tv/search.php?s_type=tag&s_tid=509",
+        "observed_at": "2026-09-07T16:42:30.308Z"
+      }
+    ],
+    "fac_relations": [
+      {
+        "source_type": "fac",
+        "source_id": "117",
+        "stable_source_id": "cc18.tv:fac:117",
+        "source_name": "オーロラプロジェクト・アネックス",
+        "source_url": "https://cc18.tv/search.php?s_type=fac&s_tid=117",
+        "observed_at": "2026-09-07T16:42:30.308Z"
+      }
+    ],
     "raw_studio_name": "オーロラプロジェクト・アネックス",
     "raw_series_names": [
       "露出願望に憑りつかれた○○"
@@ -91,14 +185,14 @@
     "records": []
   },
   "publishing": {
-    "is_published": false,
-    "published_at": null,
-    "canonical_url": null,
-    "indexability": "NOINDEX",
+    "is_published": true,
+    "published_at": "2026-09-06",
+    "canonical_url": "https://jav.com.tw/works/apns-419/",
+    "indexability": "INDEX",
     "content_hash": "11d4b72de8bd4fe3bec5e06ae97fb229828a723b348f53898eedacb96240411a"
   },
   "legacy": {
-    "legacy_published_at": "2026-08-28",
-    "legacy_published_at_semantics": "LEGACY_SEMANTICS_UNKNOWN"
+    "legacy_published_at": null,
+    "legacy_published_at_semantics": null
   }
 }

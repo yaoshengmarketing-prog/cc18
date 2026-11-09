@@ -12,7 +12,7 @@ titleVersion: 1
 actress:
   - 糸井瑠花
 releaseDate: 2026-08-22
-publishedAt: 2026-08-28
+publishedAt: 2026-09-06
 studio: "オーロラプロジェクト・アネックス"
 series: "露出願望に憑りつかれた○○"
 sourceUrl: https://cc18.tv/player.php?uuid=25gTn5HE56w&cat=19
@@ -44,7 +44,7 @@ editorialTagIds:
   - character-awakening
   - agency-shift
   - series-formula
-status: draft
+status: published
 videoStatus: pending
 featured: false
 ---

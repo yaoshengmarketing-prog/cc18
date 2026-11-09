@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "APNS-419",
-  "review_sha256": "02e1863695922d232096148ba5ecec90a7051be5e1ca870ec4c91f2df1059beb",
+  "review_sha256": "2502985d9b6eaf2d2a8fd6c69a5258e6831bd1673e883475b1a6b05e0b2179d9",
   "selected_thesis": "這部片最值得看的，不只是露出或淫亂元素本身，而是它把「露出慾望附身的女生」拍成一條有前後層次的角色曲線：從試探、被引導，到逐漸熟悉眾人視線與互動節奏，最後讓學生設定不只是外殼，而成為觀看角色如何接受並運用自身慾望的敘事框架。",
   "title_basis": {
     "performer": "糸井瑠花",
@@ -100,5 +100,6 @@
   ],
   "scores": null,
   "rewrite_attempts": 2,
-  "approved_for_publish": false
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z"
 }

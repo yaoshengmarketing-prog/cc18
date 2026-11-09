@@ -1,13 +1,13 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-09T03:38:22.831Z",
+  "generated_at": "2026-11-09T03:42:41.337Z",
   "generator_version": "1.1.0",
   "tracked_input_count": 524,
   "formal_movie_count": 523,
   "demo_count": 1,
-  "published_count": 520,
-  "formal_draft_count": 3,
-  "draft_count": 4,
+  "published_count": 521,
+  "formal_draft_count": 2,
+  "draft_count": 3,
   "entries": [
     {
       "stable_movie_id": "cc18:ABF-382",
@@ -168,7 +168,7 @@
       "slug": "apns-419",
       "master_path": "data/movie-master/apns-419.json",
       "is_demo": false,
-      "is_published": false,
+      "is_published": true,
       "content_hash": "11d4b72de8bd4fe3bec5e06ae97fb229828a723b348f53898eedacb96240411a"
     },
     {
