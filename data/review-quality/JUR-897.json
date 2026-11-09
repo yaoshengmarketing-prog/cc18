@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "JUR-897",
+  "review_sha256": "58374e9e544a5e79aff741c89c2cc9264d13fcb48d45206e1579fa37fda1f9e3",
+  "selected_thesis": "JUR-897 的設定把丈夫在職場上的麻煩變成妻子要承擔的代價。CAWB-040 則從房東與住戶之間的欠租和投訴切入，讓衝突直接落在當事人身上。兩者的選片差異，在於是否想看伴侶被捲入他人的職場權力關係。",
+  "title_basis": {
+    "performer": "彩月七緒",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "彩月七緒",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "被馴服的我",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "夫の年下上司に専属≪乳奴●≫として、飼い慣らされた私…。",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "彩月七緒",
+    "presentation_feature": "被馴服的我",
+    "editorial_judgment": "以同演員作品對照兩種權力關係。吉野透過丈夫的工作向妻子施壓，房東則直接找上欠租的住戶。",
+    "source_keywords": [
+      "彩月七緒",
+      "被馴服的我",
+      "夫の年下上司に専属≪乳奴●≫として、飼い慣らされた私…。",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介寫明吉野比丈夫年輕，卻是他的上司。他向妻子聲稱丈夫造成業務損失，並把服從當成幫忙的條件。",
+      "supports": "年齡與職位形成反差，吉野施壓的籌碼來自他在丈夫工作上的權力。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同樣由彩月七緒演出的 CAWB-040，在簡介中以共用走廊的垃圾投訴和欠租交代房東為何登門。",
+      "supports": "房東與住戶有直接的租賃關係，可與本作透過配偶施壓的設定形成具體對照。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "吉野對業務損失的說法是否屬實，以及丈夫後來是否知道妻子遭到要脅。",
+    "成片的情節比重、剪輯節奏、鏡位、聲音、表演與台詞。",
+    "彩月七緒的個人經歷，以及本作在系列中的集數或相對位置。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}

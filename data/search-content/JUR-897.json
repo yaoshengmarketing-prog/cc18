@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "movie_id": "JUR-897",
+  "generated_at": "2026-11-09T21:52:44.117Z",
+  "source_snapshot_hash": "sha256:ca5d3d5cbc522b656c8ad030070584fee85c7166e5a3e76f96fdf4fa4a686d6f",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看配偶因另一半的職場糾紛遭到牽連，可以從本作的三角關係入手。若想找房東與住戶直接爆發衝突的設定，CAWB-040 更貼近這項條件。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介從妻子的立場交代事件，由丈夫的上司告知業務損失，再向她提出帶有威脅的交換"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "NSODN-025",
+      "relation_type": "same_performer",
+      "reason": "同樣由彩月七緒出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "彩月七緒"
+      ],
+      "contrast_signals": [
+        "我所不認識的表情",
+        "自拍形式"
+      ]
+    },
+    {
+      "movie_id": "DSOD-060",
+      "relation_type": "same_performer",
+      "reason": "同樣由彩月七緒出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "彩月七緒"
+      ],
+      "contrast_signals": [
+        "寝取られ種付けプレス"
+      ]
+    },
+    {
+      "movie_id": "PPPE-449",
+      "relation_type": "same_performer",
+      "reason": "同樣由彩月七緒出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "彩月七緒"
+      ],
+      "contrast_signals": [
+        "女友巨乳OO內射OK誘惑",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作為何由丈夫的上司找上妻子？",
+    "與 CAWB-040 相比，兩作的施壓者各憑什麼身分介入？"
+  ]
+}
