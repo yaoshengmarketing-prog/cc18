@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-333",
+  "review_sha256": "47b9859d1a55cf0ef4fa09960c045475ce41d138e1128b25f69e2ecf0992f971",
+  "selected_thesis": "來源資料可確認本作以「絕對長女」作為主要作品線索。",
+  "title_basis": {
+    "performer": "渚愛理",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "渚愛理",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "絕對長女",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "渚愛理",
+    "presentation_feature": "絕對長女",
+    "editorial_judgment": "來源資料可確認本作以「絕對長女」作為主要作品線索。",
+    "source_keywords": [
+      "渚愛理",
+      "絕對長女",
+      "美少女設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：渚愛理",
+      "supports": "這項可追溯來源訊號支持文章以「渚愛理」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：美少女設定",
+      "supports": "這項可追溯來源訊號支持文章以「美少女設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：絕對長女",
+      "supports": "這項可追溯來源訊號支持文章以「絕對長女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：美少女",
+      "supports": "這項可追溯來源訊號支持文章以「美少女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：口交",
+      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}
