@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "movie_id": "EKDV-830",
+  "generated_at": "2026-11-09T07:41:18.760Z",
+  "source_snapshot_hash": "sha256:1e32dbb5887e6ec102ec3d678bb43c508394da5438475c6064fc4b0b24e608e3",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "如果你在意響蓮演的角色為什麼主動，本作給出的理由和兩人的舊交情有關。她的提議原本是為了男主角的新戀情，卻讓他開始重新看待她。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以男主角的視角介紹企劃，先交代他剛交到女友，再帶出青梅竹馬的提議與他對她"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想看青梅竹馬原有的交情，如何因一方開始談戀愛而起變化的讀者。",
+      "想依角色設定挑響蓮作品，偏好熟人關係與情感拉扯的讀者。"
+    ],
+    "not_for": [
+      "想找以陌生人搭訕為主要設定的響蓮作品的讀者。",
+      "選片前需要確認女友戲份、三人互動或具體感情結局的讀者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "EKDV-828",
+      "relation_type": "same_performer",
+      "reason": "同樣由響蓮出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "響蓮"
+      ],
+      "contrast_signals": [
+        "4K】這個騷貨",
+        "このメス女…只今発情真っ盛り！？"
+      ]
+    },
+    {
+      "movie_id": "BBAN-604",
+      "relation_type": "same_performer",
+      "reason": "同樣由響蓮出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "響蓮"
+      ],
+      "contrast_signals": [
+        "為了不讓陰沉過去曝光",
+        "北岡果林"
+      ]
+    },
+    {
+      "movie_id": "NGOD-359",
+      "relation_type": "same_performer",
+      "reason": "同樣由響蓮出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "響蓮"
+      ],
+      "contrast_signals": [
+        "秘書妻播種",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "男主角為何答應青梅竹馬的提議？他剛交到女友，擔心自己的經驗不足會讓對方反感。",
+    "兩部響蓮作品的主動有何差別？本作的提議建立在多年交情上，EKDV-828 的搭訕則源於原定搭檔缺席。"
+  ]
+}

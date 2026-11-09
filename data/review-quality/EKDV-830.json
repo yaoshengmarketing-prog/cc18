@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "EKDV-830",
+  "review_sha256": "6a188f10d3c2a9f4e9d7ffc423ebbba4cfe644f597013410158c819c7158e6b4",
+  "selected_thesis": "本作的選片辨識度在於練習的起因與情感焦點分屬兩段關係。男主角因為剛交到女友而答應練習，簡介卻把注意力帶回主動提議的青梅竹馬。",
+  "title_basis": {
+    "performer": "響蓮",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "響蓮",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "初次交到女友為了處男的我當作練習對象的●●",
+        "source_field": "series"
+      },
+      {
+        "type": "setting",
+        "value": "學生設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "響蓮",
+    "presentation_feature": "初次交到女友為了處男的我當作練習對象的●●",
+    "editorial_judgment": "從角色為何主動、又對誰主動切入，區分響蓮兩部作品的選片理由。",
+    "source_keywords": [
+      "響蓮",
+      "初次交到女友為了處男的我當作練習對象的●●",
+      "學生設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介先交代男主角交到第一任女友，接著由響蓮飾演的青梅竹馬提議陪他練習。男主角答應，是因為擔心被女友討厭。",
+      "supports": "新戀情促成了兩個熟人之間的練習，讓男主角有理由重新留意原本熟悉的人。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作簡介寫男主角看見青梅竹馬有別於平常強勢的一面，收尾又把他對親近感的理解拉回她身上。",
+      "supports": "關係的變化是本作文案給出的具體選片線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "EKDV-828 同樣由響蓮演出。原定搭檔缺席後，她的角色主動向路人搭訕。",
+      "supports": "兩作可以依角色主動的對象與契機來區分，一部從多年交情出發，一部從臨時變動與陌生相遇出發。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "僅憑標籤斷定女友的戲份、三人對峙或角色最後的選擇。",
+    "依簡介判定成片的故事比重、節奏、鏡位、聲音或表演品質。",
+    "把公開簡介中的對白當作已核對的成片台詞。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z"
+}
