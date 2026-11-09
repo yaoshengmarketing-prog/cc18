@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-09T03:26:19.177Z",
+  "generated_at": "2026-11-09T03:30:00.051Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 521,
-  "formal_movie_count": 520,
+  "tracked_input_count": 522,
+  "formal_movie_count": 521,
   "demo_count": 1,
-  "published_count": 517,
+  "published_count": 518,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -3383,6 +3383,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "60da7d907b139fc38f1731c3ab3ede3dfb38941db3e3de8f5dd05496b3cbd404"
+    },
+    {
+      "stable_movie_id": "cc18:PRIAN-055",
+      "catalog_code": "PRIAN-055",
+      "slug": "prian-055",
+      "master_path": "data/movie-master/prian-055.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "0e73ca54ec8deb7c673e5d92256910fc63213dfa5487ee3fd67a8cfb751bef07"
     },
     {
       "stable_movie_id": "cc18:PRIAN-058",

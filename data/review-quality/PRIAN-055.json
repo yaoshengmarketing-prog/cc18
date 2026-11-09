@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "PRIAN-055",
+  "review_sha256": "6c4e0af17d88cca5f2d911739fd66e5dca8ec6d5e66530b2f0b87f74fd5b0c05",
+  "selected_thesis": "來源資料可確認本作以「清宮仁愛/Unveil」作為主要作品線索。",
+  "title_basis": {
+    "performer": "清宮仁愛",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "清宮仁愛",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "清宮仁愛/Unveil",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "清宮仁愛",
+    "presentation_feature": "清宮仁愛/Unveil",
+    "editorial_judgment": "來源資料可確認本作以「清宮仁愛/Unveil」作為主要作品線索。",
+    "source_keywords": [
+      "清宮仁愛",
+      "清宮仁愛/Unveil",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：清宮仁愛",
+      "supports": "這項可追溯來源訊號支持文章以「清宮仁愛」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：清宮仁愛/Unveil",
+      "supports": "這項可追溯來源訊號支持文章以「清宮仁愛/Unveil」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：印象寫真",
+      "supports": "這項可追溯來源訊號支持文章以「印象寫真」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：HD",
+      "supports": "這項可追溯來源訊號支持文章以「HD」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

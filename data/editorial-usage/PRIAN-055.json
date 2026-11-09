@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "PRIAN-055",
+  "calls": [
+    {
+      "generated_at": "2026-09-06T22:05:13.768Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2464,
+      "cached_input_tokens": 0,
+      "output_tokens": 1263,
+      "total_tokens": 3727,
+      "estimated_cost_usd": 0.040738,
+      "estimated_payg_cash_cost_usd": 0.042774,
+      "direct_openai_reference_usd": 0.025105,
+      "gateway_premium_usd": 0.015633,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2464,
+    "cached_input_tokens": 0,
+    "output_tokens": 1263,
+    "estimated_cost_usd": 0.040738,
+    "estimated_payg_cash_cost_usd": 0.042774,
+    "direct_openai_reference_usd": 0.025105,
+    "gateway_premium_usd": 0.015633
+  }
+}
