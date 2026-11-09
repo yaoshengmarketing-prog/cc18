@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "movie_id": "DSOD-097",
+  "generated_at": "2026-11-09T01:42:30.161Z",
+  "source_snapshot_hash": "sha256:0dadd4cdc3819e7ead9870d17ae8b8f0e744572160e0d6dd02cc3f057f5ee2d8",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想找以直接展示為賣點的天川空作品，可以從 DSOD-097 的題材下手。想先知道角色為什麼得假裝親密，ROYD-362 的一日男友設定更明確。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "本作文案以「讓對方看」為主軸。對照作以同事假扮戀人、返鄉見家長的處境介紹人物互動"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想按展示題材挑選天川空作品的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "優先想找假戀人、見家長等明確角色處境的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "GVH-891",
+      "relation_type": "same_performer",
+      "reason": "同樣由天川空出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "天川空"
+      ],
+      "contrast_signals": [
+        "變成超級變態雌性",
+        "アヘ顔で興奮するような変態男を馬鹿にしていた淫語痴女"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "DSOD-097 的宣傳把哪個情境放在前面？",
+    "ROYD-362 的假扮情節如何提供另一種選片理由？"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-097",
+  "review_sha256": "29ef90aec9458d5672cd7b88b5096e0459ccca2f6a20af0aa66ca3788d7a715f",
+  "selected_thesis": "DSOD-097 把「讓對方看」當成企劃賣點。ROYD-362 則用一日男友見家長的設定，讓觀眾在意兩人的假戀情會不會被識破。前者適合按展示題材選片，後者有更明確的角色處境可供挑選。",
+  "title_basis": {
+    "performer": "天川空",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "天川空",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "とろマン見せつけ性交",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "天川空",
+    "presentation_feature": "とろマン見せつけ性交",
+    "editorial_judgment": "比較同一演員的兩部作品如何用不同情境吸引觀眾，一部直接主打展示，一部靠假戀人見家長的處境引出互動。",
+    "source_keywords": [
+      "天川空",
+      "とろマン見せつけ性交",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "DSOD-097 的來源標題明寫要讓對方觀看，簡介也反覆強調直接展示。",
+      "supports": "把展示視為本作公開文案的選片線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "ROYD-362 的簡介交代催婚、同事假扮一日男友、返鄉見家長，以及兩人擔心身分被識破。",
+      "supports": "對照作提供了明確的角色動機和需要維持的假身分，可作為偏好情境故事的選片依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "成片的鏡位、剪輯節奏、聲音與台詞。",
+    "實際演出效果、故事篇幅與假戀情的結局。",
+    "演員的私人經歷及整個系列一貫的呈現方式。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z"
+}

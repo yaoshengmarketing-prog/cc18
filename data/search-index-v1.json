@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:f51709690546be6703ca2adb8d96c91072abcb1b34751c209a2bf6e48485350b",
-  "source_generated_at": "2026-11-09T00:53:12.463Z",
+  "source_revision": "sha256:4c5f2659ae0c208f7718a4936eb480b6cc0338c81f9dbd864a80fc29e4d6b045",
+  "source_generated_at": "2026-11-09T01:48:44.100Z",
   "counts": {
-    "movies": 508,
+    "movies": 509,
     "performers": 363,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -614,12 +614,13 @@
     },
     {
       "stable_actor_id": "cc18.tv:actor:24396",
-      "display_name": "天川そら",
+      "display_name": "天川空",
       "display_name_zh_tw": null,
       "name_ja": null,
-      "source_name": "天川そら",
+      "source_name": "天川空",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:DSOD-097",
         "cc18:EKDV-826",
         "cc18:GVH-891",
         "cc18:ROYD-362"
@@ -10954,6 +10955,59 @@
         "article_title": "一件違規體操服，如何接上家訪設定？",
         "display_short_title": "家訪與違規體操服",
         "slug": "madv-643"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DSOD-097",
+        "source_cover": "https://cc18.tv/preview/80/b/n6Rbi_v4qby-800.jpg?v=1791837574",
+        "title": "天川空｜展示企劃",
+        "catalog_code": "DSOD-097",
+        "release_date": "2026-10-09",
+        "performers": [
+          "天川空"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dsod-097/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:24396"
+      ],
+      "search": {
+        "source_title": "超快感！淫水不斷流淌！強行掰穴～開發小穴連續絕頂！讓早洩男看著淫穴做愛 天川空",
+        "article_title": "從讓對方看，到別讓家人看穿",
+        "display_short_title": "天川空｜展示企劃",
+        "slug": "dsod-097"
       }
     },
     {

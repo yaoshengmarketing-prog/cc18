@@ -1784,7 +1784,7 @@
     },
     {
       "label": "ローション・オイル",
-      "occurrences": 12,
+      "occurrences": 13,
       "source_ids": [
         "NACT-182",
         "BBTU-119",
@@ -1797,10 +1797,11 @@
         "MIDA-850",
         "MXGS-1449",
         "ABF-393",
-        "ORECS-711"
+        "ORECS-711",
+        "DSOD-097"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-09",
       "status": "quarantined"
     },
     {
