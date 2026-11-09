@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-09T03:30:00.051Z",
+  "generated_at": "2026-11-09T03:34:29.065Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 522,
-  "formal_movie_count": 521,
+  "tracked_input_count": 523,
+  "formal_movie_count": 522,
   "demo_count": 1,
-  "published_count": 518,
+  "published_count": 519,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -3671,6 +3671,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "f192d3a17ba12b589434f465fedc1b5c057763b5a5adca9c3a559179c71c14a4"
+    },
+    {
+      "stable_movie_id": "cc18:SDAM-179",
+      "catalog_code": "SDAM-179",
+      "slug": "sdam-179",
+      "master_path": "data/movie-master/sdam-179.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "29eb73bbaa4c37fc5a9786975f2f86b0c72565c72f603ae58ceb713adadb00dd"
     },
     {
       "stable_movie_id": "cc18:SDAM-181",

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:0bdd52e61294da0011bb2d631b438335b3e315a4238bfb2da66fe0ee0964ba34",
-  "source_generated_at": "2026-11-09T03:30:00.051Z",
+  "source_revision": "sha256:f63065db35a8a087f0ae528b54850b5455032ffdc161663275c1a09871cdc051",
+  "source_generated_at": "2026-11-09T03:34:29.065Z",
   "counts": {
-    "movies": 518,
-    "performers": 366,
+    "movies": 519,
+    "performers": 367,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
   },
@@ -520,6 +520,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DOKS-693"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54569",
+      "display_name": "山田さち",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "山田さち",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SDAM-179"
       ]
     },
     {
@@ -28040,6 +28051,47 @@
         "article_title": "SDAB-358 要結愛｜18歲弓道少女的一日口交特訓",
         "display_short_title": "要結愛的一日口交特訓",
         "slug": "sdab-358"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SDAM-179",
+        "source_cover": "https://cc18.tv/preview/80/b/k4XZQZkUy8m-800.jpg?v=1787740803",
+        "title": "SDAM-179 山田さち｜山田幸",
+        "catalog_code": "SDAM-179",
+        "release_date": "2026-08-25",
+        "performers": [
+          "山田さち"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "amateur",
+            "label": "素人"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/sdam-179/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54569"
+      ],
+      "search": {
+        "source_title": "負債總額280萬日圓的極限打工妹（24歲）。為了追求一發逆轉而AV出道 山田幸",
+        "article_title": "SDAM-179 山田さち｜山田幸",
+        "display_short_title": null,
+        "slug": "sdam-179"
       }
     },
     {

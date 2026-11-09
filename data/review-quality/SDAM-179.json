@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "SDAM-179",
+  "review_sha256": "2a748ae769112d0cb2b9015919324ab440f733415d2e3bde0e4afa116b826c68",
+  "selected_thesis": "來源資料可確認本作以「山田幸」作為主要作品線索。",
+  "title_basis": {
+    "performer": "山田さち",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "山田さち",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "山田幸",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "紀錄片形式",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "山田さち",
+    "presentation_feature": "山田幸",
+    "editorial_judgment": "來源資料可確認本作以「山田幸」作為主要作品線索。",
+    "source_keywords": [
+      "山田さち",
+      "山田幸",
+      "素人企劃",
+      "紀錄片形式"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：山田さち",
+      "supports": "這項可追溯來源訊號支持文章以「山田さち」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：素人企劃",
+      "supports": "這項可追溯來源訊號支持文章以「素人企劃」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：紀錄片形式",
+      "supports": "這項可追溯來源訊號支持文章以「紀錄片形式」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：山田幸",
+      "supports": "這項可追溯來源訊號支持文章以「山田幸」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：素人",
+      "supports": "這項可追溯來源訊號支持文章以「素人」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：3p・4p",
+      "supports": "這項可追溯來源訊號支持文章以「3p・4p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09T03:29:21.723Z",
+  "updated_at": "2026-11-09T03:33:50.360Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -7756,6 +7756,21 @@
       ],
       "release_date": "2026-08-25",
       "source_url": "https://cc18.tv/player.php?uuid=vCBMkSmC23v&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-06"
+    },
+    {
+      "id": "SDAM-179",
+      "actress": [
+        "山田さち"
+      ],
+      "release_date": "2026-08-25",
+      "source_url": "https://cc18.tv/player.php?uuid=k4XZQZkUy8m&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

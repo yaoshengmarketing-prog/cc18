@@ -430,7 +430,7 @@
     },
     {
       "label": "紀錄片",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "SNOS-371",
         "SNOS-358",
@@ -439,7 +439,8 @@
         "NSODN-023",
         "START-625",
         "DSOD-074",
-        "MIKR-129"
+        "MIKR-129",
+        "SDAM-179"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-11-03",
@@ -977,7 +978,7 @@
     },
     {
       "label": "出道作",
-      "occurrences": 11,
+      "occurrences": 12,
       "source_ids": [
         "IPZZ-986",
         "IPZZ-988",
@@ -989,7 +990,8 @@
         "MIDA-791",
         "CAWB-078",
         "SDAM-181",
-        "SPONE-001"
+        "SPONE-001",
+        "SDAM-179"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-09",
@@ -3066,11 +3068,12 @@
     },
     {
       "label": "浴室",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "START-649"
+        "START-649",
+        "SDAM-179"
       ],
-      "first_seen": "2026-11-04",
+      "first_seen": "2026-09-07",
       "last_seen": "2026-11-04",
       "status": "quarantined"
     },
