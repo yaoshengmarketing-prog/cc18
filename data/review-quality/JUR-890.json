@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "JUR-890",
+  "review_sha256": "b95126fc7b0e161302d258892cd7aa906b5754af881db37d893de5c4bce19c3d",
+  "selected_thesis": "女友是男主角第一次到她家拜訪的契機，後來又成了他與女友母親必須瞞著的人。兩個情境之間的轉變，是這份文案最清楚的選片線索。",
+  "title_basis": {
+    "performer": "七海蒂娜",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "七海蒂娜",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "我瞞著女友",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "性欲が強過ぎる彼女の母がどストライクな僕は、彼女に内緒で何度",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "七海蒂娜",
+    "presentation_feature": "我瞞著女友",
+    "editorial_judgment": "把初次拜訪與後續私會放在一起讀，說明女友在文案裡的作用如何改變。",
+    "source_keywords": [
+      "七海蒂娜",
+      "我瞞著女友",
+      "性欲が強過ぎる彼女の母がどストライクな僕は、彼女に内緒で何度",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "公開簡介交代兩人已交往一年，男主角第一次到女友家，由她的母親接待。",
+      "supports": "文案透過既有的交往關係安排男主角與女友母親相識。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標題明寫瞞著女友，簡介也提到初次拜訪後開始私下見面。",
+      "supports": "隱瞞女友是後續往來的明確設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介由男主角自述，寫到他初訪時的緊張，以及他察覺女友母親主動拉近距離。",
+      "supports": "這份文案主要交代男主角如何理解這次相遇。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "女友是否察覺兩人私下往來，以及她得知後的反應。",
+    "成片的故事密度、節奏、鏡位、台詞與表演品質。",
+    "未經核對的同演員或同系列作品比較。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}

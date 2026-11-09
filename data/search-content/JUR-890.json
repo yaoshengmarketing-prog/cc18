@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "JUR-890",
+  "generated_at": "2026-11-09T20:41:15.259Z",
+  "source_snapshot_hash": "sha256:3c82656913a50b905a49420a49e972ca5e0eb82e24c16b134205c97f4113557b",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看交往關係如何成為秘密往來的前提，這部的簡介已交代清楚起點。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介由男主角自述，從初次到女友家拜訪寫到後續私會。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "喜歡從既有交往關係發展出秘密往來的題材，並想先知道角色如何相識的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "選片時希望先確認女友是否發現私會，或三人最後如何面對這段關係的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "男主角是在什麼情境下認識女友母親的？",
+    "女友在初次拜訪和後續私會的設定裡，各自有什麼作用？"
+  ]
+}

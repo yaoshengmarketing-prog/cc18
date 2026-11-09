@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:930380e710699250bab550d15ae5eb6efbab7f20e4e34024880dfc98e89bd0e8",
-  "source_generated_at": "2026-11-09T19:49:08.784Z",
+  "source_revision": "sha256:6ca132194e22a9e57b8c79eb27981019459757b6a71787edfa9d9d539e0e6d04",
+  "source_generated_at": "2026-11-09T20:47:55.579Z",
   "counts": {
-    "movies": 549,
-    "performers": 392,
+    "movies": 550,
+    "performers": 393,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -117,6 +117,17 @@
       "related_movie_ids": [
         "cc18:HSODA-132",
         "cc18:ROYD-353"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:23078",
+      "display_name": "七海蒂娜",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "七海蒂娜",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:JUR-890"
       ]
     },
     {
@@ -8831,6 +8842,35 @@
         "article_title": "一個轉校設定，如何帶出全班的反應？",
         "display_short_title": "全裸轉校生",
         "slug": "hmn-905"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:JUR-890",
+        "source_cover": "https://cc18.tv/preview/80/b/r_wCthNBG1G-800.jpg?v=1793802057",
+        "title": "瞞著女友的私會",
+        "catalog_code": "JUR-890",
+        "release_date": "2026-10-23",
+        "performers": [
+          "七海蒂娜"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/jur-890/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:23078"
+      ],
+      "search": {
+        "source_title": "對於性慾過強的女友母親完全是我的理想型，我瞞著女友，一次又一次地將勃起的肉棒奉獻給她…。 七海蒂娜",
+        "article_title": "第一次到女友家，怎麼成了私會的起點？",
+        "display_short_title": "瞞著女友的私會",
+        "slug": "jur-890"
       }
     },
     {

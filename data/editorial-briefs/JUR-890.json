@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "id": "JUR-890",
+  "generated_at": "2026-11-09T20:41:14.683Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/JUR-890.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "我瞞著女友",
+    "premise": "作品以「我瞞著女友」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「我瞞著女友」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "我瞞著女友",
+      "七海蒂娜"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p"
+    ]
+  },
+  "research_question": "從第一次到女友家拜訪到後來的私下見面，瑪丹娜這部作品的文案如何交代三人的關係？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=r_wCthNBG1G&cat=19",
+      "supports": "作品頁快照記載七海蒂娜演出、片商為瑪丹娜。簡介從男主角第一次到女友家拜訪寫起，由女友母親接待，之後兩人瞞著女友私下見面。"
+    },
+    {
+      "url": "https://cc18.tv/search.php?s_type=actor&s_tid=23078",
+      "supports": "人物關係快照登錄的來源姓名為七海蒂娜。"
+    }
+  ],
+  "angle_candidates": [
+    "從第一次拜訪到私下見面，女友在兩個情境裡分別扮演什麼角色？",
+    "男主角的第一人稱自述，如何影響文案對三人關係的交代？",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "女友是男主角第一次到她家拜訪的契機，後來又成了他與女友母親必須瞞著的人。兩個情境之間的轉變，是這份文案最清楚的選片線索。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "七海蒂娜",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "我瞞著女友",
+      "source_field": "title"
+    },
+    {
+      "type": "series",
+      "value": "性欲が強過ぎる彼女の母がどストライクな僕は、彼女に内緒で何度",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "瞞著女友，我和她母親私下見面",
+  "display_short_title": "瞞著女友的私會",
+  "title": "第一次到女友家，怎麼成了私會的起點？",
+  "seo_title": "JUR-890 七海蒂娜｜從初次拜訪到瞞著女友的私會",
+  "social_title": "七海蒂娜演出女友母親，一次拜訪如何變成兩人的秘密？",
+  "short_review": "簡介先交代男主角與女友交往一年，再寫他初次到女友家時由母親接待。後續的私會沿用這層關係，讓女友從拜訪的契機變成兩人必須瞞著的人。",
+  "editorial_angle": "把初次拜訪與後續私會放在一起讀，說明女友在文案裡的作用如何改變。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "公開簡介交代兩人已交往一年，男主角第一次到女友家，由她的母親接待。",
+      "supports": "文案透過既有的交往關係安排男主角與女友母親相識。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標題明寫瞞著女友，簡介也提到初次拜訪後開始私下見面。",
+      "supports": "隱瞞女友是後續往來的明確設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介由男主角自述，寫到他初訪時的緊張，以及他察覺女友母親主動拉近距離。",
+      "supports": "這份文案主要交代男主角如何理解這次相遇。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "女友是否察覺兩人私下往來，以及她得知後的反應。",
+    "成片的故事密度、節奏、鏡位、台詞與表演品質。",
+    "未經核對的同演員或同系列作品比較。"
+  ],
+  "decision_guide": {
+    "thesis": "想看交往關係如何成為秘密往來的前提，這部的簡介已交代清楚起點。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介由男主角自述，從初次到女友家拜訪寫到後續私會。"
+    ],
+    "audience_for": [
+      "喜歡從既有交往關係發展出秘密往來的題材，並想先知道角色如何相識的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "選片時希望先確認女友是否發現私會，或三人最後如何面對這段關係的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "男主角是在什麼情境下認識女友母親的？",
+      "女友在初次拜訪和後續私會的設定裡，各自有什麼作用？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "女友促成了初次見面，後來成了兩人瞞著的人",
+      "body": "簡介從一件平常的事寫起。男主角和女友交往一年，第一次到她家，緊張得站在原地，由七海蒂娜演出的女友母親出面接待。交往關係讓兩人有了見面的理由，也讓後來的私會有了必須瞞著的對象。從登門拜訪到私下見面，文案交代得最清楚的是這層轉變。"
+    },
+    {
+      "heading": "簡介跟著誰的視角走？",
+      "body": "第一次拜訪時，文案寫的是男主角的緊張，以及他如何察覺女友母親主動拉近距離。後續往來也由他自述。若你在意的是兩人怎麼認識、為什麼得瞞著女友，這份簡介已給出具體線索。若你的選片條件是女友如何看待兩人的往來，簡介沒有交代她的反應。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用提供的 CC18 作品頁與人物關係快照。外部作品頁未能開啟，文章依公開標題與簡介整理角色設定，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "3c82656913a50b905a49420a49e972ca5e0eb82e24c16b134205c97f4113557b",
+    "response_sha256": "8830bf024f961cff990b11d8fc07902763e502892376057f134e10fe29843a2d",
+    "research_input_sha256": "1874b77c6c32d8200d015a4ca5a26c4c9c7cdff9efea0fa55fcd74b10abc8f3c",
+    "related_source_ids": []
+  }
+}
