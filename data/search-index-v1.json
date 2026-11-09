@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:2d87548d85159c33b5ef7a10262376e7d550088018e601d4eeb5e41b876fffb6",
-  "source_generated_at": "2026-11-09T04:27:42.639Z",
+  "source_revision": "sha256:ef4f4d141b602ee5ba290a5bb22725aa4c1960fa406a8c27daffcd162d627c0d",
+  "source_generated_at": "2026-11-09T04:32:57.742Z",
   "counts": {
-    "movies": 529,
-    "performers": 383,
+    "movies": 530,
+    "performers": 384,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -3461,6 +3461,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MFYD-220"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28550",
+      "display_name": "黒島玲衣",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "黒島玲衣",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DSOD-061"
       ]
     },
     {
@@ -29063,6 +29074,51 @@
         "article_title": "DSOD-006｜一ノ瀬ラム等四位空服員的多人服務企劃",
         "display_short_title": "四位空服員的多人服務企劃",
         "slug": "dsod-006"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DSOD-061",
+        "source_cover": "https://cc18.tv/preview/80/b/pkQKOop0P2x-800.jpg?v=1787431224",
+        "title": "DSOD-061 黒島玲衣｜鼓勵元氣滿滿",
+        "catalog_code": "DSOD-061",
+        "release_date": "2026-08-21",
+        "performers": [
+          "黒島玲衣"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dsod-061/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28550"
+      ],
+      "search": {
+        "source_title": "鼓勵元氣滿滿！無論是休息時間還是上課時間,都引誘你1發2發3發地無限射精,讓青春期睾丸神魂顛倒的笑臉甘甜榨精部：部長玲 黑島玲衣",
+        "article_title": "DSOD-061 黒島玲衣｜鼓勵元氣滿滿",
+        "display_short_title": null,
+        "slug": "dsod-061"
       }
     },
     {

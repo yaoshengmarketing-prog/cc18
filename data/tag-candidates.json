@@ -1801,7 +1801,7 @@
     },
     {
       "label": "ローション・オイル",
-      "occurrences": 14,
+      "occurrences": 15,
       "source_ids": [
         "NACT-182",
         "BBTU-119",
@@ -1816,7 +1816,8 @@
         "ABF-393",
         "ORECS-711",
         "DSOD-097",
-        "START-617"
+        "START-617",
+        "DSOD-061"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-09",
@@ -2799,12 +2800,13 @@
     },
     {
       "label": "校園物語",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "DSOD-093",
-        "DSOD-094"
+        "DSOD-094",
+        "DSOD-061"
       ],
-      "first_seen": "2026-09-21",
+      "first_seen": "2026-09-07",
       "last_seen": "2026-11-06",
       "status": "quarantined"
     },
@@ -3093,13 +3095,14 @@
     },
     {
       "label": "ヘルス・ソープ",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "START-649",
         "ROYD-363",
-        "START-617"
+        "START-617",
+        "DSOD-061"
       ],
-      "first_seen": "2026-11-04",
+      "first_seen": "2026-09-07",
       "last_seen": "2026-11-09",
       "status": "quarantined"
     },

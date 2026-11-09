@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-061",
+  "review_sha256": "1a05007bfc4af734ff4a5e2b6d88bcfe5f2977fe648fa8499c1966f2055a4558",
+  "selected_thesis": "來源資料可確認本作以「鼓勵元氣滿滿」作為主要作品線索。",
+  "title_basis": {
+    "performer": "黒島玲衣",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "黒島玲衣",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "鼓勵元氣滿滿",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "黒島玲衣",
+    "presentation_feature": "鼓勵元氣滿滿",
+    "editorial_judgment": "來源資料可確認本作以「鼓勵元氣滿滿」作為主要作品線索。",
+    "source_keywords": [
+      "黒島玲衣",
+      "鼓勵元氣滿滿",
+      "美少女設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：黒島玲衣",
+      "supports": "這項可追溯來源訊號支持文章以「黒島玲衣」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：美少女設定",
+      "supports": "這項可追溯來源訊號支持文章以「美少女設定」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：鼓勵元氣滿滿",
+      "supports": "這項可追溯來源訊號支持文章以「鼓勵元氣滿滿」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：癡女",
+      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：美少女",
+      "supports": "這項可追溯來源訊號支持文章以「美少女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}
