@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09T17:52:57.677Z",
+  "updated_at": "2026-11-09T18:01:54.954Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -8138,6 +8138,21 @@
       "video_status": "rendered",
       "template": "story",
       "published_at": "2026-11-10"
+    },
+    {
+      "id": "DSOD-069",
+      "actress": [
+        "響蓮"
+      ],
+      "release_date": "2026-08-21",
+      "source_url": "https://cc18.tv/player.php?uuid=26Uf8Vi4n2L&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-06"
     }
   ]
 }
