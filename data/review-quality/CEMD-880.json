@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "CEMD-880",
+  "review_sha256": "1eff00ff44eb82c0f155f1e5fd39eede61e8ad5d84a576372317fe85c2a885a3",
+  "selected_thesis": "來源資料可確認本作以「新村朱里」作為主要作品線索。",
+  "title_basis": {
+    "performer": "新村朱里",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "新村朱里",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "～丸一日クンニだらけでイカセまくり～",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "新村朱里",
+    "presentation_feature": "～丸一日クンニだらけでイカセまくり～",
+    "editorial_judgment": "來源資料可確認本作以「新村朱里」作為主要作品線索。",
+    "source_keywords": [
+      "新村朱里",
+      "～丸一日クンニだらけでイカセまくり～",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：新村朱里",
+      "supports": "這項可追溯來源訊號支持文章以「新村朱里」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：～丸一日クンニだらけでイカセまくり～",
+      "supports": "這項可追溯來源訊號支持文章以「～丸一日クンニだらけでイカセまくり～」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：淫亂・過激系",
+      "supports": "這項可追溯來源訊號支持文章以「淫亂・過激系」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

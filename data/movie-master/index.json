@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-09T04:04:52.679Z",
+  "generated_at": "2026-11-09T04:09:21.470Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 526,
-  "formal_movie_count": 525,
+  "tracked_input_count": 527,
+  "formal_movie_count": 526,
   "demo_count": 1,
-  "published_count": 524,
+  "published_count": 525,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -449,6 +449,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "00683cd07fad15bf0ceebc43c6d05defe2eb4c6fe355e6a84b77d84ae9e94b77"
+    },
+    {
+      "stable_movie_id": "cc18:CEMD-880",
+      "catalog_code": "CEMD-880",
+      "slug": "cemd-880",
+      "master_path": "data/movie-master/cemd-880.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "6ce02e2fb76924d7d0fd1b7695922c51c5ddf8dd86ef4b6140f628b00f752548"
     },
     {
       "stable_movie_id": "cc18:CEMD-885",

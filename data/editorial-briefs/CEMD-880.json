@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "id": "CEMD-880",
+  "generated_at": "2026-09-06T22:13:28.933Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "gpt-5.4",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/CEMD-880.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": null,
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "淫亂・過激系"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "angle_candidates": [
+    "來源資料可確認本作以「新村朱里」作為主要作品線索。",
+    "～丸一日クンニだらけでイカセまくり～的企劃呈現與觀看取向",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "來源資料可確認本作以「新村朱里」作為主要作品線索。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "新村朱里",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "～丸一日クンニだらけでイカセまくり～",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "title": "CEMD-880 新村朱里 × ～丸一日クンニだらけでイカセまくり～｜新村朱里",
+  "seo_title": "CEMD-880 作品資料｜新村朱里",
+  "social_title": "CEMD-880｜新村朱里",
+  "short_review": "來源資料可確認本作以「新村朱里」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+  "editorial_angle": "來源資料可確認本作以「新村朱里」作為主要作品線索。",
+  "editorial_tag_ids": [],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：新村朱里",
+      "supports": "這項可追溯來源訊號支持文章以「新村朱里」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：～丸一日クンニだらけでイカセまくり～",
+      "supports": "這項可追溯來源訊號支持文章以「～丸一日クンニだらけでイカセまくり～」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：淫亂・過激系",
+      "supports": "這項可追溯來源訊號支持文章以「淫亂・過激系」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "公開內容只保留可追溯的來源資料整理。"
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "decision_guide": {
+    "thesis": "來源資料可確認本作以「新村朱里」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "新村朱里",
+      "～丸一日クンニだらけでイカセまくり～",
+      "高畫質",
+      "獨家配信"
+    ],
+    "audience_for": [
+      "想先依來源題材與作品設定挑選的觀眾",
+      "接受目前只提供來源資料整理的觀眾"
+    ],
+    "audience_not_for": [
+      "需要影片抽樣觀察才能決定的觀眾",
+      "需要鏡位、收音或段落變化結論的觀眾"
+    ],
+    "questions_answered": [
+      "來源資料可確認什麼？來源資料可確認本作以「新村朱里」作為主要作品線索。",
+      "目前能否提供影片觀察？目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+      "如何使用本頁？可先依來源題材與作品識別資訊判斷是否符合偏好。"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "來源資料與選片範圍",
+      "body": "來源資料可確認本作以「新村朱里」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。\n\n以「新村朱里」為選片基準，適合：想先依來源題材與作品設定挑選的觀眾；接受目前只提供來源資料整理的觀眾；若偏好：需要影片抽樣觀察才能決定的觀眾；需要鏡位、收音或段落變化結論的觀眾，則未必適合，這是本作最明確的觀看取捨。"
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:5a068f129b382e1a920704ef5003146e7ab37994b485828106bed7667302c690",
-  "source_generated_at": "2026-11-09T04:04:52.679Z",
+  "source_revision": "sha256:11ce7df7fa9a4d18035f9d68c6ed9ac7ef090ecbb463c2259dfd8d3f68d9228f",
+  "source_generated_at": "2026-11-09T04:09:21.470Z",
   "counts": {
-    "movies": 524,
+    "movies": 525,
     "performers": 379,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
@@ -3697,6 +3697,7 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:AVSA-455",
+        "cc18:CEMD-880",
         "cc18:DSOD-119",
         "cc18:MILK-308"
       ]
@@ -28684,6 +28685,55 @@
         "article_title": "CEAD-763 安野由美、葵百合香、竹内夏希、赤城穂波、藤田梢、辻櫻、藤井麗羅、上坂めい、白河花清、桐香優里、葉山小百合、小坂日葵、祈山愛、廣瀨美結｜vol.2",
         "display_short_title": null,
         "slug": "cead-763"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:CEMD-880",
+        "source_cover": "https://cc18.tv/preview/80/b/87bTlu6Geb0-800.jpg?v=1787553647",
+        "title": "CEMD-880 新村朱里 × ～丸一日クンニだらけでイカセまくり～｜新村朱里",
+        "catalog_code": "CEMD-880",
+        "release_date": "2026-08-22",
+        "performers": [
+          "新村朱里"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/cemd-880/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:13845"
+      ],
+      "search": {
+        "source_title": "徹底解剖新村晶～一整天都在舔陰,讓她高潮不斷的性愛～4",
+        "article_title": "CEMD-880 新村朱里 × ～丸一日クンニだらけでイカセまくり～｜新村朱里",
+        "display_short_title": null,
+        "slug": "cemd-880"
       }
     },
     {

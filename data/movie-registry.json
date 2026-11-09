@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09T04:04:28.430Z",
+  "updated_at": "2026-11-09T04:08:55.853Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -7829,6 +7829,21 @@
       ],
       "release_date": "2026-08-22",
       "source_url": "https://cc18.tv/player.php?uuid=qyETEiLLT7x&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-06"
+    },
+    {
+      "id": "CEMD-880",
+      "actress": [
+        "新村朱里"
+      ],
+      "release_date": "2026-08-22",
+      "source_url": "https://cc18.tv/player.php?uuid=87bTlu6Geb0&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
