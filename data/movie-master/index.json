@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-09T03:00:51.549Z",
+  "generated_at": "2026-11-09T03:09:27.052Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 516,
-  "formal_movie_count": 515,
+  "tracked_input_count": 517,
+  "formal_movie_count": 516,
   "demo_count": 1,
-  "published_count": 512,
+  "published_count": 513,
   "formal_draft_count": 3,
   "draft_count": 4,
   "entries": [
@@ -2006,6 +2006,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "2d5f73d654e7823d617aff023bd1a8f0832d5db6cc65248f921880da98e7f28c"
+    },
+    {
+      "stable_movie_id": "cc18:KNMB-131",
+      "catalog_code": "KNMB-131",
+      "slug": "knmb-131",
+      "master_path": "data/movie-master/knmb-131.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "55c7f76229236390864b768aadd2a39e4a8683abeab165a13ca84f8f3025c937"
     },
     {
       "stable_movie_id": "cc18:KSBJ-445",

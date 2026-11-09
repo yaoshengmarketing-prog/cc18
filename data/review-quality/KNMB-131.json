@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "KNMB-131",
+  "review_sha256": "2782bcc01666554130427c34d825a63541b5a650f6f630abf76554f341e63870",
+  "selected_thesis": "來源資料可確認本作以「天羽梨梨花的情況」作為主要作品線索。",
+  "title_basis": {
+    "performer": "天羽梨梨花",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "天羽梨梨花",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "天羽梨梨花的情況",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "【生好き女優限定】生生生生生生生生生生ドキュメント",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "自拍形式",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "天羽梨梨花",
+    "presentation_feature": "天羽梨梨花的情況",
+    "editorial_judgment": "來源資料可確認本作以「天羽梨梨花的情況」作為主要作品線索。",
+    "source_keywords": [
+      "天羽梨梨花",
+      "天羽梨梨花的情況",
+      "【生好き女優限定】生生生生生生生生生生ドキュメント",
+      "自拍形式"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：天羽梨梨花",
+      "supports": "這項可追溯來源訊號支持文章以「天羽梨梨花」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：【生好き女優限定】生生生生生生生生生生ドキュメント",
+      "supports": "這項可追溯來源訊號支持文章以「【生好き女優限定】生生生生生生生生生生ドキュメント」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：自拍形式",
+      "supports": "這項可追溯來源訊號支持文章以「自拍形式」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：天羽梨梨花的情況",
+      "supports": "這項可追溯來源訊號支持文章以「天羽梨梨花的情況」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：自拍",
+      "supports": "這項可追溯來源訊號支持文章以「自拍」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

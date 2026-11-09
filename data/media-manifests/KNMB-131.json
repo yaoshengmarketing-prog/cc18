@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "KNMB-131",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-09T03:08:48.903Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/KNMB-131/hero-v1.jpg",
+      "r2_key": "works/2026/08/KNMB-131/hero-v1.jpg",
+      "bytes": 765194,
+      "sha256": "c7e8f3c89cae1cfdfaf6b11bfc509b837d1ec631fc89d864418ee5835694b626",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/KNMB-131/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/08/KNMB-131/scene-vertical-v1.jpg",
+      "bytes": 1137222,
+      "sha256": "cbe8d54fc13e878a20819dc5d5e8ec16a30eb2732e4d1cc360bc1df66014c0c2",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3080479,
+    "sha256": "a61fd1a735df5279da7911bba1cf1243acd6f7fca9d6a2c2393ba47e24df56cd",
+    "target_r2_key": "works/2026/08/KNMB-131/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/KNMB-131/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

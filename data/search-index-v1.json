@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:52cc40eb6a31bdd4d719eef4904ffa5f28c55701c3b69558b8644bb9517e86fc",
-  "source_generated_at": "2026-11-09T03:00:51.549Z",
+  "source_revision": "sha256:1aff54dcaec404449456115acd31da0f9e417690245d60945fb1d728f95549ae",
+  "source_generated_at": "2026-11-09T03:09:27.052Z",
   "counts": {
-    "movies": 512,
+    "movies": 513,
     "performers": 365,
     "excluded_formal_drafts": 3,
     "excluded_demos": 1
@@ -646,6 +646,7 @@
       "source_name": "天羽梨梨花",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:KNMB-131",
         "cc18:MILK-306",
         "cc18:MXGS-1447"
       ]
@@ -27675,6 +27676,47 @@
         "article_title": "PIYO-238 鳥羽いく｜鳥羽郁",
         "display_short_title": null,
         "slug": "piyo-238"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:KNMB-131",
+        "source_cover": "https://cc18.tv/preview/80/b/pvqxx0eUo3T-800.jpg?v=1787877549",
+        "title": "KNMB-131｜天羽梨梨花的情況",
+        "catalog_code": "KNMB-131",
+        "release_date": "2026-08-27",
+        "performers": [
+          "天羽梨梨花"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "self-shot",
+            "label": "自拍視角"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/knmb-131/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:43533"
+      ],
+      "search": {
+        "source_title": "【限定熱愛無套女優】生生生生生生生生生生紀錄片 史上最強動漫聲線真色小不點 天羽梨梨花的情況",
+        "article_title": "KNMB-131｜天羽梨梨花的情況",
+        "display_short_title": null,
+        "slug": "knmb-131"
       }
     },
     {
