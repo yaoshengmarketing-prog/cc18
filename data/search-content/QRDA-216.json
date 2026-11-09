@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "movie_id": "QRDA-216",
+  "generated_at": "2026-11-09T08:38:51.260Z",
+  "source_snapshot_hash": "sha256:e25772fc789ef96635da5bf6686be6101bfe10e11e0260e9816f6005020a3225",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "用片名辨認道具題材，用簡介判斷女王主導的雙人設定是否符合選片偏好。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源片名突出大型道具，公開簡介以第二人稱介紹女王主導的雙人設定。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想找羽月棗演出、且偏好女王主導角色設定的讀者",
+      "會依道具題材篩選作品的讀者"
+    ],
+    "not_for": [
+      "需要先確認完整故事線、段落安排或特定道具用法才會選片的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "片名把哪項題材放在最前面？",
+    "公開簡介把誰放在主導位置？",
+    "片名與簡介各適合用來判斷哪種選片偏好？"
+  ]
+}

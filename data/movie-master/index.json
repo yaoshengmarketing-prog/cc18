@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-09T06:49:53.311Z",
+  "generated_at": "2026-11-09T08:44:45.153Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 536,
-  "formal_movie_count": 535,
+  "tracked_input_count": 537,
+  "formal_movie_count": 536,
   "demo_count": 1,
-  "published_count": 534,
+  "published_count": 535,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -3527,6 +3527,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "45cba219bf036dcddb19c04a783e4a2c82d2c1accfea11d3160138630c12c0af"
+    },
+    {
+      "stable_movie_id": "cc18:QRDA-216",
+      "catalog_code": "QRDA-216",
+      "slug": "qrda-216",
+      "master_path": "data/movie-master/qrda-216.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "3e317032498f31529f9416b3688e4babdd50134556597951286bb2f5bb8a1f11"
     },
     {
       "stable_movie_id": "cc18:REBD-1062",

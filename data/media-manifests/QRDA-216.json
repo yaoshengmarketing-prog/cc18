@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "QRDA-216",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-09T08:43:42.258Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/QRDA-216/hero-v1.jpg",
+      "r2_key": "works/2026/10/QRDA-216/hero-v1.jpg",
+      "bytes": 801641,
+      "sha256": "04456e426885f607dca32712538357d54f02acf500df2a7d1f6e61a16a1a3b3e",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "1917decb204c4a2b8013240b91c282f2",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/QRDA-216/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/QRDA-216/scene-vertical-v1.jpg",
+      "bytes": 1060706,
+      "sha256": "88e45c0f45a47311c683046d2703e7b7a5be107aeb7d931d18a34cb3beab7efe",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "4a0d5042d9e34b3a9d54f760cd26e047",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2964962,
+    "sha256": "12b6a2c47f579f63c00bafcb58b7ee6aff0923974dbfd817aae304ea1f0b041d",
+    "target_r2_key": "works/2026/10/QRDA-216/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/QRDA-216/vertical-v1.mp4"
+  }
+}

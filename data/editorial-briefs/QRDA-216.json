@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "id": "QRDA-216",
+  "generated_at": "2026-11-09T08:38:50.718Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/QRDA-216.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "巨型假陰莖",
+    "premise": "作品以「巨型假陰莖」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「巨型假陰莖」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "巨型假陰莖",
+      "我快要陷進去了",
+      "羽月棗",
+      "美腿"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "片名以大型道具為賣點，公開簡介為什麼又把重心放在羽月棗的女王角色？兩者各能提供什麼選片線索？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=u_a6p1_5J8q&cat=19",
+      "supports": "CC18 作品頁快照列出羽月棗為演出者。來源片名突出大型道具，公開簡介則將她稱為「棗女王」，以支配關係和兩人相處的設定介紹作品。"
+    }
+  ],
+  "angle_candidates": [
+    "對照片名的道具賣點與簡介的女王角色，說明兩者各自提供的選片線索。",
+    "從簡介對讀者使用第二人稱的寫法，分析它如何介紹兩人的角色關係。",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "片名讓讀者辨認道具題材，簡介則把羽月棗放在兩人關係中掌握主導權的位置。想找女王角色的讀者，可以從簡介得到比片名更具體的選片線索。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "羽月棗",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "巨型假陰莖",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "羽月棗與巨型道具",
+  "display_short_title": "羽月棗的巨型道具",
+  "title": "片名主打道具，簡介怎麼介紹棗女王？",
+  "seo_title": "QRDA-216 羽月棗｜從道具賣點看棗女王的角色設定",
+  "social_title": "從片名到簡介，羽月棗的女王角色在哪裡浮現？",
+  "short_review": "來源片名以大型道具抓住注意力，簡介則讓羽月棗以女王身分主導兩人關係。若你是為了這類角色設定找片，簡介比片名更能說明本作的定位。",
+  "editorial_angle": "從同一作品的片名與簡介，區分道具題材和角色關係這兩種選片線索。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "CC18 作品頁快照的片名開頭即強調道具尺寸。",
+      "supports": "道具是來源片名用來辨識題材的主要線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介以第二人稱對讀者說話，稱羽月棗為「棗女王」，並以她主導的兩人關係收束。",
+      "supports": "簡介給出的角色設定是羽月棗掌握主導權，讀者則被放在與她互動的位置。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "日文原題與系列歸屬",
+    "具體場景、道具使用方式與段落順序",
+    "實際台詞、鏡頭、聲音、表演品質與敘事節奏",
+    "羽月棗的個人經歷與其他作品中的角色定位"
+  ],
+  "decision_guide": {
+    "thesis": "用片名辨認道具題材，用簡介判斷女王主導的雙人設定是否符合選片偏好。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源片名突出大型道具，公開簡介以第二人稱介紹女王主導的雙人設定。"
+    ],
+    "audience_for": [
+      "想找羽月棗演出、且偏好女王主導角色設定的讀者",
+      "會依道具題材篩選作品的讀者"
+    ],
+    "audience_not_for": [
+      "需要先確認完整故事線、段落安排或特定道具用法才會選片的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "片名把哪項題材放在最前面？",
+      "公開簡介把誰放在主導位置？",
+      "片名與簡介各適合用來判斷哪種選片偏好？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "片名先交代題材，簡介才交代誰主導",
+      "body": "來源片名一開頭就強調道具尺寸，方便讀者一眼辨認題材。簡介則先寫羽月棗的外形與目光，再用第二人稱把讀者放進兩人相處的設定裡，最後以「棗女王」定下她的角色。這個寫法讓人知道，簡介要介紹的是由她掌握主導權的關係。"
+    },
+    {
+      "heading": "為了道具或女王角色找片，可以各看哪裡？",
+      "body": "如果你習慣按道具題材挑片，片名已經給了明確的分類線索。如果你是為了羽月棗的女王角色而來，簡介更值得看。它具體交代了她在雙人設定裡的位置，但能回答的選片問題也到這裡。想先知道故事怎麼展開，這份簡介提供的資訊有限。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據 [CC18 的 QRDA-216 作品頁快照](https://cc18.tv/player.php?uuid=u_a6p1_5J8q&cat=19)中的來源片名、演出者資料與公開簡介。作品主標採編輯整理的繁中顯示題。材料範圍限於本作的公開文字，未使用影片抽樣，也未納入其他作品作比較。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "e25772fc789ef96635da5bf6686be6101bfe10e11e0260e9816f6005020a3225",
+    "response_sha256": "46d4fd61a55bc07e3bda5fe77ef83e0ae60e53937c4c12e62f4c9b70a8118d10",
+    "research_input_sha256": "22d338f26e2eebb92a1fa3e78a356e529b742f3affc4c4c8df6551fa6f4dad7b",
+    "related_source_ids": []
+  }
+}

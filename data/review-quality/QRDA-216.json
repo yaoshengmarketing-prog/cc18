@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "QRDA-216",
+  "review_sha256": "9e6ff53c17566fedd4053aa70f1ef0acf4c773a3a01b6d82d424eeea7013efc3",
+  "selected_thesis": "片名讓讀者辨認道具題材，簡介則把羽月棗放在兩人關係中掌握主導權的位置。想找女王角色的讀者，可以從簡介得到比片名更具體的選片線索。",
+  "title_basis": {
+    "performer": "羽月棗",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "羽月棗",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "巨型假陰莖",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "羽月棗",
+    "presentation_feature": "巨型假陰莖",
+    "editorial_judgment": "從同一作品的片名與簡介，區分道具題材和角色關係這兩種選片線索。",
+    "source_keywords": [
+      "羽月棗",
+      "巨型假陰莖",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "CC18 作品頁快照的片名開頭即強調道具尺寸。",
+      "supports": "道具是來源片名用來辨識題材的主要線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介以第二人稱對讀者說話，稱羽月棗為「棗女王」，並以她主導的兩人關係收束。",
+      "supports": "簡介給出的角色設定是羽月棗掌握主導權，讀者則被放在與她互動的位置。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "日文原題與系列歸屬",
+    "具體場景、道具使用方式與段落順序",
+    "實際台詞、鏡頭、聲音、表演品質與敘事節奏",
+    "羽月棗的個人經歷與其他作品中的角色定位"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z"
+}
