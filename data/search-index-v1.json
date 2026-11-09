@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:30ddd51c99da10ba5734fca0aa1952de3eeecacf6635eb5a34d15142ffc6e1be",
-  "source_generated_at": "2026-11-09T21:58:33.926Z",
+  "source_revision": "sha256:e68485ec251927384a6977b8090e730ffe9c703423fdda1293a0e70330afc0a6",
+  "source_generated_at": "2026-11-09T22:52:44.494Z",
   "counts": {
-    "movies": 551,
-    "performers": 393,
+    "movies": 552,
+    "performers": 394,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -3970,6 +3970,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-405"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:34283",
+      "display_name": "榊原萌",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "榊原萌",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-410"
       ]
     },
     {
@@ -9036,6 +9047,55 @@
         "article_title": "一泊二日，如何替蜜このは的情婦角色定調？",
         "display_short_title": "情婦的溫泉小旅行",
         "slug": "snos-386"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-410",
+        "source_cover": "https://cc18.tv/preview/80/b/gNd6vyPfmal-800.jpg?v=1793115108",
+        "title": "叔姪同住的祕密",
+        "catalog_code": "SNOS-410",
+        "release_date": "2026-10-23",
+        "performers": [
+          "榊原萌"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-410/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:34283"
+      ],
+      "search": {
+        "source_title": "對無法說出「不要」的怯弱姪女起了慾念,偷偷持續插著她…沒想到她竟然成了大叔雞巴的俘虜。 榊原萌",
+        "article_title": "片名預告姪女態度反轉，簡介為何聚焦叔叔怕被揭發？",
+        "display_short_title": "叔姪同住的祕密",
+        "slug": "snos-410"
       }
     },
     {

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-410",
+  "review_sha256": "dc4650173b16f85a0e95564ce5de448045523f0786548b212e161787b99ed2e2",
+  "selected_thesis": "片名預告姪女態度反轉，簡介卻把篇幅留給叔叔越界後怕被揭發的焦慮。想按故事設定選片，可以先辨認這是以叔叔視角介紹的家庭越界題材。姪女的動機仍是文案留下的空白。",
+  "title_basis": {
+    "performer": "榊原萌",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "榊原萌",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "榊原萌",
+    "presentation_feature": "美少女設定",
+    "editorial_judgment": "對照片名預告的反轉與簡介交代的家庭處境，指出叔叔的焦慮如何主導宣傳敘事，以及這個視角對選片的意義。",
+    "source_keywords": [
+      "榊原萌",
+      "美少女設定",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源片名先形容姪女難以開口拒絕，再用反轉語氣預告她的態度變化。",
+      "supports": "態度反轉是片名提出的宣傳主張，角色的意願與動機仍無法據此確認。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介從叔叔的第一人稱出發，交代兩人相隔七年重逢後同住，並寫到他越界後擔心姪女向哥哥揭發。",
+      "supports": "簡介把家庭壓力寫成叔叔對事情曝光的焦慮，姪女的想法則留在他的猜測裡。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "姪女角色的確切年齡、真實動機，以及由沉默推定同意",
+    "成片的敘事視角、節奏、表演、鏡位、聲音與台詞",
+    "榊原萌的個人經歷及本作與其他作品的系列關係"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}

@@ -467,7 +467,7 @@
     },
     {
       "label": "制服",
-      "occurrences": 23,
+      "occurrences": 24,
       "source_ids": [
         "SNOS-409",
         "SNOS-369",
@@ -491,10 +491,11 @@
         "NVH-090",
         "SNOS-388",
         "HUNTC-540",
-        "RGAV-005"
+        "RGAV-005",
+        "SNOS-410"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-11-05",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     },
     {
@@ -562,7 +563,7 @@
     },
     {
       "label": "美乳",
-      "occurrences": 50,
+      "occurrences": 51,
       "source_ids": [
         "SNOS-369",
         "SNOS-447",
@@ -613,10 +614,11 @@
         "ABF-389",
         "NHDTC-258",
         "KNMB-131",
-        "SDNM-560"
+        "SDNM-560",
+        "SNOS-410"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     },
     {
@@ -3131,13 +3133,14 @@
     },
     {
       "label": "浴室",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "START-649",
-        "SDAM-179"
+        "SDAM-179",
+        "SNOS-410"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     },
     {

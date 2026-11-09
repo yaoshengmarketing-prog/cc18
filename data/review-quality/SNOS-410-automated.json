@@ -1,0 +1,34 @@
+{
+  "schema_version": 2,
+  "id": "SNOS-410",
+  "checked_at": "2026-11-09T22:50:20.178Z",
+  "review_sha256": "c8e555c690bcc96289b018430b9f66b1c43c30594e595c95d084afe9c560ac6b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "sitewide_reused_sentences",
+    "missing_creative_reconstruction_audit"
+  ],
+  "findings": [
+    {
+      "code": "sitewide_reused_sentences",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "SITEWIDE_ORIGINALITY_WARNING"
+    },
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 3,
+    "evidence_items": 2,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

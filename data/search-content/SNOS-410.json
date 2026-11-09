@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-410",
+  "generated_at": "2026-11-09T22:46:35.868Z",
+  "source_snapshot_hash": "sha256:4541e4c2530da61d8db2e7d80b361df468a6c4f8894260357f27880212238e78",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想知道文案如何安排家庭關係與曝光壓力，可以從同住設定和叔叔怕被揭發的處境切入。若你在意姪女是否有清楚的角色視角，簡介只交代了叔叔如何看待她的沉默。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "片名用姪女的態度反轉製造懸念。",
+      "簡介以叔叔的第一人稱交代同住與事後的焦慮。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想先弄清楚榊原萌在本作所處的角色關係與宣傳視角的讀者",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "想避開親屬間的性侵害題材，或希望簡介先交代雙方角色動機的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "片名與簡介各自強調什麼？",
+    "叔姪同住的設定如何帶出怕被家人發現的壓力？",
+    "簡介對姪女的動機交代了多少？"
+  ]
+}
