@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "TEND-039",
   "artwork_policy": "original_non_explicit_no_real_person_likeness",
-  "generated_at": "2026-11-09T09:53:05.389Z",
+  "generated_at": "2026-11-09T17:37:06.026Z",
   "assets": [
     {
       "role": "article_hero",
@@ -12,9 +12,10 @@
       "sha256": "6c460c99ff6ef930cd08306566ed389affa79607ce2926dcad5790bd2ed97af6",
       "provider": "aitokenking",
       "model": "seedream-4.5",
-      "provider_task_id": "f125a194e9604deda2193c3c9f3fc8a0",
-      "source_file": "article_hero.jpg",
-      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
     },
     {
       "role": "vertical_scene",
@@ -24,9 +25,10 @@
       "sha256": "c7571ea478c10a4c019d182168cbebae76d6310991baefbdb94199429926124c",
       "provider": "aitokenking",
       "model": "seedream-4.5",
-      "provider_task_id": "ad0211d2eb404d318fdc5c92793ba6b9",
-      "source_file": "vertical_scene.jpg",
-      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
     }
   ],
   "video": {
@@ -36,10 +38,11 @@
     "height": 1920,
     "codec": "h264",
     "local_path": null,
-    "local_retention_status": "purged_after_r2_hash_verification",
+    "local_retention_status": "purged_before_r2_rehydration",
     "bytes": 2040916,
     "sha256": "928b0f66451af8c0bf13c71de8b459a28c27619fbd42ad82603a9d03b9dffb1b",
     "target_r2_key": "works/2026/10/TEND-039/vertical-v1.mp4",
-    "public_path": "/media/works/2026/10/TEND-039/vertical-v1.mp4"
+    "public_path": "/media/works/2026/10/TEND-039/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
   }
 }
