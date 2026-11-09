@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "CMV-212",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-09T06:48:51.055Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/CMV-212/hero-v1.jpg",
+      "r2_key": "works/2026/10/CMV-212/hero-v1.jpg",
+      "bytes": 691030,
+      "sha256": "accce6c6584f6847a34bfe4aeda6ef227209135fd09f0029795262f649dc0c60",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "a50254cbd5ee4833a328663691b217f6",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/CMV-212/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/CMV-212/scene-vertical-v1.jpg",
+      "bytes": 1173373,
+      "sha256": "83afba767b29b03e704ea02804dd2af3906c48f29cbafaf426cb7c4c6028169d",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "41a8cc44bc0c4dd899392a4988824e18",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3247450,
+    "sha256": "1383f424347171dae81daea260b41eaea3b23c98da4d2cc811c53b62710379bd",
+    "target_r2_key": "works/2026/10/CMV-212/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/CMV-212/vertical-v1.mp4"
+  }
+}

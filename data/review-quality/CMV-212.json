@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "CMV-212",
+  "review_sha256": "9ef7a1bf02038d29b8627848e0c4dc79400299de37d4295ac4830bc25a3b2005",
+  "selected_thesis": "簡介用告解交代司祭介入的理由。聖女出於罪惡感坦承自己的慾望，司祭卻把這份告白解讀成附身，讓宗教權威成為地下密室情節的前提。",
+  "title_basis": {
+    "performer": "星乃菜穂",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "星乃菜穂",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "聖女純潔破壞",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "星乃菜穂",
+    "presentation_feature": "聖女純潔破壞",
+    "editorial_judgment": "以聖女與司祭對同一份告白的不同理解，說明宗教權威在本作宣傳設定中的作用。",
+    "source_keywords": [
+      "星乃菜穂",
+      "聖女純潔破壞",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "簡介將聖女前往懺悔室的原因寫為罪惡感，並交代她向司祭坦承自己的慾望。",
+      "supports": "告解首先是聖女對自身罪惡感的回應。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "司祭把告白解讀為附身，簡介接著將情節帶入地下密室。",
+      "supports": "附身是司祭在故事設定中的判定，也構成他們介入的理由。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "作品頁將本作歸入「緊縛」與「SM」。",
+      "supports": "標籤交代題材類別，告解與附身判定則由簡介補足。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "附身在故事中確實發生。",
+    "作品隸屬某一系列，或和同片商作品共享世界觀。",
+    "成片的敘事比重、節奏、表演、鏡頭與聲音。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-08T16:00:00.000Z"
+}

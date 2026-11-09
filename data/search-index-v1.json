@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:8a4ca09c5c68ea78064e49a388ceb5f437a6eef4497576bd8c972111e008af7f",
-  "source_generated_at": "2026-11-09T05:49:43.942Z",
+  "source_revision": "sha256:71440f2e6fb025f2987478e41fa7762276899dc92a9e4935ccc1fcd8e7195637",
+  "source_generated_at": "2026-11-09T06:49:53.311Z",
   "counts": {
-    "movies": 533,
-    "performers": 384,
+    "movies": 534,
+    "performers": 385,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -2305,6 +2305,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54764",
+      "display_name": "星乃菜穂",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "星乃菜穂",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:CMV-212"
       ]
     },
     {
@@ -11281,6 +11292,43 @@
         "article_title": "當協商過程成為作品的主要懸念",
         "display_short_title": "玉城夏帆的協商企劃",
         "slug": "cemd-899"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:CMV-212",
+        "source_cover": "https://cc18.tv/preview/80/b/2BkhCtzORdy-800.jpg?v=1791837564",
+        "title": "聖女的懺悔",
+        "catalog_code": "CMV-212",
+        "release_date": "2026-10-10",
+        "performers": [
+          "星乃菜穂"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/cmv-212/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54764"
+      ],
+      "search": {
+        "source_title": "聖女純潔破壞 於疼痛與快虐中徹底墮落為肉慾抖M 星乃菜穗",
+        "article_title": "聖女的告白，為何成了司祭介入的理由？",
+        "display_short_title": "聖女的懺悔",
+        "slug": "cmv-212"
       }
     },
     {

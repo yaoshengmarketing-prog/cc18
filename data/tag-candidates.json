@@ -1245,7 +1245,7 @@
     },
     {
       "label": "SM",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "BBAN-601",
         "ACZD-250",
@@ -1254,10 +1254,11 @@
         "HMN-911",
         "MVSD-708",
         "CMN-265",
-        "MVG-174"
+        "MVG-174",
+        "CMV-212"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-09",
       "status": "quarantined"
     },
     {
@@ -1437,7 +1438,7 @@
     },
     {
       "label": "野外",
-      "occurrences": 9,
+      "occurrences": 10,
       "source_ids": [
         "DLDSS-539",
         "CEMD-889",
@@ -1447,10 +1448,11 @@
         "START-656",
         "MVG-174",
         "NHDTC-234",
-        "GVH-884"
+        "GVH-884",
+        "CMV-212"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "status": "quarantined"
     },
     {
@@ -1687,7 +1689,7 @@
     },
     {
       "label": "迷你系",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "PIYO-238",
         "PRED-894",
@@ -1696,10 +1698,11 @@
         "PIYO-240",
         "SUJI-318",
         "NACT-188",
-        "TEND-040"
+        "TEND-040",
+        "CMV-212"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-09",
       "status": "quarantined"
     },
     {
@@ -2420,16 +2423,17 @@
     },
     {
       "label": "緊縛",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "MUDR-406",
         "ACZD-250",
         "MVSD-700",
         "CMN-265",
-        "MVG-174"
+        "MVG-174",
+        "CMV-212"
       ],
       "first_seen": "2026-09-11",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-09",
       "status": "quarantined"
     },
     {
@@ -2659,17 +2663,18 @@
     },
     {
       "label": "小柄",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "NHDTC-247",
         "SUJI-319",
         "MURIKURI-015",
         "SUJI-318",
         "NACT-188",
-        "KNMB-131"
+        "KNMB-131",
+        "CMV-212"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-11-09",
       "status": "quarantined"
     },
     {

@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "id": "CMV-212",
+  "generated_at": "2026-11-09T06:43:44.489Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/CMV-212.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "聖女純潔破壞",
+    "premise": "作品以「聖女純潔破壞」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「聖女純潔破壞」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "聖女純潔破壞",
+      "星乃菜穗"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "在星乃菜穂演出的這部作品裡，公開簡介如何利用「懺悔」交代司祭介入的理由，這和只看「緊縛」標籤有什麼不同？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=2BkhCtzORdy&cat=19",
+      "supports": "採用提供的作品頁快照。演員關係列名星乃菜穂，作品標籤列有「緊縛」與「SM」。簡介交代聖女因罪惡感而告解，司祭把她坦承的慾望解讀為附身，情節設定接著轉入地下密室。"
+    }
+  ],
+  "angle_candidates": [
+    "從懺悔到附身判定，分析同一份告白如何被兩方賦予不同意義。",
+    "對照緊縛標籤與地下密室設定，區分題材分類與情節前提。",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "簡介用告解交代司祭介入的理由。聖女出於罪惡感坦承自己的慾望，司祭卻把這份告白解讀成附身，讓宗教權威成為地下密室情節的前提。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "星乃菜穂",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "聖女純潔破壞",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "星乃菜穂與聖女的懺悔",
+  "display_short_title": "聖女的懺悔",
+  "title": "聖女的告白，為何成了司祭介入的理由？",
+  "seo_title": "CMV-212 星乃菜穂｜從聖女告解到附身判定",
+  "social_title": "從懺悔室到地下密室，司祭如何解讀聖女的告白？",
+  "short_review": "星乃菜穂飾演的聖女因罪惡感前去告解，司祭則把她的告白解讀為附身。這層解讀讓地下密室有了具體的情節前提，也讓想按角色設定選片的讀者，多了一項可從簡介確認的線索。",
+  "editorial_angle": "以聖女與司祭對同一份告白的不同理解，說明宗教權威在本作宣傳設定中的作用。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "簡介將聖女前往懺悔室的原因寫為罪惡感，並交代她向司祭坦承自己的慾望。",
+      "supports": "告解首先是聖女對自身罪惡感的回應。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "司祭把告白解讀為附身，簡介接著將情節帶入地下密室。",
+      "supports": "附身是司祭在故事設定中的判定，也構成他們介入的理由。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "作品頁將本作歸入「緊縛」與「SM」。",
+      "supports": "標籤交代題材類別，告解與附身判定則由簡介補足。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "附身在故事中確實發生。",
+    "作品隸屬某一系列，或和同片商作品共享世界觀。",
+    "成片的敘事比重、節奏、表演、鏡頭與聲音。"
+  ],
+  "decision_guide": {
+    "thesis": "若你想按角色設定篩選緊縛題材，這部的辨識點是聖女的告解如何被司祭用來界定她的處境。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以聖女告解、司祭判定附身、情節轉入地下密室的順序介紹企劃。"
+    ],
+    "audience_for": [
+      "想依宗教場景與角色權力關係篩選作品的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "希望避開司祭以宗教權威強制介入這類情節設定的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "星乃菜穂在公開簡介中飾演什麼角色？",
+      "司祭如何解讀聖女的告白，這項判定又怎麼帶出地下密室的設定？",
+      "作品標籤和簡介各能提供什麼選片線索？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "同一份告白，兩種解讀",
+      "body": "星乃菜穂飾演的聖女因罪惡感走進懺悔室，向司祭坦承自己的慾望。對聖女來說，告解是為了說出讓她不安的事。司祭卻把她說的話解讀為附身，簡介也從這個判定轉入地下密室。這個轉折把解釋她處境的權力交到司祭手上，交代了他們為何介入。"
+    },
+    {
+      "heading": "標籤指向題材，告解交代角色處境",
+      "body": "「緊縛」標籤能幫你按題材篩選，簡介則說明角色為什麼會陷入這個處境。如果你選片時也在意誰掌握權力、介入的理由是什麼，可以留意司祭如何把一場由聖女主動開始的告解，轉成由他們主導的處置。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據提供的 CC18 作品頁快照，使用演員關係、標籤與公開簡介。選片判斷限於文案交代的角色和情節前提，未使用影片抽樣或其他作品作對照。[CC18 作品頁](https://cc18.tv/player.php?uuid=2BkhCtzORdy&cat=19)"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "c74bf76b53343499ebe450dd863fac88bdf0324df075735a1dac50d79fd6e512",
+    "response_sha256": "89c6d49b1ef5a87e9149d669c900114f21141c9bf292bd2a12be30375655a008",
+    "research_input_sha256": "22985997cb6ee69b69f873e1b32204c073435549e1c0731743687badc2c4959c",
+    "related_source_ids": []
+  }
+}

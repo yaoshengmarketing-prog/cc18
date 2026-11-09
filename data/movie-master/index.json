@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-09T05:49:43.942Z",
+  "generated_at": "2026-11-09T06:49:53.311Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 535,
-  "formal_movie_count": 534,
+  "tracked_input_count": 536,
+  "formal_movie_count": 535,
   "demo_count": 1,
-  "published_count": 533,
+  "published_count": 534,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -530,6 +530,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "c17d0496b9e05fdce48977c6e26cb6964c7fd4e9646526336b2d1b6b5619fd2b"
+    },
+    {
+      "stable_movie_id": "cc18:CMV-212",
+      "catalog_code": "CMV-212",
+      "slug": "cmv-212",
+      "master_path": "data/movie-master/cmv-212.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "9bccd9c939fdc14465bc26181a2ea2930826d4cf90e2d2e00bdb534802555643"
     },
     {
       "stable_movie_id": "cc18:CNSTV-044",

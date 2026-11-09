@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "movie_id": "CMV-212",
+  "generated_at": "2026-11-09T06:43:45.161Z",
+  "source_snapshot_hash": "sha256:c74bf76b53343499ebe450dd863fac88bdf0324df075735a1dac50d79fd6e512",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若你想按角色設定篩選緊縛題材，這部的辨識點是聖女的告解如何被司祭用來界定她的處境。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以聖女告解、司祭判定附身、情節轉入地下密室的順序介紹企劃。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想依宗教場景與角色權力關係篩選作品的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "希望避開司祭以宗教權威強制介入這類情節設定的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "星乃菜穂在公開簡介中飾演什麼角色？",
+    "司祭如何解讀聖女的告白，這項判定又怎麼帶出地下密室的設定？",
+    "作品標籤和簡介各能提供什麼選片線索？"
+  ]
+}
