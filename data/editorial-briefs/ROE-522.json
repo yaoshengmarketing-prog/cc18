@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "id": "ROE-522",
+  "generated_at": "2026-11-09T19:42:12.633Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/ROE-522.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "MONROE新人デビュー",
+    "premise": "作品以「MONROE新人デビュー」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「MONROE新人デビュー」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "MONROE新人デビュー",
+      "令人著迷的存在",
+      "無論是容貌還是身體",
+      "一切都出類拔萃",
+      "掌控億萬財富",
+      "奪走眾人目光的女人"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p"
+    ]
+  },
+  "research_question": "同樣是介紹喜多美あいり的出道，作品標題為什麼強調「43 歲女社長」，簡介卻花篇幅交代她的婚姻？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=3hMd8LdCK8S&cat=19",
+      "supports": "提供的作品頁快照記錄了標題中的 43 歲與女社長身分，以及簡介用經營美容院、結婚十年和婚姻中的親密困境交代出道動機。"
+    },
+    {
+      "url": "https://cc18.tv/search.php?s_type=actor&s_tid=54805",
+      "supports": "提供的人物關係快照將本作演員記為喜多美あいり。"
+    },
+    {
+      "url": "https://cc18.tv/search.php?s_type=series&s_tid=21037",
+      "supports": "提供的系列關係快照將本作歸入「MONROE新人デビュー」。"
+    }
+  ],
+  "angle_candidates": [
+    "對照標題的職業身分與簡介的婚姻設定，分析兩者如何分別建立第一印象與出道動機。",
+    "從 43 歲與新人系列的並置切入，分析文案如何在介紹出道前先交代人物背景。",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "標題用「43 歲女社長」讓新人有鮮明的身分，簡介再用十年婚姻中的親密困境回答「為什麼現在出道」。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "喜多美あいり",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "MONROE新人デビュー",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "43 歲女社長喜多美あいり的出道作",
+  "display_short_title": "43 歲女社長出道",
+  "title": "女社長出道，為什麼要從十年婚姻說起？",
+  "seo_title": "ROE-522 選片筆記｜喜多美あいり的女社長出道設定",
+  "social_title": "喜多美あいり的出道文案，為什麼寫到十年婚姻？",
+  "short_review": "「43 歲女社長」讓人記住喜多美あいり的出道設定，十年婚姻中的親密困境則交代她為何做出這個決定。若你選出道作時在意人物有沒有明確的動機，這份簡介給了具體線索。",
+  "editorial_angle": "對照同一部作品的標題和簡介，區分用來吸引注意的職業身分，以及讓出道決定有來由的婚姻設定。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品標題並列 43 歲、女社長與出道。",
+      "supports": "文案先用年齡與職業身分介紹這位新人。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "作品簡介把經營美容院的成就與十年婚姻中的親密困境並置，接著交代出演決定。",
+      "supports": "婚姻設定在文案裡承擔解釋出道動機的作用。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作歸入「MONROE新人デビュー」系列。",
+      "supports": "系列歸類與標題採用的新人出道定位一致。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "演員的實際職業、收入與婚姻經歷",
+    "婚姻設定在成片中的篇幅、演出方式與完成度",
+    "本作與其他同系列作品的設定或風格差異"
+  ],
+  "decision_guide": {
+    "thesis": "想找一部在簡介裡就交代人物為何出道的作品，可以從這部的婚姻設定判斷題材是否合口味。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開文案先介紹年齡與職業身分，再以婚姻中的親密困境交代出演動機。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "標題用什麼身分介紹這位新人？",
+      "簡介如何把十年婚姻寫成出道決定的背景？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "標題先介紹身分，簡介才交代決定",
+      "body": "「43 歲女社長」把年齡、職業和出道放在一起，讓喜多美あいり在新人系列裡有個好辨認的身分。簡介把這個身分寫得更具體，說她經營美容院，接著轉到一段已維持十年的婚姻。文案把長期缺乏親密關係帶來的苦惱，寫成她做出出演決定的原因。職業成就交代她已經建立了怎樣的生活，婚姻困境則讓讀者明白，為什麼出道會在這個時候成為一個選擇。"
+    },
+    {
+      "heading": "選片時，可以先看你對哪一段有興趣",
+      "body": "如果你是被「女社長」吸引，公開文案能確認的是美容院經營者這層身分。若你更在意人物為什麼做出一個改變，簡介給得更具體，從十年婚姻裡的親密困境一路寫到出演決定。這份材料足以判斷題材是否吸引你。若你需要先知道婚姻線在片中占多少篇幅，光看簡介還無法判斷。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用提供的作品標題、公開簡介與人物及系列關係快照。官方作品頁未能核對，本文亦未使用影片抽樣。職業與婚姻細節均按宣傳設定處理。作品資料見 [CC18 作品頁](https://cc18.tv/player.php?uuid=3hMd8LdCK8S&cat=19)。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "acaba9dffac06ced307c336755f9d1694b89af9c544b637a9d6ec6844b47442b",
+    "response_sha256": "c6a03b69a857d3ba0cbd0b7ad72f9e9fd0060c8034ab55ec2912b6912f95d1a9",
+    "research_input_sha256": "5bdb15300287582724e7035e5dfd5e1558e39d1ceaa1d83d6efbccdbde7fa9d0",
+    "related_source_ids": []
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "ROE-522",
+  "generated_at": "2026-11-09T19:42:13.225Z",
+  "source_snapshot_hash": "sha256:acaba9dffac06ced307c336755f9d1694b89af9c544b637a9d6ec6844b47442b",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想找一部在簡介裡就交代人物為何出道的作品，可以從這部的婚姻設定判斷題材是否合口味。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開文案先介紹年齡與職業身分，再以婚姻中的親密困境交代出演動機。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "標題用什麼身分介紹這位新人？",
+    "簡介如何把十年婚姻寫成出道決定的背景？"
+  ]
+}

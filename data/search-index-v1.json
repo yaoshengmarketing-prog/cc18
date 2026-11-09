@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:7fc15571e5e9cca87965b34eba04e39bc47246e9ad139d5dd9c6b2f0801f4ac1",
-  "source_generated_at": "2026-11-09T18:48:16.491Z",
+  "source_revision": "sha256:930380e710699250bab550d15ae5eb6efbab7f20e4e34024880dfc98e89bd0e8",
+  "source_generated_at": "2026-11-09T19:49:08.784Z",
   "counts": {
-    "movies": 548,
-    "performers": 391,
+    "movies": 549,
+    "performers": 392,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -3571,6 +3571,17 @@
         "cc18:DOKS-693",
         "cc18:FJIN-169",
         "cc18:SQTE-717"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54805",
+      "display_name": "喜多美あいり",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "喜多美あいり",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:ROE-522"
       ]
     },
     {
@@ -8820,6 +8831,35 @@
         "article_title": "一個轉校設定，如何帶出全班的反應？",
         "display_short_title": "全裸轉校生",
         "slug": "hmn-905"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:ROE-522",
+        "source_cover": "https://cc18.tv/preview/80/b/3hMd8LdCK8S-800.jpg?v=1793802051",
+        "title": "43 歲女社長出道",
+        "catalog_code": "ROE-522",
+        "release_date": "2026-10-23",
+        "performers": [
+          "喜多美あいり"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/roe-522/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54805"
+      ],
+      "search": {
+        "source_title": "令人著迷的存在，無論是容貌還是身體，一切都出類拔萃。掌控億萬財富、奪走眾人目光的女人。H罩杯女社長 喜多美愛里 43歲 AV DEBUT",
+        "article_title": "女社長出道，為什麼要從十年婚姻說起？",
+        "display_short_title": "43 歲女社長出道",
+        "slug": "roe-522"
       }
     },
     {

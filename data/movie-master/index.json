@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-09T18:48:16.491Z",
+  "generated_at": "2026-11-09T19:49:08.784Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 550,
-  "formal_movie_count": 549,
+  "tracked_input_count": 551,
+  "formal_movie_count": 550,
   "demo_count": 1,
-  "published_count": 548,
+  "published_count": 549,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -3680,6 +3680,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "2febc2e6fb704a20936bf035715e098c5a05bb2aaabf394bae8a390242b2bbd5"
+    },
+    {
+      "stable_movie_id": "cc18:ROE-522",
+      "catalog_code": "ROE-522",
+      "slug": "roe-522",
+      "master_path": "data/movie-master/roe-522.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "82bcb2095daa20765d0fa37e5206aba7331fde8e664001a1ab4c7bd823fcb065"
     },
     {
       "stable_movie_id": "cc18:ROE-541",

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "ROE-522",
+  "review_sha256": "c6498a1529f849e9df42c971c545e9838684bfba9110b82d54e34018cd43a05e",
+  "selected_thesis": "標題用「43 歲女社長」讓新人有鮮明的身分，簡介再用十年婚姻中的親密困境回答「為什麼現在出道」。",
+  "title_basis": {
+    "performer": "喜多美あいり",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "喜多美あいり",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "MONROE新人デビュー",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "喜多美あいり",
+    "presentation_feature": "MONROE新人デビュー",
+    "editorial_judgment": "對照同一部作品的標題和簡介，區分用來吸引注意的職業身分，以及讓出道決定有來由的婚姻設定。",
+    "source_keywords": [
+      "喜多美あいり",
+      "MONROE新人デビュー",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品標題並列 43 歲、女社長與出道。",
+      "supports": "文案先用年齡與職業身分介紹這位新人。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "作品簡介把經營美容院的成就與十年婚姻中的親密困境並置，接著交代出演決定。",
+      "supports": "婚姻設定在文案裡承擔解釋出道動機的作用。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作歸入「MONROE新人デビュー」系列。",
+      "supports": "系列歸類與標題採用的新人出道定位一致。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "演員的實際職業、收入與婚姻經歷",
+    "婚姻設定在成片中的篇幅、演出方式與完成度",
+    "本作與其他同系列作品的設定或風格差異"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}

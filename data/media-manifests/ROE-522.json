@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "ROE-522",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-09T19:47:37.924Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/ROE-522/hero-v1.jpg",
+      "r2_key": "works/2026/10/ROE-522/hero-v1.jpg",
+      "bytes": 683040,
+      "sha256": "69a70024cf49a11a7543f9943c88596969abbb6dccf91cd574dc5e30f3b7d516",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "79704c1ce4a444cfb1af2408e883ae52",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/ROE-522/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/ROE-522/scene-vertical-v1.jpg",
+      "bytes": 1255862,
+      "sha256": "ffd0e5c5440b1fdb67441cd89c44144ba115ba61de894424118f9ec4e63d7b6d",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "48c2922eaab240a593857525ae9e58fc",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3572791,
+    "sha256": "8c57fad73efc025102a002fa8c8d1d91b847eae45c5de37684599cea05f553c5",
+    "target_r2_key": "works/2026/10/ROE-522/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/ROE-522/vertical-v1.mp4"
+  }
+}
