@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-09T04:09:21.470Z",
+  "generated_at": "2026-11-09T04:14:00.549Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 527,
-  "formal_movie_count": 526,
+  "tracked_input_count": 528,
+  "formal_movie_count": 527,
   "demo_count": 1,
-  "published_count": 525,
+  "published_count": 526,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -3527,6 +3527,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "66ff9a2ffb0745c575bed4b5394f28010915fd30f4c7c3888fb019e9b2256182"
+    },
+    {
+      "stable_movie_id": "cc18:RGAV-005",
+      "catalog_code": "RGAV-005",
+      "slug": "rgav-005",
+      "master_path": "data/movie-master/rgav-005.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "be0cb49b34dabec2a7730a5b0e9651c9d85ae3e0beb8e62c206356ef286ee8fe"
     },
     {
       "stable_movie_id": "cc18:RKI-750",
