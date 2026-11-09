@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "movie_id": "MKMP-763",
+  "generated_at": "2026-11-09T02:43:04.898Z",
+  "source_snapshot_hash": "sha256:1a609178fa226de9aa9f9d72a52d8bb614296dd0071caffcf18d9ab7a59ae3e9",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看羽月乃蒼置身三人女僕企劃，可以從本作看起。想找以她為主角的南國寫真，可以先看《Noah》的介紹。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "居家場景、到府家務與三人女僕後宮是公開簡介的重點。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "對居家女僕設定或三人卡司有興趣的讀者",
+      "想比較羽月乃蒼在多人企劃與個人寫真中如何被介紹的讀者"
+    ],
+    "not_for": [
+      "主要想找羽月乃蒼個人寫真的讀者",
+      "需要先確認角色戲份或敘事節奏才會選片的讀者"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "PRIAN-054",
+      "relation_type": "same_performer",
+      "reason": "同樣由羽月乃蒼出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "羽月乃蒼"
+      ],
+      "contrast_signals": [
+        "南國的大自然",
+        "國寶級美乳"
+      ]
+    },
+    {
+      "movie_id": "GVH-878",
+      "relation_type": "same_performer",
+      "reason": "同樣由羽月乃蒼出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "羽月乃蒼"
+      ],
+      "contrast_signals": [
+        "學生設定",
+        "高畫質"
+      ]
+    },
+    {
+      "movie_id": "EMBM-055",
+      "relation_type": "same_performer",
+      "reason": "同樣由似鳥日菜出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "似鳥日菜"
+      ],
+      "contrast_signals": [
+        "塚田しおり",
+        "パンスト足責め妻"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作從什麼情境帶出女僕後宮設定？",
+    "同樣由羽月乃蒼演出，本作與《Noah》的公開介紹各自強調什麼？"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09T01:48:07.186Z",
+  "updated_at": "2026-11-09T02:49:23.817Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -7621,6 +7621,23 @@
       ],
       "release_date": "2026-10-09",
       "source_url": "https://cc18.tv/player.php?uuid=n6Rbi_v4qby&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-09"
+    },
+    {
+      "id": "MKMP-763",
+      "actress": [
+        "小梅惠奈",
+        "似鳥日菜",
+        "羽月乃蒼"
+      ],
+      "release_date": "2026-10-10",
+      "source_url": "https://cc18.tv/player.php?uuid=7j65BKgR02s&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "id": "MKMP-763",
+  "generated_at": "2026-11-09T02:43:03.875Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/MKMP-763.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "ぷにもちメイド",
+    "premise": "作品以「ぷにもちメイド」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「ぷにもちメイド」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "ぷにもちメイド",
+      "女僕",
+      "後宮"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "3p・4p"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由羽月乃蒼演出，本作的居家女僕企劃和《Noah》的南國寫真，分別提供什麼選片理由？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=7j65BKgR02s&cat=19",
+      "supports": "作品頁快照列出三位演員與《ぷにもちメイド》系列，簡介以到家裡幫忙做家務的女僕帶出後宮設定，並稱本作為第三彈。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=vufzBCv8FeD&cat=19",
+      "supports": "《Noah》的作品頁快照以羽月乃蒼為介紹主角，將南國自然景色作為寫真背景。"
+    },
+    {
+      "url": "https://av-event.jp/event/41389/",
+      "supports": "イベルト的活動公告將本作列為似鳥日菜的出演作品，並刊載以女僕與後宮為主的日文品名。"
+    }
+  ],
+  "angle_candidates": [
+    "以羽月乃蒼的兩部作品對照，區分三人角色企劃與個人寫真的選片理由。",
+    "從家務這個開場設定切入，說明本作如何在簡介裡建立女僕與主人的關係。",
+    "羽月乃蒼的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作以到府做家務為引子，將三位演員放進同一個女僕後宮設定。《Noah》則以南國風景襯托羽月乃蒼的個人形象。即使是循著同一位演員找片，也可以依自己更在意角色組合還是個人寫真來選。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "小梅惠奈",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "ぷにもちメイド",
+      "source_field": "series"
+    },
+    {
+      "type": "performer",
+      "value": "似鳥日菜",
+      "source_field": "actress"
+    },
+    {
+      "type": "performer",
+      "value": "羽月乃蒼",
+      "source_field": "actress"
+    }
+  ],
+  "work_title": "全裸女僕到府服務",
+  "display_short_title": "三人女僕後宮",
+  "title": "從南國寫真到居家女僕，羽月乃蒼兩部作品怎麼選？",
+  "seo_title": "MKMP-763 全裸女僕到府服務｜羽月乃蒼的女僕企劃與寫真對照",
+  "social_title": "同樣有羽月乃蒼，想看三人女僕企劃還是南國寫真？",
+  "short_review": "本作從女僕到府做家務切入，主打三人卡司共用的居家角色設定。若是為了羽月乃蒼找片，《Noah》的南國個人寫真提供了另一個清楚的選擇。",
+  "editorial_angle": "用同一位演員的兩份公開簡介，區分多人角色企劃與個人寫真的看點。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介從女僕到府幫忙做家務切入，作品資料列出小梅惠奈、似鳥日菜與羽月乃蒼。",
+      "supports": "居家場景與三人卡司構成本作的選片線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "《Noah》的簡介把羽月乃蒼置於南國自然景色中，介紹重心集中在她的個人形象。",
+      "supports": "同樣由羽月乃蒼演出，《Noah》提供的是以個人與場景為重心的寫真選項。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "似鳥日菜的活動公告把本作列為出演作品，並以女僕與後宮作為刊載品名的重點。",
+      "supports": "女僕後宮是活動公告與作品頁共同呈現的企劃定位。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "三位演員的戲份比例、出場順序與角色分工",
+    "成片的故事密度、節奏、鏡位、聲音與實際台詞",
+    "前兩彈的角色設定及其與本作的劇情連續性"
+  ],
+  "decision_guide": {
+    "thesis": "想看羽月乃蒼置身三人女僕企劃，可以從本作看起。想找以她為主角的南國寫真，可以先看《Noah》的介紹。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "居家場景、到府家務與三人女僕後宮是公開簡介的重點。"
+    ],
+    "audience_for": [
+      "對居家女僕設定或三人卡司有興趣的讀者",
+      "想比較羽月乃蒼在多人企劃與個人寫真中如何被介紹的讀者"
+    ],
+    "audience_not_for": [
+      "主要想找羽月乃蒼個人寫真的讀者",
+      "需要先確認角色戲份或敘事節奏才會選片的讀者"
+    ],
+    "questions_answered": [
+      "本作從什麼情境帶出女僕後宮設定？",
+      "同樣由羽月乃蒼演出，本作與《Noah》的公開介紹各自強調什麼？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "女僕是為了什麼來到家裡？",
+      "body": "本作簡介給了一個很日常的理由：到府幫忙做家務。這個開場先交代女僕與主人怎麼碰面，再帶出後宮設定。小梅惠奈、似鳥日菜與羽月乃蒼三人同列卡司，讓想看居家女僕題材的讀者也能把演員組合納入考量。"
+    },
+    {
+      "heading": "同樣有羽月乃蒼，兩部作品各看什麼？",
+      "body": "《Noah》的簡介用南國自然景色襯托羽月乃蒼，從人物和地方介紹這部寫真。本作則用到府家務把讀者帶進三人女僕的角色設定。若你是循著羽月乃蒼找片，可以先想自己對哪一點更有興趣：她在南國背景下的個人寫真，或她與另外兩位演員同列卡司的居家女僕企劃。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "比較依據為 CC18 的本作與《Noah》作品頁快照，包括演員關係與公開簡介。イベルト的活動公告另可核對似鳥日菜出演及本作刊載品名。本文比較的是公開介紹的重心，未抽樣影片。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "1a609178fa226de9aa9f9d72a52d8bb614296dd0071caffcf18d9ab7a59ae3e9",
+    "response_sha256": "9c7baeb402fa88b36cb176d586a640696d5fb51cdfc275e59cf3ecb1bcbfdea5",
+    "research_input_sha256": "1d8edf825721dbe646a9812318c4625773748b93745e41014129ef5ee2868328",
+    "related_source_ids": [
+      "GVH-884",
+      "USAG-100",
+      "EMBM-055",
+      "GVH-878",
+      "PRIAN-054"
+    ]
+  }
+}
