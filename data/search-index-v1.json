@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:4dca3b84c160e971d567b1b01b4f2b01a8e90cab66c45f350895306d1d98ed9b",
-  "source_generated_at": "2026-11-09T11:46:12.735Z",
+  "source_revision": "sha256:085ddc4265312db84ed12a2e185cd4a65a270adc01bb44ec2e91934d709501ed",
+  "source_generated_at": "2026-11-09T12:46:54.868Z",
   "counts": {
-    "movies": 538,
-    "performers": 388,
+    "movies": 539,
+    "performers": 389,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -1844,6 +1844,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MISM-463"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:41266",
+      "display_name": "那津乃千奈美",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "那津乃千奈美",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:NACT-198"
       ]
     },
     {
@@ -8966,6 +8977,55 @@
         "article_title": "片名寫女與男，簡介把焦點放在誰身上？",
         "display_short_title": "丈夫不在家的女與男",
         "slug": "avk-018"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:NACT-198",
+        "source_cover": "https://cc18.tv/preview/80/b/2sPEn_SVu6h-800.jpg?v=1793115136",
+        "title": "快感美容室",
+        "catalog_code": "NACT-198",
+        "release_date": "2026-10-20",
+        "performers": [
+          "那津乃千奈美"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beauty-salon",
+            "label": "美容院"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/nact-198/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:41266"
+      ],
+      "search": {
+        "source_title": "快感美容室 被噁心大叔的厲害技巧開發出快感的我 那津乃千奈美",
+        "article_title": "從隨時可走到無法離開，美容室的承諾如何翻轉？",
+        "display_short_title": "快感美容室",
+        "slug": "nact-198"
       }
     },
     {

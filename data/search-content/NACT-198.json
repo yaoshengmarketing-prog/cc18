@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "NACT-198",
+  "generated_at": "2026-11-09T12:39:40.128Z",
+  "source_snapshot_hash": "sha256:8af24d32b42c7b856969191ec4ef7fbf67ef3fe39a7febc2aa6c22385078fb78",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "挑片時可先看自己是否接受這項設定：顧客答應試做後，失去了原先以為自己握有的離開選擇。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以美容室的免費試做開場，接著寫店主違背承諾，帶出強迫情節。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "主角為什麼在對店主有所疑慮時仍願意試做？",
+    "店主的哪項承諾落空，讓美容室題材有了不同的選片考量？"
+  ]
+}

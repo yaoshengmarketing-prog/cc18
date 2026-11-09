@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "id": "NACT-198",
+  "generated_at": "2026-11-09T12:39:39.394Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/NACT-198.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "快楽エステルーム",
+    "premise": "作品以「快楽エステルーム」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「快楽エステルーム」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "快楽エステルーム",
+      "快感美容室",
+      "那津乃千奈美"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "窈窕"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [
+      "美容院"
+    ],
+    "action": [],
+    "presentation": [
+      "戲劇、連續劇",
+      "720p",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "初次免費和可以隨時離開的承諾，如何讓美容室成為故事的轉折？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=2sPEn_SVu6h&cat=19",
+      "supports": "CC18 作品頁快照列出那津乃千奈美為演員。簡介交代主角因網路口碑上門，在初次免費和可以隨時離開的承諾下同意接受服務，後續情節卻寫她失去離開的機會。"
+    }
+  ],
+  "angle_candidates": [
+    "從隨時可走到無法離開，分析店主的承諾如何成為情節轉折。",
+    "從網路口碑到初次免費，分析簡介如何交代主角起初願意嘗試的理由。",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "初次免費讓主角願意一試，隨時可走的承諾讓她以為自己仍有選擇。簡介後來推翻這項承諾，把美容室設定轉成一場圍繞失去自主權的情境劇。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "那津乃千奈美",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "快楽エステルーム",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "快感美容室｜那津乃千奈美",
+  "display_short_title": "快感美容室",
+  "title": "從隨時可走到無法離開，美容室的承諾如何翻轉？",
+  "seo_title": "NACT-198 快感美容室｜那津乃千奈美與免費試做的劇情轉折",
+  "social_title": "一場免費試做，怎麼變成走不了的美容室體驗？",
+  "short_review": "那津乃千奈美飾演的顧客原本只想試做一次。簡介用店主前後落差最大的承諾帶出轉折，也讓想避開強迫情節的讀者能先做判斷。",
+  "editorial_angle": "追蹤店主如何用免費與可隨時離開的承諾降低顧客戒心，以及承諾落空後，這個設定如何影響選片。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "主角看了網路口碑才上門，見到店主後有所疑慮。",
+      "supports": "簡介先交代她為何有興趣，也交代她為何需要店主進一步說服。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "店主提出初次免費，並表示顧客可以隨時離開。主角答應接受服務後，簡介卻寫她沒有機會離開。",
+      "supports": "免費解釋了主角為何願意試做，能否離開的前後落差則構成情節轉折。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未核實的日文作品原題與同系列作品設定",
+    "演員的真實經歷與拍攝情況",
+    "實際鏡位、聲音、逐字台詞、演出效果與成片節奏"
+  ],
+  "decision_guide": {
+    "thesis": "挑片時可先看自己是否接受這項設定：顧客答應試做後，失去了原先以為自己握有的離開選擇。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以美容室的免費試做開場，接著寫店主違背承諾，帶出強迫情節。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "主角為什麼在對店主有所疑慮時仍願意試做？",
+      "店主的哪項承諾落空，讓美容室題材有了不同的選片考量？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "免費讓她願意試做，隨時可走讓她放下戒心",
+      "body": "那津乃千奈美飾演的顧客看了網路口碑才上門，見到店主卻有些遲疑。簡介給了她兩個答應的理由：第一次免費，以及不喜歡就可以離開。前者降低了試做的門檻，後者讓她以為開始後還能改變主意。"
+    },
+    {
+      "heading": "能不能離開，比美容室場景更能幫你選片",
+      "body": "簡介後來寫她失去了離開的機會，開場用來安撫她的承諾，也成了情節的轉折。如果你是衝著美容室設定來找片，這個落差比場景本身更值得先看清楚。想找輕鬆護理情境，或希望避開強迫題材，這份簡介已經給了足夠的篩選線索。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文採用 CC18 作品頁快照中的演員資料與公開簡介，據此解讀故事設定及其選片意義。影片未抽樣，也未取得可供比較的同演員或同系列作品資料。[CC18 作品頁](https://cc18.tv/player.php?uuid=2sPEn_SVu6h&cat=19)"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "8af24d32b42c7b856969191ec4ef7fbf67ef3fe39a7febc2aa6c22385078fb78",
+    "response_sha256": "d6108ed0d334d8a2e117619a67dfa9a25de016be637fe8148c717d272db0e905",
+    "research_input_sha256": "3c09a75e761f7363ef49a288ca7f4e2b4924f4558e41e08e8db623334d215552",
+    "related_source_ids": []
+  }
+}
