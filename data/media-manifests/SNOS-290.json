@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-290",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-09T04:22:42.673Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/SNOS-290/hero-v1.jpg",
+      "r2_key": "works/2026/08/SNOS-290/hero-v1.jpg",
+      "bytes": 1129862,
+      "sha256": "b0500beaf29be6ad7ea3b9628a4aa7f3fcc340f7dc87abf45bb23e1c40a3072d",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/SNOS-290/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/08/SNOS-290/scene-vertical-v1.jpg",
+      "bytes": 712962,
+      "sha256": "37dc0cb144f2f6094fdd2616fe7870a29239eb948ca690a6b0cb7b6340ca3036",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2200559,
+    "sha256": "682abd930e0e6dfcf7b02ab51de8a764959dc2f3dd0724e71ea7df3e40039f38",
+    "target_r2_key": "works/2026/08/SNOS-290/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/SNOS-290/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

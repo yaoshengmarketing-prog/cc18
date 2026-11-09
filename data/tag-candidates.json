@@ -380,7 +380,7 @@
     },
     {
       "label": "泳裝",
-      "occurrences": 16,
+      "occurrences": 17,
       "source_ids": [
         "CMJU-008",
         "FWAY-103",
@@ -397,7 +397,8 @@
         "EKDV-828",
         "RT-042",
         "SVVRT-087",
-        "GVH-884"
+        "GVH-884",
+        "SNOS-290"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-11-08",
@@ -2311,12 +2312,13 @@
     },
     {
       "label": "偶像‧藝人",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "MUKC-132",
-        "NOSKN-104"
+        "NOSKN-104",
+        "SNOS-290"
       ],
-      "first_seen": "2026-09-14",
+      "first_seen": "2026-09-07",
       "last_seen": "2026-09-18",
       "status": "quarantined"
     },
