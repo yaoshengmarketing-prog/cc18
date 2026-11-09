@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-09T04:14:00.549Z",
+  "generated_at": "2026-11-09T04:18:18.043Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 528,
-  "formal_movie_count": 527,
+  "tracked_input_count": 529,
+  "formal_movie_count": 528,
   "demo_count": 1,
-  "published_count": 526,
+  "published_count": 527,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -4562,6 +4562,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "a3298bd579e3251784064b936a452c7dc5c1b5ab9c8a3a96128e29741b2ea132"
+    },
+    {
+      "stable_movie_id": "cc18:TLDC-064",
+      "catalog_code": "TLDC-064",
+      "slug": "tldc-064",
+      "master_path": "data/movie-master/tldc-064.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "3e5f3ddc49c996404d734bd8b378790903f578c422dc8e50fec54d3b5270dc97"
     },
     {
       "stable_movie_id": "cc18:TPIN-102",

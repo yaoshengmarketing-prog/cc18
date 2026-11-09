@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "TLDC-064",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-09T04:17:53.827Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/TLDC-064/hero-v1.jpg",
+      "r2_key": "works/2026/08/TLDC-064/hero-v1.jpg",
+      "bytes": 636263,
+      "sha256": "2359da5875ab035db69840eb825b672e4298c0e256e4d5aba29bdd3701027f78",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/TLDC-064/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/08/TLDC-064/scene-vertical-v1.jpg",
+      "bytes": 940322,
+      "sha256": "8e28165e39e05d80bbb1928dbeb8589d5e37bdac609a4646e0bfab98a204bbb9",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2611650,
+    "sha256": "12a271c0b473410c12cccc399ce8ba0de3e14f8138fb5b1fb22b2a0a107a3d73",
+    "target_r2_key": "works/2026/08/TLDC-064/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/TLDC-064/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

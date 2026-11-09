@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "TLDC-064",
+  "review_sha256": "4269d84def20b51e2a398517cc0eaeca73a2022f22e75374023d09f4fc62a64d",
+  "selected_thesis": "來源資料可確認本作以「月刊巨根」作為主要作品線索。",
+  "title_basis": {
+    "performer": "ひなのさん",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "ひなのさん",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "月刊巨根",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "720p",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "ひなのさん",
+    "presentation_feature": "月刊巨根",
+    "editorial_judgment": "來源資料可確認本作以「月刊巨根」作為主要作品線索。",
+    "source_keywords": [
+      "ひなのさん",
+      "月刊巨根",
+      "高畫質",
+      "720p"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：ひなのさん",
+      "supports": "這項可追溯來源訊號支持文章以「ひなのさん」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：月刊巨根",
+      "supports": "這項可追溯來源訊號支持文章以「月刊巨根」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：巨根帥哥的搭訕術",
+      "supports": "這項可追溯來源訊號支持文章以「巨根帥哥的搭訕術」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：人妻雛乃篇",
+      "supports": "這項可追溯來源訊號支持文章以「人妻雛乃篇」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

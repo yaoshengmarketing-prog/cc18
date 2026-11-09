@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:b5b8a5a20f41d88319fec65320cb29c61d3c58954e472213eddc5ac131ef852f",
-  "source_generated_at": "2026-11-09T04:14:00.549Z",
+  "source_revision": "sha256:029cb4b84446e66f0f6d81cf60d26c3a8403cd69d31cfb1281be97c137ff3f2b",
+  "source_generated_at": "2026-11-09T04:18:18.043Z",
   "counts": {
-    "movies": 526,
-    "performers": 379,
+    "movies": 527,
+    "performers": 380,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -4379,6 +4379,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:IPZZ-960"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54568",
+      "display_name": "ひなのさん",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "ひなのさん",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:TLDC-064"
       ]
     },
     {
@@ -28881,6 +28892,35 @@
         "article_title": "RGAV-005 是個老頭 × 還暦ガチ老人ハメ撮り大全豪華2本SP｜是個老頭",
         "display_short_title": null,
         "slug": "rgav-005"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:TLDC-064",
+        "source_cover": "https://cc18.tv/preview/80/b/BCzitEISC5S-800.jpg?v=1787639987",
+        "title": "TLDC-064 ひなのさん｜月刊巨根",
+        "catalog_code": "TLDC-064",
+        "release_date": "2026-08-22",
+        "performers": [
+          "ひなのさん"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/tldc-064/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54568"
+      ],
+      "search": {
+        "source_title": "月刊巨根 巨根帥哥的搭訕術 人妻雛乃篇",
+        "article_title": "TLDC-064 ひなのさん｜月刊巨根",
+        "display_short_title": null,
+        "slug": "tldc-064"
       }
     },
     {
