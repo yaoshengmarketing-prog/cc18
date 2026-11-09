@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-386",
+  "generated_at": "2026-11-09T16:42:21.294Z",
+  "source_snapshot_hash": "sha256:f21572e0d4faf48f26d099b1f17699f8faeaf63321aa6cd550c9710fbe91bb49",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "循著蜜このは選片時，可以先看自己更在意旅伴與旅館構成的情境，還是有明確前置條件的體驗企劃。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以情婦角色、年長旅伴與一泊二日的溫泉旅館行程介紹本作。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SNOS-337",
+      "relation_type": "same_performer",
+      "reason": "同樣由蜜このは出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "蜜このは"
+      ],
+      "contrast_signals": [
+        "出類拔萃20歲美神肉體",
+        "AV女優片"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "溫泉旅行設定交代了哪些角色關係與場景？",
+    "同樣由蜜このは演出的 SNOS-337，如何用另一種時間設定吸引讀者？"
+  ]
+}

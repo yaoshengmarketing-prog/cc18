@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-386",
+  "generated_at": "2026-11-09T16:42:20.722Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SNOS-386.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "奇蹟纖細H罩杯",
+    "premise": "作品以「奇蹟纖細H罩杯」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「奇蹟纖細H罩杯」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "奇蹟纖細H罩杯",
+      "蜜戀乃葉"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "女大學生"
+    ],
+    "body": [
+      "窈窕",
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "騎乘位",
+      "アクメ・オーガズム"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由蜜このは演出，SNOS-386 的一泊二日溫泉旅行，和 SNOS-337 的一個月禁慾設定，分別給了讀者什麼選片理由？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=9AmPlkLs5cm&cat=19",
+      "supports": "已核對的 CC18 作品快照。簡介設定蜜このは飾演情婦，與一名六十多歲的男子開車前往溫泉旅館，安排一泊二日的行程。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=noSBkfWDgj&cat=19",
+      "supports": "已核對的 CC18 作品快照與演員關聯。這部同樣由蜜このは演出，簡介以一個月的禁慾作為後續體驗的前置條件。"
+    }
+  ],
+  "angle_candidates": [
+    "同演員、兩種時間設定。一泊二日界定兩人相處的行程，一個月則界定體驗開始前的等待。",
+    "情婦身分、年長旅伴與溫泉旅館如何共同定調，讓讀者在選片前就能辨認角色關係與場景。",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "兩份簡介都用時間安排建立期待。SNOS-386 用一泊二日交代一段角色關係發生在什麼場合，SNOS-337 用一個月禁慾交代後續體驗如何被鋪陳。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "蜜このは",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "奇蹟纖細H罩杯",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "蜜このは的情婦溫泉之旅",
+  "display_short_title": "情婦的溫泉小旅行",
+  "title": "一泊二日，如何替蜜このは的情婦角色定調？",
+  "seo_title": "SNOS-386 蜜このは的情婦溫泉之旅｜與 SNOS-337 的企劃比較",
+  "social_title": "同樣由蜜このは演出，一泊二日與一個月各在鋪陳什麼？",
+  "short_review": "如果你是循著蜜このは找片，這部的辨識度在於簡介交代了她以什麼身分、和誰一起出遊。對照以一個月禁慾作為前置設定的 SNOS-337，兩部作品各自把期待放在旅途中的角色關係與等待後的體驗。",
+  "editorial_angle": "從兩部同演員作品的時間設定切入，比較旅程如何界定角色相處的場合，以及前置等待如何替後續體驗鋪陳。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介列出情婦身分、六十多歲的旅伴、開車前往溫泉旅館與一泊二日的行程。",
+      "supports": "旅程把角色關係、相處時間與目的地放進同一個設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同樣由蜜このは演出的 SNOS-337，簡介安排一個月的禁慾作為前置條件。",
+      "supports": "兩作的時間設定功能不同，一部用來交代相處的場合，另一部用來鋪陳後續體驗。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "實際拍攝地點與溫泉景觀",
+    "成片的敘事密度、節奏、鏡位、聲音、台詞與演出品質",
+    "演員的真實身分、私人關係與經歷",
+    "兩作屬於同一系列"
+  ],
+  "decision_guide": {
+    "thesis": "循著蜜このは選片時，可以先看自己更在意旅伴與旅館構成的情境，還是有明確前置條件的體驗企劃。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以情婦角色、年長旅伴與一泊二日的溫泉旅館行程介紹本作。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "溫泉旅行設定交代了哪些角色關係與場景？",
+      "同樣由蜜このは演出的 SNOS-337，如何用另一種時間設定吸引讀者？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "一泊二日交代了她和誰出遊",
+      "body": "簡介讓蜜このは以情婦的身分，與一名六十多歲的男子開車前往溫泉旅館。旅館給了兩人一個目的地，一泊二日則交代這段相處的時間範圍。若你是循著演員找片，這份簡介給了一個具體的選片理由：你可以先看自己對這組旅伴關係有沒有興趣。"
+    },
+    {
+      "heading": "同一位演員，時間用在不同地方",
+      "body": "同樣由蜜このは演出的 SNOS-337，把一個月的禁慾放在後續體驗之前，讓讀者先留意等待帶來的期待。SNOS-386 的一泊二日則是兩人共同度過的旅程。若你先看角色以什麼身分、和誰相處，溫泉旅行這部給的線索更具體。若你在意企劃如何用前置條件鋪陳體驗，SNOS-337 的簡介交代得更清楚。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用已核對的 CC18 作品快照與演員關聯。官方作品頁未取得可核對的內容，本文未使用影片抽樣。比較範圍限於兩份公開簡介的設定與選片意義。[SNOS-386 作品頁](https://cc18.tv/player.php?uuid=9AmPlkLs5cm&cat=19) · [SNOS-337 作品頁](https://cc18.tv/player.php?uuid=noSBkfWDgj&cat=19)"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "f21572e0d4faf48f26d099b1f17699f8faeaf63321aa6cd550c9710fbe91bb49",
+    "response_sha256": "a75ba4f17d28be0a569ac881e755a99749cf9a153129617cd655c9297900b24e",
+    "research_input_sha256": "5f8d8b5f10de3febc55ee323865d76dbb487a755aa166ce7e67956f5c178f394",
+    "related_source_ids": [
+      "SNOS-337"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-386",
+  "review_sha256": "0e33f750fcc9d4078d62ab4eaecc3f863e8f8dca57bbe5467ee0b0521e611548",
+  "selected_thesis": "兩份簡介都用時間安排建立期待。SNOS-386 用一泊二日交代一段角色關係發生在什麼場合，SNOS-337 用一個月禁慾交代後續體驗如何被鋪陳。",
+  "title_basis": {
+    "performer": "蜜このは",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "蜜このは",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "奇蹟纖細H罩杯",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "蜜このは",
+    "presentation_feature": "奇蹟纖細H罩杯",
+    "editorial_judgment": "從兩部同演員作品的時間設定切入，比較旅程如何界定角色相處的場合，以及前置等待如何替後續體驗鋪陳。",
+    "source_keywords": [
+      "蜜このは",
+      "奇蹟纖細H罩杯",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介列出情婦身分、六十多歲的旅伴、開車前往溫泉旅館與一泊二日的行程。",
+      "supports": "旅程把角色關係、相處時間與目的地放進同一個設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同樣由蜜このは演出的 SNOS-337，簡介安排一個月的禁慾作為前置條件。",
+      "supports": "兩作的時間設定功能不同，一部用來交代相處的場合，另一部用來鋪陳後續體驗。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "實際拍攝地點與溫泉景觀",
+    "成片的敘事密度、節奏、鏡位、聲音、台詞與演出品質",
+    "演員的真實身分、私人關係與經歷",
+    "兩作屬於同一系列"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}
