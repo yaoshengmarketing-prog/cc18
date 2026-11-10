@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "movie_id": "BBAN-613",
+  "generated_at": "2026-11-10T17:44:53.612Z",
+  "source_snapshot_hash": "sha256:9829e797fd08760ec3845342e5de47594958780278be71da087581c45e787fae",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "選本作的理由在於女性群體聯誼與參加者預期落差的設定；若偏好既有情侶關係中的報復衝突，BAGR-092 的公開簡介更貼近該方向。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "四人演出的聯誼情境；公開簡介以瑠花的期待落空作為切入點。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "APNS-419",
+      "relation_type": "same_performer",
+      "reason": "同樣由糸井瑠花出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "糸井瑠花"
+      ],
+      "contrast_signals": [
+        "露出慾望附身的女生",
+        "露出願望に憑りつかれた○○"
+      ]
+    },
+    {
+      "movie_id": "FCDSS-117",
+      "relation_type": "same_performer",
+      "reason": "同樣由凰華鈴出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "凰華鈴"
+      ],
+      "contrast_signals": [
+        "天使萌",
+        "吉高寧寧"
+      ]
+    },
+    {
+      "movie_id": "CEMD-889",
+      "relation_type": "same_performer",
+      "reason": "同樣由糸井瑠花出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "糸井瑠花"
+      ],
+      "contrast_signals": [
+        "44",
+        "恥辱、凌辱、戴上跳蛋・繁華街約會！"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品的聯誼設定有什麼關鍵落差？",
+    "它與糸井瑠花演出的 BAGR-092 在關係設定上有何不同？"
+  ]
+}

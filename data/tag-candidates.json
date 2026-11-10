@@ -861,7 +861,7 @@
     },
     {
       "label": "蕾絲親吻",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "BBAN-609",
         "BBAN-601",
@@ -870,15 +870,16 @@
         "ATID-666",
         "DSOD-119",
         "CEAD-763",
-        "DSOD-105"
+        "DSOD-105",
+        "BBAN-613"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "status": "quarantined"
     },
     {
       "label": "女同性戀",
-      "occurrences": 14,
+      "occurrences": 15,
       "source_ids": [
         "BBAN-609",
         "BBAN-601",
@@ -893,10 +894,11 @@
         "DSOD-119",
         "HSODA-132",
         "CEAD-763",
-        "DSOD-105"
+        "DSOD-105",
+        "BBAN-613"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "status": "quarantined"
     },
     {
@@ -2440,7 +2442,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 49,
+      "occurrences": 50,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -2490,10 +2492,11 @@
         "XVSR-909",
         "IESP-764",
         "STSK-251",
-        "SNOS-484"
+        "SNOS-484",
+        "BBAN-613"
       ],
       "first_seen": "2026-09-09",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "status": "quarantined"
     },
     {

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:de7a5666a6b0acf8c6cf05330545315773ebaa6c43bc0c5660cedc35e44e1c8f",
-  "source_generated_at": "2026-11-10T16:51:43.476Z",
+  "source_revision": "sha256:af5a1b0e8387133cededa5e92dff74854c7151e4e04add5a129b2d70f84775d3",
+  "source_generated_at": "2026-11-10T17:55:22.372Z",
   "counts": {
-    "movies": 569,
-    "performers": 402,
+    "movies": 570,
+    "performers": 403,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -1355,6 +1355,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:24152",
+      "display_name": "宇佐木愛華",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "宇佐木愛華",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:BBAN-613"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:29273",
       "display_name": "宇佐美翠",
       "display_name_zh_tw": null,
@@ -1465,6 +1476,7 @@
       "source_name": "有村希",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:BBAN-613",
         "cc18:NACT-185"
       ]
     },
@@ -1571,6 +1583,7 @@
       "related_movie_ids": [
         "cc18:APNS-419",
         "cc18:BAGR-092",
+        "cc18:BBAN-613",
         "cc18:CEMD-889",
         "cc18:DRPT-124",
         "cc18:FTKD-041",
@@ -3259,6 +3272,7 @@
       "source_name": "凰華鈴",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:BBAN-613",
         "cc18:FCDSS-117",
         "cc18:NGOD-362"
       ]
@@ -4683,6 +4697,53 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:BBAN-613",
+        "source_cover": "https://cc18.tv/preview/80/b/1zd8Y4RhWep-800.jpg?v=1794055049",
+        "title": "意料之外的聯誼",
+        "catalog_code": "BBAN-613",
+        "release_date": "2026-11-06",
+        "performers": [
+          "有村希",
+          "宇佐木愛華",
+          "凰華鈴",
+          "糸井瑠花"
+        ],
+        "canonical_topics": [
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/bban-613/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:21993",
+        "cc18.tv:actor:24152",
+        "cc18.tv:actor:39724",
+        "cc18.tv:actor:41229"
+      ],
+      "search": {
+        "source_title": "去參加聯誼結果發現除了我以外全部都是蕾絲邊這件事",
+        "article_title": "瑠花想交男朋友，聯誼卻走向另一種情境",
+        "display_short_title": "意料之外的聯誼",
+        "slug": "bban-613"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:EWDX-622",

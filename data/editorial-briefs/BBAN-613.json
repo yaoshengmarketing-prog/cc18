@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "id": "BBAN-613",
+  "generated_at": "2026-11-10T17:44:51.105Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/BBAN-613.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": null,
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "亂交",
+      "3p・4p"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由糸井瑠花演出，本作與 BAGR-092 如何用不同的人際關係設定吸引讀者？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=1zd8Y4RhWep&cat=19",
+      "supports": "已提供的作品資料記載：瑠花想交男朋友，受朋友邀請參加聯誼，卻發現其他參加者都是女性且喜歡女性；演出名單有四人。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=9J4zPjEBr2a&cat=19",
+      "supports": "已提供的關聯作品資料記載：BAGR-092 同樣由糸井瑠花演出，簡介以女友聽見男友打算分手後的報復心為起點。"
+    }
+  ],
+  "angle_candidates": [
+    "聯誼的預期落差，如何成為本作的選片線索",
+    "比較糸井瑠花兩部作品：意外加入的群體與既有戀情中的報復",
+    "凰華鈴的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作的可辨識之處，是想認識男性的瑠花意外進入一場女性聯誼；相較於 BAGR-092 從既有戀情引出報復，本作以陌生群體和預期落差建立情境。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "有村希",
+      "source_field": "actress"
+    },
+    {
+      "type": "performer",
+      "value": "宇佐木愛華",
+      "source_field": "actress"
+    },
+    {
+      "type": "performer",
+      "value": "凰華鈴",
+      "source_field": "actress"
+    },
+    {
+      "type": "performer",
+      "value": "糸井瑠花",
+      "source_field": "actress"
+    }
+  ],
+  "work_title": "參加聯誼，才發現其他人都是女同志",
+  "display_short_title": "意料之外的聯誼",
+  "title": "瑠花想交男朋友，聯誼卻走向另一種情境",
+  "seo_title": "BBAN-613｜瑠花想交男朋友，聯誼卻走向另一種情境",
+  "social_title": "一場與期待不同的聯誼：糸井瑠花這次面對陌生群體",
+  "short_review": "本作簡介用「想交男朋友」與「其他參加者都喜歡女性」的落差，交代糸井瑠花所演角色的處境。想找多人聯誼設定的讀者，可以從這個明確前提判斷是否合口味。",
+  "editorial_angle": "以同演員作品作對照，說明本作的聯誼誤會與 BAGR-092 的戀情報復各自從哪種關係衝突出發。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介寫明瑠花想交男朋友，參加聯誼後才發現其他人都是喜歡女性的女性。",
+      "supports": "本作的情境由參加前的期待與到場後的發現構成。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "BAGR-092 的簡介從女友聽見男友打算分手，進而產生報復心開始；關聯資料確認糸井瑠花也演出該作。",
+      "supports": "兩作雖有同一位演員，公開設定的關係衝突與選片重點不同。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "聯誼現場的實際對話、鏡頭安排與表演效果",
+    "由簡介推定本作比 BAGR-092 更有戲劇張力或成片品質更好",
+    "將宣傳情節視為演員的真實經歷"
+  ],
+  "decision_guide": {
+    "thesis": "選本作的理由在於女性群體聯誼與參加者預期落差的設定；若偏好既有情侶關係中的報復衝突，BAGR-092 的公開簡介更貼近該方向。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "四人演出的聯誼情境；公開簡介以瑠花的期待落空作為切入點。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "這部作品的聯誼設定有什麼關鍵落差？",
+      "它與糸井瑠花演出的 BAGR-092 在關係設定上有何不同？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "聯誼的意外，先改變了瑠花的位置",
+      "body": "來源簡介中的瑠花想交男朋友，答應朋友邀約去參加聯誼；到場後，她才發現其他參加者都是喜歡女性的女性。本作的切入點因此很清楚：她原本期待認識的對象，與實際身處的群體不同。對選片者來說，這比籠統的多人標籤更能說明作品打算從什麼處境開始。"
+    },
+    {
+      "heading": "同樣由糸井瑠花演出，衝突從不同關係開始",
+      "body": "BAGR-092 的公開簡介以女友聽見男友打算分手為起點，把報復心放進一段既有戀情。本作則讓瑠花因朋友邀約進入陌生群體，重點落在聯誼期待與現場情況的落差。若想看情侶之間的背叛與反擊，可留意前者；若對多人聯誼中的意外處境感興趣，本作的設定更直接。這是兩份簡介提供的選片差異，不能據此判斷實際敘事或表演。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據已提供並核對的 <a href=\"https://cc18.tv/player.php?uuid=1zd8Y4RhWep&amp;cat=19\">BBAN-613 作品資料</a>與<a href=\"https://cc18.tv/player.php?uuid=9J4zPjEBr2a&amp;cat=19\">BAGR-092 關聯作品資料</a>。比較限於演員關係和公開簡介的設定；沒有影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "9829e797fd08760ec3845342e5de47594958780278be71da087581c45e787fae",
+    "response_sha256": "dfbe9c0745527b3845872eda42213c108ca3d8e82abca8404d7c1fd6191c56f2",
+    "research_input_sha256": "560790be1549b20f7e7bcd8836ece5e335f0efd9a84a0cb4893cea54b6a0d922",
+    "related_source_ids": [
+      "FTKD-041",
+      "NGOD-362",
+      "BAGR-092",
+      "MMPB-144",
+      "DRPT-124",
+      "NACT-185"
+    ]
+  }
+}

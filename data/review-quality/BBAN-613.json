@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "BBAN-613",
+  "review_sha256": "92d3dcef572d5338713f9657e7dcc412c8fe826451eea800e4974b35429605c3",
+  "selected_thesis": "本作的可辨識之處，是想認識男性的瑠花意外進入一場女性聯誼；相較於 BAGR-092 從既有戀情引出報復，本作以陌生群體和預期落差建立情境。",
+  "title_basis": {
+    "performer": "有村希、宇佐木愛華、凰華鈴、糸井瑠花",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "有村希",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "宇佐木愛華",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "凰華鈴",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "糸井瑠花",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "有村希",
+    "presentation_feature": "宇佐木愛華",
+    "editorial_judgment": "以同演員作品作對照，說明本作的聯誼誤會與 BAGR-092 的戀情報復各自從哪種關係衝突出發。",
+    "source_keywords": [
+      "有村希",
+      "宇佐木愛華",
+      "凰華鈴",
+      "糸井瑠花"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介寫明瑠花想交男朋友，參加聯誼後才發現其他人都是喜歡女性的女性。",
+      "supports": "本作的情境由參加前的期待與到場後的發現構成。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "BAGR-092 的簡介從女友聽見男友打算分手，進而產生報復心開始；關聯資料確認糸井瑠花也演出該作。",
+      "supports": "兩作雖有同一位演員，公開設定的關係衝突與選片重點不同。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "聯誼現場的實際對話、鏡頭安排與表演效果",
+    "由簡介推定本作比 BAGR-092 更有戲劇張力或成片品質更好",
+    "將宣傳情節視為演員的真實經歷"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-10T16:00:00.000Z"
+}
