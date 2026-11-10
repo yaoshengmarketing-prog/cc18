@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-096",
+  "generated_at": "2026-11-09T23:42:24.838Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/DSOD-096.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "相遇5秒即刻大翻轉",
+    "premise": "作品以「相遇5秒即刻大翻轉」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「相遇5秒即刻大翻轉」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "相遇5秒即刻大翻轉",
+      "白峰美羽"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "窈窕"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由白峰美羽演出，DSOD-096 的採訪突變與 ADN-814 的調查員設定，分別給觀眾什麼選片理由？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=8nHOSPaIyI&cat=19",
+      "supports": "提供的 CC18 作品頁快照確認白峰美羽出演。標題以「相遇 5 秒」強調突變，簡介交代她原以為只是來接受採訪，並以帶有強迫情境的安排作為宣傳重點。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=1kmUPy1I5n&cat=19",
+      "supports": "提供的 CC18 作品頁快照確認同樣由白峰美羽演出。簡介交代調查員因家庭經歷而痛恨出軌，後來對委託人產生同情，形成角色的立場衝突。"
+    },
+    {
+      "url": "https://www.suruga-ya.jp/product/detail/332119826",
+      "supports": "駿河屋商品頁以 DSOD-096 標示這張 DVD，商品名同樣把相遇後的「5 秒」放在前段。"
+    }
+  ],
+  "angle_candidates": [
+    "比較採訪突然變調與調查員的立場動搖，說明兩份簡介各自提供的選片理由。",
+    "從「相遇 5 秒」與採訪設定切入，分析文案如何讓讀者預期情境會突然改變。",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "DSOD-096 用白峰美羽原以為只是來受訪的落差，讓讀者一眼看懂突發情境。ADN-814 則先交代調查員為何痛恨出軌，再用她對委託人的同情帶出立場衝突。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "白峰美羽",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "相遇5秒即刻大翻轉",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "相遇五秒就翻轉",
+  "display_short_title": "相遇五秒翻轉",
+  "title": "白峰美羽原以為只是採訪，這份落差為何是賣點？",
+  "seo_title": "DSOD-096 白峰美羽｜相遇五秒就翻轉，從採訪設定看選片差異",
+  "social_title": "同樣由白峰美羽演出，採訪突變與調查員動搖怎麼選？",
+  "short_review": "「相遇五秒」給了這部作品一個清楚的宣傳重點。白峰美羽原以為只是來受訪，簡介隨即把情境轉向帶有強迫色彩的安排。若你更在意角色為何陷入矛盾，同樣由她演出的 ADN-814 交代了調查員的家庭經歷與立場。",
+  "editorial_angle": "從同一位演員的兩份作品簡介出發，比較突發處境與角色動機各自如何吸引觀眾。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "DSOD-096 的標題強調相遇後的五秒，簡介交代白峰美羽原以為只是來接受採訪。",
+      "supports": "採訪是建立日常預期的鋪墊，突發的情境轉向是文案的主要賣點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "ADN-814 的簡介先交代調查員因家庭經歷而痛恨出軌，再寫她對委託人產生同情。",
+      "supports": "調查員既有的立場與她對委託人的同情形成衝突，讓重視角色動機的讀者有具體的選片依據。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "成片在開場第五秒發生轉折。",
+    "兩部作品屬於同一系列。",
+    "由宣傳設定推定真實拍攝經過、演員感受、成片節奏或表演品質。"
+  ],
+  "decision_guide": {
+    "thesis": "想看採訪預期被打破的企劃，可以留意 DSOD-096。想先知道角色為何陷入矛盾，ADN-814 的簡介提供了較具體的動機。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以原先說好的採訪帶出突發的強迫情境，片名用「五秒」強調這個落差。"
+    ],
+    "audience_for": [
+      "因白峰美羽找片，想挑一部以採訪突然變調為主要設定的作品。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "偏好簡介先交代人物背景與行動動機，或想避開帶有強迫情境的題材。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "「五秒」在宣傳中如何強調採訪預期被打破？",
+      "兩部同由白峰美羽演出的作品，各提供什麼選片理由？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "採訪給了「五秒」一個具體的轉折",
+      "body": "「相遇五秒」先讓人注意到事情會突然改變，簡介接著交代白峰美羽原以為只是來接受採訪。這個前提讓突變有了具體的落差：原本以為是一次例行訪談，文案很快就轉向帶有強迫色彩的情境。選片時，可以先看自己對這個設定有沒有興趣。"
+    },
+    {
+      "heading": "同樣由白峰美羽演出，調查員的故事多交代了一層動機",
+      "body": "ADN-814 先寫家庭經歷如何讓調查員痛恨出軌，再寫她為何對委託人產生同情。這兩點擺在一起，讀者便能理解她的立場為何動搖。若你選片時在意角色怎麼走到兩難，這份簡介提供了具體線索。若你更在意原先說好的採訪如何突然變調，DSOD-096 的設定更貼近這個興趣。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "設定比較採用兩份 CC18 作品頁快照。駿河屋商品頁另供核對本作番號及商品名中的「五秒」用語。本文未使用影片抽樣，實際轉折時間、敘事密度與剪輯節奏仍待確認。[CC18 的 DSOD-096 作品頁](https://cc18.tv/player.php?uuid=8nHOSPaIyI&cat=19)、[CC18 的 ADN-814 作品頁](https://cc18.tv/player.php?uuid=1kmUPy1I5n&cat=19)、[駿河屋商品頁](https://www.suruga-ya.jp/product/detail/332119826)"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "048d5f29afa7e6c4ceaa10a3ed5468177f2aeccef26927c258534b4000941ce1",
+    "response_sha256": "04acf9d122d68ffba2a9c4ec6d07849da93f7d0e656fd4f4e6863c25a47a4150",
+    "research_input_sha256": "8efb0111353cb57137685943f061181c7596be4ff3dc298dd2e90d4f129c4580",
+    "related_source_ids": [
+      "ADN-814",
+      "DSOD-072"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "movie_id": "DSOD-096",
+  "generated_at": "2026-11-09T23:42:25.417Z",
+  "source_snapshot_hash": "sha256:048d5f29afa7e6c4ceaa10a3ed5468177f2aeccef26927c258534b4000941ce1",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看採訪預期被打破的企劃，可以留意 DSOD-096。想先知道角色為何陷入矛盾，ADN-814 的簡介提供了較具體的動機。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以原先說好的採訪帶出突發的強迫情境，片名用「五秒」強調這個落差。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "因白峰美羽找片，想挑一部以採訪突然變調為主要設定的作品。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "偏好簡介先交代人物背景與行動動機，或想避開帶有強迫情境的題材。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "DSOD-072",
+      "relation_type": "same_performer",
+      "reason": "同樣由白峰美羽出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "白峰美羽"
+      ],
+      "contrast_signals": [
+        "極其幸福的破滅衝動",
+        "AV女優片"
+      ]
+    },
+    {
+      "movie_id": "ADN-814",
+      "relation_type": "same_performer",
+      "reason": "同樣由白峰美羽出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "白峰美羽"
+      ],
+      "contrast_signals": [
+        "最終也被寢取淪陷",
+        "人妻・主婦"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "「五秒」在宣傳中如何強調採訪預期被打破？",
+    "兩部同由白峰美羽演出的作品，各提供什麼選片理由？"
+  ]
+}

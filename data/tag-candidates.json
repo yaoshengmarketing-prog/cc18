@@ -522,16 +522,17 @@
     },
     {
       "label": "惡作劇",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "SNOS-345",
         "MUDR-397",
         "SNOS-393",
         "SNOS-347",
-        "DSOD-054"
+        "DSOD-054",
+        "DSOD-096"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-11-06",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     },
     {
@@ -808,7 +809,7 @@
     },
     {
       "label": "姐姐系",
-      "occurrences": 33,
+      "occurrences": 34,
       "source_ids": [
         "SNOS-364",
         "SNOS-372",
@@ -842,7 +843,8 @@
         "IPZZ-970",
         "IPZZ-911",
         "DOKS-688",
-        "DSOD-105"
+        "DSOD-105",
+        "DSOD-096"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-10",
@@ -3422,6 +3424,16 @@
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "馬上幹",
+      "occurrences": 1,
+      "source_ids": [
+        "DSOD-096"
+      ],
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     }
   ]

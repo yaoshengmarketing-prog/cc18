@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-096",
+  "review_sha256": "dd86c8dcb8a3c945d45163a185d5dda2dfbd88b5fcc8293f5f222ac5c02dd0fa",
+  "selected_thesis": "DSOD-096 用白峰美羽原以為只是來受訪的落差，讓讀者一眼看懂突發情境。ADN-814 則先交代調查員為何痛恨出軌，再用她對委託人的同情帶出立場衝突。",
+  "title_basis": {
+    "performer": "白峰美羽",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "白峰美羽",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "相遇5秒即刻大翻轉",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "白峰美羽",
+    "presentation_feature": "相遇5秒即刻大翻轉",
+    "editorial_judgment": "從同一位演員的兩份作品簡介出發，比較突發處境與角色動機各自如何吸引觀眾。",
+    "source_keywords": [
+      "白峰美羽",
+      "相遇5秒即刻大翻轉",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "DSOD-096 的標題強調相遇後的五秒，簡介交代白峰美羽原以為只是來接受採訪。",
+      "supports": "採訪是建立日常預期的鋪墊，突發的情境轉向是文案的主要賣點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "ADN-814 的簡介先交代調查員因家庭經歷而痛恨出軌，再寫她對委託人產生同情。",
+      "supports": "調查員既有的立場與她對委託人的同情形成衝突，讓重視角色動機的讀者有具體的選片依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "成片在開場第五秒發生轉折。",
+    "兩部作品屬於同一系列。",
+    "由宣傳設定推定真實拍攝經過、演員感受、成片節奏或表演品質。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}
