@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T12:48:14.902Z",
+  "updated_at": "2026-11-10T13:52:35.595Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -8445,6 +8445,22 @@
       ],
       "release_date": "2026-11-06",
       "source_url": "https://cc18.tv/player.php?uuid=m8ptW4xRfbz&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-10"
+    },
+    {
+      "id": "SNOS-484",
+      "actress": [
+        "安達夕莉",
+        "川越仁子"
+      ],
+      "release_date": "2026-11-06",
+      "source_url": "https://cc18.tv/player.php?uuid=8rlEolO5ccT&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

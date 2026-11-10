@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-484",
+  "generated_at": "2026-11-10T13:45:58.024Z",
+  "source_snapshot_hash": "sha256:93d9fafca301a2aec378c37d9c539fc4582fb63e854a2d4ff8818c8120b67445",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看敘事者加入雙人組合的設定，可留意本作；偏好敘事者隔著相機旁觀的關係張力，SNOS-339 的公開設定更貼近。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "歡迎會後的同期同事設定，安達夕莉與川越仁子共同演出；以來源簡介所述的三人互動為選"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SNOS-374",
+      "relation_type": "same_performer",
+      "reason": "同樣由川越仁子出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "川越仁子"
+      ],
+      "contrast_signals": [
+        "深知自己美貌的女醫生",
+        "高畫質"
+      ]
+    },
+    {
+      "movie_id": "SNOS-339",
+      "relation_type": "same_performer",
+      "reason": "同樣由安達夕莉出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "安達夕莉"
+      ],
+      "contrast_signals": [
+        "憂鬱的我",
+        "自拍形式"
+      ]
+    },
+    {
+      "movie_id": "SNOS-404",
+      "relation_type": "same_performer",
+      "reason": "同樣由安達夕莉出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "安達夕莉"
+      ],
+      "contrast_signals": [
+        "但是",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作的三人關係如何開始？",
+    "它與安達夕莉演出的 SNOS-339，在敘事者位置上有何差別？"
+  ]
+}

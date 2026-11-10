@@ -2430,7 +2430,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 48,
+      "occurrences": 49,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -2479,7 +2479,8 @@
         "NACT-200",
         "XVSR-909",
         "IESP-764",
-        "STSK-251"
+        "STSK-251",
+        "SNOS-484"
       ],
       "first_seen": "2026-09-09",
       "last_seen": "2026-11-10",
@@ -2746,14 +2747,15 @@
     },
     {
       "label": "後宮",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "DSJH-020",
         "URKK-124",
         "MKON-148",
         "HUNTC-638",
         "MKMP-763",
-        "SDDE-771"
+        "SDDE-771",
+        "SNOS-484"
       ],
       "first_seen": "2026-09-08",
       "last_seen": "2026-11-10",

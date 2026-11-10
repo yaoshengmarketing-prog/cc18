@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-484",
+  "generated_at": "2026-11-10T13:45:56.010Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SNOS-484.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "新進員工歡迎會後",
+    "premise": "作品以「新進員工歡迎會後」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「新進員工歡迎會後」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "新進員工歡迎會後",
+      "川越仁子",
+      "安達夕莉"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "OL"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "口交",
+      "3p・4p"
+    ],
+    "presentation": [
+      "戲劇、連續劇",
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由安達夕莉演出，這部作品與 SNOS-339 如何安排敘事者在親密關係中的位置？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=8rlEolO5ccT&cat=19",
+      "supports": "本作來源標題與簡介設定：歡迎會後，敘事者看見兩名同期同事接吻，隨後加入；演出者為安達夕莉與川越仁子。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=4AIIG686p4e&cat=19",
+      "supports": "SNOS-339 的來源簡介設定：安達夕莉演出的角色與敘事者的好友交往，敘事者受託拍攝兩人。"
+    }
+  ],
+  "angle_candidates": [
+    "比較敘事者從拍攝旁觀者變成三人關係參與者",
+    "以歡迎會與同期同事的職場設定介紹本作",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作讓敘事者從看見兩名同事接吻的人，轉為三人關係的參與者；相較於 SNOS-339 的拍攝旁觀設定，選片差異在於敘事者與安達夕莉演出角色的距離，以及川越仁子的共同演出。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "安達夕莉",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "新進員工歡迎會後",
+      "source_field": "title"
+    },
+    {
+      "type": "performer",
+      "value": "川越仁子",
+      "source_field": "actress"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "歡迎會後的三人接吻夜",
+  "display_short_title": "歡迎會後的三人接吻夜",
+  "title": "從旁觀到加入，三人設定改變了什麼？",
+  "seo_title": "SNOS-484｜歡迎會後的三人接吻夜：從旁觀到加入",
+  "social_title": "安達夕莉與川越仁子的歡迎會設定，選片重點在哪？",
+  "short_review": "本作以兩名同期同事在歡迎會後接吻、敘事者隨後加入作為設定。若你在意三人互動的前提，它與安達夕莉另一部以受託拍攝為主的作品有清楚差別。",
+  "editorial_angle": "比較兩部公開簡介如何安排敘事者的位置：SNOS-339 讓他拿著相機旁觀好友與安達夕莉演出的角色，本作則讓他加入安達夕莉與川越仁子演出的雙人組合。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源標題與簡介",
+      "supports": "歡迎會後、兩名同期女同事先接吻、敘事者加入，以及安達夕莉和川越仁子共同演出的設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "SNOS-339 來源標題與簡介",
+      "supports": "敘事者喜歡安達夕莉演出的角色，但她與好友交往；敘事者受託拍攝兩人的設定。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "不判斷實際接吻次數、表演效果、鏡位或節奏。",
+    "不把兩部作品的角色關係當成演員的真實經歷。"
+  ],
+  "decision_guide": {
+    "thesis": "想看敘事者加入雙人組合的設定，可留意本作；偏好敘事者隔著相機旁觀的關係張力，SNOS-339 的公開設定更貼近。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "歡迎會後的同期同事設定，安達夕莉與川越仁子共同演出；以來源簡介所述的三人互動為選"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作的三人關係如何開始？",
+      "它與安達夕莉演出的 SNOS-339，在敘事者位置上有何差別？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "敘事者從哪裡進入這段關係？",
+      "body": "本作的公開簡介先安排兩名同期同事在歡迎會後接吻，再讓看見這一幕的敘事者加入。安達夕莉與川越仁子共同演出，使「先看見兩人，再成為第三人」成為這部作品清楚的設定起點。"
+    },
+    {
+      "heading": "與安達夕莉另一部作品相比",
+      "body": "SNOS-339 也由安達夕莉演出，但敘事者喜歡的角色已與好友交往，還受託拍攝兩人。那份簡介把他放在相機後方；本作則把敘事者帶進三人關係。選片時，差別在於你想看旁觀者的距離感，還是看他加入原有雙人互動的設定。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "依據本作來源頁 https://cc18.tv/player.php?uuid=8rlEolO5ccT&cat=19 與 SNOS-339 來源頁 https://cc18.tv/player.php?uuid=4AIIG686p4e&cat=19 的已核對標題、人物關係及公開簡介。上述比較是對設定的編輯判斷，未使用影片畫面或聲音抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "93d9fafca301a2aec378c37d9c539fc4582fb63e854a2d4ff8818c8120b67445",
+    "response_sha256": "8e887c525d1afa6d8a769ef07017bdd3b29988cb5baf881f2c950c4bfd06f9de",
+    "research_input_sha256": "2515ce5a54c4ee2c178b3d4d48459e653413744fb670532597020951975e2331",
+    "related_source_ids": [
+      "SNOS-404",
+      "SNOS-339",
+      "SNOS-374"
+    ]
+  }
+}
