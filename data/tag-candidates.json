@@ -753,7 +753,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 53,
+      "occurrences": 54,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -807,7 +807,8 @@
         "MIDA-837",
         "NHDTC-258",
         "SNOS-380",
-        "DOJN-033"
+        "DOJN-033",
+        "SNOS-452"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-10",
@@ -899,7 +900,7 @@
     },
     {
       "label": "不倫",
-      "occurrences": 21,
+      "occurrences": 22,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -921,15 +922,16 @@
         "MADM-223",
         "SNOS-411",
         "NGOD-358",
-        "T-3800073"
+        "T-3800073",
+        "SNOS-452"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     },
     {
       "label": "寝取り・寝取られ・ntr",
-      "occurrences": 68,
+      "occurrences": 69,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -998,7 +1000,8 @@
         "DSOD-069",
         "DSOD-054",
         "IPZZ-965",
-        "STSK-251"
+        "STSK-251",
+        "SNOS-452"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-10",
@@ -2265,7 +2268,7 @@
     },
     {
       "label": "寢取・被寢取",
-      "occurrences": 52,
+      "occurrences": 53,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -2318,7 +2321,8 @@
         "HSODA-132",
         "EKDV-830",
         "IPZZ-965",
-        "STSK-251"
+        "STSK-251",
+        "SNOS-452"
       ],
       "first_seen": "2026-09-10",
       "last_seen": "2026-11-10",
@@ -2326,7 +2330,7 @@
     },
     {
       "label": "NTR",
-      "occurrences": 50,
+      "occurrences": 51,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -2377,7 +2381,8 @@
         "HSODA-132",
         "EKDV-830",
         "IPZZ-965",
-        "STSK-251"
+        "STSK-251",
+        "SNOS-452"
       ],
       "first_seen": "2026-09-10",
       "last_seen": "2026-11-10",

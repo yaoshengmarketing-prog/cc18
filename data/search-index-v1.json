@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:5d48c8d03c3aa70d8a009dce24144522468d4178a92577b05f170971230be3bf",
-  "source_generated_at": "2026-11-10T14:53:16.873Z",
+  "source_revision": "sha256:f2e8faebf458200311931f942521b93011ce9d991022f92b11fc1803be21777a",
+  "source_generated_at": "2026-11-10T15:50:26.149Z",
   "counts": {
-    "movies": 567,
-    "performers": 401,
+    "movies": 568,
+    "performers": 402,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -4559,6 +4559,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:26371",
+      "display_name": "miru",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "miru",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SNOS-452"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:30342",
       "display_name": "Nia（伊東愛瑠）",
       "display_name_zh_tw": null,
@@ -4874,6 +4885,55 @@
         "article_title": "園梨音這次的反差，落在外拍時無處迴避的職場關係",
         "display_short_title": "女主播外拍的相房危機",
         "slug": "snos-425"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-452",
+        "source_cover": "https://cc18.tv/preview/80/b/rtd_YpYH6b1-800.jpg?v=1794026271",
+        "title": "隔牆的親密聲",
+        "catalog_code": "SNOS-452",
+        "release_date": "2026-11-06",
+        "performers": [
+          "miru"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-452/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:26371"
+      ],
+      "search": {
+        "source_title": "義父義母至今仍每晚交歡，隔牆傳來的絕倫義父活塞撞擊聲…讓淫水直流的欲求不滿人妻終於與熟練肉棒衝動地瘋狂抽插 miru",
+        "article_title": "兩對夫妻住在一起，落差從隔牆開始",
+        "display_short_title": "隔牆的親密聲",
+        "slug": "snos-452"
       }
     },
     {

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-452",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-10T15:48:56.985Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/SNOS-452/hero-v1.jpg",
+      "r2_key": "works/2026/11/SNOS-452/hero-v1.jpg",
+      "bytes": 574479,
+      "sha256": "06eaa7bc9b31fed4a039b31ae88f36cdee7a280953f6bfba92e112460428c233",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "be3298a4067349c381928a3f14a183ca",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/SNOS-452/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/SNOS-452/scene-vertical-v1.jpg",
+      "bytes": 740750,
+      "sha256": "9f6c7b02b92211b924bf9c9697aaae275c25d97ff06577e1706e20498c0564b6",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "d9e1c1c2ce9d49ed85bb840ba0559ee6",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2206892,
+    "sha256": "0ce999eb031a668b19fc10df2c818e8d7c979c47af9a43e91060ae0502be50eb",
+    "target_r2_key": "works/2026/11/SNOS-452/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/SNOS-452/vertical-v1.mp4"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-452",
+  "generated_at": "2026-11-10T15:43:27.603Z",
+  "source_snapshot_hash": "sha256:90a07433a74b8934a8118753857ce1b2c8cceec6fa1e98af570476dd75f2d3dc",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "同住設定使兩對夫妻的親密落差無法迴避，隔牆聲響因此成為這部禁忌關係作品的具體辨識點。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以債務搬家、同住和隔牆聲響串起關係設定。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "兩對夫妻的設定差在哪裡？",
+    "隔牆聲響對選片有何意義？",
+    "目前材料能支持哪些判斷？"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-452",
+  "review_sha256": "d8dd83dc5aeb733f5b0fb0dbe16476392c40e92b5a651f1222cdc19290ab0394",
+  "selected_thesis": "本作的選片線索是兩對夫妻被放進同一屋簷下：丈夫與妻子的疏離，對照義父母持續的親密關係，使隔牆聲響成為越界故事的起點。",
+  "title_basis": {
+    "performer": "miru",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "miru",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "義父義母至今仍每晚交歡",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "miru",
+    "presentation_feature": "義父義母至今仍每晚交歡",
+    "editorial_judgment": "從同住屋簷下的兩段婚姻切入，說明隔牆聲響在公開設定中的作用，以及這種設定適合哪類讀者。",
+    "source_keywords": [
+      "miru",
+      "義父義母至今仍每晚交歡",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "夫妻因丈夫工作失利與債務搬到鄉下義父家同住",
+      "supports": "共同生活讓兩對夫妻的關係得以持續對照。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介寫明丈夫忙於工作、夫妻缺少親密互動，義父母則仍有親密生活",
+      "supports": "故事的主要落差來自同一屋簷下兩段婚姻的不同狀態。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標有不倫、寢取與人妻相關題材，簡介以隔牆聲響引出後續關係",
+      "supports": "讀者可依同住與禁忌關係的設定選片，但不能由標籤判斷成片表現。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未宣稱看過影片或聽過成片聲音",
+    "未描述鏡位、表演效果或實際節奏",
+    "未替 miru 補寫真實經歷或未核准的中文姓名",
+    "未把公開簡介中的宣傳描寫當作成片品質評價"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}

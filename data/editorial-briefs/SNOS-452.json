@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-452",
+  "generated_at": "2026-11-10T15:43:25.859Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SNOS-452.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "義父義母至今仍每晚交歡",
+    "premise": "作品以「義父義母至今仍每晚交歡」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「義父義母至今仍每晚交歡」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "義父義母至今仍每晚交歡",
+      "miru",
+      "潮吹"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "人妻・主婦"
+    ],
+    "body": [
+      "窈窕"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "本作的同住設定，如何讓兩對夫妻的親密落差成為選片線索？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=rtd_YpYH6b1&cat=19",
+      "supports": "使用題目提供的作品資料快照：miru 演出、夫妻因債務搬入義父家、丈夫與妻子缺少親密互動，而義父母仍維持親密關係。外部頁面未能開啟，未將搜尋結果當作頁面全文。"
+    }
+  ],
+  "angle_candidates": [
+    "兩對夫妻的親密落差，如何推動同住關係越界",
+    "隔牆聲響在公開簡介中如何成為故事起點",
+    "債務與搬家如何讓禁忌關係有了共同生活的前提"
+  ],
+  "selected_thesis": "本作的選片線索是兩對夫妻被放進同一屋簷下：丈夫與妻子的疏離，對照義父母持續的親密關係，使隔牆聲響成為越界故事的起點。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "miru",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "義父義母至今仍每晚交歡",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "miru 的同住人妻故事：隔牆的義父母親密聲",
+  "display_short_title": "隔牆的親密聲",
+  "title": "兩對夫妻住在一起，落差從隔牆開始",
+  "seo_title": "SNOS-452｜miru 演出同住人妻，隔牆聲響牽出禁忌關係",
+  "social_title": "搬進義父家後，miru 演出的妻子聽見另一段婚姻",
+  "short_review": "丈夫工作失利後，miru 演出的妻子搬進義父家。公開簡介把她與丈夫的疏離，和義父母持續的親密生活並置；這種每天都無法迴避的落差，是本作比單一不倫標籤更具體的選片理由。",
+  "editorial_angle": "從同住屋簷下的兩段婚姻切入，說明隔牆聲響在公開設定中的作用，以及這種設定適合哪類讀者。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "夫妻因丈夫工作失利與債務搬到鄉下義父家同住",
+      "supports": "共同生活讓兩對夫妻的關係得以持續對照。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介寫明丈夫忙於工作、夫妻缺少親密互動，義父母則仍有親密生活",
+      "supports": "故事的主要落差來自同一屋簷下兩段婚姻的不同狀態。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標有不倫、寢取與人妻相關題材，簡介以隔牆聲響引出後續關係",
+      "supports": "讀者可依同住與禁忌關係的設定選片，但不能由標籤判斷成片表現。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未宣稱看過影片或聽過成片聲音",
+    "未描述鏡位、表演效果或實際節奏",
+    "未替 miru 補寫真實經歷或未核准的中文姓名",
+    "未把公開簡介中的宣傳描寫當作成片品質評價"
+  ],
+  "decision_guide": {
+    "thesis": "同住設定使兩對夫妻的親密落差無法迴避，隔牆聲響因此成為這部禁忌關係作品的具體辨識點。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以債務搬家、同住和隔牆聲響串起關係設定。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "兩對夫妻的設定差在哪裡？",
+      "隔牆聲響對選片有何意義？",
+      "目前材料能支持哪些判斷？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "搬進義父家，讓兩段婚姻有了對照",
+      "body": "公開簡介先交代搬家的原因：丈夫工作失利，夫妻為了償債住進鄉下義父家。miru 演出的妻子與丈夫缺少親密互動，義父母卻仍維持親密生活。兩段婚姻的差別每天都存在於同一屋簷下，這比單看「不倫」標籤更能說明本作的設定。"
+    },
+    {
+      "heading": "隔牆聲響，是設定中的越界起點",
+      "body": "簡介讓妻子從隔牆聽見義父母，逐漸意識到自己婚姻中的缺口；後續禁忌關係也由此展開。若你選片時在意人物為何會注意到另一段關係，這個共同生活的前提提供了明確線索。它說明的是故事如何被介紹，還不能回答成片如何呈現聲音或情緒。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據題目提供的 [SNOS-452 作品資料快照](https://cc18.tv/player.php?uuid=rtd_YpYH6b1&cat=19)，比較的是公開簡介中兩對夫妻的設定。來源頁面未能在執行環境中開啟；沒有使用影片抽樣，也沒有其他經核對的關聯作品可供比較。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "90a07433a74b8934a8118753857ce1b2c8cceec6fa1e98af570476dd75f2d3dc",
+    "response_sha256": "bd530f9c945b69d02d6b66e30111e16a8cde44fb7bdc540c1e199faf6407fd70",
+    "research_input_sha256": "1ecf760b368ec18ef7dc35846b2d4616cd315306513dbd7bd2cecd828b44dc1f",
+    "related_source_ids": []
+  }
+}
