@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:e68485ec251927384a6977b8090e730ffe9c703423fdda1293a0e70330afc0a6",
-  "source_generated_at": "2026-11-09T22:52:44.494Z",
+  "source_revision": "sha256:57b7bfaba7d82722bccc5ede13e515c09933fb2023ed968c13090203900b14fe",
+  "source_generated_at": "2026-11-10T00:49:13.005Z",
   "counts": {
-    "movies": 552,
-    "performers": 394,
+    "movies": 553,
+    "performers": 395,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -392,6 +392,7 @@
       "source_name": "大槻響",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:DSOD-105",
         "cc18:WAAA-705"
       ]
     },
@@ -2877,6 +2878,17 @@
       "related_movie_ids": [
         "cc18:SNOS-375",
         "cc18:SNOS-415"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:51056",
+      "display_name": "夏目玲香",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "夏目玲香",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DSOD-105"
       ]
     },
     {
@@ -8752,6 +8764,45 @@
         "article_title": "從女將到教師：五日市芽依的角色位置如何改變？",
         "display_short_title": "被握住把柄的女教師",
         "slug": "dsod-094"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DSOD-105",
+        "source_cover": "https://cc18.tv/preview/80/b/gtLuvfrvC86-800.jpg?v=1793115114",
+        "title": "老闆娘與上班族",
+        "catalog_code": "DSOD-105",
+        "release_date": "2026-10-23",
+        "performers": [
+          "大槻響",
+          "夏目玲香"
+        ],
+        "canonical_topics": [
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dsod-105/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:72",
+        "cc18.tv:actor:51056"
+      ],
+      "search": {
+        "source_title": "【蕾絲邊解禁】第一次被女人的手指與舌頭弄瘋的數日間——心與身體都混亂地融為一體的濃密性愛。 大槻響 夏目玲香",
+        "article_title": "同樣由大槻響演出，老闆娘與女教師如何走進一段關係？",
+        "display_short_title": "老闆娘與上班族",
+        "slug": "dsod-105"
       }
     },
     {

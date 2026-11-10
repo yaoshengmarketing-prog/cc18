@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-105",
+  "generated_at": "2026-11-10T00:42:49.718Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/DSOD-105.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "大槻響",
+    "premise": "作品以「大槻響」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「大槻響」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "大槻響",
+      "夏目玲香",
+      "老闆娘"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由大槻響演出，DSOD-105 的居酒屋老闆娘與 WAAA-705 的女教師，各自如何帶出角色關係，又提供了什麼不同的選片理由？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=gtLuvfrvC86&cat=19",
+      "supports": "作品頁快照列出大槻響與夏目玲香，簡介以居酒屋老闆娘與感情不順的上班族在都市相遇為開端，並把寂寞寫成兩人的共同處境。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=Ai7yEX00_3y&cat=19",
+      "supports": "作品頁快照列出大槻響，簡介從受欺負的學生向願意聽他傾訴的女教師提出請求寫起，後續以一場意外作為轉折。"
+    }
+  ],
+  "angle_candidates": [
+    "從居酒屋老闆娘與女教師的角色差異，對照兩份簡介如何安排人物靠近。",
+    "從老闆娘與上班族共有的寂寞，理解本作如何介紹這段女性之間的關係。",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "兩部簡介給了大槻響不同的位置。DSOD-105 讓她飾演同樣懷有寂寞的相遇者，WAAA-705 則讓她飾演回應學生請求的女教師。想看女性角色如何因相似的處境而靠近，可以從本作的設定挑起。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "夏目玲香",
+      "source_field": "actress"
+    },
+    {
+      "type": "performer",
+      "value": "大槻響",
+      "source_field": "actress"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "居酒屋老闆娘與上班族的都市相遇",
+  "display_short_title": "老闆娘與上班族",
+  "title": "同樣由大槻響演出，老闆娘與女教師如何走進一段關係？",
+  "seo_title": "DSOD-105 選片指南｜大槻響與夏目玲香的都市相遇",
+  "social_title": "大槻響演居酒屋老闆娘，兩個寂寞的人如何走近？",
+  "short_review": "大槻響與夏目玲香飾演兩個在都市相遇的人。簡介先交代上班族的感情困境，再點出老闆娘也有相似的寂寞。若你是循著大槻響找片，這份共同處境就是本作與女教師企劃最清楚的區別。",
+  "editorial_angle": "以同一位演員的兩個角色為對照，從雙方的共同處境與單方提出請求這兩種起點，說明選片差異。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介交代老闆娘與感情不順的上班族在都市相遇，並寫到兩人都感到寂寞。",
+      "supports": "共同處境是這份簡介交代兩人靠近的理由。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "WAAA-705 的簡介從學生向女教師提出請求寫起，隨後安排一場意外。",
+      "supports": "這份簡介靠一方提出請求和後續事件推進，與本作從兩人共有的寂寞切入有別。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "夏目玲香飾演的角色是否已婚，因簡介對伴侶的稱呼前後不一。",
+    "標題中的初次經驗是否涉及演員本人的經歷或職涯紀錄。",
+    "成片的情節密度、節奏、表演、鏡頭、聲音與實際台詞。"
+  ],
+  "decision_guide": {
+    "thesis": "若你想從大槻響的作品裡找以兩名女性的相遇為起點的設定，本作的簡介給了明確的選片理由。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "宣傳簡介以都市相遇開場，把兩名角色共有的寂寞放在關係的起點。"
+    ],
+    "audience_for": [
+      "想看大槻響與夏目玲香搭檔，並偏好從女性角色的共同處境切入的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "希望延續 WAAA-705 的師生設定，或偏好由突發事件帶出轉折的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "大槻響在兩份簡介裡分別飾演什麼角色？",
+      "兩部作品各用什麼設定讓人物靠近？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "老闆娘也有自己的寂寞",
+      "body": "大槻響飾演居酒屋老闆娘，夏目玲香飾演感情不順的上班族。簡介先交代上班族的困境，再把寂寞寫成兩人的共同處境。這讓老闆娘也有了靠近對方的理由，兩人的相遇因此成為這部作品最鮮明的選片線索。"
+    },
+    {
+      "heading": "換成女教師，關係從一個請求開始",
+      "body": "同樣由大槻響演出的 WAAA-705，從受欺負的學生向願意聽他傾訴的老師提出請求寫起，接著以一場意外帶出轉折。若你在兩部作品之間挑選，可以先想自己想看哪種關係起點。DSOD-105 的吸引力在於兩個人各有心事，卻在對方身上認出相似的寂寞。WAAA-705 的文案重心則落在學生的請求如何打破原有的師生相處方式。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用兩部 CC18 作品頁的已核對快照與演員關係資料。角色對照與選片判斷以公開簡介為依據，未使用影片抽樣。 [DSOD-105 作品頁](https://cc18.tv/player.php?uuid=gtLuvfrvC86&cat=19)、[WAAA-705 作品頁](https://cc18.tv/player.php?uuid=Ai7yEX00_3y&cat=19)"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "a95e52df5e80515e7d737f70dedc5cebd089164983511b2dcca3e38d006b39fa",
+    "response_sha256": "5e1ffdfe7daf5a7df15b2671a620bb01d75bf8e9b459ff4f4dc548174f4d30b9",
+    "research_input_sha256": "8e91de7e1153d56501b0092ac94188b4c8c87cc69760cbda1a13402e57a9e595",
+    "related_source_ids": [
+      "WAAA-705"
+    ]
+  }
+}

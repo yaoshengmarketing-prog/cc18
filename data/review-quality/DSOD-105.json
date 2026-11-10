@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-105",
+  "review_sha256": "1db8bca9b68d04df2fa5a5349a44031a77747924318d756179aa4f0d4b86ae13",
+  "selected_thesis": "兩部簡介給了大槻響不同的位置。DSOD-105 讓她飾演同樣懷有寂寞的相遇者，WAAA-705 則讓她飾演回應學生請求的女教師。想看女性角色如何因相似的處境而靠近，可以從本作的設定挑起。",
+  "title_basis": {
+    "performer": "大槻響、夏目玲香",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "夏目玲香",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "大槻響",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "夏目玲香",
+    "presentation_feature": "大槻響",
+    "editorial_judgment": "以同一位演員的兩個角色為對照，從雙方的共同處境與單方提出請求這兩種起點，說明選片差異。",
+    "source_keywords": [
+      "夏目玲香",
+      "大槻響",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介交代老闆娘與感情不順的上班族在都市相遇，並寫到兩人都感到寂寞。",
+      "supports": "共同處境是這份簡介交代兩人靠近的理由。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "WAAA-705 的簡介從學生向女教師提出請求寫起，隨後安排一場意外。",
+      "supports": "這份簡介靠一方提出請求和後續事件推進，與本作從兩人共有的寂寞切入有別。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "夏目玲香飾演的角色是否已婚，因簡介對伴侶的稱呼前後不一。",
+    "標題中的初次經驗是否涉及演員本人的經歷或職涯紀錄。",
+    "成片的情節密度、節奏、表演、鏡頭、聲音與實際台詞。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "movie_id": "DSOD-105",
+  "generated_at": "2026-11-10T00:42:50.439Z",
+  "source_snapshot_hash": "sha256:a95e52df5e80515e7d737f70dedc5cebd089164983511b2dcca3e38d006b39fa",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若你想從大槻響的作品裡找以兩名女性的相遇為起點的設定，本作的簡介給了明確的選片理由。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "宣傳簡介以都市相遇開場，把兩名角色共有的寂寞放在關係的起點。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想看大槻響與夏目玲香搭檔，並偏好從女性角色的共同處境切入的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "希望延續 WAAA-705 的師生設定，或偏好由突發事件帶出轉折的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "WAAA-705",
+      "relation_type": "same_performer",
+      "reason": "同樣由大槻響出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "大槻響"
+      ],
+      "contrast_signals": [
+        "中出",
+        "コンドームが破れてまさかの生ハメ！超加速するピストンで何度も"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "大槻響在兩份簡介裡分別飾演什麼角色？",
+    "兩部作品各用什麼設定讓人物靠近？"
+  ]
+}
