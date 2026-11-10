@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "STSK-251",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-10T08:51:31.097Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/STSK-251/hero-v1.jpg",
+      "r2_key": "works/2026/11/STSK-251/hero-v1.jpg",
+      "bytes": 853535,
+      "sha256": "d01bf073da0e4619184a6da2c5dcb5724338d7719e5573462cda50ddf609575e",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "ab322d5b48fc494faf15e4482cb1ba33",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 角色成長, 互動節奏, 關係轉折. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/STSK-251/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/STSK-251/scene-vertical-v1.jpg",
+      "bytes": 1255855,
+      "sha256": "0db3025d17f0951fd4d2b043ddc515791489338b9644265a5f77bf9f76984923",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "f03ceaaf50344e929e329298c99d9d1d",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 角色成長, 互動節奏, 關係轉折. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3678262,
+    "sha256": "813443463296ed194b27bae4810ffcada63f3c7299f6be2ba879c5d7b7f4fd01",
+    "target_r2_key": "works/2026/11/STSK-251/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/STSK-251/vertical-v1.mp4"
+  }
+}

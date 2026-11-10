@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "STSK-251",
+  "review_sha256": "207b732b164f8811b2a90edebf8f5e20222421fccff6c914ef9c329d5a73de06",
+  "selected_thesis": "飯店密會提供報復的起點，紙箱送達則是宣傳簡介的轉折。俱樂部從蒐證的一方變成執行報復的一方，使這部作品的選片關鍵落在能否接受綁架與性暴力設定。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "series",
+        "value": "「ド不倫オンナ絶対孕ませ宅配クラブ」",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "素人",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "「ド不倫オンナ絶対孕ませ宅配クラブ」",
+    "presentation_feature": "素人企劃",
+    "editorial_judgment": "沿著公開簡介的敘述，辨認俱樂部從調查者變成報復執行者的轉折，並用這個具體設定補足外遇標籤提供的資訊。",
+    "source_keywords": [
+      "「ド不倫オンナ絶対孕ませ宅配クラブ」",
+      "素人企劃",
+      "高畫質",
+      "素人"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "簡介寫到俱樂部追查妻子與外遇對象在飯店密會的證據。",
+      "supports": "飯店密會在文案裡交代報復的起因。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介寫到俱樂部將妻子強行裝箱送到丈夫面前，並以性暴力代他報復。",
+      "supports": "紙箱送達讓俱樂部從蒐證方變成報復執行者，也讓選片時需要留意的強迫情節更具體。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "演員身分、真實關係與個人經歷",
+    "本作日文原題及同系列作品的設定差異",
+    "成片的敘事順序、節奏、畫面、聲音與台詞",
+    "宣傳設定是否在片中發展成特定結局"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}

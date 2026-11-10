@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "movie_id": "STSK-251",
+  "generated_at": "2026-11-10T08:46:43.379Z",
+  "source_snapshot_hash": "sha256:631e8210806811b03d7abb0defb8db7ec2885a015b0af2b381a8442cb71dc3a2",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "如果是從外遇標籤找到本作，紙箱送達與代夫報復是更具體的篩選依據。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介先交代飯店密會的蒐證，再以強行送達和代夫報復介紹企劃。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "外遇調查在文案裡起什麼作用？",
+    "俱樂部如何從蒐證轉向執行報復？",
+    "只看外遇標籤會漏掉哪些影響選片的設定？"
+  ]
+}

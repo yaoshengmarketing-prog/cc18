@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-10T07:48:10.463Z",
+  "generated_at": "2026-11-10T08:53:02.955Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 562,
-  "formal_movie_count": 561,
+  "tracked_input_count": 563,
+  "formal_movie_count": 562,
   "demo_count": 1,
-  "published_count": 560,
+  "published_count": 561,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -4706,6 +4706,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "c27b2b0bbd45ac63e4964420527b5e8caf9e62e9660fc89754656e27cee80b53"
+    },
+    {
+      "stable_movie_id": "cc18:STSK-251",
+      "catalog_code": "STSK-251",
+      "slug": "stsk-251",
+      "master_path": "data/movie-master/stsk-251.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "78bfe1d6e3344f117eb462978a329d469434f0145d244af3f8324f51e97d39b9"
     },
     {
       "stable_movie_id": "cc18:STVF-115",
