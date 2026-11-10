@@ -1608,7 +1608,7 @@
     },
     {
       "label": "羞辱",
-      "occurrences": 19,
+      "occurrences": 20,
       "source_ids": [
         "DOKS-689",
         "START-601",
@@ -1628,10 +1628,11 @@
         "SAME-230",
         "SAME-244",
         "IPZZ-983",
-        "CAWB-019"
+        "CAWB-019",
+        "IESP-764"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     },
     {
@@ -2415,7 +2416,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 46,
+      "occurrences": 47,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -2462,7 +2463,8 @@
         "HUNTC-642",
         "MKMP-763",
         "NACT-200",
-        "XVSR-909"
+        "XVSR-909",
+        "IESP-764"
       ],
       "first_seen": "2026-09-09",
       "last_seen": "2026-11-10",

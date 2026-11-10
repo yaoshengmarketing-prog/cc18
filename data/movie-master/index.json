@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-10T06:49:28.257Z",
+  "generated_at": "2026-11-10T07:48:10.463Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 561,
-  "formal_movie_count": 560,
+  "tracked_input_count": 562,
+  "formal_movie_count": 561,
   "demo_count": 1,
-  "published_count": 559,
+  "published_count": 560,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -1916,6 +1916,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "48d3ed3e38e3a059a7e032280c79253a8322fb50592d5b20e3819c163800d6d5"
+    },
+    {
+      "stable_movie_id": "cc18:IESP-764",
+      "catalog_code": "IESP-764",
+      "slug": "iesp-764",
+      "master_path": "data/movie-master/iesp-764.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "79487dd555076a83cd0533fb999f16e25d909a4d875fd9d73015036e95bdda87"
     },
     {
       "stable_movie_id": "cc18:IESP-765",

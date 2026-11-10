@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T06:48:42.729Z",
+  "updated_at": "2026-11-10T07:47:26.385Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -8357,6 +8357,21 @@
       ],
       "release_date": "2026-10-31",
       "source_url": "https://cc18.tv/player.php?uuid=rPkLC1VRGfE&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-10"
+    },
+    {
+      "id": "IESP-764",
+      "actress": [
+        "北岡果林"
+      ],
+      "release_date": "2026-11-04",
+      "source_url": "https://cc18.tv/player.php?uuid=xl5YihkyvaU&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

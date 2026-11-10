@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:2a8f1377dbec2933ef1d3d5b336f4a99ccde4ea45e5466732c308744ca3667a2",
-  "source_generated_at": "2026-11-10T06:49:28.257Z",
+  "source_revision": "sha256:53f2c190dbc15a2bb5b0b0bf438cb9a58380ad3201d0c0327578c30ce54c57e6",
+  "source_generated_at": "2026-11-10T07:48:10.463Z",
   "counts": {
-    "movies": 559,
+    "movies": 560,
     "performers": 400,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
@@ -933,6 +933,7 @@
       "related_movie_ids": [
         "cc18:ATID-666",
         "cc18:BBAN-604",
+        "cc18:IESP-764",
         "cc18:MIMK-291"
       ]
     },
@@ -4918,6 +4919,51 @@
         "article_title": "買下受損卡片，為何讓交換持續下去？",
         "display_short_title": "卡店賠償後的交換",
         "slug": "nhdtc-269"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:IESP-764",
+        "source_cover": "https://cc18.tv/preview/80/b/xl5YihkyvaU-800.jpg?v=1793846251",
+        "title": "緝毒臥底遭背叛",
+        "catalog_code": "IESP-764",
+        "release_date": "2026-11-04",
+        "performers": [
+          "北岡果林"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/iesp-764/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:29341"
+      ],
+      "search": {
+        "source_title": "北岡果林 麻藥搜查官 藥物浸染陰道痙攣",
+        "article_title": "後輩背叛後，臥底任務變成脫身難題",
+        "display_short_title": "緝毒臥底遭背叛",
+        "slug": "iesp-764"
       }
     },
     {

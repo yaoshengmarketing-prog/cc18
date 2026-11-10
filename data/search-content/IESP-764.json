@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "movie_id": "IESP-764",
+  "generated_at": "2026-11-10T07:41:45.956Z",
+  "source_snapshot_hash": "sha256:921136f8e4d444c4a76404951e12756a7c70f236c0d0014bb13154a6d14d8d13",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想找北岡果林演出的臥底脫困題材，可先看 IESP-764 的設定。更在意新婚關係如何受到舊情衝擊，ATID-666 的簡介更貼近這個偏好。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以臥底身分開場，將後輩背叛寫成轉折，再以多次嘗試脫身延續懸念。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MIMK-291",
+      "relation_type": "same_performer",
+      "reason": "同樣由北岡果林出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "北岡果林"
+      ],
+      "contrast_signals": [
+        "系列累計突破10萬部",
+        "AV女優片"
+      ]
+    },
+    {
+      "movie_id": "BBAN-604",
+      "relation_type": "same_performer",
+      "reason": "同樣由北岡果林出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "北岡果林"
+      ],
+      "contrast_signals": [
+        "響蓮",
+        "為了不讓陰沉過去曝光"
+      ]
+    },
+    {
+      "movie_id": "ATID-666",
+      "relation_type": "same_performer",
+      "reason": "同樣由北岡果林出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "北岡果林"
+      ],
+      "contrast_signals": [
+        "廣瀨里緒菜",
+        "あなた、許して"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作的臥底任務因何翻轉？",
+    "同樣由北岡果林演出，兩部作品的衝突各從哪裡開始？"
+  ]
+}

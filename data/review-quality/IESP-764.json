@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "IESP-764",
+  "review_sha256": "b38fd9a696ac070cdbe62c47952dabe98d153f65a42d7f087b2dce58cd2704ae",
+  "selected_thesis": "兩部作品的選片差異在於衝突從哪段關係開始。IESP-764 由後輩背叛翻轉臥底任務，接著留下如何脫身的懸念。ATID-666 則讓丈夫的前女友走進新婚家庭，把焦點放在原有關係受到的衝擊。",
+  "title_basis": {
+    "performer": "北岡果林",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "北岡果林",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "麻薬捜査官",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "北岡果林",
+    "presentation_feature": "麻薬捜査官",
+    "editorial_judgment": "以同演員作品作對照，從觸發轉折的人物關係，區分臥底脫困與新婚關係兩種題材。",
+    "source_keywords": [
+      "北岡果林",
+      "麻薬捜査官",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介依序交代潛入據點、後輩背叛、主角被捕與多次嘗試逃脫。",
+      "supports": "後輩的背叛把簡介的焦點從執行任務轉到主角如何脫身。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "ATID-666 同樣由北岡果林演出，簡介先交代新婚生活，再寫丈夫的前女友突然登門。",
+      "supports": "同演員作品提供了不同的選片線索，一部以任務中的背叛引出脫困，另一部以舊情介入引出婚姻衝突。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "逃脫結果與角色結局",
+    "成片的敘事密度、節奏與演出品質",
+    "未經核對的畫面、聲音與台詞",
+    "演員的真實經歷與整個系列的固定敘事模式"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}
