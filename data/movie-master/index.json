@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-10T01:36:39.504Z",
+  "generated_at": "2026-11-10T01:47:21.578Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 556,
-  "formal_movie_count": 555,
+  "tracked_input_count": 557,
+  "formal_movie_count": 556,
   "demo_count": 1,
-  "published_count": 554,
+  "published_count": 555,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -2177,6 +2177,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "abd16ae145b25c54ff4d5a373e9c8acc0c6b1ba84e80866e791d38afa7b3f25b"
+    },
+    {
+      "stable_movie_id": "cc18:KUSE-045",
+      "catalog_code": "KUSE-045",
+      "slug": "kuse-045",
+      "master_path": "data/movie-master/kuse-045.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "332d070ec7d8084e5d8b3729a795f452c1683d13c254254be749d3964ab16820"
     },
     {
       "stable_movie_id": "cc18:MAAN-1192",

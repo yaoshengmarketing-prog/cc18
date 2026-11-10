@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "KUSE-045",
+  "generated_at": "2026-11-10T01:42:50.457Z",
+  "source_snapshot_hash": "sha256:09d5f3b40bdf2787602c7e35c68fee4afba0863b35a59f8b7d6b1f931fa440a8",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "可按香椎もか的出道定位與肛交題材選片。超市職員是簡介的人物設定，能說明文案如何開場。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介先介紹超市正職員工的日常身分，再揭示出道作主打的題材。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想找香椎もか出道作的讀者",
+      "習慣先按題材分類篩片的讀者"
+    ],
+    "not_for": [
+      "想先確認超市職場是否有完整故事線的讀者",
+      "需要先掌握成片節奏或表演風格的讀者"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "文案如何用超市職員設定建立人物印象？",
+    "演員、出道定位與題材能提供哪些選片線索？"
+  ]
+}

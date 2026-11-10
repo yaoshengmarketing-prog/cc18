@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "KUSE-045",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-10T01:45:55.777Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/KUSE-045/hero-v1.jpg",
+      "r2_key": "works/2026/10/KUSE-045/hero-v1.jpg",
+      "bytes": 689897,
+      "sha256": "50cf7ea90eb05ed8b0f6be2b617a666a2b1fdf80468959de1bdec7ef1af6f252",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "40f3da367e9148f99ae85a858c4fc9d8",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/KUSE-045/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/KUSE-045/scene-vertical-v1.jpg",
+      "bytes": 892435,
+      "sha256": "59e25f87d8c7a7b7a1c11c1181be3ff9d13fd798a31162486aa8c7bc2665db5b",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "2eb6651cce1744e696e1cdce7265c74a",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3093100,
+    "sha256": "c49cd935be8bc94805a79ab230c66a4536be4ed298a2e6ed0e394bcc4e544e26",
+    "target_r2_key": "works/2026/10/KUSE-045/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/KUSE-045/vertical-v1.mp4"
+  }
+}

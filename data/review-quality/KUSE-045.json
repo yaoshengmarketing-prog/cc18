@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "KUSE-045",
+  "review_sha256": "35cca870f166b96bf30fb124f89aeb0f332a1a501a738e691b458d62a6de3166",
+  "selected_thesis": "簡介用超市正職員工的日常身分建立人物印象，再以肛交題材拉出反差。對選片而言，職業設定提供的是宣傳切入點，出道定位和題材分類才是較明確的篩選依據。",
+  "title_basis": {
+    "performer": "香椎もか",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "香椎もか",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "雖然是新人但肛門解禁",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "香椎もか",
+    "presentation_feature": "雖然是新人但肛門解禁",
+    "editorial_judgment": "把同一份簡介裡的職業設定與題材賣點分開看，判斷各自能提供多少選片資訊。",
+    "source_keywords": [
+      "香椎もか",
+      "雖然是新人但肛門解禁",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "公開簡介開頭以超市正職員工介紹主角，後段轉向肛交題材。",
+      "supports": "職業設定先建立日常印象，題材則構成文案的反差與主要賣點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "作品頁標示出道作與肛交，人物關係資料列出演員香椎もか。",
+      "supports": "讀者可以按演員的出道定位或題材分類篩選本作。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "演員的真實職業、私生活與個人偏好",
+    "超市場景是否出現、所占篇幅及其在劇情中的作用",
+    "與其他 SOD 出道作的異同及本作的系列歸屬",
+    "成片的畫面、聲音、台詞、節奏與表演品質"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}

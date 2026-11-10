@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "id": "KUSE-045",
+  "generated_at": "2026-11-10T01:42:49.842Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/KUSE-045.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "雖然是新人但肛門解禁",
+    "premise": "作品以「雖然是新人但肛門解禁」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「雖然是新人但肛門解禁」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "雖然是新人但肛門解禁",
+      "隱藏G罩杯美巨乳",
+      "香椎萌香",
+      "浣腸",
+      "出道作"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "香椎もか的出道作為什麼用超市正職員工的設定開場？這個設定能提供什麼選片線索？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=p38uolDRS5E&cat=19",
+      "supports": "提供的作品頁快照將本作列為 SOD 發行的出道作。簡介先以超市正職員工介紹主角，隨後轉向肛交題材。"
+    },
+    {
+      "url": "https://cc18.tv/search.php?s_type=actor&s_tid=54819",
+      "supports": "提供的人物關係快照將本作演員記為香椎もか。"
+    }
+  ],
+  "angle_candidates": [
+    "從超市職員到出道賣點，分析文案如何用日常身分製造反差。",
+    "對照出道作與肛交兩項分類，說明演員索引和題材索引各能回答什麼。",
+    "雖然是新人但肛門解禁的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "簡介用超市正職員工的日常身分建立人物印象，再以肛交題材拉出反差。對選片而言，職業設定提供的是宣傳切入點，出道定位和題材分類才是較明確的篩選依據。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "香椎もか",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "雖然是新人但肛門解禁",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "identity",
+      "value": "AV女優片",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "香椎もか的超市職員出道作",
+  "display_short_title": "香椎もか出道作",
+  "title": "香椎もか的出道文案，為什麼從超市職員寫起？",
+  "seo_title": "KUSE-045 香椎もか出道作｜超市職員設定與選片重點",
+  "social_title": "從超市職員寫起，香椎もか的出道作主打什麼？",
+  "short_review": "簡介先用超市正職員工的身分帶出人物，再轉向肛交題材。想找香椎もか的出道作或依題材篩片，公開資料已有明確線索。若是被超市設定吸引，簡介只足以看出它如何替人物開場。",
+  "editorial_angle": "把同一份簡介裡的職業設定與題材賣點分開看，判斷各自能提供多少選片資訊。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "公開簡介開頭以超市正職員工介紹主角，後段轉向肛交題材。",
+      "supports": "職業設定先建立日常印象，題材則構成文案的反差與主要賣點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "作品頁標示出道作與肛交，人物關係資料列出演員香椎もか。",
+      "supports": "讀者可以按演員的出道定位或題材分類篩選本作。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "演員的真實職業、私生活與個人偏好",
+    "超市場景是否出現、所占篇幅及其在劇情中的作用",
+    "與其他 SOD 出道作的異同及本作的系列歸屬",
+    "成片的畫面、聲音、台詞、節奏與表演品質"
+  ],
+  "decision_guide": {
+    "thesis": "可按香椎もか的出道定位與肛交題材選片。超市職員是簡介的人物設定，能說明文案如何開場。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介先介紹超市正職員工的日常身分，再揭示出道作主打的題材。"
+    ],
+    "audience_for": [
+      "想找香椎もか出道作的讀者",
+      "習慣先按題材分類篩片的讀者"
+    ],
+    "audience_not_for": [
+      "想先確認超市職場是否有完整故事線的讀者",
+      "需要先掌握成片節奏或表演風格的讀者"
+    ],
+    "questions_answered": [
+      "文案如何用超市職員設定建立人物印象？",
+      "演員、出道定位與題材能提供哪些選片線索？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "超市職員是文案的起點",
+      "body": "簡介第一句先交代主角在超市做正職，接著才把重心轉向出道作主打的肛交題材。兩段文字給讀者的線索不同。前一段用熟悉的職業建立日常印象，讓後一段的題材揭示有反差。後一段則直接交代作品想用什麼吸引讀者。"
+    },
+    {
+      "heading": "出道定位和題材更適合用來篩片",
+      "body": "如果你是循著香椎もか找片，作品頁的出道作標籤交代了它的發行定位。如果你按題材選片，簡介與肛交標籤指向同一個賣點。若你更在意超市職場有沒有發展成故事，簡介只交代了主角的職業，能用來判斷的資訊很有限。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用提供的 CC18 作品頁與人物關係快照。這次查找未取得可核對的片商官方頁、訪談或關聯作品，因此比較集中在本作簡介的兩段宣傳重點。文中對反差的解讀來自文案，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "09d5f3b40bdf2787602c7e35c68fee4afba0863b35a59f8b7d6b1f931fa440a8",
+    "response_sha256": "944a6a9acb595358d17f7af7b7ecae847bbceb16832240afd37cf0b8aec85dff",
+    "research_input_sha256": "e588cb71b1ccd3790099d21e466ccc06ff69e2650f7123a6f600027bee8e1a07",
+    "related_source_ids": []
+  }
+}

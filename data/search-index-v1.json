@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:7bf423c346ab53ce69d45f08761ffaec880df81e1221c010d8f617d0c944e50f",
-  "source_generated_at": "2026-11-10T01:36:39.504Z",
+  "source_revision": "sha256:72123020ece02924f0dbad85a419257d28c5eaf2d0cdfecde2a6b187e36a5a28",
+  "source_generated_at": "2026-11-10T01:47:21.578Z",
   "counts": {
-    "movies": 554,
-    "performers": 395,
+    "movies": 555,
+    "performers": 396,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -2832,6 +2832,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:HMN-911"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54819",
+      "display_name": "香椎もか",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "香椎もか",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:KUSE-045"
       ]
     },
     {
@@ -8215,6 +8226,43 @@
         "article_title": "FSBK-028 北乃まい × ちいさなおしり｜北乃まい｜小巧臀部企劃：系列公式鮮明的展示型選片",
         "display_short_title": null,
         "slug": "fsbk-028"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:KUSE-045",
+        "source_cover": "https://cc18.tv/preview/80/b/p38uolDRS5E-800.jpg?v=1793219802",
+        "title": "香椎もか出道作",
+        "catalog_code": "KUSE-045",
+        "release_date": "2026-10-27",
+        "performers": [
+          "香椎もか"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/kuse-045/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54819"
+      ],
+      "search": {
+        "source_title": "雖然是新人但肛門解禁 隱藏G罩杯美巨乳 身高149cm迷你美腰線身材 喜歡屁眼性交的變態超市正職員工（20歲）以肛門性交完成AV初登場 香椎萌香",
+        "article_title": "香椎もか的出道文案，為什麼從超市職員寫起？",
+        "display_short_title": "香椎もか出道作",
+        "slug": "kuse-045"
       }
     },
     {
