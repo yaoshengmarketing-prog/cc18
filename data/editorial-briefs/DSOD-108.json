@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-108",
+  "generated_at": "2026-11-10T19:46:00.039Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/DSOD-108.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "不管在什麼地方都會誘惑我",
+    "premise": "作品以「不管在什麼地方都會誘惑我」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「不管在什麼地方都會誘惑我」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "不管在什麼地方都會誘惑我",
+      "真人版",
+      "夏目玲香",
+      "杏津杏"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "癡女"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "3p・4p",
+      "淫亂・過激系"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由夏目玲香演出，這部作品與 DSOD-105 的公開設定，分別提供什麼選片線索？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=gxWKXfWUAfd&cat=19",
+      "supports": "本作簡介交代杏津杏飾演姊姊加茂名千秋、夏目玲香飾演母親加茂名春子；兩人的觀念與鄉下風習有關。作品列於「ダスッ！原作コラボ」系列。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=gtLuvfrvC86&cat=19",
+      "supports": "DSOD-105 同樣由夏目玲香演出，簡介以都市中相遇的居酒屋老闆娘與感情受挫的上班族為人物設定。"
+    }
+  ],
+  "angle_candidates": [
+    "從母親與姊姊的雙角色設定，看本作如何建立選片入口",
+    "比較夏目玲香兩部作品的人物關係：家庭設定與都市相遇",
+    "ダスッ！原作コラボ的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作的可辨識之處，是讓杏津杏與夏目玲香分別承接姊姊、母親角色，並用鄉下風習解釋兩人的共同觀念；相較於 DSOD-105 以兩名陌生女性在都市相遇為起點，選片重心轉向既定的家庭角色與原作改編設定。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "杏津杏",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "不管在什麼地方都會誘惑我",
+      "source_field": "title"
+    },
+    {
+      "type": "performer",
+      "value": "夏目玲香",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "ダスッ！原作コラボ",
+      "source_field": "series"
+    }
+  ],
+  "work_title": "《朋友都羨慕的媽媽與姊姊》真人版",
+  "display_short_title": "朋友都羨慕的媽媽與姊姊",
+  "title": "同樣由夏目玲香演出，這次為何先看人物關係？",
+  "seo_title": "DSOD-108｜杏津杏與夏目玲香的母親、姊姊角色設定",
+  "social_title": "杏津杏演姊姊、夏目玲香演母親：這次的選片線索",
+  "short_review": "杏津杏與夏目玲香分別飾演姊姊與母親，簡介以鄉下風習串起兩人的觀念。若你在意雙人角色如何服務原作改編，這比單看演員名單更能說明本作的企劃方向。",
+  "editorial_angle": "以同演員作品作對照，說明本作的家庭角色與原作改編設定如何影響選片期待。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作的演員與角色分配",
+      "supports": "杏津杏飾演加茂名千秋，夏目玲香飾演加茂名春子；來源簡介分別稱她們為姊姊與母親。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作的設定與系列關係",
+      "supports": "簡介以兩人出生、成長的鄉下風習解釋其觀念；來源將作品列於「ダスッ！原作コラボ」系列。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同演員作品的設定對照",
+      "supports": "DSOD-105 的簡介寫夏目玲香與大槻響飾演的兩名女性在都市相遇，與本作一開始就設定好的母親、姊姊角色關係不同。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將角色的親屬關係寫成演員的真實關係。",
+    "未推定原作的名稱、情節還原程度，或成片的表演與拍攝品質。"
+  ],
+  "decision_guide": {
+    "thesis": "本作適合想從杏津杏與夏目玲香的雙角色分工，進入原作改編家庭設定的讀者。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介先交代母親、姊姊的角色分配，再以鄉下風習說明兩人共享的觀念。"
+    ],
+    "audience_for": [
+      "想看杏津杏與夏目玲香共同演出的人",
+      "對原作改編中的人物關係設定感興趣的人"
+    ],
+    "audience_not_for": [
+      "需要先確認成片敘事密度、節奏或改編忠實度的人",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "兩位演員在本作分別飾演誰？",
+      "本作與夏目玲香出演的 DSOD-105，公開設定有何具體差異？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "兩個角色，構成本作的選片線索",
+      "body": "杏津杏飾演姊姊加茂名千秋，夏目玲香飾演母親加茂名春子。來源簡介不只列出演員，還用兩人出生、成長的鄉下風習，解釋她們為何抱持相近的觀念。這讓「母親與姊姊」成為同一個改編設定中的雙角色安排，而不只是兩個並列的人名。"
+    },
+    {
+      "heading": "和夏目玲香的另一部作品相比",
+      "body": "DSOD-105 也由夏目玲香演出，但它的簡介從都市裡兩名女性的相遇開始：一位是居酒屋老闆娘，另一位是與男友關係不和的上班族。本作則先給夏目玲香母親角色，再讓杏津杏的姊姊角色與她共享一套背景觀念。前者的選片入口是兩人如何走近；本作的入口，是既定角色關係如何承接改編題材。這是公開設定的差異，不能據此評斷哪部拍得更好。"
+    },
+    {
+      "heading": "我的選片判斷",
+      "body": "如果你是循著演員找片，本作值得留意的是杏津杏與夏目玲香的角色分工；如果你是循著「原作改編」找片，公開簡介至少給出了一個明確的人物設定。至於改編如何落在成片的故事、表演與節奏上，目前材料不足以判斷。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "材料為 [本作來源作品頁](https://cc18.tv/player.php?uuid=gxWKXfWUAfd&cat=19)及[同樣由夏目玲香演出的 DSOD-105 來源作品頁](https://cc18.tv/player.php?uuid=gtLuvfrvC86&cat=19)之已核對資料快照。人物關係與設定比較依據兩作公開簡介；選片意義是編輯判斷，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "cd341116f1902ae1b232ec5a4e328b3f5878fd6eca6563dafe17d32e62f2f5b1",
+    "response_sha256": "be055d6cf550fbe0dccf6ff918dc69aedc450653dd17323768e9bbd941e3789c",
+    "research_input_sha256": "c0096de719ad8497850b151c354184af56d0e8fcc42a025502ed4ee7d793f924",
+    "related_source_ids": [
+      "DSOD-105",
+      "PPPE-442"
+    ]
+  }
+}

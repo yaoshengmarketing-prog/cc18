@@ -2217,13 +2217,14 @@
     },
     {
       "label": "原作改編",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "MIMK-291",
-        "RKI-770"
+        "RKI-770",
+        "DSOD-108"
       ],
       "first_seen": "2026-09-13",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-11",
       "status": "quarantined"
     },
     {
@@ -2446,7 +2447,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 50,
+      "occurrences": 51,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -2497,7 +2498,8 @@
         "IESP-764",
         "STSK-251",
         "SNOS-484",
-        "BBAN-613"
+        "BBAN-613",
+        "DSOD-108"
       ],
       "first_seen": "2026-09-09",
       "last_seen": "2026-11-11",

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "movie_id": "DSOD-108",
+  "generated_at": "2026-11-10T19:46:01.539Z",
+  "source_snapshot_hash": "sha256:cd341116f1902ae1b232ec5a4e328b3f5878fd6eca6563dafe17d32e62f2f5b1",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "本作適合想從杏津杏與夏目玲香的雙角色分工，進入原作改編家庭設定的讀者。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介先交代母親、姊姊的角色分配，再以鄉下風習說明兩人共享的觀念。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想看杏津杏與夏目玲香共同演出的人",
+      "對原作改編中的人物關係設定感興趣的人"
+    ],
+    "not_for": [
+      "需要先確認成片敘事密度、節奏或改編忠實度的人",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "PPPE-442",
+      "relation_type": "same_performer",
+      "reason": "同樣由杏津杏出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "杏津杏"
+      ],
+      "contrast_signals": [
+        "スペンス乳腺開発クリニック",
+        "巨乳"
+      ]
+    },
+    {
+      "movie_id": "DSOD-105",
+      "relation_type": "same_performer",
+      "reason": "同樣由夏目玲香出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "夏目玲香"
+      ],
+      "contrast_signals": [
+        "大槻響",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "兩位演員在本作分別飾演誰？",
+    "本作與夏目玲香出演的 DSOD-105，公開設定有何具體差異？"
+  ]
+}

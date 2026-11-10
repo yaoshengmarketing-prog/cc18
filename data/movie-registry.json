@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T18:45:57.561Z",
+  "updated_at": "2026-11-10T19:51:50.973Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -8537,6 +8537,22 @@
       ],
       "release_date": "2026-11-06",
       "source_url": "https://cc18.tv/player.php?uuid=p8Y43Y8he3w&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-11"
+    },
+    {
+      "id": "DSOD-108",
+      "actress": [
+        "杏津杏",
+        "夏目玲香"
+      ],
+      "release_date": "2026-11-06",
+      "source_url": "https://cc18.tv/player.php?uuid=gxWKXfWUAfd&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:cd31714772c5ae0c1f9b38d4e7e37a1dab8e850541cba7a68602377abd6a5739",
-  "source_generated_at": "2026-11-10T18:46:34.957Z",
+  "source_revision": "sha256:1d67e96747349849cd9745c89a577cf354714e74474313d442242b51ab998a4d",
+  "source_generated_at": "2026-11-10T19:52:37.135Z",
   "counts": {
-    "movies": 571,
+    "movies": 572,
     "performers": 403,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
@@ -1763,6 +1763,7 @@
       "source_name": "杏津杏",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:DSOD-108",
         "cc18:PPPE-442"
       ]
     },
@@ -2932,7 +2933,8 @@
       "source_name": "夏目玲香",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:DSOD-105"
+        "cc18:DSOD-105",
+        "cc18:DSOD-108"
       ]
     },
     {
@@ -4743,6 +4745,57 @@
         "article_title": "瑠花想交男朋友，聯誼卻走向另一種情境",
         "display_short_title": "意料之外的聯誼",
         "slug": "bban-613"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DSOD-108",
+        "source_cover": "https://cc18.tv/preview/80/b/gxWKXfWUAfd-800.jpg?v=1793997475",
+        "title": "朋友都羨慕的媽媽與姊姊",
+        "catalog_code": "DSOD-108",
+        "release_date": "2026-11-06",
+        "performers": [
+          "杏津杏",
+          "夏目玲香"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dsod-108/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:43607",
+        "cc18.tv:actor:51056"
+      ],
+      "search": {
+        "source_title": "朋友們都羨慕的太色了我的媽媽和姊姊，不管在什麼地方都會誘惑我。真人版 夏目玲香 杏津杏",
+        "article_title": "同樣由夏目玲香演出，這次為何先看人物關係？",
+        "display_short_title": "朋友都羨慕的媽媽與姊姊",
+        "slug": "dsod-108"
       }
     },
     {
