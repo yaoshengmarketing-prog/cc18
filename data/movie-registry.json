@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T04:49:05.549Z",
+  "updated_at": "2026-11-10T05:49:03.936Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -8327,6 +8327,21 @@
       ],
       "release_date": "2026-10-27",
       "source_url": "https://cc18.tv/player.php?uuid=f7s_2gjNO6J&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-10"
+    },
+    {
+      "id": "IPZZ-965",
+      "actress": [
+        "櫻空桃"
+      ],
+      "release_date": "2026-10-30",
+      "source_url": "https://cc18.tv/player.php?uuid=i5JXKBxvJcu&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

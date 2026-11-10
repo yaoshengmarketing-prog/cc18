@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:c04364a94cf01fdc69fe2a28016d8fda128cc234844370eeda07fb588783b76b",
-  "source_generated_at": "2026-11-10T04:49:50.109Z",
+  "source_revision": "sha256:1ca82eb64f85bc8baf77c83599bd29db9685055ec763f7c4f6ed2f0b56af2eb4",
+  "source_generated_at": "2026-11-10T05:49:34.426Z",
   "counts": {
-    "movies": 557,
-    "performers": 398,
+    "movies": 558,
+    "performers": 399,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -4449,6 +4449,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:16989",
+      "display_name": "櫻空桃",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "櫻空桃",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:IPZZ-965"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:28380",
       "display_name": "櫻若菜",
       "display_name_zh_tw": null,
@@ -6844,6 +6855,51 @@
         "article_title": "IDPC-004 林芽依｜學生設定企劃下的系列型選片，演員辨識度先行",
         "display_short_title": null,
         "slug": "idpc-004"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:IPZZ-965",
+        "source_cover": "https://cc18.tv/preview/80/b/i5JXKBxvJcu-800.jpg?v=1793392590",
+        "title": "出軌成了勒索把柄",
+        "catalog_code": "IPZZ-965",
+        "release_date": "2026-10-30",
+        "performers": [
+          "櫻空桃"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ipzz-965/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:16989"
+      ],
+      "search": {
+        "source_title": "偷窺到兒媳婦出軌做愛，讓枯竭的絕倫性欲再次甦醒。「死之前讓我幹一次」、「我要告訴你老公」被威脅而不得不允許插入的我，在丈夫不在家期間，每天都被討厭的義父用播種時短活塞幹到高潮好幾次。 櫻空桃",
+        "article_title": "出軌是起點，勒索才是這部作品的關鍵",
+        "display_short_title": "出軌成了勒索把柄",
+        "slug": "ipzz-965"
       }
     },
     {

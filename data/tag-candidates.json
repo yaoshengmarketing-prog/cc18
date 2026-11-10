@@ -811,7 +811,7 @@
     },
     {
       "label": "姐姐系",
-      "occurrences": 34,
+      "occurrences": 35,
       "source_ids": [
         "SNOS-364",
         "SNOS-372",
@@ -846,7 +846,8 @@
         "IPZZ-911",
         "DOKS-688",
         "DSOD-105",
-        "DSOD-096"
+        "DSOD-096",
+        "IPZZ-965"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-10",
@@ -924,7 +925,7 @@
     },
     {
       "label": "寝取り・寝取られ・ntr",
-      "occurrences": 66,
+      "occurrences": 67,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -991,10 +992,11 @@
         "SDMM-238",
         "EKDV-830",
         "DSOD-069",
-        "DSOD-054"
+        "DSOD-054",
+        "IPZZ-965"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     },
     {
@@ -2247,7 +2249,7 @@
     },
     {
       "label": "寢取・被寢取",
-      "occurrences": 50,
+      "occurrences": 51,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -2298,15 +2300,16 @@
         "NGOD-362",
         "NGOD-361",
         "HSODA-132",
-        "EKDV-830"
+        "EKDV-830",
+        "IPZZ-965"
       ],
       "first_seen": "2026-09-10",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     },
     {
       "label": "NTR",
-      "occurrences": 48,
+      "occurrences": 49,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -2355,10 +2358,11 @@
         "NGOD-362",
         "NGOD-361",
         "HSODA-132",
-        "EKDV-830"
+        "EKDV-830",
+        "IPZZ-965"
       ],
       "first_seen": "2026-09-10",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     },
     {

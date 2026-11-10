@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "IPZZ-965",
+  "review_sha256": "392daae452e60cf84fdd5fd78db15de25c1dd84a4b28571f907a41ddb2b6a259",
+  "selected_thesis": "NTR 標籤只能提示婚外關係；本作更具體的選片線索，是公公利用掌握的秘密對媳婦施加性脅迫。",
+  "title_basis": {
+    "performer": "櫻空桃",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "櫻空桃",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "偷窺到兒媳婦出軌做愛",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "櫻空桃",
+    "presentation_feature": "偷窺到兒媳婦出軌做愛",
+    "editorial_judgment": "把簡介裡先後出現的婚外情與性脅迫分開看，說明為什麼兩段關係不能只用同一個題材標籤帶過。",
+    "source_keywords": [
+      "櫻空桃",
+      "偷窺到兒媳婦出軌做愛",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品頁同時列出 NTR 與寢取、被寢取等標籤。",
+      "supports": "標籤提供婚外關係的題材分類，單靠標籤無法判斷角色是否自願。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介先交代公公撞見媳婦出軌，再寫他以告知兒子相威脅，並把施壓安排在兒子不在家的時候。",
+      "supports": "原先的婚外情是公公取得把柄的原因；後續的角色關係建立在威脅與性脅迫上。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "角色未經交代的心理變化與結局。",
+    "成片的節奏、表演、鏡位、聲音與實際台詞。",
+    "未經核對的系列歸屬及同演員作品比較。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}
