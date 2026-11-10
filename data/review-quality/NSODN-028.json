@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "NSODN-028",
+  "review_sha256": "f7a25beab5d5b505418e5e5e327db9b342322e402b09f2a9e587c39ff3cf4992",
+  "selected_thesis": "本作的選片線索是笹倉彩扮演主動提供指導的婚活顧問；相較於 DSOD-038 的人妻與訓練師設定，兩部公開簡介安排了不同的人物位置，但不足以判斷成片表現。",
+  "title_basis": {
+    "performer": "笹倉彩",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "笹倉彩",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "紀錄片形式",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "笹倉彩",
+    "presentation_feature": "紀錄片形式",
+    "editorial_judgment": "比較同演員作品中的人物位置，說明婚活顧問設定的選片意義。",
+    "source_keywords": [
+      "笹倉彩",
+      "紀錄片形式",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介稱婚活顧問會以實戰方式教導男性如何對待女性及性愛技巧，並以密拍探查傳聞開場。",
+      "supports": "作品將笹倉彩放在主動指導的位置；密拍是公開介紹採用的敘事框架。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "DSOD-038 的簡介將笹倉彩設定為人妻，情節圍繞健身房訓練師與偷情。",
+      "supports": "兩作的人物關係與推動故事的角色位置不同。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "現實中確有簡介描述的結婚諮詢所或婚活顧問",
+    "密拍確為未經安排的真實紀錄",
+    "成片的表演、畫面、節奏或品質已獲證實"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}

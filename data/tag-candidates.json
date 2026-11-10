@@ -432,7 +432,7 @@
     },
     {
       "label": "紀錄片",
-      "occurrences": 9,
+      "occurrences": 10,
       "source_ids": [
         "SNOS-371",
         "SNOS-358",
@@ -442,10 +442,11 @@
         "START-625",
         "DSOD-074",
         "MIKR-129",
-        "SDAM-179"
+        "SDAM-179",
+        "NSODN-028"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     },
     {

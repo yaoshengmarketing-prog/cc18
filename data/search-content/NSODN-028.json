@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "movie_id": "NSODN-028",
+  "generated_at": "2026-11-10T12:41:49.092Z",
+  "source_snapshot_hash": "sha256:3f4531ad7bc054c746b7f50a049c34aca7e8fb78900e9df04b2bf8990a416031",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看笹倉彩擔任指導者角色的讀者，可從本作的婚活顧問設定入手。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介採傳聞追查與密拍框架，核心設定是婚活顧問的實戰指導。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "DSOD-038",
+      "relation_type": "same_performer",
+      "reason": "同樣由笹倉彩出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "笹倉彩"
+      ],
+      "contrast_signals": [
+        "トレーナーの子宮をエグるバックピストンにイキ堕ちして毎日寝取",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作與 DSOD-038 的人物位置有何差異？",
+    "這項設定差異能提供什麼選片線索？"
+  ]
+}
