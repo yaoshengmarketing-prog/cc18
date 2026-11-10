@@ -18,6 +18,8 @@ series: "露出願望に憑りつかれた○○"
 sourceUrl: https://cc18.tv/player.php?uuid=25gTn5HE56w&cat=19
 sourceSite: cc18.tv
 coverUrl: https://cc18.tv/preview/80/b/25gTn5HE56w-800.jpg?v=1787553646
+heroUrl: /media/works/2026/08/APNS-419/hero-v4.jpg
+videoUrl: /media/works/2026/08/APNS-419/vertical-v1.mp4
 shortReview: "系列企劃最怕的，是觀眾一眼就知道接下來會怎麼走：先把角色丟進某種慾望設定，再用幾段強度遞增的橋段把題材跑完。APNS-419 比較聰明的地方，在於它沒有只把「露出慾望附身的女生」當成一句聳動標題，而是試著把這個概念放進學生設定裡，讓角色從一開始略帶遲疑的試探，到中段逐步習慣被觀看、被引導，最後甚至能在多人互動中自己抓節奏。於是這不是單純的展示型露出片，而更接近一部把露出癖、淫亂墮落與角色狀態變化串起來的戲劇型企劃。"
 editorialAngle: "以系列企劃的固定前提為基礎，重點分析本作如何讓「露出慾望附身的女生」從一句概念，變成帶有節奏、遞進與行為差異的角色觀看經驗。"
 sourceTags:
@@ -45,7 +47,8 @@ editorialTagIds:
   - agency-shift
   - series-formula
 status: published
-videoStatus: pending
+imageStatus: rendered
+videoStatus: rendered
 featured: false
 ---
 

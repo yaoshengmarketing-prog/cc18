@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "APNS-419",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-10T10:04:00.979Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/APNS-419/hero-v4.jpg",
+      "r2_key": "works/2026/08/APNS-419/hero-v4.jpg",
+      "bytes": 1319621,
+      "sha256": "55ad1b00fd48a7123ca32fae2fc9ae0f99e057fbef15b0961aca77d5272d28f6",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "b0cdf988b5c04f1992914f19d0b9e222",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by a neutral character study. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a restrained, observational editorial mood. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Origi"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/APNS-419/scene-vertical-v4.jpg",
+      "r2_key": "works/2026/08/APNS-419/scene-vertical-v4.jpg",
+      "bytes": 823566,
+      "sha256": "76e4a22e85af90acaa85b7da6bea7fa3a8701e2c231090859eb548fe3b96fb00",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "1728a2dd93f44a0b9cf569a3310ae74f",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by a neutral character study. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a restrained, observational editorial mood. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Origi"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2620179,
+    "sha256": "c7dd8900a4d72568542bc2e03c49267be9d1a913ea25f0d704bbe04dc58de704",
+    "target_r2_key": "works/2026/08/APNS-419/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/APNS-419/vertical-v1.mp4"
+  }
+}
