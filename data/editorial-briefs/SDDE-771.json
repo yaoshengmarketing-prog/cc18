@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "id": "SDDE-771",
+  "generated_at": "2026-11-10T04:42:57.176Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SDDE-771.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "飛機杯洗腦",
+    "premise": "作品以「飛機杯洗腦」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「飛機杯洗腦」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "飛機杯洗腦",
+      "飛機杯洗腦"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [],
+    "clothing": [
+      "角色扮演"
+    ],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "淫亂・過激系"
+    ],
+    "presentation": [
+      "720p",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣有演員參與演出的《飛機杯洗腦》與 BBAN-601，兩部作品的公開簡介各把控制權放在誰手上？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=f7s_2gjNO6J&cat=19",
+      "supports": "作品頁快照列出三位演員，並交代虛構公司接單、綁架目標、將人與道具同步、抹去記憶，再向顧客交貨的設定。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=1SefevMWD8G&cat=19",
+      "supports": "作品頁快照把白天的情侶日常和夜晚的主從角色並置。已核對的演員關係顯示兩作有共同演員。"
+    }
+  ],
+  "angle_candidates": [
+    "從接單到交貨，虛構公司如何把控制變成一套服務",
+    "從公司介入到伴侶相處，比較兩部作品把權力關係放在哪裡",
+    "巴光莉的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "《飛機杯洗腦》把控制權交給接單的公司與下單的顧客，BBAN-601 則用白天的情侶日常與夜晚的主從角色呈現兩人之間的權力關係。共同演員提供了比較的起點，兩份簡介承諾的題材重心各有不同。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "小早川怜子",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "飛機杯洗腦",
+      "source_field": "title"
+    },
+    {
+      "type": "performer",
+      "value": "あやせ舞菜",
+      "source_field": "actress"
+    },
+    {
+      "type": "performer",
+      "value": "巴光莉",
+      "source_field": "actress"
+    }
+  ],
+  "work_title": "飛機杯洗腦：三位女性與訂製道具",
+  "display_short_title": "飛機杯洗腦",
+  "title": "為什麼這部洗腦企劃從一張訂單開始？",
+  "seo_title": "SDDE-771《飛機杯洗腦》設定解析：誰掌握控制權？",
+  "social_title": "一張訂單如何牽動三個人的日常？",
+  "short_review": "簡介最鮮明的一筆，是公司抹去角色的記憶、讓她們回到日常，卻把完成同步的道具交給顧客。這道安排把強制控制寫進一套看似例行的服務流程。",
+  "editorial_angle": "從控制權的來源比較兩份作品簡介，分辨架空公司的強制介入與伴侶關係中的角色轉換。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介寫到顧客下單、公司綁架目標並完成同步，接著抹去角色記憶，再把道具交付顧客。",
+      "supports": "控制權集中在顧客與公司手上，角色回到日常與顧客取得道具是同一流程的兩個結果。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "BBAN-601 的簡介以白天的情侶日常和夜晚的主從角色作對照，兩作有共同演員。",
+      "supports": "兩作可從共同演員切入比較。BBAN-601 的簡介把權力變化放在兩名角色的既有關係裡。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "共同演員的具體身分及其在兩作中的角色對應",
+    "三位演員各自的篇幅、實際演出順序與角色反應",
+    "成片的敘事密度、節奏、鏡頭、聲音、台詞與表演品質"
+  ],
+  "decision_guide": {
+    "thesis": "若從共同演員找片，先分辨你想了解的是架空公司的控制設定，還是伴侶日常與主從角色之間的轉換。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以公司接單和交貨的流程交代架空設定，並明示綁架與記憶抹除。"
+    ],
+    "audience_for": [
+      "想按虛構世界觀挑片，尤其在意控制權如何透過制度運作的讀者",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "偏好以伴侶相處為重心，或想避開綁架與強制失憶題材的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "本作的控制權如何分配給公司與顧客？",
+      "與有共同演員的 BBAN-601 相比，兩作的權力關係各建立在哪裡？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "角色回到日常，訂單才走到交貨",
+      "body": "小早川怜子、あやせ舞菜與巴光莉共同演出。簡介把起點放在顧客下單，接著由公司綁架目標、將人與道具同步，再抹去記憶，把人送回原本的生活。值得留意的是，角色回到日常後，顧客才收到道具。同一筆訂單在顧客那端完成交付，當事人這端卻連經過都無從記起。"
+    },
+    {
+      "heading": "同有演員參與，權力關係從不同地方開始",
+      "body": "BBAN-601 的簡介先寫兩人白天一起吃甜點、親暱相處，再帶出夜晚的主從角色。那份簡介靠同一對伴侶的相處變化建立反差，《飛機杯洗腦》則靠公司從外部介入，讓顧客透過一筆交易取得控制權。如果你是循著演員選片，這個差別比共同卡司更能區分兩作：一部把重心放在伴侶如何切換角色，另一部先問公司能對毫不知情的人做什麼。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用兩部作品的 CC18 公開簡介快照及已核對的共同演員關係。外部作品頁未能直接開啟，分析限於快照中的宣傳設定，未抽樣成片。[《飛機杯洗腦》作品頁](https://cc18.tv/player.php?uuid=f7s_2gjNO6J&cat=19)、[BBAN-601 作品頁](https://cc18.tv/player.php?uuid=1SefevMWD8G&cat=19)。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "deb21fe784e4f349c0603a0d5dbbb1bb9953310a55440dbf28aaadccbda99601",
+    "response_sha256": "d783a89f78c202f2a12913ee024ce72fb66c3e51c8d9c91c5dc17db0305e3636",
+    "research_input_sha256": "b85ee32671f95590900c3d309502f8b0803f6633846b9686f6490b04d94175f8",
+    "related_source_ids": [
+      "BBAN-601"
+    ]
+  }
+}

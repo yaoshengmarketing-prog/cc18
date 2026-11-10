@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T02:49:01.179Z",
+  "updated_at": "2026-11-10T04:49:05.549Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -8310,6 +8310,23 @@
       "actress": [],
       "release_date": "2026-10-27",
       "source_url": "https://cc18.tv/player.php?uuid=qBzv8xFztbw&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-10"
+    },
+    {
+      "id": "SDDE-771",
+      "actress": [
+        "小早川怜子",
+        "あやせ舞菜",
+        "巴光莉"
+      ],
+      "release_date": "2026-10-27",
+      "source_url": "https://cc18.tv/player.php?uuid=f7s_2gjNO6J&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

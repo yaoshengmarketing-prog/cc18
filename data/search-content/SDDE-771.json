@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "movie_id": "SDDE-771",
+  "generated_at": "2026-11-10T04:42:58.370Z",
+  "source_snapshot_hash": "sha256:deb21fe784e4f349c0603a0d5dbbb1bb9953310a55440dbf28aaadccbda99601",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若從共同演員找片，先分辨你想了解的是架空公司的控制設定，還是伴侶日常與主從角色之間的轉換。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以公司接單和交貨的流程交代架空設定，並明示綁架與記憶抹除。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想按虛構世界觀挑片，尤其在意控制權如何透過制度運作的讀者",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "偏好以伴侶相處為重心，或想避開綁架與強制失憶題材的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "BBAN-601",
+      "relation_type": "same_performer",
+      "reason": "同樣由巴光莉出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "巴光莉"
+      ],
+      "contrast_signals": [
+        "桃瀨日葵",
+        "家中隨處肉穴全露"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作的控制權如何分配給公司與顧客？",
+    "與有共同演員的 BBAN-601 相比，兩作的權力關係各建立在哪裡？"
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:b917eb9ab593c10ff0f2da20e52792b5f37ec169cd8ccf50500c1149f18b96da",
-  "source_generated_at": "2026-11-10T02:49:36.761Z",
+  "source_revision": "sha256:c04364a94cf01fdc69fe2a28016d8fda128cc234844370eeda07fb588783b76b",
+  "source_generated_at": "2026-11-10T04:49:50.109Z",
   "counts": {
-    "movies": 556,
-    "performers": 396,
+    "movies": 557,
+    "performers": 398,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -420,6 +420,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:262",
+      "display_name": "小早川怜子",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "小早川怜子",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SDDE-771"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:29262",
       "display_name": "小坂日葵",
       "display_name_zh_tw": null,
@@ -765,7 +776,8 @@
       "source_name": "巴光莉",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:BBAN-601"
+        "cc18:BBAN-601",
+        "cc18:SDDE-771"
       ]
     },
     {
@@ -4538,6 +4550,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MIDA-829"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28941",
+      "display_name": "あやせ舞菜",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "あやせ舞菜",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SDDE-771"
       ]
     },
     {
@@ -8329,6 +8352,55 @@
         "article_title": "PAKO-110 迪斯科搭訕04｜素人企劃的安全話術與失控反差",
         "display_short_title": null,
         "slug": "pako-110"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SDDE-771",
+        "source_cover": "https://cc18.tv/preview/80/b/f7s_2gjNO6J-800.jpg?v=1793219803",
+        "title": "飛機杯洗腦",
+        "catalog_code": "SDDE-771",
+        "release_date": "2026-10-27",
+        "performers": [
+          "小早川怜子",
+          "あやせ舞菜",
+          "巴光莉"
+        ],
+        "canonical_topics": [
+          {
+            "id": "cosplay",
+            "label": "角色扮演"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/sdde-771/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:262",
+        "cc18.tv:actor:28941",
+        "cc18.tv:actor:46839"
+      ],
+      "search": {
+        "source_title": "飛機杯洗腦 失去意識的三位美女變成了主人專用的生肉飛機杯。",
+        "article_title": "為什麼這部洗腦企劃從一張訂單開始？",
+        "display_short_title": "飛機杯洗腦",
+        "slug": "sdde-771"
       }
     },
     {

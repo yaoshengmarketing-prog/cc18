@@ -2722,16 +2722,17 @@
     },
     {
       "label": "後宮",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "DSJH-020",
         "URKK-124",
         "MKON-148",
         "HUNTC-638",
-        "MKMP-763"
+        "MKMP-763",
+        "SDDE-771"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     },
     {
@@ -3007,13 +3008,14 @@
     },
     {
       "label": "白目・失神",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "GS-2148",
-        "GVH-891"
+        "GVH-891",
+        "SDDE-771"
       ],
       "first_seen": "2026-09-23",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     },
     {
