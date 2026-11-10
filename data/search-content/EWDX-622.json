@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "EWDX-622",
+  "generated_at": "2026-11-10T16:45:10.850Z",
+  "source_snapshot_hash": "sha256:5b00a109312d7654ddcc9151ef0c99fb1e8a7dc2922982ffb3cf3b44f68b1190",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若在意處男題材之外是否有明確的人物顧慮，本作簡介提供了かんな的設定與一個尚未揭曉的決定。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "宣傳以處男限定吸引注意，再以かんな的家庭設定與最後的請求建立懸念。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "標題與簡介各把焦點放在哪裡？",
+    "かんな的哪項設定讓最後的請求有了不同分量？"
+  ]
+}

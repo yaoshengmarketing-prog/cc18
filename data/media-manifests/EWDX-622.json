@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "EWDX-622",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-10T16:50:27.185Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/EWDX-622/hero-v1.jpg",
+      "r2_key": "works/2026/11/EWDX-622/hero-v1.jpg",
+      "bytes": 983718,
+      "sha256": "505a1677754c23a4465c05f7efde399741eaaf8e160d40f7675f453991a0c98d",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "8c595365b79f4a92a3898d5dd6b8e33c",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/EWDX-622/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/EWDX-622/scene-vertical-v1.jpg",
+      "bytes": 806985,
+      "sha256": "8be919ac9ed49a20e101a52d75350348b90e95efbfdb379ec5b7ff6744203827",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "67e6205b585346c9969cb798d933f726",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2469448,
+    "sha256": "a5420a63e3dbad9b031f0aeef2671105e54ea56d1279ee228817279b0b0c1666",
+    "target_r2_key": "works/2026/11/EWDX-622/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/EWDX-622/vertical-v1.mp4"
+  }
+}

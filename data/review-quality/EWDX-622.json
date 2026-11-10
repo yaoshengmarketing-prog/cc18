@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "EWDX-622",
+  "review_sha256": "47494584bc58cdcec93f4ae316fea69eb4242d34992c1924bc4b40fd46e49884",
+  "selected_thesis": "本作的宣傳設定不只列出處男題材，也讓かんな的顧慮與對方的請求相遇；適合想看人物如何面對兩難設定的讀者。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "character",
+        "value": "人妻設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "人妻設定",
+    "editorial_judgment": "比較來源標題與簡介的重心：前者強調處男限定，後者交代かんな的家庭設定與顧慮，並把她是否答應留作懸念。",
+    "source_keywords": [
+      "獨家",
+      "人妻設定",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題以「處男限定」及第一次經驗作為主要訴求。",
+      "supports": "可與簡介的敘事重心比較。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介設定かんな育有三歲女兒、沒有再生育計畫，並受邀幫助幾名二十多歲的處男。",
+      "supports": "她有自己的處境，並非只有被請求者這一個身分。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介以かんな是否接受對方最後的請求作結。",
+      "supports": "宣傳文字把她的決定留作懸念，未交代結果。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "かんな的真實家庭與生育經歷",
+    "她最終是否答應請求及成片如何呈現",
+    "演員身分、表演、鏡位、聲音與節奏"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-10T16:00:00.000Z"
+}

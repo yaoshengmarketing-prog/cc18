@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-10T15:50:26.149Z",
+  "generated_at": "2026-11-10T16:51:43.476Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 570,
-  "formal_movie_count": 569,
+  "tracked_input_count": 571,
+  "formal_movie_count": 570,
   "demo_count": 1,
-  "published_count": 568,
+  "published_count": 569,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -1223,6 +1223,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "d293a77edf82e99fda599b219a569cdc6cd4c4d81411c89fd17e3e5e97afdfbc"
+    },
+    {
+      "stable_movie_id": "cc18:EWDX-622",
+      "catalog_code": "EWDX-622",
+      "slug": "ewdx-622",
+      "master_path": "data/movie-master/ewdx-622.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "ab19ef2d58b2408ce9b7c5a3285dbd62eb5e22e22ac4d70af833fc15cd4fa90d"
     },
     {
       "stable_movie_id": "cc18:EYAN-221",

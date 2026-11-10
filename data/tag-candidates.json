@@ -451,7 +451,7 @@
     },
     {
       "label": "處男",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "SNOS-371",
         "DVMM-442",
@@ -460,10 +460,11 @@
         "FJIN-171",
         "ORECZ-724",
         "SNOS-416",
-        "EKDV-830"
+        "EKDV-830",
+        "EWDX-622"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-11",
       "status": "quarantined"
     },
     {
@@ -1373,7 +1374,7 @@
     },
     {
       "label": "打手槍",
-      "occurrences": 19,
+      "occurrences": 20,
       "source_ids": [
         "SNOS-447",
         "GOJI-110",
@@ -1393,10 +1394,11 @@
         "NLD-034",
         "MNGS-070",
         "DOKS-688",
-        "HEYZO-3917"
+        "HEYZO-3917",
+        "EWDX-622"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-06",
+      "last_seen": "2026-11-11",
       "status": "quarantined"
     },
     {
