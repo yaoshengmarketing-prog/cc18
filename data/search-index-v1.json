@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:41b959df471b44e9856e38ef797d68d89575c3687d70d15154e7a7ab0a8d44cd",
-  "source_generated_at": "2026-11-10T13:53:04.065Z",
+  "source_revision": "sha256:5d48c8d03c3aa70d8a009dce24144522468d4178a92577b05f170971230be3bf",
+  "source_generated_at": "2026-11-10T14:53:16.873Z",
   "counts": {
-    "movies": 566,
+    "movies": 567,
     "performers": 401,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
@@ -1155,7 +1155,8 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-290",
-        "cc18:SNOS-330"
+        "cc18:SNOS-330",
+        "cc18:SNOS-407"
       ]
     },
     {
@@ -4771,6 +4772,55 @@
         "article_title": "從人妻到婚活顧問，笹倉彩這次站在什麼位置？",
         "display_short_title": "婚活顧問的實戰課",
         "slug": "nsodn-028"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-407",
+        "source_cover": "https://cc18.tv/preview/80/b/nGUEF6iQna1-800.jpg?v=1794033464",
+        "title": "偶像成名陷阱",
+        "catalog_code": "SNOS-407",
+        "release_date": "2026-11-06",
+        "performers": [
+          "白石透羽"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "slim",
+            "label": "窈窕"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-407/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54169"
+      ],
+      "search": {
+        "source_title": "為了讓冷淡應對的偶像明白現實，製作人大量餵她春藥後…藥效太強導致極其強烈的痙攣高潮 白石透羽",
+        "article_title": "從粉絲相遇到製作人設局，偶像題材換了什麼視角？",
+        "display_short_title": "偶像成名陷阱",
+        "slug": "snos-407"
       }
     },
     {

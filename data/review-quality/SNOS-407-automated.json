@@ -1,0 +1,68 @@
+{
+  "schema_version": 2,
+  "id": "SNOS-407",
+  "checked_at": "2026-11-10T14:50:40.509Z",
+  "review_sha256": "e3bf70034885f583f468a35997dc9fde9f6ffcb1417831cf47de94d35243eecd",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_machine_voice",
+    "title_lacks_source_core_concept",
+    "conditional_review_voice_observed",
+    "missing_creative_reconstruction_audit",
+    "insufficient_presentation_signals",
+    "insufficient_search_intents"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 3,
+          "excerpt": "本作簡介中的白石透羽演出一名遲遲未走紅的偶像。她把製作人的邀約視為成名機會，卻落入對方設下的藥物陷阱。故事的關鍵不是舞台或粉絲，而是她急於出名時，如何被握有機會的人利用。"
+        }
+      ]
+    },
+    {
+      "code": "title_lacks_source_core_concept",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "conditional_review_voice_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 3,
+          "excerpt": "本作簡介中的白石透羽演出一名遲遲未走紅的偶像。她把製作人的邀約視為成名機會，卻落入對方設下的藥物陷阱。故事的關鍵不是舞台或粉絲，而是她急於出名時，如何被握有機會的人利用。"
+        }
+      ]
+    },
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_presentation_signals",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_search_intents",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 3,
+    "evidence_items": 2,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 2,
+    "recommendations": 2
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-407",
+  "generated_at": "2026-11-10T14:45:36.865Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SNOS-407.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "製作人大量餵她春藥後",
+    "premise": "作品以「製作人大量餵她春藥後」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「製作人大量餵她春藥後」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "製作人大量餵她春藥後",
+      "白石透羽"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "窈窕"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "アクメ・オーガズム"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣以偶像身分為題，白石透羽演出的本作與 SNOS-290，如何改變偶像與對方的關係？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=nGUEF6iQna1&cat=19",
+      "supports": "本作簡介設定一名尚未走紅的偶像，因成名焦慮接受製作人提出的機會，卻落入下藥與侵犯的陷阱。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=oJ99Mlvhak&cat=19",
+      "supports": "SNOS-290 的簡介以「前博多偶像」與粉絲受邀到拍攝現場為企劃重心。"
+    }
+  ],
+  "angle_candidates": [
+    "比較兩作如何安排偶像與對方的關係：粉絲相遇與製作人設局。",
+    "從本作的成名焦慮切入，討論機會如何成為陷阱。",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作的選片線索是製作人利用成名機會設局；相較於 SNOS-290 以粉絲相遇為起點，兩作雖都借用偶像身分，人物關係與故事方向卻不同。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "白石透羽",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "製作人大量餵她春藥後",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "偶像設定",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "白石透羽的偶像成名陷阱",
+  "display_short_title": "偶像成名陷阱",
+  "title": "從粉絲相遇到製作人設局，偶像題材換了什麼視角？",
+  "seo_title": "SNOS-407｜白石透羽的偶像成名陷阱",
+  "social_title": "白石透羽再演偶像題材，這次機會來自一場設局",
+  "short_review": "本作把尚未走紅的偶像與製作人的權力關係放在故事起點。若你是循著白石透羽的偶像題材找片，它與 SNOS-290 的粉絲相遇企劃有明確的設定差異。",
+  "editorial_angle": "比較同演員兩作的偶像設定，指出本作以成名焦慮和製作人設局推動故事，供讀者辨別題材方向。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介寫到未走紅的偶像遇見製作人，為了成名接受對方提議，隨後遭到下藥與侵犯。",
+      "supports": "製作人提出的機會是本作陷阱設定的關鍵。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "SNOS-290 的簡介寫到粉絲受邀前往拍攝現場，並以回應支持為企劃說法。",
+      "supports": "兩作安排的對方身分與相遇方式不同，因此提供不同的選片理由。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "不把 SNOS-290 簡介中的「前博多偶像」當作已核實的人物經歷。",
+    "不從宣傳簡介推斷成片的表演、節奏或品質。"
+  ],
+  "decision_guide": {
+    "thesis": "想看白石透羽的偶像題材時，可先辨別自己偏好粉絲相遇企劃，還是成名機會遭製作人利用的虛構故事。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以成名焦慮、製作人設局與藥物侵犯構成故事。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作的偶像設定與 SNOS-290 有何差異？",
+      "公開材料能支持哪些選片判斷？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "同樣是偶像題材，對方換成了製作人",
+      "body": "本作簡介中的白石透羽演出一名遲遲未走紅的偶像。她把製作人的邀約視為成名機會，卻落入對方設下的藥物陷阱。故事的關鍵不是舞台或粉絲，而是她急於出名時，如何被握有機會的人利用。"
+    },
+    {
+      "heading": "與粉絲相遇企劃相比，選片理由不同",
+      "body": "同樣由白石透羽演出的 SNOS-290，公開簡介把受邀到拍攝現場的粉絲放在中心，並用回應長期支持來介紹企劃。本作則讓製作人成為推動事件的人，將偶像身分連到成名焦慮與權力陷阱。若你沿著演員與偶像題材找片，這個人物關係的差異，比共通標籤更能幫你選擇。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據本作與 SNOS-290 的公開作品簡介比較故事設定。兩作的人物關係與選片意義是依簡介所作的編輯判斷；未使用影片畫面、聲音或訪談材料。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "92cf4ad65a8d1ebed8379887262d0122300e420b9bd0980b5b8e24f00a53a0a7",
+    "response_sha256": "0eb6a5187bd7fe977875b76d3ffaf2cfc8c4b94f3219a212fa7154457cdd85e7",
+    "research_input_sha256": "6af8bac996428027118a3681c5a966032a2350ccee71774abbd04d738a899e36",
+    "related_source_ids": [
+      "SNOS-290",
+      "SNOS-330"
+    ]
+  }
+}

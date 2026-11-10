@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-407",
+  "review_sha256": "c8c532104a5da38661dab38711f8edafe34f5a4f450a615e0b2229820cf1b48c",
+  "selected_thesis": "本作的選片線索是製作人利用成名機會設局；相較於 SNOS-290 以粉絲相遇為起點，兩作雖都借用偶像身分，人物關係與故事方向卻不同。",
+  "title_basis": {
+    "performer": "白石透羽",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "白石透羽",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "製作人大量餵她春藥後",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "偶像設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "白石透羽",
+    "presentation_feature": "製作人大量餵她春藥後",
+    "editorial_judgment": "比較同演員兩作的偶像設定，指出本作以成名焦慮和製作人設局推動故事，供讀者辨別題材方向。",
+    "source_keywords": [
+      "白石透羽",
+      "製作人大量餵她春藥後",
+      "偶像設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介寫到未走紅的偶像遇見製作人，為了成名接受對方提議，隨後遭到下藥與侵犯。",
+      "supports": "製作人提出的機會是本作陷阱設定的關鍵。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "SNOS-290 的簡介寫到粉絲受邀前往拍攝現場，並以回應支持為企劃說法。",
+      "supports": "兩作安排的對方身分與相遇方式不同，因此提供不同的選片理由。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不把 SNOS-290 簡介中的「前博多偶像」當作已核實的人物經歷。",
+    "不從宣傳簡介推斷成片的表演、節奏或品質。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}
