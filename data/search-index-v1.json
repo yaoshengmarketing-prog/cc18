@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:996072ca9eb79f5e3260e0045fc598085f4ab48ce1c96589a2e27fda29f59b12",
-  "source_generated_at": "2026-11-10T08:53:02.955Z",
+  "source_revision": "sha256:c2cab245bd0d07873dae663447e5f69f7ca6c100f81f9c10317ad0ab89791b10",
+  "source_generated_at": "2026-11-10T09:50:53.743Z",
   "counts": {
-    "movies": 561,
+    "movies": 562,
     "performers": 400,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
@@ -2901,6 +2901,7 @@
       "source_name": "夏生なつ",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:REBD-1081",
         "cc18:SNOS-375",
         "cc18:SNOS-415"
       ]
@@ -4919,6 +4920,47 @@
         "article_title": "買下受損卡片，為何讓交換持續下去？",
         "display_short_title": "卡店賠償後的交換",
         "slug": "nhdtc-269"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:REBD-1081",
+        "source_cover": "https://cc18.tv/preview/80/b/vMqq7EXaE1D-800.jpg?v=1793911102",
+        "title": "夏生なつ・美櫻再綻",
+        "catalog_code": "REBD-1081",
+        "release_date": "2026-11-05",
+        "performers": [
+          "夏生なつ"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "image-video",
+            "label": "印象寫真"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/rebd-1081/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53384"
+      ],
+      "search": {
+        "source_title": "美櫻再綻・及川美櫻",
+        "article_title": "從租借女友設定，轉向介紹夏生なつ本人",
+        "display_short_title": "夏生なつ・美櫻再綻",
+        "slug": "rebd-1081"
       }
     },
     {

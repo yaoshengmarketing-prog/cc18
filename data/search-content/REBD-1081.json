@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "movie_id": "REBD-1081",
+  "generated_at": "2026-11-10T09:43:47.089Z",
+  "source_snapshot_hash": "sha256:db011dea4dcef2492cb25ef5badf9d31aaa24673c9fdcdad64063f97d1554246",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "本作適合從人物介紹與印象寫真的角度選片；《SNOS-375》則提供較明確的租借女友情境。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開資料標示為印象寫真，簡介以夏生なつ的個人話題及訪談作為介紹重點。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SNOS-375",
+      "relation_type": "same_performer",
+      "reason": "同樣由夏生なつ出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "夏生なつ"
+      ],
+      "contrast_signals": [
+        "一見面就拉開拉鍊",
+        "癡女"
+      ]
+    },
+    {
+      "movie_id": "SNOS-415",
+      "relation_type": "same_performer",
+      "reason": "同樣由夏生なつ出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "夏生なつ"
+      ],
+      "contrast_signals": [
+        "把她當成飛機杯隨意幹爆",
+        "美少女設定"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作與同演員的《SNOS-375》在公開設定上有何差別？",
+    "這項差別能提供什麼選片依據？"
+  ]
+}

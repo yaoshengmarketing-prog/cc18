@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "REBD-1081",
+  "review_sha256": "5f48b580aad9ed6a89ed7e0f6ac1f83ecb01c5e5879450e6494fb3d2f8eca12f",
+  "selected_thesis": "《SNOS-375》先給夏生なつ一個租借女友角色；《美櫻再綻》則以印象寫真和訪談介紹她。想看明確情境的讀者與想看人物呈現的讀者，可據此分開選片。",
+  "title_basis": {
+    "performer": "夏生なつ",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "夏生なつ",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "美櫻再綻・及川美櫻",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "Mio（及川美桜）",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "夏生なつ",
+    "presentation_feature": "美櫻再綻・及川美櫻",
+    "editorial_judgment": "以同演員作品的公開設定作對照，區分角色情境與人物介紹兩種觀看期待。",
+    "source_keywords": [
+      "夏生なつ",
+      "美櫻再綻・及川美櫻",
+      "Mio（及川美桜）",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作標為印象寫真，簡介提及 REbecca 首次登場、個人興趣及訪談。",
+      "supports": "本作的公開介紹以夏生なつ的形象與個人話題為中心。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "《SNOS-375》的題供簡介設定了租借女友與約會情境，人物關係確認同樣由夏生なつ演出。",
+      "supports": "同演員作品可以比較宣傳設定的重心，但不能據此比較成片表現。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "REbecca 官方發售列表列出《Mio Blooming Again》及發售日期。",
+      "supports": "確認本作列於片商發售資訊；列表本身不支持影像品質或表演評價。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將公開簡介中的改名與出道敘述寫成人物經歷定論。",
+    "未聲稱已看過訪談、畫面、表演或聽過台詞。",
+    "未由宣傳形容詞推論成片品質、節奏或故事密度。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}
