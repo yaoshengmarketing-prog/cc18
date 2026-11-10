@@ -17,6 +17,14 @@ test('publish remains a distinct exact-ID stage', () => {
   assert.match(workflow, /npm run publish:d1:process-one -- "\$MOVIE_ID"/);
 });
 
+test('manual media retry is exact-ID and serial with scheduled production', () => {
+  assert.match(workflow, /inputs\.stage == 'retry-media'[\s\S]*movie_id must be an exact ID/u);
+  assert.match(workflow, /group: cc18-content-pipeline[\s\S]*cancel-in-progress: false/u);
+  assert.match(workflow, /if: github\.event_name == 'workflow_dispatch' && inputs\.stage == 'retry-media'[\s\S]*node scripts\/media\/repair-published-one\.mjs "\$MOVIE_ID"/u);
+  const foundationStep = workflow.match(/- name: Run foundation stage[\s\S]*?(?=\n\s+- name: Require an exact movie ID)/u)?.[0];
+  assert.match(foundationStep, /inputs\.stage != 'retry-media'/u);
+});
+
 test('end-to-end canary remains manual, exact-ID, serialized and uses split D1 and R2 credentials', () => {
   assert.match(workflow, /options: \[plan, editorial-smoke, discover, end-to-end,/);
   assert.match(workflow, /group: cc18-content-pipeline/);

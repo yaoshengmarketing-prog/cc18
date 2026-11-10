@@ -1,11 +1,11 @@
-import {hostname} from 'node:os';
+import {hostname, tmpdir} from 'node:os';
 import {randomUUID} from 'node:crypto';
 import {mkdir, readFile, rm, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {spawn} from 'node:child_process';
 import {queueStoreFromEnvironment} from '../queue/store.mjs';
 import {loadLocalEditorialEnvironment} from '../editorial/lib/openai-writer.mjs';
-import {awaitImageTask, createImageTask, downloadGeneratedImage, imageApiKey, listImageModels, selectImageSpec} from './lib/aitokenking-image.mjs';
+import {awaitImageTask, createImageTask, downloadGeneratedImage, imageApiKey, imageFailureDiagnostic, listImageModels, selectImageSpec} from './lib/aitokenking-image.mjs';
 import {buildArtworkPrompts} from './lib/artwork-prompt.mjs';
 import {assertApprovedReviewForMedia} from './lib/approval-gate.mjs';
 import {listR2Objects} from '../r2/object-store.mjs';
@@ -54,6 +54,24 @@ const run = (script, args, errorCode = 'IMAGE_GENERATION_FAILED') => new Promise
 });
 
 let publicationCover = null;
+let currentTaskId = null;
+let currentRole = null;
+const recordImageFailure = async (error) => {
+  const diagnostic = {
+    event: 'image_provider_failure', movie_id: movieId, image_job_id: claimed.id,
+    attempt: claimed.attempt, image_error_code: error?.code ?? 'IMAGE_GENERATION_FAILED',
+    ...imageFailureDiagnostic(error, {taskId: currentTaskId, role: currentRole}),
+  };
+  console.error(JSON.stringify(diagnostic));
+  try {
+    const directory = resolve(process.env.RUNNER_TEMP ?? tmpdir(), 'cc18-image-failures');
+    await mkdir(directory, {recursive: true});
+    await writeFile(resolve(directory, `${movieId}-${claimed.attempt}.json`), `${JSON.stringify(diagnostic, null, 2)}\n`);
+  } catch (recordError) {
+    console.error(JSON.stringify({event: 'image_failure_record_unavailable', movie_id: movieId, code: recordError?.code ?? 'UNKNOWN'}));
+  }
+  return diagnostic;
+};
 try {
   await assertLocalApproval(movieId);
   const movie = await store.getMovie(movieId);
@@ -75,7 +93,11 @@ try {
     for (const role of Object.keys(config.roles)) selectImageSpec(config, models, role);
   } catch (error) {
     if (error?.code) throw error;
-    throw Object.assign(new Error(`Image provider discovery failed: ${error.message}`), {code: 'IMAGE_PROVIDER_UNAVAILABLE'});
+    throw Object.assign(new Error(`Image provider discovery failed: ${error.message}`), {
+      code: 'IMAGE_PROVIDER_UNAVAILABLE', status: error?.status,
+      providerCode: error?.providerCode, providerSummary: error?.providerSummary,
+      taskId: error?.taskId,
+    });
   }
   const brief = JSON.parse(await readFile(resolve(root, `data/editorial-briefs/${movieId}.json`), 'utf8'));
   const prompts = buildArtworkPrompts({source, localCreativeBrief: brief.local_creative_brief});
@@ -92,8 +114,12 @@ try {
   const files = {};
   const taskIds = [];
   for (const role of ['article_hero', 'vertical_scene']) {
+    currentRole = role;
+    currentTaskId = null;
     const spec = selectImageSpec(config, models, role);
     const taskId = await createImageTask({config, apiKey, prompt: prompts[role], spec});
+    currentTaskId = taskId;
+    console.log(JSON.stringify({event: 'image_provider_task_started', movie_id: movieId, role, provider_task_id: taskId}));
     const result = await awaitImageTask({config, apiKey, taskId});
     const image = await downloadGeneratedImage({url: result.url, maximumBytes: config.download_max_bytes});
     const path = resolve(runtime, `${role}.${image.extension}`);
@@ -119,6 +145,7 @@ try {
     publication_ready_without_video: true,
   }, null, 2));
 } catch (error) {
+  const diagnostic = await recordImageFailure(error);
   if (publicationCover) {
     const fallback = await continuePublicationAfterImageFailure({
       store,
@@ -132,7 +159,12 @@ try {
       movie_id: movieId,
       image_job_id: claimed.id,
       image_status: fallback.outcome,
-      image_error_code: error?.code ?? 'IMAGE_GENERATION_FAILED',
+      image_error_code: diagnostic.image_error_code,
+      provider_http_status: diagnostic.provider_http_status,
+      provider_task_id: diagnostic.provider_task_id,
+      provider_error_code: diagnostic.provider_error_code,
+      provider_response_summary: diagnostic.provider_response_summary,
+      image_role: diagnostic.image_role,
       publication_cover: publicationCover,
       publish_job_id: fallback.publishJob.id,
       publish_status: fallback.publishJob.status,

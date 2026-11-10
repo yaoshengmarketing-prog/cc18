@@ -46,7 +46,7 @@ jobs:
       - run: npm run registry:validate
       - run: npm run content:validate
       - name: Configure publisher identity
-        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.stage == 'publish' || inputs.stage == 'end-to-end'))
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.stage == 'publish' || inputs.stage == 'end-to-end' || inputs.stage == 'retry-media'))
         run: |
           git config user.name "cc18-publisher[bot]"
           git config user.email "cc18-publisher[bot]@users.noreply.github.com"
@@ -75,10 +75,10 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npm run discovery:run -- --store=${{ inputs.queue_store }}
       - name: Run foundation stage
-        if: github.event_name == 'workflow_dispatch' && inputs.stage != 'discover' && inputs.stage != 'publish' && inputs.stage != 'editorial-smoke' && inputs.stage != 'end-to-end'
+        if: github.event_name == 'workflow_dispatch' && inputs.stage != 'discover' && inputs.stage != 'publish' && inputs.stage != 'editorial-smoke' && inputs.stage != 'end-to-end' && inputs.stage != 'retry-media'
         run: node scripts/pipeline.mjs "${{ inputs.stage }}"
       - name: Require an exact movie ID for publishing
-        if: github.event_name == 'workflow_dispatch' && (inputs.stage == 'publish' || inputs.stage == 'end-to-end')
+        if: github.event_name == 'workflow_dispatch' && (inputs.stage == 'publish' || inputs.stage == 'end-to-end' || inputs.stage == 'retry-media')
         shell: bash
         env:
           MOVIE_ID: ${{ inputs.movie_id }}
@@ -108,6 +108,25 @@ jobs:
           CLOUDFLARE_D1_DATABASE_ID: ${{ vars.CLOUDFLARE_D1_DATABASE_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npm run publish:d1:process-one -- "$MOVIE_ID"
+      - name: Repair one published work's media and deploy the verified result
+        if: github.event_name == 'workflow_dispatch' && inputs.stage == 'retry-media'
+        env:
+          AITOKENKING_API_KEY: ${{ secrets.AITOKENKING_API_KEY }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_D1_DATABASE_ID: ${{ vars.CLOUDFLARE_D1_DATABASE_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_R2_API_TOKEN: ${{ secrets.CLOUDFLARE_R2_API_TOKEN }}
+          CC18_R2_AUTH_MODE: api-token
+          CC18_ALLOW_IMAGE_TRANSMISSION: YES
+        run: node scripts/media/repair-published-one.mjs "$MOVIE_ID"
+      - name: Preserve masked image failure details
+        if: always() && github.event_name == 'workflow_dispatch' && inputs.stage == 'retry-media'
+        uses: actions/upload-artifact@v4
+        with:
+          name: image-failure-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/cc18-image-failures/
+          if-no-files-found: ignore
+          retention-days: 30
       - name: Preserve editorial responses for diagnosis
         if: always()
         uses: actions/upload-artifact@v4

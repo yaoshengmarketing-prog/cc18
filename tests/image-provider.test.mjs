@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {awaitImageTask, createImageTask, imageEndpoint, selectImageSpec} from '../scripts/image/lib/aitokenking-image.mjs';
+import {awaitImageTask, createImageTask, imageEndpoint, imageFailureDiagnostic, selectImageSpec} from '../scripts/image/lib/aitokenking-image.mjs';
 import {buildArtworkPrompts} from '../scripts/image/lib/artwork-prompt.mjs';
 import {createHash} from 'node:crypto';
 import {assertApprovedReviewForMedia, refreshApprovedReviewHash} from '../scripts/image/lib/approval-gate.mjs';
@@ -41,6 +41,33 @@ test('submits and polls an asynchronous image task', async () => {
 test('treats a zero provider code as an error instead of a successful empty task', async () => {
   const fetchImplementation = async () => new Response(JSON.stringify({code: 0, message: 'request rejected'}), {status: 200, headers: {'content-type': 'application/json'}});
   await assert.rejects(() => createImageTask({config, apiKey: 'secret', prompt: 'safe prompt', spec: {model: 'seedream-4.5', ratio: '16:9', resolution: '2k', count: 1}, fetchImplementation}), /request rejected/);
+});
+
+test('image provider failures retain safe HTTP, task and code diagnostics without credentials', async () => {
+  const secret = 'sk-test-12345678901234567890';
+  const failedCreate = async () => new Response(JSON.stringify({code: 42901, message: `quota exceeded token=${secret}`}), {status: 429});
+  await assert.rejects(
+    () => createImageTask({config, apiKey: secret, prompt: 'safe', spec: {}, fetchImplementation: failedCreate}),
+    (error) => {
+      const diagnostic = imageFailureDiagnostic(error);
+      assert.equal(diagnostic.provider_http_status, 429);
+      assert.equal(diagnostic.provider_error_code, '42901');
+      assert.match(diagnostic.provider_response_summary, /quota exceeded/);
+      assert.doesNotMatch(JSON.stringify(diagnostic), /sk-test|12345678901234567890/);
+      return true;
+    },
+  );
+  const failedPoll = async () => new Response(JSON.stringify({code: 200, data: {status: 'failed', errorCode: 'CONTENT_FILTER', errorMessage: 'policy rejected'}}), {status: 200});
+  await assert.rejects(
+    () => awaitImageTask({config, apiKey: secret, taskId: 'img_test123', fetchImplementation: failedPoll, waitImplementation: async () => {}}),
+    (error) => {
+      assert.deepEqual(imageFailureDiagnostic(error), {
+        provider_http_status: 200, provider_task_id: 'img_test123', provider_error_code: 'CONTENT_FILTER',
+        provider_response_summary: 'policy rejected', image_role: null,
+      });
+      return true;
+    },
+  );
 });
 
 test('accepts provider UUID task ids while rejecting path-shaped ids', async () => {
