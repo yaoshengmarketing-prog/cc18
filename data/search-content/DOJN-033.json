@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "movie_id": "DOJN-033",
+  "generated_at": "2026-11-10T11:43:18.101Z",
+  "source_snapshot_hash": "sha256:fea036876d88fc43586e049981cb505ece0bd88ff58b77920b99671d35457dda",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若想依具體題材選片，運動裝與拘束設定比籠統的「素人」標籤更有參考價值；成片效果仍屬未知。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以 Sさん為中心的個人攝影包裝",
+      "白 T 與運動裝的服裝設定轉換",
+      "簡介後段提出拘束設定"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想先確認服裝與互動題材的人",
+      "對運動裝和拘束設定有興趣的人"
+    ],
+    "not_for": [
+      "需要先確認完整故事與實際拍攝方式的人",
+      "希望憑公開資料判斷畫面或節奏品質的人"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "公開簡介提供了哪些具體設定？",
+    "這些設定的差異如何幫助選片？",
+    "哪些成片資訊目前仍無法判斷？"
+  ]
+}

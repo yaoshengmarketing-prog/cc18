@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-10T10:54:38.011Z",
+  "generated_at": "2026-11-10T11:50:56.757Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 565,
-  "formal_movie_count": 564,
+  "tracked_input_count": 566,
+  "formal_movie_count": 565,
   "demo_count": 1,
-  "published_count": 563,
+  "published_count": 564,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -782,6 +782,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "e4af825191de13c83062b74d858b76534f56f2342473021bcf42b358e1c91f8c"
+    },
+    {
+      "stable_movie_id": "cc18:DOJN-033",
+      "catalog_code": "DOJN-033",
+      "slug": "dojn-033",
+      "master_path": "data/movie-master/dojn-033.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "944b6c487abeb3375bf840534bee5b1808959c86bbfa1ae2869e628e643816a8"
     },
     {
       "stable_movie_id": "cc18:DOKS-688",

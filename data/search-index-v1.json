@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:e2b03a180b3e59ef81158cf25ba0c13244d7c8b5a204a925f0320ef25780156d",
-  "source_generated_at": "2026-11-10T10:54:38.011Z",
+  "source_revision": "sha256:1bf8b7141ddbdb0d0c30b2fafba70cc890b720e57c6dd6487367fb8f10cedf9c",
+  "source_generated_at": "2026-11-10T11:50:56.757Z",
   "counts": {
-    "movies": 563,
-    "performers": 400,
+    "movies": 564,
+    "performers": 401,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -4567,6 +4567,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:47076",
+      "display_name": "Sさん",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "Sさん",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:DOJN-033"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:27219",
       "display_name": "UNPAI",
       "display_name_zh_tw": null,
@@ -4814,6 +4825,63 @@
         "article_title": "錯過末班車，讓同學關係有了轉折",
         "display_short_title": "音樂祭後的末班車",
         "slug": "sodah-012"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:DOJN-033",
+        "source_cover": "https://cc18.tv/preview/80/b/DW45rjmRGaC-800.jpg?v=1793997343",
+        "title": "Sさん的運動裝個人攝影",
+        "catalog_code": "DOJN-033",
+        "release_date": "2026-11-05",
+        "performers": [
+          "Sさん"
+        ],
+        "canonical_topics": [
+          {
+            "id": "amateur",
+            "label": "素人"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "fhd",
+            "label": "全高清 FHD"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "self-shot",
+            "label": "自拍視角"
+          },
+          {
+            "id": "streaming-only",
+            "label": "配信限定"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/dojn-033/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:47076"
+      ],
+      "search": {
+        "source_title": "獨家 【同人】素人公車妹→ 同人攝影 34",
+        "article_title": "從日常穿著到拘束，簡介改變了什麼期待？",
+        "display_short_title": "Sさん的運動裝個人攝影",
+        "slug": "dojn-033"
       }
     },
     {

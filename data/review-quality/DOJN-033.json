@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "DOJN-033",
+  "review_sha256": "8dc2b14b6b00bcc327643deb803ee8bed85ead7f893f6851eaf4eaa7ab30e231",
+  "selected_thesis": "這部作品的具體選片線索，是簡介從日常穿著、運動裝轉向拘束設定的變化；它提供了題材方向，卻不足以判斷成片如何呈現。",
+  "title_basis": {
+    "performer": "Sさん",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "Sさん",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "同人】素人セク子",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "【同人】素人セク子",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "Sさん",
+    "presentation_feature": "同人】素人セク子",
+    "editorial_judgment": "以同一份簡介中的設定轉換作比較：日常穿著提供人物入口，運動裝增加明確的服裝題材，拘束則改變互動期待。判斷限於公開宣傳內容。",
+    "source_keywords": [
+      "Sさん",
+      "同人】素人セク子",
+      "【同人】素人セク子",
+      "素人企劃"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "日常穿著與運動裝的對照",
+      "supports": "作品簡介先提到貼身白 T，接著寫到請 Sさん換上健身服裝，支持服裝設定有所轉換。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "互動設定轉向拘束",
+      "supports": "簡介後段明確提及拘束，來源標籤也列有「拘束」，支持將它列為題材線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "個人攝影的公開包裝",
+      "supports": "作品標題含「同人攝影」，簡介亦稱其為購得的個人製作作品；這是來源對作品來歷的說法。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "Sさん可供辨識的真實身分與工作經歷",
+    "服裝或拘束段落在成片中的時長與先後鏡位",
+    "畫面、聲音、表演與節奏的觀看評價",
+    "沒有來源支持的同系列作品比較"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}

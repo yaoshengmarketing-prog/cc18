@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "id": "DOJN-033",
+  "generated_at": "2026-11-10T11:43:16.397Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/DOJN-033.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "同人】素人セク子",
+    "premise": "作品以「同人】素人セク子」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「同人】素人セク子」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "同人】素人セク子",
+      "獨家",
+      "同人】素人公車妹",
+      "同人攝影",
+      "34",
+      "素人"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "素人"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "自拍",
+      "720p",
+      "独占配信",
+      "全高清 (FHD)",
+      "獨家限定",
+      "配信専用"
+    ]
+  },
+  "research_question": "這部作品的公開簡介，如何從日常穿著轉向另一種互動設定？這個差異能幫讀者判斷什麼？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=DW45rjmRGaC&cat=19",
+      "supports": "已核對的作品資料快照記載：簡介先寫白 T 與健身後碰面，再寫換上運動裝，最後轉向拘束設定。來源頁此次無法直接開啟，未將搜尋片段當作頁面全文。"
+    }
+  ],
+  "angle_candidates": [
+    "比較白 T、運動裝與拘束設定在簡介中的不同作用",
+    "從「個人攝影」的公開包裝討論選片期待",
+    "檢視標題與簡介各自提供了多少具體設定"
+  ],
+  "selected_thesis": "這部作品的具體選片線索，是簡介從日常穿著、運動裝轉向拘束設定的變化；它提供了題材方向，卻不足以判斷成片如何呈現。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "Sさん",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "同人】素人セク子",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "series",
+      "value": "【同人】素人セク子",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "素人企劃",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "Sさん的個人攝影：運動裝與拘束設定",
+  "display_short_title": "Sさん的運動裝個人攝影",
+  "title": "從日常穿著到拘束，簡介改變了什麼期待？",
+  "seo_title": "DOJN-033｜Sさん的個人攝影：運動裝與拘束設定",
+  "social_title": "Sさん的個人攝影，從運動裝轉向拘束設定",
+  "short_review": "公開簡介先以白 T 和健身後碰面建立日常印象，再加入運動裝與拘束設定。對選片而言，這比籠統的「素人」標籤更能說明題材方向；實際呈現仍無法由文案判定。",
+  "editorial_angle": "以同一份簡介中的設定轉換作比較：日常穿著提供人物入口，運動裝增加明確的服裝題材，拘束則改變互動期待。判斷限於公開宣傳內容。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "日常穿著與運動裝的對照",
+      "supports": "作品簡介先提到貼身白 T，接著寫到請 Sさん換上健身服裝，支持服裝設定有所轉換。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "互動設定轉向拘束",
+      "supports": "簡介後段明確提及拘束，來源標籤也列有「拘束」，支持將它列為題材線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "個人攝影的公開包裝",
+      "supports": "作品標題含「同人攝影」，簡介亦稱其為購得的個人製作作品；這是來源對作品來歷的說法。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "Sさん可供辨識的真實身分與工作經歷",
+    "服裝或拘束段落在成片中的時長與先後鏡位",
+    "畫面、聲音、表演與節奏的觀看評價",
+    "沒有來源支持的同系列作品比較"
+  ],
+  "decision_guide": {
+    "thesis": "若想依具體題材選片，運動裝與拘束設定比籠統的「素人」標籤更有參考價值；成片效果仍屬未知。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以 Sさん為中心的個人攝影包裝",
+      "白 T 與運動裝的服裝設定轉換",
+      "簡介後段提出拘束設定"
+    ],
+    "audience_for": [
+      "想先確認服裝與互動題材的人",
+      "對運動裝和拘束設定有興趣的人"
+    ],
+    "audience_not_for": [
+      "需要先確認完整故事與實際拍攝方式的人",
+      "希望憑公開資料判斷畫面或節奏品質的人"
+    ],
+    "questions_answered": [
+      "公開簡介提供了哪些具體設定？",
+      "這些設定的差異如何幫助選片？",
+      "哪些成片資訊目前仍無法判斷？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "日常印象怎麼轉成題材線索？",
+      "body": "這部作品的簡介先從碰面與白 T 寫起，隨後提到健身後的情境，並安排換上運動裝。前者讓 Sさん以日常穿著進入介紹，後者則把服裝變成更明確的選片線索。若讀者在意的是運動裝題材，簡介提供的資訊比單看「素人」標籤具體。"
+    },
+    {
+      "heading": "拘束設定讓期待再變一次",
+      "body": "簡介後段轉向拘束，與前面的穿著介紹形成另一層差異：選片重點從人物外觀移到互動設定。這能幫讀者確認題材是否合意，但文案沒有提供足夠材料，讓人判斷這段設定在成片中占多少篇幅、又如何拍攝。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據 [CC18 的作品資料快照](https://cc18.tv/player.php?uuid=DW45rjmRGaC&cat=19) 中的標題、標籤與公開簡介。來源頁此次無法直接開啟；服裝與互動設定的比較是對該份簡介的編輯判斷，未使用影片抽樣，也沒有可核對的同演員或同系列作品可供延伸比較。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "fea036876d88fc43586e049981cb505ece0bd88ff58b77920b99671d35457dda",
+    "response_sha256": "2b6c38c68621948b824352934ee9fdc78a4d4165be10f5f0a024c0f3cb218578",
+    "research_input_sha256": "b1d595e95399e2fb66624a0ba0e5b2b06433f848c09a73656a761d1ee2a77ce7",
+    "related_source_ids": []
+  }
+}
