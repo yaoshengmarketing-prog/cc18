@@ -136,7 +136,10 @@ h1, h2, h3, p { overflow-wrap: anywhere; }
 .topic-elements-grid > div:nth-child(4n) { border-right: 0; }
 .topic-elements-grid dt { color: var(--slate); font: 600 10px/1.4 var(--utility); letter-spacing: .08em; }
 .topic-elements-grid dd { display: flex; flex-wrap: wrap; gap: 7px; margin: 13px 0 0; }
-.topic-elements-grid span { padding: 5px 8px; background: rgba(155,201,197,.14); border: 1px solid rgba(155,201,197,.32); font-size: 12px; font-weight: 700; }
+.topic-elements-grid dd > span, .topic-elements-grid dd > a { padding: 5px 8px; background: rgba(155,201,197,.14); border: 1px solid rgba(155,201,197,.32); font-size: 12px; font-weight: 700; }
+.topic-elements-grid dd > a { border-color: var(--slate); text-decoration: underline; text-underline-offset: 2px; }
+.topic-elements-grid dd > a::after { content: ' ↗'; }
+.topic-elements-grid dd > a:hover { background: rgba(155,201,197,.34); }
 .fact-sheet-heading { display: grid; grid-template-columns: 1fr minmax(260px, .7fr); align-items: end; gap: 40px; padding: 34px 38px; border-bottom: 1px solid var(--line); }
 .fact-sheet-heading h2 { margin: 0; font: 900 clamp(29px, 3vw, 43px)/1.15 var(--display); }
 .fact-sheet-heading > p { margin: 0; color: var(--slate); font-size: 13px; }

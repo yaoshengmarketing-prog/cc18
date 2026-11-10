@@ -1,8 +1,9 @@
 ---
-import {sourceTagGroupLabels, topicElementsFromSourceTags} from '../lib/taxonomy';
+import {sourceTagGroupLabels, sourceTagItems, topicElementsFromSourceTags} from '../lib/taxonomy';
 
 const {sourceTags} = Astro.props;
 const elements = topicElementsFromSourceTags(sourceTags);
+const itemsByLabel = new Map(sourceTagItems(sourceTags).map((item) => [item.label, item]));
 const rows = [...sourceTagGroupLabels].flatMap(([group, label]) => {
   const values = elements[group] ?? [];
   return values.length ? [{group, label, values}] : [];
@@ -18,7 +19,12 @@ const rows = [...sourceTagGroupLabels].flatMap(([group, label]) => {
       {rows.map(({group, label, values}) => (
         <div data-group={group}>
           <dt>{label}</dt>
-          <dd>{values.map((value) => <span>{value}</span>)}</dd>
+          <dd>{values.map((value) => {
+            const item = itemsByLabel.get(value);
+            return item?.id && item.href
+              ? <a href={item.href}>{value}</a>
+              : <span>{value}</span>;
+          })}</dd>
         </div>
       ))}
     </dl>
