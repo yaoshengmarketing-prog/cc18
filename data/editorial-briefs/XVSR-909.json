@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "id": "XVSR-909",
+  "generated_at": "2026-11-10T06:42:28.060Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/XVSR-909.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "インストラクター",
+    "premise": "作品以「インストラクター」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「インストラクター」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "インストラクター",
+      "桃尻うらら",
+      "玩具"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [
+      "角色扮演"
+    ],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "3p・4p"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "本作為什麼要替私人健身房加上缺新客的設定？這個前提如何串起簡介列出的不同課程？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=rPkLC1VRGfE&cat=19",
+      "supports": "依提供的作品頁快照，桃尻うらら演出一名認真的教練；簡介以私人健身房缺新客為開場，並列出教練再教育與海外教練參與特訓等安排。"
+    }
+  ],
+  "angle_candidates": [
+    "從健身房缺新客切入，看招攬客人的前提如何帶出不同課程。",
+    "比較教練接受再教育與海外教練加入特訓，說明同一場景如何容納不同的角色關係。",
+    "角色扮演的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "缺新客交代了健身房為何推出特別課程；簡介接著用教練接受再教育、海外教練加入特訓兩種安排，把選片重點放在課程裡的角色變化。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "桃尻うらら",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "インストラクター",
+      "source_field": "series"
+    },
+    {
+      "type": "theme",
+      "value": "角色扮演",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "認真教練的健身房特訓",
+  "display_short_title": "健身房特訓",
+  "title": "健身房缺新客，教練怎麼成了受訓的人？",
+  "seo_title": "XVSR-909 桃尻うらら｜健身房特訓的角色設定與選片重點",
+  "social_title": "從招攬新客到教練受訓：桃尻うらら的健身房企劃",
+  "short_review": "私人健身房缺新客，是簡介替特別課程安排的起因。教練接受再教育與海外教練加入特訓，分別把看點放在職務對調和新角色加入。若你是為健身教練的角色扮演而來，這比單看場景更能說明企劃的特色。",
+  "editorial_angle": "從健身房的經營困境切入，對照兩種課程設定，說明它們各自提供什麼選片理由。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品簡介先交代私人健身房缺新客，再引出特別私人訓練。",
+      "supports": "招攬新客是宣傳設定裡推出特別課程的理由。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介分別列出認真教練接受再教育，以及海外教練參與特訓。",
+      "supports": "前者讓原本負責指導的教練成為受訓者，後者則引入新的教練角色；兩者是不同的角色安排。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "健身房最後是否招到新客，或經營困境是否有後續發展",
+    "各項課程在成片中的先後、篇幅與銜接方式",
+    "實際畫面、聲音、台詞及表演品質",
+    "本作與同演員或同系列其他作品的差異"
+  ],
+  "decision_guide": {
+    "thesis": "若你在意健身教練這個身分如何影響角色關係，可以從「教練變成受訓者」這項設定判斷是否合口味。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以健身房缺新客開場，再逐項介紹不同課程及其角色安排。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "健身房為什麼要推出特別課程？",
+      "教練接受再教育和海外教練加入特訓，提供了哪些不同的選片理由？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "缺新客，讓特別課程有了起因",
+      "body": "簡介先交代私人健身房招不到新客，才引出桃尻うらら演出的教練所面對的特別訓練。這個前提的作用很具體：讀者先知道健身房為什麼要推出新課程，再看文案怎麼用「訓練」安排不同的角色關係。"
+    },
+    {
+      "heading": "教練受訓和新教練加入，各有什麼看點？",
+      "body": "再教育的設定把原本負責指導的教練放到受訓的位置；海外教練參與特訓，則是靠新角色加入改變課程的參與者。如果你挑的是教練身分帶來的反差，前一項更能說明這部的特色。若你在意的是健身房如何走出經營困境，簡介提供的是故事起因，沒有交代這條線後來怎麼發展。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "依據 [CC18 的 XVSR-909 作品頁](https://cc18.tv/player.php?uuid=rPkLC1VRGfE&cat=19) 所提供的資料快照，本文使用演出名單與公開簡介。課程比較限於簡介列出的設定；未抽樣觀看影片，也未取得可核對的關聯作品材料。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "30669e872ac47ec02eb9b618cd9978fd493ec1d882e552e375f2ea155cf5f3f9",
+    "response_sha256": "d27a3e74cbf383f9a82bd29f0972aedcf716273674195bcac89004c5a9c5d5e4",
+    "research_input_sha256": "c3c7a810571c2a47e18a83eb5102b57686b335ab00353df49f328b3b13ec6e17",
+    "related_source_ids": []
+  }
+}

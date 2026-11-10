@@ -1391,7 +1391,7 @@
     },
     {
       "label": "玩具",
-      "occurrences": 24,
+      "occurrences": 25,
       "source_ids": [
         "MILK-306",
         "DOKS-689",
@@ -1416,10 +1416,11 @@
         "DVAJ-756",
         "DVAJ-757",
         "NACT-176",
-        "WAAA-696"
+        "WAAA-696",
+        "XVSR-909"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     },
     {
@@ -2414,7 +2415,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 45,
+      "occurrences": 46,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -2460,10 +2461,11 @@
         "NGOD-361",
         "HUNTC-642",
         "MKMP-763",
-        "NACT-200"
+        "NACT-200",
+        "XVSR-909"
       ],
       "first_seen": "2026-09-09",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     },
     {

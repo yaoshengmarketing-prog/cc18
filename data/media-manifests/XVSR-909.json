@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "XVSR-909",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-10T06:47:57.388Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/XVSR-909/hero-v1.jpg",
+      "r2_key": "works/2026/10/XVSR-909/hero-v1.jpg",
+      "bytes": 570243,
+      "sha256": "080e28134061954a4bd03d57f019e82c1fa1123d0f7074508a824c225f335839",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "80cae6186eac4e79a29c80d9e8e2d0f6",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/XVSR-909/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/XVSR-909/scene-vertical-v1.jpg",
+      "bytes": 780044,
+      "sha256": "695f92593503fa708d3a6a847e783dd8f93fa0e4d5a9328d4c9b6b96ba86c6f2",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "f88469760dbf441dad32a90d348caac8",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 1952279,
+    "sha256": "57fb39ae6f0536a858b1af29afa1a3427a9b9631300b02e4eaa0c3e4cf0d6531",
+    "target_r2_key": "works/2026/10/XVSR-909/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/XVSR-909/vertical-v1.mp4"
+  }
+}

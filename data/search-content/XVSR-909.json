@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "XVSR-909",
+  "generated_at": "2026-11-10T06:42:30.097Z",
+  "source_snapshot_hash": "sha256:30669e872ac47ec02eb9b618cd9978fd493ec1d882e552e375f2ea155cf5f3f9",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若你在意健身教練這個身分如何影響角色關係，可以從「教練變成受訓者」這項設定判斷是否合口味。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以健身房缺新客開場，再逐項介紹不同課程及其角色安排。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "健身房為什麼要推出特別課程？",
+    "教練接受再教育和海外教練加入特訓，提供了哪些不同的選片理由？"
+  ]
+}

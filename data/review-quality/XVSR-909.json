@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "XVSR-909",
+  "review_sha256": "ff2fe3028c047333e1d62b0f2123f6c333305cc51216168ab0417ac8790676c1",
+  "selected_thesis": "缺新客交代了健身房為何推出特別課程；簡介接著用教練接受再教育、海外教練加入特訓兩種安排，把選片重點放在課程裡的角色變化。",
+  "title_basis": {
+    "performer": "桃尻うらら",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "桃尻うらら",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "インストラクター",
+        "source_field": "series"
+      },
+      {
+        "type": "theme",
+        "value": "角色扮演",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "桃尻うらら",
+    "presentation_feature": "インストラクター",
+    "editorial_judgment": "從健身房的經營困境切入，對照兩種課程設定，說明它們各自提供什麼選片理由。",
+    "source_keywords": [
+      "桃尻うらら",
+      "インストラクター",
+      "角色扮演",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品簡介先交代私人健身房缺新客，再引出特別私人訓練。",
+      "supports": "招攬新客是宣傳設定裡推出特別課程的理由。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介分別列出認真教練接受再教育，以及海外教練參與特訓。",
+      "supports": "前者讓原本負責指導的教練成為受訓者，後者則引入新的教練角色；兩者是不同的角色安排。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "健身房最後是否招到新客，或經營困境是否有後續發展",
+    "各項課程在成片中的先後、篇幅與銜接方式",
+    "實際畫面、聲音、台詞及表演品質",
+    "本作與同演員或同系列其他作品的差異"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}
