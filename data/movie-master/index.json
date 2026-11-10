@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-10T09:50:53.743Z",
+  "generated_at": "2026-11-10T10:54:38.011Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 564,
-  "formal_movie_count": 563,
+  "tracked_input_count": 565,
+  "formal_movie_count": 564,
   "demo_count": 1,
-  "published_count": 562,
+  "published_count": 563,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -3032,6 +3032,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "3dfb4483d34ea405bab7b5a15ce5b356d1f4f61810c821f20e02bc4425adc026"
+    },
+    {
+      "stable_movie_id": "cc18:NACT-208",
+      "catalog_code": "NACT-208",
+      "slug": "nact-208",
+      "master_path": "data/movie-master/nact-208.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "ff840a537b79badc80f54b064bd62ec97870456091dc185974676f4185aa01d4"
     },
     {
       "stable_movie_id": "cc18:NAMH-074",

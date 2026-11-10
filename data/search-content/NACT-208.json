@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "movie_id": "NACT-208",
+  "generated_at": "2026-11-10T10:43:52.645Z",
+  "source_snapshot_hash": "sha256:f934769941482bffba2a82164062bb4ca5b605c97e9d9f1802d83f992f4507a8",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看家庭重逢如何引出禁忌關係，可留意本作；偏好救援、偽裝與對抗設定，則可參考同演員的女英雄作品。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以五年後返家、成年女兒與男友的存在，鋪陳父親的嫉妒。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "NACT-188",
+      "relation_type": "same_performer",
+      "reason": "同樣由由良佳奈出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "由良佳奈"
+      ],
+      "contrast_signals": [
+        "143cm極小尺寸",
+        "美少女設定"
+      ]
+    },
+    {
+      "movie_id": "THPA-16",
+      "relation_type": "same_performer",
+      "reason": "同樣由由良佳奈出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "由良佳奈"
+      ],
+      "contrast_signals": [
+        "スーパーヒロイン危機一髪",
+        "スーパーヒロイン危機一髪！！"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作的禁忌設定從什麼關係變化開始？",
+    "它與由良佳奈另一部危機題材作品有何具體差別？"
+  ]
+}

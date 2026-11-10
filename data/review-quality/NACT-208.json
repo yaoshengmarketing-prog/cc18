@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "NACT-208",
+  "review_sha256": "ea6c33a0f77d70bc4c82c01eb7602d8f71676fb29376fa9da28287c39148e239",
+  "selected_thesis": "本作把關係危機放在返家後的日常：五年分離、女兒已成年，以及她與男友親近，逐步交代父親越界的念頭。這與同演員女英雄作品由救援和冒名陷阱推動危機的設定不同，提供了清楚的選片分界。",
+  "title_basis": {
+    "performer": "由良佳奈",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "由良佳奈",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "自分の娘がどストライク",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "自分の娘がどストライク！？",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "由良佳奈",
+    "presentation_feature": "自分の娘がどストライク",
+    "editorial_judgment": "以同演員作品作對照，指出本作的家庭重逢設定與女英雄冒名陷阱的具體差異，幫助讀者依偏好的故事入口選片。",
+    "source_keywords": [
+      "由良佳奈",
+      "自分の娘がどストライク",
+      "自分の娘がどストライク！？",
+      "美少女設定"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介交代海外單身赴任五年、女兒已成年，以及父親看見她與男友親近而嫉妒。",
+      "supports": "本作以久別重逢和既有親密關係，建立家庭禁忌的起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "《超級女英雄危機一髮！！Vol.116》的簡介以救援任務及怪人冒充人質設下陷阱。",
+      "supports": "同樣由由良佳奈演出，該作的危機來自奇幻對抗設定，可與本作的家庭關係設定比較。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將角色的父女關係寫成演員的真實關係。",
+    "未推斷實際表演、鏡頭、節奏或成片品質。",
+    "未將來源標籤當作已核對的具體畫面。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}

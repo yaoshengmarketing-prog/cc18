@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "id": "NACT-208",
+  "generated_at": "2026-11-10T10:43:21.235Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/NACT-208.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "自分の娘がどストライク",
+    "premise": "作品以「自分の娘がどストライク」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「自分の娘がどストライク」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "自分の娘がどストライク",
+      "單身赴任回來後",
+      "久違地見到女兒",
+      "由良佳奈"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "美少女"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "口交",
+      "騎乘位"
+    ],
+    "presentation": [
+      "720p",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由由良佳奈演出，本作與《超級女英雄危機一髮！！Vol.116》如何用不同設定引出人物關係的危機？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=mHYVuzK7X8H&cat=19",
+      "supports": "已核對的作品資料記載：父親海外單身赴任五年後返家，面對已成年的女兒及她的男友，產生嫉妒。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=e1ndXOLfL6T&cat=19",
+      "supports": "已核對的關聯作品簡介記載：由良佳奈演出的女英雄前去救人，卻遇上冒充人質的怪人。"
+    }
+  ],
+  "angle_candidates": [
+    "比較兩作如何以返家重逢與冒名陷阱，分別建立家庭禁忌及女英雄危機。",
+    "從五年未見與男友的存在，分析本作簡介如何交代父親嫉妒的起點。",
+    "美少女設定的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作把關係危機放在返家後的日常：五年分離、女兒已成年，以及她與男友親近，逐步交代父親越界的念頭。這與同演員女英雄作品由救援和冒名陷阱推動危機的設定不同，提供了清楚的選片分界。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "由良佳奈",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "自分の娘がどストライク",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "series",
+      "value": "自分の娘がどストライク！？",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "美少女設定",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "由良佳奈：久別返家後的父女禁忌",
+  "display_short_title": "久別返家的父女禁忌",
+  "title": "五年後再見，禁忌從日常關係開始",
+  "seo_title": "NACT-208｜由良佳奈的返家重逢與父女禁忌",
+  "social_title": "由良佳奈這次的關係危機，從五年未見開始",
+  "short_review": "來源簡介用五年分離、成年女兒與男友三個設定，交代父親嫉妒的由來。若想找由日常關係逐步引出的禁忌故事，這比單看題材標籤更有參考價值。",
+  "editorial_angle": "以同演員作品作對照，指出本作的家庭重逢設定與女英雄冒名陷阱的具體差異，幫助讀者依偏好的故事入口選片。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介交代海外單身赴任五年、女兒已成年，以及父親看見她與男友親近而嫉妒。",
+      "supports": "本作以久別重逢和既有親密關係，建立家庭禁忌的起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "《超級女英雄危機一髮！！Vol.116》的簡介以救援任務及怪人冒充人質設下陷阱。",
+      "supports": "同樣由由良佳奈演出，該作的危機來自奇幻對抗設定，可與本作的家庭關係設定比較。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將角色的父女關係寫成演員的真實關係。",
+    "未推斷實際表演、鏡頭、節奏或成片品質。",
+    "未將來源標籤當作已核對的具體畫面。"
+  ],
+  "decision_guide": {
+    "thesis": "想看家庭重逢如何引出禁忌關係，可留意本作；偏好救援、偽裝與對抗設定，則可參考同演員的女英雄作品。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以五年後返家、成年女兒與男友的存在，鋪陳父親的嫉妒。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作的禁忌設定從什麼關係變化開始？",
+      "它與由良佳奈另一部危機題材作品有何具體差別？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "五年分離，讓重逢有了另一層意思",
+      "body": "本作的公開簡介先交代父親海外單身赴任五年，返家時女兒佳奈已經成年。他看見她與男友親近，產生嫉妒。這幾項設定把禁忌放進一段原有的家庭關係裡：衝突不只來自久別後的陌生感，也來自父親對女兒現有親密關係的反應。"
+    },
+    {
+      "heading": "同樣由由良佳奈演出，危機的入口不同",
+      "body": "《超級女英雄危機一髮！！Vol.116》的來源簡介從救援任務出發，以怪人冒充人質設下陷阱；本作則從返家、重逢與嫉妒推進。前者適合想看女英雄與偽裝敵人對抗設定的讀者，後者的選片理由更集中在家庭關係如何越界。這是兩份公開簡介的設定差異，不能據此判斷哪部成片更好。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據已核對的 [本作資料](https://cc18.tv/player.php?uuid=mHYVuzK7X8H&cat=19) 與 [同演員關聯作品資料](https://cc18.tv/player.php?uuid=e1ndXOLfL6T&cat=19) 撰寫。外部頁面未能開啟，以上比較限於提供的來源快照，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "f934769941482bffba2a82164062bb4ca5b605c97e9d9f1802d83f992f4507a8",
+    "response_sha256": "58e3882cb346caf0c5fc1d7efca3a433fc0a0d8b7cecbad1d56fb917eca24f20",
+    "research_input_sha256": "1037cd3c6af08f1ad24bd7c2127bcfaea80e0508070368dd0b81ca91cb2e4c0f",
+    "related_source_ids": [
+      "THPA-16",
+      "NACT-188"
+    ]
+  }
+}
