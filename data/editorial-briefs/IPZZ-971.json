@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "id": "IPZZ-971",
+  "generated_at": "2026-11-10T18:43:46.444Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/IPZZ-971.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "可以在我家過夜喔",
+    "premise": "作品以「可以在我家過夜喔」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「可以在我家過夜喔」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "可以在我家過夜喔",
+      "忘掉女友",
+      "隨本能盡情貪婪索求的一夜",
+      "三澄寧寧",
+      "巨乳"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "騎乘位"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由三澄寧々演出，這次的女社長設定與《IPZZ-916》的社長秘書設定有何差異，會如何影響選片？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=p8Y43Y8he3w&cat=19",
+      "supports": "本作來源快照寫明女社長邀請錯過末班車的下屬留宿；敘事者已有女友。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=1CzqDeSIPbv&cat=19",
+      "supports": "同演員作品的來源快照設定為社長秘書因公司車故障搭電車通勤，並遭遇性騷擾。"
+    }
+  ],
+  "angle_candidates": [
+    "比較同一演員在女社長與社長秘書兩種職場身分中的故事設定。",
+    "從錯過末班車的留宿邀請，看本作如何建立越界關係。",
+    "辨別本作的背叛女友設定與同演員作品的通勤性騷擾題材。"
+  ],
+  "selected_thesis": "本作把三澄寧々放在提出留宿邀請的女社長位置，重點是已有女友的下屬如何面對越界機會；相較之下，同演員的《IPZZ-916》以社長秘書遭遇通勤性騷擾為設定，兩作的職場身分與衝突來源不同。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "三澄寧々",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "可以在我家過夜喔",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "三澄寧々的女社長留宿之夜",
+  "display_short_title": "女社長的留宿邀請",
+  "title": "從社長秘書到女社長，三澄寧々這次站在哪一邊？",
+  "seo_title": "IPZZ-971｜三澄寧々的女社長留宿之夜",
+  "social_title": "三澄寧々演女社長：一場留宿邀請如何改變選片理由",
+  "short_review": "本作以女社長邀請錯過末班車的下屬留宿，帶出已有女友者的越界抉擇。同演員的《IPZZ-916》則是社長秘書遭遇通勤性騷擾；兩作值得區分的是人物位置與衝突設定。",
+  "editorial_angle": "以同演員的兩種職場角色作對照，說明本作的留宿與背叛女友設定，和另一作的通勤受害設定各自適合什麼選片偏好。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介寫到女社長邀請替她擋酒、錯過末班車的下屬到她家留宿，敘事者已有女友。",
+      "supports": "本作的衝突由留宿邀請與既有戀愛關係構成。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "《IPZZ-916》的來源簡介設定三澄寧々演社長秘書，因公司車故障搭電車通勤，途中遭遇性騷擾。",
+      "supports": "同演員作品使用不同職場身分與衝突來源，可供具體比較。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將留宿邀請寫成女社長有意誘惑下屬。",
+    "未推論兩作的實際表演、鏡位或敘事節奏。"
+  ],
+  "decision_guide": {
+    "thesis": "若想看三澄寧々演出的女社長，以及留宿邀請如何引出背叛女友的設定，可選本作；若想看她演社長秘書，且能接受通勤性騷擾題材，則可留意《IPZZ-916》。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "女社長與下屬",
+      "錯過末班車後的留宿邀請",
+      "已有女友者的越界設定"
+    ],
+    "audience_for": [
+      "想看三澄寧々演出女社長職場角色的讀者",
+      "對留宿邀請與背叛女友設定感興趣的讀者"
+    ],
+    "audience_not_for": [
+      "想避開背叛伴侶題材的讀者",
+      "需要先確認成片節奏與表演方式的讀者"
+    ],
+    "questions_answered": [
+      "本作與同演員的《IPZZ-916》在職場身分上有何不同？",
+      "兩作各以什麼事件引出衝突？",
+      "這些設定差異如何幫助選片？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "留宿邀請，讓女社長成為故事的起點",
+      "body": "本作的公開簡介先交代下屬對女社長寧寧的仰慕，再安排一次會餐：他替酒量不佳的她擋酒，錯過末班車，於是收到留宿邀請。敘事者已有女友，這個前提讓「能不能留下」不只是過夜安排，也成了關係越界的選片線索。簡介把誘惑寫得強烈，卻沒有證據能據此判定女社長是刻意設局。"
+    },
+    {
+      "heading": "同樣是職場角色，衝突方向不同",
+      "body": "同樣由三澄寧々演出的《IPZZ-916》，公開設定讓她擔任社長秘書：公司車故障後，她在通勤電車上遭遇性騷擾。本作則讓她演女社長，故事由她提出留宿邀請，以及已有女友的下屬如何回應而展開。若你想看的是女社長與下屬之間的越界設定，本作更貼近需求；若在找社長秘書遭遇通勤性騷擾的題材，兩作不能只憑「職場」標籤互換。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據<a href=\"https://cc18.tv/player.php?uuid=p8Y43Y8he3w&amp;cat=19\">本作來源頁</a>及<a href=\"https://cc18.tv/player.php?uuid=1CzqDeSIPbv&amp;cat=19\">《IPZZ-916》來源頁</a>的已核對資料快照。角色位置與衝突來源的比較是編輯判斷；未使用影片抽樣，無法據此評斷成片節奏或品質。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "4419823c62cf45a31334bc20888861bb5745f54a31bc2a20ae4bd71aed2bd1bb",
+    "response_sha256": "89f6158b24a9408033f4f28d2f75b957713afc2b989dd6f8eb9073169cbf36ba",
+    "research_input_sha256": "adf48930cb34207b28e82078a0212be7d2f5b5f35cd58f80aadf7a7e5d16053d",
+    "related_source_ids": [
+      "IPZZ-916"
+    ]
+  }
+}

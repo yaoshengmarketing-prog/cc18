@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "movie_id": "IPZZ-971",
+  "generated_at": "2026-11-10T18:43:47.184Z",
+  "source_snapshot_hash": "sha256:4419823c62cf45a31334bc20888861bb5745f54a31bc2a20ae4bd71aed2bd1bb",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若想看三澄寧々演出的女社長，以及留宿邀請如何引出背叛女友的設定，可選本作；若想看她演社長秘書，且能接受通勤性騷擾題材，則可留意《IPZZ-916》。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "女社長與下屬",
+      "錯過末班車後的留宿邀請",
+      "已有女友者的越界設定"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想看三澄寧々演出女社長職場角色的讀者",
+      "對留宿邀請與背叛女友設定感興趣的讀者"
+    ],
+    "not_for": [
+      "想避開背叛伴侶題材的讀者",
+      "需要先確認成片節奏與表演方式的讀者"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "IPZZ-916",
+      "relation_type": "same_performer",
+      "reason": "同樣由三澄寧々出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "三澄寧々"
+      ],
+      "contrast_signals": [
+        "三澄寧寧",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作與同演員的《IPZZ-916》在職場身分上有何不同？",
+    "兩作各以什麼事件引出衝突？",
+    "這些設定差異如何幫助選片？"
+  ]
+}
