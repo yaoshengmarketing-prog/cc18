@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "YMTK-146",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-10T02:48:20.542Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/YMTK-146/hero-v1.jpg",
+      "r2_key": "works/2026/10/YMTK-146/hero-v1.jpg",
+      "bytes": 569055,
+      "sha256": "3169c9a225d89be168a6ae7be644512e66c492acde99a71d0cedebf69db3c393",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "2ddbe6a182bd473ebec38b805c93d3f2",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/YMTK-146/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/YMTK-146/scene-vertical-v1.jpg",
+      "bytes": 761017,
+      "sha256": "42adde8aec6320846d9322e0a2cc086fa81c53b2a41e32d152e523e07c15d402",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "4dc74843c7e44dcbbc4c46710dc00021",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional "
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 1915683,
+    "sha256": "bacf57696d7042deac174a7b4be170d0cea1074fd8e8f570e68e04cd8f1f5d7e",
+    "target_r2_key": "works/2026/10/YMTK-146/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/YMTK-146/vertical-v1.mp4"
+  }
+}

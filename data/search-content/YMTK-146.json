@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "YMTK-146",
+  "generated_at": "2026-11-10T02:42:10.630Z",
+  "source_snapshot_hash": "sha256:cd21c03f57ce1c9e0d68309d5cbf8971d26667e3aa57cfb932ee1afa996dc0c5",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "選片時可用簡介確認制服扮演與母子角色設定，再判斷題材是否符合偏好。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以成人制服扮演和母子角色關係介紹作品。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會先看服裝與角色關係，再決定是否列入片單的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "想避開母子角色設定的讀者。",
+      "需要先確認演員或故事走向才選片的讀者。"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "簡介所說的角色扮演包含什麼服裝設定？",
+    "除了服裝，文案還明示了什麼人物關係？"
+  ]
+}

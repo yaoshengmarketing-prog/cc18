@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "YMTK-146",
+  "review_sha256": "7e04f89a7547a40e262c168b9f4791643db4d4ff60223d0e9c27fc26f9baf1ea",
+  "selected_thesis": "比起「角色扮演」這個大類，簡介交代的制服與母子角色關係，更能幫讀者判斷題材是否合適。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "character",
+        "value": "人妻設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "theme",
+        "value": "角色扮演",
+        "source_field": "description"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "人妻設定",
+    "editorial_judgment": "對照同一作品的標籤與公開簡介，找出會影響選片的具體設定。",
+    "source_keywords": [
+      "獨家",
+      "人妻設定",
+      "角色扮演",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品頁標為「角色扮演」、「熟女」與「人妻」。",
+      "supports": "標籤提供題材分類，人物關係則要看簡介。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介交代成人穿制服扮演，並提到五十歲的母親與在場的兒子。",
+      "supports": "五十歲指角色設定，母子關係是讀者可用來篩選題材的資訊。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "把片名中的「真帆」認定為已核實的演員姓名。",
+    "把角色年齡當成演員年齡。",
+    "由「02」推定有已核實的前作、正式系列或連續劇情。",
+    "推測成片的情節走向、節奏、鏡位、聲音、台詞或表演。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z"
+}

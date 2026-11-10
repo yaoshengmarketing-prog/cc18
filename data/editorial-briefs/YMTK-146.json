@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "id": "YMTK-146",
+  "generated_at": "2026-11-10T02:42:09.968Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/YMTK-146.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "獨家",
+    "premise": "作品以「獨家」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「獨家」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "獨家",
+      "真帆",
+      "02",
+      "角色扮演"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "人妻"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [
+      "角色扮演"
+    ],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "獨家限定",
+      "配信専用"
+    ]
+  },
+  "research_question": "光看「角色扮演」標籤容易忽略什麼？作品簡介補充了哪些會影響選片的設定？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=qBzv8xFztbw&cat=19",
+      "supports": [
+        "作品頁快照列有「角色扮演」、「熟女」與「人妻」標籤。",
+        "簡介明示由成人穿制服扮演，並交代角色是五十歲的母親，兒子也在場。"
+      ]
+    }
+  ],
+  "angle_candidates": [
+    "用簡介補足題材標籤，指出制服扮演與家庭角色設定如何同時影響選片。",
+    "檢視片名末尾的「02」能否作為補看前作的依據。",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "比起「角色扮演」這個大類，簡介交代的制服與母子角色關係，更能幫讀者判斷題材是否合適。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "獨家",
+      "source_field": "title"
+    },
+    {
+      "type": "character",
+      "value": "人妻設定",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "theme",
+      "value": "角色扮演",
+      "source_field": "description"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "獨家・真帆 02",
+  "display_short_title": "真帆 02",
+  "title": "制服之外，簡介還交代了什麼？",
+  "seo_title": "YMTK-146《獨家・真帆 02》作品簡介與選片重點",
+  "social_title": "《獨家・真帆 02》的角色扮演設定",
+  "short_review": "來源簡介把「角色扮演」說得更具體：成人穿制服扮演，並以五十歲母親與兒子在場交代人物關係。若你會避開母子角色設定，這比單看標籤更能幫你篩選。",
+  "editorial_angle": "對照同一作品的標籤與公開簡介，找出會影響選片的具體設定。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品頁標為「角色扮演」、「熟女」與「人妻」。",
+      "supports": "標籤提供題材分類，人物關係則要看簡介。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介交代成人穿制服扮演，並提到五十歲的母親與在場的兒子。",
+      "supports": "五十歲指角色設定，母子關係是讀者可用來篩選題材的資訊。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "把片名中的「真帆」認定為已核實的演員姓名。",
+    "把角色年齡當成演員年齡。",
+    "由「02」推定有已核實的前作、正式系列或連續劇情。",
+    "推測成片的情節走向、節奏、鏡位、聲音、台詞或表演。"
+  ],
+  "decision_guide": {
+    "thesis": "選片時可用簡介確認制服扮演與母子角色設定，再判斷題材是否符合偏好。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以成人制服扮演和母子角色關係介紹作品。"
+    ],
+    "audience_for": [
+      "會先看服裝與角色關係，再決定是否列入片單的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "想避開母子角色設定的讀者。",
+      "需要先確認演員或故事走向才選片的讀者。"
+    ],
+    "questions_answered": [
+      "簡介所說的角色扮演包含什麼服裝設定？",
+      "除了服裝，文案還明示了什麼人物關係？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "同一個標籤下，人物關係才是選片關鍵",
+      "body": "「角色扮演」是作品頁上的分類，簡介才交代服裝和人物關係。文案先說明由成人穿制服扮演，接著寫到一名五十歲的母親，並點出兒子在場。制服讓你知道扮演的形式，母子關係則是另一道題材篩選。如果你只想找制服扮演、會避開家庭角色設定，這句簡介就足以影響選擇。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文採用提供的 CC18 作品頁快照，以其中的片名、標籤與簡介為依據。外部查找未取得可核對的官方作品全文，手邊也沒有已核實的演員或系列資料可供比較。片名中的「真帆」依來源題名保留，「02」的編號意義仍待確認。本文未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "cd21c03f57ce1c9e0d68309d5cbf8971d26667e3aa57cfb932ee1afa996dc0c5",
+    "response_sha256": "39f0e5ab0fa9fd7e918e0ce65b41112583f1c8c9d5b296b2fb1562be2e967755",
+    "research_input_sha256": "a6dba2af5d5e7cb7a282e65ad67c5014882a9eb3f9cd01267833bfc949817204",
+    "related_source_ids": []
+  }
+}

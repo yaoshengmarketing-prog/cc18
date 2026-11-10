@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-10T01:47:21.578Z",
+  "generated_at": "2026-11-10T02:49:36.761Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 557,
-  "formal_movie_count": 556,
+  "tracked_input_count": 558,
+  "formal_movie_count": 557,
   "demo_count": 1,
-  "published_count": 555,
+  "published_count": 556,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -4994,6 +4994,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "e4ea8bbcd06748da32dfc12a1728a794a6b802a5f39fcaf605bfab6bddda88b9"
+    },
+    {
+      "stable_movie_id": "cc18:YMTK-146",
+      "catalog_code": "YMTK-146",
+      "slug": "ymtk-146",
+      "master_path": "data/movie-master/ymtk-146.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "76d2534c9b875f3da1b40cb9aa253d2068b8388778a5886b1805e9cc4adc44b3"
     },
     {
       "stable_movie_id": "cc18:YMTK-148",
