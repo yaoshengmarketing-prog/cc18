@@ -5,7 +5,7 @@ const mature = (value) => String(value ?? '')
   .replace(/校園型場景|教室/g, '成人進修教室')
   .slice(0, 60);
 
-const unsafeArtworkConcept = /口交|顏射|亂交|性交|性愛|性器|性行為|陰道|陰莖|肛門|精液|射精|內射|勃起|乳交|乳頭|高潮|巨乳|美乳|胸部|手交|自慰|插入|抽插|肉棒|雞巴|小穴|玩具攻擊|\bsex\b|oral|anal|facial|ejaculat|orgasm|penetrat/i;
+const unsafeArtworkConcept = /口交|顏射|亂交|性交|性愛|性器|性行為|陰道|陰莖|肛門|精液|射精|內射|勃起|乳交|乳頭|高潮|巨乳|美乳|胸部|手交|自慰|插入|抽插|肉棒|雞巴|小穴|玩具攻擊|露出|淫亂|色情|慾望|\bsex\b|oral|anal|facial|ejaculat|orgasm|penetrat/i;
 const visualSourceConcept = /美容院|沙龍|職場|辦公|溫泉|旅館|飯店|戶外|室內|攝影棚|棚內|空服員/;
 const normalized = (value) => String(value ?? '').normalize('NFKC').trim().toLowerCase();
 
@@ -22,7 +22,10 @@ export function buildArtworkPrompts({source, localCreativeBrief}) {
     .map((value) => value.trim())
     .filter((value) => value && !performerNames.has(normalized(value)) && !unsafeArtworkConcept.test(value))
     .slice(0, 4);
-  const common = `Original cinematic editorial artwork inspired by ${concepts.join(', ')}. Setting: ${mature(safe.setting)}. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional people; no resemblance to performers; no text, logos or watermark.`;
+  const conceptText = concepts.length ? concepts.join(', ') : 'a neutral character study';
+  const setting = mature(safe.setting) || 'a modern neutral interior';
+  const mood = concepts.length ? 'a clear sense of coaching, progression and changing confidence' : 'a restrained, observational editorial mood';
+  const common = `Original cinematic editorial artwork inspired by ${conceptText}. Setting: ${setting}. Show fictional East Asian adults around age 28, fully clothed, with ${mood}. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional people; no resemblance to performers; no text, logos or watermark.`;
   return {
     article_hero: `${common} Wide 16:9 environmental composition with two mature adults and clean negative space for a website headline.`,
     vertical_scene: `${common} Vertical 9:16 composition with one mature adult as the confident focal subject and a second adult guide in the background; room for animated captions.`,

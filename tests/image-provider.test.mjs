@@ -106,6 +106,18 @@ test('artwork prompts exclude performer identity and sensitive source concepts',
   assert.match(combined, /fully clothed/);
 });
 
+test('APNS-like source themes do not enter provider image prompts', () => {
+  const prompts = buildArtworkPrompts({
+    source: {title: '露出慾望與色情氣息', description: '淫亂墮落', actress: ['測試演員']},
+    localCreativeBrief: {setting: '鄰居家', themes: ['露出癖', '淫亂墮落', '色情氣息'], search_concepts: ['露出慾望']},
+  });
+  const text = `${prompts.article_hero}\n${prompts.vertical_scene}`;
+  assert.doesNotMatch(text, /露出|淫亂|色情|慾望|測試演員/u);
+  assert.match(text, /neutral character study/u);
+  assert.match(text, /modern neutral interior/u);
+  assert.doesNotMatch(text, /coaching|progression/u);
+});
+
 test('image generation requires an approved review with an exact content hash', () => {
   const movieId = 'TEST-001';
   const markdown = '---\nid: TEST-001\nstatus: published\n---\n\n內容\n';
