@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "movie_id": "BBAN-612",
+  "generated_at": "2026-11-11T10:45:17.933Z",
+  "source_snapshot_hash": "sha256:0ddcf1b05d1832821e5c2d86a5be14338b874a138ed16cdb17f7aba39129583e",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "本作以師生關係和圖書室事件集中設定；選片時應先考慮自己是否接受這類權力差題材。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以一個圖書室事件介紹兩名角色的關係。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "DLDSS-545",
+      "relation_type": "same_performer",
+      "reason": "同樣由花守夏步出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "花守夏步"
+      ],
+      "contrast_signals": [
+        "人妻女教師",
+        "角奈保"
+      ]
+    },
+    {
+      "movie_id": "SQTE-716",
+      "relation_type": "same_performer",
+      "reason": "同樣由花守夏步出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "花守夏步"
+      ],
+      "contrast_signals": [
+        "放課後はお泊りSEX",
+        "美少女設定"
+      ]
+    },
+    {
+      "movie_id": "MKON-148",
+      "relation_type": "same_performer",
+      "reason": "同樣由花守夏步出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "花守夏步"
+      ],
+      "contrast_signals": [
+        "皆瀨明里",
+        "陰沉的我"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作與花守夏步另一部校園題材作品的設定差在哪裡？",
+    "這項差異如何影響選片？"
+  ]
+}

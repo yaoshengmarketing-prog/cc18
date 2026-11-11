@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:9cbe5cbaed400c05a77f63f644d33d97b88bc5d85c23d5b1c74107c18b939cbb",
-  "source_generated_at": "2026-11-11T09:58:32.546Z",
+  "source_revision": "sha256:971696e53dc1deb2b5bf62ec6aef2cd08e0f9b3c27c4260121ece1ca1895de98",
+  "source_generated_at": "2026-11-11T10:52:00.481Z",
   "counts": {
-    "movies": 577,
-    "performers": 403,
+    "movies": 578,
+    "performers": 404,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -731,6 +731,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:FCDSS-117"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:29108",
+      "display_name": "天美芽愛",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "天美芽愛",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:BBAN-612"
       ]
     },
     {
@@ -2164,6 +2175,7 @@
       "source_name": "花守夏步",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:BBAN-612",
         "cc18:DLDSS-545",
         "cc18:MKON-148",
         "cc18:SQTE-716",
@@ -4748,6 +4760,41 @@
         "article_title": "明明不是誤送，為何仍用配送說關係？",
         "display_short_title": "門口外送的秘密約定",
         "slug": "hez-933"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:BBAN-612",
+        "source_cover": "https://cc18.tv/preview/80/b/E5n7HYFUG89-800.jpg?v=1794055048",
+        "title": "圖書室裡的師生界線",
+        "catalog_code": "BBAN-612",
+        "release_date": "2026-11-06",
+        "performers": [
+          "天美芽愛",
+          "花守夏步"
+        ],
+        "canonical_topics": [
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/bban-612/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:29108",
+        "cc18.tv:actor:45988"
+      ],
+      "search": {
+        "source_title": "比自慰更舒服的事…女教師將其拉入蕾絲邊深淵 夾腿自慰女生徒蕾絲快感教育",
+        "article_title": "同是校園題材，這次由師生關係帶出情節",
+        "display_short_title": "圖書室裡的師生界線",
+        "slug": "bban-612"
       }
     },
     {

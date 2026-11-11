@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "id": "BBAN-612",
+  "generated_at": "2026-11-11T10:45:17.277Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/BBAN-612.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "比自慰更舒服的事",
+    "premise": "作品以「比自慰更舒服的事」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「比自慰更舒服的事」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "比自慰更舒服的事",
+      "女教師將其拉入蕾絲邊深淵",
+      "自慰"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由花守夏步演出的校園題材，本作與《放學後是留宿》如何安排角色關係與情節起點？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=E5n7HYFUG89&cat=19",
+      "supports": "題目提供的已核對來源快照記載：天美芽愛與花守夏步演出，公開簡介以圖書室中教師發現學生的私密行為為情節起點。外部頁面在本環境無法開啟。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=5moJ5Kcrpcq&cat=19",
+      "supports": "題目提供的已核對關聯作品快照記載：花守夏步演出，簡介以放學後的約會及多段情境介紹作品。外部頁面在本環境無法開啟。"
+    }
+  ],
+  "angle_candidates": [
+    "比較花守夏步兩部校園題材作品的角色關係與情節起點",
+    "檢視圖書室設定如何帶出師生之間的權力差",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作的選片關鍵是師生關係與圖書室事件構成的單一情節起點；同樣由花守夏步演出的《放學後是留宿》則以約會及多段情境吸引讀者。這是公開設定的差異，不能據此判斷成片表現。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "天美芽愛",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "比自慰更舒服的事",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "performer",
+      "value": "花守夏步",
+      "source_field": "actress"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "圖書室裡的師生界線",
+  "display_short_title": "圖書室裡的師生界線",
+  "title": "同是校園題材，這次由師生關係帶出情節",
+  "seo_title": "BBAN-612｜圖書室裡的師生界線",
+  "social_title": "花守夏步的校園題材，這次從師生關係展開",
+  "short_review": "公開簡介把圖書室裡的一次發現，設為天美芽愛與花守夏步所演角色的關係起點。相較花守夏步另一部以約會和多段情境為主的作品，本作更集中於師生設定；是否適合選看，取決於讀者能否接受這層權力差。",
+  "editorial_angle": "以同演員作品對照具體設定，幫讀者辨認本作的師生關係題材，並將判斷限於公開簡介。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介以圖書室中教師發現學生的私密行為作為起點",
+      "supports": "師生關係與特定事件是本作公開設定的重心",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "《放學後是留宿》的簡介列出約會及多段情境",
+      "supports": "同演員的另一部校園題材作品，採用不同的介紹方式",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將宣傳文字中的「首次」說法當成已核實的演出經歷",
+    "未推論兩部作品的實際節奏、表演或成片品質",
+    "未推定學生角色的年齡"
+  ],
+  "decision_guide": {
+    "thesis": "本作以師生關係和圖書室事件集中設定；選片時應先考慮自己是否接受這類權力差題材。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以一個圖書室事件介紹兩名角色的關係。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作與花守夏步另一部校園題材作品的設定差在哪裡？",
+      "這項差異如何影響選片？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "圖書室事件，讓師生關係成為起點",
+      "body": "本作的公開簡介先交代花守夏步所演的學生在圖書室被天美芽愛所演的教師發現，再以兩人的師生關係展開後續設定。圖書室不只是校園背景：它讓一次意外發現成為角色關係的轉折，也使師生之間的權力差成為選片時需要考慮的題材。"
+    },
+    {
+      "heading": "與花守夏步另一部校園題材相比",
+      "body": "《放學後是留宿》的來源簡介以約會及多段情境介紹花守夏步的演出；本作則把注意力集中在教師、學生與圖書室事件上。若你是按校園題材找片，兩者的差別在於想看多種情境，還是想看一段特定角色關係如何展開。公開文字足以說明設定差異，尚不足以評斷實際敘事或表演。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用題目提供的已核對來源快照：[本作來源作品頁](https://cc18.tv/player.php?uuid=E5n7HYFUG89&cat=19)與[《放學後是留宿》來源作品頁](https://cc18.tv/player.php?uuid=5moJ5Kcrpcq&cat=19)。外部頁面在本環境無法開啟；比較依據為所提供的演員關係及公開簡介，沒有影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "0ddcf1b05d1832821e5c2d86a5be14338b874a138ed16cdb17f7aba39129583e",
+    "response_sha256": "608a0ac6b793b5f9b56a712af2aa1516725eff9d3a8585a03a33566695fc36e7",
+    "research_input_sha256": "157546142918c47dcb088c27e1ca2a4a9d0aee363265b225c71b0c359824eac4",
+    "related_source_ids": [
+      "WAAA-694",
+      "MKON-148",
+      "SQTE-716",
+      "DLDSS-545"
+    ]
+  }
+}

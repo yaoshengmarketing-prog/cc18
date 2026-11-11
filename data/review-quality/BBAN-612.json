@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "BBAN-612",
+  "review_sha256": "34d9cb41e80b6577fa884b38deadeda887ae9a4f8885942d4538f68113329fde",
+  "selected_thesis": "本作的選片關鍵是師生關係與圖書室事件構成的單一情節起點；同樣由花守夏步演出的《放學後是留宿》則以約會及多段情境吸引讀者。這是公開設定的差異，不能據此判斷成片表現。",
+  "title_basis": {
+    "performer": "天美芽愛、花守夏步",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "天美芽愛",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "比自慰更舒服的事",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "performer",
+        "value": "花守夏步",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "天美芽愛",
+    "presentation_feature": "比自慰更舒服的事",
+    "editorial_judgment": "以同演員作品對照具體設定，幫讀者辨認本作的師生關係題材，並將判斷限於公開簡介。",
+    "source_keywords": [
+      "天美芽愛",
+      "比自慰更舒服的事",
+      "花守夏步",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介以圖書室中教師發現學生的私密行為作為起點",
+      "supports": "師生關係與特定事件是本作公開設定的重心",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "《放學後是留宿》的簡介列出約會及多段情境",
+      "supports": "同演員的另一部校園題材作品，採用不同的介紹方式",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將宣傳文字中的「首次」說法當成已核實的演出經歷",
+    "未推論兩部作品的實際節奏、表演或成片品質",
+    "未推定學生角色的年齡"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-10T16:00:00.000Z"
+}
