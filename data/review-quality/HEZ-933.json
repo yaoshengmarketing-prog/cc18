@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "HEZ-933",
+  "review_sha256": "dc5a168ee7ad329d549a98c438cecfd271b277fe915d478f113f5e6bc9269176",
+  "selected_thesis": "標題用誤送引人好奇，簡介卻把相遇寫成有意安排、受時間限制的秘密約定；配送用語是這部作品最具體的選片線索。",
+  "title_basis": {
+    "performer": "善場麻美(茉城麻美)",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "善場麻美(茉城麻美)",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "善場麻美",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "置き配する人妻は生ものを届けます",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "善場麻美(茉城麻美)",
+    "presentation_feature": "善場麻美",
+    "editorial_judgment": "以標題和簡介之間的設定差異切入，再與同樣由善場麻美演出的情侶旅行作品比較，說明兩種親密關係提供的不同選片理由。",
+    "source_keywords": [
+      "善場麻美(茉城麻美)",
+      "善場麻美",
+      "置き配する人妻は生ものを届けます",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作標題提到同棟公寓的誤送，簡介中的角色卻明說不是誤送。",
+      "supports": "「誤送」是標題的懸念；簡介將關係指向角色主動安排的見面。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作簡介以丈夫在場、另日重新配送及最後一次配送，交代見面的限制。",
+      "supports": "配送用語不只是一句玩笑，也承載這段秘密關係的時間界線。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同樣由善場麻美演出的 SQTE-717，以女友身分、假日和溫泉約會為設定。",
+      "supports": "相較於情侶出遊的親近感，本作更強調不能隨時見面的秘密約定；兩者的選片理由不同。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未把標題中的誤送寫成已發生的偶然事件。",
+    "未推論實際畫面、表演、節奏或成片品質。",
+    "未將簡介中的角色設定當作善場麻美的真實經歷。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-10T16:00:00.000Z"
+}

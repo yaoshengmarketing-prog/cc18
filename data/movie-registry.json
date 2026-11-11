@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-11T06:24:32.638Z",
+  "updated_at": "2026-11-11T06:44:37.102Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -8583,6 +8583,21 @@
       ],
       "release_date": "2026-11-06",
       "source_url": "https://cc18.tv/player.php?uuid=vUTl3zGIEcN&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-11"
+    },
+    {
+      "id": "HEZ-933",
+      "actress": [
+        "善場麻美(茉城麻美)"
+      ],
+      "release_date": "2026-11-10",
+      "source_url": "https://cc18.tv/player.php?uuid=n3jSnnjVF5A&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

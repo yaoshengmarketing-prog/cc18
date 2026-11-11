@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "HEZ-933",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-11T06:43:56.885Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/HEZ-933/hero-v1.jpg",
+      "r2_key": "works/2026/11/HEZ-933/hero-v1.jpg",
+      "bytes": 548957,
+      "sha256": "c647d463c5386609f707d9238a87a96460e1a3133d2ab88168183492e4bcadef",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "bae5bc86135844358d5c71b73f05e166",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/HEZ-933/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/HEZ-933/scene-vertical-v1.jpg",
+      "bytes": 1319872,
+      "sha256": "9d4a4361609cf0f42cbb0a45e439e14068b790b87273a89632b2ab0d0eecf25a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "36b4bcedbdd94e18a021c075afdef904",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2470501,
+    "sha256": "0e094e7f794303cecce34b6fe3c8a851d8d768ccf6ada7364e515410acfdd219",
+    "target_r2_key": "works/2026/11/HEZ-933/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/HEZ-933/vertical-v1.mp4"
+  }
+}

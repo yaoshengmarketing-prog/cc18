@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:50b098dc99ed68f5fca08420c6ece132d09478a6973529e4f55bfea0acd527e2",
-  "source_generated_at": "2026-11-11T06:25:17.621Z",
+  "source_revision": "sha256:f4f6dc445e69aac124b3f833dc9eb8bcd377070aa29dba98dae77e5d352215d6",
+  "source_generated_at": "2026-11-11T06:45:21.871Z",
   "counts": {
-    "movies": 574,
+    "movies": 575,
     "performers": 403,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
@@ -3655,6 +3655,7 @@
       "related_movie_ids": [
         "cc18:DOKS-693",
         "cc18:FJIN-169",
+        "cc18:HEZ-933",
         "cc18:SQTE-717"
       ]
     },
@@ -4702,6 +4703,51 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:HEZ-933",
+        "source_cover": "https://cc18.tv/preview/80/b/n3jSnnjVF5A-800.jpg?v=1794343031",
+        "title": "門口外送的秘密約定",
+        "catalog_code": "HEZ-933",
+        "release_date": "2026-11-10",
+        "performers": [
+          "善場麻美(茉城麻美)"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/hez-933/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:34578"
+      ],
+      "search": {
+        "source_title": "門口外送的人妻會配送生鮮貨物：因同一棟公寓的誤送而與年輕男子不倫的故事 善場麻美",
+        "article_title": "明明不是誤送，為何仍用配送說關係？",
+        "display_short_title": "門口外送的秘密約定",
+        "slug": "hez-933"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:BBAN-613",

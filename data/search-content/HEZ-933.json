@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "movie_id": "HEZ-933",
+  "generated_at": "2026-11-11T06:42:42.656Z",
+  "source_snapshot_hash": "sha256:895259a618b275a2dcc0d5d0aeb79e7863ed06661308754ddc3137c76a0cbb13",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "看點在於角色如何借配送說法，替一段主動開始的秘密關係訂下界線。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以同棟公寓、門口配送和重新配送的說法，組織角色的見面約定。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SQTE-717",
+      "relation_type": "same_performer",
+      "reason": "同樣由善場麻美(茉城麻美)出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "善場麻美(茉城麻美)"
+      ],
+      "contrast_signals": [
+        "假日與女友",
+        "假日與女友。"
+      ]
+    },
+    {
+      "movie_id": "FJIN-169",
+      "relation_type": "same_performer",
+      "reason": "同樣由善場麻美(茉城麻美)出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "善場麻美(茉城麻美)"
+      ],
+      "contrast_signals": [
+        "洗腦啟發Mind",
+        "洗脳啓発まいんどふぁっかー"
+      ]
+    },
+    {
+      "movie_id": "DOKS-693",
+      "relation_type": "same_performer",
+      "reason": "同樣由善場麻美(茉城麻美)出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "善場麻美(茉城麻美)"
+      ],
+      "contrast_signals": [
+        "山口由愛",
+        "口交"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "標題的誤送與簡介是否一致？",
+    "本作和善場麻美的情侶旅行作品，設定上有何差別？"
+  ]
+}
