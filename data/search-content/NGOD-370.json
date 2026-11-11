@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "movie_id": "NGOD-370",
+  "generated_at": "2026-11-11T09:49:22.913Z",
+  "source_snapshot_hash": "sha256:d0e7304eb37d5ddd139ce43e47a6b3b9ef2de68a99af3754142dc8bd5fb05b2a",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若想看返鄉探親與親屬越界如何構成家庭衝突，本作的公開設定比同演員另一部由婚約引出難題的作品更貼近這個方向。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "返鄉探親設定",
+      "母親與兒子關係",
+      "親戚越界的衝突"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想依家庭關係與衝突起點挑選那賀崎雪音作品的讀者",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "不想接觸性暴力設定的讀者",
+      "需要先確認成片節奏與表演方式的讀者"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "NGOD-355",
+      "relation_type": "same_performer",
+      "reason": "同樣由那賀崎雪音出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "那賀崎雪音"
+      ],
+      "contrast_signals": [
+        "隨你怎麼做都行",
+        "高畫質"
+      ]
+    },
+    {
+      "movie_id": "DLDSS-530",
+      "relation_type": "same_performer",
+      "reason": "同樣由那賀崎雪音出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "那賀崎雪音"
+      ],
+      "contrast_signals": [
+        "谷原希美",
+        "大嬸"
+      ]
+    },
+    {
+      "movie_id": "DOKS-690",
+      "relation_type": "same_performer",
+      "reason": "同樣由那賀崎雪音出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "那賀崎雪音"
+      ],
+      "contrast_signals": [
+        "清巳玲乃",
+        "口交"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作與同演員另一部母親角色作品，家中來客的身分有何不同？",
+    "本作簡介從誰的視角揭露親戚越界？"
+  ]
+}

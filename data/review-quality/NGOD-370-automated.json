@@ -1,0 +1,46 @@
+{
+  "schema_version": 2,
+  "id": "NGOD-370",
+  "checked_at": "2026-11-11T09:56:15.636Z",
+  "review_sha256": "7bab0415b58cfa0422e8f4a75cc1df747770228e06026723817581e23fc16d1f",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed",
+    "title_lacks_source_core_concept",
+    "insufficient_search_intents"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 3,
+          "excerpt": "本作的公開簡介先讓在都市讀書的兒子回到鄉下老家：母親照常溫柔迎接，親戚叔叔也以探望姪子的名義進門。兒子隨後察覺叔叔對母親越界。衝突因此不是由陌生人闖入開始，而是從原本就能出入這個家的親屬身上浮現。返鄉者的目擊，讓「熟悉的家」成了這份設定最不安的地方。"
+        }
+      ]
+    },
+    {
+      "code": "title_lacks_source_core_concept",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_search_intents",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 3,
+    "evidence_items": 3,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 2,
+    "recommendations": 3
+  }
+}

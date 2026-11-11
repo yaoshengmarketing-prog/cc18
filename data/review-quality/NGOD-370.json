@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "NGOD-370",
+  "review_sha256": "6e109eb728bc18d1664acabe2ea9b1c3424d7803dd6449983654e662757e4db6",
+  "selected_thesis": "本作與同樣由那賀崎雪音演出母親的另一部作品，都從家中來客引出衝突；本作把壓力放在鄉下親戚與返鄉兒子的目擊，選片重點因此是親屬界線遭侵犯的設定。",
+  "title_basis": {
+    "performer": "那賀崎雪音",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "那賀崎雪音",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "久違地回鄉探親",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "那賀崎雪音",
+    "presentation_feature": "久違地回鄉探親",
+    "editorial_judgment": "以同演員的母親角色作品對照家中來客的身分、衝突如何被察覺，以及這些設定對選片的意義；判斷限於來源簡介。",
+    "source_keywords": [
+      "那賀崎雪音",
+      "久違地回鄉探親",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介寫兒子從都市返鄉，寡婦母親在老家迎接他；親戚叔叔隨後來訪。",
+      "supports": "本作以返鄉與熟悉的親屬關係建立衝突起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介寫兒子察覺叔叔對母親越界。",
+      "supports": "兒子的目擊是公開簡介交代的關鍵轉折。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "NGOD-355 的來源簡介寫女兒帶婚約者回家，母親祝福兩人，之後女兒向母親提出困擾。",
+      "supports": "同樣由那賀崎雪音演出母親，但該作由婚約與女兒的求助引出家庭難題，與本作的返鄉目擊不同。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未推定母親的心理轉變、兒子的後續行動或故事結局。",
+    "未評斷實際表演、鏡位、聲音與敘事節奏。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-10T16:00:00.000Z"
+}
