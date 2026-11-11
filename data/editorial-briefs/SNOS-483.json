@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-483",
+  "generated_at": "2026-11-11T07:45:03.119Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SNOS-483.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "請給我雞巴",
+    "premise": "作品以「請給我雞巴」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「請給我雞巴」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "請給我雞巴",
+      "小日向美優"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "學生妹"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "アクメ・オーガズム"
+    ],
+    "presentation": [
+      "戲劇、連續劇",
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由清原美優演出的作品，本作與《SNOS-366》如何設定人物關係與越界過程？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=2BM6T2qfg7h&cat=19",
+      "supports": "提供本作的繼親家庭、持續下藥與分日推進設定。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=rs29ifxp43t&cat=19",
+      "supports": "提供同演員作品《SNOS-366》的婚前瑜伽課與教練越界設定。"
+    }
+  ],
+  "angle_candidates": [
+    "以兩作的人物關係與越界過程，區分選片理由。",
+    "檢視本作如何用第26、68、100天組織宣傳敘事。",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作以繼親關係和持續下藥作為情節前提，與《SNOS-366》從婚前瑜伽課展開的教練越界設定不同；選片時最需要先判斷的是能否接受本作的強迫控制題材。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "清原美優",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "請給我雞巴",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "setting",
+      "value": "學生設定",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "反抗期繼女與百日下藥設定",
+  "display_short_title": "繼女與百日控制",
+  "title": "從瑜伽教室到繼親家庭：越界設定如何改變選片理由？",
+  "seo_title": "SNOS-483｜清原美優的繼親家庭與百日下藥設定",
+  "social_title": "同樣由清原美優演出，這次的越界設定有何不同？",
+  "short_review": "本作簡介以繼親關係、持續下藥及分日推進建立強迫控制情節。相較於《SNOS-366》的婚前瑜伽課設定，題材接受度是更直接的選片判斷。",
+  "editorial_angle": "比較兩份作品簡介中的人物關係、越界方式與時間安排，幫讀者辨別題材差異；不從宣傳文字推斷成片表現。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介設定繼親關係、持續下藥，並列出第26、68、100天的變化。",
+      "supports": "本作的宣傳重心是長時間的強迫控制，而非單次相遇。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "《SNOS-366》簡介設定清原美優演出的角色為婚禮前上瑜伽課的人，教練在指導中逐漸越界。",
+      "supports": "同演員作品提供了成人婚前生活與單一課堂場景的具體對照。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "演員的真實家庭關係、年齡或經歷。",
+    "宣傳所述分日變化是否按同樣順序出現在影片中。",
+    "成片的表演、節奏、畫面或品質。"
+  ],
+  "decision_guide": {
+    "thesis": "先看自己是否能接受以持續下藥和繼親關係為核心的強迫控制設定；若想找婚前瑜伽課中的教練越界情節，同演員的《SNOS-366》設定更接近。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以多個日期標示角色變化，將長期控制寫成主要賣點。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作與同演員的《SNOS-366》在人物關係和越界方式上有何差異？",
+      "本作簡介如何呈現時間推進？",
+      "選片前最值得確認的題材界線是什麼？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "同一位演員，兩種不同的越界設定",
+      "body": "《SNOS-366》的簡介從婚禮前的瑜伽課開始：角色為調整體態去上課，教練在指導過程中逐漸越界。本作則把清原美優演出的角色放進繼親家庭，以持續下藥作為關係變化的前提。兩份介紹都涉及權力界線，但本作的強迫控制更直接，也是選片時應先確認能否接受的設定。"
+    },
+    {
+      "heading": "日期是這份簡介的敘事骨架",
+      "body": "本作簡介列出第26、68、100天，把角色變化寫成逐步累積的結果。這些日期說明宣傳如何安排情節期待，不能據此認定影片會以相同篇幅或順序呈現。若你在找的是瑜伽課中逐漸失守的單一場景，《SNOS-366》的設定較貼近；若要比較同演員如何承接長期控制的虛構情節，本作提供了另一種題材。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "材料為 [本作來源頁](https://cc18.tv/player.php?uuid=2BM6T2qfg7h&cat=19) 與 [《SNOS-366》來源頁](https://cc18.tv/player.php?uuid=rs29ifxp43t&cat=19) 的已核對資料快照。比較僅根據作品設定與公開簡介；外部頁面未能開啟，沒有影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "355ae0218a6f0645101b45b123d1e5514a998cfa68e9086d75c9a036c62676a8",
+    "response_sha256": "624d3ae3936499946ea07db7c1fdebf04d1ee8a6248f734a77ce7c625ea5d3d4",
+    "research_input_sha256": "d349ed6a64c3528120468e63c04e866da451af6d675fdb01bda73311442f0d6c",
+    "related_source_ids": [
+      "SNOS-366",
+      "SNOS-372"
+    ]
+  }
+}

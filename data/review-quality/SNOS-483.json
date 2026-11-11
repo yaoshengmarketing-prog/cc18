@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-483",
+  "review_sha256": "0086d229abe46ff95a0a3545f3b6576b6d862bebc6cfa09a90f0c6c6968a019e",
+  "selected_thesis": "本作以繼親關係和持續下藥作為情節前提，與《SNOS-366》從婚前瑜伽課展開的教練越界設定不同；選片時最需要先判斷的是能否接受本作的強迫控制題材。",
+  "title_basis": {
+    "performer": "清原美優",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "清原美優",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "請給我雞巴",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "setting",
+        "value": "學生設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "清原美優",
+    "presentation_feature": "請給我雞巴",
+    "editorial_judgment": "比較兩份作品簡介中的人物關係、越界方式與時間安排，幫讀者辨別題材差異；不從宣傳文字推斷成片表現。",
+    "source_keywords": [
+      "清原美優",
+      "請給我雞巴",
+      "學生設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介設定繼親關係、持續下藥，並列出第26、68、100天的變化。",
+      "supports": "本作的宣傳重心是長時間的強迫控制，而非單次相遇。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "《SNOS-366》簡介設定清原美優演出的角色為婚禮前上瑜伽課的人，教練在指導中逐漸越界。",
+      "supports": "同演員作品提供了成人婚前生活與單一課堂場景的具體對照。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "演員的真實家庭關係、年齡或經歷。",
+    "宣傳所述分日變化是否按同樣順序出現在影片中。",
+    "成片的表演、節奏、畫面或品質。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-10T16:00:00.000Z"
+}

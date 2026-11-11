@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:f4f6dc445e69aac124b3f833dc9eb8bcd377070aa29dba98dae77e5d352215d6",
-  "source_generated_at": "2026-11-11T06:45:21.871Z",
+  "source_revision": "sha256:4566f69ec2d9b56f37bb0e0e888577798583b5753bf9577ad24dd35f346fd7db",
+  "source_generated_at": "2026-11-11T07:51:22.612Z",
   "counts": {
-    "movies": 575,
+    "movies": 576,
     "performers": 403,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
@@ -3415,7 +3415,8 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-366",
-        "cc18:SNOS-372"
+        "cc18:SNOS-372",
+        "cc18:SNOS-483"
       ]
     },
     {
@@ -5297,6 +5298,63 @@
         "article_title": "兩對夫妻住在一起，落差從隔牆開始",
         "display_short_title": "隔牆的親密聲",
         "slug": "snos-452"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-483",
+        "source_cover": "https://cc18.tv/preview/80/b/2BM6T2qfg7h-800.jpg?v=1793954282",
+        "title": "繼女與百日控制",
+        "catalog_code": "SNOS-483",
+        "release_date": "2026-11-06",
+        "performers": [
+          "清原美優"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "drama-series",
+            "label": "戲劇／連續劇"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "orgasm",
+            "label": "高潮題材"
+          },
+          {
+            "id": "student",
+            "label": "學生妹"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-483/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28382"
+      ],
+      "search": {
+        "source_title": "每天給處於反抗期的繼女下媚藥持續了3個月…她竟然變得會露出歐派對我撒嬌說：「請給我雞巴。」 小日向美優",
+        "article_title": "從瑜伽教室到繼親家庭：越界設定如何改變選片理由？",
+        "display_short_title": "繼女與百日控制",
+        "slug": "snos-483"
       }
     },
     {
