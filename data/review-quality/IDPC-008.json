@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "IDPC-008",
+  "review_sha256": "1469f70aaea83c5014a99f07a85f1d40d17315bdb736c979a236445895ec3461",
+  "selected_thesis": "本作以新鮮人害怕被發現的處境組織職場脅迫情節；同演員的 IPZZ-943 則以特定行為與拍攝角度作為介紹重心，兩者提供不同的選片入口。",
+  "title_basis": {
+    "performer": "愛才莉亞",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "愛才莉亞",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "新社會人22歲",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "愛才莉亞",
+    "presentation_feature": "新社會人22歲",
+    "editorial_judgment": "比較同演員兩份公開簡介的企劃重心：本作以職場中的恐懼與沉默建立角色處境，IPZZ-943 則明確列出特定行為及拍攝角度。比較只涉及宣傳設定，不推論成片品質。",
+    "source_keywords": [
+      "愛才莉亞",
+      "新社會人22歲",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作已核對的來源簡介設定角色為初入社會的 22 歲新鮮人，因害怕被周圍發現而壓抑聲音，並將遭遇置於職場脅迫之中。",
+      "supports": "「不能出聲」是本作公開設定的核心，也使角色處境成為選片時可辨認的重心。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "IPZZ-943 的已核對來源簡介集中介紹口交、顏射及不同拍攝角度；人物關係資料確認兩作同樣由愛才莉亞演出。",
+      "supports": "兩作公開企劃的差異在於角色處境與特定行為展示，不能據此判斷實際影像效果。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不把角色設定的 22 歲寫成愛才莉亞本人的年齡。",
+    "不推測實際鏡位、節奏、表演或脅迫情節的呈現品質。",
+    "不將來源標籤中的家教設定補成已確認的劇情。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-10T16:00:00.000Z"
+}

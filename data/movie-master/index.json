@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-11T11:52:18.975Z",
+  "generated_at": "2026-11-11T12:49:48.932Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 581,
-  "formal_movie_count": 580,
+  "tracked_input_count": 582,
+  "formal_movie_count": 581,
   "demo_count": 1,
-  "published_count": 579,
+  "published_count": 580,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -1970,6 +1970,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "bd72a71e51154cfd7cbbe8a98c8b7e047aac3be4be28b9e0df93e79807112d73"
+    },
+    {
+      "stable_movie_id": "cc18:IDPC-008",
+      "catalog_code": "IDPC-008",
+      "slug": "idpc-008",
+      "master_path": "data/movie-master/idpc-008.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "98571a3fdb57357651f3022b75ee40d629af3ab7cd13e7511d3fce91694cfaa1"
     },
     {
       "stable_movie_id": "cc18:IENF-458",

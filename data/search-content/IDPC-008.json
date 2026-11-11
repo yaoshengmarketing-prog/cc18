@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "movie_id": "IDPC-008",
+  "generated_at": "2026-11-11T12:42:27.564Z",
+  "source_snapshot_hash": "sha256:b7e0d1613ddbf22d02eee71427f5bb5019c0758f4e2b97b71855ca978ed92d71",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "本作公開企劃的重心是新鮮人在職場脅迫下因害怕被發現而保持沉默；若選片時在意角色處境，這比同演員另一作著重特定行為的介紹更有參考價值。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以職場脅迫建立角色處境",
+      "沉默與害怕被發現是主要設定"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "會依角色處境與職場脅迫設定選片的讀者",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "想先確認實際敘事密度、節奏或拍攝方式的讀者",
+      "不想接觸性暴力題材的讀者"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "IPZZ-943",
+      "relation_type": "same_performer",
+      "reason": "同樣由愛才莉亞出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "愛才莉亞"
+      ],
+      "contrast_signals": [
+        "美少女設定",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作公開簡介的核心設定是什麼？",
+    "它與同演員的 IPZZ-943 在企劃重心上有何不同？",
+    "這項差異能如何幫助選片？"
+  ]
+}

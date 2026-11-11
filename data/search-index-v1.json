@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:22687154c9d57a8ffc631831fe4c308416afb64d707ff68aaefb93f818471315",
-  "source_generated_at": "2026-11-11T11:52:18.975Z",
+  "source_revision": "sha256:2469c6283fdf2dae62edf4ee6a8b319d62b4d5a5e5f6542c39dbf137acb3d1ea",
+  "source_generated_at": "2026-11-11T12:49:48.932Z",
   "counts": {
-    "movies": 579,
+    "movies": 580,
     "performers": 404,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
@@ -3861,6 +3861,7 @@
       "source_name": "愛才莉亞",
       "searchable_aliases": [],
       "related_movie_ids": [
+        "cc18:IDPC-008",
         "cc18:IPZZ-943"
       ]
     },
@@ -5089,6 +5090,51 @@
         "article_title": "同是職場角色，這次由她推動約會",
         "display_short_title": "花咲澪的櫃檯約會",
         "slug": "idpc-006"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:IDPC-008",
+        "source_cover": "https://cc18.tv/preview/80/b/quobCxxHl82-800.jpg?v=1793997481",
+        "title": "新鮮人的沉默脅迫",
+        "catalog_code": "IDPC-008",
+        "release_date": "2026-11-06",
+        "performers": [
+          "愛才莉亞"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "office-lady",
+            "label": "OL"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/idpc-008/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:44220"
+      ],
+      "search": {
+        "source_title": "新社會人22歲，沉默強姦 ～因為害怕被周圍發現，在絕頂時強行壓抑聲音的我～ 愛才莉亞",
+        "article_title": "「不能出聲」如何成為職場脅迫的設定？",
+        "display_short_title": "新鮮人的沉默脅迫",
+        "slug": "idpc-008"
       }
     },
     {
