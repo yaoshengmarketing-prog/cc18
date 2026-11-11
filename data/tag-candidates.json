@@ -1340,7 +1340,7 @@
     },
     {
       "label": "背後位",
-      "occurrences": 20,
+      "occurrences": 21,
       "source_ids": [
         "HHF-111",
         "HUNTC-626",
@@ -1361,10 +1361,11 @@
         "DSJH-021",
         "SODAH-012",
         "NACT-202",
-        "SNOS-407"
+        "SNOS-407",
+        "HUNTC-650"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "status": "quarantined"
     },
     {

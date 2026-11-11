@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-11T10:52:00.481Z",
+  "generated_at": "2026-11-11T11:52:18.975Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 580,
-  "formal_movie_count": 579,
+  "tracked_input_count": 581,
+  "formal_movie_count": 580,
   "demo_count": 1,
-  "published_count": 578,
+  "published_count": 579,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -1907,6 +1907,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "8a92b3d221524b1f9b0c651de41b28e3fac3244d44ac637fb542d4c1a164c013"
+    },
+    {
+      "stable_movie_id": "cc18:HUNTC-650",
+      "catalog_code": "HUNTC-650",
+      "slug": "huntc-650",
+      "master_path": "data/movie-master/huntc-650.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "bda8825f8bca23ede932dd44c7780b42af42ed40a772ecd0167c9a87da242009"
     },
     {
       "stable_movie_id": "cc18:HUNTC-656",

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "HUNTC-650",
+  "review_sha256": "9d419a58d300f2458fc1789b619dae019c302bbac64ad4d192decf9bab9d2d19",
+  "selected_thesis": "本作最具辨識度的安排，是先讓模特兒輪替，再要求其他參與者遵守同一規則；選片重點因此落在整間教室的角色轉換，而非單一人物的故事。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "series",
+        "value": "町内会の○○教室",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "町内会の○○教室",
+    "presentation_feature": "高畫質",
+    "editorial_judgment": "比較簡介中的兩層課堂規則：輪替模特兒改變誰站到眾人面前，全員參與則進一步改變誰只是旁觀者。這是本作比單純的素描教室場景更明確的選片線索。",
+    "source_keywords": [
+      "町内会の○○教室",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題寫明模特兒採輪替制，模特兒以外的人也須遵守全員參與的規則。",
+      "supports": "課堂設定不只更換模特兒，也改變其他人的參與方式。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介稱教室裡有多位人妻，男性只有敘事者一人。",
+      "supports": "公開文案以唯一男性的視角介紹多人教室情境。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介另提到男女成對擔任模特兒。",
+      "supports": "企劃從個人輪替延伸到兩人共同擔任模特兒的安排。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未指認來源沒有列出的演員。",
+    "未把宣傳設定寫成已觀看的情節或成片品質。",
+    "未假設同系列其他作品具有相同課堂規則。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-10T16:00:00.000Z"
+}

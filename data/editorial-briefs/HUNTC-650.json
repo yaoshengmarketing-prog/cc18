@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "id": "HUNTC-650",
+  "generated_at": "2026-11-11T11:43:59.041Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/HUNTC-650.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "町内会の○○教室",
+    "premise": "作品以「町内会の○○教室」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「町内会の○○教室」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "町内会の○○教室",
+      "裸體素描模特兒是輪替制",
+      "去了社區的素描教室",
+      "男人竟然只有我一個",
+      "沒想到竟然要求全員全裸"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "人妻・主婦"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "口交",
+      "騎乘位"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "本作如何把社區素描課，從一人當模特兒的設定，推向全員參與的群像企劃？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=12DOpmuzFbi&cat=19",
+      "supports": "已核對的作品來源快照記載：模特兒輪替、參與者全員遵守同一規則、男主角是教室裡唯一的男性，並有兩人共同擔任模特兒的安排。外部頁面未能開啟，本文依據快照中的標題與簡介。"
+    }
+  ],
+  "angle_candidates": [
+    "模特兒輪替與全員參與，如何改變素描課裡觀看者和被觀看者的分工",
+    "唯一男性的設定，如何讓教室成為以他為視角的群像企劃",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作最具辨識度的安排，是先讓模特兒輪替，再要求其他參與者遵守同一規則；選片重點因此落在整間教室的角色轉換，而非單一人物的故事。",
+  "title_signals": [
+    {
+      "type": "series",
+      "value": "町内会の○○教室",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "社區素描教室的輪替模特兒",
+  "display_short_title": "全員參與的素描課",
+  "title": "素描課的觀看者，怎麼也成了模特兒？",
+  "seo_title": "HUNTC-650｜社區素描教室的全員參與設定",
+  "social_title": "一堂讓觀看者也加入的素描課",
+  "short_review": "公開簡介用「輪替模特兒」與「全員遵守同一規則」推動設定，再把唯一男性置於多人教室中。想看群像情境如何展開，可留意這部；實際呈現與節奏仍無法由簡介判斷。",
+  "editorial_angle": "比較簡介中的兩層課堂規則：輪替模特兒改變誰站到眾人面前，全員參與則進一步改變誰只是旁觀者。這是本作比單純的素描教室場景更明確的選片線索。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題寫明模特兒採輪替制，模特兒以外的人也須遵守全員參與的規則。",
+      "supports": "課堂設定不只更換模特兒，也改變其他人的參與方式。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介稱教室裡有多位人妻，男性只有敘事者一人。",
+      "supports": "公開文案以唯一男性的視角介紹多人教室情境。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介另提到男女成對擔任模特兒。",
+      "supports": "企劃從個人輪替延伸到兩人共同擔任模特兒的安排。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [
+    "「觀看者也加入」是對公開課堂規則的編輯概括，並非已觀察到的畫面。",
+    "選片取捨只根據標題與簡介；沒有推定實際表演、鏡位或節奏。"
+  ],
+  "unsupported_claims_excluded": [
+    "未指認來源沒有列出的演員。",
+    "未把宣傳設定寫成已觀看的情節或成片品質。",
+    "未假設同系列其他作品具有相同課堂規則。"
+  ],
+  "decision_guide": {
+    "thesis": "本作的企劃特色是讓模特兒輪替，並讓教室其他人也遵守同一規則；公開簡介提供的是多人參與的情境，適合依設定選片，無法據此判斷成片節奏。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "社區素描教室",
+      "模特兒輪替",
+      "全員參與的課堂規則",
+      "唯一男性視角"
+    ],
+    "audience_for": [
+      "想看課堂規則如何推動多人情境的讀者",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "選片前需要確認明確故事線或實際節奏的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "本作如何改變模特兒與其他參與者的分工？",
+      "唯一男性的設定在公開簡介中有什麼作用？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "從輪替模特兒到全員參與",
+      "body": "來源簡介先提出模特兒輪替，再加上一條更關鍵的課堂規則：其他參與者也要以相同方式加入。輪替只改變這一刻由誰擔任模特兒；全員參與則讓原本坐在一旁的人，也進入這套設定。兩層安排疊在一起，才是這堂社區素描課的主要賣點。"
+    },
+    {
+      "heading": "唯一男性，讓群像有了觀看位置",
+      "body": "簡介把教室寫成多位人妻與一名男性共同參與的場合，並提到兩人共同擔任模特兒的安排。這讓選片重點落在多人如何依課堂規則轉換位置。若你偏好有清楚規則的群像情境，這份介紹提供了具體線索；若你想先知道故事如何收束，簡介沒有給出答案。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據 [HUNTC-650 的已核對作品來源快照](https://cc18.tv/player.php?uuid=12DOpmuzFbi&cat=19)中的標題、簡介與系列關係撰寫。外部作品頁未能開啟，也沒有可核對的同系列作品材料；上述差異是對本作公開設定的比較，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "b74db4a17840c82cbecc87ef0b624363cc80a75ffa15e483b6c7212b3cceeca3",
+    "response_sha256": "eba9cf952c3d79a73e887e2645b0e9acb196c8e18e07483965ccdf8bf5875a5f",
+    "research_input_sha256": "4462dc35e0841b60d44461eff5cd9354564bc938c3fcbaba630ca3ee06d7f373",
+    "related_source_ids": []
+  }
+}

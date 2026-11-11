@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "movie_id": "HUNTC-650",
+  "generated_at": "2026-11-11T11:44:00.013Z",
+  "source_snapshot_hash": "sha256:b74db4a17840c82cbecc87ef0b624363cc80a75ffa15e483b6c7212b3cceeca3",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "本作的企劃特色是讓模特兒輪替，並讓教室其他人也遵守同一規則；公開簡介提供的是多人參與的情境，適合依設定選片，無法據此判斷成片節奏。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "社區素描教室",
+      "模特兒輪替",
+      "全員參與的課堂規則",
+      "唯一男性視角"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想看課堂規則如何推動多人情境的讀者",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "選片前需要確認明確故事線或實際節奏的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "本作如何改變模特兒與其他參與者的分工？",
+    "唯一男性的設定在公開簡介中有什麼作用？"
+  ]
+}
