@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-112",
+  "review_sha256": "79fbdeb6a0347cf20bdf20a928069602a1723a6de39e6296b25dd6e3304d377c",
+  "selected_thesis": "本作的選片線索是「受託介入後反遭難題壓倒」的對抗設定；YUJ-074 則從戀人照護開始，兩者提供不同的人物關係入口。",
+  "title_basis": {
+    "performer": "美園和花",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "美園和花",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "我兒子是性慾怪物",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "うちの息子は性欲モンスター",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "美園和花",
+    "presentation_feature": "我兒子是性慾怪物",
+    "editorial_judgment": "比較同演員作品的人物關係入口，說明本作的受託對抗設定及其選片意義。",
+    "source_keywords": [
+      "美園和花",
+      "我兒子是性慾怪物",
+      "うちの息子は性欲モンスター",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介寫明陽子向舊識和花求助，和花決定親自面對拓哉，首次交鋒失利。",
+      "supports": "本作以受託介入、嘗試解決難題及初次失利建立懸念。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "YUJ-074 的簡介從女友照顧發燒的伴侶展開；兩作同樣由美園和花演出。",
+      "supports": "兩作的人物關係入口不同：一部是舊識受託介入，另一部是戀人之間的照護。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不推測和花失利後的情節或結局。",
+    "不根據簡介評斷實際表演、畫面或節奏。",
+    "不把劇中人物關係寫成演員的真實關係。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-10T16:00:00.000Z"
+}

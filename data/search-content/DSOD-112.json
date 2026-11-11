@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "movie_id": "DSOD-112",
+  "generated_at": "2026-11-11T05:46:13.418Z",
+  "source_snapshot_hash": "sha256:187d1e2e4f5173a31815db481b081c7d0d6c129ea630a4e27e7f767fa14758ef",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看美園和花以受託者身分接下挑戰，可留意本作；偏好從既有戀人關係展開的設定，可參考 YUJ-074。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源簡介以求助、迎戰與首次失利串起設定，後續發展未交代。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MNGS-077",
+      "relation_type": "same_performer",
+      "reason": "同樣由美園和花出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "美園和花"
+      ],
+      "contrast_signals": [
+        "散發異味的臭大叔",
+        "AV女優片"
+      ]
+    },
+    {
+      "movie_id": "MKMP-758",
+      "relation_type": "same_performer",
+      "reason": "同樣由美園和花出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "美園和花"
+      ],
+      "contrast_signals": [
+        "篠田優",
+        "濱崎真緒"
+      ]
+    },
+    {
+      "movie_id": "MMPB-144",
+      "relation_type": "same_performer",
+      "reason": "同樣由美園和花出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "美園和花"
+      ],
+      "contrast_signals": [
+        "一條美緒",
+        "松本一香"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "和花為何進入本作的故事？",
+    "本作與同演員的 YUJ-074 在人物關係設定上有何不同？",
+    "目前來源能支持哪些選片判斷？"
+  ]
+}
