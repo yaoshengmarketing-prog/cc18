@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "movie_id": "IDPC-006",
+  "generated_at": "2026-11-11T05:26:55.611Z",
+  "source_snapshot_hash": "sha256:982772090d33ad8f9a946a1ab81af99c74d12f14c7139b08cdae179c13a4d27e",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看角色主動帶動約會的職場反差設定，可留意本作；若偏好受迫情境引出的禁忌故事，同演員的美容院題材作品有不同的故事前提。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以櫃檯小姐的日常形象、約會及飲酒後的反差為公開宣傳設定。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "IPZZ-941",
+      "relation_type": "same_performer",
+      "reason": "同樣由花咲澪出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "花咲澪"
+      ],
+      "contrast_signals": [
+        "黑化後的我趁死黨住院期間",
+        "高畫質"
+      ]
+    },
+    {
+      "movie_id": "IPZZ-970",
+      "relation_type": "same_performer",
+      "reason": "同樣由花咲澪出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "花咲澪"
+      ],
+      "contrast_signals": [
+        "竟被垃圾客強迫跨坐施術"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作與花咲澪的美容院題材作品，故事起點有何不同？",
+    "這個設定差異如何幫助選片？"
+  ]
+}

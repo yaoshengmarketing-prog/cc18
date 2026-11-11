@@ -3413,12 +3413,13 @@
     },
     {
       "label": "痴女OL",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "MIDA-804"
+        "MIDA-804",
+        "IDPC-006"
       ],
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-11",
       "status": "quarantined"
     },
     {
@@ -3499,6 +3500,16 @@
       ],
       "first_seen": "2026-11-10",
       "last_seen": "2026-11-10",
+      "status": "quarantined"
+    },
+    {
+      "label": "受付嬢",
+      "occurrences": 1,
+      "source_ids": [
+        "IDPC-006"
+      ],
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
       "status": "quarantined"
     }
   ]

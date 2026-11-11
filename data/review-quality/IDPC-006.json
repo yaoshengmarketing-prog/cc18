@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "IDPC-006",
+  "review_sha256": "1986bcc451becba91d84f137a8184fb27f6b2aaf3c77560dc06d049ce994f5a8",
+  "selected_thesis": "本作的選片線索是花咲澪飾演的櫃檯小姐主動推進約會；同演員的美容院題材作品則以受迫情境引出轉變，兩者的故事起點與人物主導權不同。",
+  "title_basis": {
+    "performer": "花咲澪",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "花咲澪",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "與高不可攀的櫃檯小姐約會",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "花咲澪",
+    "presentation_feature": "與高不可攀的櫃檯小姐約會",
+    "editorial_judgment": "比較花咲澪兩部職場角色作品的公開設定：本作從約會與角色主動出發，美容院題材作品則從顧客的強迫行為出發。這個差異能幫讀者辨認自己偏好的故事前提，不能據此判斷成片表現。",
+    "source_keywords": [
+      "花咲澪",
+      "與高不可攀的櫃檯小姐約會",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介以櫃檯小姐、約會及飲酒後展現不同一面為設定，並強調角色主動推進關係。",
+      "supports": "本作的宣傳重心是人物反差與主動權。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同樣由花咲澪演出的美容院題材作品，以顧客的強迫行為及角色後續變化作為故事前提。",
+      "supports": "兩作雖都有職場角色與形象轉變，推動轉變的情境不同。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不將宣傳簡介中的反差描述當作花咲澪本人的性格或經歷。",
+    "不推定成片的表演、畫面、節奏或情節完成度。",
+    "不將來源標題中的對白寫成已核對的影片台詞。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-10T16:00:00.000Z"
+}
