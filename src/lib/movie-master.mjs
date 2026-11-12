@@ -195,12 +195,12 @@ export const loadPublishedMovieCardRecords = async ({
       continue;
     }
 
-    const canonicalTopicTagIds = (master.derived?.canonical_topic_tag_ids ?? [])
-      .filter((id) => typeof id === 'string' && tagLabels.has(id))
-      .slice(0, 2);
+    const canonicalTopicTagIds = [...new Set(master.derived?.canonical_topic_tag_ids ?? [])]
+      .filter((id) => typeof id === 'string' && tagLabels.has(id));
 
     records.push({
       published_at: master.publishing?.published_at ?? null,
+      canonical_topic_tag_ids: canonicalTopicTagIds,
       remotion_promo_ref: clean(master.media?.remotion_promo_ref),
       card: {
         stable_movie_id: String(master.stable_movie_id),
@@ -209,7 +209,7 @@ export const loadPublishedMovieCardRecords = async ({
         catalog_code: String(master.source.catalog_code),
         release_date: clean(master.source.release_date),
         performers: (master.display?.performers ?? []).map(({display_name: displayName}) => clean(displayName)).filter(Boolean),
-        canonical_topics: canonicalTopicTagIds.map((id) => ({id, label: tagLabels.get(id)})),
+        canonical_topics: canonicalTopicTagIds.slice(0, 2).map((id) => ({id, label: tagLabels.get(id)})),
         has_remotion_promo: Boolean(clean(master.media?.remotion_promo_ref)),
         href: String(href),
       },

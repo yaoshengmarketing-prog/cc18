@@ -31,6 +31,8 @@ jobs:
       - run: npm run catalog-search:test
       - run: npm run media:test
       - run: npm run domain:test
+      - run: npm run topic:test
+      - run: npm run movie-cards:test
       - run: npm run bridge:test
       - run: npm run worker:test
       - run: npm run discovery:test

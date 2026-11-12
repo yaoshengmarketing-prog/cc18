@@ -372,7 +372,8 @@ test('public work route replaces the review renderer and Cloudflare redirects ar
   assert.doesNotMatch(redirects, /\/works\/:slug\/?\s+\/reviews\//);
   assert.doesNotMatch(redirects, /\/actresses\/[^\s:*?]+\*|\/actresses\/:/u);
   assert.doesNotMatch(redirects, /\/series\/[^\s:*?]+\*|\/series\/:/u);
-  assert.deepEqual(routes.include, ['/media/*']);
+  assert.deepEqual(routes.include, ['/*']);
+  assert.deepEqual(routes.exclude, ['/_astro/*', '/images/*']);
 });
 
 test('stable performer routes and public surfaces use the shared performer authority', async () => {
