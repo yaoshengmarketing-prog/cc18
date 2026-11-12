@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-431",
+  "review_sha256": "27f1af8e843f9861e2eb3b3bce4b8495942d20da572ee9889cb0532f496e1016",
+  "selected_thesis": "田野憂的女僕主題作品用角色與五種情境建立選片理由；本作則把不同尺寸的接連登場與多次高潮放在前景。兩份簡介提供的是不同企劃入口，尚不足以判斷成片表現。",
+  "title_basis": {
+    "performer": "田野憂",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "田野憂",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "巨根活塞",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "田野憂",
+    "presentation_feature": "巨根活塞",
+    "editorial_judgment": "以同演員作品的具體設定差異，說明本作的選片理由。",
+    "source_keywords": [
+      "田野憂",
+      "巨根活塞",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作片名及簡介反覆提到巨根、接連登場與多次高潮。",
+      "supports": "支持本作以持續加碼的成人主題作為宣傳重點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "SNOS-336 的簡介設定田野憂為異世界女僕，並列出五種奉仕情境。",
+      "supports": "支持兩作在角色設定與企劃組織方式上的比較。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不將宣傳簡介中的表情、台詞或高潮描述寫成已核實的觀影紀錄。",
+    "不推論兩部作品的實際節奏、鏡位、表演品質或完整劇情。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-11T16:00:00.000Z"
+}
