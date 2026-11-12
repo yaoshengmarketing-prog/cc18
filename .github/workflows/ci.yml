@@ -30,6 +30,7 @@ jobs:
       - run: npm run localization:test
       - run: npm run catalog-search:test
       - run: npm run media:test
+      - run: npm run domain:test
       - run: npm run bridge:test
       - run: npm run worker:test
       - run: npm run discovery:test
