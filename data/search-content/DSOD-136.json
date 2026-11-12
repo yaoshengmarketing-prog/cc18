@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "movie_id": "DSOD-136",
+  "generated_at": "2026-11-12T01:47:59.333Z",
+  "source_snapshot_hash": "sha256:47fa7090231dff4a2ff095a94b2370424f0ae4807d9771323c02ad9d62cfa959",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "適合想看職場怨氣藉時間停止侵入家庭關係，並關注妻子是否察覺異狀的讀者。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以職場位階、婚姻關係與時間停止構成衝突，結尾留下察覺異狀的懸念。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "DSOD-078",
+      "relation_type": "same_performer",
+      "reason": "同樣由桃園怜奈出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "桃園怜奈"
+      ],
+      "contrast_signals": [
+        "【ハイレグ無様特化】おほ声肉便器",
+        "角色扮演"
+      ]
+    },
+    {
+      "movie_id": "PPPE-453",
+      "relation_type": "same_performer",
+      "reason": "同樣由桃園怜奈出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "桃園怜奈"
+      ],
+      "contrast_signals": [
+        "スペンス乳腺開発クリニック",
+        "巨乳"
+      ]
+    },
+    {
+      "movie_id": "DSOD-109",
+      "relation_type": "same_performer",
+      "reason": "同樣由桃園怜奈出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "桃園怜奈"
+      ],
+      "contrast_signals": [
+        "人妻辣妹的教學參觀日誘惑",
+        "人妻ギャルの授業参観日の誘惑。「お前の母ちゃん、エロすぎじゃ"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作與同演員的《DSOD-078》在設定上有何差異？",
+    "公開資料能支持什麼選片判斷？"
+  ]
+}

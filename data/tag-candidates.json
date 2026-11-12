@@ -939,7 +939,7 @@
     },
     {
       "label": "寝取り・寝取られ・ntr",
-      "occurrences": 71,
+      "occurrences": 72,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -1011,10 +1011,11 @@
         "STSK-251",
         "SNOS-452",
         "IPZZ-971",
-        "NGOD-370"
+        "NGOD-370",
+        "DSOD-136"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "status": "quarantined"
     },
     {
@@ -2285,7 +2286,7 @@
     },
     {
       "label": "寢取・被寢取",
-      "occurrences": 55,
+      "occurrences": 56,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -2341,15 +2342,16 @@
         "STSK-251",
         "SNOS-452",
         "IPZZ-971",
-        "NGOD-370"
+        "NGOD-370",
+        "DSOD-136"
       ],
       "first_seen": "2026-09-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "status": "quarantined"
     },
     {
       "label": "NTR",
-      "occurrences": 53,
+      "occurrences": 54,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -2403,10 +2405,11 @@
         "STSK-251",
         "SNOS-452",
         "IPZZ-971",
-        "NGOD-370"
+        "NGOD-370",
+        "DSOD-136"
       ],
       "first_seen": "2026-09-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "status": "quarantined"
     },
     {
@@ -3368,12 +3371,13 @@
     },
     {
       "label": "時間停止",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "HUNTC-592"
+        "HUNTC-592",
+        "DSOD-136"
       ],
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-06",
+      "last_seen": "2026-11-12",
       "status": "quarantined"
     },
     {

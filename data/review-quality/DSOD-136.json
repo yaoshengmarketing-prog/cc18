@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-136",
+  "review_sha256": "d0ef58f608dc90fc8d52d6f671e139f1233967179bd0c62cf1ae7f95697e6f1f",
+  "selected_thesis": "《DSOD-136》把職場上的不滿帶進後輩上司的家庭，以暫停時間建立不對等的權力關係；相較《DSOD-078》的職場人格改寫，兩作提供了不同的選片理由。",
+  "title_basis": {
+    "performer": "桃園怜奈",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "桃園怜奈",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "時間停止NTR",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "桃園怜奈",
+    "presentation_feature": "時間停止NTR",
+    "editorial_judgment": "以同演員作品對照超常手段與人物關係，說明本作的設定重心及選片意義。",
+    "source_keywords": [
+      "桃園怜奈",
+      "時間停止NTR",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介將畑中的職場不滿、陽平的後輩上司身分，以及玲奈的妻子身分連在一起。",
+      "supports": "本作的報復設定從職場延伸到家庭關係。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作使用時間停止；《DSOD-078》的簡介則使用能改變人格的 VR 遊戲。",
+      "supports": "兩部同演員作品以不同手段建立不對等的權力關係。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作簡介末尾寫到玲奈察覺了時間停止期間發生的事。",
+      "supports": "宣傳文字將她是否識破異狀設為懸念。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "成片的表演、畫面、聲音與節奏",
+    "玲奈最終如何回應，以及陽平是否發現",
+    "桃園怜奈在兩作中的實際演出品質"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-11T16:00:00.000Z"
+}
