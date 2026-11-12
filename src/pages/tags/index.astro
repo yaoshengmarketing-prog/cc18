@@ -1,7 +1,8 @@
 ---
 import {getCollection} from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import {taxonomyTag} from '../../lib/taxonomy';
+import {sourceTagItems, taxonomyTag} from '../../lib/taxonomy';
+import {sourceRecordFor} from '../../lib/source-records';
 import {reviewTagIds} from '../../lib/reviews';
 import {loadPublishedTopicCatalog} from '../../lib/topic-catalog.mjs';
 const reviews = await getCollection('reviews', ({data}) => data.status === 'published');
@@ -11,6 +12,17 @@ const legacyCounts = new Map<string, number>();
 reviews.flatMap(reviewTagIds).forEach((id) => {
   if (!topicIds.has(id)) legacyCounts.set(id, (legacyCounts.get(id) ?? 0) + 1);
 });
+const sourceCounts = new Map<string, {label: string; count: number}>();
+for (const review of reviews) {
+  const relations = sourceRecordFor(review.data.id)?.source_relations?.tags ?? [];
+  for (const item of sourceTagItems(review.data.sourceTags, relations)) {
+    if (!item.href?.startsWith('/tags/source-')) continue;
+    const group = sourceCounts.get(item.href) ?? {label: item.label, count: 0};
+    if (group.label !== item.label) throw new Error(`${item.href}: conflicting source tag labels`);
+    group.count++;
+    sourceCounts.set(item.href, group);
+  }
+}
 ---
 <BaseLayout title="標籤索引" description="JAV 影格站內正式標籤索引，區分來源題材與影評切角。" adult={true}>
   <section class="page-intro"><p class="eyebrow">TAG TAXONOMY</p><h1>標籤索引</h1><p>正式題材依公開作品的 Movie Master 整理；編輯切角另外列出。</p></section>
@@ -19,5 +31,8 @@ reviews.flatMap(reviewTagIds).forEach((id) => {
   </section>
   {legacyCounts.size > 0 && <section aria-label="編輯與歷史標籤"><h2>編輯與歷史標籤</h2><p>這些入口保留舊連結，作品集合不作正式題材認定。</p><div class="tag-cloud">
     {[...legacyCounts].map(([id, count]) => { const tag = taxonomyTag(id); return tag && <a href={`/tags/${id}/`}><strong>#{tag.label}</strong><span>{count}</span></a>; })}
+  </div></section>}
+  {sourceCounts.size > 0 && <section aria-label="CC18 原始標籤"><h2>CC18 原始標籤</h2><p>已有本站公開作品的來源標籤，點選可查看相同標籤的作品。</p><div class="tag-cloud">
+    {[...sourceCounts].sort((a, b) => b[1].count - a[1].count || a[1].label.localeCompare(b[1].label, 'zh-Hant')).map(([href, {label, count}]) => <a href={href}><strong>#{label}</strong><span>{count}</span></a>)}
   </div></section>}
 </BaseLayout>

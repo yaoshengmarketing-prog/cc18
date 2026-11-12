@@ -1,3 +1,5 @@
+import type {SourceTagRelation} from './taxonomy';
+
 export interface SourceRecord {
   id: string;
   title: string;
@@ -8,6 +10,7 @@ export interface SourceRecord {
   studio?: string | null;
   series?: string | null;
   source_tags: string[];
+  source_relations?: {tags?: SourceTagRelation[]};
   description?: string | null;
   cover_source_url?: string | null;
   source_url: string;

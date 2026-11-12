@@ -100,12 +100,16 @@ export function searchCatalog(index, rawQuery) {
       } else if (!performerOnly) {
         const matchedTitle = titleMatch(movie, query);
         const matchedTopic = movie.card.canonical_topics.find(({label}) => compactSearchText(label).includes(normalizedQuery));
+        const matchedSourceTag = (movie.search.source_tags ?? []).find((label) => compactSearchText(label).includes(normalizedQuery));
         if (matchedTitle) {
           score = 500;
           reason = `片名：${matchedTitle.value}`;
         } else if (matchedTopic) {
           score = 400;
           reason = `題材：${matchedTopic.label}`;
+        } else if (matchedSourceTag) {
+          score = 400;
+          reason = `來源標籤：${matchedSourceTag}`;
         } else if (compactSearchText(movie.search.slug).includes(normalizedQuery)) {
           score = 300;
           reason = `作品網址：${movie.search.slug}`;

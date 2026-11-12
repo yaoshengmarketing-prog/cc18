@@ -32,6 +32,13 @@ export interface SourceTagResolution {
   mapped: boolean;
 }
 
+export interface SourceTagRelation {
+  source_type: 'tag';
+  source_id: string;
+  stable_source_id: string;
+  source_name: string;
+}
+
 export interface ReviewTagChannels {
   /** Original CC18 labels, normalized only for surrounding whitespace and duplicates. */
   sourceTags: string[];
@@ -58,6 +65,14 @@ export const sourceTagGroupLabels = new Map(
 export const normalizeSourceTagLabel = (label: string) => label.normalize('NFKC').trim();
 
 const normalizeSourceTagKey = (label: string) => normalizeSourceTagLabel(label).toLocaleLowerCase('zh-Hant');
+
+/** Keep an unmapped CC18 tag's own stable identity; never infer a canonical taxonomy ID. */
+export const sourceTagPath = (relation: SourceTagRelation) => {
+  const match = /^cc18\.tv:tag:([1-9]\d*)$/.exec(relation.stable_source_id);
+  return relation.source_type === 'tag' && match?.[1] === relation.source_id
+    ? `/tags/source-${relation.source_id}/`
+    : undefined;
+};
 
 const unique = <T>(values: T[]) => [...new Set(values)];
 
@@ -101,9 +116,12 @@ export const sourceTagIds = (labels: string[]) => unique(
 );
 
 /** Source labels remain visible verbatim while mapped labels gain a stable local URL. */
-export const sourceTagItems = (labels: string[]): TagItem[] => resolveSourceTags(labels).map(({sourceLabel, canonicalId, group}) => canonicalId
-  ? {id: canonicalId, label: sourceLabel, href: `/tags/${canonicalId}/`, kind: 'source', group}
-  : {label: sourceLabel, kind: 'source'});
+export const sourceTagItems = (labels: string[], relations: SourceTagRelation[] = []): TagItem[] => resolveSourceTags(labels)
+  .map(({sourceLabel, canonicalId, group}) => {
+    if (canonicalId) return {id: canonicalId, label: sourceLabel, href: `/tags/${canonicalId}/`, kind: 'source', group};
+    const relation = relations.find(({source_name}) => normalizeSourceTagKey(source_name) === normalizeSourceTagKey(sourceLabel));
+    return {label: sourceLabel, href: relation ? sourceTagPath(relation) : undefined, kind: 'source'};
+  });
 
 export const editorialTagItems = (ids: string[]): TagItem[] => unique(ids).map((id) => {
   const tag = tagsById.get(id);

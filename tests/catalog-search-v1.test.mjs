@@ -36,6 +36,15 @@ test('search index follows Movie Master publication boundaries and excludes ever
   }
 });
 
+test('a CC18 source tag finds its published work even without a canonical mapping', async () => {
+  const index = await buildSearchIndex();
+  const result = searchCatalog(index, '女同性戀');
+  const bban = result.movies.find(({card}) => card.catalog_code === 'BBAN-614');
+  assert.ok(bban);
+  assert.equal(bban.match_reason, '來源標籤：女同性戀');
+  assert.ok(bban.search.source_tags.includes('女同性戀'));
+});
+
 test('all approved performer names, aliases and partials resolve to one actor and related published work', async () => {
   const index = await buildSearchIndex();
   for (const [actorId, {movie, queries}] of expectedPeople) {

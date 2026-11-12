@@ -1,6 +1,8 @@
+import {existsSync} from 'node:fs';
 import {readdir, readFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {load} from 'cheerio';
 import {parsePerformerStableId} from '../src/lib/performer-url.mjs';
 import {loadPublishedMovieCardCatalog} from '../src/lib/movie-master.mjs';
 import {validateCanonicalMovieIdentity} from '../src/lib/movie-master-identity.mjs';
@@ -111,12 +113,30 @@ export async function validateSearchPostbuild() {
     throw new Error('Search index publication boundary is invalid');
   }
   validateSearchIndexCollections(index, cardCatalog.cards);
+  let linkedSourceTags = 0;
+  for (const movie of index.movies) {
+    const workHtml = await readFile(resolve(dist, 'works', movie.search.slug, 'index.html'), 'utf8');
+    const work = load(workHtml);
+    const sourceItems = work('.source-tag-label').next('.tag-list').find('li');
+    const expected = [...new Set((movie.search.source_tags ?? []).map((label) => label.normalize('NFKC').trim()))];
+    const actual = sourceItems.map((_, item) => work(item).text().replace(/^#/, '').trim()).get();
+    if (JSON.stringify(actual) !== JSON.stringify(expected)) {
+      throw new Error(`${movie.card.catalog_code}: public source tags differ from Movie Master search projection`);
+    }
+    sourceItems.each((_, item) => {
+      const href = work(item).find('a').attr('href');
+      if (!/^\/tags\/[a-z0-9-]+\/$/.test(href ?? '') || !existsSync(resolve(dist, href.slice(1), 'index.html'))) {
+        throw new Error(`${movie.card.catalog_code}: source tag has no working collection link: ${work(item).text()}`);
+      }
+      linkedSourceTags += 1;
+    });
+  }
   for (const file of (await readdir(dist)).filter((name) => /^sitemap-\d+\.xml$/.test(name))) {
     const sitemap = await readFile(resolve(dist, file), 'utf8');
     if (sitemap.includes('/search/')) throw new Error('Noindex search page remains in sitemap');
   }
 
-  console.log(`Search postbuild valid: ${index.counts.movies} movies, ${index.counts.performers} performers, noindex canonical and sitemap exclusion passed.`);
+  console.log(`Search postbuild valid: ${index.counts.movies} movies, ${index.counts.performers} performers, ${linkedSourceTags} source tag links, noindex canonical and sitemap exclusion passed.`);
 }
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

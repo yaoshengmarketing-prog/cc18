@@ -61,7 +61,7 @@ const search = searchContentFor(review.data.id);
 const quality = reviewQualityFor(review.data.id);
 const editorialTags = reviewEditorialTags(review);
 const canonicalTags = visibleTags(review);
-const rawSourceTags = sourceTagItems(review.data.sourceTags);
+const rawSourceTags = sourceTagItems(review.data.sourceTags, source?.source_relations?.tags);
 const hasPerformerNames = performers.length > 0 || review.data.actress.length > 0;
 if (!quality?.approved_for_publish) throw new Error(`${review.data.id}: approved review quality record missing`);
 if (!evidence) throw new Error(`${review.data.id}: Movie Master Evidence projection missing`);
@@ -189,7 +189,7 @@ if (hasPublishedVideo && review.data.videoUrl) structuredData.push({
       {rawSourceTags.length > 0 && <div><p class="tag-label source-tag-label">CC18 原始標籤</p><TagList tags={rawSourceTags} /></div>}
       {editorialTags.length > 0 && <div><p class="tag-label editorial-tag-label">影評觀點</p><TagList tags={editorialTags} /></div>}
     </section>}
-    <TopicElements sourceTags={review.data.sourceTags} />
+    <TopicElements sourceTags={review.data.sourceTags} sourceTagRelations={source?.source_relations?.tags} />
     {search && <DecisionGuide content={search} related={related} timeline={evidence.timeline} />}
   </article>
 </BaseLayout>

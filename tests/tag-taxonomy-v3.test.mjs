@@ -44,6 +44,16 @@ test('source labels are preserved while aliases resolve to stable canonical IDs'
   );
 });
 
+test('unmapped published source tags link by their verified CC18 tag identity', () => {
+  const relation = {
+    source_type: 'tag', source_id: '1774', stable_source_id: 'cc18.tv:tag:1774', source_name: '女同性戀',
+  };
+  assert.equal(helpers.sourceTagPath(relation), '/tags/source-1774/');
+  assert.equal(helpers.sourceTagItems(['女同性戀'], [relation])[0].href, '/tags/source-1774/');
+  assert.equal(helpers.sourceTagItems(['女同性戀'])[0].href, undefined);
+  assert.equal(helpers.sourceTagPath({...relation, stable_source_id: 'cc18.tv:tag:111'}), undefined);
+});
+
 test('tag channels keep source facts separate from editorial interpretation', () => {
   const channels = helpers.buildTagChannels({
     sourceTags: ['自拍', 'OL', '未知新詞'],

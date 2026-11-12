@@ -3,9 +3,12 @@ import {getCollection} from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ReviewCard from '../../components/ReviewCard.astro';
 import MovieCardV1 from '../../components/MovieCardV1.astro';
-import {byNewest, reviewTagIds} from '../../lib/reviews';
+import {byNewest, reviewTagIds, type Review} from '../../lib/reviews';
 import {loadPublishedTopicCatalog} from '../../lib/topic-catalog.mjs';
-import {taxonomyTag} from '../../lib/taxonomy';
+import {normalizeSourceTagLabel, resolveSourceTag, sourceTagPath, taxonomyTag} from '../../lib/taxonomy';
+import {sourceRecordFor} from '../../lib/source-records';
+type TopicCard = Awaited<ReturnType<typeof import('../../lib/movie-master.mjs').loadPublishedMovieCardRecords>>['records'][number]['card'];
+interface Props {tagId: string; kind: 'canonical' | 'legacy' | 'source'; sourceLabel?: string; reviews?: Review[]; cards?: TopicCard[];}
 export async function getStaticPaths() {
   const reviews = await getCollection('reviews', ({data}) => data.status === 'published');
   const reviewIds = new Set(reviews.map(({data}) => data.id));
@@ -21,18 +24,37 @@ export async function getStaticPaths() {
     params: {tag: tagId},
     props: {tagId, kind: 'legacy', reviews: reviews.filter((review) => reviewTagIds(review).includes(tagId)).sort(byNewest)},
   }));
-  return [...canonical, ...legacy];
+  const sourceGroups = new Map<string, {label: string; reviews: typeof reviews}>();
+  for (const review of reviews) {
+    const labels = new Set(review.data.sourceTags.map(normalizeSourceTagLabel));
+    for (const relation of sourceRecordFor(review.data.id)?.source_relations?.tags ?? []) {
+      const label = normalizeSourceTagLabel(relation.source_name);
+      if (!labels.has(label) || resolveSourceTag(label).canonicalId) continue;
+      const path = sourceTagPath(relation);
+      if (!path) continue;
+      const tagId = path.split('/')[2];
+      const group = sourceGroups.get(tagId) ?? {label, reviews: []};
+      if (group.label !== label) throw new Error(`${tagId}: conflicting source tag labels`);
+      if (!group.reviews.some(({data}) => data.id === review.data.id)) group.reviews.push(review);
+      sourceGroups.set(tagId, group);
+    }
+  }
+  const source = [...sourceGroups].map(([tagId, group]) => ({
+    params: {tag: tagId},
+    props: {tagId, kind: 'source', sourceLabel: group.label, reviews: group.reviews.sort(byNewest)},
+  }));
+  return [...canonical, ...legacy, ...source];
 }
-type TopicCard = Awaited<ReturnType<typeof import('../../lib/movie-master.mjs').loadPublishedMovieCardRecords>>['records'][number]['card'];
-const {tagId, reviews = [], kind} = Astro.props;
+const {tagId, reviews = [], kind, sourceLabel} = Astro.props;
 const cards: TopicCard[] = Astro.props.cards ?? [];
 const tag = taxonomyTag(tagId);
-if (!tag) throw new Error(`Unknown taxonomy tag: ${tagId}`);
+const label = sourceLabel ?? tag?.label;
+if (!label) throw new Error(`Unknown taxonomy tag: ${tagId}`);
 const count = kind === 'canonical' ? cards.length : reviews.length;
-const indexable = kind === 'canonical' && count >= 3;
+const indexable = (kind === 'canonical' || kind === 'source') && count >= 3;
 ---
-<BaseLayout title={`#${tag.label}`} description={`${tag.label}作品與影評索引，目前收錄 ${count} 部作品。`} robots={indexable ? undefined : 'noindex,follow'} adult={true}>
-  <section class="page-intro"><p class="eyebrow">TAG COLLECTION</p><h1>#{tag.label}</h1><p>{kind === 'canonical' ? '本站正式題材' : '本站保留的編輯或歷史標籤'}「{tag.label}」，目前聚合 {count} 部作品。正式題材收錄量達到可提供獨立比較價值後才開放搜尋索引。</p></section>
+<BaseLayout title={`#${label}`} description={`${label}作品與影評索引，目前收錄 ${count} 部作品。`} robots={indexable ? undefined : 'noindex,follow'} adult={true}>
+  <section class="page-intro"><p class="eyebrow">TAG COLLECTION</p><h1>#{label}</h1><p>{kind === 'source' ? `依 CC18 原始標籤「${label}」整理，目前收錄 ${count} 部本站作品。` : `${kind === 'canonical' ? '本站正式題材' : '本站保留的編輯或歷史標籤'}「${label}」，目前聚合 ${count} 部作品。正式題材收錄量達到可提供獨立比較價值後才開放搜尋索引。`}</p></section>
   <section class="card-grid" role="list">
     {kind === 'canonical'
       ? cards.map((card) => <div role="listitem"><MovieCardV1 card={card} /></div>)

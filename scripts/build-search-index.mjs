@@ -198,6 +198,7 @@ export async function buildSearchIndex() {
       performer_ids: performerIds,
       search: {
         source_title: clean(master.source?.source_title),
+        source_tags: (master.source?.source_tags ?? []).map(clean).filter(Boolean),
         article_title: clean(master.titles?.article_title),
         display_short_title: clean(master.titles?.display_short_title),
         slug: clean(master.slug),
