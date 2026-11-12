@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "movie_id": "BBAN-614",
+  "generated_at": "2026-11-12T03:48:12.950Z",
+  "source_snapshot_hash": "sha256:10d80707f6b6837799fa32caf78aaa3094d860095519d8f93a80e0710308ca67",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若想看賽前受傷如何引出女性整骨師與壘球部王牌之間的治療關係，本作的公開設定比一般按摩標籤更具體。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以壘球賽前的腳踝傷勢引出整骨治療，並以女女題材標籤提示關係方向。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SQTE-719",
+      "relation_type": "same_performer",
+      "reason": "同樣由千葉優花出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "千葉優花"
+      ],
+      "contrast_signals": [
+        "再用力拍我",
+        "美少女設定"
+      ]
+    },
+    {
+      "movie_id": "MXGS-1445",
+      "relation_type": "same_performer",
+      "reason": "同樣由千葉優花出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "千葉優花"
+      ],
+      "contrast_signals": [
+        "皮拉提斯體驗",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "千葉優花演出的角色為何前往整骨院？",
+    "本作與她的皮拉提斯題材作品，在身體照護的故事起點上有何差別？"
+  ]
+}

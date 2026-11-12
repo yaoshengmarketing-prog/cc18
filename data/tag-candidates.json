@@ -541,7 +541,7 @@
     },
     {
       "label": "マッサージ・リフレ",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "SNOS-345",
         "DANDYA-050",
@@ -549,10 +549,11 @@
         "MVSD-706",
         "BLOR-309",
         "HUNTC-572",
-        "SDMM-242"
+        "SDMM-242",
+        "BBAN-614"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-12",
       "status": "quarantined"
     },
     {
@@ -865,7 +866,7 @@
     },
     {
       "label": "蕾絲親吻",
-      "occurrences": 10,
+      "occurrences": 11,
       "source_ids": [
         "BBAN-609",
         "BBAN-601",
@@ -876,15 +877,16 @@
         "CEAD-763",
         "DSOD-105",
         "BBAN-613",
-        "BBAN-612"
+        "BBAN-612",
+        "BBAN-614"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "status": "quarantined"
     },
     {
       "label": "女同性戀",
-      "occurrences": 16,
+      "occurrences": 17,
       "source_ids": [
         "BBAN-609",
         "BBAN-601",
@@ -901,10 +903,11 @@
         "CEAD-763",
         "DSOD-105",
         "BBAN-613",
-        "BBAN-612"
+        "BBAN-612",
+        "BBAN-614"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "status": "quarantined"
     },
     {
@@ -3532,6 +3535,16 @@
       ],
       "first_seen": "2026-11-11",
       "last_seen": "2026-11-11",
+      "status": "quarantined"
+    },
+    {
+      "label": "部活・マネージャー",
+      "occurrences": 1,
+      "source_ids": [
+        "BBAN-614"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
       "status": "quarantined"
     }
   ]

@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "id": "BBAN-614",
+  "generated_at": "2026-11-12T03:48:12.305Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/BBAN-614.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "千葉優花",
+    "premise": "作品以「千葉優花」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「千葉優花」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "千葉優花",
+      "末廣純",
+      "巨乳"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由千葉優花演出、以身體照護為故事入口，本作與皮拉提斯題材作品的人物處境有何不同？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=BeYkXrzj85E&cat=19",
+      "supports": "提供本作的演員、片商、標籤與簡介：壘球部王牌在比賽前扭傷腳踝，經母親建議前往女性整骨師處就診。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=2V6zRHcQO9M&cat=19",
+      "supports": "同樣由千葉優花演出的作品；簡介設定為進入社會後因身體僵硬，自行報名皮拉提斯課。"
+    }
+  ],
+  "angle_candidates": [
+    "賽前受傷如何讓整骨治療成為不得不面對的情境",
+    "同一位演員在整骨治療與皮拉提斯課兩種設定中的選片差異",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作的辨識點是壘球賽前受傷、求助女性整骨師與女女題材相接；相較於自行報名皮拉提斯課的作品，它把身體接觸放進更急迫、也更需要留意界線的處境。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "末廣純",
+      "source_field": "actress"
+    },
+    {
+      "type": "performer",
+      "value": "千葉優花",
+      "source_field": "actress"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "壘球王牌的賽前整骨治療：千葉優花、末廣純",
+  "display_short_title": "壘球王牌的賽前整骨治療",
+  "title": "一場扭傷，如何改變身體接觸的故事起點？",
+  "seo_title": "BBAN-614｜千葉優花、末廣純的賽前整骨治療設定",
+  "social_title": "千葉優花這次為何走進整骨院？",
+  "short_review": "千葉優花演出的壘球部王牌在重要比賽前扭傷腳踝，因而求助女性整骨師。本作適合想找運動傷勢、治療關係與女女題材交會設定的讀者；實際敘事與呈現仍無法由簡介判定。",
+  "editorial_angle": "比較同一位演員兩部以身體照護為入口的作品，指出「賽前受傷而就診」與「因身體僵硬而報名課程」如何形成不同的選片期待。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介寫明千葉優花演出的壘球部王牌在重要比賽前扭傷腳踝，接受母親建議前往整骨治療。",
+      "supports": "就診有明確的傷勢與比賽壓力，構成故事的急迫起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作簡介稱治療者為女性整骨師，來源另列有女同性戀與按摩題材標籤。",
+      "supports": "女性之間的治療關係是本作公開設定的選片線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "另一部千葉優花作品的簡介設定為進入社會後感到身體僵硬，看到廣告便報名皮拉提斯課。",
+      "supports": "兩部作品都從身體照護切入，但前者因傷就診，後者主動體驗課程。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將角色設定當作演員本人的經歷或性傾向。",
+    "未推定末廣純所演角色的身分、影片中的具體畫面或台詞。",
+    "未由宣傳簡介推論成片品質、節奏或實際表演。"
+  ],
+  "decision_guide": {
+    "thesis": "若想看賽前受傷如何引出女性整骨師與壘球部王牌之間的治療關係，本作的公開設定比一般按摩標籤更具體。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以壘球賽前的腳踝傷勢引出整骨治療，並以女女題材標籤提示關係方向。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "千葉優花演出的角色為何前往整骨院？",
+      "本作與她的皮拉提斯題材作品，在身體照護的故事起點上有何差別？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "賽前受傷，讓就診帶上時間壓力",
+      "body": "來源簡介把千葉優花演出的角色設定為壘球部王牌：重要比賽將近，她卻扭傷腳踝，經母親建議前往整骨院。這使「治療」不只是題材標籤，也成了角色眼前需要處理的事。女性整骨師與女女題材的安排，則讓身體接觸及其界線成為這份設定的核心。"
+    },
+    {
+      "heading": "和皮拉提斯題材相比，差別在為何走進診間",
+      "body": "另一部同樣由千葉優花演出的作品，從進入社會後感到身體僵硬、看到廣告便報名皮拉提斯課開始。兩部都借身體照護引出人物接觸，但一部是因賽前傷勢求助，另一部是自行選擇體驗課程。若你在選片時在意角色為何接受接觸，本作提供的是較急迫、也更需要留意關係界線的故事前提。這是對公開設定的比較，並非對成片效果的判斷。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據提供的 [本作來源資料](https://cc18.tv/player.php?uuid=BeYkXrzj85E&cat=19) 與 [千葉優花另一部作品的來源資料](https://cc18.tv/player.php?uuid=2V6zRHcQO9M&cat=19)；外部作品頁未能開啟，未使用搜尋片段補充情節。比較與選片意義是根據兩份已核對簡介所作的編輯判斷，沒有影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "10d80707f6b6837799fa32caf78aaa3094d860095519d8f93a80e0710308ca67",
+    "response_sha256": "8940697965f618d437cf2688cf6e441366994fe146f04ddc70bba00c24a8ae9d",
+    "research_input_sha256": "363c385c8d0ebbe15f8b419c38288a4b5a3bb74ef983f43923ef865bb0b14dd1",
+    "related_source_ids": [
+      "MXGS-1445",
+      "SQTE-719",
+      "MKMP-758"
+    ]
+  }
+}
