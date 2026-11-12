@@ -2,16 +2,40 @@
 import {getCollection} from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ReviewCard from '../../components/ReviewCard.astro';
+import MovieCardV1 from '../../components/MovieCardV1.astro';
 import {byNewest, reviewTagIds} from '../../lib/reviews';
+import {loadPublishedTopicCatalog} from '../../lib/topic-catalog.mjs';
 import {taxonomyTag} from '../../lib/taxonomy';
 export async function getStaticPaths() {
   const reviews = await getCollection('reviews', ({data}) => data.status === 'published');
-  const tagIds = [...new Set(reviews.flatMap(reviewTagIds))];
-  return tagIds.map((tagId) => ({params: {tag: tagId}, props: {tagId, reviews: reviews.filter((r) => reviewTagIds(r).includes(tagId)).sort(byNewest)}}));
+  const reviewIds = new Set(reviews.map(({data}) => data.id));
+  const canonical = (await loadPublishedTopicCatalog()).map(({id, cards}) => {
+    for (const card of cards) {
+      if (!reviewIds.has(card.catalog_code)) throw new Error(`${card.catalog_code}: published topic card has no published review`);
+    }
+    return {params: {tag: id}, props: {tagId: id, cards, kind: 'canonical'}};
+  });
+  const canonicalIds = new Set(canonical.map(({params}) => params.tag));
+  const legacyIds = [...new Set(reviews.flatMap(reviewTagIds))].filter((id) => !canonicalIds.has(id));
+  const legacy = legacyIds.map((tagId) => ({
+    params: {tag: tagId},
+    props: {tagId, kind: 'legacy', reviews: reviews.filter((review) => reviewTagIds(review).includes(tagId)).sort(byNewest)},
+  }));
+  return [...canonical, ...legacy];
 }
-const {tagId, reviews} = Astro.props;
+type TopicCard = Awaited<ReturnType<typeof import('../../lib/movie-master.mjs').loadPublishedMovieCardRecords>>['records'][number]['card'];
+const {tagId, reviews = [], kind} = Astro.props;
+const cards: TopicCard[] = Astro.props.cards ?? [];
 const tag = taxonomyTag(tagId);
 if (!tag) throw new Error(`Unknown taxonomy tag: ${tagId}`);
-const indexable = reviews.length >= 3;
+const count = kind === 'canonical' ? cards.length : reviews.length;
+const indexable = kind === 'canonical' && count >= 3;
 ---
-<BaseLayout title={`#${tag.label}`} description={`${tag.label}作品與影評索引，目前收錄 ${reviews.length} 部作品。`} robots={indexable ? undefined : 'noindex,follow'} adult={true}><section class="page-intro"><p class="eyebrow">TAG COLLECTION</p><h1>#{tag.label}</h1><p>本站正式分類「{tag.label}」，目前聚合 {reviews.length} 部作品。收錄量達到可提供獨立比較價值後才開放搜尋索引。</p></section><section class="card-grid">{reviews.map((review) => <ReviewCard review={review} />)}</section></BaseLayout>
+<BaseLayout title={`#${tag.label}`} description={`${tag.label}作品與影評索引，目前收錄 ${count} 部作品。`} robots={indexable ? undefined : 'noindex,follow'} adult={true}>
+  <section class="page-intro"><p class="eyebrow">TAG COLLECTION</p><h1>#{tag.label}</h1><p>{kind === 'canonical' ? '本站正式題材' : '本站保留的編輯或歷史標籤'}「{tag.label}」，目前聚合 {count} 部作品。正式題材收錄量達到可提供獨立比較價值後才開放搜尋索引。</p></section>
+  <section class="card-grid" role="list">
+    {kind === 'canonical'
+      ? cards.map((card) => <div role="listitem"><MovieCardV1 card={card} /></div>)
+      : reviews.map((review) => <div role="listitem"><ReviewCard review={review} /></div>)}
+  </section>
+</BaseLayout>

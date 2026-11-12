@@ -3,8 +3,21 @@ import {getCollection} from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import {taxonomyTag} from '../../lib/taxonomy';
 import {reviewTagIds} from '../../lib/reviews';
+import {loadPublishedTopicCatalog} from '../../lib/topic-catalog.mjs';
 const reviews = await getCollection('reviews', ({data}) => data.status === 'published');
-const counts = new Map<string, number>();
-reviews.flatMap(reviewTagIds).forEach((id) => counts.set(id, (counts.get(id) ?? 0) + 1));
+const topics = await loadPublishedTopicCatalog();
+const topicIds = new Set(topics.map(({id}) => id));
+const legacyCounts = new Map<string, number>();
+reviews.flatMap(reviewTagIds).forEach((id) => {
+  if (!topicIds.has(id)) legacyCounts.set(id, (legacyCounts.get(id) ?? 0) + 1);
+});
 ---
-<BaseLayout title="標籤索引" description="JAV 影格站內正式標籤索引，區分來源標籤、搜尋分類與影評切角。" adult={true}><section class="page-intro"><p class="eyebrow">TAG TAXONOMY</p><h1>標籤索引</h1><p>來源詞會完整保留；站內聚合只使用經過定義與映射的穩定標籤。</p></section><section class="tag-cloud">{[...counts].map(([id,count]) => { const tag = taxonomyTag(id); return tag && <a href={`/tags/${id}/`}><strong>#{tag.label}</strong><span>{count}</span></a>; })}</section></BaseLayout>
+<BaseLayout title="標籤索引" description="JAV 影格站內正式標籤索引，區分來源題材與影評切角。" adult={true}>
+  <section class="page-intro"><p class="eyebrow">TAG TAXONOMY</p><h1>標籤索引</h1><p>正式題材依公開作品的 Movie Master 整理；編輯切角另外列出。</p></section>
+  <section class="tag-cloud" aria-label="正式題材">
+    {topics.map(({id, cards}) => { const tag = taxonomyTag(id); return tag && <a href={`/tags/${id}/`}><strong>#{tag.label}</strong><span>{cards.length}</span></a>; })}
+  </section>
+  {legacyCounts.size > 0 && <section aria-label="編輯與歷史標籤"><h2>編輯與歷史標籤</h2><p>這些入口保留舊連結，作品集合不作正式題材認定。</p><div class="tag-cloud">
+    {[...legacyCounts].map(([id, count]) => { const tag = taxonomyTag(id); return tag && <a href={`/tags/${id}/`}><strong>#{tag.label}</strong><span>{count}</span></a>; })}
+  </div></section>}
+</BaseLayout>

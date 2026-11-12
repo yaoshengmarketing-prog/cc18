@@ -7,8 +7,9 @@ import CatalogPagination from '../components/CatalogPagination.astro';
 import {catalogPages} from '../lib/catalog-pagination.mjs';
 import PromoVideoCard from '../components/PromoVideoCard.astro';
 import TagList from '../components/TagList.astro';
-import {reviewHref, reviewTagIds, visibleTags} from '../lib/reviews';
+import {reviewHref, visibleTags} from '../lib/reviews';
 import {loadLatestAddedMovieCardCatalog, loadLatestAddedPromoCatalog} from '../lib/movie-master.mjs';
+import {loadPublishedTopicCatalog} from '../lib/topic-catalog.mjs';
 import {loadPerformerCatalog} from '../lib/performer-catalog.mjs';
 import {tagItems} from '../lib/taxonomy';
 import {SITE_NAME} from '../lib/site-brand.mjs';
@@ -27,7 +28,7 @@ const performerCount = performerCatalog.performers.length;
 if (!Number.isInteger(performerCount) || performerCount < 1) {
   throw new Error('Homepage performer exploration requires at least one catalog performer');
 }
-const tagIds = [...new Set(reviews.flatMap(reviewTagIds))].slice(0, 12);
+const tagIds = (await loadPublishedTopicCatalog()).slice(0, 12).map(({id}) => id);
 const tags = tagItems(tagIds);
 const siteUrl = new URL('/', Astro.site ?? Astro.url.origin).href;
 const structuredData = {
@@ -101,7 +102,7 @@ const structuredData = {
       <p class="eyebrow">BROWSE BY TOPIC</p>
       <h2>從題材開始找</h2>
       <p>把相近用語整理成一致分類，找片時不用猜不同作品用了哪一種寫法。</p>
-      <TagList tags={tags.length ? tags : tagItems(['story'])} />
+      <TagList tags={tags} />
       <a class="text-link" href="/tags/">瀏覽完整標籤庫 →</a>
     </div>
     <div class="editorial-panel">
