@@ -758,7 +758,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 54,
+      "occurrences": 55,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -813,10 +813,11 @@
         "NHDTC-258",
         "SNOS-380",
         "DOJN-033",
-        "SNOS-452"
+        "SNOS-452",
+        "IPZZ-984"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-12",
       "status": "quarantined"
     },
     {

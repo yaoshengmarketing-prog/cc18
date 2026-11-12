@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "IPZZ-984",
+  "review_sha256": "8c0aa6e2dc7d20c668e12f5ba5a35f35f4bc92fc4b103b8774b9553d97561b73",
+  "selected_thesis": "IPZZ-984 用「第1000天」集合多種題材作為選片入口；同演員的 IPZZ-924 則先建立明確的校園角色與人物關係。兩者提供不同的預期，尚不足以比較成片表現。",
+  "title_basis": {
+    "performer": "櫻若菜",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "櫻若菜",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "出道第1000天",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "櫻若菜",
+    "presentation_feature": "出道第1000天",
+    "editorial_judgment": "比較兩份公開簡介如何建立選片預期：一部以紀念日與題材集合為主軸，一部以校園角色和人物關係為主軸。",
+    "source_keywords": [
+      "櫻若菜",
+      "出道第1000天",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "IPZZ-984 的標題與簡介使用「第1000天」及「DAY:1000」，並列出多項題材。",
+      "supports": "本作的公開介紹以紀念日企劃統整題材，而非交代一條明確的角色故事。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "IPZZ-924 的公開簡介設定女學生、教師與校園內的事件。",
+      "supports": "同演員作品提供較明確的角色關係與情境，可作為選片入口的具體對照。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "「第1000天」對應的實際出道日期與精確經歷。",
+    "兩部作品的實際畫面、聲音、表演強度、敘事密度與節奏。",
+    "宣傳列舉的題材在成片中的篇幅或呈現順序。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-11T16:00:00.000Z"
+}

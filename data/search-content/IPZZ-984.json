@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "movie_id": "IPZZ-984",
+  "generated_at": "2026-11-12T04:49:09.165Z",
+  "source_snapshot_hash": "sha256:a03d432c005f9c8879bce7dafea388ca8751208448761f62a96566e6312741bc",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想依企劃主題與題材範圍找片，可先看 IPZZ-984；想先知道具體角色關係，可參考 IPZZ-924 的校園設定。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開文案以「第1000天」作為統整題材的主題。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "IPZZ-924",
+      "relation_type": "same_performer",
+      "reason": "同樣由櫻若菜出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "櫻若菜"
+      ],
+      "contrast_signals": [
+        "變得不分場合失禁",
+        "學生設定"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作的公開介紹以什麼作為主題？",
+    "它與同演員的校園設定作品有何具體差異？",
+    "這項差異如何幫助選片？"
+  ]
+}

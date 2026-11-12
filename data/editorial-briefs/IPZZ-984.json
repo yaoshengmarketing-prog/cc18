@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "id": "IPZZ-984",
+  "generated_at": "2026-11-12T04:49:08.502Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/IPZZ-984.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "出道第1000天",
+    "premise": "作品以「出道第1000天」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「出道第1000天」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "出道第1000天",
+      "櫻若菜",
+      "絕頂限制解除",
+      "顏射",
+      "亂交",
+      "潮吹"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "顏射",
+      "亂交",
+      "淫亂・過激系",
+      "アクメ・オーガズム"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由櫻若菜演出，這部「第1000天」企劃與另一部校園設定作品，分別用什麼設定吸引讀者？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=3GZRKzMe855&cat=19",
+      "supports": "已核對的來源快照記載櫻若菜、IDEA POCKET，以及以「第1000天」和多項題材為重心的公開簡介。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=klRo1DJvE4v&cat=19",
+      "supports": "已核對的關聯作品快照記載同樣由櫻若菜演出，公開簡介以校園人物關係與受制於教師的情境推進。"
+    }
+  ],
+  "angle_candidates": [
+    "把「第1000天」視為宣傳企劃的統整方式，與另一部作品的單一校園情境比較。",
+    "從公開標籤與簡介辨認題材範圍，但不推斷實際場面或節奏。",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "IPZZ-984 用「第1000天」集合多種題材作為選片入口；同演員的 IPZZ-924 則先建立明確的校園角色與人物關係。兩者提供不同的預期，尚不足以比較成片表現。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "櫻若菜",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "出道第1000天",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "櫻若菜的第1000天：限制解除企劃",
+  "display_short_title": "櫻若菜的第1000天",
+  "title": "第1000天，為何改用企劃主題帶路？",
+  "seo_title": "IPZZ-984｜櫻若菜的第1000天：企劃主題與校園設定的選片差異",
+  "social_title": "櫻若菜的第1000天，這次先看企劃設定",
+  "short_review": "公開簡介以「第1000天」串起多項題材；比起同演員作品 IPZZ-924 的校園角色設定，這部更適合想先按企劃主題選片的讀者。",
+  "editorial_angle": "比較兩份公開簡介如何建立選片預期：一部以紀念日與題材集合為主軸，一部以校園角色和人物關係為主軸。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "IPZZ-984 的標題與簡介使用「第1000天」及「DAY:1000」，並列出多項題材。",
+      "supports": "本作的公開介紹以紀念日企劃統整題材，而非交代一條明確的角色故事。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "IPZZ-924 的公開簡介設定女學生、教師與校園內的事件。",
+      "supports": "同演員作品提供較明確的角色關係與情境，可作為選片入口的具體對照。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "「第1000天」對應的實際出道日期與精確經歷。",
+    "兩部作品的實際畫面、聲音、表演強度、敘事密度與節奏。",
+    "宣傳列舉的題材在成片中的篇幅或呈現順序。"
+  ],
+  "decision_guide": {
+    "thesis": "想依企劃主題與題材範圍找片，可先看 IPZZ-984；想先知道具體角色關係，可參考 IPZZ-924 的校園設定。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開文案以「第1000天」作為統整題材的主題。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作的公開介紹以什麼作為主題？",
+      "它與同演員的校園設定作品有何具體差異？",
+      "這項差異如何幫助選片？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "第1000天，把題材收進同一個主題",
+      "body": "IPZZ-984 的公開標題與簡介反覆標出櫻若菜的「第1000天」，再列舉玩具、拘束、多人情境等題材。這份介紹給讀者的第一個線索是紀念日企劃與題材範圍；它沒有像角色故事那樣，先交代人物如何相遇、事件如何發展。"
+    },
+    {
+      "heading": "與校園設定作品相比，選片入口不同",
+      "body": "同樣由櫻若菜演出的 IPZZ-924，公開簡介先設定女學生、教師及校園內的受制關係。想從具體角色處境進入作品，後者的介紹更直接；想看「第1000天」如何集合不同題材，IPZZ-984 的企劃主題更貼近這個興趣。這是兩份文案在設定上的差異，不能據此判定哪部成片更精彩。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據 CC18 的 IPZZ-984 作品資料快照（https://cc18.tv/player.php?uuid=3GZRKzMe855&cat=19）及同演員 IPZZ-924 的已核對關聯作品快照（https://cc18.tv/player.php?uuid=klRo1DJvE4v&cat=19）。外部頁面在本次執行環境中無法開啟；比較限於提供的標題、標籤與公開簡介，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "a03d432c005f9c8879bce7dafea388ca8751208448761f62a96566e6312741bc",
+    "response_sha256": "538aa0f988ca65b3e16f05bd5bd4be0c84d4424e45505edf308719f256727c15",
+    "research_input_sha256": "1d730a5466b4ae8ace602367028608d15f4dc74e77ef47f6a20e0dccfbfb8967",
+    "related_source_ids": [
+      "IPZZ-924"
+    ]
+  }
+}
