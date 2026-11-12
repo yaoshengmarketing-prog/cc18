@@ -164,10 +164,13 @@ test('a failed work checkpoint cannot contaminate the next work or shared projec
     await removeCleanWorktree({repositoryRoot: runner, ...nextWorkspace});
     nextWorkspace = null;
     git(runner, 'fetch', 'origin', 'main');
+    // A previous restore may leave a divergent local ref for the same work.
+    git(runner, 'update-ref', 'refs/cc18-checkpoints/a-001', 'origin/main');
 
     retryWorkspace = await createCleanWorktree({repositoryRoot: runner, baseRef: 'origin/main', linkNodeModules: false});
     const restored = await restoreWorkCheckpoint({repositoryRoot: runner, workspaceRoot: retryWorkspace.workspaceRoot, movieId: 'A-001'});
     assert.equal(restored.restored, true);
+    assert.equal(git(runner, 'rev-parse', 'refs/cc18-checkpoints/a-001'), checkpoint.commit);
     const readNormalized = async (path) => (await readFile(join(retryWorkspace.workspaceRoot, path), 'utf8')).replaceAll('\r\n', '\n');
     assert.equal(await readNormalized('content/reviews/A-001.md'), 'A CHECKPOINT\n');
     assert.equal(await readNormalized('content/reviews/B-001.md'), 'B PUBLISHED\n');

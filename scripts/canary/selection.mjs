@@ -6,6 +6,12 @@ export function alreadyPublishedRequestedIds(registry, requestedIds) {
   });
 }
 
+export function isCompletedPublishedWork({registryRecord, editorialJob, publishJob}) {
+  return registryRecord?.review_status === 'published'
+    && editorialJob?.status === 'completed'
+    && publishJob?.status === 'completed';
+}
+
 export function registryDraftIds(registry) {
   return new Set(registry.records
     .filter((record) => record.review_status === 'draft')
