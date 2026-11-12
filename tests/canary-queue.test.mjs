@@ -8,7 +8,7 @@ import {D1RestQueueStore, FileQueueStore} from '../scripts/queue/store.mjs';
 import {bindSql, WranglerQueueStore} from '../scripts/editorial/lib/wrangler-queue-store.mjs';
 import {completeEditorialAfterCheckpoint} from '../scripts/editorial/lib/handoff-order.mjs';
 import {assertSingleWorkRequest, checkpointArtifactPaths} from '../scripts/canary/isolation.mjs';
-import {alreadyPublishedRequestedIds, classifyCanaryStageOutcome, isAdmittedCanaryWork, isNonBlockingMediaOutcome, isNonBlockingVideoOutcome, registryDraftIds} from '../scripts/canary/selection.mjs';
+import {alreadyPublishedRequestedIds, classifyCanaryStageOutcome, isAdmittedCanaryWork, isCompletedPublishedWork, isNonBlockingMediaOutcome, isNonBlockingVideoOutcome, registryDraftIds} from '../scripts/canary/selection.mjs';
 
 test('Wrangler retries a failed candidate SELECT once but never replays a write', async () => {
   let calls = 0;
@@ -48,6 +48,16 @@ test('explicit canary may promote a Registry draft but refuses a published recor
   assert.deepEqual(alreadyPublishedRequestedIds(registry, ['SNOS-409']), []);
   assert.deepEqual(alreadyPublishedRequestedIds(registry, ['SNOS-371']), ['SNOS-371']);
   assert.deepEqual([...registryDraftIds(registry)], ['SNOS-409']);
+});
+
+test('a duplicate dispatch only skips a fully published work', () => {
+  const jobs = {editorialJob: {status: 'completed'}, publishJob: {status: 'completed'}};
+  assert.equal(isCompletedPublishedWork({registryRecord: {review_status: 'published'}, ...jobs}), true);
+  assert.equal(isCompletedPublishedWork({registryRecord: {review_status: 'draft'}, ...jobs}), false);
+  assert.equal(isCompletedPublishedWork({registryRecord: {review_status: 'published'},
+    editorialJob: {status: 'failed'}, publishJob: {status: 'completed'}}), false);
+  assert.equal(isCompletedPublishedWork({registryRecord: {review_status: 'published'},
+    editorialJob: {status: 'completed'}, publishJob: {status: 'leased'}}), false);
 });
 
 test('video retry or terminal failure does not block an approved article while required stages remain blocking', () => {

@@ -262,7 +262,12 @@ export async function restoreWorkCheckpoint({repositoryRoot, workspaceRoot, movi
   const remoteSha = remoteCheckpoint({repositoryRoot, remote, ref});
   if (!remoteSha) return {restored: false, ref, paths: []};
   const remoteRef = `refs/cc18-checkpoints/${assertMovieId(movieId).toLowerCase()}`;
-  git({root: repositoryRoot, args: ['fetch', remote, `${ref}:${remoteRef}`]});
+  // This local cache may point to an older checkpoint from a previous attempt.
+  // Force only the local fetch destination; the remote checkpoint is untouched.
+  git({root: repositoryRoot, args: ['fetch', remote, `+${ref}:${remoteRef}`]});
+  if (git({root: repositoryRoot, args: ['rev-parse', remoteRef]}) !== remoteSha) {
+    throw new Error(`${ref}: remote checkpoint changed while restoring`);
+  }
   const currentRegistry = parseJson(await readFile(resolve(workspaceRoot, 'data/movie-registry.json'), 'utf8'), 'data/movie-registry.json');
   const currentRecord = currentRegistry.records?.find(({id}) => id === movieId);
   if (currentRecord && currentRecord.review_status !== 'draft') {

@@ -3,7 +3,7 @@ import {createHash} from 'node:crypto';
 import {readFile, stat} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {queueStoreFromEnvironment} from '../queue/store.mjs';
-import {alreadyPublishedRequestedIds} from './selection.mjs';
+import {alreadyPublishedRequestedIds, isCompletedPublishedWork} from './selection.mjs';
 import {
   assertSingleWorkRequest,
   createRestoredCheckpointAuthorization,
@@ -63,6 +63,7 @@ const pipeline = JSON.parse(git(['show', 'origin/main:config/pipeline.json']).st
 const requireCompletedEditorial = pipeline.production?.editorial_executor === 'local_codex';
 const store = queueStoreFromEnvironment({mode: 'd1'});
 const resumablePublishedIds = new Set();
+const completedPublishedIds = new Set();
 for (const {id, review_status: status} of registry.records) {
   if (status === 'draft') continue;
   const [editorial, publish] = await Promise.all([
@@ -72,6 +73,16 @@ for (const {id, review_status: status} of registry.records) {
   if (editorial?.status === 'completed' && publish && publish.status !== 'completed') {
     resumablePublishedIds.add(id.toUpperCase());
   }
+  if (isCompletedPublishedWork({registryRecord: {review_status: status}, editorialJob: editorial, publishJob: publish})) {
+    completedPublishedIds.add(id.toUpperCase());
+  }
+}
+const alreadyCompleted = requestedIds.filter((id) => completedPublishedIds.has(id));
+if (alreadyCompleted.length) {
+  await assertProtected();
+  emitResult({event: 'isolated_canary_already_published', base_commit: baseCommit,
+    movie_id: alreadyCompleted[0], maximum_works: 1});
+  process.exit(0);
 }
 const refusedPublished = alreadyPublishedRequestedIds(registry, requestedIds)
   .filter((id) => !resumablePublishedIds.has(id));
