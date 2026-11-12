@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "BOKD-322",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-12T06:52:45.877Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/BOKD-322/hero-v1.jpg",
+      "r2_key": "works/2026/11/BOKD-322/hero-v1.jpg",
+      "bytes": 579953,
+      "sha256": "750d350156601f91c07aa04896d3b7eef3187f4a63ff4c9a1e81191e24a5add3",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "48eced85dcd746aa963f69e4553c2763",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/BOKD-322/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/BOKD-322/scene-vertical-v1.jpg",
+      "bytes": 880679,
+      "sha256": "3a41e9515f9ec7381c7d588b86bea5179e3ad7db5fa7fc021f4a8a018a37b64d",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "67280835482a483a8cdf693e0a42eb5b",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2321349,
+    "sha256": "f733f98545b7deb236bcdb8d867aa22b6ebf9e23f0d5422acd0f279da460d00f",
+    "target_r2_key": "works/2026/11/BOKD-322/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/BOKD-322/vertical-v1.mp4"
+  }
+}

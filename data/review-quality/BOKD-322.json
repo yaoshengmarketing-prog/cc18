@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "BOKD-322",
+  "review_sha256": "9e6673ee78968e16d58e8b725de10bc654f453a0c6518c3df2c32277dc7c89f5",
+  "selected_thesis": "本作在系列既有的外貌反差概念上，加入神楽ゆら的出道身分，以及從文靜形象轉向大膽形象的宣傳敘述；選片理由因此更偏向認識這位演員如何被首次介紹。",
+  "title_basis": {
+    "performer": "神楽ゆら",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "神楽ゆら",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "AV出道",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "こう見えてオチンチンついてます",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "神楽ゆら",
+    "presentation_feature": "AV出道",
+    "editorial_judgment": "比較系列名稱與本作簡介的具體重心：前者提出外貌反差，後者加入出道身分及人物形象轉換。這是公開介紹方式的差異，不是對成片表演的評價。",
+    "source_keywords": [
+      "神楽ゆら",
+      "AV出道",
+      "こう見えてオチンチンついてます",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源關係將本作列入以外貌與身體設定反差命名的系列。",
+      "supports": "系列提供本作所依附的基本概念。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "作品標題及標籤均將本作標為神楽ゆら的出道作。",
+      "supports": "出道身分是本作相對於系列概念新增的明確選片線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介先以文靜、羞澀描述神楽ゆら，再以逐漸大膽的形象作對照。",
+      "supports": "宣傳重心包含人物形象的轉換，但不足以證實成片效果。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將宣傳簡介描述的表情或行為寫成已核實的影片觀察。",
+    "未推論神楽ゆら的真實經歷、性別身分或出道前履歷。",
+    "未推論同系列其他作品的設定或成片品質。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-11T16:00:00.000Z"
+}

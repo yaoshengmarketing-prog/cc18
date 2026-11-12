@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "id": "BOKD-322",
+  "checked_at": "2026-11-12T06:52:04.758Z",
+  "review_sha256": "7b467f9a7f11164fa789c533938e66ed8ed02a1ecaecf7eee822851c9fb449e5",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "title_lacks_source_core_concept",
+    "missing_creative_reconstruction_audit",
+    "insufficient_search_intents"
+  ],
+  "findings": [
+    {
+      "code": "title_lacks_source_core_concept",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_search_intents",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 3,
+    "evidence_items": 3,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 2,
+    "recommendations": 0
+  }
+}

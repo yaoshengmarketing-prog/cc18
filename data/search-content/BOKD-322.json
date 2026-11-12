@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "movie_id": "BOKD-322",
+  "generated_at": "2026-11-12T06:47:27.815Z",
+  "source_snapshot_hash": "sha256:97a63949aba081beee5c6d0e4a643988ebf4a8d6eef360915bb7f07cedc35479",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若想看神楽ゆら如何在這個系列概念下被首次介紹，本作的出道定位與形象反差提供了明確理由；公開材料無法回答故事、節奏或實際表現。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "演員出道介紹",
+      "文靜與大膽的宣傳形象對照",
+      "系列外貌反差設定"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想從出道作認識神楽ゆら的讀者",
+      "對系列反差設定如何套用到新演員感興趣的讀者"
+    ],
+    "not_for": [
+      "需要先確認明確故事線與實際節奏的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "本作相較於系列名稱，多了哪些公開可核對的介紹重點？",
+    "這些重點能提供什麼選片理由？"
+  ]
+}

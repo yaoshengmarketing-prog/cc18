@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "id": "BOKD-322",
+  "generated_at": "2026-11-12T06:47:26.752Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/BOKD-322.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "AV出道",
+    "premise": "作品以「AV出道」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「AV出道」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "AV出道",
+      "我看起來這樣但其實有雞巴",
+      "神樂由良",
+      "出道作"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "變性人"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "アナルセックス(男の娘)"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "系列名稱已點出外貌與身體設定的反差，本作的公開介紹又增加了什麼選片線索？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=yzapUVXic4c&cat=19",
+      "supports": "提供本作標題、演員、出道作標籤與宣傳簡介；依已核對的來源快照使用，未能開啟頁面核讀全文。"
+    },
+    {
+      "url": "https://cc18.tv/search.php?s_type=series&s_tid=569",
+      "supports": "來源快照記錄本作所屬系列及系列名稱；未能開啟系列頁，未據此推論其他作品內容。"
+    }
+  ],
+  "angle_candidates": [
+    "系列名稱強調外貌反差，本作則以出道與人物形象轉換作為介紹重心。",
+    "出道作標籤如何影響讀者對神楽ゆら的期待。",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作在系列既有的外貌反差概念上，加入神楽ゆら的出道身分，以及從文靜形象轉向大膽形象的宣傳敘述；選片理由因此更偏向認識這位演員如何被首次介紹。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "神楽ゆら",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "AV出道",
+      "source_field": "title"
+    },
+    {
+      "type": "series",
+      "value": "こう見えてオチンチンついてます",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "神楽ゆら的男娘出道作",
+  "display_short_title": "神楽ゆら的出道介紹",
+  "title": "從系列反差到出道形象：神楽ゆら這次如何被介紹？",
+  "seo_title": "BOKD-322｜神楽ゆら的出道形象與系列反差設定",
+  "social_title": "神楽ゆら的出道作，宣傳重點放在哪裡？",
+  "short_review": "系列名稱先提出外貌反差，本作再以「出道作」與文靜到大膽的形象轉換介紹神楽ゆら。想認識這位演員的讀者，可以從這個宣傳角度選片；故事與實際呈現仍無資料可判斷。",
+  "editorial_angle": "比較系列名稱與本作簡介的具體重心：前者提出外貌反差，後者加入出道身分及人物形象轉換。這是公開介紹方式的差異，不是對成片表演的評價。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源關係將本作列入以外貌與身體設定反差命名的系列。",
+      "supports": "系列提供本作所依附的基本概念。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "作品標題及標籤均將本作標為神楽ゆら的出道作。",
+      "supports": "出道身分是本作相對於系列概念新增的明確選片線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介先以文靜、羞澀描述神楽ゆら，再以逐漸大膽的形象作對照。",
+      "supports": "宣傳重心包含人物形象的轉換，但不足以證實成片效果。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將宣傳簡介描述的表情或行為寫成已核實的影片觀察。",
+    "未推論神楽ゆら的真實經歷、性別身分或出道前履歷。",
+    "未推論同系列其他作品的設定或成片品質。"
+  ],
+  "decision_guide": {
+    "thesis": "若想看神楽ゆら如何在這個系列概念下被首次介紹，本作的出道定位與形象反差提供了明確理由；公開材料無法回答故事、節奏或實際表現。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "演員出道介紹",
+      "文靜與大膽的宣傳形象對照",
+      "系列外貌反差設定"
+    ],
+    "audience_for": [
+      "想從出道作認識神楽ゆら的讀者",
+      "對系列反差設定如何套用到新演員感興趣的讀者"
+    ],
+    "audience_not_for": [
+      "需要先確認明確故事線與實際節奏的讀者",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "本作相較於系列名稱，多了哪些公開可核對的介紹重點？",
+      "這些重點能提供什麼選片理由？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "系列概念之外，出道是本作的重點",
+      "body": "系列名稱已把外貌與身體設定的反差說在前面；本作的標題和標籤則進一步指出，這是神楽ゆら的出道作。兩者給讀者的線索不同：系列告訴你企劃圍繞什麼概念，本作則把注意力放在一位新演員如何進入這個概念。"
+    },
+    {
+      "heading": "宣傳文字如何介紹神楽ゆら",
+      "body": "簡介先用文靜、羞澀建立神楽ゆら的形象，再轉向大膽的一面。這個前後對照，比單看系列名稱更具體，也讓想認識她的讀者有了選片理由。不過，文案能說明企劃想呈現的轉換，還不能證明影片如何完成它。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據已核對的[本作來源快照](https://cc18.tv/player.php?uuid=yzapUVXic4c&cat=19)及其中記錄的[系列關係](https://cc18.tv/search.php?s_type=series&s_tid=569)。外部頁面未能開啟；沒有使用影片抽樣，也沒有同演員或同系列其他作品的可核對材料。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "97a63949aba081beee5c6d0e4a643988ebf4a8d6eef360915bb7f07cedc35479",
+    "response_sha256": "956442de9497955a1cf33622bf281e67a028b177e724db67fc9d97c478a7122e",
+    "research_input_sha256": "82f81980bc96fc6970e5a3c1ab5710ae855e8bb9fed4ffe28bc681020375347c",
+    "related_source_ids": []
+  }
+}

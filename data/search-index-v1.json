@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:45c22d2d4b129c7e182eaa382d14d36cf175b9404243bfcbc6d277b516cf4e14",
-  "source_generated_at": "2026-11-12T04:55:52.363Z",
+  "source_revision": "sha256:a5395ce104ef70d9566f7995d928e197b674c3e6a8a517c7dc928682f425151a",
+  "source_generated_at": "2026-11-12T06:54:01.025Z",
   "counts": {
-    "movies": 584,
-    "performers": 404,
+    "movies": 585,
+    "performers": 405,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -3232,6 +3232,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:54853",
+      "display_name": "神楽ゆら",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "神楽ゆら",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:BOKD-322"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:13",
       "display_name": "紗倉真菜",
       "display_name_zh_tw": null,
@@ -4887,6 +4898,55 @@
         "article_title": "一場扭傷，如何改變身體接觸的故事起點？",
         "display_short_title": "壘球王牌的賽前整骨治療",
         "slug": "bban-614"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:BOKD-322",
+        "source_cover": "https://cc18.tv/preview/80/b/yzapUVXic4c-800.jpg?v=1794083858",
+        "title": "神楽ゆら的出道介紹",
+        "catalog_code": "BOKD-322",
+        "release_date": "2026-11-06",
+        "performers": [
+          "神楽ゆら"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "anal-sex",
+            "label": "肛交題材"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "transgender",
+            "label": "變性人"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/bokd-322/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54853"
+      ],
+      "search": {
+        "source_title": "AV出道 我看起來這樣但其實有雞巴。神樂由良",
+        "article_title": "從系列反差到出道形象：神楽ゆら這次如何被介紹？",
+        "display_short_title": "神楽ゆら的出道介紹",
+        "slug": "bokd-322"
       }
     },
     {
