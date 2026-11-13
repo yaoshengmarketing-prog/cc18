@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "ORECZ-670",
+  "checked_at": "2026-11-13T23:06:10.288Z",
+  "review_sha256": "3b060c6b1f23c1da5acc27f5b38f1ef208250fab5ddb2d5921463c62d106a7c4",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就目前可追溯的公開資訊來看，這部作品最明確的辨識點不是角色關係或故事背景，而是「獨家」這個核心概念。來源同時給出素人企劃、獨家限定、配信專用，以及素人、癡女、巨乳、中出、3p・4p等元素，顯示它更像是以企劃條件與題材組合來吸引觀眾的作品，而不是主打完整劇情鋪陳的類型。因此，若你的"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "若單看來源標示，最具辨識度的組合是「素人＋癡女」的身份設定，再疊加「巨乳」與「中出／3p・4p」這些明確行為與身體條件標籤。這種組合的優勢在於選片時很直觀：它不是用複雜世界觀來吸引人，而是用幾個高度可辨識的成人題材快速建立期待。對偏好先看標籤匹配度、而不是先找劇情深度的觀眾來說，"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
