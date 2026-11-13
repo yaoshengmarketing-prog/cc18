@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "movie_id": "SIRO-5734",
+  "generated_at": "2026-09-15T19:17:37.460Z",
+  "source_snapshot_hash": "sha256:1d777d66d51b866a81dd0772c6cb8f813b44318b8017b31fbddac7f8807f5757",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "【初撮り】ネットでAV応募→AV体験撮影的企劃呈現與觀看取向",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "【初撮り】ネットでAV応募→AV体験撮影",
+      "素人企劃",
+      "自拍形式",
+      "高畫質"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SIRO-5722",
+      "relation_type": "same_series",
+      "reason": "同屬「【初撮り】ネットでAV応募→AV体験撮影」系列，可用來比較相同公式在不同作品中的角色設定與推進差異。",
+      "shared_signals": [
+        "【初撮り】ネットでAV応募→AV体験撮影"
+      ],
+      "contrast_signals": [
+        "素人企劃",
+        "害羞女孩"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？【初撮り】ネットでAV応募→AV体験撮影的企劃呈現與觀看取向",
+    "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+    "有哪些觀看取捨？只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+  ]
+}

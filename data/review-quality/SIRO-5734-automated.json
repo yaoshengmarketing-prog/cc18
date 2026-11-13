@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "SIRO-5734",
+  "checked_at": "2026-11-13T23:02:50.454Z",
+  "review_sha256": "11f5bbd9317944831782b73b66d5d76c9492974ed459767c83bd580a42401455",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只依公開來源判斷，SIRO-5734 最明確的吸引點不是複雜劇情，而是「獨家」與「【初撮り】ネットでAV応募→AV体験撮影」這個系列框架本身。片名線索已經把企劃方向說得很清楚：它建立在素人應徵、AV 體驗拍攝、初次紀錄這類入口設定上，因此選片時的核心判斷，會落在你是否偏好這種以"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "目前可追溯的題材訊號主要有「素人」「巨乳」以及「自拍形式／配信專用／高畫質」等呈現資訊。其中「素人」與系列名稱互相呼應，讓作品的入口很明確：它不是明星主導型宣傳，而是以素人企劃包裝作為第一層賣點；「巨乳」則提供了身體特徵上的選片依據。至於「自拍」「720p」「全高清 (FHD)」"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}

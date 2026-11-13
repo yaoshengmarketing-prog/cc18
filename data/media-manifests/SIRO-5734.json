@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "SIRO-5734",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-13T23:02:51.708Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/SIRO-5734/hero-v1.jpg",
+      "r2_key": "works/2026/09/SIRO-5734/hero-v1.jpg",
+      "bytes": 675405,
+      "sha256": "0bf6d3e9d9995795206f1d2555fd0db71d601632f4bdec9c3b3b5c537d416b2d",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/SIRO-5734/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/SIRO-5734/scene-vertical-v1.jpg",
+      "bytes": 1101143,
+      "sha256": "502dd27426c0fd74b9bb4f30d3e18307c6a9762501333acba5038ee3bac951fc",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3414526,
+    "sha256": "1d158acc03def0ef1c83fc077cadd1c8c0674a1978764924caab87f2d6f5db83",
+    "target_r2_key": "works/2026/09/SIRO-5734/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/SIRO-5734/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
