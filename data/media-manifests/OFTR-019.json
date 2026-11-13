@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "OFTR-019",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-13T20:43:46.734Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/OFTR-019/hero-v1.jpg",
+      "r2_key": "works/2026/11/OFTR-019/hero-v1.jpg",
+      "bytes": 632085,
+      "sha256": "6ddbe9a350dfed9e581c7a7ce6ce9f74bdbf9686f6c0de8e3324a3824f3f79b7",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "f83d97f2aac1483588be4681b10e510c",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/OFTR-019/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/OFTR-019/scene-vertical-v1.jpg",
+      "bytes": 867936,
+      "sha256": "a5e80c3d44c8eed33d5995c5c6fdcc7ecfd069b2350b692a0691e6e43491d6fc",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "bc2dd8123203443b97a8847a4a2ec589",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2300727,
+    "sha256": "f78362010f2739c5d80dc07daf0edcacb8f95f4f20fe8fb3bb6a8a16d116c1d0",
+    "target_r2_key": "works/2026/11/OFTR-019/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/OFTR-019/vertical-v1.mp4"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "id": "OFTR-019",
+  "generated_at": "2026-11-13T20:38:33.814Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/OFTR-019.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "可射精的出張收購本舖",
+    "premise": "作品以「可射精的出張收購本舖」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「可射精的出張收購本舖」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "可射精的出張收購本舖",
+      "業界首創",
+      "要不要試試這項夢幻新服務",
+      "來場出張收購估價呢",
+      "中出",
+      "巨乳"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "企劃片",
+      "720p",
+      "HD"
+    ]
+  },
+  "research_question": "本作如何把到府收購的估價流程，變成四名估價員共同參與的成人企劃？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=9TV20NzvD4v&cat=19",
+      "supports": "使用題目提供的作品來源快照：標題與簡介設定到府收購服務、估價期間的成人服務，以及四名估價員；來源標籤包含「企劃片」與「後宮」。未以搜尋片段補充人物或成片資訊。"
+    }
+  ],
+  "angle_candidates": [
+    "估價流程如何串起四人企劃",
+    "四名估價員的不同服務形象如何幫助讀者選片",
+    "到府收購的職業設定與多人題材如何結合"
+  ],
+  "selected_thesis": "本作的可辨識之處，是用「到府估價」替四名估價員的多人企劃安排共同情境；選片時可依這個設定判斷興趣，不能據此推定成片節奏或品質。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "可射精的出張收購本舖",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "theme",
+      "value": "企劃片",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "body_type",
+      "value": "巨乳",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "可射精的到府收購本舖",
+  "display_short_title": "到府收購本舖",
+  "title": "到府估價，如何串起四名估價員？",
+  "seo_title": "OFTR-019｜到府估價如何串起四人企劃",
+  "social_title": "四名估價員，共用一場到府收購設定",
+  "short_review": "來源簡介把四名估價員安排進同一項到府收購服務，讓多人題材有了明確的共同情境。若你在意企劃設定，這比單看「後宮」標籤更能說明本作的選片理由。",
+  "editorial_angle": "比較來源簡介中的兩層設定：收購舊物是服務的表面任務，估價期間的成人服務才是企劃重心。四名估價員因此共用同一個到府情境，而非只靠多人標籤介紹作品。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題以「出張收購估價」介紹服務，簡介也從收購廢棄物品說起。",
+      "supports": "到府估價是本作公開介紹的基本情境。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介稱四名估價員會到家中，並在估價期間提供成人服務。",
+      "supports": "估價流程把四人安排在同一項服務企劃中。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標籤包含「企劃片」與「後宮」；簡介另以認真、活潑、溫柔等形象介紹部分估價員。",
+      "supports": "本作的選片線索同時包含多人題材與角色形象分工，但來源沒有完整交代每人的身分。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將來源未列名的估價員對應到特定演員。",
+    "未依宣傳中的服務項目推定實際畫面、表演效果或成片節奏。",
+    "未把「業界首創」或滿意度數字當作已查證的事實。"
+  ],
+  "decision_guide": {
+    "thesis": "若想看多人題材如何被放進同一個職業情境，本作的到府估價設定提供了明確線索；若選片需要確認演員名單或成片表現，現有來源仍不足以回答。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "到府估價的職業設定",
+      "四名估價員的多人企劃",
+      "以不同服務形象介紹部分估價員"
+    ],
+    "audience_for": [
+      "喜歡以共同情境串起多人企劃的讀者",
+      "想先了解作品設定再選片的讀者"
+    ],
+    "audience_not_for": [
+      "選片前必須確認完整演員名單的讀者",
+      "需要先知道實際敘事節奏或表演效果的讀者"
+    ],
+    "questions_answered": [
+      "本作的共同情境是什麼？",
+      "四名估價員如何被放進同一企劃？",
+      "現有來源能支持哪些選片判斷？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "估價是四人企劃的共同情境",
+      "body": "這部作品的來源介紹先提出到府收購服務，再把成人服務放進估價期間。兩層設定的作用不同：收購舊物交代了四名估價員為何到場，估價時提供的服務則是企劃重心。對想找多人題材的讀者來說，「後宮」標籤說明了方向；到府估價的設定，進一步說明這些人如何被安排在同一個情境裡。"
+    },
+    {
+      "heading": "角色形象提供線索，仍留有空白",
+      "body": "簡介以認真、活潑和溫柔等形象介紹部分估價員，讓四人服務不只剩下人數上的賣點。不過，來源沒有列出演員，也沒有完整交代每位估價員的身分。若你偏好先從企劃設定選片，這份介紹已有具體方向；若你在意特定演員或實際呈現方式，仍需要更多資料。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用題目提供的 [CC18 作品來源快照](https://cc18.tv/player.php?uuid=9TV20NzvD4v&cat=19)，依其標題、簡介與標籤比較設定的作用。四人企劃的選片意義是編輯判斷；沒有使用影片抽樣，也沒有採用未核對的搜尋片段。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "2560e69ff0a77c3546501190a44fed3da930af4a74bf5e809e99b4a722512c4e",
+    "response_sha256": "00d1f77d8ee0d22aa6d0369d827be6cc396682d5fe5b8b754897c83de9903f6a",
+    "research_input_sha256": "252a19060ccabcd87535c12b77b5e8577c3474566ae7d73b5c50bf4352f76a4a",
+    "related_source_ids": []
+  }
+}

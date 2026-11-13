@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "OFTR-019",
+  "review_sha256": "fdf60f9827dde72dccf13590057d15a6bdcdf33ca822629af0be0a17b0ac80a1",
+  "selected_thesis": "本作的可辨識之處，是用「到府估價」替四名估價員的多人企劃安排共同情境；選片時可依這個設定判斷興趣，不能據此推定成片節奏或品質。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "可射精的出張收購本舖",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "theme",
+        "value": "企劃片",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "巨乳",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "可射精的出張收購本舖",
+    "presentation_feature": "企劃片",
+    "editorial_judgment": "比較來源簡介中的兩層設定：收購舊物是服務的表面任務，估價期間的成人服務才是企劃重心。四名估價員因此共用同一個到府情境，而非只靠多人標籤介紹作品。",
+    "source_keywords": [
+      "可射精的出張收購本舖",
+      "企劃片",
+      "高畫質",
+      "巨乳"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題以「出張收購估價」介紹服務，簡介也從收購廢棄物品說起。",
+      "supports": "到府估價是本作公開介紹的基本情境。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介稱四名估價員會到家中，並在估價期間提供成人服務。",
+      "supports": "估價流程把四人安排在同一項服務企劃中。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標籤包含「企劃片」與「後宮」；簡介另以認真、活潑、溫柔等形象介紹部分估價員。",
+      "supports": "本作的選片線索同時包含多人題材與角色形象分工，但來源沒有完整交代每人的身分。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將來源未列名的估價員對應到特定演員。",
+    "未依宣傳中的服務項目推定實際畫面、表演效果或成片節奏。",
+    "未把「業界首創」或滿意度數字當作已查證的事實。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-13T16:00:00.000Z"
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "movie_id": "OFTR-019",
+  "generated_at": "2026-11-13T20:38:34.471Z",
+  "source_snapshot_hash": "sha256:2560e69ff0a77c3546501190a44fed3da930af4a74bf5e809e99b4a722512c4e",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若想看多人題材如何被放進同一個職業情境，本作的到府估價設定提供了明確線索；若選片需要確認演員名單或成片表現，現有來源仍不足以回答。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "到府估價的職業設定",
+      "四名估價員的多人企劃",
+      "以不同服務形象介紹部分估價員"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "喜歡以共同情境串起多人企劃的讀者",
+      "想先了解作品設定再選片的讀者"
+    ],
+    "not_for": [
+      "選片前必須確認完整演員名單的讀者",
+      "需要先知道實際敘事節奏或表演效果的讀者"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "本作的共同情境是什麼？",
+    "四名估價員如何被放進同一企劃？",
+    "現有來源能支持哪些選片判斷？"
+  ]
+}
