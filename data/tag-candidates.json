@@ -2127,7 +2127,7 @@
     },
     {
       "label": "溫泉",
-      "occurrences": 10,
+      "occurrences": 11,
       "source_ids": [
         "OREMO-606",
         "OFTR-016",
@@ -2138,7 +2138,8 @@
         "DLDSS-565",
         "DANDYA-045",
         "RKI-770",
-        "START-621"
+        "START-621",
+        "OREMO-607"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-08",

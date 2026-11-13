@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "id": "OREMO-607",
+  "checked_at": "2026-11-13T23:09:37.880Z",
+  "review_sha256": "0d0d97d7c482f224e9eb12b7c5bb0223b5edacbdb3c07f18d573b3cc8529708b",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 12,
+          "excerpt": "整體來看，OREMO-607 的可成立評價，在於它是一部來源訊號很明確的展示型素人企劃。它的優勢不是已知劇情，而是「獨家」核心概念搭配素人、巨乳、中出、3p・4p、溫泉場景與配信專用等條件，形成快速可辨識的選片輪廓。因此，這部片最適合被推薦給會先看企劃組合、再決定是否入坑的讀者；"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "sections": 6,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
