@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "id": "PPV-4977601",
+  "checked_at": "2026-11-14T10:59:37.459Z",
+  "review_sha256": "240f1edc892cf3058a7eb25fe567b45f440173f0c668df96f8b321266e513cbb",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_pivot_observed",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "就現有公開資訊來看，最清楚的辨識點是「獨家」這個核心概念。它不只直接出現在來源線索中，也和標題相關訊號裡的「FC2」「美女」一起形成作品的對外定位。若以選片角度判斷，這代表本作吸引人的方式，首先不是已知角色關係、完整劇情梗概或明確場景設定，而是以單一主題包裝與人物類型來建立注意力"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
