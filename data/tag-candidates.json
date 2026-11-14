@@ -1349,7 +1349,7 @@
     },
     {
       "label": "背後位",
-      "occurrences": 21,
+      "occurrences": 22,
       "source_ids": [
         "HHF-111",
         "HUNTC-626",
@@ -1371,7 +1371,8 @@
         "SODAH-012",
         "NACT-202",
         "SNOS-407",
-        "HUNTC-650"
+        "HUNTC-650",
+        "HEYZO-3970"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-11",
@@ -1395,7 +1396,7 @@
     },
     {
       "label": "打手槍",
-      "occurrences": 20,
+      "occurrences": 21,
       "source_ids": [
         "SNOS-447",
         "GOJI-110",
@@ -1416,7 +1417,8 @@
         "MNGS-070",
         "DOKS-688",
         "HEYZO-3917",
-        "EWDX-622"
+        "EWDX-622",
+        "HEYZO-3970"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-11",
@@ -1674,7 +1676,7 @@
     },
     {
       "label": "女僕",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "DOKS-690",
         "MXGS-1451",
@@ -1682,10 +1684,11 @@
         "NACT-205",
         "SNOS-336",
         "MKMP-763",
-        "START-650"
+        "START-650",
+        "HEYZO-3970"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     },
     {
@@ -1955,7 +1958,7 @@
     },
     {
       "label": "顏面騎乘",
-      "occurrences": 7,
+      "occurrences": 8,
       "source_ids": [
         "EKDV-826",
         "CLOT-043",
@@ -1963,10 +1966,11 @@
         "DFDM-078",
         "NLD-034",
         "MADV-643",
-        "GVH-885"
+        "GVH-885",
+        "HEYZO-3970"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     },
     {
@@ -2895,15 +2899,16 @@
     },
     {
       "label": "無碼片",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "HEYZO-3964",
         "HEYZO-3939",
         "HEYZO-3994",
-        "HEYZO-3917"
+        "HEYZO-3917",
+        "HEYZO-3970"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-05",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     },
     {
@@ -3361,14 +3366,15 @@
     },
     {
       "label": "舔鮑",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "MBMH-097",
         "CEMD-880",
-        "RGAV-005"
+        "RGAV-005",
+        "HEYZO-3970"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-06",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     },
     {
@@ -3551,6 +3557,26 @@
       ],
       "first_seen": "2026-11-12",
       "last_seen": "2026-11-12",
+      "status": "quarantined"
+    },
+    {
+      "label": "69",
+      "occurrences": 1,
+      "source_ids": [
+        "HEYZO-3970"
+      ],
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
+      "status": "quarantined"
+    },
+    {
+      "label": "胸射",
+      "occurrences": 1,
+      "source_ids": [
+        "HEYZO-3970"
+      ],
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
       "status": "quarantined"
     }
   ]

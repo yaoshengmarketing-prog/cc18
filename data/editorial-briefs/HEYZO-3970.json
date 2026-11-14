@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "id": "HEYZO-3970",
+  "generated_at": "2026-11-10T03:41:55.514Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/HEYZO-3970.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "盡情玩弄色情女僕",
+    "premise": "作品以「盡情玩弄色情女僕」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「盡情玩弄色情女僕」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "盡情玩弄色情女僕",
+      "美女收藏Vol.144",
+      "木原あけみ",
+      "女僕",
+      "69"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "騎乘位"
+    ],
+    "presentation": [
+      "720p"
+    ]
+  },
+  "research_question": "《美女收藏》第144彈的作品簡介，如何讓木原あけみ的女僕設定比單看標籤更具體？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=BX6xb3BRw1D&cat=19",
+      "supports": "作品頁快照列出木原あけみ、女僕標籤及《美女收藏》第144彈。簡介以她打掃時被主人搭話作為情境開端，並將本作介紹為從其他網站選介的作品。"
+    }
+  ],
+  "angle_candidates": [
+    "從打掃時被主人搭話的設定，看女僕身分如何帶出角色互動。",
+    "從《美女收藏》第144彈的介紹，看文案如何把木原あけみ的角色放進選介框架。",
+    "盡情玩弄色情女僕的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "簡介用打掃中的一次搭話，交代木原あけみ的女僕身分與她和主人的互動起點。對想找有主僕情境的女僕題材的讀者，這比單看標籤更有辨識度。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "木原あけみ",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "盡情玩弄色情女僕",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "act_or_position",
+      "value": "騎乘位",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "木原あけみ的女僕篇｜美女收藏第144彈",
+  "display_short_title": "木原あけみ的女僕篇",
+  "title": "打掃時被主人搭話，女僕設定怎麼帶出互動？",
+  "seo_title": "HEYZO-3970｜木原あけみ的女僕設定與選片重點",
+  "social_title": "從打掃日常認識木原あけみ的女僕角色",
+  "short_review": "女僕標籤交代角色身分，簡介則給了更具體的情境。木原あけみ飾演的女僕正在打掃，主人就在這時向她搭話，讓想找主僕互動的讀者多了一項選片依據。",
+  "editorial_angle": "對照女僕標籤與簡介中的打掃情境，說明後者多交代了哪些角色資訊，以及這些資訊能回答哪些選片問題。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品頁標記女僕，簡介寫到主人在女僕打掃時向她搭話。",
+      "supports": "女僕身分在簡介中有相應的日常工作，主僕互動也有明確的情境起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "作品頁將木原あけみ列為演出者，並把本作介紹為《美女收藏》第144彈。",
+      "supports": "可以用演員、角色和集數辨識這一篇。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "成片是否從打掃場面開場，以及角色互動在成片中的篇幅。",
+    "成片的敘事密度、節奏、鏡位、台詞和表演品質。",
+    "本作與其他集數的設定差異，以及原始片名或原始發行資訊。"
+  ],
+  "decision_guide": {
+    "thesis": "若你找的是帶有主僕互動情境的女僕題材，打掃時被主人搭話的設定提供了具體的選片線索。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介先交代女僕的日常工作，再用主人的搭話帶出兩人的互動。"
+    ],
+    "audience_for": [
+      "想找木原あけ美演出女僕角色，並在意主僕互動如何開始的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "選片前需要確認完整故事線、角色發展或實際節奏的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ],
+    "questions_answered": [
+      "木原あけみ在這一彈被介紹成什麼角色？",
+      "簡介用什麼情境帶出主僕互動？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "女僕標籤之外，簡介多交代了什麼？",
+      "body": "《美女收藏》第144彈把木原あけみ放在一個容易理解的日常情境裡。她飾演的女僕正在打掃，主人選在這時向她搭話。女僕標籤只能告訴你她的角色身分，這段介紹則補上她當時在做什麼，以及兩人的互動怎麼開始。"
+    },
+    {
+      "heading": "這個設定能幫你怎麼選？",
+      "body": "如果你在意女僕身分有沒有帶出具體的主僕互動，打掃時被主人搭話就是這一彈的辨識點。如果你更在意兩人的關係後來有沒有變化，簡介提供的線索就到互動起點為止。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據提供的 CC18 作品頁快照，使用其中的演員資料、女僕標籤與公開簡介。未能開啟本作官方頁，也未使用影片抽樣或其他集數作比較。[CC18 作品頁](https://cc18.tv/player.php?uuid=BX6xb3BRw1D&cat=19)"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "e9967d65dba1b6ba92402b2627895ebb937e93a7667d9bdb46bd65420a72664d",
+    "response_sha256": "f62a4b7f6038f02fa9498c21cd4d31ce2e9d491f9ee22b2f1b6aece3e03e9d76",
+    "research_input_sha256": "411447f62532bbc03aebaba602dd89e47196fc067e629fa08bca9d0b7d364e69",
+    "related_source_ids": []
+  }
+}
