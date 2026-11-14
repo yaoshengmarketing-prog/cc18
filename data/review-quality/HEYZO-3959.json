@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "HEYZO-3959",
+  "review_sha256": "7f5c5cb8cdf7b1bf6718b2985bcb95a116ae62413acd3cc14a36a726b7051469",
+  "selected_thesis": "以『慢慢享受了宇野香奈美』為唯一鮮明概念，這部片最適合用演員導向、慢熱展示型企劃來理解，而不該被包裝成已有明確劇情結構的作品。",
+  "title_basis": {
+    "performer": "宇野香奈美",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "宇野香奈美",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "慢慢享受了宇野香奈美",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "宇野香奈美",
+    "presentation_feature": "慢慢享受了宇野香奈美",
+    "editorial_judgment": "以片名核心概念為主軸，判斷這是一部由宇野香奈美個人存在感帶動、重展示與節奏感的選片，而非靠明確劇情設定取勝的作品。",
+    "source_keywords": [
+      "宇野香奈美",
+      "慢慢享受了宇野香奈美",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "片名直接給出『慢慢享受了宇野香奈美』，重點首先落在演員本身與觀看節奏，而不是人物關係或事件設定。",
+      "basis": "public_source",
+      "signal": "慢慢享受了宇野香奈美"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資料唯一明確指向的演出者是宇野香奈美，因此選片判斷可合理以她的個人魅力與企劃呈現為中心。",
+      "basis": "public_source",
+      "signal": "宇野香奈美"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開訊號含有『高畫質』與『720p』，可作為補充性的呈現資訊，但不足以取代片名核心概念成為主要賣點。",
+      "basis": "public_source",
+      "signal": "高畫質／720p"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何具體情節發展",
+    "未描述任何場景內容或空間調度",
+    "未描述任何鏡位、剪輯、聲音或表演細節",
+    "未推定人物關係、角色身分或系列公式",
+    "未補寫公開資料中不存在的衝突、轉折或互動結果"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-02T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

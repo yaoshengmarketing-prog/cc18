@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "id": "HEYZO-3959",
+  "checked_at": "2026-11-14T10:41:29.634Z",
+  "review_sha256": "7f5c5cb8cdf7b1bf6718b2985bcb95a116ae62413acd3cc14a36a726b7051469",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "source_core_concept_not_developed",
+    "insufficient_sections",
+    "insufficient_evidence"
+  ],
+  "findings": [
+    {
+      "code": "source_core_concept_not_developed",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_evidence",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 3,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

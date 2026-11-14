@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "movie_id": "HEYZO-3959",
+  "generated_at": "2026-11-03T00:04:00.316Z",
+  "source_snapshot_hash": "sha256:df1758c272120a6c9dce0e2a92f84d736b5967d579e08c7d6320db638f16c1ed",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "如果你看重的是宇野香奈美本人，以及一種不急著推進、而是把注意力留在演員身上的企劃感，這部片會比追求明確故事轉折的作品更對味。",
+    "story_density": "unknown",
+    "pace": "slow",
+    "presentation": [
+      "高畫質",
+      "720p"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "以演員為第一選片條件的觀眾",
+      "偏好慢熱企劃感的觀眾",
+      "想找展示型作品而非高劇情密度作品的觀眾"
+    ],
+    "not_for": [
+      "期待完整人物關係鋪陳的觀眾",
+      "想看明確場景設定或強情節推進的觀眾",
+      "會把畫質規格當成唯一選片理由的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部片的核心賣點是什麼？",
+    "它比較像劇情導向還是展示導向？",
+    "觀眾應該期待哪些重點、避開哪些錯誤期待？"
+  ]
+}

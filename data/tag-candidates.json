@@ -1395,7 +1395,7 @@
     },
     {
       "label": "打手槍",
-      "occurrences": 20,
+      "occurrences": 21,
       "source_ids": [
         "SNOS-447",
         "GOJI-110",
@@ -1416,7 +1416,8 @@
         "MNGS-070",
         "DOKS-688",
         "HEYZO-3917",
-        "EWDX-622"
+        "EWDX-622",
+        "HEYZO-3959"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-11",
@@ -1424,7 +1425,7 @@
     },
     {
       "label": "玩具",
-      "occurrences": 26,
+      "occurrences": 27,
       "source_ids": [
         "MILK-306",
         "DOKS-689",
@@ -1451,7 +1452,8 @@
         "NACT-176",
         "WAAA-696",
         "XVSR-909",
-        "NACT-208"
+        "NACT-208",
+        "HEYZO-3959"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-10",
@@ -1459,7 +1461,7 @@
     },
     {
       "label": "自慰",
-      "occurrences": 18,
+      "occurrences": 19,
       "source_ids": [
         "MILK-306",
         "DOKS-690",
@@ -1478,7 +1480,8 @@
         "EKDV-831",
         "NACT-202",
         "EKDV-830",
-        "BBAN-612"
+        "BBAN-612",
+        "HEYZO-3959"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-11",
@@ -2895,12 +2898,13 @@
     },
     {
       "label": "無碼片",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "HEYZO-3964",
         "HEYZO-3939",
         "HEYZO-3994",
-        "HEYZO-3917"
+        "HEYZO-3917",
+        "HEYZO-3959"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-05",
@@ -3014,12 +3018,13 @@
     },
     {
       "label": "口内射精",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "HEYZO-3939"
+        "HEYZO-3939",
+        "HEYZO-3959"
       ],
       "first_seen": "2026-09-22",
-      "last_seen": "2026-09-22",
+      "last_seen": "2026-11-03",
       "status": "quarantined"
     },
     {
@@ -3551,6 +3556,16 @@
       ],
       "first_seen": "2026-11-12",
       "last_seen": "2026-11-12",
+      "status": "quarantined"
+    },
+    {
+      "label": "69",
+      "occurrences": 1,
+      "source_ids": [
+        "HEYZO-3959"
+      ],
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
       "status": "quarantined"
     }
   ]

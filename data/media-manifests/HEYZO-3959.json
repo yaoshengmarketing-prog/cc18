@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "HEYZO-3959",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-14T10:41:30.889Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/HEYZO-3959/hero-v1.jpg",
+      "r2_key": "works/2026/10/HEYZO-3959/hero-v1.jpg",
+      "bytes": 572605,
+      "sha256": "f44d6e56b28b848378f9f777037275be84e74c987cc04348854346ee95ec12ed",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/HEYZO-3959/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/HEYZO-3959/scene-vertical-v1.jpg",
+      "bytes": 1087666,
+      "sha256": "3699de71e58c3fbf7ede64d21fc85929702ce807523a086d98ee4395d1480609",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2818652,
+    "sha256": "8c88988b41c31d86607111110262a2f56f33c11a259ee32bd07f0b4cbe2b75a7",
+    "target_r2_key": "works/2026/10/HEYZO-3959/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/HEYZO-3959/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
