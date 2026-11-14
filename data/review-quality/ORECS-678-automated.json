@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "ORECS-678",
+  "checked_at": "2026-11-14T11:12:52.165Z",
+  "review_sha256": "7bc78ae7bfe8bbd0cb32d0b6162ac66d01b54633b6b087345e7f533d536b08b9",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 6,
+          "excerpt": "這個設定讓作品比一般素人企劃多了一層關係想像空間。公開來源明確提到「上司和部下挑戰同房」，因此可以合理判斷，這不是完全隨機的男女組合，而是帶有職場上下位關係的企劃包裝。對選片者而言，這種設計的價值在於它能立刻建立角色位置與互動期待，也讓作品從單純的素人配對，轉向更有關係感的題材。"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "這幾個標籤都重要，但層次不同。素人與OL屬於作品的入口身份，能快速界定受眾；中出則是動作面上的明確賣點。不過若只看來源整體，真正把它跟其他同類作品拉開的，不是這些常見標籤本身，而是它們被放進了「獨家」與「同房挑戰」的企劃框架裡。也就是說，身份與動作提供搜尋與點擊誘因，真正形成選片"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}

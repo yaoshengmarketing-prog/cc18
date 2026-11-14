@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "ORECS-678",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-14T11:12:53.296Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/09/ORECS-678/hero-v1.jpg",
+      "r2_key": "works/2026/09/ORECS-678/hero-v1.jpg",
+      "bytes": 705054,
+      "sha256": "46c949a1ef05a9d1328343ac20b23e1984c18bf03f2700dc37f96efdecf026a9",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 出差時在飯店裡, 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original f",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/09/ORECS-678/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/09/ORECS-678/scene-vertical-v1.jpg",
+      "bytes": 814368,
+      "sha256": "ea9e7942bf3845a59fa6468f5d9719cf183b14d1d283c64d2ded8992972ad2fe",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 出差時在飯店裡, 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original f",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2145701,
+    "sha256": "8c691fed06eb27c9b8f5005f8a411d072910dd71db17821fbc12de3acff063e6",
+    "target_r2_key": "works/2026/09/ORECS-678/vertical-v1.mp4",
+    "public_path": "/media/works/2026/09/ORECS-678/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
