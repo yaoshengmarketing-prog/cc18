@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "NEO-856",
+  "review_sha256": "9009a190944e90ce4663a8aff2c25994eca51e411974f0855af7628ce7f4928c",
+  "selected_thesis": "來源資料可確認本作以「イク時はいつも足ピン」作為主要作品線索。",
+  "title_basis": {
+    "performer": "丸最稀有",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "丸最稀有",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "イク時はいつも足ピン",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "丸最稀有",
+    "presentation_feature": "イク時はいつも足ピン",
+    "editorial_judgment": "來源資料可確認本作以「イク時はいつも足ピン」作為主要作品線索。",
+    "source_keywords": [
+      "丸最稀有",
+      "イク時はいつも足ピン",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：丸最稀有",
+      "supports": "這項可追溯來源訊號支持文章以「丸最稀有」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：イク時はいつも足ピン",
+      "supports": "這項可追溯來源訊號支持文章以「イク時はいつも足ピン」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：イク時はいつも足ピン",
+      "supports": "這項可追溯來源訊號支持文章以「イク時はいつも足ピン」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：巨乳",
+      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：HD",
+      "supports": "這項可追溯來源訊號支持文章以「HD」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}
