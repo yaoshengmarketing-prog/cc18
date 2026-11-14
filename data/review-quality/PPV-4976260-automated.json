@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "PPV-4976260",
+  "checked_at": "2026-11-14T11:06:19.262Z",
+  "review_sha256": "7a61a8d8f17d6934f0bdd40cf4ec347bb84d13a8edc2be2ba2a48d4e39d5306a",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 3,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "若只根據目前可追溯的公開資料來看，這部作品最明確的辨識點不是人物背景，也不是完整劇情，而是「獨家」與 FC2 脈絡下的素人自拍企劃定位。來源可確認的訊號集中在素人、自拍、口交、中出，以及高畫質／720p 這類呈現資訊，顯示它的吸引力主要建立在企劃形式與直觀題材組合，而不是複雜敘事"
+        },
+        {
+          "paragraph": 8,
+          "excerpt": "來源中的高畫質與 720p 資訊，較適合作為補充性的呈現條件，而不是主體賣點。真正主導選片判斷的，仍然是獨家、素人與自拍企劃這幾個核心訊號。自拍形式通常會改變觀眾對作品的期待方向：不是去找龐大的世界觀或複雜設定，而是尋找更直接、企劃感更強的呈現方式。至於高畫質標示，能提升基本辨識"
+        },
+        {
+          "paragraph": 10,
+          "excerpt": "綜合現有資料，這部作品比較適合想找 FC2 系素人企劃、偏好自拍形式，並且希望題材標籤一眼就能成立的觀眾。它的核心不是可驗證的劇情深度，而是企劃定位是否明確、題材是否直接、包裝是否突出「獨家」感。若你是根據公開標籤快速篩選作品的人，這部片的選片門檻不高；但若你期待更完整的角色設定"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 5,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
