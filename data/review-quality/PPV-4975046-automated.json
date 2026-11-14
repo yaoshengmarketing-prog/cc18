@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "id": "PPV-4975046",
+  "checked_at": "2026-11-14T11:09:37.083Z",
+  "review_sha256": "418706b651c76162b843c3b8ada70a4359b563c88d80170e077ea497aed87903",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "broad_formulaic_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "broad_formulaic_voice",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "STYLE_WARNING",
+      "affected_paragraphs": 3,
+      "paragraph_count": 8,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "以目前可追溯的公開資訊來看，這部作品最適合放在「展示型企劃」的角度理解。來源能確認的核心訊號很集中：標題概念是「獨家」，而題材元素則明確落在「巨乳」與「中出」。這種資料結構本身就顯示，作品的賣點主要不是已知的劇情背景、人物關係或場景設定，而是以少數高辨識度元素直接建立觀看預期。也"
+        },
+        {
+          "paragraph": 4,
+          "excerpt": "它的吸引力主要來自來源訊號的聚焦度。首先，「獨家」作為核心概念，會先形成一種包裝上的區隔感，讓作品在大量同類型條目中更容易被辨識。其次，公開標示出的「巨乳」與「中出」提供了非常直接的題材方向，讓偏好此類型的觀眾能快速判斷是否符合需求。再者，來源還提供「720p」與「高畫質」這類呈"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "若你的選片標準偏向完整劇情、角色關係推進或明確世界觀，這部目前不會是最優先的選擇。原因不是它一定沒有這些內容，而是現有公開資料並未提供足夠證據支持這類判斷。creative seed brief 中雖提到「企劃設定、角色變化、互動節奏」可作為組織文章的方向，但同時也明確指出，這些"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 9,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
