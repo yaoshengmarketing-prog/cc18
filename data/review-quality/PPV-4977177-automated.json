@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "PPV-4977177",
+  "checked_at": "2026-11-14T10:56:15.008Z",
+  "review_sha256": "bcd34b97ed9386b8ef58b10ea04216fa9123652694ebd1aa4769c100a6edc6dc",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_decision_value",
+    "formulaic_machine_voice",
+    "insufficient_sections"
+  ],
+  "findings": [
+    {
+      "code": "missing_decision_value",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "formulaic_machine_voice",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 2,
+      "locations": [
+        {
+          "paragraph": 2,
+          "excerpt": "從公開來源來看，這部作品最明確的核心賣點是「獨家」。這個概念不只出現在核心來源概念，也直接可追溯到標題文字，因此可以視為選片時最優先的判斷依據。再配合 safe title signals 與 topic elements 中的「素人企劃」「素人」資訊，作品的定位相當清楚：它不是"
+        },
+        {
+          "paragraph": 6,
+          "excerpt": "來源可追溯的 presentation 資訊包括「自拍形式」「自拍」以及「720p／高畫質」。其中真正影響選片判斷的，首先是自拍形式，因為這類型訊號通常代表作品在公開包裝上強調較直接、較貼近個人紀錄感的呈現方式。即使不能進一步推論鏡位、剪輯或實際觀看感受，它仍然是足夠清楚的企劃標"
+        }
+      ]
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 10,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
