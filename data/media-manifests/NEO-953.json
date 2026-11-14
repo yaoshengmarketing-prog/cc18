@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "NEO-953",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-07T17:09:53.177Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/NEO-953/hero-v1.jpg",
+      "r2_key": "works/2026/08/NEO-953/hero-v1.jpg",
+      "bytes": 662761,
+      "sha256": "bb58f75a7f91e7abd819ae886b74ffeb23154197a867107e4800864f2e6b897e",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/NEO-953/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/08/NEO-953/scene-vertical-v1.jpg",
+      "bytes": 1336430,
+      "sha256": "baec34823071e26cb8252bf261cb256b1a8ce4388ee6d799af11ebc250adc060",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 2790861,
+    "sha256": "616bb040eb53ee4a02919842bbe110d96c706e286d204d9f8030e6d09e70d71b",
+    "target_r2_key": "works/2026/08/NEO-953/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/NEO-953/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

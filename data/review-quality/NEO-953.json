@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "NEO-953",
+  "review_sha256": "022c4265fa6b9ef58c1c6799bea7bad48e2413580908036c289b0ab456e1523b",
+  "selected_thesis": "來源資料可確認本作以「唾とオシッコで溺死したい」作為主要作品線索。",
+  "title_basis": {
+    "performer": "涼花胡桃",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "涼花胡桃",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "唾とオシッコで溺死したい",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "涼花胡桃",
+    "presentation_feature": "唾とオシッコで溺死したい",
+    "editorial_judgment": "來源資料可確認本作以「唾とオシッコで溺死したい」作為主要作品線索。",
+    "source_keywords": [
+      "涼花胡桃",
+      "唾とオシッコで溺死したい",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：涼花胡桃",
+      "supports": "這項可追溯來源訊號支持文章以「涼花胡桃」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：唾とオシッコで溺死したい",
+      "supports": "這項可追溯來源訊號支持文章以「唾とオシッコで溺死したい」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：唾とオシッコで溺死したい",
+      "supports": "這項可追溯來源訊號支持文章以「唾とオシッコで溺死したい」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：癡女",
+      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：淫語",
+      "supports": "這項可追溯來源訊號支持文章以「淫語」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}
