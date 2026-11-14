@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "FERA-213",
+  "review_sha256": "d4d049bf592ddbc007b41852037fbdc52d9c090f2b494ec1fc24267578462f4f",
+  "selected_thesis": "來源資料可確認本作以「誘惑兒子內射的信號」作為主要作品線索。",
+  "title_basis": {
+    "performer": "城崎百瀨",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "城崎百瀨",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "誘惑兒子內射的信號",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "母親がド派手ランジェリーを着けるのは息子を中出しに誘う欲求不",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "城崎百瀨",
+    "presentation_feature": "誘惑兒子內射的信號",
+    "editorial_judgment": "來源資料可確認本作以「誘惑兒子內射的信號」作為主要作品線索。",
+    "source_keywords": [
+      "城崎百瀨",
+      "誘惑兒子內射的信號",
+      "母親がド派手ランジェリーを着けるのは息子を中出しに誘う欲求不",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "performer：城崎百瀨",
+      "supports": "這項可追溯來源訊號支持文章以「城崎百瀨」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "series：母親がド派手ランジェリーを着けるのは息子を中出しに誘う欲求不",
+      "supports": "這項可追溯來源訊號支持文章以「母親がド派手ランジェリーを着けるのは息子を中出しに誘う欲求不」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：誘惑兒子內射的信號",
+      "supports": "這項可追溯來源訊號支持文章以「誘惑兒子內射的信號」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：人妻・主婦",
+      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}
