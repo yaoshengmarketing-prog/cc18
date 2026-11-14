@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "movie_id": "HEYZO-3969",
+  "generated_at": "2026-11-01T23:50:29.944Z",
+  "source_snapshot_hash": "sha256:2efe5ad3a08ec5c9670c9095b58310bd25ed421de6cd41fd4ecfe4a1a672e045",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "如果你的選片習慣是先看演員，再看企劃辨識度，本作可被理解為星島麻帆主導辨識度、搭訕概念輔助包裝、動作標籤清楚的展示型作品。",
+    "story_density": "low",
+    "pace": "unknown",
+    "presentation": [
+      "以星島麻帆為主要選片理由。",
+      "企劃辨識點來自「搭訕」這個公開概念。",
+      "成人內容期待應放在中出、騎乘位、摳穴等已公開標籤，而不是複雜故事。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "以星島麻帆為主要追看片單的觀眾。",
+      "偏好企劃概念簡單明確、動作標籤先行的觀眾。",
+      "看到搭訕題材就會產生選片興趣的觀眾。"
+    ],
+    "not_for": [
+      "期待完整人物關係與明確場景鋪陳的觀眾。",
+      "會把選片重點放在故事反轉或高劇情密度上的觀眾。"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這片最明確的賣點是誰或是什麼？",
+    "公開資料更像故事片還是展示型企劃？",
+    "成人內容的期待應放在哪裡？",
+    "哪些觀眾會比較適合這部作品？",
+    "目前有哪些部分不能下定論？"
+  ]
+}
