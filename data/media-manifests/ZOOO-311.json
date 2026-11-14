@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "ZOOO-311",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-14T10:44:25.419Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/10/ZOOO-311/hero-v1.jpg",
+      "r2_key": "works/2026/10/ZOOO-311/hero-v1.jpg",
+      "bytes": 652175,
+      "sha256": "1b6c218cb30ad6b99831b430c69a60377b5c2d0b93bb1b1e0be2a870ee642b88",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/10/ZOOO-311/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/10/ZOOO-311/scene-vertical-v1.jpg",
+      "bytes": 1495288,
+      "sha256": "5a26621ba5b325411ebf855552625cb560e0bc334fe13a46268beda55ca7f019",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: . Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fictional ",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3163659,
+    "sha256": "ce72da63cbe95a27b59d08c0bc7a40f0b22c5fbc73cca3157453f447f60dd14e",
+    "target_r2_key": "works/2026/10/ZOOO-311/vertical-v1.mp4",
+    "public_path": "/media/works/2026/10/ZOOO-311/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}

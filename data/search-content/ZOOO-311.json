@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "movie_id": "ZOOO-311",
+  "generated_at": "2026-11-08T06:44:35.227Z",
+  "source_snapshot_hash": "sha256:0cbf27dad656b4daebc337a373e4a16e59be5ab427119244faad0aa8627d72be",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "先以四人收錄形式與家庭角色設定辨識本作；若重視單一演員的篇幅或完整故事，現有資料仍不足以判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源宣傳為四位演員、共240分鐘的收錄作品，未交代段落銜接方式。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "希望先確認演員組合、角色設定與收錄形式的成年讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "需要先確認大槻響個人篇幅的讀者。",
+      "以完整長篇故事或明確節奏評價作為選片依據的讀者。"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "WAAA-705",
+      "relation_type": "same_performer",
+      "reason": "同樣由大槻響出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "大槻響"
+      ],
+      "contrast_signals": [
+        "中出",
+        "コンドームが破れてまさかの生ハメ！超加速するピストンで何度も"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作列出哪些演員？",
+    "240分鐘能否證明故事較完整？",
+    "與同樣由大槻響演出的 WAAA-705，在角色設定上有何不同？",
+    "兩作是否屬於同系列？"
+  ]
+}

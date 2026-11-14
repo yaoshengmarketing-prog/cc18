@@ -914,7 +914,7 @@
     },
     {
       "label": "不倫",
-      "occurrences": 22,
+      "occurrences": 23,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -937,7 +937,8 @@
         "SNOS-411",
         "NGOD-358",
         "T-3800073",
-        "SNOS-452"
+        "SNOS-452",
+        "ZOOO-311"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-10",
@@ -1326,7 +1327,7 @@
     },
     {
       "label": "超過4小時",
-      "occurrences": 14,
+      "occurrences": 15,
       "source_ids": [
         "HHF-111",
         "FCDSS-117",
@@ -1341,10 +1342,11 @@
         "WA-597",
         "MMPB-144",
         "MILK-308",
-        "HODV-22120"
+        "HODV-22120",
+        "ZOOO-311"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "status": "quarantined"
     },
     {
@@ -2295,7 +2297,7 @@
     },
     {
       "label": "寢取・被寢取",
-      "occurrences": 56,
+      "occurrences": 57,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -2352,7 +2354,8 @@
         "SNOS-452",
         "IPZZ-971",
         "NGOD-370",
-        "DSOD-136"
+        "DSOD-136",
+        "ZOOO-311"
       ],
       "first_seen": "2026-09-10",
       "last_seen": "2026-11-12",
