@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "PPV-4963928",
+  "review_sha256": "41f21af32e149b4e2ff5c724c17a299c4d391f8680eac8b450b8386bbfdcf8a8",
+  "selected_thesis": "來源資料可確認本作以「獨家」作為主要作品線索。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "自拍形式",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "body_type",
+        "value": "窈窕",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "自拍形式",
+    "editorial_judgment": "來源資料可確認本作以「獨家」作為主要作品線索。",
+    "source_keywords": [
+      "獨家",
+      "自拍形式",
+      "高畫質",
+      "窈窕"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "presentation：自拍形式",
+      "supports": "這項可追溯來源訊號支持文章以「自拍形式」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：獨家",
+      "supports": "這項可追溯來源訊號支持文章以「獨家」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "body_type：窈窕",
+      "supports": "這項可追溯來源訊號支持文章以「窈窕」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：中出",
+      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：自拍",
+      "supports": "這項可追溯來源訊號支持文章以「自拍」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：720p",
+      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：初回限定特別價格",
+      "supports": "這項可追溯來源訊號支持文章以「初回限定特別價格」作為選片辨識與標題依據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未保留缺少足夠影片引用的觀看觀察。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-05T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

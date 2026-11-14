@@ -1,0 +1,52 @@
+{
+  "schema_version": 2,
+  "id": "PPV-4963928",
+  "checked_at": "2026-11-14T11:22:13.081Z",
+  "review_sha256": "41f21af32e149b4e2ff5c724c17a299c4d391f8680eac8b450b8386bbfdcf8a8",
+  "status": "BLOCK",
+  "passed": false,
+  "publishable": false,
+  "issues": [
+    "stale_search_source_snapshot"
+  ],
+  "repair_issues": [],
+  "notes": [
+    "body_lacks_source_adult_vocabulary",
+    "sitewide_reused_sentences",
+    "insufficient_sections",
+    "missing_creative_reconstruction_audit"
+  ],
+  "findings": [
+    {
+      "code": "body_lacks_source_adult_vocabulary",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "sitewide_reused_sentences",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "SITEWIDE_ORIGINALITY_WARNING"
+    },
+    {
+      "code": "insufficient_sections",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "stale_search_source_snapshot",
+      "scope": "BLOCK",
+      "reason": "SOURCE_BINDING_MISMATCH"
+    }
+  ],
+  "metrics": {
+    "sections": 1,
+    "evidence_items": 8,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 0
+  }
+}
