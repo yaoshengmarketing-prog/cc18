@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "IPZZ-927",
+  "review_sha256": "06428de1ac2425cfb8226efbd5917776e74c572688222b3c4f4222fbea609369",
+  "selected_thesis": "西宮夢的企劃呈現與觀看取向",
+  "title_basis": {
+    "performer": "西宮夢",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "西宮夢",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "被灌酒喝醉後",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "辣妹風格",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "西宮夢",
+    "presentation_feature": "被灌酒喝醉後",
+    "editorial_judgment": "西宮夢的企劃呈現與觀看取向",
+    "source_keywords": [
+      "西宮夢",
+      "被灌酒喝醉後",
+      "辣妹風格"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "在法事上久違地與同級生們重逢的夢 像當時一樣被灌酒喝醉後，昔日淫蕩的本性再次覺醒… 金髮×喪服×黑褲襪所散發出的色情氣息！",
+      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "performer：西宮夢",
+      "supports": "這項可追溯來源訊號支持文章以「西宮夢」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：辣妹風格",
+      "supports": "這項可追溯來源訊號支持文章以「辣妹風格」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：高畫質",
+      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "presentation：獨家配信",
+      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "theme：被灌酒喝醉後",
+      "supports": "這項可追溯來源訊號支持文章以「被灌酒喝醉後」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：AV女優片",
+      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "identity：辣妹",
+      "supports": "這項可追溯來源訊號支持文章以「辣妹」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "act_or_position：3p・4p",
+      "supports": "這項可追溯來源訊號支持文章以「3p・4p」作為選片辨識與標題依據。",
+      "observation_refs": []
+    },
+    {
+      "basis": "creative_reconstruction",
+      "signal": "本機抽象創作主題：企劃設定",
+      "supports": "這項主題只支持影評的創作切角與段落組織，不宣稱為逐幕影片事實。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "創作內容不改動番號、演員、日期、系列、來源連結或 Registry"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-09-09T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}
