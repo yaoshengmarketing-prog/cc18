@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "id": "EBWH-384",
+  "generated_at": "2026-11-16T05:04:53.144Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/EBWH-384.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "柏木家的太太",
+    "premise": "作品以「柏木家的太太」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「柏木家的太太」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "柏木家的太太",
+      "柏木文香",
+      "乳交"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "人妻・主婦"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "這部作品主打單一的女教師情境，還是跨越不同日常場所的人妻設定？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=nLXs5j6lD3t&cat=19",
+      "supports": "依提供的已核對來源快照：標題以「柏木家的太太」稱呼角色，簡介提到職場、鄰里及五種情境；「女教師」出現在標籤中。外部頁面未能核對全文。"
+    }
+  ],
+  "angle_candidates": [
+    "標題的家庭身分與簡介的跨場所設定，如何改變選片預期",
+    "「女教師」標籤能提供多少情境資訊",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "這部的明確設定是以柏木家的太太為中心，將同一人物放進多種日常情境；「女教師」標籤不足以把整部作品定義成校園故事。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "柏木ふみか",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "柏木家的太太",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "柏木家的太太：柏木ふみか的五種情境",
+  "display_short_title": "柏木家的太太",
+  "title": "從柏木家到職場與鄰里：這部作品怎麼安排人物",
+  "seo_title": "EBWH-384｜柏木家的太太與五種日常情境",
+  "social_title": "「女教師」標籤之外，柏木家的太太還有哪些設定？",
+  "short_review": "來源簡介以柏木家的太太為核心，並列出職場、鄰里與五種情境。想看同一人物置於不同日常關係中的讀者，可從這個設定選片；「女教師」只是來源標籤，不能據此認定全片以校園為主。",
+  "editorial_angle": "比較作品標題、簡介與標籤提供的情境範圍，釐清選片時應優先看哪一項設定。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題稱角色為「柏木家的太太」。",
+      "supports": "家庭身分是作品介紹人物的起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介提到職場、鄰里，並宣稱安排五種情境。",
+      "supports": "宣傳設定的範圍超出單一場所。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "「女教師」列於來源標籤，簡介未交代相應情境的具體內容。",
+      "supports": "不能僅憑標籤判定全片的主要故事或場景。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "柏木ふみか飾演的角色確實任教，或校園是全片主要場景",
+    "五種情境各自的劇情、出場順序及實際篇幅",
+    "成片的節奏、表演與拍攝品質"
+  ],
+  "decision_guide": {
+    "thesis": "若選片重點是同一人妻角色在不同日常場所的設定，這部的簡介給了明確方向；若只想找完整的女教師故事，現有材料無法確認。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以柏木家的太太為人物核心，宣傳跨場所、多情境的安排。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "作品介紹的核心人物設定是什麼？",
+      "「女教師」標籤能否代表全片？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "一個家庭稱呼，帶出不只一個場所",
+      "body": "作品標題先用「柏木家的太太」建立人物身分；來源簡介接著把她放進職場、鄰里等日常場所，並宣稱有五種情境。這兩層資訊的差別，給了選片時更準確的方向：重點是同一人物如何進入不同關係，而非只停留在家庭場景。"
+    },
+    {
+      "heading": "「女教師」是線索，還不是故事輪廓",
+      "body": "來源另有「女教師」標籤，但簡介沒有說明相關情境占多少篇幅。若你偏好跨場所的人物設定，標題與簡介已提供理由；若你專找以教師身分貫穿全片的作品，這份材料還不足以保證符合期待。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據提供的 [CC18 作品頁來源快照](https://cc18.tv/player.php?uuid=nLXs5j6lD3t&cat=19) 中的標題、標籤與公開簡介。場所與標籤的差異是對宣傳設定的編輯判斷；未使用影片抽樣，外部頁面全文亦未能核對。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "a595146e71293928bcfaa404d50f333f84052e20d6d0e443f73fc1078a95e079",
+    "response_sha256": "0708e7c06dc29a6c46d9853476024d3cd243b9c3e5f38491969ef35c492c6cba",
+    "research_input_sha256": "162930c229a26b7feaa2a92fb30b4d74e399d21081a84ecd1b1e062c7671f41b",
+    "related_source_ids": []
+  }
+}

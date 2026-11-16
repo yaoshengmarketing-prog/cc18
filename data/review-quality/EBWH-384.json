@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "EBWH-384",
+  "review_sha256": "7a6bca52f9953e844b685998d406785522fbb9ad251894dd9cf8add8c79f6298",
+  "selected_thesis": "這部的明確設定是以柏木家的太太為中心，將同一人物放進多種日常情境；「女教師」標籤不足以把整部作品定義成校園故事。",
+  "title_basis": {
+    "performer": "柏木ふみか",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "柏木ふみか",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "柏木家的太太",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "柏木ふみか",
+    "presentation_feature": "柏木家的太太",
+    "editorial_judgment": "比較作品標題、簡介與標籤提供的情境範圍，釐清選片時應優先看哪一項設定。",
+    "source_keywords": [
+      "柏木ふみか",
+      "柏木家的太太",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題稱角色為「柏木家的太太」。",
+      "supports": "家庭身分是作品介紹人物的起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介提到職場、鄰里，並宣稱安排五種情境。",
+      "supports": "宣傳設定的範圍超出單一場所。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "「女教師」列於來源標籤，簡介未交代相應情境的具體內容。",
+      "supports": "不能僅憑標籤判定全片的主要故事或場景。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "柏木ふみか飾演的角色確實任教，或校園是全片主要場景",
+    "五種情境各自的劇情、出場順序及實際篇幅",
+    "成片的節奏、表演與拍攝品質"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-15T16:00:00.000Z"
+}

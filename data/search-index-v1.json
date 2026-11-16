@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:8a04cd8325dc035febec7bd68d7567525376261eb6b59696cb4bc1e7a27a5435",
-  "source_generated_at": "2026-11-16T03:49:52.200Z",
+  "source_revision": "sha256:fd0195963e975a357c3b5a5070e42e0aa8c0235e52b80960ca606f7a7ae3237b",
+  "source_generated_at": "2026-11-16T05:12:01.131Z",
   "counts": {
-    "movies": 589,
-    "performers": 406,
+    "movies": 590,
+    "performers": 407,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -2535,6 +2535,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:48389",
+      "display_name": "柏木ふみか",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "柏木ふみか",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:EBWH-384"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:29885",
       "display_name": "柚木れんか",
       "display_name_zh_tw": null,
@@ -4747,6 +4758,66 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:EBWH-384",
+        "source_cover": "https://cc18.tv/preview/80/b/nLXs5j6lD3t-800.jpg?v=1794602242",
+        "title": "柏木家的太太",
+        "catalog_code": "EBWH-384",
+        "release_date": "2026-11-13",
+        "performers": [
+          "柏木ふみか"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/ebwh-384/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:48389"
+      ],
+      "search": {
+        "source_title": "柏木家的太太，聽說今天也用那對半熟濃稠的美乳在幫誰乳交。 柏木文香",
+        "source_tags": [
+          "AV女優片",
+          "巨乳",
+          "乳交",
+          "女教師",
+          "720p",
+          "独占配信",
+          "HD",
+          "人妻・主婦",
+          "4k"
+        ],
+        "article_title": "從柏木家到職場與鄰里：這部作品怎麼安排人物",
+        "display_short_title": "柏木家的太太",
+        "slug": "ebwh-384"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:PPPE-454",
