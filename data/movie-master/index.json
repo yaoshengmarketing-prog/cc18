@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-16T05:12:01.131Z",
+  "generated_at": "2026-11-16T12:48:31.336Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 592,
-  "formal_movie_count": 591,
+  "tracked_input_count": 593,
+  "formal_movie_count": 592,
   "demo_count": 1,
-  "published_count": 590,
+  "published_count": 591,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -2510,6 +2510,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "c23b947901db69f7c835c05d080ba1d5d7fa75cfd198436c5f8a74b792208e37"
+    },
+    {
+      "stable_movie_id": "cc18:MIAB-681",
+      "catalog_code": "MIAB-681",
+      "slug": "miab-681",
+      "master_path": "data/movie-master/miab-681.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "47eefa7c1b27f79ef9e1f4447ee8b2920bbe9cc9f69279cd3a3c595097d7372a"
     },
     {
       "stable_movie_id": "cc18:MIAB-682",

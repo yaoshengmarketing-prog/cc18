@@ -946,7 +946,7 @@
     },
     {
       "label": "寝取り・寝取られ・ntr",
-      "occurrences": 72,
+      "occurrences": 73,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -1019,10 +1019,11 @@
         "SNOS-452",
         "IPZZ-971",
         "NGOD-370",
-        "DSOD-136"
+        "DSOD-136",
+        "MIAB-681"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-16",
       "status": "quarantined"
     },
     {
@@ -2301,7 +2302,7 @@
     },
     {
       "label": "寢取・被寢取",
-      "occurrences": 56,
+      "occurrences": 57,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -2358,15 +2359,16 @@
         "SNOS-452",
         "IPZZ-971",
         "NGOD-370",
-        "DSOD-136"
+        "DSOD-136",
+        "MIAB-681"
       ],
       "first_seen": "2026-09-10",
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-16",
       "status": "quarantined"
     },
     {
       "label": "NTR",
-      "occurrences": 54,
+      "occurrences": 55,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -2421,10 +2423,11 @@
         "SNOS-452",
         "IPZZ-971",
         "NGOD-370",
-        "DSOD-136"
+        "DSOD-136",
+        "MIAB-681"
       ],
       "first_seen": "2026-09-10",
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-16",
       "status": "quarantined"
     },
     {
@@ -3200,13 +3203,14 @@
     },
     {
       "label": "模特兒",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "STVF-115",
-        "SNOS-411"
+        "SNOS-411",
+        "MIAB-681"
       ],
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-06",
+      "last_seen": "2026-11-16",
       "status": "quarantined"
     },
     {

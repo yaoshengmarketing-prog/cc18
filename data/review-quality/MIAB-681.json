@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "MIAB-681",
+  "review_sha256": "dd3ef4cabbacd17198631f62815256fb96d50e4456efaa7c465ad1cb7aaf7e16",
+  "selected_thesis": "本作的選片線索是「臨時代演」與「妻子未留意的五分鐘」如何製造秘密；與《FJIN-173》由丈夫主動提出拍攝的設定相比，兩者對關係越界的安排不同。",
+  "title_basis": {
+    "performer": "北野未奈",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "北野未奈",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "メモリアルヌードモデルの代役になったボクのビンビンに膨らんで",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "北野未奈",
+    "presentation_feature": "メモリアルヌードモデルの代役になったボクのビンビンに膨らんで",
+    "editorial_judgment": "以兩部同演員作品的知情關係作比較，再用同系列作品界定本作沿用的企劃設定，提供具體的選片差異。",
+    "source_keywords": [
+      "北野未奈",
+      "メモリアルヌードモデルの代役になったボクのビンビンに膨らんで",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介寫明男性模特兒因病缺席，丈夫臨時代演，模特兒利用每次五分鐘休息時間接近他，妻子並未留意。",
+      "supports": "本作以臨時替補和短暫空檔建立秘密情境。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "《FJIN-173》簡介中，丈夫先向妻子表明想法，再請她與男性模特兒拍攝；北野未奈演出妻子。",
+      "supports": "兩部作品雖共享裸體攝影題材，關係越界的起點與北野未奈所演角色不同。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同系列《MNGS-079》也寫有男性模特兒缺席、丈夫代演與五分鐘休息空檔，演出者為彩月七緒。",
+      "supports": "五分鐘空檔屬於可核對的系列設定，不能當作本作獨有創意。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不從簡介推斷成片的表演、鏡位、節奏或品質。",
+    "不把系列設定說成本作獨有情節，也不將宣傳中的次數當作已核實的畫面紀錄。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-15T16:00:00.000Z"
+}

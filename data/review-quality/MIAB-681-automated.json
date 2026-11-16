@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "id": "MIAB-681",
+  "checked_at": "2026-11-16T12:46:43.388Z",
+  "review_sha256": "7e18878023bf154a01bb25e8d5d9443c578687b9c3dfd04ab47ef7406ff864e3",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_creative_reconstruction_audit",
+    "insufficient_presentation_signals"
+  ],
+  "findings": [
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_presentation_signals",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 4,
+    "evidence_items": 3,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 3
+  }
+}
