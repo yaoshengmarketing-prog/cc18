@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "PPPE-454",
+  "review_sha256": "cffbcc17fd152dfeeac7093169437c69516c83dcd3aaf87d7caf79c1af3bffc4",
+  "selected_thesis": "PPPE-454 的公開設定先讓觀眾好奇陌生兩人如何相處；同樣由楪可憐演出的 PRED-890 則把特寫與展示方式放在前面。選片時，兩者提供的是不同的觀看入口。",
+  "title_basis": {
+    "performer": "楪可憐",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "楪可憐",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "宿醉",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "楪可憐",
+    "presentation_feature": "宿醉",
+    "editorial_judgment": "以同演員作品對照，指出情境開場與鏡頭展示企劃的設定差異及選片意義。",
+    "source_keywords": [
+      "楪可憐",
+      "宿醉",
+      "美少女設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介以頭痛醒來、記不起前一晚、身旁躺著陌生女子開場。",
+      "supports": "本作的觀看入口是兩人關係與前一晚的記憶空白。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "PRED-890 的簡介強調特寫長鏡頭、六個展示段落，並稱不需要多餘的演技或台詞。",
+      "supports": "同演員作品可作具體對照：它優先介紹展示方式，本作則優先介紹情境。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "兩作的實際鏡位、節奏與表演品質",
+    "宿醉前一晚究竟發生什麼事",
+    "來源宣傳設定在成片中的呈現效果"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-15T16:00:00.000Z"
+}

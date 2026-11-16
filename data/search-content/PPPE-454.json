@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "movie_id": "PPPE-454",
+  "generated_at": "2026-11-16T03:44:25.506Z",
+  "source_snapshot_hash": "sha256:29d094902759dd45ee1c2b77b3f511a3b45c48270b9cf310badff320e91dd241",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看楪可憐被放進陌生人相遇的情境，可留意本作；想先按特寫與展示方式選片，PRED-890 的公開介紹更直接。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源簡介以宿醉失憶和醒來後的尷尬關係建立情境。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "PRED-890",
+      "relation_type": "same_performer",
+      "reason": "同樣由楪可憐出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "楪可憐"
+      ],
+      "contrast_signals": [
+        "AV女優片"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作的公開設定與同演員 PRED-890 有何差別？",
+    "這項差別如何幫助選片？"
+  ]
+}
