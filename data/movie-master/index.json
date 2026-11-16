@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-15T18:02:31.232Z",
+  "generated_at": "2026-11-16T00:51:10.131Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 589,
-  "formal_movie_count": 588,
+  "tracked_input_count": 590,
+  "formal_movie_count": 589,
   "demo_count": 1,
-  "published_count": 587,
+  "published_count": 588,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -1493,6 +1493,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "79389b62255f76455d10eefe7577e3b5cdc9b738b1bddd8cb8fdeeb7843217c4"
+    },
+    {
+      "stable_movie_id": "cc18:FSBK-030",
+      "catalog_code": "FSBK-030",
+      "slug": "fsbk-030",
+      "master_path": "data/movie-master/fsbk-030.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "ac47058ed44a04555d356cd621ee943cbd7578045ae57134ec859c1ac537fafa"
     },
     {
       "stable_movie_id": "cc18:FSFST-007",

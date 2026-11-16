@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "id": "FSBK-030",
+  "generated_at": "2026-11-16T00:44:27.410Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/FSBK-030.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "逃課的懲罰",
+    "premise": "作品以「逃課的懲罰」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「逃課的懲罰」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "逃課的懲罰",
+      "處罰性中出性交",
+      "146cm迷你美少女日和",
+      "佐佐倉日和",
+      "中出"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "口交",
+      "3p・4p"
+    ],
+    "presentation": [
+      "720p",
+      "HD"
+    ]
+  },
+  "research_question": "公開簡介如何從一次逃課，安排出兩種不同的管教角色？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=BZU02VDH5I&cat=19",
+      "supports": "使用題供的作品頁來源快照：簡介先寫繼父發現日和逃課並帶她回家，後段再加入補習班老師；作品標示由佐々倉ひより演出。"
+    }
+  ],
+  "angle_candidates": [
+    "從逃課事件看繼父與補習班老師如何先後進入設定",
+    "以演員與身高標示作為選片入口",
+    "逃課的懲罰的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "這部作品的公開設定以逃課作為起點，先由繼父在家中施加懲罰，再加入補習班老師。後者讓故事從家庭內的管教關係擴及另一名具有權威身分的角色；這是比單看題材標籤更具體的選片線索。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "佐々倉ひより",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "逃課的懲罰",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "identity",
+      "value": "AV女優片",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "佐々倉ひより的逃課懲罰",
+  "display_short_title": "逃課後的懲罰",
+  "title": "一場逃課，為何牽出兩名管教者？",
+  "seo_title": "FSBK-030｜佐々倉ひより《逃課後的懲罰》設定解析",
+  "social_title": "從繼父到補習班老師：這部逃課題材如何擴大角色關係",
+  "short_review": "公開簡介的重點是角色關係逐步擴大：繼父先發現逃課，補習班老師隨後加入。適合想先確認懲罰與權力關係設定的讀者；成片的敘事節奏仍無從判斷。",
+  "editorial_angle": "比較簡介前後兩段的角色安排，說明新增補習班老師對選片判斷的意義。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源簡介以逃課被繼父發現、帶回家訓話開場。",
+      "supports": "逃課事件建立了家庭內的管教關係。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介後段加入補習班老師。",
+      "supports": "角色安排從繼父擴及另一名具有權威身分的人物。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未推定角色年齡或演員經歷。",
+    "未推定實際畫面、表演、敘事節奏或成片品質。",
+    "未將來源標題中的中文譯名視為已核准的演員顯示名。"
+  ],
+  "decision_guide": {
+    "thesis": "選片線索在於懲罰設定中的角色擴張：從家中的繼父，延伸到補習班老師。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介採先交代逃課事件、再加入第二名管教角色的安排。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "逃課事件如何引出後續設定？",
+      "繼父與補習班老師在公開簡介中有何安排差異？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "從家中的訓話開始",
+      "body": "公開簡介先讓日和因逃課被繼父發現，再把事件帶回家中。這個開場替後續的懲罰設定給出原因，也讓繼父成為最先介入的管教者。"
+    },
+    {
+      "heading": "補習班老師加入後，選片線索變了",
+      "body": "簡介後段才加入補習班老師。與繼父代表的家庭關係相比，老師帶入另一種權威身分，使設定不再只圍繞家中的兩人。若你在意的是角色如何從單一管教者擴展為多人關係，這個差異比題材標籤更能說明作品的企劃方向；若你不喜歡強迫與權力失衡設定，也能據此避開。這些判斷只涉及公開設定，不能用來評價成片表現。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "材料為題供的 <a href=\"https://cc18.tv/player.php?uuid=BZU02VDH5I&amp;cat=19\">CC18 作品頁來源快照</a>，包含作品名稱、人物關係與公開簡介。本次未能開啟外部頁面，也沒有可核對的同演員或同系列作品材料；角色安排與選片意義是依這份簡介作出的編輯判斷。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "fa84c85f11bb67ce563e4ba9ba0b59e9c9d4e15943a649783dde51363a86065d",
+    "response_sha256": "ef912b5bf7ed1d50ec19fc4f2c043ff4e0422b048f23f28b9b39fafdb248f6f6",
+    "research_input_sha256": "840df84c8e8c2db8747b7a4f30b2721bf0b536c81d86e89708de85b95e7ef34e",
+    "related_source_ids": []
+  }
+}

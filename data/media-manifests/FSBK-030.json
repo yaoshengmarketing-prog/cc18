@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "FSBK-030",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-16T00:50:04.389Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/FSBK-030/hero-v1.jpg",
+      "r2_key": "works/2026/11/FSBK-030/hero-v1.jpg",
+      "bytes": 650088,
+      "sha256": "a6997db6d7259f15a29f31426352f6cb6435e2a9c3022a072e6198e4fe21f255",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "8f52d4cb35a44d16a4d801d7c219af18",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/FSBK-030/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/FSBK-030/scene-vertical-v1.jpg",
+      "bytes": 815121,
+      "sha256": "0ea8f1290c655152423b2d62eace48503fa568f495329356978ddcfb06747d04",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "31fda5d1f76f4e44b13c127b773cb74b",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2640056,
+    "sha256": "2da586ecc6a1d08c5029cf00dbbaa8674780981869ab1ee2d9daa3f7bd1a5e38",
+    "target_r2_key": "works/2026/11/FSBK-030/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/FSBK-030/vertical-v1.mp4"
+  }
+}

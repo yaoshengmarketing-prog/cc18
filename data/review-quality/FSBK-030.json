@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "FSBK-030",
+  "review_sha256": "a432d5b722872212affb3f4df424b71254abcf874c6068da3adb44b9cebf53af",
+  "selected_thesis": "這部作品的公開設定以逃課作為起點，先由繼父在家中施加懲罰，再加入補習班老師。後者讓故事從家庭內的管教關係擴及另一名具有權威身分的角色；這是比單看題材標籤更具體的選片線索。",
+  "title_basis": {
+    "performer": "佐々倉ひより",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "佐々倉ひより",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "逃課的懲罰",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "佐々倉ひより",
+    "presentation_feature": "逃課的懲罰",
+    "editorial_judgment": "比較簡介前後兩段的角色安排，說明新增補習班老師對選片判斷的意義。",
+    "source_keywords": [
+      "佐々倉ひより",
+      "逃課的懲罰",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源簡介以逃課被繼父發現、帶回家訓話開場。",
+      "supports": "逃課事件建立了家庭內的管教關係。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介後段加入補習班老師。",
+      "supports": "角色安排從繼父擴及另一名具有權威身分的人物。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未推定角色年齡或演員經歷。",
+    "未推定實際畫面、表演、敘事節奏或成片品質。",
+    "未將來源標題中的中文譯名視為已核准的演員顯示名。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-15T16:00:00.000Z"
+}

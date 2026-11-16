@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:7e52182da3c050e4a58006a68bebaf395079ff1235cf2924b0530b3ac28ef676",
-  "source_generated_at": "2026-11-15T18:02:31.232Z",
+  "source_revision": "sha256:8658d44dd464279a4dab87dc16b45ba2ddf542999c3e06e982ab32001a13322c",
+  "source_generated_at": "2026-11-16T00:51:10.131Z",
   "counts": {
-    "movies": 587,
-    "performers": 405,
+    "movies": 588,
+    "performers": 406,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -1698,6 +1698,17 @@
       "related_movie_ids": [
         "cc18:EMBM-055",
         "cc18:MKMP-763"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54059",
+      "display_name": "佐々倉ひより",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "佐々倉ひより",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FSBK-030"
       ]
     },
     {
@@ -4735,6 +4746,62 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:FSBK-030",
+        "source_cover": "https://cc18.tv/preview/80/b/BZU02VDH5I-800.jpg?v=1794472663",
+        "title": "逃課後的懲罰",
+        "catalog_code": "FSBK-030",
+        "release_date": "2026-11-12",
+        "performers": [
+          "佐々倉ひより"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/fsbk-030/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54059"
+      ],
+      "search": {
+        "source_title": "逃課的懲罰：處罰性中出性交 146cm迷你美少女日和 佐佐倉日和",
+        "source_tags": [
+          "中出",
+          "AV女優片",
+          "口交",
+          "玩具",
+          "3p・4p",
+          "迷你系",
+          "720p",
+          "HD",
+          "4P"
+        ],
+        "article_title": "一場逃課，為何牽出兩名管教者？",
+        "display_short_title": "逃課後的懲罰",
+        "slug": "fsbk-030"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:OFTR-019",

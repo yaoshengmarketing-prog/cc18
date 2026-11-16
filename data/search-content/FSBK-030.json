@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "FSBK-030",
+  "generated_at": "2026-11-16T00:44:28.046Z",
+  "source_snapshot_hash": "sha256:fa84c85f11bb67ce563e4ba9ba0b59e9c9d4e15943a649783dde51363a86065d",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "選片線索在於懲罰設定中的角色擴張：從家中的繼父，延伸到補習班老師。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介採先交代逃課事件、再加入第二名管教角色的安排。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "逃課事件如何引出後續設定？",
+    "繼父與補習班老師在公開簡介中有何安排差異？"
+  ]
+}
