@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "MIDA-866",
+  "review_sha256": "762a02fe86e701373a11df318e2024b89d0761deb66c8568945b69434fea70bd",
+  "selected_thesis": "本作把選片理由放在禁慾後的密集刺激設定；相較之下，同演員的《錯過末班車來借宿的女友妹妹》先建立借宿與人物關係的情境。",
+  "title_basis": {
+    "performer": "渡部ほの",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "渡部ほの",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "蝦反弓形",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "禁欲アクメオーガズム 1カ月焦らされ24時間ぶっ通しデカチン",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "渡部ほの",
+    "presentation_feature": "蝦反弓形",
+    "editorial_judgment": "用同演員作品的具體設定差異，說明本作適合哪一種選片期待。",
+    "source_keywords": [
+      "渡部ほの",
+      "蝦反弓形",
+      "禁欲アクメオーガズム 1カ月焦らされ24時間ぶっ通しデカチン",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介以禁慾一個月後的密集刺激為企劃設定。",
+      "supports": "本作的宣傳重心是刺激強度的累積。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "關聯作品簡介設定為錯過末班車後借宿，並以女友妹妹的角色關係製造張力。",
+      "supports": "同演員作品提供以情境和人物關係為入口的對照。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未把標題中的次數與容量視為經獨立核實的數據。",
+    "未推論實際片長、節奏、畫面、聲音、台詞或成片品質。",
+    "未將來源標題中的「渡部穗乃」升為人物主要名稱。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-17T16:00:00.000Z"
+}

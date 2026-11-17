@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "movie_id": "MIDA-866",
+  "generated_at": "2026-11-17T19:39:04.871Z",
+  "source_snapshot_hash": "sha256:5dec7b691379a5b9ec423cea3cf896a034b6b80d8214d9a04552ce8771423a6b",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "依企劃入口選片：本作主打禁慾後的密集刺激設定；關聯作品主打借宿與人物關係。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源簡介以強度與連續性包裝本作，未提供足以判斷實際呈現方式的材料。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SNOS-344",
+      "relation_type": "same_performer",
+      "reason": "同樣由渡部ほの出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "渡部ほの"
+      ],
+      "contrast_signals": [
+        "想盡辦法地狙擊我的肉棒",
+        "美少女設定"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作與同演員關聯作品的設定差在哪裡？",
+    "這項差異如何影響選片？"
+  ]
+}

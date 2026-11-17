@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "id": "MIDA-866",
+  "generated_at": "2026-11-17T19:39:04.228Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/MIDA-866.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "蝦反弓形",
+    "premise": "作品以「蝦反弓形」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「蝦反弓形」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "蝦反弓形",
+      "禁欲高潮絕頂",
+      "渡部穗乃",
+      "潮吹"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "淫亂・過激系",
+      "アクメ・オーガズム"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由渡部ほの演出，這部作品與《錯過末班車來借宿的女友妹妹》的選片重點有何不同？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=4hEzkMQNWcH&cat=19",
+      "supports": "本作來源資料標示演員為渡部ほの、片商為 MOODYZ；簡介以禁慾一個月後的密集刺激作為企劃設定。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=u1u4I3sQ7N&cat=19",
+      "supports": "關聯作品同樣由渡部ほの演出；簡介以錯過末班車、借宿及女友妹妹的角色關係推進情境。"
+    }
+  ],
+  "angle_candidates": [
+    "比較兩作的企劃入口：一部靠借宿與人物關係，另一部靠禁慾後的強度設定。",
+    "檢視本作標題中的大量數字如何塑造期待，但不將宣傳數字當成已核實的成片表現。",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作把選片理由放在禁慾後的密集刺激設定；相較之下，同演員的《錯過末班車來借宿的女友妹妹》先建立借宿與人物關係的情境。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "渡部ほの",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "蝦反弓形",
+      "source_field": "title"
+    },
+    {
+      "type": "series",
+      "value": "禁欲アクメオーガズム 1カ月焦らされ24時間ぶっ通しデカチン",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "渡部ほの的禁慾高潮特別企劃",
+  "display_short_title": "渡部ほの的禁慾企劃",
+  "title": "從借宿情境到禁慾設定，渡部ほの這次換了選片入口",
+  "seo_title": "MIDA-866｜渡部ほの的禁慾企劃與同演員作品比較",
+  "social_title": "渡部ほの這次的賣點，是禁慾後的密集刺激設定",
+  "short_review": "本作簡介以禁慾一個月後的密集刺激為主軸；若你偏好先有借宿情境與人物關係，可對照渡部ほの演出的《錯過末班車來借宿的女友妹妹》。",
+  "editorial_angle": "用同演員作品的具體設定差異，說明本作適合哪一種選片期待。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介以禁慾一個月後的密集刺激為企劃設定。",
+      "supports": "本作的宣傳重心是刺激強度的累積。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "關聯作品簡介設定為錯過末班車後借宿，並以女友妹妹的角色關係製造張力。",
+      "supports": "同演員作品提供以情境和人物關係為入口的對照。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未把標題中的次數與容量視為經獨立核實的數據。",
+    "未推論實際片長、節奏、畫面、聲音、台詞或成片品質。",
+    "未將來源標題中的「渡部穗乃」升為人物主要名稱。"
+  ],
+  "decision_guide": {
+    "thesis": "依企劃入口選片：本作主打禁慾後的密集刺激設定；關聯作品主打借宿與人物關係。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源簡介以強度與連續性包裝本作，未提供足以判斷實際呈現方式的材料。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作與同演員關聯作品的設定差在哪裡？",
+      "這項差異如何影響選片？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "同一位演員，兩種選片入口",
+      "body": "《錯過末班車來借宿的女友妹妹》先給渡部ほの一個明確的角色與處境：錯過末班車、前來借宿，並牽涉女友妹妹的關係。本作則把人物關係退到後面，從「禁慾一個月後」的設定出發，以密集刺激作為主要賣點。兩份簡介提供的期待因此不同：前者讓讀者先辨認情境，後者讓讀者先辨認企劃強度。"
+    },
+    {
+      "heading": "標題的數字，不能代替觀看判斷",
+      "body": "本作標題堆疊次數與容量，目的在於強化「不斷累積」的印象。選片時更可靠的區別，仍是它公開提出的禁慾設定，而非把那些數字當作已核實的成片紀錄。若你想找有清楚角色關係的題材，關聯作品的借宿設定更直接；若你想看渡部ほの如何被放進強度導向的企劃，本作較切題。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據<a href=\"https://cc18.tv/player.php?uuid=4hEzkMQNWcH&amp;cat=19\">本作來源資料</a>及<a href=\"https://cc18.tv/player.php?uuid=u1u4I3sQ7N&amp;cat=19\">同演員關聯作品來源資料</a>中已核對的標題、人物關係與公開簡介。比較的是宣傳設定與選片意義，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "5dec7b691379a5b9ec423cea3cf896a034b6b80d8214d9a04552ce8771423a6b",
+    "response_sha256": "9c655e2117a52c82502d9ad71604644dadaeb8389f996e3d910321f65c6f799c",
+    "research_input_sha256": "f05ce86ca8e3d7b3362763f3080397f75979588e422feb372779d0954d38ed74",
+    "related_source_ids": [
+      "SNOS-344"
+    ]
+  }
+}

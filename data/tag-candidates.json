@@ -759,7 +759,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 55,
+      "occurrences": 56,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -815,10 +815,11 @@
         "SNOS-380",
         "DOJN-033",
         "SNOS-452",
-        "IPZZ-984"
+        "IPZZ-984",
+        "MIDA-866"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-18",
       "status": "quarantined"
     },
     {
@@ -1138,7 +1139,7 @@
     },
     {
       "label": "修長",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "SNOS-401",
         "REBD-1065",
@@ -1147,10 +1148,11 @@
         "MFCL-035",
         "SDJS-386",
         "SNOS-411",
-        "SNOS-420"
+        "SNOS-420",
+        "MIDA-866"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-18",
       "status": "quarantined"
     },
     {
