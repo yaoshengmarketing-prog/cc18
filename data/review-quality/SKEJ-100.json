@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "SKEJ-100",
+  "review_sha256": "604bc7145c9c04521be5cdd1a39817d65b0016c70e877ce892defba5a7df2b5a",
+  "selected_thesis": "本作可核對的特色，是公開簡介先用社群相約與初次見面建立情境；標題所說的聲音則仍是宣傳期待，不能當成已確認的聽覺表現。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "自拍形式",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "素人企劃",
+    "editorial_judgment": "比較同一作品的標題與公開簡介：前者主打聲音，後者具體描寫社群相約、認人與搭話。選片判斷限於宣傳設定。",
+    "source_keywords": [
+      "獨家",
+      "素人企劃",
+      "美少女設定",
+      "自拍形式"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題以「喘息聲可愛」作為括號中的賣點。",
+      "supports": "聲音是標題提出的期待，尚不足以判斷實際聲音表現。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介寫到雙方先在 X 上交流，再到約定地點碰面；敘述者認出戴口罩的對方，並準備開啟攝影機。",
+      "supports": "公開介紹的具體設定是一次由線上交流延伸到現場的初見。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將簡介中的敘述當成已核實的人物真實經歷。",
+    "未宣稱已聽過聲音、看過碰面畫面，或確認實際拍攝方式與節奏。",
+    "未根據「自拍」等標籤推定全片鏡位或成片品質。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-17T16:00:00.000Z"
+}

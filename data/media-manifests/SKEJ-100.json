@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "SKEJ-100",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-18T04:46:05.102Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/SKEJ-100/hero-v1.jpg",
+      "r2_key": "works/2026/11/SKEJ-100/hero-v1.jpg",
+      "bytes": 725907,
+      "sha256": "0b73ff30517e4361a40bddf30e437238320f16925bf6c5c680ffa91d7aa44ecd",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "d60cabe2908e4f9ca4c1bfdae9b89452",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/SKEJ-100/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/SKEJ-100/scene-vertical-v1.jpg",
+      "bytes": 1037108,
+      "sha256": "9967329fb52f0860bd403149858c06ffcc20d389093db1ee8be0c79087682d82",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "f74b05f3db6048e08054119eee8f3995",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2891603,
+    "sha256": "973d2fdced89df709005261c0af6eb713b1d5bd78d639f29b146cab0ca11da4b",
+    "target_r2_key": "works/2026/11/SKEJ-100/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/SKEJ-100/vertical-v1.mp4"
+  }
+}

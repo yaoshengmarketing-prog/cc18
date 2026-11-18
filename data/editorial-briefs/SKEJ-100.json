@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "id": "SKEJ-100",
+  "generated_at": "2026-11-18T04:44:28.370Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SKEJ-100.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "獨家",
+    "premise": "作品以「獨家」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「獨家」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "獨家",
+      "佳奈(喘息聲可愛"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "素人",
+      "美少女"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "オモチャ"
+    ],
+    "presentation": [
+      "自拍",
+      "720p",
+      "全高清 (FHD)",
+      "獨家限定",
+      "配信専用"
+    ]
+  },
+  "research_question": "來源標題強調聲音，公開簡介實際先建立了什麼樣的相遇設定？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=BkSmdhwAD5h&cat=19",
+      "supports": "使用題目提供的作品資料快照：標題提到聲音；簡介寫到在 X 上交流後約見、認出戴口罩的對方，以及準備開啟攝影機。外部作品頁未能開啟，未將搜尋片段視為全文。"
+    }
+  ],
+  "angle_candidates": [
+    "從社群交流到約定地點，簡介把初次見面放在聲音賣點之前",
+    "標題的聲音期待與簡介的見面過程，各自提供不同的選片線索",
+    "自拍形式的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作可核對的特色，是公開簡介先用社群相約與初次見面建立情境；標題所說的聲音則仍是宣傳期待，不能當成已確認的聽覺表現。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "獨家",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "素人企劃",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "美少女設定",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "自拍形式",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "從社群相約到初次見面",
+  "display_short_title": "社群相約的初見",
+  "title": "聲音賣點之前，文案先寫了一場初見",
+  "seo_title": "SKEJ-100｜聲音賣點之前，文案先寫了一場初見",
+  "social_title": "一場從社群交流開始的初次見面",
+  "short_review": "標題把聲音放在前面，簡介卻花更多篇幅交代從 X 上交流到約定地點碰面的過程。若你偏好有明確相遇情境的企劃，這比聲音形容詞更有參考價值。",
+  "editorial_angle": "比較同一作品的標題與公開簡介：前者主打聲音，後者具體描寫社群相約、認人與搭話。選片判斷限於宣傳設定。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題以「喘息聲可愛」作為括號中的賣點。",
+      "supports": "聲音是標題提出的期待，尚不足以判斷實際聲音表現。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介寫到雙方先在 X 上交流，再到約定地點碰面；敘述者認出戴口罩的對方，並準備開啟攝影機。",
+      "supports": "公開介紹的具體設定是一次由線上交流延伸到現場的初見。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將簡介中的敘述當成已核實的人物真實經歷。",
+    "未宣稱已聽過聲音、看過碰面畫面，或確認實際拍攝方式與節奏。",
+    "未根據「自拍」等標籤推定全片鏡位或成片品質。"
+  ],
+  "decision_guide": {
+    "thesis": "想找有社群相約與初見設定的作品，可從這份簡介得到明確線索；想確認聲音或影像呈現，現有材料不足。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以第一人稱描述線上交流後的見面過程，標題另以聲音作為賣點。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "這部作品的公開簡介如何設定相遇？",
+      "標題的聲音賣點與簡介重心有何差別？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "標題說聲音，簡介先說怎麼見面",
+      "body": "來源標題用「喘息聲可愛」吸引注意，公開簡介卻先交代另一條線索：雙方在 X 上交流後約定見面，敘述者在約定地點認出戴口罩的對方，再走近搭話。文案把注意力放在從線上走到現場的那一刻，而不是提供可核對的聲音細節。"
+    },
+    {
+      "heading": "這個差別如何幫助選片",
+      "body": "若你想找有初次見面設定的作品，簡介給出的社群交流、約見與認人過程，比標題的形容詞更具體。若你主要在意聲音，標題只能告訴你宣傳希望你期待什麼，不能證明成片如何呈現。\n\n資料來源與材料範圍：依據題目提供的 [SKEJ-100 作品資料快照](https://cc18.tv/player.php?uuid=BkSmdhwAD5h&cat=19)中的標題、標籤與公開簡介；外部作品頁未能開啟，亦無影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "1f3cfcf84af5faba39229cca43aa35b7c367eae94188ba8c49325c25b8d8b536",
+    "response_sha256": "74190830204bc586a6cb73c96a481a2726985feae4ab734addcc9116ad89a9dc",
+    "research_input_sha256": "98c01f5aab8d7dae6b7b3315cff6e4ed74372f587814ae35f10c49b9f5108f62",
+    "related_source_ids": []
+  }
+}

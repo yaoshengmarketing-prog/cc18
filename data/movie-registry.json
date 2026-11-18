@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17T19:44:37.968Z",
+  "updated_at": "2026-11-18T04:46:29.941Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -8851,6 +8851,19 @@
       ],
       "release_date": "2026-11-13",
       "source_url": "https://cc18.tv/player.php?uuid=4hEzkMQNWcH&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-18"
+    },
+    {
+      "id": "SKEJ-100",
+      "actress": [],
+      "release_date": "2026-11-13",
+      "source_url": "https://cc18.tv/player.php?uuid=BkSmdhwAD5h&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "SKEJ-100",
+  "generated_at": "2026-11-18T04:44:29.033Z",
+  "source_snapshot_hash": "sha256:1f3cfcf84af5faba39229cca43aa35b7c367eae94188ba8c49325c25b8d8b536",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想找有社群相約與初見設定的作品，可從這份簡介得到明確線索；想確認聲音或影像呈現，現有材料不足。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以第一人稱描述線上交流後的見面過程，標題另以聲音作為賣點。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部作品的公開簡介如何設定相遇？",
+    "標題的聲音賣點與簡介重心有何差別？"
+  ]
+}
