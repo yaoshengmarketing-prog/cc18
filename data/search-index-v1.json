@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:773d3a9b0f582b19c88b9c881bc0aaf5a429bb5206a18fefc44b3f14c5c466ca",
-  "source_generated_at": "2026-11-18T04:47:07.334Z",
+  "source_revision": "sha256:d05233a08ea54f72bb704672f581f617796868d6f9dc1f534b1bda1ba40e85b1",
+  "source_generated_at": "2026-11-18T22:01:22.665Z",
   "counts": {
-    "movies": 593,
-    "performers": 407,
+    "movies": 594,
+    "performers": 408,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -1135,6 +1135,7 @@
       "related_movie_ids": [
         "cc18:NACT-188",
         "cc18:NACT-208",
+        "cc18:NVH-091",
         "cc18:THPA-16"
       ]
     },
@@ -2265,6 +2266,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MKMP-758"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:30352",
+      "display_name": "近藤ムム",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "近藤ムム",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:NVH-091"
       ]
     },
     {
@@ -4760,6 +4772,63 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:NVH-091",
+        "source_cover": "https://cc18.tv/preview/80/b/23L4JA0wmfq-800.jpg?v=1794697756",
+        "title": "十年後的青梅竹馬",
+        "catalog_code": "NVH-091",
+        "release_date": "2026-11-14",
+        "performers": [
+          "由良佳奈",
+          "近藤ムム"
+        ],
+        "canonical_topics": [
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "kissing",
+            "label": "親吻互動"
+          },
+          {
+            "id": "student",
+            "label": "學生妹"
+          },
+          {
+            "id": "transgender",
+            "label": "變性人"
+          }
+        ],
+        "has_remotion_promo": false,
+        "href": "/works/nvh-091/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27387",
+        "cc18.tv:actor:30352"
+      ],
+      "search": {
+        "source_title": "暑假與變成男之娘的青梅竹馬重逢 汗濕舌吻体液滴滴跨性別女蕾絲性交 近藤ムム/由良かな",
+        "source_tags": [
+          "學生妹",
+          "變性人",
+          "女裝‧偽娘",
+          "親吻",
+          "720p",
+          "独占配信",
+          "HD",
+          "女同性戀"
+        ],
+        "article_title": "同樣是久別重逢，這次被改寫的是誰的記憶？",
+        "display_short_title": "十年後的青梅竹馬",
+        "slug": "nvh-091"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:EBWH-384",

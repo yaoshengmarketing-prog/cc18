@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "NVH-091",
+  "review_sha256": "d5ca11897b440de71b810a37368c5314e5e2bcf878406b000424a13390650a14",
+  "selected_thesis": "本作把十年後的重逢寫成佳奈重新認識兒時玩伴的起點；與 NACT-208 的父女重逢相比，相似的時間落差落在不同人物關係上，提供了更準確的選片線索。",
+  "title_basis": {
+    "performer": "由良佳奈、近藤ムム",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "由良佳奈",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "近藤ムム/由良かな",
+        "source_field": "title"
+      },
+      {
+        "type": "performer",
+        "value": "近藤ムム",
+        "source_field": "actress"
+      },
+      {
+        "type": "setting",
+        "value": "學生設定",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "由良佳奈",
+    "presentation_feature": "近藤ムム/由良かな",
+    "editorial_judgment": "以同演員的另一部重逢題材作對照，說明本作的關鍵是佳奈如何面對兒時玩伴如今的模樣，而非僅以題材標籤選片。",
+    "source_keywords": [
+      "由良佳奈",
+      "近藤ムム/由良かな",
+      "近藤ムム",
+      "學生設定"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介設定兒時玩伴相隔十年返鄉，佳奈對近藤ムム飾演的角色如今的模樣感到驚訝。",
+      "supports": "本作的重逢重點是兒時印象與眼前人物之間的落差。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "NACT-208 的簡介設定父親海外赴任五年後返家，發現成年女兒與記憶中不同；同樣由由良佳奈演出。",
+      "supports": "兩作都以久別後的變化引出關係轉折，但人物關係與察覺變化的一方不同。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將角色的服裝或來源標籤推論為演員的真實性別認同。",
+    "未推論成片的表演、節奏、畫面或情節效果。",
+    "未將宣傳簡介中的台詞當作已核對的影片對白。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-18T16:00:00.000Z"
+}

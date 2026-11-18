@@ -892,7 +892,7 @@
     },
     {
       "label": "女同性戀",
-      "occurrences": 17,
+      "occurrences": 18,
       "source_ids": [
         "BBAN-609",
         "BBAN-601",
@@ -910,10 +910,11 @@
         "DSOD-105",
         "BBAN-613",
         "BBAN-612",
-        "BBAN-614"
+        "BBAN-614",
+        "NVH-091"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-19",
       "status": "quarantined"
     },
     {
@@ -2850,16 +2851,17 @@
     },
     {
       "label": "女裝‧偽娘",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "HSM-090",
         "PETS-072",
         "FEM-040",
         "NVH-090",
-        "BOKD-322"
+        "BOKD-322",
+        "NVH-091"
       ],
       "first_seen": "2026-09-17",
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-19",
       "status": "quarantined"
     },
     {

@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "id": "NVH-091",
+  "checked_at": "2026-11-18T22:00:31.503Z",
+  "review_sha256": "d5ca11897b440de71b810a37368c5314e5e2bcf878406b000424a13390650a14",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed",
+    "title_lacks_source_core_concept",
+    "missing_creative_reconstruction_audit",
+    "insufficient_presentation_signals"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 3,
+          "excerpt": "本作的公開簡介把起點放在近藤ムム飾演的兒時玩伴返鄉：相隔十年，佳奈見到的已不是記憶中那個少年，而是穿著水手服、模樣截然不同的人。客廳裡的尷尬重逢，讓「曾經很熟」與「現在認不出」同時成立。這是簡介交代得最清楚的吸引力。"
+        }
+      ]
+    },
+    {
+      "code": "title_lacks_source_core_concept",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_presentation_signals",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 3,
+    "evidence_items": 2,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 3
+  }
+}

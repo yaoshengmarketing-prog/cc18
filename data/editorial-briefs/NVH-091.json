@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "id": "NVH-091",
+  "generated_at": "2026-11-18T17:43:57.574Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/NVH-091.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "近藤ムム/由良かな",
+    "premise": "作品以「近藤ムム/由良かな」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「近藤ムム/由良かな」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "近藤ムム/由良かな",
+      "近藤ムム/由良かな"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "學生妹",
+      "變性人"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "親吻"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由由良佳奈演出的久別重逢設定，NVH-091 與 NACT-208 把「對方變了」放在什麼不同的關係裡？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=23L4JA0wmfq&cat=19",
+      "supports": "已核對的作品資料記載：近藤ムム飾演的兒時玩伴十年後返鄉，佳奈對其穿著水手服的模樣感到驚訝；故事從客廳重逢展開。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=mHYVuzK7X8H&cat=19",
+      "supports": "已核對的關聯作品簡介記載：由良佳奈出演的角色與海外赴任五年後返家的父親重逢；父親發現成年女兒已不同於記憶中的模樣。"
+    }
+  ],
+  "angle_candidates": [
+    "比較兩部由良佳奈作品如何利用久別重逢改變人物對彼此的認識",
+    "從兒時記憶與眼前模樣的落差切入這次的青梅竹馬設定",
+    "學生設定的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作把十年後的重逢寫成佳奈重新認識兒時玩伴的起點；與 NACT-208 的父女重逢相比，相似的時間落差落在不同人物關係上，提供了更準確的選片線索。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "由良佳奈",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "近藤ムム/由良かな",
+      "source_field": "title"
+    },
+    {
+      "type": "performer",
+      "value": "近藤ムム",
+      "source_field": "actress"
+    },
+    {
+      "type": "setting",
+      "value": "學生設定",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "暑假重逢變了模樣的青梅竹馬｜由良佳奈、近藤ムム",
+  "display_short_title": "十年後的青梅竹馬",
+  "title": "同樣是久別重逢，這次被改寫的是誰的記憶？",
+  "seo_title": "NVH-091｜由良佳奈與近藤ムム的十年後青梅竹馬重逢",
+  "social_title": "十年沒見的兒時玩伴，讓佳奈從認不出開始重新認識",
+  "short_review": "近藤ムム飾演的兒時玩伴十年後返鄉，佳奈面對其截然不同的模樣。若你想找以熟悉關係突然變得陌生為起點的設定，這部的公開簡介給出了明確方向。",
+  "editorial_angle": "以同演員的另一部重逢題材作對照，說明本作的關鍵是佳奈如何面對兒時玩伴如今的模樣，而非僅以題材標籤選片。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介設定兒時玩伴相隔十年返鄉，佳奈對近藤ムム飾演的角色如今的模樣感到驚訝。",
+      "supports": "本作的重逢重點是兒時印象與眼前人物之間的落差。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "NACT-208 的簡介設定父親海外赴任五年後返家，發現成年女兒與記憶中不同；同樣由由良佳奈演出。",
+      "supports": "兩作都以久別後的變化引出關係轉折，但人物關係與察覺變化的一方不同。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將角色的服裝或來源標籤推論為演員的真實性別認同。",
+    "未推論成片的表演、節奏、畫面或情節效果。",
+    "未將宣傳簡介中的台詞當作已核對的影片對白。"
+  ],
+  "decision_guide": {
+    "thesis": "適合想看兒時玩伴重逢後，熟悉感與陌生感如何成為關係起點的讀者。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以十年後返鄉、外貌與穿著的改變，以及客廳裡的尷尬重逢建立設定。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作的重逢設定有什麼具體特點？",
+      "它與同樣由由良佳奈演出的另一部久別重逢作品有何差異？",
+      "這個差異能如何幫助選片？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "十年後，佳奈要重新認識誰？",
+      "body": "本作的公開簡介把起點放在近藤ムム飾演的兒時玩伴返鄉：相隔十年，佳奈見到的已不是記憶中那個少年，而是穿著水手服、模樣截然不同的人。客廳裡的尷尬重逢，讓「曾經很熟」與「現在認不出」同時成立。這是簡介交代得最清楚的吸引力。"
+    },
+    {
+      "heading": "同樣久別，改變落在不同關係裡",
+      "body": "同樣由由良佳奈演出的 NACT-208，也以多年後返家作為開端：父親海外赴任五年，回來後發現女兒已長大成人。兩作都讓重逢者面對記憶與眼前人物的差距，但 NACT-208 把變化放進父女關係，本作則讓佳奈面對兒時玩伴如今的模樣。若你選片時在意的是青梅竹馬之間重新認識彼此的設定，本作的理由比籠統的「久別重逢」更具體。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據已核對的 NVH-091 與 NACT-208 作品資料及簡介快照，比較兩作公開設定。人物關係的選片意義是編輯判斷；未以影片內容判定實際表演或敘事效果。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "6d429501af738fbd5bd0a00a534194a1113fd4cf28f3c7861b5b8f5af8f24d3f",
+    "response_sha256": "43f44403f7bc3c9ef93f043cab07abb60935e78977e65cb6e776041216c5e0cb",
+    "research_input_sha256": "b4ca769e427e5ea1b880071a6cc56b8c339fe180c063d2fe1c118a3f8c2caba4",
+    "related_source_ids": [
+      "NACT-208",
+      "THPA-16",
+      "NACT-188"
+    ]
+  }
+}
