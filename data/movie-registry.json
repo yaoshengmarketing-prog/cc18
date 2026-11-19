@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T17:43:58.528Z",
+  "updated_at": "2026-11-19T14:50:13.052Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -8885,6 +8885,21 @@
       "cover_status": "remote_source",
       "image_status": "pending",
       "video_status": "pending",
+      "template": "story",
+      "published_at": "2026-11-19"
+    },
+    {
+      "id": "FNS-267",
+      "actress": [
+        "翼舞"
+      ],
+      "release_date": "2026-11-19",
+      "source_url": "https://cc18.tv/player.php?uuid=bg5w9beUS5Z&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
       "template": "story",
       "published_at": "2026-11-19"
     }

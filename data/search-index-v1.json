@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:d05233a08ea54f72bb704672f581f617796868d6f9dc1f534b1bda1ba40e85b1",
-  "source_generated_at": "2026-11-18T22:01:22.665Z",
+  "source_revision": "sha256:c3d57d77280043c1aec50ab82bc859bdf8633e83637ce8a739f1ca33ea0a4103",
+  "source_generated_at": "2026-11-19T14:51:00.665Z",
   "counts": {
-    "movies": 594,
-    "performers": 408,
+    "movies": 595,
+    "performers": 409,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -4382,6 +4382,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:27016",
+      "display_name": "翼舞",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "翼舞",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FNS-267"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:29105",
       "display_name": "藍瀬ミナ",
       "display_name_zh_tw": null,
@@ -4772,6 +4783,57 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:FNS-267",
+        "source_cover": "https://cc18.tv/preview/80/b/bg5w9beUS5Z-800.jpg?v=1793824693",
+        "title": "露營約會的事後發現",
+        "catalog_code": "FNS-267",
+        "release_date": "2026-11-19",
+        "performers": [
+          "翼舞"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/fns-267/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:27016"
+      ],
+      "search": {
+        "source_title": "BBQ串刺輪姦NTR 翼舞",
+        "source_tags": [
+          "AV女優片",
+          "第一人稱視點",
+          "浴室",
+          "3p・4p",
+          "720p",
+          "HD",
+          "寝取り・寝取られ・ntr",
+          "4k"
+        ],
+        "article_title": "一段紀念錄影，如何改寫露營約會？",
+        "display_short_title": "露營約會的事後發現",
+        "slug": "fns-267"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:NVH-091",

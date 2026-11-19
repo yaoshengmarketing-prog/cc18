@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "movie_id": "FNS-267",
+  "generated_at": "2026-11-19T14:44:16.931Z",
+  "source_snapshot_hash": "sha256:d1656c07bd7651da12c301ccab15b14750ab1e9db0b1e56f32f35de3d1f59f44",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "選片重點在露營約會與事後查看錄影之間的資訊落差。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以雙人露營、營地員工介入、事後查看錄影三個設定推進懸念。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "露營約會原本為何被設定成兩人獨處？",
+    "男友在什麼時候發現異樣？",
+    "這個時間差提供了什麼選片線索？"
+  ]
+}

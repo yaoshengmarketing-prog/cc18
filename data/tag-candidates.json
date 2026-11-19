@@ -950,7 +950,7 @@
     },
     {
       "label": "寝取り・寝取られ・ntr",
-      "occurrences": 73,
+      "occurrences": 74,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -1024,10 +1024,11 @@
         "IPZZ-971",
         "NGOD-370",
         "DSOD-136",
-        "MIAB-681"
+        "MIAB-681",
+        "FNS-267"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-16",
+      "last_seen": "2026-11-19",
       "status": "quarantined"
     },
     {
@@ -1573,7 +1574,7 @@
     },
     {
       "label": "第一人稱視點",
-      "occurrences": 18,
+      "occurrences": 19,
       "source_ids": [
         "IESP-765",
         "IPZZ-943",
@@ -1592,10 +1593,11 @@
         "BAGR-092",
         "MKMP-751",
         "WAAA-694",
-        "MIDA-837"
+        "MIDA-837",
+        "FNS-267"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-19",
       "status": "quarantined"
     },
     {
@@ -3241,14 +3243,15 @@
     },
     {
       "label": "浴室",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "START-649",
         "SDAM-179",
-        "SNOS-410"
+        "SNOS-410",
+        "FNS-267"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-19",
       "status": "quarantined"
     },
     {

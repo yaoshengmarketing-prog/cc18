@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "FNS-267",
+  "review_sha256": "2da87f1ae8f900ad9660f5cdb3fd8795dae0760650c029b478ea76db7fccd6f0",
+  "selected_thesis": "這部作品的選片線索是「事後發現」：原本為留念而拍的錄影，成為男友重新理解露營約會的媒介。",
+  "title_basis": {
+    "performer": "翼舞",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "翼舞",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "BBQ串刺輪姦NTR",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "翼舞",
+    "presentation_feature": "BBQ串刺輪姦NTR",
+    "editorial_judgment": "以「當下未察覺、事後由錄影得知」的資訊落差，說明本作的故事設定與選片意義。",
+    "source_keywords": [
+      "翼舞",
+      "BBQ串刺輪姦NTR",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "簡介寫明男友為翼舞預約冷門露營地，抵達時幾乎沒有其他客人。",
+      "supports": "兩人獨處是故事開端建立的期待。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介寫明營地員工過度熱情，男友在數日後查看紀念錄影時才發現異樣。",
+      "supports": "作品把異樣的揭露安排在約會結束後，而非男友當場得知。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未推定錄影的具體畫面、拍攝視角或揭露順序。",
+    "未根據標籤判定實際鏡位、節奏或成片品質。",
+    "未將簡介中的角色設定當作翼舞的真實經歷。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-18T16:00:00.000Z"
+}

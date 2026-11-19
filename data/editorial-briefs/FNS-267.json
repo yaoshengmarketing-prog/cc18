@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "id": "FNS-267",
+  "generated_at": "2026-11-19T14:44:16.140Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/FNS-267.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "BBQ串刺輪姦NTR",
+    "premise": "作品以「BBQ串刺輪姦NTR」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「BBQ串刺輪姦NTR」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "BBQ串刺輪姦NTR",
+      "翼舞"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "3p・4p"
+    ],
+    "presentation": [
+      "720p",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "這部作品為何把露營約會的異樣，留到事後查看錄影才揭露？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=bg5w9beUS5Z&cat=19",
+      "supports": "已提供的作品資料記載翼舞與男友前往近乎包場的露營地、營地員工過度熱情，以及男友數日後查看紀念錄影時發現異樣。"
+    }
+  ],
+  "angle_candidates": [
+    "從兩人獨處的露營期待，寫到營地員工介入造成的落差。",
+    "從事後查看紀念錄影的設定，分析這部作品如何安排男友得知異樣的時間。",
+    "BBQ串刺輪姦NTR的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "這部作品的選片線索是「事後發現」：原本為留念而拍的錄影，成為男友重新理解露營約會的媒介。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "翼舞",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "BBQ串刺輪姦NTR",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "identity",
+      "value": "AV女優片",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "翼舞的露營約會與事後發現",
+  "display_short_title": "露營約會的事後發現",
+  "title": "一段紀念錄影，如何改寫露營約會？",
+  "seo_title": "FNS-267｜翼舞的露營約會與事後發現",
+  "social_title": "翼舞的露營約會，為何要等到事後才看出異樣？",
+  "short_review": "公開簡介先建立近乎包場的雙人露營期待，再讓營地員工介入，最後以事後查看錄影揭露異樣。想找帶有延後發現設定的 NTR 作品，可從這條線索判斷是否合口味。",
+  "editorial_angle": "以「當下未察覺、事後由錄影得知」的資訊落差，說明本作的故事設定與選片意義。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "簡介寫明男友為翼舞預約冷門露營地，抵達時幾乎沒有其他客人。",
+      "supports": "兩人獨處是故事開端建立的期待。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介寫明營地員工過度熱情，男友在數日後查看紀念錄影時才發現異樣。",
+      "supports": "作品把異樣的揭露安排在約會結束後，而非男友當場得知。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未推定錄影的具體畫面、拍攝視角或揭露順序。",
+    "未根據標籤判定實際鏡位、節奏或成片品質。",
+    "未將簡介中的角色設定當作翼舞的真實經歷。"
+  ],
+  "decision_guide": {
+    "thesis": "選片重點在露營約會與事後查看錄影之間的資訊落差。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以雙人露營、營地員工介入、事後查看錄影三個設定推進懸念。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "露營約會原本為何被設定成兩人獨處？",
+      "男友在什麼時候發現異樣？",
+      "這個時間差提供了什麼選片線索？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "從近乎包場，到有人介入",
+      "body": "公開簡介裡，男友為喜歡戶外活動的翼舞訂下冷門露營地；現場幾乎沒有其他客人，原本像是兩人的約會。營地員工卻頻繁照應，讓這份獨處期待落空。這個落差，比單看露營題材更能說明作品的故事入口。"
+    },
+    {
+      "heading": "關鍵放在約會結束之後",
+      "body": "簡介沒有讓男友當場看清異樣，而是讓他數日後重看為留念拍下的錄影。錄影從紀念約會的東西，變成重新理解那天經歷的線索。若你偏好「事後才得知」的 NTR 設定，這是本作最明確的選片理由；實際畫面如何呈現，仍不能由簡介判定。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據已提供的 CC18 作品資料與公開簡介（https://cc18.tv/player.php?uuid=bg5w9beUS5Z&cat=19）。「事後發現」的選片意義是根據文字設定所作的編輯判斷，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "d1656c07bd7651da12c301ccab15b14750ab1e9db0b1e56f32f35de3d1f59f44",
+    "response_sha256": "70fb3998a0f613833f1601e6881c89d1c7ea358cb115c217d352ff6b87b66bcf",
+    "research_input_sha256": "d9d82c65585b72e2e4c6e84e0da145c82362d0321cb3b7e2b6a743dc2b40327b",
+    "related_source_ids": []
+  }
+}
