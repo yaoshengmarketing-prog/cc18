@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "FERA-213",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-09-07T17:10:37.829Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/08/FERA-213/hero-v1.jpg",
+      "r2_key": "works/2026/08/FERA-213/hero-v1.jpg",
+      "bytes": 1601251,
+      "sha256": "91979c3b38581379f71a5886cb3337fe5daf6079dd1078875bce086467bd5e8f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/08/FERA-213/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/08/FERA-213/scene-vertical-v1.jpg",
+      "bytes": 1093188,
+      "sha256": "f4113c9d5e0dbb574eb63a8bcd19e3ba9ed464646a550136052672360037ce74",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": null,
+      "source_file": null,
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: 一般室內場景. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated lighting. Original fict",
+      "recovery": "rehydrated_from_hash_verified_r2_object"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_before_r2_rehydration",
+    "bytes": 3414462,
+    "sha256": "9b6ebc144985895e5ab0b778f726373aa0ad081f98d97c98c59f5374bafc99d8",
+    "target_r2_key": "works/2026/08/FERA-213/vertical-v1.mp4",
+    "public_path": "/media/works/2026/08/FERA-213/vertical-v1.mp4",
+    "recovery": "rehydrated_from_hash_verified_r2_object"
+  }
+}
