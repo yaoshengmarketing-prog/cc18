@@ -1173,7 +1173,7 @@
     },
     {
       "label": "偷窺",
-      "occurrences": 10,
+      "occurrences": 11,
       "source_ids": [
         "NSODN-025",
         "YJNS-001",
@@ -1184,7 +1184,8 @@
         "STVF-115",
         "SDMM-242",
         "OREMO-618",
-        "OREMO-621"
+        "OREMO-621",
+        "ORECS-678"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-06",
