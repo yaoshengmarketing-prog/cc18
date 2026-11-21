@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "movie_id": "PPV-4976260",
+  "generated_at": "2026-09-19T15:05:13.570Z",
+  "source_snapshot_hash": "sha256:98bf6c0e543b79d958118dfa3ae3a7ccfb8c68c18273bea59dc779423dc119f3",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "聚焦公開資料中最穩定的企劃訊號：素人、自拍、口交、中出，以及獨家包裝如何共同構成選片依據。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "素人企劃",
+      "自拍形式",
+      "高畫質",
+      "獨家"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "這部作品的主要企劃切角是什麼？聚焦公開資料中最穩定的企劃訊號：素人、自拍、口交、中出，以及獨家包裝如何共同構成選片依據。",
+    "哪些觀眾較適合？偏好角色互動、演員魅力與企劃推進的觀眾",
+    "有哪些觀看取捨？只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+  ]
+}
