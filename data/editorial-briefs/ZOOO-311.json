@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "id": "ZOOO-311",
+  "generated_at": "2026-11-08T06:44:34.669Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/ZOOO-311.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "獨家",
+    "premise": "作品以「獨家」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「獨家」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "獨家",
+      "所以不由自主地",
+      "強迫進行內射性交"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "人妻"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "全高清 (FHD)",
+      "獨家限定",
+      "配信専用"
+    ]
+  },
+  "research_question": "同樣由大槻響演出，這部作品的四人收錄形式，與 WAAA-705 以女教師角色為中心的介紹，有何具體差異？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=D3peTFIaC&cat=19",
+      "supports": [
+        "使用題附的已核對來源快照；本次未能開啟網頁全文。",
+        "演員列有大槻響、椿加奈里、淺見芹、西山明。",
+        "簡介以同居家庭中的姻親關係為設定，宣稱收錄四位演員、共240分鐘。"
+      ]
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=Ai7yEX00_3y&cat=19",
+      "supports": [
+        "使用題附的已核對關聯作品資料；本次未能開啟網頁全文。",
+        "WAAA-705 同樣由大槻響演出，介紹以女教師與求助者的互動為起點。",
+        "已核對關係為共同演員，並非同系列。"
+      ]
+    }
+  ],
+  "angle_candidates": [
+    "四位演員與240分鐘的收錄規模，能否代表完整長篇故事？",
+    "同樣由大槻響演出，家庭角色與女教師角色如何形成不同的作品辨識方式？",
+    "淺見芹的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作最明確的辨識點是四位演員共同收錄，以及同居家庭的角色設定；240分鐘說明的是宣傳中的收錄規模，不能直接換算成故事深度。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "大槻響",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "獨家",
+      "source_field": "title"
+    },
+    {
+      "type": "performer",
+      "value": "椿加奈里",
+      "source_field": "actress"
+    },
+    {
+      "type": "performer",
+      "value": "淺見芹",
+      "source_field": "actress"
+    }
+  ],
+  "work_title": "同居家庭中的關係越界：四位演員共同收錄",
+  "display_short_title": "同居家庭題材四人收錄",
+  "title": "四位演員、240分鐘，先分清收錄規模與故事規模",
+  "seo_title": "ZOOO-311 作品資料評析：四人收錄與家庭角色設定",
+  "social_title": "同樣由大槻響演出，角色設定之外還要看收錄形式",
+  "short_review": "來源列出四位演員，簡介標示240分鐘，足以辨識本作的收錄規模；但是否包含彼此連貫的故事，資料沒有交代。與同樣由大槻響演出的 WAAA-705 相比，本作以同居家庭關係建立情境，後者則從女教師角色與求助事件切入。兩者可以比較角色設定，不能據此評定表演或敘事高下。",
+  "editorial_angle": "從演員名單、收錄時長與角色起點，辨別作品形式，避免把長時數誤讀為長篇敘事。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作演員名單列出大槻響、椿加奈里、淺見芹、西山明，簡介標示四位演員與240分鐘。",
+      "supports": "可確認來源以四人收錄與時長作為介紹重點，不能確認各人的篇幅或段落安排。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作簡介以妻子、丈夫及同居公公的家庭關係建立情境。",
+      "supports": "家庭角色是本作公開設定的辨識點；不代表演員的真實親屬關係。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "WAAA-705 的介紹圍繞大槻響的女教師角色，以及另一角色向她求助的事件展開。",
+      "supports": "相較本作的家庭情境，關聯作品以職業角色和特定事件作為介紹起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "已核對的關聯資料標明兩作具有共同演員，沒有共同系列關係。",
+      "supports": "比較限於同演員作品的設定差異，不延伸為系列演變或片商風格。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將240分鐘解讀為完整長篇劇情或較高故事密度。",
+    "未推定四位演員各自的收錄時長、出場順序或是否同場。",
+    "未將本作稱為舊作精選或重新剪輯合集。",
+    "未判定表演品質、鏡位、聲音、剪輯節奏或實際台詞。",
+    "未補寫日文原題、系列名稱、片商或人物經歷。",
+    "未以搜尋結果片段補充作品事實。"
+  ],
+  "decision_guide": {
+    "thesis": "先以四人收錄形式與家庭角色設定辨識本作；若重視單一演員的篇幅或完整故事，現有資料仍不足以判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源宣傳為四位演員、共240分鐘的收錄作品，未交代段落銜接方式。"
+    ],
+    "audience_for": [
+      "希望先確認演員組合、角色設定與收錄形式的成年讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "audience_not_for": [
+      "需要先確認大槻響個人篇幅的讀者。",
+      "以完整長篇故事或明確節奏評價作為選片依據的讀者。"
+    ],
+    "questions_answered": [
+      "本作列出哪些演員？",
+      "240分鐘能否證明故事較完整？",
+      "與同樣由大槻響演出的 WAAA-705，在角色設定上有何不同？",
+      "兩作是否屬於同系列？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "四人收錄，不能直接當成一條長故事",
+      "body": "同樣由大槻響演出，本作與 WAAA-705 的介紹方式有何不同？先看本作：來源列出大槻響、椿加奈里、淺見芹、西山明，並以四位演員、240分鐘介紹收錄規模。這些資訊能回答有哪些人參與，卻沒有說明四人的段落是否相連。若因大槻響而查找本作，也不能把總時長當成她個人的演出篇幅。"
+    },
+    {
+      "heading": "家庭關係與女教師角色，是兩種不同的情境起點",
+      "body": "本作的公開設定從妻子與同居公公的家庭關係出發；WAAA-705 則把大槻響置於女教師角色，以另一角色向她求助的事件展開介紹。前者依靠既有家庭身分建立情境，後者先交代職業角色與事件起因。這項差異有助於辨別題材是否符合自己的查找方向，但不足以證明哪部故事更細緻。兩作的已知連結是共同演員，沒有資料支持把它們視為同系列的前後變化。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用題附已核對的 [ZOOO-311 作品頁快照](https://cc18.tv/player.php?uuid=D3peTFIaC&cat=19)及 [WAAA-705 關聯作品資料](https://cc18.tv/player.php?uuid=Ai7yEX00_3y&cat=19)。本次未能開啟兩頁全文，也未取得可核對的官方作品或訪談全文；搜尋片段未納入依據。比較限於演員關係、公開角色設定與宣傳收錄資訊，未使用影片抽樣。240分鐘依簡介記載，另有「超過4小時」分類標籤，實際片長未另行確認。本文作品名稱為中文編輯題，並非已確認的日文原題譯名。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "0cbf27dad656b4daebc337a373e4a16e59be5ab427119244faad0aa8627d72be",
+    "response_sha256": "e8c04863b1176f11e76af069487d4e8af9c7b9cdd4761a98601fb57aa1a0583a",
+    "research_input_sha256": "26fadb5d284f6c2b8dc3473c2d501005ed738b5fae07d225ca8d933847523826",
+    "related_source_ids": [
+      "WAAA-705"
+    ]
+  }
+}
