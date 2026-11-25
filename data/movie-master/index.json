@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-25T23:08:02.055Z",
+  "generated_at": "2026-11-25T23:13:21.704Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 602,
-  "formal_movie_count": 601,
+  "tracked_input_count": 603,
+  "formal_movie_count": 602,
   "demo_count": 1,
-  "published_count": 600,
+  "published_count": 601,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -3779,6 +3779,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "289dbec4dc7cf2b0aa9cb2c13f214acce58f8dbd639e3b0cceb0e30272f98e67"
+    },
+    {
+      "stable_movie_id": "cc18:PPV-4977601",
+      "catalog_code": "PPV-4977601",
+      "slug": "ppv-4977601",
+      "master_path": "data/movie-master/ppv-4977601.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "1c94588cc4dc57015d136f7397f45d7f45746a5d24cab476e8b18846e149b9bb"
     },
     {
       "stable_movie_id": "cc18:PPV-4992189",
