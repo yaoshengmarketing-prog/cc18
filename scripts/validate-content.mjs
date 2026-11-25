@@ -27,7 +27,11 @@ const frontmatter = (markdown) => {
 
 const scalar = (yaml, key) => {
   const match = yaml.match(new RegExp(`^${key}:\\s*(.+)$`, 'm'));
-  return match?.[1]?.trim().replace(/^['"]|['"]$/g, '');
+  const value = match?.[1]?.trim();
+  if (value?.startsWith('"') && value.endsWith('"')) {
+    try { return JSON.parse(value); } catch { /* Keep the existing fallback for non-JSON YAML scalars. */ }
+  }
+  return value?.replace(/^['"]|['"]$/g, '');
 };
 
 const list = (yaml, key) => {

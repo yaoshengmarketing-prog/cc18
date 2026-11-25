@@ -70,6 +70,7 @@ const articleLabel = evidence.evidence_level === 'DISTRIBUTED_SAMPLE' ? '影片�
 // Approved Markdown owns the work H1, article H2, lead and body. Source Record
 // keeps the original source name and URL; Movie Master projects card titles.
 const lead = review.data.shortReview;
+const metaDescription = `${review.data.id}｜${lead}`;
 const sourceTitleIsReadableZh = /[\u3400-\u9fff]/u.test(review.data.sourceTitle)
   && !/[\u3041-\u3096\u30a1-\u30fa]/u.test(review.data.sourceTitle)
   && review.data.sourceTitle.length <= 36;
@@ -127,7 +128,7 @@ if (hasPublishedVideo && review.data.videoUrl) structuredData.push({
   isFamilyFriendly: false,
 });
 ---
-<BaseLayout title={titleSubject} socialTitle={socialTitleSubject} description={lead} image={review.data.heroUrl ?? review.data.coverUrl} video={hasPublishedVideo ? review.data.videoUrl : undefined} releaseId={quality.review_sha256} adult={true} structuredData={structuredData}>
+<BaseLayout title={titleSubject} socialTitle={socialTitleSubject} description={metaDescription} image={review.data.heroUrl ?? review.data.coverUrl} video={hasPublishedVideo ? review.data.videoUrl : undefined} releaseId={quality.review_sha256} adult={true} structuredData={structuredData}>
   <article class="review-page">
     <nav class="breadcrumbs" aria-label="麵包屑">
       <a href="/">首頁</a><span>／</span><a href="/latest/">作品影評</a><span>／</span><b>{review.data.id}</b>
