@@ -15,14 +15,14 @@ const digest = (text) => createHash('sha256').update(text).digest('hex');
 const hashField = /^  "source_snapshot_hash": "(sha256:[a-f0-9]{64})",?$/gmu;
 const fail = (movieId, message) => { throw new Error(`${movieId}: reviewed source binding recovery ${message}`); };
 
-const reviewedEntry = (manifest, movieId) => {
-  if (manifest?.schema_version !== 1 || manifest?.source_run_id !== RECOVERY_RUN_ID
+const reviewedEntry = (manifest, movieId, {expectedRunId, allowedMovieIds}) => {
+  if (manifest?.schema_version !== 1 || manifest?.source_run_id !== expectedRunId
     || !Array.isArray(manifest.records) || !manifest.records.length) {
     fail(movieId, 'manifest is invalid');
   }
   const seen = new Set();
   for (const entry of manifest.records) {
-    if (!allowedIds.has(entry?.movie_id) || seen.has(entry.movie_id)) {
+    if (!allowedMovieIds.has(entry?.movie_id) || seen.has(entry.movie_id)) {
       fail(movieId, 'manifest contains an unrelated or duplicate work');
     }
     seen.add(entry.movie_id);
@@ -38,8 +38,10 @@ const reviewedEntry = (manifest, movieId) => {
 
 // The manifest is a reviewed, repository-controlled allowlist of exact bytes.
 // A passing automated QA report alone does not authorize adding a manifest entry.
-export async function recoverReviewedSourceBinding({root, movieId, manifest}) {
-  const entry = reviewedEntry(manifest, movieId);
+export async function recoverReviewedSourceBinding({
+  root, movieId, manifest, expectedRunId = RECOVERY_RUN_ID, allowedMovieIds = allowedIds,
+}) {
+  const entry = reviewedEntry(manifest, movieId, {expectedRunId, allowedMovieIds});
   if (!entry) return {movie_id: movieId, changed: false, reason: 'not_targeted'};
   const sourcePath = resolve(root, 'data', 'source-records', `${movieId}.json`);
   const searchPath = resolve(root, 'data', 'search-content', `${movieId}.json`);

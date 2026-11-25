@@ -34,6 +34,13 @@ if (RECOVERY_MOVIE_IDS.includes(movieId)) {
   const recovery = await recoverReviewedSourceBinding({root, movieId, manifest});
   if (recovery.changed) console.log(JSON.stringify({event: 'reviewed_source_binding_recovered', ...recovery}));
 }
+if (movieId === 'NEO-953') {
+  const manifest = JSON.parse(await readFile(resolve(root, 'config/recover-neo953-source-binding.json'), 'utf8'));
+  const recovery = await recoverReviewedSourceBinding({
+    root, movieId, manifest, expectedRunId: 45533090574, allowedMovieIds: new Set(['NEO-953']),
+  });
+  if (recovery.changed) console.log(JSON.stringify({event: 'reviewed_source_binding_recovered', ...recovery}));
+}
 
 const run = (script, args) => new Promise((resolveRun, rejectRun) => {
   const child = spawn(process.execPath, [resolve(root, script), ...args], {cwd: root, env: process.env, stdio: 'inherit'});

@@ -61,6 +61,21 @@ test('a work outside the reviewed records is skipped without reading or creating
   }
 }));
 
+test('a separate recovery run needs its own pinned run ID and allowlist', () => temporary(async (root) => {
+  const {manifest, sourceText, searchText} = await fixture(root);
+  manifest.source_run_id = 45533090574;
+  await assert.rejects(recoverReviewedSourceBinding({root, movieId, manifest}), /manifest is invalid/);
+  await assert.rejects(recoverReviewedSourceBinding({
+    root, movieId, manifest, expectedRunId: 45533090574, allowedMovieIds: new Set(['NEO-953']),
+  }), /unrelated or duplicate work/);
+  assert.equal(await readFile(join(root, searchRel), 'utf8'), searchText);
+  const result = await recoverReviewedSourceBinding({
+    root, movieId, manifest, expectedRunId: 45533090574, allowedMovieIds: new Set([movieId]),
+  });
+  assert.equal(result.changed, true);
+  assert.match(await readFile(join(root, searchRel), 'utf8'), new RegExp(digest(sourceText)));
+}));
+
 test('any reviewed source, article, or Search Content byte change fails before any hash write', async (t) => {
   for (const [path, label] of [[sourceRel, 'source'], [reviewRel, 'review'], [searchRel, 'search']]) {
     await t.test(label, () => temporary(async (root) => {

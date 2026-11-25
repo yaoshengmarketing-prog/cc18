@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "source_run_id": 45533090574,
+  "records": [
+    {
+      "movie_id": "NEO-953",
+      "source_sha256": "c8c1f00f92e8f3575b18636dc541e9e27fc482dcb92db520ebf059b994d1ae8e",
+      "search_sha256": "3ceeae8cc69efe8fea5c79c9816fd7a781e8de82742cc2f17d611141c7f0cebc",
+      "review_sha256": "022c4265fa6b9ef58c1c6799bea7bad48e2413580908036c289b0ab456e1523b",
+      "previous_source_snapshot_hash": "sha256:de39ccbf05d8127932016d77835db7a90153f2ddb6437b52f4a944d8b1689bfc"
+    }
+  ]
+}
