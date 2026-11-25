@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "ZOOO-311",
+  "review_sha256": "59a5dad41e41c9e6659b1076847670c0aa655e7aae94253c56a1721f3710f9c9",
+  "selected_thesis": "本作最明確的辨識點是四位演員共同收錄，以及同居家庭的角色設定；240分鐘說明的是宣傳中的收錄規模，不能直接換算成故事深度。",
+  "title_basis": {
+    "performer": "大槻響、椿加奈里、淺見芹、西山明",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "大槻響",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "performer",
+        "value": "椿加奈里",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "淺見芹",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "大槻響",
+    "presentation_feature": "獨家",
+    "editorial_judgment": "從演員名單、收錄時長與角色起點，辨別作品形式，避免把長時數誤讀為長篇敘事。",
+    "source_keywords": [
+      "大槻響",
+      "獨家",
+      "椿加奈里",
+      "淺見芹"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作演員名單列出大槻響、椿加奈里、淺見芹、西山明，簡介標示四位演員與240分鐘。",
+      "supports": "可確認來源以四人收錄與時長作為介紹重點，不能確認各人的篇幅或段落安排。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作簡介以妻子、丈夫及同居公公的家庭關係建立情境。",
+      "supports": "家庭角色是本作公開設定的辨識點；不代表演員的真實親屬關係。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "WAAA-705 的介紹圍繞大槻響的女教師角色，以及另一角色向她求助的事件展開。",
+      "supports": "相較本作的家庭情境，關聯作品以職業角色和特定事件作為介紹起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "已核對的關聯資料標明兩作具有共同演員，沒有共同系列關係。",
+      "supports": "比較限於同演員作品的設定差異，不延伸為系列演變或片商風格。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將240分鐘解讀為完整長篇劇情或較高故事密度。",
+    "未推定四位演員各自的收錄時長、出場順序或是否同場。",
+    "未將本作稱為舊作精選或重新剪輯合集。",
+    "未判定表演品質、鏡位、聲音、剪輯節奏或實際台詞。",
+    "未補寫日文原題、系列名稱、片商或人物經歷。",
+    "未以搜尋結果片段補充作品事實。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-07T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

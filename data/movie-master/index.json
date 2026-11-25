@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-19T14:51:00.665Z",
+  "generated_at": "2026-11-25T22:46:53.018Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 597,
-  "formal_movie_count": 596,
+  "tracked_input_count": 598,
+  "formal_movie_count": 597,
   "demo_count": 1,
-  "published_count": 595,
+  "published_count": 596,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -5381,6 +5381,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "4e637c52d8b42278588997fa5afcde8946fdb98418a5bbca846407a49fe4518f"
+    },
+    {
+      "stable_movie_id": "cc18:ZOOO-311",
+      "catalog_code": "ZOOO-311",
+      "slug": "zooo-311",
+      "master_path": "data/movie-master/zooo-311.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "2049c282254a25c2d08ac289d133cc6c7bae8c99d37582c62617e78e6b03d64a"
     }
   ]
 }
