@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-25T23:13:21.704Z",
+  "generated_at": "2026-11-25T23:18:26.417Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 603,
-  "formal_movie_count": 602,
+  "tracked_input_count": 604,
+  "formal_movie_count": 603,
   "demo_count": 1,
-  "published_count": 601,
+  "published_count": 602,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -5183,6 +5183,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "a3298bd579e3251784064b936a452c7dc5c1b5ab9c8a3a96128e29741b2ea132"
+    },
+    {
+      "stable_movie_id": "cc18:TKG-003",
+      "catalog_code": "TKG-003",
+      "slug": "tkg-003",
+      "master_path": "data/movie-master/tkg-003.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "e88458270f258c2a1bdde9b3fa87de1548c34883718b7a1093d22b54a46017dd"
     },
     {
       "stable_movie_id": "cc18:TKG-004",
