@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "source_run_id": 45618130500,
+  "records": [
+    {
+      "movie_id": "NEO-856",
+      "source_sha256": "20a12480d791ef8d9d9b2b7938adb96129890650c68c0c64f5997f30cdcdebab",
+      "search_sha256": "8303a43939e4d2feaa01fb5f681e26d7f53189b83a52cab539a2bef366aca801",
+      "review_sha256": "9009a190944e90ce4663a8aff2c25994eca51e411974f0855af7628ce7f4928c",
+      "previous_source_snapshot_hash": "sha256:7e95a8068c5700a9923c9513308665b1a751ae84b0407b6f52f48b571b746b66"
+    },
+    {
+      "movie_id": "FERA-213",
+      "source_sha256": "9775171a2cb7ee7277f39b8b3e0fb85da5b1800b0c6c7b98f7cd348f47df449b",
+      "search_sha256": "0c1ef047de7fd3d15cb1bdbeacb3d5aa09bd2ba6ef19691a6da88c12a440ff3c",
+      "review_sha256": "d4d049bf592ddbc007b41852037fbdc52d9c090f2b494ec1fc24267578462f4f",
+      "previous_source_snapshot_hash": "sha256:f0d623b6b5bd4e51abb8463c2abeb7effd2939768f6830b9d3d51b17fad20b6e"
+    },
+    {
+      "movie_id": "PPV-4963928",
+      "source_sha256": "2958a4ecb151103c8e5e0f6bc14fb481acd38a7b25dd18197a7294ae2b941edf",
+      "search_sha256": "d16051ccd5bda64fb8a53a88421fa0d20a47239ea5c99414e1c11938dd32e54f",
+      "review_sha256": "41f21af32e149b4e2ff5c724c17a299c4d391f8680eac8b450b8386bbfdcf8a8",
+      "previous_source_snapshot_hash": "sha256:4fbedc5426b926967b68f1f0c6e0d9ae117d02787ff6893ff22c3f5d903b65b7"
+    }
+  ]
+}
