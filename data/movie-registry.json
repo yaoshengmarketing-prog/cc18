@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-25T23:17:37.336Z",
+  "updated_at": "2026-11-25T23:22:33.502Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -9000,6 +9000,19 @@
       "video_status": "rendered",
       "template": "story",
       "published_at": "2026-09-18"
+    },
+    {
+      "id": "PPV-4976260",
+      "actress": [],
+      "release_date": "2026-09-13",
+      "source_url": "https://cc18.tv/player.php?uuid=1B2lepoy62_&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-19"
     }
   ]
 }
