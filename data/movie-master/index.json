@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-26T05:34:26.131Z",
+  "generated_at": "2026-11-26T05:45:25.299Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 610,
-  "formal_movie_count": 609,
+  "tracked_input_count": 611,
+  "formal_movie_count": 610,
   "demo_count": 1,
-  "published_count": 608,
+  "published_count": 609,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -3572,6 +3572,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "8d1173fb46eb8d9e699cfdd4ce7528b0d3889722c21f6c684f08aa985f479c7c"
+    },
+    {
+      "stable_movie_id": "cc18:ORECS-678",
+      "catalog_code": "ORECS-678",
+      "slug": "orecs-678",
+      "master_path": "data/movie-master/orecs-678.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "8f8beebc64d86a42d787d3f77487504dc29481ff6daa7da9f3e718741f111cca"
     },
     {
       "stable_movie_id": "cc18:ORECS-704",
