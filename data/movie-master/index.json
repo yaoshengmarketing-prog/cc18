@@ -1,14 +1,23 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-26T15:37:25.642Z",
+  "generated_at": "2026-11-26T15:42:06.818Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 614,
-  "formal_movie_count": 613,
+  "tracked_input_count": 615,
+  "formal_movie_count": 614,
   "demo_count": 1,
-  "published_count": 612,
+  "published_count": 613,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
+    {
+      "stable_movie_id": "cc18:AARM-366",
+      "catalog_code": "AARM-366",
+      "slug": "aarm-366",
+      "master_path": "data/movie-master/aarm-366.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "2f6b4cd3d1c3ffd0ec54f956482270c235c0dc8af3f2d10c7ae29a826c864ac9"
+    },
     {
       "stable_movie_id": "cc18:ABF-382",
       "catalog_code": "ABF-382",
