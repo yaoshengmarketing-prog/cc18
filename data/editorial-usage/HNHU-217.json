@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "movie_id": "HNHU-217",
+  "calls": [
+    {
+      "generated_at": "2026-09-11T10:39:45.816Z",
+      "rewrite_attempt": 0,
+      "provider": "aitokenking",
+      "model": "gpt-5.4",
+      "input_tokens": 2551,
+      "cached_input_tokens": 0,
+      "output_tokens": 959,
+      "total_tokens": 3510,
+      "estimated_cost_usd": 0.034333,
+      "estimated_payg_cash_cost_usd": 0.036049,
+      "direct_openai_reference_usd": 0.020762,
+      "gateway_premium_usd": 0.01357,
+      "pricing_as_of": "2026-08-26",
+      "store": false
+    }
+  ],
+  "totals": {
+    "input_tokens": 2551,
+    "cached_input_tokens": 0,
+    "output_tokens": 959,
+    "estimated_cost_usd": 0.034333,
+    "estimated_payg_cash_cost_usd": 0.036049,
+    "direct_openai_reference_usd": 0.020762,
+    "gateway_premium_usd": 0.01357
+  }
+}

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-26T05:55:05.252Z",
+  "generated_at": "2026-11-26T15:37:25.642Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 613,
-  "formal_movie_count": 612,
+  "tracked_input_count": 614,
+  "formal_movie_count": 613,
   "demo_count": 1,
-  "published_count": 611,
+  "published_count": 612,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -1799,6 +1799,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "eb94b86f72c4235019cd4095c30b4b3924e122a707c6301ee11ad4fd0ffeb806"
+    },
+    {
+      "stable_movie_id": "cc18:HNHU-217",
+      "catalog_code": "HNHU-217",
+      "slug": "hnhu-217",
+      "master_path": "data/movie-master/hnhu-217.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "0c666e988ff02e50dad04fb44febbdde2291db2f5be9b5e18af1a2211f7351d7"
     },
     {
       "stable_movie_id": "cc18:HNHU-221",
