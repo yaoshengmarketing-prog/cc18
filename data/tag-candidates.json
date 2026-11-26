@@ -2068,7 +2068,7 @@
     },
     {
       "label": "M男",
-      "occurrences": 11,
+      "occurrences": 12,
       "source_ids": [
         "CLOT-043",
         "ACHJ-089",
@@ -2080,9 +2080,10 @@
         "AVSA-456",
         "SNOS-404",
         "IPZZ-985",
-        "GVH-885"
+        "GVH-885",
+        "NEO-953"
       ],
-      "first_seen": "2026-09-08",
+      "first_seen": "2026-09-07",
       "last_seen": "2026-11-09",
       "status": "quarantined"
     },
@@ -2234,7 +2235,7 @@
     },
     {
       "label": "放尿・お漏らし",
-      "occurrences": 11,
+      "occurrences": 12,
       "source_ids": [
         "DDK-241",
         "MVSD-700",
@@ -2246,9 +2247,10 @@
         "FNEW-025",
         "IPZZ-924",
         "WAAA-696",
-        "MIDA-837"
+        "MIDA-837",
+        "NEO-953"
       ],
-      "first_seen": "2026-09-08",
+      "first_seen": "2026-09-07",
       "last_seen": "2026-11-08",
       "status": "quarantined"
     },

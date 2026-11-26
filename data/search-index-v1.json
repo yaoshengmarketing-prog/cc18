@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:303e7e7d8a90e60606869163d24ea49a4861751e98258d8b12260dbccbbdb826",
-  "source_generated_at": "2026-11-26T05:30:10.373Z",
+  "source_revision": "sha256:f84983e7d009d1729b0eaec25c20cea3c2ead96dd5487ce011df900b7004e663",
+  "source_generated_at": "2026-11-26T05:34:26.131Z",
   "counts": {
-    "movies": 607,
-    "performers": 412,
+    "movies": 608,
+    "performers": 413,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -3422,6 +3422,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:BAGR-093"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:25041",
+      "display_name": "涼花胡桃",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "涼花胡桃",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:NEO-953"
       ]
     },
     {
@@ -40240,6 +40251,56 @@
         "article_title": "SNOS-409 星空ねる｜社會新鮮人 AV 女優的職業研修與三場初體驗",
         "display_short_title": "星空ねる的 AV 女優研修初體驗",
         "slug": "snos-409"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:NEO-953",
+        "source_cover": "https://cc18.tv/preview/80/b/31PyqoZxy7l-800.jpg?v=1787193616",
+        "title": "NEO-953 涼花胡桃｜唾とオシッコで溺死したい",
+        "catalog_code": "NEO-953",
+        "release_date": "2026-08-20",
+        "performers": [
+          "涼花胡桃"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "dirty-talk",
+            "label": "言語挑逗"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/neo-953/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:25041"
+      ],
+      "search": {
+        "source_title": "想被唾液和尿液淹沒而溺死 涼花胡桃",
+        "source_tags": [
+          "AV女優片",
+          "癡女",
+          "淫語",
+          "M男",
+          "720p",
+          "HD",
+          "放尿・お漏らし"
+        ],
+        "article_title": "NEO-953 涼花胡桃｜唾とオシッコで溺死したい",
+        "display_short_title": null,
+        "slug": "neo-953"
       }
     }
   ]

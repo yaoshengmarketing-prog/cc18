@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:29:21.406Z",
+  "updated_at": "2026-11-26T05:33:37.429Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -9065,6 +9065,21 @@
       "video_status": "rendered",
       "template": "story",
       "published_at": "2026-09-10"
+    },
+    {
+      "id": "NEO-953",
+      "actress": [
+        "涼花胡桃"
+      ],
+      "release_date": "2026-08-20",
+      "source_url": "https://cc18.tv/player.php?uuid=31PyqoZxy7l&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-09-06"
     }
   ]
 }
