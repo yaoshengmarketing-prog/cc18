@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-26T05:25:55.741Z",
+  "generated_at": "2026-11-26T05:30:10.373Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 608,
-  "formal_movie_count": 607,
+  "tracked_input_count": 609,
+  "formal_movie_count": 608,
   "demo_count": 1,
-  "published_count": 606,
+  "published_count": 607,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -5255,6 +5255,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "3e5f3ddc49c996404d734bd8b378790903f578c422dc8e50fec54d3b5270dc97"
+    },
+    {
+      "stable_movie_id": "cc18:TNOZ-050",
+      "catalog_code": "TNOZ-050",
+      "slug": "tnoz-050",
+      "master_path": "data/movie-master/tnoz-050.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "faef237c44ba694e05446670e4c1a6f768ad85767205334755ef84f4781588c3"
     },
     {
       "stable_movie_id": "cc18:TPIN-102",
