@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "MXGS-1452",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-27T11:32:02.342Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/MXGS-1452/hero-v1.jpg",
+      "r2_key": "works/2026/11/MXGS-1452/hero-v1.jpg",
+      "bytes": 703136,
+      "sha256": "073e3fb8c982daaa7e7e1827ab5e1e9950af52c76fc56c2d6652acfae3de6eb1",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "18dba4cee3164a0d90d5a8223d914393",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/MXGS-1452/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/MXGS-1452/scene-vertical-v1.jpg",
+      "bytes": 1364620,
+      "sha256": "63b2e834c23ce741f1ff7fa0ad7934db5654e35e296fc24ba43602efb94d6cd0",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "03e277a2f3a74ecd89ad784591e884b5",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2987256,
+    "sha256": "ecd30eb9c337bc6d7b17a20fee02cb4184f837dba7b4908fb12f76dd2896c06f",
+    "target_r2_key": "works/2026/11/MXGS-1452/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/MXGS-1452/vertical-v1.mp4"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "MXGS-1452",
+  "review_sha256": "270f4bccd9d7e460bbb23343a34b14a8841d5b331e95f2370f87bdc137477fcb",
+  "selected_thesis": "本作以濃密接吻作為主要選片線索；同樣由佐藤愛瑠演出的《褲襪的誘惑》則以褲襪和四種情境吸引讀者，兩者的題材入口不同。",
+  "title_basis": {
+    "performer": "佐藤愛瑠",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "佐藤愛瑠",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "愛瑠之吻",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "ベロキスと射精コントロール",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "佐藤愛瑠",
+    "presentation_feature": "愛瑠之吻",
+    "editorial_judgment": "比較同演員兩部作品的公開設定，說明接吻主題與服裝情境主題各自提供的選片理由。",
+    "source_keywords": [
+      "佐藤愛瑠",
+      "愛瑠之吻",
+      "ベロキスと射精コントロール",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "MAXING 官方活動頁將 MXGS-1452 列為佐藤愛瑠的作品，標題明確突出接吻與唾液。",
+      "supports": "本作以接吻為主要題材入口。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "題供本作來源快照的簡介集中描述濃密接吻，並標示為「ベロキスと射精コントロール」系列。",
+      "supports": "接吻是簡介中最具體的選片線索；系列名稱不作為本作原題。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "題供已核對的《褲襪的誘惑》資料描述佐藤愛瑠穿著褲襪，挑戰四種情境。",
+      "supports": "同演員作品可用服裝與情境設定，對照本作的接吻主題。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "接吻場面的實際長度、鏡位、節奏與觀感",
+    "《褲襪的誘惑》所稱燈光、運鏡及聲音效果是否在成片中達成",
+    "由系列名稱推定本作的具體情節或表演方式"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-26T16:00:00.000Z"
+}

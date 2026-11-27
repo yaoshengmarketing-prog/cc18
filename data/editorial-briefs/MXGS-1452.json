@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "id": "MXGS-1452",
+  "generated_at": "2026-11-27T10:48:37.342Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/MXGS-1452.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "愛瑠之吻",
+    "premise": "作品以「愛瑠之吻」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「愛瑠之吻」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "愛瑠之吻",
+      "唾液橫流的融化舌吻全餐",
+      "佐藤愛瑠"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "窈窕"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "親吻",
+      "3p・4p",
+      "アクメ・オーガズム"
+    ],
+    "presentation": [
+      "720p",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由佐藤愛瑠演出，這部作品與《褲襪的誘惑》各以什麼設定作為選片入口？",
+  "research_sources": [
+    {
+      "url": "https://www.maxing.jp/event/2026-11.html",
+      "supports": "MAXING 官方活動頁列出 MXGS-1452、佐藤愛瑠及作品日文標題。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=Xugmq5M1eC&cat=19",
+      "supports": "題供來源快照記載本作的公開簡介、演員、系列與標籤；本次未能開啟頁面全文。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=jDaAM4waz3E&cat=19",
+      "supports": "題供已核對的關聯作品資料記載《褲襪的誘惑》由佐藤愛瑠演出，簡介以褲襪及四種情境為設定；本次未能開啟頁面全文。"
+    }
+  ],
+  "angle_candidates": [
+    "以接吻為明確主題，對照同演員作品的服裝主題",
+    "從系列名稱與簡介辨認本作的選片線索",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作以濃密接吻作為主要選片線索；同樣由佐藤愛瑠演出的《褲襪的誘惑》則以褲襪和四種情境吸引讀者，兩者的題材入口不同。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "佐藤愛瑠",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "愛瑠之吻",
+      "source_field": "title"
+    },
+    {
+      "type": "series",
+      "value": "ベロキスと射精コントロール",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "愛瑠之吻！濃密舌吻全餐",
+  "display_short_title": "愛瑠之吻",
+  "title": "從褲襪到接吻，佐藤愛瑠這次換了題材入口",
+  "seo_title": "MXGS-1452｜佐藤愛瑠《愛瑠之吻》的接吻主題",
+  "social_title": "佐藤愛瑠這次以接吻作為作品主題",
+  "short_review": "公開簡介把濃密接吻放在本作中心。若你是依題材選片，它與佐藤愛瑠的《褲襪的誘惑》有清楚差別：一部強調接吻，一部強調褲襪與情境。",
+  "editorial_angle": "比較同演員兩部作品的公開設定，說明接吻主題與服裝情境主題各自提供的選片理由。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "MAXING 官方活動頁將 MXGS-1452 列為佐藤愛瑠的作品，標題明確突出接吻與唾液。",
+      "supports": "本作以接吻為主要題材入口。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "題供本作來源快照的簡介集中描述濃密接吻，並標示為「ベロキスと射精コントロール」系列。",
+      "supports": "接吻是簡介中最具體的選片線索；系列名稱不作為本作原題。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "題供已核對的《褲襪的誘惑》資料描述佐藤愛瑠穿著褲襪，挑戰四種情境。",
+      "supports": "同演員作品可用服裝與情境設定，對照本作的接吻主題。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "接吻場面的實際長度、鏡位、節奏與觀感",
+    "《褲襪的誘惑》所稱燈光、運鏡及聲音效果是否在成片中達成",
+    "由系列名稱推定本作的具體情節或表演方式"
+  ],
+  "decision_guide": {
+    "thesis": "想按題材挑選佐藤愛瑠作品，可先看自己偏好明確的接吻主題，還是褲襪與多種情境的設定。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介集中於濃密接吻；同演員的《褲襪的誘惑》則以服裝和四種情境介紹作品。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作公開資料最明確的主題是什麼？",
+      "它與同樣由佐藤愛瑠演出的《褲襪的誘惑》有何設定差異？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "同一位演員，兩種選片線索",
+      "body": "MAXING 官方活動頁以接吻為 MXGS-1452 的標題重點；題供來源簡介也把濃密接吻放在中心。這讓本作的題材相當明確：若你是為佐藤愛瑠找片，接吻是最直接的選片理由。"
+    },
+    {
+      "heading": "與《褲襪的誘惑》相比，重點換在哪裡？",
+      "body": "同樣由佐藤愛瑠演出的《褲襪的誘惑》，公開簡介以褲襪和四種情境介紹作品；本作則反覆強調接吻。前者提供的是服裝與情境變化的期待，後者提供的是集中於一項親密互動的題材。這是兩份公開介紹的差異，不能據此判定成片品質。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "材料：MAXING 官方活動頁 https://www.maxing.jp/event/2026-11.html，以及題供已核對的本作來源快照 https://cc18.tv/player.php?uuid=Xugmq5M1eC&cat=19 和《褲襪的誘惑》關聯作品資料 https://cc18.tv/player.php?uuid=jDaAM4waz3E&cat=19。比較依據為公開標題、簡介與人物關係；未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "6354becdab3f9284af3e291de190f665db6ca618c217d80fbe2e868e0b463d7c",
+    "response_sha256": "01dd81b07dc17dc99fed8fb0793df371f8111e8a6b5560a4900fcc71d50138ba",
+    "research_input_sha256": "835239dc65346cfff709cf573b994acc87810cd2764d65bf45e69b0451a6d39e",
+    "related_source_ids": [
+      "CLOT-044"
+    ]
+  }
+}
