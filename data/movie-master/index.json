@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-27T10:31:38.275Z",
+  "generated_at": "2026-11-27T10:39:50.345Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 617,
-  "formal_movie_count": 616,
+  "tracked_input_count": 618,
+  "formal_movie_count": 617,
   "demo_count": 1,
-  "published_count": 615,
+  "published_count": 616,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -1727,6 +1727,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "236eeb1a998a234f0f579e34a1bbe860b2f637c5f5b0d90fc983bacbf547cfa8"
+    },
+    {
+      "stable_movie_id": "cc18:HEYZO-3970",
+      "catalog_code": "HEYZO-3970",
+      "slug": "heyzo-3970",
+      "master_path": "data/movie-master/heyzo-3970.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "af91c16b82081bd5ecab3fcd793b98da940a0e62b1c0585bdb3554bfdad6a43a"
     },
     {
       "stable_movie_id": "cc18:HEYZO-3994",

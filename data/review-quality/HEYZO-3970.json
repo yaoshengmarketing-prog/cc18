@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "HEYZO-3970",
+  "review_sha256": "c8b327b6f0c98039a9639669dcc42e7c32b78de2fda4801dba408e62a691a272",
+  "selected_thesis": "簡介用打掃中的一次搭話，交代木原あけみ的女僕身分與她和主人的互動起點。對想找有主僕情境的女僕題材的讀者，這比單看標籤更有辨識度。",
+  "title_basis": {
+    "performer": "木原あけみ",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "木原あけみ",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "盡情玩弄色情女僕",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "騎乘位",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "木原あけみ",
+    "presentation_feature": "盡情玩弄色情女僕",
+    "editorial_judgment": "對照女僕標籤與簡介中的打掃情境，說明後者多交代了哪些角色資訊，以及這些資訊能回答哪些選片問題。",
+    "source_keywords": [
+      "木原あけみ",
+      "盡情玩弄色情女僕",
+      "高畫質",
+      "騎乘位"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品頁標記女僕，簡介寫到主人在女僕打掃時向她搭話。",
+      "supports": "女僕身分在簡介中有相應的日常工作，主僕互動也有明確的情境起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "作品頁將木原あけみ列為演出者，並把本作介紹為《美女收藏》第144彈。",
+      "supports": "可以用演員、角色和集數辨識這一篇。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "成片是否從打掃場面開場，以及角色互動在成片中的篇幅。",
+    "成片的敘事密度、節奏、鏡位、台詞和表演品質。",
+    "本作與其他集數的設定差異，以及原始片名或原始發行資訊。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-09T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}

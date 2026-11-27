@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "HEYZO-3970",
+  "generated_at": "2026-11-10T03:41:56.082Z",
+  "source_snapshot_hash": "sha256:e9967d65dba1b6ba92402b2627895ebb937e93a7667d9bdb46bd65420a72664d",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若你找的是帶有主僕互動情境的女僕題材，打掃時被主人搭話的設定提供了具體的選片線索。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介先交代女僕的日常工作，再用主人的搭話帶出兩人的互動。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "想找木原あけ美演出女僕角色，並在意主僕互動如何開始的讀者。",
+      "偏好角色互動、演員魅力與企劃推進的觀眾"
+    ],
+    "not_for": [
+      "選片前需要確認完整故事線、角色發展或實際節奏的讀者。",
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "木原あけみ在這一彈被介紹成什麼角色？",
+    "簡介用什麼情境帶出主僕互動？"
+  ]
+}
