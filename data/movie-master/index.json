@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-27T10:23:04.646Z",
+  "generated_at": "2026-11-27T10:31:38.275Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 616,
-  "formal_movie_count": 615,
+  "tracked_input_count": 617,
+  "formal_movie_count": 616,
   "demo_count": 1,
-  "published_count": 614,
+  "published_count": 615,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -1340,6 +1340,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "e78a218614370f137f1a21818aca53a24da3191a884522997b6f2f723ee01979"
+    },
+    {
+      "stable_movie_id": "cc18:FERA-213",
+      "catalog_code": "FERA-213",
+      "slug": "fera-213",
+      "master_path": "data/movie-master/fera-213.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "33584fb905d168c1ae8383d2cd574ea89cd8658edca501e89b6004bc3d53a413"
     },
     {
       "stable_movie_id": "cc18:FJIN-169",

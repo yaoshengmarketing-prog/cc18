@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:f5737c35d5dbbd95c97def1373c78a36aae8cf2363e6e3d28c23ed05ad2a6c94",
-  "source_generated_at": "2026-11-27T10:23:04.646Z",
+  "source_revision": "sha256:da02381a129dcae912c2b3393aaeb83506ab1a9875cb2eac772b40166e525e46",
+  "source_generated_at": "2026-11-27T10:31:38.275Z",
   "counts": {
-    "movies": 614,
-    "performers": 416,
+    "movies": 615,
+    "performers": 417,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -2440,6 +2440,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SUJI-318"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:47794",
+      "display_name": "城崎百瀨",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "城崎百瀨",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:FERA-213"
       ]
     },
     {
@@ -40586,6 +40597,62 @@
         "article_title": "SNOS-409 星空ねる｜社會新鮮人 AV 女優的職業研修與三場初體驗",
         "display_short_title": "星空ねる的 AV 女優研修初體驗",
         "slug": "snos-409"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:FERA-213",
+        "source_cover": "https://cc18.tv/preview/80/b/qnnLgxDcwC-800.jpg?v=1787193620",
+        "title": "FERA-213 城崎百瀨｜誘惑兒子內射的信號",
+        "catalog_code": "FERA-213",
+        "release_date": "2026-08-20",
+        "performers": [
+          "城崎百瀨"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/fera-213/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:47794"
+      ],
+      "search": {
+        "source_title": "母親穿上華麗內衣是欲求不滿、誘惑兒子內射的信號 城崎百瀨",
+        "source_tags": [
+          "中出",
+          "AV女優片",
+          "熟女",
+          "近親相姦",
+          "性感內衣",
+          "720p",
+          "HD",
+          "人妻・主婦",
+          "4k"
+        ],
+        "article_title": "FERA-213 城崎百瀨｜誘惑兒子內射的信號",
+        "display_short_title": null,
+        "slug": "fera-213"
       }
     },
     {
