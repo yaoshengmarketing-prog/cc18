@@ -38,7 +38,7 @@ const reviews = defineCollection({
     videoUrl: z.string().regex(/^\/media\/works\//).optional(),
     shortReview: z.string(),
     editorialAngle: z.string(),
-    sourceTags: z.array(z.string()).default([]),
+    sourceTags: z.array(z.union([z.string(), z.number().int().nonnegative().transform(String)])).default([]),
     canonicalTagIds: z.array(canonicalTagId).max(24).default([]),
     editorialTagIds: z.array(editorialTagId).max(4).default([]),
     status: z.enum(['draft', 'published']).default('draft'),
