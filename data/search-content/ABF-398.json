@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "ABF-398",
+  "generated_at": "2026-11-27T10:46:26.871Z",
+  "source_snapshot_hash": "sha256:89b079907e5f9d6b6a56d43a86c4fa517ac30f162eb5f51e245d3e63f929d53d",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "以平日女教師與週末私生活的反差作為選片線索。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以成年人的女教師角色扮演為前提，強調平日克制與週末放縱的設定對照。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "女教師設定在公開簡介中扮演什麼角色？",
+    "平日與週末的差異提供了什麼選片理由？"
+  ]
+}

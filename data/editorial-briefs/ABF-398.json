@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "id": "ABF-398",
+  "generated_at": "2026-11-27T10:46:26.229Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/ABF-398.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "平日女教師、週末オナホ",
+    "premise": "作品以「平日女教師、週末オナホ」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「平日女教師、週末オナホ」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "平日女教師、週末オナホ",
+      "平日女教師,週末飛機杯",
+      "野野浦暖",
+      "角色扮演",
+      "女教師"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "素人",
+      "AV女優片"
+    ],
+    "body": [
+      "窈窕"
+    ],
+    "clothing": [
+      "角色扮演"
+    ],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "全高清 (FHD)"
+    ]
+  },
+  "research_question": "本作的「女教師」設定，重點是校園故事，還是平日與週末的角色反差？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=z3PGGvrv6e&cat=19",
+      "supports": "提供作品標題、片商、系列、標籤與公開簡介；簡介將女教師描述為成年人的角色扮演設定，重點放在平日與週末的反差。本文依使用者提供的來源快照撰寫，未將網頁搜尋片段視為已讀全文。"
+    },
+    {
+      "url": "https://avsagashi.com/series/%E5%B9%B3%E6%97%A5%E5%A5%B3%E6%95%99%E5%B8%AB%E3%80%81%E9%80%B1%E6%9C%AB%E3%82%AA%E3%83%8A%E3%83%9B%E3%80%82/",
+      "supports": "系列列表列出本作番號、演出者原名「野々浦暖」及系列歸屬。"
+    }
+  ],
+  "angle_candidates": [
+    "平日女教師與週末私生活的角色反差",
+    "系列名稱如何先替讀者設定選片期待",
+    "角色扮演的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "公開簡介用「平日克制、週末放縱」建立本作的角色反差；想看女教師身分切換的人，有比題材標籤更明確的選片理由。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "平日女教師、週末オナホ",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "series",
+      "value": "平日女教師、週末オナホ。",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "素人企劃",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "theme",
+      "value": "角色扮演",
+      "source_field": "description"
+    }
+  ],
+  "work_title": "野々浦暖：平日女教師，週末放縱",
+  "display_short_title": "野々浦暖的週末反差",
+  "title": "女教師設定，為何把重點放在週末？",
+  "seo_title": "ABF-398｜野々浦暖的平日女教師與週末反差",
+  "social_title": "野々浦暖這次的女教師設定，重點在下班之後",
+  "short_review": "這部的公開簡介先建立文靜女教師的平日形象，再以週末的私生活拉開反差。選片重點是角色身分的切換，而非已獲證實的校園情節或成片節奏。",
+  "editorial_angle": "從同一角色的平日與週末設定切入，說明女教師標籤在本作提供的具體期待。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題與簡介將平日女教師、週末私生活並置，並明示成年人角色扮演。",
+      "supports": "本作的主要宣傳設定是同一角色在兩種生活狀態間的反差。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源系列列表將本作列於「平日女教師、週末オナホ。」系列，演出者記為野々浦暖。",
+      "supports": "可確認本作的系列歸屬與演出者原名；系列名稱不作為作品原題使用。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "野々浦暖在現實中擔任教師",
+    "具體校園事件、鏡頭、聲音、台詞與成片節奏",
+    "宣傳設定已在成片中達到特定表演效果"
+  ],
+  "decision_guide": {
+    "thesis": "以平日女教師與週末私生活的反差作為選片線索。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以成年人的女教師角色扮演為前提，強調平日克制與週末放縱的設定對照。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "女教師設定在公開簡介中扮演什麼角色？",
+      "平日與週末的差異提供了什麼選片理由？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "反差從平日開始",
+      "body": "本作的公開簡介先讓野々浦暖演出一名文靜的女教師，再把週末設定為她放下平日克制的時間。這兩種狀態的對照，比「女教師」單一標籤更能說明作品想讓讀者期待什麼：焦點在同一角色如何切換身分，而不只是她從事哪種職業。"
+    },
+    {
+      "heading": "這個設定如何幫助選片？",
+      "body": "如果你感興趣的是平日形象與私生活之間的落差，這份簡介給出了清楚的入口。它沒有提供足夠材料判斷校園情節有多少，也無法據此評價實際表演或節奏；因此，選片理由宜停在角色設定，而不延伸為對成片品質的保證。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據使用者提供的 <a href=\"https://cc18.tv/player.php?uuid=z3PGGvrv6e&amp;cat=19\">作品頁來源快照</a>，並以<a href=\"https://avsagashi.com/series/%E5%B9%B3%E6%97%A5%E5%A5%B3%E6%95%99%E5%B8%AB%E3%80%81%E9%80%B1%E6%9C%AB%E3%82%AA%E3%83%8A%E3%83%9B%E3%80%82/\">系列列表</a>核對演出者原名與系列歸屬。角色反差的選片意義是編輯判斷；未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "89b079907e5f9d6b6a56d43a86c4fa517ac30f162eb5f51e245d3e63f929d53d",
+    "response_sha256": "2cefac3cf5e4fe65f44ddfe95d2749927fd2eb64bb40efb9f5527fbe4a707a64",
+    "research_input_sha256": "c79eb6d52f9d6edaf00808d0f95c98aec09ab718717848f88df21f90dd8988cf",
+    "related_source_ids": []
+  }
+}

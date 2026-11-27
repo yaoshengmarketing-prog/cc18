@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "ABF-398",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-27T11:23:16.370Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/ABF-398/hero-v1.jpg",
+      "r2_key": "works/2026/11/ABF-398/hero-v1.jpg",
+      "bytes": 655890,
+      "sha256": "4c2fb2be129953be57c459baf947728a22f5955ffa5c9848826b8fed747c3f98",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "581c05c293ce4e0d9fe22550a1edebc2",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/ABF-398/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/ABF-398/scene-vertical-v1.jpg",
+      "bytes": 964884,
+      "sha256": "ac632b204f0108ad6b444b8feab695a625ff20c9e08804cad83853e9d6981fae",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "1d07af36be3a4a7b89694af15f0a77b5",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2757566,
+    "sha256": "e7232392e2d0879e1759e6debbf0c244c8c09675d56a63737733282bd1bc2ee7",
+    "target_r2_key": "works/2026/11/ABF-398/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/ABF-398/vertical-v1.mp4"
+  }
+}

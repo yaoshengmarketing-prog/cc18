@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "ABF-398",
+  "review_sha256": "5be739dabd88966958a0cdb0d449c9a96973ee7486adb2c69b95fc2820c0d743",
+  "selected_thesis": "公開簡介用「平日克制、週末放縱」建立本作的角色反差；想看女教師身分切換的人，有比題材標籤更明確的選片理由。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "平日女教師、週末オナホ",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "平日女教師、週末オナホ。",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "theme",
+        "value": "角色扮演",
+        "source_field": "description"
+      }
+    ],
+    "primary_theme": "平日女教師、週末オナホ",
+    "presentation_feature": "平日女教師、週末オナホ。",
+    "editorial_judgment": "從同一角色的平日與週末設定切入，說明女教師標籤在本作提供的具體期待。",
+    "source_keywords": [
+      "平日女教師、週末オナホ",
+      "平日女教師、週末オナホ。",
+      "素人企劃",
+      "角色扮演"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題與簡介將平日女教師、週末私生活並置，並明示成年人角色扮演。",
+      "supports": "本作的主要宣傳設定是同一角色在兩種生活狀態間的反差。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源系列列表將本作列於「平日女教師、週末オナホ。」系列，演出者記為野々浦暖。",
+      "supports": "可確認本作的系列歸屬與演出者原名；系列名稱不作為作品原題使用。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "野々浦暖在現實中擔任教師",
+    "具體校園事件、鏡頭、聲音、台詞與成片節奏",
+    "宣傳設定已在成片中達到特定表演效果"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-26T16:00:00.000Z"
+}
