@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-27T11:08:26.640Z",
+  "generated_at": "2026-11-27T11:16:35.483Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 622,
-  "formal_movie_count": 621,
+  "tracked_input_count": 623,
+  "formal_movie_count": 622,
   "demo_count": 1,
-  "published_count": 620,
+  "published_count": 621,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -1493,6 +1493,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "7d1182e6c0a59b13ab634d0c068ee5b1191f93aea1d88955c05ad9d7b0f99d88"
+    },
+    {
+      "stable_movie_id": "cc18:FNS-268",
+      "catalog_code": "FNS-268",
+      "slug": "fns-268",
+      "master_path": "data/movie-master/fns-268.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "f370c5b33136116f75daf9196172c1bb7c05a25d5a03577cd0f35dbf548e03a4"
     },
     {
       "stable_movie_id": "cc18:FNS-269",

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "movie_id": "FNS-268",
+  "generated_at": "2026-11-27T10:44:04.936Z",
+  "source_snapshot_hash": "sha256:c7615f24d1f9de57879b02d2bfdcfc2765b2b4de97268603ff3886bf5297410d",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想依設定挑選八蜜凛作品，可用友人家中的健身情境，區分本作與 FNS-261 的網路炎上故事。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介著重友人姊姊的身分、運動服與汗水，以及瞞著友人的關係。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "FNS-261",
+      "relation_type": "same_performer",
+      "reason": "同樣由八蜜凛出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "八蜜凛"
+      ],
+      "contrast_signals": [
+        "既然在網路上被炎上了"
+      ]
+    },
+    {
+      "movie_id": "MARR-014",
+      "relation_type": "same_performer",
+      "reason": "同樣由八蜜凛出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "八蜜凛"
+      ],
+      "contrast_signals": [
+        "ゆらら夢",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作公開簡介的核心設定是什麼？",
+    "它與同樣由八蜜凛演出的 FNS-261 有何具體差別？"
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "id": "FNS-268",
+  "generated_at": "2026-11-27T10:44:04.307Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/FNS-268.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "八蜜凜",
+    "premise": "作品以「八蜜凜」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「八蜜凜」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "八蜜凜",
+      "巨乳"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由八蜜凛演出，FNS-268 與 FNS-261 的故事設定有何差別，會如何影響選片？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=25713JC0T2G&cat=19",
+      "supports": "FNS-268 的公開簡介設定在友人家中，以姊姊運動、灰色衣物被汗水浸濕，以及瞞著友人的關係為重點。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=a9o2CR8XY8J&cat=19",
+      "supports": "同樣由八蜜凛演出的 FNS-261，以網紅遭炎上、住處曝光與男子闖入為故事起點。"
+    }
+  ],
+  "angle_candidates": [
+    "比較兩作如何用不同的相識方式與場景建立情境。",
+    "從運動服與汗水描寫，看 FNS-268 的宣傳重點。",
+    "八蜜凜的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "FNS-268 把吸引力放在友人家中反覆碰面的運動情境；相較於 FNS-261 的網路炎上與闖入事件，它提供的是另一種明確的設定選片理由，無法據此判斷成片品質。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "八蜜凛",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "八蜜凜",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "identity",
+      "value": "AV女優片",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "八蜜凛與友人姊姊的健身情境",
+  "display_short_title": "友人姊姊的健身情境",
+  "title": "從網路炎上到友人家中：八蜜凛這次的設定變在哪裡？",
+  "seo_title": "FNS-268｜八蜜凛的友人姊姊健身情境，與 FNS-261 有何不同",
+  "social_title": "八蜜凛新作把故事放進友人家中，選片重點是什麼？",
+  "short_review": "公開簡介用友人姊姊、日常健身與汗水可見的灰色衣物建立情境。若你是依設定選八蜜凛的作品，這與 FNS-261 的網路炎上故事有清楚差別；實際呈現仍不能由文案判定。",
+  "editorial_angle": "以同演員作品的具體設定差異，說明 FNS-268 的選片理由。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "FNS-268 的簡介寫到主角到友人家時看見姊姊健身，並特別描述灰色衣物被汗水浸濕。",
+      "supports": "運動場景與可見的汗水是本作宣傳的具體重點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "FNS-261 的簡介以網紅遭炎上、住處被公開及男子闖入住處推動故事。",
+      "supports": "同演員兩作的事件起點與人物關係不同。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未推定兩作的實際節奏、鏡位或表演效果。",
+    "未將宣傳簡介中的反應描述當作成片呈現或同意情況的證據。"
+  ],
+  "decision_guide": {
+    "thesis": "想依設定挑選八蜜凛作品，可用友人家中的健身情境，區分本作與 FNS-261 的網路炎上故事。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介著重友人姊姊的身分、運動服與汗水，以及瞞著友人的關係。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作公開簡介的核心設定是什麼？",
+      "它與同樣由八蜜凛演出的 FNS-261 有何具體差別？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "友人家中的運動，為何成了這次的故事起點？",
+      "body": "FNS-268 的公開簡介從「每次去友人家」看見姊姊健身寫起。友人姊姊不是偶然遇見的陌生人；反覆碰面的關係，加上灰色衣物被汗水浸濕的描述，讓運動場景成為文案最鮮明的辨識點。這些是作品提出的設定，也是依題材選片時可核對的線索。"
+    },
+    {
+      "heading": "同樣由八蜜凛演出，兩作的入口不同",
+      "body": "FNS-261 從網紅遭炎上、住處曝光與男子闖入展開；FNS-268 則從友人家中的健身與瞞著友人的關係展開。若你在找前者那種由網路事件推動的故事，本作簡介指向不同方向；若你想找以熟人關係和運動場景構成的情境，FNS-268 的設定較貼近。這項比較只說明兩份文案如何安排故事，不能拿來評斷哪部拍得更好。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據 FNS-268 與 FNS-261 的來源作品頁、人物關係及公開簡介。兩作設定的比較與選片意義是編輯判斷；未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "c7615f24d1f9de57879b02d2bfdcfc2765b2b4de97268603ff3886bf5297410d",
+    "response_sha256": "55325274d0185aa0166c68ae6fe367462d7169c41598710c9217629178055501",
+    "research_input_sha256": "d8cfad1d5fa7e5f506fd5d81a073f1545213c9a996daef26b8da53c5246a002d",
+    "related_source_ids": [
+      "MARR-014",
+      "FNS-261"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "FNS-268",
+  "review_sha256": "3607029946fcb9c35bde7b224c20f5ae1d71a8c3d3f96fae3e18ec5538bf851e",
+  "selected_thesis": "FNS-268 把吸引力放在友人家中反覆碰面的運動情境；相較於 FNS-261 的網路炎上與闖入事件，它提供的是另一種明確的設定選片理由，無法據此判斷成片品質。",
+  "title_basis": {
+    "performer": "八蜜凛",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "八蜜凛",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "八蜜凜",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "八蜜凛",
+    "presentation_feature": "八蜜凜",
+    "editorial_judgment": "以同演員作品的具體設定差異，說明 FNS-268 的選片理由。",
+    "source_keywords": [
+      "八蜜凛",
+      "八蜜凜",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "FNS-268 的簡介寫到主角到友人家時看見姊姊健身，並特別描述灰色衣物被汗水浸濕。",
+      "supports": "運動場景與可見的汗水是本作宣傳的具體重點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "FNS-261 的簡介以網紅遭炎上、住處被公開及男子闖入住處推動故事。",
+      "supports": "同演員兩作的事件起點與人物關係不同。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未推定兩作的實際節奏、鏡位或表演效果。",
+    "未將宣傳簡介中的反應描述當作成片呈現或同意情況的證據。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-26T16:00:00.000Z"
+}

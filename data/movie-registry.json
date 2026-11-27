@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-27T11:07:34.407Z",
+  "updated_at": "2026-11-27T11:15:44.515Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -9247,6 +9247,21 @@
       ],
       "release_date": "2026-11-19",
       "source_url": "https://cc18.tv/player.php?uuid=vZlG6ZJANer&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-27"
+    },
+    {
+      "id": "FNS-268",
+      "actress": [
+        "八蜜凛"
+      ],
+      "release_date": "2026-11-19",
+      "source_url": "https://cc18.tv/player.php?uuid=25713JC0T2G&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
