@@ -571,7 +571,7 @@
     },
     {
       "label": "美乳",
-      "occurrences": 59,
+      "occurrences": 60,
       "source_ids": [
         "SNOS-369",
         "SNOS-447",
@@ -631,7 +631,8 @@
         "PPV-4977177",
         "PPV-4976260",
         "HNHU-217",
-        "AARM-366"
+        "AARM-366",
+        "PPV-4963928"
       ],
       "first_seen": "2026-08-28",
       "last_seen": "2026-11-18",
@@ -3260,13 +3261,14 @@
     },
     {
       "label": "模特兒",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "STVF-115",
         "SNOS-411",
-        "MIAB-681"
+        "MIAB-681",
+        "PPV-4963928"
       ],
-      "first_seen": "2026-11-03",
+      "first_seen": "2026-09-07",
       "last_seen": "2026-11-16",
       "status": "quarantined"
     },
@@ -3318,29 +3320,31 @@
     },
     {
       "label": "真實素人",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "PPV-4992189",
         "PPV-4977177",
         "PPV-4977601",
         "PPV-4976260",
-        "PPV-4975046"
+        "PPV-4975046",
+        "PPV-4963928"
       ],
-      "first_seen": "2026-09-18",
+      "first_seen": "2026-09-07",
       "last_seen": "2026-11-05",
       "status": "quarantined"
     },
     {
       "label": "fc2ppv",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "PPV-4992189",
         "PPV-4977177",
         "PPV-4977601",
         "PPV-4976260",
-        "PPV-4975046"
+        "PPV-4975046",
+        "PPV-4963928"
       ],
-      "first_seen": "2026-09-18",
+      "first_seen": "2026-09-07",
       "last_seen": "2026-11-05",
       "status": "quarantined"
     },
@@ -3718,11 +3722,12 @@
     },
     {
       "label": "美女",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "PPV-4977601"
+        "PPV-4977601",
+        "PPV-4963928"
       ],
-      "first_seen": "2026-09-20",
+      "first_seen": "2026-09-07",
       "last_seen": "2026-09-20",
       "status": "quarantined"
     },
@@ -3935,6 +3940,16 @@
       ],
       "first_seen": "2026-11-10",
       "last_seen": "2026-11-10",
+      "status": "quarantined"
+    },
+    {
+      "label": "生中",
+      "occurrences": 1,
+      "source_ids": [
+        "PPV-4963928"
+      ],
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
       "status": "quarantined"
     }
   ]
