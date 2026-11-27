@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:63a0dc5d3d3615061e80b19297840034e1db9db0a198e76bcfc44bdcb3d5dfcc",
-  "source_generated_at": "2026-11-26T15:42:06.818Z",
+  "source_revision": "sha256:f5737c35d5dbbd95c97def1373c78a36aae8cf2363e6e3d28c23ed05ad2a6c94",
+  "source_generated_at": "2026-11-27T10:23:04.646Z",
   "counts": {
-    "movies": 613,
-    "performers": 415,
+    "movies": 614,
+    "performers": 416,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -326,6 +326,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:CEAD-763"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:47465",
+      "display_name": "丸最稀有",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "丸最稀有",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:NEO-856"
       ]
     },
     {
@@ -40575,6 +40586,53 @@
         "article_title": "SNOS-409 星空ねる｜社會新鮮人 AV 女優的職業研修與三場初體驗",
         "display_short_title": "星空ねる的 AV 女優研修初體驗",
         "slug": "snos-409"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:NEO-856",
+        "source_cover": "https://cc18.tv/preview/80/b/9JHrkWulp32-800.jpg?v=1787258447",
+        "title": "NEO-856 丸最稀有｜イク時はいつも足ピン",
+        "catalog_code": "NEO-856",
+        "release_date": "2026-08-20",
+        "performers": [
+          "丸最稀有"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/neo-856/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:47465"
+      ],
+      "search": {
+        "source_title": "高潮時總是雙腿繃直 丸最稀有",
+        "source_tags": [
+          "AV女優片",
+          "巨乳",
+          "自慰",
+          "兔女郎",
+          "美腿",
+          "720p",
+          "HD",
+          "体験告白"
+        ],
+        "article_title": "NEO-856 丸最稀有｜イク時はいつも足ピン",
+        "display_short_title": null,
+        "slug": "neo-856"
       }
     },
     {

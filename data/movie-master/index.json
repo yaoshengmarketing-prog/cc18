@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-26T15:42:06.818Z",
+  "generated_at": "2026-11-27T10:23:04.646Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 615,
-  "formal_movie_count": 614,
+  "tracked_input_count": 616,
+  "formal_movie_count": 615,
   "demo_count": 1,
-  "published_count": 613,
+  "published_count": 614,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -3266,6 +3266,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "ac86250e9d70f02a05b09848b5f4f1ee541ad58fb83ff064a324a421a4a88477"
+    },
+    {
+      "stable_movie_id": "cc18:NEO-856",
+      "catalog_code": "NEO-856",
+      "slug": "neo-856",
+      "master_path": "data/movie-master/neo-856.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "afaa9ea422db2d71d0cb0fba37b219182bac22a75a749fc118f4315e748e5aff"
     },
     {
       "stable_movie_id": "cc18:NEO-953",
