@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "HEYZO-3969",
+  "review_sha256": "3130e598ef8313fbb7b8a1f64d3a541dcf596cd39a9c40d6dc62949a43821ec7",
+  "selected_thesis": "本作最穩的選片理由是星島麻帆，其次才是搭訕企劃；在公開資訊有限的前提下，應把它理解成動作標籤清楚的展示型作品。",
+  "title_basis": {
+    "performer": "星島麻帆",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "星島麻帆",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "搭訕",
+        "source_field": "description"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "星島麻帆",
+    "presentation_feature": "搭訕",
+    "editorial_judgment": "以星島麻帆為核心辨識點，將本作定位成「搭訕」企劃包裝下、以動作標籤帶動選片判斷的展示型作品，而非主打完整情節的故事片。",
+    "source_keywords": [
+      "星島麻帆",
+      "搭訕",
+      "中出"
+    ]
+  },
+  "evidence": [
+    {
+      "observation_refs": [],
+      "supports": "本作最穩定的辨識點是星島麻帆；公開來源同時在演出者欄位與核心概念中指向她，適合把選片重心放在演員本身。",
+      "basis": "public_source",
+      "signal": "星島麻帆"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開簡介可追溯的企劃線索是「搭訕」，因此本作的包裝重點更像互動前提或切入概念，而不是已被充分公開的劇情細節。",
+      "basis": "public_source",
+      "signal": "搭訕"
+    },
+    {
+      "observation_refs": [],
+      "supports": "來源標籤集中在中出、騎乘位、摳穴，表示成人內容的可見資訊主要來自動作面，而非人物關係、場景設定或情節推進。",
+      "basis": "public_source",
+      "signal": "中出／騎乘位／摳穴"
+    },
+    {
+      "observation_refs": [],
+      "supports": "公開資料未提供系列、明確人物關係、場景與完整前提，故選片上較適合視為展示型企劃，故事密度不宜預期過高。",
+      "basis": "public_source",
+      "signal": "故事資訊有限"
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未描述任何具體搭訕過程、對話內容或發生地點。",
+    "未推定人物之間的身份、關係或情感走向。",
+    "未宣稱已觀察到鏡位、剪輯、聲音、表情、演技或身體語言。",
+    "未虛構系列背景、支線情節或角色設定。",
+    "未以720p或高畫質標示推導作品品質表現。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-10-31T16:00:00.000Z",
+  "pre_approval_rewrite_attempts_observed": 0,
+  "approval_path": "completed_d1_rehydration_without_rewrite"
+}
