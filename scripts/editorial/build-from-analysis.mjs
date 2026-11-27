@@ -400,7 +400,7 @@ coverUrl: ${publicationCover}
 shortReview: ${yamlText(result.short_review)}
 editorialAngle: ${yamlText(result.editorial_angle)}
 sourceTags:
-${yamlList(source.source_tags ?? [])}
+${yamlList((source.source_tags ?? []).map(yamlText))}
 canonicalTagIds:
 ${yamlList(tagChannels.canonicalTagIds)}
 editorialTagIds:

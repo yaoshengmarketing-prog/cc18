@@ -41,6 +41,14 @@ if (movieId === 'NEO-953') {
   });
   if (recovery.changed) console.log(JSON.stringify({event: 'reviewed_source_binding_recovered', ...recovery}));
 }
+const november25BindingIds = new Set(['NEO-856', 'FERA-213', 'PPV-4963928']);
+if (november25BindingIds.has(movieId)) {
+  const manifest = JSON.parse(await readFile(resolve(root, 'config/recover-nov25-source-bindings.json'), 'utf8'));
+  const recovery = await recoverReviewedSourceBinding({
+    root, movieId, manifest, expectedRunId: 45618130500, allowedMovieIds: november25BindingIds,
+  });
+  if (recovery.changed) console.log(JSON.stringify({event: 'reviewed_source_binding_recovered', ...recovery}));
+}
 
 const run = (script, args) => new Promise((resolveRun, rejectRun) => {
   const child = spawn(process.execPath, [resolve(root, script), ...args], {cwd: root, env: process.env, stdio: 'inherit'});
