@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:48eb2c36c6d2272c3a845724eb1d811a8eb75c7c05a7b46a9d6e0c7391345111",
-  "source_generated_at": "2026-11-27T11:00:30.102Z",
+  "source_revision": "sha256:f0bed1c766f7190f2a8c9edb13481bc55590f143248c0e5cd1856722515835d2",
+  "source_generated_at": "2026-11-27T11:08:26.640Z",
   "counts": {
-    "movies": 619,
+    "movies": 620,
     "performers": 420,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
@@ -2855,7 +2855,8 @@
       "source_name": "美咲そのか",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:FNS-233"
+        "cc18:FNS-233",
+        "cc18:FNS-269"
       ]
     },
     {
@@ -4958,6 +4959,38 @@
         "article_title": "一段紀念錄影，如何改寫露營約會？",
         "display_short_title": "露營約會的事後發現",
         "slug": "fns-267"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:FNS-269",
+        "source_cover": "https://cc18.tv/preview/80/b/vZlG6ZJANer-800.jpg?v=1793801970",
+        "title": "變調的暑假旅行",
+        "catalog_code": "FNS-269",
+        "release_date": "2026-11-19",
+        "performers": [
+          "美咲そのか"
+        ],
+        "canonical_topics": [
+          {
+            "id": "hd",
+            "label": "HD"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/fns-269/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:46711"
+      ],
+      "search": {
+        "source_title": "暑假，本該是一場快樂旅行的。來自最喜歡的叔叔那句「對不起」的性愛 美咲園花",
+        "source_tags": [
+          "720p"
+        ],
+        "article_title": "從服務場景到親屬侵犯，這次的設定差在哪裡？",
+        "display_short_title": "變調的暑假旅行",
+        "slug": "fns-269"
       }
     },
     {

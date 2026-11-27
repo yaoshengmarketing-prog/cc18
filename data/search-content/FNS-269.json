@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "movie_id": "FNS-269",
+  "generated_at": "2026-11-27T10:41:25.814Z",
+  "source_snapshot_hash": "sha256:ecb055329bab154e501b5f0ac78e21e720bdb375045b99f3d1ae51b7da246e08",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看美咲そのか作品時，先辨別自己要的是 FNS-233 的服務場景，還是本作以親屬信任遭侵犯為核心的旅行故事。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以出遊、同房與道歉串起情節，明確指向非自願的親屬侵犯題材。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "FNS-233",
+      "relation_type": "same_performer",
+      "reason": "同樣由美咲そのか出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "美咲そのか"
+      ],
+      "contrast_signals": [
+        "辣妹偶像初出勤"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作與同演員的 FNS-233 在設定上有何不同？",
+    "飯店同房的安排在公開簡介中起什麼作用？"
+  ]
+}

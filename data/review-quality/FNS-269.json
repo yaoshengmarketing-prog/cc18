@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "FNS-269",
+  "review_sha256": "ed825d20e8dbe476d2d8191bc22dfe8be5783ff5a0dfbbbdba911a2f2cbfe441",
+  "selected_thesis": "同演員的兩份簡介提供了不同的選片線索：FNS-233 以工作與服務場景為主，FNS-269 則以原本令人安心的親屬關係轉為侵犯情節為核心。",
+  "title_basis": {
+    "performer": "美咲そのか",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "美咲そのか",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "暑假",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "720p",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "美咲そのか",
+    "presentation_feature": "暑假",
+    "editorial_judgment": "用同演員作品的公開設定作對照，說明本作以信任遭侵犯為情節核心，並幫助讀者辨別是否想接觸這類題材。",
+    "source_keywords": [
+      "美咲そのか",
+      "暑假",
+      "高畫質",
+      "720p"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介交代母親臨時取消同行、叔叔陪園花旅行，以及飯店只訂一間房。",
+      "supports": "旅行安排與同房是本作情節轉折的具體設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作簡介寫園花原先因對方是叔叔而安心，之後描述叔叔一邊道歉一邊侵犯她。",
+      "supports": "信任遭侵犯是簡介明示的核心衝突；道歉沒有改變侵犯的性質。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同演員的 FNS-233 簡介以泡泡浴店初次上班及服務內容為主。",
+      "supports": "兩作的選片差異可具體落在工作服務場景與親屬侵犯情節。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未推定角色年齡或演員的真實親屬關係。",
+    "未依簡介評斷成片品質、表演、畫面或節奏。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-26T16:00:00.000Z"
+}
