@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "id": "EKDV-834",
+  "generated_at": "2026-11-28T10:27:29.249Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/EKDV-834.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "校則違反マ〇コ",
+    "premise": "作品以「校則違反マ〇コ」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「校則違反マ〇コ」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "校則違反マ〇コ",
+      "佐佐倉日和",
+      "中出",
+      "潮吹",
+      "自慰",
+      "傲嬌"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "學生妹"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "顏射"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由佐佐倉日和演出、同樣借用校園規範作設定，本作與關聯作品如何把「違規」放在不同位置？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=avPBaZkf414&cat=19",
+      "supports": "題示作品資料與來源快照將佐佐倉日和設定為成績優秀的班級委員長，以她在校的認真形象與私下表現形成反差。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=BZU02VDH5I&cat=19",
+      "supports": "題示關聯作品資料與來源快照記載同樣由佐佐倉日和演出，情節從逃課被繼父發現及隨後的懲罰展開。"
+    }
+  ],
+  "angle_candidates": [
+    "比較兩作如何使用校園規範：一部強調模範形象與私下反差，另一部從逃課與懲罰展開。",
+    "聚焦黑髮眼鏡與委員長身分如何建立本作的人物印象。",
+    "學生設定的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作的選片線索是「認真委員長」的表裡反差；與同演員另一部從逃課切入的作品相比，兩者雖都談違規，人物設定的起點不同。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "佐々倉ひより",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "校則違反マ〇コ",
+      "source_field": "series"
+    },
+    {
+      "type": "setting",
+      "value": "學生設定",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "佐佐倉日和的認真委員長與校規反差",
+  "display_short_title": "佐佐倉日和的委員長反差",
+  "title": "同一位演員，兩種「違規」的起點",
+  "seo_title": "EKDV-834｜佐佐倉日和的委員長反差設定",
+  "social_title": "佐佐倉日和這次為何是「認真委員長」？",
+  "short_review": "本作以成績優秀、黑髮戴眼鏡的委員長形象，帶出校內與私下的反差。若是循同演員作品找片，它與另一部從逃課受罰展開的設定，提供了不同的選擇方向。",
+  "editorial_angle": "以兩份公開簡介比較「違規」在人物設定中的位置，說明本作偏重模範形象的反差，而關聯作品以逃課及懲罰推動情節；這是選片判斷，並非成片品質評價。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介設定佐佐倉日和為認真、成績優秀的班級委員長，並強調黑髮眼鏡形象。",
+      "supports": "本作先建立守規矩的公開形象，再以私下表現構成反差。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "關聯作品簡介以逃課被繼父發現，以及隨後的懲罰作為情節起點。",
+      "supports": "同演員作品使用校園規範的方式不同：關聯作品從已發生的違規展開。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將簡介中的角色設定寫成演員真實經歷。",
+    "未推論實際表演、鏡位、節奏或成片品質。",
+    "未將系列名稱當作本作原題。"
+  ],
+  "decision_guide": {
+    "thesis": "想看模範委員長的表裡反差，可從本作的公開設定切入；若較在意逃課與懲罰構成的情節起點，關聯作品的簡介更直接。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "黑髮眼鏡、成績優秀的委員長與私下反差，是公開簡介最明確的人物包裝。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作的委員長設定有何選片意義？",
+      "它與同演員另一部以校園規範為題的作品，設定差在哪裡？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "認真形象，讓「違規」成為反差",
+      "body": "本作的公開簡介先交代佐佐倉日和演出的角色是成績優秀的班級委員長，再以黑髮眼鏡加強她認真的外在印象。「校規違反」因此不是故事開始前就已發生的事件，而是用來對照她在校形象與私下表現的說法。若你是被委員長題材吸引，這份反差就是最清楚的選片線索。"
+    },
+    {
+      "heading": "同演員作品，違規的起點不同",
+      "body": "同樣由佐佐倉日和演出的關聯作品，簡介從逃課被繼父發現、隨後受到懲罰寫起。那部作品把違規當作情節開端；本作則先建立守規矩的委員長形象，再讓反差成為賣點。兩份介紹都借用校園規範，但一部引導讀者注意事件後果，一部引導讀者注意人物的兩面性。這個差異足以幫助選片，尚不足以判斷哪部成片較好。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "材料為題示、已核對的<a href=\"https://cc18.tv/player.php?uuid=avPBaZkf414&amp;cat=19\">本作來源快照</a>與<a href=\"https://cc18.tv/player.php?uuid=BZU02VDH5I&amp;cat=19\">同演員關聯作品來源快照</a>。比較依據是兩份公開簡介的人物與情節設定；未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "017adc3a24e2bd35477ce69a0a737fd1689f0cee502c19523c7e5c526cfdf03b",
+    "response_sha256": "8bb0dfb2a738b91596c02d11ab5ac900da113074061bef990b7849683462b993",
+    "research_input_sha256": "f48d93aa1d9233cfc45f44a916cf41435c00e824ac8dd33644f307f1f4bc0a46",
+    "related_source_ids": [
+      "FSBK-030"
+    ]
+  }
+}

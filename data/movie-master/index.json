@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-28T10:23:51.428Z",
+  "generated_at": "2026-11-28T10:33:29.350Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 645,
-  "formal_movie_count": 644,
+  "tracked_input_count": 646,
+  "formal_movie_count": 645,
   "demo_count": 1,
-  "published_count": 643,
+  "published_count": 644,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -1331,6 +1331,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "9024ff3d01cbf9b2581ef0d1227e35f4f1f26ddec5e0b2d17fb9a90aeb78f8ca"
+    },
+    {
+      "stable_movie_id": "cc18:EKDV-834",
+      "catalog_code": "EKDV-834",
+      "slug": "ekdv-834",
+      "master_path": "data/movie-master/ekdv-834.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "1ce691c2817b67445cbac288831afaa66cefdf10445c8a91f625bd3e2d4da689"
     },
     {
       "stable_movie_id": "cc18:EMBM-055",

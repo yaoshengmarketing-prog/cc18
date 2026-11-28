@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "EKDV-834",
+  "review_sha256": "1114827e121ced39116e10324ce7dc04a99bce09c2789c626c3e4ff61008566f",
+  "selected_thesis": "本作的選片線索是「認真委員長」的表裡反差；與同演員另一部從逃課切入的作品相比，兩者雖都談違規，人物設定的起點不同。",
+  "title_basis": {
+    "performer": "佐々倉ひより",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "佐々倉ひより",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "校則違反マ〇コ",
+        "source_field": "series"
+      },
+      {
+        "type": "setting",
+        "value": "學生設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "佐々倉ひより",
+    "presentation_feature": "校則違反マ〇コ",
+    "editorial_judgment": "以兩份公開簡介比較「違規」在人物設定中的位置，說明本作偏重模範形象的反差，而關聯作品以逃課及懲罰推動情節；這是選片判斷，並非成片品質評價。",
+    "source_keywords": [
+      "佐々倉ひより",
+      "校則違反マ〇コ",
+      "學生設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介設定佐佐倉日和為認真、成績優秀的班級委員長，並強調黑髮眼鏡形象。",
+      "supports": "本作先建立守規矩的公開形象，再以私下表現構成反差。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "關聯作品簡介以逃課被繼父發現，以及隨後的懲罰作為情節起點。",
+      "supports": "同演員作品使用校園規範的方式不同：關聯作品從已發生的違規展開。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將簡介中的角色設定寫成演員真實經歷。",
+    "未推論實際表演、鏡位、節奏或成片品質。",
+    "未將系列名稱當作本作原題。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "movie_id": "EKDV-834",
+  "generated_at": "2026-11-28T10:27:29.865Z",
+  "source_snapshot_hash": "sha256:017adc3a24e2bd35477ce69a0a737fd1689f0cee502c19523c7e5c526cfdf03b",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看模範委員長的表裡反差，可從本作的公開設定切入；若較在意逃課與懲罰構成的情節起點，關聯作品的簡介更直接。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "黑髮眼鏡、成績優秀的委員長與私下反差，是公開簡介最明確的人物包裝。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "FSBK-030",
+      "relation_type": "same_performer",
+      "reason": "同樣由佐々倉ひより出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "佐々倉ひより"
+      ],
+      "contrast_signals": [
+        "逃課的懲罰",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作的委員長設定有何選片意義？",
+    "它與同演員另一部以校園規範為題的作品，設定差在哪裡？"
+  ]
+}

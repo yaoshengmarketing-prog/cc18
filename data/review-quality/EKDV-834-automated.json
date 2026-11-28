@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "id": "EKDV-834",
+  "checked_at": "2026-11-28T10:31:08.474Z",
+  "review_sha256": "e6ee4f02e4840ab423d6a400cd12d1d20020d87db1d9119c5d02536831b7f157",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "formulaic_pivot_observed",
+    "title_lacks_source_core_concept",
+    "missing_creative_reconstruction_audit",
+    "insufficient_presentation_signals",
+    "insufficient_search_intents"
+  ],
+  "findings": [
+    {
+      "code": "formulaic_pivot_observed",
+      "scope": "PASS_WITH_NOTES",
+      "matches": 1,
+      "locations": [
+        {
+          "paragraph": 3,
+          "excerpt": "本作的公開簡介先交代佐佐倉日和演出的角色是成績優秀的班級委員長，再以黑髮眼鏡加強她認真的外在印象。「校規違反」因此不是故事開始前就已發生的事件，而是用來對照她在校形象與私下表現的說法。若你是被委員長題材吸引，這份反差就是最清楚的選片線索。"
+        }
+      ]
+    },
+    {
+      "code": "title_lacks_source_core_concept",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_presentation_signals",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_search_intents",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 3,
+    "evidence_items": 2,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 2,
+    "recommendations": 1
+  }
+}
