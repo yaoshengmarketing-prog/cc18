@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "DLDSS-521",
-  "review_sha256": "fb15e88bf4df1e5dfc309b3599b05df1e31db5238f2506078ad7bc175f72961a",
-  "selected_thesis": "來源資料可確認本作以「從丈夫出門上班到回家」作為主要作品線索。",
+  "review_sha256": "73a2472e2feb1a6cae6a1b1f0a7d4030129377ecb0ba3a35256c4b3031fddef3",
+  "selected_thesis": "來源明寫義父趁丈夫外出時接近，並有起初拒絕的情節；只能中性描述，不能說成自願的戀情。",
   "title_basis": {
     "performer": "與田鈴",
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

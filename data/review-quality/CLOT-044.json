@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "CLOT-044",
-  "review_sha256": "c01205d753c54553e26003c7c4b53d8f93945d5dbc1d5b72318727898ea0da26",
-  "selected_thesis": "來源資料可確認本作以「褲襪的誘惑」作為主要作品線索。",
+  "review_sha256": "f8d728272e2a06a560ecb7583c61c96bab3622afa17ef811031cc58b552291e0",
+  "selected_thesis": "來源宣傳提到燈光、聲音與運鏡，但那是來源自述，本文不把它寫成已驗證的觀看效果。",
   "title_basis": {
     "performer": "佐藤愛瑠",
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-21T16:00:00.000Z"

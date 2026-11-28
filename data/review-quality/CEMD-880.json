@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "CEMD-880",
-  "review_sha256": "1eff00ff44eb82c0f155f1e5fd39eede61e8ad5d84a576372317fe85c2a885a3",
-  "selected_thesis": "來源資料可確認本作以「新村朱里」作為主要作品線索。",
+  "review_sha256": "37636e8c079e2e15b77d29723b65e24eb6a5bbe6e96d2641d69c0529f3b2f52e",
+  "selected_thesis": "辨識本作時應先看演員與系列；來源簡介的身體反應宣傳不能當成實看結論。",
   "title_basis": {
     "performer": "新村朱里",
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z",

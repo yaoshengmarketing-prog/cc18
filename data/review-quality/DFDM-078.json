@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "DFDM-078",
-  "review_sha256": "dfa0f23c7b8e103bdc67f644d1a582719ad43cb23c23d106d2e1ad18d53a4437",
-  "selected_thesis": "來源資料可確認本作以「本田桃」作為主要作品線索。",
+  "review_sha256": "b89dee671fe344ce19a4f194c1db15b3830d3c2c9f503812b6e05b0ad377b0f1",
+  "selected_thesis": "規則與角色試探比單一標籤更能辨識此作；來源的感官宣傳不構成實際體驗證據。",
   "title_basis": {
     "performer": "本田桃",
     "signals": [
@@ -84,7 +84,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-04T16:00:00.000Z"

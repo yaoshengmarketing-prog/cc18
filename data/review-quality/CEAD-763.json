@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "CEAD-763",
-  "review_sha256": "a175e3df2ec31f5f231e2a2ef3dae160cc0e3cfb68f141972b3a6ef54ea9234a",
-  "selected_thesis": "來源資料可確認本作以「vol.2」作為主要作品線索。",
+  "review_sha256": "67d61f69ce9d07ab7c18c8c717145109015488e2bc674fac3d59d062f848d072",
+  "selected_thesis": "合輯重點是多組演員的集合形式，不能用單一主角的發展方式閱讀；來源沒有逐組完整背景。",
   "title_basis": {
     "performer": "安野由美、葵百合香、竹内夏希、赤城穂波、藤田梢、辻櫻、藤井麗羅、上坂めい、白河花清、桐香優里、葉山小百合、小坂日葵、祈山愛、廣瀨美結",
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z",

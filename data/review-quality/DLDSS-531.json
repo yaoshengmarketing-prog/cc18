@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "DLDSS-531",
-  "review_sha256": "bf54ff21e67ca15311ed391e19881dae94beee32b0fdfa53c57ecf45f0b9f2f5",
-  "selected_thesis": "來源資料可確認本作以「DAHLIA電擊移籍」作為主要作品線索。",
+  "review_sha256": "a7630be8ff2eea792f8964601757dba6a96074425a5301f51b2dcd794f81e6e1",
+  "selected_thesis": "本作適合按演員與片商變動辨識；不能從宏大的宣傳語推測實際演出內容。",
   "title_basis": {
     "performer": "女神ジュン",
     "signals": [
@@ -78,7 +78,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

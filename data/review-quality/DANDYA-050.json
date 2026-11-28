@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "DANDYA-050",
-  "review_sha256": "3ae0202761856aeaf82ebba1ab386ca9d956e5aa139c51a216801771c9a76724",
-  "selected_thesis": "來源資料可確認本作以「不能讓雞巴變硬吧」作為主要作品線索。",
+  "review_sha256": "420b570b0d80c820607d2089cf5accd4a062c0b9a517280478899eb52c30ac67",
+  "selected_thesis": "旅館服務身分和不同場所的出現是宣傳設定；當中可能涉及越界與非自願，不宜以甜蜜約會概括。",
   "title_basis": {
     "performer": null,
     "signals": [
@@ -96,7 +96,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-17T16:00:00.000Z"
