@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "OTIM-707",
+  "review_sha256": "ad131075e3ab70863abf5154f0998835a7c3ed0ccfbe05db0ae5c637c36b03a9",
+  "selected_thesis": "本作最可核對的特色，是自拍設定與兩段開場並列；公開資料足以說明企劃如何呈現，尚不足以判斷實際鏡位或兩段各由誰演出。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "いいなりセーラー服とバチボコ性交",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "theme",
+        "value": "角色扮演",
+        "source_field": "description"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "いいなりセーラー服とバチボコ性交",
+    "editorial_judgment": "對照片名與時間表，說明自拍設定和分段安排各自提供的選片線索。",
+    "source_keywords": [
+      "獨家",
+      "いいなりセーラー服とバチボコ性交",
+      "美少女設定",
+      "角色扮演"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源片名以自拍影像及水手服設定介紹作品，簡介註明出演者均為成人。",
+      "supports": "可將成人制服角色扮演與自拍設定作為企劃介紹，不據此描述實際畫面。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "公開時間表分別在 00:00 與 39:36 標示開場。",
+      "supports": "作品資料呈現兩段開場的安排，但沒有交代兩段各由哪位出演者負責。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將片名中的「鈴」與簡介中的「凜」逕自認定為同一個已核准姓名。",
+    "未推定兩段內容各自對應哪位出演者。",
+    "未推定自拍鏡位、成片節奏或表演品質。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

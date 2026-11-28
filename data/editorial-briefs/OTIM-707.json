@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "id": "OTIM-707",
+  "generated_at": "2026-11-28T09:02:48.060Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/OTIM-707.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "獨家",
+    "premise": "作品以「獨家」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「獨家」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "獨家",
+      "與從順水手服抽插性交",
+      "雪乃",
+      "美少女",
+      "角色扮演"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "癡女",
+      "美少女"
+    ],
+    "body": [],
+    "clothing": [
+      "角色扮演"
+    ],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "獨家限定",
+      "配信専用"
+    ]
+  },
+  "research_question": "這部作品的「自拍」設定，與公開時間表呈現的內容安排有什麼差別？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=5g645UlY38F&cat=19",
+      "supports": "依提供的作品頁來源快照，片名強調自拍與水手服設定；簡介列出兩位成人出演者，時間表在開頭及約 39 分鐘處各列一次開場。外部頁面未能開啟，本次未核對影片。"
+    }
+  ],
+  "angle_candidates": [
+    "片名突出自拍設定，時間表則顯示兩段開場；選片時可留意這種分段安排。",
+    "兩位成人出演者的水手服角色扮演，是簡介中比題材標籤更具體的設定。",
+    "角色扮演的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作最可核對的特色，是自拍設定與兩段開場並列；公開資料足以說明企劃如何呈現，尚不足以判斷實際鏡位或兩段各由誰演出。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "獨家",
+      "source_field": "title"
+    },
+    {
+      "type": "series",
+      "value": "いいなりセーラー服とバチボコ性交",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "美少女設定",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "theme",
+      "value": "角色扮演",
+      "source_field": "description"
+    }
+  ],
+  "work_title": "水手服雙人自拍企劃",
+  "display_short_title": "水手服雙人自拍",
+  "title": "自拍設定之外，時間表還透露了什麼？",
+  "seo_title": "OTIM-707｜水手服雙人自拍企劃的分段線索",
+  "social_title": "一個自拍片名，兩次開場：這部作品怎麼介紹自己？",
+  "short_review": "片名主打自拍與水手服角色扮演，公開時間表另列出兩次開場。適合想按明確企劃設定選片的人；實際鏡位與段落分工仍無法由文字確認。",
+  "editorial_angle": "對照片名與時間表，說明自拍設定和分段安排各自提供的選片線索。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源片名以自拍影像及水手服設定介紹作品，簡介註明出演者均為成人。",
+      "supports": "可將成人制服角色扮演與自拍設定作為企劃介紹，不據此描述實際畫面。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "公開時間表分別在 00:00 與 39:36 標示開場。",
+      "supports": "作品資料呈現兩段開場的安排，但沒有交代兩段各由哪位出演者負責。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將片名中的「鈴」與簡介中的「凜」逕自認定為同一個已核准姓名。",
+    "未推定兩段內容各自對應哪位出演者。",
+    "未推定自拍鏡位、成片節奏或表演品質。"
+  ],
+  "decision_guide": {
+    "thesis": "可依自拍與水手服的企劃設定，以及兩段開場的公開編排來判斷興趣。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "片名強調自拍設定；時間表列出兩次開場，實際拍攝方式未核對。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "片名主要強調什麼設定？",
+      "公開時間表是否顯示分段線索？",
+      "哪些細節仍不能從公開文字確定？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "片名談自拍，時間表談分段",
+      "body": "這部作品的片名先把水手服角色扮演與自拍影像放在前景；來源簡介則列出兩位成人出演者。若只看片名，選片理由主要是拍攝設定。再看時間表，開頭與約 39 分鐘處各有一次「開場」，多了一條可核對的段落線索。"
+    },
+    {
+      "heading": "兩種線索，各能回答什麼？",
+      "body": "自拍是片名提出的觀看期待，兩次開場是時間表提供的編排資訊。對想找特定角色扮演企劃的讀者，前者較直接；對想先了解內容如何分段的讀者，後者更有用。時間表沒有標明兩段各屬於哪位出演者，也不能證明實際鏡位或節奏。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據提供的<a href=\"https://cc18.tv/player.php?uuid=5g645UlY38F&amp;cat=19\">作品頁來源快照</a>，使用其中的片名、簡介與時間表。外部作品頁未能開啟，沒有使用影片畫面；分段的選片意義是依公開文字作出的編輯判斷。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "db757b7547eba76c85dca2b698b7985515b9ba809505b805ca6b4be4053af373",
+    "response_sha256": "e0bbcd47e12bafb9cf35f230628ec438ee8a0b62872f613208cd0a11085883a9",
+    "research_input_sha256": "01ea90eb0800c3ff6c1f1eb164d85feca82344303730863da2d7e61665a4f866",
+    "related_source_ids": []
+  }
+}

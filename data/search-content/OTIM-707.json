@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "movie_id": "OTIM-707",
+  "generated_at": "2026-11-28T09:02:48.757Z",
+  "source_snapshot_hash": "sha256:db757b7547eba76c85dca2b698b7985515b9ba809505b805ca6b4be4053af373",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "可依自拍與水手服的企劃設定，以及兩段開場的公開編排來判斷興趣。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "片名強調自拍設定；時間表列出兩次開場，實際拍攝方式未核對。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "片名主要強調什麼設定？",
+    "公開時間表是否顯示分段線索？",
+    "哪些細節仍不能從公開文字確定？"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "OTIM-707",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-28T09:07:52.150Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/OTIM-707/hero-v1.jpg",
+      "r2_key": "works/2026/11/OTIM-707/hero-v1.jpg",
+      "bytes": 640741,
+      "sha256": "3d9e83a1461a186dc41adecaea5ad788b639c82af30695ac6ae483148892440c",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "b59ec057a7444bf9a4699647f8f52e3d",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/OTIM-707/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/OTIM-707/scene-vertical-v1.jpg",
+      "bytes": 674930,
+      "sha256": "e5b8a4789c701feb6e3454b9a7b2826802f06c8fe9e3907f9648e662c5eaff73",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "0358edcef0434ea2bb071b663b7fabc9",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2061947,
+    "sha256": "72f3c0193f3db4045f81447fba4615def71727ca5e323c26fb14a655e62ccd73",
+    "target_r2_key": "works/2026/11/OTIM-707/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/OTIM-707/vertical-v1.mp4"
+  }
+}
