@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-28T12:05:42.750Z",
+  "generated_at": "2026-11-28T12:17:48.376Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 649,
-  "formal_movie_count": 648,
+  "tracked_input_count": 650,
+  "formal_movie_count": 649,
   "demo_count": 1,
-  "published_count": 647,
+  "published_count": 648,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -4481,6 +4481,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "b537a579e6ccc79f21fd0e765186aa2314e4bdc476722900dc305bae5a845775"
+    },
+    {
+      "stable_movie_id": "cc18:SCOP-932",
+      "catalog_code": "SCOP-932",
+      "slug": "scop-932",
+      "master_path": "data/movie-master/scop-932.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "9f78fdf4eb75e8f215f0fac5304c89c648e50ceb92834a8cc6fb43aded832f16"
     },
     {
       "stable_movie_id": "cc18:SDAB-358",

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "SCOP-932",
+  "generated_at": "2026-11-28T12:11:50.532Z",
+  "source_snapshot_hash": "sha256:ec02cc0e017f124d6f4b2d6c3ed2ad4f09ec6fbacadae6b83f17145cbe082494",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "適合想看陪同看房逐步轉成簽約交換情境的讀者；公開材料無法支持對成片品質的判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開文案以房產 OL 陪看房開場，將衣著誘惑接到租約與交換條件。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "系列名稱與本作簡介各自提供了什麼設定？",
+    "租約設定為什麼比一般 OL 標籤更有選片價值？"
+  ]
+}

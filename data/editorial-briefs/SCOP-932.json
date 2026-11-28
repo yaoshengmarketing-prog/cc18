@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "id": "SCOP-932",
+  "generated_at": "2026-11-28T12:11:49.955Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SCOP-932.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "處男雞巴完全勃起",
+    "premise": "作品以「處男雞巴完全勃起」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「處男雞巴完全勃起」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "處男雞巴完全勃起",
+      "巨乳",
+      "OL",
+      "ノーパン",
+      "ノーブラ"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "OL"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "這部作品的看房設定，除了系列名稱點出的衣著噱頭，還加入了什麼選片線索？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=wlwVVR6HwdH&cat=19",
+      "supports": "已核對的作品資料記載：房產 OL 陪同看房，簡介將簽租約與親密交換連在一起。外部頁面未能開啟，本次依據提供的來源快照。"
+    },
+    {
+      "url": "https://cc18.tv/search.php?s_type=series&s_tid=17251",
+      "supports": "已核對的系列關係記載，系列名稱聚焦陪同看房的房產 OL 與未穿內衣褲的設定；未取得系列頁全文或其他集數資料。"
+    }
+  ],
+  "angle_candidates": [
+    "看房如何被寫成一場簽約交換",
+    "衣著噱頭與房產 OL 身分如何共同建立情境",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "系列名稱先用陪看房與衣著設定吸引注意，本作簡介再把租約變成親密交換的條件；想找明確職場情境的讀者，比只看身形標籤更能據此選片。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "處男雞巴完全勃起",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "series",
+      "value": "内見の同行で来た不動産OLがノーブラノーパン！？",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "陪同看房的房產 OL 與租約誘惑",
+  "display_short_title": "看房與租約誘惑",
+  "title": "從看房到簽約，租約成了什麼誘因？",
+  "seo_title": "SCOP-932｜陪同看房的房產 OL 與租約誘惑",
+  "social_title": "看房只是開場，租約才是這部的設定重心",
+  "short_review": "公開簡介把陪看房、衣著誘惑與簽租約連成一個交換情境。它提供的是明確的題材線索，尚不足以判斷成片節奏或表演。",
+  "editorial_angle": "以系列名稱和本作簡介的資訊差，說明這部如何從陪看房的噱頭走向租約交換的設定。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "已核對的系列關係名稱提到房產 OL 陪同看房及未穿內衣褲。",
+      "supports": "系列層級的題材入口是看房場合與衣著設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作公開簡介把簽約、租房選項與親密交換寫在同一情境中。",
+      "supports": "本作的選片線索比單純的 OL 或身形標籤更具體，重點落在租約如何成為交換條件。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "演員身分與經歷",
+    "其他系列作品的內容",
+    "實際畫面、聲音、台詞、表演與節奏",
+    "宣傳設定在成片中的呈現效果"
+  ],
+  "decision_guide": {
+    "thesis": "適合想看陪同看房逐步轉成簽約交換情境的讀者；公開材料無法支持對成片品質的判斷。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開文案以房產 OL 陪看房開場，將衣著誘惑接到租約與交換條件。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "系列名稱與本作簡介各自提供了什麼設定？",
+      "租約設定為什麼比一般 OL 標籤更有選片價值？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "看房之後，文案把焦點移向租約",
+      "body": "系列名稱先交代一名房產 OL 陪同看房，並以衣著設定製造意外感。本作簡介則多走一步：它把簽租約寫成親密交換的條件，連租房選項也納入這場誘惑。兩者的差別，是本作讓「看房」有了明確的下一步，而不只停在人物身分與外形標籤。"
+    },
+    {
+      "heading": "選片時，這個設定能回答什麼？",
+      "body": "若你想找的是帶有職場身分、看房場合與交易條件的情境，這份簡介提供了具體方向。若你在意故事如何展開、演員是誰，或成片是否拍出這種張力，現有材料還無法回答。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "依據已核對的 SCOP-932 作品資料與系列關係快照；對應來源為 https://cc18.tv/player.php?uuid=wlwVVR6HwdH&cat=19 及 https://cc18.tv/search.php?s_type=series&s_tid=17251。外部頁面此次未能開啟，也沒有其他系列作品或影片抽樣可供比較。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "ec02cc0e017f124d6f4b2d6c3ed2ad4f09ec6fbacadae6b83f17145cbe082494",
+    "response_sha256": "1bc5c96f7b0f8553dc12aec14fcd5a4481648fdbb953eaf1bbf650dda6706b7a",
+    "research_input_sha256": "06b5ecf39e15ac4c6bfb0000cbe7c5992ac74f856034668d0581f26eb8ab807c",
+    "related_source_ids": []
+  }
+}

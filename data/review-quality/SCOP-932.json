@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "SCOP-932",
+  "review_sha256": "9f6e1b8078a19a8851a7364ed71ab4367154898a03e936117b4279292821e6df",
+  "selected_thesis": "系列名稱先用陪看房與衣著設定吸引注意，本作簡介再把租約變成親密交換的條件；想找明確職場情境的讀者，比只看身形標籤更能據此選片。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "處男雞巴完全勃起",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "内見の同行で来た不動産OLがノーブラノーパン！？",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "處男雞巴完全勃起",
+    "presentation_feature": "内見の同行で来た不動産OLがノーブラノーパン！？",
+    "editorial_judgment": "以系列名稱和本作簡介的資訊差，說明這部如何從陪看房的噱頭走向租約交換的設定。",
+    "source_keywords": [
+      "處男雞巴完全勃起",
+      "内見の同行で来た不動産OLがノーブラノーパン！？",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "已核對的系列關係名稱提到房產 OL 陪同看房及未穿內衣褲。",
+      "supports": "系列層級的題材入口是看房場合與衣著設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作公開簡介把簽約、租房選項與親密交換寫在同一情境中。",
+      "supports": "本作的選片線索比單純的 OL 或身形標籤更具體，重點落在租約如何成為交換條件。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "演員身分與經歷",
+    "其他系列作品的內容",
+    "實際畫面、聲音、台詞、表演與節奏",
+    "宣傳設定在成片中的呈現效果"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

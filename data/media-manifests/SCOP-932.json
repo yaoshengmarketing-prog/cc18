@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "SCOP-932",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-28T12:16:45.528Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/SCOP-932/hero-v1.jpg",
+      "r2_key": "works/2026/11/SCOP-932/hero-v1.jpg",
+      "bytes": 687058,
+      "sha256": "330eba0044a5f9cd12e24f120ccb22c7f901cb75ecc7a50f464278700198c235",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "e00a1c2a06aa43c59c00af5f62a8f951",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/SCOP-932/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/SCOP-932/scene-vertical-v1.jpg",
+      "bytes": 742745,
+      "sha256": "1a5871db1832486bc6ce34ecb63d64e692166009e2922c89927c0ae5942d282f",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "5165e3e76d9040338a45751d45ea2d42",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2097796,
+    "sha256": "21e39f39cb4e14f969066de9a45309f69684aabc6efe1f36282460657a5d62ce",
+    "target_r2_key": "works/2026/11/SCOP-932/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/SCOP-932/vertical-v1.mp4"
+  }
+}
