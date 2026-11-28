@@ -573,3 +573,16 @@ body { background: var(--paper); }
   .movie-search-result__meta time { display: none; }
   .movie-search-result__topics li:nth-child(n+3) { display: none; }
 }
+/* Selection analysis blocks are present only on opted-in work pages. */
+.selection-analysis { display: grid; gap: 1rem; margin: 2rem 0; }
+.selection-panel { border: 1px solid var(--line, #d7d9d4); border-radius: 1rem; padding: 1.25rem 1.5rem; background: var(--surface, #fff); }
+.selection-panel h2 { margin: 0 0 .7rem; font-size: 1.25rem; }
+.selection-panel h2 small { margin-left: .5rem; font-size: .75rem; font-weight: 500; }
+.selection-panel p { margin: .4rem 0; }
+.selection-panel ol { margin: 0; padding-left: 1.5rem; }
+.selection-panel li + li { margin-top: .55rem; }
+.selection-panel dl { display: grid; gap: .7rem; margin: 1rem 0 0; }
+.selection-panel dl div { display: grid; grid-template-columns: minmax(8rem, 11rem) 1fr; gap: 1rem; }
+.selection-panel dt { font-weight: 700; }
+.selection-panel dd { margin: 0; }
+@media (max-width: 640px) { .selection-panel dl div { grid-template-columns: 1fr; gap: .2rem; } }
