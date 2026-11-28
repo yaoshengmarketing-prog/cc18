@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "ROYD-361",
-  "review_sha256": "d9df69aff2beba93874eb456dcef1712d85b2bc95b8aca394d6d9858714ed1bd",
+  "review_sha256": "70a4b8f291d401f53c2683c48f86c5b4ee14e60a37e318c48ecd3e9f255994c5",
   "selected_thesis": "來源資料可確認本作以「被豐滿巨乳的繼姊破處的我」作為主要作品線索。",
   "title_basis": {
     "performer": "九井珠奈緒",
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-10-31T16:00:00.000Z"

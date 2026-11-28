@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "PETS-072",
-  "review_sha256": "0de01e9346a727930882baef31ae72ae40df7da0400dbffe5635c6d9a9aa0b85",
+  "review_sha256": "e6a9cc2c72b2ac87fad3fe860f87e62db28af2f5bc562546032742d85aaf58f2",
   "selected_thesis": "來源資料可確認本作以「放課後はオトコノ娘」作為主要作品線索。",
   "title_basis": {
     "performer": null,
@@ -96,7 +96,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-20T16:00:00.000Z"

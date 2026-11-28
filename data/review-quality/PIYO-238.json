@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "PIYO-238",
-  "review_sha256": "d82d9d72888b3c7b2043fb3865a9a1881fede10ad7c11e6b13cdbfc0331f9ce4",
+  "review_sha256": "5bb91d705da48f4549f40cfe087aa77796dd878d2f8707f2a244271019c0c481",
   "selected_thesis": "來源資料可確認本作以「鳥羽郁」作為主要作品線索。",
   "title_basis": {
     "performer": "鳥羽いく",
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

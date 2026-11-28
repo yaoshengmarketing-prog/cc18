@@ -1,4 +1,12 @@
 {
   "schema_version": 1,
-  "approvals": []
+  "approvals": [
+    {
+      "id": "SNOS-364",
+      "approved_terms": ["思春期"],
+      "reason": "來源的「思春期」只是成年演員的經歷背景：當年專心游泳、不談戀愛，沒有把性內容放在那個年紀。",
+      "approved_by": "Grok Bot",
+      "approved_at": "2026-11-29"
+    }
+  ]
 }

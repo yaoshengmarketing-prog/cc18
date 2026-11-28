@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "SPSF-55",
-  "review_sha256": "edf0d32dc23b6c997ee68e31c6efca8f72ab211f635747c72cabe54beeebeb9c",
+  "review_sha256": "431f14429bef3df0e86d5dd659d3d3ecdbf4fa34706d12d7a32a067368ee1ea5",
   "selected_thesis": "來源資料可確認本作以「SPSF-55」作為主要作品線索。",
   "title_basis": {
     "performer": "若月萌亞",
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-06T16:00:00.000Z"

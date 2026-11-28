@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "SNOS-405",
-  "review_sha256": "9d1e64e62c7222654e5e6722a5f79d8b9cdfb758000993391a911f2443e0768b",
+  "review_sha256": "b4b77a5681d9ba7ed34ef7ac8fc089ef9b0f4423118cefa3a552a45618fdb378",
   "selected_thesis": "來源資料可確認本作以「不穿內衣搭滿員電車」作為主要作品線索。",
   "title_basis": {
     "performer": "夢乃愛華",
@@ -102,7 +102,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-23T16:00:00.000Z"

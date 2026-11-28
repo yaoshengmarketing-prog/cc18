@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "SNOS-400",
-  "review_sha256": "c1e13543452acb54bc8fd2cc68e43799205bc3050ede17fcf43ff88dbf217780",
+  "review_sha256": "ac519ca3488e94e585a4be34afe427288790a7fba07e25d63b3154dad1a15236",
   "selected_thesis": "來源資料可確認本作以「七森莉莉」作為主要作品線索。",
   "title_basis": {
     "performer": "七森莉莉",
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-22T16:00:00.000Z"

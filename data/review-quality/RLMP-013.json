@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "RLMP-013",
-  "review_sha256": "baf6f8727d1b9095d34690133937e3b06e65003a91d43135f60eaed549caafb9",
+  "review_sha256": "034fd33b6252c8d95f10145d3f0cdcb37db0781a879a8040522c7573d4d65a11",
   "selected_thesis": "來源資料可確認本作以「完成」作為主要作品線索。",
   "title_basis": {
     "performer": "推川悠里、九井珠奈緒、雨宮響",
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-06T16:00:00.000Z"

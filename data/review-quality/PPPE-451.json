@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "PPPE-451",
-  "review_sha256": "68bcfd086bc075bbae636b469ac77376806a51883e1afdd94af3d0d642b99a3b",
+  "review_sha256": "17a32372985c4d5dc611b36b80335bec952ec88870be61f820ce1ec9600ada07",
   "selected_thesis": "來源資料可確認本作以「中山文香」作為主要作品線索。",
   "title_basis": {
     "performer": "中山文香",
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-02T16:00:00.000Z"
