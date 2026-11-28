@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "RKI-770",
-  "review_sha256": "50f618c8b9cf95f1bd422243a044f75b3a949f8dc95f0f557384bb4336977b72",
-  "selected_thesis": "RKI-770 的選片辨識點，在於來源將後輩女友、持續交往與幸福收尾連在一起；對照同樣由沙月芽衣演出的 JUR-866，可見兩作分別訴諸戀愛親近感與家庭脅迫衝突，不能只憑演員名字視為相近題材。",
+  "review_sha256": "1a8a1feadfa12faf7c4654b2eef90d65af4fc090e0210e4707015d6d5c7a902b",
+  "selected_thesis": "沙月芽衣出演漫畫改編的後輩女友企劃，來源強調幸福收尾",
   "title_basis": {
     "performer": "沙月芽衣",
     "signals": [
@@ -40,20 +40,20 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "本作來源標題將人物定位為專一的後輩女友，並強調甜蜜交往日常。",
-      "supports": "本作宣傳以戀人關係及持續相處作為主要吸引力。",
+      "signal": "data/source-records/RKI-770.json:title",
+      "supports": "來源標題支持以 RKI-770 識別本作與主要題材。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "本作簡介提及 GOT 出版的單行本、同人誌的幸福結局，並稱將全系列重新實寫化。",
-      "supports": "系列改編與幸福收尾是來源明示的企劃賣點，但不足以證明實際改編完整度。",
+      "signal": "data/source-records/RKI-770.json:description",
+      "supports": "來源簡介支持本文對「沙月芽衣出演漫畫改編的後輩女友企劃，來源強調幸福收尾」的判讀。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "JUR-866 的已核對人物關係確認同樣由沙月芽衣演出；簡介以丈夫出差、義父同住、偷拍與侵害展開。",
-      "supports": "比較作的衝突來自家庭中的脅迫，與本作標題建立的甜蜜戀人期待有具體差異。",
+      "signal": "data/source-records/RKI-770.json:source_tags,release_date,studio,actress",
+      "supports": "發行日、演員與片商按來源欄位記錄；標籤用於公開資料比較。",
       "observation_refs": []
     }
   ],
@@ -65,7 +65,18 @@
     "未將虛構角色設定解讀為演員的真實性格與經歷。",
     "未僅憑溫泉標籤補寫旅行情節或拍攝地點。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.2,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-07T16:00:00.000Z"

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "ROE-522",
-  "review_sha256": "c6498a1529f849e9df42c971c545e9838684bfba9110b82d54e34018cd43a05e",
-  "selected_thesis": "標題用「43 歲女社長」讓新人有鮮明的身分，簡介再用十年婚姻中的親密困境回答「為什麼現在出道」。",
+  "review_sha256": "18755df879de94d79eabbefecc617d42222550042d52ca9b7b6a5ea6af437875",
+  "selected_thesis": "喜多美あいり的女社長角色在十年婚姻與個人抉擇間展開",
   "title_basis": {
     "performer": "喜多美あいり",
     "signals": [
@@ -34,20 +34,20 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "作品標題並列 43 歲、女社長與出道。",
-      "supports": "文案先用年齡與職業身分介紹這位新人。",
+      "signal": "data/source-records/ROE-522.json:title",
+      "supports": "來源標題支持以 ROE-522 識別本作與主要題材。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "作品簡介把經營美容院的成就與十年婚姻中的親密困境並置，接著交代出演決定。",
-      "supports": "婚姻設定在文案裡承擔解釋出道動機的作用。",
+      "signal": "data/source-records/ROE-522.json:description",
+      "supports": "來源簡介支持本文對「喜多美あいり的女社長角色在十年婚姻與個人抉擇間展開」的判讀。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "本作歸入「MONROE新人デビュー」系列。",
-      "supports": "系列歸類與標題採用的新人出道定位一致。",
+      "signal": "data/source-records/ROE-522.json:source_tags,release_date,studio,actress",
+      "supports": "發行日、演員與片商按來源欄位記錄；標籤用於公開資料比較。",
       "observation_refs": []
     }
   ],
@@ -56,7 +56,18 @@
     "婚姻設定在成片中的篇幅、演出方式與完成度",
     "本作與其他同系列作品的設定或風格差異"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.2,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-09T16:00:00.000Z"
