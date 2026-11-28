@@ -268,6 +268,36 @@ export function buildPerformerCatalog({cards, masters, localization, searchIndex
     || left.stable_performer_id.localeCompare(right.stable_performer_id, 'en')
   ));
   const performerById = new Map(performersWithMetadata.map((performer) => [performer.stable_performer_id, performer]));
+  for (const performer of performersWithMetadata) {
+    const coCounts = new Map();
+    const studioCounts = new Map();
+    for (const card of performer.public_works) {
+      const master = masterById.get(card.stable_movie_id);
+      for (const relation of master.source.performer_relations) {
+        if (relation.stable_source_id !== performer.stable_performer_id) {
+          coCounts.set(relation.stable_source_id, (coCounts.get(relation.stable_source_id) ?? 0) + 1);
+        }
+      }
+      const studio = master.source.fac_relations?.[0];
+      if (studio?.source_id && studio?.source_name) {
+        const prior = studioCounts.get(studio.source_id) ?? {source_id: studio.source_id, name: studio.source_name, count: 0};
+        if (prior.name !== studio.source_name) throw new Error(`${card.catalog_code}: conflicting studio name for ${studio.source_id}`);
+        prior.count += 1;
+        studioCounts.set(studio.source_id, prior);
+      }
+    }
+    performer.co_performers = [...coCounts].map(([id, count]) => {
+      const partner = performerById.get(id);
+      if (!partner) throw new Error(`${performer.stable_performer_id}: unknown co-performer ${id}`);
+      return {stable_performer_id: id, name: partner.primary_display_name, href: partner.href, count};
+    }).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, 'zh-Hant'));
+    performer.frequent_studios = [...studioCounts.values()].filter(({count}) => count >= 2)
+      .map((studio) => ({...studio, href: `/studios/${studio.source_id}/`}))
+      .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, 'ja'));
+    performer.timeline = [...performer.public_works].sort((a, b) =>
+      (b.release_date ?? '').localeCompare(a.release_date ?? '') || a.catalog_code.localeCompare(b.catalog_code, 'en'))
+      .map((card) => ({catalog_code: card.catalog_code, release_date: card.release_date, href: card.href, title: card.title}));
+  }
   const orderedPerformersByWork = publicMasters.map((master) => ({
     stable_movie_id: master.stable_movie_id,
     performers: master.source.performer_relations.map(({stable_source_id: id}) => {

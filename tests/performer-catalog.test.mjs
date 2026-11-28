@@ -89,6 +89,20 @@ const formalInputs = async () => {
   return {cards: cardCatalog.cards, masters, localization, searchIndex};
 };
 
+test('performer relationships and timeline use only the published typed work set', async () => {
+  const catalog = await loadPerformerCatalog();
+  const byId = new Map(catalog.performers.map((person) => [person.stable_performer_id, person]));
+  for (const person of catalog.performers) {
+    assert.deepEqual(person.timeline.map((work) => work.catalog_code),
+      [...person.public_works].sort((a, b) => b.release_date.localeCompare(a.release_date) || a.catalog_code.localeCompare(b.catalog_code))
+        .map((card) => card.catalog_code));
+    assert.ok(person.co_performers.every((partner) => partner.stable_performer_id !== person.stable_performer_id && byId.has(partner.stable_performer_id)));
+    assert.ok(person.frequent_studios.every((studio) => studio.count >= 2 && studio.href === `/studios/${studio.source_id}/`));
+  }
+  assert.ok(catalog.performers.some((person) => person.co_performers.length > 0));
+  assert.ok(catalog.performers.some((person) => person.frequent_studios.length > 0));
+});
+
 test('strict performer codec round-trips every approved ID without normalizing input', async () => {
   const localization = await readJson('data/localization/performers-zh-tw.json');
   for (const {source_actor_id: id} of localization.performers) {
