@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "HMN-913",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-28T08:57:31.474Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/HMN-913/hero-v1.jpg",
+      "r2_key": "works/2026/11/HMN-913/hero-v1.jpg",
+      "bytes": 690728,
+      "sha256": "52906494df096438c9368e7ca26b3046548cf992886ac8a3b0c78f1c672938a4",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "0557c103c15a47fa8951763d6ede3f58",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/HMN-913/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/HMN-913/scene-vertical-v1.jpg",
+      "bytes": 1051529,
+      "sha256": "33219ab9f1e1876965af58505cb1e3d82274236daea99b3c17d8e26af5d460f0",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "169ccd7471f543108a1af9a12c1b0b34",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2757483,
+    "sha256": "f27b22a9b9f03212c4ff0e9a861ff0c912482fa29b1bdb87584948950d38d455",
+    "target_r2_key": "works/2026/11/HMN-913/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/HMN-913/vertical-v1.mp4"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "HMN-913",
+  "review_sha256": "b745392cd7b2aafc2f2a68ac2aea5dfcba2cdaf9d98b8ea26cb9388c123bf9a6",
+  "selected_thesis": "這部作品的選片線索是工廠裡的脅迫關係：弟弟學費使角色有留下工作的理由，會計指控則成為同事控制她的手段。與東條夏的護士題材相比，兩份簡介安排了方向相反的角色關係。",
+  "title_basis": {
+    "performer": "東條夏",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "東條夏",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "東條なつ",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "東條夏",
+    "presentation_feature": "東條なつ",
+    "editorial_judgment": "比較同演員兩部作品的公開設定，聚焦角色在關係中的主導權。",
+    "source_keywords": [
+      "東條夏",
+      "東條なつ",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介交代弟弟學費、工廠會計工作，以及年長同事以涉嫌會計造假設局。",
+      "supports": "角色的經濟責任與職場處境，是脅迫設定得以成立的兩個具體條件。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "關聯作品的簡介將同樣由東條夏演出的護士寫成主動提供照護的角色。",
+      "supports": "兩作公開設定的差異在角色關係：一邊受同事控制，一邊由護士主動接近病人。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未推斷成片的表演、鏡位、聲音或節奏。",
+    "未將簡介中的脅迫情節當成演員真實經歷。",
+    "未依宣傳文字評斷成片品質。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

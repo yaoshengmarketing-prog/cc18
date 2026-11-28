@@ -2547,7 +2547,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 54,
+      "occurrences": 55,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -2602,10 +2602,11 @@
         "DSOD-108",
         "NGOD-370",
         "FSBK-030",
-        "MXGS-1452"
+        "MXGS-1452",
+        "HMN-913"
       ],
       "first_seen": "2026-09-09",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "status": "quarantined"
     },
     {

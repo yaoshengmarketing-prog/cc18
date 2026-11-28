@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "id": "HMN-913",
+  "generated_at": "2026-11-28T08:53:16.072Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/HMN-913.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "東條なつ",
+    "premise": "作品以「東條なつ」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「東條なつ」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "東條なつ",
+      "口交"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "窈窕"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "口交",
+      "3p・4p",
+      "淫亂・過激系"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由東條夏演出，這部工廠題材與護士題材如何安排角色的主導權？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=AUousK4YV8g&cat=19",
+      "supports": "已提供的作品資料與來源快照記載：角色為弟弟學費在工廠工作，遭年長同事以涉嫌會計造假設局脅迫。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=kCsywYUs37p&cat=19",
+      "supports": "已提供的關聯作品快照記載：東條夏在護士題材中被介紹為主動提供照護的角色。"
+    }
+  ],
+  "angle_candidates": [
+    "以弟弟學費和會計指控，說明工廠設定如何限制角色的選擇",
+    "比較同演員在工廠與病房題材中的角色主導權",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "這部作品的選片線索是工廠裡的脅迫關係：弟弟學費使角色有留下工作的理由，會計指控則成為同事控制她的手段。與東條夏的護士題材相比，兩份簡介安排了方向相反的角色關係。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "東條夏",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "東條なつ",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "為弟弟學費受困工廠的姊姊",
+  "display_short_title": "東條夏的工廠困局",
+  "title": "同是東條夏，工廠與病房把主導權放在誰手上？",
+  "seo_title": "HMN-913｜東條夏的工廠題材與角色困局",
+  "social_title": "東條夏從護士到工廠職員：兩種不同的角色關係",
+  "short_review": "簡介用弟弟學費、工廠工作與會計指控，交代角色為何難以脫身。想找帶有職場脅迫設定的作品，這些資訊比題材標籤更能幫助判斷。",
+  "editorial_angle": "比較同演員兩部作品的公開設定，聚焦角色在關係中的主導權。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介交代弟弟學費、工廠會計工作，以及年長同事以涉嫌會計造假設局。",
+      "supports": "角色的經濟責任與職場處境，是脅迫設定得以成立的兩個具體條件。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "關聯作品的簡介將同樣由東條夏演出的護士寫成主動提供照護的角色。",
+      "supports": "兩作公開設定的差異在角色關係：一邊受同事控制，一邊由護士主動接近病人。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未推斷成片的表演、鏡位、聲音或節奏。",
+    "未將簡介中的脅迫情節當成演員真實經歷。",
+    "未依宣傳文字評斷成片品質。"
+  ],
+  "decision_guide": {
+    "thesis": "選片重點是工廠職場中的脅迫設定，以及它與同演員護士題材的角色關係差異。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以弟弟學費、會計指控與年長同事設局，建立角色難以拒絕的處境。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "角色為什麼留在工廠？",
+      "同事在簡介中如何取得控制權？",
+      "它與東條夏的護士題材有何設定差異？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "弟弟學費如何變成工廠裡的困局？",
+      "body": "本作簡介先給姊姊一個留下工作的理由：她在小工廠做會計，要負擔弟弟的學費。年長同事再以她涉嫌會計造假為由設局。學費說明她為何需要這份工作，指控則說明她為何難以拒絕；兩者一起構成這部作品的脅迫設定。"
+    },
+    {
+      "heading": "和護士題材相比，角色的位置變了",
+      "body": "同樣由東條夏演出的另一部作品，把她介紹成主動照護病人的護士。兩份簡介的具體差別，是誰能主導關係：護士題材由她接近對方；這部工廠題材則讓同事利用職場處境控制她。若你是按東條夏的名字選片，這個差異比共通的題材標籤更有用。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據已提供的本作與同演員關聯作品來源快照；外部作品頁未能開啟核讀。上述比較只涉及公開簡介中的角色設定，沒有影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "dcff50fad5dc69ba379f56e027b9a773bd86aeb55199e1573c2b04e24973c4b4",
+    "response_sha256": "bfa7acc84270a8e4a65127894eeb233030f52943b7083f3c2f179df150f394d3",
+    "research_input_sha256": "06d74a9c81c9bc3a81a3f8bb5a895b8830d7b70e35556b128674ccd197a100b7",
+    "related_source_ids": [
+      "HMN-894",
+      "MKMP-758"
+    ]
+  }
+}

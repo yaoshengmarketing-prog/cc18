@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "movie_id": "HMN-913",
+  "generated_at": "2026-11-28T08:53:16.800Z",
+  "source_snapshot_hash": "sha256:dcff50fad5dc69ba379f56e027b9a773bd86aeb55199e1573c2b04e24973c4b4",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "選片重點是工廠職場中的脅迫設定，以及它與同演員護士題材的角色關係差異。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以弟弟學費、會計指控與年長同事設局，建立角色難以拒絕的處境。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MKMP-758",
+      "relation_type": "same_performer",
+      "reason": "同樣由東條夏出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "東條夏"
+      ],
+      "contrast_signals": [
+        "篠田優",
+        "濱崎真緒"
+      ]
+    },
+    {
+      "movie_id": "HMN-894",
+      "relation_type": "same_performer",
+      "reason": "同樣由東條夏出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "東條夏"
+      ],
+      "contrast_signals": [
+        "立刻榨乾硬梆梆的肉棒",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "角色為什麼留在工廠？",
+    "同事在簡介中如何取得控制權？",
+    "它與東條夏的護士題材有何設定差異？"
+  ]
+}
