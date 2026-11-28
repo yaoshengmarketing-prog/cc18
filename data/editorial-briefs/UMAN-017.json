@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "id": "UMAN-017",
+  "generated_at": "2026-11-28T10:08:44.520Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/UMAN-017.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "悲報",
+    "premise": "作品以「悲報」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「悲報」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "悲報",
+      "天月杏",
+      "巨乳"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "人妻・主婦"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "妄想族"
+    ]
+  },
+  "research_question": "同系列名稱從兒子失去妻子的角度命名；這一集的公開簡介又加入了哪些具體設定？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=c0_AfCT5Tct&cat=19",
+      "supports": "使用題目提供的作品頁來源快照：演員為天月杏；簡介寫明父親與兒子夫婦同住、私裝攝影機，並將影像投稿至色情網站。外部頁面本次無法開啟。"
+    },
+    {
+      "url": "https://cc18.tv/search.php?s_type=series&s_tid=21121",
+      "supports": "使用題目提供的系列關係快照，確認本作所屬系列及其以兒子失去妻子為中心的名稱；未讀取系列頁全文。"
+    }
+  ],
+  "angle_candidates": [
+    "比較系列名稱的兒子視角與本集簡介中的父親行動",
+    "以同住、偷拍與影像投稿三項設定，辨認本集的選片重點",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "系列名稱點出家庭背叛，本集簡介則把同住家庭中的偷拍與影像投稿寫成推動事件的具體手段；選片時應留意這些帶有脅迫與隱私侵害的設定。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "天月杏",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "悲報",
+      "source_field": "title"
+    },
+    {
+      "type": "series",
+      "value": "悲報！ボクの愛する嫁ちゃんが実の親父に寝取られた話",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "《悲報！我深愛的妻子被親生父親睡走的故事（3）》天月杏篇",
+  "display_short_title": "父親的偷拍與背叛",
+  "title": "從家庭背叛到影像投稿：這集多寫了一層侵害",
+  "seo_title": "UMAN-017 天月杏｜從家庭背叛到影像投稿",
+  "social_title": "天月杏這集的設定，為何不只是一場家庭背叛？",
+  "short_review": "系列名稱聚焦兒子遭父親背叛；本集來源簡介進一步寫出同住、私裝攝影機與影像投稿。這些設定比題材標籤更能說明本集適合誰選看，也提醒讀者其中涉及脅迫與隱私侵害。",
+  "editorial_angle": "從系列名稱與本集簡介的重心差異切入，說明偷拍和影像散布如何改變讀者對家庭背叛題材的選片判斷。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "提供的系列關係快照記載系列名稱為「悲報！ボクの愛する嫁ちゃんが実の親父に寝取られた話」。",
+      "supports": "系列名稱以兒子失去妻子的角度呈現家庭背叛。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的作品簡介寫明父親與兒子夫婦同住，私裝多台攝影機，最後將影像投稿至色情網站。",
+      "supports": "本集的公開設定包含同住家庭中的偷拍與影像散布。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的作品簡介寫明兒媳起初拒絕義父逼近。",
+      "supports": "選片提示須清楚指出脅迫情境，不能將後續宣傳敘述當作同意的證據。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未推定其他集數也以偷拍或影像投稿為主題。",
+    "未評斷成片的表演、鏡位、節奏或敘事效果。",
+    "未把簡介中的身體反應敘述解讀為當事人同意。"
+  ],
+  "decision_guide": {
+    "thesis": "本集的可辨識之處，是家庭背叛設定之外，簡介還明寫偷拍與影像投稿。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源簡介以同住家庭、隱藏攝影機、義父逼近兒媳及影像投稿串起情境。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本集相較於系列名稱，多了哪些明確設定？",
+      "這些設定對選片有什麼意義？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "系列名稱說的是失去，這集簡介寫的是手段",
+      "body": "同系列名稱把重點放在兒子遭親生父親奪走妻子的背叛。本集的來源簡介則補上具體情境：父親與兒子夫婦同住，私裝攝影機，之後把影像投稿到色情網站。兩者的差別在於，系列名稱交代誰受到背叛，本集簡介還交代父親如何侵入家人的私密生活。這是本集公開設定的差異，不能據此推論其他集數的內容。"
+    },
+    {
+      "heading": "選片時，偷拍與脅迫比標籤更關鍵",
+      "body": "若只看「被寢取」標籤，容易略過本集明寫的監視與影像散布。簡介也寫到兒媳起初拒絕義父逼近；後續宣傳敘述不能抹去這個脅迫情境。想找家庭關係衝突題材的讀者，可以先用這些設定判斷是否合意；若不想接觸偷拍與隱私侵害情節，這部的公開介紹已提供明確線索。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據題目提供的[作品頁來源快照](https://cc18.tv/player.php?uuid=c0_AfCT5Tct&cat=19)與[系列關係快照](https://cc18.tv/search.php?s_type=series&s_tid=21121)。本次無法開啟外部頁面，也沒有影片抽樣；選片判斷僅針對上述公開設定。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "03960197fabe7227e49a215a8f55a782cbcea8b4ed3f41ef2eda089f661ed610",
+    "response_sha256": "8c1850b8d396aef06bf5c801a7a85a67f29d784287ef9d0bc57f501ee15492ba",
+    "research_input_sha256": "a78b827ab103b426314c10f34a3266a113fb9b56daf5391f7cb1959382c965bb",
+    "related_source_ids": []
+  }
+}

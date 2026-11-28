@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:099a26ebe522be74bee4d2a284f752da576912fa21a343e9a6dfd052dda2d408",
-  "source_generated_at": "2026-11-28T10:05:04.764Z",
+  "source_revision": "sha256:2f36ed22289a67921e3eb7e4deaf55f250d4e94d067d4d956e63243e7574c51b",
+  "source_generated_at": "2026-11-28T10:14:18.060Z",
   "counts": {
-    "movies": 641,
-    "performers": 423,
+    "movies": 642,
+    "performers": 424,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -744,6 +744,17 @@
         "cc18:EKDV-831",
         "cc18:GVH-891",
         "cc18:ROYD-362"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:28163",
+      "display_name": "天月杏",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "天月杏",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:UMAN-017"
       ]
     },
     {
@@ -8161,6 +8172,73 @@
         "article_title": "錯過末班車，讓同學關係有了轉折",
         "display_short_title": "音樂祭後的末班車",
         "slug": "sodah-012"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:UMAN-017",
+        "source_cover": "https://cc18.tv/preview/80/b/c0_AfCT5Tct-800.jpg?v=1794206287",
+        "title": "父親的偷拍與背叛",
+        "catalog_code": "UMAN-017",
+        "release_date": "2026-11-06",
+        "performers": [
+          "天月杏"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "fantasy-concept",
+            "label": "幻想企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "large-breasts",
+            "label": "巨乳"
+          },
+          {
+            "id": "married-woman",
+            "label": "人妻／主婦"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/uman-017/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28163"
+      ],
+      "search": {
+        "source_title": "悲報！我深愛的妻子被親生父親睡走的故事（3） 天月杏",
+        "source_tags": [
+          "中出",
+          "AV女優片",
+          "巨乳",
+          "羞恥",
+          "寢取・被寢取",
+          "720p",
+          "独占配信",
+          "HD",
+          "NTR",
+          "人妻・主婦",
+          "寝取り・寝取られ・ntr",
+          "妄想族"
+        ],
+        "article_title": "從家庭背叛到影像投稿：這集多寫了一層侵害",
+        "display_short_title": "父親的偷拍與背叛",
+        "slug": "uman-017"
       }
     },
     {

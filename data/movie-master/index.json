@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-28T10:05:04.764Z",
+  "generated_at": "2026-11-28T10:14:18.060Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 643,
-  "formal_movie_count": 642,
+  "tracked_input_count": 644,
+  "formal_movie_count": 643,
   "demo_count": 1,
-  "published_count": 641,
+  "published_count": 642,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -5606,6 +5606,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "b200fd16bec402baf3570c036ee976468b9587b5da49027d5fe3afdfab823566"
+    },
+    {
+      "stable_movie_id": "cc18:UMAN-017",
+      "catalog_code": "UMAN-017",
+      "slug": "uman-017",
+      "master_path": "data/movie-master/uman-017.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "418d5a6e2ccc1f141f32f312cb3c70126489d847cdffd082866ff198c53eaf2e"
     },
     {
       "stable_movie_id": "cc18:UMD-1017",

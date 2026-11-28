@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-28T10:04:10.922Z",
+  "updated_at": "2026-11-28T10:13:26.852Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -9554,6 +9554,21 @@
       ],
       "release_date": "2026-11-26",
       "source_url": "https://cc18.tv/player.php?uuid=7k745w2vpeg&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-28"
+    },
+    {
+      "id": "UMAN-017",
+      "actress": [
+        "天月杏"
+      ],
+      "release_date": "2026-11-06",
+      "source_url": "https://cc18.tv/player.php?uuid=c0_AfCT5Tct&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

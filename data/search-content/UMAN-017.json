@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "UMAN-017",
+  "generated_at": "2026-11-28T10:08:45.029Z",
+  "source_snapshot_hash": "sha256:03960197fabe7227e49a215a8f55a782cbcea8b4ed3f41ef2eda089f661ed610",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "本集的可辨識之處，是家庭背叛設定之外，簡介還明寫偷拍與影像投稿。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源簡介以同住家庭、隱藏攝影機、義父逼近兒媳及影像投稿串起情境。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "本集相較於系列名稱，多了哪些明確設定？",
+    "這些設定對選片有什麼意義？"
+  ]
+}

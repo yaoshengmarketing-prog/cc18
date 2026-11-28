@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "UMAN-017",
+  "review_sha256": "03e32b249accce019546e0ecbecc4257e1ff224b43729f01a82cfbf5206835f2",
+  "selected_thesis": "系列名稱點出家庭背叛，本集簡介則把同住家庭中的偷拍與影像投稿寫成推動事件的具體手段；選片時應留意這些帶有脅迫與隱私侵害的設定。",
+  "title_basis": {
+    "performer": "天月杏",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "天月杏",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "悲報",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "悲報！ボクの愛する嫁ちゃんが実の親父に寝取られた話",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "天月杏",
+    "presentation_feature": "悲報",
+    "editorial_judgment": "從系列名稱與本集簡介的重心差異切入，說明偷拍和影像散布如何改變讀者對家庭背叛題材的選片判斷。",
+    "source_keywords": [
+      "天月杏",
+      "悲報",
+      "悲報！ボクの愛する嫁ちゃんが実の親父に寝取られた話",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "提供的系列關係快照記載系列名稱為「悲報！ボクの愛する嫁ちゃんが実の親父に寝取られた話」。",
+      "supports": "系列名稱以兒子失去妻子的角度呈現家庭背叛。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的作品簡介寫明父親與兒子夫婦同住，私裝多台攝影機，最後將影像投稿至色情網站。",
+      "supports": "本集的公開設定包含同住家庭中的偷拍與影像散布。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "提供的作品簡介寫明兒媳起初拒絕義父逼近。",
+      "supports": "選片提示須清楚指出脅迫情境，不能將後續宣傳敘述當作同意的證據。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未推定其他集數也以偷拍或影像投稿為主題。",
+    "未評斷成片的表演、鏡位、節奏或敘事效果。",
+    "未把簡介中的身體反應敘述解讀為當事人同意。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}
