@@ -8,6 +8,8 @@ import {isExcluded} from '../../src/lib/exclusions.mjs';
 import {completeEditorialAfterCheckpoint} from './lib/handoff-order.mjs';
 import {isAdmittedCanaryWork} from '../canary/selection.mjs';
 import {approveAfterAutomatedQa, assertFreshAutomatedQa} from './lib/approval.mjs';
+import {gateClaimedEditorial} from './lib/auto-gate.mjs';
+import {approvedExampleIds, loadEditorialKnowledge} from './lib/editorial-knowledge.mjs';
 import {
   checkpointArtifactPaths, createCleanWorktree, createRestoredCheckpointAuthorization,
   removeCleanWorktree, restoreWorkCheckpoint, saveWorkCheckpoint,
@@ -51,7 +53,7 @@ const snapshot = async (workspaceRoot, movieId) => {
   }
   return result;
 };
-const candidateJobs = async (store, registry, now) => {
+const candidateJobs = async (store, registry, now, skipped = new Set()) => {
   const published = new Set(registry.records.filter((item) => item.review_status !== 'draft').map((item) => item.id));
   let offset = 0;
   while (true) {
@@ -68,7 +70,7 @@ const candidateJobs = async (store, registry, now) => {
       params: [now.toISOString(), now.toISOString(), selectedId, selectedId, offset],
     });
     const jobs = page.results ?? [];
-    const candidate = jobs.find((job) => !published.has(job.movie_id) && !isExcluded(job.movie_id));
+    const candidate = jobs.find((job) => !published.has(job.movie_id) && !isExcluded(job.movie_id) && !skipped.has(job.id));
     if (candidate) return candidate;
     if (jobs.length < 50) return null;
     offset += jobs.length;
@@ -92,14 +94,15 @@ const relatedResearch = async ({workspaceRoot, source, registry}) => {
   }
   return related;
 };
-const runCodex = async ({workspaceRoot, source, examples, related, researchNotes, responsePath}) => {
+const runCodex = async ({workspaceRoot, source, examples, related, researchNotes, knowledge, responsePath}) => {
   const prompt = `你是 JAV 影格繁中編輯。本次只輸出一個 JSON 物件，供既有 Editorial 正規化與 QA 使用。
 寫作前先提出一個能由資料回答的背景問題，再用本作、同演員、同系列或片商的可核對材料回答它。優先查找官方作品、人物、系列或訪談頁；若執行環境無法開啟外部頁面，只使用下方已核對的研究資料與來源快照，不得把搜尋片段冒充已讀全文。比較必須指出具體設定差異及其選片意義，不由宣傳文案推論成片品質。材料不足就寫精簡文章，材料範圍集中在文末，不要每節重複未觀影提醒。不得捏造來源、人物經歷或已觀看的畫面、聲音與台詞。範例只供學習判斷方式，不得照抄句子，也不得把無關範例當成本作背景。
 JSON 欄位：research_question、research_sources（實際使用的來源 URL 與支持要點；可空）、angle_candidates、selected_thesis、title_signals（可空）、work_title（作品 H1，自然繁中，不重複番號）、display_short_title（卡片短題，不重複番號）、title（文章觀點 H2，不重複番號）、seo_title（包含番號）、social_title、short_review、editorial_angle、editorial_tag_ids（可空）、evidence（每項 basis=public_source、signal、supports、observation_refs=[]）、creative_reconstruction_notes（可空）、unsupported_claims_excluded、decision_guide（thesis、story_density=unknown、pace=unknown、presentation、audience_for、audience_not_for、questions_answered）、sections（heading、body）。所有公開文字都用自然繁中，不寫內部欄位名稱；正文不要出現 stable ID、Source Record、Movie Master、Search Content、D1 或 QA 等工程名稱，人物關係可寫成「同樣由某人演出」。人物主要名稱優先使用已核准的繁中顯示名；若無核准名，使用來源人物關係中的原名，不得把來源標題裡的翻譯別名升為主要名稱。title_signals 不確定就留空。日文系列名不可冒充作品原題。文章可短，但要有來源支持的具體判斷。
 當前作品來源 JSON：\n${JSON.stringify(source)}
 經人物與系列關係核對的關聯作品：\n${JSON.stringify(related)}
 已核對的額外研究材料（若無則為 null）：\n${JSON.stringify(researchNotes)}
-三篇已核准文章範例（僅作寫作方法參考）：\n${examples}`;
+三篇已核准文章範例（僅作寫作方法參考）：\n${examples}
+開工回饋知識庫：\n${knowledge}`;
   const code = await new Promise((resolveRun, rejectRun) => {
     const child = spawn('codex.exe', ['exec', '--ephemeral', '-s', 'read-only', '-C', workspaceRoot,
       '-o', responsePath, '-'], {cwd: workspaceRoot, windowsHide: true, stdio: ['pipe', 'ignore', 'inherit']});
@@ -159,15 +162,17 @@ try {
     throw new Error('Research notes must identify the selected work and cite supported HTTPS sources');
   }
   const registry = JSON.parse(git(['show', 'origin/main:data/movie-registry.json']));
-  const candidate = await candidateJobs(store, registry, new Date());
+  const skipped = new Set();
+  while (true) {
+  const candidate = await candidateJobs(store, registry, new Date(), skipped);
   if (!candidate) {
     console.log(JSON.stringify({event: 'local_codex_editorial_empty', run_id: runId}));
     process.exitCode = 0;
+    break;
   } else {
     claimed = await store.claim({stage: 'editorial', jobId: candidate.id, workerId, leaseSeconds: config.queue.lease_seconds});
     if (!claimed) throw new Error(`${candidate.movie_id}: lost the atomic Editorial claim`);
     const movieId = claimed.movie_id;
-    if (isExcluded(movieId)) throw new Error(`${movieId}: excluded work cannot enter Editorial`);
     const interval = Math.max(30_000, Math.floor(config.queue.lease_seconds * 1000 / 3));
     leaseTimer = setInterval(() => {
       leasePending = leasePending.then(() => store.renewLease({jobId: claimed.id, workerId, leaseSeconds: config.queue.lease_seconds}))
@@ -179,15 +184,38 @@ try {
     if (source.id !== movieId || source.source_url !== movie.source_url) throw new Error(`${movieId}: source identity mismatch`);
     if (approvedResponse && sha(movie.source_json) !== approvedSourceHash) throw new Error(`${movieId}: approved source snapshot changed`);
     isolated = await createCleanWorktree({repositoryRoot: root, baseRef: 'origin/main'});
+    const gate = await gateClaimedEditorial({root: isolated.workspaceRoot, source, movieId, job: claimed, workerId, store,
+      checkpoint: async () => {
+        const saved = await saveWorkCheckpoint({repositoryRoot: root, workspaceRoot: isolated.workspaceRoot, baseRef: 'origin/main', movieId});
+        if (!saved.saved) throw new Error(`${movieId}: exclusion checkpoint was not saved`);
+      }});
+    if (gate.excluded) {
+      clearInterval(leaseTimer);
+      leaseTimer = null;
+      await leasePending;
+      claimed = null;
+      leasePending = Promise.resolve();
+      leaseError = null;
+      skipped.add(candidate.id);
+      console.log(JSON.stringify({event: 'local_codex_editorial_excluded', movie_id: movieId, ...gate}));
+      await removeCleanWorktree({repositoryRoot: root, ...isolated});
+      isolated = null;
+      if (selectedId) break;
+      continue;
+    }
     const existing = registry.records.find((item) => item.id === movieId);
     if (existing && existing.review_status !== 'draft') throw new Error(`${movieId}: already published on main`);
     await writeFile(resolve(isolated.workspaceRoot, `data/source-records/${movieId}.json`), `${JSON.stringify(source, null, 2)}\n`);
     await runNode(isolated.workspaceRoot, 'scripts/publish/source-preflight.mjs', [movieId]);
     const related = await relatedResearch({workspaceRoot: isolated.workspaceRoot, source, registry});
-    const examples = (await Promise.all(['MARN-007', 'CPZ69-015', 'MARR-015'].map(async (id) => {
+    const knowledge = await loadEditorialKnowledge(isolated.workspaceRoot);
+    const exampleIds = approvedExampleIds(knowledge);
+    const examples = (await Promise.all(exampleIds.map(async (id) => {
+      try { await readFile(resolve(isolated.workspaceRoot, `data/editorial-exclusions/${id}.json`)); return null; }
+      catch (error) { if (error.code !== 'ENOENT') throw error; }
       const markdown = await readFile(resolve(isolated.workspaceRoot, `content/reviews/${id}.md`), 'utf8');
       return {id, body: markdown.replace(/^---\r?\n[\s\S]*?\r?\n---/u, '').slice(0, 3500)};
-    }))).map((item) => JSON.stringify(item)).join('\n');
+    }))).filter(Boolean).map((item) => JSON.stringify(item)).join('\n');
     const responsePath = approvedResponse
       ? resolve(isolated.workspaceRoot, approvedResponse)
       : join(tmpdir(), `cc18-${movieId}-${runId}-codex.json`);
@@ -197,7 +225,7 @@ try {
     }
     const raw = approvedResponse
       ? await readFile(responsePath, 'utf8')
-      : await runCodex({workspaceRoot: isolated.workspaceRoot, source, examples, related, researchNotes, responsePath});
+      : await runCodex({workspaceRoot: isolated.workspaceRoot, source, examples, related, researchNotes, knowledge, responsePath});
     if (approvedResponse && sha(raw) !== approvedResponseHash) throw new Error(`${movieId}: approved response hash changed`);
     JSON.parse(raw); // malformed output never reaches D1 completion
     if (leaseError) throw leaseError;
@@ -247,6 +275,8 @@ try {
     console.log(JSON.stringify({event: 'local_codex_editorial_completed', run_id: runId, movie_id: movieId,
       editorial_job_id: finished.id, checkpoint_ref: checkpoint.ref, checkpoint_commit: checkpoint.commit,
       source_sha256: sha(movie.source_json), response_sha256: sha(raw), artifact_hashes: actual}));
+    break;
+  }
   }
 } catch (error) {
   if (claimed) {

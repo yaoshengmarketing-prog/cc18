@@ -9,6 +9,7 @@ import {assertEditorialProviderReady, loadLocalEditorialEnvironment} from './lib
 import {loadBridgeConfig} from '../bridge/lib/config.mjs';
 import {assertLocalAnalyzerReady} from '../bridge/lib/local-analysis.mjs';
 import {approveAfterAutomatedQa, assertFreshAutomatedQa} from './lib/approval.mjs';
+import {gateClaimedEditorial} from './lib/auto-gate.mjs';
 
 let movieId = process.argv.slice(2).find((argument) => !argument.startsWith('--'))?.trim().toUpperCase();
 if (movieId && isExcluded(movieId)) {
@@ -34,6 +35,11 @@ const workerId = `editorial-${hostname()}-${process.pid}-${randomUUID().slice(0,
 let mediaJob = null;
 let editorialJob = null;
 let claimed = null;
+const requestedMovieId = movieId;
+let movie;
+let source;
+let analysisPath = null;
+while (true) {
 if (sourceOnly && !movieId) {
   claimed = await store.claim({stage: 'editorial', workerId, leaseSeconds: pipeline.queue.lease_seconds});
   if (!claimed) {
@@ -60,17 +66,26 @@ if (sourceOnly && !movieId) {
   if (!claimed) throw new Error(`${movieId}: editorial job is not claimable (current status: ${editorialJob.status})`);
 }
 
-const movie = await store.getMovie(movieId);
+movie = await store.getMovie(movieId);
 if (!movie) {
   await store.finishJob({jobId: claimed.id, workerId, outcome: 'failed', errorCode: 'MOVIE_SOURCE_MISSING'});
   throw new Error(`${movieId}: D1 movie record not found`);
 }
-const analysisPath = sourceOnly ? null : resolve(root, '.cc18-bridge', 'runtime', 'jobs', mediaJob.id, 'analysis.json');
+analysisPath = sourceOnly ? null : resolve(root, '.cc18-bridge', 'runtime', 'jobs', mediaJob.id, 'analysis.json');
 if (!sourceOnly) {
   const analysis = JSON.parse(await readFile(analysisPath, 'utf8'));
   if (analysis.movie_id !== movieId || analysis.job_id !== mediaJob.id) throw new Error(`${movieId}: local analysis identity mismatch`);
 }
-const source = JSON.parse(movie.source_json);
+source = JSON.parse(movie.source_json);
+const gate = await gateClaimedEditorial({root, source, movieId, job: claimed, workerId, store});
+if (gate.excluded) {
+  console.log(JSON.stringify({event: 'editorial_auto_excluded', movie_id: movieId, ...gate}));
+  claimed = null;
+  if (sourceOnly && !requestedMovieId) { movieId = null; continue; }
+  process.exit(0);
+}
+break;
+}
 await mkdir(resolve(root, 'data', 'source-records'), {recursive: true});
 await writeFile(resolve(root, 'data', 'source-records', `${movieId}.json`), `${JSON.stringify(source, null, 2)}\n`);
 

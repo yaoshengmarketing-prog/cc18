@@ -2,6 +2,20 @@ export const selectionStart = '2026-11-29';
 export const internalCopy = ['目前沒有足夠的分散影片引用', '執行環境未能開啟外部頁面'];
 // v1.2 (owner, 2026-11-28 22:52): only text that directly states the character is a high/middle/elementary-school student, a little girl, or under 18. Adjectives (蘿莉, 嬌小, 幼小), 義妹, generic 學生/大學生, adult uniform or JK cosplay and 幼馴染 are not risk terms.
 export const riskTerms = ['未成年', '未滿十八', '未滿18', '思春期', '青春期', '女子高生', '女子校生', '女子○生', '女子〇生', '女高中生', '高校生', '中學生', '中学生', '國中生', '小學生', '小学生', '幼女', '小女孩'];
+export const autoExclusionTerms = ['女高中生', '高中生', '女子高生', '高校生', '中學生', '中学生', '國中生', '小學生', '小学生', '小女孩', '未成年', '未滿18', '未滿十八'];
+const costumeOrMemory = /打扮成|打扮|扮演|角色扮演|cosplay|コスプレ|穿著.{0,8}制服|制服.{0,8}角色扮演|高中時代|高中時|當年高中|高校時代|畢業後|卒業後/iu;
+const explicitNegation = /(?:沒有|並無|不含|無|不是|不再是).{0,5}(?:未滿18|未滿十八|未成年|小女孩)|(?:未滿18|未滿十八|未成年).{0,5}(?:沒有|並無|不含)/u;
+
+// Only source title and description are passed in. Other source fields cannot affect this decision.
+export function autoExclusionDecision({title = '', description = ''} = {}) {
+  for (const field of [title, description]) {
+    for (const sentence of String(field ?? '').split(/(?<=[。！？!?；;\n])|(?<=\.)\s+/u).map((part) => part.trim()).filter(Boolean)) {
+      const terms = autoExclusionTerms.filter((term) => sentence.includes(term) && !(term === '小女孩' && sentence.includes('膽小女孩')));
+      if (terms.length && !costumeOrMemory.test(sentence) && !explicitNegation.test(sentence)) return {excluded: true, terms, sentence};
+    }
+  }
+  return {excluded: false, terms: [], sentence: null};
+}
 
 export const chineseCount = (body) => [...body.matchAll(/[\p{Script=Han}]/gu)].length;
 export const shingles = (body, size = 4) => {
