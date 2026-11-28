@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "HUNTC-626",
-  "review_sha256": "16ff8e56354ec55fe1161deebf72d35bfe6d56a532a702703b6f685b4b60c5a4",
-  "selected_thesis": "來源資料可確認本作以「翹臀實在太色了」作為主要作品線索。",
+  "review_sha256": "59c46aec3ed9ddc352cb221bfff1e1dd3e1e586af43eef8e2acec55a4642a06b",
+  "selected_thesis": "來源把媽媽排球隊、繼母和受邀擔任教練的男子連在一起；標題中的體育褲是服裝線索，群體關係才是故事起點。",
   "title_basis": {
     "performer": null,
     "signals": [
@@ -40,57 +40,44 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "series：ママさんバレーのむちむちブルマ",
-      "supports": "這項可追溯來源訊號支持文章以「ママさんバレーのむちむちブルマ」作為選片辨識與標題依據。",
+      "signal": "title：媽媽排球隊肉感體育褲的誘惑，翹臀實在太色了！3 繼母把她所在的媽媽排球隊隊友們帶過來，向我展示制服！",
+      "supports": "來源題名支持本篇以「繼母帶來排球隊友的群像設定」作為選片主軸。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "presentation：高畫質",
-      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "signal": "release_date：2026-09-04",
+      "supports": "來源發行日支持本站時間軸排序。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "presentation：獨家配信",
-      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "signal": "studio：Hunter",
+      "supports": "來源片商欄支持同片商比較範圍。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "theme：翹臀實在太色了",
-      "supports": "這項可追溯來源訊號支持文章以「翹臀實在太色了」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "identity：人妻・主婦",
-      "supports": "這項可追溯來源訊號支持文章以「人妻・主婦」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "act_or_position：中出",
-      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "act_or_position：口交",
-      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "act_or_position：騎乘位",
-      "supports": "這項可追溯來源訊號支持文章以「騎乘位」作為選片辨識與標題依據。",
+      "signal": "description：繼母一直希望我能擔任她所在的媽媽排球隊教練，但我因為覺得麻煩而一直拒絕。直到有一天，媽媽排球隊的隊友",
+      "supports": "來源簡介支持對人物或企劃設定的中性摘要。",
       "observation_refs": []
     }
   ],
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "HMN-894",
-  "review_sha256": "c906b94f347697a6a11c4c4a2412b24c1ab5d195cd06abe76e01218695d2a8e9",
-  "selected_thesis": "來源資料可確認本作以「立刻榨乾硬梆梆的肉棒」作為主要作品線索。",
+  "review_sha256": "d095a1d68acbe1a9ef1634a076ee0b7a97eb442cc38ca6abe9cb3bd645210b68",
+  "selected_thesis": "來源把住院與護士照護語彙結合成人企劃，主觀視角是其宣傳特色；這些都是來源設定而非真實醫療描述。",
   "title_basis": {
     "performer": "東條夏",
     "signals": [
@@ -40,63 +40,44 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "】笑容甜美、深受歡迎的護士夏將全程貼身為您治療！",
-      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "signal": "title：立刻榨乾硬梆梆的肉棒！肉穴緊緊夾住中出的護士小姐。因為太硬了會妨礙治療，所以住院期間每天被課以10次中出的配額。 東條夏",
+      "supports": "來源題名支持本篇以「護士治療角色扮演」作為選片主軸。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "performer：東條夏",
-      "supports": "這項可追溯來源訊號支持文章以「東條夏」作為選片辨識與標題依據。",
+      "signal": "release_date：2026-09-18",
+      "supports": "來源發行日支持本站時間軸排序。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "presentation：高畫質",
-      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "signal": "studio：本中",
+      "supports": "來源片商欄支持同片商比較範圍。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "presentation：獨家配信",
-      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "theme：立刻榨乾硬梆梆的肉棒",
-      "supports": "這項可追溯來源訊號支持文章以「立刻榨乾硬梆梆的肉棒」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "identity：AV女優片",
-      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "identity：癡女",
-      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "act_or_position：中出",
-      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "act_or_position：騎乘位",
-      "supports": "這項可追溯來源訊號支持文章以「騎乘位」作為選片辨識與標題依據。",
+      "signal": "description：【完全主觀視角的舌吻護士SEX治療！】笑容甜美、深受歡迎的護士夏將全程貼身為您治療！躺在床上就享受全",
+      "supports": "來源簡介支持對人物或企劃設定的中性摘要。",
       "observation_refs": []
     }
   ],
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-21T16:00:00.000Z"

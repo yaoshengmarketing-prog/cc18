@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "IPZZ-943",
-  "review_sha256": "90750840c272d932e51ffd7b5b48d8029395f6a242509fcc77b5f68c8d1f87e7",
-  "selected_thesis": "來源資料可確認本作以「愛才莉亞」作為主要作品線索。",
+  "review_sha256": "45cddbfab0f892f11d466848c2b5a9b4f3cf1546240352ac86ff3875493943e4",
+  "selected_thesis": "來源標題和簡介聚焦愛才莉亞的形象與成人內容數量，幾乎沒有角色關係；選片時應把它和劇情型作品分開。",
   "title_basis": {
     "performer": "愛才莉亞",
     "signals": [
@@ -40,57 +40,44 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "performer：愛才莉亞",
-      "supports": "這項可追溯來源訊號支持文章以「愛才莉亞」作為選片辨識與標題依據。",
+      "signal": "title：天然美少女的極品口交與驚人顏射精液淋浴 愛才莉亞",
+      "supports": "來源題名支持本篇以「以外貌與成人標籤為主的企劃」作為選片主軸。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "presentation：美少女設定",
-      "supports": "這項可追溯來源訊號支持文章以「美少女設定」作為選片辨識與標題依據。",
+      "signal": "release_date：2026-09-04",
+      "supports": "來源發行日支持本站時間軸排序。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "presentation：高畫質",
-      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "signal": "studio：IDEA POCKET",
+      "supports": "來源片商欄支持同片商比較範圍。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "presentation：獨家配信",
-      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "theme：愛才莉亞",
-      "supports": "這項可追溯來源訊號支持文章以「愛才莉亞」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "identity：AV女優片",
-      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "identity：美少女",
-      "supports": "這項可追溯來源訊號支持文章以「美少女」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "act_or_position：口交",
-      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
+      "signal": "description：好想在天然美少女那可愛到不行的臉上，盡情地潑灑精液！ 積累、沉澱、熟成後的濃稠精液狂噴11發！ 祝！",
+      "supports": "來源簡介支持對人物或企劃設定的中性摘要。",
       "observation_refs": []
     }
   ],
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-06T16:00:00.000Z"

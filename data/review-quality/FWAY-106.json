@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "FWAY-106",
-  "review_sha256": "5c80bd18c5c6134195e2752057c2862d2bc2e882185f91eabe09ad12a7752acb",
-  "selected_thesis": "來源資料可確認本作以「LOVE」作為主要作品線索。",
+  "review_sha256": "2d6d4c6b2bb7084dfba6164a5fcf64451c541caff6709eb45cca92d35b7593d4",
+  "selected_thesis": "「LOVE mind」的來源簡介主要介紹演員的外型與笑容，沒有提供情節轉折；可把它視為人物形象導向的作品。",
   "title_basis": {
     "performer": "木村愛心",
     "signals": [
@@ -40,57 +40,44 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "performer：木村愛心",
-      "supports": "這項可追溯來源訊號支持文章以「木村愛心」作為選片辨識與標題依據。",
+      "signal": "title：LOVE mind 木村愛心",
+      "supports": "來源題名支持本篇以「木村愛心的形象展示企劃」作為選片主軸。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "presentation：高畫質",
-      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "signal": "release_date：2026-09-04",
+      "supports": "來源發行日支持本站時間軸排序。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "presentation：獨家配信",
-      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "signal": "studio：fair＆way",
+      "supports": "來源片商欄支持同片商比較範圍。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "theme：LOVE",
-      "supports": "這項可追溯來源訊號支持文章以「LOVE」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "identity：AV女優片",
-      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "body_type：窈窕",
-      "supports": "這項可追溯來源訊號支持文章以「窈窕」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "body_type：巨乳",
-      "supports": "這項可追溯來源訊號支持文章以「巨乳」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "presentation：720p",
-      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "signal": "description：L罩杯女神木村愛心降臨FAIR＆WAY。擁有壓倒性破壞力的L罩杯超乳和治癒笑容，展現最強身段的裸體形",
+      "supports": "來源簡介支持對人物或企劃設定的中性摘要。",
       "observation_refs": []
     }
   ],
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

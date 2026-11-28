@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "GVH-891",
-  "review_sha256": "7010125d02462bf9e541d9298ae94f2f8c50fe093c0b0a7dd591b852a4fe4291",
-  "selected_thesis": "來源資料可確認本作以「變成超級變態雌性」作為主要作品線索。",
+  "review_sha256": "3657f3649eab0abed540f635b1289699ec4563b8d1c25965e76c2d7f086abc28",
+  "selected_thesis": "來源把天川空飾演人物先嘲笑某種表情偏好、後來成為自己曾嘲笑的對象，反轉是文案真正的主軸。",
   "title_basis": {
     "performer": "天川空",
     "signals": [
@@ -40,57 +40,44 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "performer：天川空",
-      "supports": "這項可追溯來源訊號支持文章以「天川空」作為選片辨識與標題依據。",
+      "signal": "title：嘲笑會因為阿嘿顏而興奮的變態男的淫語痴女，在被大雞巴插入的瞬間立刻露出阿嘿顏，變成超級變態雌性！ 天川空",
+      "supports": "來源題名支持本篇以「嘲諷與立場反轉的角色設定」作為選片主軸。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "series：アヘ顔で興奮するような変態男を馬鹿にしていた淫語痴女",
-      "supports": "這項可追溯來源訊號支持文章以「アヘ顔で興奮するような変態男を馬鹿にしていた淫語痴女」作為選片辨識與標題依據。",
+      "signal": "release_date：2026-10-31",
+      "supports": "來源發行日支持本站時間軸排序。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "presentation：高畫質",
-      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "signal": "studio：gloryquest",
+      "supports": "來源片商欄支持同片商比較範圍。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "presentation：獨家配信",
-      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "theme：變成超級變態雌性",
-      "supports": "這項可追溯來源訊號支持文章以「變成超級變態雌性」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "identity：AV女優片",
-      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "identity：癡女",
-      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "body_type：窈窕",
-      "supports": "這項可追溯來源訊號支持文章以「窈窕」作為選片辨識與標題依據。",
+      "signal": "description：一邊用淫語嘲笑會被阿嘿顏激發興奮的變態男，一邊扮演痴女的女人，在雞巴插入的瞬間立刻淪為雌性！露出強烈",
+      "supports": "來源簡介支持對人物或企劃設定的中性摘要。",
       "observation_refs": []
     }
   ],
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-02T16:00:00.000Z",

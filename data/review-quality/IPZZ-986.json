@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "IPZZ-986",
-  "review_sha256": "ade6cc627e3934a336e96ac0811530a64bc0e9c0091d2c3952aa3686d8cbebb6",
-  "selected_thesis": "來源資料可確認本作以「45kg」作為主要作品線索。",
+  "review_sha256": "568e87f3d89b6da72d13f0e9b027e9c59a46640b7a7c07c2abcc6ea110c76424",
+  "selected_thesis": "來源以秋瀬りり過往的偶像身分、禁戀形象和轉換工作領域為宣傳主軸；外型數據是來源說法，不宜擴張為生平事實。",
   "title_basis": {
     "performer": "秋瀬りり",
     "signals": [
@@ -40,57 +40,44 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "performer：秋瀬りり",
-      "supports": "這項可追溯來源訊號支持文章以「秋瀬りり」作為選片辨識與標題依據。",
+      "signal": "title：以神秘眼神為特徵的前禁戀偶像中出AV出道，現役時代一直隱藏的165cm 45kg I罩杯身材太驚人了。 秋瀨莉莉",
+      "supports": "來源題名支持本篇以「前偶像轉入成人作品的出道企劃」作為選片主軸。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "presentation：美少女設定",
-      "supports": "這項可追溯來源訊號支持文章以「美少女設定」作為選片辨識與標題依據。",
+      "signal": "release_date：2026-09-04",
+      "supports": "來源發行日支持本站時間軸排序。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "presentation：高畫質",
-      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "signal": "studio：IDEA POCKET",
+      "supports": "來源片商欄支持同片商比較範圍。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "presentation：獨家配信",
-      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "theme：45kg",
-      "supports": "這項可追溯來源訊號支持文章以「45kg」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "identity：AV女優片",
-      "supports": "這項可追溯來源訊號支持文章以「AV女優片」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "identity：美少女",
-      "supports": "這項可追溯來源訊號支持文章以「美少女」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "act_or_position：中出",
-      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
+      "signal": "description：165cm 45kg I罩杯。以神秘眼神為特徵的前禁戀偶像轉行AV！那個被責備的過去的我已經不在了。",
+      "supports": "來源簡介支持對人物或企劃設定的中性摘要。",
       "observation_refs": []
     }
   ],
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"
