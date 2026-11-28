@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "PPPE-455",
-  "review_sha256": "b40010751ddc78ab6e63b66498e883338821ba3a186fbed67ddfea283d75c373",
-  "selected_thesis": "來源資料可確認本作以「全裸巨乳家政婦」作為主要作品線索。",
+  "review_sha256": "8a758a9c5cf27689bcec7112958504727f1ff57c3a8e0754abf867d9cfb737a6",
+  "selected_thesis": "辨識家政婦身份與契約期間的角色設定，和同片商的女友姐姐題材分開比較。",
   "title_basis": {
     "performer": "役野滿里奈",
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 8,
+    "identity_integrity": 8,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-01T16:00:00.000Z"

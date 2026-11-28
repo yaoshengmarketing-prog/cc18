@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "NOSKN-104",
-  "review_sha256": "394b2beef2c25d29101edcc19ed01cd73aa4f6ff2d3080415b3fbd127435000b",
-  "selected_thesis": "來源資料可確認本作以「糸井瑠花」作為主要作品線索。",
+  "review_sha256": "77a543ff4693369936f72431675cebca438fbc91ffcad42fc7b7ffa6d063dbfc",
+  "selected_thesis": "用攝影會、溫泉與角色扮演三項來源線索，對照同演員的其他企劃。",
   "title_basis": {
     "performer": "糸井瑠花",
     "signals": [
@@ -102,7 +102,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 8,
+    "identity_integrity": 8,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-17T16:00:00.000Z"

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "SNOS-358",
-  "review_sha256": "57cb529eb3beabee2ce5c34fdff10eb0210e585e30f8f7cc9458cb6c50e63bac",
-  "selected_thesis": "來源資料可確認本作以「三田真鈴」作為主要作品線索。",
+  "review_sha256": "868f5e44e27dd142c7114d61741c4f6be4d3f741dca31220a8931b52e0a8c10c",
+  "selected_thesis": "以酒店工作和採訪式宣傳辨識作品，保留四位演員的來源關係。",
   "title_basis": {
     "performer": "久和原聖羅、三田真鈴、幸村泉希、青坂あおい",
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 8,
+    "identity_integrity": 8,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

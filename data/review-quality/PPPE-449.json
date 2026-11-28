@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "PPPE-449",
-  "review_sha256": "e68a19073989748987f6b895d9e956756de0bea0856dfbf20885f92a160f37ef",
-  "selected_thesis": "來源資料可確認本作以「女友巨乳OO內射OK誘惑」作為主要作品線索。",
+  "review_sha256": "320cc8d9359328288836559ffc96f08e4a95fe205e519a770fb67a4ac5d43d7b",
+  "selected_thesis": "區分女友姐姐主動接近與同演員其他婚姻、不倫題材的敘事角度。",
   "title_basis": {
     "performer": "彩月七緒",
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 8,
+    "identity_integrity": 8,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-02T16:00:00.000Z"

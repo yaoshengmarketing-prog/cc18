@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "SDMM-238",
-  "review_sha256": "15e13a6593fa360ede6701f009ddbece1cc38337b1c689ced2ec27a5ccc01cf1",
-  "selected_thesis": "來源資料可確認本作以「マジックミラー号」作為主要作品線索。",
+  "review_sha256": "1d1ce908ff61c9c296f1fcd05f3d304786e78788f4e83ac3439424e3a02ddf44",
+  "selected_thesis": "區分夫妻親密習慣調查與同系列職場放鬆企劃，並標明來源沒有列演員。",
   "title_basis": {
     "performer": null,
     "signals": [
@@ -84,7 +84,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 8,
+    "identity_integrity": 8,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z",

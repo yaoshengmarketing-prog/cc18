@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "SNOS-447",
-  "review_sha256": "c40072624a2e4dd30835d5cc3c732ac54dab9ebf916b1000a66ac4f80ca927e8",
-  "selected_thesis": "來源資料可確認本作以「口交到插入」作為主要作品線索。",
+  "review_sha256": "3cc3ca3474f2a172b08da49c214a334405e9b310d56af7bf2a9deb4fb44c6a72",
+  "selected_thesis": "辨識電影演員指導新人與戲劇拍攝的工作關係，對照同片商其他職業企劃。",
   "title_basis": {
     "performer": "仲村美羽",
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 8,
+    "identity_integrity": 8,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

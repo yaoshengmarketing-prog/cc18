@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "SDNM-560",
-  "review_sha256": "2a849f4f75ecc7610be06f00535e3b68481741c4a6e5566dd9509261d73a3344",
-  "selected_thesis": "來源資料可確認本作以「有澤真由香」作為主要作品線索。",
+  "review_sha256": "e94d69c02605136ed59da5eeb3959a9255f9a568c8944901129bceb87f3271be",
+  "selected_thesis": "辨識最終章宣傳、民宿場地與已婚角色，保守處理未收錄的系列前作。",
   "title_basis": {
     "performer": "有澤まゆか",
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 8,
+    "identity_integrity": 8,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z",

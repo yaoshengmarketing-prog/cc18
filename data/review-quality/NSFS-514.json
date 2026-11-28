@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "NSFS-514",
-  "review_sha256": "e72f2e8ca486f9dc5392df8852a028142a2561e27d17dc06df5de34d96a12478",
-  "selected_thesis": "來源資料可確認本作以「超屈辱」作為主要作品線索。",
+  "review_sha256": "81468b5efa2eec0f22f64ed5555220527fef108680d07036e9004669ae230dae",
+  "selected_thesis": "以員工旅行與職場權力為切入，區分劇情標籤與同演員其他作品。",
   "title_basis": {
     "performer": "虹村ゆみ",
     "signals": [
@@ -102,7 +102,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 8,
+    "identity_integrity": 8,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-22T16:00:00.000Z"
