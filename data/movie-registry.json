@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-28T10:32:35.705Z",
+  "updated_at": "2026-11-28T11:43:36.451Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -9599,6 +9599,21 @@
       ],
       "release_date": "2026-11-07",
       "source_url": "https://cc18.tv/player.php?uuid=avPBaZkf414&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-28"
+    },
+    {
+      "id": "MADV-646",
+      "actress": [
+        "森澤佳奈(飯岡加奈子)"
+      ],
+      "release_date": "2026-11-07",
+      "source_url": "https://cc18.tv/player.php?uuid=eylcDJRS61t&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

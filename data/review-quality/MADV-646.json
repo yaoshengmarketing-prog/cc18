@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "MADV-646",
+  "review_sha256": "af6467e8dbad4930258bec2b031f64e65222a2af1a8d57044bfe37ecd03c2693",
+  "selected_thesis": "這部的選片線索是從辦公室裡的保密約定，轉向嚴厲前輩的服裝與形象反差；公開簡介支持這個設定，尚不足以判斷成片的敘事表現。",
+  "title_basis": {
+    "performer": "森澤佳奈(飯岡加奈子)",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "森澤佳奈(飯岡加奈子)",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "全身透け透けタイツ痴女",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "森澤佳奈(飯岡加奈子)",
+    "presentation_feature": "全身透け透けタイツ痴女",
+    "editorial_judgment": "聚焦公開簡介的設定轉折：保密約定把辦公室裡的上下關係，接到前輩換上全身透視緊身衣的另一面。",
+    "source_keywords": [
+      "森澤佳奈(飯岡加奈子)",
+      "全身透け透けタイツ痴女",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "作品簡介將森澤佳奈設定為平時嚴厲、表現優秀的前輩社員。",
+      "supports": "職場身分是故事起點，也是後續形象反差的基礎。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "後輩發現她的私下祕密後，她要求對方在公司保密，接著換上全身透視緊身衣。",
+      "supports": "保密約定是連接職場設定與服裝企劃的具體轉折。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未把公開簡介中的情節寫成已觀察到的畫面或表演。",
+    "未推論成片的節奏、鏡位或敘事品質。",
+    "沒有可核對的關聯作品，因此不作跨作品比較。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}
