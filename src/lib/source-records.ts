@@ -10,7 +10,10 @@ export interface SourceRecord {
   studio?: string | null;
   series?: string | null;
   source_tags: string[];
-  source_relations?: {tags?: SourceTagRelation[]};
+  source_relations?: {
+    tags?: SourceTagRelation[];
+    performers?: Array<{stable_source_id: string; source_name: string; source_url: string}>;
+  };
   description?: string | null;
   cover_source_url?: string | null;
   source_url: string;

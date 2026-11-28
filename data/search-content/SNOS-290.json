@@ -8,31 +8,35 @@
   "sample_windows": 0,
   "average_confidence": null,
   "quick_decision": {
-    "thesis": "來源資料可確認本作以「ドキドキ風俗初体験」作為主要作品線索。目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
+    "thesis": "白石透羽邀請長期支持者到拍攝現場，是本作最明確的公開企劃設定。",
     "story_density": "unknown",
     "pace": "unknown",
     "presentation": [
       "白石透羽",
       "ドキドキ風俗初体験",
       "偶像設定",
-      "高畫質"
+      "粉絲受邀"
     ]
   },
   "timeline_summary": [],
   "audience_fit": {
     "for": [
-      "想先依來源題材與作品設定挑選的觀眾",
-      "接受目前只提供來源資料整理的觀眾"
+      "想比較白石透羽偶像題材不同人物關係的讀者",
+      "偏好粉絲受邀企劃的讀者"
     ],
     "not_for": [
-      "需要影片抽樣觀察才能決定的觀眾",
-      "需要鏡位、收音或段落變化結論的觀眾"
+      "偏好成名陷阱劇情的讀者",
+      "需要片長或實看分析才決定的讀者"
     ]
   },
-  "recommendations": [],
+  "recommendations": [
+    {"movie_id":"SNOS-330","relation_type":"same_performer","reason":"同演員的偶像形象轉向生理反應企劃，可比較主軸差異。","shared_signals":["白石透羽","S1 Style"],"contrast_signals":["粉絲受邀","生理反應企劃"]},
+    {"movie_id":"SNOS-407","relation_type":"same_performer","reason":"同演員偶像題材，來源設定改為成名焦慮與製作人陷阱。","shared_signals":["白石透羽","偶像‧藝人"],"contrast_signals":["粉絲受邀","成名陷阱"]},
+    {"movie_id":"SNOS-409","relation_type":"editorial_comparison","reason":"同片商且部分標籤相同，來源主軸是成人演員職業研修。","shared_signals":["S1 Style","顏射","騎乘位"],"contrast_signals":["粉絲受邀","職業研修"]}
+  ],
   "questions_answered": [
-    "來源資料可確認什麼？來源資料可確認本作以「ドキドキ風俗初体験」作為主要作品線索。",
-    "目前能否提供影片觀察？目前沒有足夠的分散影片引用，因此不描述鏡位、收音、表演反應、段落順序或觀看結果。",
-    "如何使用本頁？可先依來源題材與作品識別資訊判斷是否符合偏好。"
+    "核心設定是什麼？來源簡介以長期支持者受邀到拍攝現場為中心。",
+    "與同演員作品有何差異？SNOS-330 偏向生理反應企劃；SNOS-407 偏向成名陷阱劇情。",
+    "適合誰？偏好偶像與粉絲關係作為選片起點的讀者。"
   ]
 }

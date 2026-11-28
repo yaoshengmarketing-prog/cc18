@@ -7,7 +7,7 @@ import WorkFacts from '../../components/WorkFacts.astro';
 import EvidenceNotice from '../../components/EvidenceNotice.astro';
 import DecisionGuide from '../../components/DecisionGuide.astro';
 import TopicElements from '../../components/TopicElements.astro';
-import {reviewEditorialTags, visibleTags} from '../../lib/reviews';
+import {reviewEditorialTags, reviewHref, visibleTags, formatDate} from '../../lib/reviews';
 import {sourceTagItems} from '../../lib/taxonomy';
 import {sourceRecordFor} from '../../lib/source-records';
 import {searchContentFor} from '../../lib/search-content';
@@ -55,6 +55,7 @@ export async function getStaticPaths() {
 const {review, performers, series, evidence} = Astro.props;
 const {Content} = await render(review);
 const allReviews = await getCollection('reviews', ({data}) => data.status === 'published');
+const isSelectionAnalysis = review.data.editorialFormat === 'selection-analysis-v1';
 const related = new Map(allReviews.map((item) => [item.data.id, item]));
 const source = sourceRecordFor(review.data.id);
 const search = searchContentFor(review.data.id);
@@ -70,11 +71,11 @@ const articleLabel = evidence.evidence_level === 'DISTRIBUTED_SAMPLE' ? '影片�
 // Approved Markdown owns the work H1, article H2, lead and body. Source Record
 // keeps the original source name and URL; Movie Master projects card titles.
 const lead = review.data.shortReview;
-const metaDescription = `${review.data.id}｜${lead}`;
+const metaDescription = isSelectionAnalysis ? lead : `${review.data.id}｜${lead}`;
 const sourceTitleIsReadableZh = /[\u3400-\u9fff]/u.test(review.data.sourceTitle)
   && !/[\u3041-\u3096\u30a1-\u30fa]/u.test(review.data.sourceTitle)
   && review.data.sourceTitle.length <= 36;
-const heading = review.data.workTitle ?? review.data.displayShortTitle
+const heading = (isSelectionAnalysis ? review.data.workTitle ?? review.data.title : undefined) ?? review.data.workTitle ?? review.data.displayShortTitle
   ?? (sourceTitleIsReadableZh ? review.data.sourceTitle : review.data.title.replace(new RegExp(`^${review.data.id}\\s*[｜|:：-]?\\s*`, 'i'), '').trim());
 const titleSubject = review.data.seoTitle;
 const socialTitleSubject = review.data.socialTitle;
@@ -83,6 +84,23 @@ const hasPublishedVideo = review.data.videoStatus === 'rendered' && Boolean(revi
 const sourceLinkLabel = `CC18：${review.data.id}《${review.data.sourceTitle}》`;
 const pageUrl = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
 const imageUrl = new URL(review.data.heroUrl ?? review.data.coverUrl, Astro.site ?? Astro.url.origin);
+const actorIds = new Set(performers.map((item: OrderedPerformerRecord) => item.stable_performer_id));
+const actorWorks = isSelectionAnalysis && actorIds.size > 0 ? allReviews.filter((item) => {
+  const ids = sourceRecordFor(item.data.id)?.source_relations?.performers?.map((person) => person.stable_source_id) ?? [];
+  return ids.some((id) => actorIds.has(id));
+}).sort((a, b) => a.data.releaseDate.getTime() - b.data.releaseDate.getTime()) : [];
+const coPerformers = isSelectionAnalysis ? performers.filter((item: OrderedPerformerRecord) =>
+  item.stable_performer_id !== performers[0]?.stable_performer_id) : [];
+const studioCounts = new Map<string, number>();
+for (const item of actorWorks) if (item.data.studio) studioCounts.set(item.data.studio, (studioCounts.get(item.data.studio) ?? 0) + 1);
+const frequentStudios = [...studioCounts].filter(([, count]) => count >= 2).sort((a, b) => b[1] - a[1]);
+const scoreFields = review.data.selectionScores ? [
+  ['題材明確度', 0.30, review.data.selectionScores.topicClarity],
+  ['資料完整度', 0.25, review.data.selectionScores.dataCompleteness],
+  ['同演員差異度', 0.25, review.data.selectionScores.performerDistinctiveness],
+  ['標籤一致度', 0.20, review.data.selectionScores.tagConsistency],
+] as const : [];
+const totalScore = scoreFields.reduce((sum, [, weight, item]) => sum + weight * item.score, 0);
 const structuredData: Array<Record<string, unknown>> = [
   {
     '@context': 'https://schema.org',
@@ -96,14 +114,15 @@ const structuredData: Array<Record<string, unknown>> = [
   {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: review.data.title,
+    headline: isSelectionAnalysis ? heading : review.data.title,
     description: lead,
     image: imageUrl.href,
     datePublished: review.data.publishedAt.toISOString(),
-    dateModified: source?.fetched_at ?? review.data.publishedAt.toISOString(),
+    dateModified: isSelectionAnalysis ? (review.data.modifiedAt ?? review.data.publishedAt).toISOString() : source?.fetched_at ?? review.data.publishedAt.toISOString(),
     inLanguage: 'zh-Hant',
     mainEntityOfPage: pageUrl.href,
-    publisher: {'@type': 'Organization', name: SITE_NAME},
+    publisher: isSelectionAnalysis ? {'@type': 'Organization', name: SITE_NAME, url: new URL('/', pageUrl).href, logo: new URL('/images/site-logo.svg', pageUrl).href} : {'@type': 'Organization', name: SITE_NAME},
+    ...(isSelectionAnalysis ? {author: {'@type': 'Organization', name: SITE_NAME, url: new URL('/', pageUrl).href}} : {}),
     about: [
       review.data.id,
       ...review.data.actress,
@@ -155,12 +174,34 @@ if (hasPublishedVideo && review.data.videoUrl) structuredData.push({
       </figure>
     </header>
 
+    {isSelectionAnalysis && <section class="selection-analysis" aria-label="選片補充資料">
+      <div class="selection-panel">
+        <h2>番號別寫法</h2>
+        <p class="mono-value">{[review.data.id, review.data.id.replace('-', ''), review.data.id.toLowerCase(), review.data.id.toLowerCase().replace('-', '')].join(' / ')}</p>
+      </div>
+      {actorWorks.length > 0 && <div class="selection-panel">
+        <h2>演員作品時間軸 <small>本站收錄範圍</small></h2>
+        <ol>{actorWorks.map((item) => <li><time datetime={item.data.releaseDate.toISOString().slice(0, 10)}>{formatDate(item.data.releaseDate)}</time>　<a href={reviewHref(item)}>{item.data.id}</a>：{item.data.editorialAngle}</li>)}</ol>
+      </div>}
+      {scoreFields.length > 0 && <div class="selection-panel">
+        <h2>選片評分：{totalScore.toFixed(1)} / 10</h2>
+        <p>依公開資料評估，不代表觀看品質。<a href="/method/">查看評分公式</a></p>
+        <dl>{scoreFields.map(([label, weight, item]) => <div><dt>{label}（{Math.round(weight * 100)}%）</dt><dd><strong>{item.score} / 10</strong>　{item.reason}</dd></div>)}</dl>
+      </div>}
+      {(coPerformers.length > 0 || frequentStudios.length > 0) && <div class="selection-panel">
+        <h2>共演與常合作片商</h2>
+        {coPerformers.length > 0 && <p>共演：{coPerformers.map((item: OrderedPerformerRecord) => <a href={item.href}>{item.primary_display_name}</a>)}</p>}
+        {frequentStudios.length > 0 && <p>本站收錄的常合作片商：{frequentStudios.map(([name, count]) => `${name}（${count} 部）`).join('、')}</p>}
+      </div>}
+      {review.data.ownerNote && <div class="selection-panel"><h2>站長實看短評</h2><p>{review.data.ownerNote}</p></div>}
+    </section>}
+
     <section class="work-story" aria-label={articleLabel}>
       <div class="article-body">
         <Content />
       </div>
       <div class="work-after-article">
-        <p>本作來源　<a href={review.data.sourceUrl} target="_blank" rel="sponsored noopener noreferrer">{sourceLinkLabel} ↗</a></p>
+        <p>{isSelectionAnalysis ? '資料來源：' : '本作來源　'}<a href={review.data.sourceUrl} target="_blank" rel="sponsored noopener noreferrer">{sourceLinkLabel} ↗</a>{isSelectionAnalysis && <>；詳見 <a href="/method/">編輯方法</a>。</>}</p>
         {(performers.length > 0 || series.length > 0) && <nav aria-label="延伸閱讀">
           <strong>延伸閱讀</strong>
           {performers.map((performer: OrderedPerformerRecord) => <a href={performer.href}>看{performer.primary_display_name}的站內作品</a>)}
@@ -194,3 +235,4 @@ if (hasPublishedVideo && review.data.videoUrl) structuredData.push({
     {search && <DecisionGuide content={search} related={related} timeline={evidence.timeline} />}
   </article>
 </BaseLayout>
+

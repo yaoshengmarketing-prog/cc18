@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "SNOS-290",
-  "review_sha256": "6554ec0fdf147cde517d60a3cc1cb1bbbda0f83455182ba0c7558d69eff068c4",
-  "selected_thesis": "來源資料可確認本作以「ドキドキ風俗初体験」作為主要作品線索。",
+  "review_sha256": "b366d2900778b748113b29e981efe0ad51b4d0019b973cf74e77a12bd69d2b02",
+  "selected_thesis": "來源以長期支持者受邀到場為核心，可與白石透羽其他偶像題材及同片商職業研修設定比較。",
   "title_basis": {
     "performer": "白石透羽",
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.5,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 9,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 9,
+    "decision_value": 9,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z",
