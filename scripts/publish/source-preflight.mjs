@@ -3,6 +3,7 @@ import {resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {performerDictionary, validatePerformerRelations, validateSeriesRelations} from '../build-movie-master.mjs';
 import {assertCc18Url, parseWorkPage} from '../source/cc18-parser.mjs';
+import {isExcluded} from '../../src/lib/exclusions.mjs';
 
 export function restoreSourceRelations({source, fresh, localization}) {
   // Only repair identities from the same source facts, never infer IDs from names.
@@ -18,6 +19,7 @@ export function restoreSourceRelations({source, fresh, localization}) {
 
 // Use the publisher's identity rules before any paid content or media generation.
 export function validateSourceForPublication({movieId, source, localization}) {
+  if (isExcluded(movieId)) throw new Error(`${movieId}: excluded work cannot be published`);
   if (source?.id !== movieId) throw new Error(`${movieId}: source identity mismatch`);
   validatePerformerRelations({catalogCode: movieId, source, isPublished: true,
     localizations: performerDictionary(localization), usedPerformerIds: new Set()});

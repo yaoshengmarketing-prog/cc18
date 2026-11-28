@@ -4,12 +4,17 @@ import {mkdir, readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {spawn} from 'node:child_process';
 import {queueStoreFromEnvironment} from '../queue/store.mjs';
+import {isExcluded} from '../../src/lib/exclusions.mjs';
 import {assertEditorialProviderReady, loadLocalEditorialEnvironment} from './lib/openai-writer.mjs';
 import {loadBridgeConfig} from '../bridge/lib/config.mjs';
 import {assertLocalAnalyzerReady} from '../bridge/lib/local-analysis.mjs';
 import {approveAfterAutomatedQa, assertFreshAutomatedQa} from './lib/approval.mjs';
 
 let movieId = process.argv.slice(2).find((argument) => !argument.startsWith('--'))?.trim().toUpperCase();
+if (movieId && isExcluded(movieId)) {
+  console.log(JSON.stringify({movie_id: movieId, status: 'cancelled', reason: 'excluded'}));
+  process.exit(0);
+}
 const qaOnly = process.argv.includes('--qa-only');
 const retryNow = process.argv.includes('--retry-now');
 const sourceOnly = process.argv.includes('--source-only');
@@ -36,6 +41,10 @@ if (sourceOnly && !movieId) {
     process.exit(0);
   }
   movieId = claimed.movie_id;
+  if (isExcluded(movieId)) {
+    await store.finishJob({jobId: claimed.id, workerId, outcome: 'cancelled', errorCode: 'excluded'});
+    process.exit(0);
+  }
   editorialJob = claimed;
 } else {
   mediaJob = sourceOnly ? null : await store.findJob({movieId, stage: 'media_analysis', status: 'completed'});

@@ -5,6 +5,7 @@ import {join} from 'node:path';
 import {tmpdir} from 'node:os';
 import {EventEmitter} from 'node:events';
 import {D1RestQueueStore, FileQueueStore} from '../scripts/queue/store.mjs';
+import {excludedIds} from '../src/lib/exclusions.mjs';
 import {bindSql, WranglerQueueStore} from '../scripts/editorial/lib/wrangler-queue-store.mjs';
 import {completeEditorialAfterCheckpoint} from '../scripts/editorial/lib/handoff-order.mjs';
 import {assertSingleWorkRequest, checkpointArtifactPaths} from '../scripts/canary/isolation.mjs';
@@ -201,7 +202,7 @@ test('D1 canary selection keeps more than 95 exclusions in one bounded query par
   assert.match(statement.sql, /json_each\(\?\)/u);
   assert.match(statement.sql, /m\.classification='late_arrival' AND e\.discovery_run_id IS NOT NULL/u);
   assert.equal(statement.params.length, 6);
-  assert.deepEqual(JSON.parse(statement.params[0]), excluded);
+  assert.deepEqual(JSON.parse(statement.params[0]), [...excluded, ...excludedIds()]);
   assert.ok(statement.params.length <= 100);
 });
 

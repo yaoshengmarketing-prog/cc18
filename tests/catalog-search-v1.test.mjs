@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {buildSearchIndex} from '../scripts/build-search-index.mjs';
+import {isExcluded} from '../src/lib/exclusions.mjs';
 import {
   classifySearchQuery,
   compactSearchText,
@@ -26,13 +27,14 @@ test('search index follows Movie Master publication boundaries and excludes ever
     buildSearchIndex(),
     readFile(new URL('../data/movie-master/index.json', import.meta.url), 'utf8').then(JSON.parse),
   ]);
-  assert.equal(index.counts.movies, movieMasterIndex.published_count);
+  const publicCount = movieMasterIndex.entries.filter((entry) => entry.is_published && !entry.is_demo && !isExcluded(entry.catalog_code)).length;
+  assert.equal(index.counts.movies, publicCount);
   assert.equal(index.counts.excluded_formal_drafts, movieMasterIndex.formal_draft_count);
   assert.equal(index.counts.excluded_demos, movieMasterIndex.demo_count);
-  assert.equal(new Set(index.movies.map(({card}) => card.stable_movie_id)).size, movieMasterIndex.published_count);
+  assert.equal(new Set(index.movies.map(({card}) => card.stable_movie_id)).size, publicCount);
   const includedIds = new Set(index.movies.map(({card}) => card.stable_movie_id));
   for (const entry of movieMasterIndex.entries) {
-    assert.equal(includedIds.has(entry.stable_movie_id), entry.is_published === true && entry.is_demo !== true, entry.catalog_code);
+    assert.equal(includedIds.has(entry.stable_movie_id), entry.is_published === true && entry.is_demo !== true && !isExcluded(entry.catalog_code), entry.catalog_code);
   }
 });
 

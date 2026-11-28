@@ -56,6 +56,7 @@ const copyPath = async (root, path) => {
 const buildFixture = async () => {
   const root = await mkdtemp(join(tmpdir(), 'cc18-content-fail-soft-'));
   for (const path of [
+    'package.json',
     'scripts/validate-content.mjs',
     'scripts/editorial/lib/safe-editorial-payload.mjs',
     'scripts/editorial/lib/source-context.mjs',
@@ -63,6 +64,8 @@ const buildFixture = async () => {
     'src/lib/performer-localization-policy.mjs',
     'src/lib/performer-identity.mjs',
     'src/lib/performer-url.mjs',
+    'src/lib/project-root.mjs',
+    'src/lib/exclusions.mjs',
     'config/review-policy.json',
     'config/title-policy.json',
     'config/review-scorecard.json',
@@ -70,6 +73,8 @@ const buildFixture = async () => {
     'data/taxonomy.json',
     'data/tag-candidates.json',
     'data/movie-registry.json',
+    'data/editorial-exclusions',
+    'data/search-index-v1.json',
     'data/localization/performers-zh-tw.json',
     'data/source-records',
     'data/review-quality',

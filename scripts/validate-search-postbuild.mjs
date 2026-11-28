@@ -5,6 +5,7 @@ import {fileURLToPath} from 'node:url';
 import {load} from 'cheerio';
 import {parsePerformerStableId} from '../src/lib/performer-url.mjs';
 import {loadPublishedMovieCardCatalog} from '../src/lib/movie-master.mjs';
+import {isExcluded} from '../src/lib/exclusions.mjs';
 import {validateCanonicalMovieIdentity} from '../src/lib/movie-master-identity.mjs';
 import {PUBLIC_SITE_ORIGIN} from '../src/lib/site-origin.mjs';
 
@@ -106,7 +107,7 @@ export async function validateSearchPostbuild() {
   if (!html.includes(`rel="canonical" href="${PUBLIC_SITE_ORIGIN}/search/"`)) throw new Error('Search page canonical is invalid');
   if (!html.includes('action="/search/"') || !html.includes('name="q"')) throw new Error('Search form query contract is missing');
   if (
-    index.counts.movies !== movieMasterIndex.published_count
+    index.counts.movies !== movieMasterIndex.entries.filter((entry) => entry.is_published && !entry.is_demo && !isExcluded(entry.catalog_code)).length
     || index.counts.excluded_formal_drafts !== movieMasterIndex.formal_draft_count
     || index.counts.excluded_demos !== movieMasterIndex.demo_count
   ) {

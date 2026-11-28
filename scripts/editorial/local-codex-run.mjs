@@ -4,6 +4,7 @@ import {open, readFile, unlink, writeFile} from 'node:fs/promises';
 import {hostname, tmpdir} from 'node:os';
 import {isAbsolute, join, relative, resolve} from 'node:path';
 import {WranglerQueueStore} from './lib/wrangler-queue-store.mjs';
+import {isExcluded} from '../../src/lib/exclusions.mjs';
 import {completeEditorialAfterCheckpoint} from './lib/handoff-order.mjs';
 import {isAdmittedCanaryWork} from '../canary/selection.mjs';
 import {approveAfterAutomatedQa, assertFreshAutomatedQa} from './lib/approval.mjs';
@@ -15,6 +16,7 @@ import {
 const root = resolve(import.meta.dirname, '../..');
 const selectedId = process.argv.find((arg) => arg.startsWith('--id='))?.slice(5).toUpperCase() ?? null;
 if (selectedId && !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/u.test(selectedId)) throw new Error('Invalid movie ID');
+if (selectedId && isExcluded(selectedId)) throw new Error(`${selectedId}: excluded work cannot enter Editorial`);
 const researchNotesPath = process.argv.find((arg) => arg.startsWith('--research-notes='))?.slice('--research-notes='.length) ?? null;
 if (researchNotesPath && !selectedId) throw new Error('Research notes require an exact movie ID');
 const approvedResponse = process.argv.find((arg) => arg.startsWith('--approved-response='))?.slice('--approved-response='.length) ?? null;
@@ -66,7 +68,7 @@ const candidateJobs = async (store, registry, now) => {
       params: [now.toISOString(), now.toISOString(), selectedId, selectedId, offset],
     });
     const jobs = page.results ?? [];
-    const candidate = jobs.find((job) => !published.has(job.movie_id));
+    const candidate = jobs.find((job) => !published.has(job.movie_id) && !isExcluded(job.movie_id));
     if (candidate) return candidate;
     if (jobs.length < 50) return null;
     offset += jobs.length;
@@ -165,6 +167,7 @@ try {
     claimed = await store.claim({stage: 'editorial', jobId: candidate.id, workerId, leaseSeconds: config.queue.lease_seconds});
     if (!claimed) throw new Error(`${candidate.movie_id}: lost the atomic Editorial claim`);
     const movieId = claimed.movie_id;
+    if (isExcluded(movieId)) throw new Error(`${movieId}: excluded work cannot enter Editorial`);
     const interval = Math.max(30_000, Math.floor(config.queue.lease_seconds * 1000 / 3));
     leaseTimer = setInterval(() => {
       leasePending = leasePending.then(() => store.renewLease({jobId: claimed.id, workerId, leaseSeconds: config.queue.lease_seconds}))

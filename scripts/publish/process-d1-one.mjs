@@ -5,11 +5,16 @@ import {readFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {spawn, spawnSync} from 'node:child_process';
 import {queueStoreFromEnvironment} from '../queue/store.mjs';
+import {isExcluded} from '../../src/lib/exclusions.mjs';
 import {workCanonicalUrl} from '../../src/lib/work-url.mjs';
 import {frontmatterValue, selectPublishChanges, verifyLiveRelease, verifyPublicMedia} from './lib/publisher.mjs';
 
 const requestedMovieId = process.argv[2]?.trim().toUpperCase() ?? null;
 if (requestedMovieId && !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(requestedMovieId)) throw new Error('Usage: npm run publish:d1:process-one -- [MOVIE-ID]');
+if (requestedMovieId && isExcluded(requestedMovieId)) {
+  console.log(JSON.stringify({movie_id: requestedMovieId, status: 'cancelled', reason: 'excluded'}));
+  process.exit(0);
+}
 const root = resolve(import.meta.dirname, '..', '..');
 const pipeline = JSON.parse(await readFile(resolve(root, 'config/pipeline.json'), 'utf8'));
 const baseUrl = pipeline.publishing.base_url;
@@ -37,6 +42,10 @@ if (!claimed) {
 }
 
 const movieId = claimed.movie_id;
+if (isExcluded(movieId)) {
+  await store.finishJob({jobId: claimed.id, workerId, outcome: 'cancelled', errorCode: 'excluded'});
+  process.exit(0);
+}
 const slug = movieId.toLowerCase();
 const run = (command, args) => new Promise((resolveRun, rejectRun) => {
   const child = spawn(command, args, {cwd: root, stdio: 'inherit'});

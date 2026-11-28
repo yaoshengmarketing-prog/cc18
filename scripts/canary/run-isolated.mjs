@@ -3,6 +3,7 @@ import {createHash} from 'node:crypto';
 import {readFile, stat} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {queueStoreFromEnvironment} from '../queue/store.mjs';
+import {excludedIds as editorialExcludedIds, isExcluded} from '../../src/lib/exclusions.mjs';
 import {alreadyPublishedRequestedIds, isCompletedPublishedWork} from './selection.mjs';
 import {
   assertSingleWorkRequest,
@@ -19,6 +20,7 @@ const option = (name) => process.argv.slice(2).find((value) => value.startsWith(
 const max = Number(option('--max') ?? 1);
 const requestedIds = (option('--ids') ?? '').split(',').map((value) => value.trim().toUpperCase()).filter(Boolean);
 const excludedIds = (option('--exclude') ?? '').split(',').map((value) => value.trim().toUpperCase()).filter(Boolean);
+for (const id of requestedIds) if (isExcluded(id)) throw new Error(`${id}: excluded work cannot be published`);
 if (requestedIds.some((id) => !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(id))) throw new Error('--ids contains an invalid movie id');
 if (excludedIds.some((id) => !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(id))) throw new Error('--exclude contains an invalid movie id');
 assertSingleWorkRequest({max, requestedIds});
@@ -94,7 +96,7 @@ const candidates = requestedIds.length
   ? requestedIds
   : (await store.listCanaryCandidates({
       limit: 1,
-      excludeMovieIds: [...new Set([...excludedPublishedIds, ...excludedIds])],
+      excludeMovieIds: [...new Set([...excludedPublishedIds, ...excludedIds, ...editorialExcludedIds()])],
       requireCompletedEditorial,
     })).map(({movie_id}) => movie_id);
 const movieId = candidates[0] ?? null;

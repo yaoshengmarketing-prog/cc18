@@ -1,5 +1,6 @@
 ---
 import {getCollection} from 'astro:content';
+import {isExcluded} from '../../lib/exclusions.mjs';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ReviewCard from '../../components/ReviewCard.astro';
 import MovieCardV1 from '../../components/MovieCardV1.astro';
@@ -10,7 +11,7 @@ import {sourceRecordFor} from '../../lib/source-records';
 type TopicCard = Awaited<ReturnType<typeof import('../../lib/movie-master.mjs').loadPublishedMovieCardRecords>>['records'][number]['card'];
 interface Props {tagId: string; kind: 'canonical' | 'legacy' | 'source'; sourceLabel?: string; reviews?: Review[]; cards?: TopicCard[];}
 export async function getStaticPaths() {
-  const reviews = await getCollection('reviews', ({data}) => data.status === 'published');
+  const reviews = await getCollection('reviews', ({data}) => data.status === 'published' && !isExcluded(data.id));
   const reviewIds = new Set(reviews.map(({data}) => data.id));
   const canonical = (await loadPublishedTopicCatalog()).map(({id, cards}) => {
     for (const card of cards) {

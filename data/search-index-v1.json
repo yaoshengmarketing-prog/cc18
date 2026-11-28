@@ -3,8 +3,8 @@
   "source_revision": "sha256:374f595e22bd4aaea2990b1ab7d280c48f5360f143e825ecc1f93bcdc011325f",
   "source_generated_at": "2026-11-28T13:09:12.148Z",
   "counts": {
-    "movies": 653,
-    "performers": 431,
+    "movies": 624,
+    "performers": 418,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -224,17 +224,6 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:ABF-395"
-      ]
-    },
-    {
-      "stable_actor_id": "cc18.tv:actor:29050",
-      "display_name": "八森若菜",
-      "display_name_zh_tw": null,
-      "name_ja": null,
-      "source_name": "八森若菜",
-      "searchable_aliases": [],
-      "related_movie_ids": [
-        "cc18:SDMM-239"
       ]
     },
     {
@@ -521,7 +510,6 @@
       "source_name": "小梅惠奈",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:GVH-884",
         "cc18:MKMP-763"
       ]
     },
@@ -568,7 +556,6 @@
       "source_name": "小鈴蜜柑",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:FTKD-045",
         "cc18:JERA-050",
         "cc18:XVSR-906"
       ]
@@ -672,7 +659,6 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DSOD-080",
-        "cc18:DSOD-094",
         "cc18:WAAA-694",
         "cc18:WAAA-701"
       ]
@@ -862,7 +848,6 @@
       "source_name": "日向由奈",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:HALT-093",
         "cc18:MKON-148",
         "cc18:NSODN-023",
         "cc18:PRED-894",
@@ -878,17 +863,6 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:MKMP-758"
-      ]
-    },
-    {
-      "stable_actor_id": "cc18.tv:actor:53576",
-      "display_name": "月待青花",
-      "display_name_zh_tw": null,
-      "name_ja": null,
-      "source_name": "月待青花",
-      "searchable_aliases": [],
-      "related_movie_ids": [
-        "cc18:SDMM-239"
       ]
     },
     {
@@ -997,17 +971,6 @@
       "related_movie_ids": [
         "cc18:NACT-187",
         "cc18:TENN-052"
-      ]
-    },
-    {
-      "stable_actor_id": "cc18.tv:actor:51263",
-      "display_name": "北乃まい",
-      "display_name_zh_tw": null,
-      "name_ja": null,
-      "source_name": "北乃まい",
-      "searchable_aliases": [],
-      "related_movie_ids": [
-        "cc18:FSBK-028"
       ]
     },
     {
@@ -1207,7 +1170,6 @@
       "source_name": "由良佳奈",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:NACT-188",
         "cc18:NACT-208",
         "cc18:NVH-091",
         "cc18:THPA-16"
@@ -1221,7 +1183,6 @@
       "source_name": "白上咲花",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:SNOS-403",
         "cc18:SNOS-420"
       ]
     },
@@ -1307,17 +1268,6 @@
         "cc18:DSOD-072",
         "cc18:DSOD-096",
         "cc18:DSOD-125"
-      ]
-    },
-    {
-      "stable_actor_id": "cc18.tv:actor:53483",
-      "display_name": "白鳥怜",
-      "display_name_zh_tw": null,
-      "name_ja": null,
-      "source_name": "白鳥怜",
-      "searchable_aliases": [],
-      "related_movie_ids": [
-        "cc18:PIYO-240"
       ]
     },
     {
@@ -1977,17 +1927,6 @@
       ]
     },
     {
-      "stable_actor_id": "cc18.tv:actor:48021",
-      "display_name": "谷田かりな",
-      "display_name_zh_tw": null,
-      "name_ja": null,
-      "source_name": "谷田かりな",
-      "searchable_aliases": [],
-      "related_movie_ids": [
-        "cc18:TEND-039"
-      ]
-    },
-    {
       "stable_actor_id": "cc18.tv:actor:52226",
       "display_name": "谷村凪咲",
       "display_name_zh_tw": null,
@@ -2011,17 +1950,6 @@
       ]
     },
     {
-      "stable_actor_id": "cc18.tv:actor:24429",
-      "display_name": "谷梓",
-      "display_name_zh_tw": null,
-      "name_ja": null,
-      "source_name": "谷梓",
-      "searchable_aliases": [],
-      "related_movie_ids": [
-        "cc18:SDMM-239"
-      ]
-    },
-    {
       "stable_actor_id": "cc18.tv:actor:26058",
       "display_name": "赤城穂波",
       "display_name_zh_tw": null,
@@ -2041,17 +1969,6 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SAME-244"
-      ]
-    },
-    {
-      "stable_actor_id": "cc18.tv:actor:28207",
-      "display_name": "足立める",
-      "display_name_zh_tw": null,
-      "name_ja": null,
-      "source_name": "足立める",
-      "searchable_aliases": [],
-      "related_movie_ids": [
-        "cc18:FTKD-045"
       ]
     },
     {
@@ -2231,17 +2148,6 @@
         "cc18:MIDA-776",
         "cc18:MKMP-758",
         "cc18:MMPB-144"
-      ]
-    },
-    {
-      "stable_actor_id": "cc18.tv:actor:53513",
-      "display_name": "林芽依",
-      "display_name_zh_tw": null,
-      "name_ja": null,
-      "source_name": "林芽依",
-      "searchable_aliases": [],
-      "related_movie_ids": [
-        "cc18:IDPC-004"
       ]
     },
     {
@@ -2493,7 +2399,6 @@
       "source_name": "青葉春",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:PIYO-240",
         "cc18:T-3800071"
       ]
     },
@@ -3043,8 +2948,7 @@
       "source_name": "音羽ゆうあ",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:PYM-577",
-        "cc18:SDMM-239"
+        "cc18:PYM-577"
       ]
     },
     {
@@ -3055,7 +2959,6 @@
       "source_name": "音無鈴",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:DSOD-093",
         "cc18:ROYD-357",
         "cc18:ROYD-368"
       ]
@@ -3702,7 +3605,6 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-366",
-        "cc18:SNOS-372",
         "cc18:SNOS-483"
       ]
     },
@@ -3726,8 +3628,6 @@
       "source_name": "清宮ななは",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:FNEW-024",
-        "cc18:MUKD-595",
         "cc18:T-3800071"
       ]
     },
@@ -3884,21 +3784,7 @@
       "related_movie_ids": [
         "cc18:MVG-172",
         "cc18:NEO-954",
-        "cc18:PIYO-238",
-        "cc18:PIYO-240",
-        "cc18:SDMM-239"
-      ]
-    },
-    {
-      "stable_actor_id": "cc18.tv:actor:29904",
-      "display_name": "鹿野あも",
-      "display_name_zh_tw": null,
-      "name_ja": null,
-      "source_name": "鹿野あも",
-      "searchable_aliases": [],
-      "related_movie_ids": [
-        "cc18:FTKD-045",
-        "cc18:SDMM-239"
+        "cc18:PIYO-238"
       ]
     },
     {
@@ -3969,17 +3855,6 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:ROE-522"
-      ]
-    },
-    {
-      "stable_actor_id": "cc18.tv:actor:53983",
-      "display_name": "奥井千晴",
-      "display_name_zh_tw": null,
-      "name_ja": null,
-      "source_name": "奥井千晴",
-      "searchable_aliases": [],
-      "related_movie_ids": [
-        "cc18:MIDA-781"
       ]
     },
     {
@@ -4060,17 +3935,6 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SNOS-396"
-      ]
-    },
-    {
-      "stable_actor_id": "cc18.tv:actor:54311",
-      "display_name": "湯浅紬",
-      "display_name_zh_tw": null,
-      "name_ja": null,
-      "source_name": "湯浅紬",
-      "searchable_aliases": [],
-      "related_movie_ids": [
-        "cc18:MUKD-585"
       ]
     },
     {
@@ -4520,17 +4384,6 @@
       ]
     },
     {
-      "stable_actor_id": "cc18.tv:actor:43605",
-      "display_name": "輝星綺羅",
-      "display_name_zh_tw": null,
-      "name_ja": null,
-      "source_name": "輝星綺羅",
-      "searchable_aliases": [],
-      "related_movie_ids": [
-        "cc18:MIDA-840"
-      ]
-    },
-    {
       "stable_actor_id": "cc18.tv:actor:53442",
       "display_name": "橘未来",
       "display_name_zh_tw": null,
@@ -4827,17 +4680,6 @@
       ]
     },
     {
-      "stable_actor_id": "cc18.tv:actor:46837",
-      "display_name": "櫻乃莉乃",
-      "display_name_zh_tw": null,
-      "name_ja": null,
-      "source_name": "櫻乃莉乃",
-      "searchable_aliases": [],
-      "related_movie_ids": [
-        "cc18:SNOS-388"
-      ]
-    },
-    {
       "stable_actor_id": "cc18.tv:actor:16989",
       "display_name": "櫻空桃",
       "display_name_zh_tw": null,
@@ -4856,7 +4698,6 @@
       "source_name": "櫻若菜",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:IPZZ-924",
         "cc18:IPZZ-984"
       ]
     },
@@ -9727,69 +9568,6 @@
     },
     {
       "card": {
-        "stable_movie_id": "cc18:DANDYA-045",
-        "source_cover": "https://cc18.tv/preview/80/b/hKN6PEw3h6F-800.jpg?v=1793709458",
-        "title": "DANDYA-045 結果被她喝了好多次精液 × 母親と行った銭湯でコッソリおちんちんをいじってくるお姉さん｜結果被她喝了好多次精液",
-        "catalog_code": "DANDYA-045",
-        "release_date": "2026-11-01",
-        "performers": [],
-        "canonical_topics": [
-          {
-            "id": "active-female",
-            "label": "主動女性／癡女"
-          },
-          {
-            "id": "cowgirl-position",
-            "label": "騎乘位"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "large-breasts",
-            "label": "巨乳"
-          },
-          {
-            "id": "oral-sex",
-            "label": "口交題材"
-          },
-          {
-            "id": "slim",
-            "label": "窈窕"
-          },
-          {
-            "id": "uhd-4k",
-            "label": "4K"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/dandya-045/"
-      },
-      "performer_ids": [],
-      "search": {
-        "source_title": "在和母親一起去的公共澡堂裡，被偷偷玩弄我雞巴的大姊姊追著跑，結果被她喝了好多次精液",
-        "source_tags": [
-          "窈窕",
-          "口交",
-          "巨乳",
-          "騎乘位",
-          "癡女",
-          "吞精",
-          "姐姐系",
-          "溫泉",
-          "巨尻",
-          "720p",
-          "HD",
-          "4k"
-        ],
-        "article_title": "DANDYA-045 結果被她喝了好多次精液 × 母親と行った銭湯でコッソリおちんちんをいじってくるお姉さん｜結果被她喝了好多次精液",
-        "display_short_title": null,
-        "slug": "dandya-045"
-      }
-    },
-    {
-      "card": {
         "stable_movie_id": "cc18:DLDSS-537",
         "source_cover": "https://cc18.tv/preview/80/b/jlWCmykNb2-800.jpg?v=1791597008",
         "title": "女神ジュン與公公的認可難題",
@@ -11831,70 +11609,6 @@
     },
     {
       "card": {
-        "stable_movie_id": "cc18:IDPC-004",
-        "source_cover": "https://cc18.tv/preview/80/b/3AP3SzMEC3f-800.jpg?v=1793399794",
-        "title": "IDPC-004 林芽依｜學生設定企劃下的系列型選片，演員辨識度先行",
-        "catalog_code": "IDPC-004",
-        "release_date": "2026-10-30",
-        "performers": [
-          "林芽依"
-        ],
-        "canonical_topics": [
-          {
-            "id": "adult-performer",
-            "label": "AV 女優"
-          },
-          {
-            "id": "beautiful-girl",
-            "label": "美少女"
-          },
-          {
-            "id": "exclusive-release",
-            "label": "獨家限定"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "kissing",
-            "label": "親吻互動"
-          },
-          {
-            "id": "slim",
-            "label": "窈窕"
-          },
-          {
-            "id": "student",
-            "label": "學生妹"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/idpc-004/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:53513"
-      ],
-      "search": {
-        "source_title": "死到極點都討厭的繼父最喜歡的食物竟然是女高中生的我… 在被強暴的過程中被弄到高潮的最大屈辱強姦 林芽依",
-        "source_tags": [
-          "窈窕",
-          "AV女優片",
-          "美少女",
-          "學生妹",
-          "制服",
-          "親吻",
-          "720p",
-          "独占配信",
-          "HD"
-        ],
-        "article_title": "IDPC-004 林芽依｜學生設定企劃下的系列型選片，演員辨識度先行",
-        "display_short_title": null,
-        "slug": "idpc-004"
-      }
-    },
-    {
-      "card": {
         "stable_movie_id": "cc18:IPZZ-965",
         "source_cover": "https://cc18.tv/preview/80/b/i5JXKBxvJcu-800.jpg?v=1793392590",
         "title": "出軌成了勒索把柄",
@@ -12248,70 +11962,6 @@
         "article_title": "MIDA-776 松本一香｜站街女救濟蕾絲邊：設定先行的企劃片",
         "display_short_title": null,
         "slug": "mida-776"
-      }
-    },
-    {
-      "card": {
-        "stable_movie_id": "cc18:MIDA-840",
-        "source_cover": "https://cc18.tv/preview/80/b/pBq9tcU9O74-800.jpg?v=1793392593",
-        "title": "MIDA-840 輝星綺羅｜學生設定下的「對不起我要去了」：反差企劃先行",
-        "catalog_code": "MIDA-840",
-        "release_date": "2026-10-30",
-        "performers": [
-          "輝星綺羅"
-        ],
-        "canonical_topics": [
-          {
-            "id": "adult-performer",
-            "label": "AV 女優"
-          },
-          {
-            "id": "creampie",
-            "label": "中出題材"
-          },
-          {
-            "id": "exclusive-release",
-            "label": "獨家限定"
-          },
-          {
-            "id": "extreme",
-            "label": "過激取向"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "kissing",
-            "label": "親吻互動"
-          },
-          {
-            "id": "student",
-            "label": "學生妹"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/mida-840/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:43605"
-      ],
-      "search": {
-        "source_title": "「對不起我要去了…！」風紀委員的樸素眼鏡制服女孩發出痙攣的阿嘿聲，被濃情大叔用深吻堵住嘴巴，一次又一次地被中出！ 輝星綺羅",
-        "source_tags": [
-          "中出",
-          "AV女優片",
-          "學生妹",
-          "制服",
-          "親吻",
-          "淫亂・過激系",
-          "720p",
-          "独占配信",
-          "HD"
-        ],
-        "article_title": "MIDA-840 輝星綺羅｜學生設定下的「對不起我要去了」：反差企劃先行",
-        "display_short_title": null,
-        "slug": "mida-840"
       }
     },
     {
@@ -13622,58 +13272,6 @@
     },
     {
       "card": {
-        "stable_movie_id": "cc18:FSBK-028",
-        "source_cover": "https://cc18.tv/preview/80/b/lc3fbCgmd4H-800.jpg?v=1793219809",
-        "title": "FSBK-028 北乃まい × ちいさなおしり｜北乃まい｜小巧臀部企劃：系列公式鮮明的展示型選片",
-        "catalog_code": "FSBK-028",
-        "release_date": "2026-10-27",
-        "performers": [
-          "北乃まい"
-        ],
-        "canonical_topics": [
-          {
-            "id": "adult-performer",
-            "label": "AV 女優"
-          },
-          {
-            "id": "creampie",
-            "label": "中出題材"
-          },
-          {
-            "id": "group-sex",
-            "label": "多人企劃"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/fsbk-028/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:51263"
-      ],
-      "search": {
-        "source_title": "小巧臀部 擄走蘿莉娘肛門凌辱 3穴強插失禁絕頂 肛門美少女舞 北乃舞",
-        "source_tags": [
-          "中出",
-          "AV女優片",
-          "玩具",
-          "3p・4p",
-          "720p",
-          "HD",
-          "4P",
-          "放尿・お漏らし",
-          "アナルセックス"
-        ],
-        "article_title": "FSBK-028 北乃まい × ちいさなおしり｜北乃まい｜小巧臀部企劃：系列公式鮮明的展示型選片",
-        "display_short_title": null,
-        "slug": "fsbk-028"
-      }
-    },
-    {
-      "card": {
         "stable_movie_id": "cc18:HEYZO-3970",
         "source_cover": "https://cc18.tv/preview/80/b/BX6xb3BRw1D-800.jpg?v=1793219796",
         "title": "木原あけみ的女僕篇",
@@ -14547,66 +14145,6 @@
         "article_title": "AGAV-184 吉井美希（伊澤涼子、吉井美希）、桐谷鈴音｜吉井美希、｜揉穴家族與3p・4p設定：重點在企劃辨識度",
         "display_short_title": null,
         "slug": "agav-184"
-      }
-    },
-    {
-      "card": {
-        "stable_movie_id": "cc18:DSOD-094",
-        "source_cover": "https://cc18.tv/preview/80/b/178RmV1V460-800.jpg?v=1793115113",
-        "title": "被握住把柄的女教師",
-        "catalog_code": "DSOD-094",
-        "release_date": "2026-10-23",
-        "performers": [
-          "五日市芽依"
-        ],
-        "canonical_topics": [
-          {
-            "id": "adult-performer",
-            "label": "AV 女優"
-          },
-          {
-            "id": "creampie",
-            "label": "中出題材"
-          },
-          {
-            "id": "exclusive-release",
-            "label": "獨家限定"
-          },
-          {
-            "id": "extreme",
-            "label": "過激取向"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "slim",
-            "label": "窈窕"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/dsod-094/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:28434"
-      ],
-      "search": {
-        "source_title": "小屁孩集體姦淫。被學生掌握弱點的G罩杯美人教師，今天也被未成熟的精液在任何地方灌得滿滿的復仇內射。 五日市芽依",
-        "source_tags": [
-          "中出",
-          "窈窕",
-          "AV女優片",
-          "女教師",
-          "校園物語",
-          "淫亂・過激系",
-          "720p",
-          "独占配信",
-          "HD"
-        ],
-        "article_title": "從女將到教師：五日市芽依的角色位置如何改變？",
-        "display_short_title": "被握住把柄的女教師",
-        "slug": "dsod-094"
       }
     },
     {
@@ -15736,53 +15274,6 @@
     },
     {
       "card": {
-        "stable_movie_id": "cc18:TEND-039",
-        "source_cover": "https://cc18.tv/preview/80/b/z8UqwVYc3cp-800.jpg?v=1793115137",
-        "title": "再婚後的繼父與繼女",
-        "catalog_code": "TEND-039",
-        "release_date": "2026-10-20",
-        "performers": [
-          "谷田かりな"
-        ],
-        "canonical_topics": [
-          {
-            "id": "adult-performer",
-            "label": "AV 女優"
-          },
-          {
-            "id": "creampie",
-            "label": "中出題材"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/tend-039/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:48021"
-      ],
-      "search": {
-        "source_title": "被再婚對象帶來的繼女那幼小嬌小的身體所誘惑，我徹底被她迷得神魂顛倒了… 谷田佳里奈",
-        "source_tags": [
-          "中出",
-          "AV女優片",
-          "近親相姦",
-          "貧乳",
-          "迷你系",
-          "720p",
-          "HD",
-          "ノーブラ"
-        ],
-        "article_title": "再婚家庭的平靜，由誰打破？",
-        "display_short_title": "再婚後的繼父與繼女",
-        "slug": "tend-039"
-      }
-    },
-    {
-      "card": {
         "stable_movie_id": "cc18:TEND-040",
         "source_cover": "https://cc18.tv/preview/80/b/dt0AuEWxL18-800.jpg?v=1793115117",
         "title": "TEND-040 高城渚｜高城渚完整版美少女企劃：展示型取向明確",
@@ -15839,63 +15330,6 @@
         "article_title": "TEND-040 高城渚｜高城渚完整版美少女企劃：展示型取向明確",
         "display_short_title": null,
         "slug": "tend-040"
-      }
-    },
-    {
-      "card": {
-        "stable_movie_id": "cc18:DVMM-453",
-        "source_cover": "https://cc18.tv/preview/80/b/aaaNkfqUZ9h-800.jpg?v=1792399034",
-        "title": "DVMM-453｜一般男女監控AV學生設定：系列企劃辨識度先行",
-        "catalog_code": "DVMM-453",
-        "release_date": "2026-10-16",
-        "performers": [],
-        "canonical_topics": [
-          {
-            "id": "amateur",
-            "label": "素人"
-          },
-          {
-            "id": "creampie",
-            "label": "中出題材"
-          },
-          {
-            "id": "exclusive-release",
-            "label": "獨家限定"
-          },
-          {
-            "id": "facial",
-            "label": "顏射題材"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "student",
-            "label": "學生妹"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/dvmm-453/"
-      },
-      "performer_ids": [],
-      "search": {
-        "source_title": "一般男女監控AV 魔鏡的另一邊是最喜歡的男朋友！對純真美少女的女學生首次大量顏面顏射！被積累的濃厚精液淋濕,制服,頭髮,臉都沾滿精液！將成年人的大雞巴插入JK小穴,在男朋友旁邊沾滿精液…",
-        "source_tags": [
-          "中出",
-          "素人",
-          "學生妹",
-          "噴精",
-          "寢取・被寢取",
-          "720p",
-          "独占配信",
-          "HD",
-          "NTR",
-          "寝取り・寝取られ・ntr"
-        ],
-        "article_title": "DVMM-453｜一般男女監控AV學生設定：系列企劃辨識度先行",
-        "display_short_title": null,
-        "slug": "dvmm-453"
       }
     },
     {
@@ -16796,70 +16230,6 @@
         "article_title": "MUKD-590 制服フェティシズム × 高畫質｜制服フェティシズム",
         "display_short_title": null,
         "slug": "mukd-590"
-      }
-    },
-    {
-      "card": {
-        "stable_movie_id": "cc18:MUKD-595",
-        "source_cover": "https://cc18.tv/preview/80/b/hnZyq_EQeI-800.jpg?v=1792399038",
-        "title": "MUKD-595 清宮ななは｜清宮七葉學生設定：形象包裝先行的展示型選片",
-        "catalog_code": "MUKD-595",
-        "release_date": "2026-10-16",
-        "performers": [
-          "清宮ななは"
-        ],
-        "canonical_topics": [
-          {
-            "id": "adult-performer",
-            "label": "AV 女優"
-          },
-          {
-            "id": "beautiful-girl",
-            "label": "美少女"
-          },
-          {
-            "id": "creampie",
-            "label": "中出題材"
-          },
-          {
-            "id": "exclusive-release",
-            "label": "獨家限定"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "slim",
-            "label": "窈窕"
-          },
-          {
-            "id": "student",
-            "label": "學生妹"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/mukd-595/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:54648"
-      ],
-      "search": {
-        "source_title": "懲罰遊戲向全班最美少女告白竟然成功了！？青春期性慾暴走的自私蠢活塞運動,她笑容滿面地高潮不斷,我多次不負責任地內射 清宮七葉",
-        "source_tags": [
-          "美乳",
-          "中出",
-          "窈窕",
-          "AV女優片",
-          "美少女",
-          "學生妹",
-          "720p",
-          "独占配信",
-          "HD"
-        ],
-        "article_title": "MUKD-595 清宮ななは｜清宮七葉學生設定：形象包裝先行的展示型選片",
-        "display_short_title": null,
-        "slug": "mukd-595"
       }
     },
     {
@@ -20398,48 +19768,6 @@
     },
     {
       "card": {
-        "stable_movie_id": "cc18:NHDTC-258",
-        "source_cover": "https://cc18.tv/preview/80/b/hcgfvxflLfi-800.jpg?v=1791597358",
-        "title": "離店之後的要挾",
-        "catalog_code": "NHDTC-258",
-        "release_date": "2026-10-08",
-        "performers": [],
-        "canonical_topics": [
-          {
-            "id": "creampie",
-            "label": "中出題材"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "student",
-            "label": "學生妹"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/nhdtc-258/"
-      },
-      "performer_ids": [],
-      "search": {
-        "source_title": "被花俏店長要求用口交道歉，正準備回家時…卻被偷看的下流中年工讀生強迫，慘遭撿漏內射的偷竊少女",
-        "source_tags": [
-          "美乳",
-          "中出",
-          "潮吹",
-          "學生妹",
-          "強迫口交",
-          "720p",
-          "HD"
-        ],
-        "article_title": "從店內職權到偷拍把柄：脅迫如何延續",
-        "display_short_title": "離店之後的要挾",
-        "slug": "nhdtc-258"
-      }
-    },
-    {
-      "card": {
         "stable_movie_id": "cc18:NHDTC-261",
         "source_cover": "https://cc18.tv/preview/80/b/Nbpzs7B43M-800.jpg?v=1791597359",
         "title": "皐月ゆら挑戰企劃",
@@ -20745,62 +20073,6 @@
         "article_title": "「前辣妹？」如何讓 S桑的介紹多一層懸念",
         "display_short_title": "S桑的前辣妹問號",
         "slug": "oremo-621"
-      }
-    },
-    {
-      "card": {
-        "stable_movie_id": "cc18:GVH-884",
-        "source_cover": "https://cc18.tv/preview/80/b/iR_zAPI80eD-800.jpg?v=1791596437",
-        "title": "游泳部合宿設定",
-        "catalog_code": "GVH-884",
-        "release_date": "2026-10-03",
-        "performers": [
-          "小梅惠奈"
-        ],
-        "canonical_topics": [
-          {
-            "id": "active-female",
-            "label": "主動女性／癡女"
-          },
-          {
-            "id": "adult-performer",
-            "label": "AV 女優"
-          },
-          {
-            "id": "exclusive-release",
-            "label": "獨家限定"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "large-breasts",
-            "label": "巨乳"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/gvh-884/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:24056"
-      ],
-      "search": {
-        "source_title": "游泳部強化合宿中，巨乳顧問穿著競泳水著對學生們進行熱血乳交痴女指導 小梅惠奈",
-        "source_tags": [
-          "AV女優片",
-          "巨乳",
-          "癡女",
-          "泳裝",
-          "乳交",
-          "野外",
-          "720p",
-          "独占配信",
-          "HD"
-        ],
-        "article_title": "合宿簡介中的角色年齡線索",
-        "display_short_title": "游泳部合宿設定",
-        "slug": "gvh-884"
       }
     },
     {
@@ -22161,42 +21433,6 @@
     },
     {
       "card": {
-        "stable_movie_id": "cc18:FTKD-045",
-        "source_cover": "https://cc18.tv/preview/80/b/kTIlnNSOW8J-800.jpg?v=1790709566",
-        "title": "霸凌反擊群像",
-        "catalog_code": "FTKD-045",
-        "release_date": "2026-09-27",
-        "performers": [
-          "足立める",
-          "鹿野あも",
-          "小鈴蜜柑"
-        ],
-        "canonical_topics": [
-          {
-            "id": "hd",
-            "label": "HD"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/ftkd-045/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:28207",
-        "cc18.tv:actor:29904",
-        "cc18.tv:actor:46292"
-      ],
-      "search": {
-        "source_title": "復仇誘淫學園 「被討厭的人給予性快感」被洗腦成最大屈辱的欺凌少女們 小鈴蜜柑/足立芽瑠/鹿野愛望",
-        "source_tags": [
-          "720p"
-        ],
-        "article_title": "同樣由小鈴蜜柑演出，這次的主動性從哪裡開始？",
-        "display_short_title": "霸凌反擊群像",
-        "slug": "ftkd-045"
-      }
-    },
-    {
-      "card": {
         "stable_movie_id": "cc18:NINE-125",
         "source_cover": "https://cc18.tv/preview/80/b/sAogcvRNU86-800.jpg?v=1790709569",
         "title": "OL 專門店的溫柔攻勢",
@@ -22998,76 +22234,6 @@
     },
     {
       "card": {
-        "stable_movie_id": "cc18:NACT-188",
-        "source_cover": "https://cc18.tv/preview/80/b/3wfV2jioG6U-800.jpg?v=1790023015",
-        "title": "NACT-188 由良佳奈｜143cm極小尺寸",
-        "catalog_code": "NACT-188",
-        "release_date": "2026-09-20",
-        "performers": [
-          "由良佳奈"
-        ],
-        "canonical_topics": [
-          {
-            "id": "adult-performer",
-            "label": "AV 女優"
-          },
-          {
-            "id": "beautiful-girl",
-            "label": "美少女"
-          },
-          {
-            "id": "cosplay",
-            "label": "角色扮演"
-          },
-          {
-            "id": "cowgirl-position",
-            "label": "騎乘位"
-          },
-          {
-            "id": "creampie",
-            "label": "中出題材"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "uhd-4k",
-            "label": "4K"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/nact-188/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:27387"
-      ],
-      "search": {
-        "source_title": "【143cm極小尺寸×動漫音】『請讓我舒服到不行◆』垃圾場撿到的玩偶竟然人間化！戴上項圈與牽繩完全服從的蘿莉寵物絕頂交尾 由良佳奈",
-        "source_tags": [
-          "中出",
-          "白虎",
-          "AV女優片",
-          "騎乘位",
-          "美少女",
-          "角色扮演",
-          "玩具",
-          "貧乳",
-          "背後位",
-          "迷你系",
-          "720p",
-          "HD",
-          "騎乗位中出し",
-          "4k",
-          "小柄"
-        ],
-        "article_title": "NACT-188 由良佳奈｜143cm極小尺寸",
-        "display_short_title": null,
-        "slug": "nact-188"
-      }
-    },
-    {
-      "card": {
         "stable_movie_id": "cc18:AGAV-182",
         "source_cover": "https://cc18.tv/preview/80/b/eIziwAI47G-800.jpg?v=1790030216",
         "title": "AGAV-182 村流那｜人間被窩",
@@ -23461,74 +22627,6 @@
         "article_title": "GS-2148 不倫の果てに × 人妻・主婦｜不倫の果てに：以人妻旅途設定包裝的系列企劃片",
         "display_short_title": null,
         "slug": "gs-2148"
-      }
-    },
-    {
-      "card": {
-        "stable_movie_id": "cc18:HALT-093",
-        "source_cover": "https://cc18.tv/preview/80/b/72OVDxF7Gdh-800.jpg?v=1789972674",
-        "title": "HALT-093 日向由奈｜讓體質冰冷：以角色變化撐起企劃辨識度",
-        "catalog_code": "HALT-093",
-        "release_date": "2026-09-19",
-        "performers": [
-          "日向由奈"
-        ],
-        "canonical_topics": [
-          {
-            "id": "adult-performer",
-            "label": "AV 女優"
-          },
-          {
-            "id": "creampie",
-            "label": "中出題材"
-          },
-          {
-            "id": "exclusive-release",
-            "label": "獨家限定"
-          },
-          {
-            "id": "fantasy-concept",
-            "label": "幻想企劃"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "student",
-            "label": "學生妹"
-          },
-          {
-            "id": "uhd-4k",
-            "label": "4K"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/halt-093/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:38051"
-      ],
-      "search": {
-        "source_title": "讓體質冰冷、疼哥哥的裸腿女高中生妹妹穿上黑絲襪磨蹭，結果她徹底沉迷到漏尿不止，成長為會潮吹的淫穴 日向由奈",
-        "source_tags": [
-          "中出",
-          "AV女優片",
-          "潮吹",
-          "學生妹",
-          "足交",
-          "絲襪",
-          "720p",
-          "独占配信",
-          "HD",
-          "タイツ",
-          "妄想族",
-          "4k",
-          "パンスト・タイツ"
-        ],
-        "article_title": "HALT-093 日向由奈｜讓體質冰冷：以角色變化撐起企劃辨識度",
-        "display_short_title": null,
-        "slug": "halt-093"
       }
     },
     {
@@ -24622,55 +23720,6 @@
     },
     {
       "card": {
-        "stable_movie_id": "cc18:DSOD-093",
-        "source_cover": "https://cc18.tv/preview/80/b/yoVUjEfjYaZ-800.jpg?v=1789879114",
-        "title": "DSOD-093 音無鈴｜認真肉棒指導：以企劃設定為主的展示型選片",
-        "catalog_code": "DSOD-093",
-        "release_date": "2026-09-18",
-        "performers": [
-          "音無鈴"
-        ],
-        "canonical_topics": [
-          {
-            "id": "adult-performer",
-            "label": "AV 女優"
-          },
-          {
-            "id": "exclusive-release",
-            "label": "獨家限定"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/dsod-093/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:49940"
-      ],
-      "search": {
-        "source_title": "認真肉棒指導！對廢物雞巴學生在校內隨時隨地！進行到誇張程度的激烈SEX熱穴美人教師 音無鈴",
-        "source_tags": [
-          "AV女優片",
-          "動作遊戲‧格鬥",
-          "女教師",
-          "校園物語",
-          "720p",
-          "喜劇",
-          "独占配信",
-          "HD",
-          "オナサポ",
-          "ギャグ・コメディ"
-        ],
-        "article_title": "DSOD-093 音無鈴｜認真肉棒指導：以企劃設定為主的展示型選片",
-        "display_short_title": null,
-        "slug": "dsod-093"
-      }
-    },
-    {
-      "card": {
         "stable_movie_id": "cc18:DSOD-114",
         "source_cover": "https://cc18.tv/preview/80/b/kWXgyoNerfb-800.jpg?v=1789850328",
         "title": "DSOD-114 花宮きょうこ｜進行特技騎乘位：主導企劃感鮮明的展示型選片",
@@ -24722,57 +23771,6 @@
         "article_title": "DSOD-114 花宮きょうこ｜進行特技騎乘位：主導企劃感鮮明的展示型選片",
         "display_short_title": null,
         "slug": "dsod-114"
-      }
-    },
-    {
-      "card": {
-        "stable_movie_id": "cc18:HHF-113",
-        "source_cover": "https://cc18.tv/preview/80/b/nA_jeq_sTH-800.jpg?v=1789886321",
-        "title": "HHF-113 如果能早點遇見她們 × 學生設定｜如果能早點遇見她們",
-        "catalog_code": "HHF-113",
-        "release_date": "2026-09-18",
-        "performers": [],
-        "canonical_topics": [
-          {
-            "id": "creampie",
-            "label": "中出題材"
-          },
-          {
-            "id": "exclusive-release",
-            "label": "獨家限定"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "oral-sex",
-            "label": "口交題材"
-          },
-          {
-            "id": "student",
-            "label": "學生妹"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/hhf-113/"
-      },
-      "performer_ids": [],
-      "search": {
-        "source_title": "如果能早點遇見她們，脫離處男絕對會快很多…露內褲誘惑痴女女高中生精選",
-        "source_tags": [
-          "中出",
-          "口交",
-          "學生妹",
-          "超過4小時",
-          "合輯、精選",
-          "720p",
-          "独占配信",
-          "HD"
-        ],
-        "article_title": "HHF-113 如果能早點遇見她們 × 學生設定｜如果能早點遇見她們",
-        "display_short_title": null,
-        "slug": "hhf-113"
       }
     },
     {
@@ -26547,71 +25545,6 @@
     },
     {
       "card": {
-        "stable_movie_id": "cc18:SNOS-403",
-        "source_cover": "https://cc18.tv/preview/80/b/Dv7OGKliu5J-800.jpg?v=1789807161",
-        "title": "SNOS-403 白上咲花｜美少女學生設定的展示型企劃",
-        "catalog_code": "SNOS-403",
-        "release_date": "2026-09-18",
-        "performers": [
-          "白上咲花"
-        ],
-        "canonical_topics": [
-          {
-            "id": "adult-performer",
-            "label": "AV 女優"
-          },
-          {
-            "id": "beautiful-girl",
-            "label": "美少女"
-          },
-          {
-            "id": "exclusive-release",
-            "label": "獨家限定"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "slim",
-            "label": "窈窕"
-          },
-          {
-            "id": "student",
-            "label": "學生妹"
-          },
-          {
-            "id": "uhd-4k",
-            "label": "4K"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/snos-403/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:29380"
-      ],
-      "search": {
-        "source_title": "即使在課堂中也要偷偷自慰的青春期荷爾蒙爆棚少女,讓身為同班同學的我在校內每天偷偷被她插入。 白上咲花",
-        "source_tags": [
-          "窈窕",
-          "AV女優片",
-          "美少女",
-          "學生妹",
-          "制服",
-          "修長",
-          "720p",
-          "独占配信",
-          "HD",
-          "4k"
-        ],
-        "article_title": "SNOS-403 白上咲花｜美少女學生設定的展示型企劃",
-        "display_short_title": null,
-        "slug": "snos-403"
-      }
-    },
-    {
-      "card": {
         "stable_movie_id": "cc18:SNOS-405",
         "source_cover": "https://cc18.tv/preview/80/b/1HINbl537eG-800.jpg?v=1789799970",
         "title": "SNOS-405 夢乃愛華｜不穿內衣搭滿員電車",
@@ -27193,55 +26126,6 @@
     },
     {
       "card": {
-        "stable_movie_id": "cc18:NHDTC-254",
-        "source_cover": "https://cc18.tv/preview/80/b/pt9ojYRNPbY-800.jpg?v=1789763930",
-        "title": "NHDTC-254 增量內射SP × 就寝中の夜行バスで指マンされた恐怖に目を開けられず寝たふりし｜增量內射SP",
-        "catalog_code": "NHDTC-254",
-        "release_date": "2026-09-17",
-        "performers": [],
-        "canonical_topics": [
-          {
-            "id": "beautiful-girl",
-            "label": "美少女"
-          },
-          {
-            "id": "creampie",
-            "label": "中出題材"
-          },
-          {
-            "id": "fingering",
-            "label": "指交"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "student",
-            "label": "學生妹"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/nhdtc-254/"
-      },
-      "performer_ids": [],
-      "search": {
-        "source_title": "在就寢中的夜行巴士被指交的恐懼，不敢睜眼只能假裝睡覺卻不斷高潮的膽小女孩5 增量內射SP",
-        "source_tags": [
-          "中出",
-          "美少女",
-          "學生妹",
-          "摳穴",
-          "720p",
-          "HD"
-        ],
-        "article_title": "NHDTC-254 增量內射SP × 就寝中の夜行バスで指マンされた恐怖に目を開けられず寝たふりし｜增量內射SP",
-        "display_short_title": null,
-        "slug": "nhdtc-254"
-      }
-    },
-    {
-      "card": {
         "stable_movie_id": "cc18:DLDSS-540",
         "source_cover": "https://cc18.tv/preview/80/b/ipqrQbKbB4J-800.jpg?v=1789727960",
         "title": "DLDSS-540 宮上唯依花 × 高畫質｜宮上唯依花",
@@ -27270,102 +26154,6 @@
         "article_title": "DLDSS-540 宮上唯依花 × 高畫質｜宮上唯依花",
         "display_short_title": null,
         "slug": "dldss-540"
-      }
-    },
-    {
-      "card": {
-        "stable_movie_id": "cc18:IENF-458",
-        "source_cover": "https://cc18.tv/preview/80/b/cP6XJEWeQ4l-800.jpg?v=1789699173",
-        "title": "IENF-458 私のパンツ見てたよね × 私のパンツ見てたよね？｜「你剛才在看我的內褲吧」發想下的學生系企劃作",
-        "catalog_code": "IENF-458",
-        "release_date": "2026-09-16",
-        "performers": [],
-        "canonical_topics": [
-          {
-            "id": "active-female",
-            "label": "主動女性／癡女"
-          },
-          {
-            "id": "creampie",
-            "label": "中出題材"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "student",
-            "label": "學生妹"
-          },
-          {
-            "id": "uhd-4k",
-            "label": "4K"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/ienf-458/"
-      },
-      "performer_ids": [],
-      "search": {
-        "source_title": "「你剛才在看我的內褲吧？」故意穿著容易露出內褲的衣服設下露褲陷阱，將陌生男人玩弄於股掌之間的小惡魔女學生！",
-        "source_tags": [
-          "中出",
-          "癡女",
-          "學生妹",
-          "720p",
-          "HD",
-          "4k"
-        ],
-        "article_title": "IENF-458 私のパンツ見てたよね × 私のパンツ見てたよね？｜「你剛才在看我的內褲吧」發想下的學生系企劃作",
-        "display_short_title": null,
-        "slug": "ienf-458"
-      }
-    },
-    {
-      "card": {
-        "stable_movie_id": "cc18:IENF-470",
-        "source_cover": "https://cc18.tv/preview/80/b/ftyyBuYFb6-800.jpg?v=1789699172",
-        "title": "IENF-470｜學生妹淫語企劃：系列公式清楚的展示型選片",
-        "catalog_code": "IENF-470",
-        "release_date": "2026-09-16",
-        "performers": [],
-        "canonical_topics": [
-          {
-            "id": "dirty-talk",
-            "label": "言語挑逗"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "student",
-            "label": "學生妹"
-          },
-          {
-            "id": "uhd-4k",
-            "label": "4K"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/ienf-470/"
-      },
-      "performer_ids": [],
-      "search": {
-        "source_title": "色情女學生的淫語挑逗 濕黏連續絕頂死庫水自慰 9",
-        "source_tags": [
-          "泳裝",
-          "學生妹",
-          "第一人稱視點",
-          "自慰",
-          "淫語",
-          "720p",
-          "HD",
-          "4k"
-        ],
-        "article_title": "IENF-470｜學生妹淫語企劃：系列公式清楚的展示型選片",
-        "display_short_title": null,
-        "slug": "ienf-470"
       }
     },
     {
@@ -28239,73 +27027,6 @@
     },
     {
       "card": {
-        "stable_movie_id": "cc18:SDMM-239",
-        "source_cover": "https://cc18.tv/preview/80/b/2TVQROaymdn-800.jpg?v=1789634412",
-        "title": "SDMM-239 谷梓 × 初めての杭打ち騎乗位｜谷梓、八森若菜、鹿野あも、鳥羽いく、月待青花、音羽ゆうあ｜等人｜初次杭打騎乘位企劃：以系列公式與好奇心設定支撐的展示型選片",
-        "catalog_code": "SDMM-239",
-        "release_date": "2026-09-15",
-        "performers": [
-          "谷梓",
-          "八森若菜",
-          "鹿野あも",
-          "鳥羽いく",
-          "月待青花",
-          "音羽ゆうあ"
-        ],
-        "canonical_topics": [
-          {
-            "id": "amateur",
-            "label": "素人"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "oral-sex",
-            "label": "口交題材"
-          },
-          {
-            "id": "student",
-            "label": "學生妹"
-          },
-          {
-            "id": "uhd-4k",
-            "label": "4K"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/sdmm-239/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:24429",
-        "cc18.tv:actor:29050",
-        "cc18.tv:actor:29904",
-        "cc18.tv:actor:53324",
-        "cc18.tv:actor:53576",
-        "cc18.tv:actor:53603"
-      ],
-      "search": {
-        "source_title": "魔鏡號 保健體育課外教學 在現役女高中生面前展示大人的濃厚SEX！點燃思春期的性好奇心，體驗首次打樁騎乘位內射高潮4",
-        "source_tags": [
-          "素人",
-          "口交",
-          "學生妹",
-          "羞恥",
-          "寢取・被寢取",
-          "720p",
-          "HD",
-          "NTR",
-          "寝取り・寝取られ・ntr",
-          "4k"
-        ],
-        "article_title": "SDMM-239 谷梓 × 初めての杭打ち騎乗位｜谷梓、八森若菜、鹿野あも、鳥羽いく、月待青花、音羽ゆうあ｜等人｜初次杭打騎乘位企劃：以系列公式與好奇心設定支撐的展示型選片",
-        "display_short_title": null,
-        "slug": "sdmm-239"
-      }
-    },
-    {
-      "card": {
         "stable_movie_id": "cc18:START-633",
         "source_cover": "https://cc18.tv/preview/80/b/annLi5rv70-800.jpg?v=1789634414",
         "title": "START-633 唯井真尋｜30天後就著床的妻子：以備孕壓力撐起的企劃型劇情",
@@ -28717,120 +27438,6 @@
     },
     {
       "card": {
-        "stable_movie_id": "cc18:MURIKURI-015",
-        "source_cover": "https://cc18.tv/preview/80/b/165DOYQEE1z-800.jpg?v=1789501235",
-        "title": "MURIKURI-015 ガチナマ × ガチナマ！｜ガチナマ",
-        "catalog_code": "MURIKURI-015",
-        "release_date": "2026-09-13",
-        "performers": [],
-        "canonical_topics": [
-          {
-            "id": "creampie",
-            "label": "中出題材"
-          },
-          {
-            "id": "exclusive-release",
-            "label": "獨家限定"
-          },
-          {
-            "id": "group-sex",
-            "label": "多人企劃"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "student",
-            "label": "學生妹"
-          },
-          {
-            "id": "uhd-4k",
-            "label": "4K"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/murikuri-015/"
-      },
-      "performer_ids": [],
-      "search": {
-        "source_title": "大乳頭JK痴女真無套路線 調教玩弄讓感度崩壞 迷你小穴痙攣陰道絞緊內射",
-        "source_tags": [
-          "中出",
-          "學生妹",
-          "玩具",
-          "貧乳",
-          "體操服・運動短褲",
-          "3p・4p",
-          "720p",
-          "独占配信",
-          "HD",
-          "4P",
-          "4k",
-          "小柄"
-        ],
-        "article_title": "MURIKURI-015 ガチナマ × ガチナマ！｜ガチナマ",
-        "display_short_title": null,
-        "slug": "murikuri-015"
-      }
-    },
-    {
-      "card": {
-        "stable_movie_id": "cc18:PIYO-240",
-        "source_cover": "https://cc18.tv/preview/80/b/AJp7uKMkbE-800.jpg?v=1789501239",
-        "title": "PIYO-240 青葉春、鳥羽いく、白鳥怜｜こっそり強●精飲",
-        "catalog_code": "PIYO-240",
-        "release_date": "2026-09-13",
-        "performers": [
-          "青葉春",
-          "鳥羽いく",
-          "白鳥怜"
-        ],
-        "canonical_topics": [
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "slim",
-            "label": "窈窕"
-          },
-          {
-            "id": "student",
-            "label": "學生妹"
-          },
-          {
-            "id": "uhd-4k",
-            "label": "4K"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/piyo-240/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:48814",
-        "cc18.tv:actor:53324",
-        "cc18.tv:actor:53483"
-      ],
-      "search": {
-        "source_title": "好想讓在街上偶遇的那個女孩偷偷喝下精液啊…在可頌、蛋糕、布丁、飲料中加入特製白色糖漿…而最後，讓她生吞滾燙的精液就是我們的使命。",
-        "source_tags": [
-          "窈窕",
-          "潮吹",
-          "學生妹",
-          "吞精",
-          "迷你系",
-          "720p",
-          "HD",
-          "4k"
-        ],
-        "article_title": "PIYO-240 青葉春、鳥羽いく、白鳥怜｜こっそり強●精飲",
-        "display_short_title": null,
-        "slug": "piyo-240"
-      }
-    },
-    {
-      "card": {
         "stable_movie_id": "cc18:PPV-4976260",
         "source_cover": "https://cc18.tv/preview/80/b/1B2lepoy62_-800.jpg?v=1789814175",
         "title": "PPV-4976260 獨家 × 素人企劃｜獨家素人自拍企劃的展示型判斷",
@@ -29096,70 +27703,6 @@
         "article_title": "DDK-241 一色沙羅｜剛毛肉便器：以企劃概念為主的展示型選片",
         "display_short_title": null,
         "slug": "ddk-241"
-      }
-    },
-    {
-      "card": {
-        "stable_movie_id": "cc18:FNEW-024",
-        "source_cover": "https://cc18.tv/preview/80/b/1xKHUDWU0d5-800.jpg?v=1789389621",
-        "title": "FNEW-024 清宮ななは｜雌小鬼企劃下的展示型選片",
-        "catalog_code": "FNEW-024",
-        "release_date": "2026-09-12",
-        "performers": [
-          "清宮ななは"
-        ],
-        "canonical_topics": [
-          {
-            "id": "adult-performer",
-            "label": "AV 女優"
-          },
-          {
-            "id": "beauty-salon",
-            "label": "美容院"
-          },
-          {
-            "id": "creampie",
-            "label": "中出題材"
-          },
-          {
-            "id": "group-sex",
-            "label": "多人企劃"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "slim",
-            "label": "窈窕"
-          },
-          {
-            "id": "student",
-            "label": "學生妹"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/fnew-024/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:54648"
-      ],
-      "search": {
-        "source_title": "苗條J系少女在按摩體驗中被開發性感，乳頭勃起、身體反弓、失禁，被保鮮膜包裹玩具責玩3P直到大絕頂成為SEX廢人…（雌小鬼38） 清宮奈奈葉",
-        "source_tags": [
-          "中出",
-          "窈窕",
-          "AV女優片",
-          "學生妹",
-          "美容院",
-          "3p・4p",
-          "720p",
-          "HD",
-          "4P"
-        ],
-        "article_title": "FNEW-024 清宮ななは｜雌小鬼企劃下的展示型選片",
-        "display_short_title": null,
-        "slug": "fnew-024"
       }
     },
     {
@@ -31479,66 +30022,6 @@
     },
     {
       "card": {
-        "stable_movie_id": "cc18:MIDA-781",
-        "source_cover": "https://cc18.tv/preview/80/b/43Td21oSpbZ-800.jpg?v=1789159321",
-        "title": "MIDA-781 奥井千晴｜角色扮演企劃：以人設與淫語訊號撐起的展示型選片",
-        "catalog_code": "MIDA-781",
-        "release_date": "2026-09-11",
-        "performers": [
-          "奥井千晴"
-        ],
-        "canonical_topics": [
-          {
-            "id": "adult-performer",
-            "label": "AV 女優"
-          },
-          {
-            "id": "cosplay",
-            "label": "角色扮演"
-          },
-          {
-            "id": "dirty-talk",
-            "label": "言語挑逗"
-          },
-          {
-            "id": "exclusive-release",
-            "label": "獨家限定"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "oral-sex",
-            "label": "口交題材"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/mida-781/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:53983"
-      ],
-      "search": {
-        "source_title": "「我最～喜歡口交了」因父母再婚而成為家人的思春期口交義妹，穿著卑猥Cosplay索要肉棒，連清理工作也將最後一滴精液舔得乾乾淨淨 奧井千晴",
-        "source_tags": [
-          "AV女優片",
-          "口交",
-          "角色扮演",
-          "第一人稱視點",
-          "淫語",
-          "姊妹",
-          "720p",
-          "独占配信",
-          "HD"
-        ],
-        "article_title": "MIDA-781 奥井千晴｜角色扮演企劃：以人設與淫語訊號撐起的展示型選片",
-        "display_short_title": null,
-        "slug": "mida-781"
-      }
-    },
-    {
-      "card": {
         "stable_movie_id": "cc18:MIDA-783",
         "source_cover": "https://cc18.tv/preview/80/b/rw4MCLxQA1z-800.jpg?v=1789159323",
         "title": "MIDA-783 篠真有｜以中出設定推動主導權轉移的企劃型作品",
@@ -32251,66 +30734,6 @@
         "article_title": "MUKC-132 音田絵凛｜拋棄活動而沉迷於陪睡性愛的企劃型選片",
         "display_short_title": null,
         "slug": "mukc-132"
-      }
-    },
-    {
-      "card": {
-        "stable_movie_id": "cc18:MUKD-585",
-        "source_cover": "https://cc18.tv/preview/80/b/3lLVHgn6Z9O-800.jpg?v=1789187983",
-        "title": "MUKD-585 湯浅紬｜還什麼都不知道的學生設定，主打企劃起點",
-        "catalog_code": "MUKD-585",
-        "release_date": "2026-09-11",
-        "performers": [
-          "湯浅紬"
-        ],
-        "canonical_topics": [
-          {
-            "id": "adult-performer",
-            "label": "AV 女優"
-          },
-          {
-            "id": "creampie",
-            "label": "中出題材"
-          },
-          {
-            "id": "exclusive-release",
-            "label": "獨家限定"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "oral-sex",
-            "label": "口交題材"
-          },
-          {
-            "id": "student",
-            "label": "學生妹"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/mukd-585/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:54311"
-      ],
-      "search": {
-        "source_title": "還什麼都不知道。戀愛經驗零。紬醬 湯淺紬",
-        "source_tags": [
-          "中出",
-          "AV女優片",
-          "口交",
-          "其他癖好",
-          "學生妹",
-          "制服",
-          "720p",
-          "独占配信",
-          "HD"
-        ],
-        "article_title": "MUKD-585 湯浅紬｜還什麼都不知道的學生設定，主打企劃起點",
-        "display_short_title": null,
-        "slug": "mukd-585"
       }
     },
     {
@@ -36583,66 +35006,6 @@
     },
     {
       "card": {
-        "stable_movie_id": "cc18:IPZZ-924",
-        "source_cover": "https://cc18.tv/preview/80/b/klRo1DJvE4v-800.jpg?v=1788555974",
-        "title": "IPZZ-924 櫻若菜｜變得不分場合失禁：以企劃設定推動反差魅力的學生設定作",
-        "catalog_code": "IPZZ-924",
-        "release_date": "2026-09-04",
-        "performers": [
-          "櫻若菜"
-        ],
-        "canonical_topics": [
-          {
-            "id": "adult-performer",
-            "label": "AV 女優"
-          },
-          {
-            "id": "creampie",
-            "label": "中出題材"
-          },
-          {
-            "id": "exclusive-release",
-            "label": "獨家限定"
-          },
-          {
-            "id": "facial",
-            "label": "顏射題材"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "student",
-            "label": "學生妹"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/ipzz-924/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:28380"
-      ],
-      "search": {
-        "source_title": "被性騷擾的中年教師抓到把柄的我，在校園內反覆被寸止高潮調教，變得不分場合失禁、在羞恥中絕頂的淫蕩變態女…。 櫻若菜",
-        "source_tags": [
-          "中出",
-          "AV女優片",
-          "學生妹",
-          "噴精",
-          "羞辱",
-          "720p",
-          "独占配信",
-          "HD",
-          "放尿・お漏らし"
-        ],
-        "article_title": "IPZZ-924 櫻若菜｜變得不分場合失禁：以企劃設定推動反差魅力的學生設定作",
-        "display_short_title": null,
-        "slug": "ipzz-924"
-      }
-    },
-    {
-      "card": {
         "stable_movie_id": "cc18:IPZZ-927",
         "source_cover": "https://cc18.tv/preview/80/b/AKgurYe0m8x-800.jpg?v=1788555974",
         "title": "IPZZ-927 西宮夢｜被灌酒喝醉後：人妻與辣妹反差撐起的企劃片",
@@ -38222,66 +36585,6 @@
     },
     {
       "card": {
-        "stable_movie_id": "cc18:SNOS-372",
-        "source_cover": "https://cc18.tv/preview/80/b/4EWng2xSD6E-800.jpg?v=1788503910",
-        "title": "SNOS-372 清原美優｜母性滿滿的溫柔大姊姊",
-        "catalog_code": "SNOS-372",
-        "release_date": "2026-09-04",
-        "performers": [
-          "清原美優"
-        ],
-        "canonical_topics": [
-          {
-            "id": "adult-performer",
-            "label": "AV 女優"
-          },
-          {
-            "id": "dirty-talk",
-            "label": "言語挑逗"
-          },
-          {
-            "id": "exclusive-release",
-            "label": "獨家限定"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "large-breasts",
-            "label": "巨乳"
-          },
-          {
-            "id": "uhd-4k",
-            "label": "4K"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/snos-372/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:28382"
-      ],
-      "search": {
-        "source_title": "母性滿滿的溫柔大姊姊，用歐派啾啾、幫雞巴打手槍寵溺你的世界第一爽授乳PLAY 小日向美優",
-        "source_tags": [
-          "AV女優片",
-          "巨乳",
-          "乳交",
-          "姐姐系",
-          "淫語",
-          "720p",
-          "独占配信",
-          "HD",
-          "4k"
-        ],
-        "article_title": "SNOS-372 清原美優｜母性滿滿的溫柔大姊姊",
-        "display_short_title": null,
-        "slug": "snos-372"
-      }
-    },
-    {
-      "card": {
         "stable_movie_id": "cc18:SNOS-374",
         "source_cover": "https://cc18.tv/preview/80/b/1XY4MWa_MdL-800.jpg?v=1788555975",
         "title": "SNOS-374 川越仁子｜深知自己美貌的女醫生",
@@ -38339,75 +36642,6 @@
         "article_title": "SNOS-374 川越仁子｜深知自己美貌的女醫生",
         "display_short_title": null,
         "slug": "snos-374"
-      }
-    },
-    {
-      "card": {
-        "stable_movie_id": "cc18:SNOS-388",
-        "source_cover": "https://cc18.tv/preview/80/b/qIg61sbDJ4f-800.jpg?v=1788555978",
-        "title": "SNOS-388 櫻乃莉乃 × 美少女設定｜櫻乃莉乃｜以美少女展示型企劃為主的直球選片",
-        "catalog_code": "SNOS-388",
-        "release_date": "2026-09-04",
-        "performers": [
-          "櫻乃莉乃"
-        ],
-        "canonical_topics": [
-          {
-            "id": "adult-performer",
-            "label": "AV 女優"
-          },
-          {
-            "id": "beautiful-girl",
-            "label": "美少女"
-          },
-          {
-            "id": "drama-series",
-            "label": "戲劇／連續劇"
-          },
-          {
-            "id": "exclusive-release",
-            "label": "獨家限定"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "oral-sex",
-            "label": "口交題材"
-          },
-          {
-            "id": "slim",
-            "label": "窈窕"
-          },
-          {
-            "id": "uhd-4k",
-            "label": "4K"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/snos-388/"
-      },
-      "performer_ids": [
-        "cc18.tv:actor:46837"
-      ],
-      "search": {
-        "source_title": "【錯過末班車的純情女學生與教師的禁斷留宿】 全身唇愛撫・深喉口交・未開發小穴活塞 貪婪盡享思春期身體的密室親暱淫交10小時 櫻乃莉乃",
-        "source_tags": [
-          "窈窕",
-          "AV女優片",
-          "口交",
-          "美少女",
-          "制服",
-          "戲劇、連續劇",
-          "720p",
-          "独占配信",
-          "HD",
-          "4k"
-        ],
-        "article_title": "SNOS-388 櫻乃莉乃 × 美少女設定｜櫻乃莉乃｜以美少女展示型企劃為主的直球選片",
-        "display_short_title": null,
-        "slug": "snos-388"
       }
     },
     {
@@ -40760,47 +38994,6 @@
         "article_title": "KNMB-131｜天羽梨梨花的情況",
         "display_short_title": null,
         "slug": "knmb-131"
-      }
-    },
-    {
-      "card": {
-        "stable_movie_id": "cc18:YAKO-099",
-        "source_cover": "https://cc18.tv/preview/80/b/8K34UTEb18f-800.jpg?v=1787877548",
-        "title": "YAKO-099 激拍素人企劃｜學生設定的角色轉變看點",
-        "catalog_code": "YAKO-099",
-        "release_date": "2026-08-27",
-        "performers": [],
-        "canonical_topics": [
-          {
-            "id": "amateur",
-            "label": "素人"
-          },
-          {
-            "id": "hd",
-            "label": "HD"
-          },
-          {
-            "id": "student",
-            "label": "學生妹"
-          }
-        ],
-        "has_remotion_promo": true,
-        "href": "/works/yako-099/"
-      },
-      "performer_ids": [],
-      "search": {
-        "source_title": "【閱覽注意】在東〇上傳聞的兩位肛交小女孩，激拍。「就算年輕，人生也各有各的故事呢ー」",
-        "source_tags": [
-          "素人",
-          "肛交",
-          "學生妹",
-          "720p",
-          "HD",
-          "アナルセックス"
-        ],
-        "article_title": "YAKO-099 激拍素人企劃｜學生設定的角色轉變看點",
-        "display_short_title": null,
-        "slug": "yako-099"
       }
     },
     {

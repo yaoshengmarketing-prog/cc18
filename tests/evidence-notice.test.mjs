@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import test from 'node:test';
+import {isExcluded} from '../src/lib/exclusions.mjs';
 import {
   loadPublishedWorkEvidenceCatalog,
   projectMovieMasterEvidence,
@@ -135,7 +136,7 @@ test('the live Evidence catalog matches the current public Movie Master set and 
     .filter(({review_status: status}) => status === 'published')
     .map(({id}) => id));
   const expectedById = new Map();
-  for (const entry of index.entries.filter(({catalog_code: code, is_demo: demo}) => publishedCodes.has(code) && !demo)) {
+  for (const entry of index.entries.filter(({catalog_code: code, is_demo: demo}) => publishedCodes.has(code) && !demo && !isExcluded(code))) {
     const master = JSON.parse(await readFile(new URL(`../${entry.master_path}`, import.meta.url), 'utf8'));
     if (master.publishing?.indexability === 'INDEX') {
       expectedById.set(entry.stable_movie_id, master.editorial?.article_evidence_level);

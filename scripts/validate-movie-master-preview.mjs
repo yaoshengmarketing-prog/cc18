@@ -9,6 +9,7 @@ import {
   validateMovieMasterAgainstIndexEntry,
 } from '../src/lib/movie-master-identity.mjs';
 import {workPath} from '../src/lib/work-url.mjs';
+import {isExcluded} from '../src/lib/exclusions.mjs';
 
 export const LEGACY_PERFORMER_REDIRECTS = [
   ['一ノ瀬ラム', 'cc18-tv-actor-27185'],
@@ -51,6 +52,7 @@ export const isPublicMovieCardMaster = (master) => (
   master.publishing?.is_published === true
   && master.publishing?.indexability === 'INDEX'
   && master.is_demo !== true
+  && !isExcluded(master.source?.catalog_code)
 );
 
 export const assertUniqueStableMovieIds = (masters) => {
@@ -79,10 +81,11 @@ const redirects = await readFile(resolve(root, 'dist/_redirects'), 'utf8');
 const searchIndex = await readJson('data/search-index-v1.json');
 const performerCatalog = await loadPerformerCatalog();
 const index = await readJson('data/movie-master/index.json');
-const latestPages = await Promise.all(Array.from({length: Math.max(1, Math.ceil(index.published_count / CATALOG_PAGE_SIZE))},
+const publicCount = index.entries.filter((entry) => entry.is_published && !entry.is_demo && !isExcluded(entry.catalog_code)).length;
+const latestPages = await Promise.all(Array.from({length: Math.max(1, Math.ceil(publicCount / CATALOG_PAGE_SIZE))},
   (_, i) => readFile(resolve(root, i === 0 ? 'dist/latest/index.html' : `dist/latest/${i + 1}/index.html`), 'utf8')));
 for (const [i, pageHtml] of latestPages.entries()) {
-  const expected = Math.min(CATALOG_PAGE_SIZE, index.published_count - i * CATALOG_PAGE_SIZE);
+  const expected = Math.min(CATALOG_PAGE_SIZE, publicCount - i * CATALOG_PAGE_SIZE);
   if ((pageHtml.match(/<article class="movie-card-v1"/g) ?? []).length !== expected) throw new Error(`Latest page ${i + 1} has incorrect card count`);
 }
 validateCanonicalMovieMasterIndexEntries(index.entries);
@@ -159,18 +162,18 @@ if ([...publishedIds].some((stableMovieId) => excludedIds.has(stableMovieId))) t
 if (new Set([...publishedIds, ...excludedIds]).size !== allIds.size || [...allIds].some((stableMovieId) => !publishedIds.has(stableMovieId) && !excludedIds.has(stableMovieId))) {
   throw new Error('Published and excluded card sets do not equal all Master stable IDs');
 }
-if (expectedPublished.length !== index.published_count) throw new Error('Movie Master index published_count disagrees with Master states');
+if (masters.filter((master) => master.publishing?.is_published === true).length !== index.published_count) throw new Error('Movie Master index published_count disagrees with Master states');
 if (masters.filter((master) => master.is_demo === true).length !== index.demo_count) throw new Error('Movie Master index demo_count disagrees with Master states');
 if (masters.filter((master) => master.is_demo !== true && master.publishing?.is_published !== true).length !== index.formal_draft_count) {
   throw new Error('Movie Master index formal_draft_count disagrees with Master states');
 }
-if (renderedCards.length !== index.published_count || new Set(renderedIds).size !== index.published_count) {
-  throw new Error(`Expected ${index.published_count} unique cards, received ${renderedCards.length}`);
+if (renderedCards.length !== publicCount || new Set(renderedIds).size !== publicCount) {
+  throw new Error(`Expected ${publicCount} unique cards, received ${renderedCards.length}`);
 }
-if (latestCards.length !== index.published_count || new Set(latestIds).size !== index.published_count) {
-  throw new Error(`Latest expected ${index.published_count} unique cards, received ${latestCards.length}`);
+if (latestCards.length !== publicCount || new Set(latestIds).size !== publicCount) {
+  throw new Error(`Latest expected ${publicCount} unique cards, received ${latestCards.length}`);
 }
-const homeCount = Math.min(CATALOG_PAGE_SIZE, index.published_count);
+const homeCount = Math.min(CATALOG_PAGE_SIZE, publicCount);
 if (homeCards.length !== homeCount || new Set(homeIds).size !== homeCount) {
   throw new Error(`Homepage expected ${homeCount} unique cards, received ${homeCards.length}`);
 }

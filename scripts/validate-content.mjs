@@ -1,5 +1,6 @@
 import {createHash} from 'node:crypto';
 import {readdir, readFile} from 'node:fs/promises';
+import {excludedIds} from '../src/lib/exclusions.mjs';
 import {buildSafeTitleSignals} from './editorial/lib/safe-editorial-payload.mjs';
 import {buildPerformerLocalizationMap} from '../src/lib/performer-localization-policy.mjs';
 import {validatePerformerIdentity} from '../src/lib/performer-identity.mjs';
@@ -191,6 +192,10 @@ for (let index = 0; index < approvedReviews.length; index += 1) {
 
 const reviewDirectory = new URL('content/reviews/', root);
 const reviewFiles = (await readdir(reviewDirectory)).filter((name) => name.endsWith('.md'));
+const searchIndex = JSON.parse(await readFile(new URL('data/search-index-v1.json', root), 'utf8'));
+for (const movie of searchIndex.movies ?? []) {
+  if (excludedIds().has(movie.card?.catalog_code?.toUpperCase())) blockers.push({id: movie.card.catalog_code, code: 'EXCLUDED_SEARCH_INDEX'});
+}
 const byCode = (items) => Object.fromEntries([...new Set(items.map(({code}) => code))].sort().map((code) =>
   [code, items.filter((item) => item.code === code).length]));
 console.log(`Content ${blockers.length ? 'invalid' : 'valid'}: ${published.length} published review(s), ${reviewFiles.length} total review file(s), ${warnings.length} warning(s), ${blockers.length} blocker(s).`);

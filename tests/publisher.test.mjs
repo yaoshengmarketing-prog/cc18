@@ -4,6 +4,10 @@ import {frontmatterValue, releaseIdFromHtml, selectPublishChanges, unexpectedPub
 
 const releaseId = 'a'.repeat(64);
 
+test('publisher refuses a commit for excluded work', () => {
+  assert.throws(() => selectPublishChanges({movieId: 'DSOD-093', trackedPaths: ['content/reviews/DSOD-093.md']}), /excluded work/);
+});
+
 test('publisher permits only files belonging to one work plus the shared registry', () => {
   assert.deepEqual(unexpectedPublishPaths([
     'content/reviews/SDAB-358.md',

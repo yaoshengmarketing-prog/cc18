@@ -1,5 +1,6 @@
 ---
 import {getCollection} from 'astro:content';
+import {isExcluded} from '../lib/exclusions.mjs';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import HomePerformerExplore from '../components/HomePerformerExplore.astro';
 import MovieCardV1 from '../components/MovieCardV1.astro';
@@ -15,7 +16,7 @@ import {tagItems} from '../lib/taxonomy';
 import {SITE_NAME} from '../lib/site-brand.mjs';
 
 const catalog = await loadLatestAddedMovieCardCatalog();
-const reviews = await getCollection('reviews', ({data}) => data.status === 'published');
+const reviews = await getCollection('reviews', ({data}) => data.status === 'published' && !isExcluded(data.id));
 const featured = reviews.find(({data}) => data.id === catalog.cards[0]?.catalog_code);
 if (!featured) throw new Error('Homepage latest published work has no published review');
 const featuredHeading = featured.data.displayShortTitle

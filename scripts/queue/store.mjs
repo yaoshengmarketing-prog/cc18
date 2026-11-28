@@ -3,6 +3,7 @@ import {existsSync} from 'node:fs';
 import {dirname, resolve} from 'node:path';
 import {randomUUID} from 'node:crypto';
 import {isAdmittedCanaryWork} from '../canary/selection.mjs';
+import {excludedIds, isExcluded} from '../../src/lib/exclusions.mjs';
 
 const isoNow = () => new Date().toISOString();
 const emptyState = () => ({schema_version: 1, updated_at: null, runs: [], movies: [], jobs: []});
@@ -78,7 +79,7 @@ export class FileQueueStore {
     }
 
     let enqueuedCount = 0;
-    if (classification === 'eligible') {
+    if (classification === 'eligible' && !isExcluded(id)) {
       for (const stage of stages) {
         const idempotencyKey = jobKey(id, stage);
         if (state.jobs.some((job) => job.idempotency_key === idempotencyKey)) continue;
@@ -129,7 +130,7 @@ export class FileQueueStore {
       discovery_run_id: editorial.discovery_run_id,
       editorial_status: editorial.status,
       publish_status: state.jobs.find(({movie_id, stage}) => movie_id === editorial.movie_id && stage === 'publish')?.status ?? null,
-    })).filter(({publish_status}) => publish_status !== 'completed');
+    })).filter(({publish_status, movie_id}) => publish_status !== 'completed' && !isExcluded(movie_id));
   }
 
   async queueHealth({now = new Date()} = {}) {
@@ -156,7 +157,7 @@ export class FileQueueStore {
   async listCanaryCandidates({limit = 3, now = new Date(), excludeMovieIds = [], requireCompletedEditorial = false} = {}) {
     const state = await this.read();
     const nowIso = now.toISOString();
-    const excluded = new Set(excludeMovieIds.map(normalizedId));
+    const excluded = new Set([...excludeMovieIds.map(normalizedId), ...excludedIds()]);
     return state.jobs.filter((job) => job.stage === 'editorial')
       .map((editorial) => ({
         editorial,
@@ -189,6 +190,7 @@ export class FileQueueStore {
   }
 
   async enqueueJob({movieId, stage, priority = 1, discoveryRunId = null, now = new Date()}) {
+    if (isExcluded(movieId)) return null;
     const state = await this.read();
     const id = normalizedId(movieId);
     if (!state.movies.some((movie) => movie.id === id)) throw new Error(`Unknown movie: ${id}`);
@@ -213,6 +215,8 @@ export class FileQueueStore {
 
   async claim({stage, workerId, jobId = null, leaseSeconds = 900, now = new Date()}) {
     const state = await this.read();
+    for (const job of state.jobs) if (isExcluded(job.movie_id) && job.status !== 'cancelled') job.status = 'cancelled';
+    await this.save(state);
     const nowIso = now.toISOString();
     const candidate = state.jobs
       .filter((job) => job.stage === stage && (!jobId || job.id === jobId) && job.attempt < job.max_attempts)
@@ -230,7 +234,7 @@ export class FileQueueStore {
   }
 
   async finishJob({jobId, workerId, outcome, errorCode = null, retryAt = null, now = new Date()}) {
-    if (!['completed', 'retry', 'blocked', 'failed'].includes(outcome)) throw new Error(`Invalid job outcome: ${outcome}`);
+    if (!['completed', 'retry', 'blocked', 'failed', 'cancelled'].includes(outcome)) throw new Error(`Invalid job outcome: ${outcome}`);
     const state = await this.read();
     const job = state.jobs.find((item) => item.id === jobId && item.status === 'leased' && item.claimed_by === workerId);
     if (!job) throw new Error(`Job is not leased by ${workerId}: ${jobId}`);
@@ -374,7 +378,7 @@ export class D1RestQueueStore {
     const now = isoNow();
     const sourceUuid = new URL(record.source_url).searchParams.get('uuid');
     const id = normalizedId(record.id);
-    const jobStatements = classification === 'eligible' ? stages.map((stage) => ({
+    const jobStatements = classification === 'eligible' && !isExcluded(id) ? stages.map((stage) => ({
       sql: `INSERT INTO pipeline_jobs (id, movie_id, stage, status, priority, attempt, max_attempts, idempotency_key, discovery_run_id, created_at, updated_at)
             VALUES (?, ?, ?, 'queued', ?, 0, 5, ?, ?, ?, ?)
             ON CONFLICT(idempotency_key) DO NOTHING`,
@@ -434,7 +438,7 @@ export class D1RestQueueStore {
       });
       const rows = page.results ?? [];
       pending.push(...rows);
-      if (rows.length < 500) return pending;
+      if (rows.length < 500) return pending.filter(({movie_id}) => !isExcluded(movie_id));
     }
   }
 
@@ -460,7 +464,7 @@ export class D1RestQueueStore {
   async listCanaryCandidates({limit = 3, now = new Date(), excludeMovieIds = [], requireCompletedEditorial = false} = {}) {
     const bounded = Math.max(1, Math.min(3, Number(limit) || 1));
     const nowIso = now.toISOString();
-    const excluded = [...new Set(excludeMovieIds.map(normalizedId))];
+    const excluded = [...new Set([...excludeMovieIds.map(normalizedId), ...excludedIds()])];
     const exclusionClause = excluded.length
       ? ' AND NOT EXISTS (SELECT 1 FROM json_each(?) excluded WHERE excluded.value=e.movie_id)'
       : '';
@@ -502,6 +506,7 @@ export class D1RestQueueStore {
   }
 
   async enqueueJob({movieId, stage, priority = 1, discoveryRunId = null, now = new Date()}) {
+    if (isExcluded(movieId)) return null;
     const nowIso = now.toISOString();
     const id = normalizedId(movieId);
     const key = jobKey(id, stage);
@@ -523,6 +528,7 @@ export class D1RestQueueStore {
   }
 
   async claim({stage, workerId, jobId = null, leaseSeconds = 900, now = new Date()}) {
+    const excluded = [...excludedIds()];
     const nowIso = now.toISOString();
     const leaseExpiresAt = new Date(now.getTime() + leaseSeconds * 1000).toISOString();
     const [result] = await this.query({
@@ -531,17 +537,18 @@ export class D1RestQueueStore {
             WHERE id=(
               SELECT id FROM pipeline_jobs
               WHERE stage=? AND (? IS NULL OR id=?) AND attempt < max_attempts
+                AND movie_id NOT IN (SELECT value FROM json_each(?))
                 AND (status IN ('queued','retry') OR (status='leased' AND lease_expires_at <= ?))
                 AND (next_retry_at IS NULL OR next_retry_at <= ?)
               ORDER BY priority DESC, created_at ASC LIMIT 1
             ) RETURNING *`,
-      params: [workerId, leaseExpiresAt, nowIso, stage, jobId, jobId, nowIso, nowIso],
+      params: [workerId, leaseExpiresAt, nowIso, stage, jobId, jobId, JSON.stringify(excluded), nowIso, nowIso],
     });
     return result.results?.[0] ?? null;
   }
 
   async finishJob({jobId, workerId, outcome, errorCode = null, retryAt = null, now = new Date()}) {
-    if (!['completed', 'retry', 'blocked', 'failed'].includes(outcome)) throw new Error(`Invalid job outcome: ${outcome}`);
+    if (!['completed', 'retry', 'blocked', 'failed', 'cancelled'].includes(outcome)) throw new Error(`Invalid job outcome: ${outcome}`);
     const nowIso = now.toISOString();
     const [result] = await this.query({
       sql: `UPDATE pipeline_jobs
