@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "RLMP-028",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-28T12:47:04.532Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/RLMP-028/hero-v1.jpg",
+      "r2_key": "works/2026/11/RLMP-028/hero-v1.jpg",
+      "bytes": 674488,
+      "sha256": "65437dd6bd09b4ceec2e38c15d82463fcf0a988f4035631461676a2a3afab240",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "42d2dfda0b804dbf93d7ff2c0b634654",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/RLMP-028/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/RLMP-028/scene-vertical-v1.jpg",
+      "bytes": 907082,
+      "sha256": "5b7eab48fe38465520c137ca4cbdba9c23380fd35ff1adb6cf97c826261c0f8e",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "13b845a5adee4bb3997b90a330e8e039",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2473133,
+    "sha256": "ed5cb8f7178cbb28a1546e10c966ab6d1014740e1c15d967bb90758656eabad3",
+    "target_r2_key": "works/2026/11/RLMP-028/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/RLMP-028/vertical-v1.mp4"
+  }
+}

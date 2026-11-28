@@ -779,7 +779,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 58,
+      "occurrences": 59,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -838,7 +838,8 @@
         "IPZZ-984",
         "MIDA-866",
         "EKDV-834",
-        "MKMP-770"
+        "MKMP-770",
+        "RLMP-028"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-28",
@@ -2154,13 +2155,14 @@
     },
     {
       "label": "女上司",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "CLOT-043",
         "NNOD-002",
         "DSOD-078",
         "NACT-200",
-        "MADV-646"
+        "MADV-646",
+        "RLMP-028"
       ],
       "first_seen": "2026-09-08",
       "last_seen": "2026-11-28",

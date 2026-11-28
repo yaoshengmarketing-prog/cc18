@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "RLMP-028",
+  "review_sha256": "0f17bc9e4ca87452ce9a6e69fbc92d1cf4a3d39e1466a45d01a18b4ebbf1102a",
+  "selected_thesis": "本作的辨識點是職場權力逆轉：公開簡介先建立強勢女上司的形象，再以她的敏感弱點改變兩人的關係；相較之下，GVH-885 的設定讓波多野結衣所演角色持續掌握主導權。",
+  "title_basis": {
+    "performer": "波多野結衣",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "波多野結衣",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "乳首最弱",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "波多野結衣",
+    "presentation_feature": "乳首最弱",
+    "editorial_judgment": "以同演員作品比較角色主導權，說明本作的職場逆轉設定及其選片意義。",
+    "source_keywords": [
+      "波多野結衣",
+      "乳首最弱",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介從上司訓話寫起，接著描述下屬發現她的弱點，並稱此後形勢逆轉。",
+      "supports": "本作以職場身分與權力變化組織公開故事設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "GVH-885 的來源簡介以波多野結衣教訓男性角色為主題，標示五種情境。",
+      "supports": "同演員作品可提供角色主導權與企劃結構的具體對照。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不推定兩部作品的實際表演、鏡位或節奏。",
+    "不把宣傳文案中的強烈反應當作已核實的成片觀察。",
+    "不推定本作只有一段情境或固定場景數量。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}
