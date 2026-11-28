@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "movie_id": "ABF-403",
+  "generated_at": "2026-11-28T09:58:18.350Z",
+  "source_snapshot_hash": "sha256:856ce4850ac7d19083fa409d48692afc3c3cce1501d7d78818e229659f17b229",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看涼森玲夢以不同理由主動拉近距離，可留意本作的三段密室設定；若偏好以一對一互動及人物反應為介紹重心，ABF-383 的公開簡介更貼近這項期待。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "三段獨立的近距離密室情境；前兩段有明確的求助開場。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "ABF-383",
+      "relation_type": "same_performer",
+      "reason": "同樣由涼森玲夢出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "涼森玲夢"
+      ],
+      "contrast_signals": [
+        "月刊ハメ撮り",
+        "自拍形式"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部與同演員的 ABF-383 在公開設定上有何差別？",
+    "三段情境中哪些有明確的接近理由？"
+  ]
+}

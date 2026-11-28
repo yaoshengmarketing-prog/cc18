@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "id": "ABF-403",
+  "generated_at": "2026-11-28T09:58:17.757Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/ABF-403.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": null,
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "素人",
+      "AV女優片",
+      "癡女"
+    ],
+    "body": [
+      "巨乳",
+      "美尻"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "顏射"
+    ],
+    "presentation": [
+      "720p",
+      "全高清 (FHD)"
+    ]
+  },
+  "research_question": "同樣由涼森玲夢演出，這部作品與 ABF-383 的公開簡介，分別把互動的起點放在哪裡？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=7k745w2vpeg&cat=19",
+      "supports": "題目提供的已核對來源快照描述三段密室情境：車內、鄰居家與另一處狹小空間；前兩段由涼森玲夢以求助為由邀對方靠近。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=86mAqy_037I&cat=19",
+      "supports": "題目提供的已核對來源快照將 ABF-383 寫成涼森玲夢與三名男子各自的一對一互動，開頭著重男方接近與她的反應。"
+    }
+  ],
+  "angle_candidates": [
+    "三段密室情境如何用不同的接近理由串起同一主題",
+    "與 ABF-383 比較：互動由誰先發起",
+    "素人企劃的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "兩作都以涼森玲夢與他人的近身互動為賣點；這次的公開設定更明確讓她在前兩段主動創造獨處機會，適合想看情境邀約的人優先留意。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "涼森玲夢",
+      "source_field": "actress"
+    },
+    {
+      "type": "series",
+      "value": "ゼロ距離で痴女られる密室シチュエーション",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "素人企劃",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "涼森玲夢的三段零距離密室情境",
+  "display_short_title": "涼森玲夢的密室邀約",
+  "title": "從一對一互動到主動創造獨處機會",
+  "seo_title": "ABF-403｜涼森玲夢的三段零距離密室情境",
+  "social_title": "涼森玲夢這次如何把人帶進密室？",
+  "short_review": "公開簡介以三處狹小空間串起作品，其中車內與鄰居家兩段都有她主動邀人靠近的理由。比起 ABF-383 著重一對一互動中的反應，這次的選片線索是情境如何開始。",
+  "editorial_angle": "比較兩部同演員作品的公開設定，聚焦互動的發起方式與密室場景的作用。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介列出三段密室情境，前兩段分別以車子故障、家中電燈故障作為接近對方的理由。",
+      "supports": "本作把涼森玲夢主動創造獨處機會寫成明確的情境起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "ABF-383 的簡介描述她與三名男子各自一對一互動，開頭著重男方接近與她的反應。",
+      "supports": "兩作可從互動由誰發起來區分選片期待。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將宣傳文字推論為實際鏡位、節奏或表演品質。",
+    "未把第三段狹小空間寫成有求助理由的邀約。"
+  ],
+  "decision_guide": {
+    "thesis": "想看涼森玲夢以不同理由主動拉近距離，可留意本作的三段密室設定；若偏好以一對一互動及人物反應為介紹重心，ABF-383 的公開簡介更貼近這項期待。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "三段獨立的近距離密室情境；前兩段有明確的求助開場。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "這部與同演員的 ABF-383 在公開設定上有何差別？",
+      "三段情境中哪些有明確的接近理由？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "密室之外，先看她如何邀人靠近",
+      "body": "這部作品的公開簡介列出三段近距離情境。第一段以車子故障為由邀人進車內；第二段則從家中電燈故障、向鄰居求助開始。第三段把場景放在另一處狹小空間，但簡介沒有交代同樣的求助開場。因此，「密室」不只是共同場景：前兩段還讓涼森玲夢有了主動創造獨處機會的理由。"
+    },
+    {
+      "heading": "與另一部同演員作品相比",
+      "body": "ABF-383 的公開簡介也安排涼森玲夢與三名男子分別互動，敘述卻從男方接近、她如何回應切入。這次的前兩段則先交代她如何把對方帶進近身情境。若你選片時在意互動由誰發起，兩份簡介給出的期待便不同；這是設定差異，不能據此判斷成片表現。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "材料為題目提供、已核對的 [ABF-403 來源快照](https://cc18.tv/player.php?uuid=7k745w2vpeg&cat=19) 與 [ABF-383 來源快照](https://cc18.tv/player.php?uuid=86mAqy_037I&cat=19)。本次無法開啟外部作品頁核讀全文；比較僅依提供的公開簡介與人物關係，未使用影片畫面或聲音。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "856ce4850ac7d19083fa409d48692afc3c3cce1501d7d78818e229659f17b229",
+    "response_sha256": "d01356549328f6f6fce9622ad5cbd8bad584bcfdf0d374a8bad6533e7bd372e0",
+    "research_input_sha256": "79015f52404e1e8eec2b6a9a4dae055ac6d57f031c69fbeec1d5844b2fd98485",
+    "related_source_ids": [
+      "ABF-383"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-28T09:53:39.457Z",
+  "updated_at": "2026-11-28T10:04:10.922Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -9539,6 +9539,21 @@
       ],
       "release_date": "2026-11-24",
       "source_url": "https://cc18.tv/player.php?uuid=e7q2q713QeC&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-28"
+    },
+    {
+      "id": "ABF-403",
+      "actress": [
+        "涼森玲夢"
+      ],
+      "release_date": "2026-11-26",
+      "source_url": "https://cc18.tv/player.php?uuid=7k745w2vpeg&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

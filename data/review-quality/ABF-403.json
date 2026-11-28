@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "ABF-403",
+  "review_sha256": "1e19c3674be5edd62b9c603a752d35ea87e02cc15aa1d484c0c82b4f7b0a7130",
+  "selected_thesis": "兩作都以涼森玲夢與他人的近身互動為賣點；這次的公開設定更明確讓她在前兩段主動創造獨處機會，適合想看情境邀約的人優先留意。",
+  "title_basis": {
+    "performer": "涼森玲夢",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "涼森玲夢",
+        "source_field": "actress"
+      },
+      {
+        "type": "series",
+        "value": "ゼロ距離で痴女られる密室シチュエーション",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "涼森玲夢",
+    "presentation_feature": "ゼロ距離で痴女られる密室シチュエーション",
+    "editorial_judgment": "比較兩部同演員作品的公開設定，聚焦互動的發起方式與密室場景的作用。",
+    "source_keywords": [
+      "涼森玲夢",
+      "ゼロ距離で痴女られる密室シチュエーション",
+      "素人企劃",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介列出三段密室情境，前兩段分別以車子故障、家中電燈故障作為接近對方的理由。",
+      "supports": "本作把涼森玲夢主動創造獨處機會寫成明確的情境起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "ABF-383 的簡介描述她與三名男子各自一對一互動，開頭著重男方接近與她的反應。",
+      "supports": "兩作可從互動由誰發起來區分選片期待。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將宣傳文字推論為實際鏡位、節奏或表演品質。",
+    "未把第三段狹小空間寫成有求助理由的邀約。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}
