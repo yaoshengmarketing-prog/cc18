@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "ROYD-363",
-  "review_sha256": "fb53bf086c5d45aa023bb78629ea8b25ff6961c470a37012039c8e9997622817",
-  "selected_thesis": "ROYD-363 把職場肯定放進身分辨認的過程：男主角以為自己遇見陌生人，對方卻早已存在於他的工作日常。相較 ROYD-348 由上司直接給予稱讚，本作更適合因同事的隱藏身分與日常關係改變而產生興趣的讀者。",
+  "review_sha256": "f81e587c625395dc102bff5ff4f4a159b0d4222bb2a48252bfb06235179e500f",
+  "selected_thesis": "百永さりな的會計女職員與金髮來客是同一角色的雙重身分",
   "title_basis": {
     "performer": "百永さりな",
     "signals": [
@@ -40,20 +40,20 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "ROYD-363 的提供快照先交代男主角在公司受責備、覺得不被需要，再寫會計女職員對他的注視。",
-      "supports": "職場挫折是理解這段關係的背景；對方的關注與男主角的自我感受形成對照。",
+      "signal": "data/source-records/ROYD-363.json:title",
+      "supports": "來源標題支持以 ROYD-363 識別本作與主要題材。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "ROYD-363 的來源標題與簡介均揭露，金髮外送服務女子就是公司裡的會計女職員。",
-      "supports": "宣傳已先告知身分答案，選片興趣可以放在男主角如何發現，以及原有同事關係如何改變。",
+      "signal": "data/source-records/ROYD-363.json:description",
+      "supports": "來源簡介支持本文對「百永さりな的會計女職員與金髮來客是同一角色的雙重身分」的判讀。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "ROYD-348 的提供快照將角色設定為辣妹上司，並明寫稱讚部下、提升自信。",
-      "supports": "兩作的具體差異是直接給予肯定的上司，與起初未被認出的會計同事；可據此區分角色偏好。",
+      "signal": "data/source-records/ROYD-363.json:source_tags,release_date,studio,actress",
+      "supports": "發行日、演員與片商按來源欄位記錄；標籤用於公開資料比較。",
       "observation_refs": []
     }
   ],
@@ -64,7 +64,18 @@
     "未判定演技、剪接、聲音、故事密度與節奏優劣。",
     "未將兩作說成同系列，也未延伸為演員或片商一貫的創作路線。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.2,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-08T16:00:00.000Z"

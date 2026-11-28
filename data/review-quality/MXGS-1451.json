@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "MXGS-1451",
-  "review_sha256": "c8ae62129886d3726dcb251e18bf99a353bd0562fde9d59e27f65dfd9ad73d56",
-  "selected_thesis": "以「哈囉」為辨識點、由衣陽菜承接角色扮演主題的展示型企劃。",
+  "review_sha256": "afbd368cc58049537346d1b9004e94487ab47eb26dc48d4da350f5491820e3ce",
+  "selected_thesis": "由衣陽菜的角色扮演咖啡廳用集點規則包裝熟客服務",
   "title_basis": {
     "performer": "由衣陽菜",
     "signals": [
@@ -39,34 +39,22 @@
   },
   "evidence": [
     {
-      "observation_refs": [],
-      "supports": "將「哈囉」放進標題與主論點，因它是目前最明確、最能區隔本作的來源概念。",
       "basis": "public_source",
-      "signal": "哈囉"
+      "signal": "data/source-records/MXGS-1451.json:title",
+      "supports": "來源標題支持以 MXGS-1451 識別本作與主要題材。",
+      "observation_refs": []
     },
     {
-      "observation_refs": [],
-      "supports": "把角色扮演設定當成主要成人主題，因公開資料已直接提供此一標籤。",
       "basis": "public_source",
-      "signal": "角色扮演"
+      "signal": "data/source-records/MXGS-1451.json:description",
+      "supports": "來源簡介支持本文對「由衣陽菜的角色扮演咖啡廳用集點規則包裝熟客服務」的判讀。",
+      "observation_refs": []
     },
     {
-      "observation_refs": [],
-      "supports": "由衣陽菜可作為主要選片入口，因公開資料已明確列出演出者。",
       "basis": "public_source",
-      "signal": "由衣陽菜"
-    },
-    {
-      "observation_refs": [],
-      "supports": "窈窕、巨乳與高畫質更像補強展示吸引力的來源訊號，而非劇情線索。",
-      "basis": "public_source",
-      "signal": "窈窕／巨乳／高畫質"
-    },
-    {
-      "observation_refs": [],
-      "supports": "在未見系列、人物關係、場景或前提介紹的情況下，公開標籤反而集中在角色扮演與多項成人元素，因此較適合定位為展示型企劃。",
-      "basis": "public_source",
-      "signal": "角色扮演＋中出／親吻／3p・4p／アクメ・オーガズム"
+      "signal": "data/source-records/MXGS-1451.json:source_tags,release_date,studio,actress",
+      "supports": "發行日、演員與片商按來源欄位記錄；標籤用於公開資料比較。",
+      "observation_refs": []
     }
   ],
   "unsupported_claims_excluded": [
@@ -75,7 +63,18 @@
     "未聲稱已觀察到鏡位、剪輯、聲音、演技、表情或身體語言",
     "未補寫人物關係、系列設定或未公開前提"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.2,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-02T16:00:00.000Z"

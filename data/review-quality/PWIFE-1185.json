@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "PWIFE-1185",
-  "review_sha256": "88e273e1baf9fb3ec78baee51e8f04c0e0fac91e71c11f8c1dc4fa2a6021743a",
-  "selected_thesis": "把本作寫成以「獨家」與「人妻設定」為核心的配信展示型選片。",
+  "review_sha256": "cf6ab0dc43d62ee007168c5ede6c628f98aa3f814b7ce41095031657ba10e45d",
+  "selected_thesis": "永山遥的人妻角色以請教影片剪輯進入兩人相處場景",
   "title_basis": {
     "performer": "永山遥",
     "signals": [
@@ -39,34 +39,22 @@
   },
   "evidence": [
     {
-      "observation_refs": [],
-      "supports": "本作最可追溯的核心辨識點是「獨家」，可作為標題與選片論點的主軸。",
       "basis": "public_source",
-      "signal": "獨家"
+      "signal": "data/source-records/PWIFE-1185.json:title",
+      "supports": "來源標題支持以 PWIFE-1185 識別本作與主要題材。",
+      "observation_refs": []
     },
     {
-      "observation_refs": [],
-      "supports": "演出者永山遥是公開來源明確提供的主要入口，適合放在選片判斷前段。",
       "basis": "public_source",
-      "signal": "永山遥"
+      "signal": "data/source-records/PWIFE-1185.json:description",
+      "supports": "來源簡介支持本文對「永山遥的人妻角色以請教影片剪輯進入兩人相處場景」的判讀。",
+      "observation_refs": []
     },
     {
-      "observation_refs": [],
-      "supports": "公開標籤與簡介線索都把「人妻」放在前景，因此主要成人題材應以人妻設定理解。",
       "basis": "public_source",
-      "signal": "人妻設定／人妻"
-    },
-    {
-      "observation_refs": [],
-      "supports": "topic_elements 與 safe signals 同時指向獨家限定、配信專用與高畫質，顯示本作有明顯的配信展示屬性。",
-      "basis": "public_source",
-      "signal": "獨家配信／720p／配信専用"
-    },
-    {
-      "observation_refs": [],
-      "supports": "「中出」屬於已公開的動作標籤，可作為題材補充，但不足以單獨推論更完整的情節。",
-      "basis": "public_source",
-      "signal": "中出"
+      "signal": "data/source-records/PWIFE-1185.json:source_tags,release_date,studio,actress",
+      "supports": "發行日、演員與片商按來源欄位記錄；標籤用於公開資料比較。",
+      "observation_refs": []
     }
   ],
   "unsupported_claims_excluded": [
@@ -75,7 +63,18 @@
     "未聲稱已觀察到鏡位、剪輯、聲音、演技、表情或身體語言",
     "未推定永山遥的真實私生活、年齡或非公開身份背景"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.2,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-10-31T16:00:00.000Z"
