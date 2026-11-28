@@ -155,6 +155,8 @@ for (const movieId of movieIds) {
       'scripts/editorial/lib/qa-rules.mjs',
       'scripts/editorial/lib/safe-editorial-payload.mjs',
       'scripts/editorial/lib/source-context.mjs',
+      'scripts/editorial/lib/selection-gate.mjs',
+      'prompts/review-critic.md',
     ]) {
       await mkdir(dirname(join(root, path)), {recursive: true});
       await cp(join(repoRoot, path), join(root, path));

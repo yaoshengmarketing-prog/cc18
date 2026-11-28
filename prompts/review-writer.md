@@ -1,75 +1,20 @@
-# CC18 review writer contract
+# CC18 選片評析 writer contract
 
-Write an original Traditional Chinese creative editorial review. The supplied CC18 record establishes work identity and the first discovery layer. Treat the exact CC18 source title and source tags as the primary vocabulary for understanding what the work offers. Do not replace that vocabulary with vague euphemisms. The prose may creatively reconstruct plot movement, motives, transitions and scene texture when that makes the article more complete and readable.
+以繁體中文撰寫「選片評析」。只根據公開來源資料與本站已收錄作品比較；影片抽樣不得被當成完整觀看，不得虛構分鐘、鏡位、聲音、演員反應、段落順序或觀看結果。使用中性詞交代成人題材，不寫露骨細節。來源標題、簡介、標籤或系列若涉及未成年角色與性內容，停止補寫並交人工處理；「幼馴染」等風險詞只表示需要人工複核。
 
-## Plan before prose
+## 身分與標題
 
-Produce a structured plan containing:
+- 番號、演員 stable ID 與核准顯示名、片商、系列、發行日、來源網址、sourceTitle 逐字保留；來源沒有的片長不可補造。
+- sourceTitle 與中文編輯標題分開。seoTitle 包含番號、演員（有才寫）、「選片評析」或「影評」和一個核心設定，力求約 28 字內。H1 用中文編輯標題。
+- meta description 以一句話交代核心設定和適合誰，包含番號；不可出現內部製作說明。
+- 來源標籤只照原文呈現；canonical tag 由現有分類規則產生。不可從假名推測漢字。
 
-1. direct identity facts;
-2. at least three traceable source signals, prioritizing the CC18 source title and source tags;
-3. one `core_source_concept`: the shortest source-title, series or synopsis phrase that makes this work recognizably itself rather than merely popular in search;
-4. a **topic element summary** with these seven buckets: 人物／身分、身材、衣著、關係、場景、行為／體位、呈現;
-5. `null` for any topic bucket not supported by the source rather than inventing a source fact;
-6. an explanation of which source adult topic is primary, which are secondary, and how their combination differentiates this work;
-7. the analysis each signal supports;
-8. unsupported identity or source claims that must not appear;
-9. three candidate angles and one selected thesis;
-10. the reader questions the article will answer.
+## 文章內容
 
-The topic element summary is source-grounded. Creative interpretations such as 慢熱、主導權轉移 or 角色覺醒 belong in a separate editorial layer; never present them as CC18 source tags.
+文章本文至少 600 個中文字，目標 600–1000，`sections` 含六至七個各自回答不同選片問題的段落。開頭說明核心設定與適合的讀者，列出完整番號、演員、片商。作品資料交代番號、演員、片商、系列、發行日、來源原文標籤、來源連結，片長有來源才寫。
 
-## Title system
+列出番號可機械推導的有連字號及無連字號、大小寫寫法。按發行日整理本站收錄的同演員作品時間軸，每筆附番號、日期、一句來源支持的設定與本站連結，標示「本站收錄範圍」。比較同演員作品；有同系列才比較同系列；同片商挑一至兩部最接近的作品，說明差異與各自適合誰。內文至少兩個站內連結，包含相關演員、作品或題材頁。
 
-Create the full title identity according to `config/title-policy.json`.
+寫出「適合誰看」與「可能不適合誰」各二至三點。四項選片評分各 0–10 分，每項附一句來源依據：題材明確度 30%、資料完整度 25%、同演員差異度 25%、標籤一致度 20%。總分是加權平均。明示「依公開資料評估，不代表觀看品質」。共演與常合作片商由模板依站內資料產生，沒有資料就不顯示。`ownerNote` 只留給站長實看短評；寫稿模型不可代填。資料來源只用一行簡述，詳細方法連至 `/method/`。
 
-- Preserve the exact CC18 source title separately.
-- Preserve an authoritative Japanese original title and its faithful Traditional Chinese translation only when actually supplied; never reconstruct a missing Japanese title by reverse translation.
-- Extract two to four auditable `titleSignals`, prioritizing one meaningful adult topic from the source title or source tags. When the transport schema represents source tags through `safe_signals`, keep that traceable field rather than inventing a source field.
-- Treat `core_source_concept` as the semantic anchor. At least the display or SEO title must contain it verbatim; a popular tag such as 學生妹、中出、巨乳 or 自拍 cannot replace it merely because it has higher search volume.
-- Use this editorial order: catalog number + performer when known + one primary source adult topic + one differentiating judgment.
-- Give relationship, identity, setting, act or position, body type and costume terms priority over technical quality terms.
-- Treat HD, FHD, 4K, 720p, 1080p, 高畫質 and 全高清 as low-value supporting terms unless the source makes image quality the genuine differentiator.
-- Do not stuff several adult keywords into the headline. Choose one primary search intent; use secondary source terms naturally in the topic summary and prose.
-- Produce distinct Traditional Chinese display, SEO and social titles. Never ignore the source title and never copy its entire keyword stack as the editorial headline.
-
-## Tag boundaries
-
-- `sourceTags`: exact CC18 labels; AI may quote them but may not rewrite, create or delete them.
-- `canonicalTagIds`: stable site categories selected only from the supplied approved taxonomy or deterministic mapping; AI may not invent or promote IDs.
-- Editorial tags or lenses: interpretive review concepts used in planning and prose; keep them separate and never describe them as source or canonical facts.
-
-## Article requirements
-
-The article must:
-
-- read like a Taiwanese entertainment editor speaking to an adult reader, using concrete nouns, varied sentence lengths and direct judgments;
-- let each section settle one reader question: give the judgment first, then name the source-specific relationship, setting, act, costume or character condition that supports it;
-- use direct causal sentences such as「因為這個人物關係成立，所以後段的選片取捨會不同」；抽象評論後面要接具體指涉，不用靠固定轉折句撐篇幅；
-- never mention AI, artificial intelligence, language models, prompts, automation, generation, internal rules, QA, pipelines or how the writer was instructed;
-- never explain internal source-field restrictions to the reader; put provenance in the site's compact information note instead;
-- prefer direct statements over recurring pivots such as 「真正的重點不在於……而在於……」、「比較聰明的地方是……」 and 「這不是……而是……」；a single natural use is acceptable, but do not let the pattern recur across sections;
-- when using abstract words such as 節奏、層次、推進、轉變、核心 and 觀看邏輯, immediately name the concrete source-specific element being discussed;
-
-- state a judgment that cannot be reused by changing only the catalog number or performer;
-- develop the `core_source_concept` in the thesis and at least two different sections before using a generic transformation arc as explanation;
-- preserve catalog number, performer, release date, series and source CTA exactly;
-- make the topic element summary easy to scan before the long-form review;
-- use source-grounded adult search vocabulary naturally and directly rather than removing meaningful terms for politeness;
-- explain what each important adult topic contributes: whether it is core or secondary, how it combines with the setting or relationship, and which reader preference it serves;
-- distinguish premise, performer fit, topic combination, trade-offs, suitable audience and unsuitable audience;
-- answer what the work primarily sells, how it differs from adjacent works, who should choose it and who may prefer something else;
-- prioritize a coherent, distinctive and engaging editorial narrative over factual reconstruction of the video;
-- keep methodology on the site method page instead of inserting a repetitive disclaimer into every article;
-- turn the source record and editorial brief's supported premise, relationships, topic elements and adult vocabulary into complete, informative paragraphs;
-- only describe plot, scenes, camera, audio, editing, performance or observed outcomes when the supplied Video Evidence supports them; never invent those details to make source-only copy sound like a viewed review;
-- return the long-form body in `sections` with six to seven sections, not in an alternate `review_sections` field;
-- never convert editorial interpretation into Registry facts, source Tags, canonical Tags or claimed Video Evidence;
-- never invent off-screen claims about a real performer's private life, identity or age;
-- use section headings that fit the selected thesis rather than copying a universal visible template.
-
-## Anti-template rule
-
-Do not use 「被引導到主動」、「從拘謹到投入」、「節奏逐漸升高」、「反差魅力」、「主導權轉移」 or 「距離逐步拉近」 as a default thesis. A source-core concept such as 露出慾望、同房、初撮り、美容院療程 or 一日特訓 must control the article's causal logic first; the character arc can only describe one consequence. These phrases remain available when the source-specific premise genuinely supports them, but the plan must then name the exact source element causing that change and the unique consequence for this work. Every section must answer a different reader question, and the opening, section logic and conclusion must differ from recent reviews.
-
-Return the plan and article separately so the source, canonical and editorial layers can be audited.
+任何不能由來源資料支持的比較、年份、片長、身分或平台編號都不要寫。公開欄位不得提到 AI、模型、提示詞、QA、source-only 或執行環境。輸出沿用現有 JSON schema 的 `sections`，保留至少三項可追溯的 `evidence`。

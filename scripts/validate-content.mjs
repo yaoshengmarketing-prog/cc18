@@ -3,6 +3,7 @@ import {readdir, readFile} from 'node:fs/promises';
 import {buildSafeTitleSignals} from './editorial/lib/safe-editorial-payload.mjs';
 import {buildPerformerLocalizationMap} from '../src/lib/performer-localization-policy.mjs';
 import {validatePerformerIdentity} from '../src/lib/performer-identity.mjs';
+import {jaccard, selectionIssues, selectionStart, shingles} from './editorial/lib/selection-gate.mjs';
 
 const root = new URL('../', import.meta.url);
 const readJson = async (relative) => JSON.parse(await readFile(new URL(relative, root), 'utf8'));
@@ -12,6 +13,8 @@ const registry = await readJson('data/movie-registry.json');
 const performerLocalization = await readJson('data/localization/performers-zh-tw.json');
 const policy = await readJson('config/review-policy.json');
 const titlePolicy = await readJson('config/title-policy.json');
+const riskApprovals = await readJson('data/editorial-risk-approvals.json');
+const scorecard = await readJson('config/review-scorecard.json');
 
 const knownTagIds = new Set(taxonomy.tags.map(({id}) => id));
 const editorialTagIds = new Set(taxonomy.tags.filter(({group}) => group === 'editorial').map(({id}) => id));
@@ -43,6 +46,7 @@ const sha256 = (value) => createHash('sha256').update(value).digest('hex');
 const published = registry.records.filter(({review_status}) => review_status === 'published');
 const approvedReviews = [];
 const warnings = [];
+const blockers = [];
 const warn = (id, code, detail = '') => warnings.push({id, code, ...(detail ? {detail} : {})});
 
 for (const record of published) {
@@ -159,33 +163,40 @@ for (const record of published) {
       throw new Error(`${record.id}: first article H2 must match the approved article title`);
     }
   }
-  approvedReviews.push({id: record.id, displayTitle, body});
+  approvedReviews.push({id: record.id, displayTitle, body, markdown, yaml, quality, source,
+    publishedAt: scalar(yaml, 'publishedAt'), updatedAt: scalar(yaml, 'modifiedAt') ?? scalar(yaml, 'updatedAt')});
 }
 
-const shingles = (text, size = 4) => {
-  const normalized = text.replace(/[`#*_>\s\p{P}\p{S}]/gu, '');
-  return new Set(Array.from({length: Math.max(0, normalized.length - size + 1)}, (_, index) => normalized.slice(index, index + size)));
-};
-
-const similarity = (left, right) => {
-  const a = shingles(left);
-  const b = shingles(right);
-  const intersection = [...a].filter((value) => b.has(value)).length;
-  const union = new Set([...a, ...b]).size;
-  return union ? intersection / union : 0;
-};
-
-for (let left = 0; left < approvedReviews.length; left += 1) {
-  for (let right = left + 1; right < approvedReviews.length; right += 1) {
-    const a = approvedReviews[left];
-    const b = approvedReviews[right];
-    if (a.displayTitle === b.displayTitle) warn(`${a.id}/${b.id}`, 'duplicate_display_title', a.displayTitle);
-    const score = similarity(a.body, b.body);
-    if (score > 0.55) warn(`${a.id}/${b.id}`, 'review_body_similarity', score.toFixed(3));
+approvedReviews.sort((a, b) => (a.publishedAt ?? '').localeCompare(b.publishedAt ?? '') || a.id.localeCompare(b.id));
+for (let index = 0; index < approvedReviews.length; index += 1) {
+  const review = approvedReviews[index];
+  const current = shingles(review.body);
+  let highest = 0;
+  for (const previous of approvedReviews.slice(Math.max(0, index - 30), index)) {
+    if (review.displayTitle === previous.displayTitle) warn(`${review.id}/${previous.id}`, 'duplicate_display_title', review.displayTitle);
+    highest = Math.max(highest, jaccard(current, shingles(previous.body)));
+  }
+  const approval = riskApprovals.approvals.find(({id}) => id === review.id);
+  const issues = selectionIssues({body: review.body, publicCopy: review.markdown, quality: review.quality, source: review.source,
+    scoreDimensions: Object.keys(scorecard.dimensions), similarity: highest, approvedRisks: approval?.approved_terms ?? []});
+  const explicitSelection = scalar(review.yaml, 'editorialFormat') === 'selection-analysis-v1';
+  const datedSelection = [review.publishedAt, review.updatedAt].some((date) => date && date.slice(0, 10) >= selectionStart);
+  for (const issue of issues) {
+    // The hourly publisher can still emit shorter legacy-format drafts. Its date-only
+    // trigger remains a warning until the writer and publisher are proven compliant.
+    if (explicitSelection) blockers.push({id: review.id, ...issue});
+    else warn(review.id, issue.code, `${issue.detail ?? ''}${datedSelection ? ' (publisher compatibility warning)' : ''}`.trim());
   }
 }
 
 const reviewDirectory = new URL('content/reviews/', root);
 const reviewFiles = (await readdir(reviewDirectory)).filter((name) => name.endsWith('.md'));
-console.log(`Content valid: ${published.length} published review(s), ${reviewFiles.length} total review file(s), ${warnings.length} warning(s).`);
-if (warnings.length) console.warn(JSON.stringify({event: 'content_validation_warnings', warnings}, null, 2));
+const byCode = (items) => Object.fromEntries([...new Set(items.map(({code}) => code))].sort().map((code) =>
+  [code, items.filter((item) => item.code === code).length]));
+console.log(`Content ${blockers.length ? 'invalid' : 'valid'}: ${published.length} published review(s), ${reviewFiles.length} total review file(s), ${warnings.length} warning(s), ${blockers.length} blocker(s).`);
+console.log(JSON.stringify({event: 'content_validation_summary', warning_counts: byCode(warnings), blocker_counts: byCode(blockers)}));
+if (warnings.length) console.warn(JSON.stringify({event: 'content_validation_warnings', counts: byCode(warnings)}));
+if (blockers.length) {
+  console.error(JSON.stringify({event: 'content_validation_blockers', blockers: blockers.slice(0, 30)}, null, 2));
+  process.exitCode = 1;
+}

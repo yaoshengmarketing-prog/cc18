@@ -3,10 +3,14 @@ import {readdir, readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {buildSafeTitleSignals} from './lib/safe-editorial-payload.mjs';
 import {editorialContentAssessment, hasReaderFacingProductionMeta, sitewideOriginalityAssessment, sourceOnlyGroundingIssues} from './lib/qa-rules.mjs';
+import {chineseCount, riskTerms} from './lib/selection-gate.mjs';
 
 const movieId = process.argv[2];
 if (!movieId) throw new Error('Usage: node scripts/editorial/qa-draft.mjs <MOVIE-ID>');
 const root = resolve(import.meta.dirname, '..', '..');
+const criticContract = await readFile(resolve(root, 'prompts/review-critic.md'), 'utf8');
+const minimumSelectionCharacters = Number(/^minimum_chinese_characters:\s*(\d+)/m.exec(criticContract)?.[1]);
+if (!Number.isInteger(minimumSelectionCharacters) || minimumSelectionCharacters < 600) throw new Error('Invalid selection critic contract');
 const reviewArgument = process.argv.find((value) => value.startsWith('--review='))?.slice('--review='.length);
 const reportArgument = process.argv.find((value) => value.startsWith('--report='))?.slice('--report='.length);
 const markdown = await readFile(reviewArgument ? resolve(reviewArgument) : resolve(root, `content/reviews/${movieId}.md`), 'utf8');
@@ -54,6 +58,14 @@ const list = (key) => {
   const match = frontmatter.match(new RegExp(`^${key}:\\s*\\r?\\n((?:  - .+(?:\\r?\\n|$))*)`, 'm'));
   return match ? [...match[1].matchAll(/^  - (.+)$/gm)].map((item) => item[1].trim().replace(/^['"]|['"]$/g, '')) : [];
 };
+if (scalar('editorialFormat') === 'selection-analysis-v1') {
+  if (chineseCount(body) < minimumSelectionCharacters) block('selection_body_too_short');
+  const riskText = [source.title, source.description, source.series, ...(source.source_tags ?? [])].filter(Boolean).join(' ');
+  const matched = riskTerms.filter((term) => riskText.includes(term));
+  const approvals = JSON.parse(await readFile(resolve(root, 'data/editorial-risk-approvals.json'), 'utf8'));
+  const approved = approvals.approvals.find(({id}) => id === movieId)?.approved_terms ?? [];
+  if (matched.some((term) => !approved.includes(term))) block('selection_risk_review_required', {terms: matched});
+}
 
 if (/CC18-DEMO|placeholder|示範(?:文章|資料|內容|作品|稿)/i.test(markdown)) warn('placeholder_text');
 if ([scalar('title'), scalar('seoTitle'), scalar('socialTitle'), scalar('shortReview')].some(hasReaderFacingProductionMeta)) {
