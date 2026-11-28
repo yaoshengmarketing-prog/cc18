@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "id": "EROFV-400",
+  "generated_at": "2026-11-28T07:45:35.573Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/EROFV-400.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "獨家",
+    "premise": "作品以「獨家」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「獨家」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "獨家",
+      "愛人・社長秘書寢取",
+      "業務失誤導致客戶大怒",
+      "道歉性交獻上的身體",
+      "秘書"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "自拍",
+      "720p",
+      "全高清 (FHD)",
+      "獨家限定"
+    ]
+  },
+  "research_question": "這部作品的公開設定，如何讓秘書原本被寬容的工作失誤，變成必須面對客戶的危機？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=zrJxIsCRab_&cat=19",
+      "supports": "使用題目提供的作品來源快照：簡介寫到秘書過去的小失誤曾被容許，這次因重複預約影響其他公司，客戶要求她以身體作為補償。"
+    }
+  ],
+  "angle_candidates": [
+    "從重複預約看秘書的工作危機",
+    "從社長的寬容與客戶的要求，看同一個失誤如何改變處境",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作的可辨識設定，是秘書過去因與社長的關係而受到寬容，重複預約卻牽涉外部客戶，使她失去原有的庇護；選片重點在這段權力關係的轉折。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "獨家",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "自拍形式",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "社長秘書的重複預約與客戶道歉",
+  "display_short_title": "社長秘書的道歉危機",
+  "title": "社長的寬容，為何擋不住客戶的要求？",
+  "seo_title": "EROFV-400｜社長秘書的重複預約與客戶道歉",
+  "social_title": "一次重複預約，讓社長秘書失去原有的庇護",
+  "short_review": "公開簡介把重複預約設為轉折：社長過去容許的失誤，到了受影響的客戶面前不再容易帶過。適合想看職場身分與強迫道歉設定如何相扣的讀者。",
+  "editorial_angle": "以社長與外部客戶對秘書失誤的不同態度，說明本作的情境衝突及選片意義。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源簡介稱秘書過去的小失誤一直被容許",
+      "supports": "社長的寬容是角色原有處境的一部分",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介稱重複預約給其他公司造成麻煩",
+      "supports": "這次失誤牽涉外部客戶，是情境轉折的具體原因",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介稱客戶要求秘書以身體作為補償並道歉",
+      "supports": "作品以帶有強迫意味的要求推進道歉情境",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "演員身分、人物經歷與其他關聯作品",
+    "實際畫面、聲音、台詞、表演與節奏",
+    "宣傳設定是否在成片中獲得充分呈現"
+  ],
+  "decision_guide": {
+    "thesis": "重複預約使秘書從受社長寬容的內部位置，轉向必須面對外部客戶要求的處境。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以職場失誤、客戶施壓及強迫道歉建立情境。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "秘書為何必須向客戶道歉？",
+      "這次失誤與她過去受到的寬容有何不同？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "社長的寬容，為何擋不住客戶的要求？",
+      "body": "作品簡介先交代秘書過去偶有工作失誤，卻因與社長的關係而一直受到容許。這次的重複預約影響了其他公司，問題不再只由社長決定如何處理。客戶提出以身體補償的要求，讓「道歉」成為帶有強迫意味的情境。"
+    },
+    {
+      "heading": "選片時值得注意的轉折",
+      "body": "前後差異很具體：過去是社長容許內部失誤，這次則是受影響的外部客戶施壓。若你對秘書身分、職場失誤與權力落差交織的設定有興趣，這是本作簡介能提供的明確理由；若你在意強迫情境，也可以據此避開。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據題目所附的 EROFV-400 作品來源快照與公開簡介撰寫；選片判斷只針對其中的設定，未使用影片內容。來源網址：https://cc18.tv/player.php?uuid=zrJxIsCRab_&cat=19"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "34c74d90301cdc1d9dbe76da46d0fd7dc05cd40bad206b0af60787389fafe3da",
+    "response_sha256": "641f9963ca17bcbec12a10af4244fd9a281dc50cc9b95f30f5b85bc05a21c032",
+    "research_input_sha256": "bee9e07b47353b3069ee664fbcdd9480633bb60dbca45ef2bf83aa279dbe3db3",
+    "related_source_ids": []
+  }
+}

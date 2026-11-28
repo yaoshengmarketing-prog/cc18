@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "EROFV-400",
+  "review_sha256": "b5d0e1a4ac57ced90f9da678574421f5f379cee462323f7330d4148fa43036b3",
+  "selected_thesis": "本作的可辨識設定，是秘書過去因與社長的關係而受到寬容，重複預約卻牽涉外部客戶，使她失去原有的庇護；選片重點在這段權力關係的轉折。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "獨家",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "自拍形式",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "獨家",
+    "presentation_feature": "自拍形式",
+    "editorial_judgment": "以社長與外部客戶對秘書失誤的不同態度，說明本作的情境衝突及選片意義。",
+    "source_keywords": [
+      "獨家",
+      "自拍形式",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源簡介稱秘書過去的小失誤一直被容許",
+      "supports": "社長的寬容是角色原有處境的一部分",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介稱重複預約給其他公司造成麻煩",
+      "supports": "這次失誤牽涉外部客戶，是情境轉折的具體原因",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介稱客戶要求秘書以身體作為補償並道歉",
+      "supports": "作品以帶有強迫意味的要求推進道歉情境",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "演員身分、人物經歷與其他關聯作品",
+    "實際畫面、聲音、台詞、表演與節奏",
+    "宣傳設定是否在成片中獲得充分呈現"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

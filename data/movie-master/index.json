@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-28T07:41:53.750Z",
+  "generated_at": "2026-11-28T07:50:35.726Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 628,
-  "formal_movie_count": 627,
+  "tracked_input_count": 629,
+  "formal_movie_count": 628,
   "demo_count": 1,
-  "published_count": 626,
+  "published_count": 627,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -1313,6 +1313,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "d293a77edf82e99fda599b219a569cdc6cd4c4d81411c89fd17e3e5e97afdfbc"
+    },
+    {
+      "stable_movie_id": "cc18:EROFV-400",
+      "catalog_code": "EROFV-400",
+      "slug": "erofv-400",
+      "master_path": "data/movie-master/erofv-400.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "1ea00c9221e7d24c9185fb61d25e30305edd7efe88d70bdbab96fcfbde469e6d"
     },
     {
       "stable_movie_id": "cc18:EWDX-622",

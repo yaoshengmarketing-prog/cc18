@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "EROFV-400",
+  "generated_at": "2026-11-28T07:45:36.079Z",
+  "source_snapshot_hash": "sha256:34c74d90301cdc1d9dbe76da46d0fd7dc05cd40bad206b0af60787389fafe3da",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "重複預約使秘書從受社長寬容的內部位置，轉向必須面對外部客戶要求的處境。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以職場失誤、客戶施壓及強迫道歉建立情境。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "秘書為何必須向客戶道歉？",
+    "這次失誤與她過去受到的寬容有何不同？"
+  ]
+}
