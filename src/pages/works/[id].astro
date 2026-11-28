@@ -14,6 +14,7 @@ import {searchContentFor} from '../../lib/search-content';
 import {reviewQualityFor} from '../../lib/review-quality';
 import {loadPerformerCatalog} from '../../lib/performer-catalog.mjs';
 import {loadSeriesCatalog} from '../../lib/series-catalog.mjs';
+import {loadAggregateCatalog} from '../../lib/aggregate-catalog.mjs';
 import {loadPublishedWorkEvidenceCatalog} from '../../lib/movie-master.mjs';
 import {SITE_NAME} from '../../lib/site-brand.mjs';
 
@@ -30,11 +31,12 @@ interface OrderedSeriesRecord {
 }
 
 export async function getStaticPaths() {
-  const [reviews, performerCatalog, seriesCatalog, evidenceCatalog] = await Promise.all([
+  const [reviews, performerCatalog, seriesCatalog, evidenceCatalog, aggregateCatalog] = await Promise.all([
     getCollection('reviews', ({data}) => data.status === 'published'),
     loadPerformerCatalog(),
     loadSeriesCatalog(),
     loadPublishedWorkEvidenceCatalog(),
+    loadAggregateCatalog(),
   ]);
   return reviews.map((review) => ({
     params: {id: review.data.id.toLowerCase()},
@@ -49,10 +51,11 @@ export async function getStaticPaths() {
         series: OrderedSeriesRecord[];
       }>).find(({stable_movie_id: stableMovieId}) => stableMovieId === `cc18:${review.data.id}`)?.series ?? [],
       evidence: evidenceCatalog.records.find(({stable_movie_id: stableMovieId}) => stableMovieId === `cc18:${review.data.id}`),
+      aggregates: aggregateCatalog.ordered_by_work.find(({stable_movie_id: stableMovieId}) => stableMovieId === `cc18:${review.data.id}`)?.links ?? [],
     },
   }));
 }
-const {review, performers, series, evidence} = Astro.props;
+const {review, performers, series, evidence, aggregates} = Astro.props;
 const {Content} = await render(review);
 const allReviews = await getCollection('reviews', ({data}) => data.status === 'published');
 const isSelectionAnalysis = review.data.editorialFormat === 'selection-analysis-v1';
@@ -160,11 +163,12 @@ if (hasPublishedVideo && review.data.videoUrl) structuredData.push({
         {review.data.translatedTitleZhTw && review.data.translatedTitleZhTw !== heading && <p class="work-name-line"><span>繁中直譯</span><b>{review.data.translatedTitleZhTw}</b></p>}
         {showSourceName && <p class="work-name-line"><span>來源名稱</span><b>{review.data.sourceTitle}</b></p>}
         <p class="lead">{lead}</p>
-        {(hasPerformerNames || series.length > 0) && <div class="work-identity-links">
+        {(hasPerformerNames || series.length > 0 || aggregates.length > 0) && <div class="work-identity-links">
           {hasPerformerNames && <div>演員 {performers.length
             ? performers.map((performer, index) => <>{index > 0 && '、'}<a href={performer.href} data-performer-id={performer.stable_performer_id}>{performer.primary_display_name}</a></>)
             : review.data.actress.join('、')}</div>}
           {series.length > 0 && <div>系列 {series.map((item: OrderedSeriesRecord, index: number) => <>{index > 0 && '、'}<a href={item.href}>{item.display_name}</a></>)}</div>}
+          {aggregates.map((item: {type: string; label: string; href: string}) => <div><a href={item.href}>{item.label}作品</a></div>)}
         </div>}
         <a class="button work-source-link" href={review.data.sourceUrl} target="_blank" rel="sponsored noopener noreferrer">{sourceLinkLabel} ↗</a>
       </div>
