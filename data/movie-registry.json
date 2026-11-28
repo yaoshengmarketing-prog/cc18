@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-28T07:29:14.964Z",
+  "updated_at": "2026-11-28T07:41:22.740Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -9318,6 +9318,19 @@
       "actress": [],
       "release_date": "2026-11-17",
       "source_url": "https://cc18.tv/player.php?uuid=awNHi7j7f6R&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-28"
+    },
+    {
+      "id": "ORECZ-741",
+      "actress": [],
+      "release_date": "2026-11-17",
+      "source_url": "https://cc18.tv/player.php?uuid=s4DU21jale6&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

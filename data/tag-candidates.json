@@ -2285,15 +2285,16 @@
     },
     {
       "label": "清楚",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "TGBS-003",
         "TKG-005",
         "PPV-4977601",
-        "PPV-4975046"
+        "PPV-4975046",
+        "ORECZ-741"
       ],
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-11-28",
       "status": "quarantined"
     },
     {
@@ -2677,7 +2678,7 @@
     },
     {
       "label": "搭訕",
-      "occurrences": 13,
+      "occurrences": 14,
       "source_ids": [
         "SKMJ-786",
         "SKMJ-788",
@@ -2691,7 +2692,8 @@
         "ORECZ-666",
         "HNHU-217",
         "HEYZO-3969",
-        "HNMG-003"
+        "HNMG-003",
+        "ORECZ-741"
       ],
       "first_seen": "2026-09-08",
       "last_seen": "2026-11-28",
@@ -3525,12 +3527,13 @@
     },
     {
       "label": "女主播",
-      "occurrences": 1,
+      "occurrences": 2,
       "source_ids": [
-        "SNOS-425"
+        "SNOS-425",
+        "ORECZ-741"
       ],
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-28",
       "status": "quarantined"
     },
     {

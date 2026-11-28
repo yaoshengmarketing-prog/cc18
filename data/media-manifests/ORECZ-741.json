@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "ORECZ-741",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-28T07:41:00.083Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/ORECZ-741/hero-v1.jpg",
+      "r2_key": "works/2026/11/ORECZ-741/hero-v1.jpg",
+      "bytes": 760273,
+      "sha256": "315c011b3feb8995f41921c03b59f2b3e25f4ad86490bb8e0a896decea5ede2c",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "b33da6e717334040b0d970905b142180",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/ORECZ-741/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/ORECZ-741/scene-vertical-v1.jpg",
+      "bytes": 1374689,
+      "sha256": "86d911fec98255014b5809f4399eec48e441d5a33549f3a736ae7f02e59401b2",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "84519b563f1b4c348043564940d2774f",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 3200215,
+    "sha256": "5deb7754bd491b4ebc256901ecd9280ee144bdc0598aca462de18926a42c86e3",
+    "target_r2_key": "works/2026/11/ORECZ-741/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/ORECZ-741/vertical-v1.mp4"
+  }
+}

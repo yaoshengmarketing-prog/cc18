@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "ORECZ-741",
+  "review_sha256": "ddba9d3db1a7c0163b18f8a6f8c019661c6de9ea2f495bd516042f721c4cb485",
+  "selected_thesis": "來源簡介把搭訕情境與女主播角色結合；選片線索在於這個具體設定，而非可確認的劇情或成片表現。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "桃尻",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "素人",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "桃尻",
+    "presentation_feature": "素人企劃",
+    "editorial_judgment": "以公開簡介中的人物身分與相遇方式，說明作品相對於籠統「搭訕」標籤多出的設定資訊。",
+    "source_keywords": [
+      "桃尻",
+      "素人企劃",
+      "高畫質",
+      "素人"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標籤包含「搭訕」與「女主播」",
+      "supports": "作品以偶遇情境和人物職業作為公開的題材線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介寫明隨口搭話，並將對象設定為 25 歲、任職於某北海道電視台的女主播",
+      "supports": "簡介提供了比題材標籤更具體的角色背景；這是作品設定，不能當作演出者的真實經歷。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "演出者的真實姓名、年齡與職業",
+    "實際劇情走向、拍攝地點、畫面、聲音與表演品質",
+    "未經核對的同演員、同系列或片商比較"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

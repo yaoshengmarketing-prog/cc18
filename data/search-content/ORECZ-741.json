@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "ORECZ-741",
+  "generated_at": "2026-11-28T07:36:33.822Z",
+  "source_snapshot_hash": "sha256:05989b6ac8770d62deef445294f812c77059c0cb06189911e511e3cb6ff0e43e",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "這部作品可由「女主播身分加上隨口搭話」的設定來選片。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以簡短人物背景和偶遇情境介紹作品。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "除搭訕標籤外，來源還提供什麼設定？",
+    "這些設定能提供什麼選片理由？"
+  ]
+}
