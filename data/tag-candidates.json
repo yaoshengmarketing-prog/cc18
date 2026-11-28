@@ -472,7 +472,7 @@
     },
     {
       "label": "制服",
-      "occurrences": 25,
+      "occurrences": 26,
       "source_ids": [
         "SNOS-409",
         "SNOS-369",
@@ -498,10 +498,11 @@
         "HUNTC-540",
         "RGAV-005",
         "SNOS-410",
-        "BBAN-612"
+        "BBAN-612",
+        "SNOS-455"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-28",
       "status": "quarantined"
     },
     {

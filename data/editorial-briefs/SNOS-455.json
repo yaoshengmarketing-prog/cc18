@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-455",
+  "generated_at": "2026-11-28T09:22:27.984Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SNOS-455.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "請盡情欺負我",
+    "premise": "作品以「請盡情欺負我」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「請盡情欺負我」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "請盡情欺負我",
+      "榊原萌"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "美少女"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "口交",
+      "顏射",
+      "淫亂・過激系"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由榊原萌演出，這兩部作品的公開簡介如何用不同場域建立人物關係？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=a4v9VK2Mo2&cat=19",
+      "supports": "提供本作的優等生、校園廣播與校長室設定；依據為題目所附來源快照，未能開啟頁面核對。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=gNd6vyPfmal&cat=19",
+      "supports": "提供同演員作品的叔姪、同住與隱瞞家人設定；依據為題目所附關聯作品快照，未能開啟頁面核對。"
+    }
+  ],
+  "angle_candidates": [
+    "比較校園點名與家庭同住，如何給相似的人物關係不同的故事入口。",
+    "從優等生形象與校長室設定，討論本作的宣傳重心。",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作把優等生被廣播叫往校長室作為故事入口；同樣由榊原萌演出的另一部作品則從家庭同住與隱瞞家人展開。兩者可依偏好的場域與關係設定區分，不能據此判斷成片表現。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "榊原萌",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "請盡情欺負我",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "美少女設定",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "榊原萌的優等生與校長室",
+  "display_short_title": "優等生與校長室",
+  "title": "一聲校園廣播，如何改變榊原萌這次的故事入口？",
+  "seo_title": "SNOS-455｜榊原萌的優等生與校長室設定",
+  "social_title": "榊原萌這次的故事，從校園廣播開始",
+  "short_review": "公開簡介以校園廣播、優等生與校長室串起本作設定。相較於榊原萌另一部以家庭同住為起點的作品，這次的選片線索更集中在學校場域與人物身分的落差。",
+  "editorial_angle": "以同演員作品作對照，指出兩份公開簡介在場域、人物關係與保密情境上的具體差異。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源快照將萌寫成優等生，並以校園廣播和校長室推進設定。",
+      "supports": "本作的宣傳入口是學校場域及優等生形象與校長權威的落差。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "關聯作品快照確認同樣由榊原萌演出，簡介以叔姪同住及隱瞞家人為核心。",
+      "supports": "同演員作品提供家庭場域與保密關係的具體對照。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "不推定角色的實際年齡。",
+    "不把公開簡介當作已觀看的畫面、台詞或成片品質證據。",
+    "不推定兩作的實際節奏或情節密度。"
+  ],
+  "decision_guide": {
+    "thesis": "想依故事設定選片，可用校園點名與家庭同住兩種入口區分這兩部榊原萌作品。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "本作的公開簡介著重優等生、校園廣播與校長室；對照作品著重叔姪同住與隱瞞家人。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作的公開簡介以什麼情境開場？",
+      "它與榊原萌另一部作品的設定差在哪裡？",
+      "這些差異能提供什麼選片線索？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "廣播把優等生帶向校長室",
+      "body": "本作的公開簡介先讓萌以優等生身分出場，再用校園廣播把她帶往校長室。這個安排讓「平時的學生形象」與「被校長叫去的私下情境」形成落差。若你是從故事設定找片，廣播與校長室比籠統的人物形容更能說明這次的宣傳重心。"
+    },
+    {
+      "heading": "同演員作品，換了一種場域",
+      "body": "同樣由榊原萌演出的 SNOS-410，公開簡介從叔姪同住寫起，並把隱瞞家人放進關係設定。兩作都以不對等的人物關係吸引注意，但本作靠校園裡的公開點名引出私下情境；另一部則靠共同生活與保密維持情境。偏好哪一種故事入口，是比單看演員名字更具體的選片理由。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "依據題目提供的 [本作來源快照](https://cc18.tv/player.php?uuid=a4v9VK2Mo2&cat=19)與[同演員作品來源快照](https://cc18.tv/player.php?uuid=gNd6vyPfmal&cat=19)。外部頁面未能開啟；上述比較只涉及公開簡介的設定，不涉及影片內容或品質判斷。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "614d4c4ae91efb7194c6e893429dd3f98ed980ef5df1da2f27ea3baf3e753111",
+    "response_sha256": "ebfaa00448c4ba4c75495c11cf3de59b4dbe2f9df2223b0a116dba5625fead2d",
+    "research_input_sha256": "b041f1713aaf76e78c95b445c6b455eb3f9ff41314f271a7a784d7725ab1c259",
+    "related_source_ids": [
+      "SNOS-410"
+    ]
+  }
+}

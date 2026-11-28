@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-455",
+  "review_sha256": "fd4e9324a183dbdeb2788fe469550b5b171a79fbc981ba53c790f5526ea52669",
+  "selected_thesis": "本作把優等生被廣播叫往校長室作為故事入口；同樣由榊原萌演出的另一部作品則從家庭同住與隱瞞家人展開。兩者可依偏好的場域與關係設定區分，不能據此判斷成片表現。",
+  "title_basis": {
+    "performer": "榊原萌",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "榊原萌",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "請盡情欺負我",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "榊原萌",
+    "presentation_feature": "請盡情欺負我",
+    "editorial_judgment": "以同演員作品作對照，指出兩份公開簡介在場域、人物關係與保密情境上的具體差異。",
+    "source_keywords": [
+      "榊原萌",
+      "請盡情欺負我",
+      "美少女設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源快照將萌寫成優等生，並以校園廣播和校長室推進設定。",
+      "supports": "本作的宣傳入口是學校場域及優等生形象與校長權威的落差。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "關聯作品快照確認同樣由榊原萌演出，簡介以叔姪同住及隱瞞家人為核心。",
+      "supports": "同演員作品提供家庭場域與保密關係的具體對照。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不推定角色的實際年齡。",
+    "不把公開簡介當作已觀看的畫面、台詞或成片品質證據。",
+    "不推定兩作的實際節奏或情節密度。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

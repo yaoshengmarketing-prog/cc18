@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:6463cc1df29fba150df98f6876bef623dcc38d646c2c51acb7fed97de7375707",
-  "source_generated_at": "2026-11-28T09:18:38.676Z",
+  "source_revision": "sha256:6d983e42659fbe9661ed15507e157908e4ebf173e34523d0a2b26bdf404d90c0",
+  "source_generated_at": "2026-11-28T09:27:35.208Z",
   "counts": {
-    "movies": 636,
+    "movies": 637,
     "performers": 423,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
@@ -4291,7 +4291,8 @@
       "source_name": "榊原萌",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:SNOS-410"
+        "cc18:SNOS-410",
+        "cc18:SNOS-455"
       ]
     },
     {
@@ -5317,6 +5318,75 @@
         "article_title": "自拍設定之外，時間表還透露了什麼？",
         "display_short_title": "水手服雙人自拍",
         "slug": "otim-707"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-455",
+        "source_cover": "https://cc18.tv/preview/80/b/a4v9VK2Mo2-800.jpg?v=1795163874",
+        "title": "優等生與校長室",
+        "catalog_code": "SNOS-455",
+        "release_date": "2026-11-20",
+        "performers": [
+          "榊原萌"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "extreme",
+            "label": "過激取向"
+          },
+          {
+            "id": "facial",
+            "label": "顏射題材"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-455/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:34283"
+      ],
+      "search": {
+        "source_title": "「請盡情欺負我…」勤勉學生的另一面是喜歡大叔的順從M 榊原萌",
+        "source_tags": [
+          "AV女優片",
+          "口交",
+          "顏射",
+          "美少女",
+          "制服",
+          "淫亂・過激系",
+          "720p",
+          "独占配信",
+          "HD",
+          "4k"
+        ],
+        "article_title": "一聲校園廣播，如何改變榊原萌這次的故事入口？",
+        "display_short_title": "優等生與校長室",
+        "slug": "snos-455"
       }
     },
     {
