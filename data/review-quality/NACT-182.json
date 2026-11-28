@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "NACT-182",
-  "review_sha256": "608f6342175b07684abe01972c68a4bd21254cdffcf369626b72dd2af6c1d6f1",
-  "selected_thesis": "來源資料可確認本作以「オイルマニア」作為主要作品線索。",
+  "review_sha256": "c66192ac2aa77de99a62eb825334c3a0ffd1c7d5b4b3b5a41207a5971f9635a6",
+  "selected_thesis": "來源簡介短，精油主題明確，角色關係及場地未提供。",
   "title_basis": {
     "performer": "月野江翠",
     "signals": [
@@ -24,7 +24,7 @@
     ],
     "primary_theme": "月野江翠",
     "presentation_feature": "オイルマニア",
-    "editorial_judgment": "來源資料可確認本作以「オイルマニア」作為主要作品線索。",
+    "editorial_judgment": "來源簡介短，精油主題明確，角色關係及場地未提供。",
     "source_keywords": [
       "月野江翠",
       "オイルマニア",
@@ -84,7 +84,7 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {"overall":8,"source_fidelity":9,"identity_integrity":9,"specificity":8,"originality":8,"narrative_coherence":8,"analysis_depth":8,"search_value":8,"decision_value":8,"low_repetition":8},
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-06T16:00:00.000Z"

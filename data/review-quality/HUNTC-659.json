@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "HUNTC-659",
-  "review_sha256": "6020183afc82271ee455badac3167b05bc03133896f1814412388377eb11ff33",
-  "selected_thesis": "來源資料可確認本作以「あなたのお背中を流します」作為主要作品線索。",
+  "review_sha256": "53c51a57edd11e7cb02acd21e54135b41b7e570d40f5770a64dbae639676e598",
+  "selected_thesis": "來源將溫泉搓背活動、服裝變化與服務升級連成企劃。",
   "title_basis": {
     "performer": null,
     "signals": [
@@ -29,7 +29,7 @@
     ],
     "primary_theme": "あなたのお背中を流します",
     "presentation_feature": "學生設定",
-    "editorial_judgment": "來源資料可確認本作以「あなたのお背中を流します」作為主要作品線索。",
+    "editorial_judgment": "來源將溫泉搓背活動、服裝變化與服務升級連成企劃。",
     "source_keywords": [
       "あなたのお背中を流します",
       "學生設定",
@@ -102,7 +102,7 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {"overall":8,"source_fidelity":9,"identity_integrity":9,"specificity":8,"originality":8,"narrative_coherence":8,"analysis_depth":8,"search_value":8,"decision_value":8,"low_repetition":8},
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-19T16:00:00.000Z"

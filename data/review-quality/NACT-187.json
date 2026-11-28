@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "NACT-187",
-  "review_sha256": "2f32f324a49f2d85068e4d5f45b0803181ae9e3f96b855d0797eb8ff1813912d",
-  "selected_thesis": "來源資料可確認本作以「冬愛琴音」作為主要作品線索。",
+  "review_sha256": "44985a4b77d71e3785c8b98935ccca730412e5a37249edc837b3130cf389c3f9",
+  "selected_thesis": "朋友身分、慶祝派對與假扮受害者使背叛劇情具體。",
   "title_basis": {
     "performer": "冬愛琴音",
     "signals": [
@@ -24,7 +24,7 @@
     ],
     "primary_theme": "冬愛琴音",
     "presentation_feature": "高畫質",
-    "editorial_judgment": "來源資料可確認本作以「冬愛琴音」作為主要作品線索。",
+    "editorial_judgment": "朋友身分、慶祝派對與假扮受害者使背叛劇情具體。",
     "source_keywords": [
       "冬愛琴音",
       "高畫質",
@@ -90,7 +90,7 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {"overall":8,"source_fidelity":9,"identity_integrity":9,"specificity":8,"originality":8,"narrative_coherence":8,"analysis_depth":8,"search_value":8,"decision_value":8,"low_repetition":8},
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-22T16:00:00.000Z",

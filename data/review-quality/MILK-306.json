@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "MILK-306",
-  "review_sha256": "dcb15c3618da5e61a929ae47da66760a2ba633ea75c573a303bb88a94ba2d0b9",
-  "selected_thesis": "來源資料可確認本作以「天羽梨梨花」作為主要作品線索。",
+  "review_sha256": "f9689de8bc31da31d3cd40da9b7d062b4326f9c5d0edc27c6b7622027b2f8138",
+  "selected_thesis": "私人坦白與班導師身分造成保密及權力落差。",
   "title_basis": {
     "performer": "天羽梨梨花",
     "signals": [
@@ -24,7 +24,7 @@
     ],
     "primary_theme": "天羽梨梨花",
     "presentation_feature": "高畫質",
-    "editorial_judgment": "來源資料可確認本作以「天羽梨梨花」作為主要作品線索。",
+    "editorial_judgment": "私人坦白與班導師身分造成保密及權力落差。",
     "source_keywords": [
       "天羽梨梨花",
       "高畫質",
@@ -84,7 +84,7 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {"overall":8,"source_fidelity":9,"identity_integrity":9,"specificity":8,"originality":8,"narrative_coherence":8,"analysis_depth":8,"search_value":8,"decision_value":8,"low_repetition":8},
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

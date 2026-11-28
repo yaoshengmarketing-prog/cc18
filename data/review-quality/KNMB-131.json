@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "KNMB-131",
-  "review_sha256": "2782bcc01666554130427c34d825a63541b5a650f6f630abf76554f341e63870",
-  "selected_thesis": "來源資料可確認本作以「天羽梨梨花的情況」作為主要作品線索。",
+  "review_sha256": "88099b7e5972f27e78115551aa7681cf0b5ff7077b599f26b29aee9b35a34c82",
+  "selected_thesis": "系列以演員個人宣傳為核心，缺少角色故事與片長。",
   "title_basis": {
     "performer": "天羽梨梨花",
     "signals": [
@@ -29,7 +29,7 @@
     ],
     "primary_theme": "天羽梨梨花",
     "presentation_feature": "天羽梨梨花的情況",
-    "editorial_judgment": "來源資料可確認本作以「天羽梨梨花的情況」作為主要作品線索。",
+    "editorial_judgment": "系列以演員個人宣傳為核心，缺少角色故事與片長。",
     "source_keywords": [
       "天羽梨梨花",
       "天羽梨梨花的情況",
@@ -90,7 +90,7 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {"overall":8,"source_fidelity":9,"identity_integrity":9,"specificity":8,"originality":8,"narrative_coherence":8,"analysis_depth":8,"search_value":8,"decision_value":8,"low_repetition":8},
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z",

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "HUBLK-079",
-  "review_sha256": "271051a182749b6d26483ed8852f939053535f0101242a71b141602823294c45",
-  "selected_thesis": "來源資料可確認本作以「ハンターブラック」作為主要作品線索。",
+  "review_sha256": "411a8203dd618f85c619877b0fa89a45722caf5c08982c2cd0ceda0d7b2480af",
+  "selected_thesis": "題名資訊很少，簡介的債務與交換安排才是選片關鍵。",
   "title_basis": {
     "performer": null,
     "signals": [
@@ -24,7 +24,7 @@
     ],
     "primary_theme": "ハンターブラック",
     "presentation_feature": "高畫質",
-    "editorial_judgment": "來源資料可確認本作以「ハンターブラック」作為主要作品線索。",
+    "editorial_judgment": "題名資訊很少，簡介的債務與交換安排才是選片關鍵。",
     "source_keywords": [
       "ハンターブラック",
       "高畫質",
@@ -84,7 +84,7 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {"overall":8,"source_fidelity":9,"identity_integrity":9,"specificity":8,"originality":8,"narrative_coherence":8,"analysis_depth":8,"search_value":8,"decision_value":8,"low_repetition":8},
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-21T16:00:00.000Z"

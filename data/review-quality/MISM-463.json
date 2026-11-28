@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "MISM-463",
-  "review_sha256": "6ee0035d115a5e5089f5027859856e39020a86cba839498b2083ff1c86a89c9c",
-  "selected_thesis": "來源資料可確認本作以「屁眼喉嚨深處小穴」作為主要作品線索。",
+  "review_sha256": "c3673920f58effdf5f6dd7c4105c6d915d2479e17b9f764f1a68f40e45a3eaf9",
+  "selected_thesis": "打工空檔與夜班場地是題名以外最具體的敘事線索。",
   "title_basis": {
     "performer": "辰巳マリナ",
     "signals": [
@@ -29,7 +29,7 @@
     ],
     "primary_theme": "辰巳マリナ",
     "presentation_feature": "屁眼喉嚨深處小穴",
-    "editorial_judgment": "來源資料可確認本作以「屁眼喉嚨深處小穴」作為主要作品線索。",
+    "editorial_judgment": "打工空檔與夜班場地是題名以外最具體的敘事線索。",
     "source_keywords": [
       "辰巳マリナ",
       "屁眼喉嚨深處小穴",
@@ -90,7 +90,7 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {"overall":8,"source_fidelity":9,"identity_integrity":9,"specificity":8,"originality":8,"narrative_coherence":8,"analysis_depth":8,"search_value":8,"decision_value":8,"low_repetition":8},
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-20T16:00:00.000Z"

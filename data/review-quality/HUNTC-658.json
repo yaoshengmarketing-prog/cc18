@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "HUNTC-658",
-  "review_sha256": "ec1c0bfd4195cd6b2cabdd4a07e494a2decd80f638cc4c5a6e9166d48e0928d9",
-  "selected_thesis": "來源資料可確認本作以「家出ギャルたちのたまり場」作為主要作品線索。",
+  "review_sha256": "d41ae55fa84072635c6c450462b25ecc9b4c27039597111c0abb39963cf5ddd0",
+  "selected_thesis": "祖父家被外來群體使用的空間反差，比人物類型標籤更能辨別本作。",
   "title_basis": {
     "performer": null,
     "signals": [
@@ -29,7 +29,7 @@
     ],
     "primary_theme": "家出ギャルたちのたまり場",
     "presentation_feature": "學生設定",
-    "editorial_judgment": "來源資料可確認本作以「家出ギャルたちのたまり場」作為主要作品線索。",
+    "editorial_judgment": "祖父家被外來群體使用的空間反差，比人物類型標籤更能辨別本作。",
     "source_keywords": [
       "家出ギャルたちのたまり場",
       "學生設定",
@@ -90,7 +90,7 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {"overall":8,"source_fidelity":9,"identity_integrity":9,"specificity":8,"originality":8,"narrative_coherence":8,"analysis_depth":8,"search_value":8,"decision_value":8,"low_repetition":8},
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-22T16:00:00.000Z"
