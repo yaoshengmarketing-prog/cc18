@@ -1,3 +1,5 @@
+import {isExcluded} from '../../../src/lib/exclusions.mjs';
+
 const normalizePath = (value) => value.replaceAll('\\', '/');
 
 export const allowedPublishPaths = (movieId) => {
@@ -28,6 +30,7 @@ export const unexpectedPublishPaths = (paths, movieId) => {
 };
 
 export const selectPublishChanges = ({trackedPaths = [], untrackedPaths = [], movieId}) => {
+  if (isExcluded(movieId)) throw new Error(`${movieId}: excluded work cannot be committed`);
   const allowed = allowedPublishPaths(movieId);
   const normalizedTracked = [...new Set(trackedPaths.map(normalizePath).filter(Boolean))];
   const unexpectedTracked = normalizedTracked.filter((path) => !allowed.has(path)).sort();

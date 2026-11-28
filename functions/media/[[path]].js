@@ -1,3 +1,5 @@
+import {excludedIds} from '../exclusion-ids.js';
+
 const ALLOWED_MEDIA_KEY = /^works\/\d{4}\/\d{2}\/[A-Z0-9-]+\/(?:vertical-v\d+\.mp4|hero-v\d+\.(?:png|webp|jpe?g)|scene-vertical-v\d+\.(?:png|webp|jpe?g))$/;
 
 const mediaKey = (context) => {
@@ -30,6 +32,7 @@ export async function onRequestOptions() {
 
 export async function onRequestGet(context) {
   const key = mediaKey(context);
+  if (excludedIds.has(key?.split('/')[3]?.toUpperCase())) return new Response('Gone', {status: 410, headers: {'X-Robots-Tag': 'noindex'}});
   if (!key || !ALLOWED_MEDIA_KEY.test(key)) return new Response('Not found', {status: 404});
 
   try {
@@ -61,6 +64,7 @@ export async function onRequestGet(context) {
 
 export async function onRequestHead(context) {
   const key = mediaKey(context);
+  if (excludedIds.has(key?.split('/')[3]?.toUpperCase())) return new Response(null, {status: 410, headers: {'X-Robots-Tag': 'noindex'}});
   if (!key || !ALLOWED_MEDIA_KEY.test(key)) return new Response(null, {status: 404});
   const object = await context.env.MEDIA.head(key);
   if (!object) return new Response(null, {status: 404});

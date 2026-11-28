@@ -1,11 +1,12 @@
 ---
 import {getCollection} from 'astro:content';
+import {isExcluded} from '../../lib/exclusions.mjs';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import {sourceTagItems, taxonomyTag} from '../../lib/taxonomy';
 import {sourceRecordFor} from '../../lib/source-records';
 import {reviewTagIds} from '../../lib/reviews';
 import {loadPublishedTopicCatalog} from '../../lib/topic-catalog.mjs';
-const reviews = await getCollection('reviews', ({data}) => data.status === 'published');
+const reviews = await getCollection('reviews', ({data}) => data.status === 'published' && !isExcluded(data.id));
 const topics = await loadPublishedTopicCatalog();
 const topicIds = new Set(topics.map(({id}) => id));
 const legacyCounts = new Map<string, number>();

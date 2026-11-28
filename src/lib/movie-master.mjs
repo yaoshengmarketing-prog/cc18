@@ -6,6 +6,7 @@ import {
   validateMovieMasterAgainstIndexEntry,
 } from './movie-master-identity.mjs';
 import {resolveProjectRoot} from './project-root.mjs';
+import {isExcluded} from './exclusions.mjs';
 
 const root = resolveProjectRoot();
 const readJson = async (path) => JSON.parse(await readFile(resolve(root, path), 'utf8'));
@@ -149,7 +150,7 @@ export const loadPublishedWorkEvidenceCatalog = async ({
   for (const entry of index.entries ?? []) {
     const master = await loadMaster(entry.master_path);
     validateMovieMasterAgainstIndexEntry(entry, master);
-    if (!isPublicMaster(entry, master)) continue;
+    if (!isPublicMaster(entry, master) || isExcluded(master.source?.catalog_code)) continue;
     const catalogCode = master.source.catalog_code;
     const searchContent = await loadSearchContent(`data/search-content/${catalogCode}.json`);
     records.push(projectMovieMasterEvidence({master, searchContent}));
@@ -174,6 +175,10 @@ export const loadPublishedMovieCardRecords = async ({
   for (const entry of index.entries ?? []) {
     const master = await loadMaster(entry.master_path);
     validateMovieMasterAgainstIndexEntry(entry, master);
+    if (isExcluded(master.source?.catalog_code)) {
+      exclusions.push({stable_movie_id: master.stable_movie_id, is_demo: master.is_demo === true, is_published: false, editorial_excluded: true, was_published: master.publishing?.is_published === true});
+      continue;
+    }
     const title = cardTitle(master);
     const href = resolveInternalWorkHref(master.publishing?.canonical_url, master.slug);
     const qualifies = Boolean(
@@ -221,7 +226,8 @@ export const loadPublishedMovieCardRecords = async ({
     exclusions,
     index: {
       tracked_input_count: index.tracked_input_count,
-      published_count: index.published_count,
+      published_count: records.length,
+      editorial_excluded_count: exclusions.filter((item) => item.editorial_excluded && item.was_published).length,
       formal_draft_count: index.formal_draft_count,
       demo_count: index.demo_count,
     },

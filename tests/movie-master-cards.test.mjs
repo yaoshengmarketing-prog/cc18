@@ -6,6 +6,7 @@ import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {promisify} from 'node:util';
+import {isExcluded} from '../src/lib/exclusions.mjs';
 import {
   loadLatestAddedMovieCardCatalog,
   loadLatestAddedPromoCatalog,
@@ -92,6 +93,9 @@ test('one exact untracked work reaches Movie Master, public cards and Search bef
       fileURLToPath(new URL('../scripts/build-search-index.mjs', import.meta.url)),
       join(fixture, 'scripts', 'build-search-index.mjs'),
     );
+    await cp(join(projectRoot, 'src', 'lib', 'exclusions.mjs'), join(fixture, 'src', 'lib', 'exclusions.mjs'));
+    await cp(join(projectRoot, 'src', 'lib', 'movie-master.mjs'), join(fixture, 'src', 'lib', 'movie-master.mjs'));
+    await cp(join(projectRoot, 'data', 'editorial-exclusions'), join(fixture, 'data', 'editorial-exclusions'), {recursive: true});
     await cp(
       fileURLToPath(new URL('../src/lib/performer-localization-policy.mjs', import.meta.url)),
       join(fixture, 'src', 'lib', 'performer-localization-policy.mjs'),
@@ -212,11 +216,11 @@ featured: false
 test('published Movie Master card catalog follows index publication and exclusion counts', async () => {
   const catalog = await loadPublishedMovieCardCatalog();
   assert.equal(catalog.cards.length, catalog.index.published_count);
-  assert.equal(catalog.exclusions.length, catalog.index.formal_draft_count + catalog.index.demo_count);
+  assert.equal(catalog.exclusions.length, catalog.index.formal_draft_count + catalog.index.demo_count + catalog.index.editorial_excluded_count);
   assert.equal(catalog.exclusions.filter(({is_demo}) => is_demo).length, catalog.index.demo_count);
   assert.equal(
     catalog.exclusions.filter(({is_demo, is_published}) => !is_demo && !is_published).length,
-    catalog.index.formal_draft_count,
+    catalog.index.formal_draft_count + catalog.index.editorial_excluded_count,
   );
   assert.equal(catalog.exclusions.filter(({is_published}) => is_published).length, 0);
 });
@@ -441,6 +445,7 @@ test('Latest renders latest_added while the neutral catalog retains release-date
     master.publishing?.is_published === true
     && master.publishing?.indexability === 'INDEX'
     && master.is_demo !== true
+    && !isExcluded(master.source?.catalog_code)
   ));
   const expectedReleaseOrder = [...publishedMasters]
     .sort((left, right) => (
@@ -457,7 +462,7 @@ test('Latest renders latest_added while the neutral catalog retains release-date
 
   assert.deepEqual(neutral.cards.map(({catalog_code: catalogCode}) => catalogCode), expectedReleaseOrder);
   assert.deepEqual(latestAdded.cards.map(({catalog_code: catalogCode}) => catalogCode), expectedLatestAddedOrder);
-  assert.equal(latestAdded.cards.length, index.published_count);
+  assert.equal(latestAdded.cards.length, latestAdded.index.published_count);
   assert.equal(new Set(latestAdded.cards.map(({stable_movie_id: stableMovieId}) => stableMovieId)).size, latestAdded.cards.length);
   assert.equal(new Set(latestAdded.cards.map(({catalog_code: catalogCode}) => catalogCode)).size, latestAdded.cards.length);
   assert.ok(latestAdded.cards.every(({title}) => title.trim()));

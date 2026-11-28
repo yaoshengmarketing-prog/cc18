@@ -6,6 +6,9 @@ import {validateSourceForPublication, restoreSourceRelations} from '../scripts/p
 const source = JSON.parse(await readFile(new URL('../data/source-records/DSOD-067.json', import.meta.url), 'utf8'));
 const localization = JSON.parse(await readFile(new URL('../data/localization/performers-zh-tw.json', import.meta.url), 'utf8'));
 const check = (record) => validateSourceForPublication({movieId: source.id, source: record, localization});
+test('excluded source fails publication preflight', () => {
+  assert.throws(() => validateSourceForPublication({movieId: 'DSOD-093', source: {id: 'DSOD-093'}, localization}), /excluded work/);
+});
 test('known publishable source passes before paid generation without changing source names', () => {
   const before = JSON.stringify(source);
   check(source);

@@ -1,0 +1,2 @@
+// Generated from data/editorial-exclusions/*.json. Do not edit.
+export const excludedIds = new Set(["DANDYA-045","DSOD-093","DSOD-094","DVMM-453","FNEW-024","FSBK-028","FTKD-045","GVH-884","HALT-093","HHF-113","IDPC-004","IENF-458","IENF-470","IPZZ-924","MIDA-781","MIDA-840","MUKD-585","MUKD-595","MURIKURI-015","NACT-188","NHDTC-254","NHDTC-258","PIYO-240","SDMM-239","SNOS-372","SNOS-388","SNOS-403","TEND-039","YAKO-099"]);

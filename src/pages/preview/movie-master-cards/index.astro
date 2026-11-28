@@ -4,7 +4,7 @@ import MovieCardV1 from '../../../components/MovieCardV1.astro';
 import {loadPublishedMovieCardCatalog} from '../../../lib/movie-master.mjs';
 
 const catalog = await loadPublishedMovieCardCatalog();
-const expectedExclusionCount = catalog.index.formal_draft_count + catalog.index.demo_count;
+const expectedExclusionCount = catalog.index.formal_draft_count + catalog.index.demo_count + catalog.index.editorial_excluded_count;
 if (catalog.cards.length !== catalog.index.published_count) {
   throw new Error(`Movie Master card preview expected ${catalog.index.published_count} published cards, received ${catalog.cards.length}`);
 }

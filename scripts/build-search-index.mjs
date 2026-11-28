@@ -3,6 +3,7 @@ import {readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {loadPublishedMovieCardCatalog} from '../src/lib/movie-master.mjs';
+import {isExcluded} from '../src/lib/exclusions.mjs';
 import {searchableAliasNames} from '../src/lib/catalog-search.mjs';
 import {parsePerformerStableId} from '../src/lib/performer-url.mjs';
 import {buildPerformerLocalizationMap, resolvePerformerDisplayRecord} from '../src/lib/performer-localization-policy.mjs';
@@ -136,6 +137,7 @@ export async function loadSearchAuthorityBindings(movieIndex, cardCatalog, {load
   if (!Array.isArray(cardCatalog?.cards)) throw new Error('Published MovieCard catalog cards must be an array');
   const loaded = [];
   for (const entry of movieIndex.entries) {
+    if (isExcluded(entry.catalog_code)) continue;
     const master = await loadMaster(entry.master_path);
     const identity = validateSearchIndexEntryMaster({entry, master});
     if (entry.is_published === true && entry.is_demo !== true
@@ -206,8 +208,9 @@ export async function buildSearchIndex() {
     });
   }
 
-  if (movies.length !== movieIndex.published_count) {
-    throw new Error(`Search index expected ${movieIndex.published_count} published eligible movies, received ${movies.length}`);
+  const publicCount = movieIndex.entries.filter((entry) => entry.is_published && !entry.is_demo && !isExcluded(entry.catalog_code)).length;
+  if (movies.length !== publicCount) {
+    throw new Error(`Search index expected ${publicCount} published eligible movies, received ${movies.length}`);
   }
   movies.sort((left, right) => (right.card.release_date ?? '').localeCompare(left.card.release_date ?? '')
     || left.card.catalog_code.localeCompare(right.card.catalog_code, 'en'));

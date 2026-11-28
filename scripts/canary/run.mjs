@@ -3,6 +3,7 @@ import {createHash} from 'node:crypto';
 import {mkdir, readFile, stat, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {queueStoreFromEnvironment} from '../queue/store.mjs';
+import {isExcluded} from '../../src/lib/exclusions.mjs';
 import {classifyCanaryStageOutcome, isAdmittedCanaryWork, registryDraftIds} from './selection.mjs';
 import {buildR2WranglerEnvironment} from '../r2/wrangler-auth.mjs';
 import {allowedPublishPaths} from '../publish/lib/publisher.mjs';
@@ -16,6 +17,7 @@ const option = (name) => process.argv.slice(2).find((value) => value.startsWith(
 const max = Number(option('--max') ?? 1);
 if (max !== 1) throw new Error('Isolated canary requires --max=1');
 const requestedIds = (option('--ids') ?? '').split(',').map((value) => value.trim().toUpperCase()).filter(Boolean);
+if (requestedIds.some(isExcluded)) throw new Error('Excluded work cannot enter the canary');
 if (requestedIds.some((id) => !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(id))) throw new Error('--ids contains an invalid movie id');
 if (requestedIds.length !== 1) throw new Error('Isolated canary requires exactly one movie ID');
 if (process.env.CC18_ALLOW_EDITORIAL_TRANSMISSION !== 'YES') {

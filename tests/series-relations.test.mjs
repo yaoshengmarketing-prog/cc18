@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
+import {isExcluded} from '../src/lib/exclusions.mjs';
 import {
   parseSeriesSourceId,
   parseSeriesRouteSegment,
@@ -323,7 +324,7 @@ test('formal series catalog matches the current published Registry and typed Mov
     .filter(({review_status: status}) => status === 'published')
     .map(({id}) => id));
   const publicMasters = [];
-  for (const entry of index.entries.filter(({catalog_code: code, is_demo: demo}) => publishedCodes.has(code) && !demo)) {
+  for (const entry of index.entries.filter(({catalog_code: code, is_demo: demo}) => publishedCodes.has(code) && !demo && !isExcluded(code))) {
     const master = JSON.parse(await readFile(new URL(`../${entry.master_path}`, import.meta.url), 'utf8'));
     if (master.publishing?.indexability === 'INDEX') publicMasters.push(master);
   }

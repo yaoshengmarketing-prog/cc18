@@ -4,9 +4,10 @@ import {PUBLIC_SITE_ORIGIN} from './src/lib/site-origin.mjs';
 import {readFileSync} from 'node:fs';
 import {resolve} from 'node:path';
 import {loadAggregateCatalog} from './src/lib/aggregate-catalog.mjs';
+import {isExcluded} from './src/lib/exclusions.mjs';
 
 const registry = JSON.parse(readFileSync(resolve('data/movie-registry.json'), 'utf8'));
-const workLastmod = new Map(registry.records.filter(({review_status}) => review_status === 'published').map(({id}) => {
+const workLastmod = new Map(registry.records.filter(({review_status, id}) => review_status === 'published' && !isExcluded(id)).map(({id}) => {
   const markdown = readFileSync(resolve('content/reviews', `${id}.md`), 'utf8');
   const publishedAt = /^publishedAt:\s*(\S+)/m.exec(markdown)?.[1];
   const updatedAt = /^(?:modifiedAt|updatedAt):\s*(\S+)/m.exec(markdown)?.[1];
@@ -28,7 +29,7 @@ export default defineConfig({
   // Local validation can reuse an existing output directory when the sandbox
   // disallows Astro's recursive cleanup; production builds retain the default.
   vite: process.env.CC18_VALIDATE_REUSE_DIST === '1' ? {build: {emptyOutDir: false}} : {},
-  integrations: [sitemap({filter: (url) => !thinAggregatePaths.has(new URL(url).pathname), serialize(item) {
+  integrations: [sitemap({filter: (url) => !thinAggregatePaths.has(new URL(url).pathname) && !isExcluded(/^\/works\/([^/]+)/u.exec(new URL(url).pathname)?.[1]), serialize(item) {
     const lastmod = workLastmod.get(new URL(item.url).pathname);
     return lastmod ? {...item, lastmod} : item;
   }})],

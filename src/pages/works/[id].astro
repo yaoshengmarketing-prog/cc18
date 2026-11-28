@@ -1,5 +1,6 @@
 ---
 import {getCollection, render} from 'astro:content';
+import {isExcluded} from '../../lib/exclusions.mjs';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import TagList from '../../components/TagList.astro';
 import VideoPlayer from '../../components/VideoPlayer.astro';
@@ -32,7 +33,7 @@ interface OrderedSeriesRecord {
 
 export async function getStaticPaths() {
   const [reviews, performerCatalog, seriesCatalog, evidenceCatalog, aggregateCatalog] = await Promise.all([
-    getCollection('reviews', ({data}) => data.status === 'published'),
+    getCollection('reviews', ({data}) => data.status === 'published' && !isExcluded(data.id)),
     loadPerformerCatalog(),
     loadSeriesCatalog(),
     loadPublishedWorkEvidenceCatalog(),
@@ -57,7 +58,7 @@ export async function getStaticPaths() {
 }
 const {review, performers, series, evidence, aggregates} = Astro.props;
 const {Content} = await render(review);
-const allReviews = await getCollection('reviews', ({data}) => data.status === 'published');
+const allReviews = await getCollection('reviews', ({data}) => data.status === 'published' && !isExcluded(data.id));
 const isSelectionAnalysis = review.data.editorialFormat === 'selection-analysis-v1';
 const related = new Map(allReviews.map((item) => [item.data.id, item]));
 const source = sourceRecordFor(review.data.id);
