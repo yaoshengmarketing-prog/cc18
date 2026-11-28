@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "id": "GVH-895",
+  "generated_at": "2026-11-28T12:21:48.502Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/GVH-895.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "我這垃圾不斷地射精高潮",
+    "premise": "作品以「我這垃圾不斷地射精高潮」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「我這垃圾不斷地射精高潮」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "我這垃圾不斷地射精高潮",
+      "幸村泉希"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [
+      "部下・同僚"
+    ],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由幸村泉希演出，本作與《同窗會NTR》如何用不同設定建立人物失去掌控的處境？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=u1blP9qBVaP&cat=19",
+      "supports": "提供本作的演員、系列關係與公開簡介：教育實習生幸村泉希制止理事長之子的惡行，隨後與其導師星野一同被捲入報復。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=dPqxhfsBp8n&cat=19",
+      "supports": "已核對的同演員作品簡介以妻子參加同窗會、丈夫逐漸失去聯繫為故事起點。"
+    }
+  ],
+  "angle_candidates": [
+    "從教育實習生出面制止惡行，討論本作如何以校園權勢推動衝突。",
+    "比較本作與《同窗會NTR》：一部先交代校園裡的權力關係，一部從夫妻間的失聯製造懸念。",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作的選片線索是教育實習生公開挑戰校園權勢後，報復同時波及她與導師；相較同演員的《同窗會NTR》從夫妻失聯切入，這次的衝突起點與人物關係都交代得更明確。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "幸村泉希",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "我這垃圾不斷地射精高潮",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "series",
+      "value": "【人間失格】さんざんレ×プやぶっかけされた憧れのあの子を見て",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "幸村泉希的學園實習與權勢報復",
+  "display_short_title": "實習教師挺身之後",
+  "title": "同樣是失去掌控，這次衝突從校園權勢開始",
+  "seo_title": "GVH-895｜幸村泉希的學園實習與權勢報復",
+  "social_title": "幸村泉希挺身制止惡行，為何也讓導師捲入報復？",
+  "short_review": "公開簡介先建立理事長之子掌控學園的局面，再讓幸村泉希飾演的教育實習生出面制止。本作適合想看權勢衝突如何牽連旁人的讀者；實際敘事與表演仍需看片判斷。",
+  "editorial_angle": "以同演員作品作對照，說明本作從校園權力與公開反抗切入，而非從親密關係中的失聯製造懸念。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作公開簡介設定理事長之子藤崎支配學園，導師星野長期成為他的目標。",
+      "supports": "衝突在教育實習生登場前已有明確的校園權力背景。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "幸村泉希飾演的教育實習生制止藤崎一夥，簡介稱她與星野隨後被捲入報復。",
+      "supports": "本作以公開反抗及其連帶後果作為故事轉折。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "《同窗會NTR》的已核對簡介從妻子參加同窗會，以及丈夫後來失去聯繫切入。",
+      "supports": "兩作建立懸念的場域和人物關係不同，可供選片比較。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "沒有推定本作實際鏡位、節奏、表演或故事完成度。",
+    "沒有把宣傳簡介中的報復情節寫成已觀看的畫面。",
+    "沒有推定同系列其他作品的情節或拍攝方式。"
+  ],
+  "decision_guide": {
+    "thesis": "本作適合依校園權勢與反抗後果選片；同演員的《同窗會NTR》則以夫妻失聯作為懸念入口。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以理事長之子、導師與教育實習生的權力關係建立故事。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作的衝突從哪種人物關係開始？",
+      "它與同演員的《同窗會NTR》有何具體設定差異？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "挺身制止之前，學園已有失衡的權力關係",
+      "body": "本作的公開簡介先交代學園受理事長之子藤崎支配，連他的導師星野也長期成為目標。幸村泉希飾演的教育實習生到來後，公開制止藤崎一夥的惡行，才引出將她與星野一同捲入的報復。這讓「挺身而出」不只是一句人物形容，而是簡介中清楚標出的轉折。"
+    },
+    {
+      "heading": "和同演員作品相比，懸念的起點換了",
+      "body": "同樣由幸村泉希演出的《同窗會NTR》，從妻子參加同窗會、丈夫逐漸失去聯繫切入；讀者跟著丈夫等待消息。本作則先讓讀者知道誰掌握校園權勢，以及實習生為何成為報復對象。若你偏好親密關係中的失聯懸念，前者的設定較貼近；若你想看公開反抗如何牽連旁人，本作的簡介給了更直接的選片理由。這是兩份故事設定的比較，不能據此判斷成片品質。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據已核對的本作來源資料（https://cc18.tv/player.php?uuid=u1blP9qBVaP&cat=19）與《同窗會NTR》來源簡介（https://cc18.tv/player.php?uuid=dPqxhfsBp8n&cat=19）。比較限於公開設定與選片意義，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "6c87842b64cb95c268401888cc947068e0c62d94feb59038c0cc1a8275660e41",
+    "response_sha256": "92334d5a3d0025bc4b5f48cdc352081f1ecc55d2a4627da3518cd647d0fa6a77",
+    "research_input_sha256": "baa80881ef9c408300ae8b48cdc63a768b4853ecdb984411fe3159821a8b242b",
+    "related_source_ids": [
+      "SAME-230",
+      "PRED-900",
+      "PRED-899",
+      "DSJH-020",
+      "NSODN-023",
+      "SNOS-358"
+    ]
+  }
+}

@@ -972,7 +972,7 @@
     },
     {
       "label": "寝取り・寝取られ・ntr",
-      "occurrences": 80,
+      "occurrences": 81,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -1053,7 +1053,8 @@
         "CJOD-547",
         "START-666",
         "UMAN-017",
-        "TPIN-103"
+        "TPIN-103",
+        "GVH-895"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-28",
@@ -2184,15 +2185,16 @@
     },
     {
       "label": "ビジネススーツ",
-      "occurrences": 4,
+      "occurrences": 5,
       "source_ids": [
         "CLOT-043",
         "CLOT-044",
         "FNEW-025",
-        "NACT-200"
+        "NACT-200",
+        "GVH-895"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-28",
       "status": "quarantined"
     },
     {
@@ -2394,7 +2396,7 @@
     },
     {
       "label": "寢取・被寢取",
-      "occurrences": 65,
+      "occurrences": 66,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -2460,7 +2462,8 @@
         "CJOD-547",
         "START-666",
         "UMAN-017",
-        "TPIN-103"
+        "TPIN-103",
+        "GVH-895"
       ],
       "first_seen": "2026-09-10",
       "last_seen": "2026-11-28",
@@ -2468,7 +2471,7 @@
     },
     {
       "label": "NTR",
-      "occurrences": 61,
+      "occurrences": 62,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -2530,7 +2533,8 @@
         "CJOD-547",
         "START-666",
         "UMAN-017",
-        "TPIN-103"
+        "TPIN-103",
+        "GVH-895"
       ],
       "first_seen": "2026-09-10",
       "last_seen": "2026-11-28",
@@ -3071,16 +3075,17 @@
     },
     {
       "label": "校園物語",
-      "occurrences": 5,
+      "occurrences": 6,
       "source_ids": [
         "DSOD-093",
         "DSOD-094",
         "DSOD-061",
         "HMN-905",
-        "BBAN-612"
+        "BBAN-612",
+        "GVH-895"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-28",
       "status": "quarantined"
     },
     {

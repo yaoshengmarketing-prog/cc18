@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "GVH-895",
+  "review_sha256": "a41f6268fe34ff5028c0e8ed2401b749efdcbe245e56ed884f5f5d7566b30b33",
+  "selected_thesis": "本作的選片線索是教育實習生公開挑戰校園權勢後，報復同時波及她與導師；相較同演員的《同窗會NTR》從夫妻失聯切入，這次的衝突起點與人物關係都交代得更明確。",
+  "title_basis": {
+    "performer": "幸村泉希",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "幸村泉希",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "我這垃圾不斷地射精高潮",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "【人間失格】さんざんレ×プやぶっかけされた憧れのあの子を見て",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "幸村泉希",
+    "presentation_feature": "我這垃圾不斷地射精高潮",
+    "editorial_judgment": "以同演員作品作對照，說明本作從校園權力與公開反抗切入，而非從親密關係中的失聯製造懸念。",
+    "source_keywords": [
+      "幸村泉希",
+      "我這垃圾不斷地射精高潮",
+      "【人間失格】さんざんレ×プやぶっかけされた憧れのあの子を見て",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作公開簡介設定理事長之子藤崎支配學園，導師星野長期成為他的目標。",
+      "supports": "衝突在教育實習生登場前已有明確的校園權力背景。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "幸村泉希飾演的教育實習生制止藤崎一夥，簡介稱她與星野隨後被捲入報復。",
+      "supports": "本作以公開反抗及其連帶後果作為故事轉折。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "《同窗會NTR》的已核對簡介從妻子參加同窗會，以及丈夫後來失去聯繫切入。",
+      "supports": "兩作建立懸念的場域和人物關係不同，可供選片比較。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "沒有推定本作實際鏡位、節奏、表演或故事完成度。",
+    "沒有把宣傳簡介中的報復情節寫成已觀看的畫面。",
+    "沒有推定同系列其他作品的情節或拍攝方式。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}
