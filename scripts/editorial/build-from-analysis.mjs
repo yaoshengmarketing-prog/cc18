@@ -12,6 +12,7 @@ import {appendEditorialUsage} from './lib/usage-ledger.mjs';
 import {auditWriterSource} from './lib/source-context.mjs';
 import {loadBridgeConfig} from '../bridge/lib/config.mjs';
 import {createTaxonomyHelpers} from '../tags/taxonomy.mjs';
+import {loadEditorialKnowledge} from './lib/editorial-knowledge.mjs';
 
 const movieId = process.argv.slice(2).find((argument) => !argument.startsWith('--'))?.trim().toUpperCase();
 if (!movieId || !/^[A-Z0-9]+(?:-[A-Z0-9]+)+$/.test(movieId)) {
@@ -139,7 +140,7 @@ console.log(JSON.stringify({event: 'editorial_source_input_audit', movie_id: mov
 const sourceOnlyGuard = sourceOnly
   ? '本次是 source-only：正文只能使用 public_source 與本地 Editorial Brief 中可追溯的來源片名、公開簡介、人物關係、企劃設定、core_source_concept 與 topic_elements。要將這些資訊自然寫成完整段落，並說明它們如何影響選片判斷。沒有 video_analysis 證據時，不得聲稱已觀察到情節、場景銜接、鏡位、聲音、剪輯、演技、表情或身體語言，也不可虛構演員私生活、真實身分或年齡。'
   : '';
-const writerContract = await readFile(resolve(root, 'prompts/review-writer.md'), 'utf8');
+const writerContract = (await readFile(resolve(root, 'prompts/review-writer.md'), 'utf8')) + await loadEditorialKnowledge(root);
 const system = `${writerContract}\n${sourceOnlyGuard}\n作品事實只能來自 public_source、Editorial Brief 或 video_analysis；不可把抽樣當成完整觀看。Canonical Tag 由規則引擎決定。輸出欄位使用 sections；title_signals 只能從 safe_title_signals 原樣選取。只輸出符合 JSON Schema 的 JSON。`;
 const prompt = {
   task: '產生可審查的 Editorial Brief 與影評草稿',
