@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "START-666",
+  "review_sha256": "00c9f39317a6b26582421d9e1215deac33c4c2e404a729d7b1bc1120692b0382",
+  "selected_thesis": "本作的選片線索是圖書館工作與隱瞞客人的衝突；相較於另一部直接以備孕婚姻和鄰居關係推進的作品，它先把伴侶關係留在懸念的位置。",
+  "title_basis": {
+    "performer": "唯井真尋",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "唯井真尋",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "把她變成了『我的專屬寵物",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "唯井真尋",
+    "presentation_feature": "把她變成了『我的專屬寵物",
+    "editorial_judgment": "比較兩部唯井真尋作品的公開設定：本作從圖書館與工作中的隱瞞切入，關聯作品則從備孕夫妻與鄰居切入。兩者對伴侶關係的安排不同，提供具體的選片依據。",
+    "source_keywords": [
+      "唯井真尋",
+      "把她變成了『我的專屬寵物",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源標題與簡介設定真尋為圖書管理員，並寫明男人要求她在不被客人發現的情況下全裸工作。",
+      "supports": "圖書館、工作要求與隱瞞客人，是本作可核對的情境核心。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作簡介以「甚至在男朋友面前也……？！」收尾。",
+      "supports": "男友被放在懸念中；簡介沒有交代這段情節的確切結果。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同演員關聯作品的簡介以備孕夫妻和鄰居為主要關係，並明寫丈夫在場的情節。",
+      "supports": "兩作可以比較設定起點，以及公開簡介對伴侶在場情節的交代程度。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不把男友面前的懸念寫成已發生的具體情節。",
+    "不根據標籤推定本作完整的寢取敘事。",
+    "不推論實際畫面、表演、節奏或成片品質。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

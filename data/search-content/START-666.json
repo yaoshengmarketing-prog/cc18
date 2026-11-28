@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "movie_id": "START-666",
+  "generated_at": "2026-11-28T09:48:52.949Z",
+  "source_snapshot_hash": "sha256:cc8a760f569e7a2ec20451f24ee94392ec9cb3eec68e355e4982a95d69744536",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看工作場所裡的隱瞞如何牽動伴侶關係，可留意本作；想看備孕夫妻與鄰居之間已明確展開的關係設定，關聯作品的簡介更直接。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "圖書館工作、不能被客人發現的要求，以及留給男友的情節懸念。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "START-633",
+      "relation_type": "same_performer",
+      "reason": "同樣由唯井真尋出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "唯井真尋"
+      ],
+      "contrast_signals": [
+        "30天後就著床的妻子",
+        "人妻・主婦"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作與同演員關聯作品的設定起點有何不同？",
+    "公開資料對兩作的伴侶關係各交代到哪一步？"
+  ]
+}

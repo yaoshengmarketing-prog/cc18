@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "id": "START-666",
+  "generated_at": "2026-11-28T09:48:52.097Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/START-666.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "把她變成了『我的專屬寵物",
+    "premise": "作品以「把她變成了『我的專屬寵物」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「把她變成了『我的專屬寵物」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "把她變成了『我的專屬寵物",
+      "唯井真尋",
+      "羞恥"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "戲劇、連續劇",
+      "720p",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由唯井真尋演出，本作與另一部以伴侶關係為懸念的作品，設定差在哪裡？這個差異如何幫助選片？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=e7q2q713QeC&cat=19",
+      "supports": "已核對的來源資料將本作設定在圖書館：真尋是圖書管理員，男人要求她瞞著客人全裸工作；簡介以男友面前會如何發展留下懸念。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=annLi5rv70&cat=19",
+      "supports": "已核對的關聯作品資料顯示，另一部同樣由唯井真尋演出，設定圍繞備孕夫妻、鄰居與托卵，並明寫丈夫在場的情節。"
+    }
+  ],
+  "angle_candidates": [
+    "圖書館的安靜與不能被客人發現的要求，如何構成本作的主要懸念",
+    "同演員兩作如何分別從工作場所與婚姻備孕切入伴侶關係",
+    "把她變成了『我的專屬寵物的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作的選片線索是圖書館工作與隱瞞客人的衝突；相較於另一部直接以備孕婚姻和鄰居關係推進的作品，它先把伴侶關係留在懸念的位置。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "唯井真尋",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "把她變成了『我的專屬寵物",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "identity",
+      "value": "AV女優片",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "圖書館裡的祕密：唯井真尋的羞恥工作",
+  "display_short_title": "唯井真尋的圖書館祕密",
+  "title": "從不能被發現的工作，走向男友面前的懸念",
+  "seo_title": "START-666｜唯井真尋的圖書館祕密與伴侶關係懸念",
+  "social_title": "唯井真尋這次的關鍵，是圖書館裡不能被發現的祕密",
+  "short_review": "本作簡介以圖書管理員的工作場所為起點，讓「不能被客人發現」成為明確的情境壓力。若想找的是從隱瞞逐步牽動伴侶關係的設定，它比直接以備孕婚姻開場的同演員作品更貼近這個方向。",
+  "editorial_angle": "比較兩部唯井真尋作品的公開設定：本作從圖書館與工作中的隱瞞切入，關聯作品則從備孕夫妻與鄰居切入。兩者對伴侶關係的安排不同，提供具體的選片依據。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源標題與簡介設定真尋為圖書管理員，並寫明男人要求她在不被客人發現的情況下全裸工作。",
+      "supports": "圖書館、工作要求與隱瞞客人，是本作可核對的情境核心。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作簡介以「甚至在男朋友面前也……？！」收尾。",
+      "supports": "男友被放在懸念中；簡介沒有交代這段情節的確切結果。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同演員關聯作品的簡介以備孕夫妻和鄰居為主要關係，並明寫丈夫在場的情節。",
+      "supports": "兩作可以比較設定起點，以及公開簡介對伴侶在場情節的交代程度。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "不把男友面前的懸念寫成已發生的具體情節。",
+    "不根據標籤推定本作完整的寢取敘事。",
+    "不推論實際畫面、表演、節奏或成片品質。"
+  ],
+  "decision_guide": {
+    "thesis": "想看工作場所裡的隱瞞如何牽動伴侶關係，可留意本作；想看備孕夫妻與鄰居之間已明確展開的關係設定，關聯作品的簡介更直接。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "圖書館工作、不能被客人發現的要求，以及留給男友的情節懸念。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作與同演員關聯作品的設定起點有何不同？",
+      "公開資料對兩作的伴侶關係各交代到哪一步？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "圖書館先給了這個故事一條界線",
+      "body": "唯井真尋在本作的公開設定中是圖書管理員。男人得知她的祕密後，要求她在不被客人發現的情況下全裸工作。這讓圖書館不只是背景：工作仍要進行，祕密卻可能被旁人察覺。簡介最後提到男友，卻把他面前會發生什麼留成問句。"
+    },
+    {
+      "heading": "同樣牽涉伴侶，另一部作品從婚姻開場",
+      "body": "同樣由唯井真尋演出的關聯作品，從備孕中的夫妻與介入的鄰居建立關係，簡介也明寫丈夫在場的情節。本作則先寫圖書館裡的隱瞞，再把男友放進後續懸念。若你在兩作之間選片，差別在於想從工作場所的祕密進入故事，還是從已經明確交代的婚姻衝突進入。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "以上依據已核對的 [本作來源資料](https://cc18.tv/player.php?uuid=e7q2q713QeC&cat=19) 與 [同演員關聯作品來源資料](https://cc18.tv/player.php?uuid=annLi5rv70&cat=19)。外部頁面在本次執行環境中無法開啟；比較僅依提供的標題、簡介與人物關係快照，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "cc8a760f569e7a2ec20451f24ee94392ec9cb3eec68e355e4982a95d69744536",
+    "response_sha256": "fc12b43a046a8e55e3292de55e39d690c00f78a6c6122e7bac20b692e097510d",
+    "research_input_sha256": "138b42e567e8962e69ebd2719b541dd1c37da385bf0c1761c2aa7f1db1db0157",
+    "related_source_ids": [
+      "START-633"
+    ]
+  }
+}
