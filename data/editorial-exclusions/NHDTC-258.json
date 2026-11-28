@@ -1,6 +1,8 @@
 {
-  "id": "NHDTC-258",
-  "reason": "來源簡介明確將涉及性內容的角色設定為女高中生。",
-  "detected_terms": ["女高中生"],
-  "decided_at": "2026-11-28"
+    "id":  "NHDTC-258",
+    "reason":  "v1.2：來源簡介原文直接寫角色是高中生／中學生／小學生／小女孩或不滿 18",
+    "trigger_quote":  "被帶到辦公室的女高中生",
+    "standard":  "v1.2",
+    "decided_by":  "owner t14u / 2026-11-28 22:48 UTC+8",
+    "decided_at":  "2026-11-28T22:48:00+08:00"
 }

@@ -1,6 +1,7 @@
 export const selectionStart = '2026-11-29';
 export const internalCopy = ['目前沒有足夠的分散影片引用', '執行環境未能開啟外部頁面'];
-export const riskTerms = ['未成年', '未滿十八', '未滿18', '思春期', '學生', '学生', '女子高生', '女子校生', '幼馴染', '幼なじみ'];
+// v1.2 (owner, 2026-11-28 22:52): only text that directly states the character is a high/middle/elementary-school student, a little girl, or under 18. Adjectives (蘿莉, 嬌小, 幼小), 義妹, generic 學生/大學生, adult uniform or JK cosplay and 幼馴染 are not risk terms.
+export const riskTerms = ['未成年', '未滿十八', '未滿18', '思春期', '青春期', '女子高生', '女子校生', '女子○生', '女子〇生', '女高中生', '高校生', '中學生', '中学生', '國中生', '小學生', '小学生', '幼女', '小女孩'];
 
 export const chineseCount = (body) => [...body.matchAll(/[\p{Script=Han}]/gu)].length;
 export const shingles = (body, size = 4) => {

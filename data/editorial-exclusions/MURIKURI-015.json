@@ -1,6 +1,8 @@
 {
-  "id": "MURIKURI-015",
-  "reason": "來源明示女高中生角色並與成人性內容並置，不補寫。",
-  "detected_terms": ["女高中生", "JK"],
-  "decided_at": "2026-11-28"
+    "id":  "MURIKURI-015",
+    "reason":  "v1.2：來源簡介原文直接寫角色是高中生／中學生／小學生／小女孩或不滿 18",
+    "trigger_quote":  "推定身高146公分的迷你女高中生",
+    "standard":  "v1.2",
+    "decided_by":  "owner t14u / 2026-11-28 22:48 UTC+8",
+    "decided_at":  "2026-11-28T22:48:00+08:00"
 }
