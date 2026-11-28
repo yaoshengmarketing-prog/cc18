@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "DSOD-031",
-  "review_sha256": "f9231668f2909c2cec74b3f9bd061da81a630085f16666f0a9b8514dcbe0ac75",
-  "selected_thesis": "來源資料可確認本作以「如果要道歉」作為主要作品線索。",
+  "review_sha256": "4dedb5413cf19af4bf0b54eeec9097767e412bfe8f724e55f2fde5385793284f",
+  "selected_thesis": "的來源簡介先設定蓳是拒絕道歉的霸凌者，再讓遭霸凌的人偷拍證據、以公開影片施壓，之後又加入藥物。",
   "title_basis": {
     "performer": "倉本蓳",
     "signals": [
@@ -27,9 +27,9 @@
         "source_field": "safe_signals"
       }
     ],
-    "primary_theme": "倉本蓳",
+    "primary_theme": "霸凌證據與報復設定",
     "presentation_feature": "如果要道歉",
-    "editorial_judgment": "來源資料可確認本作以「如果要道歉」作為主要作品線索。",
+    "editorial_judgment": "的來源簡介先設定蓳是拒絕道歉的霸凌者，再讓遭霸凌的人偷拍證據、以公開影片施壓，之後又加入藥物。",
     "source_keywords": [
       "倉本蓳",
       "如果要道歉",
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.3,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 9,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

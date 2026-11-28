@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "DOKS-689",
-  "review_sha256": "11bb8915079b0ff73fd4b6e31ef69550173f140083fbe0a56963b4eb00dac9c4",
-  "selected_thesis": "來源資料可確認本作以「玩具」作為主要作品線索。",
+  "review_sha256": "9f70c1d7f8d0e5fed613eb49a2f81c158c457db24a61fd43f595eee246003301",
+  "selected_thesis": "來源描述人事部長發現員工在公司外兼職，利用她們害怕被開除的處境施壓，並加入藥物設定。",
   "title_basis": {
     "performer": "泉莉音、川栄結愛、新田好実、南日菜乃、百合良、橘未来",
     "signals": [
@@ -27,9 +27,9 @@
         "source_field": "actress"
       }
     ],
-    "primary_theme": "泉莉音",
+    "primary_theme": "人事部長濫用職權的群像企劃",
     "presentation_feature": "玩具",
-    "editorial_judgment": "來源資料可確認本作以「玩具」作為主要作品線索。",
+    "editorial_judgment": "來源描述人事部長發現員工在公司外兼職，利用她們害怕被開除的處境施壓，並加入藥物設定。",
     "source_keywords": [
       "泉莉音",
       "玩具",
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.2,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

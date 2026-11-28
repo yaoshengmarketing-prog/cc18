@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "DLDSS-549",
-  "review_sha256": "9325ad559e43bec11e478011fc72d05d5ee1f00398af7bc5ea3fa3becf60868d",
-  "selected_thesis": "來源資料可確認本作以「拜託妳」作為主要作品線索。",
+  "review_sha256": "70581e93776748fd404688bc8edd02e548faeff88e7e43d847a426c07c91dd3f",
+  "selected_thesis": "妻子以為關係平穩，丈夫卻提出讓自己的部下吉野介入，並希望妻子在場上與他保持視線及握手。",
   "title_basis": {
     "performer": "石田紗季",
     "signals": [
@@ -27,9 +27,9 @@
         "source_field": "safe_signals"
       }
     ],
-    "primary_theme": "石田紗季",
+    "primary_theme": "婚姻中的請求與旁觀",
     "presentation_feature": "拜託妳",
-    "editorial_judgment": "來源資料可確認本作以「拜託妳」作為主要作品線索。",
+    "editorial_judgment": "妻子以為關係平穩，丈夫卻提出讓自己的部下吉野介入，並希望妻子在場上與他保持視線及握手。",
     "source_keywords": [
       "石田紗季",
       "拜託妳",
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.3,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 9,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

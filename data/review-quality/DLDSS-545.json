@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "DLDSS-545",
-  "review_sha256": "abfdb4709eefce5057679e3455ea334a07bc3006a8388369ab104ca4749cd03d",
-  "selected_thesis": "來源資料可確認本作以「人妻女教師」作為主要作品線索。",
+  "review_sha256": "94fc401cd36e952c20b222e6d02baaa741a663f4072dd42a5b9cb37060d180d6",
+  "selected_thesis": "想找具有教師職責、校園人際壓力與雙演員配置的讀者，可從這組人物位置辨認本作。",
   "title_basis": {
     "performer": "花守夏步、角奈保",
     "signals": [
@@ -27,9 +27,9 @@
         "source_field": "series"
       }
     ],
-    "primary_theme": "花守夏步",
+    "primary_theme": "教師保護學生的兩人故事",
     "presentation_feature": "人妻女教師",
-    "editorial_judgment": "來源資料可確認本作以「人妻女教師」作為主要作品線索。",
+    "editorial_judgment": "想找具有教師職責、校園人際壓力與雙演員配置的讀者，可從這組人物位置辨認本作。",
     "source_keywords": [
       "花守夏步",
       "人妻女教師",
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.1,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 7,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

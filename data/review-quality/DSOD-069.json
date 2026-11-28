@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "DSOD-069",
-  "review_sha256": "a89ba047c2fbe6947b331c73e6d05f6cce59f0458da39d62801f703f37677ce7",
-  "selected_thesis": "來源資料可確認本作以「響蓮」作為主要作品線索。",
+  "review_sha256": "47f86f1de07851c31740800baac64bce4ffadffd45c5ba60613da685fb039427",
+  "selected_thesis": "這些條件讓「無法離開的空間」和上下級職務關係同時成為故事壓力。",
   "title_basis": {
     "performer": "響蓮",
     "signals": [
@@ -27,9 +27,9 @@
         "source_field": "safe_signals"
       }
     ],
-    "primary_theme": "響蓮",
+    "primary_theme": "豪雨出差與上司同房",
     "presentation_feature": "出張先で集中豪雨 嫌いな上司の前でまさか酔い潰れ…突然の相部",
-    "editorial_judgment": "來源資料可確認本作以「響蓮」作為主要作品線索。",
+    "editorial_judgment": "這些條件讓「無法離開的空間」和上下級職務關係同時成為故事壓力。",
     "source_keywords": [
       "響蓮",
       "出張先で集中豪雨 嫌いな上司の前でまさか酔い潰れ…突然の相部",
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.3,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 9,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z",

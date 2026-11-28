@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "FCDSS-117",
-  "review_sha256": "db78644990fb70aeb25b00d01c103fc4400a41bf2d526fe6cbe0d0c1357ca7ec",
-  "selected_thesis": "來源資料可確認本作以「faleno総集編」作為主要作品線索。",
+  "review_sha256": "b8b748f86f6e1ff57657288f6729a01c82b78c407fdd7ba7db34d7b369743049",
+  "selected_thesis": "簡介提到競泳、啦啦隊與網球等造型，並以十五場、四小時作宣傳；正式資料欄沒有獨立片長，不應把宣傳時數直接升格為經核實的規格。",
   "title_basis": {
     "performer": "天使萌、吉高寧寧、美乃雀、桃尻かなめ、沙月恵奈、逢月日葵、凰華鈴、本郷愛（二階堂夢）",
     "signals": [
@@ -27,9 +27,9 @@
         "source_field": "actress"
       }
     ],
-    "primary_theme": "天使萌",
+    "primary_theme": "運動制服主題總集篇",
     "presentation_feature": "吉高寧寧",
-    "editorial_judgment": "來源資料可確認本作以「faleno総集編」作為主要作品線索。",
+    "editorial_judgment": "簡介提到競泳、啦啦隊與網球等造型，並以十五場、四小時作宣傳；正式資料欄沒有獨立片長，不應把宣傳時數直接升格為經核實的規格。",
     "source_keywords": [
       "天使萌",
       "吉高寧寧",
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.1,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 7,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

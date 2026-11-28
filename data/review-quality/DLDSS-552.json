@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "DLDSS-552",
-  "review_sha256": "aa53f3e7f7ed110c3bc89b90ff5bef36a57e04c5adf7f7092aba57fccadf0eca",
-  "selected_thesis": "來源資料可確認本作以「小沢菜穂」作為主要作品線索。",
+  "review_sha256": "5d3338b6a296dcdc1dbf2dcf91d73e8fea3e2538ecf2142654c3baf7c9288839",
+  "selected_thesis": "她長期聽到同事對自己缺乏魅力的評語，後來在朋友建議下使用社群媒體，因網路回應重新感到被看見。",
   "title_basis": {
     "performer": "小澤菜穗",
     "signals": [
@@ -27,9 +27,9 @@
         "source_field": "safe_signals"
       }
     ],
-    "primary_theme": "小澤菜穗",
+    "primary_theme": "社群回應與自我認同",
     "presentation_feature": "小沢菜穂",
-    "editorial_judgment": "來源資料可確認本作以「小沢菜穂」作為主要作品線索。",
+    "editorial_judgment": "她長期聽到同事對自己缺乏魅力的評語，後來在朋友建議下使用社群媒體，因網路回應重新感到被看見。",
     "source_keywords": [
       "小澤菜穗",
       "小沢菜穂",
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.3,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 9,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

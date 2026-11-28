@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "DOKS-692",
-  "review_sha256": "09ab6a0661e24dbef2e33f529444b50d2e89b6287933589e8978e0206e4377a6",
-  "selected_thesis": "來源資料可確認本作以「結果讓她漏尿高潮了這件事」作為主要作品線索。",
+  "review_sha256": "fee63b819e85f16ec0599196ad971ff46b50d1374dab22fdb5a78769cae36ead",
+  "selected_thesis": "敘事視角把她描述成「好欺負」，隨後出現男性強勢接近的情節；這是需要清楚標示的非自願風險，不能把壓迫說成浪漫追求。",
   "title_basis": {
     "performer": null,
     "signals": [
@@ -27,9 +27,9 @@
         "source_field": "safe_signals"
       }
     ],
-    "primary_theme": "結果讓她漏尿高潮了這件事",
+    "primary_theme": "眼鏡女性友人與界線衝突",
     "presentation_feature": "高畫質",
-    "editorial_judgment": "來源資料可確認本作以「結果讓她漏尿高潮了這件事」作為主要作品線索。",
+    "editorial_judgment": "敘事視角把她描述成「好欺負」，隨後出現男性強勢接近的情節；這是需要清楚標示的非自願風險，不能把壓迫說成浪漫追求。",
     "source_keywords": [
       "結果讓她漏尿高潮了這件事",
       "高畫質",
@@ -84,7 +84,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.1,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 7,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-03T16:00:00.000Z"

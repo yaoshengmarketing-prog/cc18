@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "DSOD-074",
-  "review_sha256": "41272510bd81a96ee260efabadb5a7341b00a413f105f5275c72b4b9dab2e777",
-  "selected_thesis": "來源資料可確認本作以「悶熱」作為主要作品線索。",
+  "review_sha256": "1526047863099a6bdbfd8ad1a49e6c2d0cda5589eb4e356672a3ee3d443f4194",
+  "selected_thesis": "它和上司、夫妻或熟人劇情不同，主要讓讀者從環境條件與企劃呈現方式選片。",
   "title_basis": {
     "performer": "姫咲華",
     "signals": [
@@ -27,9 +27,9 @@
         "source_field": "safe_signals"
       }
     ],
-    "primary_theme": "姫咲華",
+    "primary_theme": "酷暑房間的紀錄片宣傳",
     "presentation_feature": "悶熱",
-    "editorial_judgment": "來源資料可確認本作以「悶熱」作為主要作品線索。",
+    "editorial_judgment": "它和上司、夫妻或熟人劇情不同，主要讓讀者從環境條件與企劃呈現方式選片。",
     "source_keywords": [
       "姫咲華",
       "悶熱",
@@ -96,7 +96,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.1,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 7,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-20T16:00:00.000Z"
