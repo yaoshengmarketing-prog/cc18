@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-475",
+  "review_sha256": "6d2f84f2b1741a1b36099e9ae98c9dfb8e068d7011f420f61be16502f7ec8ce2",
+  "selected_thesis": "這部作品的選片線索是村上悠華飾演主動捉弄後輩的前輩；相較之下，關聯作品以她接受 AI 設計的挑戰為賣點。差異在人物關係與企劃設定，不能據此判斷成片表現。",
+  "title_basis": {
+    "performer": "村上悠華",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "村上悠華",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "雖然很窩囊但還是勃起了",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "村上悠華",
+    "presentation_feature": "雖然很窩囊但還是勃起了",
+    "editorial_judgment": "以同演員作品作對照，指出本作的重心是前輩與後輩的互動設定，而非關聯作品所主打的 AI 挑戰企劃。",
+    "source_keywords": [
+      "村上悠華",
+      "雖然很窩囊但還是勃起了",
+      "美少女設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介設定村上悠華為打工地點的前輩，並以後輩的第一人稱描述她反覆捉弄、挑逗後輩。",
+      "supports": "本作的宣傳重心是職場中的人物關係，以及前輩主動、後輩被動的互動。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "關聯作品來源簡介以 AI 設計挑戰、村上悠華接受挑戰為企劃設定。",
+      "supports": "同演員兩作提供了可核對的設定差異，但不足以比較實際表演或成片品質。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "村上悠華的真實職場經歷或個性",
+    "片中的實際畫面、聲音、台詞與節奏",
+    "兩部作品的表演或製作品質高低",
+    "兩部作品屬於同一系列"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

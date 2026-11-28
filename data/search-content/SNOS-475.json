@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "movie_id": "SNOS-475",
+  "generated_at": "2026-11-28T08:43:07.946Z",
+  "source_snapshot_hash": "sha256:9c7748ea82b2c734187f4e261d222f8c9ea742396f021a8295fec1601b82e1e5",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看村上悠華置身前輩與後輩的角色關係，可從本作的公開設定入手；想看企劃式挑戰設定，關聯作品的宣傳方向更接近。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "後輩視角的打工場所設定，重點是愛捉弄人的前輩與被動後輩之間的拉扯。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "SNOS-387",
+      "relation_type": "same_performer",
+      "reason": "同樣由村上悠華出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "村上悠華"
+      ],
+      "contrast_signals": [
+        "AV女優片",
+        "アクメ・オーガズム"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "村上悠華在本作的公開設定中扮演什麼角色？",
+    "本作與同演員關聯作品的企劃重心有何不同？",
+    "這項差異能提供什麼選片線索？"
+  ]
+}

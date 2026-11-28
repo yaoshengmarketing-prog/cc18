@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:207a4ea77c7f07755f3ba80918c749d3d3766aaf5fba25c9fa27bc394e237100",
-  "source_generated_at": "2026-11-28T08:39:16.378Z",
+  "source_revision": "sha256:1d9f3f23689025b9803295e474faab5efe85cd0ec576bd333083ffa7e564daf7",
+  "source_generated_at": "2026-11-28T08:49:18.960Z",
   "counts": {
-    "movies": 632,
+    "movies": 633,
     "performers": 423,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
@@ -1887,7 +1887,8 @@
       "source_name": "村上悠華",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:SNOS-387"
+        "cc18:SNOS-387",
+        "cc18:SNOS-475"
       ]
     },
     {
@@ -5189,6 +5190,79 @@
         "article_title": "從便利商店的關係戲，轉向親密接觸的節奏",
         "display_short_title": "倉木華的慢速挑逗",
         "slug": "snos-470"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SNOS-475",
+        "source_cover": "https://cc18.tv/preview/80/b/m0521Ira726-800.jpg?v=1795156672",
+        "title": "村上悠華的打工前輩",
+        "catalog_code": "SNOS-475",
+        "release_date": "2026-11-20",
+        "performers": [
+          "村上悠華"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "cowgirl-position",
+            "label": "騎乘位"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "kissing",
+            "label": "親吻互動"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/snos-475/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:28669"
+      ],
+      "search": {
+        "source_title": "打工的前輩總是愛開玩笑地對我進行逆性騷擾！雖然很窩囊但還是勃起了，結果被她弄到不斷射精的我。 村上悠華",
+        "source_tags": [
+          "AV女優片",
+          "口交",
+          "騎乘位",
+          "癡女",
+          "美少女",
+          "親吻",
+          "720p",
+          "独占配信",
+          "HD",
+          "4k"
+        ],
+        "article_title": "村上悠華從接受挑戰，變成愛捉弄人的前輩",
+        "display_short_title": "村上悠華的打工前輩",
+        "slug": "snos-475"
       }
     },
     {

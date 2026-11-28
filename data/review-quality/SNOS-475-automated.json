@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "id": "SNOS-475",
+  "checked_at": "2026-11-28T08:47:11.209Z",
+  "review_sha256": "a6ed63801436211006d48df68f41e35e6a2894e999ee852cface4888d79fbfe1",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "reader_facing_production_meta",
+    "title_lacks_source_core_concept",
+    "missing_creative_reconstruction_audit",
+    "insufficient_presentation_signals"
+  ],
+  "findings": [
+    {
+      "code": "reader_facing_production_meta",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "CONTENT_QUALITY_WARNING",
+      "locations": [
+        {
+          "paragraph": 5,
+          "excerpt": "同樣由村上悠華演出的關聯作品，公開簡介主打 AI 為她設計挑戰；本作則讓她成為推動互動的前輩。前者邀請讀者關注企劃會如何對待演員，後者先建立角色之間的拉扯。這是兩份簡介能支持的設定差異，也足以讓選片理由分開。"
+        }
+      ]
+    },
+    {
+      "code": "title_lacks_source_core_concept",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_presentation_signals",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 3,
+    "evidence_items": 2,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 3,
+    "recommendations": 1
+  }
+}
