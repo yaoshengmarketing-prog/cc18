@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "movie_id": "MVSD-709",
+  "generated_at": "2026-11-28T08:05:30.656Z",
+  "source_snapshot_hash": "sha256:63a58960a15a67b162b0e04b95aca991c777322523b289d0433dd70230975c18",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "選片差異在情節起點：本作先寫角色的期待，MVSD-708 則先寫丈夫欠債後引發的報復。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以人妻角色的期待帶出成人題材；公開簡介同時包含強迫情節。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MVSD-708",
+      "relation_type": "same_performer",
+      "reason": "同樣由深雪しおり出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "深雪しおり"
+      ],
+      "contrast_signals": [
+        "深雪詩織",
+        "人妻・主婦"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作與同演員的 MVSD-708 在設定上有何差別？",
+    "這項差別能提供什麼選片線索？"
+  ]
+}

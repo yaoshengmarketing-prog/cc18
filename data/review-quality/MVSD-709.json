@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "MVSD-709",
+  "review_sha256": "564e4093088b58334e9a127f284063bd48b5c4ebb9d7b43c1de51282cb570139",
+  "selected_thesis": "本作以角色盼望嘗試肛交作為情節起點；同演員的 MVSD-708 則從丈夫留下債務、下屬報復展開。兩種設定提供了不同的選片線索，但不能據此判斷成片表現。",
+  "title_basis": {
+    "performer": "深雪しおり",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "深雪しおり",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "這位貴婦人__肛門狂熱",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "深雪しおり",
+    "presentation_feature": "這位貴婦人__肛門狂熱",
+    "editorial_judgment": "比較同演員兩作的情節起點，說明角色的期待與外來報復如何形成不同的選片線索；不將宣傳設定當成成片評價。",
+    "source_keywords": [
+      "深雪しおり",
+      "這位貴婦人__肛門狂熱",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作公開簡介以人妻長期想嘗試肛交、當天終於如願作為開端。",
+      "supports": "本作的主要情節動機由角色的期待帶出。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "關聯作品 MVSD-708 的公開簡介以丈夫欠債離去、下屬向妻子報復作為開端；兩作同樣由深雪しおり演出。",
+      "supports": "兩作雖共享演員與人妻設定，情節起點仍有具體差異。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作來源標有「強迫口交」，簡介也包含強迫情節。",
+      "supports": "角色對某項嘗試的期待，不能概括為她對整段情節的同意。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不將深雪しおり的角色設定寫成演員本人經歷。",
+    "不推論兩作的實際表演、畫面、節奏或成片品質。",
+    "不把角色對某項嘗試的期待延伸為對所有情節的同意。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}
