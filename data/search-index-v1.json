@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:8a3c4dd5027d3dc7bad050d91e8640e71e2f71b09272389be3c9ee29994c2e9c",
-  "source_generated_at": "2026-11-27T11:33:23.740Z",
+  "source_revision": "sha256:b8a5db7a0fe62345797da2468f5553b2a2823de475b8a8a5a7a1613ec1edb976",
+  "source_generated_at": "2026-11-28T07:19:10.217Z",
   "counts": {
-    "movies": 623,
-    "performers": 420,
+    "movies": 624,
+    "performers": 421,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -2292,6 +2292,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:DOKS-690"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:30958",
+      "display_name": "花里アカリ",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "花里アカリ",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:HNMG-003"
       ]
     },
     {
@@ -4912,6 +4923,66 @@
     }
   ],
   "movies": [
+    {
+      "card": {
+        "stable_movie_id": "cc18:HNMG-003",
+        "source_cover": "https://cc18.tv/preview/80/b/BlYi3HCnFeM-800.jpg?v=1795509435",
+        "title": "搭訕標籤之外的設定",
+        "catalog_code": "HNMG-003",
+        "release_date": "2026-11-24",
+        "performers": [
+          "花里アカリ"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "creampie",
+            "label": "中出題材"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "oral-sex",
+            "label": "口交題材"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/hnmg-003/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:30958"
+      ],
+      "search": {
+        "source_title": "【本中配信限定】 能請我喝一杯（安眠藥＋春藥）嗎？ 美少女限定睡眠強暴迷姦內射 花里明里",
+        "source_tags": [
+          "中出",
+          "AV女優片",
+          "口交",
+          "美少女",
+          "惡作劇",
+          "搭訕",
+          "720p",
+          "独占配信",
+          "HD"
+        ],
+        "article_title": "從搭訕到投藥：標籤沒有說完的情節",
+        "display_short_title": "搭訕標籤之外的設定",
+        "slug": "hnmg-003"
+      }
+    },
     {
       "card": {
         "stable_movie_id": "cc18:ABF-398",

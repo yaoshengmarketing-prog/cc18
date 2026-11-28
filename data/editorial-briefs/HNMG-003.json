@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "id": "HNMG-003",
+  "generated_at": "2026-11-28T07:12:22.606Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/HNMG-003.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "本中配信限定",
+    "premise": "作品以「本中配信限定」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「本中配信限定」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "本中配信限定",
+      "花里明里",
+      "美少女"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "美少女"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "口交"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "標籤寫著「搭訕」與「惡作劇」，這部作品的公開簡介實際設定了什麼？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=BlYi3HCnFeM&cat=19",
+      "supports": "已提供的來源快照列出作品標題、花里アカリ、片商本中、標籤與公開簡介；外部頁面未能開啟，未將搜尋結果視為頁面內容。"
+    }
+  ],
+  "angle_candidates": [
+    "比較題材標籤與公開簡介，釐清選片時最需要知道的設定",
+    "從配信限定標示切入，但現有資料不足以說明發行安排",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "「搭訕」與「惡作劇」只概括了接近對方的開端；公開簡介的核心是欺騙、投藥與失去同意能力後的性侵害設定。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "花里アカリ",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "本中配信限定",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "美少女設定",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "花里アカリ的街頭搭訕與藥物性侵設定",
+  "display_short_title": "搭訕標籤之外的設定",
+  "title": "從搭訕到投藥：標籤沒有說完的情節",
+  "seo_title": "HNMG-003｜花里アカリ：搭訕標籤之外的藥物性侵設定",
+  "social_title": "看 HNMG-003 前，先釐清「惡作劇」標籤之外的設定",
+  "short_review": "本中的公開簡介以街頭接近、冒稱網路創作者作為開端，隨後明確轉向灌醉、投藥與性侵害。「搭訕」「惡作劇」不足以讓讀者預期這個題材；選片時應以簡介揭露的侵害設定為準。",
+  "editorial_angle": "用標籤與簡介的具體落差協助選片：開端是街頭搭訕，主要衝突則是藥物造成無法同意的情境。這是對公開設定的判讀，不評斷成片表現。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標籤列有「搭訕」與「惡作劇」",
+      "supports": "這兩個標籤能描述接近對方的方式，無法單獨概括後續設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介寫到冒稱網路創作者、灌醉與在飲料中摻藥，並將後續行為描述為性侵害",
+      "supports": "公開設定的關鍵是欺騙及對方失去同意能力，而非一般的搭訕互動。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "實際鏡頭、表演、聲音、台詞與節奏",
+    "花里アカリ的個人經歷",
+    "與其他本中作品的風格或品質比較",
+    "配信限定的具體發行條件"
+  ],
+  "decision_guide": {
+    "thesis": "以公開簡介揭露的藥物性侵設定判斷是否選片，不能只看「搭訕」「惡作劇」標籤。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源文案先寫街頭接近，再寫欺騙、灌醉與投藥；這是宣傳敘述的順序，並非已核實的成片"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "「搭訕」「惡作劇」是否足以概括作品？不足以概括。",
+      "公開簡介的關鍵設定是什麼？欺騙、投藥與失去同意能力後的性侵害。"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "標籤從搭訕說起，簡介卻走得更遠",
+      "body": "來源標籤把這部作品放在「搭訕」與「惡作劇」之下；公開簡介則寫到冒稱網路創作者接近路人，接著灌醉、投藥，並將後續行為描述為性侵害。兩者的差別很具體：標籤指向接觸方式，簡介揭露的卻是對方無法同意時遭到侵害的設定。"
+    },
+    {
+      "heading": "選片時，應以哪個訊號為準？",
+      "body": "若只憑「惡作劇」想像輕鬆的整人情節，這份簡介會帶來明顯落差。對想避開投藥或性侵害題材的讀者，簡介比標籤更有判斷力；對正在找花里アカリ作品的讀者，這也是確認題材能否接受的第一步。現有資料只能支持這項設定判斷，不能據此推論成片的敘事或表演品質。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據已提供的 CC18 作品來源快照，核對標題、演員、片商、標籤與公開簡介：https://cc18.tv/player.php?uuid=BlYi3HCnFeM&cat=19 。外部頁面未能開啟，也沒有影片抽樣；標籤與簡介的選片意義是編輯判斷。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "aed2f6c41c00de39dae3e98c0b1fe1236156ab166e400b8884cde35b218d6992",
+    "response_sha256": "8356c3a0a8d7a03a6a05958164d3ec0b6ebf32dbeb46d4fea7e5022ad2778e23",
+    "research_input_sha256": "91756b1363e6964a854b940d7bb82d438af4ab44a5a1a9aadd1c481380c42725",
+    "related_source_ids": []
+  }
+}

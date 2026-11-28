@@ -528,17 +528,18 @@
     },
     {
       "label": "惡作劇",
-      "occurrences": 6,
+      "occurrences": 7,
       "source_ids": [
         "SNOS-345",
         "MUDR-397",
         "SNOS-393",
         "SNOS-347",
         "DSOD-054",
-        "DSOD-096"
+        "DSOD-096",
+        "HNMG-003"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-28",
       "status": "quarantined"
     },
     {
@@ -2675,7 +2676,7 @@
     },
     {
       "label": "搭訕",
-      "occurrences": 12,
+      "occurrences": 13,
       "source_ids": [
         "SKMJ-786",
         "SKMJ-788",
@@ -2688,10 +2689,11 @@
         "ORECZ-691",
         "ORECZ-666",
         "HNHU-217",
-        "HEYZO-3969"
+        "HEYZO-3969",
+        "HNMG-003"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-28",
       "status": "quarantined"
     },
     {

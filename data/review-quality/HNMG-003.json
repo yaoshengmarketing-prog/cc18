@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "HNMG-003",
+  "review_sha256": "4119c21da7cf2db622685228cc462fdf2af45e0468bb77eb5d731d065e4d6508",
+  "selected_thesis": "「搭訕」與「惡作劇」只概括了接近對方的開端；公開簡介的核心是欺騙、投藥與失去同意能力後的性侵害設定。",
+  "title_basis": {
+    "performer": "花里アカリ",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "花里アカリ",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "本中配信限定",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "花里アカリ",
+    "presentation_feature": "本中配信限定",
+    "editorial_judgment": "用標籤與簡介的具體落差協助選片：開端是街頭搭訕，主要衝突則是藥物造成無法同意的情境。這是對公開設定的判讀，不評斷成片表現。",
+    "source_keywords": [
+      "花里アカリ",
+      "本中配信限定",
+      "美少女設定",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標籤列有「搭訕」與「惡作劇」",
+      "supports": "這兩個標籤能描述接近對方的方式，無法單獨概括後續設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介寫到冒稱網路創作者、灌醉與在飲料中摻藥，並將後續行為描述為性侵害",
+      "supports": "公開設定的關鍵是欺騙及對方失去同意能力，而非一般的搭訕互動。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "實際鏡頭、表演、聲音、台詞與節奏",
+    "花里アカリ的個人經歷",
+    "與其他本中作品的風格或品質比較",
+    "配信限定的具體發行條件"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

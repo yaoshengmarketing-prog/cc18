@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "HNMG-003",
+  "generated_at": "2026-11-28T07:12:23.338Z",
+  "source_snapshot_hash": "sha256:aed2f6c41c00de39dae3e98c0b1fe1236156ab166e400b8884cde35b218d6992",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "以公開簡介揭露的藥物性侵設定判斷是否選片，不能只看「搭訕」「惡作劇」標籤。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源文案先寫街頭接近，再寫欺騙、灌醉與投藥；這是宣傳敘述的順序，並非已核實的成片"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "「搭訕」「惡作劇」是否足以概括作品？不足以概括。",
+    "公開簡介的關鍵設定是什麼？欺騙、投藥與失去同意能力後的性侵害。"
+  ]
+}
