@@ -116,6 +116,7 @@ test('production canary accepts one work and excludes generated shared projectio
   assert.throws(() => assertSingleWorkRequest({max: 1, requestedIds: ['A-001', 'B-001']}), /at most one/u);
   const paths = checkpointArtifactPaths('NEW-001');
   assert.deepEqual(paths.filter((path) => !path.includes('NEW-001') && !path.includes('new-001')), [
+    'data/editorial-exclusions/auto-review.md',
     'data/movie-registry.json',
     'data/tag-candidates.json',
   ]);

@@ -77,6 +77,8 @@ export const checkpointArtifactPaths = (movieId) => {
   return [
     `content/reviews/${id}.md`,
     `data/editorial-briefs/${id}.json`,
+    `data/editorial-exclusions/${id}.json`,
+    'data/editorial-exclusions/auto-review.md',
     `data/editorial-usage/${id}.json`,
     `data/image-briefs/${id}.json`,
     `data/media-manifests/${id}.json`,
@@ -90,7 +92,7 @@ export const checkpointArtifactPaths = (movieId) => {
   ];
 };
 
-const sharedCheckpointPaths = new Set(['data/movie-registry.json', 'data/tag-candidates.json']);
+const sharedCheckpointPaths = new Set(['data/editorial-exclusions/auto-review.md', 'data/movie-registry.json', 'data/tag-candidates.json']);
 
 const gitPaths = ({root, args}) => git({root, args})
   .split(/\r?\n/u)
