@@ -965,7 +965,7 @@
     },
     {
       "label": "寝取り・寝取られ・ntr",
-      "occurrences": 75,
+      "occurrences": 76,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -1041,10 +1041,11 @@
         "DSOD-136",
         "MIAB-681",
         "FNS-267",
-        "NACT-187"
+        "NACT-187",
+        "DSOD-118"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-28",
       "status": "quarantined"
     },
     {
@@ -2364,7 +2365,7 @@
     },
     {
       "label": "寢取・被寢取",
-      "occurrences": 60,
+      "occurrences": 61,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -2425,7 +2426,8 @@
         "MIAB-681",
         "ZOOO-311",
         "NACT-187",
-        "EROFV-400"
+        "EROFV-400",
+        "DSOD-118"
       ],
       "first_seen": "2026-09-10",
       "last_seen": "2026-11-28",
@@ -2433,7 +2435,7 @@
     },
     {
       "label": "NTR",
-      "occurrences": 56,
+      "occurrences": 57,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -2490,10 +2492,11 @@
         "NGOD-370",
         "DSOD-136",
         "MIAB-681",
-        "NACT-187"
+        "NACT-187",
+        "DSOD-118"
       ],
       "first_seen": "2026-09-10",
-      "last_seen": "2026-11-16",
+      "last_seen": "2026-11-28",
       "status": "quarantined"
     },
     {
@@ -2836,7 +2839,7 @@
     },
     {
       "label": "讓她生",
-      "occurrences": 8,
+      "occurrences": 9,
       "source_ids": [
         "DSOD-060",
         "BONY-207",
@@ -2845,10 +2848,11 @@
         "FJIN-171",
         "YST-360",
         "NHDTC-234",
-        "CAWB-019"
+        "CAWB-019",
+        "DSOD-118"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-28",
       "status": "quarantined"
     },
     {
@@ -3500,13 +3504,14 @@
     },
     {
       "label": "時間停止",
-      "occurrences": 2,
+      "occurrences": 3,
       "source_ids": [
         "HUNTC-592",
-        "DSOD-136"
+        "DSOD-136",
+        "DSOD-118"
       ],
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-28",
       "status": "quarantined"
     },
     {

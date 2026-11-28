@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-118",
+  "generated_at": "2026-11-28T09:13:05.855Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/DSOD-118.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "木下日葵",
+    "premise": "作品以「木下日葵」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「木下日葵」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "木下日葵",
+      "時間停止",
+      "NTR"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由木下日葵演出，本作與《ADN-813》如何用人物關係建立不同的選片期待？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=wDXhQh_SFcd&cat=19",
+      "supports": "本作來源標題、簡介與標籤提供前妻外遇、離婚、半年後取得一次性超常能力，以及時間停止與復仇的設定。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=5mK6N29h86&cat=19",
+      "supports": "經人物關係核對的《ADN-813》來源快照顯示，木下日葵演出的角色是主角逐漸親近的鄰居。"
+    }
+  ],
+  "angle_candidates": [
+    "一次性能力如何把離婚後的反擊變成故事核心",
+    "同一演員從鄰居關係到前妻復仇設定的選片差異",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作的辨識點是離婚半年後才出現的時間停止能力：它服務於健一對前妻日葵與和夫的反擊，與《ADN-813》從鄰居往來展開的關係設定有明確區別。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "木下日葵（花澤日葵）",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "木下日葵",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "木下日葵的時間停止復仇",
+  "display_short_title": "時間停止的離婚復仇",
+  "title": "離婚半年後，時間停止為何才登場？",
+  "seo_title": "DSOD-118｜木下日葵的時間停止復仇設定",
+  "social_title": "木下日葵這次演前妻：復仇從離婚半年後開始",
+  "short_review": "公開簡介先交代日葵外遇、離婚與健一失意的半年，再讓一次性超常能力啟動反擊。想找明確復仇設定的讀者，可從這條因果線判斷是否合口味。",
+  "editorial_angle": "以同演員作品作對照，說明本作如何用前妻、離婚後的時間間隔與一次性能力，建立不同於鄰居日常關係的選片理由。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介交代日葵外遇並提出離婚，健一在半年後取得一次性超常能力，向日葵與和夫反擊；來源標題及標籤標示時間停止。",
+      "supports": "復仇的起點設在關係破裂之後，時間停止是反擊設定的一部分。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "《ADN-813》的來源簡介以主角與鄰居日葵因偶然契機逐漸親近為開端。",
+      "supports": "同樣由木下日葵演出，兩作建立人物關係的方式不同，可供讀者按題材選片。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "時間停止在成片中的使用次數與呈現方式",
+    "角色實際表演、畫面、聲音及節奏",
+    "由宣傳設定推斷成片品質"
+  ],
+  "decision_guide": {
+    "thesis": "本作適合想看離婚後反擊與時間停止設定如何結合的讀者。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介先建立外遇與離婚的前因，再以半年後取得的一次性能力引出復仇。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作的復仇從什麼關係變化開始？",
+      "它與木下日葵演出的《ADN-813》有何設定差異？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "反擊沒有緊接著離婚發生",
+      "body": "本作簡介先寫日葵與和夫外遇，接著提出離婚；健一取得超常能力，已是半年後。這段間隔讓時間停止不只是片名裡的奇招，而是健一在關係破裂後展開反擊的轉折。來源也把能力設定為一次性使用，替這場復仇加上一個明確限制。"
+    },
+    {
+      "heading": "同樣由木下日葵演出，關係起點卻不同",
+      "body": "《ADN-813》的簡介從主角與鄰居日葵逐漸親近寫起，重點是兩人如何開始往來。本作則從前妻、外遇與離婚切入，讓讀者先理解健一為何要反擊。若你選片時在意人物關係的方向，兩份簡介給出的期待很不同：一部從接近開始，一部從決裂之後開始。這是設定差異，不能據此判斷哪部成片更好。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據已核對的<a href=\"https://cc18.tv/player.php?uuid=wDXhQh_SFcd&amp;cat=19\">本作來源資料</a>與<a href=\"https://cc18.tv/player.php?uuid=5mK6N29h86&amp;cat=19\">《ADN-813》來源資料</a>。比較限於公開標題、簡介及人物關係；未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "a6c707e3dfe9cd78ff58b039efd8210504497e9b86110ecec9bea88adaf9a1f1",
+    "response_sha256": "0f01350d7341b7260c6de2c75c2fe8e9408d110f4331adc488c8aa450ea1f644",
+    "research_input_sha256": "7b7cb5100528ca5a015466bd0f9c36cf2b3b039320d4ac3e9585c4ffe27b78c5",
+    "related_source_ids": [
+      "ADN-813",
+      "ATID-710",
+      "ROYD-350",
+      "MKMP-758"
+    ]
+  }
+}

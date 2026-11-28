@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "movie_id": "DSOD-118",
+  "generated_at": "2026-11-28T09:13:06.384Z",
+  "source_snapshot_hash": "sha256:a6c707e3dfe9cd78ff58b039efd8210504497e9b86110ecec9bea88adaf9a1f1",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "本作適合想看離婚後反擊與時間停止設定如何結合的讀者。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介先建立外遇與離婚的前因，再以半年後取得的一次性能力引出復仇。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MKMP-758",
+      "relation_type": "same_performer",
+      "reason": "同樣由木下日葵（花澤日葵）出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "木下日葵（花澤日葵）"
+      ],
+      "contrast_signals": [
+        "篠田優",
+        "濱崎真緒"
+      ]
+    },
+    {
+      "movie_id": "ROYD-350",
+      "relation_type": "same_performer",
+      "reason": "同樣由木下日葵（花澤日葵）出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "木下日葵（花澤日葵）"
+      ],
+      "contrast_signals": [
+        "両リーグ性覇",
+        "中出"
+      ]
+    },
+    {
+      "movie_id": "ATID-710",
+      "relation_type": "same_performer",
+      "reason": "同樣由木下日葵（花澤日葵）出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "木下日葵（花澤日葵）"
+      ],
+      "contrast_signals": [
+        "沒想到內褲竟然透出來了",
+        "部下・同僚"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作的復仇從什麼關係變化開始？",
+    "它與木下日葵演出的《ADN-813》有何設定差異？"
+  ]
+}

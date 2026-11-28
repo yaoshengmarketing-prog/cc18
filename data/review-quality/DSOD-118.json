@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-118",
+  "review_sha256": "7a02c3848d38009a84b1f314359a3d1ee9eabb81a06ebb396970a3b61c92bb7a",
+  "selected_thesis": "本作的辨識點是離婚半年後才出現的時間停止能力：它服務於健一對前妻日葵與和夫的反擊，與《ADN-813》從鄰居往來展開的關係設定有明確區別。",
+  "title_basis": {
+    "performer": "木下日葵（花澤日葵）",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "木下日葵（花澤日葵）",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "木下日葵",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "木下日葵（花澤日葵）",
+    "presentation_feature": "木下日葵",
+    "editorial_judgment": "以同演員作品作對照，說明本作如何用前妻、離婚後的時間間隔與一次性能力，建立不同於鄰居日常關係的選片理由。",
+    "source_keywords": [
+      "木下日葵（花澤日葵）",
+      "木下日葵",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介交代日葵外遇並提出離婚，健一在半年後取得一次性超常能力，向日葵與和夫反擊；來源標題及標籤標示時間停止。",
+      "supports": "復仇的起點設在關係破裂之後，時間停止是反擊設定的一部分。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "《ADN-813》的來源簡介以主角與鄰居日葵因偶然契機逐漸親近為開端。",
+      "supports": "同樣由木下日葵演出，兩作建立人物關係的方式不同，可供讀者按題材選片。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "時間停止在成片中的使用次數與呈現方式",
+    "角色實際表演、畫面、聲音及節奏",
+    "由宣傳設定推斷成片品質"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}
