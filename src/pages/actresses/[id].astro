@@ -4,18 +4,25 @@ import MovieCardV1 from '../../components/MovieCardV1.astro';
 import {loadPerformerCatalog} from '../../lib/performer-catalog.mjs';
 
 interface SearchableAlias {name: string; type: string;}
+interface CoPerformer {stable_performer_id: string; name: string; href: string; count: number;}
+interface FrequentStudio {source_id: string; name: string; href: string; count: number;}
+interface TimelineWork {catalog_code: string; release_date: string | null; href: string; title: string;}
 interface PerformerPageRecord {
   stable_performer_id: string;
   route_segment: string;
   href: string;
   primary_display_name: string;
   metadata_identity_label: string;
-  name_ja: string;
+  name_ja: string | null;
+  display_name_zh_tw: string | null;
   source_name: string;
   searchable_aliases: SearchableAlias[];
   schema_alternate_names: string[];
   public_work_count: number;
   public_works: PublicWorkCard[];
+  co_performers: CoPerformer[];
+  frequent_studios: FrequentStudio[];
+  timeline: TimelineWork[];
   index_decision: 'INDEX_READY' | 'NOINDEX_THIN';
 }
 interface PublicWorkCard {
@@ -92,7 +99,8 @@ const structuredData = [
       <h1>{performer.primary_display_name}</h1>
       <p class="performer-stable-id"><span>Stable actor ID</span><code>{performer.stable_performer_id}</code></p>
       <dl class="performer-names">
-        <div><dt>日文原名</dt><dd lang="ja">{performer.name_ja}</dd></div>
+        {performer.name_ja && <div><dt>日文原名</dt><dd lang="ja">{performer.name_ja}</dd></div>}
+        {performer.display_name_zh_tw && <div><dt>繁中名稱</dt><dd>{performer.display_name_zh_tw}</dd></div>}
         <div><dt>來源名稱</dt><dd>{performer.source_name}</dd></div>
       </dl>
     </header>
@@ -110,6 +118,23 @@ const structuredData = [
         </dl>
       </section>
     )}
+
+    {performer.co_performers.length > 0 && <section class="performer-relations" aria-labelledby="performer-co-title">
+      <h2 id="performer-co-title">本站收錄共演</h2>
+      <p>依本站已發布作品計算，同一作品中出現的演員：</p>
+      <ul>{performer.co_performers.map((person) => <li><a href={person.href} data-performer-id={person.stable_performer_id}>{person.name}</a><span>{person.count} 部共同作品</span></li>)}</ul>
+    </section>}
+
+    {performer.frequent_studios.length > 0 && <section class="performer-relations" aria-labelledby="performer-studios-title">
+      <h2 id="performer-studios-title">常合作片商</h2>
+      <p>依本站已發布作品計算，列出收錄至少兩部的片商：</p>
+      <ul>{performer.frequent_studios.map((studio) => <li><a href={studio.href}>{studio.name}</a><span>{studio.count} 部作品</span></li>)}</ul>
+    </section>}
+
+    <section class="performer-relations" aria-labelledby="performer-timeline-title">
+      <h2 id="performer-timeline-title">作品時間軸 <small>本站收錄範圍</small></h2>
+      <ol>{performer.timeline.map((work) => <li><time datetime={work.release_date ?? undefined}>{work.release_date ?? '發行日未提供'}</time><a href={work.href}>{work.catalog_code}</a></li>)}</ol>
+    </section>
 
     <section class="performer-works" aria-labelledby="performer-works-title">
       <div class="section-heading">
@@ -134,6 +159,10 @@ const structuredData = [
   .performer-names dt, .performer-aliases dt { color: #68686f; font-size: .82rem; font-weight: 800; }
   .performer-names dd, .performer-aliases dd { margin: 0; font-weight: 700; overflow-wrap: anywhere; }
   .performer-aliases h2 { margin-bottom: 12px; }
+  .performer-relations ul, .performer-relations ol { padding-left: 1.4rem; display: grid; gap: 10px; }
+  .performer-relations li { padding-left: .25rem; }
+  .performer-relations li span { margin-left: 12px; color: #68686f; }
+  .performer-relations time { margin-right: 12px; font-variant-numeric: tabular-nums; }
   .performer-works { display: grid; gap: 20px; }
   @media (max-width: 560px) {
     .performer-names div, .performer-aliases dl div { grid-template-columns: 1fr; gap: 6px; }
