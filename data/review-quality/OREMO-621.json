@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "OREMO-621",
-  "review_sha256": "d94d6832c6545d22a90548869b85981d3737f7a0c71507e521d62a369234f81c",
-  "selected_thesis": "這部作品最有辨識度的選片線索，是宣傳把 S桑稱作「大姐」，又用「前辣妹？」留下未確認的形象懸念；值得留意的是這種介紹方式，不能把問號讀成她的真實經歷。",
+  "review_sha256": "191717a988d387b9ef3dba6ed0874e6e58dbc398fed4255008090b31a7def4dc",
+  "selected_thesis": "S桑以「大姐」及帶問號的「前辣妹」作人物介紹",
   "title_basis": {
     "performer": null,
     "signals": [
@@ -40,14 +40,20 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "提供的 [CC18 作品頁](https://cc18.tv/player.php?uuid=wovRtaEAx4r&cat=19)來源快照，標題為「獨家 S桑」，簡介以「S桑。大姐。前辣妹？」介紹人物，並列出 OL、巨乳、辣妹等宣傳標籤。",
-      "supports": "「大姐」與帶問號的「前辣妹」確實出現在本作宣傳中，可作為分析其人物包裝的依據。",
+      "signal": "data/source-records/OREMO-621.json:title",
+      "supports": "來源標題支持以 OREMO-621 識別本作與主要題材。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "[公開作品資料頁](https://seesaawiki.jp/av_name/d/OREMO-621)轉載的日文作品說明也以「元ギャル？」表述這個疑問。",
-      "supports": "問號是來源宣傳的一部分；它提出形象線索，並未證實 S桑過去的經歷。",
+      "signal": "data/source-records/OREMO-621.json:description",
+      "supports": "來源簡介支持本文對「S桑以「大姐」及帶問號的「前辣妹」作人物介紹」的判讀。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "data/source-records/OREMO-621.json:source_tags,release_date,studio,actress",
+      "supports": "發行日、演員與片商按來源欄位記錄；標籤用於公開資料比較。",
       "observation_refs": []
     }
   ],
@@ -57,7 +63,18 @@
     "不根據「偷窺」等標籤推定實際鏡位、情節或拍攝方式。",
     "不宣稱已觀看影片、聽到聲音或確認實際表演。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.2,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-05T16:00:00.000Z"

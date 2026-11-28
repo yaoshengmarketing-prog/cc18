@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "NINE-125",
-  "review_sha256": "7f5e969526ecd15f9d631aa25b50a4900a931b4a8b404666fe93dd311eaf8d05",
-  "selected_thesis": "這部的選片線索是 OL 專門店風俗孃的角色設定，以及簡介提出的親切與主動之間的形象反差；想找辦公室故事的讀者，不能只憑 OL 標籤判斷。",
+  "review_sha256": "683b1cfafe5baa212212310f0827731fd74e50b818bc05d36c6e687f8425fe73",
+  "selected_thesis": "MOMONA 的 OL 風俗店角色以外形和角色主導性宣傳",
   "title_basis": {
     "performer": null,
     "signals": [
@@ -40,20 +40,20 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "來源標題寫明「OL專門店」及風俗孃設定",
-      "supports": "OL 在此首先是專門店的角色包裝，不能直接推定為辦公室故事。",
+      "signal": "data/source-records/NINE-125.json:title",
+      "supports": "來源標題支持以 NINE-125 識別本作與主要題材。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "公開簡介同時使用親切、純情及痴女形象介紹角色",
-      "supports": "人物形象的反差是比單一 OL 標籤更具體的選片線索。",
+      "signal": "data/source-records/NINE-125.json:description",
+      "supports": "來源簡介支持本文對「MOMONA 的 OL 風俗店角色以外形和角色主導性宣傳」的判讀。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "來源標題以「13次」作為宣傳數字",
-      "supports": "數字呈現標題的刺激訴求，不能用來證實成片內容或節奏。",
+      "signal": "data/source-records/NINE-125.json:source_tags,release_date,studio,actress",
+      "supports": "發行日、演員與片商按來源欄位記錄；標籤用於公開資料比較。",
       "observation_refs": []
     }
   ],
@@ -62,7 +62,18 @@
     "未把標題中的次數寫成已核實的成片結果。",
     "未推測畫面、聲音、台詞、故事密度或剪輯節奏。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.2,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-06T16:00:00.000Z"
