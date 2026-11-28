@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "NACT-198",
-  "review_sha256": "34d930976142a949b868f4bdf33af1e79dad84e58fded458a89bbb39a364bc52",
-  "selected_thesis": "初次免費讓主角願意一試，隨時可走的承諾讓她以為自己仍有選擇。簡介後來推翻這項承諾，把美容室設定轉成一場圍繞失去自主權的情境劇。",
+  "review_sha256": "875caabca9f7e2f378fea1461a951c1a7b928faef579ed5fbe3de37956067c69",
+  "selected_thesis": "那津乃千奈美的美容室設定由免費體驗轉為受制於店主",
   "title_basis": {
     "performer": "那津乃千奈美",
     "signals": [
@@ -34,14 +34,20 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "主角看了網路口碑才上門，見到店主後有所疑慮。",
-      "supports": "簡介先交代她為何有興趣，也交代她為何需要店主進一步說服。",
+      "signal": "data/source-records/NACT-198.json:title",
+      "supports": "來源標題支持以 NACT-198 識別本作與主要題材。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "店主提出初次免費，並表示顧客可以隨時離開。主角答應接受服務後，簡介卻寫她沒有機會離開。",
-      "supports": "免費解釋了主角為何願意試做，能否離開的前後落差則構成情節轉折。",
+      "signal": "data/source-records/NACT-198.json:description",
+      "supports": "來源簡介支持本文對「那津乃千奈美的美容室設定由免費體驗轉為受制於店主」的判讀。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "data/source-records/NACT-198.json:source_tags,release_date,studio,actress",
+      "supports": "發行日、演員與片商按來源欄位記錄；標籤用於公開資料比較。",
       "observation_refs": []
     }
   ],
@@ -50,7 +56,18 @@
     "演員的真實經歷與拍攝情況",
     "實際鏡位、聲音、逐字台詞、演出效果與成片節奏"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.2,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-08T16:00:00.000Z"

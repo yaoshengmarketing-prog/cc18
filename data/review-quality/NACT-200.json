@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "NACT-200",
-  "review_sha256": "c91f9edbf321b5e90c43e064bf5e6e84b547d8ec6f389b63691cb78582919aa1",
-  "selected_thesis": "作品簡介把部下長期累積的怨恨寫成設局動機，讓女上司設定有了具體的敘事作用。選片時，最值得先辨認的是職場報復與性暴力題材。",
+  "review_sha256": "83539e27efc2ac72c48e75888bfd499e312157373bfca5408e389c694d3c1876",
+  "selected_thesis": "紗紗原百合的女課長遭三名部下報復是來源設定",
   "title_basis": {
     "performer": "紗紗原百合",
     "signals": [
@@ -40,14 +40,20 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "作品頁簡介將紗紗原百合的角色設定為營業部課長，並交代三名部下因長期累積的怨恨將她誘入密室。",
-      "supports": "簡介把部下設局的動機連到原有的職場關係，密室是權力翻轉的情節起點。",
+      "signal": "data/source-records/NACT-200.json:title",
+      "supports": "來源標題支持以 NACT-200 識別本作與主要題材。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "發售活動公告列出的商品題名同時標示女課長、部下、下剋上與四人性暴力設定。",
-      "supports": "發售宣傳以職場階序倒轉和非自願情境定位這部作品。",
+      "signal": "data/source-records/NACT-200.json:description",
+      "supports": "來源簡介支持本文對「紗紗原百合的女課長遭三名部下報復是來源設定」的判讀。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "data/source-records/NACT-200.json:source_tags,release_date,studio,actress",
+      "supports": "發行日、演員與片商按來源欄位記錄；標籤用於公開資料比較。",
       "observation_refs": []
     }
   ],
@@ -55,7 +61,18 @@
     "成片的敘事密度、節奏、表演、鏡頭、聲音與台詞。",
     "演員的個人經歷、系列歸屬與未經核對的關聯作品。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.2,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-08T16:00:00.000Z"

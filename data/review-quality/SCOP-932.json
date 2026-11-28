@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "SCOP-932",
-  "review_sha256": "9f6e1b8078a19a8851a7364ed71ab4367154898a03e936117b4279292821e6df",
-  "selected_thesis": "系列名稱先用陪看房與衣著設定吸引注意，本作簡介再把租約變成親密交換的條件；想找明確職場情境的讀者，比只看身形標籤更能據此選片。",
+  "review_sha256": "be3ccf0ab1cb3352a58e99de545cdf2ea4f6ea45b92d6cfec03e5a61bfa8bb58",
+  "selected_thesis": "房產 OL 陪看房與簽約條件連成一個交易情境",
   "title_basis": {
     "performer": null,
     "signals": [
@@ -40,14 +40,20 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "已核對的系列關係名稱提到房產 OL 陪同看房及未穿內衣褲。",
-      "supports": "系列層級的題材入口是看房場合與衣著設定。",
+      "signal": "data/source-records/SCOP-932.json:title",
+      "supports": "來源標題支持以 SCOP-932 識別本作與主要題材。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "本作公開簡介把簽約、租房選項與親密交換寫在同一情境中。",
-      "supports": "本作的選片線索比單純的 OL 或身形標籤更具體，重點落在租約如何成為交換條件。",
+      "signal": "data/source-records/SCOP-932.json:description",
+      "supports": "來源簡介支持本文對「房產 OL 陪看房與簽約條件連成一個交易情境」的判讀。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "data/source-records/SCOP-932.json:source_tags,release_date,studio,actress",
+      "supports": "發行日、演員與片商按來源欄位記錄；標籤用於公開資料比較。",
       "observation_refs": []
     }
   ],
@@ -57,7 +63,18 @@
     "實際畫面、聲音、台詞、表演與節奏",
     "宣傳設定在成片中的呈現效果"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.2,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-27T16:00:00.000Z"

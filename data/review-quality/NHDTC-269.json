@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "NHDTC-269",
-  "review_sha256": "08a56d5ef49a3cf7ec5a7e4623964c6f46b4604347b61d2feaf61534cc4bf816",
-  "selected_thesis": "這部作品的選片線索是「代買受損卡片」所建立的壓力關係：公開簡介先交代卡店事故，再把交換延伸到工作中與住處。它主打持續受制的設定，而非單次偶遇。",
+  "review_sha256": "bf27fb7dec71def97b8f97ccdf404339152b82c002eeba44ee3629f81f030a51",
+  "selected_thesis": "卡店高價卡片受損造成不對等交換關係",
   "title_basis": {
     "performer": null,
     "signals": [
@@ -40,14 +40,20 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "後輩打工妹弄傷商品中的高價卡片，店長要求賠償。",
-      "supports": "卡店事故與金錢壓力是公開簡介交代的起因。",
+      "signal": "data/source-records/NHDTC-269.json:title",
+      "supports": "來源標題支持以 NHDTC-269 識別本作與主要題材。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "敘事者買下卡片後提出交換條件；簡介稱這種關係成為常態，並提及工作中與住處。",
-      "supports": "公開設定從一次代買，延伸為跨越兩種場景的持續關係。",
+      "signal": "data/source-records/NHDTC-269.json:description",
+      "supports": "來源簡介支持本文對「卡店高價卡片受損造成不對等交換關係」的判讀。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "data/source-records/NHDTC-269.json:source_tags,release_date,studio,actress",
+      "supports": "發行日、演員與片商按來源欄位記錄；標籤用於公開資料比較。",
       "observation_refs": []
     }
   ],
@@ -55,7 +61,18 @@
     "未採用未經作品人物關係核對的演員姓名。",
     "未推論實際畫面、表演、節奏或成片品質。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.2,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-05T16:00:00.000Z"

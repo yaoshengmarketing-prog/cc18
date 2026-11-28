@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "OREMO-618",
-  "review_sha256": "28256abf3754fd8491114a2a08d11d49b87d8a0009dabf223db61b0133e7a9f8",
-  "selected_thesis": "本作最鮮明的選片線索，是簡介對乳溝極盡強調，對 H 小姐的 OL 身分卻只說「大概」。它提供明確的外型賣點，沒有提供足以判斷人物背景或情節的資料。",
+  "review_sha256": "026abdb02497da29b254d5b20923ec6c94bbdb943915d4a9903a054b7235c58f",
+  "selected_thesis": "H桑的介紹把胸部外形放在首位，OL 身分只寫成「大概」",
   "title_basis": {
     "performer": null,
     "signals": [
@@ -40,20 +40,20 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "CC18 作品簡介以「看九十九眼的乳溝」介紹 H 小姐，並寫道「胸部太大了」。",
-      "supports": "來源把身體特徵放在最突出的宣傳位置；「九十九眼」是文案修辭，不能推定實際鏡位。",
+      "signal": "data/source-records/OREMO-618.json:title",
+      "supports": "來源標題支持以 OREMO-618 識別本作與主要題材。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "同一份簡介寫「大概是OL」，沒有確認 H 小姐的職業；來源資料也沒有演員或系列關聯。",
-      "supports": "可以討論文案留下的身分問號，不能把 OL 當作已證實的人物背景。",
+      "signal": "data/source-records/OREMO-618.json:description",
+      "supports": "來源簡介支持本文對「H桑的介紹把胸部外形放在首位，OL 身分只寫成「大概」」的判讀。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "來源列有「素人」、「巨乳」、「偷窺」、「獨家限定」及「配信専用」等標籤。",
-      "supports": "這些是來源的分類線索；單靠標籤無法確認拍攝方式、情節或獨家發行範圍。",
+      "signal": "data/source-records/OREMO-618.json:source_tags,release_date,studio,actress",
+      "supports": "發行日、演員與片商按來源欄位記錄；標籤用於公開資料比較。",
       "observation_refs": []
     }
   ],
@@ -63,7 +63,18 @@
     "片中出現特定畫面、聲音、台詞或情節",
     "「獨家限定」代表可獨立查證的發行排他性"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.2,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-05T16:00:00.000Z"

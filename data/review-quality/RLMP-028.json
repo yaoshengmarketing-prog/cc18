@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "RLMP-028",
-  "review_sha256": "0f17bc9e4ca87452ce9a6e69fbc92d1cf4a3d39e1466a45d01a18b4ebbf1102a",
-  "selected_thesis": "本作的辨識點是職場權力逆轉：公開簡介先建立強勢女上司的形象，再以她的敏感弱點改變兩人的關係；相較之下，GVH-885 的設定讓波多野結衣所演角色持續掌握主導權。",
+  "review_sha256": "e0cf71f6728c5069789a2f873c59d49877d78ed673ce1595cf120775ecae3d58",
+  "selected_thesis": "波多野結衣的女上司角色在職場對抗中被發現弱點",
   "title_basis": {
     "performer": "波多野結衣",
     "signals": [
@@ -40,14 +40,20 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "本作來源簡介從上司訓話寫起，接著描述下屬發現她的弱點，並稱此後形勢逆轉。",
-      "supports": "本作以職場身分與權力變化組織公開故事設定。",
+      "signal": "data/source-records/RLMP-028.json:title",
+      "supports": "來源標題支持以 RLMP-028 識別本作與主要題材。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "GVH-885 的來源簡介以波多野結衣教訓男性角色為主題，標示五種情境。",
-      "supports": "同演員作品可提供角色主導權與企劃結構的具體對照。",
+      "signal": "data/source-records/RLMP-028.json:description",
+      "supports": "來源簡介支持本文對「波多野結衣的女上司角色在職場對抗中被發現弱點」的判讀。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "data/source-records/RLMP-028.json:source_tags,release_date,studio,actress",
+      "supports": "發行日、演員與片商按來源欄位記錄；標籤用於公開資料比較。",
       "observation_refs": []
     }
   ],
@@ -56,7 +62,18 @@
     "不把宣傳文案中的強烈反應當作已核實的成片觀察。",
     "不推定本作只有一段情境或固定場景數量。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.2,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-27T16:00:00.000Z"

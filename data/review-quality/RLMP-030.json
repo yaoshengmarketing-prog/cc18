@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "RLMP-030",
-  "review_sha256": "e1f108cef721f7891a251eddef1d331915946298654ae073f971506cbdb506fc",
-  "selected_thesis": "兩作都使用人妻題材，也都列有流川春香；MADM-223 以秘密約會展開關係，RLMP-030 則以強迫情境作為主要宣傳設定。這個差異比共同的演員與人妻標籤更能幫助讀者選片。",
+  "review_sha256": "813839f9e20882ddb61ad142f48e28b4667e380382d46a2e2c7c19d2b6ee3491",
+  "selected_thesis": "流川春香等三名演員共同列名，來源把人妻遭強迫設定放在中心",
   "title_basis": {
     "performer": "流川春香、宮城理惠、黒島玲衣",
     "signals": [
@@ -40,20 +40,20 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "RLMP-030 的標題與簡介以人妻遭強迫為宣傳設定。",
-      "supports": "本作的選片判斷應先看是否接受強迫情境。",
+      "signal": "data/source-records/RLMP-030.json:title",
+      "supports": "來源標題支持以 RLMP-030 識別本作與主要題材。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "MADM-223 的簡介寫到流川春香所演人物主動表達慾望，並參與秘密不倫約會。",
-      "supports": "同演員關聯作品提供了具體的人物關係對照。",
+      "signal": "data/source-records/RLMP-030.json:description",
+      "supports": "來源簡介支持本文對「流川春香等三名演員共同列名，來源把人妻遭強迫設定放在中心」的判讀。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "RLMP-030 列出三名演員，但題供簡介未分別交代角色。",
-      "supports": "不能指定哪位演員飾演標題中的人妻。",
+      "signal": "data/source-records/RLMP-030.json:source_tags,release_date,studio,actress",
+      "supports": "發行日、演員與片商按來源欄位記錄；標籤用於公開資料比較。",
       "observation_refs": []
     }
   ],
@@ -62,7 +62,18 @@
     "不將宣傳文案中的行為、效果或強度當成已核實的成片表現。",
     "不推定兩作的故事節奏、鏡位或表演品質。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.2,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-27T16:00:00.000Z"
