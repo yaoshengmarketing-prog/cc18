@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "STCV-610",
+  "review_sha256": "e865b321fa9bc2d9a35ab57850f71f90069c15010ccf6166f0add629663a22d7",
+  "selected_thesis": "這部作品較具體的選片線索，是簡介安排兩個生活處境不同的人獨處，並以世代與文化差距作為關係起點；標題承諾的形象反差，不能直接當成成片表現。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "皮膚白皙",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "素人企劃",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "素人",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "皮膚白皙",
+    "presentation_feature": "素人企劃",
+    "editorial_judgment": "以公開簡介中的人物設定回答選片問題，區分可核對的角色差異與標題製造的期待。",
+    "source_keywords": [
+      "皮膚白皙",
+      "素人企劃",
+      "高畫質",
+      "素人"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "簡介將小松寫為30歲、仍在打工，並將另一名角色寫成受班上眾人依賴的認真人物。",
+      "supports": "兩人的生活處境與對外形象，是文案建立人物距離的具體材料。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介明確提到世代間的流行與文化差距，以及兩人逐漸親近的方向。",
+      "supports": "選片時可以期待以差距帶動相處的企劃設定，但不能據此判斷實際敘事密度或節奏。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將標題中的性格反差寫成已在畫面中得到證實的表演。",
+    "未推定角色年齡、演員身分或人物真實經歷。",
+    "標題與簡介對人物名字分別使用「由羅」與「由良」，因此不以其中一種寫法作為已核准的主要名稱。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

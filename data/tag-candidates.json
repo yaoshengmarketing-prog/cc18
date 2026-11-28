@@ -453,7 +453,7 @@
     },
     {
       "label": "處男",
-      "occurrences": 9,
+      "occurrences": 10,
       "source_ids": [
         "SNOS-371",
         "DVMM-442",
@@ -463,10 +463,11 @@
         "ORECZ-724",
         "SNOS-416",
         "EKDV-830",
-        "EWDX-622"
+        "EWDX-622",
+        "STCV-610"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-28",
       "status": "quarantined"
     },
     {

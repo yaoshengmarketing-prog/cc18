@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "STCV-610",
+  "generated_at": "2026-11-28T07:24:13.942Z",
+  "source_snapshot_hash": "sha256:659ef26fc5824cabdf725af0859140d74bef78b1df7f4ba6de863a63dbfd7382",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "這是一個以生活處境和世代差距建立人物配對的宣傳設定。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "標題強調認真形象的反差；簡介則提供兩人獨處、感受文化差距並逐漸親近的關係方向。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "公開簡介如何區分兩名角色？",
+    "這些差異提供了什麼選片線索？"
+  ]
+}

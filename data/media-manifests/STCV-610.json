@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "STCV-610",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-28T07:28:51.340Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/STCV-610/hero-v1.jpg",
+      "r2_key": "works/2026/11/STCV-610/hero-v1.jpg",
+      "bytes": 689354,
+      "sha256": "01ba8fe96d154b7844c1b37e238c26ab9ae8bfa9651014acaf18b3e72f5e7b25",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "2804546a2ad24b4893a4ba585529d88c",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/STCV-610/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/STCV-610/scene-vertical-v1.jpg",
+      "bytes": 752646,
+      "sha256": "15429b553d6ca37d800faa1cfdb8fc11b37d750b3999b0596dd3b3e737ab7e60",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "50562ff349174875a9562835ebb09272",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2259631,
+    "sha256": "4a5e87bd833fd2abbded20be6843f78c0ad7652adff51b693ef08d0dece8fed8",
+    "target_r2_key": "works/2026/11/STCV-610/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/STCV-610/vertical-v1.mp4"
+  }
+}

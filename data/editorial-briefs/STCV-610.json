@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "id": "STCV-610",
+  "generated_at": "2026-11-28T07:24:13.386Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/STCV-610.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "皮膚白皙",
+    "premise": "作品以「皮膚白皙」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「皮膚白皙」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "皮膚白皙",
+      "處男"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "素人"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p"
+    ]
+  },
+  "research_question": "這部作品的公開簡介，如何建立兩名角色之間的距離？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=awNHi7j7f6R&cat=19",
+      "supports": "使用題目提供的作品頁來源快照：簡介設定小松為30歲、仍在打工的男性，並將另一名角色寫成受班上眾人依賴的認真人物；文案也提到兩人的世代與流行文化差距。外部頁面未能開啟。"
+    }
+  ],
+  "angle_candidates": [
+    "從兩人的生活處境與認真形象，分析文案如何建立初識的距離。",
+    "比較標題的強烈反差語氣與簡介較著重相處過程的寫法。",
+    "皮膚白皙的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "這部作品較具體的選片線索，是簡介安排兩個生活處境不同的人獨處，並以世代與文化差距作為關係起點；標題承諾的形象反差，不能直接當成成片表現。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "皮膚白皙",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "素人企劃",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "identity",
+      "value": "素人",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "認真系女孩與小松先生的世代距離",
+  "display_short_title": "認真系與世代距離",
+  "title": "兩人的距離，從哪裡開始？",
+  "seo_title": "STCV-610｜認真系女孩與小松先生的世代距離",
+  "social_title": "一段以世代差距開場的相處設定",
+  "short_review": "簡介給出的重點是兩人生活處境與流行文化的差距，適合想從角色配對挑片的讀者；實際互動如何呈現，仍無法由文案判定。",
+  "editorial_angle": "以公開簡介中的人物設定回答選片問題，區分可核對的角色差異與標題製造的期待。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "簡介將小松寫為30歲、仍在打工，並將另一名角色寫成受班上眾人依賴的認真人物。",
+      "supports": "兩人的生活處境與對外形象，是文案建立人物距離的具體材料。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "簡介明確提到世代間的流行與文化差距，以及兩人逐漸親近的方向。",
+      "supports": "選片時可以期待以差距帶動相處的企劃設定，但不能據此判斷實際敘事密度或節奏。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將標題中的性格反差寫成已在畫面中得到證實的表演。",
+    "未推定角色年齡、演員身分或人物真實經歷。",
+    "標題與簡介對人物名字分別使用「由羅」與「由良」，因此不以其中一種寫法作為已核准的主要名稱。"
+  ],
+  "decision_guide": {
+    "thesis": "這是一個以生活處境和世代差距建立人物配對的宣傳設定。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "標題強調認真形象的反差；簡介則提供兩人獨處、感受文化差距並逐漸親近的關係方向。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "公開簡介如何區分兩名角色？",
+      "這些差異提供了什麼選片線索？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "兩人的距離，從哪裡開始？",
+      "body": "簡介先給小松一個明確的生活處境：30歲，仍在打工。另一名角色則以受班上眾人依賴、看來認真的形象登場。兩人獨處時，文案特別點出流行與文化上的世代差距。這些設定比標題裡的強烈形容更能說明本作打算從哪裡展開關係。"
+    },
+    {
+      "heading": "選片時可以期待什麼？",
+      "body": "若你在意人物如何跨過初識時的距離，這份簡介提供了具體的觀看問題：不同處境的兩人，會如何找到共同話題？標題另以認真形象和性格反差吸引注意，但公開材料尚不足以判斷這種反差在成片中如何呈現。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據題目提供的 [CC18 作品頁](https://cc18.tv/player.php?uuid=awNHi7j7f6R&cat=19)來源快照撰寫；外部頁面未能開啟，也沒有影片抽樣。來源未提供可核對的同演員、同系列或片商關聯作品。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "659ef26fc5824cabdf725af0859140d74bef78b1df7f4ba6de863a63dbfd7382",
+    "response_sha256": "6b302cc22f3d0cd43f6b7ae345c23b365198378003f5c7dfea8754beb3c317a2",
+    "research_input_sha256": "e0878bf3f5ecb4197d2f5950212341578e3d43c35a59d0ddf1b66985f4150cef",
+    "related_source_ids": []
+  }
+}
