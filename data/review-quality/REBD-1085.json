@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "REBD-1085",
+  "review_sha256": "91fb12bdca0b67dd7a76dc9e70e58ac9f44c846d7e02c475f330b3833b1edf02",
+  "selected_thesis": "本作值得注意的是石垣島與東京都內攝影棚並列的企劃設定；對想看天神羽衣不同作品類型的讀者，這比籠統的形象讚美更有選片價值。",
+  "title_basis": {
+    "performer": "天神羽衣",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "天神羽衣",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "Ui2",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "Ui（天神羽衣）",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "天神羽衣",
+    "presentation_feature": "Ui2",
+    "editorial_judgment": "以兩地拍攝的公開設定為主軸，對照天神羽衣另一部以女僕裝和性演出為核心的作品，說明兩者提供不同的選片期待。",
+    "source_keywords": [
+      "天神羽衣",
+      "Ui2",
+      "Ui（天神羽衣）",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介稱石垣島拍攝遇上颱風，因而在東京都內追加拍攝，訪談與側拍也涵蓋兩地。",
+      "supports": "雙場景是本作可核對的企劃特徵。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標籤將本作列為印象寫真；同樣由天神羽衣演出的 START-650，公開簡介以女僕裝和性演出設定為主。",
+      "supports": "兩作的企劃重心不同，可供讀者按想看的作品類型選擇。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "颱風經過、受困期間或追加拍攝的具體時間線",
+    "成片的鏡位、節奏、畫面品質與訪談內容",
+    "由宣傳文字推論天神羽衣或本庄鈴在片中的實際互動效果"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "id": "REBD-1085",
+  "generated_at": "2026-11-28T08:16:02.110Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/REBD-1085.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "Ui2",
+    "premise": "作品以「Ui2」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「Ui2」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "Ui2",
+      "向南風微笑・天神羽衣",
+      "性感"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "印象寫真",
+      "720p",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由天神羽衣演出，這部作品與另一部已核對作品的企劃設定有何不同，會如何影響選片？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=pITxBVCrj5s&cat=19",
+      "supports": "已核對的作品資料將本作標為印象寫真；簡介稱原定以石垣島為舞台，因颱風在東京都內追加拍攝，並提及兩地的訪談與側拍。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=avvVOhjg2bw&cat=19",
+      "supports": "已核對的人物關係與作品簡介顯示，START-650 同樣由天神羽衣演出，企劃重心是女僕裝與明確的性演出設定。"
+    }
+  ],
+  "angle_candidates": [
+    "颱風帶來的追加拍攝，如何讓一部印象寫真有了兩種場景設定",
+    "同一位演員，從明確的女僕性演出企劃轉向以人物和取景地為重心的印象寫真",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作值得注意的是石垣島與東京都內攝影棚並列的企劃設定；對想看天神羽衣不同作品類型的讀者，這比籠統的形象讚美更有選片價值。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "天神羽衣",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "Ui2",
+      "source_field": "title"
+    },
+    {
+      "type": "series",
+      "value": "Ui（天神羽衣）",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "向南風微笑・天神羽衣",
+  "display_short_title": "向南風微笑",
+  "title": "石垣島之外，這次還有一個攝影棚",
+  "seo_title": "REBD-1085 向南風微笑・天神羽衣：石垣島與攝影棚的雙場景企劃",
+  "social_title": "天神羽衣《向南風微笑》：一場意外帶來兩種取景設定",
+  "short_review": "來源簡介把石垣島與颱風後在東京都內追加的攝影棚拍攝並列，讓這部天神羽衣的印象寫真有了具體的選片理由。兩種場景如何呈現，仍須以成片為準。",
+  "editorial_angle": "以兩地拍攝的公開設定為主軸，對照天神羽衣另一部以女僕裝和性演出為核心的作品，說明兩者提供不同的選片期待。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介稱石垣島拍攝遇上颱風，因而在東京都內追加拍攝，訪談與側拍也涵蓋兩地。",
+      "supports": "雙場景是本作可核對的企劃特徵。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標籤將本作列為印象寫真；同樣由天神羽衣演出的 START-650，公開簡介以女僕裝和性演出設定為主。",
+      "supports": "兩作的企劃重心不同，可供讀者按想看的作品類型選擇。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "颱風經過、受困期間或追加拍攝的具體時間線",
+    "成片的鏡位、節奏、畫面品質與訪談內容",
+    "由宣傳文字推論天神羽衣或本庄鈴在片中的實際互動效果"
+  ],
+  "decision_guide": {
+    "thesis": "想看以天神羽衣為中心、並以石垣島和攝影棚兩種場景作為企劃重點的印象寫真，可留意本作。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介主打石垣島與東京都內攝影棚的雙場景，並稱兩地都有訪談與側拍內容。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "這部的公開設定有何具體特色？",
+      "它與同演員另一部作品的選片理由有何不同？",
+      "哪些成片表現無法由現有材料判斷？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "石垣島之外，這次還有一個攝影棚",
+      "body": "《向南風微笑》的來源簡介先把天神羽衣放在石垣島，接著交代颱風使企劃增加了東京都內的攝影棚拍攝。這個意外讓「南方夏日」不再是唯一的場景設定：簡介還稱，訪談與側拍同時涵蓋兩地。對一部印象寫真而言，這比單純形容演員的氣質，更能說明這次企劃想讓讀者注意什麼。"
+    },
+    {
+      "heading": "同一位演員，選片理由可以不同",
+      "body": "同樣由天神羽衣演出的 START-650，公開簡介以女僕裝和明確的性演出安排為重心；本作則以人物、取景地及拍攝變動組織介紹。若你想看有兩種場景設定的天神羽衣印象寫真，本作較貼近這個期待；若你是循著女僕角色設定找片，兩者的企劃方向並不相同。這是公開資料能支持的選片區分，無法據此判斷實際影像是否成功。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文使用本作與同演員 START-650 已核對的來源資料快照。來源頁在本次執行環境中無法開啟，未將搜尋片段視為頁面全文，也未使用影片抽樣。雙場景的選片意義是依公開簡介所作的編輯判斷。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "7e82fa213bb2af654a1088fbfd647d625af9dd16fc19811606eb5af60922757a",
+    "response_sha256": "68245f9a27f87f9982d4caaf6a560143a74353551a69943a110ab364594c1e0b",
+    "research_input_sha256": "a079d3949b869af18fb2e1a2c9a2b55ff6ea1c48ea21fa4dd34837e1445fa4f4",
+    "related_source_ids": [
+      "START-650"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "movie_id": "REBD-1085",
+  "generated_at": "2026-11-28T08:16:02.617Z",
+  "source_snapshot_hash": "sha256:7e82fa213bb2af654a1088fbfd647d625af9dd16fc19811606eb5af60922757a",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看以天神羽衣為中心、並以石垣島和攝影棚兩種場景作為企劃重點的印象寫真，可留意本作。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介主打石垣島與東京都內攝影棚的雙場景，並稱兩地都有訪談與側拍內容。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "START-650",
+      "relation_type": "same_performer",
+      "reason": "同樣由天神羽衣出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "天神羽衣"
+      ],
+      "contrast_signals": [
+        "顏射吞精W解禁",
+        "AV女優片"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "這部的公開設定有何具體特色？",
+    "它與同演員另一部作品的選片理由有何不同？",
+    "哪些成片表現無法由現有材料判斷？"
+  ]
+}

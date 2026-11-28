@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-28T08:10:57.186Z",
+  "updated_at": "2026-11-28T08:20:42.531Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -9376,6 +9376,21 @@
       ],
       "release_date": "2026-11-13",
       "source_url": "https://cc18.tv/player.php?uuid=c_O9xjJu80&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-28"
+    },
+    {
+      "id": "REBD-1085",
+      "actress": [
+        "天神羽衣"
+      ],
+      "release_date": "2026-11-19",
+      "source_url": "https://cc18.tv/player.php?uuid=pITxBVCrj5s&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
