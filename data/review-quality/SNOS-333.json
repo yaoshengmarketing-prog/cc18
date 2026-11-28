@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "SNOS-333",
-  "review_sha256": "47b9859d1a55cf0ef4fa09960c045475ce41d138e1128b25f69e2ecf0992f971",
+  "review_sha256": "efbdc47057cc3f19656541c20d338db035b5c3a7e2bc8f0e0a429dc5bcbe2a69",
   "selected_thesis": "來源資料可確認本作以「絕對長女」作為主要作品線索。",
   "title_basis": {
     "performer": "渚愛理",
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z",

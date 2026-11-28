@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "SNOS-364",
-  "review_sha256": "0f4b1c7d749d3038fbfa3615ca9922f7cb6cbb6bcc80e6dc84afc0fc2a4b58fc",
+  "review_sha256": "aa01518a99d7b32b333bec16f624388c0eae020b90c715d45d8e71ecb061ef56",
   "selected_thesis": "來源資料可確認本作以「游泳19年」作為主要作品線索。",
   "title_basis": {
     "performer": "園梨音",
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

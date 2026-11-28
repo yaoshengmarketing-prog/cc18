@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "PPV-4963928",
-  "review_sha256": "41f21af32e149b4e2ff5c724c17a299c4d391f8680eac8b450b8386bbfdcf8a8",
+  "review_sha256": "7450f45cb281ee9e037381f2a561ea0f16ae5d37fd0d6c0b6d7a2449b5ac9e86",
   "selected_thesis": "來源資料可確認本作以「獨家」作為主要作品線索。",
   "title_basis": {
     "performer": null,
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z",

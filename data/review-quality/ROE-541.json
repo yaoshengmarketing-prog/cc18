@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "ROE-541",
-  "review_sha256": "2863b15117a3947d8fd39b926d1cf1987a45e4b0510ea1c1a517ce5a33196d0f",
+  "review_sha256": "93898f08156712236c9cc1f05ecffc68a870a575ce4dacdc2dabb2c83f7a94e5",
   "selected_thesis": "來源資料可確認本作以「下班後那毫無防備」作為主要作品線索。",
   "title_basis": {
     "performer": "一色桃子",
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z",

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "OREMO-606",
-  "review_sha256": "251a8710513d514600eba210469ff016cc14c7177c8a598504bb17735910b946",
+  "review_sha256": "05fdc38bee66c0b3bdb50c65e6e9a41edb56ef5d882fa801ca8a30ee4d10e282",
   "selected_thesis": "來源資料可確認本作以「獨家」作為主要作品線索。",
   "title_basis": {
     "performer": null,
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-06T16:00:00.000Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "PRED-899",
-  "review_sha256": "4b4b5a42a75fda56f3358266113b3512e673f240d58a85b98ed948935c9c7c88",
+  "review_sha256": "2ee928d46079ceb07db3a68157a5c5758e32a949b89e972ba3da360dcdd6c22d",
   "selected_thesis": "來源資料可確認本作以「NTR」作為主要作品線索。",
   "title_basis": {
     "performer": "幸村泉希",
@@ -96,7 +96,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-16T16:00:00.000Z"
