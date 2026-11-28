@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-470",
+  "review_sha256": "d474d0446e9b6ca635c6970e0f4a43e870862fbd4d68c29b9c2130b8e2cd3857",
+  "selected_thesis": "與以便利商店人物關係帶入的同演員作品相比，本作把選片理由放在慢速鋪陳到強烈刺激的變化；這是公開設定的差異，不能據此判定成片節奏。",
+  "title_basis": {
+    "performer": "倉木華",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "倉木華",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "融化",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "倉木華",
+    "presentation_feature": "融化",
+    "editorial_judgment": "以同演員作品的具體設定作對照，辨認本作宣傳重心如何轉移。",
+    "source_keywords": [
+      "倉木華",
+      "融化",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作題名與簡介反覆強調慢速挑逗，以及其後刺激強度的變化。",
+      "supports": "本作公開設定以接觸方式與強度變化為主軸。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同演員作品的簡介交代深夜便利商店、常客與店員，以及兩人逐漸增加的互動。",
+      "supports": "兩作提供了不同的選片入口：一部著重人物關係，一部著重親密接觸的安排。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "將題名中的「八小時」當作已核實的片長或實際拍攝時間",
+    "由宣傳簡介推定成片的真實節奏、表演或畫面品質"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

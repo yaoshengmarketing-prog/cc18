@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "id": "SNOS-470",
+  "generated_at": "2026-11-28T08:33:49.503Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SNOS-470.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "融化",
+    "premise": "作品以「融化」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「融化」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "融化",
+      "潮吹",
+      "深度高潮",
+      "性感爆發】恍惚FUCK",
+      "倉木華"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [
+      "窈窕"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "アクメ・オーガズム"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由倉木華演出，這部作品與《深夜便利商店》在公開設定上有什麼差別？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=8X8zN0r6F5s&cat=19",
+      "supports": "題名與簡介以長時間慢速挑逗、親密接觸轉向強烈刺激，作為本作的宣傳主軸。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=BKp_cbiel4d&cat=19",
+      "supports": "同樣由倉木華演出的作品，以深夜便利商店、常客與店員的互動及關係變化建立情境。"
+    }
+  ],
+  "angle_candidates": [
+    "從人物關係轉向刺激節奏的企劃差異",
+    "「八小時」宣傳語如何建立慢速鋪陳的期待",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "與以便利商店人物關係帶入的同演員作品相比，本作把選片理由放在慢速鋪陳到強烈刺激的變化；這是公開設定的差異，不能據此判定成片節奏。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "倉木華",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "融化",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "倉木華的慢速挑逗企劃",
+  "display_short_title": "倉木華的慢速挑逗",
+  "title": "從便利商店的關係戲，轉向親密接觸的節奏",
+  "seo_title": "SNOS-470｜倉木華的慢速挑逗企劃與同演員作品比較",
+  "social_title": "倉木華這次的賣點，從人物關係轉向節奏變化",
+  "short_review": "本作簡介強調慢速鋪陳後轉向強烈刺激；相較於倉木華的深夜便利商店作品，選片重點由人物關係移向接觸方式的變化。",
+  "editorial_angle": "以同演員作品的具體設定作對照，辨認本作宣傳重心如何轉移。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作題名與簡介反覆強調慢速挑逗，以及其後刺激強度的變化。",
+      "supports": "本作公開設定以接觸方式與強度變化為主軸。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同演員作品的簡介交代深夜便利商店、常客與店員，以及兩人逐漸增加的互動。",
+      "supports": "兩作提供了不同的選片入口：一部著重人物關係，一部著重親密接觸的安排。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "將題名中的「八小時」當作已核實的片長或實際拍攝時間",
+    "由宣傳簡介推定成片的真實節奏、表演或畫面品質"
+  ],
+  "decision_guide": {
+    "thesis": "想看倉木華置身明確人物關係，可留意深夜便利商店作品；想找以慢速鋪陳和強度變化為賣點的企劃，本作的公開介紹更切題。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以慢速親密接觸到強烈刺激的轉換介紹本作。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作與倉木華的深夜便利商店作品，設定重心有何不同？",
+      "公開資料能否證實題名中的時長與成片節奏？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "這次的選片入口是節奏變化",
+      "body": "本作的題名與簡介把慢速挑逗放在前段，再以刺激強度的轉換作為後續賣點。題名中的「八小時」也服務於這個長時間鋪陳的印象；目前材料不足以把它當作實際片長。從公開介紹看，這部作品希望讀者注意的是親密接觸如何逐步變化。"
+    },
+    {
+      "heading": "與深夜便利商店作品相比",
+      "body": "同樣由倉木華演出的另一部作品，先安排深夜便利商店的店員與常客，再讓兩人的交談和關係逐漸靠近。那部作品給讀者一組人物和情境；本作則較少交代角色背景，直接突出慢速鋪陳與強度變化。若你選片時在意人物關係，前者的公開設定更具體；若你在意企劃如何安排親密接觸，本作的主張更明確。這項比較只涉及簡介，不能預先評定成片效果。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據已核對的本作來源資料（https://cc18.tv/player.php?uuid=8X8zN0r6F5s&cat=19）及同演員作品資料（https://cc18.tv/player.php?uuid=BKp_cbiel4d&cat=19）撰寫。外部頁面此次無法開啟；比較限於提供的題名、人物關係與簡介快照，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "185349664762ddc84974177c9ad70edac2e0587b76705e964131b561215ae925",
+    "response_sha256": "6da53098910244a41b074ffc07a5c04eef62ddf20654baab6e76ced6f7cac6a5",
+    "research_input_sha256": "30f24132a20af3ded06cf362339533684c4fe39db55fb4e7bfe1e7e314251700",
+    "related_source_ids": [
+      "SNOS-397"
+    ]
+  }
+}
