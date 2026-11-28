@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "movie_id": "CJOD-547",
+  "generated_at": "2026-11-28T09:31:12.819Z",
+  "source_snapshot_hash": "sha256:def8a3caaf3e092fa71a9b289a01fecb7a1a30e2465487510c7316584262c6a7",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看新井里真置身女友好友的具體關係設定，可優先留意本作；想找以大量片段為賣點的精選集，兩作的公開介紹指向不同選片需求。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "宣傳標示第一人稱視點、完全主觀與雙耳錄音，實際呈現尚未核實。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MKMP-758",
+      "relation_type": "same_performer",
+      "reason": "同樣由新井里真出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "新井里真"
+      ],
+      "contrast_signals": [
+        "篠田優",
+        "濱崎真緒"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作公開設定中的人物關係是什麼？",
+    "它與同演員參與的精選集有何具體賣點差異？",
+    "這項差異如何幫助選片？"
+  ]
+}

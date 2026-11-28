@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "id": "CJOD-547",
+  "generated_at": "2026-11-28T09:31:12.012Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/CJOD-547.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "跟我的話",
+    "premise": "作品以「跟我的話」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「跟我的話」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "跟我的話",
+      "新井里真",
+      "辣妹",
+      "淫語",
+      "NTR"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "辣妹"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "淫語"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由新井里真演出，這部作品與《百發絕頂極樂激射精BEST》的公開介紹，各把選片重心放在哪裡？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=yArIafa6Yay&cat=19",
+      "supports": "使用者提供的作品來源快照：新井里真演出；簡介設定為女友的辣妹好友接近即將結婚的主角，並以第一人稱視點、耳邊低語及雙耳錄音作為宣傳重點。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=Ciqp48pHtd2&cat=19",
+      "supports": "使用者提供且經人物關係核對的來源快照：同樣有新井里真演出；公開簡介以「100連發」和「每2.4分鐘」介紹精選集。"
+    }
+  ],
+  "angle_candidates": [
+    "以女友好友的關係設定，分析這次誘惑為何帶有被發現的風險。",
+    "比較單一情境的主觀視點企劃與以次數為賣點的精選集，說明不同選片理由。",
+    "高畫質的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "這部作品的公開介紹把新井里真放進女友好友的偷情情境，並用主觀視點與耳邊低語拉近讀者和角色的距離；相較之下，同演員參與的精選集主要以大量片段的數量與頻率招徠觀眾。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "新井里真",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "跟我的話",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "辣妹風格",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "新井里真的辣妹好友誘惑",
+  "display_short_title": "辣妹好友的耳邊誘惑",
+  "title": "耳邊低語，讓這場偷情設定靠得更近",
+  "seo_title": "CJOD-547｜新井里真的辣妹好友誘惑與主觀視點企劃",
+  "social_title": "新井里真演出女友好友：這次賣的是距離感",
+  "short_review": "公開簡介把女友好友、即將結婚與怕被發現串成一個情境，再以主觀視點和耳邊低語包裝誘惑。若想看新井里真演出有明確人物關係的企劃，這比只看題材標籤更有選片參考價值。",
+  "editorial_angle": "從公開設定比較單一情境企劃與同演員參與的精選集，聚焦人物關係及呈現方式如何改變選片理由。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介設定新井里真飾演女友的辣妹好友，接近即將結婚的主角；標籤列有第一人稱視點與寢取題材。",
+      "supports": "本作的宣傳重心是特定人物關係與偷情風險。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介標示「完全主觀」「雙耳錄音」，並反覆強調耳邊低語。",
+      "supports": "主觀視點與貼近耳邊的聲音設計，是文案承諾的呈現方向。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "經人物關係核對的《百發絕頂極樂激射精BEST》有新井里真演出；其來源簡介主打「100連發」及「每2.4分鐘」。",
+      "supports": "比較作品的公開賣點偏向精選集的數量與頻率，與本作的單一情境設定不同。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將宣傳中的雙耳錄音或主觀視點描述為已核實的實際聽覺、鏡位效果。",
+    "未由「100連發」推斷精選集的實際剪輯節奏或新井里真的出場比例。",
+    "未推斷兩部作品的成片品質、劇情密度或演出表現。"
+  ],
+  "decision_guide": {
+    "thesis": "想看新井里真置身女友好友的具體關係設定，可優先留意本作；想找以大量片段為賣點的精選集，兩作的公開介紹指向不同選片需求。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "宣傳標示第一人稱視點、完全主觀與雙耳錄音，實際呈現尚未核實。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作公開設定中的人物關係是什麼？",
+      "它與同演員參與的精選集有何具體賣點差異？",
+      "這項差異如何幫助選片？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "女友好友，讓誘惑有了明確位置",
+      "body": "來源簡介把新井里真放在「女友的辣妹好友」這個位置：主角即將結婚，她卻主動靠近。這層關係讓寢取題材不只是一個標籤；怕被發現、只屬於兩人的秘密，都是文案安排的情境張力。再加上宣傳標示的第一人稱視點與雙耳錄音，本作試圖把讀者帶到被她直接誘惑的位置。這是企劃提出的觀看期待，實際效果仍要由影片確認。"
+    },
+    {
+      "heading": "同樣由新井里真演出，選片理由卻不同",
+      "body": "經人物關係核對的《百發絕頂極樂激射精BEST》也有新井里真演出，但其公開簡介主打「100連發」與「每2.4分鐘」，重點是精選集的數量感。本作則先交代她與主角、女友之間的關係，再用耳邊低語包裝接近過程。若你是為新井里真尋找一個有具體角色關係的企劃，本作的介紹較能回答「她在故事裡是誰」；若想找大量片段組成的精選集，後者的賣點更直接。這是兩份公開介紹的差異，不能據此評定成片品質。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依使用者提供、已核對的來源快照撰寫：[CJOD-547 作品頁](https://cc18.tv/player.php?uuid=yArIafa6Yay&cat=19)與[《百發絕頂極樂激射精BEST》作品頁](https://cc18.tv/player.php?uuid=Ciqp48pHtd2&cat=19)。執行環境未能開啟外部頁面；比較限於快照中的作品簡介與已核對的人物關係，沒有影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "def8a3caaf3e092fa71a9b289a01fecb7a1a30e2465487510c7316584262c6a7",
+    "response_sha256": "d2fc6585af82e0633d617ce30ec3abe2b37fe28e78f777165eb943aaf2866ce6",
+    "research_input_sha256": "ab46ecf26fadc0f3d92eff89f35501470424240ac5d1cf725df418fc2e99f422",
+    "related_source_ids": [
+      "MKMP-758"
+    ]
+  }
+}

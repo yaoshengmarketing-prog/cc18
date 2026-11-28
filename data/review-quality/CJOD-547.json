@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "CJOD-547",
+  "review_sha256": "afa7d5aff96557dc47991875a9fa71f72bfbdf9b7604b6b4aec126b9a1b472f3",
+  "selected_thesis": "這部作品的公開介紹把新井里真放進女友好友的偷情情境，並用主觀視點與耳邊低語拉近讀者和角色的距離；相較之下，同演員參與的精選集主要以大量片段的數量與頻率招徠觀眾。",
+  "title_basis": {
+    "performer": "新井里真",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "新井里真",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "跟我的話",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "辣妹風格",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "新井里真",
+    "presentation_feature": "跟我的話",
+    "editorial_judgment": "從公開設定比較單一情境企劃與同演員參與的精選集，聚焦人物關係及呈現方式如何改變選片理由。",
+    "source_keywords": [
+      "新井里真",
+      "跟我的話",
+      "辣妹風格",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介設定新井里真飾演女友的辣妹好友，接近即將結婚的主角；標籤列有第一人稱視點與寢取題材。",
+      "supports": "本作的宣傳重心是特定人物關係與偷情風險。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介標示「完全主觀」「雙耳錄音」，並反覆強調耳邊低語。",
+      "supports": "主觀視點與貼近耳邊的聲音設計，是文案承諾的呈現方向。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "經人物關係核對的《百發絕頂極樂激射精BEST》有新井里真演出；其來源簡介主打「100連發」及「每2.4分鐘」。",
+      "supports": "比較作品的公開賣點偏向精選集的數量與頻率，與本作的單一情境設定不同。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將宣傳中的雙耳錄音或主觀視點描述為已核實的實際聽覺、鏡位效果。",
+    "未由「100連發」推斷精選集的實際剪輯節奏或新井里真的出場比例。",
+    "未推斷兩部作品的成片品質、劇情密度或演出表現。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}
