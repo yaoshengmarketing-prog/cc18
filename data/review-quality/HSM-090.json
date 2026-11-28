@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "HSM-090",
-  "review_sha256": "c0c3540e58ff5b235272ee0d64ec94e54f20a2a11119e3b703a9662c3d64245f",
-  "selected_thesis": "來源資料可確認本作以「處女畢業」作為主要作品線索。",
+  "review_sha256": "dc1726ab414ff3144fe13776b67fb0c0317c236a394651dade1e82142f45f8fe",
+  "selected_thesis": "來源以出道、女裝及多種造型定位作品，未列片長。",
   "title_basis": {
     "performer": "友江めい",
     "signals": [
@@ -29,7 +29,7 @@
     ],
     "primary_theme": "友江めい",
     "presentation_feature": "處女畢業",
-    "editorial_judgment": "來源資料可確認本作以「處女畢業」作為主要作品線索。",
+    "editorial_judgment": "來源以出道、女裝及多種造型定位作品，未列片長。",
     "source_keywords": [
       "友江めい",
       "處女畢業",
@@ -96,7 +96,7 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {"overall":8,"source_fidelity":9,"identity_integrity":9,"specificity":8,"originality":8,"narrative_coherence":8,"analysis_depth":8,"search_value":8,"decision_value":8,"low_repetition":8},
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-16T16:00:00.000Z"

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "MIDA-785",
-  "review_sha256": "5597eb0baf2f3afdcd547391b2012f5c5f0aa7b5e605c40a0383ef4583ba3960",
-  "selected_thesis": "來源資料可確認本作以「美白胴體狂暴高潮超快感」作為主要作品線索。",
+  "review_sha256": "67e05f44667fc627c253102796a29549941517ed6b9b128a7a3ad87540c532da",
+  "selected_thesis": "來源以演員企劃為主，幾乎沒有建立人物關係或場所。",
   "title_basis": {
     "performer": "石原希望",
     "signals": [
@@ -29,7 +29,7 @@
     ],
     "primary_theme": "石原希望",
     "presentation_feature": "美白胴體狂暴高潮超快感",
-    "editorial_judgment": "來源資料可確認本作以「美白胴體狂暴高潮超快感」作為主要作品線索。",
+    "editorial_judgment": "來源以演員企劃為主，幾乎沒有建立人物關係或場所。",
     "source_keywords": [
       "石原希望",
       "美白胴體狂暴高潮超快感",
@@ -102,7 +102,7 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {"overall":8,"source_fidelity":9,"identity_integrity":9,"specificity":8,"originality":8,"narrative_coherence":8,"analysis_depth":8,"search_value":8,"decision_value":8,"low_repetition":8},
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-15T16:00:00.000Z"

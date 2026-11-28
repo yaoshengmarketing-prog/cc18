@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "JUR-862",
-  "review_sha256": "7b9ae0c953dc96fc32f261473177f3bf4da12d668e9b5caa918204aaf1dda757",
-  "selected_thesis": "來源資料可確認本作以「如果你真的這麼喜歡繼母」作為主要作品線索。",
+  "review_sha256": "3e3fa06a345f793c1a8f369bd6ad5f6dee05618a007c5f9b844cef5642936115",
+  "selected_thesis": "再次告白是家庭照顧關係改變的來源轉折，學制未提供。",
   "title_basis": {
     "performer": "三比菜々美",
     "signals": [
@@ -29,7 +29,7 @@
     ],
     "primary_theme": "三比菜々美",
     "presentation_feature": "如果你真的這麼喜歡繼母",
-    "editorial_judgment": "來源資料可確認本作以「如果你真的這麼喜歡繼母」作為主要作品線索。",
+    "editorial_judgment": "再次告白是家庭照顧關係改變的來源轉折，學制未提供。",
     "source_keywords": [
       "三比菜々美",
       "如果你真的這麼喜歡繼母",
@@ -90,7 +90,7 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {"overall":8,"source_fidelity":9,"identity_integrity":9,"specificity":8,"originality":8,"narrative_coherence":8,"analysis_depth":8,"search_value":8,"decision_value":8,"low_repetition":8},
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

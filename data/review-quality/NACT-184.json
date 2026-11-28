@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "NACT-184",
-  "review_sha256": "734fe4e5ae5526cf22fcebcd0a05da2559664800ee59f1f67b24ceff28686669",
-  "selected_thesis": "來源資料可確認本作以「實地指導・姐弟亂倫」作為主要作品線索。",
+  "review_sha256": "9a37bbfba86973f0aa9c8009a15dd4737e76ea31599f46034e132838152abe1a",
+  "selected_thesis": "來源明列姐姐 25 歲，卻沒有交代弟弟年齡；本文不推斷。",
   "title_basis": {
     "performer": "かたよせ萩花",
     "signals": [
@@ -29,7 +29,7 @@
     ],
     "primary_theme": "かたよせ萩花",
     "presentation_feature": "實地指導・姐弟亂倫",
-    "editorial_judgment": "來源資料可確認本作以「實地指導・姐弟亂倫」作為主要作品線索。",
+    "editorial_judgment": "來源明列姐姐 25 歲，卻沒有交代弟弟年齡；本文不推斷。",
     "source_keywords": [
       "かたよせ萩花",
       "實地指導・姐弟亂倫",
@@ -90,7 +90,7 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {"overall":8,"source_fidelity":9,"identity_integrity":9,"specificity":8,"originality":8,"narrative_coherence":8,"analysis_depth":8,"search_value":8,"decision_value":8,"low_repetition":8},
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-22T16:00:00.000Z"

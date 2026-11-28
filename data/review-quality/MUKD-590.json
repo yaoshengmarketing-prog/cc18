@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "MUKD-590",
-  "review_sha256": "4e53b14ff0d2ff2621c3c227bc6e92672c2ac00c6d7fef561059c271b7f0d49a",
-  "selected_thesis": "來源資料可確認本作以「制服フェティシズム」作為主要作品線索。",
+  "review_sha256": "35ab6214d9dcae076d8e4f3b7ad069836b00804472e23773378a03d3d1988d8e",
+  "selected_thesis": "來源以服裝而非人物故事定位本作，未明示角色年齡。",
   "title_basis": {
     "performer": null,
     "signals": [
@@ -24,7 +24,7 @@
     ],
     "primary_theme": "制服フェティシズム",
     "presentation_feature": "高畫質",
-    "editorial_judgment": "來源資料可確認本作以「制服フェティシズム」作為主要作品線索。",
+    "editorial_judgment": "來源以服裝而非人物故事定位本作，未明示角色年齡。",
     "source_keywords": [
       "制服フェティシズム",
       "高畫質",
@@ -84,7 +84,7 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {"overall":8,"source_fidelity":9,"identity_integrity":9,"specificity":8,"originality":8,"narrative_coherence":8,"analysis_depth":8,"search_value":8,"decision_value":8,"low_repetition":8},
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-01T16:00:00.000Z"

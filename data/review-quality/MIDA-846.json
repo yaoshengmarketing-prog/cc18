@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "MIDA-846",
-  "review_sha256": "d91b4841d13bdea07dae0968deedd0e525c6c65fc0873b51460aae5c72b64ec9",
-  "selected_thesis": "來源資料可確認本作以「噗滋」作為主要作品線索。",
+  "review_sha256": "897130ab3c65451bab80161f7c6afabd6900adf8ac38019f30f21a866010273b",
+  "selected_thesis": "同居關係使聲音企劃有固定人物框架，與多造型展示不同。",
   "title_basis": {
     "performer": "八木奈奈",
     "signals": [
@@ -29,7 +29,7 @@
     ],
     "primary_theme": "八木奈奈",
     "presentation_feature": "噗滋",
-    "editorial_judgment": "來源資料可確認本作以「噗滋」作為主要作品線索。",
+    "editorial_judgment": "同居關係使聲音企劃有固定人物框架，與多造型展示不同。",
     "source_keywords": [
       "八木奈奈",
       "噗滋",
@@ -90,7 +90,7 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {"overall":8,"source_fidelity":9,"identity_integrity":9,"specificity":8,"originality":8,"narrative_coherence":8,"analysis_depth":8,"search_value":8,"decision_value":8,"low_repetition":8},
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-02T16:00:00.000Z"
