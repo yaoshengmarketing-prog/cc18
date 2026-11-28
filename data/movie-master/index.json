@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-28T10:14:18.060Z",
+  "generated_at": "2026-11-28T10:23:51.428Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 644,
-  "formal_movie_count": 643,
+  "tracked_input_count": 645,
+  "formal_movie_count": 644,
   "demo_count": 1,
-  "published_count": 642,
+  "published_count": 643,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -5651,6 +5651,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "1802f3f296dcc3c375fef6fbc2439c0ddfde538dc692c33a251a5cd3b5c27eb0"
+    },
+    {
+      "stable_movie_id": "cc18:USBA-092",
+      "catalog_code": "USBA-092",
+      "slug": "usba-092",
+      "master_path": "data/movie-master/usba-092.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "f8c6d1a524a68a656ea062db1eb6752a209cce633ef577449e5a9170506eb973"
     },
     {
       "stable_movie_id": "cc18:WA-593",

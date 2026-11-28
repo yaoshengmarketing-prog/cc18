@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "id": "USBA-092",
+  "generated_at": "2026-11-28T10:17:33.971Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/USBA-092.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "M之衝擊",
+    "premise": "作品以「M之衝擊」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「M之衝擊」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "M之衝擊",
+      "徹底調教",
+      "真宮詩織",
+      "美少女",
+      "緊縛"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "美少女"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由真宮しおり演出，本作與關聯作品如何設定人物承受的壓力？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=2g7osihv3fq&cat=19",
+      "supports": "已核對的來源快照將本作列為《Mの衝撃》系列，簡介以普通女孩隱藏的一面、拘束與責罰建立設定。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=pDhyp7w5I4f&cat=19",
+      "supports": "已核對的關聯作品快照顯示，真宮しおり演出的段落以準備考試的繼女、繼父的金錢支援及被迫建立的關係為設定。"
+    }
+  ],
+  "angle_candidates": [
+    "比較兩作壓力來源的差異",
+    "分析本作如何用清純形象與隱藏慾望建立反差",
+    "美少女設定的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作把壓力寫成人物隱藏傾向的顯露；關聯作品則以家庭身分與經濟依賴推動關係。兩種設定提供不同的選片線索，不能據此判斷成片表現。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "真宮しおり",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "M之衝擊",
+      "source_field": "title"
+    },
+    {
+      "type": "series",
+      "value": "Mの衝撃（AVS collector’s）",
+      "source_field": "series"
+    },
+    {
+      "type": "presentation",
+      "value": "美少女設定",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "M之衝擊：真宮しおり的隱藏一面",
+  "display_short_title": "真宮しおり的隱藏一面",
+  "title": "同樣由真宮しおり演出，這次的壓力從何而來？",
+  "seo_title": "USBA-092｜真宮しおり的隱藏一面與《M之衝擊》設定",
+  "social_title": "真宮しおり兩種設定：隱藏傾向與家庭壓力",
+  "short_review": "本作的公開簡介以普通女孩逐漸顯露隱藏傾向為主軸。與真宮しおり另一部以繼父金錢支援為轉折的作品相比，選片差別在人物壓力的來源。",
+  "editorial_angle": "從兩份公開簡介比較人物壓力的來源，協助讀者辨認本作的題材設定。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介將真宮しおり飾演的人物寫成外表普通、藏有另一面的女孩，並以拘束與責罰推進設定。",
+      "supports": "本作的介紹重心是隱藏傾向如何顯露。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "關聯作品的詩織篇以準備考試、繼父提供金錢支援，以及被迫建立的關係為轉折。",
+      "supports": "關聯作品的壓力來自家庭身分與經濟依賴。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未將宣傳文案中的心理變化當作已核實的表演或畫面。",
+    "未推斷兩作的敘事密度、節奏或成片品質。",
+    "未替真宮しおり推定未核准的繁中姓名。"
+  ],
+  "decision_guide": {
+    "thesis": "本作與關聯作品都讓真宮しおり演出受壓的人物，但一部側重隱藏傾向的顯露，另一部側重家庭身分與金錢支援造成的處境。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以清純形象與隱藏傾向的反差介紹本作，並標示緊縛、SM 等題材。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作的公開設定與真宮しおり的關聯作品有何不同？",
+      "這項差異能提供什麼選片線索？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "兩部作品，壓力從不同地方開始",
+      "body": "本作的簡介先把真宮しおり飾演的人物寫成看似普通的女孩，再以拘束與責罰帶出她不願示人的一面。關聯作品的詩織篇則從準備考試的處境出發：繼父提供金錢支援，隨後迫使她建立特殊關係。前者把焦點放在人物的隱藏傾向，後者把壓力放在家庭身分與經濟依賴。"
+    },
+    {
+      "heading": "設定差異如何幫助選片？",
+      "body": "若你想找以清純形象與隱藏傾向形成反差的題材，本作的介紹較貼近這個方向；若你在意人物如何被家庭關係與金錢支援困住，關聯作品的設定更明確。這是兩份公開簡介提供的選片線索，並非對表演或成片品質的評價。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據已核對的本作來源快照（https://cc18.tv/player.php?uuid=2g7osihv3fq&cat=19）與同演員關聯作品來源快照（https://cc18.tv/player.php?uuid=pDhyp7w5I4f&cat=19）。外部作品頁未能開啟；比較限於快照中的作品資料與公開簡介，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "c781cad0d6f70ab0dc18cf0f2a1f7647c3b253f3787e2f69cbf2fcb0ec27fa84",
+    "response_sha256": "205fd12aa4726e464ff400d2cc9075604632e4f47561ecbb419042e9f9b2260f",
+    "research_input_sha256": "ce90652bcd7ffaa8b29e452ce3d1b1b5126714475bcb4956509713a620655858",
+    "related_source_ids": [
+      "T-3800071"
+    ]
+  }
+}

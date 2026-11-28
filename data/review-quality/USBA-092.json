@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "USBA-092",
+  "review_sha256": "7ffc2fad7b7c183f99783751a44264219b28a016ea629f600ad3c4fcf4b1f201",
+  "selected_thesis": "本作把壓力寫成人物隱藏傾向的顯露；關聯作品則以家庭身分與經濟依賴推動關係。兩種設定提供不同的選片線索，不能據此判斷成片表現。",
+  "title_basis": {
+    "performer": "真宮しおり",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "真宮しおり",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "M之衝擊",
+        "source_field": "title"
+      },
+      {
+        "type": "series",
+        "value": "Mの衝撃（AVS collector’s）",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "美少女設定",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "真宮しおり",
+    "presentation_feature": "M之衝擊",
+    "editorial_judgment": "從兩份公開簡介比較人物壓力的來源，協助讀者辨認本作的題材設定。",
+    "source_keywords": [
+      "真宮しおり",
+      "M之衝擊",
+      "Mの衝撃（AVS collector’s）",
+      "美少女設定"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介將真宮しおり飾演的人物寫成外表普通、藏有另一面的女孩，並以拘束與責罰推進設定。",
+      "supports": "本作的介紹重心是隱藏傾向如何顯露。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "關聯作品的詩織篇以準備考試、繼父提供金錢支援，以及被迫建立的關係為轉折。",
+      "supports": "關聯作品的壓力來自家庭身分與經濟依賴。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未將宣傳文案中的心理變化當作已核實的表演或畫面。",
+    "未推斷兩作的敘事密度、節奏或成片品質。",
+    "未替真宮しおり推定未核准的繁中姓名。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

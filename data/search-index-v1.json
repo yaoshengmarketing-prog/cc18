@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:2f36ed22289a67921e3eb7e4deaf55f250d4e94d067d4d956e63243e7574c51b",
-  "source_generated_at": "2026-11-28T10:14:18.060Z",
+  "source_revision": "sha256:7adbaaa3381b0e4760eeaa338b4f9605a5b7456b44eaa9025e366801d0056d8a",
+  "source_generated_at": "2026-11-28T10:23:51.428Z",
   "counts": {
-    "movies": 642,
+    "movies": 643,
     "performers": 424,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
@@ -3353,7 +3353,8 @@
       "source_name": "真宮しおり",
       "searchable_aliases": [],
       "related_movie_ids": [
-        "cc18:T-3800071"
+        "cc18:T-3800071",
+        "cc18:USBA-092"
       ]
     },
     {
@@ -6782,6 +6783,62 @@
         "article_title": "明明不是誤送，為何仍用配送說關係？",
         "display_short_title": "門口外送的秘密約定",
         "slug": "hez-933"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:USBA-092",
+        "source_cover": "https://cc18.tv/preview/80/b/2g7osihv3fq-800.jpg?v=1794206287",
+        "title": "真宮しおり的隱藏一面",
+        "catalog_code": "USBA-092",
+        "release_date": "2026-11-07",
+        "performers": [
+          "真宮しおり"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "beautiful-girl",
+            "label": "美少女"
+          },
+          {
+            "id": "exclusive-release",
+            "label": "獨家限定"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/usba-092/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:53766"
+      ],
+      "search": {
+        "source_title": "M之衝擊 徹底調教 清純美少女展露本性認真地M高潮 真宮詩織",
+        "source_tags": [
+          "AV女優片",
+          "美少女",
+          "緊縛",
+          "SM",
+          "720p",
+          "独占配信",
+          "HD",
+          "m女",
+          "4k"
+        ],
+        "article_title": "同樣由真宮しおり演出，這次的壓力從何而來？",
+        "display_short_title": "真宮しおり的隱藏一面",
+        "slug": "usba-092"
       }
     },
     {
