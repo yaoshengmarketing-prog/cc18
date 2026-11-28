@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-125",
+  "generated_at": "2026-11-28T08:25:27.087Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/DSOD-125.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "白峰美羽",
+    "premise": "作品以「白峰美羽」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「白峰美羽」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "白峰美羽",
+      "護士"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片",
+      "癡女"
+    ],
+    "body": [
+      "巨乳"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出"
+    ],
+    "presentation": [
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "同樣由白峰美羽演出的兩部ダスッ！作品，公開簡介如何安排她在情境中的主動性？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=2hFfwHUf7B&cat=19",
+      "supports": "題供作品資料顯示，白峰美羽飾演主動接近住院患者的護士，照護是情境核心。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=8nHOSPaIyI&cat=19",
+      "supports": "題供關聯作品資料顯示，另一部同演員、同片商作品以突襲與姿勢翻轉安排白峰美羽的角色。"
+    }
+  ],
+  "angle_candidates": [
+    "比較兩部同演員、同片商作品中，白峰美羽的角色由被動承受到主動照護的設定差異",
+    "分析病房設定如何讓護士與患者的角色關係成為選片線索",
+    "獨家配信的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作的公開簡介把白峰美羽放在主動照護者的位置；相較於另一部以她遭遇突襲為起點的同片商作品，選片差異在角色主動性與病房情境，而非可由文案判定的表演品質。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "白峰美羽",
+      "source_field": "actress"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "presentation",
+      "value": "獨家配信",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "白峰美羽的病房護士照護",
+  "display_short_title": "白峰美羽的病房照護",
+  "title": "這次由白峰美羽主導病房裡的親密關係",
+  "seo_title": "DSOD-125｜白峰美羽的病房護士照護，角色主動性有何不同？",
+  "social_title": "白峰美羽這次站在照護者的位置",
+  "short_review": "病房與行動不便的患者，讓白峰美羽飾演的護士成為主動接近的一方。若想按角色關係選片，這是比題材標籤更明確的線索。",
+  "editorial_angle": "以同演員、同片商作品作對照，說明白峰美羽在本作公開設定中的主動照護者位置，以及它帶來的選片差異。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介以住院、患者無法動彈及護士主動提供親密照護建立情境。",
+      "supports": "病房裡的照護者與患者關係，是本作可核對的主要設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同演員、同片商的關聯作品簡介，以突襲和姿勢翻轉安排白峰美羽的角色。",
+      "supports": "兩作公開設定對她的角色主動性有具體差異。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "白峰美羽在成片中的實際表演方式",
+    "病房場景的畫面、聲音與敘事節奏",
+    "宣傳設定是否在成片中完整呈現"
+  ],
+  "decision_guide": {
+    "thesis": "選片關鍵是白峰美羽在病房設定中擔任主動照護者。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以住院患者與護士的照護關係帶出親密情境。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "白峰美羽在本作的公開設定中處於什麼位置？",
+      "它與另一部同演員、同片商作品的角色安排有何差異？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "病房設定把主動權交給護士",
+      "body": "本作的公開簡介先交代一名行動不便、住院生活漫長的患者，再讓白峰美羽飾演的護士主動接近他。這使「護士」不只是服裝或標籤：照護者與患者的關係，正是這份企劃介紹親密情境的方式。"
+    },
+    {
+      "heading": "同樣由白峰美羽演出，角色位置卻不同",
+      "body": "另一部同片商作品的公開簡介以突襲和姿勢翻轉為起點，白峰美羽的角色處於被動承受的一方。本作則由她飾演的護士發起照護。若你是按角色關係選片，兩者的差別相當清楚：這次值得注意的是她作為主動照護者的設定，而不是從宣傳文字預判成片好壞。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據題供的<a href=\"https://cc18.tv/player.php?uuid=2hFfwHUf7B&amp;cat=19\">本作來源資料</a>與<a href=\"https://cc18.tv/player.php?uuid=8nHOSPaIyI&amp;cat=19\">同演員關聯作品來源資料</a>比較公開簡介。外部作品頁未能開啟，以上未將搜尋片段視為頁面全文；角色設定之外的成片表現尚無材料可判斷。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "cf87f802592a253d2e8e0be177a7b5ec1fca84d0d3120f0f2ba9a2834ab927fe",
+    "response_sha256": "254eb7dd5763b82245315bcb467df814a9144d0791daca8a5ba4055880eec31d",
+    "research_input_sha256": "839747c01aff40aaaffebe80618693a5ac328a604f03b003dff2c81ed19e9953",
+    "related_source_ids": [
+      "DSOD-096",
+      "ADN-814",
+      "DSOD-072"
+    ]
+  }
+}

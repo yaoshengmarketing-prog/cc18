@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-28T08:20:42.531Z",
+  "updated_at": "2026-11-28T08:29:54.071Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -9391,6 +9391,21 @@
       ],
       "release_date": "2026-11-19",
       "source_url": "https://cc18.tv/player.php?uuid=pITxBVCrj5s&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-28"
+    },
+    {
+      "id": "DSOD-125",
+      "actress": [
+        "白峰美羽"
+      ],
+      "release_date": "2026-11-20",
+      "source_url": "https://cc18.tv/player.php?uuid=2hFfwHUf7B&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

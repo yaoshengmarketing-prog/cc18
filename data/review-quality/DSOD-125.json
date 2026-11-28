@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "DSOD-125",
+  "review_sha256": "093f2d22975eaf309cae1d6fc96e738a782c004ba9129decf598d969c31b32fb",
+  "selected_thesis": "本作的公開簡介把白峰美羽放在主動照護者的位置；相較於另一部以她遭遇突襲為起點的同片商作品，選片差異在角色主動性與病房情境，而非可由文案判定的表演品質。",
+  "title_basis": {
+    "performer": "白峰美羽",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "白峰美羽",
+        "source_field": "actress"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "presentation",
+        "value": "獨家配信",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "白峰美羽",
+    "presentation_feature": "高畫質",
+    "editorial_judgment": "以同演員、同片商作品作對照，說明白峰美羽在本作公開設定中的主動照護者位置，以及它帶來的選片差異。",
+    "source_keywords": [
+      "白峰美羽",
+      "高畫質",
+      "獨家配信"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介以住院、患者無法動彈及護士主動提供親密照護建立情境。",
+      "supports": "病房裡的照護者與患者關係，是本作可核對的主要設定。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "同演員、同片商的關聯作品簡介，以突襲和姿勢翻轉安排白峰美羽的角色。",
+      "supports": "兩作公開設定對她的角色主動性有具體差異。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "白峰美羽在成片中的實際表演方式",
+    "病房場景的畫面、聲音與敘事節奏",
+    "宣傳設定是否在成片中完整呈現"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

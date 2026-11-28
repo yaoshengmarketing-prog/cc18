@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "movie_id": "DSOD-125",
+  "generated_at": "2026-11-28T08:25:27.600Z",
+  "source_snapshot_hash": "sha256:cf87f802592a253d2e8e0be177a7b5ec1fca84d0d3120f0f2ba9a2834ab927fe",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "選片關鍵是白峰美羽在病房設定中擔任主動照護者。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以住院患者與護士的照護關係帶出親密情境。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "DSOD-072",
+      "relation_type": "same_performer",
+      "reason": "同樣由白峰美羽出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "白峰美羽"
+      ],
+      "contrast_signals": [
+        "極其幸福的破滅衝動",
+        "AV女優片"
+      ]
+    },
+    {
+      "movie_id": "ADN-814",
+      "relation_type": "same_performer",
+      "reason": "同樣由白峰美羽出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "白峰美羽"
+      ],
+      "contrast_signals": [
+        "最終也被寢取淪陷",
+        "人妻・主婦"
+      ]
+    },
+    {
+      "movie_id": "DSOD-096",
+      "relation_type": "same_performer",
+      "reason": "同樣由白峰美羽出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "白峰美羽"
+      ],
+      "contrast_signals": [
+        "相遇5秒即刻大翻轉",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "白峰美羽在本作的公開設定中處於什麼位置？",
+    "它與另一部同演員、同片商作品的角色安排有何差異？"
+  ]
+}
