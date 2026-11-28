@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "PRIAN-055",
-  "review_sha256": "6c4e0af17d88cca5f2d911739fd66e5dca8ec6d5e66530b2f0b87f74fd5b0c05",
-  "selected_thesis": "來源資料可確認本作以「清宮仁愛/Unveil」作為主要作品線索。",
+  "review_sha256": "147d92346ca716e2fcdd93bb4a0c0f132ed4f12128574c3e56d89ed9ffb27eb8",
+  "selected_thesis": "從印象寫真與避暑地設定辨識作品，對照同演員較強調人物衝突的企劃。",
   "title_basis": {
     "performer": "清宮仁愛",
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 8,
+    "identity_integrity": 8,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z",

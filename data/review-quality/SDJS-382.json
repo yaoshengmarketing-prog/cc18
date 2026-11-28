@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "SDJS-382",
-  "review_sha256": "4b8871d8fb5c6c67c2a326448e469494cd48903fb17e64344d7505cc23799566",
-  "selected_thesis": "來源資料可確認本作以「SOD女子社員」作為主要作品線索。",
+  "review_sha256": "dd720c0f9a0bd0c8dc6bb917e7f9be6a4f1131be4bfa329f6ad44fb960cdd534",
+  "selected_thesis": "聚焦人事部、招募說明會與不能被發現的壓力，區分其他 SOD 職場與出道企劃。",
   "title_basis": {
     "performer": "与田ひかげ",
     "signals": [
@@ -84,7 +84,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 8,
+    "identity_integrity": 8,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-17T16:00:00.000Z"

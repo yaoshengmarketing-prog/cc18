@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "PRED-898",
-  "review_sha256": "db57e11c76e5e4dd0158984b2b472801a20e01adc0c25b3832d3525925a280b3",
-  "selected_thesis": "來源資料可確認本作以「舌吻口交到雞巴爽翻為止」作為主要作品線索。",
+  "review_sha256": "a14f062d9f4afcc03c9518924351a5a21e6de79aa543a8fae67cf5fff5af4978",
+  "selected_thesis": "從美容院場域和客人接待定位作品，區分同片商的其他家庭或關係劇情。",
   "title_basis": {
     "performer": "田村香奈",
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 8,
+    "identity_integrity": 8,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-16T16:00:00.000Z"

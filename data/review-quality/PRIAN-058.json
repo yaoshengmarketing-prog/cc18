@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "PRIAN-058",
-  "review_sha256": "3cc4e4a19b2784ed5c14cf938b761c9bc0a6983b6dd6b08b4e4224c37fbc15da",
-  "selected_thesis": "來源資料可確認本作以「月野霞/夏霞」作為主要作品線索。",
+  "review_sha256": "1f6792580112fe150a121ee817aa8ceece2ba50d1d1977afabdcf39cda89e1ca",
+  "selected_thesis": "釐清同一 stable actor ID 的來源姓名差異，再比較夏季寫真與反向搭訕企劃。",
   "title_basis": {
     "performer": "月野かすみ",
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 8,
+    "identity_integrity": 8,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z",

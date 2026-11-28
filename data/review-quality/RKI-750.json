@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "RKI-750",
-  "review_sha256": "67aa5c200f41976911936d3ffdc0fb008522cb379d1aee7ad6c224a26b2e76ca",
-  "selected_thesis": "來源資料可確認本作以「蓮實克蕾兒」作為主要作品線索。",
+  "review_sha256": "25cf873e34278dd34cd103aea41e2f139157338ef9ca331ef302a7ca3d1b5451",
+  "selected_thesis": "區分來源回歸宣傳、系列定位與可核對的演員及片商資料。",
   "title_basis": {
     "performer": "蓮實克蕾兒",
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 8,
+    "identity_integrity": 8,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

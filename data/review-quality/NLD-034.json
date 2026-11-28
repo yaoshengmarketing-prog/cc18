@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "NLD-034",
-  "review_sha256": "7468985d61519192d021cdb8fc64937c589062c681c168019a5a6f83a7011736",
-  "selected_thesis": "來源資料可確認本作以「逆チクビ痴」作為主要作品線索。",
+  "review_sha256": "771b6ca7c2b3e5c85eafadbb8215206913775e5ed6b662b73e2091b5436d63a3",
+  "selected_thesis": "比較反向搭訕企劃與同演員印象寫真作品的資料定位，不把來源宣傳當成實看結論。",
   "title_basis": {
     "performer": "月野霞",
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-02T16:00:00.000Z",
