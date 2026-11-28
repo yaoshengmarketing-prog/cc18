@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import {loadAggregateCatalog} from '../../lib/aggregate-catalog.mjs';
+
+interface Group {href: string; label: string; public_work_count: number;}
+export async function getStaticPaths() {
+  const catalog = await loadAggregateCatalog();
+  const indexLabels = {prefixes: '番號前綴', studios: '片商', months: '發行月份'};
+  return (['prefixes', 'studios', 'months'] as const).map((type) => ({
+    params: {aggregate: type}, props: {label: indexLabels[type], groups: catalog[type]},
+  }));
+}
+const {label, groups} = Astro.props as {label: string; groups: Group[]};
+---
+<BaseLayout title={`${label}作品索引`} description={`依${label}瀏覽本站已發布作品，共 ${groups.length} 個分類。`} adult={true}>
+  <main class="aggregate-index">
+    <nav class="breadcrumbs" aria-label="麵包屑"><a href="/">首頁</a><span>／</span><b>{label}</b></nav>
+    <header class="page-intro"><h1>{label}作品索引</h1><p>依本站已發布作品整理，點選分類查看作品與發行日期。</p></header>
+    <ul>{groups.map((group) => <li><a href={group.href}>{group.label}</a><span>{group.public_work_count} 部</span></li>)}</ul>
+  </main>
+</BaseLayout>
+<style>
+  .aggregate-index ul { list-style: none; padding: 0; display: grid; gap: 10px; }
+  .aggregate-index li { display: flex; justify-content: space-between; gap: 20px; padding: 12px 0; border-bottom: 1px solid #d7d7dc; }
+</style>
