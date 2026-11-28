@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-28T11:44:16.010Z",
+  "generated_at": "2026-11-28T11:55:27.423Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 647,
-  "formal_movie_count": 646,
+  "tracked_input_count": 648,
+  "formal_movie_count": 647,
   "demo_count": 1,
-  "published_count": 645,
+  "published_count": 646,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -4319,6 +4319,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "2febc2e6fb704a20936bf035715e098c5a05bb2aaabf394bae8a390242b2bbd5"
+    },
+    {
+      "stable_movie_id": "cc18:RLMP-030",
+      "catalog_code": "RLMP-030",
+      "slug": "rlmp-030",
+      "master_path": "data/movie-master/rlmp-030.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "0c5f8b79977da2a0a07c627278c68a64c0c09c86b60dd049faa921fa87b7d0fb"
     },
     {
       "stable_movie_id": "cc18:ROE-522",

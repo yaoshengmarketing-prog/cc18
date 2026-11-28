@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "RLMP-030",
+  "review_sha256": "e1f108cef721f7891a251eddef1d331915946298654ae073f971506cbdb506fc",
+  "selected_thesis": "兩作都使用人妻題材，也都列有流川春香；MADM-223 以秘密約會展開關係，RLMP-030 則以強迫情境作為主要宣傳設定。這個差異比共同的演員與人妻標籤更能幫助讀者選片。",
+  "title_basis": {
+    "performer": "流川春香、宮城理惠、黒島玲衣",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "流川春香",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "精液揉捏姦",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "performer",
+        "value": "宮城理惠",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "黒島玲衣",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "流川春香",
+    "presentation_feature": "精液揉捏姦",
+    "editorial_judgment": "以同演員關聯作品對照人妻題材中的人物關係設定，並釐清本作三名演員的角色分配尚無資料可證。",
+    "source_keywords": [
+      "流川春香",
+      "精液揉捏姦",
+      "宮城理惠",
+      "黒島玲衣"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "RLMP-030 的標題與簡介以人妻遭強迫為宣傳設定。",
+      "supports": "本作的選片判斷應先看是否接受強迫情境。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "MADM-223 的簡介寫到流川春香所演人物主動表達慾望，並參與秘密不倫約會。",
+      "supports": "同演員關聯作品提供了具體的人物關係對照。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "RLMP-030 列出三名演員，但題供簡介未分別交代角色。",
+      "supports": "不能指定哪位演員飾演標題中的人妻。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "不指定流川春香、宮城理惠或黒島玲衣誰飾演本作的人妻。",
+    "不將宣傳文案中的行為、效果或強度當成已核實的成片表現。",
+    "不推定兩作的故事節奏、鏡位或表演品質。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

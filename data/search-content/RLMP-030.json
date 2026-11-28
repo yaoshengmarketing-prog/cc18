@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "movie_id": "RLMP-030",
+  "generated_at": "2026-11-28T11:49:03.884Z",
+  "source_snapshot_hash": "sha256:f096dcd0130d17db9c99ee843a98d1b82496a828b2e7464aab77dad6dc78cc5a",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若以人物關係選片，RLMP-030 的強迫設定與 MADM-223 的秘密約會設定有明確區別。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "來源以一名人妻遭強迫作為敘事焦點，另列三名演員；角色分配未明。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "PYM-577",
+      "relation_type": "same_performer",
+      "reason": "同樣由宮城理惠出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "宮城理惠"
+      ],
+      "contrast_signals": [
+        "河合陽菜",
+        "一條美緒"
+      ]
+    },
+    {
+      "movie_id": "MKMP-756",
+      "relation_type": "same_performer",
+      "reason": "同樣由流川春香出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "流川春香"
+      ],
+      "contrast_signals": [
+        "5年內射育性記錄",
+        "人妻・主婦"
+      ]
+    },
+    {
+      "movie_id": "MADM-223",
+      "relation_type": "same_performer",
+      "reason": "同樣由流川春香出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "流川春香"
+      ],
+      "contrast_signals": [
+        "人妻不倫デート",
+        "人妻・主婦"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "它與同樣列有流川春香的 MADM-223 有何設定差異？",
+    "能否從現有資料確認三名演員各自的角色？"
+  ]
+}
