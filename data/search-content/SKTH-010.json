@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "movie_id": "SKTH-010",
+  "generated_at": "2026-11-28T07:56:33.486Z",
+  "source_snapshot_hash": "sha256:2d63364619b66bd8c03b0a92fa811899d55fb8cad99b35653efa2695588550a6",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看舊識關係因診間重逢而改變距離感，可留意本作的公開設定。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以昔日同學、主治醫生與尷尬就診三個設定組成反轉。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "NACT-176",
+      "relation_type": "same_performer",
+      "reason": "同樣由紺野光出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "紺野光"
+      ],
+      "contrast_signals": [
+        "AV女優片",
+        "中出"
+      ]
+    },
+    {
+      "movie_id": "NACT-205",
+      "relation_type": "same_performer",
+      "reason": "同樣由紺野光出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "紺野光"
+      ],
+      "contrast_signals": [
+        "俺の彼女はAIラブドール",
+        "高畫質"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作的重逢設定有何特別之處？",
+    "它與紺野光參演的 NACT-205 在關係起點上有何差別？"
+  ]
+}

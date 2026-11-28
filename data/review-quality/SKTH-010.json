@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "SKTH-010",
+  "review_sha256": "af0126e6efed72ae6295948b02b926e91eb867c7de3c70ff7119d571cdf40ebd",
+  "selected_thesis": "SKTH-010 的選片線索是「昔日仰慕的同學成了主治醫生」：既有的地位差距，被診間的私密處境重新拉近。這與 NACT-205 從 AI 娃娃逐漸成為戀人的設定，提供不同的故事入口。",
+  "title_basis": {
+    "performer": "紺野光、深月芽衣、一ノ瀬はずき",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "紺野光",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "Sikota",
+        "source_field": "title"
+      },
+      {
+        "type": "performer",
+        "value": "深月芽衣",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "一ノ瀬はずき",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "紺野光",
+    "presentation_feature": "Sikota",
+    "editorial_judgment": "以同樣由紺野光演出的 NACT-205 作對照，說明本作從既有的同學關係切入，而非讓陌生對象逐漸建立感情；判斷限於兩份公開設定。",
+    "source_keywords": [
+      "紺野光",
+      "Sikota",
+      "深月芽衣",
+      "一ノ瀬はずき"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "SKTH-010 的來源簡介寫明主角學生時代仰慕同班同學，多年後因包莖困擾就診，發現她是主治醫生。",
+      "supports": "本作以舊識重逢、身分落差和診間羞恥感作為故事入口。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "人物關係資料顯示紺野光也參演 NACT-205；該作簡介描述男子遇見會學習人類言行的 AI 娃娃。",
+      "supports": "兩作可比較親密關係的起點：本作是既有關係的重逢，關聯作品則是新關係的形成。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未指定三名演員中誰飾演主治醫生。",
+    "未推定實際表演、畫面、節奏或成片品質。",
+    "未將宣傳設定當成真實人物經歷或醫療資訊。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

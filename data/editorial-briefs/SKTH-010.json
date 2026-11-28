@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "id": "SKTH-010",
+  "generated_at": "2026-11-28T07:56:32.743Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SKTH-010.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "Sikota",
+    "premise": "作品以「Sikota」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「Sikota」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "Sikota",
+      "Holdings",
+      "包莖改善診所",
+      "去治療包莖時"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "癡女"
+    ],
+    "body": [
+      "美尻"
+    ],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "親吻"
+    ],
+    "presentation": [
+      "720p",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "同樣由紺野光演出的作品，SKTH-010 與 NACT-205 分別用什麼設定開啟親密關係？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=bkuc_wXzE12&cat=19",
+      "supports": "已核對的來源快照記載三名演員，以及昔日同學在泌尿科診間重逢的故事設定。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=rgigKD9DVfc&cat=19",
+      "supports": "已核對的關聯作品資料記載紺野光參演；故事從男子遇見會學習人類言行的 AI 娃娃開始。"
+    }
+  ],
+  "angle_candidates": [
+    "診間重逢如何翻轉學生時代的距離感",
+    "與紺野光另一部作品比較：既有關係的重逢與從零建立的關係",
+    "一ノ瀬はずき的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "SKTH-010 的選片線索是「昔日仰慕的同學成了主治醫生」：既有的地位差距，被診間的私密處境重新拉近。這與 NACT-205 從 AI 娃娃逐漸成為戀人的設定，提供不同的故事入口。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "紺野光",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "Sikota",
+      "source_field": "title"
+    },
+    {
+      "type": "performer",
+      "value": "深月芽衣",
+      "source_field": "actress"
+    },
+    {
+      "type": "performer",
+      "value": "一ノ瀬はずき",
+      "source_field": "actress"
+    }
+  ],
+  "work_title": "Sikota Holdings 包莖改善診所：與昔日憧憬的同學在診間重逢",
+  "display_short_title": "包莖改善診所的同學重逢",
+  "title": "昔日高嶺之花成了主治醫生，重逢為何特別尷尬？",
+  "seo_title": "SKTH-010｜包莖改善診所與昔日同學的診間重逢",
+  "social_title": "最不想被看見的時刻，偏偏遇見昔日憧憬的同學",
+  "short_review": "公開簡介把學生時代的仰慕、成年後的身體困擾與診間重逢接在一起。想找帶有舊識關係與尷尬反轉的設定，這部比單看診所題材更有明確方向。",
+  "editorial_angle": "以同樣由紺野光演出的 NACT-205 作對照，說明本作從既有的同學關係切入，而非讓陌生對象逐漸建立感情；判斷限於兩份公開設定。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "SKTH-010 的來源簡介寫明主角學生時代仰慕同班同學，多年後因包莖困擾就診，發現她是主治醫生。",
+      "supports": "本作以舊識重逢、身分落差和診間羞恥感作為故事入口。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "人物關係資料顯示紺野光也參演 NACT-205；該作簡介描述男子遇見會學習人類言行的 AI 娃娃。",
+      "supports": "兩作可比較親密關係的起點：本作是既有關係的重逢，關聯作品則是新關係的形成。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未指定三名演員中誰飾演主治醫生。",
+    "未推定實際表演、畫面、節奏或成片品質。",
+    "未將宣傳設定當成真實人物經歷或醫療資訊。"
+  ],
+  "decision_guide": {
+    "thesis": "想看舊識關係因診間重逢而改變距離感，可留意本作的公開設定。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介以昔日同學、主治醫生與尷尬就診三個設定組成反轉。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作的重逢設定有何特別之處？",
+      "它與紺野光參演的 NACT-205 在關係起點上有何差別？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "診間讓昔日距離變得難以迴避",
+      "body": "SKTH-010 的公開簡介先交代主角學生時代仰慕一位同班同學，再把多年後的重逢放進泌尿科診間。主角原本就因包莖困擾而難以啟齒，偏偏要在昔日憧憬的人面前接受診察。選片時值得留意的，是這段已有過往的關係如何被尷尬處境重新推到眼前。"
+    },
+    {
+      "heading": "與另一部紺野光作品相比",
+      "body": "同樣由紺野光演出的 NACT-205，公開簡介從男子遇見會學習人類言行的 AI 娃娃開始，重點是新關係如何逐漸形成。SKTH-010 則讓角色帶著學生時代的印象重逢。若你想看原有距離突然縮短的設定，本作的選片理由更明確；若偏好從陌生到親近的設定，NACT-205 的故事入口不同。這是兩份簡介的比較，無法據此判斷成片效果。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據已核對的 <a href=\"https://cc18.tv/player.php?uuid=bkuc_wXzE12&amp;cat=19\">SKTH-010 來源快照</a>與<a href=\"https://cc18.tv/player.php?uuid=rgigKD9DVfc&amp;cat=19\">NACT-205 關聯作品資料</a>。兩個外部作品頁本次無法開啟全文；關係起點與選片意義是依快照所作的編輯比較，未使用影片抽樣。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "2d63364619b66bd8c03b0a92fa811899d55fb8cad99b35653efa2695588550a6",
+    "response_sha256": "189fa51b5eb257edeabb8b27a6ae34bc1cd60df40768cf7e280d5b67c5deb186",
+    "research_input_sha256": "49462c354f63b04e0b3a6ef14b5082fed018f34f7f54479fc5e99166a6534529",
+    "related_source_ids": [
+      "NACT-205",
+      "NACT-176"
+    ]
+  }
+}

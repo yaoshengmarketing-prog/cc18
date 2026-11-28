@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "id": "SKTH-010",
+  "checked_at": "2026-11-28T07:59:35.894Z",
+  "review_sha256": "a9630f3b17e195c1270bce09e0a2403160020c0cf8859a09f336583d02a717cc",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "reader_facing_production_meta",
+    "title_lacks_source_core_concept",
+    "missing_creative_reconstruction_audit",
+    "insufficient_presentation_signals",
+    "insufficient_search_intents"
+  ],
+  "findings": [
+    {
+      "code": "reader_facing_production_meta",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "CONTENT_QUALITY_WARNING",
+      "locations": [
+        {
+          "paragraph": 5,
+          "excerpt": "同樣由紺野光演出的 NACT-205，公開簡介從男子遇見會學習人類言行的 AI 娃娃開始，重點是新關係如何逐漸形成。SKTH-010 則讓角色帶著學生時代的印象重逢。若你想看原有距離突然縮短的設定，本作的選片理由更明確；若偏好從陌生到親近的設定，NACT-205 的故事入口不同。"
+        }
+      ]
+    },
+    {
+      "code": "title_lacks_source_core_concept",
+      "scope": "PASS_WITH_NOTES",
+      "reason": "COVERAGE_WARNING"
+    },
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_presentation_signals",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_search_intents",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 3,
+    "evidence_items": 2,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 2,
+    "recommendations": 2
+  }
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:6f533b44136bdca7591c80484f252d1b87aefffc5150c06963bff0eb34eb254b",
-  "source_generated_at": "2026-11-28T07:50:35.726Z",
+  "source_revision": "sha256:58d948b0d337235c86f36e2810f2c1c2109543568e62acc249b0c45e5dde3960",
+  "source_generated_at": "2026-11-28T08:01:32.012Z",
   "counts": {
-    "movies": 627,
-    "performers": 421,
+    "movies": 628,
+    "performers": 423,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -58,6 +58,17 @@
         "cc18:MKMP-758",
         "cc18:MMPB-144",
         "cc18:PYM-577"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:53845",
+      "display_name": "一ノ瀬はずき",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "一ノ瀬はずき",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SKTH-010"
       ]
     },
     {
@@ -3540,6 +3551,17 @@
       ]
     },
     {
+      "stable_actor_id": "cc18.tv:actor:26539",
+      "display_name": "深月芽衣",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "深月芽衣",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SKTH-010"
+      ]
+    },
+    {
       "stable_actor_id": "cc18.tv:actor:54426",
       "display_name": "深雪しおり",
       "display_name_zh_tw": null,
@@ -3703,7 +3725,8 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:NACT-176",
-        "cc18:NACT-205"
+        "cc18:NACT-205",
+        "cc18:SKTH-010"
       ]
     },
     {
@@ -5174,6 +5197,63 @@
         "article_title": "從服務場景到親屬侵犯，這次的設定差在哪裡？",
         "display_short_title": "變調的暑假旅行",
         "slug": "fns-269"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SKTH-010",
+        "source_cover": "https://cc18.tv/preview/80/b/bkuc_wXzE12-800.jpg?v=1794983913",
+        "title": "包莖改善診所的同學重逢",
+        "catalog_code": "SKTH-010",
+        "release_date": "2026-11-18",
+        "performers": [
+          "紺野光",
+          "深月芽衣",
+          "一ノ瀬はずき"
+        ],
+        "canonical_topics": [
+          {
+            "id": "active-female",
+            "label": "主動女性／癡女"
+          },
+          {
+            "id": "beautiful-butt",
+            "label": "美尻"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "kissing",
+            "label": "親吻互動"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/skth-010/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:1698",
+        "cc18.tv:actor:26539",
+        "cc18.tv:actor:53845"
+      ],
+      "search": {
+        "source_title": "Sikota Holdings 包莖改善診所：去治療包莖時，發現主治醫生竟然是我憧憬的、在學校階級中屬於頂端1軍的同班同學",
+        "source_tags": [
+          "癡女",
+          "美尻",
+          "親吻",
+          "720p",
+          "HD",
+          "4k"
+        ],
+        "article_title": "昔日高嶺之花成了主治醫生，重逢為何特別尷尬？",
+        "display_short_title": "包莖改善診所的同學重逢",
+        "slug": "skth-010"
       }
     },
     {

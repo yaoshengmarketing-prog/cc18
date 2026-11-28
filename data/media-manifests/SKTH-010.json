@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "SKTH-010",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-28T08:00:32.673Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/SKTH-010/hero-v1.jpg",
+      "r2_key": "works/2026/11/SKTH-010/hero-v1.jpg",
+      "bytes": 752939,
+      "sha256": "7b699dd5a92e7e8e32f0ecc922bb73e847189876e9346565f20e288b1bab9800",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "82ecf26e991f425bbb56d3b379040717",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/SKTH-010/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/SKTH-010/scene-vertical-v1.jpg",
+      "bytes": 830041,
+      "sha256": "803c505abf71f8a6e3b2fbbb8bfa120be1b9d02947cff5824ac82e713fe6f3c1",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "dfb7dbedba384132b6553f62d8637bdc",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2528999,
+    "sha256": "4a22d0b0864f7176686cf86dc4aabc9cea6af76d469d8273b7f974059a9cb63d",
+    "target_r2_key": "works/2026/11/SKTH-010/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/SKTH-010/vertical-v1.mp4"
+  }
+}

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-28T07:50:35.726Z",
+  "generated_at": "2026-11-28T08:01:32.012Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 629,
-  "formal_movie_count": 628,
+  "tracked_input_count": 630,
+  "formal_movie_count": 629,
   "demo_count": 1,
-  "published_count": 627,
+  "published_count": 628,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -4562,6 +4562,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "9bd75813abc475d104e735b614c3ce03b641f94935961a61c1415b34ca5ebc9a"
+    },
+    {
+      "stable_movie_id": "cc18:SKTH-010",
+      "catalog_code": "SKTH-010",
+      "slug": "skth-010",
+      "master_path": "data/movie-master/skth-010.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "e9aefe09c5dc647746c3f2dc00e3ccc5d66c753395593076509e6376be4ac6d0"
     },
     {
       "stable_movie_id": "cc18:SMOK-048",
