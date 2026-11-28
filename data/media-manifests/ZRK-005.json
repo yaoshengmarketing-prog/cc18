@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "ZRK-005",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-28T12:56:42.179Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/ZRK-005/hero-v1.jpg",
+      "r2_key": "works/2026/11/ZRK-005/hero-v1.jpg",
+      "bytes": 697811,
+      "sha256": "78b9a5d4b10cd1c83214e3f9f229536b0c73800ca2c5ed255a929cc76b9ceba0",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "7a1c1f0b41a947919a60304834c399c9",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/ZRK-005/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/ZRK-005/scene-vertical-v1.jpg",
+      "bytes": 908800,
+      "sha256": "19f702d95f84c9d2691e7e1c1e203962d1cfc851017559fb09f99ed148dc4ecf",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "44bb31c1eb104a0982135b17884d86c7",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2445758,
+    "sha256": "1346f86950d01e9e6fe0f915ac7f6a13f7019a44779f4e6d24eca0c672330611",
+    "target_r2_key": "works/2026/11/ZRK-005/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/ZRK-005/vertical-v1.mp4"
+  }
+}

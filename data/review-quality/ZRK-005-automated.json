@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "id": "ZRK-005",
+  "checked_at": "2026-11-28T12:56:02.554Z",
+  "review_sha256": "2c790c5a2b42a369904a414a643a230014aec227a508e99254398a3619465c67",
+  "status": "PASS_WITH_NOTES",
+  "passed": true,
+  "publishable": true,
+  "issues": [],
+  "repair_issues": [],
+  "notes": [
+    "missing_creative_reconstruction_audit",
+    "insufficient_presentation_signals",
+    "insufficient_search_intents"
+  ],
+  "findings": [
+    {
+      "code": "missing_creative_reconstruction_audit",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_presentation_signals",
+      "scope": "PASS_WITH_NOTES"
+    },
+    {
+      "code": "insufficient_search_intents",
+      "scope": "PASS_WITH_NOTES"
+    }
+  ],
+  "metrics": {
+    "sections": 3,
+    "evidence_items": 3,
+    "distinct_video_windows": 0,
+    "repeated_sentence_groups": 0,
+    "search_questions": 2,
+    "recommendations": 0
+  }
+}

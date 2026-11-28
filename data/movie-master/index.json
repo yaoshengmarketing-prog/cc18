@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-28T12:48:14.207Z",
+  "generated_at": "2026-11-28T12:57:53.603Z",
   "generator_version": "1.1.0",
-  "tracked_input_count": 653,
-  "formal_movie_count": 652,
+  "tracked_input_count": 654,
+  "formal_movie_count": 653,
   "demo_count": 1,
-  "published_count": 651,
+  "published_count": 652,
   "formal_draft_count": 1,
   "draft_count": 2,
   "entries": [
@@ -5885,6 +5885,15 @@
       "is_demo": false,
       "is_published": true,
       "content_hash": "2049c282254a25c2d08ac289d133cc6c7bae8c99d37582c62617e78e6b03d64a"
+    },
+    {
+      "stable_movie_id": "cc18:ZRK-005",
+      "catalog_code": "ZRK-005",
+      "slug": "zrk-005",
+      "master_path": "data/movie-master/zrk-005.json",
+      "is_demo": false,
+      "is_published": true,
+      "content_hash": "3bfad8566478d40f018597ba226f903c9840de0fadcfa84bf4ed883345d4cb5c"
     }
   ]
 }

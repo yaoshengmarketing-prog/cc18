@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "ZRK-005",
+  "review_sha256": "e7e0a033100b2c92da9938b0831af6390cf59c6169e89036d77191991e692910",
+  "selected_thesis": "「人間畢業」是來源文案對極端身體反應的包裝；選片時更具體的線索，是片名與簡介反覆強調的喉部施壓，以及標籤列出的強制與緊縛題材。",
+  "title_basis": {
+    "performer": null,
+    "signals": [
+      {
+        "type": "theme",
+        "value": "缺氧窒息",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "中出",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "act_or_position",
+        "value": "顏射",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "缺氧窒息",
+    "presentation_feature": "高畫質",
+    "editorial_judgment": "從片名、簡介與標籤辨認企劃重心，說明極端支配題材對選片的意義，不把宣傳描述當作成片觀察。",
+    "source_keywords": [
+      "缺氧窒息",
+      "高畫質",
+      "中出",
+      "顏射"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源片名包含「缺氧窒息」「喉虐」與「人間畢業篇」",
+      "supports": "片名把喉部施壓和極端反應設為主要辨識點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介反覆描述深喉、身體施壓及失控反應",
+      "supports": "「人間畢業」在文案中對應的是強烈的身體題材，而非可核對的角色故事。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標籤列有「強迫口交」與「緊縛」",
+      "supports": "讀者可據此辨認強制與束縛設定，並判斷是否符合自己的選片界線。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未推定演員的正式姓名或經歷。",
+    "未聲稱已觀看任何畫面、聽見聲音或確認實際表演效果。",
+    "未把來源文案中的行為描述當作成片品質或敘事節奏的證據。",
+    "未建立缺乏核對材料的同演員、同系列或片商作品比較。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

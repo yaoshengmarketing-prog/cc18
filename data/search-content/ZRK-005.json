@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "ZRK-005",
+  "generated_at": "2026-11-28T12:52:33.183Z",
+  "source_snapshot_hash": "sha256:14e8b9608050dfceb4e7ef1646263b18e2cc6b3eb9e497ec015a1dcd14709ff3",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "這部作品的公開資料提供了明確的極端支配題材線索，但沒有足夠材料判斷故事與成片呈現。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "片名與簡介集中強調喉部施壓及失控反應；標籤補充強制與緊縛設定。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "「人間畢業篇」在公開文案中指向什麼重心？",
+    "片名與標籤各提供了哪些選片線索？"
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "id": "ZRK-005",
+  "generated_at": "2026-11-28T12:52:32.353Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/ZRK-005.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "缺氧窒息",
+    "premise": "作品以「缺氧窒息」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「缺氧窒息」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "缺氧窒息",
+      "喉虐阿嘿高潮奴隸",
+      "人間畢業篇",
+      "白宮梨愛菜",
+      "24歲",
+      "中出"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "顏射",
+      "淫亂・過激系"
+    ],
+    "presentation": [
+      "720p",
+      "HD"
+    ]
+  },
+  "research_question": "片名中的「人間畢業篇」，在可核對的資料裡指向什麼企劃重心？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=ChJUlxgCwdE&cat=19",
+      "supports": "使用題目提供的作品來源快照；片名與公開簡介集中描述喉部施壓、支配和失控反應，標籤另列強迫口交與緊縛。外部頁面未能開啟，未核對頁面現況。"
+    }
+  ],
+  "angle_candidates": [
+    "「人間畢業」如何概括公開簡介的極端身體設定",
+    "片名與標籤各自提供哪些選片線索",
+    "中出的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "「人間畢業」是來源文案對極端身體反應的包裝；選片時更具體的線索，是片名與簡介反覆強調的喉部施壓，以及標籤列出的強制與緊縛題材。",
+  "title_signals": [
+    {
+      "type": "theme",
+      "value": "缺氧窒息",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "act_or_position",
+      "value": "中出",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "act_or_position",
+      "value": "顏射",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "缺氧窒息：喉部極限與人間畢業篇",
+  "display_short_title": "缺氧窒息・人間畢業篇",
+  "title": "「人間畢業」指向什麼樣的極端設定？",
+  "seo_title": "ZRK-005｜缺氧窒息・人間畢業篇的選片線索",
+  "social_title": "看懂《缺氧窒息》「人間畢業篇」的企劃重心",
+  "short_review": "來源簡介把喉部施壓與失控反應放在中心，標籤再補上強制與緊縛題材。適合依這些明確設定找片；故事與實際呈現仍無從判斷。",
+  "editorial_angle": "從片名、簡介與標籤辨認企劃重心，說明極端支配題材對選片的意義，不把宣傳描述當作成片觀察。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源片名包含「缺氧窒息」「喉虐」與「人間畢業篇」",
+      "supports": "片名把喉部施壓和極端反應設為主要辨識點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介反覆描述深喉、身體施壓及失控反應",
+      "supports": "「人間畢業」在文案中對應的是強烈的身體題材，而非可核對的角色故事。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源標籤列有「強迫口交」與「緊縛」",
+      "supports": "讀者可據此辨認強制與束縛設定，並判斷是否符合自己的選片界線。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "未推定演員的正式姓名或經歷。",
+    "未聲稱已觀看任何畫面、聽見聲音或確認實際表演效果。",
+    "未把來源文案中的行為描述當作成片品質或敘事節奏的證據。",
+    "未建立缺乏核對材料的同演員、同系列或片商作品比較。"
+  ],
+  "decision_guide": {
+    "thesis": "這部作品的公開資料提供了明確的極端支配題材線索，但沒有足夠材料判斷故事與成片呈現。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "片名與簡介集中強調喉部施壓及失控反應；標籤補充強制與緊縛設定。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "「人間畢業篇」在公開文案中指向什麼重心？",
+      "片名與標籤各提供了哪些選片線索？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "「人間畢業」把重心放在哪裡？",
+      "body": "來源片名先用「缺氧窒息」與「喉虐」定調；簡介接著密集列出喉部施壓、身體控制和失控反應。「人間畢業篇」因此更像是替這組極端設定取名，而不是一段已有交代的角色故事。這回答了選片時最直接的問題：本作公開資料主打的是高強度的身體題材。"
+    },
+    {
+      "heading": "片名與標籤，提供不同的判斷線索",
+      "body": "片名把注意力集中在喉部極限，標籤則明列強迫口交與緊縛，讓支配和束縛的設定更具體。兩者合看，比單憑「過激」一詞更能幫讀者判斷是否符合自己的喜好與界線。來源沒有交代明確的角色關係或情節走向；想先找故事的讀者，現有材料幫助有限。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據題目提供的 ZRK-005 作品來源快照，包括片名、公開簡介與標籤；來源網址為 https://cc18.tv/player.php?uuid=ChJUlxgCwdE&cat=19 。外部頁面未能開啟，也沒有可核對的關聯作品或影片抽樣。上述選片判斷只涉及公開設定，不評定成片品質。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "14e8b9608050dfceb4e7ef1646263b18e2cc6b3eb9e497ec015a1dcd14709ff3",
+    "response_sha256": "eaa58997859ae48c66acea5008981c2dcb9047d0525f84c14c86a3c89cc8d5ac",
+    "research_input_sha256": "667ef3c65ff92a7a0904fe8bcbdfe334f7bef8cebcbfcafdaebf1e9dec3c2875",
+    "related_source_ids": []
+  }
+}
