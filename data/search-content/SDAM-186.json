@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "movie_id": "SDAM-186",
+  "generated_at": "2026-11-28T13:01:59.783Z",
+  "source_snapshot_hash": "sha256:4df5caf14f8144be39f39932e219d5109d07c1cd5b594c4f99f35486623a29a3",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "若想看一部以具體日常身分介紹新人的出道作，本作的宣傳設定提供了清楚線索。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以燒肉店打工和體育系女大生設定開場，簡介再轉向初次體驗與身體反應。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [],
+  "questions_answered": [
+    "燒肉店打工設定在宣傳中起什麼作用？",
+    "簡介把哪些內容放在出道企劃的重點？"
+  ]
+}

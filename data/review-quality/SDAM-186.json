@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "SDAM-186",
+  "review_sha256": "9053d1e48c06ac1f73b4b839fb1d68e769f73b1587965cf7e95c7bf7a700f762",
+  "selected_thesis": "燒肉店打工與體育系女大生是這部作品的人物入口；簡介隨後轉向初次體驗與身體反應，讓選片重點落在日常人物設定和出道企劃之間的轉換。",
+  "title_basis": {
+    "performer": "南えな",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "南えな",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "淫水",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "南えな",
+    "presentation_feature": "淫水",
+    "editorial_judgment": "分析作品簡介如何以具體的日常設定引入新人，再轉向出道企劃的體驗訴求。",
+    "source_keywords": [
+      "南えな",
+      "淫水",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題將南えな描述為每週五天在燒肉店打工的體育系女大生，並標示為出道作。",
+      "supports": "日常打工設定是這次人物介紹的明確入口；這是作品設定，不能據此確認演員私生活。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介接著列出好奇開始拍攝、初次體驗與強烈身體反應。",
+      "supports": "宣傳重心從人物背景轉向出道企劃中的體驗變化，不能據此評定成片表現。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "南えな現實中確實在燒肉店打工或就讀大學",
+    "成片中的表演效果、畫面細節與節奏",
+    "宣傳所述反應已在影片中得到證實"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "SDAM-186",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-28T13:07:43.642Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/SDAM-186/hero-v1.jpg",
+      "r2_key": "works/2026/11/SDAM-186/hero-v1.jpg",
+      "bytes": 1077610,
+      "sha256": "6160c1fe5d1e10c28f61563eeab0eabaad4a03f8133944b85ae20c57c15a7226",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "29e667abdfe94174bea6ae28e39a9857",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/SDAM-186/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/SDAM-186/scene-vertical-v1.jpg",
+      "bytes": 672179,
+      "sha256": "90a4d5db863819286276f3f2dedf8f017006945ca19d206369a002e1ac919570",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "09648fa09418490fb16b861b0657c4bb",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2169125,
+    "sha256": "0aa92d25e0fdb7b0c85c203bf2e6c8bbbdd1f9b83e2bcf70e143f39584330385",
+    "target_r2_key": "works/2026/11/SDAM-186/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/SDAM-186/vertical-v1.mp4"
+  }
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "source_revision": "sha256:7e257f99df24d6768c25a857c568340e65a8cc4b5abde7b14a4be05c2b511129",
-  "source_generated_at": "2026-11-28T12:57:53.603Z",
+  "source_revision": "sha256:374f595e22bd4aaea2990b1ab7d280c48f5360f143e825ecc1f93bcdc011325f",
+  "source_generated_at": "2026-11-28T13:09:12.148Z",
   "counts": {
-    "movies": 652,
-    "performers": 430,
+    "movies": 653,
+    "performers": 431,
     "excluded_formal_drafts": 1,
     "excluded_demos": 1
   },
@@ -2519,6 +2519,17 @@
       "searchable_aliases": [],
       "related_movie_ids": [
         "cc18:SDMF-054"
+      ]
+    },
+    {
+      "stable_actor_id": "cc18.tv:actor:54871",
+      "display_name": "南えな",
+      "display_name_zh_tw": null,
+      "name_ja": null,
+      "source_name": "南えな",
+      "searchable_aliases": [],
+      "related_movie_ids": [
+        "cc18:SDAM-186"
       ]
     },
     {
@@ -6857,6 +6868,58 @@
         "article_title": "明明不是誤送，為何仍用配送說關係？",
         "display_short_title": "門口外送的秘密約定",
         "slug": "hez-933"
+      }
+    },
+    {
+      "card": {
+        "stable_movie_id": "cc18:SDAM-186",
+        "source_cover": "https://cc18.tv/preview/80/b/crxV6XzWA6N-800.jpg?v=1794343030",
+        "title": "南えな與燒肉店打工設定",
+        "catalog_code": "SDAM-186",
+        "release_date": "2026-11-10",
+        "performers": [
+          "南えな"
+        ],
+        "canonical_topics": [
+          {
+            "id": "adult-performer",
+            "label": "AV 女優"
+          },
+          {
+            "id": "group-sex",
+            "label": "多人企劃"
+          },
+          {
+            "id": "hd",
+            "label": "HD"
+          },
+          {
+            "id": "uhd-4k",
+            "label": "4K"
+          }
+        ],
+        "has_remotion_promo": true,
+        "href": "/works/sdam-186/"
+      },
+      "performer_ids": [
+        "cc18.tv:actor:54871"
+      ],
+      "search": {
+        "source_title": "在燒肉店每週打工5天的體育系女大生。淫水、口水、潮吹 濡濕水分200％ 南惠奈 22歲AV出道",
+        "source_tags": [
+          "AV女優片",
+          "潮吹",
+          "出道作",
+          "3p・4p",
+          "720p",
+          "HD",
+          "4P",
+          "白目・失神",
+          "4k"
+        ],
+        "article_title": "從燒肉店打工到出道企劃，南えな被如何介紹？",
+        "display_short_title": "南えな與燒肉店打工設定",
+        "slug": "sdam-186"
       }
     },
     {

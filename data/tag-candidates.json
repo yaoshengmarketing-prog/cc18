@@ -779,7 +779,7 @@
     },
     {
       "label": "潮吹",
-      "occurrences": 60,
+      "occurrences": 61,
       "source_ids": [
         "SNOS-364",
         "JUR-862",
@@ -840,7 +840,8 @@
         "EKDV-834",
         "MKMP-770",
         "RLMP-028",
-        "ZRK-005"
+        "ZRK-005",
+        "SDAM-186"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-28",
@@ -1065,7 +1066,7 @@
     },
     {
       "label": "出道作",
-      "occurrences": 14,
+      "occurrences": 15,
       "source_ids": [
         "IPZZ-986",
         "IPZZ-988",
@@ -1080,10 +1081,11 @@
         "SPONE-001",
         "SDAM-179",
         "KUSE-045",
-        "BOKD-322"
+        "BOKD-322",
+        "SDAM-186"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-28",
       "status": "quarantined"
     },
     {
@@ -2599,7 +2601,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 56,
+      "occurrences": 57,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -2656,7 +2658,8 @@
         "FSBK-030",
         "MXGS-1452",
         "HMN-913",
-        "TPIN-103"
+        "TPIN-103",
+        "SDAM-186"
       ],
       "first_seen": "2026-09-09",
       "last_seen": "2026-11-28",
@@ -3240,14 +3243,15 @@
     },
     {
       "label": "白目・失神",
-      "occurrences": 3,
+      "occurrences": 4,
       "source_ids": [
         "GS-2148",
         "GVH-891",
-        "SDDE-771"
+        "SDDE-771",
+        "SDAM-186"
       ],
       "first_seen": "2026-09-23",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-28",
       "status": "quarantined"
     },
     {

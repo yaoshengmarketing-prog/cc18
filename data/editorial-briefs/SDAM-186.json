@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "id": "SDAM-186",
+  "generated_at": "2026-11-28T13:01:58.585Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/SDAM-186.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "淫水",
+    "premise": "作品以「淫水」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「淫水」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "淫水",
+      "口水",
+      "潮吹",
+      "濡濕水分200",
+      "南惠奈",
+      "22歲AV出道"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "3p・4p"
+    ],
+    "presentation": [
+      "720p",
+      "HD",
+      "4k"
+    ]
+  },
+  "research_question": "本作為何在出道介紹中，先寫「每週五天在燒肉店打工」？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=crxV6XzWA6N&cat=19",
+      "supports": "題目提供的作品頁來源快照記載演員、出道標籤、燒肉店打工與體育系女大生設定，以及簡介所列的初次體驗。外部頁面未能開啟，以下僅依該快照判讀。"
+    }
+  ],
+  "angle_candidates": [
+    "日常打工設定如何替出道介紹建立人物輪廓",
+    "初次體驗與強烈身體反應如何被並列為宣傳重點",
+    "淫水的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "燒肉店打工與體育系女大生是這部作品的人物入口；簡介隨後轉向初次體驗與身體反應，讓選片重點落在日常人物設定和出道企劃之間的轉換。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "南えな",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "淫水",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "identity",
+      "value": "AV女優片",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "每週五天在燒肉店打工的體育系女大生：南えな出道作",
+  "display_short_title": "南えな與燒肉店打工設定",
+  "title": "從燒肉店打工到出道企劃，南えな被如何介紹？",
+  "seo_title": "SDAM-186｜南えな出道作的燒肉店打工設定",
+  "social_title": "南えな出道作，為何先從燒肉店打工說起？",
+  "short_review": "本作先用每週五天打工的日常設定介紹南えな，再以初次體驗和身體反應作為宣傳重點。適合對這種人物介紹方式感興趣的讀者；實際節奏與呈現仍無法由簡介確認。",
+  "editorial_angle": "分析作品簡介如何以具體的日常設定引入新人，再轉向出道企劃的體驗訴求。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "來源標題將南えな描述為每週五天在燒肉店打工的體育系女大生，並標示為出道作。",
+      "supports": "日常打工設定是這次人物介紹的明確入口；這是作品設定，不能據此確認演員私生活。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "來源簡介接著列出好奇開始拍攝、初次體驗與強烈身體反應。",
+      "supports": "宣傳重心從人物背景轉向出道企劃中的體驗變化，不能據此評定成片表現。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "南えな現實中確實在燒肉店打工或就讀大學",
+    "成片中的表演效果、畫面細節與節奏",
+    "宣傳所述反應已在影片中得到證實"
+  ],
+  "decision_guide": {
+    "thesis": "若想看一部以具體日常身分介紹新人的出道作，本作的宣傳設定提供了清楚線索。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "以燒肉店打工和體育系女大生設定開場，簡介再轉向初次體驗與身體反應。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "燒肉店打工設定在宣傳中起什麼作用？",
+      "簡介把哪些內容放在出道企劃的重點？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "一個具體的日常身分",
+      "body": "本作沒有只用「新人出道」介紹南えな。來源標題先給她一個容易辨認的身分：每週五天在燒肉店打工的體育系女大生。這讓讀者在接觸出道企劃前，先記住一個具體的人物設定。打工與就學資訊來自作品介紹，不宜直接當作演員私生活。"
+    },
+    {
+      "heading": "選片重點如何轉換",
+      "body": "簡介接著把焦點移到初次體驗與身體反應。前段的打工設定提供親近日常的入口，後段則說明這部出道作想突出什麼；兩者的差異，比單看「出道作」標籤更能幫助選片。若你在意新人如何被介紹，這個安排值得留意；若你想判斷成片的故事與節奏，現有文字還不足以回答。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依題目提供的 CC18 作品頁來源快照撰寫：https://cc18.tv/player.php?uuid=crxV6XzWA6N&cat=19 。外部頁面未能開啟，沒有使用影片抽樣；日常設定與出道訴求之間的選片意義是編輯判讀。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "4df5caf14f8144be39f39932e219d5109d07c1cd5b594c4f99f35486623a29a3",
+    "response_sha256": "9051bc6aaddf7fec776c33c982f57d9e644d990267ad8a5934976525a76bfa7e",
+    "research_input_sha256": "3202360bc87cf9f4afddcaa34d566b91360406d83796882f7e340f7555d008a5",
+    "related_source_ids": []
+  }
+}
