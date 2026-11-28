@@ -1,90 +1,31 @@
 # CC18
 
-CC18 是以公開作品資料為基礎的成人作品介紹與原創影評網站專案。正式系統將使用 GitHub Actions 執行來源擷取、去重、Tag／影評生成、原創非露骨圖片、Remotion MP4、Registry、分波發布與 Cloudflare 部署。
+CC18 是以公開作品資料為基礎的繁體中文成人作品選片網站。正式網域是 <https://jav.com.tw>；`cc18.pages.dev` 的一般頁面轉至正式網域，舊的 `/media/` 網址仍由同一個 Pages Function 讀取 R2。預覽部署維持 noindex。作品頁保存來源原始事實，顯示標題和演員名稱另依在地化規則投影。
 
-目前狀態：V1 網站與自動化底座已部署至 Cloudflare Pages。作品頁已分成來源事實、原創影評與搜尋決策三層，另有站內搜尋、編輯方法、索引門檻與結構化資料。Registry 目前有 11 部正式作品；`SNOS-409` 已完成 Editorial、圖片、9 秒 Remotion MP4、R2 雜湊驗證、GitHub Publisher 與 Cloudflare 正式頁閉環。D1 已啟用並保存 53 部作品／92 個工作；目前 44 個 completed、45 個 queued、3 個 retry、0 個 leased。250 部本機合成負載驗收已通過；每日大量排程仍未啟用。
-
-影評採「創作預設開放、影片分析加分」：限制只用來防止番號、演員、日期、系列、來源 CTA、Registry、Tag 與發布狀態出錯，不用來壓縮文章。正文允許以主觀評論語氣補寫情節、人物動機、場景銜接、鏡位、聲音氛圍、剪輯節奏、演技與表情，優先追求故事性、獨特性、畫面感、可讀性與選片價值。創作內容在內部 Brief 留下 provenance，但不回寫來源事實。Windows Media Bridge 的影片抽樣只用來增加素材，失敗不阻止文章。
-
-內容品質採硬性發布門檻：正式影評必須保存 CC18 原始標題，另產生來源導向的顯示標題與 SEO 標題；Tag 使用穩定 ID，文章必須附帶來源證據、評分紀錄與內容雜湊，並通過最低 8 分及跨文章相似度檢查。`新片` 依作品日期即時計算，不永久寫入文章。
-
-正式站：<https://cc18.pages.dev>
-
-## Local development
+## 開發與驗證
 
 ```bash
-npm install
-npm run registry:validate
-npm run content:validate
+npm ci
 npm run validate
 npm run dev
 ```
 
-Remotion Studio：
+`npm run validate` 包含內容與登錄驗證、單元測試、網站建置和建置後 SEO 檢查。`npm run content:validate` 單獨檢查已發布稿件；輸出各類警告與阻擋數。正式部署由 main 分支的 Cloudflare Pages 流程處理，不手動執行 `wrangler pages deploy`。
 
-```bash
-npm run video:studio
-```
+## 內容與發布
 
-安全示範文章已降為草稿；目前有三篇真實來源文章公開。作品封面暫時使用 CC18 公開來源 URL，原創 Hero 與 MP4 使用 R2 immutable key。文章 CTA 永遠保留精確的 CC18 原始作品網址。
+每小時的 `Content pipeline` 會處理新作品，Editorial 由 `scripts/editorial/build-from-analysis.mjs` 讀取 `prompts/review-writer.md` 產生草稿，`scripts/editorial/qa-draft.mjs` 執行 QA，再由 publisher 提交限定檔案。Writer 與 critic 契約見 `prompts/`；來源身分、標籤和演員顯示名不得由評論覆寫。不得把影片抽樣或公開簡介寫成完整觀看心得。
 
-內容規則的可執行來源：
+新稿的目標格式是「選片評析」，詳見 `prompts/review-writer.md`。`editorialFormat: selection-analysis-v1` 的稿件須滿足 600 個中文字、至少三項 evidence、八項分數、最近 30 篇的相似度門檻，以及風險詞人工核可。舊稿與目前 publisher 的日期觸發稿暫時只警告，直到產線能穩定達標。人工核可只記錄於 `data/editorial-risk-approvals.json`；風險詞本身不是不收錄決定。
 
-- `config/title-policy.json`：來源標題、顯示標題與 SEO 標題。
-- `config/review-policy.json`：可用資料、禁止宣稱、證據與發布門檻。
-- `config/review-scorecard.json`：影評七項評分。
-- `data/taxonomy.json`：穩定 Tag ID、來源映射與忽略規則。
-- `scripts/validate-content.mjs`：CI 發布阻擋與文章相似度檢查。
-- `config/media-bridge.json`：本機授權瀏覽器、媒體 allowlist、抽樣與保留政策。
-- `docs/discovery-queue.md`：新片全量收件、日期分類、D1 去重與 lease 規則。
-- `docs/editorial-d1.md`：影片 Evidence 到 Editorial Draft／QA 的 D1 接棒與模型責任。
-- `docs/publisher.md`：發布 QA、限定提交、Cloudflare 正式頁驗證與 D1 完成條件。
-- `cloudflare/migrations/0001_pipeline_queue.sql`：持久化 Queue 的 D1 schema。
-- `config/agent-roles.json`：Scout、Tag Curator、Editor、Critic/QA、Media Producer、Publisher 的責任與交接契約。
-- `docs/agent-workflow.md`：多角色工作流、失敗隔離與資料 source of truth。
-- `docs/content-canary.md`：3–7 天內容 canary；每天最多三部、單工執行，正式日排程保持關閉。
+## 主要資料與文件
 
-Tag 現在固定分成三層：CC18 原始標籤逐字保存；站內標準標籤只由 taxonomy 規則映射；影評觀點標籤由 Editor 提出並由 Critic/QA 審核。作品頁另由原始標籤自動整理「人物身分、身材、衣著、關係、場景、行為與體位、拍攝與形式」摘要，這些來源字詞也進入站內搜尋，不依賴 AI 是否剛好寫進正文。
+- `data/movie-registry.json`：作品登錄與發布狀態。
+- `data/source-records/`：來源原始資料；`data/localization/performers-zh-tw.json`：演員顯示名。
+- `data/review-quality/`：內容核可、證據、分數與文章雜湊。
+- `data/search-content/`：搜尋投影與來源快照雜湊。
+- `config/review-scorecard.json`、`config/review-policy.json`：評分與發布政策。
+- `scripts/validate-content.mjs`：內容完整性及新格式阻擋規則。
+- `docs/publisher.md`、`docs/editorial-d1.md`：Publisher 和 Editorial 流程。
 
-批次 Discovery 與本機 worker 目前只允許手動執行：
-
-```bash
-npm run discovery:run -- --store=file
-npm run queue:status -- --store=file
-npm run bridge:d1:process-one
-npm run worker:readiness
-npm run worker:cycle -- --max=3
-npm run editorial:d1:source-only -- MOVIE-ID
-```
-
-`worker:cycle` 預設只做可選的影片證據分析；單筆失敗不阻塞文章或後續工作，原始影片樣本在分析後刪除。只有同時加上 `--with-editorial` 並明確設定 `CC18_ALLOW_EDITORIAL_TRANSMISSION=YES`，才會把安全化資料送往外部文字模型建立草稿；它仍不會發布。目前 Windows 排程保持停用，待 source-grounded Editorial 路徑完成後再重新啟用。
-
-`file` 模式是本機 dry run；正式跨執行持久化使用 `--store=d1`。D1 已建立並套用 migration。正式每日發布仍維持關閉，必須先完成整條流程與七天 canary。
-
-Phase 4 容量驗收可執行 `npm run load:synthetic`。它使用一次性本機 Queue 驗證 250 部全量收件、500 個 Editorial／Media 工作、去重、10 個 worker、lease 回收、retry 與五個 50 部發布波次；不連線來源、Cloudflare 或 AI，也不發布。操作與邊界見 [docs/load-acceptance.md](docs/load-acceptance.md)。
-
-Creative-first 路徑已與 Media 解耦：Discovery 對每部 eligible 作品各建立一個 `editorial` 與一個 `media_analysis` 工作。Editorial 先由本機 Ollama 讀取完整來源標題、簡介與 Tag，產生非露骨 Creative Brief；外部 Writer 只接收這份 Brief 與安全化訊號。`editorial:source-cycle` 仍受 `CC18_ALLOW_EDITORIAL_TRANSMISSION=YES` 明確開關保護，目前未排程、未執行新作品外送。
-
-圖片路徑已接成 `editorial completed → image queued → AItokenKing 非同步生成 → R2 上傳與反向 SHA-256 驗證 → Media Manifest／文章／Registry → video queued`。每部產生 16:9 Hero 與 9:16 直式素材；失敗標記 retry，不阻止文章保留 CC18 來源封面。批次 `image:cycle` 需設定 `CC18_ALLOW_IMAGE_TRANSMISSION=YES`，目前仍未啟用排程。
-
-影片路徑已接成 `image completed → video queued → Remotion 1080×1920／9 秒 H.264 → R2 S3 上傳與反向 SHA-256 驗證 → 文章／Media Manifest／Registry → publish queued`。只有雜湊驗證成功才標記 rendered，本機 MP4 與驗證資料隨即釋放。GitHub Actions 使用獨立的 `CLOUDFLARE_R2_API_TOKEN`；此 Secret 儲存由同一個 bucket-scoped R2 Token 產生的 JSON 憑證組（`accessKeyId`、`secretAccessKey`、`endpoint`），D1 與 R2 權限不混用。單部完整雲端 Canary 操作見 `docs/canary-cycle.md`。
-
-Publisher 路徑已接成 `publish queued → 內容與媒體 QA → 限定檔案 commit/push → Cloudflare Pages → 正式頁 release-id／播放器驗證 → D1 completed`。正式頁的 release-id 使用核准 Markdown 的 SHA-256，因此 Git push、Pages build 或邊緣切換任一環節尚未完成時，都不會提前結案。手動 canary 由 GitHub 的 `Content pipeline` 選擇 `publish` 並填入精確番號；大量排程仍維持關閉。
-
-本機限量生產可使用 `npm run canary:run -- --max=1`，每次硬性限制最多三部，依序完成 Editorial、Image、Video、Publisher。執行前可用 `npm run canary:health` 檢查佇列，或以 `npm run canary:repair` 將已過期 lease 安全改回 retry。完整操作與安全邊界見 [docs/canary-cycle.md](docs/canary-cycle.md)。
-
-## Architecture
-
-- 最新套件來源：`architecture/cc18-architecture-v0.17.0-draft/`
-- 最新 ZIP：`architecture/releases/cc18-architecture-v0.17.0-draft.zip`
-- 前一版實作套件：`architecture/cc18-architecture-v0.16.0-draft/`
-- 第一版套件保留於 `architecture/cc18-architecture-v0.1.0-draft/`
-
-所有實作應引用架構文件、Schema 或 ADR。架構變更需產生新版本，不覆寫既有 ZIP。
-
-## Confirmed names
-
-- GitHub：`yaoshengmarketing-prog/cc18`
-- Cloudflare site／Worker：`cc18`
-- D1：`cc18-db`、`cc18-db-staging`
-- R2：`cc18-media`、`cc18-media-staging`
+共用首頁 og:image 是 `public/images/site-og.png`。作品媒體透過 `/media/works/...` 的 Pages Function 從 R2 提供；`wrangler.jsonc` 的 `MEDIA_BASE_URL` 使用正式網域。

@@ -41,21 +41,20 @@ test('scorecard preserves a complete weight and penalizes keyword-only or templa
   assert.equal(scorecard.automatic_deductions.popular_tag_displaces_source_title_core.dimension, 'specificity');
 });
 
-test('writer and critic prompts enforce topic summary, tag boundaries and anti-template reasoning', async () => {
+test('writer and critic prompts enforce selection analysis and source boundaries', async () => {
   const [writer, critic] = await Promise.all([
     text('prompts/review-writer.md'),
     text('prompts/review-critic.md'),
   ]);
   for (const value of [writer, critic]) {
-    assert.match(value, /人物／身分/);
-    assert.match(value, /行為／體位/);
-    assert.match(value, /source/i);
-    assert.match(value, /canonical/i);
-    assert.match(value, /editorial/i);
-    assert.match(value, /被引導到主動/);
+    assert.match(value, /選片評析/);
+    assert.match(value, /600/);
+    assert.match(value, /來源/);
+    assert.match(value, /人工複核/);
+    assert.match(value, /分數|評分/);
   }
-  assert.match(writer, /primary source adult topic/i);
-  assert.match(writer, /core_source_concept/);
-  assert.match(critic, /core source concept/i);
-  assert.match(critic, /technical quality terms do not displace/i);
+  assert.match(writer, /同演員作品時間軸/);
+  assert.match(writer, /ownerNote/);
+  assert.match(critic, /4 字 shingle Jaccard/);
+  assert.match(critic, /八項 scores/);
 });

@@ -1,39 +1,9 @@
-# CC18 review critic contract
+# CC18 選片評析 critic contract
 
-Evaluate the draft against `config/review-policy.json` and `config/review-scorecard.json`. Source fields are authoritative for work identity and discovery vocabulary. Creative reconstruction in the editorial prose is allowed and should be rewarded when coherent, distinctive and useful; do not misclassify it as Video Evidence, Registry truth, a CC18 source Tag or a canonical Tag.
+minimum_chinese_characters: 600
 
-## Required checks
+審核來源身分資料逐字保留、演員顯示名符合在地化規則，並確認文章沒有假裝觀看、露骨描述、未成年角色與性內容的補寫，或內部製作說明。風險詞須交人工複核，不自行推定不收錄。
 
-Validate all three title layers against `config/title-policy.json`:
+`editorialFormat: selection-analysis-v1` 的發布門檻：本文至少 600 個中文字；review-quality 至少三項 evidence、八項 scores；最近 30 篇的最高 4 字 shingle Jaccard 不得超過 0.55；風險詞要有人工核可。檢查標題、開頭、作品資料、番號別寫、同演員時間軸與比較、同系列和同片商比較、各二至三項適合與不適合條件、四項公開加權評分、至少兩個站內連結、簡短資料來源與 `/method/` 連結。來源缺少資料時不可杜撰。`ownerNote` 不可由模型生成。
 
-- exact source-title preservation;
-- catalog number and known performer coverage;
-- one primary adult-topic signal traceable to the CC18 source title or source tags;
-- one core source concept from the source title, series or synopsis, present in the display or SEO title and developed in the thesis;
-- a differentiating editorial judgment;
-- technical quality terms do not displace a meaningful adult topic;
-- the title has one clear search intent rather than a stuffed keyword stack.
-
-Validate the topic element summary:
-
-- it contains 人物／身分、身材、衣著、關係、場景、行為／體位 and 呈現;
-- unsupported buckets use `null` or an equivalent unknown state;
-- source terms are not replaced by invented editorial labels;
-- source, canonical and editorial tag layers remain visibly distinct.
-
-Validate the prose:
-
-- meaningful CC18 adult-topic terms appear naturally in the title, summary and relevant analysis;
-- the article explains what each primary term contributes instead of merely listing or repeating keywords;
-- it identifies central versus secondary topics, their combination and the resulting selection value;
-- it answers what the work sells, performer or premise fit, differentiation, suitable audience, unsuitable audience and trade-offs;
-- sections answer different questions;
-- the thesis would collapse if only the catalog number or performer were changed.
-- a popular adult tag has not displaced the source-title core merely for search volume;
-- the source-core concept drives at least two analytical sections, while any generic character arc remains a consequence rather than the article's whole explanation.
-
-Search the draft for generic universal arcs including 「被引導到主動」、「從拘謹到投入」、「節奏逐漸升高」、「反差魅力」、「主導權轉移」 and 「距離逐步拉近」. Do not ban these phrases automatically. Deduct originality when one becomes the primary angle without a named source-specific cause and a unique consequence, or when it repeats recent reviews as filler.
-
-Return JSON with all scorecard dimensions, weighted overall score, title defects, topic-summary defects, tag-boundary defects, unsupported claims, repeated ideas, reusable phrases, missing source adult terms, unanswered reader questions, rewrite instructions and `rewrite_required`.
-
-Apply every automatic deduction in `config/review-scorecard.json`. Set `rewrite_required` when any publication threshold fails. A rewrite must address the listed defects and be scored again. After the configured retry limit, keep the work as draft rather than lowering the threshold.
+依 `config/review-scorecard.json` 的八個維度評分；未達發布門檻的作品保持草稿。舊稿與目前 publisher 相容路徑先列警告，待新寫稿流程穩定達標再改為硬擋。

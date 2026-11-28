@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import {SITE_NAME, formatPageTitle} from '../lib/site-brand.mjs';
+import {publicMetaDescription} from '../lib/meta-description.mjs';
 
 interface Props {
   title: string;
@@ -19,7 +20,7 @@ const {
   title,
   socialTitle = title,
   description = '整理 CC18 最新作品、演員、系列、題材標籤與原創影評，快速找到想看的作品。',
-  image = '/images/demo-hero.svg',
+  image = '/images/site-og.png',
   robots = 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   adult = false,
   structuredData,
@@ -29,6 +30,7 @@ const {
 } = Astro.props;
 const pageTitle = formatPageTitle(title, {brandFirst});
 const socialPageTitle = formatPageTitle(socialTitle, {brandFirst});
+const safeDescription = publicMetaDescription(description, title);
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
 const jsonLd = structuredData
   ? JSON.stringify(structuredData).replace(/</g, '\\u003c')
@@ -52,14 +54,14 @@ const jsonLd = structuredData
       }
     </script>}
     <meta name="viewport" content="width=device-width" />
-    <meta name="description" content={description} />
+    <meta name="description" content={safeDescription} />
     <meta name="robots" content={robots} />
     {releaseId && <meta name="cc18-release-id" content={releaseId} />}
     {adult && <meta name="rating" content="adult" />}
     <link rel="canonical" href={canonical} />
     <meta property="og:title" content={socialPageTitle} />
     <meta property="og:site_name" content={SITE_NAME} />
-    <meta property="og:description" content={description} />
+    <meta property="og:description" content={safeDescription} />
     <meta property="og:image" content={new URL(image, Astro.site ?? Astro.url.origin)} />
     {video && <meta property="og:video" content={new URL(video, Astro.site ?? Astro.url.origin)} />}
     {video && <meta property="og:video:type" content="video/mp4" />}

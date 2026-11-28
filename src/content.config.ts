@@ -30,6 +30,7 @@ const reviews = defineCollection({
     releaseDate: z.coerce.date(),
     publishedAt: z.coerce.date(),
     modifiedAt: z.coerce.date().optional(),
+    updatedAt: z.coerce.date().optional(),
     studio: z.string().optional(),
     series: z.string().optional(),
     sourceUrl: z.url(),
