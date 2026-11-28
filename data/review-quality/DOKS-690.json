@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "DOKS-690",
-  "review_sha256": "f8f435a1fceda2f1f601a68a5cb3d261b7fc3713c7eea1ea3d5c07225db713ba",
-  "selected_thesis": "來源資料可確認本作以「口交」作為主要作品線索。",
+  "review_sha256": "d9b894e60c3c453a5518422af83f6df68c2f01532f86fdc1b13ebf133d92f57e",
+  "selected_thesis": "來源沒有提供長篇劇情或固定人物關係，而是以參與者願意提供服務的宣傳口吻呈現同一主題。",
   "title_basis": {
     "performer": "清巳玲乃、那賀崎雪音、虹村ゆみ、渡來楓、花吹詩音",
     "signals": [
@@ -27,9 +27,9 @@
         "source_field": "actress"
       }
     ],
-    "primary_theme": "清巳玲乃",
+    "primary_theme": "五位演員的服務主題合輯",
     "presentation_feature": "口交",
-    "editorial_judgment": "來源資料可確認本作以「口交」作為主要作品線索。",
+    "editorial_judgment": "來源沒有提供長篇劇情或固定人物關係，而是以參與者願意提供服務的宣傳口吻呈現同一主題。",
     "source_keywords": [
       "清巳玲乃",
       "口交",
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.1,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 7,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

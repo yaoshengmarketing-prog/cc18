@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "EMBM-055",
-  "review_sha256": "a6a4e4150c8ff0b0712e95f355fca4add898a5e2f94d36c0d57196d34164e8fd",
-  "selected_thesis": "來源資料可確認本作以「パンスト足責め妻」作為主要作品線索。",
+  "review_sha256": "9f087465c2bca9cf66ee36eea4e4fe34d3d349ea46102cacf10f087e5e47f4d5",
+  "selected_thesis": "來源把六位年輕妻子放在同一個黑絲襪主題裡：她們面對男性提出的不熟悉要求，起初感到困惑，仍嘗試回應。",
   "title_basis": {
     "performer": "塚田しおり、似鳥日菜、逢澤美優、小坂日葵、羽月果音、西野美紅",
     "signals": [
@@ -27,9 +27,9 @@
         "source_field": "actress"
       }
     ],
-    "primary_theme": "塚田しおり",
+    "primary_theme": "六位已婚演員的黑絲襪主題",
     "presentation_feature": "パンスト足責め妻",
-    "editorial_judgment": "來源資料可確認本作以「パンスト足責め妻」作為主要作品線索。",
+    "editorial_judgment": "來源把六位年輕妻子放在同一個黑絲襪主題裡：她們面對男性提出的不熟悉要求，起初感到困惑，仍嘗試回應。",
     "source_keywords": [
       "塚田しおり",
       "パンスト足責め妻",
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.1,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 7,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-22T16:00:00.000Z"

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "DSOD-038",
-  "review_sha256": "5ec2ba99dbc45c899fe7a2415c9359303a3c2b3707dcfda20f3e2d76d1a88804",
-  "selected_thesis": "來源資料可確認本作以「笹倉彩」作為主要作品線索。",
+  "review_sha256": "cff5467146e9c6329bd8b7f211b086c8fc2d79cca34fa3330ab38065813a6f8c",
+  "selected_thesis": "這是以職務接觸作為起點的非自願與婚姻題材，不宜將最初的抗拒淡化為正常授課或對等關係。",
   "title_basis": {
     "performer": "笹倉彩",
     "signals": [
@@ -27,9 +27,9 @@
         "source_field": "safe_signals"
       }
     ],
-    "primary_theme": "笹倉彩",
+    "primary_theme": "健身課程中的權力越界",
     "presentation_feature": "トレーナーの子宮をエグるバックピストンにイキ堕ちして毎日寝取",
-    "editorial_judgment": "來源資料可確認本作以「笹倉彩」作為主要作品線索。",
+    "editorial_judgment": "這是以職務接觸作為起點的非自願與婚姻題材，不宜將最初的抗拒淡化為正常授課或對等關係。",
     "source_keywords": [
       "笹倉彩",
       "トレーナーの子宮をエグるバックピストンにイキ堕ちして毎日寝取",
@@ -96,7 +96,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8.3,
+    "source_fidelity": 9,
+    "identity_integrity": 10,
+    "specificity": 9,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-20T16:00:00.000Z"
