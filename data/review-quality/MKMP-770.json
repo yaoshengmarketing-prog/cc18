@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "MKMP-770",
+  "review_sha256": "a74c9afb83e6417b886594705241ebfd373d95b1ef567ab9916225efc5f67a83",
+  "selected_thesis": "本作以乙愛麗絲首次參與強勢系列企劃為焦點；同演員的《百發絕頂極樂激射精BEST》則以大量片段的總集篇規模吸引讀者。兩者提供不同的選片理由。",
+  "title_basis": {
+    "performer": "乙愛麗絲",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "乙愛麗絲",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "鬼爆高潮",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "series",
+        "value": "鬼イカセ（Million/ケイ・エム・プロデュース）",
+        "source_field": "series"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "乙愛麗絲",
+    "presentation_feature": "鬼爆高潮",
+    "editorial_judgment": "比較同演員兩部作品的公開定位：本作強調首次參與系列及高刺激設定，關聯作品強調總集篇的數量與時長。",
+    "source_keywords": [
+      "乙愛麗絲",
+      "鬼爆高潮",
+      "鬼イカセ（Million/ケイ・エム・プロデュース）",
+      "高畫質"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作來源簡介稱乙愛麗絲首次參與該系列，並列出強勢的情境設定。",
+      "supports": "本作的宣傳重心是演員與系列設定的結合。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "關聯作品簡介以百次、四小時描述總集篇規模；人物關係資料確認兩作同樣由乙愛麗絲演出。",
+      "supports": "兩作可按系列單作與總集篇的需求區分。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "駿河屋商品頁列出 MKMP-770、乙愛麗絲與 Million。",
+      "supports": "核對本作的基本商品身分。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "未把宣傳中的刺激程度或系列紀錄當成已驗證的成片表現。",
+    "未推定兩作的實際節奏、畫面品質或乙愛麗絲在總集篇中的出現比例。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}

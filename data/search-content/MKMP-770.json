@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "movie_id": "MKMP-770",
+  "generated_at": "2026-11-28T12:32:30.585Z",
+  "source_snapshot_hash": "sha256:d4e3672eefb52f9d0e5cc872089986303b4d6d5629d66036f974c40b9d865470",
+  "evidence_job_id": null,
+  "duration_seconds": null,
+  "sample_windows": 0,
+  "average_confidence": null,
+  "quick_decision": {
+    "thesis": "想看乙愛麗絲置於明確系列設定中的單作，可留意本作；想按大量片段與時長選片，關聯總集篇的公開定位更直接。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開簡介主打乙愛麗絲首次參與系列企劃及強勢情境。"
+    ]
+  },
+  "timeline_summary": [],
+  "audience_fit": {
+    "for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ]
+  },
+  "recommendations": [
+    {
+      "movie_id": "MKMP-758",
+      "relation_type": "same_performer",
+      "reason": "同樣由乙愛麗絲出演，可比較不同題材下的人物定位與呈現方式。",
+      "shared_signals": [
+        "乙愛麗絲"
+      ],
+      "contrast_signals": [
+        "篠田優",
+        "濱崎真緒"
+      ]
+    }
+  ],
+  "questions_answered": [
+    "本作與同演員的總集篇，公開賣點有何不同？",
+    "哪一種選片需求較符合本作的公開定位？"
+  ]
+}

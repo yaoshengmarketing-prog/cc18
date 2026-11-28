@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-28T12:27:23.949Z",
+  "updated_at": "2026-11-28T12:37:50.523Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -9679,6 +9679,21 @@
       ],
       "release_date": "2026-11-07",
       "source_url": "https://cc18.tv/player.php?uuid=u1blP9qBVaP&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-28"
+    },
+    {
+      "id": "MKMP-770",
+      "actress": [
+        "乙愛麗絲"
+      ],
+      "release_date": "2026-11-07",
+      "source_url": "https://cc18.tv/player.php?uuid=uAy9mlXx99O&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",
