@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "HEYZO-3939",
-  "review_sha256": "89f82153664f5f36a744a33afe9a945454c5ba81f2ceeb8ccc344fd0178d7dc2",
-  "selected_thesis": "來源資料可確認本作以「在真人脫衣麻將中」作為主要作品線索。",
+  "review_sha256": "156dc23094e60c8358f368c555358f5146648ce8271891334818fb4bf015f9f4",
+  "selected_thesis": "來源以丈夫臨時離開、妻子代替參加牌局及其他成員預先設計局面為設定；不應把預謀寫成偶然互動。",
   "title_basis": {
     "performer": "石崎れいな",
     "signals": [
@@ -40,63 +40,44 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "跟雀友聚會時,老公突然被公司緊急叫走。",
-      "supports": "支持對公開企劃設定的評論，不代表觀看過影片。",
+      "signal": "title：在真人脫衣麻將中，我成功享用了一位已婚女性！- 石崎玲奈",
+      "supports": "來源題名支持本篇以「麻將聚會中的預謀安排」作為選片主軸。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "performer：石崎れいな",
-      "supports": "這項可追溯來源訊號支持文章以「石崎れいな」作為選片辨識與標題依據。",
+      "signal": "release_date：2026-09-19",
+      "supports": "來源發行日支持本站時間軸排序。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "character：人妻設定",
-      "supports": "這項可追溯來源訊號支持文章以「人妻設定」作為選片辨識與標題依據。",
+      "signal": "studio：未提供",
+      "supports": "來源片商欄支持同片商比較範圍。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "presentation：高畫質",
-      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "theme：在真人脫衣麻將中",
-      "supports": "這項可追溯來源訊號支持文章以「在真人脫衣麻將中」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "identity：人妻",
-      "supports": "這項可追溯來源訊號支持文章以「人妻」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "act_or_position：中出",
-      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "act_or_position：亂交",
-      "supports": "這項可追溯來源訊號支持文章以「亂交」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "presentation：720p",
-      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "signal": "description：跟雀友聚會時,老公突然被公司緊急叫走。於是老婆代替老公參加麻將,但其實為了跟這個老婆搞,背後早有陰謀",
+      "supports": "來源簡介支持對人物或企劃設定的中性摘要。",
       "observation_refs": []
     }
   ],
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-21T16:00:00.000Z"

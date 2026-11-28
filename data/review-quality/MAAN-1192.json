@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "MAAN-1192",
-  "review_sha256": "7b8cde1a542143dd71feff4c14beda99d3e8e6d1fcca85dce24a60f8e65b5250",
-  "selected_thesis": "來源資料可確認本作以「プールナンパ」作為主要作品線索。",
+  "review_sha256": "7e134201f05f1df64d939e3150b1616c3877968a907c321bf4db7f36b1697f61",
+  "selected_thesis": "來源交代橘いおり與谷村凪咲是結伴旅行的成年社會人，並以泳池與海邊認識新人的情境作為企劃起點。",
   "title_basis": {
     "performer": "橘いおり、谷村凪咲",
     "signals": [
@@ -40,57 +40,44 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "performer：橘いおり",
-      "supports": "這項可追溯來源訊號支持文章以「橘いおり」作為選片辨識與標題依據。",
+      "signal": "title：獨家 泳池搭訕 伊織 凪咲",
+      "supports": "來源題名支持本篇以「兩位好友的泳池搭訕企劃」作為選片主軸。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "performer：谷村凪咲",
-      "supports": "這項可追溯來源訊號支持文章以「谷村凪咲」作為選片辨識與標題依據。",
+      "signal": "release_date：2026-08-30",
+      "supports": "來源發行日支持本站時間軸排序。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "series：プールナンパ",
-      "supports": "這項可追溯來源訊號支持文章以「プールナンパ」作為選片辨識與標題依據。",
+      "signal": "studio：未提供",
+      "supports": "來源片商欄支持同片商比較範圍。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "presentation：辣妹風格",
-      "supports": "這項可追溯來源訊號支持文章以「辣妹風格」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "presentation：高畫質",
-      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "presentation：獨家配信",
-      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "theme：プールナンパ",
-      "supports": "這項可追溯來源訊號支持文章以「プールナンパ」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "identity：癡女",
-      "supports": "這項可追溯來源訊號支持文章以「癡女」作為選片辨識與標題依據。",
+      "signal": "description：在海邊或游泳池裡認識性感的比基尼美女，享受心靈和身體都開放的性愛計劃。這次我們找到了正在享受雙人旅行",
+      "supports": "來源簡介支持對人物或企劃設定的中性摘要。",
       "observation_refs": []
     }
   ],
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

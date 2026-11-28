@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "HHF-111",
-  "review_sha256": "a2c2ee139e3f35faed8347b3711e4e1ec5be745562b1c173a3effa61f94934a7",
-  "selected_thesis": "來源資料可確認本作以「5組10名4小時」作為主要作品線索。",
+  "review_sha256": "acc2aad588e10e48872858cda8601af5d0e7e19cb1ab61403df4faf8df48a565",
+  "selected_thesis": "標題交代五組十名與四小時的總集篇規模，簡介以公司上司和同事的混浴為例；這不是單一演員的連續故事。",
   "title_basis": {
     "performer": null,
     "signals": [
@@ -40,57 +40,44 @@
   "evidence": [
     {
       "basis": "public_source",
-      "signal": "presentation：高畫質",
-      "supports": "這項可追溯來源訊號支持文章以「高畫質」作為選片辨識與標題依據。",
+      "signal": "title：「不要藏起你的小雞雞,給我們看看」與雙巨乳美女在浴室享受三明治入浴！在欲求不滿的小穴中多次後宮中出 5組10名4小時！！",
+      "supports": "來源題名支持本篇以「浴室群像的彙編企劃」作為選片主軸。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "presentation：獨家配信",
-      "supports": "這項可追溯來源訊號支持文章以「獨家配信」作為選片辨識與標題依據。",
+      "signal": "release_date：2026-09-04",
+      "supports": "來源發行日支持本站時間軸排序。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "theme：5組10名4小時",
-      "supports": "這項可追溯來源訊號支持文章以「5組10名4小時」作為選片辨識與標題依據。",
+      "signal": "studio：Hunter",
+      "supports": "來源片商欄支持同片商比較範圍。",
       "observation_refs": []
     },
     {
       "basis": "public_source",
-      "signal": "act_or_position：中出",
-      "supports": "這項可追溯來源訊號支持文章以「中出」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "act_or_position：口交",
-      "supports": "這項可追溯來源訊號支持文章以「口交」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "act_or_position：騎乘位",
-      "supports": "這項可追溯來源訊號支持文章以「騎乘位」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "act_or_position：3p・4p",
-      "supports": "這項可追溯來源訊號支持文章以「3p・4p」作為選片辨識與標題依據。",
-      "observation_refs": []
-    },
-    {
-      "basis": "public_source",
-      "signal": "presentation：720p",
-      "supports": "這項可追溯來源訊號支持文章以「720p」作為選片辨識與標題依據。",
+      "signal": "description：與公司的上司和女同事一起混浴。男人的股間被巨乳吸引而勃起。雖然試圖用毛巾遮掩以免被發現，但毛巾卻被搶",
+      "supports": "來源簡介支持對人物或企劃設定的中性摘要。",
       "observation_refs": []
     }
   ],
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"
