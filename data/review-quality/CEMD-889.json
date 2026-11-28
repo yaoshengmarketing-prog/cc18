@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "CEMD-889",
-  "review_sha256": "4b56298a7923c45fac1d924ddb8a6e866faf1f8b1ebaa2a119b1beb120f53f97",
-  "selected_thesis": "來源資料可確認本作以「44」作為主要作品線索。",
+  "review_sha256": "bad6ef9f490d867b38c0a52f354ea58a90483e82ad9a10bde96cfd18355e08d8",
+  "selected_thesis": "這部可辨認的是公開場所與權力關係的設定，來源沒有足夠資料推論角色是否自願或情節如何展開。",
   "title_basis": {
     "performer": "糸井瑠花",
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-06T16:00:00.000Z"

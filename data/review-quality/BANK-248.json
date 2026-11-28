@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "BANK-248",
-  "review_sha256": "4294ec5d62123ce5c4fd2ee4ba409479a9c57928d84f2b4d1c8cdd216e34edb8",
-  "selected_thesis": "來源資料可確認本作以「巨乳人妻温泉デート」作為主要作品線索。",
+  "review_sha256": "7ea6ca5047f2fcc273ed4629633a4d156258aefb2b8d4edff28056da15f3d301",
+  "selected_thesis": "片名寫了年齡與已婚身分；這些是來源中的角色設定，不應被延伸為演員的真實個人資料。",
   "title_basis": {
     "performer": null,
     "signals": [
@@ -96,7 +96,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-16T16:00:00.000Z"

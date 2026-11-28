@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "DLDSS-539",
-  "review_sha256": "7cf05b7245f00c4a00f83d139cb5f8e28e8292cb5ec990b69a7505b2388e1638",
-  "selected_thesis": "來源資料可確認本作以「回鄉探親的7天」作為主要作品線索。",
+  "review_sha256": "d79ff6615fecee3281fa8a7ccaf9ec4fba5ee89f41d1c7db74c337b836809f05",
+  "selected_thesis": "家庭關係及起初拒絕是應被正確辨認的設定；來源宣傳語不能用來推斷當事人的同意。",
   "title_basis": {
     "performer": "春日々音",
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "ABF-393",
-  "review_sha256": "b4257f9afde0da730f87cdbc60970eef58a39d440d7c6cd8aef919ce3b28afd2",
-  "selected_thesis": "來源資料可確認本作以「究極のぬるぬるオーガズム」作為主要作品線索。",
+  "review_sha256": "cefa41642a9dde296bebb5271b846a1b9e293adeba5858e08941203eba65c743",
+  "selected_thesis": "這是一個以單一感官主題組織宣傳的作品，人物關係與故事背景並非來源資料的重心。",
   "title_basis": {
     "performer": "河合明日菜",
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-11-02T16:00:00.000Z"

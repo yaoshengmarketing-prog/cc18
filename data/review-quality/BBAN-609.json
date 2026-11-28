@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "BBAN-609",
-  "review_sha256": "5e45531ffa18616725b9f8735467c4607e4593cf54dd998173c0ea7e878d3375",
-  "selected_thesis": "來源資料可確認本作以「我們將在這地獄中生存下去」作為主要作品線索。",
+  "review_sha256": "5e02d54c05e59394fd7d5d080e95bdc246419e96a602b36f69093c26c05c75e1",
+  "selected_thesis": "雖與女性關係題材相連，來源重點是職場壓迫和彼此支援；不能把壓迫當成令人嚮往的情境。",
   "title_basis": {
     "performer": "小野寺舞、和栗ゆゆ",
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

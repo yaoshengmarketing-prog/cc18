@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "ABF-382",
-  "review_sha256": "49634bdbcbac0dbc773595366133b748965e9f2a541c68b03c8cdf7ad841d34b",
-  "selected_thesis": "來源資料可確認本作以「同棲中出し性交録」作為主要作品線索。",
+  "review_sha256": "ee50bacd0b3a33d8e1c8c870a7a1641cdff40f9f0ccc49765422f4725b966c02",
+  "selected_thesis": "它的辨識點是既有伴侶關係與共同生活，而不是初次相識或短期約會。",
   "title_basis": {
     "performer": null,
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-16T16:00:00.000Z"

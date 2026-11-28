@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "DLDSS-541",
-  "review_sha256": "24e39e04ad34089e0ebc3e4afa47c9b851c983514d72ae78874207c7872e5f47",
-  "selected_thesis": "來源資料可確認本作以「美乃雀」作為主要作品線索。",
+  "review_sha256": "d138182c67776163a2b8906ab1d43b85c497ecfc3cad4aa5ee552ca19cb761d9",
+  "selected_thesis": "過去的職場騷擾與經濟壓力是故事因果，不能把被迫選擇美化成浪漫橋段。",
   "title_basis": {
     "performer": "美乃雀",
     "signals": [
@@ -84,7 +84,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-05T16:00:00.000Z"

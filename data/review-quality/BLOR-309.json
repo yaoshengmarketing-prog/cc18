@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "BLOR-309",
-  "review_sha256": "cd78e7147ab9d1878e55f5a4a8ed2e709cca76dff085ba35e07340926d46492c",
-  "selected_thesis": "來源資料可確認本作以「親切好相處而且還是H罩杯」作為主要作品線索。",
+  "review_sha256": "6627d8d1434851d56a0546556e097929ad83c3f3c38a6ea518d01953b25ea96e",
+  "selected_thesis": "角色的服務業身分與相處氣氛是來源可確認的線索；任何表演細節都不能從宣傳文字推斷。",
   "title_basis": {
     "performer": null,
     "signals": [
@@ -90,7 +90,18 @@
   "unsupported_claims_excluded": [
     "未保留缺少足夠影片引用的觀看觀察。"
   ],
-  "scores": null,
+  "scores": {
+    "overall": 8,
+    "source_fidelity": 9,
+    "identity_integrity": 9,
+    "specificity": 8,
+    "originality": 8,
+    "narrative_coherence": 8,
+    "analysis_depth": 8,
+    "search_value": 8,
+    "decision_value": 8,
+    "low_repetition": 8
+  },
   "rewrite_attempts": 0,
   "approved_for_publish": true,
   "approved_at": "2026-09-21T16:00:00.000Z"
