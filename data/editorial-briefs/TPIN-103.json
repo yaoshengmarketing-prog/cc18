@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "id": "TPIN-103",
+  "generated_at": "2026-11-28T11:59:15.577Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/TPIN-103.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "內射NTR",
+    "premise": "作品以「內射NTR」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「內射NTR」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "內射NTR",
+      "以夫婦交換為名的換伴",
+      "NTR"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [
+      "中出",
+      "3p・4p"
+    ],
+    "presentation": [
+      "戲劇、連續劇",
+      "720p",
+      "独占配信",
+      "HD"
+    ]
+  },
+  "research_question": "與一部有共同演員、以密集片段為賣點的精選集相比，本作的公開資料提供了什麼不同的選片理由？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=mvBx6TOUAds&cat=19",
+      "supports": "已核對的作品資料列出三對夫婦、夫婦交換、嫉妒與興奮的設定，並標示戲劇及換伴相關標籤。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=Ciqp48pHtd2&cat=19",
+      "supports": "已核對的關聯資料標示兩作有共同演員；這部精選集的簡介以百次片段及四小時篇幅為主要賣點。"
+    }
+  ],
+  "angle_candidates": [
+    "三對夫婦的設定，如何讓關係變化成為選片線索",
+    "同有共同演員，情境劇與密集精選集提供的期待有何不同",
+    "寶生芽衣的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作的可辨識之處是三對夫婦交換伴侶的關係設定；相較於以片段數量和篇幅吸引讀者的關聯精選集，它更適合先從情境與人物關係判斷是否合口味。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "真木今日子",
+      "source_field": "actress"
+    },
+    {
+      "type": "performer",
+      "value": "笠木一香",
+      "source_field": "actress"
+    },
+    {
+      "type": "performer",
+      "value": "寶生芽衣",
+      "source_field": "actress"
+    },
+    {
+      "type": "performer",
+      "value": "末廣純",
+      "source_field": "actress"
+    }
+  ],
+  "work_title": "夫婦交換下的嫉妒與換伴",
+  "display_short_title": "三對夫婦的換伴設定",
+  "title": "三對夫婦，讓「交換」成為選片線索",
+  "seo_title": "TPIN-103｜三對夫婦的換伴設定與選片看點",
+  "social_title": "同樣有共同演員，這次值得留意的是三對夫婦的關係設定",
+  "short_review": "公開簡介把三對夫婦帶入換伴情境，並以嫉妒轉為興奮作為衝突。想按人物關係選片的讀者，可以從這個設定入手；實際敘事與節奏仍無從判定。",
+  "editorial_angle": "以三對夫婦的關係設定為核心，對照有共同演員的密集精選集，說明兩種公開賣點帶來的不同選片期待。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介設定三對夫婦進入換伴情境，並描述嫉妒與興奮的轉變。",
+      "supports": "文章可將多組伴侶關係視為本作的主要選片線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "關聯精選集的簡介以百次片段與四小時篇幅為賣點；關聯資料標示兩作有共同演員。",
+      "supports": "兩作的公開介紹分別強調關係情境與片段密度，可比較其選片理由。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "三對夫婦各自的身分、互動次序與結局",
+    "實際畫面、聲音、表演效果及敘事節奏",
+    "由宣傳設定推論成片品質"
+  ],
+  "decision_guide": {
+    "thesis": "若想先看作品提供了什麼人物關係情境，本作的三對夫婦換伴設定比共同演員這條線索更有參考價值。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "公開資料以三對夫婦、換伴及嫉妒為情境重心。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作公開資料的核心設定是什麼？",
+      "它與有共同演員的精選集有何具體差別？",
+      "這項差別如何幫助選片？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "三對夫婦，讓「交換」成為選片線索",
+      "body": "本作的公開簡介先交代三對夫婦踏入換伴情境，再把嫉妒轉為興奮寫成其中的衝突。這讓「夫婦交換」不只是一個題材標籤：讀者至少知道，作品打算從多組伴侶關係切入。至於每一對如何參與、關係如何變化，簡介沒有足夠材料回答。"
+    },
+    {
+      "heading": "與密集精選集相比，選片理由不同",
+      "body": "另一部經演員關係連結的《百發絕頂極樂激射精BEST》，公開簡介主要強調片段數量與四小時篇幅。本作則先提出三對夫婦的共同情境。若你想依人物關係挑片，本作的設定更容易形成具體期待；若你主要尋找密集片段，關聯精選集的介紹更直接。這是兩份簡介的重心差異，不能據此判斷哪部成片更好。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據<a href=\"https://cc18.tv/player.php?uuid=mvBx6TOUAds&amp;cat=19\">本作</a>與<a href=\"https://cc18.tv/player.php?uuid=Ciqp48pHtd2&amp;cat=19\">關聯精選集</a>已核對的來源資料撰寫。比較只涉及公開設定與宣傳重心；未使用影片抽樣，也未據此判斷實際節奏或表演。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "81175fef7abc513e50f13f12113d4d5e12f36aa38f8fc3386e7e07c6ed298afc",
+    "response_sha256": "d68cc480f1f54c09ab53cc4b1329ef7978b46ebf24bec41d446acea41fce0f83",
+    "research_input_sha256": "e788acd4b3ad401539d746bea8516826cd7551a5eddcd7bcf3c8b909ac25c807",
+    "related_source_ids": [
+      "BBAN-614",
+      "MKMP-758"
+    ]
+  }
+}

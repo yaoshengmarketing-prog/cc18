@@ -972,7 +972,7 @@
     },
     {
       "label": "寝取り・寝取られ・ntr",
-      "occurrences": 79,
+      "occurrences": 80,
       "source_ids": [
         "NGOD-355",
         "NSODN-025",
@@ -1052,7 +1052,8 @@
         "DSOD-118",
         "CJOD-547",
         "START-666",
-        "UMAN-017"
+        "UMAN-017",
+        "TPIN-103"
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-11-28",
@@ -2391,7 +2392,7 @@
     },
     {
       "label": "寢取・被寢取",
-      "occurrences": 64,
+      "occurrences": 65,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -2456,7 +2457,8 @@
         "DSOD-118",
         "CJOD-547",
         "START-666",
-        "UMAN-017"
+        "UMAN-017",
+        "TPIN-103"
       ],
       "first_seen": "2026-09-10",
       "last_seen": "2026-11-28",
@@ -2464,7 +2466,7 @@
     },
     {
       "label": "NTR",
-      "occurrences": 60,
+      "occurrences": 61,
       "source_ids": [
         "MIFD-735",
         "PRWF-016",
@@ -2525,7 +2527,8 @@
         "DSOD-118",
         "CJOD-547",
         "START-666",
-        "UMAN-017"
+        "UMAN-017",
+        "TPIN-103"
       ],
       "first_seen": "2026-09-10",
       "last_seen": "2026-11-28",
@@ -2582,7 +2585,7 @@
     },
     {
       "label": "4P",
-      "occurrences": 55,
+      "occurrences": 56,
       "source_ids": [
         "PRWF-016",
         "NMSL-047",
@@ -2638,7 +2641,8 @@
         "NGOD-370",
         "FSBK-030",
         "MXGS-1452",
-        "HMN-913"
+        "HMN-913",
+        "TPIN-103"
       ],
       "first_seen": "2026-09-09",
       "last_seen": "2026-11-28",
@@ -4059,6 +4063,16 @@
       "occurrences": 1,
       "source_ids": [
         "GVG-362"
+      ],
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "status": "quarantined"
+    },
+    {
+      "label": "スワッピング・夫婦交換",
+      "occurrences": 1,
+      "source_ids": [
+        "TPIN-103"
       ],
       "first_seen": "2026-11-28",
       "last_seen": "2026-11-28",

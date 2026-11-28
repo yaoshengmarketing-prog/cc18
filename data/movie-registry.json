@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-28T11:54:47.467Z",
+  "updated_at": "2026-11-28T12:04:56.719Z",
   "records": [
     {
       "id": "CC18-DEMO-001",
@@ -9631,6 +9631,26 @@
       ],
       "release_date": "2026-11-07",
       "source_url": "https://cc18.tv/player.php?uuid=s0WxQTVob6w&cat=19",
+      "source_site": "cc18.tv",
+      "review_status": "published",
+      "cover_status": "remote_source",
+      "image_status": "rendered",
+      "video_status": "rendered",
+      "template": "story",
+      "published_at": "2026-11-28"
+    },
+    {
+      "id": "TPIN-103",
+      "actress": [
+        "真木今日子",
+        "笠木一香",
+        "寶生芽衣",
+        "末廣純",
+        "水端麻美",
+        "帆志科南"
+      ],
+      "release_date": "2026-11-07",
+      "source_url": "https://cc18.tv/player.php?uuid=mvBx6TOUAds&cat=19",
       "source_site": "cc18.tv",
       "review_status": "published",
       "cover_status": "remote_source",

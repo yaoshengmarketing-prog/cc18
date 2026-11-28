@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "TPIN-103",
+  "review_sha256": "9e814786b91d61cdd785bc8c3640cb6b2c2b9d6c2b50ee838e792ab2eb131675",
+  "selected_thesis": "本作的可辨識之處是三對夫婦交換伴侶的關係設定；相較於以片段數量和篇幅吸引讀者的關聯精選集，它更適合先從情境與人物關係判斷是否合口味。",
+  "title_basis": {
+    "performer": "真木今日子、笠木一香、寶生芽衣、末廣純、水端麻美、帆志科南",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "真木今日子",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "笠木一香",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "寶生芽衣",
+        "source_field": "actress"
+      },
+      {
+        "type": "performer",
+        "value": "末廣純",
+        "source_field": "actress"
+      }
+    ],
+    "primary_theme": "真木今日子",
+    "presentation_feature": "笠木一香",
+    "editorial_judgment": "以三對夫婦的關係設定為核心，對照有共同演員的密集精選集，說明兩種公開賣點帶來的不同選片期待。",
+    "source_keywords": [
+      "真木今日子",
+      "笠木一香",
+      "寶生芽衣",
+      "末廣純"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "本作簡介設定三對夫婦進入換伴情境，並描述嫉妒與興奮的轉變。",
+      "supports": "文章可將多組伴侶關係視為本作的主要選片線索。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "關聯精選集的簡介以百次片段與四小時篇幅為賣點；關聯資料標示兩作有共同演員。",
+      "supports": "兩作的公開介紹分別強調關係情境與片段密度，可比較其選片理由。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "三對夫婦各自的身分、互動次序與結局",
+    "實際畫面、聲音、表演效果及敘事節奏",
+    "由宣傳設定推論成片品質"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}
