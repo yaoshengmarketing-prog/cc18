@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "GVG-362",
+  "artwork_policy": "original_non_explicit_no_real_person_likeness",
+  "generated_at": "2026-11-28T09:43:45.632Z",
+  "assets": [
+    {
+      "role": "article_hero",
+      "path": "/media/works/2026/11/GVG-362/hero-v1.jpg",
+      "r2_key": "works/2026/11/GVG-362/hero-v1.jpg",
+      "bytes": 687456,
+      "sha256": "75f39149b5e2e916e60deaa40ab5fdd09a3f1ce7332f5b3169c690ddd6ef3f36",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "457e867682b84fbba3cdb2c048e5effa",
+      "source_file": "article_hero.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    },
+    {
+      "role": "vertical_scene",
+      "path": "/media/works/2026/11/GVG-362/scene-vertical-v1.jpg",
+      "r2_key": "works/2026/11/GVG-362/scene-vertical-v1.jpg",
+      "bytes": 915737,
+      "sha256": "9b2d3427638754d32666c8221b2194b28a1641377cc4e47fb83c0cc22a0b8f5a",
+      "provider": "aitokenking",
+      "model": "seedream-4.5",
+      "provider_task_id": "b2f76c29bdf34059a06a744472e29254",
+      "source_file": "vertical_scene.jpg",
+      "prompt_summary": "Original cinematic editorial artwork inspired by 企劃設定, 角色變化, 互動節奏. Setting: a modern neutral interior. Show fictional East Asian adults around age 28, fully clothed, with a clear sense of coaching, progression and changing confidence. Premium photorealistic editorial photography, realistic materials, sophisticated ligh"
+    }
+  ],
+  "video": {
+    "status": "rendered_and_uploaded",
+    "duration_seconds": 9,
+    "width": 1080,
+    "height": 1920,
+    "codec": "h264",
+    "local_path": null,
+    "local_retention_status": "purged_after_r2_hash_verification",
+    "bytes": 2804271,
+    "sha256": "0f330dea1c4a158f0309f6563217e54de951ae1781418dcae6c05a5978bf0f30",
+    "target_r2_key": "works/2026/11/GVG-362/vertical-v1.mp4",
+    "public_path": "/media/works/2026/11/GVG-362/vertical-v1.mp4"
+  }
+}

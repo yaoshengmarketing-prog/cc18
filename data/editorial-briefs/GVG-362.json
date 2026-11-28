@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "id": "GVG-362",
+  "generated_at": "2026-11-28T09:39:11.883Z",
+  "generation_mode": "creative_first_source_only",
+  "generation_model": "local-codex",
+  "rewrite_attempt": 0,
+  "source_record": "data/source-records/GVG-362.json",
+  "video_analysis_job_id": null,
+  "local_creative_brief": {
+    "core_source_concept": "工廠欠債被肏翻的爆乳寡婦",
+    "premise": "作品以「工廠欠債被肏翻的爆乳寡婦」作為企劃起點，透過分段安排呈現角色面對新規則時的變化。",
+    "relationship": "主角與企劃參與者之間的互動關係",
+    "role_dynamic": "主角在不同階段逐步理解企劃規則，並形成可辨識的回應方式。",
+    "central_tension": "企劃如何讓「工廠欠債被肏翻的爆乳寡婦」不只停留在片名，而成為前後段落的推進邏輯。",
+    "setting": "一般室內場景",
+    "themes": [
+      "企劃設定",
+      "角色變化",
+      "互動節奏"
+    ],
+    "creative_seeds": [
+      "以初段理解規則與後段形成回應製造對照",
+      "讓每個段落回答不同的選片問題",
+      "用角色心態與互動方式的變化串連全篇"
+    ],
+    "search_concepts": [
+      "工廠欠債被肏翻的爆乳寡婦",
+      "波多野結衣"
+    ]
+  },
+  "locally_repaired_at": null,
+  "video_coverage": {
+    "strategy": "source_only_fallback",
+    "sample_windows": 0,
+    "average_confidence": null
+  },
+  "topic_elements": {
+    "identity": [
+      "AV女優片"
+    ],
+    "body": [],
+    "clothing": [],
+    "relationship": [],
+    "setting": [],
+    "action": [],
+    "presentation": [
+      "720p"
+    ]
+  },
+  "research_question": "同樣由波多野結衣演出、以職場中的多人威脅為設定，GVG-362 與 NGOD-361 的衝突起點有何不同？",
+  "research_sources": [
+    {
+      "url": "https://cc18.tv/player.php?uuid=uHHnU4ruk4u&cat=19",
+      "supports": "提供 GVG-362 的寡婦、工廠債務、員工遷怒設定及作品標籤。"
+    },
+    {
+      "url": "https://cc18.tv/player.php?uuid=BW8B8FoZ2fe&cat=19",
+      "supports": "提供 NGOD-361 的醫院櫃檯、夜班及病房患者接近主角的設定；兩作同由波多野結衣演出。"
+    }
+  ],
+  "angle_candidates": [
+    "比較工廠債務與醫院夜班如何引出職場中的多人威脅。",
+    "從「未亡人」標籤看寡婦身分在本作設定中的作用。",
+    "工廠欠債被肏翻的爆乳寡婦的企劃呈現與觀看取向"
+  ],
+  "selected_thesis": "本作把衝突接在亡夫留下的工廠債務上；相較於 NGOD-361 的夜班遭遇，這個起點更強調員工把對債務的不滿轉向寡婦。兩種設定提供不同的選片理由，但簡介不足以判斷成片如何處理這段關係。",
+  "title_signals": [
+    {
+      "type": "performer",
+      "value": "波多野結衣",
+      "source_field": "actress"
+    },
+    {
+      "type": "theme",
+      "value": "工廠欠債被肏翻的爆乳寡婦",
+      "source_field": "title"
+    },
+    {
+      "type": "presentation",
+      "value": "高畫質",
+      "source_field": "safe_signals"
+    },
+    {
+      "type": "identity",
+      "value": "AV女優片",
+      "source_field": "safe_signals"
+    }
+  ],
+  "work_title": "背負工廠債務的寡婦：波多野結衣",
+  "display_short_title": "工廠債務與寡婦",
+  "title": "員工為何找上寡婦？工廠債務是這次的衝突起點",
+  "seo_title": "GVG-362｜波多野結衣飾演背負工廠債務的寡婦",
+  "social_title": "波多野結衣的寡婦角色，為何被捲進工廠債務？",
+  "short_review": "GVG-362 的公開簡介把寡婦遭員工遷怒的原因連到亡夫留下的工廠債務。若你在找有明確經濟糾葛作為起點的多人脅迫題材，這比單看「未亡人」標籤更能說明本作設定。",
+  "editorial_angle": "比較同演員作品的衝突起點，說明本作如何用工廠債務建立寡婦與員工的關係，並將選片判斷限於公開設定。",
+  "editorial_tag_ids": [
+    "story"
+  ],
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "GVG-362 的來源簡介稱丈夫因癌症過世，留下工廠債務，員工因此憤怒並將矛頭指向寡婦。",
+      "supports": "喪偶與債務共同構成本作的衝突起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "NGOD-361 的來源簡介將波多野結衣飾演的角色設為醫院櫃檯員工，並從夜班時病房患者接近她展開威脅。",
+      "supports": "兩作雖同有職場中的多人威脅設定，NGOD-361 的起點是夜班遭遇，而非工廠債務。",
+      "observation_refs": []
+    }
+  ],
+  "creative_reconstruction_notes": [],
+  "unsupported_claims_excluded": [
+    "成片的畫面、聲音、台詞、節奏或表演效果。",
+    "寡婦對員工的行為表示同意，或債務最終如何解決。",
+    "由宣傳設定推定作品品質。"
+  ],
+  "decision_guide": {
+    "thesis": "想看經濟糾葛如何成為角色遭遷怒的設定，可留意本作；若偏好偶發的夜班威脅設定，NGOD-361 的公開簡介更貼近該方向。",
+    "story_density": "unknown",
+    "pace": "unknown",
+    "presentation": [
+      "寡婦與工廠員工之間的債務衝突；來源另標示多人與拘束等題材。"
+    ],
+    "audience_for": [
+      "偏好角色互動、演員魅力與企劃推進的觀眾",
+      "願意接受鋪陳並觀察前後節奏差異的觀眾"
+    ],
+    "audience_not_for": [
+      "只想看高密度快速節奏、不重視角色鋪陳的觀眾",
+      "偏好強情節衝突、不喜歡展示型企劃的觀眾"
+    ],
+    "questions_answered": [
+      "本作的衝突從何而來？",
+      "它與同演員的醫院夜班題材有何設定差異？"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "債務讓「未亡人」不只是身分標籤",
+      "body": "GVG-362 的公開簡介先交代波多野結衣飾演的寡婦失去丈夫，再指出丈夫經營的工廠留下債務，員工因而把怒氣轉向她。「未亡人」在這裡不只是人物身分；債務把她與員工放進同一場衝突，也給多人脅迫的設定一個具體起點。"
+    },
+    {
+      "heading": "同樣是職場威脅，起點卻不同",
+      "body": "同樣由波多野結衣演出的 NGOD-361，把角色放在醫院櫃檯，威脅從夜班時病房患者接近她開始。兩份簡介都寫到職場中的多人威脅，但本作先建立工廠員工與債務的關係，NGOD-361 則從值班時的遭遇切入。若你選片時在意角色為何被捲入衝突，這項差異比共同的題材標籤更有用。"
+    },
+    {
+      "heading": "資料來源與材料範圍",
+      "body": "本文依據已核對的 GVG-362（https://cc18.tv/player.php?uuid=uHHnU4ruk4u&cat=19）與 NGOD-361（https://cc18.tv/player.php?uuid=BW8B8FoZ2fe&cat=19）來源資料快照。比較的是公開簡介中的設定；執行環境未能開啟外部頁面，也沒有影片抽樣，因此不判斷成片的敘事、節奏或表演。"
+    }
+  ],
+  "local_codex_handoff": {
+    "source_sha256": "7852d94c7c89e524260bb99554ce975c188e66df492d9fc4255eb38f2486a342",
+    "response_sha256": "d9e02ae5af6316044c4ba9e7101f90d965c66bb77f0313b972cd2b71030df27f",
+    "research_input_sha256": "d6e29762db2d794c9d8fc55e5d4982c8036d5cedf1b2924ca1b5d6f31b316e5b",
+    "related_source_ids": [
+      "AARM-366",
+      "GVH-885",
+      "AVSA-462",
+      "NGOD-361",
+      "JJDA-083",
+      "MKON-149"
+    ]
+  }
+}

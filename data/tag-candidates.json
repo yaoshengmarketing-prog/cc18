@@ -2214,7 +2214,7 @@
     },
     {
       "label": "拘束",
-      "occurrences": 12,
+      "occurrences": 13,
       "source_ids": [
         "BBTU-119",
         "DDK-241",
@@ -2227,10 +2227,11 @@
         "JUR-866",
         "NACT-185",
         "SNOS-387",
-        "DOJN-033"
+        "DOJN-033",
+        "GVG-362"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-28",
       "status": "quarantined"
     },
     {
@@ -3993,6 +3994,46 @@
       ],
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-07",
+      "status": "quarantined"
+    },
+    {
+      "label": "3P",
+      "occurrences": 1,
+      "source_ids": [
+        "GVG-362"
+      ],
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "status": "quarantined"
+    },
+    {
+      "label": "輪姦",
+      "occurrences": 1,
+      "source_ids": [
+        "GVG-362"
+      ],
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "status": "quarantined"
+    },
+    {
+      "label": "調教",
+      "occurrences": 1,
+      "source_ids": [
+        "GVG-362"
+      ],
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "status": "quarantined"
+    },
+    {
+      "label": "未亡人",
+      "occurrences": 1,
+      "source_ids": [
+        "GVG-362"
+      ],
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28",
       "status": "quarantined"
     }
   ]

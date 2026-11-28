@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "GVG-362",
+  "review_sha256": "c5562a477d066fbb453047f40521e5b135385629ab06bdd1947f1168c60cfb27",
+  "selected_thesis": "本作把衝突接在亡夫留下的工廠債務上；相較於 NGOD-361 的夜班遭遇，這個起點更強調員工把對債務的不滿轉向寡婦。兩種設定提供不同的選片理由，但簡介不足以判斷成片如何處理這段關係。",
+  "title_basis": {
+    "performer": "波多野結衣",
+    "signals": [
+      {
+        "type": "performer",
+        "value": "波多野結衣",
+        "source_field": "actress"
+      },
+      {
+        "type": "theme",
+        "value": "工廠欠債被肏翻的爆乳寡婦",
+        "source_field": "title"
+      },
+      {
+        "type": "presentation",
+        "value": "高畫質",
+        "source_field": "safe_signals"
+      },
+      {
+        "type": "identity",
+        "value": "AV女優片",
+        "source_field": "safe_signals"
+      }
+    ],
+    "primary_theme": "波多野結衣",
+    "presentation_feature": "工廠欠債被肏翻的爆乳寡婦",
+    "editorial_judgment": "比較同演員作品的衝突起點，說明本作如何用工廠債務建立寡婦與員工的關係，並將選片判斷限於公開設定。",
+    "source_keywords": [
+      "波多野結衣",
+      "工廠欠債被肏翻的爆乳寡婦",
+      "高畫質",
+      "AV女優片"
+    ]
+  },
+  "evidence": [
+    {
+      "basis": "public_source",
+      "signal": "GVG-362 的來源簡介稱丈夫因癌症過世，留下工廠債務，員工因此憤怒並將矛頭指向寡婦。",
+      "supports": "喪偶與債務共同構成本作的衝突起點。",
+      "observation_refs": []
+    },
+    {
+      "basis": "public_source",
+      "signal": "NGOD-361 的來源簡介將波多野結衣飾演的角色設為醫院櫃檯員工，並從夜班時病房患者接近她展開威脅。",
+      "supports": "兩作雖同有職場中的多人威脅設定，NGOD-361 的起點是夜班遭遇，而非工廠債務。",
+      "observation_refs": []
+    }
+  ],
+  "unsupported_claims_excluded": [
+    "成片的畫面、聲音、台詞、節奏或表演效果。",
+    "寡婦對員工的行為表示同意，或債務最終如何解決。",
+    "由宣傳設定推定作品品質。"
+  ],
+  "scores": null,
+  "rewrite_attempts": 0,
+  "approved_for_publish": true,
+  "approved_at": "2026-11-27T16:00:00.000Z"
+}
